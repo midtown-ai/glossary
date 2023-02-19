@@ -27,6 +27,13 @@ GEM_THEME_SASS_DIRPATH?= $(GEM_THEME_DIRPATH)_sass/
 serve:
 	bundle exec jekyll serve
 
+lock_build_environment:
+	# For error in GitHub workflow
+	bundle lock --add-platform x86_64-linux
+
+show_build_environment:
+	bundle env
+
 edit_navigation:
 	$(EDITOR) ./_data/navigation.yml
 
