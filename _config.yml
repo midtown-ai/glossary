@@ -43,6 +43,21 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:year/:month/:day/:title
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: highlight
+    # default_lang: console
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
 #
 # === THEMES
 #
@@ -66,10 +81,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   AI will not replace people,
   but people who use AI will replace those who do not
   
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/glossary" # the subpath of your site, e.g. /blog
 # baseurl: "/blog" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
-url: "https://midtown.ai" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "https://midtown.ai" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://midtown-ai.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: midtown_ai
 github_username:  midtown-ai
 
