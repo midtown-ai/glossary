@@ -58,6 +58,12 @@ kramdown:
       line_numbers: true
       start_line: 1
 
+# Static files
+# defaults:
+#   - scope:
+#       path: "assets"
+
+
 #
 # === THEMES
 #
@@ -80,7 +86,7 @@ email: ai4all@midtown.ai
 description: >- # this means to ignore newlines until "baseurl:"
   AI will not replace people,
   but people who use AI will replace those who do not
-  
+
 baseurl: "/glossary" # the subpath of your site, e.g. /blog
 # baseurl: "/blog" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -89,6 +95,7 @@ url: "https://midtown-ai.github.io" # the base hostname & protocol for your site
 twitter_username: midtown_ai
 github_username:  midtown-ai
 
+assets: "/glossary/assets"
 #
 # = Minimal-mistake configuration
 #

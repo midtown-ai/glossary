@@ -24,8 +24,17 @@ GEM_THEME_LAYOUTS_DIRPATH?= $(GEM_THEME_DIRPATH)_layouts/
 GEM_THEME_DATA_DIRPATH?= $(GEM_THEME_DIRPATH)_data/
 GEM_THEME_SASS_DIRPATH?= $(GEM_THEME_DIRPATH)_sass/
 
-serve:
+build_site:
+	bundle exec jekyll build
+	# bundle exec jekyll --help
+clean_site: distclean_site
+
+distclean_site:
+	rm -rf ./_site
+
+serve_site: distclean_site
 	bundle exec jekyll serve
+	# bundle exec jekyll --help
 
 lock_build_environment:
 	# For error in GitHub workflow

@@ -1,6 +1,6 @@
 ---
-title: B
-permalink: /b/
+title: M
+permalink: /m/
 
 #=== THEMES
 # = minima
@@ -23,12 +23,7 @@ layout: page
 
 ---
 
-# B
-
 * toc
 {:toc}
-
-## BFirst
-[Artificial Intelligence]
 
 {% include links/all.md %}
