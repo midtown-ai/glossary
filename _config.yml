@@ -17,11 +17,13 @@
 # === PLUGINS
 #
 # <!> Plugins must be installed by bundle before being enabled
+# <!> The bundle utility read its configuration from the Gemfile
 #
 plugins:
   - jekyll-feed
   - jekyll-pdf-embed
   - jekyll-youtube
+  - jemoji
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -43,26 +45,42 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-markdown: kramdown
+#
+# === Immutable variables ===
+#
+
+lsi: false
+incremental: false
+gist:
+  noscript: false
 highlighter: rouge
-permalink: /blog/:year/:month/:day/:title
+# source: <your repo's top level directory>
+safe: true
 
+# markdown: kramdown
 kramdown:
+  math_engine: mathjax
   syntax_highlighter: rouge
-  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
-    css_class: highlight
-    # default_lang: console
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
 
-# Static files
+# syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+#   css_class: highlight
+#   # default_lang: console
+#   span:
+#     line_numbers: false
+#   block:                      # Default for blocks
+#     line_numbers: false       # - No/Show line numbers
+#     start_line: 1             # - Number to start from
+
+
+#
+# === Static files ===
+#
+
 # defaults:
 #   - scope:
 #       path: "assets"
 
+permalink: /blog/:year/:month/:day/:title
 
 #
 # === THEMES
@@ -101,3 +119,5 @@ assets: "/glossary/assets"
 #
 atom_feed:
   hide: True
+
+lsi: false

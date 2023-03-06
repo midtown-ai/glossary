@@ -29,7 +29,6 @@ layout: home
 
 ---
 
-{% include links/all.md %}
 
 * unordered list
 {:toc}
@@ -39,4 +38,7 @@ layout: home
 
 {% youtube "https://www.youtube.com/watch?v=hfMk-kjRv4c" %}
 
-see also [Artificial_Intelligence]
+see also [Artificial Intelligence]
+
+{% include links/all.md %}
+
