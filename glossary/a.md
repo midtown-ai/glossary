@@ -406,7 +406,7 @@ Then you are presented with the best matched videos (values).                   
  Multi-Head Attention consists of several attention layers running in parallel. The Attention layer takes its input in the form of three parameters, known as the Query, Key, and Value (aka Q,K,V). All three parameters are similar in structure, with each word in the sequence represented by a vector. In transformers is used for encoder and decoder.
 
  ![]( {{site.assets}}/m/multi_head_attention.png ){:width=100%}
- ![]( {{site.assets}}}/a/attention_score_formula.png ){:width=100%}
+ ![]( {{site.assets}}/a/attention_score_formula.png ){:width=100%}
 
  {% youtube "https://www.youtube.com/watch?v=_UVfwBqcnbM" %}
  {% youtube "https://www.youtube.com/watch?v=4Bdc55j80l8" %}
