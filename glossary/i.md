@@ -124,7 +124,7 @@ layout: page
 
 # Inductive Reasoning
 
- Coming up with <<Highlight(rules to explain the current observation)>>. Sometimes the truth can be learned ;-)
+ Coming up with `rules to explain the current observation`. Sometimes the truth can be learned ;-)
 
  See also [I], [Deductive Reasoning], [Truth]
 
@@ -200,7 +200,7 @@ layout: page
 
  ![]( {{site.assets}}/i/instructgpt_model.png ){: width="100%"}
 
- There is a difference between the way the GPT-3 and the InstructGPT generate outputs. GPT-3 was designed to predict next token. This is important to keep in mind. Despite GPT-3 is able to predict the next word — the output could be unhelpful. Think for example toxic speech in end-user application. The misalignment refers in NLP — to the issue of outputs not matching user’s intent. <<Highlight("The InstructGPT is fine-tuned to human preference using reinforcement learning")>>. This means, that rather than just predicting next token, it tries instead to respond with an output — preferred by human labeler. The InstructGPT model is optimized differently from the GPT-3. It rewards human preference. Therefore it is better able to solve user tasks.
+ There is a difference between the way the GPT-3 and the InstructGPT generate outputs. GPT-3 was designed to predict next token. This is important to keep in mind. Despite GPT-3 is able to predict the next word — the output could be unhelpful. Think for example toxic speech in end-user application. The misalignment refers in NLP — to the issue of outputs not matching user’s intent. `The InstructGPT is fine-tuned to human preference using reinforcement learning`. This means, that rather than just predicting next token, it tries instead to respond with an output — preferred by human labeler. The InstructGPT model is optimized differently from the GPT-3. It rewards human preference. Therefore it is better able to solve user tasks.
 
  More at:
   * paper - [https://arxiv.org/abs/2203.02155](https://arxiv.org/abs/2203.02155)

@@ -148,7 +148,7 @@ Recall = -----------   =  ------------------------------------
  ![]( {{site.assets}}/r/recurrent_neural_network_repeating_module.png ){: width="100%"}
 
 
- Neural networks will "loops" that are optimized for speech recognition, language modeling, translation. Essential to these successes is the use of “LSTMs,” a very special kind of recurrent neural network which works, for many tasks, much much better than the standard version. Almost all exciting results based on recurrent neural networks are achieved with them. <!> Can or cannot use backpropagation? Yes, can !
+ Neural networks will "loops" that are optimized for speech recognition, language modeling, translation. Essential to these successes is the use of “LSTMs,” a very special kind of recurrent neural network which works, for many tasks, much much better than the standard version. Almost all exciting results based on recurrent neural networks are achieved with them. :warning: Can or cannot use backpropagation? Yes, can !
 
  Beware:
   * The most modern RNN uses Long-Short Term Memory (LSTM) or Gated Recurrent Unit (GRU) cells
@@ -260,7 +260,7 @@ Recall = -----------   =  ------------------------------------
  Extract relations between entities in a text or image to build a scene graph.  Possible methods:
    * text
      * rule-based technique: 'such as', 'including' , ...
-     * supervised technique: stack binary classifier to determine if there is a specific relation between 2 entities <!> Very expensive to label 
+     * supervised technique: stack binary classifier to determine if there is a specific relation between 2 entities :warning: Very expensive to label 
      * distant supervision: If 2 entities belongs to a certain relation, any sentence containing those 2 entities is likely to express a relation then 2 entities  
    * video
 
@@ -319,7 +319,7 @@ Recall = -----------   =  ------------------------------------
 
 # Residual
 
- Y - estimateY for a given X. Use the residual in the loss function. <!> How do you use the residuals in the loss function? absolute values? not easy to work with. Squares? Yes.
+ Y - estimateY for a given X. Use the residual in the loss function. :warning: How do you use the residuals in the loss function? absolute values? not easy to work with. Squares? Yes.
 
  See also [R], [Linear Regression], [Loss Function]
 

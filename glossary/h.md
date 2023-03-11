@@ -149,7 +149,7 @@ def huber_loss(y_pred, y, delta=1.0):
 
  Tuning strategies:
   * (1) Trial and Error, defaults, guess, experience, intuition, heuristics 
-  * (2) Try everything! Random, Grid search, Sobol <!> High dimensional grid search, = the curse of dimensionality
+  * (2) Try everything! Random, Grid search, Sobol :warning: High dimensional grid search, = the curse of dimensionality
   * (3) Meta model ... Required to avoid over-fitting and under-fitting.
 
  See also [H], [CPU], [Curse of Dimensionality], [F1 Score], [GPU], [Grid Search], [Hyperparameter], [Meta Model], [Overfitting], [Random Search], [Sobol], [Underfitting]

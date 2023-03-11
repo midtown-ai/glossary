@@ -2,7 +2,7 @@
 
 [Caffe]: {{ site.baseurl }}{% link glossary/c.md %}#caffe
 [Casual Language Modeling]: {{ site.baseurl }}{% link glossary/c.md %}#casual-language-modeling
-[Categorial Variable]: {{ site.baseurl }}{% link glossary/c.md %}#categorial-variable
+[Categorical Variable]: {{ site.baseurl }}{% link glossary/c.md %}#categorical-variable
 [Cell Block]: {{ site.baseurl }}{% link glossary/c.md %}#cell-block
 [Central Limit Theorem]: {{ site.baseurl }}{% link glossary/c.md %}#central-limit-theorem
 [Chain Of Thought Prompting]: {{ site.baseurl }}{% link glossary/c.md %}#chain-of-thought-prompting

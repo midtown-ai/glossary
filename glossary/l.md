@@ -28,11 +28,13 @@ layout: page
 
 {% include links/all.md %}
 
+
 # Label
 
  Name of a prediction in a supervised models. Correspond to a target attribute in unsupervised learning. Example of label: the agent-skill needed to result the customer's call.
 
  See also [L], [Data Point], [Labeling Function], [Supervised Learning], [Target Attribute]
+
 
 # Labeling Function
 
@@ -40,27 +42,42 @@ layout: page
 
  See also [L], [Label], [Snorkel Program]
 
+
 # Labeling Service
 
  Mechanical turk, crowd flower, instaML LOOP. Do you have the proper label? Have several people label the same image/entry and used the Dawid-Skene or majority vote algorithm!
 
  See also [L], [Dawid-Skene Algorithm], [Majority Vote Algorithm], [Unlabelled Data Algorithm]
 
+
 # Lambda Model
 
  Beware, cannot use GPU for inference. ??? <== ????
+
+
+# Language Model
+
+ See also [L], [Language Modeling], [Large Language Model]
+
 
 # Language Modeling
 
  Language modeling is the task of assigning a probability to a sequence of words in a text in a specific language. Simple language models can look at a word and predict the next word (or words) most likely to follow it, based on statistical analysis of existing text sequences. To create a language model that successfully predicts word sequences, you need to train it on large sets of data. Language models are a key component in natural language processing applications. You can think of them as statistical prediction machines, where you give text as input and get a prediction as the output. You’re probably familiar with this from the auto-complete feature on your smartphone. For instance, if you type “good,” auto-complete might suggest “morning” or “luck.”
 
- See also [L], [Natural Language Processing]
+ See also [L], [Language Model], [Large Language Model], [Natural Language Processing]
+
 
 # Language Parsing
 
  ~ figuring out which group of words go together (as “phrases”) and which words are the subject or object of a verb. The NLP parser separates a series of text into smaller pieces based on the grammar rules. If a sentence that cannot be parsed may have grammatical errors.
 
  See also [L], [NLP Benchmark]
+
+
+# Large Language Model
+
+ See also [Language Model], [Language Modeling]
+
 
 # Latent Diffusion Model
 
@@ -86,17 +103,20 @@ layout: page
 
  See also [L], [Conditioning], [Cross-Attention], [Diffusion Model], [Diffusion Process], [Image Decoder], [Image Encoder], [Latent Space], [Pixel Space], [U-Net Architecture]
 
+
 # Latent Dirichlet Allocation
 
 # LDA
 
  Used as a topic modeling technique that is it can classify text in a document to a particular topic. It uses Dirichlet distribution to find topics for each document model and words for each topic model. Johann Peter Gustav Lejeune Dirichlet was a German mathematician in the 1800s who contributed widely to the field of modern mathematics. There is a probability distribution named after him ‘Dirichlet Distribution’ which is the basis of Latent Dirichlet Allocation (--LDA--).
 
+
 # Latent Perturbation
 
  Used yo find out what the latent variable are/mean in a latent variable model. :warning: The model learns by itself that those are important variables based on the provided training sample. :warning: The loss function defines what is learned and HOW it learns it! Latent perturbation is useful to see how entangled or disentangled latent variables are.
 
  See also [L], [Disentangled Variational Autoencoder], [Latent Variable], [Latent Variable Model]
+
 
 # Latent Space
 
@@ -117,11 +137,13 @@ layout: page
 
  See also [L], [Convolutional Neural Network], [Encoder]][Latent Variable], [Latent Variable Model], [Latent Vector], [Pixel Space], [Representation Space], [Semantic Space], [Word Embedding Space]
 
+
 # Latent Space Compression
 
  {% youtube "https://www.youtube.com/watch?v=NqmMnjJ6GEg" %}
 
  See also [L], [Encoder], [Latent Space]
+
 
 # Latent Variable
 
@@ -131,9 +153,11 @@ layout: page
 
  See also [L], [Latent Space], [Latent Variable Model]
 
+
 # Latent Variable Model
 
  See also [L], [Autoencoder], [Generative Adversarial Network], [Latent Space], [Latent Variable], [Variational Autoencoder]
+
 
 # Latent Vector
 
@@ -143,13 +167,16 @@ layout: page
 
  See also [L], [Latent Space]
 
+
 # Layer
 
  See also [L], [Hidden Layer], [Input Layer], [Output Layer]
 
+
 # LeakyReLU Activation Function
 
  See also [L], [Activation Function], [Exploding Gradient Problem], [ReLU Activation Function], [Vanishing Gradient Problem]
+
 
 # Learning Method
 
@@ -166,11 +193,13 @@ layout: page
 
  See also [L], [Feedback-Based Learning], [Imitation Learning], [Machine Learning Type], [Reinforcement Learning], [Self-Supervised Learning], [Semi-Supervised Learning], [Supervised Learning], [Task-Based Learning], [Transfer Learning], [Unsupervised Learning], [Weak-Supervised Learning]
 
+
 # Learning Process
 
  * Changing weights in an ANN using backpropagation
 
  See also [L], [Backpropagation]
+
 
 # Learning Rate
 
@@ -192,9 +221,11 @@ with alpha = learning_rate
 
  See also [L], [Gradient Descent], [Hyperparameter], [Loss Function], [Prior], [Transfer Learning]
 
+
 # Learning Strategy
 
  See also [L], [Learning Method], [Learning Rate], [Learning Velocity]
+
 
 # Learning Velocity
 
@@ -202,17 +233,20 @@ with alpha = learning_rate
 
  See also [L], [Learning Rate], [Sample Strategy], [Sample Efficiency]
 
+
 # LightGBM
 
  An ensemble method.
 
  See also [L], [Ensemble Method]
 
+
 # Linear Autoencoder
 
  Let’s first suppose that both our encoder and decoder architectures have only one layer without non-linearity (linear autoencoder). Such encoder and decoder are then simple linear transformations that can be expressed as matrices. In such situation, we can see a clear link with PCA in the sense that, just like PCA does, we are looking for the best linear subspace (hidden state?) to project data on with as few information loss as possible when doing so. Encoding and decoding matrices obtained with PCA define naturally one of the solutions we would be satisfied to reach by gradient descent, but we should outline that this is not the only one.
 
  See also [L], [Autoencoder], [Principal Component Analysis]
+
 
 # Linear Discriminant Analysis
 
@@ -224,6 +258,7 @@ with alpha = learning_rate
   * [https://iq.opengenus.org/pca-vs-lda/](https://iq.opengenus.org/pca-vs-lda/)
 
  See also [L], [Dimensionality Reduction], [Principal Component Analysis]
+
 
 # Linear Regression
 
@@ -239,15 +274,18 @@ with alpha = learning_rate
 
  See also [L], [Classification], [Multiple Linear Regression], [Non-Linear Regression], [Prediction Error], [Regression]
 
+
 # Log Loss Function
 
  See [Binary Cross-Entropy Loss Function]
+
 
 # Logic Model
 
  Ex: personal assistant with memory and can infer from dialog new things (i.e graph network?) !
 
  See also [L], [Model Type]
+
 
 # Logistic Regression
 
@@ -262,6 +300,7 @@ with alpha = learning_rate
    * What about using a different P threshold? ==> multiple confusion matrix ==> ROC Curve
 
  See also [L], [ML Algorithm Evaluation], [Regression], [ROC Curve]
+
 
 # Long Short Term Memory Cell
 
@@ -282,6 +321,7 @@ with alpha = learning_rate
  {% youtube "https://www.youtube.com/watch?v=8HyCNIVRbSU" %}
 
  See also [L], [Hidden State], [LSTM Network]
+
 
 # Long Short Term Memory Network
 
@@ -311,6 +351,7 @@ with alpha = learning_rate
 
  See also [L], [Attention-Based Model], [Gated Recurrent Unit Cell], [Gradient Descent], [Recurrent Neural Network], [Transformer Model], [Vanishing Gradient Problem]
 
+
 # Loss Function
 
  `The loss function must encode what you want your model to do!` The loss function will take two items as input: the output value of our model and the ground truth expected value. The output of the loss function is called the loss which is a measure of how well our model did at predicting the outcome. A high value for the loss means our model performed very poorly. A low value for the loss means our model performed very well. In most learning networks, error is calculated as the difference between the actual output y and the predicted output ŷ. The function that is used to compute this error is known as Loss Function also known as Cost function. The loss function allows us to find the best line. The model is iterated to minimize the loss function using the gradient descent algorithm. Selection of the proper loss function is critical for training an accurate model. Certain loss functions will have certain properties and help your model learn in a specific way. Some may put more weight on outliers, others on the majority. The most common loss functions are:
@@ -330,6 +371,7 @@ with alpha = learning_rate
   * choosing a loss function - [https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/](https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/)
 
  See also [L], [0-1 Loss Function], [Activation Function], [Backpropagation], [Binary Cross-Entropy Loss Function], [Cross-Entropy Loss Function], [Discriminator], [Gradient Descent], [Hinge Loss], [Huber Loss Function], [Linear Regression], [Mean Absolute Error Loss Function], [Mean Square Error Loss Function], [Optimizer], [Prediction Error], [Representation Space], [Residual]
+
 
 # Loss Graph
 

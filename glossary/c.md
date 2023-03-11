@@ -45,7 +45,7 @@ layout: page
 
  See also [C], [Autoregressive], [Decoder], [GPT Model], [Natural Language Generation]
 
-# Categorial Variable
+# Categorical Variable
 
  A variable that takes discrete non-numerical value, such as a shirt size (XS, S, M, L, XL) or gender (M, F). Because computer works with numbers, to be processed categorical variables are normally turned into discrete variables.
 

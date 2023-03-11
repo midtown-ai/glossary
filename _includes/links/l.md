@@ -4,8 +4,10 @@
 [Labeling Function]: {{ site.baseurl }}{% link glossary/l.md %}#labeling-function
 [Labeling Service]: {{ site.baseurl }}{% link glossary/l.md %}#labeling-service
 [Lambda Model]: {{ site.baseurl }}{% link glossary/l.md %}#lambda-model
+[Language Model]: {{ site.baseurl }}{% link glossary/l.md %}#language-model
 [Language Modeling]: {{ site.baseurl }}{% link glossary/l.md %}#language-modeling
 [Language Parsing]: {{ site.baseurl }}{% link glossary/l.md %}#language-parsing
+[Large Language Model]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model
 [Latent Diffusion Model]: {{ site.baseurl }}{% link glossary/l.md %}#latent-diffusion-model
 [LDM]: {{ site.baseurl }}{% link glossary/l.md %}#ldm
 [Latent Dirichlet Allocation]: {{ site.baseurl }}{% link glossary/l.md %}#latent-dirichlet-allocation

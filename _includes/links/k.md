@@ -10,6 +10,6 @@
 [Kernel Trick]: {{ site.baseurl }}{% link glossary/k.md %}#kernel-trick
 [Knowledge Graph]: {{ site.baseurl }}{% link glossary/k.md %}#knowledge-graph
 [KG]: {{ site.baseurl }}{% link glossary/k.md %}#kg
-[Kullback-Liebler Distance]: {{ site.baseurl }}{% link glossary/k.md %}#kullback-liebler-distance
-[Kullback-Leibler Divergence]: {{ site.baseurl }}{% link glossary/k.md %}#kullback-liebler-divergence
+[Kullback-Leibler Distance]: {{ site.baseurl }}{% link glossary/k.md %}#kullback-leibler-distance
+[Kullback-Leibler Divergence]: {{ site.baseurl }}{% link glossary/k.md %}#kullback-leibler-divergence
 [KL Divergence]: {{ site.baseurl }}{% link glossary/k.md %}#kl-divergence

@@ -28,6 +28,7 @@ layout: page
 
 {% include links/all.md %}
 
+
 # Early Stopping
 
  There is a challenge in training a neural network long enough for it to learn the mapping, but not so long that it overfits the training data. One way to accomplish this is to train on the training dataset, but to stop training at the point when performance on a validation dataset starts to degrade. In the world of training neural networks, this is what is known as “early stopping”. `A key challenge with overfitting, and with machine learning in general, is that we can’t know how well our model will perform on new data until we actually test it"`.
@@ -36,11 +37,13 @@ layout: page
 
  See also [E], [AutoML], [Balanced Fitting], [Early Stopping Epoch], [Neural Network], [Overfitting], [Underfitting]
 
+
 # Early Stopping Epoch
 
  ![]( {{site.assets}}/e/early_stopping_epoch.png ){: width="100%"}
 
  See also [E], [Early Stopping], [Overfitting], [Underfitting]
+
 
 # Eigenvalue
 
@@ -48,21 +51,25 @@ layout: page
 
  See also [E], [Synthesized Variable]
 
+
 # Eigenvector
 
  ![]( {{site.assets}}/e/eigenvector.png ){: width="100%"}
 
  See also [E], [Eigenvalue], [Synthesized Variable]
 
+
 # Embedding
 
  See [Word Embedding]
+
 
 # Embedding Space
 
  A high dimensional semantic space.
 
  See also [E], [CLIP Model], [Embedding]
+
 
 # Emergent Ability
 
@@ -73,6 +80,7 @@ layout: page
  ![]( {{site.assets}}/e/emergent_abilities_of_large_language_models_table.png ){: width="100%"}
 
  See also [E], [GPT Model], [Large Language Model], [Theory Of Mind], [Translation]
+
 
 # Encoder
  
@@ -88,11 +96,13 @@ layout: page
 
  See also [E], [BERT Model], [Decoder], [Encoder Representation], [Hidden State], [Image Encoder], [One-Shot Learning], [Principal Component Analysis], [Encoder Representation], [Encoder Representation Space], [Image Encoder], [Similarity Function], [Variational Autoencoder], [Voice Encoder]
 
+
 # Encoder Representation
 
- The output of the encoder given an input! The dimension on the output representation is smaller or equal to the dimension of the input. <!> Same or smaller element count (i.e. length), but the dimension of output  elements can be larger than the dimension of an input element. Ex with NLP: input-element = word/token/integer ---> output-element = contextualised-word matrix/list (of length 768 in BERT) = meaning of word within the text .
+ The output of the encoder given an input! The dimension on the output representation is smaller or equal to the dimension of the input. :warning: Same or smaller element count (i.e. length), but the dimension of output  elements can be larger than the dimension of an input element. Ex with NLP: input-element = word/token/integer ---> output-element = contextualised-word matrix/list (of length 768 in BERT) = meaning of word within the text .
 
  See also [E], [Encoder Representation Space]
+
 
 # Encoder Representation Space
 
@@ -104,15 +114,18 @@ layout: page
 
  See also [E], [Decoder Representation Space], [Latent Space], [Loss Function], [Semantic Space], [Word Embeddings Space]
 
+
 # Encoder Stack
  
  A sequence of encoders when the output of one feeds on the following one.
 
  See also [E], [Decoder], [Decoder Stack], [Encoder], [Transformer Model]
 
+
 # Encoder-Decoder Attention
 
  See also [E], [Attention-Based Model]
+
 
 # Encoder-Decoder Model
 
@@ -125,9 +138,11 @@ layout: page
 
  See also [E], [Autoencoder], [Decoder], [Decoder Stack], [Encoder], [Encoder Stack], [Hidden State], [U-Net Architecture]
 
+
 # Endpoint
 
  After the model has been built, we create an endpoint in docker to make it available for queries. An endpoint has a URL which can be queried directly. `You don't have SSH access to the endpoint`.
+
 
 # Ensemble Method
 
@@ -138,11 +153,13 @@ layout: page
 
  See also [E], [Gradient Bagging], [Gradient Boosting], [Isolation Forest], [LightGBM], [Random Forest], [Weak Leaner], [XGBoost]
 
+
 # Entity
 
  A node in a knowledge graph.
 
  See also [E], [Knowledge Graph]
+
 
 # Entity Extraction
 
@@ -158,17 +175,20 @@ layout: page
 
  See also [E], [Entity], [Name Entity Recognition], [Relation Extraction], [Scene Graph]
 
+
 # Entropy
 
  {% youtube "https://www.youtube.com/watch?v=YtebGVx-Fxw" %}
 
  See also [E], [Cross-Entropy], [Kullback-Liebler Divergence]
 
+
 # Environment
 
  In reinforcement learning, the environment provides states or observations of current state, and rewards/feeback.
 
  See also [E], [Reinforcement Learning]
+
 
 # Epoch
 
@@ -177,15 +197,18 @@ layout: page
   * Model training is a trade-off between the number of epochs (i.e. time) and the quality of sample output.
  See also [E], [Batch], [Iteration], [Gradient Descent], [Overfitting]
 
+
 # Error
 
  See [Prediction Error]
+
 
 # Estimator
 
  ~ a model to draw estimation from. `Estimators predict a value based on observed data`. Estimation is a statistical term for finding some estimate of unknown parameter, given some data. Point Estimation is the attempt to provide the single best prediction of some quantity of interest. Quantity of interest can be: A single parameter, A vector of parameters — e.g., weights in linear regression, A whole function.
 
  See also [E], [Function Estimation], [Point Estimator]
+
 
 # Ethics Problem
 
@@ -197,11 +220,13 @@ layout: page
   * Fake media
   * Deepfake
 
+
 # Expected Value
 
  {% youtube "https://www.youtube.com/watch?v=KLs_7b7SKi4" %}
 
  See also [E], ...
+
 
 # Expert System
 
@@ -209,9 +234,11 @@ layout: page
 
  See also [E], [Big Data], [Deep Learning], [Machine Learning]
 
+
 # Explainability
 
  See also [E], [Chain Of Thought Prompting]
+
 
 # Explanatory Variable
 
@@ -219,17 +246,21 @@ layout: page
 
  See also [E], [Feature], [Response Variable]
 
+
 # Exploding Gradient Problem
 
  Activation that are large trends to become larger and larger! The solution for this is to use activation functions such as the sigmoid or the tanh ones. Unfortunately using such activation function leads to the vanishing gradient problem experienced during backpropagation. Another solution is to use gradient clipping in backpropagation.
 
  See also [E], [Activation Function], [Gradient Clipping], [Recurrent Neural Network], [Vanishing Gradient Problem]
 
+
 # Expressiveness
 
  See also [E], [Hyperparameter]
 
+
 # Extreme Gradient Boosting
+
 # XGBoost
 
  An ensemble method, XGBoost (extreme gradient boosting) is a popular and efficient open-source implementation of the gradient-boosted trees algorithm. Gradient boosting is a machine learning algorithm that attempts to accurately predict target variables by combining the estimates of a set of simpler, weaker models (several decision trees?). By applying gradient boosting to decision tree models in a highly scalable manner, XGBoost does remarkably well in machine learning competitions. It also robustly handles a variety of data types, relationships, and distributions. It provides a large number of hyperparameters—variables that can be tuned to improve model performance. This flexibility makes XGBoost a solid choice for various machine learning problems such as classifications and regressions. Example image recognition of a car: Before you recognize the car, does the thing have wheels, are they door, etc... if it has all of those features then it must be a car.
@@ -237,6 +268,6 @@ layout: page
  ![]( {{site.assets}}/e/extreme_gradient_boosting.png ){: width="100%"}
 
  More at:
-   *
+  * ...
 
  See also [E], [Bagging], [Boosting], [Classification], [Ensemble Method], [Hyperparameters], [Machine Learning], [Random Forest], [Ranking], [Regression]

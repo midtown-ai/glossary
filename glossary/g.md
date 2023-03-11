@@ -271,7 +271,7 @@ layout: page
  `Using gradient descent, you can find the regression line that best fit the sample using a loss function` (distance of sample from line). To do that, you can start with any line and calculate the loss function, as you move the parameter, the loss function become smaller and smaller indicating in which direction the parameter should go.
 
  :warning: On huge datasets, There are downsides of the gradient descent algorithm. Indeed for huge datasets, we need to take a huge amount of computation we make for each iteration of the algorithm. To alleviate the problem, possible solutions are:
-  * batch data for lighter partial processing (= standard gradient descent) <!> compute intensive for large datasets
+  * batch data for lighter partial processing (= standard gradient descent) :warning: compute intensive for large datasets
   * mini-batch ... = uses all the data in batches (= best of all proposed alternatives?)
   * data sampling or stochastic gradient descent. (= lower compute required since we use only a few sample, but faster iteration with slower convergence st each step, but faster overall?)
 

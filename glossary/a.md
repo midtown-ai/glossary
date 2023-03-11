@@ -31,7 +31,7 @@ layout: page
 
 # Accuracy
 
- ~ the percentage of samples correctly classified given a labelled (but possibly biased) dataset. Consider a classification task in which a machine learning system observes tumors and must predict whether they are malignant or benign. Accuracy, or the <<Highlight("fraction of instances that were classified correctly, is an intuitive measure of the program's performance")>>. While accuracy does measure the program's performance, it does not differentiate between malignant tumors that were classified as being benign, and benign tumors that were classified as being malignant. In some applications, the costs associated with all types of errors may be the same. In this problem, however, failing to identify malignant tumors is likely a more severe error than mistakenly classifying benign tumors as being malignant.
+ ~ the percentage of samples correctly classified given a labelled (but possibly biased) dataset. Consider a classification task in which a machine learning system observes tumors and must predict whether they are malignant or benign. Accuracy, or the `fraction of instances that were classified correctly, is an intuitive measure of the program's performance`. While accuracy does measure the program's performance, it does not differentiate between malignant tumors that were classified as being benign, and benign tumors that were classified as being malignant. In some applications, the costs associated with all types of errors may be the same. In this problem, however, failing to identify malignant tumors is likely a more severe error than mistakenly classifying benign tumors as being malignant.
 
  ```
                  TP + TN
@@ -373,10 +373,10 @@ First, we believe the clearest framing of general intelligence is a system that 
    * A broad area of computer science that means 'computer' makes decisions and solves problems.
    * This encompasses decision tree, Machine learning (trained with data) and deep learning (neural net, unsupervised?).
    * Knowledge acquisition + inference.
-  3. <!> Best definition found =  <<Highlight("AI is the science and engineering ...")>>
+  3. :warning: Best definition found =  `AI is the science and engineering ...`
    * `... to use artificial devices`
     * current computer hardware and software, sensors, actuators, etc
-   * <<Highlight("... to exhibit human capabilities")>>
+   * `... to exhibit human capabilities`
     * perception - undertanding of data
     * cognition - reasoning and learning
      * action - execution and interaction
