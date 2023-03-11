@@ -91,13 +91,13 @@ layout: page
 
  ~ an observation. Together the features and the label make a single data point. Imputation is a way to deal with missing data in data points.
  
- ![]( {{site.assets}}/d/data_point.png ){: width=100%}
+ ![]( {{site.assets}}/d/data_point.png ){: width="100%"}
 
  See also [D], [Dataset], [Feature], [Imputation], [Label]
 
 # Data Science
 
- ![]( {{site.assets}}/d/data_science.png ){: width=100%}
+ ![]( {{site.assets}}/d/data_science.png ){: width="100%"}
 
  See also [D], ...
 
@@ -158,7 +158,7 @@ layout: page
 
  Can be a circle, a square, a plane and is used in a decision tree. In fact, it can be any shape! A neural netowkr will use the weights and activation function to lower the loss function to find the "perfect" boundary.
 
- ![]( {{site.assets}}/d/decision_boundary.png ){: width=100%}
+ ![]( {{site.assets}}/d/decision_boundary.png ){: width="100%"}
 
  See also [D], [Activation Function], [Classification], [Decision Tree], [Hyperplane], [Logistic Regression]
 
@@ -224,7 +224,7 @@ layout: page
 
  A type of GAN for ... This is the first GAN where the generator used deep convolutional network , hence generating high resolution and quality images to be differentiated. Rectified Linear Unit (ReLU) activation is used in Generator all layers except last one where Tanh activation is used, meanwhile in Discriminator all layers use the Leaky-ReLu activation function. Adam optimizer is used with a learning rate of 0.0002.
 
- ![]( {{site.assets}}/d/deep_convolutional_gan.jpeg ){: width=100%}
+ ![]( {{site.assets}}/d/deep_convolutional_gan.jpeg ){: width="100%"}
 
  The above figure shows the architecture of generator of the GAN. The input generated is of 64 X 64 resolution.
 
@@ -314,7 +314,7 @@ with loss function computed from (output - input)
 
  A fundamental rule that is used to do backpropagation starting from the cost function.
 
- ![]( {{site.assets}}/d/derivative_chain_rule.png ){: width=100%}
+ ![]( {{site.assets}}/d/derivative_chain_rule.png ){: width="100%"}
 
  ```
 aL = activation/output at layer L
@@ -375,7 +375,7 @@ We need to do this for
 
  Thus, regardless of how particular an individual’s information is, of the details of any other person in the database, the guarantee of differential privacy holds true and provides a formal assurance that individual-level information about participants in the database would be preserved, or not leaked.
 
- ![]( {{site.assets}}/d/differential_privacy.png ){: width=100%}
+ ![]( {{site.assets}}/d/differential_privacy.png ){: width="100%"}
 
  Methods:
   * output perturbation (works for all cases since treat the model as a black box?)
@@ -391,7 +391,7 @@ We need to do this for
 
  There are a few downsides to Diffusion models: they work sequentially on the whole image, meaning that both the training and inference times are expansive. This is why you need hundreds of GPUs to train such a model and why you wait a few minutes to get your results. they are iterative models that take random noise as inputs, which can be conditioned with a text or an image, so it is not completely random noise. It iteratively learns to remove this noise by learning what parameters the model should apply to this noise to end up with a final image. So the basic diffusion models will take random noise with the size of the image and learn to apply even further noise until we get back to a real image.
 
- ![]( {{site.assets}}/d/diffusion_model.png ){: width=100%}
+ ![]( {{site.assets}}/d/diffusion_model.png ){: width="100%"}
 
  This is possible because the model will have access to the real images during training and will be able to learn the right parameters by applying such noise to the image iteratively until it reaches complete noise and is unrecognizable. Then, when we are satisfied with the noise we get from all images, meaning that they are similar and generate noise from a similar distribution, we are ready to use our model in reverse and feed it similar noise in the reverse order to expect an image similar to the ones used during training.
 
@@ -435,7 +435,7 @@ We need to do this for
 
  Before you build the ML model, you need to understand the problem. You may be the expert in ML, but you may not be the expert in problem. Ask questions to the domain experts. The more questions you ask the more relevant your model will be. Here are sample questions for the amazon call centre outing (multi-class) problem (i.e. to which agent-skill should a call be routed next?) :
 
- ![]( {{site.assets}}/d/discovery_phase_questions.png ){: width=100%}
+ ![]( {{site.assets}}/d/discovery_phase_questions.png ){: width="100%"}
 
 # Discrete Variable
 
@@ -453,7 +453,7 @@ We need to do this for
 
  Answer the question is this a real Monet? picture? aka a bullshit detector! :-) Gives continuous feedback. For example: do you like this music, and as music is playing feedback is applied continuously. Works with another neural network, the generator, that generates the music/image and learn from the discriminator's feedback! How does the discriminator perform classification? Solution: The discriminator gets a probability score after convolutions and hence the discriminator chooses the decision based on the probability.  The goal of the discriminator is to provide feedback to the generator about how realistic the generated outputs (e.g. piano rolls) are, so that the generator can learn to produce more realistic data. The discriminator provides this feedback by outputting a scalar value that represents how “real” or “fake” a piano roll is. Since the discriminator tries to classify data as “real” or “fake”, it is not very different from commonly used binary classifiers. We use a simple architecture for the critic, composed of four convolutional layers and a dense layer at the end.
 
- ![]( {{site.assets}}/d/discriminator.png ){: width=100%}
+ ![]( {{site.assets}}/d/discriminator.png ){: width="100%"}
 
   * This feedback from the discriminator is used by the generator to update its weights.
   * As the generator gets better at creating music accompaniments, it begins fooling the discriminator. So, the discriminator needs to be retrained as well.
@@ -518,7 +518,7 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
 
  The resultant of the dot product of vectors is a scalar value.
 
- ![]( {{site.assets}}/d/dot_product.png ){: width=100%}
+ ![]( {{site.assets}}/d/dot_product.png ){: width="100%"}
 
  More at:
   * [https://www.cuemath.com/algebra/dot-product/](https://www.cuemath.com/algebra/dot-product/)

@@ -32,25 +32,25 @@ layout: page
 
  There is a challenge in training a neural network long enough for it to learn the mapping, but not so long that it overfits the training data. One way to accomplish this is to train on the training dataset, but to stop training at the point when performance on a validation dataset starts to degrade. In the world of training neural networks, this is what is known as “early stopping”. `A key challenge with overfitting, and with machine learning in general, is that we can’t know how well our model will perform on new data until we actually test it"`.
 
- ![]( {{site.assets}}/e/early_stopping.png ){: width=100%}
+ ![]( {{site.assets}}/e/early_stopping.png ){: width="100%"}
 
  See also [E], [AutoML], [Balanced Fitting], [Early Stopping Epoch], [Neural Network], [Overfitting], [Underfitting]
 
 # Early Stopping Epoch
 
- ![]( {{site.assets}}/e/early_stopping_epoch.png ){: width=100%}
+ ![]( {{site.assets}}/e/early_stopping_epoch.png ){: width="100%"}
 
  See also [E], [Early Stopping], [Overfitting], [Underfitting]
 
 # Eigenvalue
 
- ![]( {{site.assets}}/e/eigenvalue.png ){: width=100%}
+ ![]( {{site.assets}}/e/eigenvalue.png ){: width="100%"}
 
  See also [E], [Synthesized Variable]
 
 # Eigenvector
 
- ![]( {{site.assets}}/e/eigenvector.png ){: width=100%}
+ ![]( {{site.assets}}/e/eigenvector.png ){: width="100%"}
 
  See also [E], [Eigenvalue], [Synthesized Variable]
 
@@ -70,7 +70,7 @@ layout: page
 
  {% pdf "{{site.assets}}/e/emergent_abilities_of_large_language_models_paper.pdf" %}
 
- ![]( {{site.assets}}/e/emergent_abilities_of_large_language_models_table.png ){: width=100%}
+ ![]( {{site.assets}}/e/emergent_abilities_of_large_language_models_table.png ){: width="100%"}
 
  See also [E], [GPT Model], [Large Language Model], [Theory Of Mind], [Translation]
 
@@ -78,7 +78,7 @@ layout: page
  
  ~ Let’s call encoder the process that produce the “new features” representation from the input or “old features” representation (by selection or by extraction) and decoder the reverse process. Dimensionality reduction can then be interpreted as data compression where the encoder compress the data (from the initial space to the encoded space, also called latent space) whereas the decoder decompress them. Of course, depending on the initial data distribution, the latent space dimension and the encoder definition, this compression/representation can be lossy, meaning that a part of the information is lost during the encoding process and cannot be recovered when decoding.
 
- ![]( {{site.assets}}/e/encoder_decoder.png ){: width=100%}
+ ![]( {{site.assets}}/e/encoder_decoder.png ){: width="100%"}
 
  For each input, the encoder representation (hidden state) is up to the architecture of the model.
 
@@ -118,7 +118,7 @@ layout: page
 
  The best way to understand the concept of an encoder-decoder model is by playing Pictionary. The rules of the game are very simple, player 1 randomly picks a word from a list and needs to sketch the meaning in a drawing. The role of the second player in the team is to analyse the drawing and identify the word which it describes. In this example we have three important elements player 1(the person that converts the word into a drawing), the drawing (rabbit) and the person that guesses the word the drawing represents (player 2). This is all we need to understand an encoder decoder model.
 
- ![]( {{site.assets}}/e/encoder_decoder_model.jpeg ){: width=100%}
+ ![]( {{site.assets}}/e/encoder_decoder_model.jpeg ){: width="100%"}
 
  More at:
   * [https://towardsdatascience.com/what-is-an-encoder-decoder-model-86b3d57c5e1a](https://towardsdatascience.com/what-is-an-encoder-decoder-model-86b3d57c5e1a)
@@ -162,7 +162,7 @@ layout: page
 
  {% youtube "https://www.youtube.com/watch?v=YtebGVx-Fxw" %}
 
- See also [E], [Cross-Entropy], [Kullback-Lieber Divergence]
+ See also [E], [Cross-Entropy], [Kullback-Liebler Divergence]
 
 # Environment
 
@@ -205,7 +205,7 @@ layout: page
 
 # Expert System
 
- ![]( {{site.assets}}/e/expert_system_comparison.png ){: width=100%}
+ ![]( {{site.assets}}/e/expert_system_comparison.png ){: width="100%"}
 
  See also [E], [Big Data], [Deep Learning], [Machine Learning]
 
@@ -223,7 +223,7 @@ layout: page
 
  Activation that are large trends to become larger and larger! The solution for this is to use activation functions such as the sigmoid or the tanh ones. Unfortunately using such activation function leads to the vanishing gradient problem experienced during backpropagation. Another solution is to use gradient clipping in backpropagation.
 
- See also [E], [Activation Function], [Gradient Clipping], [Recurring Neural Network], [Vanishing Gradient Problem]
+ See also [E], [Activation Function], [Gradient Clipping], [Recurrent Neural Network], [Vanishing Gradient Problem]
 
 # Expressiveness
 
@@ -234,7 +234,7 @@ layout: page
 
  An ensemble method, XGBoost (extreme gradient boosting) is a popular and efficient open-source implementation of the gradient-boosted trees algorithm. Gradient boosting is a machine learning algorithm that attempts to accurately predict target variables by combining the estimates of a set of simpler, weaker models (several decision trees?). By applying gradient boosting to decision tree models in a highly scalable manner, XGBoost does remarkably well in machine learning competitions. It also robustly handles a variety of data types, relationships, and distributions. It provides a large number of hyperparameters—variables that can be tuned to improve model performance. This flexibility makes XGBoost a solid choice for various machine learning problems such as classifications and regressions. Example image recognition of a car: Before you recognize the car, does the thing have wheels, are they door, etc... if it has all of those features then it must be a car.
 
- ![]( {{site.assets}}/e/extreme_gradient_boosting.png ){: width=100%}
+ ![]( {{site.assets}}/e/extreme_gradient_boosting.png ){: width="100%"}
 
  More at:
    *

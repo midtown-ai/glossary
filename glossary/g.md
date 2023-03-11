@@ -50,9 +50,9 @@ layout: page
 
  Cell or module that can be used in the RNN chain of a Long Short Term Memory, or LSTM Network. A slightly more dramatic variation on the LSTM is the Gated Recurrent Unit, or GRU, introduced by Cho, et al. (2014). It combines the forget and input gates into a single “update gate.” It also merges the cell state and hidden state, and makes some other changes. The resulting model is simpler than standard LSTM models and therefore less compute intensive. This cell has been growing increasingly popular.
 
- ![]( {{site.assets}}/g/gated_recurrent_unit_cell2.png ){: width=100%}
+ ![]( {{site.assets}}/g/gated_recurrent_unit_cell2.png ){: width="100%"}
 
- ![]( {{site.assets}}/g/gated_recurrent_unit_cell.png ){: width=100%}
+ ![]( {{site.assets}}/g/gated_recurrent_unit_cell.png ){: width="100%"}
 
  More at:
   * [http://colah.github.io/posts/2015-08-Understanding-LSTMs/](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
@@ -63,7 +63,7 @@ layout: page
 
  The Gaussian distribution, normal distribution, or bell curve, is a probability distribution which accurately models a large number of phenomena in the world. Intuitively, it is the mathematical representation of the general truth that many measurable quantities, when taking in aggregate tend to be of the similar values with only a few outliers which is to say that many phenomena follow the central limit theorem.
 
- ![]( {{site.assets}}/g/gaussian_distribution.png ){: width=100%}
+ ![]( {{site.assets}}/g/gaussian_distribution.png ){: width="100%"}
 
  See also [G], [Central Limit Theorem], [Gaussian Process]
 
@@ -77,7 +77,7 @@ layout: page
 
  So why do we want a generative model? Well, it’s in the name! We wish to generate something an image, music, something! But what do we wish to generate? `Typically, we wish to generate data` (I know, not very specific). More than that though, it is likely that we wish to generate data that is never before seen, yet still fits into some data distribution (i.e. some pre-defined dataset that we have already set aside and that was used to build a discriminator). GANs, a generative AI technique, pit 2 networks against each other to generate new content. The algorithm consists of two competing networks: a generator and a discriminator. A generator is a convolutional neural network (CNN) that learns to create new data resembling the source data it was trained on. The discriminator is another convolutional neural network (CNN) that is trained to differentiate between real and synthetic data. The generator and the discriminator are trained in alternating cycles such that the generator learns to produce more and more realistic data while the discriminator iteratively gets better at learning to differentiate real data from the newly created data.
 
- ![]( {{site.assets}}/g/vanilla_gan.png ){: width=100%}
+ ![]( {{site.assets}}/g/vanilla_gan.png ){: width="100%"}
 
  There are different types of GAN, including:
   * Vanilla GAN
@@ -96,11 +96,11 @@ layout: page
 
 # Generative Classifier
 
- Generative Classifiers tries to model class, i.e., what are the features of the class. In short, it models how a particular class would generate input data. When a new observation is given to these classifiers, it tries to predict which class would have most likely generated the given observation. Such methods try to learn about the environment. An example of such classifiers is Naive Bayes. Mathematically, generative models try to learn the joint probability distribution, p(x,y), of the inputs x and label y, and make their prediction using Bayes rule to calculate the conditional probability, p(y|x), and then picking a most likely label. Thus, it tries to learn the actual distribution of the class.
+ Generative Classifiers tries to model class, i.e., what are the features of the class. In short, it models how a particular class would generate input data. When a new observation is given to these classifiers, it tries to predict which class would have most likely generated the given observation. Such methods try to learn about the environment. An example of such classifiers is Naive Bayes. Mathematically, generative models try to learn the joint probability distribution, `p(x,y)`, of the inputs x and label y, and make their prediction using Bayes rule to calculate the conditional probability, `p(y|x)`, and then picking a most likely label. Thus, it tries to learn the actual distribution of the class.
 
- ![]( {{site.assets}}/g/generative_classifier.png ){: width=100%}
+ ![]( {{site.assets}}/g/generative_classifier.png ){: width="100%"}
 
- See also [G], [Bayesian Network], [Hidden Markov Model], [Markov Random Fields], [Naive Bayes]
+ See also [G], [Bayesian Network], [Hidden Markov Model], [Markov Random Field], [Naive Bayes]
 
 # Generative Model
 
@@ -110,9 +110,9 @@ layout: page
   * Transformers 
    * Decoders (with masked attention)
 
- ![]( {{site.assets}}/g/generative_model_1.png ){: width=100%}
+ ![]( {{site.assets}}/g/generative_model_1.png ){: width="100%"}
 
- ![]( {{site.assets}}/g/generative_model_2.png ){: width=100%}
+ ![]( {{site.assets}}/g/generative_model_2.png ){: width="100%"}
 
  More at :
   * Generative Modeling by Estimating Gradients of the Data Distribution - [https://yang-song.net/blog/2021/score/](https://yang-song.net/blog/2021/score/)
@@ -149,7 +149,7 @@ layout: page
 
  Typically when training any sort of model, it is a standard practice to monitor the value of the loss function throughout the duration of the training. The discriminator loss has been found to correlate well with sample quality. You should expect the discriminator loss to converge to zero and the generator loss to converge to some number which need not be zero. When the loss function plateaus, it is an indicator that the model is no longer learning. At this point, you can stop training the model. You can view these loss function graphs in the AWS DeepComposer console:
 
- ![]( {{site.assets}}/g/generator_loss.png ){: width=100%}
+ ![]( {{site.assets}}/g/generator_loss.png ){: width="100%"}
 
  After 400 epochs of training, discriminator loss approaches near zero and the generator converges to a steady-state value. Loss is useful as an evaluation metric since the model will not improve as much or stop improving entirely when the loss plateaus.
 
@@ -166,7 +166,7 @@ layout: page
   * The GINI index = 1 in the impossible case where all the elements in the dataset are different and the dataset is na infinite number of sample
   * The GINI index is 0 if all the samples in the dataset are the same (same label)
 
- {% youtube "https://www.youtube.com/watch?v=u4IxOk2ijSs)>>
+ {% youtube "https://www.youtube.com/watch?v=u4IxOk2ijSs" %}
 
  Questions:
    * Why is this important?
@@ -177,7 +177,7 @@ layout: page
 
  What adds the text conditioning to the diffusion model!?
 
- {% youtube "https://www.youtube.com/watch?v=lvv4N2nf-HU)>>
+ {% youtube "https://www.youtube.com/watch?v=lvv4N2nf-HU" %}
 
  {% pdf "{{site.assets}}/g/glide_model_paper.pdf" %}
 
@@ -264,9 +264,9 @@ layout: page
 
  One of the shining successes in machine learning is the gradient descent algorithm (and its modified counterpart, stochastic gradient descent). Gradient descent is an iterative method for finding the minimum of a function. In machine learning, that function is typically the loss (or cost) function. "Loss" is simply some metric that quantifies the cost of wrong predictions. Gradient descent calculates the loss achieved by a model with a given set of parameters, and then alters those parameters to reduce the loss. It repeats this process until that loss can't substantially be reduced further. The final set of parameters that minimize the loss now define your fitted model. 
 
- {% youtube "https://www.youtube.com/watch?v=OkmNXy7er84)>>
+ {% youtube "https://www.youtube.com/watch?v=OkmNXy7er84" %}
 
- ![]( {{site.assets}}/g/gradient_descent.png ){: width=100%}
+ ![]( {{site.assets}}/g/gradient_descent.png ){: width="100%"}
 
  `Using gradient descent, you can find the regression line that best fit the sample using a loss function` (distance of sample from line). To do that, you can start with any line and calculate the loss function, as you move the parameter, the loss function become smaller and smaller indicating in which direction the parameter should go.
 
@@ -321,11 +321,11 @@ layout: page
 
  One example of edge-level inference is in image scene understanding. Beyond identifying objects in an image, deep learning models can be used to predict the relationship between them. We can phrase this as an edge-level classification: given nodes that represent the objects in the image, we wish to predict which of these nodes share an edge or what the value of that edge is. If we wish to discover connections between entities, we could consider the graph fully connected and based on their predicted value prune edges to arrive at a sparse graph.
 
- ![]( {{site.assets}}/g/graph_neural_network_edge_level_task.png ){: width=100%}
+ ![]( {{site.assets}}/g/graph_neural_network_edge_level_task.png ){: width="100%"}
 
  In (b), above, the original image (a) has been segmented into five entities: each of the fighters, the referee, the audience and the mat. (C) shows the relationships between these entities.
 
- ![]( {{site.assets}}/g/graph_neural_network_edge_level_task2.png ){: width=100%}
+ ![]( {{site.assets}}/g/graph_neural_network_edge_level_task2.png ){: width="100%"}
 
  See also [G], [Graph Neural Network]
 
@@ -335,7 +335,7 @@ layout: page
 
  In a graph-level task, our goal is to predict the property of an entire graph. For example, for a molecule represented as a graph, we might want to predict what the molecule smells like, or whether it will bind to a receptor implicated in a disease.
 
- ![]( {{site.assets}}/g/graph_neural_network_graph_level_task.png ){: width=100%}
+ ![]( {{site.assets}}/g/graph_neural_network_graph_level_task.png ){: width="100%"}
 
  This is analogous to image classification problems with MNIST and CIFAR, where we want to associate a label to an entire image. With text, a similar problem is sentiment analysis where we want to identify the mood or emotion of an entire sentence at once.
 
@@ -347,7 +347,7 @@ layout: page
 
  Node-level tasks are concerned with predicting the identity or role of each node within a graph. A classic example of a node-level prediction problem is Zach’s karate club. The dataset is a single social network graph made up of individuals that have sworn allegiance to one of two karate clubs after a political rift. As the story goes, a feud between Mr. Hi (Instructor) and John H (Administrator) creates a schism in the karate club. The nodes represent individual karate practitioners, and the edges represent interactions between these members outside of karate. The prediction problem is to classify whether a given member becomes loyal to either Mr. Hi or John H, after the feud. In this case, distance between a node to either the Instructor or Administrator is highly correlated to this label.
 
- ![]( {{site.assets}}/g/graph_neural_network_node_level_task.png ){: width=100%}
+ ![]( {{site.assets}}/g/graph_neural_network_node_level_task.png ){: width="100%"}
 
  On the left we have the initial conditions of the problem, on the right we have a possible solution, where each node has been classified based on the alliance. The dataset can be used in other graph problems like unsupervised learning.
 

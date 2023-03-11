@@ -57,7 +57,7 @@
 [Discriminative Classifier]: {{ site.baseurl }}{% link glossary/d.md %}#discriminative-classifier
 [Discriminator]: {{ site.baseurl }}{% link glossary/d.md %}#discriminator
 [Discriminator Loss]: {{ site.baseurl }}{% link glossary/d.md %}#discriminator-loss
-[Disentangled Variational Autoencoder]: {{ site.baseurl }}{% link glossary/d.md %}#disnetangled-variational-autoencoder
+[Disentangled Variational Autoencoder]: {{ site.baseurl }}{% link glossary/d.md %}#disentangled-variational-autoencoder
 [Beta-VAE]: {{ site.baseurl }}{% link glossary/d.md %}#beta-vae
 [DistilBert Model]: {{ site.baseurl }}{% link glossary/d.md %}#distilbert-model
 [Distribution]: {{ site.baseurl }}{% link glossary/d.md %}#distribution

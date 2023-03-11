@@ -11,7 +11,7 @@
 [Bayes Theorem]: {{ site.baseurl }}{% link glossary/b.md %}#bayes-theorem
 [Bayesian Inference]: {{ site.baseurl }}{% link glossary/b.md %}#bayesian-inference
 [Bayesian Network]: {{ site.baseurl }}{% link glossary/b.md %}#bayesian-network
-[Bayesian Optimizationi Sampling Method]: {{ site.baseurl }}{% link glossary/b.md %}#bayesian-optimization-sampling-method
+[Bayesian Optimization Sampling Method]: {{ site.baseurl }}{% link glossary/b.md %}#bayesian-optimization-sampling-method
 [Bayesian Search]: {{ site.baseurl }}{% link glossary/b.md %}#bayesian-search
 [Behavioural Cloning]: {{ site.baseurl }}{% link glossary/b.md %}#behavioural-cloning
 [Bernouilli Distribution]: {{ site.baseurl }}{% link glossary/b.md %}#bernouilli-distribution

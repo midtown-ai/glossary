@@ -27,3 +27,35 @@ layout: page
 {:toc}
 
 {% include links/all.md %}
+
+# Jackknife Sampling Method
+
+ A large number of samples are obtained by removing one data point at a time from the original dataset, and the model is trained and tested on these samples. This method is used to estimate the sensitivity of a model's performance to individual observations in the dataset.
+
+ See also [J], [Resampling Method]
+
+# Join Distribution
+
+ Joint distribution is based on joint probability, which can be simply defined as the probability of two events (variables) happening together. These two events are usually coined event A and event B, and can formally be written as:
+
+ ```
+p(A and B)
+ ```
+
+ Joint distribution, or joint probability distribution, shows the probability distribution for two or more random variables. Hence:
+
+ ```
+f(x,y) = P(X = x, Y = y)
+ ```
+
+ ![]( {{site.assets}}/j/join_distribution.png ){: width="100%"}
+
+ See also [J], ...
+
+# Jupyter Notebook
+
+ See also [J], ...
+
+# Jupyter Server
+
+ See also [J], ...

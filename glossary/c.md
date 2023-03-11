@@ -29,7 +29,9 @@ layout: page
 {% include links/all.md %}
 
 # Caffe
+
 # Caffe2
+
  PyTorch is not an end-to-end machine learning development tool; the development of actual applications requires conversion of the PyTorch code into another framework such as Caffe2 to deploy applications to servers, workstations, and mobile devices.
 
  More at:
@@ -38,31 +40,37 @@ layout: page
  See also [C], [Deep Learning Framework]
 
 # Casual Language Modeling
+
  Based on the context (previous words) find out the most likely following work. One that word is found, the new word is used to estimate the next one.
 
  See also [C], [Autoregressive], [Decoder], [GPT Model], [Natural Language Generation]
 
 # Categorial Variable
+
  A variable that takes discrete non-numerical value, such as a shirt size (XS, S, M, L, XL) or gender (M, F). Because computer works with numbers, to be processed categorical variables are normally turned into discrete variables.
 
  See also [C], [Discrete Variable], [Variable Type]
 
 # Cell Block
+
  A cell in jupyter!
 
 # Central Limit Theorem
+
  In probability theory, the central limit theorem (CLT) establishes that, in many situations, when independent random variables are summed up, their properly normalized sum tends toward a normal distribution even if the original variables themselves are not normally distributed.
 
  See also [C], [Gaussian Distribution]
 
 # Chain Of Thought Prompting
+
  A solution to get the explainability of a model OR RATHER ITS OUTPUT! Generating a chain of thought -- a series of intermediate reasoning steps -- significantly improves the ability of large language models to perform complex reasoning. In particular, we show how such reasoning abilities emerge naturally in sufficiently large language models via a simple method called chain of thought prompting, where a few chain of thought demonstrations are provided as exemplars in prompting. Experiments on three large language models show that chain of thought prompting improves performance on a range of arithmetic, commonsense, and symbolic reasoning tasks. The empirical gains can be striking. For instance, prompting a 540B-parameter language model with just eight chain of thought exemplars achieves state of the art accuracy on the GSM8K benchmark of math word problems, surpassing even fine-tuned GPT-3 with a verifier.
 
- ![]( {{site.assets}}/c/chain_of_thought_prompting.png ){:width=100%}
+ ![]( {{site.assets}}/c/chain_of_thought_prompting.png ){:width="100%"}
 
  See also [C], [Explanability], [GPT Model], [Natural Language Programming], [PaLM Model]
 
 # Chained Model
+
  Each model does one thing. e.g. verifier.
 
  See also [C], [Model]
@@ -72,6 +80,7 @@ layout: page
  See [Virtual Assistant]
 
 # ChatGPT Model
+
  A GPT based model that has a state,  that is you can have a discussion/dialog with the device. This model is fine-tuned with "supervised" interactions as was done with the InstructGPT model, a precursor to ChatGPT. In recent weeks, the internet has been going crazy with the new ChatGPT model. In general, ChatGPT is part of a series of releases around GPT 3.5 that are highlighting some of the capabilities of the upcoming GPT-4 model. One of the key differences of ChatGPT with previous models is its ability to follow instructions. This is powered another model called InstructGPT which OpenAI quietly unveiled at the beginning of the year.
 
  {% youtube "https://www.youtube.com/watch?v=AsFgn8vU-tQ" %}
@@ -90,6 +99,7 @@ layout: page
  See also [C], [MS COCO Caption Dataset]
 
 # CICERO Model
+
  Diplomacy is what AI researchers call a “seven player, zero sum and deterministic game of imperfect information”. A seven player game is much harder to solve than a two player game such as chess or Go. You must consider the many possible strategies of not one but six other players. This makes it much harder to write an AI to play the game. Diplomacy is also a game of imperfect information, because players make moves simultaneously. Unlike games such as chess or Go, where you know everything about your opponent’s moves, players in Diplomacy make moves not knowing what their opponents are about to do. They must therefore predict their opponents’ next actions. This also adds to the challenge of writing an AI to play it. Finally, Diplomacy is a zero sum game in which if you win, I lose. And the outcome is deterministic and not dependent on chance. Nonetheless, before victory or defeat, it still pays for players to form alliances and team up on each other. Indeed, one of the real challenges in playing the game is managing the informal negotiations with other players before making simultaneous moves. The main reason Cicero’s performance is a scientific breakthrough is that it can both play the game well, and also perform these informal negotiations. This combination of natural language processing and strategic reasoning is a first for any game-playing AI.
 
  More at:
@@ -105,9 +115,10 @@ layout: page
 
 
 # CIFAR-10 Dataset
+
  The CIFAR-10 dataset (Canadian Institute For Advanced Research) is a collection of images that are commonly used to train machine learning and computer vision algorithms. It is one of the most widely used datasets for machine learning research. The CIFAR-10 dataset contains 60,000 32x32 color images in 10 different classes/categories. The 10 different classes represent airplanes, cars, birds, cats, deer, dogs, frogs, horses, ships, and trucks. There are 6,000 images of each class. Computer algorithms for recognizing objects in photos often learn by example. CIFAR-10 is a set of images that can be used to teach a computer how to recognize objects. Since the images in CIFAR-10 are low-resolution (32x32), this dataset can allow researchers to quickly try different algorithms to see what works. CIFAR-10 is a labeled subset of the 80 million tiny images dataset. When the dataset was created, students were paid to label all of the images.
 
- ![]( {{site.assets}}/c/cifar10.png ){: width=100%}
+ ![]( {{site.assets}}/c/cifar10.png ){: width="100%"}
 
  More at 
    * [https://www.geeksforgeeks.org/cifar-10-image-classification-in-tensorflow/](https://www.geeksforgeeks.org/cifar-10-image-classification-in-tensorflow/)
@@ -116,12 +127,13 @@ layout: page
  See also [C], [Dataset]
 
 # Classification
+
  A type of supervised learning algorithm. The goal in classification is to take input values and organize them into two or more categories. The categories are normally mutually exclusive (ex is this shape a circle, a rectangle or a triangle? Beware of 3-d shape projections, i.e. perspectives!). An example classification use case is fraud detection. In fraud detection, the goal is to take information about the transaction and use it to determine if the transaction is either fraudulent or not fraudulent. When XGBoost is given a dataset of past transactions and whether or not they were fraudulent, it can learn a function that maps input transaction data to the probability that transaction was fraudulent. Models used for classification:
   * Decision tree 
   * Logistic regression
   * Support Vector Machine (~ boundary zone in an hyperplane)
 
- ![]( {{site.assets}}/c/classification.png ){: width=100%}
+ ![]( {{site.assets}}/c/classification.png ){: width="100%"}
 
  See also [C], [Binary Classification], [Decision Tree], [Hyperplane], [Logistic Regression], [Multiclass Classification], [Supervised Learning], [Support Vector Machine], [XGBoost]
 
@@ -132,21 +144,25 @@ layout: page
  See also [C], [Anthropic Company]
 
 # CLIP Image Encoder
+
  Encode an image into the embedding space.
 
  See also [C], [CLIP Model], [Embedding Space], [Encoder]
 
 # CLIP Text Encoder
+
  Encode a text prompt into the embedding space.
 
  See also [C], [CLIP Model], [Embedding Space], [Encoder]
 
 # Clustering
+
  Ex: Clustering is also used by internet radio services; given a collection of songs, a clustering algorithm might be able to group the songs according to their genres. Using different similarity measures, the same clustering algorithm might group the songs by their keys, or by the instruments they contain.
 
  See also [C], [Initialization], [Unsupervised Learning]
 
 # CNTK
+
  CNTK is ...
 
 # Codex Model
@@ -154,15 +170,17 @@ layout: page
  See also [C], [OpenAI Company]
 
 # Collaborative Filtering
+
  Used for recommendation of song/movies/etc where people mark what they like. If a person A has the same tastes as another person B, then what person B likes will be recommended to person A.
 
- ![]( {{site.assets}}/c/collaborative_filtering.png ){: width=100%}
+ ![]( {{site.assets}}/c/collaborative_filtering.png ){: width="100%"}
 
  The problem with this approach is that if a new song/movie is made available, it cannot be recommended! ( = Cold start problem )
 
  See also  
 
 # Colossal Clean Crawled Corpus
+
 # C4 Dataset
 
  More at:
@@ -171,6 +189,7 @@ layout: page
  See also [C], [Corpus], [[T5 Model]
 
 # Company
+
  Example of companies are:
    * Anthropic
    * Boston Dynamics
@@ -184,12 +203,14 @@ layout: page
  See also [C], [Anthropic Company], [Boston Dynamics Company], [Deepmind Company], [Google Company], [Meta Company], [Microsoft Company], [Nvidia Company], [OpenAI Company]
 
 # Complexity
+
  Complexity (of a model) is
   * Attention-based model: for input sequence of length N, each layer's output is NxN (all to all comparison) and therefore each layer is o(N^2) for sequence of length N
 
  See also [C], [Hyperparameter], [Attention-Based Model]
 
 # Compliance Analysis
+
  This is ...
 
 # Computer Vision
@@ -201,11 +222,12 @@ layout: page
  See also [C], [Diffusion Model], [Latent Diffusion Model]
 
 # Conditional GAN
+
 # CGAN
 
  In this GAN the generator and discriminator both are provided with additional information that could be a class label or any modal data. As the name suggests the additional information helps the discriminator in finding the conditional probability instead of the joint probability.
 
- ![]( {{site.assets}}/c/conditional_gan.jpeg ){: width=100%}
+ ![]( {{site.assets}}/c/conditional_gan.jpeg ){: width="100%"}
 
  See also [C], [Generative Adversarial Network]
 
@@ -214,16 +236,18 @@ layout: page
  See also [C], [Discriminative Classifier]
 
 # Confidence Interval
+
  A confidence interval is the range of values needed to match a confidence level for estimating the features of a complete population.
 
- ![]( {{site.assets}}/c/confidence_interval.png ){: width=100%}
+ ![]( {{site.assets}}/c/confidence_interval.png ){: width="100%"}
 
  See also [C], [Gaussian Distribution]
 
 # Confusion Matrix
+
  A Confusion matrix is an N x N matrix used for evaluating the performance of a classification model, where N is the number of target classes. The matrix compares the actual target values with those predicted by the machine learning model. In the case where N=2 (true or false), it shows false and true positive as well as false and true negative.
 
- ![]( {{site.assets}}/c/confusion_matrix.jpg ){: width=100%}
+ ![]( {{site.assets}}/c/confusion_matrix.jpg ){: width="100%"}
 
  See also [C], [Accuracy], [Classification], [Model Drift], [Precision], [Prediction Error], [Recall], [Sensitivity], [Specificity]
 
@@ -232,12 +256,15 @@ layout: page
  See also [C], [Variable Model]
 
 # Continuous Variable
+
  A variable that can take any value, possibly within a range.
 
  See also [C], [Variable Type]
 
 # Contrastive Language Image Pre-training Model
+
 # CLIP Model
+
  CLIP is a vision-language model that aligns image and text representations into a shared embedding space.
  is trained on large-scale image and text pair datasets to obtain a unified representation of different representations for the same concept. For that, an image encoder and a text encoder separately map images and text into a high-dimensional space, and a distance-based loss is utilized to enforce representations of identical concepts in neighborhood regions.
  CLIP is another neural network that is able to determine how well a caption (or prompt) matches an image. In other words, CLIP is a neural network that efficiently learns visual concepts from natural language supervision.
@@ -250,7 +277,7 @@ layout: page
   * pre-training method: predicting only which text as a whole is paired with which image and not the exact words of that text (contrastive, i.e. binary-classification task/approach for matching text to image)
   * Use vision transformer to reduce training time and required compute resources compared with ResNet model.
 
- ![]( {{site.assets}}/c/clip_model.png ){: width=100%}
+ ![]( {{site.assets}}/c/clip_model.png ){: width="100%"}
 
  More at:
   * [https://openai.com/blog/clip/](https://openai.com/blog/clip/)
@@ -259,6 +286,7 @@ layout: page
  See also [C], [CLIP Image Encoder], [CLIP Text Encoder], [Embedding Space], [Natural Language Supervision], [Vision Transformer], [VQGAN]
 
 # Convolution
+
  In math, Convolution = Merging the shape of 2 functions together. Ex: Function that fires fireworks * smoke for 1 firework overtime = smoke in the air at a specific time ( = cumulative add all contribution of all firework)
 
  {% youtube "https://www.youtube.com/watch?v=QmcoPYUfbJ8" %}
@@ -267,26 +295,30 @@ layout: page
  See also [C], [Convolutional Neural Network]
 
 # Convolution Autoencoder
+
  A CNN to latent space, and from latent space to a deconvolution neural network ?
 
  See also [C], [Convolution Neural Network], [Deconvolution Neural Network]
 
 # Convolutional Layer
+
  In a CNN, each layer tries to recognize a different pattern = extract features.
 
  See also [C], [Convolutional Neural Network], [Fully Connected Layer], [Kernel Filter], [Max Pooling Layer]
 
 # Convolutional Neural Network
+
 # CNN
+
  `Particularly useful for image analysis/processing` such as object recognition, image classification, semantic segmentation (object in image), artistic style transfer (filter on an image with the style of another image often a painting), meow generator (find cats in image?) . `The idea is that the pixel are not completely independent from the one surrounding them. CNN takes the surrounding pixel into consideration as well instead of just an independent pixel`. Use filter. Max Pooling layers (dimension reduction of outputs to downstream layers to convert a tensor into a vector). A succession of convolution-subsampling layers. Example: Does a pixel belongs to an object or not? .
 
  {% youtube "https://www.youtube.com/watch?v=FmpDIaiMIeA" %}
 
- ![]( {{site.assets}}/c/convolutional_neural_network.png ){: width=100%}
+ ![]( {{site.assets}}/c/convolutional_neural_network.png ){: width="100%"}
 
  The hidden layers are designed to process the input in a way that optimizes for signal and image processing /recognition. ==> recognize features instead of pixel!
 
- ![]( {{site.assets}}/c/cnn_zone_matching.png ){: width=100%}
+ ![]( {{site.assets}}/c/cnn_zone_matching.png ){: width="100%"}
 
  `When using kernel, we are implicitly saying that pixel outside of the kernel do not have an impact on ... This is where attention-based models may be better than CNN, where attention to other pixel in the image needs to be taken into consideration`
 
@@ -297,6 +329,7 @@ layout: page
  See also [C], [Attention-Based Model], [Convolution], [Convolutional Layer], [Deconvolution Neural Network], [Fully Connected Layer], [Kernel Filter], [Image Classification], [Instance Segmentation], [Latent Space], [Neural Network], [Object Detection], [Max Pooling Layer], [Rectified Linear Unit], [Region Based CNN], [Semantic Segmentation], [Subsampling]
 
 # Coreference
+
  Understand the entities a speak refers to when he uses nouns, pronouns. ex I, You, my sister, your sister, etc Function of the speaker perspective.
 
  More at:
@@ -305,6 +338,7 @@ layout: page
  See also [C], [NLP Benchmark]
 
 # Corpus
+
  GPT-3 is pre-trained on a corpus of text from five datasets: Common Crawl, WebText2, Books1, Books2, and Wikipedia..
   * Colossal Clean Crawled Corpus (C4) : Used by T5 model
   * Common Crawl : The Common Crawl corpus (collection of texts) comprises petabytes of data including raw web page data, metadata, and text data collected over eight years of web crawling. OpenAI researchers use a curated, filtered version of this dataset.
@@ -323,11 +357,13 @@ layout: page
  See also [C], [GPU], [Lambda], [Hyperparameter Optimization]
 
 # Cross-Attention
+
  Allow the decoder to access information from encoders to make better predictions. In text-to-image generation, through the cross-attention mechanism, the information of the text is fused to the visual feature vectors.
 
  See also [C], [Attention], [Latent Diffusion Model], [Self-Attention], [Transformer Model]
 
 # Cross-Entropy
+
  ```
 Likelihood of sequence = P(X) = product_of ( P(i=0,t,x_i/x_<i)
 
@@ -337,6 +373,7 @@ Cross_entropy = - log(P(X)) / t
  See also [C], [Cross-Entropy Loss Function], [Entropy], [Perplexity]
 
 # Cross-Entropy Loss Function
+
  Frequently used as a loss function for neural networks. To understand it, you need to understand the following (and in that order!): Surprisal, Entropy, Cross-Entropy, Cross-Entropy Loss.
   * Surprisal:  “Degree to which you are surprised to see the result”. Now it's easy to digest my word when I say that I will be more surprised to see an outcome with low probability in comparison to an outcome with high probability. Now, if Pi is the probability of ith outcome then we could represent surprisal (s) as:
 
@@ -344,7 +381,7 @@ Cross_entropy = - log(P(X)) / t
 s = log ( 1 / Pi)
  ```
 
- ![]( {{site.assets}}/c/cross_entropy_loss_function_surprise_graph.png ){: width=100%}
+ ![]( {{site.assets}}/c/cross_entropy_loss_function_surprise_graph.png ){: width="100%"}
 
   * Entropy: Since I know surprisal for individual outcomes, I would like to know **surprisal for the event**. It would be intuitive to take a weighted average of surprisals. Now the question is what weight to choose? Hmmm…since I know the probability of each outcome, taking probability as weight makes sense because this is how likely each outcome is supposed to occur. This weighted average of surprisal is nothing but Entropy (e) and if there are n outcomes then it could be written as:
 
@@ -368,9 +405,9 @@ cross-entropy loss = c = sum(0, n, Pi * log (1/Qi)
 binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-Po) * log(1/Q1) 
  ```
 
- ![]( {{site.assets}}/c/cross_entropy_loss_function_graph1.png ){: width=100%}
+ ![]( {{site.assets}}/c/cross_entropy_loss_function_graph1.png ){: width="100%"}
 
- ![]( {{site.assets}}/c/cross_entropy_loss_function_graph2.png ){: width=100%}
+ ![]( {{site.assets}}/c/cross_entropy_loss_function_graph2.png ){: width="100%"}
  
  This plot helps you visualize the cross-entropy between two distributions. The Red function represents a desired probability distribution, for simplicity a gaussian distribution is shown here. While the Orange function represents estimated probability distribution. The purple bar shows cross-entropy between these two distributions which is in simple words the area under the blue curve.
  More at
@@ -381,9 +418,10 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  See also [C], [Binary Cross-Entropy Loss Function], [Cross-Entropy], [Entropy], [Loss Function]
 
 # Cross-Validation Sampling Method
+
  Cross-validation is a powerful preventative measure against overfitting. The idea is clever: Use your initial training data to generate multiple mini train-test splits. Use these splits to tune your model. In standard k-fold cross-validation, we partition the data into k subsets, called folds. Then, we iteratively train the algorithm on k-1 folds while using the remaining fold as the test set (called the “holdout fold”). Cross-validation allows you to tune hyperparameters with only your original training set. This allows you to keep your test set as a truly unseen dataset for selecting your final model.
 
- ![]( {{site.assets}}/c/kfold_cross_validation.png ){: width=100%}
+ ![]( {{site.assets}}/c/kfold_cross_validation.png ){: width="100%"}
 
  More at:
    * 
@@ -399,7 +437,9 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  See also [C], [GPU]
 
 # Cumulative Distribution Function
+
 # CDF
+
  Graph or histogram reporting the probability that a function has reached this value or is below.
 
  See also [C], [Distribution]
@@ -413,10 +453,12 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  See also [C], [Regression], [Supervised Learning]
 
 # Cycle Generative Adversarial Network
+
 # Cycle GAN
+
  Image-to-image translation involves generating a new synthetic version of a given image with a specific modification, such as translating a summer landscape to winter. This opens up the possibility to do a lot of interesting tasks like photo-enhancement, image colorization, style transfer, season translation, object transfiguration, and generating photos from paintings, etc. Traditionally, training an image-to-image translation model requires a dataset comprised of paired examples. That is, a large dataset of many examples of input images X (e.g. summer landscapes) and the same image with the desired modification that can be used as an expected output image Y (e.g. winter landscapes). The requirement for a paired training dataset is a limitation. These datasets are challenging and expensive to prepare, e.g. photos of different scenes under different conditions. In many cases, the datasets simply do not exist, such as famous paintings and their respective photographs. As such, there is a desire for techniques for training an image-to-image translation system that does not require paired examples. Specifically, where any two collections of unrelated images can be used and the general characteristics extracted from each collection and used in the image translation process. For example, to be able to take a large collection of photos of summer landscapes and a large collection of photos of winter landscapes with unrelated scenes and locations as the first location and be able to translate specific photos from one group to the other. This is called the problem of unpaired image-to-image translation.
 
- ![]( {{site.assets}}/c/cyclegan_architecture.png ){: width=100%}
+ ![]( {{site.assets}}/c/cyclegan_architecture.png ){: width="100%"}
 
  At first glance, the architecture of the CycleGAN appears complex. Let’s take a moment to step through all of the models involved and their inputs and outputs. Consider the problem where we are interested in translating images from summer to winter and winter to summer. We have two collections of photographs and they are unpaired, meaning they are photos of different locations at different times; we don’t have the exact same scenes in winter and summer.
   * Collection 1: Photos of summer landscapes.
@@ -433,9 +475,9 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
    * Output: Likelihood of image is from collection 2.
  So far, the models are sufficient for generating plausible images in the target domain but are not translations of the input image.
 
- ![]( {{site.assets}}/c/cyclegan_season_transfer.png ){: width=100%}
- ![]( {{site.assets}}/c/cyclegan_style_transfer.png ){: width=100%}
- ![]( {{site.assets}}/c/cyclegan_object_transfiguration.png ){: width=100%}
+ ![]( {{site.assets}}/c/cyclegan_season_transfer.png ){: width="100%"}
+ ![]( {{site.assets}}/c/cyclegan_style_transfer.png ){: width="100%"}
+ ![]( {{site.assets}}/c/cyclegan_object_transfiguration.png ){: width="100%"}
 
  Beware:
   * input can be an image of frequencies that represent a voice and therefore can be used to change your voice!

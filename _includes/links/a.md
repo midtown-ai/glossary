@@ -52,7 +52,7 @@
 [ANI]: {{ site.baseurl }}{% link glossary/a.md %}#ani
 [Artificial Neural Network]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neural-network
 [ANN]: {{ site.baseurl }}{% link glossary/a.md %}#ann
-[Artifical Neuron]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neuron
+[Artificial Neuron]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neuron
 [Artifical Super Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-super-intelligence
 [ASI]: {{ site.baseurl }}{% link glossary/a.md %}#asi
 [Attention]: {{ site.baseurl }}{% link glossary/a.md %}#attention

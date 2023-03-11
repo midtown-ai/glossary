@@ -161,7 +161,7 @@ cheese =>
 
  A List of feature values becomes a list of votes (which are weighted to following layers).
 
- {{attachment:fully_connected_layer.png||width=10%}}
+ ![]( {{site.assets}}/f/fully_connected_layer.png ){: width="100%}
  
 
  See also [F], [Convoluted Layer], [Convoluted Neural Network], [Poll Layer], [ReLU Layer]
