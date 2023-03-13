@@ -25,6 +25,7 @@
 [Learning Rate]: {{ site.baseurl }}{% link glossary/l.md %}#learning-rate
 [Learning Strategy]: {{ site.baseurl }}{% link glossary/l.md %}#learning-strategy
 [Learning Velocity]: {{ site.baseurl }}{% link glossary/l.md %}#learning-velocity
+[LIDAR]: {{ site.baseurl }}{% link glossary/l.md %}#lidar
 [LightGBM]: {{ site.baseurl }}{% link glossary/l.md %}#lightgbm
 [Linear Autoencoder]: {{ site.baseurl }}{% link glossary/l.md %}#linear-autoencoder
 [Linear Discriminant Analysis]: {{ site.baseurl }}{% link glossary/l.md %}#linear-discriminant-analysis

@@ -36,6 +36,13 @@ layout: page
  See also [R], [Regression]
 
 
+# RadioGPT
+
+ More at:
+  * [
+
+ See also [R], [GPT Model]
+
 # Random Cut Forest
 
 # RCF
@@ -420,6 +427,11 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
   * site - [https://resources.nvidia.com/en-us-riva-tts-briefcase/speech-synthesis-documentation](https://resources.nvidia.com/en-us-riva-tts-briefcase/speech-synthesis-documentation)
 
  See also [R], [Nvidia Company], [Text-To-Speech Model]
+
+
+# Robot
+
+ See also [R], [Ameca Robot], [Sophia Robot]
 
 
 # RobotSchool

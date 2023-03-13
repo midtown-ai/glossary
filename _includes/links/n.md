@@ -29,6 +29,7 @@
 [Neural Topic Modeling]: {{ site.baseurl }}{% link glossary/n.md %}#neural-topic-modeling
 [NTM]: {{ site.baseurl }}{% link glossary/n.md %}#ntm
 [Neural Winter]: {{ site.baseurl }}{% link glossary/n.md %}#neural-winter
+[Neuralink Company]: {{ site.baseurl }}{% link glossary/n.md %}#neuralink-company
 [Next Sentence Prediction]: {{ site.baseurl }}{% link glossary/n.md %}#next-sentence-prediction
 [NSP]: {{ site.baseurl }}{% link glossary/n.md %}#nsp
 [Next Word Prediction]: {{ site.baseurl }}{% link glossary/n.md %}#next-word-prediction

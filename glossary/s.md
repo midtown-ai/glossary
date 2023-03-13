@@ -296,6 +296,11 @@ StandardScaler()
  See also [S], [Encoder], [One-Shot Learning], [Siamese Network]
 
 
+# Siri Assistant
+
+ See also [S], [Apple Company]
+
+
 # Skip Connection
 
  A way to alleviate the vanishing gradient problem by having activation skip hidden layers?
@@ -361,6 +366,17 @@ StandardScaler()
 
  See also [S], [Software 1.0]
 
+
+# Sophia Robot
+
+ Sophia is a social humanoid robot developed by the Hong Kong-based company Hanson Robotics. Sophia was activated on February 14, 2016, and made its first public appearance in mid-March 2016 at South by Southwest (SXSW) in Austin, Texas, United States. Sophia is marketed as a "social robot" that can mimic social behavior and induce feelings of love in humans.
+
+ {% youtube "https://www.youtube.com/watch?v=BhU9hOo5Cuc" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Sophia_(robot)](https://en.wikipedia.org/wiki/Sophia_(robot)) 
+
+ See also [S], [Hanson Robotics Company], [Robot]
 
 # Sound Analysis
 
@@ -433,7 +449,7 @@ StandardScaler()
  See also [S], [CycleGAN]
 
 
-# SQuAD
+# SQuAD Benchmark
 
  A benchmark for NLP models for question answering.
 
@@ -499,6 +515,11 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
  See also [S], [Model Benchmark]
 
 
+# Stereo Vision
+
+ See also [S], [Autonomous Vehicle]
+
+
 # Stochastic Gradient Descent
 
 # SGD
@@ -556,6 +577,20 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
  As given in the above figure we observe that the Generator network and Discriminator both make use of Convolutional layers , the Generator make use of the Parametric Rectified Linear Unit (ReLU) as the activation function whereas the Discriminator uses the Leaky-ReLU.
 
  See also [S], [Generative Adversarial Network], [Rectified Linear Unit Activation Function]
+
+
+# SuperGLUE Benchmark
+
+ In the last year, new models and methods for pretraining and transfer learning have driven striking performance improvements across a range of language understanding tasks. The GLUE benchmark, introduced one year ago, offered a single-number metric that summarizes progress on a diverse set of such tasks, but performance on the benchmark has recently come close to the level of non-expert humans, suggesting limited headroom for further research.
+
+ We take into account the lessons learnt from original GLUE benchmark and present SuperGLUE, a new benchmark styled after GLUE with a new set of more difficult language understanding tasks, improved resources, and a new public leaderboard.
+
+ {% pdf "{{site.assets}}/s/superglue_paper.pdf %}
+
+ More at:
+  * [https://super.gluebenchmark.com/](https://super.gluebenchmark.com/)
+
+ See also [S], [GLUE Benchmark], [NLP Benchmark]
 
 
 # Supervised Fine-Tuning
@@ -636,6 +671,18 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
  ![]( {{site.assets}}/s/synapse.png ){: width="100%}
 
  See also [S], [Activation Function], [Artificial Neuron], [Artificial Neural Network], [Neural Network]
+
+
+# Synthesia Company
+
+ {% youtube "https://www.youtube.com/watch?v=G-7jbNPQ0TQ" %}
+
+ {% youtube "https://www.youtube.com/watch?v=UVNUCBUrHL0" %}
+
+ More at:
+  * [https://www.synthesia.io/about](https://www.synthesia.io/about)
+
+ See also [S], [Company], [AI Avatar]
 
 
 # Synthesized Variable

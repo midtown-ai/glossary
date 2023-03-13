@@ -1,6 +1,9 @@
 [W]: {{ site.baseurl }}{% link glossary/w.md %}
 
+[Wall-E Movie]: {{ site.baseurl }}{% link glossary/w.md %}#wall-e-movie
+[WarGames Movie]: {{ site.baseurl }}{% link glossary/w.md %}#wargames-movie
 [Wave2Vec]: {{ site.baseurl }}{% link glossary/w.md %}#wave2vec
+[Waymo Company]: {{ site.baseurl }}{% link glossary/w.md %}#waymo-company
 [Weak AI]: {{ site.baseurl }}{% link glossary/w.md %}#weak-ai
 [Weak Learner]: {{ site.baseurl }}{% link glossary/w.md %}#weak-learner
 [Weak-Supervised Learning]: {{ site.baseurl }}{% link glossary/w.md %}#weak-supervised-learning

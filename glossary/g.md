@@ -28,6 +28,7 @@ layout: page
 
 {% include links/all.md %}
 
+
 # Galactica Large Language Model
 
 # Galactica LLM
@@ -41,7 +42,7 @@ layout: page
   * take aways - [https://bdtechtalks.com/2022/11/21/meta-ai-galactica](https://bdtechtalks.com/2022/11/21/meta-ai-galactica)
   * site - [http://galactica.org](http://galactica.org)
 
- See also [G], [Large Language Model], 
+ See also [G], [Large Language Model], [Meta Company]
 
 
 # Gated Recurrent Unit Cell
@@ -59,6 +60,7 @@ layout: page
 
  See also [G], [Long Short Term Memory Network], 
 
+
 # Gaussian Distribution
 
  The Gaussian distribution, normal distribution, or bell curve, is a probability distribution which accurately models a large number of phenomena in the world. Intuitively, it is the mathematical representation of the general truth that many measurable quantities, when taking in aggregate tend to be of the similar values with only a few outliers which is to say that many phenomena follow the central limit theorem.
@@ -67,9 +69,30 @@ layout: page
 
  See also [G], [Central Limit Theorem], [Gaussian Process]
 
+
 # Gaussian Process
 
  See also [G], [Random Forest], [Tree Parzen Estimators]
+
+
+# General Language Understanding Evaluation Benchmark
+
+# GLUE Benchmark
+
+ The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems. GLUE consists of:
+  * A benchmark of nine sentence- or sentence-pair language understanding tasks built on established existing datasets and selected to cover a diverse range of dataset sizes, text genres, and degrees of difficulty,
+  * A diagnostic dataset designed to evaluate and analyze model performance with respect to a wide range of linguistic phenomena found in natural language, and
+  * A public leaderboard for tracking performance on the benchmark and a dashboard for visualizing the performance of models on the diagnostic set.
+
+ The format of the GLUE benchmark is model-agnostic, so any system capable of processing sentence and sentence pairs and producing corresponding predictions is eligible to participate. The benchmark tasks are selected so as to favor models that share information across tasks using parameter sharing or other transfer learning techniques. The ultimate goal of GLUE is to drive research in the development of general and robust natural language understanding systems.
+
+ {% pdf "{{site.assets}}/g/glue_paper.pdf" %}
+
+ More at:
+  * [https://gluebenchmark.com/](https://gluebenchmark.com/)
+
+ See also [G], [Benchmark], [SuperGLUE Benchmark]
+
 
 # Generative Adversarial Network
 
@@ -94,6 +117,7 @@ layout: page
 
  See also [G], [AR-CNN], [Convolutional Neural Network], [Conditional GAN], [Cycle GAN], [DeepComposer], [Discriminator], [Generative Model], [Generator]
 
+
 # Generative Classifier
 
  Generative Classifiers tries to model class, i.e., what are the features of the class. In short, it models how a particular class would generate input data. When a new observation is given to these classifiers, it tries to predict which class would have most likely generated the given observation. Such methods try to learn about the environment. An example of such classifiers is Naive Bayes. Mathematically, generative models try to learn the joint probability distribution, `p(x,y)`, of the inputs x and label y, and make their prediction using Bayes rule to calculate the conditional probability, `p(y|x)`, and then picking a most likely label. Thus, it tries to learn the actual distribution of the class.
@@ -101,6 +125,7 @@ layout: page
  ![]( {{site.assets}}/g/generative_classifier.png ){: width="100%"}
 
  See also [G], [Bayesian Network], [Hidden Markov Model], [Markov Random Field], [Naive Bayes]
+
 
 # Generative Model
 
@@ -120,9 +145,10 @@ layout: page
  See also [G], [Decoder], [Diffusion Model], [Flow-Based Model], [Generative Adversarial Network], [Masked Attention], [Transformer Model], [Variational Autoencoder]
  
 
-
 # Generative Pre-Trained Transformer Model
+
 # GPT Model
+
 # GPT3
 
  Before GPT-3 there was no general language model that could perform well on an array of NLP tasks. Language models were designed to perform one specific NLP task, such as text generation, summarization, or classification, using existing algorithms and architectures. GPT-3 has extraordinary capabilities as a general language model. GPT-3 is pre-trained on a corpus of text from five datasets: Common Crawl, !WebText2, Books1, Books2, and Wikipedia. 
@@ -139,11 +165,13 @@ layout: page
 
  See also [G], [ChatGPT Model], [Digital Watermark], [Fine-Tuning], [InstructGPT Model], [Natural Language Processing], [Pre-Trained Model]
 
+
 # Generator
 
  A neural network that generates music, image, something and is getting feedback from a Discriminator neural network. How does the generator generate images? Solution : The generator takes noise from latent space and further based on test and trial feedback , the generator keeps improvising on images. After a certain times of trial and error , the generator starts producing accurate images of a certain class which are quite difficult to differentiate from real images.
 
  See also [G], [DeepComposer], [Discriminator], [Generative Adversarial Network], [Generator Loss], [Latent Space]
+
 
 # Generator Loss
 
@@ -155,9 +183,11 @@ layout: page
 
  See also [G], [Discriminator Loss], [Loss Function], [Loss Graph]
 
+
 # Genetic Programming
 
  Genetic programming is a technique to create algorithms that can program themselves by simulating biological breeding and Darwinian evolution. Instead of programming a model that can solve a particular problem, genetic programming only provides a general objective and lets the model figure out the details itself. The basic approach is to let the machine automatically test various simple evolutionary algorithms and then “breed” the most successful programs in new generations.
+
 
 # GINI Impurity Index
 
@@ -172,6 +202,7 @@ layout: page
    * Why is this important?
 
  See also [G], [Dataset], [Forest Of Stumps], [Weighted Gini Impurity Index]
+
 
 # GLIDE Model
 
@@ -190,35 +221,54 @@ layout: page
 
  See also [G], [DALL-E Model]
 
+
 # GloVe
 
  See also [G], [Word Embedding Space]
+
 
 # Gluon
 
  This is ...
 
+
 # Google Company
 
  Models developed by the company
-   * BERT Model
-   * Chinchila Model
-   * Gshard Model
-   * LaMBDA Model
-   * Minerva Model
-   * MUM Model
-   * Muse Model
-   * MusicLM Model
-   * PaLM Model
-   * Pathways Model Architecture
-   * Sparrow (by !DeepMind)
-   * T5 Model
-   * TPU
-   * Transformer
- Companies
-   * DeepMind
+   * [BERT Model]
+   * [Chinchila Model] :
+   * [Gshard Model] :
+   * [LaMBDA Model] :
+   * [Minerva Model] :
+   * [MUM Model] :
+   * [Muse Model] :
+   * [MusicLM Model] :
+   * [PaLM Model] :
+   * [Pathways Model Architecture] :
+   * [Sparrow Model] : (by !DeepMind)
+   * [Switch Transformer] :
+   * [T5 Model] :
+   * [Tensor Processing Unit] or TPU :
+   * [Transformer Model] :
 
- See also [G], [BERT Model], [DeepMind Company], [Gshard Model], [LaMBDA Model], [Minerva Model], [MUM Model], [Muse Model], [MusicLM Model], [PaLM Model], [Pathways Model Architecture], [Sparrow Model], [Switch Transformer], [T5 Model], [Tensor Processing Unit], [Transformer Model]
+ Companies
+   * [DeepMind][DeepMind Company]
+
+ See also [G], [Company]
+
+
+# Google Translate
+
+ {% youtube "https://www.youtube.com/watch?v=_GdSC1Z1Kzs" %}
+
+ {% youtube "https://www.youtube.com/watch?v=TIG2ckcCh1Y" %}
+
+ More at:
+  * site - [https://translate.google.com/](https://translate.google.com/)
+  * wikipedia - [https://en.wikipedia.org/wiki/Google_Translate](https://en.wikipedia.org/wiki/Google_Translate)
+
+ See also [G], [Google Company]
+
 
 # Gopher Model
 
@@ -229,11 +279,13 @@ layout: page
 
  See also [G], [Deepmind], [GPT Model]
 
+
 # GPU Instance
 
  P2 and P3 instances on AWS.
 
  See also [G], [Graphical Processing Unit]
+
 
 # Gradient
 
@@ -241,11 +293,13 @@ layout: page
 
  See also [G], [Gradient Descent]
 
+
 # Gradient Boosting
 
  Use gradient descent to minimize the loss function.
 
  See also [G], [Boosting], [Ensemble Method], [Gradient Bagging], [Weak Learner]
+
 
 # Gradient Clipping
 
@@ -259,6 +313,7 @@ layout: page
   * gradient clipping accelerate learning? - [https://openreview.net/pdf?id=BJgnXpVYwS](https://openreview.net/pdf?id=BJgnXpVYwS)
 
  See also [G], [Exploding Gradient Problem], [Gradient Descent], [Recurring Neural Network]
+
 
 # Gradient Descent
 
@@ -277,6 +332,7 @@ layout: page
 
  See also [G], [Activation Function], [Batch Gradient Descent], [Gradient Perturbation], [Learning Rate], [Loss Function], [Mini-Batch Gradient Descent], [Parameter], [Prediction Error], [Stochastic Gradient Descent]
 
+
 # Gradient Perturbation
 
  Works for neural network only or where gradient descent is used. Better than output perturbation in that the noise is built in the model, so you can share the model at will ;-) Gradient perturbation, widely used for differentially private optimization, injects noise at every iterative update to guarantee differential privacy. Noise is included in the gradient descent!
@@ -288,6 +344,7 @@ layout: page
 
  See also [G], [Differential Privacy], [Gradient Clipping], [Output Perturbation]
 
+
 # Graph Convolutional Network
 
 # GCN
@@ -296,6 +353,7 @@ layout: page
   * [https://towardsdatascience.com/how-to-do-deep-learning-on-graphs-with-graph-convolutional-networks-7d2250723780](https://towardsdatascience.com/how-to-do-deep-learning-on-graphs-with-graph-convolutional-networks-7d2250723780)
 
  See also [G], ...
+
 
 # Graph Neural Network
 
@@ -315,6 +373,7 @@ layout: page
 
  See also [G], [Entity Extraction], [GNN Edge-Level Task], [GNN Graph-Level Task], [GNN Node-Level Task], [Insufficient Data Algorithm], [Knowledge Graph], [Relation Extraction], [Scene Graph]
 
+
 # Graph Neural Network Edge-Level Task
 
 # GNN Edge-Level Task
@@ -329,6 +388,7 @@ layout: page
 
  See also [G], [Graph Neural Network]
 
+
 # Graph Neural Network Graph Level Task
 
 # GNN Graph-Level Task
@@ -340,6 +400,7 @@ layout: page
  This is analogous to image classification problems with MNIST and CIFAR, where we want to associate a label to an entire image. With text, a similar problem is sentiment analysis where we want to identify the mood or emotion of an entire sentence at once.
 
  See also [G], [Graph Neural Network]
+
 
 # Graph Neural Network Node-Level Task
 
@@ -355,6 +416,7 @@ layout: page
 
  See also [G], [Graph Neural Network]
 
+
 # Graphical Processing Unit
 
 # GPU
@@ -362,6 +424,7 @@ layout: page
  To accelerate processing of data.
 
  See also [G], [CPU], [Cuda Core], [Hyperparameter Optimization], [TPU]
+
 
 # Grid Search
 
@@ -374,6 +437,7 @@ layout: page
   * [https://arxiv.org/abs/2006.16668](https://arxiv.org/abs/2006.16668)
 
  See also [G], [Google Company], [Sparse Activation]
+
 
 # GSMK Dataset
 

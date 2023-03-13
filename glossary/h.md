@@ -28,6 +28,22 @@ layout: page
 
 {% include links/all.md %}
 
+
+# Hanson Robotics Company
+
+ Hanson Robotics Limited is a Hong Kong-based engineering and robotics company founded by David Hanson, known for its development of human-like robots with artificial intelligence (AI) for consumer, entertainment, service, healthcare, and research applications. The robots include Albert HUBO, the first walking robot with human-like expressions; BINA48, an interactive humanoid robot bust; and Sophia, the world's first robot citizen. The company has 45 employees.
+
+ Hanson Robotics’ robots feature a patented spongy elastomer skin called Frubber that resembles human skin in its feel and flexibility. Underneath the Frubber are proprietary motor control systems by which the robots mimic human expressions.
+
+ {% youtube "https://www.youtube.com/watch?v=2vAtJYRwegg" %}
+
+ More at:
+  * [https://www.hansonrobotics.com/](https://www.hansonrobotics.com/) 
+  * [https://en.wikipedia.org/wiki/Hanson_Robotics](https://en.wikipedia.org/wiki/Hanson_Robotics)
+
+ See also [H], [Company], [Sophia Robot]
+
+
 # Hebbian Learning
 
  "Neurons that fire together, wire together" Linked to learning and neural mechanism. Repeated or persistent firing changes synaptic weight due to increased efficiency. Synaptic modifications can be hebbian, anti-hebbian, or non-hebbian.
@@ -36,10 +52,24 @@ layout: page
   * [https://anthony-tan.com/Supervised-Hebbian-Learning/](https://anthony-tan.com/Supervised-Hebbian-Learning/)
 
  See also [H], 
+
+
+# Her Movie
+
+ Her (stylized in lowercase) is a 2013 American science-fiction romantic drama film written, directed, and co-produced by Spike Jonze. It marks Jonze's solo screenwriting debut. The film follows Theodore Twombly (Joaquin Phoenix), a man who develops a relationship with Samantha (Scarlett Johansson), an artificially intelligent virtual assistant personified through a female voice. The film also stars Amy Adams, Rooney Mara, Olivia Wilde, and Chris Pratt.
+
+ {% youtube "https://www.youtube.com/watch?v=dJTU48_yghs" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Her_(film)](https://en.wikipedia.org/wiki/Her_(film))
+
+ See also [H], [AI Movie]
  
+
 # Hidden Layer
 
  See also [H], [Neural Network]
+
 
 # Hidden Markov Model
 
@@ -58,6 +88,7 @@ layout: page
 
  See also [H], [H], [Encoder-Decoder Model], [Hidden Markov Model], [Recurrent Neural Network]
 
+
 # Hinge Loss Function
 
  The use of hinge loss is very common in binary classification problems where we want to separate a group of data points from those from another group. It also leads to a powerful machine learning algorithm called Support Vector Machines (SVMs) Let’s have a look at the mathematical definition of this function.
@@ -67,9 +98,11 @@ layout: page
 
  See also [H], [Loss Function], [Support Vector Machine], 
 
+
 # Holdout Fold
 
  See also [H], [Cross-Validation Sampling Method]
+
 
 # Huber Loss Function
 
@@ -98,6 +131,7 @@ def huber_loss(y_pred, y, delta=1.0):
 
  See also [H], [Loss Function], [Mean Absolute Error Loss Function], [Mean Square Error Loss Function]
 
+
 # Human-Centered AI
 
   * Understand human intelligence more deeply and more broadly
@@ -115,6 +149,14 @@ def huber_loss(y_pred, y, delta=1.0):
   * stanford HAI - [https://hai.stanford.edu/](https://hai.stanford.edu/)
 
  See also [H], [Artificial Intelligence]
+
+
+# Humanoid
+
+ A robot that is meant to resemble a human.
+
+ See also [H], [Robot]
+
 
 # Hyperparameter
 
@@ -154,9 +196,11 @@ def huber_loss(y_pred, y, delta=1.0):
 
  See also [H], [CPU], [Curse of Dimensionality], [F1 Score], [GPU], [Grid Search], [Hyperparameter], [Meta Model], [Overfitting], [Random Search], [Sobol], [Underfitting]
 
+
 # Hyperparameter Tuning
 
  Same as HPO? Process to tune the hyperparameters to get the best prediction? See also [H], [AutoML]
+
 
 # Hyperplane
 

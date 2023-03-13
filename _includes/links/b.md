@@ -14,6 +14,7 @@
 [Bayesian Optimization Sampling Method]: {{ site.baseurl }}{% link glossary/b.md %}#bayesian-optimization-sampling-method
 [Bayesian Search]: {{ site.baseurl }}{% link glossary/b.md %}#bayesian-search
 [Behavioural Cloning]: {{ site.baseurl }}{% link glossary/b.md %}#behavioural-cloning
+[Benchmark]: {{ site.baseurl }}{% link glossary/b.md %}#benchmark
 [Bernouilli Distribution]: {{ site.baseurl }}{% link glossary/b.md %}#bernouilli-distribution
 [BERT Classification]: {{ site.baseurl }}{% link glossary/b.md %}#bert-classification
 [Bias]: {{ site.baseurl }}{% link glossary/b.md %}#bias
@@ -23,12 +24,14 @@
 [Bidirectional Recurrent Neural Network]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-recurrent-neural-network
 [BRNN]: {{ site.baseurl }}{% link glossary/b.md %}#brnn
 [Bilingual Evaluation Understudy Score]: {{ site.baseurl }}{% link glossary/b.md %}#bilingual-evaluation-understudy-score
-[BLEU Score]: {{ site.baseurl }}{% link glossary/b.md %}#bleu-score
+[BLEU Benchmark]: {{ site.baseurl }}{% link glossary/b.md %}#bleu-benchmark
 [Binary Classification]: {{ site.baseurl }}{% link glossary/b.md %}#binary-classification
 [Binary Cross-Entropy Loss Function]: {{ site.baseurl }}{% link glossary/b.md %}#binary-cross-entropy-loss-function
+[Biological Neuron]: {{ site.baseurl }}{% link glossary/b.md %}#biological-neuron
 [BLIP Model]: {{ site.baseurl }}{% link glossary/b.md %}#blip-model
 [Boltzmann Machine]: {{ site.baseurl }}{% link glossary/b.md %}#boltzmann-machine
 [Boosting]: {{ site.baseurl }}{% link glossary/b.md %}#boosting
 [Boosting Step Size]: {{ site.baseurl }}{% link glossary/b.md %}#boosting-step-size
 [Boosting Sampling Method]: {{ site.baseurl }}{% link glossary/b.md %}#boosting-sampling-method
 [Boston Dynamics Company]: {{ site.baseurl }}{% link glossary/b.md %}#boston-dynamics-company
+[Brain]: {{ site.baseurl }}{% link glossary/b.md %}#brain

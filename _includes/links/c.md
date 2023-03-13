@@ -33,6 +33,8 @@
 [Confidence Interval]: {{ site.baseurl }}{% link glossary/c.md %}#confidence-interval
 [Confusion Matrix]: {{ site.baseurl }}{% link glossary/c.md %}#confusion-matrixxxx
 [Constraint Satisfaction Problem]: {{ site.baseurl }}{% link glossary/c.md %}#constraint-satisfaction-problem
+[Consumer Electric Show]: {{ site.baseurl }}{% link glossary/c.md %}#consumer-electronic-show
+[CES]: {{ site.baseurl }}{% link glossary/c.md %}#ces
 [Continuous Variable]: {{ site.baseurl }}{% link glossary/c.md %}#continuous-variable
 [Contrastive Language Image Pre-training Model]: {{ site.baseurl }}{% link glossary/c.md %}#contrastive-language-image-pre-training-model
 [CLIP Model]: {{ site.baseurl }}{% link glossary/c.md %}#clip-model

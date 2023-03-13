@@ -1,5 +1,8 @@
 [I]: {{ site.baseurl }}{% link glossary/i.md %}
 
+[I, Robot Movie]: {{ site.baseurl }}{% link glossary/i.md %}#i-robot-movie
+[IBM Company]: {{ site.baseurl }}{% link glossary/i.md %}#ibm-company
+[IBM Watson]: {{ site.baseurl }}{% link glossary/i.md %}#ibm-watson
 [Image Analysis]: {{ site.baseurl }}{% link glossary/i.md %}#image-analysis
 [Image Classifier]: {{ site.baseurl }}{% link glossary/i.md %}#image-classifier
 [Image Classification]: {{ site.baseurl }}{% link glossary/i.md %}#image-classification

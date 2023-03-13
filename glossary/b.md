@@ -47,17 +47,20 @@ layout: page
 
  See also [B], [Activation Function], [Derivative Chain Rule], [Feedforward Neural Network], [Kernel Filter], [Loss Function], [Neural Network], [Vanishing Gradient Problem], [Variational Autoencoder Reparametrization Trick]
 
+
 # Bag Of Words
 
  A technique for natural language processing that extracts the words (features) used in a sentence, document, website, etc. and classifies them by frequency of use. This technique can also be applied to image processing. In NLP deprecated by RNN, which take into consideration the word order.
 
  See also [B], [Natural Language Processing], [Recurrent Neural Network], [Word2Vec]
 
+
 # Bagging
 
  Bagging, also known as Bootstrap Aggregating. Build random sets by drawing random points from the dataset (with replacement). Train a different model on each of the sets. These models are the weak learners. The strong learner is then formed as a combination of the weak models, and the prediction is done by voting (if it is a classification model) or averaging the predictions (if it is a regression model). It is used to improve accuracy and make the model more generalize by reducing the variance, i.e., avoiding overfitting. In this, we take multiple subsets of the training dataset. For each subset, we take a model with the same learning algorithms like Decision tree, Logistic regression, etc., to predict the output for the same set of test data. Once we predict each model, we use a model averaging technique to get the final prediction output. One of the famous techniques used in Bagging is Random Forest. In the Random forest, we use multiple decision trees.
 
  See also [B], [Boosting], [Decision Tree], [Ensemble Method], [Random Forest], [Weak Learner]
+
 
 # Balanced Fitting
 
@@ -67,6 +70,7 @@ layout: page
 
  See also [B], [Overfitting], [Underfitting]
 
+
 # Batch 
 
  When the training dataset is large, it needs to be broken into chunks called batch. Each batch is then used to build the model.
@@ -74,6 +78,7 @@ layout: page
  ![]( {{site.assets}}/b/epoch_batch_iteration.png ){: width="100%"}
 
  See also [B], [Batch Size], [Epoch], [Iteration]
+
 
 # Batch Gradient Descent
 
@@ -83,6 +88,7 @@ layout: page
 
  See also [B], [Gradient Descent], [Mini-Batch Gradient Descent]
 
+
 # Batch Normalization
 
  Batch normalization layers can potentially resolve the vanishing gradient problem. Indeed, this problem arises when a large input space is mapped to a small one, causing the derivatives to disappear. In Image 1, this is most clearly seen at when |x| is big. Batch normalization reduces this problem by simply normalizing the input so |x| doesn’t reach the outer edges of the sigmoid function. As seen in diagram, it normalizes the input so that most of it falls in the green region, where the derivative isn’t too small.
@@ -90,6 +96,7 @@ layout: page
  ![]( {{site.assets}}/b/batch_normalization.png ){: width=30%}
 
  See also [B], [Exploding Gradient Problem], [Sigmoid Activation Function], [Vanishing Gradient Problem]
+
 
 # Batch Size
 
@@ -124,6 +131,7 @@ P(B|A) is the probability of event B given A.
 
  See also [B], [Bayes Inference], [Naive Bayes]
 
+
 # Bayesian Inference
 
  How confident are you in the result? A method of statistical learning - using a small amount of historical data and combining it with new data
@@ -134,6 +142,7 @@ P(A|B) = ----------------
  ```
 
  See also [B], [Bayesian Network], [Bayes Theorem]
+
 
 # Bayesian Network
 
@@ -161,9 +170,11 @@ P(A|B) = ----------------
 
  See also [B], [Active Learning], [Grid Search], [Hyperparameter], [Random Search], [Surrogate Model]
 
+
 # Bayesian Search
 
  Searching for a value using the bayesian optimization sampling method. See also [B], [Bayesian Optimization Sampling Method], [Hyperparameter Tuning]
+
 
 # Behavioural Cloning
 
@@ -175,12 +186,19 @@ P(A|B) = ----------------
 
  See also [B], [Imitation Learning]
 
+
+# Benchmark
+
+  See also [B], [NLP Benchmark]
+
+
 # Bernoulli Distribution
 
  the discrete probability distribution of a random variable which takes the value 1 with probability P and the value 0 with probability Q=1-P. Less formally, it can be thought of as a model for the set of possible outcomes of any single experiment that asks a yes–no question. Such questions lead to outcomes that are boolean-valued: a single bit whose value is success/yes/true/one with probability p and failure/no/false/zero with probability Q. It can be used to represent a (possibly biased) coin toss where 1 and 0 would represent "heads" and "tails", respectively, and P would be the probability of the coin landing on heads (or vice versa where 1 would represent tails and P would be the probability of tails). In particular, unfair coins would have P =/= 1/2. The Bernoulli distribution is a special case of the binomial distribution where a single trial is conducted (so n would be 1 for such a binomial distribution). It is also a special case of the two-point distribution, for which the possible outcomes need not be 0 and 1.
 
  More at:
-   * [https://en.wikipedia.org/wiki/Bernoulli_distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution)
+  * [https://en.wikipedia.org/wiki/Bernoulli_distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution)
+
 
 # BERT Classification
 
@@ -195,6 +213,7 @@ P(A|B) = ----------------
     * "What is the cost?" and "Is it expensive?" have almost the same SEP_representation !
  See also [B], [Bidirectional Encoder Representations from Transformers]
 
+
 # Bias
 
   1. statistics ==> The gap between the prediction and the actual value. Where is bias coming from? Issues with the data sampling?
@@ -203,9 +222,11 @@ P(A|B) = ----------------
 
  See also [B], [Activation Function], [Balanced Fitting], [Bias-Variance Trade-Off], [Overfitting], [Underfitting], [Variance]
 
+
 # Bias-Variance Trade-Off
 
  Ideally, a model will have both low bias and variance, but efforts to decrease one will frequently increase the other. This is known as the bias-variance trade-off.
+
 
 # Bidirectional Encoder Representation from Transformer Model
 
@@ -225,10 +246,10 @@ P(A|B) = ----------------
  ![]( {{site.assets}}/b/bert_embeddings.png ){: width=35%}
 
  More at:
-   * embeddings (token + segment + position) - [https://medium.com/@_init_/why-bert-has-3-embedding-layers-and-their-implementation-details-9c261108e28a](https://medium.com/@_init_/why-bert-has-3-embedding-layers-and-their-implementation-details-9c261108e28a)
-   * [https://medium.com/@mromerocalvo/6dcf5360b07f](https://medium.com/@mromerocalvo/6dcf5360b07f)
-   * [https://medium.com/dissecting-bert/dissecting-bert-part2-335ff2ed9c73](https://medium.com/dissecting-bert/dissecting-bert-part2-335ff2ed9c73)
-   * [https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853](https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853)
+  * embeddings (token + segment + position) - [https://medium.com/@_init_/why-bert-has-3-embedding-layers-and-their-implementation-details-9c261108e28a](https://medium.com/@_init_/why-bert-has-3-embedding-layers-and-their-implementation-details-9c261108e28a)
+  * [https://medium.com/@mromerocalvo/6dcf5360b07f](https://medium.com/@mromerocalvo/6dcf5360b07f)
+  * [https://medium.com/dissecting-bert/dissecting-bert-part2-335ff2ed9c73](https://medium.com/dissecting-bert/dissecting-bert-part2-335ff2ed9c73)
+  * [https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853](https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853)
 
  See also [B], [Attention Score], [Attention-Based Model], [BERT Classification], [Masked Language Modeling], [Name Entity Recognition], [Next Sentence Prediction], [Tokenizer], [Transformer Model]
 
@@ -243,23 +264,27 @@ P(A|B) = ----------------
 
  See also [B], [Recurrent Neural Network]
 
+
 # Big Data 
 
  See also [B], [Deep Learning], [Expert System], [Machine Learning]
 
-# Bilingual Evaluation Understudy Score
 
-# BLEU Score
+# Bilingual Evaluation Understudy Benchmark
+
+# BLEU Benchmark
 
  This is an algorithm for evaluating the quality of text which has been machine-translated from one natural language to another. Quality is considered to be the correspondence between a machine's output and that of a human: "the closer a machine translation is to a professional human translation, the better it is" – this is the central idea behind BLEU. BLEU was one of the first metrics to claim a high correlation with human judgements of quality, and remains one of the most popular automated and inexpensive metrics. Scores are calculated for individual translated segments—generally sentences—by comparing them with a set of good quality reference translations. Those scores are then averaged over the whole corpus to reach an estimate of the translation's overall quality. Intelligibility or grammatical correctness are not taken into account. BLEU's output is always a number between 0 and 1. This value indicates how similar the candidate text is to the reference texts, with values closer to 1 representing more similar texts. Few human translations will attain a score of 1, since this would indicate that the candidate is identical to one of the reference translations. For this reason, it is not necessary to attain a score of 1. Because there are more opportunities to match, adding additional reference translations will increase the BLEU score.
 
  See also [B], [NLP Benchmark]
+
 
 # Binary Classification
 
  `Answer a question with Yes or No with a confidence level`. Ex: is this shape a square? The simplest case of classification algorithm. In the case of the support-vector-machine, binary classification can be done with the creation of a hyperplane as a decision boundary in a real, transformed, or latent space.
 
  See also [B], [Binary Cross-Entropy Loss Function], [Classification], [Multiclass Classification], [Support Vector Machine]
+
 
 # Binary Cross-Entropy Loss Function
 
@@ -272,15 +297,26 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  ```
 
  More at :
-   * [https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a](https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a)
+  * [https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a](https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a)
 
  See also [B], [Binary Classifier], [Cross-Entropy Loss Function], [Entropy], [Loss Function]
+
+
+# Biological Neuron
+
+ Biological neuron are much more powerful than a artificial neuron, aka perceptron.
+
+ {% youtube "https://www.youtube.com/watch?v=hmtQPrH-gC4" %}
+
+ See also [B], [Artificial Neuron], [Brain], [Dendrite], [Synapse]
+
 
 # BLIP Model
 
  Create a a caption for an image using an encoder-decoder model (unlike the CLIP model, does not use the same embedding space?).
 
  See also [B], [CLIP Model], [Image Reconstruction], [Multimodal Translation], [Text Reconstruction]
+
 
 # Boltzmann Machine
 
@@ -289,9 +325,10 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  ![]( {{site.assets}}/b/boltzmann_machine.jpeg ){: width="100%"}
 
  More at:
-   * [https://www.geeksforgeeks.org/types-of-boltzmann-machines/](https://www.geeksforgeeks.org/types-of-boltzmann-machines/)
+  * [https://www.geeksforgeeks.org/types-of-boltzmann-machines/](https://www.geeksforgeeks.org/types-of-boltzmann-machines/)
 
  See also [B], [Deep Belief Network], [Restricted Boltzmann Machine], [Unsupervised Deep Learning Model], [Unsupervised Learning]
+
 
 # Boosting
 
@@ -306,10 +343,12 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
  See also [B], [AdaBoost], [Bagging], [Boosting Step Size], [Gradient Boosting], [Weak Learner], [XGBoost]
 
+
 # Boosting Step Size
 
 
  See also [B], [Boosting], [Hyperparameter]
+
 
 # Bootstrap Sampling Method
 
@@ -325,9 +364,23 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
  See also [B], [Resampling Method]
 
+
 # Boston Dynamics Company
 
- More at:
-  * website - [https://www.bostondynamics.com/](https://www.bostondynamics.com/)
+ Boston Dynamics is an American engineering and robotics design company founded in 1992 as a spin-off from the Massachusetts Institute of Technology. Headquartered in Waltham, Massachusetts, Boston Dynamics has been owned by the Hyundai Motor Group since December 2020, but having only completed the acquisition in June 2021.
 
- See also [B], [Company]
+ Boston Dynamics develops of a series of dynamic highly-mobile robots, including BigDog, Spot, Atlas, and Handle. Since 2019, Spot has been made commercially available, making it the first commercially available robot from Boston Dynamics, while the company has stated its intent to commercialize other robots as well, including Handle.
+
+ {% youtube "https://www.youtube.com/watch?v=L9U3B8wnM7w" %}
+
+ More at:
+  * [https://www.bostondynamics.com/](https://www.bostondynamics.com/)
+  * [https://www.youtube.com/@BostonDynamics](https://www.youtube.com/@BostonDynamics)
+  * [https://en.wikipedia.org/wiki/Boston_Dynamics](https://en.wikipedia.org/wiki/Boston_Dynamics)
+
+ See also [B], [Atlas Robot], [Company]
+
+
+# Brain
+
+ See also [B], [Biological Neuron]

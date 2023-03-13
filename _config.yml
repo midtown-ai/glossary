@@ -20,10 +20,23 @@
 # <!> The bundle utility read its configuration from the Gemfile
 #
 plugins:
-  - jekyll-feed
-  - jekyll-pdf-embed
-  - jekyll-youtube
-  - jemoji
+  # Generators
+  - jekyll-feed            # Creates an atom feed of blog posts
+  # Converters
+  # - jekyll-textile-converter
+  # Commands
+  # - jekyll-compose       # Add compose/draft subcommand to jekyll CLI
+  # Tags
+  - jekyll-pdf-embed       # Allow for embedding of pdf files using {% pdf ... %}
+  - jekyll-youtube         # Allow for embedding of youtube videos using {% youtube .. %}
+  # Filters
+  # - jekyll-email-protect # Hides complete email from page with { email@domain.com | protect }
+  # Hooks
+  - jekyll-mentions        # Links social name to social site, such as @user 
+  - jemoji                 # Displays emojis, such as :warning:
+  # Others
+  - jekyll-mermaid
+  - render_time
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -44,6 +57,14 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+#
+# === Plugin config
+#
+
+jekyll-mentions:
+  base_url: https://twitter.com        # Link to twitter
+
 
 #
 # === Immutable variables ===

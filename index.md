@@ -29,16 +29,14 @@ layout: home
 
 ---
 
+{% comment %}
 
-* unordered list
-{:toc}
+{% render_time "page rendered at:" %}
+https://twitter.com/OpenAI/status/1630992406542970880
+{% ihighlight  python %} from random import random {% endihighlight %}
+{% endcomment %}
 
-
-## VIDEO 0
-
-{% youtube "https://www.youtube.com/watch?v=hfMk-kjRv4c" %}
-
-see also [Artificial Intelligence]
+@user_name
 
 {% include links/all.md %}
 

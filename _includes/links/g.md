@@ -6,6 +6,8 @@
 [GRU Cell]: {{ site.baseurl }}{% link glossary/g.md %}#gru-cell
 [Gaussian Distribution]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-distribution
 [Gaussian Process]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-process
+[General Language Understanding Evaluation Benchmark]: {{ site.baseurl }}{% link glossary/g.md %}#general-language-understanding-evaluation-benchmark
+[GLUE Benchmark]: {{ site.baseurl }}{% link glossary/g.md %}#glue-benchmark
 [Generative Adversarial Network]: {{ site.baseurl }}{% link glossary/g.md %}#generative-adversarial-network
 [GAN]: {{ site.baseurl }}{% link glossary/g.md %}#gan
 [Generative Classifier]: {{ site.baseurl }}{% link glossary/g.md %}#generative-classifier
@@ -21,6 +23,7 @@
 [GloVe]: {{ site.baseurl }}{% link glossary/g.md %}#glove
 [Gluon]: {{ site.baseurl }}{% link glossary/g.md %}#gluon
 [Google Company]: {{ site.baseurl }}{% link glossary/g.md %}#google-company
+[Google Translate]: {{ site.baseurl }}{% link glossary/g.md %}#google-translate
 [Gopher Model]: {{ site.baseurl }}{% link glossary/g.md %}#gopher-model
 [GPU Instance]: {{ site.baseurl }}{% link glossary/g.md %}#gpu-instance
 [Gradient]: {{ site.baseurl }}{% link glossary/g.md %}#grandient

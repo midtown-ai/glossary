@@ -28,6 +28,7 @@ layout: page
 
 {% include links/all.md %}
 
+
 # Caffe
 
 # Caffe2
@@ -39,11 +40,13 @@ layout: page
 
  See also [C], [Deep Learning Framework]
 
+
 # Casual Language Modeling
 
  Based on the context (previous words) find out the most likely following work. One that word is found, the new word is used to estimate the next one.
 
  See also [C], [Autoregressive], [Decoder], [GPT Model], [Natural Language Generation]
+
 
 # Categorical Variable
 
@@ -51,15 +54,18 @@ layout: page
 
  See also [C], [Discrete Variable], [Variable Type]
 
+
 # Cell Block
 
  A cell in jupyter!
+
 
 # Central Limit Theorem
 
  In probability theory, the central limit theorem (CLT) establishes that, in many situations, when independent random variables are summed up, their properly normalized sum tends toward a normal distribution even if the original variables themselves are not normally distributed.
 
  See also [C], [Gaussian Distribution]
+
 
 # Chain Of Thought Prompting
 
@@ -69,15 +75,18 @@ layout: page
 
  See also [C], [Explanability], [GPT Model], [Natural Language Programming], [PaLM Model]
 
+
 # Chained Model
 
  Each model does one thing. e.g. verifier.
 
  See also [C], [Model]
 
+
 # Chatbot
 
  See [Virtual Assistant]
+
 
 # ChatGPT Model
 
@@ -97,6 +106,7 @@ layout: page
 # CIDEr Score
 
  See also [C], [MS COCO Caption Dataset]
+
 
 # CICERO Model
 
@@ -126,6 +136,7 @@ layout: page
 
  See also [C], [Dataset]
 
+
 # Classification
 
  A type of supervised learning algorithm. The goal in classification is to take input values and organize them into two or more categories. The categories are normally mutually exclusive (ex is this shape a circle, a rectangle or a triangle? Beware of 3-d shape projections, i.e. perspectives!). An example classification use case is fraud detection. In fraud detection, the goal is to take information about the transaction and use it to determine if the transaction is either fraudulent or not fraudulent. When XGBoost is given a dataset of past transactions and whether or not they were fraudulent, it can learn a function that maps input transaction data to the probability that transaction was fraudulent. Models used for classification:
@@ -137,11 +148,13 @@ layout: page
 
  See also [C], [Binary Classification], [Decision Tree], [Hyperplane], [Logistic Regression], [Multiclass Classification], [Supervised Learning], [Support Vector Machine], [XGBoost]
 
+
 # Claude Model
 
  {% pdf "{{site.assets}}/c/claude_model_paper.pdf" %}
 
  See also [C], [Anthropic Company]
+
 
 # CLIP Image Encoder
 
@@ -149,11 +162,13 @@ layout: page
 
  See also [C], [CLIP Model], [Embedding Space], [Encoder]
 
+
 # CLIP Text Encoder
 
  Encode a text prompt into the embedding space.
 
  See also [C], [CLIP Model], [Embedding Space], [Encoder]
+
 
 # Clustering
 
@@ -161,13 +176,16 @@ layout: page
 
  See also [C], [Initialization], [Unsupervised Learning]
 
+
 # CNTK
 
  CNTK is ...
 
+
 # Codex Model
 
  See also [C], [OpenAI Company]
+
 
 # Collaborative Filtering
 
@@ -179,28 +197,40 @@ layout: page
 
  See also  
 
-# Colossal Clean Crawled Corpus
+
+# Colossal Clean Crawled Corpus Dataset
 
 # C4 Dataset
 
- More at:
-   * [https://www.tensorflow.org/datasets/catalog/c4](https://www.tensorflow.org/datasets/catalog/c4)
+ To accurately measure the effect of scaling up the amount of pre-training, one needs a dataset that is not only high quality and diverse, but also massive. Existing pre-training datasets don’t meet all three of these criteria — for example, text from Wikipedia is high quality, but uniform in style and relatively small for our purposes, while the Common Crawl web scrapes are enormous and highly diverse, but fairly low quality.
 
- See also [C], [Corpus], [[T5 Model]
+ To satisfy these requirements, we developed the Colossal Clean Crawled Corpus (C4), a cleaned version of Common Crawl that is two orders of magnitude larger than Wikipedia. Our cleaning process involved deduplication, discarding incomplete sentences, and removing offensive or noisy content. This filtering led to better results on downstream tasks, while the additional size allowed the model size to increase without overfitting during pre-training. 
+
+ More at:
+  * [https://www.tensorflow.org/datasets/catalog/c4](https://www.tensorflow.org/datasets/catalog/c4)
+
+ See also [C], [Corpus], [Dataset], [T5 Model]
+
 
 # Company
 
  Example of companies are:
-   * Anthropic
-   * Boston Dynamics
-   * Deepmind
-   * Google
-   * Meta (aka Facebook)
-   * Microsoft
-   * Nvidia 
-   * OpenAI
+  * [Anthropic][Anthropic Company]
+  * [Apple][Apple Company]
+  * [Boston Dynamics][Boston Dynamics Company]
+  * [DeepMind][DeepMind Company]
+  * [Google][Google Company]
+  * [Hanson Robotics][Hanson Robotics Company]: Build humanoid for consumer, entertainment, service, healthcare, and research applications. 
+  * [Meta][Meta Company] (formerly known as Facebook)
+  * [Microsoft][Microsoft Company]
+  * [Neuralink][Neuralink Company]
+  * [Nvidia][Nvidia Company]
+  * [OpenAI][OpenAI Company]
+  * [Synthesia][Synthesia Company]: AI avatars
+  * [Waymo][Waymo Company]: Self-driving car 
 
- See also [C], [Anthropic Company], [Boston Dynamics Company], [Deepmind Company], [Google Company], [Meta Company], [Microsoft Company], [Nvidia Company], [OpenAI Company]
+ See also [C], ...
+
 
 # Complexity
 
@@ -209,17 +239,21 @@ layout: page
 
  See also [C], [Hyperparameter], [Attention-Based Model]
 
+
 # Compliance Analysis
 
  This is ...
+
 
 # Computer Vision
  
  See also [C], [CNN], [ResNET Model]
 
+
 # Conditioning
 
  See also [C], [Diffusion Model], [Latent Diffusion Model]
+
 
 # Conditional GAN
 
@@ -231,9 +265,11 @@ layout: page
 
  See also [C], [Generative Adversarial Network]
 
+
 # Conditional Random Fields
 
  See also [C], [Discriminative Classifier]
+
 
 # Confidence Interval
 
@@ -243,6 +279,7 @@ layout: page
 
  See also [C], [Gaussian Distribution]
 
+
 # Confusion Matrix
 
  A Confusion matrix is an N x N matrix used for evaluating the performance of a classification model, where N is the number of target classes. The matrix compares the actual target values with those predicted by the machine learning model. In the case where N=2 (true or false), it shows false and true positive as well as false and true negative.
@@ -251,15 +288,27 @@ layout: page
 
  See also [C], [Accuracy], [Classification], [Model Drift], [Precision], [Prediction Error], [Recall], [Sensitivity], [Specificity]
 
+
 # Constraint Satisfaction Problem
 
  See also [C], [Variable Model]
+
+
+# Consumer Electronic Show
+
+# CES
+
+ {% youtube "https://www.youtube.com/watch?v=CnwGrI6T7X0" %}
+
+ See also [C], ...
+
 
 # Continuous Variable
 
  A variable that can take any value, possibly within a range.
 
  See also [C], [Variable Type]
+
 
 # Contrastive Language Image Pre-training Model
 
@@ -285,6 +334,7 @@ layout: page
 
  See also [C], [CLIP Image Encoder], [CLIP Text Encoder], [Embedding Space], [Natural Language Supervision], [Vision Transformer], [VQGAN]
 
+
 # Convolution
 
  In math, Convolution = Merging the shape of 2 functions together. Ex: Function that fires fireworks * smoke for 1 firework overtime = smoke in the air at a specific time ( = cumulative add all contribution of all firework)
@@ -294,17 +344,20 @@ layout: page
 
  See also [C], [Convolutional Neural Network]
 
+
 # Convolution Autoencoder
 
  A CNN to latent space, and from latent space to a deconvolution neural network ?
 
  See also [C], [Convolution Neural Network], [Deconvolution Neural Network]
 
+
 # Convolutional Layer
 
  In a CNN, each layer tries to recognize a different pattern = extract features.
 
  See also [C], [Convolutional Neural Network], [Fully Connected Layer], [Kernel Filter], [Max Pooling Layer]
+
 
 # Convolutional Neural Network
 
@@ -328,6 +381,7 @@ layout: page
 
  See also [C], [Attention-Based Model], [Convolution], [Convolutional Layer], [Deconvolution Neural Network], [Fully Connected Layer], [Kernel Filter], [Image Classification], [Instance Segmentation], [Latent Space], [Neural Network], [Object Detection], [Max Pooling Layer], [Rectified Linear Unit], [Region Based CNN], [Semantic Segmentation], [Subsampling]
 
+
 # Coreference
 
  Understand the entities a speak refers to when he uses nouns, pronouns. ex I, You, my sister, your sister, etc Function of the speaker perspective.
@@ -336,6 +390,7 @@ layout: page
    * [https://medium.com/huggingface/state-of-the-art-neural-coreference-resolution-for-chatbots-3302365dcf30](https://medium.com/huggingface/state-of-the-art-neural-coreference-resolution-for-chatbots-3302365dcf30)
 
  See also [C], [NLP Benchmark]
+
 
 # Corpus
 
@@ -348,19 +403,23 @@ layout: page
 
  See also [C], [Dataset], [GPT], [Natural Language Processing]
 
+
 # Cost Function
 
  See [Loss Function]
 
+
 # CPU
 
  See also [C], [GPU], [Lambda], [Hyperparameter Optimization]
+
 
 # Cross-Attention
 
  Allow the decoder to access information from encoders to make better predictions. In text-to-image generation, through the cross-attention mechanism, the information of the text is fused to the visual feature vectors.
 
  See also [C], [Attention], [Latent Diffusion Model], [Self-Attention], [Transformer Model]
+
 
 # Cross-Entropy
 
@@ -371,6 +430,7 @@ Cross_entropy = - log(P(X)) / t
  ```
 
  See also [C], [Cross-Entropy Loss Function], [Entropy], [Perplexity]
+
 
 # Cross-Entropy Loss Function
 
@@ -417,6 +477,7 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
  See also [C], [Binary Cross-Entropy Loss Function], [Cross-Entropy], [Entropy], [Loss Function]
 
+
 # Cross-Validation Sampling Method
 
  Cross-validation is a powerful preventative measure against overfitting. The idea is clever: Use your initial training data to generate multiple mini train-test splits. Use these splits to tune your model. In standard k-fold cross-validation, we partition the data into k subsets, called folds. Then, we iteratively train the algorithm on k-1 folds while using the remaining fold as the test set (called the “holdout fold”). Cross-validation allows you to tune hyperparameters with only your original training set. This allows you to keep your test set as a truly unseen dataset for selecting your final model.
@@ -428,6 +489,7 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
  See also [C], [Dataset], [Development Subset], [Holdout Fold], [Resampling Method], [Testing Subset], [Training Subset]
 
+
 # Cubic Regression
 
  See also [C], [Non-Linear Regression], [Regression]
@@ -435,6 +497,7 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  Cuda Core 
 
  See also [C], [GPU]
+
 
 # Cumulative Distribution Function
 
@@ -444,13 +507,16 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
  See also [C], [Distribution]
 
+
 # Curse of Dimensionality
 
  See also [C], [HPO]
 
+
 # Custom Churn Prediction
 
  See also [C], [Regression], [Supervised Learning]
+
 
 # Cycle Generative Adversarial Network
 

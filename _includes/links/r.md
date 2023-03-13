@@ -50,6 +50,7 @@
 [Reward Model]: {{site.baseurl }}{% link glossary/r.md %}#reward-model
 [Reward Shaping]: {{site.baseurl }}{% link glossary/r.md %}#reward-shaping
 [Riva Model]: {{site.baseurl }}{% link glossary/r.md %}#riva-model
+[Robot]: {{site.baseurl }}{% link glossary/r.md %}#robot
 [RobotSchool]: {{site.baseurl }}{% link glossary/r.md %}#robotschool
 [Rocket League Gym]: {{site.baseurl }}{% link glossary/r.md %}#rocket-league-gym
 [RL Gym]: {{site.baseurl }}{% link glossary/r.md %}#rl-gym

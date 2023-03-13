@@ -201,6 +201,25 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [AI Ethics]
 
 
+# AI Artificial Intelligence Movie
+
+ Released in 2001
+
+ {% youtube "https://www.youtube.com/watch?v=oBUAQGwzGk0" %}
+
+ {% youtube "https://www.youtube.com/watch?v=4VfxU0bOx-I" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/A.I._Artificial_Intelligence ](https://en.wikipedia.org/wiki/A.I._Artificial_Intelligence)
+
+ See also [A], [AI Movie]
+
+
+# AI Avatar
+
+ See also [A], [Deep Fake], [Synthesia Company]
+
+
 # AI Ethics
 
  {% youtube "https://www.youtube.com/watch?v=fc-cHk9yFpg" %}
@@ -211,6 +230,21 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [AI Alignment]
 
 
+# AI Movie
+
+  * 1927 - [Metropolis][Metropolis Movie]
+  * 1956 - [Forbidden Planet][Forbidden Planet Movie]
+  * 1968 - [2001 Space Odyssey][2001 Space Odyssey Movie]
+  * 1983 - [WarGames][WarGames Movie]
+  * 1984 - [Electric Dreams][Electric Dreams Movie]
+  * 2001 - [AI Artificial Intelligence][AI Artificial Intelligence Movie]
+  * 2004 - [I, Robot][I, Robot Movie]
+  * 2008 - [Wall-E][Wall-E Movie]
+  * 2013 - [Her][Her Movie]
+  * 2014 - [Ex Machina][Ex Machina Movie]
+
+ See also [A]
+
 # Algorithmic
 
  A kind of hyperparameter. If test (!?) to select the best algorithm/approach to switch how the code function.
@@ -220,7 +254,9 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 # AlphaGo Model
 
- Google !AlphaGo. AI to play GO. was using reinforcement learning.
+ Google !AlphaGo. AI to play GO. Used reinforcement learning.
+
+ {% youtube "https://www.youtube.com/watch?v=WXuK6gekU1Y" %}
 
  See also [A], [AlphaFold Model], [AlphaZero Model], [DeepMind Company], [Reinforcement Learning]
 
@@ -281,6 +317,13 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [Amazon Company]
 
 
+# Ameca Robot
+
+ {% youtube "https://www.youtube.com/watch?v=rxhzBiC-Q5Y" %}
+
+ See also [A], [Robot]
+
+
 # Anomaly Detection
 
  Any deviation from a normal behavior is abnormal :warning: Evolution over time.
@@ -301,6 +344,11 @@ First, we believe the clearest framing of general intelligence is a system that 
 # Apache Spark
 
  (with spark Sagemaker estimator interface?)
+
+
+# Apple Company
+
+ See also [A], [Company], [Siri Assistant]
 
 
 # Apprentice Learning
@@ -358,6 +406,8 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 # Artificial Intelligence
 
+# AI
+
  Difficult to define?
   1. First approach for a definition: `AI = varied definitions driven by varied questions. AI tries to answer questions such as ...`
    * What is the nature of human intelligence
@@ -400,6 +450,18 @@ First, we believe the clearest framing of general intelligence is a system that 
   * safe human-AI interaction : Agent symbiosis, ethics and fairness, explainability, trusted AO
 
  See also [A], [Artificial Intelligence]
+
+
+# Artificial Intelligence Challenge
+
+# AI Challenge
+
+ * 1997 - 1998 : [Deep Blue Challenge]
+ * 2004 - 2005 : [DARPA Grand Challenge]
+ * 2007 : [DARPA Urban Challenge]
+ * 201? : [DARPA Robotics Challenge]
+
+ See also [A], ...
 
 
 # Artificial Intelligence Complete
@@ -460,6 +522,19 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [Artificial General Intelligence], [Artificial Narrow Intelligence]
 
 
+# Atlas Robot
+
+ Atlas is a bipedal humanoid robot primarily developed by the American robotics company Boston Dynamics with funding and oversight from the U.S. Defense Advanced Research Projects Agency (DARPA). The robot was initially designed for a variety of search and rescue tasks, and was unveiled to the public on July 11, 2013.
+
+ {% youtube "https://www.youtube.com/watch?v=rVlhMGQgDkY" %}
+
+ More at:
+  * [https://www.bostondynamics.com/atlas](https://www.bostondynamics.com/atlas)
+  * [https://en.wikipedia.org/wiki/Atlas_%28robot%29](https://en.wikipedia.org/wiki/Atlas_%28robot%29)
+
+ See also [A], [Boston Dynamics], [Robot]
+
+
 # Attention
 
  To work with transformer models, you need to understand one more technical concept: attention. An attention mechanism is a technique that mimics cognitive attention: it looks at an input sequence, piece by piece and, on the basis of probabilities, decides at each step which other parts of the sequence are important. For example, look at the sentence “The cat sat on the mat once it ate the mouse.” Does “it” in this sentence refer to “the cat” or “the mat”? The transformer model can strongly connect “it” with “the cat.” That’s attention.
@@ -494,6 +569,11 @@ First, we believe the clearest framing of general intelligence is a system that 
  ![]( {{site.assets}}/a/autoencoder.png ){: width="100%"}
 
  See also [A], [Autoencoding], [Backpropagation], [Decoder], [Denoising Autoencoder], [Dimensionality Reduction], [Disentangled Variational Autoencoder], [Encoder], [Encoder-Decoder Model], [Hidden State], [Linear Autoencoder], [Unsupervised Deep Learning Model], [Unsupervised Learning], [Variational Autoencoder]
+
+
+# Autonomous Vehicle
+
+ See also [DARPA Grant Challenge], [DARPA Urban Challenge]
 
 
 # Attention Score

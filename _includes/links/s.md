@@ -31,6 +31,7 @@
 [Sigmoid Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-activation-function
 [Sigmoid Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-function
 [Similarity Function]: {{ site.baseurl}}{% link glossary/s.md %}#similarity-function
+[Siri Assistant]: {{ site.baseurl}}{% link glossary/s.md %}#siri-assistant
 [Skip Connection]: {{ site.baseurl}}{% link glossary/s.md %}#skip-connection
 [Slicing Function]: {{ site.baseurl}}{% link glossary/s.md %}#slicing-function
 [Snorkel Program]: {{ site.baseurl}}{% link glossary/s.md %}#snorkel-program
@@ -38,6 +39,7 @@
 [Softplus Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#softplus-activation-function
 [Software 1.0]: {{ site.baseurl}}{% link glossary/s.md %}#software-1-0
 [Software 2.0]: {{ site.baseurl}}{% link glossary/s.md %}#software-2-0
+[Sophia Robot]: {{ site.baseurl}}{% link glossary/s.md %}#sophia-robot
 [Sound Analysis]: {{ site.baseurl}}{% link glossary/s.md %}#sound-analysis
 [Spam Detection]: {{ site.baseurl}}{% link glossary/s.md %}#spam-detection
 [Space]: {{ site.baseurl}}{% link glossary/s.md %}#space
@@ -48,7 +50,7 @@
 [Sparse Vector]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-vector
 [Specificity]: {{ site.baseurl}}{% link glossary/s.md %}#specificity
 [Spectrogram Image]: {{ site.baseurl}}{% link glossary/s.md %}#spectrogram-image
-[SQuAD]: {{ site.baseurl}}{% link glossary/s.md %}#squad
+[SQuAD Benchmark]: {{ site.baseurl}}{% link glossary/s.md %}#squad-benchmark
 [Stanford Autonomous Helicopter]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-autonomous-helicopter
 [Stanford Natural Language Inference]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-natural-language-inference
 [SNLI]: {{ site.baseurl}}{% link glossary/s.md %}#snli
@@ -56,6 +58,7 @@
 [State Model]: {{ site.baseurl}}{% link glossary/s.md %}#state-model
 [State Of The Art]: {{ site.baseurl}}{% link glossary/s.md %}#
 [SOTA]: {{ site.baseurl}}{% link glossary/s.md %}#sota
+[Stereo Vision]: {{ site.baseurl}}{% link glossary/s.md %}#stereo-vision
 [Stochastic Gradient Descent]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-gradient-descent
 [SGD]: {{ site.baseurl}}{% link glossary/s.md %}#sgd
 [Stochastic Node]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-node
@@ -75,5 +78,6 @@
 [Surrogate Model]: {{ site.baseurl}}{% link glossary/s.md %}#surrogate-model
 [Switch Transformer]: {{ site.baseurl}}{% link glossary/s.md %}#switch-transformer
 [Synapse]: {{ site.baseurl}}{% link glossary/s.md %}#synapse
+[Synthesia Company]: {{ site.baseurl}}{% link glossary/s.md %}#synthesia-company
 [Synthesized Variable]: {{ site.baseurl}}{% link glossary/s.md %}#synthesized-variable
 [Synthetic Data]: {{ site.baseurl}}{% link glossary/s.md %}#synthetic-data

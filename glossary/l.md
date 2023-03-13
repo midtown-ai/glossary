@@ -234,6 +234,11 @@ with alpha = learning_rate
  See also [L], [Learning Rate], [Sample Strategy], [Sample Efficiency]
 
 
+# LIDAR 
+
+ See also [L], [Autonomous Vehicle]
+
+
 # LightGBM
 
  An ensemble method.

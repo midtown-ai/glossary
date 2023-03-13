@@ -341,6 +341,20 @@ def mse_loss(y_pred, y_true):
  See also [M], [MS COCO Caption Dataset]
 
 
+# Metropolis Movie
+
+ Metropolis is a 1927 German expressionist science-fiction film directed by Fritz Lang.
+
+ {% youtube "https://www.youtube.com/watch?v=rXpKwH2oJkM" %}
+
+ {% youtube  "https://www.youtube.com/watch?v=PgBitJRkANw" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Metropolis_(1927_film)](https://en.wikipedia.org/wiki/Metropolis_(1927_film))
+
+ See also [M], [AI Movie]
+
+
 # Microsoft Common Object In Context Caption Dataset
 
 # Microsoft COCO Caption Dataset
@@ -367,6 +381,16 @@ def mse_loss(y_pred, y_true):
  ![]( {{site.assets}}/m/milvus_database.png ){: width="100%"}
 
  See also [M], [Vector Database]
+
+
+# MindPong Game
+
+ {% youtube "https://www.youtube.com/watch?v=rsCul1sp4hQ" %}
+
+ More at:
+  * ...
+
+ See also [M], [Neuralink Company]
 
 
 # Minerva Model
@@ -515,7 +539,9 @@ def mse_loss(y_pred, y_true):
 # Multi-Head Attention
 
  ~ the brains of the Transformer and responsible for performance through parallelism. Multi-Head Attention consists of several attention layers running in parallel. The Attention layer takes its input in the form of three parameters, known as the Query, Key, and Value (aka Q,K,V). All three parameters are similar in structure, with each word in the sequence represented by a vector. In transformers is used for encoder and decoder.
+
  ![]( {{site.assets}}/m/multi_head_attention.png ){: width="100%"}
+
  See also [M], [Attention Score], [Attention-Based Model], [Decoder], [Encoder], [Masked Self-Attention], [Self-Attention], [Transformer Model]
 
 
@@ -524,21 +550,25 @@ def mse_loss(y_pred, y_true):
 # MTL
 
  ~ `not enough data for individual algo --> reuse data from other similar algo` Train all parameters at the same time, but each of the task have shared parameters. One example is a spam-filter, which can be treated as distinct but related classification tasks across different users. To make this more concrete, consider that different people have different distributions of features which distinguish spam emails from legitimate ones, for example an English speaker may find that all emails in Russian are spam, not so for Russian speakers. Yet there is a definite commonality in this classification task across users, for example one common feature might be text related to money transfer. Solving each user's spam classification problem jointly via MTL can let the solutions inform each other and improve performance.
+
  ![]( {{site.assets}}/m/multi_task_learning.png ){: width="100%"}
+
  Questions:
   * How does that relate to transfer learning?
+
  See also [M], [Insufficient Data Algorithm], [Transfer Learning]
 
 
 # Multiattribute Objective
 
  Example: A self-driving car needs to
-   * take you from point A to point B
-   * in a safe manner
-   * in a comfortable manner
-   * but as quickly as possible
-   * without killing a pedestrian or anybody
-   * do not trigger road rage of other driver
+  * take you from point A to point B
+  * in a safe manner
+  * in a comfortable manner
+  * but as quickly as possible
+  * without killing a pedestrian or anybody
+  * do not trigger road rage of other driver
+
  See also [M], [Reinforcement Learning]
 
 
@@ -610,6 +640,7 @@ class MLP(nn.Module):
   * concat output + fully connected layers after the concatenation
   * tensor fusion network (paper published in 2017) - https://sentic.net/tensor-fusion-network-for-multimodal-sentiment-analysis.pdf
   * minimize the cosine loss between the 2 modalities
+
  See also [M], [Multimodal Learning]
 
 
@@ -624,6 +655,7 @@ AI that can understand the relationships between images, text and more
  ```
 
  * Google's Pathways architecture is trying to solve this.
+
  See also [M], [Embedding Space], [Multimodal Distribution], [Multimodal Space], [Pathways Model Architecture]
 
 

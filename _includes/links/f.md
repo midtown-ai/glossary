@@ -15,6 +15,7 @@
 [File Mode]: {{site.baseurl }}{% link glossary/f.md %}#file-mode
 [Fine-Tuning]: {{site.baseurl }}{% link glossary/f.md %}#fine-tuning
 [Flow-Based Model]: {{site.baseurl }}{% link glossary/f.md %}#flow-based-model
+[Forbidden Planet Movie]: {{site.baseurl }}{% link glossary/f.md %}#forbidden-planet-movie
 [Forest Of Stumps]: {{site.baseurl }}{% link glossary/f.md %}#forest-of-stumps
 [Fully Connected Layer]: {{site.baseurl }}{% link glossary/f.md %}#fully-connected-layer
 [FC Layer]: {{site.baseurl }}{% link glossary/f.md %}#fc-layer

@@ -1,19 +1,31 @@
 ---
 layout: post
 # layout: single
-title:  "Welcome to Jekyll!"
-date:   2023-02-18 12:51:28 -0800
+title:  "History of Artificial Intelligence"
+date:   2023-03-10 12:51:28 -0800
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+# AI pioneer
 
-`YEAR-MONTH-DAY-title.MARKUP`
+ {% youtube "https://www.youtube.com/watch?v=IBe2o-cZncU" %}
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+# History of AI
 
-Jekyll also offers powerful support for code snippets:
+ * 1996, 1997 -
+ * 2004, 2005 - [DARPA Grand Challenge]
+ * 2007       - [DARPA Urban Challenge]
+ * 2009       - [Waymo Company], a corporate spin-off of [Google Company] or more specifically Google X
+
+ * 2011       - [Siri Assistant] is available on iPhone sold by [Apple Company]
+ * 2011       - [IBM Watson] beats Jennings on Jeopardy
+ * 2016       - [Sophia Robot] from [Hanson Robotics Company]
+ * 2016       - [Google Translate]
+ * 2016       - [AlphaGo Model]
+ * 2017       - [Transformer Model]
+ * 2018       - [AlphaFold Model] by [DeepMind Company]
+ * 2019       - [Pluribus Model] by [Facebook Company] = First AI to beat human professionals in multiplayer poker
+ * 2020       - Viral happy new year by [Boston Dynamic Company]
 
 {% highlight ruby %}
 def print_hi(name)
@@ -23,8 +35,4 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+{% include links/all.md %}

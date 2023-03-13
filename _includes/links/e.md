@@ -4,6 +4,7 @@
 [Early Stopping Epoch]: {{site.baseurl }}{% link glossary/e.md %}#early-stopping-epoch
 [Eigenvalue]: {{site.baseurl }}{% link glossary/e.md %}#eigenvalue
 [Eigenvector]: {{site.baseurl }}{% link glossary/e.md %}#eigenvector
+[Electric Dreams Movie]: {{site.baseurl }}{% link glossary/e.md %}#electric-dreams-movie
 [Embedding]: {{site.baseurl }}{% link glossary/e.md %}#embedding
 [Embedding Space]: {{site.baseurl }}{% link glossary/e.md %}#embedding-space
 [Emergent Ability]: {{site.baseurl }}{% link glossary/e.md %}#emergent-ability
@@ -23,6 +24,7 @@
 [Error]: {{site.baseurl }}{% link glossary/e.md %}#error
 [Estimator]: {{site.baseurl }}{% link glossary/e.md %}#estimator
 [Ethics Problem]: {{site.baseurl }}{% link glossary/e.md %}#ethics-problem
+[Ex Machina Movie]: {{site.baseurl }}{% link glossary/e.md %}#ex-machina-movie
 [Expected Value]: {{site.baseurl }}{% link glossary/e.md %}#expected-value
 [Expert System]: {{site.baseurl }}{% link glossary/e.md %}#expert-system
 [Explainability]: {{site.baseurl }}{% link glossary/e.md %}#explainability

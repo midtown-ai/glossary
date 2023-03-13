@@ -113,14 +113,16 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
   * BLEU score : for machine translation
   * Coref :  Links pronouns to antecedents. Also capable to take the perspective of a speak, e.g. I, you, my sister, etc refers to different people function of who said it.
+  * GLUE :
   * NER : Named Entity Recognition (place, people, date, etc)
   * Language Parser : Identitfy which group of words go together (as phrase) and which words are the subject or object of a verb.
   * SNLI : relation between 2 statements (contradict, neutral, or entailment)
   * SQuAD : Question and answering
+  * SuperGLUE :
   * SRL : Semantic understanding (machine translation, information extraction, text summarization, question answering)
   * SST-5 : Sentiment analysis - https://paperswithcode.com/sota/sentiment-analysis-on-sst-5-fine-grained
 
- See also [N], [BLEU Score], [Coreference], [Entity Extraction], [Language Parsing], [Model Benchmark], [Named Entity Recognition], [Question Answering], [Semantic Understanding], [Sentiment Analysis], [SNLI]
+ See also [N], [Benchmark], [BLEU Benchmark], [Coreference], [Entity Extraction], [GLUE Benchmark], [Language Parsing], [Model Benchmark], [Named Entity Recognition], [Question Answering], [Semantic Understanding], [Sentiment Analysis], [SNLI], [SQuAD Benchmark], [SuperGLUE Benchmark]
 
 
 # Natural Language ToolKit
@@ -247,6 +249,13 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  A period between 1998 and 2007, where research in deep learning dropped off due to limitations on data and compute. Before 1998 = academic research. After 2007 GPUs are broadly available (CUDA, etc).
 
 
+# Neuralink Company
+
+ {% youtube "https://www.youtube.com/watch?v=VlDx6yzomEg" %}
+
+ See also [N], [Company] [MindPong Game]
+
+
 # Next Sentence Prediction
 
 # NSP
@@ -303,12 +312,12 @@ B: I was just there
 
 
  Models
-  * Isaac Gym = environment for RL
-  * Megatron model = NLP large language model
-  * RIVA : text-to-speech model
-  * VIMA : multi-modal ? model for robots?
+  * [Isaac Gym] : environment for RL
+  * [Megatron Model] : NLP large language model
+  * [RIVA Model] : text-to-speech model
+  * [VIMA Model] : multi-modal ? model for robots?
 
  More at :
   * [https://blogs.nvidia.com/blog/2022/12/16/top-five-nvidia-ai-videos/](https://blogs.nvidia.com/blog/2022/12/16/top-five-nvidia-ai-videos/)
 
- See also [N], [Isaac Gym], [Megatron Model], [Riva Model], [VIMA Model]
+ See also [N], [Company]

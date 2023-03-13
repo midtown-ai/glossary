@@ -42,6 +42,74 @@ layout: page
  See also [D], [CLIP Model], [GLIDE Model]
 
 
+# DARPA Robotics Challenge
+
+ 2015 Challenge
+
+ {% youtube "https://www.youtube.com/watch?v=8P9geWwi9e0" %}
+
+ See also [D], [AI Challenge]
+
+
+# DARPA Grand Challenge
+
+ 2004 and 2005 Driverless car competition. No one completed the challenge in 2004. So second challenge in 2005!
+ 123 miles in the desert.
+ Time trial.
+ $1 million grand prize in 2004.
+ $2 million grand prize in 2005.
+  * (1) best time: Stanford with Stanley
+  * (2)
+  * (3)
+  * (4) 
+
+ {% youtube "https://www.youtube.com/watch?v=7a6GrKqOxeU" %}
+
+ {% youtube "https://www.youtube.com/watch?v=TDqzyd7fDRc" %}
+
+ More at:
+  * 2004 highlights - [https://www.youtube.com/watch?v=P__fbWm6wlg](https://www.youtube.com/watch?v=P__fbWm6wlg) 
+
+ See also [D], [AI Challenge], [Autonomous Vehicle], [DARPA Urban Challenge], [LIDAR]
+
+
+# DARPA Subterranean Challenge
+ 
+ In 2021. Map, navigate, and search for object/people.
+  * system competition
+   * $2 million - CEREBUS team
+   * $1 million - CSIRO 61 Team
+   * $500K - Marble Team
+  * virtual competition
+   * $750K
+   * $500K
+   * $250K
+
+  {% youtube "https://www.youtube.com/watch?v=HuJGIAjuxLE" %}
+
+  {% youtube "https://www.youtube.com/watch?v=6OB7r4gUh74" %}
+
+  More at:
+   * [https://subtchallenge.com/](https://subtchallenge.com/)
+
+  See also [D], [AI Challenge]
+
+
+# DARPA Urban Challenge
+
+ 2007 Driverless car competition. Moving traffic.
+  * first place: BOSS
+  * second place: Junior/Stanford/Silicon Valley
+  * third place: ..
+
+ {% youtube "https://www.youtube.com/watch?v=aHYRtOvSx-M" %}
+
+ More at:
+  * 
+
+ See also [D], [AI Challenge], [Autonomous Vehicle], [DARPA Grand Challenge], [LIDAR]
+
+
 # Data
 
  The rocket fuel for AI, ML, etc.
@@ -238,11 +306,29 @@ layout: page
  See also [D], [Inductive Reasoning]
 
 
+# Deep Belief
+
+ A type of neural network.
+
+ See also [D], [Neural Network]
+
+
 # Deep Belief Network
 
 # DBN
 
  See also [D], [Boltzmann Machine]
+
+
+# Deep Blue Challenge
+
+ Garry Kasparov vs. Deep Blue in 1996 and 1997
+
+ {% youtube "https://www.youtube.com/watch?v=KF6sLCeBj0s" %}
+
+ {% youtube "https://www.youtube.com/watch?v=mX_fQyxKiPQ" %}
+
+ See also [D], [AI Challenge]
 
 
 # Deep Convolutional GAN
@@ -258,17 +344,20 @@ layout: page
  See also [D], [Generative Adversarial Network], [Rectified Linear Unit]
 
 
-# DeepAR Forecasting
+# Deepfake
 
- Based on neural network. `Time series forecasting` (ex number of units sold). Model needs to be trained, i.e. supervised. Integrated with Sagemaker. Lots of hyperparameters. Tuning is very important.
+ Deepfakes (a portmanteau of "deep learning" and "fake") are synthetic media in which a person in an existing image or video is replaced with someone else's likeness. While the act of creating fake content is not new, deepfakes leverage powerful techniques from machine learning and artificial intelligence to manipulate or generate visual and audio content that can more easily deceive. The main machine learning methods used to create deepfakes are based on deep learning and involve training generative neural network architectures, such as autoencoders, or generative adversarial networks (GANs).
 
+ Deepfakes have garnered widespread attention for their potential use in creating child sexual abuse material, celebrity pornographic videos, revenge porn, fake news, hoaxes, bullying, and financial fraud. This has elicited responses from both industry and government to detect and limit their use.
 
-# Deep Belief
+ From traditional entertainment to gaming, deepfake technology has evolved to be increasingly convincing and available to the public, allowing the disruption of the entertainment and media industries.
 
- A type of neural network.
+ {% youtube "https://www.youtube.com/watch?v=Yb1GCjmw8_8" %}
 
- See also [D], [Neural Network]
+ More at:
+  * [https://en.wikipedia.org/wiki/Deepfake](https://en.wikipedia.org/wiki/Deepfake)
 
+ See also [D], [AI Avatar]
 
 # Deep Learning
 
@@ -296,7 +385,14 @@ layout: page
  See [Reinforcement Learning]
 
 
+# DeepAR Forecasting
+
+ Based on neural network. `Time series forecasting` (ex number of units sold). Model needs to be trained, i.e. supervised. Integrated with Sagemaker. Lots of hyperparameters. Tuning is very important.
+
+
 # DeepMind Company
+
+ {% youtube "https://www.youtube.com/watch?v=kFlLzFuslfQ" %}
 
  More at :
   * [https://www.deepmind.com/research](https://www.deepmind.com/research)
@@ -319,6 +415,11 @@ layout: page
  `You must reward for the correct outcome!` Do not only reward for the completion of an assignment, but for passing the final exam. Ex: In chess, what matters is winning the game, not really how many piece you have kept at the end!
 
  See also [D], [Addiction], [Reinforcement Learning], [Reward Shaping]
+
+
+# Dendrite
+
+ See also [D], [Biological Neuron]
 
 
 # Denoising Autoencoder

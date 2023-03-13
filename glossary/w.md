@@ -28,14 +28,49 @@ layout: page
 
 {% include links/all.md %}
 
- 
+
+# Wall-E Movie
+
+ Released in 2008 by Pixar, now part of Disney
+
+ {% youtube "https://www.youtube.com/watch?v=3Mi62VKDhm0" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/WALL-E](https://en.wikipedia.org/wiki/WALL-E)
+
+ See also [W], [AI Movie]
+
+
+# WarGames Movie
+
+ WarGames is a 1983 American science fiction techno-thriller film[2] written by Lawrence Lasker and Walter F. Parkes and directed by John Badham. The film, which stars Matthew Broderick, Dabney Coleman, John Wood, and Ally Sheedy, follows David Lightman (Broderick), a young hacker who unwittingly accesses a United States military supercomputer programmed to simulate, predict and execute nuclear war against the Soviet Union.
+
+ {% youtube "https://www.youtube.com/watch?v=TQUsLAAZuhU" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/WarGames](https://en.wikipedia.org/wiki/WarGames)
+
+ See also [W], [AI Movie]
+
+
 # Wave2Vec
 
  Used for speech.
 
  See also [W], ...
 
- 
+
+# Waymo Company
+
+ {% youtube "https://www.youtube.com/watch?v=hA_-MkU0Nfw" %}
+
+ More at:
+  * company site - [https://waymo.com/](https://waymo.com/)
+  * wikipedia - [https://en.wikipedia.org/wiki/Waymo](https://en.wikipedia.org/wiki/Waymo)
+
+ See also [W], [Company], [Google Company]
+
+
 # Weak AI
 
  Searle identified a philosophical position he calls "strong AI":

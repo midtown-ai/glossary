@@ -11,6 +11,8 @@
 [TBL]: {{ site.baseurl }}{% link glossary/t.md %}#tbl
 [Taxonomy]: {{ site.baseurl }}{% link glossary/t.md %}#taxonomy
 [Tensor]: {{ site.baseurl }}{% link glossary/t.md %}#tensor
+[Tensor Processing Unit]: {{ site.baseurl }}{% link glossary/t.md %}#tensor-processing-unit
+[TPU]: {{ site.baseurl }}{% link glossary/t.md %}#tpu
 [TensorFlow ML Framework]: {{ site.baseurl }}{% link glossary/t.md %}#tensorflow-ml-framework
 [Term Frequency]: {{ site.baseurl }}{% link glossary/t.md %}#term-frequency
 [TF]: {{ site.baseurl }}{% link glossary/t.md %}#tf

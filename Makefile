@@ -36,6 +36,9 @@ serve_site: distclean_site
 	bundle exec jekyll serve
 	# bundle exec jekyll --help
 
+show_version:
+	bundle exec jekyll -version
+
 lock_build_environment:
 	# For error in GitHub workflow
 	bundle lock --add-platform x86_64-linux

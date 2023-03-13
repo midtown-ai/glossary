@@ -22,6 +22,8 @@ gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-mentions"#, "~> 1.6.0"
+  gem "jekyll-mermaid"#, "~> 1.0.0"
   gem "jekyll-pdf-embed"
   gem "jekyll-youtube"#, "~> 1.0.0"
 end

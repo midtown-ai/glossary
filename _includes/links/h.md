@@ -1,6 +1,8 @@
 [H]: {{ site.baseurl }}{% link glossary/h.md %}
 
+[Hanson Robotics Company]: {{site.baseurl }}{% link glossary/h.md %}#hanson-robotics-company
 [Hebbian Learning]: {{site.baseurl }}{% link glossary/h.md %}#hebbian-learning
+[Her Movie]: {{site.baseurl }}{% link glossary/h.md %}#her-movie
 [Hidden Layer]: {{site.baseurl }}{% link glossary/h.md %}#hidden-layer
 [Hidden Markov Model]: {{site.baseurl }}{% link glossary/h.md %}#hidden-markov-model
 [HMM]: {{site.baseurl }}{% link glossary/h.md %}#hmm

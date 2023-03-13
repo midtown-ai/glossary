@@ -30,6 +30,7 @@
 [Meta Learning]: {{ site.baseurl }}{% link glossary/m.md %}#meta-learning
 [Meta Model]: {{ site.baseurl }}{% link glossary/m.md %}#meta-model
 [METEOR Score]: {{ site.baseurl }}{% link glossary/m.md %}#meteor-score
+[Metropolis Movie]: {{ site.baseurl }}{% link glossary/m.md %}#metropolis-movie
 [Microsoft Common Object In Context Caption Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#microsoft-common-object-in-context-caption-dataset
 [Microsoft COCO Caption Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#microsoft-coco-caption-dataset
 [MSFT COCO Caption Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#msft-coco-caption-dataset

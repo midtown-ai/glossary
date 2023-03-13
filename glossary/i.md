@@ -29,6 +29,40 @@ layout: page
 {% include links/all.md %}
 
 
+# I, Robot Movie
+
+ I, Robot is a 2004 American science fiction action film directed by Alex Proyas. 
+ In 2035, highly intelligent robots fill public service positions throughout the dystopian world, operating under three rules to keep humans safe. Detective Del Spooner (Smith) investigates the alleged suicide of U.S. Robotics founder Alfred Lanning (Cromwell) and believes that a human-like robot called Sonny (Tudyk) murdered him.
+
+ {% youtube "https://www.youtube.com/watch?v=s0f3JeDVeEo" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/I,_Robot_(film)](https://en.wikipedia.org/wiki/I,_Robot_(film))
+
+ See also [AI Movie]
+
+# IBM Company
+
+ See also [I], [Company]
+
+
+# IBM Watson
+
+ IBM Watson is a question-answering computer system capable of answering questions posed in natural language, developed in IBM's DeepQA project by a research team led by principal investigator David Ferrucci. Watson was named after IBM's founder and first CEO, industrialist Thomas J. Watson.
+
+ The computer system was initially developed to answer questions on the quiz show Jeopardy! and, in 2011, the Watson computer system competed on Jeopardy! against champions Brad Rutter and Ken Jennings, winning the first place prize of $1 million.
+
+ {% youtube "https://www.youtube.com/watch?v=P18EdAKuC1U" %}
+
+ {% youtube "https://www.youtube.com/watch?v=b2M-SeKey4o" %}
+
+ More at:
+  * site - [https://www.ibm.com/watson](https://www.ibm.com/watson)
+  * wikipedia - [https://en.wikipedia.org/wiki/IBM_Watson](https://en.wikipedia.org/wiki/IBM_Watson)
+
+ See also [I], [IBM Company]
+
+
 # Image Analysis
 
  See also [I], [Amazon Recognition]

@@ -2,6 +2,8 @@
 
 [Decision Boundary]: {{ site.baseurl }}{% link glossary/d.md %}#decision-boundary
 [DALL-E Model]: {{ site.baseurl }}{% link glossary/d.md %}#dall-e-model
+[DARPA Grand Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#darpa-grand-challenge
+[DARPA Urban Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#darpa-urban-challenge
 [Data]: {{ site.baseurl }}{% link glossary/d.md %}#data
 [Data Analyst]: {{ site.baseurl }}{% link glossary/d.md %}#data-analyst
 [Data Augmentation]: {{ site.baseurl }}{% link glossary/d.md %}#data-augmentation
@@ -28,16 +30,18 @@
 [DBN]: {{ site.baseurl }}{% link glossary/d.md %}#dbn
 [Deep Convolutional GAN]: {{ site.baseurl }}{% link glossary/d.md %}#deep-convolutional-gan
 [DCGAN]: {{ site.baseurl }}{% link glossary/d.md %}#dcgan
-[DeepAR Forecasting]: {{ site.baseurl }}{% link glossary/d.md %}#deepar-forecasting
 [Deep Belief]: {{ site.baseurl }}{% link glossary/d.md %}#deep-belief
+[Deep Blue Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#deep-bleu-challenge
 [Deep Learning]: {{ site.baseurl }}{% link glossary/d.md %}#deep-learning
 [Deep Learning Framework]: {{ site.baseurl }}{% link glossary/d.md %}#deep-learning-framework
 [Deep Neural Network]: {{ site.baseurl }}{% link glossary/d.md %}#deep-neural-network
 [DNN]: {{ site.baseurl }}{% link glossary/d.md %}#dnn
 [Deep Reinforcement Learning]: {{ site.baseurl }}{% link glossary/d.md %}#deep-reinforcement-learning
+[DeepAR Forecasting]: {{ site.baseurl }}{% link glossary/d.md %}#deepar-forecasting
 [DeepMind Company]: {{ site.baseurl }}{% link glossary/d.md %}#deepmind-company
 [DeepSpeed Project]: {{ site.baseurl }}{% link glossary/d.md %}#deepspeed-project
 [Delayed Reward]: {{ site.baseurl }}{% link glossary/d.md %}#delayed-reward
+[Dendrite]: {{ site.baseurl }}{% link glossary/d.md %}#dendrite
 [Denoising Autoencoder]: {{ site.baseurl }}{% link glossary/d.md %}#denoising-autoencoder
 [Denoising Diffusion Probabilistic Model]: {{ site.baseurl }}{% link glossary/d.md %}#denoising-diffusion-probabilistic-model
 [Dense Layer]: {{ site.baseurl }}{% link glossary/d.md %}#dense-layer
