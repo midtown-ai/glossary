@@ -242,6 +242,12 @@ with alpha = learning_rate
 # LightGBM
 
  An ensemble method.
+ LightGBM, short for light gradient-boosting machine, is a free and open-source distributed gradient-boosting framework for machine learning, originally developed by Microsoft. It is based on [Decision tree algorithms][Decision Tree] and used for ranking, [classification] and other machine learning tasks. The development focus is on performance and scalability.
+
+ More at:
+  * [https://lightgbm.readthedocs.io/en/latest/index.html](https://lightgbm.readthedocs.io/en/latest/index.html)
+  * [https://github.com/microsoft/LightGBM](https://github.com/microsoft/LightGBM)
+  * [https://en.wikipedia.org/wiki/LightGBM](https://en.wikipedia.org/wiki/LightGBM)
 
  See also [L], [Ensemble Method]
 

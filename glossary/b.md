@@ -71,6 +71,13 @@ layout: page
  See also [B], [Overfitting], [Underfitting]
 
 
+# Bard Model
+
+ A lightweight version of [Lambda Model], meant to counter MSFT Bing + [ChatGPT]
+
+ See also [B], ...
+
+
 # Batch 
 
  When the training dataset is large, it needs to be broken into chunks called batch. Each batch is then used to build the model.
@@ -316,6 +323,13 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  Create a a caption for an image using an encoder-decoder model (unlike the CLIP model, does not use the same embedding space?).
 
  See also [B], [CLIP Model], [Image Reconstruction], [Multimodal Translation], [Text Reconstruction]
+
+
+# Black Box Model
+
+ A neural network is a black box model as even if you saw the weights you would have difficulties understanding how it comes to a decision. In fact it may come to the right answer using the wrong reasons. The opposite of a [White Box Model] in relation to [Explainable AI]
+
+ See also [B], ...
 
 
 # Boltzmann Machine

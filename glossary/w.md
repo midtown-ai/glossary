@@ -120,7 +120,14 @@ layout: page
  More at:
   * [https://openai.com/blog/whisper/](https://openai.com/blog/whisper/)
 
- See also [W], [O], [OpenAI Company]
+ See also [W], [OpenAI Company]
+
+
+# White Box Model
+
+ A white box model is a model whose internals a person can see and reason about. This is subjective, but most people would agree that in a neural network, even if the weights were shown, they don’t give us information about how the model works in such a way as we could usefully describe it, or predict what the model is going to do in the future. So while a neural network is a [Black Box Model], a decision tree is a white box one! White and black box models are concept links to [Explainable AI]
+
+ See also [W], ...
 
  
 # Word Embedding

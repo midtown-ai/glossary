@@ -72,6 +72,13 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], [Entity Extraction], [NLP Benchmark]
 
 
+# Nash Equilibrium
+
+ In [Game Theory], ...
+
+ See also [N], ...
+
+
 # Natural Intelligence
 
  See also [N], [Artificial Intelligence]
@@ -196,6 +203,16 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  Attribute to which the object needs to be the furthest away. Ex if you are trying to find a cat in a set of images, use a white noise image to describe negative attributes.
 
  See also [N], [Attribute], [Positive Attribute]
+
+
+# Neptune AI Company
+
+ An AI [Company]
+
+ More at:
+  * [https://neptune.ai/blog](https://neptune.ai/blog) 
+
+ See also [N], ...
 
 
 # Neural Architecture Search

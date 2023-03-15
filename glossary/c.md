@@ -48,6 +48,26 @@ layout: page
  See also [C], [Autoregressive], [Decoder], [GPT Model], [Natural Language Generation]
 
 
+# CatBoost Library
+
+ CatBoost is a machine learning method based on [Gradient Boosting] over [Decision Trees][Decision Tree].
+
+ Main advantages:
+  * Superior quality when compared with other GBDT libraries on many datasets.
+  * Best in class prediction speed.
+  * Support for both numerical and categorical features.
+  * Fast GPU and multi-GPU support for training out of the box.
+  * Visualization tools included.
+  * Fast and reproducible distributed training with Apache Spark and CLI.
+
+ More at:
+  * [https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145](https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145)
+  * [https://github.com/catboost/catboost](https://github.com/catboost/catboost)
+  * [https://github.com/catboost/tutorials/#readme](https://github.com/catboost/tutorials/#readme) - tutorials
+
+ See also [C], ...
+
+
 # Categorical Variable
 
  A variable that takes discrete non-numerical value, such as a shirt size (XS, S, M, L, XL) or gender (M, F). Because computer works with numbers, to be processed categorical variables are normally turned into discrete variables.
@@ -90,17 +110,28 @@ layout: page
 
 # ChatGPT Model
 
- A GPT based model that has a state,  that is you can have a discussion/dialog with the device. This model is fine-tuned with "supervised" interactions as was done with the InstructGPT model, a precursor to ChatGPT. In recent weeks, the internet has been going crazy with the new ChatGPT model. In general, ChatGPT is part of a series of releases around GPT 3.5 that are highlighting some of the capabilities of the upcoming GPT-4 model. One of the key differences of ChatGPT with previous models is its ability to follow instructions. This is powered another model called InstructGPT which OpenAI quietly unveiled at the beginning of the year.
+ A GPT-based model that has a state,  that is you can have a discussion/dialog with the device. This model is fine-tuned with "supervised" interactions as was done with the InstructGPT model, a precursor to ChatGPT. In recent weeks, the internet has been going crazy with the new ChatGPT model. In general, ChatGPT is part of a series of releases around GPT 3.5 that are highlighting some of the capabilities of the upcoming GPT-4 model. One of the key differences of ChatGPT with previous models is its ability to follow instructions. This is powered another model called InstructGPT which OpenAI quietly unveiled at the beginning of the year.
 
  {% youtube "https://www.youtube.com/watch?v=AsFgn8vU-tQ" %}
+
  {% youtube "https://www.youtube.com/watch?v=pOmpqdlVCoo" %}
 
  More at:
-   * gpt vs chatgpt vs instructgpt - [https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5](https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5)
-   * webgpt chrome extension - [https://twitter.com/DataChaz/status/1610556519531089921](https://twitter.com/DataChaz/status/1610556519531089921)
-   * [https://www.cnn.com/2022/12/05/tech/chatgpt-trnd/index.html](https://www.cnn.com/2022/12/05/tech/chatgpt-trnd/index.html)
+  * gpt vs chatgpt vs instructgpt - [https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5](https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5)
+  * webgpt chrome extension - [https://twitter.com/DataChaz/status/1610556519531089921](https://twitter.com/DataChaz/status/1610556519531089921)
+  * [https://www.cnn.com/2022/12/05/tech/chatgpt-trnd/index.html](https://www.cnn.com/2022/12/05/tech/chatgpt-trnd/index.html)
 
  See also [C], [Chatbot], [Digital Watermark], [Feedback], [GPT Model], [InstructGPT Model], [Reward Model], [Reinforcement Learning], [Sparrow Model], [Supervised Fine-Tuning]
+
+
+# Child Development Milestone
+
+ Skills such as taking a first step, smiling for the first time, and waving “bye bye” are called developmental milestones. Children reach milestones in how they play, learn, speak, act, and move.
+
+ More at:
+  * [https://www.cdc.gov/ncbddd/actearly/milestones/index.html](https://www.cdc.gov/ncbddd/actearly/milestones/index.html)
+
+ See also [C], ...
  
 
 # CIDEr Score
@@ -215,6 +246,7 @@ layout: page
 # Company
 
  Example of companies are:
+  * [Adept][Adept AI Company]
   * [Anthropic][Anthropic Company]
   * [Apple][Apple Company]
   * [Boston Dynamics][Boston Dynamics Company]
@@ -223,6 +255,7 @@ layout: page
   * [Hanson Robotics][Hanson Robotics Company]: Build humanoid for consumer, entertainment, service, healthcare, and research applications. 
   * [Meta][Meta Company] (formerly known as Facebook)
   * [Microsoft][Microsoft Company]
+  * [Neptune AI][Neptune AI Company]
   * [Neuralink][Neuralink Company]
   * [Nvidia][Nvidia Company]
   * [OpenAI][OpenAI Company]
@@ -303,6 +336,13 @@ layout: page
  See also [C], ...
 
 
+# Continuous Action Space
+
+ In [Reinforcement Learning], a non-finite set of [Actions][Action]. You define a minimum and a maximum, i.e. a range, for your parameters and the agent can select a value for that range automatically. 
+
+ See also [C], ...
+
+
 # Continuous Variable
 
  A variable that can take any value, possibly within a range.
@@ -332,7 +372,7 @@ layout: page
   * [https://openai.com/blog/clip/](https://openai.com/blog/clip/)
   * Hierarchical Text-Conditional Image Generation with CLIP Latents (paper) - [https://arxiv.org/abs/2204.06125](https://arxiv.org/abs/2204.06125)
 
- See also [C], [CLIP Image Encoder], [CLIP Text Encoder], [Embedding Space], [Natural Language Supervision], [Vision Transformer], [VQGAN]
+ See also [C], [CLIP Image Encoder], [CLIP Text Encoder], [Embedding Space], [Natural Language Supervision], [OpenAI Company], [Vision Transformer], [VQGAN]
 
 
 # Convolution
@@ -380,6 +420,21 @@ layout: page
    * [https://medium.com/easyread/an-introduction-to-convolution-neural-network-cnn-for-a-beginner-88548e4b2a84](https://medium.com/easyread/an-introduction-to-convolution-neural-network-cnn-for-a-beginner-88548e4b2a84)
 
  See also [C], [Attention-Based Model], [Convolution], [Convolutional Layer], [Deconvolution Neural Network], [Fully Connected Layer], [Kernel Filter], [Image Classification], [Instance Segmentation], [Latent Space], [Neural Network], [Object Detection], [Max Pooling Layer], [Rectified Linear Unit], [Region Based CNN], [Semantic Segmentation], [Subsampling]
+
+
+# Convolutional Neural Network Feature Extractor
+
+# CNN Feature Extractor
+
+
+ When using a [CNN], ... [ResNet50 Architecture]
+
+ {% pdf "{{site.assets}}/c/convolutional_neural_network_feature_extractor_paper.pdf" %}
+
+ More at:
+  * [https://medium.com/birdie-ai/how-to-use-cnns-as-feature-extractors-54c69c1d4bdf](https://medium.com/birdie-ai/how-to-use-cnns-as-feature-extractors-54c69c1d4bdf)
+
+ See also [C}, ...
 
 
 # Coreference

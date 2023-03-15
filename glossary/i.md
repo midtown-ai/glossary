@@ -271,6 +271,16 @@ layout: page
  See also [I], [Amazon Lex]
 
 
+# InterpretML
+
+ Developed by [Microsoft Company] as an open source project, InterpretML is “a toolkit to help understand models and enable responsible machine learning”. 
+
+ More at:
+  * [https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145](https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145)
+
+ See also [I], ...
+
+
 # Inverse Document Frequency
 
 # IDF

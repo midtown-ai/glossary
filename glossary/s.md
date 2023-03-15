@@ -260,6 +260,28 @@ StandardScaler()
  The model in compact form, delivered to endpoint.
 
 
+# Shapley Value
+
+ In [Game Theory], ...
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Shapley_value](https://en.wikipedia.org/wiki/Shapley_value)
+
+ See also [S], ...
+
+
+# SHAP Value
+
+ SHAP is another novel approach to [explainability][Explainable AI] developed by Scott Lundberg at [Microsoft][Microsoft Company] and eventually opened sourced.
+
+ SHAP has a strong mathematical foundation based on Shapley values in game theory where each player in the cooperation is rewarded based on how important they are to cooperation.
+ 
+ More at:
+  * [https://towardsdatascience.com/what-is-explainable-ai-xai-afc56938d513](https://towardsdatascience.com/what-is-explainable-ai-xai-afc56938d513)
+
+ See also [S], ...
+
+
 # Siamese Network
 
  A convolutional encoder that looks at similarities. Ex: Compare 2 images of a lion with nothing else.
@@ -493,6 +515,9 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
 
 # State
 
+ In reinforcement learning, links the agent and the environment. 
+ For every state the agent takes a decision to reach its goal. 
+
  Beware:
   * Sometimes you do not know the state, but can make an observation that is strongly correlated to the state.
 
@@ -536,6 +561,15 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
  Input = mean + variance, i.e a distribution, but output = a sample of that distribution. Different from a deterministic node.
 
  See also [S], [Deterministic Node], [Variational Autoencoder Reparametrization Trick]
+
+
+# Streamlit
+
+ Morea t:
+  * [https://streamlit.io/gallery](https://streamlit.io/gallery)
+  * [https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145](https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145)
+
+ SEe also [S], ...
 
 
 # Strong Artificial Intelligence

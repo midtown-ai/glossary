@@ -66,6 +66,47 @@ layout: page
  See also [H], [AI Movie]
  
 
+# Heuristic
+
+ A heuristic is a mental shortcut that allows an individual to make a decision, pass judgment, or solve a problem quickly and with minimal mental effort. While heuristics can reduce the burden of decision-making and free up limited cognitive resources, they can also be costly when they lead individuals to miss critical information or act on unjust [biases][Bias].
+
+ The study of heuristics was developed by renowned psychologists Daniel Kahneman and Amos Tversky. Starting in the 1970s, Kahneman and Tversky identified several different kinds of heuristics, most notably the availability heuristic and the anchoring heuristic. Since then, researchers have continued their work and identified many different kinds of heuristics, including:
+  * Familiarity heuristic
+  * Fundamental attribution error
+  * Representativeness heuristic
+  * Satisficing
+
+  ```
+What is the anchoring heuristic?
+The anchoring heuristic, or anchoring bias, occurs when someone relies more heavily on the first piece of information learned when making a choice, even if it's not the most relevant. In such cases, anchoring is likely to steer individuals wrong.
+
+What is the availability heuristic?
+The availability heuristic describes the mental shortcut in which someone estimates whether something is likely to occur based on how readily examples come to mind. People tend to overestimate the probability of plane crashes, homicides, and shark attacks, for instance, because examples of such events are easily remembered.
+
+What is the representativeness heuristic?
+People who make use of the representativeness heuristic categorize objects (or other people) based on how similar they are to known entities—assuming someone described as "quiet" is more likely to be a librarian than a politician, for instance.
+
+What is satisficing?
+Satisficing is a decision-making strategy in which the first option that satisfies certain criteria is selected, even if other, better options may exist.
+
+What is the fundamental attribution error?
+Sometimes called the attribution effect or correspondence bias, the term describes a tendency to attribute others’ behavior primarily to internal factors—like personality or character—while attributing one’s own behavior more to external or situational factors.
+ ```
+ When are heuristic wrong?
+ ```
+What is an example of the fundamental attribution error?
+If one person steps on the foot of another in a crowded elevator, the victim may attribute it to carelessness. If, on the other hand, they themselves step on another’s foot, they may be more likely to attribute the mistake to being jostled by someone else.
+
+Listen to your gut, but don’t rely on it. Think through major problems methodically—by making a list of pros and cons, for instance, or consulting with people you trust. Make extra time to think through tasks where snap decisions could cause significant problems, such as catching an important flight.
+ ```
+
+ More at:
+  * [https://www.psychologytoday.com/us/basics/heuristics](https://www.psychologytoday.com/us/basics/heuristics)
+  * [https://www.investopedia.com/terms/h/heuristics.asp](https://www.investopedia.com/terms/h/heuristics.asp)
+
+ See also [H], [Deep Blue Challenge]
+
+
 # Hidden Layer
 
  See also [H], [Neural Network]

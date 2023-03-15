@@ -113,17 +113,18 @@ cheese =>                                   # Prompt
 # OpenAI Company
 
  Models:
-  * ChatGPT
-  * Codex Model
-  * DALL-E Model
-  * GPT Model
-  * Gym Environment
-  * Whisper model
+  * [ChatGPT][ChatGPT Model] : An fine-tuned model of GTP that is based on dialog
+  * [CLIP][CLIP Model] : A model that can put a legend to an image
+  * [Codex][Codex Model] : A [LLM] that specialize on generating code
+  * [DALL-E][DALL-E Model] : A [Diffusion Model] that from text can generate images
+  * [GPT][GPT Model] : A Generative model for text
+  * [Gym Environment][OpenAI Gym Environment] : Environments for development of [Reinforcement Learning] algorithms.
+  * [Whisper][Whisper Model] : A text-to-speech model
 
  More at:
   * [http://www.openai.com](http://www.openai.com)
 
- See also [O], [ChatGPT], [DALL-E Model], [GPT Model], [Microsoft Company], [OpenAI Gym Environment], [Whisper Model]
+ See also [O], [Microsoft Company]
 
 
 # OpenAI Gym Environment

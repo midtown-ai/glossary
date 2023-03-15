@@ -2,6 +2,7 @@
 
 [Caffe]: {{ site.baseurl }}{% link glossary/c.md %}#caffe
 [Casual Language Modeling]: {{ site.baseurl }}{% link glossary/c.md %}#casual-language-modeling
+[CatBoost Library]: {{ site.baseurl }}{% link glossary/c.md %}#catboost-libary
 [Categorical Variable]: {{ site.baseurl }}{% link glossary/c.md %}#categorical-variable
 [Cell Block]: {{ site.baseurl }}{% link glossary/c.md %}#cell-block
 [Central Limit Theorem]: {{ site.baseurl }}{% link glossary/c.md %}#central-limit-theorem
@@ -9,6 +10,7 @@
 [Chained Model]: {{ site.baseurl }}{% link glossary/c.md %}#chained-model
 [Chatbot]: {{ site.baseurl }}{% link glossary/c.md %}#chatbot
 [Chatgpt Model]: {{ site.baseurl }}{% link glossary/c.md %}#chatgpt-model
+[Child Development Milestone]: {{ site.baseurl }}{% link glossary/c.md %}#child-development-milestone
 [CIDEr Score]: {{ site.baseurl }}{% link glossary/c.md %}#cider-score
 [CICERO Model]: {{ site.baseurl }}{% link glossary/c.md %}#cicero-model
 [CIFAR-10 Dataset]: {{ site.baseurl }}{% link glossary/c.md %}#cifar-10-dataset
@@ -35,6 +37,7 @@
 [Constraint Satisfaction Problem]: {{ site.baseurl }}{% link glossary/c.md %}#constraint-satisfaction-problem
 [Consumer Electric Show]: {{ site.baseurl }}{% link glossary/c.md %}#consumer-electronic-show
 [CES]: {{ site.baseurl }}{% link glossary/c.md %}#ces
+[Continuous Action Space]: {{ site.baseurl }}{% link glossary/c.md %}#continuous-action-space
 [Continuous Variable]: {{ site.baseurl }}{% link glossary/c.md %}#continuous-variable
 [Contrastive Language Image Pre-training Model]: {{ site.baseurl }}{% link glossary/c.md %}#contrastive-language-image-pre-training-model
 [CLIP Model]: {{ site.baseurl }}{% link glossary/c.md %}#clip-model
@@ -43,6 +46,8 @@
 [Convolutional Layer]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-layer
 [Convolutional Neural Network]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-neural-network
 [CNN]: {{ site.baseurl }}{% link glossary/c.md %}#cnn
+[Convolutional Neural Network Feature Extractor]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-neural-network-feature-extractor
+[CNN Feature Extractor]: {{ site.baseurl }}{% link glossary/c.md %}#cnn-feature-extractor
 [Coreference]: {{ site.baseurl }}{% link glossary/c.md %}#coreference
 [Corpus]: {{ site.baseurl }}{% link glossary/c.md %}#corpus
 [Cost Function]: {{ site.baseurl }}{% link glossary/c.md %}#cost-function

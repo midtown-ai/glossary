@@ -27,6 +27,7 @@
 [Insufficient Data Algorithm]: {{ site.baseurl }}{% link glossary/i.md %}#insufficient-data-algorithm
 [Intelligence]: {{ site.baseurl }}{% link glossary/i.md %}#intelligence
 [Intent Analysis]: {{ site.baseurl }}{% link glossary/i.md %}#intent-analysis
+[InterpretML]: {{ site.baseurl }}{% link glossary/i.md %}#interpretml
 [Inverse Document Frequency]: {{ site.baseurl }}{% link glossary/i.md %}#inverse-document-frequency
 [IDF]: {{ site.baseurl }}{% link glossary/i.md %}#idf
 [Inverse Dynamics Model]: {{ site.baseurl }}{% link glossary/i.md %}#inverse-dynamics-model

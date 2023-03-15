@@ -255,7 +255,7 @@ layout: page
 
 # Decision Tree
 
- Can be used for regression and classification.
+ Decision trees are [White Box Models][White Box Model] that Can be used for regression and classification.
   * classification:  Go from the root node to the leaf of the tree where is the classification.
   * regression: use the mean square error (MSE)
 
@@ -278,6 +278,8 @@ layout: page
 # Decoder Representation
  
  This is ...
+
+ See also [D], ...
 
 
 # Decoder Representation Space
@@ -322,11 +324,14 @@ layout: page
 
 # Deep Blue Challenge
 
- Garry Kasparov vs. Deep Blue in 1996 and 1997
+ Garry Kasparov vs. Deep Blue in 1996 and 1997. Deep blue is an [heuristic-basedi][Heuristic] game-playing program.
 
  {% youtube "https://www.youtube.com/watch?v=KF6sLCeBj0s" %}
 
  {% youtube "https://www.youtube.com/watch?v=mX_fQyxKiPQ" %}
+
+ More at:
+  * [https://www.sciencedirect.com/science/article/pii/S0004370201001291](https://www.sciencedirect.com/science/article/pii/S0004370201001291)
 
  See also [D], [AI Challenge]
 
@@ -371,6 +376,11 @@ layout: page
  From deep learning revolution that started ~ 2007.
 
  See also [D], [Caffe], [MXNET], [PyTorch ML Framework], [TensorFlow ML Framework]
+
+
+# Deep Multi-Task Learning
+
+ See also [D], ...
 
 
 # Deep Neural Network
@@ -590,6 +600,14 @@ We need to do this for
 
  ![]( {{site.assets}}/d/discovery_phase_questions.png ){: width="100%"}
 
+
+# Discrete Action Space
+
+ In [Reinforcement Learning], when the [Action Space] is a set of actions.
+
+ ![]( {{site.assets}}/d/discrete_action_space.png ){: width="100%"}
+
+ See also [D], ...
 
 # Discrete Variable
 

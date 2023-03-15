@@ -45,6 +45,16 @@ layout: page
  See also [G], [Large Language Model], [Meta Company]
 
 
+# Game Theory
+
+ Used in model architecture, such as [GAN] and used for decision making process, such as in [Pluribus Model]
+
+ More at:
+  * ...
+
+ See also [G], [Nash Equilibrium], [Shapley Value]
+
+
 # Gated Recurrent Unit Cell
 
 # GRU Cell
@@ -92,6 +102,30 @@ layout: page
   * [https://gluebenchmark.com/](https://gluebenchmark.com/)
 
  See also [G], [Benchmark], [SuperGLUE Benchmark]
+
+
+# Generalized Additive 2 Model
+
+# GA2M
+
+ Use GA2Ms if they are significantly more accurate than [GAMs][GAM], especially if you believe from your domain knowledge that there are real feature interactions, but they are not too complex. This also gives the advantages of a [White Box Model], with more effort to interpret.
+ 
+ More at:
+  * constrained GA2M paper - [https://arxiv.org/abs/2106.02836](https://arxiv.org/abs/2106.02836)
+
+ See also [G], ...
+
+
+# Generalized Additive Model
+
+# GAM
+
+ Generalized Additive Models (GAMs) were developed in the 1990s by Hastie and Tibshirani. 
+ 
+ More at:
+  * [https://www.fiddler.ai/blog/a-gentle-introduction-to-ga2ms-a-white-box-model](https://www.fiddler.ai/blog/a-gentle-introduction-to-ga2ms-a-white-box-model)
+
+ See also [G], ...
 
 
 # Generative Adversarial Network
@@ -157,9 +191,17 @@ layout: page
 
  {% pdf "{{site.assets}}/g/gpt3_model_paper.pdf" %}
 
+ GPT4 released on Tuesday 03/14/2023
+
+ {% pdf "{{site.assets}}/g/gpt4_model_paper.pdf" %}
+
+ {% youtube "https://www.youtube.com/watch?v=outcGtbnMuQ" %}
+
  More at:
    * GPT-1 paper - [https://paperswithcode.com/paper/improving-language-understanding-by](https://paperswithcode.com/paper/improving-language-understanding-by)
    * GPT-2 paper - [https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) (also attached)
+   * GPT-3 paper -
+   * GPT-4 paper - [https://cdn.openai.com/papers/gpt-4.pdf](https://cdn.openai.com/papers/gpt-4.pdf)
    * GPT fine-tuning - [https://platform.openai.com/docs/guides/fine-tuning](https://platform.openai.com/docs/guides/fine-tuning)
    * gpt vs chatgpt vs instructgpt - [https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5](https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5)
 
@@ -235,6 +277,7 @@ layout: page
 # Google Company
 
  Models developed by the company
+   * [Bard Model] : A lightweight version of Lambda meant to compete against Bing + [ChatGPT Model]
    * [BERT Model]
    * [Chinchila Model] :
    * [Gshard Model] :

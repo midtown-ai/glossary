@@ -12,11 +12,13 @@
 [Adaptive Boosting]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-boosting
 [AdaBoost]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-boosting
 [Addiction]: {{ site.baseurl }}{% link glossary/a.md %}#addiction
+[Adept AI Company]: {{ site.baseurl }}{% link glossary/a.md %}#adept-ai-company
 [Adversarial Attack]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-attack
 [Adversarial Imitation Learning]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-imitation-learning
 [Adversarial Model]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-model
 [Adversarial Policy]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-policy
 [Agent]: {{ site.baseurl }}{% link glossary/a.md %}#agent
+[Agent's Goal]: {{ site.baseurl }}{% link glossary/a.md %}#agent-s-goal
 [AI Alignment]: {{ site.baseurl }}{% link glossary/a.md %}#ai-alignment
 [AI Artificial Intelligence Movie]: {{ site.baseurl }}{% link glossary/a.md %}#ai-artificial-intelligence-movie
 [AI Avatar]: {{ site.baseurl }}{% link glossary/a.md %}#ai-avatar

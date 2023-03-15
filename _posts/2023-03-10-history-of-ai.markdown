@@ -23,9 +23,14 @@ categories: jekyll update
  * 2016       - [Google Translate]
  * 2016       - [AlphaGo Model]
  * 2017       - [Transformer Model]
- * 2018       - [AlphaFold Model] by [DeepMind Company]
- * 2019       - [Pluribus Model] by [Facebook Company] = First AI to beat human professionals in multiplayer poker
- * 2020       - Viral happy new year by [Boston Dynamic Company]
+ * 2018       - [AlphaFold Model] by [DeepMind][DeepMind Company]
+ * 2019       - [Pluribus Model] by [Facebook][Facebook Company] = First AI to beat human professionals in multiplayer poker
+ * 2020       - Viral happy new year by [Boston Dynamics Company]
+ * 2021
+ * 2022       - [GPT3][GPT Model] and [ChatGPT][ChatGPT Model] by [OpenAI][OpenAI Company]
+ * 2023       - [AlphaTensor][AlphaTensor Model]
+ * 2023       - [Bard Model] by [Google][Google Company]
+
 
 {% highlight ruby %}
 def print_hi(name)

@@ -50,12 +50,18 @@ TP + TN + FP + FN = all experiments/classifications
 
 # Action
 
- See also [A], [Action Space], [Reinforcement Learning]
+ In [Reinforcement Learning], ...
+
+ See also [A], [Action Space]
 
 
 # Action Space
 
- See also [A], [Action], [Reinforcement Learning]
+ In [Reinforcement Learning], represents a set of actions.
+  * [Discrete action space] : We can individually define each action.
+  * [Continuous action space]
+
+ See also [A], [Action]
 
 
 # Action Transformer
@@ -148,6 +154,17 @@ First, we believe the clearest framing of general intelligence is a system that 
   See also [A], [Delayed Reward], [Reinforcement Learning], [Reward Shaping]
 
 
+# Adept AI Company
+
+ An [AI Company]
+
+ More at:
+  * [https://www.adept.ai/](https://www.adept.ai/)
+  * [https://www.crunchbase.com/organization/adept-48e7](https://www.crunchbase.com/organization/adept-48e7)
+
+ See also [A], ...
+
+
 # Adversarial Attack
 
  In the last few years researchers have found many ways to break AIs trained using labeled data, known as supervised learning. Tiny tweaks to an AI’s input—such as changing a few pixels in an image—can completely flummox it, making it identify a picture of a sloth as a race car, for example. These so-called adversarial attacks have no sure fix.
@@ -178,9 +195,20 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 # Agent
 
- A person, an animal, or a program that is free to make a decision or take an action.
+ A person, an animal, or a program that is free to make a decision or take an action. An agent has a goal.
+ The agent is focusing on maximizing its cumulative reward.
 
- See also [Reinforcement Learning]
+ Examples:
+  * DeepRacer, the goal of the program running on the car is to go around the track as fast as possible without getting out of the track.
+
+ See also [Agent's Goal], [Cumulative Reward], [Reinforcement Learning]
+
+
+# Agent's goal
+
+ An Agent is set by using the appropriate reward and reward shaping.
+
+ See also [A], ...
 
 
 # AI Alignment

@@ -3,6 +3,7 @@
 [Hanson Robotics Company]: {{site.baseurl }}{% link glossary/h.md %}#hanson-robotics-company
 [Hebbian Learning]: {{site.baseurl }}{% link glossary/h.md %}#hebbian-learning
 [Her Movie]: {{site.baseurl }}{% link glossary/h.md %}#her-movie
+[Heuristics]: {{site.baseurl }}{% link glossary/h.md %}#heuristics
 [Hidden Layer]: {{site.baseurl }}{% link glossary/h.md %}#hidden-layer
 [Hidden Markov Model]: {{site.baseurl }}{% link glossary/h.md %}#hidden-markov-model
 [HMM]: {{site.baseurl }}{% link glossary/h.md %}#hmm

@@ -4,6 +4,7 @@
 [Bag Of Words]: {{ site.baseurl }}{% link glossary/b.md %}#bag-of-words
 [Baggingng]: {{ site.baseurl }}{% link glossary/b.md %}#bag-of-words
 [Balanced Fitting]: {{ site.baseurl }}{% link glossary/b.md %}#balanced-fitting
+[Bard Model]: {{ site.baseurl }}{% link glossary/b.md %}#bard-model
 [Batch]: {{ site.baseurl }}{% link glossary/b.md %}#batch
 [Batch Gradient Descent]: {{ site.baseurl }}{% link glossary/b.md %}#batch-gradient-descent
 [Batch Normalization]: {{ site.baseurl }}{% link glossary/b.md %}#batch-normalization
@@ -29,6 +30,7 @@
 [Binary Cross-Entropy Loss Function]: {{ site.baseurl }}{% link glossary/b.md %}#binary-cross-entropy-loss-function
 [Biological Neuron]: {{ site.baseurl }}{% link glossary/b.md %}#biological-neuron
 [BLIP Model]: {{ site.baseurl }}{% link glossary/b.md %}#blip-model
+[Black Box Model]: {{ site.baseurl }}{% link glossary/b.md %}#black-box-model
 [Boltzmann Machine]: {{ site.baseurl }}{% link glossary/b.md %}#boltzmann-machine
 [Boosting]: {{ site.baseurl }}{% link glossary/b.md %}#boosting
 [Boosting Step Size]: {{ site.baseurl }}{% link glossary/b.md %}#boosting-step-size

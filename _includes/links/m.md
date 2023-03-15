@@ -43,6 +43,7 @@
 [Mixture Of Local Experts]: {{ site.baseurl }}{% link glossary/m.md %}#mixture-of-local-exports
 [MoE]: {{ site.baseurl }}{% link glossary/m.md %}#moe
 [ML Algorithm Evaluation]: {{ site.baseurl }}{% link glossary/m.md %}#ml-algorithm-evaluation
+[MLFlow]: {{ site.baseurl }}{% link glossary/m.md %}#mlflow
 [MLOps]: {{ site.baseurl }}{% link glossary/m.md %}#mlops
 [MNIST Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#mnist-dataset
 [Model]: {{ site.baseurl }}{% link glossary/m.md %}#model

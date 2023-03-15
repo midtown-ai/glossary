@@ -34,6 +34,7 @@
 [Deep Blue Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#deep-bleu-challenge
 [Deep Learning]: {{ site.baseurl }}{% link glossary/d.md %}#deep-learning
 [Deep Learning Framework]: {{ site.baseurl }}{% link glossary/d.md %}#deep-learning-framework
+[Deep Multi-Task Learning]: {{ site.baseurl }}{% link glossary/d.md %}#deep-multi-task-learning
 [Deep Neural Network]: {{ site.baseurl }}{% link glossary/d.md %}#deep-neural-network
 [DNN]: {{ site.baseurl }}{% link glossary/d.md %}#dnn
 [Deep Reinforcement Learning]: {{ site.baseurl }}{% link glossary/d.md %}#deep-reinforcement-learning
@@ -57,6 +58,7 @@
 [Digital Watermark]: {{ site.baseurl }}{% link glossary/d.md %}#digital-watermark
 [Dimensionality Reduction]: {{ site.baseurl }}{% link glossary/d.md %}#dimensionality-reduction
 [Discovery Phase]: {{ site.baseurl }}{% link glossary/d.md %}#discovery-phase
+[Discrete Action Space]: {{ site.baseurl }}{% link glossary/d.md %}#discrete-action-space
 [Discrete Variable]: {{ site.baseurl }}{% link glossary/d.md %}#discrete-variable
 [Discriminative Classifier]: {{ site.baseurl }}{% link glossary/d.md %}#discriminative-classifier
 [Discriminator]: {{ site.baseurl }}{% link glossary/d.md %}#discriminator

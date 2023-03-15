@@ -203,6 +203,13 @@ layout: page
  See also [E], [Reinforcement Learning]
 
 
+# Episode
+
+ In [Reinforcement Learning], 
+
+ See also [E], ...
+
+
 # Epoch
 
  `A complete pass on the dataset ~ 1 iteration!`. A complete dataset can be large in which case it is broken in batches and processed in many iteration (one per batch). Why use more than one Epoch? It may not look correct that passing the entire dataset through an ML algorithm or neural network is not enough, and we need to pass it multiple times to the same algorithm. So it needs to be kept in mind that to optimize the learning, we use gradient descent, an iterative process. Hence, it is not enough to update the weights with a single pass or one epoch. Moreover, one epoch may lead to overfitting in the model. In other words, when the training loop has passed through the entire training dataset once, we call that one epoch. Training for a higher number of epochs will mean your model will take longer to complete its training task, but it may produce better output if it has not yet converged.
@@ -259,7 +266,22 @@ layout: page
  See also [E], [Big Data], [Deep Learning], [Machine Learning]
 
 
-# Explainability
+# Explainable AI
+
+# XAI
+
+ As more and more companies embed AI and advanced analytics within a business process and automate decisions, there needs to have transparency into how these models make decisions grows larger and larger. How do we achieve this transparency while harnessing the efficiencies AI brings. This is where the field of Explainable AI (XAI) can help. 
+
+ More at:
+  * [https://towardsdatascience.com/what-is-explainable-ai-xai-afc56938d513](https://towardsdatascience.com/what-is-explainable-ai-xai-afc56938d513)
+  * [https://en.wikipedia.org/wiki/Explainable_artificial_intelligence#](https://en.wikipedia.org/wiki/Explainable_artificial_intelligence#)
+
+ See also [E], [Black Box Model], [White Box Model]
+
+
+# Explainability Spectrum
+
+ ![]( {{site.assets}}/e/explainability_spectrum.png ){: width="100%"}
 
  See also [E], [Chain Of Thought Prompting]
 
@@ -277,6 +299,19 @@ layout: page
 
  See also [E], [Activation Function], [Gradient Clipping], [Recurrent Neural Network], [Vanishing Gradient Problem]
 
+
+# Exploitation
+
+ In [Reinforcement Learning]
+
+ See also [E], ... 
+
+
+# Exploration
+
+ In [Reinforcement Learning]
+
+ See also [E], ... 
 
 # Expressiveness
 

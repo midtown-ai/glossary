@@ -146,10 +146,20 @@ layout: page
 
  Pluribus is a computer poker player using artificial intelligence built by Facebook's AI Lab and Carnegie Mellon University. Pluribus plays the poker variation no-limit Texas hold 'em and is "the first bot to beat humans in a complex multiplayer competition".
 
+ Challenge:
+  * Poken is a game of imperfect information
+
+ {% pdf "{{site.assets}}/p/pluribus_science_article.pdf" %}
+
+ {% youtube "https://www.youtube.com/watch?v=u90TbxK7VEA" %}
+
+ {% youtube "https://www.youtube.com/watch?v=BDF528wSKl8" %}
+
  More at:
+  * [https://ai.facebook.com/blog/pluribus-first-ai-to-beat-pros-in-6-player-poker/](https://ai.facebook.com/blog/pluribus-first-ai-to-beat-pros-in-6-player-poker/)
   * [https://en.wikipedia.org/wiki/Pluribus_(poker_bot)](https://en.wikipedia.org/wiki/Pluribus_(poker_bot))
 
- See also [P], [Facebook Company]
+ See also [P], [Facebook Company], [Game Theory]
 
 
 # Point Estimator
@@ -187,6 +197,10 @@ layout: page
 
 
 # Policy Neural Network
+
+ In [Reinforcement Learning], in the case of [AWS DeepRacer], the policy network consists of a [CNN] followed by a neural network to turn the features into an [Action] taken from the [Action Space]. In this case, the policy network can be though off as a classifier, to turn an image into an action.
+
+ ![]( {{site.assets}}/p/policy_neural_network.png ){: width="100%}
 
  See also [P], ...
 
@@ -349,7 +363,7 @@ Prediction Error = actual_value - predicted_value
   * paper - [https://arxiv.org/abs/1707.06347](https://arxiv.org/abs/1707.06347)
   * [http://karpathy.github.io/2016/05/31/rl/](http://karpathy.github.io/2016/05/31/rl/)
 
- See also [P], [Policy Gradient Solution], [Reinforcement Learning]
+ See also [P], [Policy Gradient Solution], [Reinforcement Learning], [SAC]
 
 
 # PyBullet

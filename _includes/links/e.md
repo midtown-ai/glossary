@@ -20,6 +20,7 @@
 [Entity Extraction]: {{site.baseurl }}{% link glossary/e.md %}#entity-extraction
 [Entropy]: {{site.baseurl }}{% link glossary/e.md %}#entropy
 [Environment]: {{site.baseurl }}{% link glossary/e.md %}#environment
+[Episode]: {{site.baseurl }}{% link glossary/e.md %}#episode
 [Epoch]: {{site.baseurl }}{% link glossary/e.md %}#epoch
 [Error]: {{site.baseurl }}{% link glossary/e.md %}#error
 [Estimator]: {{site.baseurl }}{% link glossary/e.md %}#estimator
@@ -27,9 +28,13 @@
 [Ex Machina Movie]: {{site.baseurl }}{% link glossary/e.md %}#ex-machina-movie
 [Expected Value]: {{site.baseurl }}{% link glossary/e.md %}#expected-value
 [Expert System]: {{site.baseurl }}{% link glossary/e.md %}#expert-system
-[Explainability]: {{site.baseurl }}{% link glossary/e.md %}#explainability
+[Explainability Spectrum]: {{site.baseurl }}{% link glossary/e.md %}#explainability-spectrum
+[Explainable AI]: {{site.baseurl }}{% link glossary/e.md %}#explainable-ai
+[XAI]: {{site.baseurl }}{% link glossary/e.md %}#xai
 [Explanatory Variable]: {{site.baseurl }}{% link glossary/e.md %}#explanatory-variable
 [Exploding Gradient Problem]: {{ site.baseurl }}{% link glossary/e.md %}#exploding-gradient-problem
+[Exploitation]: {{site.baseurl }}{% link glossary/e.md %}#exploitation
+[Exploration]: {{site.baseurl }}{% link glossary/e.md %}#exploration
 [Expressiveness]: {{site.baseurl }}{% link glossary/e.md %}#expressiveness
 [Extreme Gradient Boosting]: {{site.baseurl }}{% link glossary/e.md %}#extreme-gradient=boosting
 [XGBoost]: {{site.baseurl }}{% link glossary/e.md %}#xgboost

@@ -27,6 +27,8 @@
 [Sequence To Sequence Transformer]: {{ site.baseurl}}{% link glossary/s.md %}#sequence-to-sequence-transformer
 [Seq2Seq Transformer]: {{ site.baseurl}}{% link glossary/s.md %}#seq2seq-transformer
 [Serialized Flat File]: {{ site.baseurl}}{% link glossary/s.md %}#serialized-flat-file
+[Shapley Value]: {{ site.baseurl}}{% link glossary/s.md %}#shaplet-value
+[SHAP Value]: {{ site.baseurl}}{% link glossary/s.md %}#shap-value
 [Siamese Network]: {{ site.baseurl}}{% link glossary/s.md %}#siamese-network
 [Sigmoid Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-activation-function
 [Sigmoid Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-function
@@ -62,6 +64,7 @@
 [Stochastic Gradient Descent]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-gradient-descent
 [SGD]: {{ site.baseurl}}{% link glossary/s.md %}#sgd
 [Stochastic Node]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-node
+[Streamlit]: {{ site.baseurl}}{% link glossary/s.md %}#streamlit
 [Strong Artificial Intelligence]: {{ site.baseurl}}{% link glossary/s.md %}#strong-artificial-intelligence
 [Strong AI]: {{ site.baseurl}}{% link glossary/s.md %}#strong-ai
 [Style GAN]: {{ site.baseurl}}{% link glossary/s.md %}#style-gan

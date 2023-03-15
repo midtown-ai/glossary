@@ -2,12 +2,17 @@
 
 [Galactica Large Language Model]: {{ site.baseurl }}{% link glossary/g.md %}#galactica-large-language-model
 [Galactica LLM]: {{ site.baseurl }}{% link glossary/g.md %}#galactica-llm
+[Game Theory]: {{ site.baseurl }}{% link glossary/g.md %}#game-theory
 [Gated Recurrent Unit Cell]: {{ site.baseurl }}{% link glossary/g.md %}#gated-recurrent-unit-cell
 [GRU Cell]: {{ site.baseurl }}{% link glossary/g.md %}#gru-cell
 [Gaussian Distribution]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-distribution
 [Gaussian Process]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-process
 [General Language Understanding Evaluation Benchmark]: {{ site.baseurl }}{% link glossary/g.md %}#general-language-understanding-evaluation-benchmark
 [GLUE Benchmark]: {{ site.baseurl }}{% link glossary/g.md %}#glue-benchmark
+[Generalized Additive 2 Model]: {{ site.baseurl }}{% link glossary/g.md %}#generalized-additive-2-model
+[GA2M]: {{ site.baseurl }}{% link glossary/g.md %}#ga2m
+[Generalized Additive Model]: {{ site.baseurl }}{% link glossary/g.md %}#generalized-additive-model
+[GAM]: {{ site.baseurl }}{% link glossary/g.md %}#gam
 [Generative Adversarial Network]: {{ site.baseurl }}{% link glossary/g.md %}#generative-adversarial-network
 [GAN]: {{ site.baseurl }}{% link glossary/g.md %}#gan
 [Generative Classifier]: {{ site.baseurl }}{% link glossary/g.md %}#generative-classifier

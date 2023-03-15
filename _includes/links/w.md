@@ -10,6 +10,7 @@
 [Weak Supervision Labeling Function]: {{ site.baseurl }}{% link glossary/w.md %}#weak-supervision-labeling-function
 [Weighted Gini Impurity Index]: {{ site.baseurl }}{% link glossary/w.md %}#weighted-gini-impurity-index
 [Whisper Model]: {{ site.baseurl }}{% link glossary/w.md %}#whisper-model
+[White Box Model]: {{ site.baseurl }}{% link glossary/w.md %}#white-box-model
 [Word Embedding]: {{ site.baseurl }}{% link glossary/w.md %}#word-embedding
 [Word Embedding Space]: {{ site.baseurl }}{% link glossary/w.md %}#word-embedding-space
 [Word2Vec]: {{ site.baseurl }}{% link glossary/w.md %}#word2vec
