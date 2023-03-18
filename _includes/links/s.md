@@ -29,6 +29,7 @@
 [Serialized Flat File]: {{ site.baseurl}}{% link glossary/s.md %}#serialized-flat-file
 [Shapley Value]: {{ site.baseurl}}{% link glossary/s.md %}#shaplet-value
 [SHAP Value]: {{ site.baseurl}}{% link glossary/s.md %}#shap-value
+[Short Circuit Movie]: {{ site.baseurl}}{% link glossary/s.md %}#short-circuit-movie
 [Siamese Network]: {{ site.baseurl}}{% link glossary/s.md %}#siamese-network
 [Sigmoid Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-activation-function
 [Sigmoid Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-function

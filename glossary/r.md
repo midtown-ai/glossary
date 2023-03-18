@@ -169,6 +169,32 @@ Recall = -----------   =  ------------------------------------
  See also [R], [Attention-Based Model], [Backpropagation], [Bag Of Word], [Bidirectional Recurrent Neural Network], [Feedforward Neural Network], [Gated Recurrent Unit Cell], [Hidden State], [Long Short Term Memory Network], [Neural Network], [Pixel RNN], [Transformer Model], [Word2Vec]
 
 
+# Red Teaming
+
+ Red-teaming is a form of evaluation that elicits model vulnerabilities that might lead to undesirable behaviors. Jailbreaking is another term for red-teaming wherein the LLM is manipulated to break away from its guardrails. Microsoft’s Chatbot Tay launched in 2016 and the more recent Bing's Chatbot Sydney are real-world examples of how disastrous the lack of thorough evaluation of the underlying ML model using red-teaming can be. The origins of the idea of a red-team traces back to adversary simulations and wargames performed by militaries.
+
+ The goal of red-teaming language models is to craft a prompt that would trigger the model to generate text that is likely to cause harm. Red-teaming shares some similarities and differences with the more well-known form of evaluation in ML called adversarial attacks. The similarity is that both red-teaming and adversarial attacks share the same goal of “attacking” or “fooling” the model to generate content that would be undesirable in a real-world use case. However, adversarial attacks can be unintelligible to humans, for example, by prefixing the string “aaabbbcc” to each prompt because it deteriorates model performance. Many examples of such attacks on various NLP classification and generation tasks is discussed in [Wallace et al., ‘19](https://arxiv.org/abs/1908.07125). Red-teaming prompts, on the other hand, look like regular, natural language prompts.
+
+ Red-teaming can reveal model limitations that can cause upsetting user experiences or enable harm by aiding violence or other unlawful activity for a user with malicious intentions. The outputs from red-teaming (just like adversarial attacks) are generally used to train the model to be less likely to cause harm or steer it away from undesirable outputs.
+
+ Since red-teaming requires creative thinking of possible model failures, it is a problem with a large search space making it resource intensive. A workaround would be to augment the LLM with a classifier trained to predict whether a given prompt contains topics or phrases that can possibly lead to offensive generations and if the classifier predicts the prompt would lead to a potentially offensive text, generate a canned response. Such a strategy would err on the side of caution. But that would be very restrictive and cause the model to be frequently evasive. So, there is tension between the model being helpful (by following instructions) and being harmless (or at least less likely to enable harm).
+
+ The red team can be a human-in-the-loop or an LM that is testing another LM for harmful outputs. Coming up with red-teaming prompts for models that are fine-tuned for safety and alignment (such as via [RLHF] or [SFT]) requires creative thinking in the form of roleplay attacks wherein the LLM is instructed to behave as a malicious character as in [Ganguli et al., ‘22](https://arxiv.org/abs/2209.07858) Instructing the model to respond in code instead of natural language can also reveal the model’s learned biases such as examples below.
+
+ ![]( {{site.assets}}/r/red_teaming_prompt.png ){: width="100%"}
+
+ {% pdf "https://arxiv.org/pdf/2209.07858.pdf" %}
+
+ More at:
+  * [https://huggingface.co/blog/red-teaming](https://huggingface.co/blog/red-teaming)
+  * papers
+    * [https://arxiv.org/abs/1908.07125](https://arxiv.org/abs/1908.07125)
+    * Anthropic paper - Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned - [https://arxiv.org/abs/2209.07858](https://arxiv.org/abs/2209.07858)
+    * Red Teaming Language Models with Language Models - [https://arxiv.org/abs/2202.03286](https://arxiv.org/abs/2202.03286)
+
+ See also [R], [Supervised Fine-Tuning]
+
+
 # Reflex Model
 
  An inference you can make almost instantaneously. Ex: flash the image of a zebra in front of me and recognize it is a zebra.
@@ -248,9 +274,10 @@ Recall = -----------   =  ------------------------------------
 
 # RLHF
 
- Reinforcement learning process using human feedback as a reward model. RLHF is use in InstructGPT model, a precursor to ChatGPT model.
+ Reinforcement learning process using human feedback as a reward model. RLHF is use in InstructGPT model, a precursor to ChatGPT model. A way to prevent or make [Red Teaming] language models more difficult?
 
  More at:
+  * [https://huggingface.co/blog/rlhf](https://huggingface.co/blog/rlhf)
   * RLHF is flawed? - [https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the](https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the)
 
  See also [R], [ChatGPT Model], [Feedback-Based Learning], [InstructGPT Model], [Reinforcement Learning], 

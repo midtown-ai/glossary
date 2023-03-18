@@ -265,6 +265,8 @@ First, we believe the clearest framing of general intelligence is a system that 
   * 1968 - [2001 Space Odyssey][2001 Space Odyssey Movie]
   * 1983 - [WarGames][WarGames Movie]
   * 1984 - [Electric Dreams][Electric Dreams Movie]
+  * 1986 - [Short Circuit][Short Circuit movie]
+  * 1999 - [The Matrix][The Matrix Movie]
   * 2001 - [AI Artificial Intelligence][AI Artificial Intelligence Movie]
   * 2004 - [I, Robot][I, Robot Movie]
   * 2008 - [Wall-E][Wall-E Movie]

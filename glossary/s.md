@@ -282,6 +282,18 @@ StandardScaler()
  See also [S], ...
 
 
+# Short Circuit Movie
+
+ Short Circuit is a 1986 American science fiction comedy film directed by John Badham and written by S. S. Wilson and Brent Maddock. The film's plot centers upon an experimental military robot that is struck by lightning and gains a human-like intelligence, prompting it to escape its facility to learn more about the world.
+
+ {% youtube "https://www.youtube.com/watch?v=savkuEQKz8Q" %}
+
+ More at:
+  * https://en.wikipedia.org/wiki/Short_Circuit_(1986_film)
+
+ See also [S], [AI Movie]
+
+
 # Siamese Network
 
  A convolutional encoder that looks at similarities. Ex: Compare 2 images of a lion with nothing else.
@@ -631,9 +643,9 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
 
 # SFT
 
- `A way to turn a generalist pre-trained model into a "fine-tuned" expert model, aka domain-specific model` Normally done with supervised learning to minimize the number of samples required and be less compute intensive and be more compute friendly?
+ `A way to turn a generalist [pre-trained model] into a "fine-tuned" expert model, aka domain-specific model` Normally done with [supervised learning] to minimize the number of samples required and be less compute intensive and be more compute friendly?
 
- See also [S], [Domain-Specific Model], [Pre-Trained Model], [Supervised Learning], [Transfer Learning]
+ See also [S], [Domain-Specific Model], [Red Teaming], [Transfer Learning]
 
 
 # Supervised Learning

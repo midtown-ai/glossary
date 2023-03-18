@@ -218,6 +218,16 @@ layout: page
  See also [C], [OpenAI Company]
 
 
+# Cohere AI Company
+
+ Cohere (stylized as co:here) is a Canadian startup that provides [Natural Language Processing] models that help companies improve human-machine interactions. Cohere was founded in 2019 by Aidan Gomez, Ivan Zhang, and Nick Frosst.
+
+ More at:
+  * [https://cohere.ai/](https://cohere.ai/)
+
+ See also [C], [Company]
+
+
 # Collaborative Filtering
 
  Used for recommendation of song/movies/etc where people mark what they like. If a person A has the same tastes as another person B, then what person B likes will be recommended to person A.
@@ -246,21 +256,23 @@ layout: page
 # Company
 
  Example of companies are:
-  * [Adept][Adept AI Company]
-  * [Anthropic][Anthropic Company]
-  * [Apple][Apple Company]
-  * [Boston Dynamics][Boston Dynamics Company]
-  * [DeepMind][DeepMind Company]
-  * [Google][Google Company]
+  * [Adept][Adept AI Company]: Focus on [AGI] through automation of tasks on desktops
+  * [Anthropic][Anthropic Company]: Focus on LLM, building an alternative to [GPT models][GPT Model]
+  * [Apple][Apple Company]: Large company in the world, strangely not so influential in the AI industry. At least not yet!
+  * [Baidu][Baidu Company]: Chinese search engine
+  * [Boston Dynamics][Boston Dynamics Company]: Focus on robotics
+  * [Cohere][Cohere AI Company]: Focus on NLP applications
+  * [DeepMind][DeepMind Company]: Focus on AI applications in science
+  * [Google][Google Company]: Known for its search engine and ad-placement business model. Challenged by Microsoft
   * [Hanson Robotics][Hanson Robotics Company]: Build humanoid for consumer, entertainment, service, healthcare, and research applications. 
-  * [Meta][Meta Company] (formerly known as Facebook)
-  * [Microsoft][Microsoft Company]
+  * [Meta][Meta Company]:  Formerly known as Facebook with a strong focus on the multiverse and more recently on AI
+  * [Microsoft][Microsoft Company]: One of the largest company in the world, leading changes with AI 
   * [Neptune AI][Neptune AI Company]
-  * [Neuralink][Neuralink Company]
-  * [Nvidia][Nvidia Company]
-  * [OpenAI][OpenAI Company]
-  * [Synthesia][Synthesia Company]: AI avatars
-  * [Waymo][Waymo Company]: Self-driving car 
+  * [Neuralink][Neuralink Company]: A company lead by [Elon Musk] that is focusing on human [Brain] Machine Interfaces
+  * [Nvidia][Nvidia Company]: The leading supplier of [GPU]
+  * [OpenAI][OpenAI Company]: Focus on democratizing AI. Known for releasing [ChatGPT][ChatGPT Model]
+  * [Synthesia][Synthesia Company]: Focus on AI avatars
+  * [Waymo][Waymo Company]: Focus on self-driving car 
 
  See also [C], ...
 

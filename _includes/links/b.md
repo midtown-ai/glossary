@@ -3,6 +3,7 @@
 [Backpropagation]: {{ site.baseurl }}{% link glossary/b.md %}#backpropagation
 [Bag Of Words]: {{ site.baseurl }}{% link glossary/b.md %}#bag-of-words
 [Baggingng]: {{ site.baseurl }}{% link glossary/b.md %}#bag-of-words
+[Baidu Company]: {{ site.baseurl }}{% link glossary/b.md %}#baidu-company
 [Balanced Fitting]: {{ site.baseurl }}{% link glossary/b.md %}#balanced-fitting
 [Bard Model]: {{ site.baseurl }}{% link glossary/b.md %}#bard-model
 [Batch]: {{ site.baseurl }}{% link glossary/b.md %}#batch

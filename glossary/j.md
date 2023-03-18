@@ -34,6 +34,14 @@ layout: page
 
  See also [J], [Resampling Method]
 
+
+# Jailbreaking
+
+ Similar to [Red Teaming], but also encompass every method to bypass controls for the model's generated output.
+
+ See [J], [Red Teaming]
+
+
 # Join Distribution
 
  Joint distribution is based on joint probability, which can be simply defined as the probability of two events (variables) happening together. These two events are usually coined event A and event B, and can formally be written as:

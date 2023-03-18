@@ -13,6 +13,7 @@
 [ROC Curve]: {{site.baseurl }}{% link glossary/r.md %}#roc-curve
 [Recommendation Engine]: {{site.baseurl }}{% link glossary/r.md %}#recommendation-enginer
 [Rectified Linear Unit Activation Function]: {{site.baseurl }}{% link glossary/r.md %}#rectified-linear-unit-activation-function
+[Red Teaming]: {{site.baseurl }}{% link glossary/r.md %}#red-teaming
 [ReLU Activation Function]: {{site.baseurl }}{% link glossary/r.md %}#relu-activation-function
 [Rectified Linear Unit Layer]: {{site.baseurl }}{% link glossary/r.md %}#rectified-linear-function
 [ReLU Layer]: {{site.baseurl }}{% link glossary/r.md %}#relu-layer

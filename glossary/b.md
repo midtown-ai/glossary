@@ -62,6 +62,13 @@ layout: page
  See also [B], [Boosting], [Decision Tree], [Ensemble Method], [Random Forest], [Weak Learner]
 
 
+# Baidu Company
+
+ Baidu, Inc. (meaning "hundred times") is a Chinese multinational technology company specializing in Internet-related services, products, and artificial intelligence (AI), headquartered in Beijing's Haidian District. It is one of the largest AI and Internet companies in the world. 
+
+ See also [B], [Company]
+
+
 # Balanced Fitting
 
  Good generalization for other data.

@@ -21,6 +21,7 @@
 [Clustering]: {{ site.baseurl }}{% link glossary/c.md %}#clustering
 [CNTK]: {{ site.baseurl }}{% link glossary/c.md %}#cntk
 [Codex Model]: {{ site.baseurl }}{% link glossary/c.md %}#codex-model
+[Cohere AI Company]: {{ site.baseurl }}{% link glossary/c.md %}#cohere-ai-company
 [Collaborative Filtering]: {{ site.baseurl }}{% link glossary/c.md %}#collaborative-filtering
 [Colossal Clean Crawled Corpus]: {{ site.baseurl }}{% link glossary/c.md %}#colossal-clean-crawled-corpus
 [C4 Dataset]: {{ site.baseurl }}{% link glossary/c.md %}#c4-dataset

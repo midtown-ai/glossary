@@ -118,7 +118,7 @@ theme: minima
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 #
-# = Minima
+# = Minima (COMMON FOR ALL THEME?)
 #
 title: Midtown AI
 email: ai4all@midtown.ai
@@ -126,15 +126,23 @@ description: >- # this means to ignore newlines until "baseurl:"
   AI will not replace people,
   but people who use AI will replace those who do not
 
-baseurl: "/glossary" # the subpath of your site, e.g. /blog
+# ORIGINAL CONFIG
 # baseurl: "/blog" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# url: "https://midtown.ai" # the base hostname & protocol for your site, e.g. http://example.com
-url: "https://midtown-ai.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# CUSTOM
+baseurl: ""
+url: "https://glossary.midtown.ai" # the base hostname & protocol for your site, e.g. http://example.com
+assets: "/assets"
+
+# GITHUB ONLY
+# baseurl: "/glossary" # the subpath of your site, e.g. /blog
+# url: "https://midtown-ai.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# assets: "/glossary/assets"
+
 twitter_username: midtown_ai
 github_username:  midtown-ai
 
-assets: "/glossary/assets"
 #
 # = Minimal-mistake configuration
 #

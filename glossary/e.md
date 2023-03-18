@@ -251,6 +251,8 @@ layout: page
  More at:
   * [https://en.wikipedia.org/wiki/Ex_Machina_(film)](https://en.wikipedia.org/wiki/Ex_Machina_(film)) 
 
+ See also [E], [AI Movie]
+
 
 # Expected Value
 

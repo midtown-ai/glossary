@@ -152,6 +152,18 @@ layout: page
  See also [G], [AR-CNN], [Convolutional Neural Network], [Conditional GAN], [Cycle GAN], [DeepComposer], [Discriminator], [Generative Model], [Generator]
 
 
+# Generative Artificial Intelligence
+
+# Generative AI
+
+ Generative artificial intelligence (AI) describes algorithms (such as ChatGPT) that can be used to create new content, including audio, code, images, text, simulations, and videos. Recent new breakthroughs in the field have the potential to drastically change the way we approach content creation.
+
+ More at:
+  * https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-generative-ai
+
+ See also [G], [DALL-E Model], [ChatGPT Model]
+
+
 # Generative Classifier
 
  Generative Classifiers tries to model class, i.e., what are the features of the class. In short, it models how a particular class would generate input data. When a new observation is given to these classifiers, it tries to predict which class would have most likely generated the given observation. Such methods try to learn about the environment. An example of such classifiers is Naive Bayes. Mathematically, generative models try to learn the joint probability distribution, `p(x,y)`, of the inputs x and label y, and make their prediction using Bayes rule to calculate the conditional probability, `p(y|x)`, and then picking a most likely label. Thus, it tries to learn the actual distribution of the class.
@@ -196,6 +208,7 @@ layout: page
  {% pdf "{{site.assets}}/g/gpt4_model_paper.pdf" %}
 
  {% youtube "https://www.youtube.com/watch?v=outcGtbnMuQ" %}
+ {% youtube "https://www.youtube.com/watch?v=PEjl7-7lZLA" %}
 
  More at:
    * GPT-1 paper - [https://paperswithcode.com/paper/improving-language-understanding-by](https://paperswithcode.com/paper/improving-language-understanding-by)
@@ -296,6 +309,8 @@ layout: page
 
  Companies
    * [DeepMind][DeepMind Company]
+
+ {% youtube "https://www.youtube.com/watch?v=X5iLF-cszu0&t=611s" %}
 
  See also [G], [Company]
 
