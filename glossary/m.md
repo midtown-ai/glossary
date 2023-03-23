@@ -29,6 +29,18 @@ layout: page
 {% include links/all.md %}
 
 
+# M3GAN Movie
+
+ M3GAN (pronounced "Megan") is a 2022 American science fiction horror film directed by Gerard Johnstone, written by Akela Cooper from a story by Cooper and James Wan (who also produced with Jason Blum), and starring Allison Williams and Violet McGraw, with Amie Donald physically portraying M3GAN and Jenna Davis voicing the character. Its plot follows the eponymous artificially intelligent doll who develops self-awareness and becomes hostile toward anyone who comes between her and her human companion.
+
+ {% youtube "https://www.youtube.com/watch?v=BRb4U99OU80" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/M3GAN](https://en.wikipedia.org/wiki/M3GAN)
+
+ See also [M], [AI Movie]
+
+
 # Machine Learning
 
  Part of AI, AI with first a learning phase! A subset of AI. `Field of study that gives computers the ability to learn without being explicitly programmed` 1 or more layers of data, includes but not limited to neural networks. Unsupervised, supervised (classification + regression) , reinforcement. `Data --> Model --> Prediction`.
@@ -336,6 +348,16 @@ def mse_loss(y_pred, y_true):
  See also [M], [Hyperparameter Optimization], [Meta Learning]
 
 
+# Metaverse
+
+ Think of it as the internet brought to life, or at least rendered in 3D. Zuckerberg has described it as a "virtual environment" you can go inside of — instead of just looking at on a screen. Essentially, it's a world of endless, interconnected virtual communities where people can meet, work and play, using virtual reality headsets, augmented reality glasses, smartphone apps or other devices.
+
+ More at:
+  * [https://www.npr.org/2021/10/28/1050280500/what-metaverse-is-and-how-it-will-work](https://www.npr.org/2021/10/28/1050280500/what-metaverse-is-and-how-it-will-work)
+
+ See also [M], [The Matrix Movie], [Virtual Reality]
+
+
 # METEOR Score
 
  See also [M], [MS COCO Caption Dataset]
@@ -427,6 +449,23 @@ def mse_loss(y_pred, y_true):
  Just like SGD, the average cost over the epochs in mini-batch gradient descent fluctuates because we are averaging a small number of examples at a time. But the mini-batch gradient descent is a good (the best) approximation. Also note that the path is less optimized than the "complete" gradient descent where you take all sample into consideration for one step, but it is a good approximation and the destination/convergence is the same = the local minima is not changed by the path taken to reach it.
 
  See also [M], [Batch Gradient Descent], [Gradient Descent], [Mini-Batch], [Stochastic Gradient Descent]
+
+
+# Mixed Reality
+
+# MR
+
+ Mixed reality is a blend of physical and digital worlds, unlocking natural and intuitive 3D human, computer, and environmental interactions. This new reality is based on advancements in computer vision, graphical processing, display technologies, input systems, and cloud computing.
+
+ Mixed reality is the midpoint in the [Virtual Continuum]
+
+ {% youtube "https://www.youtube.com/watch?v=_xpI0JosYUk" %}
+
+ More at:
+  * [https://learn.microsoft.com/en-us/windows/mixed-reality/discover/mixed-reality](https://learn.microsoft.com/en-us/windows/mixed-reality/discover/mixed-reality)
+  * [https://en.wikipedia.org/wiki/Mixed_reality](https://en.wikipedia.org/wiki/Mixed_reality)
+
+ See also [M], ...
 
 
 # Mixture Of Local Experts
@@ -537,6 +576,15 @@ def mse_loss(y_pred, y_true):
  See also [M], [Reflex Model], [Logic Model], [State Model], [Variable Model]
 
 
+# Model-Based Reinforcement Learning
+
+ In [Reinforcement Learning] ....
+
+  {% youtube "https://www.youtube.com/watch?v=vfpZu0R1s1Y" %}
+
+ See also [M], ...
+
+
 # Multiclass Classification
 
  ML for classification in more than 2 categories.
@@ -564,7 +612,7 @@ def mse_loss(y_pred, y_true):
  Questions:
   * How does that relate to transfer learning?
 
- See also [M], [Insufficient Data Algorithm], [Transfer Learning]
+ See also [M], [Gato Model], [Insufficient Data Algorithm], [Transfer Learning]
 
 
 # Multiattribute Objective

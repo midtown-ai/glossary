@@ -17,6 +17,7 @@
 [Adversarial Imitation Learning]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-imitation-learning
 [Adversarial Model]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-model
 [Adversarial Policy]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-policy
+[Affective Computing]: {{ site.baseurl }}{% link glossary/a.md %}#affective-computing
 [Agent]: {{ site.baseurl }}{% link glossary/a.md %}#agent
 [Agent's Goal]: {{ site.baseurl }}{% link glossary/a.md %}#agent-s-goal
 [AI Alignment]: {{ site.baseurl }}{% link glossary/a.md %}#ai-alignment
@@ -25,8 +26,11 @@
 [AI Ethics]: {{ site.baseurl }}{% link glossary/a.md %}#ai-ethics
 [AI Movie]: {{ site.baseurl }}{% link glossary/a.md %}#ai-movie
 [Algorithmic]: {{ site.baseurl }}{% link glossary/a.md %}#algorithmic
+[Alpaca Model]: {{ site.baseurl }}{% link glossary/a.md %}#alpaca-model
+[AlphaCode Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphacode-model
 [AlphaGO Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphago-model
 [AlphaFold Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphafold-model
+[AlphaStar Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphastar-model
 [AlphaTensor Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphatensor-model
 [AlphaZero Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphazero-model
 [Amazon Company]: {{ site.baseurl }}{% link glossary/a.md %}#amazon-company
@@ -70,6 +74,8 @@
 [Attention-Based Model]: {{ site.baseurl }}{% link glossary/a.md %}#attention-based-model
 [Attention Score]: {{ site.baseurl }}{% link glossary/a.md %}#attention-score
 [Attribute]: {{ site.baseurl }}{% link glossary/a.md %}#attribute
+[Augmented Reality]: {{ site.baseurl }}{% link glossary/a.md %}#augmented-reality
+[AR]: {{ site.baseurl }}{% link glossary/a.md %}#ar
 [Autoencoder]: {{ site.baseurl }}{% link glossary/a.md %}#autoencoder
 [Autoencoder Bottleneck]: {{ site.baseurl }}{% link glossary/a.md %}#autoencoder-bottleneck
 [Autoencoder Type]: {{ site.baseurl }}{% link glossary/a.md %}#autoencoder-type

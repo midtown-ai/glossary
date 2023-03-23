@@ -11,6 +11,7 @@
 [Feedback]: {{site.baseurl }}{% link glossary/f.md %}#feedback
 [Feedback-Based Learning]: {{site.baseurl }}{% link glossary/f.md %}#feedback-based-learning
 [Feedforward Neural Network]: {{site.baseurl }}{% link glossary/f.md %}#feedforward-neural-network
+[Feeling]: {{site.baseurl }}{% link glossary/f.md %}#feeling
 [Few-Shot Learning]: {{site.baseurl }}{% link glossary/f.md %}#few-shot-learning
 [File Mode]: {{site.baseurl }}{% link glossary/f.md %}#file-mode
 [Fine-Tuning]: {{site.baseurl }}{% link glossary/f.md %}#fine-tuning

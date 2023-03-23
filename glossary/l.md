@@ -181,6 +181,7 @@ layout: page
 # Learning Method
 
  All of those are or should be machine learning algorithm type! Here is a non-exhaustive list:
+  * experience : learn from the past/data
   * unsupervised : try, fail, learn from failures ? Takes a long time / many iteration!
   * imitation : clone behavior of experts <== good to get started, but do you understand?
   * supervised learning : with a teacher
@@ -284,6 +285,22 @@ with alpha = learning_rate
   * code - [https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html](https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html)
 
  See also [L], [Classification], [Multiple Linear Regression], [Non-Linear Regression], [Prediction Error], [Regression]
+
+
+# LlaMA Model
+
+ Using the scaling method described in [Chinchilla][Chinchilla Model]
+ 65 Billion parameters.
+
+ {% youtube "https://www.youtube.com/watch?v=E5OnoYF2oAk" %}
+
+ {% pdf "{{site.assets}}/l/llama_model_paper.pdf" %}
+
+ More at:
+  * [https://ai.facebook.com/blog/large-language-model-llama-meta-ai/](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/)
+  * paper [https://arxiv.org/abs/2302.13971](https://arxiv.org/abs/2302.13971)
+
+ See also [L], ...
 
 
 # Log Loss Function

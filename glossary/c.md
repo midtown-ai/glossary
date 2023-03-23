@@ -134,6 +134,25 @@ layout: page
  See also [C], ...
  
 
+# Chinchilla Model
+
+ An optimized model of [Goopher][Gopher Model]. Achieved the same performance with fewer parameters!
+
+```
+FLOPS   Params    Nb_of_tokens     ==> Performance
+set       <search space>               set
+```
+
+ {% youtube "https://www.youtube.com/watch?v=PZXN7jm9IC0" %}
+
+ {% pdf "{{site.assets}}/c/chinchilla_paper.pdf" %}
+
+ More at:
+  * Training Compute-Optimal Large Language Models (Paper) - [https://arxiv.org/abs/2203.15556](https://arxiv.org/abs/2203.15556)
+
+ See also [C], ...
+
+
 # CIDEr Score
 
  See also [C], [MS COCO Caption Dataset]
@@ -263,6 +282,8 @@ layout: page
   * [Boston Dynamics][Boston Dynamics Company]: Focus on robotics
   * [Cohere][Cohere AI Company]: Focus on NLP applications
   * [DeepMind][DeepMind Company]: Focus on AI applications in science
+  * [ElevenLabs][ElevenLabs Company]: Focus on Text-to-speech rendition
+  * [GitHub][GitHub Company]: Code repositories with advanced features including  AI pair programming with Codex
   * [Google][Google Company]: Known for its search engine and ad-placement business model. Challenged by Microsoft
   * [Hanson Robotics][Hanson Robotics Company]: Build humanoid for consumer, entertainment, service, healthcare, and research applications. 
   * [Meta][Meta Company]:  Formerly known as Facebook with a strong focus on the multiverse and more recently on AI
@@ -291,8 +312,12 @@ layout: page
 
 
 # Computer Vision
+
+ * [Ibject Detection]
+ * [Object Recognition]
+ * [Object Tracking]
  
- See also [C], [CNN], [ResNET Model]
+ See also [C], [Convoluted Neural Network], [OpenCV Library], [ResNET Model]
 
 
 # Conditioning

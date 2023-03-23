@@ -56,6 +56,7 @@
 [SQuAD Benchmark]: {{ site.baseurl}}{% link glossary/s.md %}#squad-benchmark
 [Stanford Autonomous Helicopter]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-autonomous-helicopter
 [Stanford Natural Language Inference]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-natural-language-inference
+[Stanford University]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-university
 [SNLI]: {{ site.baseurl}}{% link glossary/s.md %}#snli
 [State]: {{ site.baseurl}}{% link glossary/s.md %}#state
 [State Model]: {{ site.baseurl}}{% link glossary/s.md %}#state-model

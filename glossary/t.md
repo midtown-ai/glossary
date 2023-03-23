@@ -76,7 +76,7 @@ layout: page
    * blog article - [https://medium.com/syncedreview/google-t5-explores-the-limits-of-transfer-learning-a87afbf2615b](https://medium.com/syncedreview/google-t5-explores-the-limits-of-transfer-learning-a87afbf2615b)
    * [https://paperswithcode.com/method/t5#:~:text=T5%2C%20or%20Text%2Dto%2D,to%20generate%20some%20target%20text.](https://paperswithcode.com/method/t5#:~:text=T5%2C%20or%20Text%2Dto%2D,to%20generate%20some%20target%20text.)
 
- See also [T], [BERT Model], [Colossal Clean Crawled Corpus], [Google Company], [Switch Transformer], [Transformer Model]
+ See also [T], [BERT Model], [Colossal Clean Crawled Corpus], [Google Company], [Switch Transformer], [Transformer Architecture], [Transformer Model]
 
 
 # Target Attribute
@@ -138,6 +138,20 @@ layout: page
 # TensorFlow ML Framework
 
  See also [T], [Deep Learning Framework], [Distributed Training], [Google Company], [Machine Learning Framework]
+
+
+# Terminator Movie
+
+ The Terminator is a 1984 American science fiction action film directed by James Cameron. It stars Arnold Schwarzenegger as the Terminator, a cyborg assassin sent back in time from 2029 to 1984 to kill Sarah Connor (Linda Hamilton), whose unborn son will one day save mankind from extinction by Skynet, a hostile artificial intelligence in a post-apocalyptic future.
+
+ {% youtube "https://www.youtube.com/watch?v=k64P4l2Wmeg" %}
+
+ {% youtube "https://www.youtube.com/watch?v=piPIckK_R0o" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/The_Terminator](https://en.wikipedia.org/wiki/The_Terminator)
+
+ See also [T], [AI Movie]
 
 
 # Term Frequency
@@ -233,7 +247,7 @@ layout: page
  More at:
   * [https://en.wikipedia.org/wiki/The_Matrix](https://en.wikipedia.org/wiki/The_Matrix)
 
- See also [M], [AI Movie]
+ See also [M], [AI Movie], [Metaverse]
 
 
 # Theano
@@ -391,7 +405,7 @@ vocab[2], vocab[13884], vocab[5], \
  See also [T], [Labeling Function], [Slicing Function], [Snorkel Program]
 
 
-# Transformer Model
+# Transformer Architecture
 
  The Transformer is a recent deep learning model for use with sequential data such as text, time series, music, and genomes. Whereas older sequence models such as recurrent neural networks (RNNs) or long short-term memory networks (LSTMs) process data sequentially, the Transformer processes data in parallel (can therefore be parallelised on machines in the cloud!). This allows them to process massive amounts of available training data by using powerful GPU-based compute resources. Furthermore, traditional RNNs and LSTMs can have difficulty modeling the long-term dependencies of a sequence because they can forget earlier parts of the sequence. Transformers use an attention mechanism to overcome this memory shortcoming by directing each step of the output sequence to pay “attention” to relevant parts of the input sequence. For example, when a Transformer-based conversational AI model is asked “How is the weather now?” and the model replies “It is warm and sunny today,” the attention mechanism guides the model to focus on the word “weather” when answering with “warm” and “sunny,” and to focus on “now” when answering with “today.” This is different from traditional RNNs and LSTMs, which process sentences from left to right and forget the context of each word as the distance between the words increases.
   * word positioning (feed the work and its position in the sentence)

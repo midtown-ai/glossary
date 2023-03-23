@@ -11,6 +11,7 @@
 [Chatbot]: {{ site.baseurl }}{% link glossary/c.md %}#chatbot
 [Chatgpt Model]: {{ site.baseurl }}{% link glossary/c.md %}#chatgpt-model
 [Child Development Milestone]: {{ site.baseurl }}{% link glossary/c.md %}#child-development-milestone
+[Chinchilla Model]: {{ site.baseurl }}{% link glossary/c.md %}#chinchilla-model
 [CIDEr Score]: {{ site.baseurl }}{% link glossary/c.md %}#cider-score
 [CICERO Model]: {{ site.baseurl }}{% link glossary/c.md %}#cicero-model
 [CIFAR-10 Dataset]: {{ site.baseurl }}{% link glossary/c.md %}#cifar-10-dataset

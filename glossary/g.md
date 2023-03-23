@@ -71,6 +71,23 @@ layout: page
  See also [G], [Long Short Term Memory Network], 
 
 
+# Gato Model
+
+ A model developed by [DeepMind][DeepMind Company] that uses [Multi-Task Learning]
+
+ ![]( {{site.assets}}/g/gato_model.png ){: width="100%"}
+
+ {% pdf "{{site.assets}}/g/gato_model_paper.pdf" %}
+
+ {% youtube "https://www.youtube.com/watch?v=wSQJZHfAg18" %}
+
+ More at:
+  * [https://www.deepmind.com/publications/a-generalist-agent](https://www.deepmind.com/publications/a-generalist-agent)
+  * [https://www.deepmind.com/blog/a-generalist-agent](https://www.deepmind.com/blog/a-generalist-agent)
+
+ See also [G], ...
+
+
 # Gaussian Distribution
 
  The Gaussian distribution, normal distribution, or bell curve, is a probability distribution which accurately models a large number of phenomena in the world. Intuitively, it is the mathematical representation of the general truth that many measurable quantities, when taking in aggregate tend to be of the similar values with only a few outliers which is to say that many phenomena follow the central limit theorem.
@@ -254,10 +271,26 @@ layout: page
  {% youtube "https://www.youtube.com/watch?v=u4IxOk2ijSs" %}
 
  Questions:
-   * Why is this important?
+  * Why is this important?
 
  See also [G], [Dataset], [Forest Of Stumps], [Weighted Gini Impurity Index]
 
+
+# GitHub Company
+
+ Offers code repositories. An acquisition of [Microsoft][Microsoft Company]
+
+ See also [G], [GitHub Copilot]
+
+
+# GitHub Copilot
+
+ The [OpenAI Codex][Codex Model] integrated to [GitHub][GitHub Company] to suggest code and entire functions in real-time, right from your editor.
+
+ Morea at:
+  * [https://github.com/features/copilot](https://github.com/features/copilot)
+
+ See also [G], ...
 
 # GLIDE Model
 
@@ -290,25 +323,23 @@ layout: page
 # Google Company
 
  Models developed by the company
-   * [Bard Model] : A lightweight version of Lambda meant to compete against Bing + [ChatGPT Model]
-   * [BERT Model]
-   * [Chinchila Model] :
+   * [Bard][Bard Model]: A lightweight version of Lambda meant to compete against Bing + [ChatGPT Model]
+   * [BERT][BERT Model]:
    * [Gshard Model] :
    * [LaMBDA Model] :
    * [Minerva Model] :
    * [MUM Model] :
    * [Muse Model] :
-   * [MusicLM Model] :
+   * [MusicLM][MusicLM Model]: Generative model for music
    * [PaLM Model] :
    * [Pathways Model Architecture] :
-   * [Sparrow Model] : (by !DeepMind)
    * [Switch Transformer] :
-   * [T5 Model] :
+   * [T5][T5 Model]:
    * [Tensor Processing Unit] or TPU :
    * [Transformer Model] :
 
  Companies
-   * [DeepMind][DeepMind Company]
+   * [DeepMind][DeepMind Company] which built models such as [Chinchilla][Chinchilla Model], [Sparrow][Sparrow Model], [AlphaiFold][AlphaFold Model], and more ... 
 
  {% youtube "https://www.youtube.com/watch?v=X5iLF-cszu0&t=611s" %}
 
@@ -330,12 +361,17 @@ layout: page
 
 # Gopher Model
 
- NLP model developed by deepmind.
+ NLP model developed by [DeepMind][DeepMind Company]
+ ~ 280 parameters with a transformer architecture. Was later optimized and resulted in the [Chinchilla Model]
+
+ {% youtube "https://www.youtube.com/watch?v=nO653U-Pb5c" %}
+
+ {% pdf "{{site.assets}}/g/gopher_model_paper.pdf" %}
 
  More at :
   * [https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval](https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval)
 
- See also [G], [Deepmind], [GPT Model]
+ See also [G], ...
 
 
 # GPU Instance

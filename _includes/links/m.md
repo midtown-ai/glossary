@@ -1,5 +1,6 @@
 [M]: {{ site.baseurl }}{% link glossary/m.md %}
 
+[M3GAN Movie]: {{ site.baseurl }}{% link glossary/m.md %}#m3gan-movie
 [Machine Learning]: {{ site.baseurl }}{% link glossary/m.md %}#mchine-learning
 [Machine Learning Framework]: {{ site.baseurl }}{% link glossary/m.md %}#machine-learning-framework
 [Machine Learning Pipeline]: {{ site.baseurl }}{% link glossary/m.md %}#machine-learning-pipeline
@@ -29,6 +30,7 @@
 [Meta Company]: {{ site.baseurl }}{% link glossary/m.md %}#meta-company
 [Meta Learning]: {{ site.baseurl }}{% link glossary/m.md %}#meta-learning
 [Meta Model]: {{ site.baseurl }}{% link glossary/m.md %}#meta-model
+[Metaverse]: {{ site.baseurl }}{% link glossary/m.md %}#metaverse
 [METEOR Score]: {{ site.baseurl }}{% link glossary/m.md %}#meteor-score
 [Metropolis Movie]: {{ site.baseurl }}{% link glossary/m.md %}#metropolis-movie
 [Microsoft Common Object In Context Caption Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#microsoft-common-object-in-context-caption-dataset
@@ -40,6 +42,8 @@
 [Minerva Model]: {{ site.baseurl }}{% link glossary/m.md %}#minerva-model
 [Mini-Batch]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch
 [Mini-Batch Gradient Descent]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-gradient-descent
+[Mixed Reality]: {{ site.baseurl }}{% link glossary/m.md %}#mixed-reality
+[MR]: {{ site.baseurl }}{% link glossary/m.md %}#mr
 [Mixture Of Local Experts]: {{ site.baseurl }}{% link glossary/m.md %}#mixture-of-local-exports
 [MoE]: {{ site.baseurl }}{% link glossary/m.md %}#moe
 [ML Algorithm Evaluation]: {{ site.baseurl }}{% link glossary/m.md %}#ml-algorithm-evaluation

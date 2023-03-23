@@ -4,6 +4,7 @@
 [N-Gram Model]: {{ site.baseurl }}{% link glossary/n.md %}#n-gram-model
 [Naive Bayes]: {{ site.baseurl }}{% link glossary/n.md %}#naive-bayes
 [Name Entity Recognition]: {{ site.baseurl }}{% link glossary/n.md %}#name-entity-recognition
+[Nash Equilibrium]: {{ site.baseurl }}{% link glossary/n.md %}#nash-equilibrium
 [Natural Intelligence]: {{ site.baseurl }}{% link glossary/n.md %}#natural-intelligence
 [Natural Language Generation]: {{ site.baseurl }}{% link glossary/n.md %}#natural-language-generation
 [Natural Language Processing]: {{ site.baseurl }}{% link glossary/n.md %}#natural-language-processing

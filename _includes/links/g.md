@@ -5,6 +5,7 @@
 [Game Theory]: {{ site.baseurl }}{% link glossary/g.md %}#game-theory
 [Gated Recurrent Unit Cell]: {{ site.baseurl }}{% link glossary/g.md %}#gated-recurrent-unit-cell
 [GRU Cell]: {{ site.baseurl }}{% link glossary/g.md %}#gru-cell
+[Gato Model]: {{ site.baseurl }}{% link glossary/g.md %}#gato-model
 [Gaussian Distribution]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-distribution
 [Gaussian Process]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-process
 [General Language Understanding Evaluation Benchmark]: {{ site.baseurl }}{% link glossary/g.md %}#general-language-understanding-evaluation-benchmark
@@ -24,6 +25,8 @@
 [Generator Loss]: {{ site.baseurl }}{% link glossary/g.md %}#generator-loss
 [Genetic Programming]: {{ site.baseurl }}{% link glossary/g.md %}#genetic-programming
 [GINI Impurity Index]: {{ site.baseurl }}{% link glossary/g.md %}#gini-impurity-index
+[GitHub Company]: {{ site.baseurl }}{% link glossary/g.md %}#github-company
+[GitHub Copilot]: {{ site.baseurl }}{% link glossary/g.md %}#github-copilot
 [GLIDE Model]: {{ site.baseurl }}{% link glossary/g.md %}#glide-model
 [GloVe]: {{ site.baseurl }}{% link glossary/g.md %}#glove
 [Gluon]: {{ site.baseurl }}{% link glossary/g.md %}#gluon

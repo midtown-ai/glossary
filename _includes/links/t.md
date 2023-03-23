@@ -20,6 +20,7 @@
 [TF-IDF]: {{ site.baseurl }}{% link glossary/t.md %}#tf-idf
 [Term Frequency Matrix]: {{ site.baseurl }}{% link glossary/t.md %}#term-frequency-matrix
 [TFM]: {{ site.baseurl }}{% link glossary/t.md %}#tfm
+[Terminator Movie]: {{ site.baseurl }}{% link glossary/t.md %}#terminator-movie
 [Test Subset]: {{ site.baseurl }}{% link glossary/t.md %}#test-subset
 [Text Embedding]: {{ site.baseurl }}{% link glossary/t.md %}#text-embedding
 [Text Reconstruction]: {{ site.baseurl }}{% link glossary/t.md %}#text-reconstruction
@@ -41,6 +42,7 @@
 [Transfer Learning]: {{ site.baseurl }}{% link glossary/t.md %}#transfer-learning
 [Transform Function]: {{ site.baseurl }}{% link glossary/t.md %}#transform-function
 [TF]: {{ site.baseurl }}{% link glossary/t.md %}#tf
+[Transformer Architecture]: {{ site.baseurl }}{% link glossary/t.md %}#transformer-architecture
 [Transformer Model]: {{ site.baseurl }}{% link glossary/t.md %}#transformer-model
 [Translation]: {{ site.baseurl }}{% link glossary/t.md %}#translation
 [Tree Parzen Estimators]: {{ site.baseurl }}{% link glossary/t.md %}#tree-parzen-estimators

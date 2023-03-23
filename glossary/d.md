@@ -402,12 +402,25 @@ layout: page
 
 # DeepMind Company
 
+ Models:
+  * [AlphaCode][AlphaCode Model]: LLM for code generation
+  * [AlphaFold][AlphaFold Model]: Protein folding
+  * [AlphaGo][AlphaGo Model]: Agent to play Go
+  * [AlphaStar][AlphaStar Model]: Agents to play StarCraft 2
+  * [AlphaTensor][AlphaTensor Model]: Matrix multiplication algorithm optimization
+  * [AlphaZero][AlphaZero Model]
+  * [Chinchilla][Chinchilla Model]: Optimized version of the [Gopher Model]
+  * [Gato][Gato Model]: Multi-task generalist agent
+  * [Gopher][Gopher Model]: A LLM with same (or better) performance than GPT3
+  * [Sparrow][Sparrow Model]: A ChatGPT alternative
+
  {% youtube "https://www.youtube.com/watch?v=kFlLzFuslfQ" %}
 
  More at :
   * [https://www.deepmind.com/research](https://www.deepmind.com/research)
+  * publications - [https://www.deepmind.com/research/publications](https://www.deepmind.com/research/publications)
 
- See also [D], [AlphaFold Model], [Gopher Model]
+ See also [D], ...
 
 
 # DeepSpeed Project

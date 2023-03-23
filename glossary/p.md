@@ -29,18 +29,6 @@ layout: page
 {% include links/all.md %}
 
 
-# Pathways Language Model
-
-# PaLM Model
-
- {% pdf "{{site.assets}}/p/palm_model_paper.pdf" %}
-
- More at :
-  * [https://medium.com/@tech_optimist/palm-on-my-forehead-not-another-large-language-model-6dddd641211b](https://medium.com/@tech_optimist/palm-on-my-forehead-not-another-large-language-model-6dddd641211b)
-
- See also [P], [Chain Of Thought Prompting], [Pathways Model Architecture]
-
-
 # Parameter
 
  A model parameter is something that the ML can learn from the data. For example, the weight of an input in a perceptron. Indeed the model has to have parameters to make predictions. This "parameters" are not set by humans. Hyperparameters cannot be learned from the data and are set by humans. Ex: number of layers in the neural network. 
@@ -54,6 +42,30 @@ layout: page
  The main hypothesis in active learning is that if a learning algorithm can choose the data it wants to learn from, it can perform better than traditional methods with substantially less data for training. But what are these traditional methods exactly? These are tasks which involve gathering a large amount of data randomly sampled from the underlying distribution and using this large dataset to train a model that can perform some sort of prediction. You will call this typical method passive learning. One of the more time-consuming tasks in passive learning is collecting labelled data. In many settings, there can be limiting factors that hamper gathering large amounts of labelled data.
 
  See also [P], [Active Learning], [Random Sampling]
+
+
+# Pathways Language Model
+
+# PaLM Model
+
+ {% pdf "{{site.assets}}/p/palm_model_paper.pdf" %}
+
+ More at :
+  * [https://medium.com/@tech_optimist/palm-on-my-forehead-not-another-large-language-model-6dddd641211b](https://medium.com/@tech_optimist/palm-on-my-forehead-not-another-large-language-model-6dddd641211b)
+
+ See also [P], [Chain Of Thought Prompting], [Pathways Model Architecture]
+
+
+# Pathways Language Model - Embodied
+
+# PaLM-E Model
+
+ An embodied multimodal language model developed by [Google][Google Company] and based on the existing [PaLM Model]
+ 
+ More at:
+  * [https://ai.googleblog.com/2023/03/palm-e-embodied-multimodal-language.html](https://ai.googleblog.com/2023/03/palm-e-embodied-multimodal-language.html)
+
+ See also [P], [Pathways Model Architecture]
 
 
 # Pathways Model Architecture
@@ -356,6 +368,8 @@ Prediction Error = actual_value - predicted_value
  We propose a new family of policy gradient methods for reinforcement learning, which alternate between sampling data through interaction with the environment, and optimizing a "surrogate" objective function using stochastic gradient ascent. Whereas standard policy gradient methods perform one gradient update per data sample, we propose a novel objective function that enables multiple epochs of minibatch updates. The new methods, which we call proximal policy optimization (PPO), have some of the benefits of trust region policy optimization (TRPO), but they are much simpler to implement, more general, and have better sample complexity (empirically). Our experiments test PPO on a collection of benchmark tasks, including simulated robotic locomotion and Atari game playing, and we show that PPO outperforms other online policy gradient methods, and overall strikes a favorable balance between sample complexity, simplicity, and wall-time.
 
  {% pdf "{{site.assets}}/p/proximal_policy_optimization_paper.pdf" %}
+
+ {% youtube "https://www.youtube.com/watch?v=HrapVFNBN64" %}
 
  More at:
   * official page - [https://openai.com/blog/openai-baselines-ppo/](https://openai.com/blog/openai-baselines-ppo/)

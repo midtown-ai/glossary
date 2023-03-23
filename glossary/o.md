@@ -34,7 +34,12 @@ layout: page
  More at:
   * [https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b](https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b)
 
- See also [O], [Convoluted Neural Network]
+ See also [O], [Computer Vision], [Convoluted Neural Network]
+
+
+# Object Recognition
+
+ See also [O], [Computer Vision]
 
 
 # Object Tracking
@@ -42,7 +47,7 @@ layout: page
  More at:
   * [https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b](https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b)
 
- See also [O], [CNN]
+ See also [O], [Computer Vision]
 
 
 # Observation
@@ -112,14 +117,17 @@ cheese =>                                   # Prompt
 
 # OpenAI Company
 
+ [Microsoft][Micosoft Company] + [OpenAI][OpenAI Company] ~ [Google][Google Company] + [DeepMind][DeepMind Company]
+
  Models:
-  * [ChatGPT][ChatGPT Model] : An fine-tuned model of GTP that is based on dialog
-  * [CLIP][CLIP Model] : A model that can put a legend to an image
-  * [Codex][Codex Model] : A [LLM] that specialize on generating code
-  * [DALL-E][DALL-E Model] : A [Diffusion Model] that from text can generate images
-  * [GPT][GPT Model] : A Generative model for text
-  * [Gym Environment][OpenAI Gym Environment] : Environments for development of [Reinforcement Learning] algorithms.
-  * [Whisper][Whisper Model] : A text-to-speech model
+  * [ChatGPT][ChatGPT Model]: An fine-tuned model of GTP that is based on dialog
+  * [CLIP][CLIP Model]: A model that can put a legend to an image
+  * [Codex][Codex Model]: A [LLM] that specialize on generating code
+  * [DALL-E][DALL-E Model]: A [Diffusion Model] that from text can generate images
+  * [Five][OpenAI Five Model]: An agent that isnow world champion at the Dota2 game!
+  * [GPT][GPT Model]: A Generative model for text
+  * [Gym Environment][OpenAI Gym Environment]: Environments for development of [Reinforcement Learning] algorithms.
+  * [Whisper][Whisper Model]: A text-to-speech model
 
  More at:
   * [http://www.openai.com](http://www.openai.com)
@@ -127,9 +135,30 @@ cheese =>                                   # Prompt
  See also [O], [Microsoft Company]
 
 
+# OpenAI Five Model
+
+ 5 agents (characters) that work together in collaboration! 
+ Incomplete information
+
+ {% youtube "https://www.youtube.com/watch?v=tfb6aEUMC04" %}
+
+ More at:
+  * [https://openai.com/research/openai-five](https://openai.com/research/openai-five)
+  * [https://openai.com/blog/openai-five-benchmark](https://openai.com/blog/openai-five-benchmark)
+  * [https://www.twitch.tv/videos/293517383](https://www.twitch.tv/videos/293517383)
+  * [https://openai.com/blog/openai-five-finals](https://openai.com/blog/openai-five-finals)
+
+ See also [O], [AlphaStar Model]
+
+
 # OpenAI Gym Environment
 
  See also [O], [OpenAI Company], [Rocket League Gym]
+
+
+# OpenCV Library
+
+ See also [O], [Computer Vision]
 
 
 # Optimizer

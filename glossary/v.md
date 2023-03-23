@@ -212,6 +212,31 @@ z_q(x)=\text{argmin}_i ||z_e(x)-e_i||_2
  See also [V], [Nvidia Company]
 
 
+# Virtual Continuum
+
+ Mixed reality blends both physical and digital worlds. These two realities mark the polar ends of a spectrum known as the virtuality continuum. We refer to this spectrum of realities as the mixed reality spectrum. On one end of the spectrum, we have the physical reality that we as humans exist. On the other end of the spectrum, we have the corresponding digital reality.
+
+ ![]( {{site.assets}}/v/virtual_continuum.png ){: width="100%}
+
+ See also [V], [Augmented Reality], [Mixed Reality], [Virtual Reality]
+
+
+# Virtual Reality
+
+# VR
+
+ VR is a simulated experience that employs pose tracking and 3D near-eye displays to give the user an immersive feel of a virtual world. Applications of virtual reality include entertainment (particularly video games), education (such as medical or military training) and business (such as virtual meetings). Other distinct types of VR-style technology include augmented reality and mixed reality, sometimes referred to as extended reality or XR, although definitions are currently changing due to the nascence of the industry.
+
+Currently, standard virtual reality systems use either virtual reality headsets or multi-projected environments to generate some realistic images, sounds and other sensations that simulate a user's physical presence in a virtual environment. A person using virtual reality equipment is able to look around the artificial world, move around in it, and interact with virtual features or items. The effect is commonly created by VR headsets consisting of a head-mounted display with a small screen in front of the eyes, but can also be created through specially designed rooms with multiple large screens. Virtual reality typically incorporates auditory and video feedback, but may also allow other types of sensory and force feedback through haptic technology.
+
+ ![]( {{site.assets}}/v/virtual_reality.png ){: width="100%"}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Virtual_reality](https://en.wikipedia.org/wiki/Virtual_reality)
+
+ See also [V], [Metaverse], [Virtual Continuum]
+
+
 # Visual Geometry Group Model
 
 # VGG-16 Model
@@ -257,6 +282,9 @@ z_q(x)=\text{argmin}_i ||z_e(x)-e_i||_2
  {% pdf "{{site.assets}}/v/vision_transformer_paper.pdf" %}
 
  ![]( {{site.assets}}/v/vision_transformer_architecture.png ){: width="100%"}
+
+ More at:
+  * Scaling Vision Transformers to 22 Billion Parameters (paper) - [https://arxiv.org/abs/2302.05442](https://arxiv.org/abs/2302.05442)
 
  See also [V], [Feature Extractor], [Tokenizer]
 

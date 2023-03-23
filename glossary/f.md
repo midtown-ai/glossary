@@ -37,18 +37,26 @@ layout: page
 
  See also [F], [Confusion Matrix], [Hyperparameter Optimization]
 
+
 # Facebook Company
+
+ Models:
+  * [CICERO][CICERO Model]
+  * [LLaMA][LLaMA Model]
+  * [Pluribus][Pluribus Model]
 
  More at:
   * [https://github.com/facebookresearch](https://github.com/facebookresearch)
 
- See also [F], [CICERO Model], [Pluribus Model]
- 
+ See also [F], ...
+
+
 # Feature
 
  `Input parameter to the model`. Which features are important to make the right prediction? Beware that the dataset needs to be at least 10 times the number of features.
 
  See also [F], [Data Point], [Dataset], [Explanatory Variable], [Feature Engineering], [Feature Extraction], [Feature Vector], [Naive Bayes]
+
 
 # Feature Engineering
 
@@ -64,11 +72,13 @@ layout: page
 
  See also [F], [Dataset], [Feature], [Feature Vector]
 
+
 # Feature Extractor
 
  Take an image as input and extract image kernels? Used in place of NLP tokenizer in vision extractor. Turn an image in another image with only important features/objects to be used in the captioning?
 
  See also [F], [Tokenizer], [Vision Transformer]
+
 
 # Feature Extraction
 
@@ -76,15 +86,18 @@ layout: page
 
  See also [F], [Dimensionality Reduction], [Feature], [Principal Component Analysis]
 
+
 # Feature Learning
 
  before classifier training!
+
 
 # Feature Vector
 
  Single column matrix (a vector) that contains all the inputs to a model (ex: artificial neuron). 
 
  See also [F], [Feature], [Vector]
+
 
 # Feedback
 
@@ -94,6 +107,7 @@ layout: page
   * Finally, feedback can be given based on things like the content of the presentation, use of visuals, eye contact, etc.
  
  See also [F], [Reward]
+
 
 # Feedback-Based Learning
 
@@ -110,11 +124,13 @@ layout: page
  
  See also [F], [Feedback], [Reinforcement Learning], [Reinforcement Learning Human Feedback]
 
+
 # Feedforward Neural Network
 
  Output of a layer only feed the input of downstream layers. Input weights can be computed using backpropagation. This is the opposite of a Recurrent Neural Network. 
 
  See also [F], [Backpropagation], [Neural Network], [Recurrent Neural Network], [Softmax Function]
+
 
 # Few-Shot Learning
 
@@ -131,11 +147,13 @@ cheese =>
 
  See also [F], [One-Shot Learning], [Zero-Shot Task Transfer], [Zero-Shot Learning], 
 
+
 # File Mode
 
  Each step of the training process generate file and are not streamed (?). 
 
  See also [F], [Pipe Mode]
+
 
 # Fine-Tuning
 
@@ -144,6 +162,7 @@ cheese =>
 
  See [Supervised Fine-Tuning]
 
+
 # Flow-Based Model
 
  More at :
@@ -151,6 +170,7 @@ cheese =>
   * Ahttps://en.wikipedia.org/wiki/Flow-based_generative_model](https://en.wikipedia.org/wiki/Flow-based_generative_model)
  
  See also [F], [Generative Model]
+
 
 # Forbidden Planet Movie
 
@@ -170,7 +190,9 @@ cheese =>
 
  See also [F], [AdaBoost], [Decision Stump], [Gini Impurity Index], [Random Forest], [Weighted Gini Impurity Index]
 
+
 # Fully Connected Layer
+
 # FC Layer
 
  A List of feature values becomes a list of votes (which are weighted to following layers).
@@ -179,6 +201,7 @@ cheese =>
  
 
  See also [F], [Convoluted Layer], [Convoluted Neural Network], [Poll Layer], [ReLU Layer]
+
 
 # Function Estimation
 

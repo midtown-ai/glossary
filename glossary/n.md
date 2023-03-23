@@ -76,6 +76,9 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
  In [Game Theory], ...
 
+ More at:
+  * [https://www.deepmind.com/blog/game-theory-as-an-engine-for-large-scale-data-analysis](https://www.deepmind.com/blog/game-theory-as-an-engine-for-large-scale-data-analysis)
+
  See also [N], ...
 
 

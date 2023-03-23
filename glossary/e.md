@@ -72,6 +72,21 @@ layout: page
 
  See also [E], [AI Movie]
 
+# Elevenlabs Company
+
+ An AI startup that lets anyone clone a target’s voice in a matter of seconds.
+
+ {% youtube "https://www.youtube.com/watch?v=6eb3e9lJ-7s" %}
+
+ More at:
+  * [https://beta.elevenlabs.io/speech-synthesis](https://beta.elevenlabs.io/speech-synthesis)
+  * [https://www.theverge.com/2023/1/31/23579289/ai-voice-clone-deepfake-abuse-4chan-elevenlabs](https://www.theverge.com/2023/1/31/23579289/ai-voice-clone-deepfake-abuse-4chan-elevenlabs)
+  * [https://twitter.com/ramsri_goutham/status/1619620737509396483](https://twitter.com/ramsri_goutham/status/1619620737509396483)
+  * [https://ramsrigoutham.medium.com/create-ai-powered-personalized-meditation-videos-d2f76fee03a5](https://ramsrigoutham.medium.com/create-ai-powered-personalized-meditation-videos-d2f76fee03a5)
+
+ See also [E], ...
+
+
 # Embedding
 
  See [Word Embedding]
@@ -93,6 +108,34 @@ layout: page
  ![]( {{site.assets}}/e/emergent_abilities_of_large_language_models_table.png ){: width="100%"}
 
  See also [E], [GPT Model], [Large Language Model], [Theory Of Mind], [Translation]
+
+
+# Emotion
+
+ Emotions are mental states brought on by neurophysiological changes, variously associated with thoughts, feelings, behavioral responses, and a degree of pleasure or displeasure. There is currently no scientific consensus on a definition. Emotions are often intertwined with mood, temperament, personality, disposition, or creativity.
+
+Research on emotion has increased over the past two decades with many fields contributing including psychology, medicine, history, sociology of emotions, and computer science. The numerous attempts to explain the origin, function and other aspects of emotions have fostered intense research on this topic. Theorizing about the evolutionary origin and possible purpose of emotion dates back to Charles Darwin. Current areas of research include the neuroscience of emotion, using tools like PET and fMRI scans to study the affective picture processes in the brain.
+
+ ![]( {{site.assets}}/e/emotion.png ){: width="100%"}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Emotion](https://en.wikipedia.org/wiki/Emotion)
+
+ See also [E], [Emotional Intelligence], [Feeling]
+
+# Emotional Intelligence
+
+# EI
+
+ Emotional intelligence (EI) is most often defined as the ability to perceive, use, understand, manage, and handle [emotions][Emotion]. People with high emotional intelligence can recognize their own emotions and those of others, use emotional information to guide thinking and behavior, discern between different feelings and label them appropriately, and adjust emotions to adapt to environments. Although the term first appeared in 1964, it gained popularity in the 1995 best-selling book Emotional Intelligence, written by science journalist Daniel Goleman.
+
+ More at:
+  * Book - [https://www.amazon.com/Emotional-Intelligence-Matter-More-Than/dp/055338371X](https://www.amazon.com/Emotional-Intelligence-Matter-More-Than/dp/055338371X)
+
+ 
+
+
+ See also [E], [Affective Computing]
 
 
 # Encoder
@@ -216,6 +259,15 @@ layout: page
   * Training over more epochs will take longer but can lead to a better output (e.g. sounding musical output)
   * Model training is a trade-off between the number of epochs (i.e. time) and the quality of sample output.
  See also [E], [Batch], [Iteration], [Gradient Descent], [Overfitting]
+
+
+# Ernie Bot
+
+ An alternative to [ChatGPT Model] developed by [Baidu][Baidu Company]
+
+ {% youtube "https://www.youtube.com/watch?v=ukvEUI3x0vI" %}
+
+ See also [E], ...
 
 
 # Error

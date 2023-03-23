@@ -494,7 +494,7 @@ StandardScaler()
 
  {% youtube "https://www.youtube.com/watch?v=0JL04JJjocc" %}
 
- See also [S], [Apprentice Learning]
+ See also [S], [Apprentice Learning], [Stanford University]
 
 
 # Stanford Natural Language Inference
@@ -522,7 +522,12 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
                                                                          neutral
  ```
 
- See also [S], [NLP Benchmark]
+ See also [S], [NLP Benchmark], [Stanford University]
+
+
+# Stanford University
+
+ See also [S], ...
 
 
 # State

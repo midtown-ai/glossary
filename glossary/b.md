@@ -66,6 +66,9 @@ layout: page
 
  Baidu, Inc. (meaning "hundred times") is a Chinese multinational technology company specializing in Internet-related services, products, and artificial intelligence (AI), headquartered in Beijing's Haidian District. It is one of the largest AI and Internet companies in the world. 
 
+ Models:
+  * [Ernie Bot]
+
  See also [B], [Company]
 
 

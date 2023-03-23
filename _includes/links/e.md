@@ -8,6 +8,8 @@
 [Embedding]: {{site.baseurl }}{% link glossary/e.md %}#embedding
 [Embedding Space]: {{site.baseurl }}{% link glossary/e.md %}#embedding-space
 [Emergent Ability]: {{site.baseurl }}{% link glossary/e.md %}#emergent-ability
+[Emotion]: {{site.baseurl }}{% link glossary/e.md %}#emotion
+[Emotional Intelligence]: {{site.baseurl }}{% link glossary/e.md %}#emotional-intelligence
 [Encoder]: {{site.baseurl }}{% link glossary/e.md %}#encoder
 [Encoder Representation]: {{site.baseurl }}{% link glossary/e.md %}#encoder-representation
 [Encoder Representation Space]: {{site.baseurl }}{% link glossary/e.md %}#encoder-representation-space
@@ -22,6 +24,7 @@
 [Environment]: {{site.baseurl }}{% link glossary/e.md %}#environment
 [Episode]: {{site.baseurl }}{% link glossary/e.md %}#episode
 [Epoch]: {{site.baseurl }}{% link glossary/e.md %}#epoch
+[Ernie Bot]: {{site.baseurl }}{% link glossary/e.md %}#ernie-bot
 [Error]: {{site.baseurl }}{% link glossary/e.md %}#error
 [Estimator]: {{site.baseurl }}{% link glossary/e.md %}#estimator
 [Ethics Problem]: {{site.baseurl }}{% link glossary/e.md %}#ethics-problem

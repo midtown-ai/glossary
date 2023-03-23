@@ -1,9 +1,11 @@
 [P]: {{ site.baseurl }}{% link glossary/p.md %}
 
-[Pathways Language Model]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-language-model
-[PaLM Model]: {{ site.baseurl}}{% link glossary/p.md %}#palm-model
 [Parameter]: {{ site.baseurl}}{% link glossary/p.md %}#parameter
 [Passive Learning]: {{ site.baseurl }}{% link glossary/p.md %}#passive-learning
+[Pathways Language Model]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-language-model
+[PaLM Model]: {{ site.baseurl}}{% link glossary/p.md %}#palm-model
+[Pathways Language Model Embodied]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-language-model-embodied
+[PaLM-E Model]: {{ site.baseurl}}{% link glossary/p.md %}#palm-e-model
 [Pathways Model Architecture]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-model-architecture
 [Perceiver IO Model]: {{ site.baseurl}}{% link glossary/p.md %}#perceiver-io-model
 [Perceiver Model]: {{ site.baseurl}}{% link glossary/p.md %}#perceiver-model

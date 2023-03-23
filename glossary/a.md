@@ -193,6 +193,16 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [Adversarial Attack], [Threat Model]
 
 
+# Affective Computing
+
+ Affective computing is the study and development of systems and devices that can recognize, interpret, process, and simulate human affects. It is an interdisciplinary field spanning computer science, psychology, and cognitive science. While some core ideas in the field may be traced as far back as to early philosophical inquiries into emotion, the more modern branch of computer science originated with Rosalind Picard's 1995 paper on affective computing and her book Affective Computing published by MIT Press. One of the motivations for the research is the ability to give machines [Emotional Intelligence], including to simulate empathy. The machine should interpret the emotional state of humans and adapt its behavior to them, giving an appropriate response to those emotions.
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Affective_computing](https://en.wikipedia.org/wiki/Affective_computing)
+
+ See also [A], ...
+
+
 # Agent
 
  A person, an animal, or a program that is free to make a decision or take an action. An agent has a goal.
@@ -265,6 +275,7 @@ First, we believe the clearest framing of general intelligence is a system that 
   * 1968 - [2001 Space Odyssey][2001 Space Odyssey Movie]
   * 1983 - [WarGames][WarGames Movie]
   * 1984 - [Electric Dreams][Electric Dreams Movie]
+  * 1984 - [Terminator][Terminator Movie]
   * 1986 - [Short Circuit][Short Circuit movie]
   * 1999 - [The Matrix][The Matrix Movie]
   * 2001 - [AI Artificial Intelligence][AI Artificial Intelligence Movie]
@@ -272,6 +283,7 @@ First, we believe the clearest framing of general intelligence is a system that 
   * 2008 - [Wall-E][Wall-E Movie]
   * 2013 - [Her][Her Movie]
   * 2014 - [Ex Machina][Ex Machina Movie]
+  * 2022 - [M3GAN][M3GAN Movie]: the eponymous artificially intelligent doll who develops self-awareness and becomes hostile toward anyone who comes between her and her human companion
 
  See also [A]
 
@@ -282,13 +294,29 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [Hyperparameter]
 
 
-# AlphaGo Model
+# Alpaca Model
 
- Google !AlphaGo. AI to play GO. Used reinforcement learning.
+ Developed at [Stanford University]
 
- {% youtube "https://www.youtube.com/watch?v=WXuK6gekU1Y" %}
+ {% youtube "https://www.youtube.com/watch?v=xslW5sQOkC8" %}
 
- See also [A], [AlphaFold Model], [AlphaZero Model], [DeepMind Company], [Reinforcement Learning]
+ With LLaMA
+
+ {% youtube "https://www.youtube.com/watch?v=PyZPyqQqkLE" %}
+
+  See also [A], ...
+
+
+# AlphaCode Model
+
+ A LLM used for generating code. Built by the [DeepMind Company]. An alternative to the [Codex Model] built by [OpenAI][OpenAI Company]
+
+ {% youtube "https://www.youtube.com/watch?v=t3Yh56efKGI" %}
+
+ More at:
+  * [https://www.deepmind.com/blog/competitive-programming-with-alphacode](https://www.deepmind.com/blog/competitive-programming-with-alphacode)
+
+ See also [A], [Codex Model]
 
 
 # AlphaFold Model
@@ -297,6 +325,31 @@ First, we believe the clearest framing of general intelligence is a system that 
   * [https://alphafold.com/](https://alphafold.com/)
 
  See also [A], [AlphaGo Model], [AlphaZero Model], [DeepMind Company]
+
+
+# AlphaGo Model
+
+ AlphaGo was built by [DeepMind][DeepMind Company]. AI to play GO. Used reinforcement learning.
+
+ {% youtube "https://www.youtube.com/watch?v=WXuK6gekU1Y" %}
+
+ More at:
+  * ...
+
+ See also [A], [AlphaFold Model], [AlphaZero Model], [DeepMind Company], [Reinforcement Learning]
+
+
+# AlphaStar Model
+
+ AlphaStar was built by [DeepMind][DeepMind Company]. Plays StarCraft II
+
+ {% youtube "https://www.youtube.com/watch?v=jtlrWblOyP4" %}
+
+ More at:
+  * [https://www.deepmind.com/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning](https://www.deepmind.com/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning)
+  * [https://www.nature.com/articles/s41586-019-1724-z.epdf](https://www.nature.com/articles/s41586-019-1724-z.epdf)
+
+ See also [A], [OpenAI Five Model]
 
 
 # AlphaTensor Model
@@ -638,6 +691,22 @@ Then you are presented with the best matched videos (values).                   
   * [https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853](https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853)
 
  See also [A], [Attention], [Attention-Based Model], [Multi-Head Attention], [Positional Encoding], [Transformer Model]
+
+
+# Augmented Reality
+
+# AR
+
+ Augmented reality (AR) is an interactive experience that combines the real world and computer-generated content. The content can span multiple sensory modalities, including visual, auditory, haptic, somatosensory and olfactory. AR can be defined as a system that incorporates three basic features: a combination of real and virtual worlds, real-time interaction, and accurate 3D registration of virtual and real objects. The overlaid sensory information can be constructive (i.e. additive to the natural environment), or destructive (i.e. masking of the natural environment). This experience is seamlessly interwoven with the physical world such that it is perceived as an immersive aspect of the real environment. In this way, augmented reality alters one's ongoing perception of a real-world environment, whereas virtual reality completely replaces the user's real-world environment with a simulated one.
+
+ Augmented reality is largely synonymous with [Mixed Reality].
+
+ {% youtube "https://www.youtube.com/watch?v=Zu1p99GJuTo" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Augmented_reality](https://en.wikipedia.org/wiki/Augmented_reality)
+
+ See also [A], [Virtual Continuum]
 
 
 # Autoencoder Bottleneck

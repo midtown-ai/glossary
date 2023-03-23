@@ -23,6 +23,9 @@
 [VGG-19 Model]: {{ site.baseurl }}{% link glossary/v.md %}#vgg-19-model
 [VGG Model]: {{ site.baseurl }}{% link glossary/v.md %}#vgg-model
 [Virtual Assistant]: {{ site.baseurl }}{% link glossary/v.md %}#virtual-assistant
+[Virtual Continuum]: {{ site.baseurl }}{% link glossary/v.md %}#virtual-continuum
+[Virtual Reality]: {{ site.baseurl }}{% link glossary/v.md %}#virtual-reality
+[VR]: {{ site.baseurl }}{% link glossary/v.md %}#vr
 [Vision-Language Pre-Training]: {{ site.baseurl }}{% link glossary/v.md %}#vision-language-pre-training
 [VLP]: {{ site.baseurl }}{% link glossary/v.md %}#vlp
 [Vision Transformer]: {{ site.baseurl }}{% link glossary/v.md %}#vision-transformer
