@@ -42,6 +42,19 @@ layout: page
  See also [D], [CLIP Model], [GLIDE Model]
 
 
+# DARPA
+
+ * [DARPA Grand Challenge]
+ * [DARPA Siri]
+ * [DARPA Robotics Challenge]
+ * [DARPA Subterranean Challenge]
+
+ More at:
+  * ...
+
+ See also [D], ...
+
+
 # DARPA Robotics Challenge
 
  2015 Challenge

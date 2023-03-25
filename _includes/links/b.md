@@ -16,6 +16,8 @@
 [Bayesian Optimization Sampling Method]: {{ site.baseurl }}{% link glossary/b.md %}#bayesian-optimization-sampling-method
 [Bayesian Search]: {{ site.baseurl }}{% link glossary/b.md %}#bayesian-search
 [Behavioural Cloning]: {{ site.baseurl }}{% link glossary/b.md %}#behavioural-cloning
+[Belief-Desire-Intention Framework]: {{ site.baseurl }}{% link glossary/b.md %}#belief-desire-intention-framework
+[BDI-Framework]: {{ site.baseurl }}{% link glossary/b.md %}#bdi-framework
 [Benchmark]: {{ site.baseurl }}{% link glossary/b.md %}#benchmark
 [Bernouilli Distribution]: {{ site.baseurl }}{% link glossary/b.md %}#bernouilli-distribution
 [BERT Classification]: {{ site.baseurl }}{% link glossary/b.md %}#bert-classification

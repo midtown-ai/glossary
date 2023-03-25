@@ -224,7 +224,12 @@ layout: page
 
 # TTS Model
 
- See also [T], [Riva Model], [Sequence To Sequence Model]
+ Models such as
+  * [Riva][Riva Model] by [Nvidia][Nvidia Company]
+  * [WaveNet][WaveNet Model] by [DeepMind][DeepMind Company]
+  * [Whisper][Whisper Model] by [OpenAI][OpenAI Company]
+
+ See also [T], [Sequence To Sequence Model]
 
 
 # Text-To-Text Transfer Transformer Model

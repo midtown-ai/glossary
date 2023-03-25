@@ -3,6 +3,7 @@
 [Wall-E Movie]: {{ site.baseurl }}{% link glossary/w.md %}#wall-e-movie
 [WarGames Movie]: {{ site.baseurl }}{% link glossary/w.md %}#wargames-movie
 [Wave2Vec]: {{ site.baseurl }}{% link glossary/w.md %}#wave2vec
+[WaveNet Model]: {{ site.baseurl }}{% link glossary/w.md %}#wavenet-model
 [Waymo Company]: {{ site.baseurl }}{% link glossary/w.md %}#waymo-company
 [Weak AI]: {{ site.baseurl }}{% link glossary/w.md %}#weak-ai
 [Weak Learner]: {{ site.baseurl }}{% link glossary/w.md %}#weak-learner

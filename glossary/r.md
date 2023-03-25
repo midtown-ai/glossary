@@ -449,17 +449,21 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 
 # Riva Model
 
- A text-to-speech model developer by Nvidia.
+ A [text-to-speech model] developer by [Nvidia][Nvidia Company].
 
  More at:
   * site - [https://resources.nvidia.com/en-us-riva-tts-briefcase/speech-synthesis-documentation](https://resources.nvidia.com/en-us-riva-tts-briefcase/speech-synthesis-documentation)
 
- See also [R], [Nvidia Company], [Text-To-Speech Model]
+ See also [R], ...
 
 
 # Robot
 
- See also [R], [Ameca Robot], [Sophia Robot]
+ Examples of [social robots][social robot]
+  * [Ameca][Ameca Robot]
+  * [Sophia][Sophia Robot]
+
+ See also [R], ...
 
 
 # RobotSchool
@@ -493,3 +497,18 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 # ROUGE Score
 
  See also [R], [BLEU Score], [MS COCO Caption Dataset]
+
+
+# Runway Company
+
+ An AI company focusing on the generative AI for images and videos.
+
+ Models:
+  * 2021 - [Latent Diffusion Model]
+  * 2022 - [Stable Diffusion Model]
+  * 2023 - [Gen Model]
+
+ More at:
+  * [https://runwayml.com/](https://runwayml.com/)
+
+ See also [R], ...

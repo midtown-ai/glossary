@@ -292,6 +292,7 @@ set       <search space>               set
   * [Neuralink][Neuralink Company]: A company lead by [Elon Musk] that is focusing on human [Brain] Machine Interfaces
   * [Nvidia][Nvidia Company]: The leading supplier of [GPU]
   * [OpenAI][OpenAI Company]: Focus on democratizing AI. Known for releasing [ChatGPT][ChatGPT Model]
+  * [Runway][Runway Company]: Focus on generative AI for images and now videos
   * [Synthesia][Synthesia Company]: Focus on AI avatars
   * [Waymo][Waymo Company]: Focus on self-driving car 
 
@@ -318,6 +319,20 @@ set       <search space>               set
  * [Object Tracking]
  
  See also [C], [Convoluted Neural Network], [OpenCV Library], [ResNET Model]
+
+
+# Concept Video
+
+ Here is an example of concept video of a Knoledge Navigator that later became the [Siri Virtual Assistant]
+
+ {% youtube "https://www.youtube.com/watch?v=-jiBLQyUi38" %}
+
+ {% include vimeoPlayer.html id=25551192 %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Knowledge_Navigator](https://en.wikipedia.org/wiki/Knowledge_Navigator)
+
+ See also [C], ...
 
 
 # Conditioning

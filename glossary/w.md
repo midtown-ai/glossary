@@ -60,6 +60,16 @@ layout: page
  See also [W], ...
 
 
+# WaveNet Model
+
+ A [text-to-speech model] built by [DeepMind Company]
+
+ More at:
+  * [https://www.deepmind.com/blog/wavenet-a-generative-model-for-raw-audio](https://www.deepmind.com/blog/wavenet-a-generative-model-for-raw-audio)
+
+ See also [W], ...
+
+
 # Waymo Company
 
  {% youtube "https://www.youtube.com/watch?v=hA_-MkU0Nfw" %}

@@ -30,6 +30,7 @@
 [Complexity]: {{ site.baseurl }}{% link glossary/c.md %}#complexity
 [Compliance Analysis]: {{ site.baseurl }}{% link glossary/c.md %}#compliance-analysis
 [Computer Vision]: {{ site.baseurl }}{% link glossary/c.md %}#computer-vision
+[Concept Video]: {{ site.baseurl }}{% link glossary/c.md %}#concept-video
 [Conditioning]: {{ site.baseurl }}{% link glossary/c.md %}#conditioning
 [Conditioning GAN]: {{ site.baseurl }}{% link glossary/c.md %}#conditioning-gan
 [CGAN]: {{ site.baseurl }}{% link glossary/c.md %}#cgan

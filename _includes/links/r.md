@@ -58,3 +58,4 @@
 [Root Mean Square Error]: {{site.baseurl }}{% link glossary/r.md %}#root-mean-square-error
 [RMSE]: {{site.baseurl }}{% link glossary/r.md %}#rmse
 [ROUGE Score]: {{site.baseurl }}{% link glossary/r.md %}#rouge-score
+[Runway Company]: {{site.baseurl }}{% link glossary/r.md %}#runway-company

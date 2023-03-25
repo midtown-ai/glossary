@@ -2,7 +2,9 @@
 
 [Decision Boundary]: {{ site.baseurl }}{% link glossary/d.md %}#decision-boundary
 [DALL-E Model]: {{ site.baseurl }}{% link glossary/d.md %}#dall-e-model
+[DARPA]: {{ site.baseurl }}{% link glossary/d.md %}#darpa
 [DARPA Grand Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#darpa-grand-challenge
+[DARPA Subterranean Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#darpa-subterranean-challenge
 [DARPA Urban Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#darpa-urban-challenge
 [Data]: {{ site.baseurl }}{% link glossary/d.md %}#data
 [Data Analyst]: {{ site.baseurl }}{% link glossary/d.md %}#data-analyst

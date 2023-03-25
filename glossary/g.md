@@ -102,6 +102,21 @@ layout: page
  See also [G], [Random Forest], [Tree Parzen Estimators]
 
 
+# Gen Model
+
+ A text-to-video model built by the [Runway Company]
+
+ {% youtube "https://www.youtube.com/watch?v=trXPfpV5iRQ" %}
+
+ {% pdf "{{site.assets}}/g/gen2_model_paper.pdf" %}
+
+ More at:
+  * [https://research.runwayml.com/gen2](https://research.runwayml.com/gen2)
+  * [https://arxiv.org/abs/2302.03011](https://arxiv.org/abs/2302.03011)
+
+ See also [G], ...
+
+
 # General Language Understanding Evaluation Benchmark
 
 # GLUE Benchmark

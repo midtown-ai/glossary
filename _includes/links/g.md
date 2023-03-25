@@ -8,6 +8,7 @@
 [Gato Model]: {{ site.baseurl }}{% link glossary/g.md %}#gato-model
 [Gaussian Distribution]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-distribution
 [Gaussian Process]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-process
+[Gen Model]: {{ site.baseurl }}{% link glossary/g.md %}#gen-model
 [General Language Understanding Evaluation Benchmark]: {{ site.baseurl }}{% link glossary/g.md %}#general-language-understanding-evaluation-benchmark
 [GLUE Benchmark]: {{ site.baseurl }}{% link glossary/g.md %}#glue-benchmark
 [Generalized Additive 2 Model]: {{ site.baseurl }}{% link glossary/g.md %}#generalized-additive-2-model

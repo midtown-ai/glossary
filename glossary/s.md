@@ -330,7 +330,20 @@ StandardScaler()
  See also [S], [Encoder], [One-Shot Learning], [Siamese Network]
 
 
-# Siri Assistant
+# Siri Virtual Assistant
+
+ First conceptualized in a [Concept Video] and named the Knowledge Navigator.
+
+ Siri is a virtual assistant that is part of Apple Inc.'s iOS, iPadOS, watchOS, macOS, tvOS, and audioOS operating systems. It uses voice queries, gesture based control, focus-tracking and a natural-language user interface to answer questions, make recommendations, and perform actions by delegating requests to a set of Internet services. With continued use, it adapts to users' individual language usages, searches and preferences, returning individualized results.
+
+ ![]( {{site.assets}}/s/siri_logo.png )
+
+Siri is a spin-off from a project developed by the SRI International Artificial Intelligence Center. Its speech recognition engine was provided by Nuance Communications, and it uses advanced machine learning technologies to function. Its original American, British and Australian voice actors recorded their respective voices around 2005, unaware of the recordings' eventual usage. Siri was released as an app for iOS in February 2010. Two months later, Apple acquired it and integrated into iPhone 4S at its release on 4 October, 2011, removing the separate app from the iOS App Store. Siri has since been an integral part of Apple's products, having been adapted into other hardware devices including newer iPhone models, iPad, iPod Touch, Mac, AirPods, Apple TV, and HomePod.
+
+ More at: 
+  * [https://en.wikipedia.org/wiki/Siri](https://en.wikipedia.org/wiki/Siri)
+  * [https://www.cultofmac.com/447783/today-in-apple-history-siri-makes-its-public-debut-on-iphone-4s/](https://www.cultofmac.com/447783/today-in-apple-history-siri-makes-its-public-debut-on-iphone-4s/)
+  * [https://en.wikipedia.org/wiki/Knowledge_Navigator](https://en.wikipedia.org/wiki/Knowledge_Navigator)
 
  See also [S], [Apple Company]
 
@@ -358,6 +371,24 @@ StandardScaler()
   * new snorkel - [https://www.snorkel.org/blog/hello-world-v-0-9](https://www.snorkel.org/blog/hello-world-v-0-9)
 
  See also [S], [Data Augmentation], [Labeling Function], [Slicing Function], [Transform Function], [Unlabelled Data Algorithm]
+
+
+# Social Robot
+
+ Social [robots][Robot] are [artificial intelligence] platforms, paired with sensors, cameras, microphones and other technology, like computer vision, so they can better interact and engage with humans or other robots.
+
+ Despite their lack of consciousness, social robots provide companionship and emotional and learning support to children and adults who play, talk and even snuggle with them like they would a pet. They also work together in warehouses and factories to transport goods, and are used as research and development platforms, allowing researchers to study how humans interact with robots and make even further advances in the field.
+
+Today, social robots are most often found working as companions and support tools for childhood development, specifically autism therapy and social-emotional learning. Social robot pets can even be an effective form of therapy for people with dementia.
+
+Social robots also work as concierges in hotels and other settings like malls, where they provide customer service.
+
+ {% youtube "https://www.youtube.com/watch?v=3lEQDf9Cv4s" %}
+
+ More at:
+  * [https://builtin.com/robotics/social-robot](https://builtin.com/robotics/social-robot)
+
+ See also [S], ...
 
 
 # Softmax Function

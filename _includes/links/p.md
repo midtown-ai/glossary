@@ -33,6 +33,7 @@
 [Principal Component Analysis]: {{ site.baseurl}}{% link glossary/p.md %}#principal-component-analysis
 [PCA]: {{ site.baseurl}}{% link glossary/p.md %}#pca
 [Prior]: {{ site.baseurl}}{% link glossary/p.md %}#prior
+[Procedural Reasoning System]: {{ site.baseurl}}{% link glossary/p.md %}#procedural-reasoning-system
 [Prompt Engineering]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-engineering
 [Prompt Injection]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-injection
 [Proximal Policy Optimization]: {{ site.baseurl}}{% link glossary/p.md %}#proximal-policy-optimization

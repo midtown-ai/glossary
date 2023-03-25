@@ -34,10 +34,11 @@
 [Sigmoid Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-activation-function
 [Sigmoid Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-function
 [Similarity Function]: {{ site.baseurl}}{% link glossary/s.md %}#similarity-function
-[Siri Assistant]: {{ site.baseurl}}{% link glossary/s.md %}#siri-assistant
+[Siri Virtual Assistant]: {{ site.baseurl}}{% link glossary/s.md %}#siri-virtual-assistant
 [Skip Connection]: {{ site.baseurl}}{% link glossary/s.md %}#skip-connection
 [Slicing Function]: {{ site.baseurl}}{% link glossary/s.md %}#slicing-function
 [Snorkel Program]: {{ site.baseurl}}{% link glossary/s.md %}#snorkel-program
+[Social Robot]: {{ site.baseurl}}{% link glossary/s.md %}#social-robot
 [Softmax Function]: {{ site.baseurl}}{% link glossary/s.md %}#softmax-function
 [Softplus Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#softplus-activation-function
 [Software 1.0]: {{ site.baseurl}}{% link glossary/s.md %}#software-1-0
@@ -54,6 +55,7 @@
 [Specificity]: {{ site.baseurl}}{% link glossary/s.md %}#specificity
 [Spectrogram Image]: {{ site.baseurl}}{% link glossary/s.md %}#spectrogram-image
 [SQuAD Benchmark]: {{ site.baseurl}}{% link glossary/s.md %}#squad-benchmark
+[Stable Diffusion Model]: {{ site.baseurl}}{% link glossary/s.md %}#stable-diffusion-model
 [Stanford Autonomous Helicopter]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-autonomous-helicopter
 [Stanford Natural Language Inference]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-natural-language-inference
 [Stanford University]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-university

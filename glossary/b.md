@@ -204,6 +204,24 @@ P(A|B) = ----------------
  See also [B], [Imitation Learning]
 
 
+# Belief-Desire-Intention Framework
+
+# BDI Framework
+
+ The belief-desire-intention (BDI) framework for intelligent agents is the foundation for [Procedural Reasoning System] or PRS. A person's beliefs are what they hold to be true about how the world is right now, while their desires and intentions are what they are doing to work toward those goals. In addition, unlike purely reactive systems like the subsumption architecture, each of these three components is within the PRS agent.
+
+ * Beliefs consist of what the agent believes to be true about the current state of the world
+ * Desires consist of the agent's goals
+ * Intentions consist of the agent's current plans for achieving those goals.
+
+ Furthermore, each of these three components is typically explicitly represented somewhere within the memory of the PRS agent at runtime, which is in contrast to purely reactive systems, such as the subsumption architecture.
+
+ More at:
+  * [https://indiaai.gov.in/article/understanding-procedural-reasoning-systems-in-ai](https://indiaai.gov.in/article/understanding-procedural-reasoning-systems-in-ai)
+
+ See also [B], ...
+
+
 # Benchmark
 
   See also [B], [NLP Benchmark]

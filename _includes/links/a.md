@@ -50,7 +50,7 @@
 [AUC]: {{ site.baseurl }}{% link glossary/a.md %}#auc
 [Argmax Function]: {{ site.baseurl }}{% link glossary/a.md %}#argmax-function
 [Argmin Function]: {{ site.baseurl }}{% link glossary/a.md %}#argmin-function
-[Artificial Generat Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-general-intelligence
+[Artificial General Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-general-intelligence
 [AGI]: {{ site.baseurl }}{% link glossary/a.md %}#agi
 [Artificial Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence
 [Artificial Intelligence Areas Of Study]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-areas-of-study
@@ -67,7 +67,7 @@
 [Artificial Neural Network]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neural-network
 [ANN]: {{ site.baseurl }}{% link glossary/a.md %}#ann
 [Artificial Neuron]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neuron
-[Artifical Super Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-super-intelligence
+[Artificial Super Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-super-intelligence
 [ASI]: {{ site.baseurl }}{% link glossary/a.md %}#asi
 [Atlas Robot]: {{ site.baseurl }}{% link glossary/a.md %}#atlas-robot
 [Attention]: {{ site.baseurl }}{% link glossary/a.md %}#attention
