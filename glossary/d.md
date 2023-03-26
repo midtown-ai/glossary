@@ -44,10 +44,11 @@ layout: page
 
 # DARPA
 
- * [DARPA Grand Challenge]
+ * 2004 - 2005: [DARPA Grand Challenge]
  * [DARPA Siri]
- * [DARPA Robotics Challenge]
- * [DARPA Subterranean Challenge]
+ * 2007: [DARPA Urban Challenge]
+ * 2015: [DARPA Robotics Challenge]
+ * 2021: [DARPA Subterranean Challenge]
 
  More at:
   * ...
@@ -285,7 +286,7 @@ layout: page
 
  {% youtube "https://www.youtube.com/watch?v=d_ixlCubqQw" %}
 
- See also [D], [Autoregressive], [Decoder Stack], [Encoder], [Encoder-Decoder Model], [Hidden State], [Image Decoder], [Masked Attention], [Natural Language Generation]
+ See also [D], [Autoregressive], [Decoder Stack], [Encoder], [Encoder-Decoder Model], [Hidden State], [Image Decoder], [Masked Self-Attention], [Natural Language Generation]
 
 
 # Decoder Representation
@@ -708,6 +709,8 @@ We need to do this for
 
 
 # Dot Product
+
+ The dot product between 2 vectors is 0 if they are perpendicular.
 
  This is the same as doing a dot product and you can think of a dot product of two vectors as a measure of how similar they are.
  The dot product of two vectors has two definitions. Algebraically the dot product of two vectors is equal to the sum of the products of the individual components of the two vectors.

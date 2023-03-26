@@ -15,6 +15,13 @@
 [Masked Self-Attention]: {{ site.baseurl }}{% link glossary/m.md %}#masked-self-attention
 [Masked Vision Modeling]: {{ site.baseurl }}{% link glossary/m.md %}#masked-vision-modeling
 [MVM]: {{ site.baseurl }}{% link glossary/m.md %}#mvm
+[Matrix]: {{ site.baseurl }}{% link glossary/m.md %}#matrix
+[Matrix Composition]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-composition
+[Matrix Decomposition]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-decomposition
+[Matrix Determinant]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-determinant
+[Matrix Multiplication]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-multiplication
+[Matrix Range]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-range
+[Matrix Spectral Decomposition]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-spectral-decomposition
 [Max Pooling Layer]: {{ site.baseurl }}{% link glossary/m.md %}#max-pooling-layer
 [Mean Absolute Error]: {{ site.baseurl }}{% link glossary/m.md %}#mean-absolute-error
 [MAE]: {{ site.baseurl }}{% link glossary/m.md %}#mae

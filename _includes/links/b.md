@@ -21,6 +21,7 @@
 [Benchmark]: {{ site.baseurl }}{% link glossary/b.md %}#benchmark
 [Bernouilli Distribution]: {{ site.baseurl }}{% link glossary/b.md %}#bernouilli-distribution
 [BERT Classification]: {{ site.baseurl }}{% link glossary/b.md %}#bert-classification
+[BHuman Company]: {{ site.baseurl }}{% link glossary/b.md %}#bhuman-company
 [Bias]: {{ site.baseurl }}{% link glossary/b.md %}#bias
 [Bias-Variance Trade-Off]: {{ site.baseurl }}{% link glossary/b.md %}#bias-variance-trade-off
 [Bidirectional Encoder Representation from Transformer Model]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model

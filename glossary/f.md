@@ -41,9 +41,11 @@ layout: page
 # Facebook Company
 
  Models:
-  * [CICERO][CICERO Model]
-  * [LLaMA][LLaMA Model]
-  * [Pluribus][Pluribus Model]
+  * [CICERO][CICERO Model]: Strategy game with multiplayer interaction
+  * [ESMFold][ESMFold Model]: Protein folding
+  * [LLaMA][LLaMA Model]: Large Language Model open-sourced
+  * [Make-A-Video][Make-A-Video Model]: Text to video model
+  * [Pluribus][Pluribus Model]: Plays poker better than humans
 
  More at:
   * [https://github.com/facebookresearch](https://github.com/facebookresearch)

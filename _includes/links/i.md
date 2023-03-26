@@ -10,8 +10,11 @@
 [Image Encoder]: {{ site.baseurl }}{% link glossary/i.md %}#image-encoder
 [Image Inpainting]: {{ site.baseurl }}{% link glossary/i.md %}#image-inpainting
 [Image Reconstruction]: {{ site.baseurl }}{% link glossary/i.md %}#image-reconstruction
-[Imagen]: {{ site.baseurl }}{% link glossary/i.md %}#imagen
+[Imagen Model]: {{ site.baseurl }}{% link glossary/i.md %}#imagen-model
+[Imagen Video Model]: {{ site.baseurl }}{% link glossary/i.md %}#imagen-video-model
 [ImageNet Dataset]: {{ site.baseurl }}{% link glossary/i.md %}#imagenet-dataset
+[ImageNet Large Scale Visual Recognition Challenge]: {{ site.baseurl }}{% link glossary/i.md %}#imageNet-large-scale-visual-recognition-challenge
+[ILSVRC]: {{ site.baseurl }}{% link glossary/i.md %}#ilsvrc
 [Imitation Learning]: {{ site.baseurl }}{% link glossary/i.md %}#imitation-learning
 [IL]: {{ site.baseurl }}{% link glossary/i.md %}#il
 [Imputation]: {{ site.baseurl }}{% link glossary/i.md %}#imputation

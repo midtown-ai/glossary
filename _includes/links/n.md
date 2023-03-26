@@ -23,6 +23,8 @@
 [NLU]: {{ site.baseurl }}{% link glossary/n.md %}#nlu
 [Negative Attribute]: {{ site.baseurl }}{% link glossary/n.md %}#negative-attribute
 [Neptune AI Company]: {{ site.baseurl }}{% link glossary/n.md %}#neptune-ai-company
+[Netflix Company]: {{ site.baseurl }}{% link glossary/n.md %}#netflix-company
+[Netflix Challenge]: {{ site.baseurl }}{% link glossary/n.md %}#netflix-challenge
 [Neural Architecture Search]: {{ site.baseurl }}{% link glossary/n.md %}#neural-architecture-search
 [Neural Network]: {{ site.baseurl }}{% link glossary/n.md %}#neural-network
 [Neural Network Interpretability]: {{ site.baseurl }}{% link glossary/n.md %}#neural-network-interpretability

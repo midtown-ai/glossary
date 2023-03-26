@@ -218,6 +218,25 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], ...
 
 
+# Netflix Company
+
+ See also [N], [Netflix Prize]
+
+
+# Netflix Prize
+
+ The Netflix Prize was an open competition for the best collaborative filtering algorithm to predict user ratings for films, based on previous ratings without any other information about the users or films, i.e. without the users being identified except by numbers assigned for the contest.
+
+ The competition was held by Netflix, an online DVD-rental and video streaming service, and was open to anyone who is neither connected with Netflix (current and former employees, agents, close relatives of Netflix employees, etc.) nor a resident of certain blocked countries (such as Cuba or North Korea). On September 21, 2009, the grand prize of US$1,000,000 was given to the BellKor's Pragmatic Chaos team which bested Netflix's own algorithm for predicting ratings by 10.06%.
+
+ {% youtube "https://www.youtube.com/watch?v=ImpV70uLxyw" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Netflix_Prize](https://en.wikipedia.org/wiki/Netflix_Prize)
+
+ See also [N], [Netflix Company]
+
+ 
 # Neural Architecture Search
 
  Find the best neural network architecture to use for the model.

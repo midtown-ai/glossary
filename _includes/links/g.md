@@ -32,7 +32,7 @@
 [GloVe]: {{ site.baseurl }}{% link glossary/g.md %}#glove
 [Gluon]: {{ site.baseurl }}{% link glossary/g.md %}#gluon
 [Google Company]: {{ site.baseurl }}{% link glossary/g.md %}#google-company
-[Google Translate]: {{ site.baseurl }}{% link glossary/g.md %}#google-translate
+[Google Translate Model]: {{ site.baseurl }}{% link glossary/g.md %}#google-translate-model
 [Gopher Model]: {{ site.baseurl }}{% link glossary/g.md %}#gopher-model
 [GPU Instance]: {{ site.baseurl }}{% link glossary/g.md %}#gpu-instance
 [Gradient]: {{ site.baseurl }}{% link glossary/g.md %}#grandient

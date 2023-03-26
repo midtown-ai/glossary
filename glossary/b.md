@@ -241,14 +241,25 @@ P(A|B) = ----------------
  ![]( {{site.assets}}/b/bert_classification.png ){: width="100%"}
 
   * E = word embeddings ?     <=== Maybe wrong use of embedding, rather token, i.e. tokenized?
-    * Embedding is an integer from a tokenizer? No!
-    * Sparse vector (of tokenised sentence) fed to word2vec (or similar) ? No!
+   * Embedding is an integer from a tokenizer? No!
+   * Sparse vector (of tokenised sentence) fed to word2vec (or similar) ? No!
   * R = representation ( token after transformation by encoder stack )
-    * Representation is a matrix/tensor (of square dimension 768?)
-    * "What is the cost?" and "Is it expensive?" have almost the same SEP_representation !
+   * Representation is a matrix/tensor (of square dimension 768?)
+   * "What is the cost?" and "Is it expensive?" have almost the same SEP_representation !
+
  See also [B], [Bidirectional Encoder Representations from Transformers]
 
 
+# BHuman Company
+
+ Produce a single viedo of yourself and personalize it for thousands of recipients.
+
+ More at:
+  * [https://www.bhuman.ai/](https://www.bhuman.ai/)
+
+ See also [B], [Company]
+
+ 
 # Bias
 
   1. statistics ==> The gap between the prediction and the actual value. Where is bias coming from? Issues with the data sampling?

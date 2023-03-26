@@ -288,11 +288,19 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A]
 
 
-# AlexNet
+# AlexNet Model
 
- AlexNet is the name of a convolutional neural network (CNN) architecture, designed by Alex Krizhevsky in collaboration with Ilya Sutskever and Geoffrey Hinton, who was Krizhevsky's Ph.D. advisor.
+ A Model that led to the rebirth of neural networks using GPUs.
 
- AlexNet competed in the ImageNet Large Scale Visual Recognition Challenge on September 30, 2012. The network achieved a top-5 error of 15.3%, more than 10.8 percentage points lower than that of the runner up. The original paper's primary result was that the depth of the model was essential for its high performance, which was computationally expensive, but made feasible due to the utilization of [graphics processing units (GPUs)][GPU] during training.
+ AlexNet is the name of a [convolutional neural network (CNN)][Convolutional Neural Network] architecture, designed by Alex Krizhevsky in collaboration with Ilya Sutskever and Geoffrey Hinton, who was Krizhevsky's Ph.D. advisor.
+
+ AlexNet competed in the [ImageNet Large Scale Visual Recognition Challenge] on September 30, 2012. The network achieved a top-5 error of 15.3%, more than 10.8 percentage points lower than that of the runner up. The original paper's primary result was that the depth of the model was essential for its high performance, which was computationally expensive, but made feasible due to the utilization of [graphics processing units (GPUs)][GPU] during training.
+
+ {% youtube "https://www.youtube.com/watch?v=c_u4AHNjOpk" %}
+
+ {% youtube "https://www.youtube.com/watch?v=Nq3auVtvd9Q" %}
+
+ {% pdf "{{site.assets}}/a/alexnet_model_paper.pdf" %}
 
  More at:
   * [https://en.wikipedia.org/wiki/AlexNet](https://en.wikipedia.org/wiki/AlexNet)
@@ -557,8 +565,11 @@ First, we believe the clearest framing of general intelligence is a system that 
 
  * 1997 - 1998 : [Deep Blue Challenge]
  * 2004 - 2005 : [DARPA Grand Challenge]
+ * 2006 - 2009 : [Netflix Prize]
  * 2007 : [DARPA Urban Challenge]
- * 201? : [DARPA Robotics Challenge]
+ * 2011 - 2012 : [ImageNet Large Scale Visual Recognition Challenge]
+ * 2015 : [DARPA Robotics Challenge]
+ * 2021 : [DARPA Subterranean Challenge]
 
  See also [A], ...
 
@@ -623,7 +634,7 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 # Atlas Robot
 
- Atlas is a bipedal humanoid robot primarily developed by the American robotics company Boston Dynamics with funding and oversight from the U.S. Defense Advanced Research Projects Agency (DARPA). The robot was initially designed for a variety of search and rescue tasks, and was unveiled to the public on July 11, 2013.
+ Atlas is a bipedal humanoid [robot] primarily developed by the American robotics company [Boston Dynamics][Boston Dynamics Company] with funding and oversight from the [U.S. Defense Advanced Research Projects Agency (DARPA)][DARPA]. The robot was initially designed for a variety of search and rescue tasks, and was unveiled to the public on July 11, 2013.
 
  {% youtube "https://www.youtube.com/watch?v=rVlhMGQgDkY" %}
 
@@ -631,7 +642,7 @@ First, we believe the clearest framing of general intelligence is a system that 
   * [https://www.bostondynamics.com/atlas](https://www.bostondynamics.com/atlas)
   * [https://en.wikipedia.org/wiki/Atlas_%28robot%29](https://en.wikipedia.org/wiki/Atlas_%28robot%29)
 
- See also [A], [Boston Dynamics], [Robot]
+ See also [A], ...
 
 
 # Attention

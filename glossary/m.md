@@ -157,6 +157,19 @@ Predict what are the required agent skills based some input parameters
  See also [M], [Dawid-Skene Algorithm], [Labeling Service]
 
 
+# Make-A-Video Model
+
+ A state-of-the-art AI system that generates videos from text built by [Meta][Facebook Company].
+
+ {% pdf "{{site.assets}}/m/make_a_video_model_paper.pdf" %}
+
+ More at:
+  * [https://makeavideo.studio/](https://makeavideo.studio/)
+  * [https://arxiv.org/abs/2209.14792](https://arxiv.org/abs/2209.14792)
+
+ See also [M], ...
+
+
 # Markov Decision Process
 
  Markov Decision Process is a Reinforcement Learning algorithm that gives us a way to formalize sequential decision making. This formalization is the basis to the problems that are solved by Reinforcement Learning. The components involved in a Markov Decision Process (MDP) is a decision maker called an agent that interacts with the environment it is placed in. These interactions occur sequentially overtime. In each timestamp, the agent will get some representation of the environment state. Given this representation, the agent selects an action to make. The environment is then transitioned into some new state and the agent is given a reward as a consequence of its previous action. The process of selecting an action from a given state, transitioning to a new state and receiving a reward happens sequentially over and over again. This creates something called a trajectory that shows the sequence of states, actions and rewards. Throughout the process, it is the responsibility of the reinforcement learning agent to maximize the total amount of rewards that it received from taking actions in given states of environments. `The agent not only wants to maximize the immediate rewards but the cumulative reward it receives in the whole process.`
@@ -210,6 +223,132 @@ The training is identical -- we still predict each masked WordPiece token indepe
 
  See also [M], [Masked Language Modeling], [Vision-Language Pre-Training]
 
+
+# Matrix
+
+ There is no definition of matrix, but only the interpretations of matrices
+  * For an engineer who study circuits, matrix are just a way to solve system of equations
+  * For a statistician, matrices are a representation of a Markovian process. 
+  * For a data scientist, a matrix is the representation of a table and facilitate data analysis
+  * For deep learning folks, a matrix is another python function which takes a vector as input and outputs a vector
+
+ Special (linear-transformation) matrices
+  * Identity Matrix: A transformation that results in the same output as the input
+  * Scalar Matrix:
+  * Identity matrix, but off by one:
+  * Diagonal matrix: Stretch or scale each axis :warning: - sign creates a reflection!
+  * Square zero matrix: All outputs is ZERO regardless of the input matrix
+  * Shear matrix
+  * Orthogonal matrix: Produce an improper rotation (pure rotation with or without reflection)
+  * Projection matrix: You project a vector in a lower dimension space :warning: you lose info, you cannot invert those matrix!
+  * Invertible matrix: To undo a linear transformation
+
+ Special matrices
+  * Invertible matrix: To undo a linear transformation
+  * Transpose matrix: For square matrices only? No. Row becomes columns. Transpose of a MxN matrix is of NxM dimension. Top-bottom diagonal stays the same!
+  * Square matrix: Number of columns = number of rows
+  * Square symmetric matrix: Aij = Aji . Symmetric based on the top-bottom diagonal. S = St ! Eigenvectors are perpendicular/orthogonal!
+  * Non-square matrix: projection in higher or lower dimensions?
+  * Orthogonal matrix: Produce an improper rotation. :warning: Q orthogonal => Qt = Qinv or inverse rotation and therefore orthogonal as well!!
+
+ Special vectors:
+  * [Eigenvectors][Eigenvector]: While every other vector deviates from their initial direction, the eigne vectors stay on their original lines despite the distortion from the matrix.
+
+ Special values:
+  * [Eigenvalues][Eigenvalue]: By how much the eigenvector is transformed on its original direction by the transformation
+
+ See also [M], [Linear Transformation]
+
+
+# Matrix Composition
+
+ Multiplication of some matrices ==(Easy)==> one matrix
+ 
+ Matrix Multiplication is not a multiplication at all! It is a composition of transformations.
+ N multiplications of matrices = N linear transformations = 1 complex linear transformation (That's what defines linear transformations!)
+ That is why Matrix multiplication is not commutative!
+
+ {% youtube "https://www.youtube.com/watch?v=7Gtxd-ew4lk" %}
+
+ {% youtube "https://www.youtube.com/watch?v=wciU07gPqUE" %}
+
+ See also [M], [Matrix Decomposition]
+
+
+# Matrix Decomposition
+
+ One matrix ==(Difficult)===> multiplication of some matrices
+
+ If a matrix is a linear transformation, its decomposition consists in turning that "complex" matrix into "simpler" matrices (or a succession of simpler linear transformations)
+
+ Special decompositions:
+  * Square symmetric matrices ==> [Spectral decomposition][Matrix Spectral Decomposition]
+  * Other matrices ==> [Singular value decomposition]
+
+ See also [M], [Matrix Composition]
+
+
+# Matrix Range
+
+ In the simplest terms, the range of a matrix is literally the "range" of it. The crux of this definition is essentially
+
+ > Given some matrix A , which vectors can be expressed as a linear combination of its columns?
+
+ Range (another word for column space) is what is meant by this. If you give me some matrix A that is MxN, the column space is the set of all vectors such that there exists a1,a2,....,an so that a1A1+a2A2+...anAn = V for some vector V .
+
+ ```
+ | 1 0 0 |  | a1 |     | 5 |
+ | 0 1 0 |  | a2 |  =  | 5 |
+ | 0 0 1 |  | a3 |     | 5 |
+ ```
+ Then V is in the range of A since a1=a2=a3=5 . A better example is when it's not, like:
+
+ ```
+ | 1 0 3 |   | a1 |     | 5 |
+ | 1 1 2 |   | a2 |  =  | 5 |
+ | 0 0 0 |   | a3 |     | 5 |
+ ```
+ Now it's not... since no a1,a2,a3 will satisfy the condition that V is a linear combination of the columns of A ...I mean, we will always have 0 in the third entry of any linear combination!
+
+ More at:
+  * [https://math.stackexchange.com/questions/2037602/what-is-range-of-a-matrix](https://math.stackexchange.com/questions/2037602/what-is-range-of-a-matrix)
+
+ See also [M], ...
+
+
+# Matrix Spectral Decomposition
+
+ A special [decomposition][Matrix Decomposition] for square symmetric [matrix]
+
+ ```
+S = Q D Qt 
+# where
+# Q orthogonal with eigenvectors as columns
+# D is diagonal with eigenvalues = stretch X axis by EV1, Y axis by EV2, etc.
+# Qt also orthogonal with eigenvectors as rows (transpose)
+# REACTION ==> improper rotation + stretching + improper rotation
+
+<!> improper rotation can be turned into pure rotation if sign of eigenvectors is cleverly picked
+<!> -1 * eigenvectors is also an eigenvector with same eigenvalue (?)
+```
+
+ ![]( {{site.assets}}/m/matrix_spectral_decomposition.png )
+
+ More at:
+  * [https://www.youtube.com/watch?v=mhy-ZKSARxI](https://www.youtube.com/watch?v=mhy-ZKSARxI)
+
+ See also [M], ...
+
+# Matrix Determinant
+
+ {% youtube "https://www.youtube.com/watch?v=Ip3X9LOh2dk" %}
+
+ See also [M], [Matrix]
+
+
+# Matrix Multiplication
+
+  See [Matrix Composition]
 
 # Max Pooling Layer
 

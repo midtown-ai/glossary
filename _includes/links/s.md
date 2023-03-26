@@ -34,6 +34,8 @@
 [Sigmoid Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-activation-function
 [Sigmoid Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-function
 [Similarity Function]: {{ site.baseurl}}{% link glossary/s.md %}#similarity-function
+[Single Value Decomposition]: {{ site.baseurl}}{% link glossary/s.md %}#single-value-decomposition
+[SVD]: {{ site.baseurl}}{% link glossary/s.md %}#svd
 [Siri Virtual Assistant]: {{ site.baseurl}}{% link glossary/s.md %}#siri-virtual-assistant
 [Skip Connection]: {{ site.baseurl}}{% link glossary/s.md %}#skip-connection
 [Slicing Function]: {{ site.baseurl}}{% link glossary/s.md %}#slicing-function

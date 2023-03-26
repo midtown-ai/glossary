@@ -113,17 +113,31 @@ layout: page
  See also [I], [BLIP Model], [CLIP Image Encoder], [Text Reconstruction]
 
 
-# Imagen
+# Imagen Model
+
+ Imagen, a text-to-image diffusion model with an unprecedented degree of photorealism and a deep level of language understanding. Imagen builds on the power of large transformer language models in understanding text and hinges on the strength of diffusion models in high-fidelity image generation. Our key discovery is that generic large language models (e.g. T5), pretrained on text-only corpora, are surprisingly effective at encoding text for image synthesis: increasing the size of the language model in Imagen boosts both sample fidelity and image-text alignment much more than increasing the size of the image diffusion model.
 
  {% youtube "https://www.youtube.com/watch?v=qhtYPhPWCsI" %}
 
- {% pdf "{{site.assets}}/i/imagen_paper.pdf" %}
+ {% pdf "{{site.assets}}/i/imagen_model_paper.pdf" %}
 
  More at:
    * [https://imagen.research.google/](https://imagen.research.google/)
    * [https://www.louisbouchard.ai/google-brain-imagen/](https://www.louisbouchard.ai/google-brain-imagen/)
 
  See also [I], [Latent Diffusion Model]
+
+
+# Imagen Video Model
+
+ Imagen Video, a text-conditional video generation system based on a cascade of video diffusion models. Given a text prompt, Imagen Video generates high definition videos using a base video generation model and a sequence of interleaved spatial and temporal video super-resolution models. 
+
+ {% pdf "{{site.assets}}/i/imagen_video_model_paper.pdf" %}
+
+ More at:
+  * [https://imagen.research.google/video/](https://imagen.research.google/video/)
+
+ See also [I], ...
 
 
 # ImageNet Dataset
@@ -135,6 +149,19 @@ layout: page
 
  See also [I], [Supervised Learning], [Transfer Learning], [WordNet Dataset]
 
+
+# ImageNet Large Scale Visual Recognition Challenge
+
+# ILSVRC
+
+ The ImageNet Large Scale Visual Recognition Challenge (ILSVRC) is a benchmark in object category classification and detection on hundreds of object categories and millions of images. The challenge has been run annually from 2010 to present, attracting participation from more than fifty institutions.
+
+ {% pdf "{{site.assets}}/i/imagenet_large_scale_visual_recognition_challenge_paper.pdf" %}
+
+ More at:
+  * [https://arxiv.org/abs/1409.0575](https://arxiv.org/abs/1409.0575)
+
+ See also [I], [AlexNet Model] 
 
 # Imitation Learning
 

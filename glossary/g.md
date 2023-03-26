@@ -208,10 +208,11 @@ layout: page
 # Generative Model
 
  AI models that generate/create content. Examples of Generative AI techniques include:
-  * Generative Adversarial Networks (GAN) 
-  * Variational autoencoders (VAEs) = Hidden state is represented by a distribution, which is then sampled and decoded (Q: what is mean and variance?)
-  * Transformers 
-   * Decoders (with masked attention)
+  * [Diffusion Models][Diffusion Model]
+  * [Generative Adversarial Networks (GAN)][Generative Adversarial Network]
+  * [Variational autoencoders (VAEs)][Variational Autoencoder] = Hidden state is represented by a distribution, which is then sampled and decoded (Q: what is mean and variance?)
+  * [Transformers][Transformer Model]
+   * Decoders with masked self-attention
 
  ![]( {{site.assets}}/g/generative_model_1.png ){: width="100%"}
 
@@ -220,7 +221,7 @@ layout: page
  More at :
   * Generative Modeling by Estimating Gradients of the Data Distribution - [https://yang-song.net/blog/2021/score/](https://yang-song.net/blog/2021/score/)
 
- See also [G], [Decoder], [Diffusion Model], [Flow-Based Model], [Generative Adversarial Network], [Masked Attention], [Transformer Model], [Variational Autoencoder]
+ See also [G], [Decoder], [Flow-Based Model], [Masked Self-Attention]
  
 
 # Generative Pre-Trained Transformer Model
@@ -338,30 +339,33 @@ layout: page
 # Google Company
 
  Models developed by the company
-   * [Bard][Bard Model]: A lightweight version of Lambda meant to compete against Bing + [ChatGPT Model]
-   * [BERT][BERT Model]:
-   * [Gshard Model] :
-   * [LaMBDA Model] :
-   * [Minerva Model] :
-   * [MUM Model] :
-   * [Muse Model] :
-   * [MusicLM][MusicLM Model]: Generative model for music
-   * [PaLM Model] :
-   * [Pathways Model Architecture] :
-   * [Switch Transformer] :
-   * [T5][T5 Model]:
-   * [Tensor Processing Unit] or TPU :
-   * [Transformer Model] :
+  * [Bard][Bard Model]: A lightweight version of Lambda meant to compete against Bing + [ChatGPT Model]
+  * [BERT][BERT Model]: 
+  * [Google Translate][Google Translate Model]:
+  * [Gshard Model] :
+  * [Imagen][Imagen Model]: A text-to-image diffusion model
+  * [Imagen Video][Imagen Video Model]: A text-to-video model
+  * [LaMBDA][LaMBDA Model]: A large language model
+  * [Minerva Model] :
+  * [MUM Model] :
+  * [Muse Model] :
+  * [MusicLM][MusicLM Model]: Generative model for music
+  * [PaLM Model] :
+  * [Pathways Model Architecture] :
+  * [Switch Transformer] :
+  * [T5][T5 Model]:
+  * [Tensor Processing Unit] or TPU :
+  * [Transformer Model] :
 
  Companies
-   * [DeepMind][DeepMind Company] which built models such as [Chinchilla][Chinchilla Model], [Sparrow][Sparrow Model], [AlphaiFold][AlphaFold Model], and more ... 
+  * [DeepMind][DeepMind Company] which built models such as [Chinchilla][Chinchilla Model], [Sparrow][Sparrow Model], [AlphaiFold][AlphaFold Model], and more ... 
 
  {% youtube "https://www.youtube.com/watch?v=X5iLF-cszu0&t=611s" %}
 
  See also [G], [Company]
 
 
-# Google Translate
+# Google Translate Model
 
  {% youtube "https://www.youtube.com/watch?v=_GdSC1Z1Kzs" %}
 

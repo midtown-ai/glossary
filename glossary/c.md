@@ -279,6 +279,7 @@ set       <search space>               set
   * [Anthropic][Anthropic Company]: Focus on LLM, building an alternative to [GPT models][GPT Model]
   * [Apple][Apple Company]: Large company in the world, strangely not so influential in the AI industry. At least not yet!
   * [Baidu][Baidu Company]: Chinese search engine
+  * [BHuman][BHuman Company]: Focus on creating deepfake of yourself!
   * [Boston Dynamics][Boston Dynamics Company]: Focus on robotics
   * [Cohere][Cohere AI Company]: Focus on NLP applications
   * [DeepMind][DeepMind Company]: Focus on AI applications in science
@@ -432,9 +433,18 @@ set       <search space>               set
  In math, Convolution = Merging the shape of 2 functions together. Ex: Function that fires fireworks * smoke for 1 firework overtime = smoke in the air at a specific time ( = cumulative add all contribution of all firework)
 
  {% youtube "https://www.youtube.com/watch?v=QmcoPYUfbJ8" %}
+
  {% youtube "https://www.youtube.com/watch?v=acAw5WGtzuk" %}
 
- See also [C], [Convolutional Neural Network]
+ Discrete convolution
+
+ {% youtube "https://www.youtube.com/watch?v=KuXjwB4LzSA" %}
+
+ Continuous convolution
+
+ .... 
+
+ See also [C], [Convolutional Neural Network], [Kernel Filter]
 
 
 # Convolution Autoencoder

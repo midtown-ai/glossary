@@ -330,6 +330,18 @@ StandardScaler()
  See also [S], [Encoder], [One-Shot Learning], [Siamese Network]
 
 
+# Singular Value Decomposition
+
+# SVD
+
+ {% youtube "https://www.youtube.com/watch?v=vSczTbgc8Rc" %}
+
+ More at:
+  * ...
+
+ See also [S], [Netflix Challenge]
+
+
 # Siri Virtual Assistant
 
  First conceptualized in a [Concept Video] and named the Knowledge Navigator.

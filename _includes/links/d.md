@@ -4,6 +4,7 @@
 [DALL-E Model]: {{ site.baseurl }}{% link glossary/d.md %}#dall-e-model
 [DARPA]: {{ site.baseurl }}{% link glossary/d.md %}#darpa
 [DARPA Grand Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#darpa-grand-challenge
+[DARPA Robotics Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#darpa-robotics-challenge
 [DARPA Subterranean Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#darpa-subterranean-challenge
 [DARPA Urban Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#darpa-urban-challenge
 [Data]: {{ site.baseurl }}{% link glossary/d.md %}#data

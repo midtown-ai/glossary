@@ -47,16 +47,42 @@ layout: page
 
 # Eigenvalue
 
- ![]( {{site.assets}}/e/eigenvalue.png ){: width="100%"}
+ Each eigenvector has a eigenvalue
+
+ The eigenvalue is the ratio by which the eigenvector is scaled during the linear transformation (matrix multiplication).
+
+ If eigenvalue (v) is 
+  * 0 < v : After transformation, the eigenvector keeps the same direction
+  * v < 0 : After transformation, the eigenvector changes direction
+  * 1 < v : After transformation, the eigenvector is stretched (elongated)
+  * -1 < v < 1 : After transformation, the eigenvector is shrunken, scaled shorter
+
+ ![]( {{site.assets}}/e/eigenvalue_definition.png ){: width="100%"}
+
+ ![]( {{site.assets}}/e/eigenvalue_matrix.png ){: width="100%"}
 
  See also [E], [Synthesized Variable]
 
 
 # Eigenvector
 
- ![]( {{site.assets}}/e/eigenvector.png ){: width="100%"}
+ After a linear transformation (matrix multiplication), while every other vector deviates from their initial direction, the eigenvectors stay on the their original line despite the distortion from the matrix.
 
- See also [E], [Eigenvalue], [Synthesized Variable]
+ :warning: but their length can be stretched or direction can be inverted (the opposite) (?), but the direction stays the same (?) before and after the transformation.
+
+ :warning: All vectors on the same direction as the eigenvector is also an eigenvector, because their direction stays the same. The eigenvector is the one of unit length.
+
+ :warning: Eigenvector for matrix A is probably not the eigenvector for matrix B
+
+ :warning: A 2x2 matrix can have 0, 1, or 2 eigenvectors!
+
+ During the transformation, each eigenvector is scaled during the linear transformation (matrix multiplication). That scaling factor is the [eigenvalue]!
+
+ ![]( {{site.assets}}/e/eigenvector_definition.png ){: width="100%"}
+
+ ![]( {{site.assets}}/e/eigenvector_matrix.png ){: width="100%"}
+
+ See also [E], [Eigenvalue], [Matrix], [Synthesized Variable]
 
 
 # Electric Dreams Movie
@@ -275,6 +301,18 @@ Research on emotion has increased over the past two decades with many fields con
  See [Prediction Error]
 
 
+# ESM Metagenomic Atlas
+
+ The ESM Metagenomic Atlas will enable scientists to search and analyze the structures of [metagenomic proteins][Metagenomic Protein] at the scale of hundreds of millions of proteins. This can help researchers to identify structures that have not been characterized before, search for distant evolutionary relationships, and discover new proteins that can be useful in medicine and other applications.
+
+ ![]( {{site.assets}}/e/esm_metagenomic_atlas.png ){: width="100%"}
+
+ More at:
+  * [https://ai.facebook.com/blog/protein-folding-esmfold-metagenomics/](https://ai.facebook.com/blog/protein-folding-esmfold-metagenomics/)
+
+ See also [E], 
+
+
 # Estimator
 
  ~ a model to draw estimation from. `Estimators predict a value based on observed data`. Estimation is a statistical term for finding some estimate of unknown parameter, given some data. Point Estimation is the attempt to provide the single best prediction of some quantity of interest. Quantity of interest can be: A single parameter, A vector of parameters — e.g., weights in linear regression, A whole function.
@@ -292,6 +330,15 @@ Research on emotion has increased over the past two decades with many fields con
   * Fake media
   * Deepfake
 
+
+# Evolutionary Scale Modeling
+
+# ESM
+
+ More at:
+  * [https://github.com/facebookresearch/esm](https://github.com/facebookresearch/esm)
+
+ See also [E], ...
 
 # Ex Machina Movie
 
