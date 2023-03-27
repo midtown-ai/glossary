@@ -20,7 +20,10 @@
 [Matrix Decomposition]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-decomposition
 [Matrix Determinant]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-determinant
 [Matrix Multiplication]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-multiplication
+[Matrix Null Space]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-null-space
+[Matrix QR Decomposition]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-qr-decomposition
 [Matrix Range]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-range
+[Matrix Rank]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-rank
 [Matrix Spectral Decomposition]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-spectral-decomposition
 [Max Pooling Layer]: {{ site.baseurl }}{% link glossary/m.md %}#max-pooling-layer
 [Mean Absolute Error]: {{ site.baseurl }}{% link glossary/m.md %}#mean-absolute-error

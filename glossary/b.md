@@ -85,6 +85,9 @@ layout: page
 
  A lightweight version of [Lambda Model], meant to counter MSFT Bing + [ChatGPT]
 
+ More at:
+  * [https://bard.google.com/](https://bard.google.com/)
+
  See also [B], ...
 
 

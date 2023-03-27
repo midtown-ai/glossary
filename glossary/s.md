@@ -337,7 +337,8 @@ StandardScaler()
  {% youtube "https://www.youtube.com/watch?v=vSczTbgc8Rc" %}
 
  More at:
-  * ...
+  * [https://www.geeksforgeeks.org/singular-value-decomposition-svd/](https://www.geeksforgeeks.org/singular-value-decomposition-svd/)
+  * [https://www.geeksforgeeks.org/singular-value-decomposition/?ref=lbp](https://www.geeksforgeeks.org/singular-value-decomposition)
 
  See also [S], [Netflix Challenge]
 

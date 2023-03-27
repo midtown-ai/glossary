@@ -239,7 +239,7 @@ The training is identical -- we still predict each masked WordPiece token indepe
   * Diagonal matrix: Stretch or scale each axis :warning: - sign creates a reflection!
   * Square zero matrix: All outputs is ZERO regardless of the input matrix
   * Shear matrix
-  * Orthogonal matrix: Produce an improper rotation (pure rotation with or without reflection)
+  * Orthogonal matrix: Produce an improper rotation (pure rotation with or without reflection = no vector is stretched longer or shorter)
   * Projection matrix: You project a vector in a lower dimension space :warning: you lose info, you cannot invert those matrix!
   * Invertible matrix: To undo a linear transformation
 
@@ -248,8 +248,23 @@ The training is identical -- we still predict each masked WordPiece token indepe
   * Transpose matrix: For square matrices only? No. Row becomes columns. Transpose of a MxN matrix is of NxM dimension. Top-bottom diagonal stays the same!
   * Square matrix: Number of columns = number of rows
   * Square symmetric matrix: Aij = Aji . Symmetric based on the top-bottom diagonal. S = St ! Eigenvectors are perpendicular/orthogonal!
-  * Non-square matrix: projection in higher or lower dimensions?
+  * Non-square (i.e. rectangular or Mcol x Nrow) matrices: projection in higher or lower dimensions. Mcol x Nrow . Ncol = Mrow
   * Orthogonal matrix: Produce an improper rotation. :warning: Q orthogonal => Qt = Qinv or inverse rotation and therefore orthogonal as well!!
+  * Matrix of any dimension Mrow x Ncol
+    * A . At = square symmetric matrix (with dimension Mrow x Mrow )!!! = Sleft
+    * At . A = square symmetric matrix (with dimension Ncol x Ncol )!!! = Sright
+
+ ```
+ Special Non-square matrices
+
+  * Dimension eraser: Keep X and Y, but remove Z     | 1 0 0 |
+                                                     | 0 1 0 |
+
+  * Dimension adder: Append zero as Z value          | 1 0 |
+                                                     | 0 1 |
+			                             | 0 0 |
+ ```
+  
 
  Special vectors:
   * [Eigenvectors][Eigenvector]: While every other vector deviates from their initial direction, the eigne vectors stay on their original lines despite the distortion from the matrix.
@@ -283,9 +298,45 @@ The training is identical -- we still predict each masked WordPiece token indepe
 
  Special decompositions:
   * Square symmetric matrices ==> [Spectral decomposition][Matrix Spectral Decomposition]
-  * Other matrices ==> [Singular value decomposition]
+  * Jordan Decomposition
+  * QR decomposition
+  * Other matrices (rectangular matrices) ==> [Singular value decomposition]
 
  See also [M], [Matrix Composition]
+
+
+# Matrix Null Space
+
+ From this definition, the null space of A is the set of all vectors such that A.V=0 .
+ Obviously V=[0,0,0,...,0] is part of the null space, so it is always non-empty.
+
+ See also [M], [Matrix]
+
+
+# Matrix QR Decomposition
+
+ In linear algebra, a QR decomposition, also known as a QR factorization or QU factorization, is a [decomposition][Matrix Decomposition] of a matrix A into a product A = QR of an orthonormal matrix Q and an upper triangular matrix R. QR decomposition is often used to solve the linear least squares problem and is the basis for a particular [eigenvalue] algorithm, the QR algorithm.
+
+ More at:
+  * [https://en.wikipedia.org/wiki/QR_decomposition](https://en.wikipedia.org/wiki/QR_decomposition)
+
+ See also [M], ...
+
+
+# Matrix Rank
+
+ The rank of the matrix is related to the [range][Matrix Range]. It denotes how many columns of 𝐴
+ are actually "relevant" in determining its range. You may think that removing a column from a matrix will dramatically affect which vectors it can reach, but consider:
+
+ ```
+ | 1 2 0 |                     | 1 |
+ | 1 2 0 | ~~(same range as)~~ | 1 |
+ | 1 2 0 |                     | 1 |
+ ```
+
+ You can try to reason (to yourself), that the left matrix can reach the same space of vectors as the right matrix (Why?)
+
+ See also [M], ...
 
 
 # Matrix Range
