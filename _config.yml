@@ -127,21 +127,22 @@ description: >- # this means to ignore newlines until "baseurl:"
   but people who use AI will replace those who do not
 
 # ORIGINAL CONFIG
-# baseurl: "/blog" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "/blog" # the subpath of your site, e.g. /blog
 
 # CUSTOM DOMAIN
 # URL: https://glossary.midtown.ai
-# baseurl: ""
 # url: "https://glossary.midtown.ai" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: ""
+# assets: "/assets"
 
 # GITHUB ONLY
 # URL: https://midtown-ai.github.io/glossary
-baseurl: "/glossary" # the subpath of your site, e.g. /blog
 url: "https://midtown-ai.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/glossary" # the subpath of your site, e.g. /blog
+assets: "/glossary/assets"
 
 
-assets: "/assets"
 
 twitter_username: midtown_ai
 github_username:  midtown-ai

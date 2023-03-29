@@ -29,6 +29,19 @@ layout: page
 {% include links/all.md %}
 
 
+# Valence Aware Dictionary and sEntiment Reasoner Library
+
+# VADER Library
+
+ VADER is a lexicon and rule-based feeling analysis instrument that is explicitly sensitive to suppositions communicated in web-based media. VADER utilizes a mix of lexical highlights (e.g., words) that are, for the most part, marked by their semantic direction as one or the other positive or negative. Thus, VADER not only tells about the Polarity score yet, in addition, it tells us concerning how positive or negative a conclusion is.
+
+ More at:
+  * [https://www.analyticsvidhya.com/blog/2021/06/vader-for-sentiment-analysis/](https://www.analyticsvidhya.com/blog/2021/06/vader-for-sentiment-analysis/)
+  * [https://www.geeksforgeeks.org/python-sentiment-analysis-using-vader/](https://www.geeksforgeeks.org/python-sentiment-analysis-using-vader/)
+
+ See also [V], [Sentiment Analysis]
+
+
 # Vanilla GAN
 
  The Vanilla GAN is the simplest type of GAN made up of the generator and discriminator , where the classification and generation of images is done by the generator and discriminator internally with the use of multi layer perceptrons. The generator captures the data distribution meanwhile , the discriminator tries to find the probability of the input belonging to a certain class, finally the feedback is sent to both the generator and discriminator after calculating the loss function , and hence the effort to minimize the loss comes into picture.

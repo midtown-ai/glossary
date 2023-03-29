@@ -241,7 +241,10 @@ StandardScaler()
 
  Marketers collect social media posts about specific brands, conversation subjects, and keywords, then use NLP to analyze how users feel about each topic, individually and collectively. This helps the brands with customer research, image evaluation, and social dynamics detection.
 
- See also [S], [Natural Language Processing], [NLP Benchmark]
+ More at:
+  * [https://www.geeksforgeeks.org/twitter-sentiment-analysis-using-python/](https://www.geeksforgeeks.org/twitter-sentiment-analysis-using-python/)
+
+ See also [S], [BERT Model], [Natural Language Processing], [NLP Benchmark], [VADER Library]
 
 
 # Sequence To Sequence Model

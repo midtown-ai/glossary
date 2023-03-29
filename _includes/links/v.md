@@ -1,5 +1,7 @@
 [V]: {{ site.baseurl }}{% link glossary/v.md %}
 
+[Valence Aware Dictionary And Sentiment Reasoner]: {{ site.baseurl }}{% link glossary/v.md %}#valence-aware-dictionary-and-sentiment-reasoner-library
+[VADER Library]: {{ site.baseurl }}{% link glossary/v.md %}#vader-library
 [Vanilla GAN]: {{ site.baseurl }}{% link glossary/v.md %}#vanilla-gan
 [Vanishing Gradient Problem]: {{ site.baseurl }}{% link glossary/v.md %}#vanishing-gradient-problem
 [Variable]: {{ site.baseurl }}{% link glossary/v.md %}#variable
