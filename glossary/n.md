@@ -78,6 +78,7 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
  More at:
   * [https://www.deepmind.com/blog/game-theory-as-an-engine-for-large-scale-data-analysis](https://www.deepmind.com/blog/game-theory-as-an-engine-for-large-scale-data-analysis)
+  * [https://en.wikipedia.org/wiki/Nash_equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium)
 
  See also [N], ...
 

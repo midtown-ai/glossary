@@ -35,7 +35,7 @@ layout: page
 
  Galactica is “a large language model that can store, combine and reason about scientific knowledge,” according to a paper published by Meta AI. It is a transformer model that has been trained on a carefully curated dataset of 48 million papers, textbooks and lecture notes, millions of compounds and proteins, scientific websites, encyclopedias, and more. Galactica was supposed to help scientists navigate the ton of published scientific information. Its developers presented it as being able to find citations, summarize academic literature, solve math problems, and perform other tasks that help scientists in research and writing papers.
 
- {% pdf "{{site.assets}}/g/galactica_paper.pdf" %}
+ {% pdf "{{site.assets}}/g/galactica_model_paper.pdf" %}
 
  More at:
   * what happened to galactica? - [https://www.louisbouchard.ai/galactica/](https://www.louisbouchard.ai/galactica/)

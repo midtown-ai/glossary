@@ -104,6 +104,10 @@ layout: page
 
  {% youtube "https://www.youtube.com/watch?v=6eb3e9lJ-7s" %}
 
+ Alternatives
+  * [play.ht](https://play.ht/)
+  * [coqui.ai](https://coqui.ai/about)
+
  More at:
   * [https://beta.elevenlabs.io/about](https://beta.elevenlabs.io/about)
   * [https://beta.elevenlabs.io/speech-synthesis](https://beta.elevenlabs.io/speech-synthesis)
@@ -306,6 +310,9 @@ Research on emotion has increased over the past two decades with many fields con
 
  {% youtube "https://www.youtube.com/watch?v=ukvEUI3x0vI" %}
 
+ More at:
+  * [https://www.pcmag.com/news/openai-has-nothing-to-fear-from-chinas-chatgpt-rival-ernie-bot](https://www.pcmag.com/news/openai-has-nothing-to-fear-from-chinas-chatgpt-rival-ernie-bot)
+
  See also [E], ...
 
 
@@ -439,6 +446,8 @@ Research on emotion has increased over the past two decades with many fields con
  An ensemble method, XGBoost (extreme gradient boosting) is a popular and efficient open-source implementation of the gradient-boosted trees algorithm. Gradient boosting is a machine learning algorithm that attempts to accurately predict target variables by combining the estimates of a set of simpler, weaker models (several decision trees?). By applying gradient boosting to decision tree models in a highly scalable manner, XGBoost does remarkably well in machine learning competitions. It also robustly handles a variety of data types, relationships, and distributions. It provides a large number of hyperparameters—variables that can be tuned to improve model performance. This flexibility makes XGBoost a solid choice for various machine learning problems such as classifications and regressions. Example image recognition of a car: Before you recognize the car, does the thing have wheels, are they door, etc... if it has all of those features then it must be a car.
 
  ![]( {{site.assets}}/e/extreme_gradient_boosting.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=XXHhrlL-FWc" %}
 
  More at:
   * ...

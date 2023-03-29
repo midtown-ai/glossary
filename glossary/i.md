@@ -144,10 +144,12 @@ layout: page
 
  ~ 1.2 million images with 1000 label each (= used for supervised learning, or not!) !ImageNet is an image dataset organized according to the !WordNet hierarchy. Each meaningful concept in !WordNet, possibly described by multiple words or word phrases, is called a "synonym set" or "synset". There are more than 100,000 synsets in !WordNet; the majority of them are nouns (80,000+). In !ImageNet, we aim to provide on average 1000 images to illustrate each synset. Images of each concept are quality-controlled and human-annotated. In its completion, we hope ImageNet will offer tens of millions of cleanly labeled and sorted images for most of the concepts in the !WordNet hierarchy. The !ImageNet project was inspired by two important needs in computer vision research. The first was the need to establish a clear North Star problem in computer vision. While the field enjoyed an abundance of important tasks to work on, from stereo vision to image retrieval, from 3D reconstruction to image segmentation, object categorization was recognized to be one of the most fundamental capabilities of both human and machine vision. Hence there was a growing demand for a high quality object categorization benchmark with clearly established evaluation metrics. Second, there was a critical need for more data to enable more generalizable machine learning methods. Ever since the birth of the digital era and the availability of web-scale data exchanges, researchers in these fields have been working hard to design more and more sophisticated algorithms to index, retrieve, organize and annotate multimedia data. But good research requires good resources. To tackle this problem at scale (think of your growing personal collection of digital images, or videos, or a commercial web search engine’s database), it was critical to provide researchers with a large-scale image database for both training and testing. The convergence of these two intellectual reasons motivated us to build !ImageNet.
 
+ {% youtube "https://www.youtube.com/watch?v=c_u4AHNjOpk" %}
+
  More at:
    * [https://image-net.org/challenges/LSVRC/index.php](https://image-net.org/challenges/LSVRC/index.php)
 
- See also [I], [Supervised Learning], [Transfer Learning], [WordNet Dataset]
+ See also [I], [AlexNet Model], [Supervised Learning], [Transfer Learning], [WordNet Dataset]
 
 
 # ImageNet Large Scale Visual Recognition Challenge

@@ -145,6 +145,21 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
  See also [H], [Cross-Validation Sampling Method]
 
 
+# Holistic Evaluation of Language Model Benchmark
+
+# HELM Benchmark
+
+ A language model takes in text and produces text. Despite their simplicity, language models are increasingly functioning as the foundation for almost all language technologies from question answering to summarization. But their immense capabilities and risks are not well understood. Holistic Evaluation of Language Models (HELM) is a living benchmark that aims to improve the transparency of language models.
+
+ More at:
+  * [https://crfm.stanford.edu/helm/latest/](https://crfm.stanford.edu/helm/latest/)
+  * [https://github.com/stanford-crfm/helm](https://github.com/stanford-crfm/helm)
+  * [https://crfm.stanford.edu/2022/11/17/helm.html](https://crfm.stanford.edu/2022/11/17/helm.html)
+
+
+ See also [H], ...
+
+
 # Huber Loss Function
 
  Now we know that the Mean Square Error (MSE) is great for learning outliers while the Mean Absolute Error (MAE) is great for ignoring them. But what about something in the middle? Consider an example where we have a dataset of 100 values we would like our model to be trained to predict. Out of all that data, 25% of the expected values are 5 while the other 75% are 10. An MSE loss wouldn’t quite do the trick, since we don’t really have “outliers”; 25% is by no means a small fraction. On the other hand we don’t necessarily want to weight that 25% too low with an MAE. Those values of 5 aren’t close to the median (10 — since 75% of the points have a value of 10), but they’re also not really outliers. Our solution? The Huber Loss Function. The Huber Loss offers the best of both worlds by balancing the MSE and MAE together. We can define it using the following piecewise function:

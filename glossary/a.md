@@ -269,7 +269,10 @@ First, we believe the clearest framing of general intelligence is a system that 
 
  {% youtube "https://www.youtube.com/watch?v=fc-cHk9yFpg" %}
 
+ {% pdf "{{site.assets}}/a/ai_ethics_cards_by_ideo.pdf" %}
+
  More at :
+  * ethics card - [https://www.ideo.com/blog/ai-needs-an-ethical-compass-this-tool-can-help](https://www.ideo.com/blog/ai-needs-an-ethical-compass-this-tool-can-help)
   * [https://scottaaronson.blog/?p=6823](https://scottaaronson.blog/?p=6823)
   * comic and copyright - [https://aibusiness.com/nlp/ai-generated-comic-book-keeps-copyright-well-some-of-it](https://aibusiness.com/nlp/ai-generated-comic-book-keeps-copyright-well-some-of-it)
 
@@ -304,7 +307,11 @@ First, we believe the clearest framing of general intelligence is a system that 
 # AI Research
 
  Research labs:
-  * Google 
+  * Universities
+   * [Berkeley](https://ml.berkeley.edu/research)
+  * Companies
+   * Facebook - [https://ai.facebook.com/blog/](https://ai.facebook.com/blog/)
+   * Google 
     * [https://research.google/](https://research.google/)
     * cloud-AI - [https://research.google/teams/cloud-ai/](https://research.google/teams/cloud-ai/)
 

@@ -110,7 +110,7 @@ layout: page
 
 # ChatGPT Model
 
- A GPT-based model that has a state,  that is you can have a discussion/dialog with the device. This model is fine-tuned with "supervised" interactions as was done with the InstructGPT model, a precursor to ChatGPT. In recent weeks, the internet has been going crazy with the new ChatGPT model. In general, ChatGPT is part of a series of releases around GPT 3.5 that are highlighting some of the capabilities of the upcoming GPT-4 model. One of the key differences of ChatGPT with previous models is its ability to follow instructions. This is powered another model called InstructGPT which OpenAI quietly unveiled at the beginning of the year.
+ A [GPT model] that has a state,  that is you can have a discussion/dialog with the device. This model is [fine-tuned with "supervised" interactions][Supervised Fine-Tuning] as was done with the [InstructGPT model], a precursor to ChatGPT. In recent weeks, the internet has been going crazy with the new ChatGPT model. In general, ChatGPT is part of a series of releases around [GPT 3.5][GPT Model] that are highlighting some of the capabilities of the upcoming [GPT-4 model][GPT Model]. One of the key differences of ChatGPT with previous models is its ability to follow instructions. This is powered another model called InstructGPT which OpenAI quietly unveiled at the beginning of the year.
 
  {% youtube "https://www.youtube.com/watch?v=AsFgn8vU-tQ" %}
 
@@ -120,8 +120,9 @@ layout: page
   * gpt vs chatgpt vs instructgpt - [https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5](https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5)
   * webgpt chrome extension - [https://twitter.com/DataChaz/status/1610556519531089921](https://twitter.com/DataChaz/status/1610556519531089921)
   * [https://www.cnn.com/2022/12/05/tech/chatgpt-trnd/index.html](https://www.cnn.com/2022/12/05/tech/chatgpt-trnd/index.html)
+  * [https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5](https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5)
 
- See also [C], [Chatbot], [Digital Watermark], [Feedback], [GPT Model], [InstructGPT Model], [Reward Model], [Reinforcement Learning], [Sparrow Model], [Supervised Fine-Tuning]
+ See also [C], [Chatbot], [Digital Watermark], [Feedback], [Plagiarism Checker], [Reward Model], [Reinforcement Learning], [Sparrow Model]
 
 
 # Child Development Milestone
@@ -285,6 +286,7 @@ set       <search space>               set
   * [DeepMind][DeepMind Company]: Focus on AI applications in science
   * [ElevenLabs][ElevenLabs AI Company]: Focus on Text-to-speech rendition
   * [Engineered Arts][Engineered Arts Company]: Focus on social robots, such as [Ameca][Ameca Robot]
+  * [Fermat](https://www.youtube.com/@fermat_ws/videos): Collaboration canvas with AI
   * [Futuri Media][Futuri Media Company]: Content selection for media, such as tv and radio. Includes [RadioGPT]!
   * [GitHub][GitHub Company]: Code repositories with advanced features including  AI pair programming with Codex
   * [Google][Google Company]: Known for its search engine and ad-placement business model. Challenged by Microsoft
@@ -299,6 +301,7 @@ set       <search space>               set
   * [Stability AI][Stability AI Company]: Focus on [diffusion model] or image generation, adopted the open-source philosophy
   * [Supertranslate][Supertranslate AI Company]: Focus on generating proper subtitles to videos
   * [Synthesia][Synthesia Company]: Focus on AI avatars
+  * [Tome App][Tome App Company]: Automated slide deck creation!
   * [Waymo][Waymo Company]: Focus on self-driving car 
 
  See also [C], ...

@@ -17,6 +17,7 @@
 [Pipe Mode]: {{ site.baseurl}}{% link glossary/p.md %}#pipe-mode
 [Pixel RNN]: {{ site.baseurl}}{% link glossary/p.md %}#pixel-rnn
 [Pixel Space]: {{ site.baseurl}}{% link glossary/p.md %}#pixel-space
+[Plagiarism Checker]: {{ site.baseurl}}{% link glossary/p.md %}#plagiarism-checker
 [Pluribus Model]: {{ site.baseurl}}{% link glossary/p.md %}#pluribus-model
 [Point Estimator]: {{ site.baseurl}}{% link glossary/p.md %}#point-estimator
 [Point-E Model]: {{ site.baseurl}}{% link glossary/p.md %}#point-e-model
@@ -40,4 +41,5 @@
 [Proximal Policy Optimization]: {{ site.baseurl}}{% link glossary/p.md %}#proximal-policy-optimization
 [PPO]: {{ site.baseurl}}{% link glossary/p.md %}#ppo
 [PyBullet]: {{ site.baseurl}}{% link glossary/p.md %}#pybullet
+[PyGame Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pygame-python-module
 [PyTorch ML Framework]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-ml-framework

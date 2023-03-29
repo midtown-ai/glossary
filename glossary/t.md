@@ -63,7 +63,7 @@ layout: page
 
 # T5 Model
 
- Trained with C4. A Transformer based architecture that uses a text-to-text approach. Every task – including translation, question answering, and classification – is cast as feeding the model text as input and training it to generate some target text. This allows for the use of the same model, loss function, hyperparameters, etc. across our diverse set of tasks. The changes compared to BERT include:
+ Trained with [Colossal Clean Crawled Corpus] or [C4]. A [Transformer based architecture][Transformer Architecture] that uses a text-to-text approach. Every task – including translation, question answering, and classification – is cast as feeding the model text as input and training it to generate some target text. This allows for the use of the same model, loss function, hyperparameters, etc. across our diverse set of tasks. The changes compared to [BERT][BERT Model] include:
    * adding a causal decoder to the bidirectional architecture.
    * replacing the fill-in-the-blank cloze task with a mix of alternative pre-training tasks.
  T5 claims the state of the art on more than twenty established NLP tasks. It’s extremely rare for a single method to yield consistent progress across so many tasks. That list includes most of the tasks in the GLUE and SuperGLUE benchmarks, which have caught on as one of the main measures of progress for applied language understanding work of this kind (and which my group helped to create). On many of these task datasets, T5 is doing as well as human crowdworkers, which suggests that it may be reaching the upper bound on how well it is possible to do on our metrics.
@@ -76,7 +76,7 @@ layout: page
    * blog article - [https://medium.com/syncedreview/google-t5-explores-the-limits-of-transfer-learning-a87afbf2615b](https://medium.com/syncedreview/google-t5-explores-the-limits-of-transfer-learning-a87afbf2615b)
    * [https://paperswithcode.com/method/t5#:~:text=T5%2C%20or%20Text%2Dto%2D,to%20generate%20some%20target%20text.](https://paperswithcode.com/method/t5#:~:text=T5%2C%20or%20Text%2Dto%2D,to%20generate%20some%20target%20text.)
 
- See also [T], [BERT Model], [Colossal Clean Crawled Corpus], [Google Company], [Switch Transformer], [Transformer Architecture], [Transformer Model]
+ See also [T], [Google Company], [Switch Transformer], [Transformer Model]
 
 
 # Target Attribute
@@ -272,6 +272,8 @@ layout: page
  Beware:
   * :warning: abilities that rely on ToM ==> empathy, moral judgment, or self-consciousness.
 
+ {% pdf "{{site.assets}}/t/theory_of_mind_paper.pdf" %}
+
  More at:
   * philosophy - [https://iep.utm.edu/theomind/](https://iep.utm.edu/theomind/)
   * colab - [https://colab.research.google.com/drive/1zQKSDEhqEFcLCf5LuW--A-TGcAhF19hT](https://colab.research.google.com/drive/1zQKSDEhqEFcLCf5LuW--A-TGcAhF19hT)
@@ -360,6 +362,23 @@ vocab[2], vocab[13884], vocab[5], \
  See also [T], [BERT Model], [Tokenization]
 
 
+# Tome App Company
+
+ A company that built an App to be used for automated slide-deck creation!
+
+ {% youtube "https://www.youtube.com/watch?v=mff6EYmHd6c" %}
+
+ Alternative:
+  * [SlidesGo](https://slidesgo.com/)
+  * Powerpoint
+  * Google slides
+
+ More at:
+  * [https://beta.tome.app/](https://beta.tome.app/)
+
+ See also [T], ...
+
+
 # Torch
 
  at the origin of pytorch?
@@ -434,6 +453,7 @@ vocab[2], vocab[13884], vocab[5], \
 
  More at:
   * [https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0](https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0)
+  * [https://bdtechtalks.com/2022/05/02/what-is-the-transformer/](https://bdtechtalks.com/2022/05/02/what-is-the-transformer/)
 
  See also [T], [Action Transformer], [Attention Score], [Attention-Based Model], [Autoregressive], [Generative Model], [Long Short Term Memory Network], [Masked Self-Attention], [Multi-Head Attention], [Recurrent Neural Network], [Self-Attention]
 

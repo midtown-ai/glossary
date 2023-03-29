@@ -165,6 +165,15 @@ layout: page
  See also [P], [Latent Space], [Space], 
 
 
+# Plagiarism Checker
+
+ More at:
+  * [https://quillbot.com/plagiarism-checker](https://quillbot.com/plagiarism-checker)
+  * [https://www.grammarly.com/plagiarism-checker](https://www.grammarly.com/plagiarism-checker)
+
+ See also [P], [ChatGPT Model]
+
+
 # Pluribus Model
 
  Pluribus is a computer poker player using artificial intelligence built by Facebook's AI Lab and Carnegie Mellon University. Pluribus plays the poker variation no-limit Texas hold 'em and is "the first bot to beat humans in a complex multiplayer competition".
@@ -181,6 +190,7 @@ layout: page
  More at:
   * [https://ai.facebook.com/blog/pluribus-first-ai-to-beat-pros-in-6-player-poker/](https://ai.facebook.com/blog/pluribus-first-ai-to-beat-pros-in-6-player-poker/)
   * [https://en.wikipedia.org/wiki/Pluribus_(poker_bot)](https://en.wikipedia.org/wiki/Pluribus_(poker_bot))
+  * [https://www.smithsonianmag.com/smart-news/poker-playing-ai-knows-when-hold-em-when-fold-em-180972643/](https://www.smithsonianmag.com/smart-news/poker-playing-ai-knows-when-hold-em-when-fold-em-180972643/)
 
  See also [P], [Facebook Company], [Game Theory]
 
@@ -413,6 +423,13 @@ Prediction Error = actual_value - predicted_value
   * video paper - [https://xbpeng.github.io/projects/ASE/index.html](https://xbpeng.github.io/projects/ASE/index.html)
 
  See also [P], [Isaac Gym], [OpenAI Gym], [RobotSchool]
+
+
+# PyGame Python Module
+
+ {% youtube "https://www.youtube.com/watch?v=PJl4iabBEz0" %}
+
+ See also [P], [Gym Environment], [PyTorch ML Framework]
 
 
 # PyTorch ML Framework

@@ -10,6 +10,8 @@
 [Hidden State]: {{site.baseurl }}{% link glossary/h.md %}#hidden-state
 [Hinge Loss Function]: {{site.baseurl }}{% link glossary/h.md %}#hinge-loss-function
 [Holdout Fold]: {{site.baseurl }}{% link glossary/h.md %}#holdout-fold
+[Holistic Evaluation of Language Model Benchmark]: {{site.baseurl }}{% link glossary/h.md %}#holistic-evaluation-of-language-model-benchmark
+[HELM Benchmark]: {{site.baseurl }}{% link glossary/h.md %}#helm-benchmark
 [Huber Loss Function]: {{site.baseurl }}{% link glossary/h.md %}#huber-loss-function
 [Human-Centered AI]: {{site.baseurl }}{% link glossary/h.md %}#human-centered-ai
 [Hyperparameter]: {{site.baseurl }}{% link glossary/h.md %}#hyperparameter
