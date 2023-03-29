@@ -28,16 +28,10 @@ categories: jekyll update
  * 2020       - Viral happy new year by [Boston Dynamics Company]
  * 2021
  * 2022       - [GPT3][GPT Model] and [ChatGPT][ChatGPT Model] by [OpenAI][OpenAI Company]
+ * 2022/11/12 - [ChatGPT] is released
  * 2023       - [AlphaTensor][AlphaTensor Model]
  * 2023       - [Bard Model] by [Google][Google Company]
+ * 2023/03/21 - Bill Gates: [The Age of AI has begun](https://www.gatesnotes.com/The-Age-of-AI-Has-Begun)
 
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
 {% include links/all.md %}

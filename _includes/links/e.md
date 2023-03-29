@@ -5,6 +5,8 @@
 [Eigenvalue]: {{site.baseurl }}{% link glossary/e.md %}#eigenvalue
 [Eigenvector]: {{site.baseurl }}{% link glossary/e.md %}#eigenvector
 [Electric Dreams Movie]: {{site.baseurl }}{% link glossary/e.md %}#electric-dreams-movie
+[ElevenLabs AI Company]: {{site.baseurl }}{% link glossary/e.md %}#elevenlabs-ai-company
+[Elon Musk Person]: {{site.baseurl }}{% link glossary/e.md %}#elon-musk-person
 [Embedding]: {{site.baseurl }}{% link glossary/e.md %}#embedding
 [Embedding Space]: {{site.baseurl }}{% link glossary/e.md %}#embedding-space
 [Emergent Ability]: {{site.baseurl }}{% link glossary/e.md %}#emergent-ability
@@ -17,6 +19,7 @@
 [Encoder-Decoder Attention]: {{site.baseurl }}{% link glossary/e.md %}#encoder-decoder-attention
 [Encoder-Decoder Model]: {{site.baseurl }}{% link glossary/e.md %}#encoder-decoder-model
 [Endpoint]: {{site.baseurl }}{% link glossary/e.md %}#endpoint
+[Engineered Arts Company]: {{site.baseurl }}{% link glossary/e.md %}#engineered-arts-company
 [Ensemble Method]: {{site.baseurl }}{% link glossary/e.md %}#ensemble-method
 [Entity]: {{site.baseurl }}{% link glossary/e.md %}#entity
 [Entity Extraction]: {{site.baseurl }}{% link glossary/e.md %}#entity-extraction

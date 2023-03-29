@@ -112,9 +112,9 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 # Activation Step
 
- Last step in an artificial neuron before an output is generated.
+ Last step in an [artificial neuron] before an output is generated.
 
- See also [A], [Artificial Neuron]
+ See also [A], ...
 
 
 # Actor Critic With Experience Replay
@@ -258,14 +258,22 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [Deep Fake], [Synthesia Company]
 
 
+# AI Book
+
+ * [A Thousand Brains](https://www.gatesnotes.com/A-Thousand-Brains)
+
+  See also [A], [AI Company], [AI Movie]
+
+
 # AI Ethics
 
  {% youtube "https://www.youtube.com/watch?v=fc-cHk9yFpg" %}
 
  More at :
   * [https://scottaaronson.blog/?p=6823](https://scottaaronson.blog/?p=6823)
+  * comic and copyright - [https://aibusiness.com/nlp/ai-generated-comic-book-keeps-copyright-well-some-of-it](https://aibusiness.com/nlp/ai-generated-comic-book-keeps-copyright-well-some-of-it)
 
- See also [A], [AI Alignment]
+ See also [A], [AI Alignment], [Responsible AI]
 
 
 # AI Movie
@@ -286,6 +294,21 @@ First, we believe the clearest framing of general intelligence is a system that 
   * 2022 - [M3GAN][M3GAN Movie]: the eponymous artificially intelligent doll who develops self-awareness and becomes hostile toward anyone who comes between her and her human companion
 
  See also [A]
+
+
+# AI Paper
+
+ See [AI Research]
+
+
+# AI Research
+
+ Research labs:
+  * Google 
+    * [https://research.google/](https://research.google/)
+    * cloud-AI - [https://research.google/teams/cloud-ai/](https://research.google/teams/cloud-ai/)
+
+ See [A], ...
 
 
 # AlexNet Model
@@ -539,7 +562,11 @@ First, we believe the clearest framing of general intelligence is a system that 
      * action - execution and interaction
    * `... to solve problems addressed by humans`
 
- ![]( {{site.assets}}/a/artificial_intelligence.png){: width="100%" }
+ ![]( {{site.assets}}/a/artificial_intelligence_sensing_effecting.png){: width="100%" }
+
+ ![]( {{site.assets}}/a/artificial_intelligence_machine_learning.png){: width="100%" }
+
+ ![]( {{site.assets}}/a/artificial_intelligence_3_types.png){: width="100%" }
 
  See also [A], [AI Areas Of Study], [Artificial Narrow Intelligence], [Artificial General Intelligence], [Artificial Super Intelligence], [Human-Centered AI], [Inference], [Intelligence], [Machine Learning], [Natural Intelligence]
 

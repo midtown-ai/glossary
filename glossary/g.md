@@ -205,6 +205,19 @@ layout: page
  See also [G], [Bayesian Network], [Hidden Markov Model], [Markov Random Field], [Naive Bayes]
 
 
+# Generative Design
+
+ [Generative AI] applied to architecture, design of parts, etc. everything that normally use CAD tools!
+
+ {% youtube "https://www.youtube.com/watch?v=RrL4HshuzUw" %}
+
+ More at:
+  * [https://www.generativedesign.org/](https://www.generativedesign.org/)
+  * [https://www.ptc.com/en/blogs/cad/beginner-guide-generative-design](https://www.ptc.com/en/blogs/cad/beginner-guide-generative-design)
+
+ See also [G], ...
+
+
 # Generative Model
 
  AI models that generate/create content. Examples of Generative AI techniques include:
@@ -248,6 +261,7 @@ layout: page
    * GPT-2 paper - [https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) (also attached)
    * GPT-3 paper -
    * GPT-4 paper - [https://cdn.openai.com/papers/gpt-4.pdf](https://cdn.openai.com/papers/gpt-4.pdf)
+   * GPT-4 site - [https://openai.com/research/gpt-4](https://openai.com/research/gpt-4)
    * GPT fine-tuning - [https://platform.openai.com/docs/guides/fine-tuning](https://platform.openai.com/docs/guides/fine-tuning)
    * gpt vs chatgpt vs instructgpt - [https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5](https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5)
 

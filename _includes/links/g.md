@@ -18,6 +18,7 @@
 [Generative Adversarial Network]: {{ site.baseurl }}{% link glossary/g.md %}#generative-adversarial-network
 [GAN]: {{ site.baseurl }}{% link glossary/g.md %}#gan
 [Generative Classifier]: {{ site.baseurl }}{% link glossary/g.md %}#generative-classifier
+[Generative Design]: {{ site.baseurl }}{% link glossary/g.md %}#generative-design
 [Generative Model]: {{ site.baseurl }}{% link glossary/g.md %}#generative-model
 [Generative Pre-Trained Transformer Model]: {{ site.baseurl }}{% link glossary/g.md %}#generative-pre-trained-transformer-model
 [GPT Model]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-model

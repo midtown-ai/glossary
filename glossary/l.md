@@ -287,7 +287,7 @@ with alpha = learning_rate
  See also [L], [Classification], [Multiple Linear Regression], [Non-Linear Regression], [Prediction Error], [Regression]
 
 
-# LlaMA Model
+# LLaMA Model
 
  Using the scaling method described in [Chinchilla][Chinchilla Model]
  65 Billion parameters.

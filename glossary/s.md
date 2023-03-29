@@ -44,6 +44,18 @@ layout: page
  ~ compiler of ML models before they are distributed to the endpoint. Compatible with TensorFlow, XGBoost, MxNET, PyTorch, ... Allow the model to run without any frameworr, this reduce the memory footprint on the device (at the edge) by 100x, while improving the performance by x2.
 
 
+# Sam Altman Person
+
+ Sam Altman is the CEO of OpenAI, the buzzy AI firm he cofounded with Elon Musk.
+ Before that, he was well known in Silicon Valley as president of startup accelerator Y-Combinator.
+ Here's how the serial entrepreneur got his start — and ended up helming one of today's most-watched companies.
+
+ More at:
+  * [https://www.businessinsider.com/sam-altman-chatgpt-openai-ceo-career-net-worth-ycombinator-prepper-2023-1](https://www.businessinsider.com/sam-altman-chatgpt-openai-ceo-career-net-worth-ycombinator-prepper-2023-1)
+
+ See also [S], ...
+
+
 # Sample
 
  See also [S], [Distribution]
@@ -527,11 +539,33 @@ Social robots also work as concierges in hotels and other settings like malls, w
  See also [S], [CycleGAN]
 
 
+# Speech-To-Text
+
+# STT
+
+ Speech-to-text models transcribe speech into text! The oppositve of [Text-To-Speech][Text-To-Speech Model]
+
+ Models:
+  * [Whisper Model] by [OpenAI][OpenAI Company]
+
+ See also [S], ...
+
+
 # SQuAD Benchmark
 
  A benchmark for NLP models for question answering.
 
  See also [S], [NLP Benchmark], [Question Answering]
+
+
+# Stability AI Company
+
+ The [AI Company][Company] that created the [Stable Diffusion Model]
+
+ More at:
+  * [https://stability.ai/](https://stability.ai/)
+
+ See also [S], ...
 
 
 # Stanford Autonomous Helicopter
@@ -686,6 +720,19 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
   * [https://super.gluebenchmark.com/](https://super.gluebenchmark.com/)
 
  See also [S], [GLUE Benchmark], [NLP Benchmark]
+
+
+# Supertranslate AI Company
+
+ An [AI Company][Company] Focus on generating subtitle for a given video (check the meditation video!)
+
+ More at:
+  * mediation video - [https://twitter.com/ramsri_goutham/status/1619620737509396483](https://twitter.com/ramsri_goutham/status/1619620737509396483)
+    * post - [https://ramsrigoutham.medium.com/create-ai-powered-personalized-meditation-videos-d2f76fee03a5(https://ramsrigoutham.medium.com/create-ai-powered-personalized-meditation-videos-d2f76fee03a5)
+    * video [https://www.youtube.com/watch?v=YfxlC9Kreig&t=44s](https://www.youtube.com/watch?v=YfxlC9Kreig&t=44s)
+  * [https://dashboard.supertranslate.ai/home](https://dashboard.supertranslate.ai/home)
+
+ See also [S], ...
 
 
 # Supervised Fine-Tuning

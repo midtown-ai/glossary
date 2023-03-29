@@ -57,6 +57,16 @@ layout: page
  See also [O], [Reinforcement Learning], [State]
 
 
+# Omniverse
+
+ The metaverse by [Nvidia][Nvidia Company]
+
+ More at:
+  * [https://venturebeat.com/ai/architects-and-engineers-find-a-transformative-solution-in-nvidia-omniverse/](https://venturebeat.com/ai/architects-and-engineers-find-a-transformative-solution-in-nvidia-omniverse/)
+
+ See also [0], ...
+
+
 # One-Cold Encoding
 
  Same as one-hot encoding except the 1 is a 0 and 0s are 1s. Example yellow = [1, 0, 1, 1].
@@ -127,10 +137,12 @@ cheese =>                                   # Prompt
   * [Five][OpenAI Five Model]: An agent that isnow world champion at the Dota2 game!
   * [GPT][GPT Model]: A Generative model for text
   * [Gym Environment][OpenAI Gym Environment]: Environments for development of [Reinforcement Learning] algorithms.
-  * [Whisper][Whisper Model]: A text-to-speech model
+  * [Whisper][Whisper Model]: A speech-to-text model
 
  More at:
   * [http://www.openai.com](http://www.openai.com)
+  * principles - [https://openai.com/policies/usage-policies](https://openai.com/policies/usage-policies)
+  * safety - [https://openai.com/safety-standards](https://openai.com/safety-standards)
 
  See also [O], [Microsoft Company]
 
@@ -181,6 +193,16 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
   * [https://keras.io/api/optimizers/](https://keras.io/api/optimizers/)
 
  See also [O], [Loss Function]
+
+
+# OpenFold
+
+ OpenFold is a non-profit AI research and development consortium developing free and open-source software tools for biology and drug discovery. Our mission is to bring the most powerful software ever created -- AI systems with the ability to engineer the molecules of life -- to everyone. These tools can be used by academics, biotech and pharmaceutical companies, or students learning to create the medicines of tomorrow, to accelerate basic biological research, and bring new cures to market that would be impossible to discover without AI.
+
+ More at:
+  * [https://openfold.io/](https://openfold.io/)
+
+ See also [O], [DeepFold], [ESM Metagenomic Atlas]
 
 
 # Output Layer

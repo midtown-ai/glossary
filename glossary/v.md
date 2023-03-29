@@ -294,6 +294,11 @@ Currently, standard virtual reality systems use either virtual reality headsets 
  Visual grounding is the task of localizing concepts referred to by the language onto an image. 
 
 
+# Visual Language Model
+
+ See also [V], [Flamingo Model]
+
+
 # Voice Encoder
 
 # Vocoder

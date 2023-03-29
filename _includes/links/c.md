@@ -51,6 +51,7 @@
 [CNN]: {{ site.baseurl }}{% link glossary/c.md %}#cnn
 [Convolutional Neural Network Feature Extractor]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-neural-network-feature-extractor
 [CNN Feature Extractor]: {{ site.baseurl }}{% link glossary/c.md %}#cnn-feature-extractor
+[Coral Hardware]: {{ site.baseurl }}{% link glossary/c.md %}#coral-hardware
 [Coreference]: {{ site.baseurl }}{% link glossary/c.md %}#coreference
 [Corpus]: {{ site.baseurl }}{% link glossary/c.md %}#corpus
 [Cost Function]: {{ site.baseurl }}{% link glossary/c.md %}#cost-function

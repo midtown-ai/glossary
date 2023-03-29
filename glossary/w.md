@@ -125,12 +125,22 @@ layout: page
 
 # Whisper Model
 
+ A speech-to-text model developed by [OpenAI][OpenAI Company]
+
  Open-sourcing a neural net called Whisper that approaches human level robustness and accuracy on English speech recognition.
+
+ ```
+curl https://api.openai.com/v1/audio/transcriptions \
+  -H "Authorization: Bearer $OPENAI_API_KEY" \
+  -H "Content-Type: multipart/form-data" \
+  -F model="whisper-1" \
+  -F file="@/path/to/file/openai.mp3"
+ ```
 
  More at:
   * [https://openai.com/blog/whisper/](https://openai.com/blog/whisper/)
 
- See also [W], [OpenAI Company]
+ See also [W], ...
 
 
 # White Box Model

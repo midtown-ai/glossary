@@ -98,13 +98,14 @@ layout: page
 
  See also [E], [AI Movie]
 
-# Elevenlabs Company
+# Elevenlabs AI Company
 
  An AI startup that lets anyone clone a target’s voice in a matter of seconds.
 
  {% youtube "https://www.youtube.com/watch?v=6eb3e9lJ-7s" %}
 
  More at:
+  * [https://beta.elevenlabs.io/about](https://beta.elevenlabs.io/about)
   * [https://beta.elevenlabs.io/speech-synthesis](https://beta.elevenlabs.io/speech-synthesis)
   * [https://www.theverge.com/2023/1/31/23579289/ai-voice-clone-deepfake-abuse-4chan-elevenlabs](https://www.theverge.com/2023/1/31/23579289/ai-voice-clone-deepfake-abuse-4chan-elevenlabs)
   * [https://twitter.com/ramsri_goutham/status/1619620737509396483](https://twitter.com/ramsri_goutham/status/1619620737509396483)
@@ -226,6 +227,18 @@ Research on emotion has increased over the past two decades with many fields con
  After the model has been built, we create an endpoint in docker to make it available for queries. An endpoint has a URL which can be queried directly. `You don't have SSH access to the endpoint`.
 
 
+# Engineered Arts Company
+
+ The designer and manufacturer of the [Ameca Robot]
+
+ Engineered Arts is an English engineering, designer and manufacturer of humanoid robots based in Cornwall, United Kingdom. It was founded in October 2004 by Will Jackson.
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Engineered_Arts](https://en.wikipedia.org/wiki/Engineered_Arts)
+
+ See also [E], ...
+
+
 # Ensemble Method
 
  `Ensemble methods consist of joining several weak learners to build a strong learner.` ~ average the output of several models, such as decision trees?. Ex: aver Ensemble methods, meaning that they use a number of weak classifiers/learner to produce a strong classifier, which usually means better results. Imagine you’ve decided to build a bicycle because you are not feeling happy with the options available in stores and online. You might begin by finding the best of each part you need. Once you assemble all these great parts, the resulting bike will outshine all the other options.
@@ -310,7 +323,7 @@ Research on emotion has increased over the past two decades with many fields con
  More at:
   * [https://ai.facebook.com/blog/protein-folding-esmfold-metagenomics/](https://ai.facebook.com/blog/protein-folding-esmfold-metagenomics/)
 
- See also [E], 
+ See also [E],  [DeepFold], [OpenFold]
 
 
 # Estimator

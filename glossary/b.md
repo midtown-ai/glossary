@@ -85,8 +85,11 @@ layout: page
 
  A lightweight version of [Lambda Model], meant to counter MSFT Bing + [ChatGPT]
 
+ {% youtube "https://www.youtube.com/watch?v=5X1O5AS4nTc" %}
+
  More at:
   * [https://bard.google.com/](https://bard.google.com/)
+  * Gotcha! - [https://www.reuters.com/technology/google-unveils-magic-wand-draft-documents-ai-race-tightens-2023-03-14/](https://www.reuters.com/technology/google-unveils-magic-wand-draft-documents-ai-race-tightens-2023-03-14/)
 
  See also [B], ...
 
@@ -326,6 +329,14 @@ P(A|B) = ----------------
  This is an algorithm for evaluating the quality of text which has been machine-translated from one natural language to another. Quality is considered to be the correspondence between a machine's output and that of a human: "the closer a machine translation is to a professional human translation, the better it is" – this is the central idea behind BLEU. BLEU was one of the first metrics to claim a high correlation with human judgements of quality, and remains one of the most popular automated and inexpensive metrics. Scores are calculated for individual translated segments—generally sentences—by comparing them with a set of good quality reference translations. Those scores are then averaged over the whole corpus to reach an estimate of the translation's overall quality. Intelligibility or grammatical correctness are not taken into account. BLEU's output is always a number between 0 and 1. This value indicates how similar the candidate text is to the reference texts, with values closer to 1 representing more similar texts. Few human translations will attain a score of 1, since this would indicate that the candidate is identical to one of the reference translations. For this reason, it is not necessary to attain a score of 1. Because there are more opportunities to match, adding additional reference translations will increase the BLEU score.
 
  See also [B], [NLP Benchmark]
+
+
+# Bill Gates Person
+
+ More at:
+  * [https://www.gatesnotes.com/The-Age-of-AI-Has-Begun](https://www.gatesnotes.com/The-Age-of-AI-Has-Begun)
+
+ See also [B], ...
 
 
 # Binary Classification

@@ -1,12 +1,14 @@
 [R]: {{ site.baseurl }}{% link glossary/r.md %}
 
 [R-Square]: {{site.baseurl }}{% link glossary/r.md %}#r-square
+[RadioGPT]: {{site.baseurl }}{% link glossary/r.md %}#radiogpt
 [Random Cut Forest]: {{site.baseurl }}{% link glossary/r.md %}#random-cut-forest
 [RCF]: {{site.baseurl }}{% link glossary/r.md %}#rcf
 [Random Forest]: {{site.baseurl }}{% link glossary/r.md %}#random-forest
 [Random Sampling]: {{site.baseurl }}{% link glossary/r.md %}#random-sampling
 [Random Search]: {{site.baseurl }}{% link glossary/r.md %}#random-search
 [Ranking]: {{site.baseurl }}{% link glossary/r.md %}#ranking
+[Raspberry Pi Computer]: {{site.baseurl }}{% link glossary/r.md %}#raspberry-pi-computer
 [Reasoning]: {{site.baseurl }}{% link glossary/r.md %}#reasoning
 [Recall]: {{site.baseurl }}{% link glossary/r.md %}#recall
 [Receiver Operating Characteristic Curve]: {{site.baseurl }}{% link glossary/r.md %}#receiver-operating-characteristic-curve
@@ -45,6 +47,7 @@
 [Residual Network Model]: {{site.baseurl }}{% link glossary/r.md %}#residual-network-model
 [ResNET Model]: {{site.baseurl }}{% link glossary/r.md %}#resnet-model
 [Response Variable]: {{site.baseurl }}{% link glossary/r.md %}#response-variable
+[Responsible AI]: {{site.baseurl }}{% link glossary/r.md %}#responsible-ai
 [Restricted Boltzmann Machine]: {{site.baseurl }}{% link glossary/r.md %}#restricted-boltzmann-machine
 [RBM]: {{site.baseurl }}{% link glossary/r.md %}#rbm
 [Reward]: {{site.baseurl }}{% link glossary/r.md %}#reward

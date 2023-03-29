@@ -3,6 +3,7 @@
 [SageMaker]: {{ site.baseurl}}{% link glossary/s.md %}#sagemaker
 [SageMaker Ground Truth]: {{ site.baseurl}}{% link glossary/s.md %}#sagemaker-ground-truth
 [SageMaker Neo]: {{ site.baseurl}}{% link glossary/s.md %}#sagemaker-neo
+[Sam Altman Person]: {{ site.baseurl}}{% link glossary/s.md %}#sam-altman-person
 [Sample]: {{ site.baseurl}}{% link glossary/s.md %}#sample
 [Sample Efficiency]: {{ site.baseurl}}{% link glossary/s.md %}#sample-efficiency
 [Sampling Error]: {{ site.baseurl}}{% link glossary/s.md %}#sampling-error
@@ -56,8 +57,11 @@
 [Sparse Vector]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-vector
 [Specificity]: {{ site.baseurl}}{% link glossary/s.md %}#specificity
 [Spectrogram Image]: {{ site.baseurl}}{% link glossary/s.md %}#spectrogram-image
+[Speech-To-Text]: {{ site.baseurl}}{% link glossary/s.md %}#speech-to-text
+[STT]: {{ site.baseurl}}{% link glossary/s.md %}#stt
 [SQuAD Benchmark]: {{ site.baseurl}}{% link glossary/s.md %}#squad-benchmark
 [Stable Diffusion Model]: {{ site.baseurl}}{% link glossary/s.md %}#stable-diffusion-model
+[Stablility AI Company]: {{ site.baseurl}}{% link glossary/s.md %}#stability-ai-company
 [Stanford Autonomous Helicopter]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-autonomous-helicopter
 [Stanford Natural Language Inference]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-natural-language-inference
 [Stanford University]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-university
@@ -77,6 +81,7 @@
 [Subsampling]: {{ site.baseurl}}{% link glossary/s.md %}#subsampling
 [Super Resolution GAN]: {{ site.baseurl}}{% link glossary/s.md %}#super-resolution-gan
 [SRGAN]: {{ site.baseurl}}{% link glossary/s.md %}#srgan
+[Supertranslate AI Company]: {{ site.baseurl}}{% link glossary/s.md %}#supertranslate-ai-company
 [Supervised Fine-Tuning]: {{ site.baseurl}}{% link glossary/s.md %}#supervised-fine-tuning
 [SFT]: {{ site.baseurl}}{% link glossary/s.md %}#sft
 [Supervised Learning]: {{ site.baseurl}}{% link glossary/s.md %}#supervised-learning

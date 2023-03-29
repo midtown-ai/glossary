@@ -283,7 +283,9 @@ set       <search space>               set
   * [Boston Dynamics][Boston Dynamics Company]: Focus on robotics
   * [Cohere][Cohere AI Company]: Focus on NLP applications
   * [DeepMind][DeepMind Company]: Focus on AI applications in science
-  * [ElevenLabs][ElevenLabs Company]: Focus on Text-to-speech rendition
+  * [ElevenLabs][ElevenLabs AI Company]: Focus on Text-to-speech rendition
+  * [Engineered Arts][Engineered Arts Company]: Focus on social robots, such as [Ameca][Ameca Robot]
+  * [Futuri Media][Futuri Media Company]: Content selection for media, such as tv and radio. Includes [RadioGPT]!
   * [GitHub][GitHub Company]: Code repositories with advanced features including  AI pair programming with Codex
   * [Google][Google Company]: Known for its search engine and ad-placement business model. Challenged by Microsoft
   * [Hanson Robotics][Hanson Robotics Company]: Build humanoid for consumer, entertainment, service, healthcare, and research applications. 
@@ -294,6 +296,8 @@ set       <search space>               set
   * [Nvidia][Nvidia Company]: The leading supplier of [GPU]
   * [OpenAI][OpenAI Company]: Focus on democratizing AI. Known for releasing [ChatGPT][ChatGPT Model]
   * [Runway][Runway Company]: Focus on generative AI for images and now videos
+  * [Stability AI][Stability AI Company]: Focus on [diffusion model] or image generation, adopted the open-source philosophy
+  * [Supertranslate][Supertranslate AI Company]: Focus on generating proper subtitles to videos
   * [Synthesia][Synthesia Company]: Focus on AI avatars
   * [Waymo][Waymo Company]: Focus on self-driving car 
 
@@ -407,9 +411,11 @@ set       <search space>               set
 
 # CLIP Model
 
+ CLIP is a [dual-encoder contrastive model] that was developed by [OpenAI][OpenAI Company].
+
  CLIP is a vision-language model that aligns image and text representations into a shared embedding space.
  is trained on large-scale image and text pair datasets to obtain a unified representation of different representations for the same concept. For that, an image encoder and a text encoder separately map images and text into a high-dimensional space, and a distance-based loss is utilized to enforce representations of identical concepts in neighborhood regions.
- CLIP is another neural network that is able to determine how well a caption (or prompt) matches an image. In other words, CLIP is a neural network that efficiently learns visual concepts from natural language supervision.
+ CLIP is another neural network that is able to determine how well a caption (or prompt) matches an image. In other words, CLIP is a neural network that efficiently learns visual concepts from [natural language supervision].
 
  {% youtube "https://www.youtube.com/watch?v=fGwH2YoQkDM" %}
 
@@ -425,7 +431,7 @@ set       <search space>               set
   * [https://openai.com/blog/clip/](https://openai.com/blog/clip/)
   * Hierarchical Text-Conditional Image Generation with CLIP Latents (paper) - [https://arxiv.org/abs/2204.06125](https://arxiv.org/abs/2204.06125)
 
- See also [C], [CLIP Image Encoder], [CLIP Text Encoder], [Embedding Space], [Natural Language Supervision], [OpenAI Company], [Vision Transformer], [VQGAN]
+ See also [C], [CLIP Image Encoder], [CLIP Text Encoder], [Embedding Space], [Vision Transformer], [VQGAN]
 
 
 # Convolution
@@ -497,6 +503,20 @@ set       <search space>               set
   * [https://medium.com/birdie-ai/how-to-use-cnns-as-feature-extractors-54c69c1d4bdf](https://medium.com/birdie-ai/how-to-use-cnns-as-feature-extractors-54c69c1d4bdf)
 
  See also [C}, ...
+
+
+# Coral Hardware
+
+ A [Tensor Processing Unit (TPU)][Tensor Processing Unit] compatible with any computer including the [Raspberry Pi Computer]
+
+ {% youtube "https://www.youtube.com/watch?v=ydzJPeeMiMI" %}
+
+ More at:
+  * [https://www.amazon.com/Google-G950-01456-01-Coral-USB-Accelerator/dp/B07S214S5Y](https://www.amazon.com/Google-G950-01456-01-Coral-USB-Accelerator/dp/B07S214S5Y)
+  * [https://coral.ai/projects/teachable-sorter#project-intro](https://coral.ai/projects/teachable-sorter#project-intro)
+  * [https://teachablemachine.withgoogle.com/](https://teachablemachine.withgoogle.com/)
+
+ See also [C], ...
 
 
 # Coreference

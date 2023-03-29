@@ -25,6 +25,8 @@
 [AI Avatar]: {{ site.baseurl }}{% link glossary/a.md %}#ai-avatar
 [AI Ethics]: {{ site.baseurl }}{% link glossary/a.md %}#ai-ethics
 [AI Movie]: {{ site.baseurl }}{% link glossary/a.md %}#ai-movie
+[AI Paper]: {{ site.baseurl }}{% link glossary/a.md %}#ai-paper
+[AI Research]: {{ site.baseurl }}{% link glossary/a.md %}#ai-research
 [AlexNet Model]: {{ site.baseurl }}{% link glossary/a.md %}#alexnet-model
 [Algorithmic]: {{ site.baseurl }}{% link glossary/a.md %}#algorithmic
 [Alpaca Model]: {{ site.baseurl }}{% link glossary/a.md %}#alpaca-model

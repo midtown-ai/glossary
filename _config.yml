@@ -130,15 +130,17 @@ description: >- # this means to ignore newlines until "baseurl:"
 # baseurl: "/blog" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# CUSTOM
-baseurl: ""
-url: "https://glossary.midtown.ai" # the base hostname & protocol for your site, e.g. http://example.com
-assets: "/assets"
+# CUSTOM DOMAIN
+# URL: https://glossary.midtown.ai
+# baseurl: ""
+# url: "https://glossary.midtown.ai" # the base hostname & protocol for your site, e.g. http://example.com
+# assets: "/assets"
 
 # GITHUB ONLY
-# baseurl: "/glossary" # the subpath of your site, e.g. /blog
-# url: "https://midtown-ai.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-# assets: "/glossary/assets"
+# URL: https://midtown-ai.github.io/glossary
+baseurl: "/glossary" # the subpath of your site, e.g. /blog
+url: "https://midtown-ai.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+assets: "/glossary/assets"
 
 twitter_username: midtown_ai
 github_username:  midtown-ai

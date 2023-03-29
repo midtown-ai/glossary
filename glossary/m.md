@@ -588,6 +588,14 @@ def mse_loss(y_pred, y_true):
  See also [M], [Company], [DeepSpeed Project], [OpenAI Company]
 
 
+# Midjourney Model
+
+ More at:
+  * [https://promptomania.com/midjourney-prompt-builder/](https://promptomania.com/midjourney-prompt-builder/)
+
+ See also [M], [Diffusion Model]
+
+
 # Milvus Database
 
  ![]( {{site.assets}}/m/milvus_database.png ){: width="100%"}

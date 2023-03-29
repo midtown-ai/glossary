@@ -75,3 +75,4 @@
 [Dot Product]: {{ site.baseurl }}{% link glossary/d.md %}#dot-product
 [Downstream Task]: {{ site.baseurl }}{% link glossary/d.md %}#downstream-task
 [Drop Out]: {{ site.baseurl }}{% link glossary/d.md %}#drop-out
+[Dual-Encoder Contrastive Model]: {{ site.baseurl }}{% link glossary/d.md %}#dual-encoder-contrastive-model

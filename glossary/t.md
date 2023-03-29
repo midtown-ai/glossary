@@ -224,10 +224,11 @@ layout: page
 
 # TTS Model
 
+ Turn text into speech. The opposite of [Speech-To-Text][Speech-To-Text Model]
+
  Models such as
   * [Riva][Riva Model] by [Nvidia][Nvidia Company]
   * [WaveNet][WaveNet Model] by [DeepMind][DeepMind Company]
-  * [Whisper][Whisper Model] by [OpenAI][OpenAI Company]
 
  See also [T], [Sequence To Sequence Model]
 

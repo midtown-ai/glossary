@@ -48,6 +48,7 @@
 [MSFT COCO Caption Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#msft-coco-caption-dataset
 [Microsoft Company]: {{ site.baseurl }}{% link glossary/m.md %}#microsoft-company
 [MSFT Company]: {{ site.baseurl }}{% link glossary/m.md %}#msft-company
+[Midjourney Model]: {{ site.baseurl }}{% link glossary/m.md %}#midjourney-model
 [Milvus Database]: {{ site.baseurl }}{% link glossary/m.md %}#milvus-database
 [Minerva Model]: {{ site.baseurl }}{% link glossary/m.md %}#minerva-model
 [Mini-Batch]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch

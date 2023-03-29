@@ -424,6 +424,7 @@ layout: page
   * [AlphaTensor][AlphaTensor Model]: Matrix multiplication algorithm optimization
   * [AlphaZero][AlphaZero Model]
   * [Chinchilla][Chinchilla Model]: Optimized version of the [Gopher Model]
+  * [Flamingo][Flamingo Model]: A [visual language model]
   * [Gato][Gato Model]: Multi-task generalist agent
   * [Gopher][Gopher Model]: A LLM with same (or better) performance than GPT3
   * [Sparrow][Sparrow Model]: A ChatGPT alternative
@@ -580,6 +581,11 @@ We need to do this for
  ![]( {{site.assets}}/d/diffusion_model.png ){: width="100%"}
 
  This is possible because the model will have access to the real images during training and will be able to learn the right parameters by applying such noise to the image iteratively until it reaches complete noise and is unrecognizable. Then, when we are satisfied with the noise we get from all images, meaning that they are similar and generate noise from a similar distribution, we are ready to use our model in reverse and feed it similar noise in the reverse order to expect an image similar to the ones used during training.
+
+ At this time, the most popular diffusion models are:
+  * [Dall-E][Dall-E Model] by [OpenAI][OpenAI Company]
+  * [Midjourney][Midjourney Model] by ...
+  * [Stable Diffusion][Stable Diffusion Model] by [Stability AI][Stability AI Company]
 
  {% youtube "https://www.youtube.com/watch?v=W-O7AZNzbzQ" %}
 
@@ -748,3 +754,20 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
 
  See also [D], [Hyperparameter]
 
+
+# Dual-Encoder Contrastive Model
+
+ Models:
+  * [CLIP][CLIP Model]
+  * ALIGN 
+  * CoCa
+  * Florence
+  * MIL-NCE
+  * BASIC
+  * LiT
+  * FILIP
+  * MMV
+
+ ![]( {{site.assets}}/d/dual_encoder_contrastive_model.png ){: width="100%"}
+
+ See also [D], ...

@@ -30,6 +30,7 @@
 [BRNN]: {{ site.baseurl }}{% link glossary/b.md %}#brnn
 [Bilingual Evaluation Understudy Score]: {{ site.baseurl }}{% link glossary/b.md %}#bilingual-evaluation-understudy-score
 [BLEU Benchmark]: {{ site.baseurl }}{% link glossary/b.md %}#bleu-benchmark
+[Bill Gates Person]: {{ site.baseurl }}{% link glossary/b.md %}#bill-gates-person
 [Binary Classification]: {{ site.baseurl }}{% link glossary/b.md %}#binary-classification
 [Binary Cross-Entropy Loss Function]: {{ site.baseurl }}{% link glossary/b.md %}#binary-cross-entropy-loss-function
 [Biological Neuron]: {{ site.baseurl }}{% link glossary/b.md %}#biological-neuron

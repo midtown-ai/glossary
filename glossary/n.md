@@ -356,6 +356,9 @@ B: I was just there
   * [RIVA Model] : text-to-speech model
   * [VIMA Model] : multi-modal ? model for robots?
 
+ Metaverse
+  * [Omniverse] : The metaverse by Nvidia!
+
  More at :
   * [https://blogs.nvidia.com/blog/2022/12/16/top-five-nvidia-ai-videos/](https://blogs.nvidia.com/blog/2022/12/16/top-five-nvidia-ai-videos/)
 

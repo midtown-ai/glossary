@@ -38,8 +38,15 @@ layout: page
 
 # RadioGPT
 
+ RadioGPT combines the power of GPT-4 technology with AI voice tech and [Futuri][Futuri Media Company]’s AI-driven targeted story discovery and social content system, TopicPulse, to provide an unmatched localized radio experience for any market, any format.
+
+ {% include vimeoPlayer.html id=801620131 %}
+
  More at:
-  * [
+  * [https://futurimedia.com/radiogpt/](https://futurimedia.com/radiogpt/)
+  * [https://listen.streamon.fm/radiogpt](https://listen.streamon.fm/radiogpt)
+  * [https://www.techtimes.com/articles/288252/20230227/radiogpt-first-ai-radio.htm](https://www.techtimes.com/articles/288252/20230227/radiogpt-first-ai-radio.htm)
+  * [https://futurimedia.com/futuri-launches-radiogpt/](https://futurimedia.com/futuri-launches-radiogpt/)
 
  See also [R], [GPT Model]
 
@@ -75,6 +82,14 @@ layout: page
  Ranking. Suppose you are given a query and a set of documents. In ranking, the goal is to find the relative importance of the documents and order them based on relevance. An example use case of ranking is a product search for an ecommerce website. You could leverage data about search results, clicks, and successful purchases, and then apply XGBoost for training. This produces a model that gives relevance scores for the searched products.
 
  See also [R], [ML Algorithm], [XGBoost]
+
+
+# Raspberry Pi Computer
+
+ A < $100 computer that is compatible with
+  * [Coral Hardware]
+
+ See also [R], ...
 
 
 # Reasoning
@@ -393,6 +408,14 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
  See also [R], [Explanatory Variable], [Predictor Variable], [Regression]
 
 
+# Responsible AI
+
+ More at:
+  * [https://venturebeat.com/security/pwc-highlights-11-chatgpt-and-generative-ai-security-trends-to-watch-in-2023/](https://venturebeat.com/security/pwc-highlights-11-chatgpt-and-generative-ai-security-trends-to-watch-in-2023/)
+
+ See also [R], [AI Alignment], [AI Ethics]
+
+
 # Restricted Boltzmann Machine
 
 # RBM
@@ -460,8 +483,18 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 # Robot
 
  Examples of [social robots][social robot]
-  * [Ameca][Ameca Robot]
-  * [Sophia][Sophia Robot]
+  * [Ameca][Ameca Robot] bu [Engineered Arts][Engineered Arts Company]
+  * [Sophia][Sophia Robot] by [Hanson Robotics][Hanson Robotics Company]
+
+ Other 
+  * [Atlas][Atlas Robot] by [Boston Dynamics][Boston Dynamics Company]
+
+ {% youtube "https://www.youtube.com/watch?v=Oqq5tgday_w" %}
+
+ {% youtube "https://www.youtube.com/watch?v=DeDNyIFZFr4" %}
+
+ More at:
+  * stuntronic robot [https://www.youtube.com/watch?v=oyXl3IhonRM](https://www.youtube.com/watch?v=oyXl3IhonRM)
 
  See also [R], ...
 

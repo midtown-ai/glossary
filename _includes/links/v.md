@@ -31,5 +31,6 @@
 [Vision Transformer]: {{ site.baseurl }}{% link glossary/v.md %}#vision-transformer
 [ViT]: {{ site.baseurl }}{% link glossary/v.md %}#vit
 [Visual Grounding]: {{ site.baseurl }}{% link glossary/v.md %}#visual-grounding
+[Visual Language Model]: {{ site.baseurl }}{% link glossary/v.md %}#visual-language-model
 [Voice Encoder]: {{ site.baseurl }}{% link glossary/v.md %}#voice-encoder
 [Vocoder]: {{ site.baseurl }}{% link glossary/v.md %}#vocoder

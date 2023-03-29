@@ -165,6 +165,17 @@ cheese =>
  See [Supervised Fine-Tuning]
 
 
+# Flamingo Model
+
+ A [visual language model] developed at [DeepMind][DeepMind Company]
+
+ {% youtube "https://www.youtube.com/watch?v=yM9S3fLp5Gc" %}
+
+ {% pdf "{{site.assets}}/f/flamingo_model_paper.pdf" %}
+
+ See also [F], ...
+
+
 # Flow-Based Model
 
  More at :
@@ -210,3 +221,17 @@ cheese =>
  Here we are trying to predict a variable y given an input vector x. We assume that there is a function f(x) that describes the approximate relationship between y and x. For example, we may assume that y = f(x) + ε, where ε stands for the part of y that is not predictable from x. In function estimation, we are interested in approximating f with a model or estimate fˆ. Function estimation is really just the same as estimating a parameter θ; the function estimator fˆis simply a point estimator in function space. Ex: in polynomial regression we are either estimating a parameter w or estimating a function mapping from x to y. 
 
  See also [F], [Estimator], [Point Estimator]
+
+# Futuri Media Company
+
+ Find out how we help you grow your content, audience, and revenue.
+
+ Products:
+  * [RadioGPT]
+  * TopicPulse: Story analysis to see the real-time time evolution of a topic
+  * FuturiStreaming: Get stats on streams, number of listener, etc
+
+ More at:
+  * [https://futurimedia.com/](https://futurimedia.com/)
+
+ See also [F], ...

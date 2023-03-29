@@ -80,6 +80,17 @@ layout: page
   See also [P], [Google Company], [Multimodal Learning], [PaLM Model], [Sparse Activation]
 
 
+# People
+
+ People
+  * [Bill Gates][Bill Gates Person]
+  * [Elon Musk][Elon Musk Person]
+  * [Sam Altman][Sam Altman Person]
+  * ...
+
+ See also [P], [AI Movies], [Company]
+
+
 # Perceiver IO Model
 
  Product arbitrary size outputs - reconstructing the input
@@ -387,6 +398,7 @@ Prediction Error = actual_value - predicted_value
   * official page - [https://openai.com/blog/openai-baselines-ppo/](https://openai.com/blog/openai-baselines-ppo/)
   * code - [https://github.com/openai/baselines](https://github.com/openai/baselines)
   * paper - [https://arxiv.org/abs/1707.06347](https://arxiv.org/abs/1707.06347)
+  * blgo post - [https://huggingface.co/blog/deep-rl-ppo](https://huggingface.co/blog/deep-rl-ppo)
   * [http://karpathy.github.io/2016/05/31/rl/](http://karpathy.github.io/2016/05/31/rl/)
 
  See also [P], [Policy Gradient Solution], [Reinforcement Learning], [SAC]
