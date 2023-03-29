@@ -315,7 +315,20 @@ First, we believe the clearest framing of general intelligence is a system that 
     * [https://research.google/](https://research.google/)
     * cloud-AI - [https://research.google/teams/cloud-ai/](https://research.google/teams/cloud-ai/)
 
+ When to start research?
+  * Look at the business impact
+  * Make sure that stakeholders are engaged, because problems are not always well formulated or data is missing
+
  See [A], ...
+
+
+# AI Winter
+
+ More at:
+  * iFirst - [https://en.wikipedia.org/wiki/History_of_artificial_intelligence#The_first_AI_winter_1974%E2%80%931980](https://en.wikipedia.org/wiki/History_of_artificial_intelligence#The_first_AI_winter_1974%E2%80%931980)
+  * Second - [https://en.wikipedia.org/wiki/History_of_artificial_intelligence#Bust:_the_second_AI_winter_1987%E2%80%931993](https://en.wikipedia.org/wiki/History_of_artificial_intelligence#Bust:_the_second_AI_winter_1987%E2%80%931993)
+
+  See also [A], ...
 
 
 # AlexNet Model

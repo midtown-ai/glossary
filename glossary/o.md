@@ -175,6 +175,8 @@ cheese =>                                   # Prompt
 
 # Optimizer
 
+ Optimizer = How you are going to minimize the [Loss Function].
+
  To minimize the prediction error or loss, the model while experiencing the examples of the training set, updates the model parameters W. These error calculations when plotted against the W is also called cost function plot J(w), since it determines the cost/penalty of the model. So minimizing the error is also called as minimization the cost function. But how exactly do you do that? Using optimizers.
  
  ```
@@ -192,7 +194,7 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
  More at:
   * [https://keras.io/api/optimizers/](https://keras.io/api/optimizers/)
 
- See also [O], [Loss Function]
+ See also [O], ...
 
 
 # OpenFold

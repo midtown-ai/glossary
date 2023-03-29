@@ -12,6 +12,9 @@ categories: jekyll update
 
 # History of AI
 
+ * 1943       - [Perceptron] invented by McCulloch and Pitts. 
+ * 1974, 1980 - First [AI Winter]: promised results failed to materialize, funding for AI disappeared
+ * 1987, 1993 - Second [AI Winter]: not enough compute!?
  * 1996, 1997 -
  * 2004, 2005 - [DARPA Grand Challenge]
  * 2007       - [DARPA Urban Challenge]

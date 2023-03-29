@@ -298,6 +298,8 @@ Research on emotion has increased over the past two decades with many fields con
 
 # Epoch
 
+ Epoch = Number of times a model will adjust itself, i.e. learn something new!
+
  `A complete pass on the dataset ~ 1 iteration!`. A complete dataset can be large in which case it is broken in batches and processed in many iteration (one per batch). Why use more than one Epoch? It may not look correct that passing the entire dataset through an ML algorithm or neural network is not enough, and we need to pass it multiple times to the same algorithm. So it needs to be kept in mind that to optimize the learning, we use gradient descent, an iterative process. Hence, it is not enough to update the weights with a single pass or one epoch. Moreover, one epoch may lead to overfitting in the model. In other words, when the training loop has passed through the entire training dataset once, we call that one epoch. Training for a higher number of epochs will mean your model will take longer to complete its training task, but it may produce better output if it has not yet converged.
   * Training over more epochs will take longer but can lead to a better output (e.g. sounding musical output)
   * Model training is a trade-off between the number of epochs (i.e. time) and the quality of sample output.

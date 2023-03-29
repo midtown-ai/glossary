@@ -132,12 +132,12 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
 
 # Hinge Loss Function
 
- The use of hinge loss is very common in binary classification problems where we want to separate a group of data points from those from another group. It also leads to a powerful machine learning algorithm called Support Vector Machines (SVMs) Let’s have a look at the mathematical definition of this function.
+ The use of hinge loss is very common in binary classification problems where we want to separate a group of data points from those from another group. It also leads to a powerful machine learning algorithm called [Support Vector Machines (SVMs)] Let’s have a look at the mathematical definition of this function.
 
  More at:
   * [https://www.baeldung.com/cs/hinge-loss-vs-logistic-loss](https://www.baeldung.com/cs/hinge-loss-vs-logistic-loss)
 
- See also [H], [Loss Function], [Support Vector Machine], 
+ See also [H], [Loss Function]
 
 
 # Holdout Fold

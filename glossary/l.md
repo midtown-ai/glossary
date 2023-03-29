@@ -382,14 +382,18 @@ with alpha = learning_rate
 
 # Loss Function
 
- `The loss function must encode what you want your model to do!` The loss function will take two items as input: the output value of our model and the ground truth expected value. The output of the loss function is called the loss which is a measure of how well our model did at predicting the outcome. A high value for the loss means our model performed very poorly. A low value for the loss means our model performed very well. In most learning networks, error is calculated as the difference between the actual output y and the predicted output ŷ. The function that is used to compute this error is known as Loss Function also known as Cost function. The loss function allows us to find the best line. The model is iterated to minimize the loss function using the gradient descent algorithm. Selection of the proper loss function is critical for training an accurate model. Certain loss functions will have certain properties and help your model learn in a specific way. Some may put more weight on outliers, others on the majority. The most common loss functions are:
-  * Mean Squared Error (MSE) : Used in a linear regression, the best line is the one that minimize the root-mean square of the error.
-  * Mean Absolute Error (MAE)
-  * Hinge Loss
-  * Huber Loss
-  * 0-1 Loss : 0=correct 1=not-correct classification
-  * binary cross-entropy function (aka Log loss function) : Used with logistic regression because the logistic regression function (sigmoid or ?) is not linear and loss function needs to have a single minimum
-  * cross-entropy loss function
+ Loss function is used for parameter estimation.
+
+ `The loss function must encode what you want your model to do!` The loss function will take two items as input: the output value of our model and the ground truth expected value. The output of the loss function is called the loss which is a measure of how well our model did at predicting the outcome. A high value for the loss means our model performed very poorly. A low value for the loss means our model performed very well. In most learning networks, error is calculated as the difference between the actual output y and the predicted output ŷ. The function that is used to compute this error is known as Loss Function also known as Cost function. The loss function allows us to find the best line. The model is iterated to minimize the loss function using the gradient descent algorithm. Selection of the proper loss function is critical for training an accurate model. Certain loss functions will have certain properties and help your model learn in a specific way. Some may put more weight on outliers, others on the majority.
+
+ The most common loss functions are:
+  * [Mean Squared Error (MSE)][Mean Square Error Loss Function]: Used in a linear regression, the best line is the one that minimize the root-mean square of the error.
+  * [Mean Absolute Error (MAE)][Mean Absolute Error Loss Function]
+  * [Hinge Loss Function]
+  * [Huber Loss Function]
+  * [0-1 Loss Function] : 0=correct 1=not-correct classification
+  * [binary cross-entropy loss function] (aka Log loss function) : Used with logistic regression because the logistic regression function (sigmoid or ?) is not linear and loss function needs to have a single minimum
+  * [cross-entropy loss function]
   * custom function !
  Choose your loss function based on
   * the original estimator function (?) e.g. lineear or sigmoid
@@ -398,7 +402,7 @@ with alpha = learning_rate
  More at :
   * choosing a loss function - [https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/](https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/)
 
- See also [L], [0-1 Loss Function], [Activation Function], [Backpropagation], [Binary Cross-Entropy Loss Function], [Cross-Entropy Loss Function], [Discriminator], [Gradient Descent], [Hinge Loss], [Huber Loss Function], [Linear Regression], [Mean Absolute Error Loss Function], [Mean Square Error Loss Function], [Optimizer], [Prediction Error], [Representation Space], [Residual]
+ See also [L], [Activation Function], [Backpropagation], [Discriminator], [Gradient Descent], [Linear Regression], [Optimizer], [Prediction Error], [Representation Space], [Residual]
 
 
 # Loss Graph

@@ -118,22 +118,24 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], [BERT Model], [Chain Of Thought Prompting], [GPT Model], [Machine Translation], [NLTK], [Question Answering], [Sentiment Analysis], [Seq2Seq Model], [Spam Detection], [Sentiment Analysis], [Spam Filtering], [Text Summarization], [Virtual Assistant]
 
 
-# NLP Benchmark
-
 # Natural Language Programming Benchmark
 
-  * BLEU score : for machine translation
+# NLP Benchmark
+
+  * [BLEU Benchmark] : for machine translation
   * Coref :  Links pronouns to antecedents. Also capable to take the perspective of a speak, e.g. I, you, my sister, etc refers to different people function of who said it.
-  * GLUE :
+  * [GLUE Benchmark] :
   * NER : Named Entity Recognition (place, people, date, etc)
   * Language Parser : Identitfy which group of words go together (as phrase) and which words are the subject or object of a verb.
   * SNLI : relation between 2 statements (contradict, neutral, or entailment)
-  * SQuAD : Question and answering
-  * SuperGLUE :
+  * [SQuAD Benchmark] : Question and answering
+  * [SuperGLUE Benchmark] :
   * SRL : Semantic understanding (machine translation, information extraction, text summarization, question answering)
   * SST-5 : Sentiment analysis - https://paperswithcode.com/sota/sentiment-analysis-on-sst-5-fine-grained
 
- See also [N], [Benchmark], [BLEU Benchmark], [Coreference], [Entity Extraction], [GLUE Benchmark], [Language Parsing], [Model Benchmark], [Named Entity Recognition], [Question Answering], [Semantic Understanding], [Sentiment Analysis], [SNLI], [SQuAD Benchmark], [SuperGLUE Benchmark]
+  All of those can be summarize in the [HELM Benchmark]
+
+ See also [N], [Benchmark], [Coreference], [Entity Extraction], [Language Parsing], [Model Benchmark], [Named Entity Recognition], [Question Answering], [Semantic Understanding], [Sentiment Analysis], [SNLI]
 
 
 # Natural Language ToolKit

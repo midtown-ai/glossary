@@ -117,6 +117,13 @@ layout: page
 
  A neural network consisting of only 1 layer and 1 neuron.
 
+ The perceptron was invented in 1943 by McCulloch and Pitts.
+
+ In machine learning, the perceptron (or McCulloch-Pitts neuron) is an algorithm for supervised learning of binary classifiers. A binary classifier is a function which can decide whether or not an input, represented by a vector of numbers, belongs to some specific class.[1] It is a type of linear classifier, i.e. a classification algorithm that makes its predictions based on a linear predictor function combining a set of weights with the feature vector.
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Perceptron](https://en.wikipedia.org/wiki/Perceptron)
+
  See also [P], [Artificial Neuron]
 
 
