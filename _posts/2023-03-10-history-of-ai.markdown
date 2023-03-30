@@ -13,28 +13,33 @@ categories: jekyll update
 # History of AI
 
  * 1943       - [Perceptron] invented by McCulloch and Pitts. 
- * 1974, 1980 - First [AI Winter]: promised results failed to materialize, funding for AI disappeared
- * 1987, 1993 - Second [AI Winter]: not enough compute!?
+ * 1974, 1980 - First [AI Winter] = promised results failed to materialize, funding for AI disappeared
+ * 1987, 1993 - Second [AI Winter] = not enough compute!?
  * 1996, 1997 -
  * 2004, 2005 - [DARPA Grand Challenge]
  * 2007       - [DARPA Urban Challenge]
  * 2009       - [Waymo Company], a corporate spin-off of [Google Company] or more specifically Google X
 
- * 2011       - [Siri Assistant] is available on iPhone sold by [Apple Company]
+ * 2011       - [Siri Virtual Assistant] is available on iPhone sold by [Apple Company]
  * 2011       - [IBM Watson] beats Jennings on Jeopardy
  * 2016       - [Sophia Robot] from [Hanson Robotics Company]
- * 2016       - [Google Translate]
+ * 2016       - [Google Translate][Google Translate Model]
  * 2016       - [AlphaGo Model]
- * 2017       - [Transformer Model]
+ * 2017       - [Transformer Architecture] and [BERT Model]
  * 2018       - [AlphaFold Model] by [DeepMind][DeepMind Company]
  * 2019       - [Pluribus Model] by [Facebook][Facebook Company] = First AI to beat human professionals in multiplayer poker
- * 2020       - Viral happy new year by [Boston Dynamics Company]
+ * 2020       - [Viral happy new year](https://www.youtube.com/watch?v=fn3KWM1kuAw) by [Boston Dynamics Company]
  * 2021
+              - [https://www.youtube.com/watch?v=t4B99T_3IsM](https://www.youtube.com/watch?v=t4B99T_3IsM)
  * 2022       - [GPT3][GPT Model] and [ChatGPT][ChatGPT Model] by [OpenAI][OpenAI Company]
- * 2022/11/12 - [ChatGPT] is released
+ * 2022/11/12 - [ChatGPT][ChatGPT Model] is released
  * 2023       - [AlphaTensor][AlphaTensor Model]
  * 2023       - [Bard Model] by [Google][Google Company]
  * 2023/03/21 - Bill Gates: [The Age of AI has begun](https://www.gatesnotes.com/The-Age-of-AI-Has-Begun)
+
+# The future of AI
+
+ {% youtube "https://www.youtube.com/watch?v=cwXnX49Bofk" %}
 
 
 {% include links/all.md %}

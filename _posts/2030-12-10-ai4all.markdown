@@ -1,0 +1,11 @@
+---
+layout: post
+# layout: single
+title:  "Getting started with AWS DeepRacer"
+date:   2028-03-10 12:51:28 -0800
+categories: jekyll update
+---
+
+{% include links/all.md %}
+
+[https://nidhiparthasarathy.medium.com/my-summer-at-ai4all-f06eea5cdc2e](https://nidhiparthasarathy.medium.com/my-summer-at-ai4all-f06eea5cdc2e)
