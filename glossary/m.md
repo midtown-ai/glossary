@@ -43,7 +43,7 @@ layout: page
 
 # Machine Learning
 
- Part of AI, AI with first a learning phase! A subset of AI. `Field of study that gives computers the ability to learn without being explicitly programmed` 1 or more layers of data, includes but not limited to neural networks. Unsupervised, supervised (classification + regression) , reinforcement. `Data --> Model --> Prediction`.
+ Part of AI, AI with first a learning phase! A subset of [Artificial Intelligence (AI)][AI]. `Field of study that gives computers the ability to learn without being explicitly programmed` 1 or more layers of data, includes but not limited to neural networks. Unsupervised, supervised (classification + regression) , reinforcement. `Data --> Model --> Prediction`.
 
  ![]( {{site.assets}}/m/machine_learning.png ){: width="100%"}
 
@@ -57,7 +57,7 @@ Predict what are the required agent skills based some input parameters
 ==> That's a multiclass classification problem!
  ```
 
- See also [M], [Artificial Intelligence], [Deep Learning], [Machine Learning Algorithm], [Machine Learning Pipeline], [Neural Network], [Prediction]
+ See also [M], [Deep Learning], [Machine Learning Algorithm], [Machine Learning Pipeline], [Neural Network], [Prediction]
 
 
 # Machine Learning Framework
@@ -145,7 +145,13 @@ Predict what are the required agent skills based some input parameters
 
 # Machine Translation
 
- Google Translate, DeepL, and other machine translation programs use NLP to evaluate millions of sentences translated by human speakers of different language pairs.
+ Google Translate, DeepL, and other machine translation programs use [Natural Language Processing (NLP)][Natural Language Processing]  to evaluate millions of sentences translated by human speakers of different language pairs.
+
+ Paradigms:
+  * [Example-Based Machine Translation]
+  * [Statistical Machine Translation]
+  * ...
+  * [Neural Machine Translation]
 
  See also [M], [Natural Language Processing]
 
@@ -950,7 +956,16 @@ Y = a + b.X1 + c.X2
 
 # Muse Model
 
- ??? Does not exist? ???
+ Muse is a fast, state-of-the-art text-to-image generation and editing model.
+
+ We present Muse, a text-to-image Transformer model that achieves state-of-the-art image generation performance while being significantly more efficient than diffusion or autoregressive models. Muse is trained on a masked modeling task in discrete token space: given the text embedding extracted from a pre-trained large language model (LLM), Muse is trained to predict randomly masked image tokens. Compared to pixel-space diffusion models, such as [Imagen][Imagen Model] and [DALL-E 2][DALL-E Model], Muse is significantly more efficient due to the use of discrete tokens and requiring fewer sampling iterations; compared to autoregressive models, such as [Parti][Parti Model], Muse is more efficient due to the use of parallel decoding. The use of a pre-trained LLM enables fine-grained language understanding, translating to high-fidelity image generation and the understanding of visual concepts such as objects, their spatial relationships, pose, cardinality, etc. Our 900M parameter model achieves a new SOTA on CC3M, with an FID score of 6.06. The Muse 3B parameter model achieves an FID of 7.88 on zero-shot COCO evaluation, along with a CLIP score of 0.32. Muse also directly enables a number of image editing applications without the need to fine-tune or invert the model: inpainting, outpainting, and mask-free editing.
+
+ {% pdf "{{site.assets}}/m/muse_model_paper.pdf" %}
+
+ More at:
+  * [https://muse-model.github.io/](https://muse-model.github.io/)
+  * paper [https://arxiv.org/abs/2301.00704](https://arxiv.org/abs/2301.00704)
+  * [https://venturebeat.com/ai/googles-muse-model-could-be-the-next-big-thing-for-generative-ai/](https://venturebeat.com/ai/googles-muse-model-could-be-the-next-big-thing-for-generative-ai/)
 
  See also [M], [Google Company]
 
@@ -958,6 +973,27 @@ Y = a + b.X1 + c.X2
 # MuseGAN
 
  4 inputs: (1) Chords input (with temporal network) (2) style input (3) melody input (temporal network) (4) groove input
+
+ See also [M], ...
+
+
+# Music ABC Notation
+
+ More at:
+  * [https://en.wikipedia.org/wiki/ABC_notation](https://en.wikipedia.org/wiki/ABC_notation)
+  * [https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177](https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177)
+
+ See also [M], ...
+
+
+# Music Generator
+
+ More at:
+  * with LSTM - [https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177](https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177)
+  * with RNN - [https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177](https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177)
+  * with transformer -
+
+ See also [M], ...
 
 
 # MusicLM Model

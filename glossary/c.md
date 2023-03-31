@@ -41,6 +41,19 @@ layout: page
  See also [C], [Deep Learning Framework]
 
 
+# Case-Based Reasoning
+
+# CBR
+
+ In artificial intelligence and philosophy, case-based [reasoning] (CBR), broadly construed, is the process of solving new problems based on the solutions of similar past problems.
+
+ In everyday life, an auto mechanic who fixes an engine by recalling another car that exhibited similar symptoms is using case-based [reasoning]. A lawyer who advocates a particular outcome in a trial based on legal precedents or a judge who creates case law is using case-based [reasoning]. So, too, an engineer copying working elements of nature (practicing biomimicry), is treating nature as a database of solutions to problems. Case-based reasoning is a prominent type of analogy solution making.
+
+ It has been argued that case-based reasoning is not only a powerful method for computer reasoning, but also a pervasive behavior in everyday human problem solving; or, more radically, that all reasoning is based on past cases personally experienced.
+
+ See also [C], ...
+
+
 # Casual Language Modeling
 
  Based on the context (previous words) find out the most likely following work. One that word is found, the new word is used to estimate the next one.
@@ -121,6 +134,7 @@ layout: page
   * webgpt chrome extension - [https://twitter.com/DataChaz/status/1610556519531089921](https://twitter.com/DataChaz/status/1610556519531089921)
   * [https://www.cnn.com/2022/12/05/tech/chatgpt-trnd/index.html](https://www.cnn.com/2022/12/05/tech/chatgpt-trnd/index.html)
   * [https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5](https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5)
+  * [https://www.technologyreview.com/2023/01/26/1067299/chatgpt-workout-plans/](https://www.technologyreview.com/2023/01/26/1067299/chatgpt-workout-plans/)
 
  See also [C], [Chatbot], [Digital Watermark], [Feedback], [Plagiarism Checker], [Reward Model], [Reinforcement Learning], [Sparrow Model]
 
@@ -131,6 +145,7 @@ layout: page
 
  More at:
   * [https://www.cdc.gov/ncbddd/actearly/milestones/index.html](https://www.cdc.gov/ncbddd/actearly/milestones/index.html)
+  * [https://www.autonomousagents.stanford.edu/modeling-human-learning-and-develop](https://www.autonomousagents.stanford.edu/modeling-human-learning-and-develop)
 
  See also [C], ...
  
@@ -298,6 +313,7 @@ set       <search space>               set
   * [Nvidia][Nvidia Company]: The leading supplier of [GPU]
   * [OpenAI][OpenAI Company]: Focus on democratizing AI. Known for releasing [ChatGPT][ChatGPT Model]
   * [Runway][Runway Company]: Focus on generative AI for images and now videos
+  * [Softbank Robotics][Softbank Robotics Company]: Focus on [social robots][Social Robot]
   * [Stability AI][Stability AI Company]: Focus on [diffusion model] or image generation, adopted the open-source philosophy
   * [Supertranslate][Supertranslate AI Company]: Focus on generating proper subtitles to videos
   * [Synthesia][Synthesia Company]: Focus on AI avatars
@@ -379,6 +395,9 @@ set       <search space>               set
 
  ![]( {{site.assets}}/c/confusion_matrix.jpg ){: width="100%"}
 
+ More at:
+  * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
+
  See also [C], [Accuracy], [Classification], [Model Drift], [Precision], [Prediction Error], [Recall], [Sensitivity], [Specificity]
 
 
@@ -403,6 +422,11 @@ set       <search space>               set
  See also [C], ...
 
 
+# Continuous Convolution
+
+ See also [C], [Discrete Convolution]
+
+
 # Continuous Variable
 
  A variable that can take any value, possibly within a range.
@@ -414,7 +438,7 @@ set       <search space>               set
 
 # CLIP Model
 
- CLIP is a [dual-encoder contrastive model] that was developed by [OpenAI][OpenAI Company].
+ CLIP is a [dual-encoder contrastive model] that was developed by [OpenAI][OpenAI Company] and released open-source in 01/05/2021
 
  CLIP is a vision-language model that aligns image and text representations into a shared embedding space.
  is trained on large-scale image and text pair datasets to obtain a unified representation of different representations for the same concept. For that, an image encoder and a text encoder separately map images and text into a high-dimensional space, and a distance-based loss is utilized to enforce representations of identical concepts in neighborhood regions.
@@ -430,7 +454,12 @@ set       <search space>               set
 
  ![]( {{site.assets}}/c/clip_model.png ){: width="100%"}
 
+ {% pdf "https://arxiv.org/pdf/2103.00020.pdf" %}
+
  More at:
+  * [https://openai.com/research/clip](https://openai.com/research/clip)
+  * code - [https://github.com/openai/CLIP](https://github.com/openai/CLIP)
+  * paper - [https://arxiv.org/abs/2103.00020](https://arxiv.org/abs/2103.00020)
   * [https://openai.com/blog/clip/](https://openai.com/blog/clip/)
   * Hierarchical Text-Conditional Image Generation with CLIP Latents (paper) - [https://arxiv.org/abs/2204.06125](https://arxiv.org/abs/2204.06125)
 
@@ -445,13 +474,16 @@ set       <search space>               set
 
  {% youtube "https://www.youtube.com/watch?v=acAw5WGtzuk" %}
 
- Discrete convolution
+ [Discrete convolution]
 
  {% youtube "https://www.youtube.com/watch?v=KuXjwB4LzSA" %}
 
- Continuous convolution
+ [Continuous convolution]
 
  .... 
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Convolution](https://en.wikipedia.org/wiki/Convolution)
 
  See also [C], [Convolutional Neural Network], [Kernel Filter]
 

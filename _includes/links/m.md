@@ -89,6 +89,8 @@
 [MUM Model]: {{ site.baseurl }}{% link glossary/m.md %}#mum-model
 [Muse Model]: {{ site.baseurl }}{% link glossary/m.md %}#muse-model
 [MuseGAN]: {{ site.baseurl }}{% link glossary/m.md %}#musegan
+[Music ABC Notation]: {{ site.baseurl }}{% link glossary/m.md %}#music-abc-notation
+[Music Generator]: {{ site.baseurl }}{% link glossary/m.md %}#music-generator
 [MusicLM Model]: {{ site.baseurl }}{% link glossary/m.md %}#musiclm-model
 [MuZero Model]: {{ site.baseurl }}{% link glossary/m.md %}#muzero-model
 [MXNET]: {{ site.baseurl }}{% link glossary/m.md %}#mxnet

@@ -231,8 +231,13 @@ StandardScaler()
 
 # Sensitivity
 
+ = recall ?
+
  ~ true positive rate. = probability of a positive test given the patient has the disease.  Sensitivity refers to the probability of a positive test, conditioned on truly being positive. Examples:
   * how many sick people were CORRECTLY identified as having the condition.
+
+ More at:
+  * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
 
  See also [S], [Confusion Matrix], [Specificity]
 
@@ -419,6 +424,16 @@ Social robots also work as concierges in hotels and other settings like malls, w
  See also [S], ...
 
 
+# Softbank Robotics Company
+
+ Maker of the [Pepper Robot]
+
+ More at:
+  * [https://us.softbankrobotics.com/](https://us.softbankrobotics.com/)
+
+ See also [S], ...
+
+
 # Softmax Function
 
  The softmax function is a function that turns a vector of K real values into a vector of K real values that sum to 1. The input values can be positive, negative, zero, or greater than one, but the softmax transforms them into values between 0 and 1, so that they can be interpreted as probabilities. If one of the inputs is small or negative, the softmax turns it into a small probability, and if an input is large, then it turns it into a large probability, but it will always remain between 0 and 1.
@@ -532,6 +547,9 @@ Social robots also work as concierges in hotels and other settings like malls, w
  ~ true negative rate. = probability of a negative test given the patient is doing well. Specificity refers to the probability of a negative test, conditioned on truly being negative. Examples:
   * How many healthy people were CORRECTLY identified as not having the condition.
 
+ More at:
+  * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
+
  See also [S], [Confusion Matrix], [Sensitivity]
 
 
@@ -550,6 +568,21 @@ Social robots also work as concierges in hotels and other settings like malls, w
 
  Models:
   * [Whisper Model] by [OpenAI][OpenAI Company]
+
+ See also [S], ...
+
+
+# Spot Robot
+
+ A robot dog developed by [Boston Dynamics][Boston Dynamics Company]
+
+ {% youtube "https://www.youtube.com/watch?v=Fmj5r8ws2Mw" %}
+
+ {% youtube "https://www.youtube.com/watch?v=7Wm6vy7yBNA" %}
+
+ More at:
+  * [https://www.bostondynamics.com/products/spot](https://www.bostondynamics.com/products/spot)
+  * [https://www.wired.com/story/spot-boston-dynamics/](https://www.wired.com/story/spot-boston-dynamics/)
 
  See also [S], ...
 
@@ -608,6 +641,17 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
 
 # Stanford University
 
+ * [AI in Medicine and Imaging](https://aimi.stanford.edu/) or AIMI
+   * blog - [https://aimi.stanford.edu/blog](https://aimi.stanford.edu/blog)
+ * [Autonomous lab agent](https://www.autonomousagents.stanford.edu/)
+ * [Neuroscience](https://neuroscience.stanford.edu/)
+ * [Stanford AI Lab](https://ai.stanford.edu/) or SAIL 
+   * blog - [https://ai.stanford.edu/blog/](https://ai.stanford.edu/blog/)
+ * [Human Centered Artificial Intelligence](https://hai.stanford.edu/) or HAI
+   * blog - [https://hai.stanford.edu/news/what-dall-e-reveals-about-human-creativity](https://hai.stanford.edu/news/what-dall-e-reveals-about-human-creativity)
+   * ai4all - [https://nidhiparthasarathy.medium.com/my-summer-at-ai4all-f06eea5cdc2e](https://nidhiparthasarathy.medium.com/my-summer-at-ai4all-f06eea5cdc2e)
+
+
  See also [S], ...
 
 
@@ -636,6 +680,38 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
  The model that scored the highest based on the available benchmarks.
 
  See also [S], [Model Benchmark]
+
+
+# Statistical Machine Translation
+
+# SMT
+
+ A [Machine Translation] paradigm where translations are generated on the basis of statistical models.
+
+ Has been superseded by [Neural Machine Translation]
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Statistical_machine_translation](https://en.wikipedia.org/wiki/Statistical_machine_translation)
+
+ See also [S], ...
+
+
+# Statistical Model
+
+ Usage:
+  * [Statistical Model Translation]
+  * ...
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Statistical_model](https://en.wikipedia.org/wiki/Statistical_model)
+  
+
+ See also [S], ...
+
+
+# Statistics
+
+ See also [S], [Big Data]
 
 
 # Stereo Vision

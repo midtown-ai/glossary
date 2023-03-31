@@ -3,11 +3,15 @@
 [F1 Score]: {{site.baseurl }}{% link glossary/f.md %}#f1-score
 [Facebook Company]: {{site.baseurl }}{% link glossary/f.md %}#facebook-company
 [Feature]: {{site.baseurl }}{% link glossary/f.md %}#feture
+[Feature Distribution]: {{site.baseurl }}{% link glossary/f.md %}#feature-distribution
+[Feature Distribution Transformation]: {{site.baseurl }}{% link glossary/f.md %}#feature-distribution-transformation
 [Feature Engineering]: {{site.baseurl }}{% link glossary/f.md %}#feature-engineering
 [Feature Extractor]: {{site.baseurl }}{% link glossary/f.md %}#feature-extractor
 [Feature Extraction]: {{site.baseurl }}{% link glossary/f.md %}#feature-extraction
 [Feature Learning]: {{site.baseurl }}{% link glossary/f.md %}#feature-learning
-[Feature Vector]: {{site.baseurl }}{% link glossary/f.md %}#feature-vector
+[Feature Normalization]: {{site.baseurl }}{% link glossary/f.md %}#feature-normalization
+[Feature Scaling]: {{site.baseurl }}{% link glossary/f.md %}#feature-scaling
+[Feature Standardization]: {{site.baseurl }}{% link glossary/f.md %}#feature-standardization
 [Feedback]: {{site.baseurl }}{% link glossary/f.md %}#feedback
 [Feedback-Based Learning]: {{site.baseurl }}{% link glossary/f.md %}#feedback-based-learning
 [Feedforward Neural Network]: {{site.baseurl }}{% link glossary/f.md %}#feedforward-neural-network

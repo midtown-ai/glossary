@@ -319,7 +319,7 @@ P(A|B) = ----------------
 
 # Big Data 
 
- See also [B], [Deep Learning], [Expert System], [Machine Learning]
+ See also [B], [Deep Learning], [Machine Learning]
 
 
 # Bilingual Evaluation Understudy Benchmark
@@ -446,6 +446,18 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
   * [https://en.wikipedia.org/wiki/Boston_Dynamics](https://en.wikipedia.org/wiki/Boston_Dynamics)
 
  See also [B], [Atlas Robot], [Company]
+
+
+# Box Cox Transformation
+
+ A [Feature Distribution Transformation]
+
+ {% youtube "https://www.youtube.com/watch?v=zYeTyEWt7Cw" %}
+
+ More at: 
+  * [https://www.statisticshowto.com/probability-and-statistics/normal-distributions/box-cox-transformation/](https://www.statisticshowto.com/probability-and-statistics/normal-distributions/box-cox-transformation/)
+
+ See also [B], ...
 
 
 # Brain

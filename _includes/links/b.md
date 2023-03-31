@@ -28,6 +28,7 @@
 [BERT Model]: {{ site.baseurl }}{% link glossary/b.md %}#bert-model
 [Bidirectional Recurrent Neural Network]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-recurrent-neural-network
 [BRNN]: {{ site.baseurl }}{% link glossary/b.md %}#brnn
+[Big Data]: {{ site.baseurl }}{% link glossary/b.md %}#big-data
 [Bilingual Evaluation Understudy Score]: {{ site.baseurl }}{% link glossary/b.md %}#bilingual-evaluation-understudy-score
 [BLEU Benchmark]: {{ site.baseurl }}{% link glossary/b.md %}#bleu-benchmark
 [Bill Gates Person]: {{ site.baseurl }}{% link glossary/b.md %}#bill-gates-person
@@ -41,4 +42,5 @@
 [Boosting Step Size]: {{ site.baseurl }}{% link glossary/b.md %}#boosting-step-size
 [Boosting Sampling Method]: {{ site.baseurl }}{% link glossary/b.md %}#boosting-sampling-method
 [Boston Dynamics Company]: {{ site.baseurl }}{% link glossary/b.md %}#boston-dynamics-company
+[Box Cox Transformation]: {{ site.baseurl }}{% link glossary/b.md %}#box-cox-transformation
 [Brain]: {{ site.baseurl }}{% link glossary/b.md %}#brain

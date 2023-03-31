@@ -452,8 +452,11 @@ vocab[2], vocab[13884], vocab[5], \
  ```
 
  More at:
+  * paper - 
   * [https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0](https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0)
   * [https://bdtechtalks.com/2022/05/02/what-is-the-transformer/](https://bdtechtalks.com/2022/05/02/what-is-the-transformer/)
+  * Articles
+   * [https://venturebeat.com/business/why-transformers-offer-more-than-meets-the-eye/](https://venturebeat.com/business/why-transformers-offer-more-than-meets-the-eye/)
 
  See also [T], [Action Transformer], [Attention Score], [Attention-Based Model], [Autoregressive], [Generative Model], [Long Short Term Memory Network], [Masked Self-Attention], [Multi-Head Attention], [Recurrent Neural Network], [Self-Attention]
 
@@ -485,13 +488,17 @@ vocab[2], vocab[13884], vocab[5], \
 
 # Triton
 
- A low level framework to compile code on any GPU. A major step toward bypassing CUDA and the NVIDIA lock in!
+ A low level framework to compile code on any GPU. A major step toward bypassing CUDA and the [NVIDIA][Nvidia Company] lock in!
 
  More at :
+  * home - [https://openai.com/research/triton](https://openai.com/research/triton)
+  * code - [https://github.com/openai/triton](https://github.com/openai/triton)
+  * documentation - [https://triton-lang.org/master/index.html](https://triton-lang.org/master/index.html)
   * [https://openai.com/blog/triton/](https://openai.com/blog/triton/)
-  * [https://www.semianalysis.com/p/nvidiaopenaitritonpytorch](https://www.semianalysis.com/p/nvidiaopenaitritonpytorch)
+  * articles
+   * [https://www.semianalysis.com/p/nvidiaopenaitritonpytorch](https://www.semianalysis.com/p/nvidiaopenaitritonpytorch)
 
- See also [T], [Nvidia Company], [OpenAI Company]
+ See also [T], [OpenAI Company]
 
 
 # Truth

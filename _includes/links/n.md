@@ -26,6 +26,8 @@
 [Netflix Company]: {{ site.baseurl }}{% link glossary/n.md %}#netflix-company
 [Netflix Challenge]: {{ site.baseurl }}{% link glossary/n.md %}#netflix-challenge
 [Neural Architecture Search]: {{ site.baseurl }}{% link glossary/n.md %}#neural-architecture-search
+[Neural Machine Translation]: {{ site.baseurl }}{% link glossary/n.md %}#neural-machine-translation
+[NMT]: {{ site.baseurl }}{% link glossary/n.md %}#nmt
 [Neural Network]: {{ site.baseurl }}{% link glossary/n.md %}#neural-network
 [Neural Network Interpretability]: {{ site.baseurl }}{% link glossary/n.md %}#neural-network-interpretability
 [Neural Style Transfer]: {{ site.baseurl }}{% link glossary/n.md %}#neural-style-transfer

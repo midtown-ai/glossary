@@ -22,6 +22,7 @@ categories: jekyll update
 
  * 2011       - [Siri Virtual Assistant] is available on iPhone sold by [Apple Company]
  * 2011       - [IBM Watson] beats Jennings on Jeopardy
+ * 2013/09/30 - [AlexNet Model] wins the 
  * 2016       - [Sophia Robot] from [Hanson Robotics Company]
  * 2016       - [Google Translate][Google Translate Model]
  * 2016       - [AlphaGo Model]

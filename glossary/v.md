@@ -146,11 +146,21 @@ layout: page
  See also [V], [Backpropagation], [Deterministic Node], [Stochastic Node], [Variational Autoencoder]
 
 
+# Vector Quantized Generative Adversarial Network
+
+# VQGAN
+
+ More at:
+  * [https://medium.com/nightcafe-creator/vqgan-clip-tutorial-a411402cf3ad](https://medium.com/nightcafe-creator/vqgan-clip-tutorial-a411402cf3ad)
+
+ See also [V], [Generative Adversarial Network]
+
+
 # Vector Quantized Variational Autoencoder
 
-# VQ-VAE
+# VQVAE
 
- VQ-VAE extends the standard autoencoder by adding a discrete codebook component to the network. The codebook is basically a list of vectors associated with a corresponding index.
+ Vector Quantized Variational Autoencoder (VQVAE) extends the standard autoencoder by adding a discrete codebook component to the network. The codebook is basically a list of vectors associated with a corresponding index.
 
  ![]( {{site.assets}}/v/vector_quantized_variational_autoencoder.png ){: width="100%"}
 
@@ -166,6 +176,10 @@ z_q(x)=\text{argmin}_i ||z_e(x)-e_i||_2
  This argmin operation is a bit concerning, since it is non-differentiable with respect to the encoder. But in practice everything seems to work fine if you just pass the decoder gradient directly through this operation to the encoder (i.e. set its gradient to 1 wrt the encoder and the quantized codebook vector; and to 0 wrt all other codebook vectors). The decoder is then tasked with reconstructing the input from this quantized vector as in the standard autoencoder formulation.
 
  More at :
+  * home - [https://paperswithcode.com/method/vq-vae](https://paperswithcode.com/method/vq-vae]
+  * paper -  
+  * code - [https://github.com/deepmind/sonnet/blob/v2/sonnet/src/nets/vqvae.py](https://github.com/deepmind/sonnet/blob/v2/sonnet/src/nets/vqvae.py)
+  * sample - [https://sites.google.com/view/videogen](https://sites.google.com/view/videogen)
   * [https://ml.berkeley.edu/blog/posts/vq-vae/](https://ml.berkeley.edu/blog/posts/vq-vae/)
 
  See also [V], [Codebook], [Variational Autoencoder]

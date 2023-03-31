@@ -69,12 +69,14 @@ layout: page
 
 # One-Cold Encoding
 
- Same as one-hot encoding except the 1 is a 0 and 0s are 1s. Example yellow = [1, 0, 1, 1].
+ Same as [one-hot encoding] except the 1 is a 0 and 0s are 1s. Example yellow = [1, 0, 1, 1].
 
- See also [O], [One-Hot Encoding]
+ See also [O], [Encoding], [One-Hot Encoding], [Ordinal Encoding]
 
 
 # One-Hot Encoding
+
+ [Categorical features][Categorical Feature] often need to be converted to numeric values to facilitate processing by modeling algorithms.
 
  Categorical data refers to variables that are made up of label values, for example, a “color” variable could have the values “red“, “blue, and “green”. Think of values like different categories that sometimes have a natural ordering to them. Some machine learning algorithms can work directly with categorical data depending on implementation, such as a decision tree, but most require any inputs or outputs variables to be a number, or numeric in value. This means that any categorical data must be mapped to integers. One hot encoding is one method of converting data to prepare it for an algorithm and get a better prediction. With one-hot, we convert each categorical value into a new categorical column and assign a binary value of 1 or 0 to those columns. Each integer value is represented as a binary vector. All the values are zero, and the index is marked with a 1.
  
@@ -103,7 +105,7 @@ print(df)
 # 5             0            0           0             1                <== Venus
  ```
 
- See also [O], [One-Cold Encoding]
+ See also [O], [Encoding], [One-Cold Encoding], [Ordinal Encoding]
 
 
 # One-Shot Learning
@@ -130,17 +132,21 @@ cheese =>                                   # Prompt
  [Microsoft][Micosoft Company] + [OpenAI][OpenAI Company] ~ [Google][Google Company] + [DeepMind][DeepMind Company]
 
  Models:
-  * [ChatGPT][ChatGPT Model]: An fine-tuned model of GTP that is based on dialog
+  * [ChatGPT][ChatGPT Model]: An fine-tuned model of GPT that is based on dialog
   * [CLIP][CLIP Model]: A model that can put a legend to an image
   * [Codex][Codex Model]: A [LLM] that specialize on generating code
   * [DALL-E][DALL-E Model]: A [Diffusion Model] that from text can generate images
   * [Five][OpenAI Five Model]: An agent that isnow world champion at the Dota2 game!
   * [GPT][GPT Model]: A Generative model for text
   * [Gym Environment][OpenAI Gym Environment]: Environments for development of [Reinforcement Learning] algorithms.
+  * [Jukebox][Jukebox Model]: Generative model for music
   * [Whisper][Whisper Model]: A speech-to-text model
 
+ Interfaces
+  * [Triton] : GPU programming for neural networks
+
  More at:
-  * [http://www.openai.com](http://www.openai.com)
+  * home - [http://www.openai.com](http://www.openai.com)
   * principles - [https://openai.com/policies/usage-policies](https://openai.com/policies/usage-policies)
   * safety - [https://openai.com/safety-standards](https://openai.com/safety-standards)
 
@@ -149,8 +155,9 @@ cheese =>                                   # Prompt
 
 # OpenAI Five Model
 
+ September 2018
  5 agents (characters) that work together in collaboration! 
- Incomplete information
+ In a game with incomplete information
 
  {% youtube "https://www.youtube.com/watch?v=tfb6aEUMC04" %}
 
@@ -159,6 +166,7 @@ cheese =>                                   # Prompt
   * [https://openai.com/blog/openai-five-benchmark](https://openai.com/blog/openai-five-benchmark)
   * [https://www.twitch.tv/videos/293517383](https://www.twitch.tv/videos/293517383)
   * [https://openai.com/blog/openai-five-finals](https://openai.com/blog/openai-five-finals)
+  * wikipedia - [https://en.wikipedia.org/wiki/OpenAI_Five](https://en.wikipedia.org/wiki/OpenAI_Five)
 
  See also [O], [AlphaStar Model]
 
@@ -171,6 +179,11 @@ cheese =>                                   # Prompt
 # OpenCV Library
 
  See also [O], [Computer Vision]
+
+
+# Optimization
+
+  See also [O], [Loss Function], [Optimizer]
 
 
 # Optimizer
@@ -205,6 +218,17 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
   * [https://openfold.io/](https://openfold.io/)
 
  See also [O], [DeepFold], [ESM Metagenomic Atlas]
+
+
+# Ordinal Encoding
+
+ [Categorical features][Categorical Feature] often need to be converted to numeric values to facilitate processing by modeling algorithms.
+
+ Ordinal encoding converts categorical column to numeric values when an ordered relationship exists.
+
+ ![]( {{site.assets}}/o/ordinal_encoding.png )
+
+ See also [O], [On-Cold Encoding], [One-Hot Encoding]
 
 
 # Output Layer

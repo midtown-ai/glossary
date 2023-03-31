@@ -38,12 +38,20 @@ layout: page
 Accuracy = -------------------
             TP + TN + FP + FN
 
-TP = True positive
-TN = True negative
+T = Correctly identified
+F = Incorrectly identified
+P = Actual value is positive (class A, a cat)
+F = Actual value is negative (class B, not a cat, a dog)
+
+TP = True positive (correctly identified as class A)
+TN = True negative (correctly identified as class B)
 FP = False Positive
 FN = False negative
-TP + TN + FP + FN = all experiments/classifications
+TP + TN + FP + FN = all experiments/classifications/samples
  ```
+
+ More at:
+  * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
 
  See also [A], [Confusion Matrix]
 
@@ -307,13 +315,17 @@ First, we believe the clearest framing of general intelligence is a system that 
 # AI Research
 
  Research labs:
+  * Individuals
+   * Sander Dieleman at [DeepMind][Deepmind Company] - [https://sander.ai/research/](https://sander.ai/research/)
   * Universities
    * [Berkeley](https://ml.berkeley.edu/research)
+   * [Stanford AI Lab](https://ai.stanford.edu/blog/)
   * Companies
    * Facebook - [https://ai.facebook.com/blog/](https://ai.facebook.com/blog/)
    * Google 
     * [https://research.google/](https://research.google/)
     * cloud-AI - [https://research.google/teams/cloud-ai/](https://research.google/teams/cloud-ai/)
+    * Blog - [https://blog.google/technology/ai/](https://blog.google/technology/ai/)
 
  When to start research?
   * Look at the business impact
@@ -333,11 +345,11 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 # AlexNet Model
 
- A Model that led to the rebirth of neural networks using GPUs.
+ A Model that led to the rebirth of [artificial neural networks][Artificial Neural Network] using [Graphical Processing Units (GPU)][GPU].
 
  AlexNet is the name of a [convolutional neural network (CNN)][Convolutional Neural Network] architecture, designed by Alex Krizhevsky in collaboration with Ilya Sutskever and Geoffrey Hinton, who was Krizhevsky's Ph.D. advisor.
 
- AlexNet competed in the [ImageNet Large Scale Visual Recognition Challenge] on September 30, 2012. The network achieved a top-5 error of 15.3%, more than 10.8 percentage points lower than that of the runner up. The original paper's primary result was that the depth of the model was essential for its high performance, which was computationally expensive, but made feasible due to the utilization of [graphics processing units (GPUs)][GPU] during training.
+ AlexNet competed in the [ImageNet Large Scale Visual Recognition Challenge] on September 30, 2012. The network achieved a top-5 error of 15.3%, more than 10.8 percentage points lower (better) than that of the runner up. The original paper's primary result was that the depth of the model was essential for its high performance, which was computationally expensive, but made feasible due to the utilization of [graphics processing units (GPUs)][GPU] during training.
 
  {% youtube "https://www.youtube.com/watch?v=c_u4AHNjOpk" %}
 

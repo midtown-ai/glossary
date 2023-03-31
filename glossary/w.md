@@ -163,6 +163,7 @@ vector(‘king’) + vector(‘woman’) — vector(‘man’) ~ vector(‘queen
  {% youtube "https://www.youtube.com/watch?v=bof9EdygMSo" %}
 
  More at:
+  * [https://www.louisbouchard.ai/text-embedding/](https://www.louisbouchard.ai/text-embedding/)
   * [https://towardsdatascience.com/introduction-to-word-embeddings-4cf857b12edc](https://towardsdatascience.com/introduction-to-word-embeddings-4cf857b12edc)
 
  See also [W], [NLP], [Word2Vec]

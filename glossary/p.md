@@ -91,6 +91,18 @@ layout: page
  See also [P], [AI Movies], [Company]
 
 
+# Pepper Robot
+
+ Built by [Softbank Robotics][Softbank Robotics Company]
+
+ {% youtube "https://www.youtube.com/watch?v=Ti4NiaQj8q0" %}
+
+ More at:
+  * [https://us.softbankrobotics.com/pepper](https://us.softbankrobotics.com/pepper)
+
+ See also [P], ...
+
+
 # Perceiver IO Model
 
  Product arbitrary size outputs - reconstructing the input
@@ -211,15 +223,20 @@ layout: page
 
 # Point-E Model
 
+ Text-to-3d using 2D diffusion ?
+
  While recent work on text-conditional 3D object generation has shown promising results, the state-of-the-art methods typically require multiple GPU-hours to produce a single sample. This is in stark contrast to state-of-the-art generative image models, which produce samples in a number of seconds or minutes. In this paper, we explore an alternative method for 3D object generation which produces 3D models in only 1-2 minutes on a single GPU. Our method first generates a single synthetic view using a text-to-image diffusion model, and then produces a 3D point cloud using a second diffusion model which conditions on the generated image. While our method still falls short of the state-of-the-art in terms of sample quality, it is one to two orders of magnitude faster to sample from, offering a practical trade-off for some use cases. We release our pre-trained point cloud diffusion models, as well as evaluation code and models, at this https URL.
+
+ {% pdf "https://arxiv.org/pdf/2212.08751.pdf" %}
 
  More at:
   * paper - [https://arxiv.org/abs/2212.08751](https://arxiv.org/abs/2212.08751)
   * code - [https://github.com/openai/point-e](https://github.com/openai/point-e)
   * blog - [https://the-decoder.com/point-e-openai-shows-dall-e-for-3d-models/](https://the-decoder.com/point-e-openai-shows-dall-e-for-3d-models/)
-  * article - [https://techcrunch.com/2022/12/20/openai-releases-point-e-an-ai-that-generates-3d-models/](https://techcrunch.com/2022/12/20/openai-releases-point-e-an-ai-that-generates-3d-models/)
+  * articles
+   * [https://techcrunch.com/2022/12/20/openai-releases-point-e-an-ai-that-generates-3d-models/](https://techcrunch.com/2022/12/20/openai-releases-point-e-an-ai-that-generates-3d-models/)
 
- See also [P], [CLIP Model], [DALL-E Model]
+ See also [P], [CLIP Model], [DALL-E Model], [DreamFusion Model]
 
 
 # Policy Gradient Solution
@@ -292,10 +309,16 @@ layout: page
  Precision is the fraction of the tumors that were predicted to be malignant (of one call) that are actually malignant (of that class).
  
  ```
-               TP               correctly identified       
-Precision = --------- =    ----------------------------
-             TP + FP           ground truth for class
+# TP : a cat is recognized as a cat
+# FP : a cat is recognized as a dog
+
+               TP               # samples in class that are correctly identified       
+Precision = --------- =    --------------------------------------------------------
+             TP + FP                    # sample in class
  ```
+
+ More at:
+  * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
 
  See also [P], [Confusion Matrix]
 

@@ -247,6 +247,22 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], [AutoML], [Neural Network]
 
 
+# Neural Machine Translation
+
+# NMT
+
+ Neural machine translation (NMT) is an approach to machine translation that uses an [artificial neural network] to predict the likelihood of a sequence of words, typically modeling entire sentences in a single integrated model.
+
+ They require only a fraction of the memory needed by traditional [statistical machine translation (SMT)][Statistical Machine Translation] models.
+
+ Its main departure is the use of [vector] representations ("[embeddings][Word Embedding]", "continuous space representations") for words and internal states. 
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Neural_machine_translation](https://en.wikipedia.org/wiki/Neural_machine_translation)
+
+ See also [N], ...
+
+
 # Neural Network
 
  ~ `Can discover and approximate a(ny?) function given fixed(-count?) inputs and fixed(-count?) outputs! = universal function approximator` A multi-layer perceptron. Also known as Artificial Neural Network (ANN). Can be used in supervised or unsupervised learning.

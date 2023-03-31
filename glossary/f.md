@@ -35,6 +35,9 @@ layout: page
 
  When to use? F1-Score is used when the False Negatives and False Positives are important. F1-Score is a better metric for Imbalanced Data.
 
+ More at:
+  * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
+
  See also [F], [Confusion Matrix], [Hyperparameter Optimization]
 
 
@@ -60,9 +63,32 @@ layout: page
  See also [F], [Data Point], [Dataset], [Explanatory Variable], [Feature Engineering], [Feature Extraction], [Feature Vector], [Naive Bayes]
 
 
+# Feature Distribution
+
+ See also [F], ...
+
+
+# Feature Distribution Transformation
+
+ Transformations:
+  * [Box Cox Transformation]
+  * [Log Transformation]
+
+ See also [F], ...
+
+
 # Feature Engineering
 
- Feature engineering is an iterative process that often requires experimentation and creating many models to find the input features that give the best model performance. You want features that are weakly correlated with each other, but that strongly correlated with the output.  Beware that the data-set needs to be at least 10 times the number of features. Example: for call routing in a call center
+ Feature engineering is an iterative process that often requires experimentation and creating many models to find the input features that give the best model performance. You want features that are weakly correlated with each other, but that strongly correlated with the output. 
+
+ Examples:
+  * Numeric features may need to be [rescaled][Feature Scaling]
+  * The values of [categorical features][Categorical Feature] may need to be [encoded][Encoding]
+  * Features may need to be parsed into multiple fields
+  * Techniques like [Principal Component Analysis (PCA)][Principal Component Analysis] may need to be applied to extract new features
+  * Features may need to [reshaped][Feature Distribution Transformation] to conform to statistical distribution, such as normal/Gaussian.
+
+ Beware that the data-set needs to be at least 10 times the number of features. Example: for call routing in a call center
   * Use for feature the item that was last purchased
   * The date of the last purchase, or rather re-engineered the number of days since the last purchase
   * if the caller owns a kindle
@@ -93,12 +119,83 @@ layout: page
 
  before classifier training!
 
+ In machine learning, [feature] learning or representation learning is a set of techniques that allows a system to automatically discover the representations needed for feature detection or classification from raw data. This replaces manual feature engineering and allows a machine to both learn the features and use them to perform a specific task.
+
+ Feature learning is motivated by the fact that machine learning tasks such as classification often require input that is mathematically and computationally convenient to process. However, real-world data such as images, video, and sensor data has not yielded to attempts to algorithmically define specific features. An alternative is to discover such features or representations through examination, without relying on explicit algorithms.
+
+ Feature learning can be either [supervised], [unsupervised] or [self-supervised].
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Feature_learning](https://en.wikipedia.org/wiki/Feature_learning)
+
+ See also [F], ...
+
+
+# Feature Normalization
+
+ Cleaning the data in preparation of feeding it to a model.
+
+ Transform [features][Feature] to an explicit range between 0 and 1 for example.
+
+ ```
+           X - Xmin
+Xnorm = --------------
+          Xmax - Xmin
+ ```
+
+ See also [F], [Feature Scaling]
+
+
+# Feature Scaling
+
+ Methods:
+  * [Feature Normalization]
+  * [Feature Standardization]
+
+ See also [F], ...
+
+
+# Feature Standardization
+
+ Transform [features][Feature] to a measure of how each value differs from the mean.
+
+ The new value range typically from -3 to 3 (+- 3 standard-deviation)
+
+ ```
+          X - mean(X)
+Xnorm = ---------------
+           stddev(X)
+ ```
+
+ See also [F], [Feature Scaling]
+
 
 # Feature Vector
 
  Single column matrix (a vector) that contains all the inputs to a model (ex: artificial neuron). 
 
  See also [F], [Feature], [Vector]
+
+
+# Feature Visualization
+
+ There is a growing sense that neural networks need to be interpretable to humans. The field of neural network interpretability has formed in response to these concerns. As it matures, two major threads of research have begun to coalesce: feature visualization and attribution.
+
+ {% youtube "https://www.youtube.com/watch?v=McgxRxi2Jqo" %}
+
+ Convolutional networks
+
+ {% pdf "https://arxiv.org/pdf/1311.2901.pdf" %}
+
+ More at:
+  * [https://yosinski.com/deepvis](https://yosinski.com/deepvis)
+  * [https://sander.ai/2014/08/05/spotify-cnns.html](https://sander.ai/2014/08/05/spotify-cnns.html)
+  * [https://github.com/yosinski/deep-visualization-toolbox](https://github.com/yosinski/deep-visualization-toolbox)
+  * [https://distill.pub/2017/feature-visualization/](https://distill.pub/2017/feature-visualization/)
+  * papers
+   * Visualizing CNN - [https://arxiv.org/abs/1311.2901](https://arxiv.org/abs/1311.2901)
+
+ See also [F], ...
 
 
 # Feedback

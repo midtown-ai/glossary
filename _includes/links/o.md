@@ -13,7 +13,9 @@
 [OpenAI Gym Environment]: {{ site.baseurl }}{% link glossary/o.md %}#openai-gym-environment
 [OpenCV Library]: {{ site.baseurl }}{% link glossary/o.md %}#opencv-library
 [OpenFold]: {{ site.baseurl }}{% link glossary/o.md %}#openfold
+[Optimization]: {{ site.baseurl }}{% link glossary/o.md %}#optimization
 [Optimizer]: {{ site.baseurl }}{% link glossary/o.md %}#optimizer
+[Ordinal Encoding]: {{ site.baseurl }}{% link glossary/o.md %}#ordinal-encoding
 [Output Layer]: {{ site.baseurl }}{% link glossary/o.md %}#output-layer
 [Output Perturbation]: {{ site.baseurl }}{% link glossary/o.md %}#output-perturbation
 [Overfitting]: {{ site.baseurl }}{% link glossary/o.md %}#overfitting

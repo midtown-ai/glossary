@@ -12,7 +12,6 @@
 [Data Augmentation]: {{ site.baseurl }}{% link glossary/d.md %}#data-augmentation
 [Data Handling]: {{ site.baseurl }}{% link glossary/d.md %}#data-handling
 [Data Leakage]: {{ site.baseurl }}{% link glossary/d.md %}#data-leakage
-[Data Normalisation]: {{ site.baseurl }}{% link glossary/d.md %}#data-normalization
 [Data Point]: {{ site.baseurl }}{% link glossary/d.md %}#data-point
 [Data Science]: {{ site.baseurl }}{% link glossary/d.md %}#data-science
 [Data Scientist]: {{ site.baseurl }}{% link glossary/d.md %}#data-scientist
@@ -62,6 +61,7 @@
 [Dimensionality Reduction]: {{ site.baseurl }}{% link glossary/d.md %}#dimensionality-reduction
 [Discovery Phase]: {{ site.baseurl }}{% link glossary/d.md %}#discovery-phase
 [Discrete Action Space]: {{ site.baseurl }}{% link glossary/d.md %}#discrete-action-space
+[Discrete Convolution]: {{ site.baseurl }}{% link glossary/d.md %}#discrete-convolution
 [Discrete Variable]: {{ site.baseurl }}{% link glossary/d.md %}#discrete-variable
 [Discriminative Classifier]: {{ site.baseurl }}{% link glossary/d.md %}#discriminative-classifier
 [Discriminator]: {{ site.baseurl }}{% link glossary/d.md %}#discriminator
@@ -74,5 +74,6 @@
 [Domain-Specific Model]: {{ site.baseurl }}{% link glossary/d.md %}#domain-specific-model
 [Dot Product]: {{ site.baseurl }}{% link glossary/d.md %}#dot-product
 [Downstream Task]: {{ site.baseurl }}{% link glossary/d.md %}#downstream-task
+[DreamFusion Model]: {{ site.baseurl }}{% link glossary/d.md %}#dreamfusion-model
 [Drop Out]: {{ site.baseurl }}{% link glossary/d.md %}#drop-out
 [Dual-Encoder Contrastive Model]: {{ site.baseurl }}{% link glossary/d.md %}#dual-encoder-contrastive-model

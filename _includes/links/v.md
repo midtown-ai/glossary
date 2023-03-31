@@ -11,8 +11,10 @@
 [Variational Autoencoder]: {{ site.baseurl }}{% link glossary/v.md %}#variational-autoencoder
 [VAE]: {{ site.baseurl }}{% link glossary/v.md %}#vae
 [Variational Autoencoder Reparameterization Trick]: {{ site.baseurl }}{% link glossary/v.md %}#variational-autoencoder-reparameterization-trick
+[Vector Quantized Generative Adversarial Network]: {{ site.baseurl }}{% link glossary/v.md %}#vector-quantized-generative-adversarial-network
+[VQGAN]: {{ site.baseurl }}{% link glossary/v.md %}#vqgan
 [Vector Quantized Variational Autoencoder]: {{ site.baseurl }}{% link glossary/v.md %}#vector-quantized-variational-autoencoder
-[VQ-VAE]: {{ site.baseurl }}{% link glossary/v.md %}#vq-vae
+[VQVAE]: {{ site.baseurl }}{% link glossary/v.md %}#vqvae
 [Vector]: {{ site.baseurl }}{% link glossary/v.md %}#vector
 [Vector Database]: {{ site.baseurl }}{% link glossary/v.md %}#vector-database
 [Vector Search Library]: {{ site.baseurl }}{% link glossary/v.md %}#vector-search-library

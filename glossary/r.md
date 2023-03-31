@@ -95,9 +95,16 @@ layout: page
 # Reasoning
 
  There are 2 types of reasoning:
-   * Inductive reasoning
-   * Deductive reasoning
- See [Deductive Reasoning], [Inductive Reasoning], [Machine Reasoning]
+  * [Inductive reasoning]
+  * [Deductive reasoning]
+
+ Examples:
+  * [Case-Based Reasoning]
+
+ More at:
+  * ...
+
+ See [R], [Machine Reasoning]
 
 
 # Recall
@@ -105,12 +112,27 @@ layout: page
  Recall is the fraction of malignant tumors (of one class) that the system identified (correctly). Recall measures the fraction of truly malignant tumors that were detected. Recall is important in medical cases where it doesn’t matter whether we raise a false alarm but the actual positive cases should not go undetected!
  
  ```
+# TP : The predicted value is positive and it is positive
+       A cat is recognized as a cat
+# FN : Type II eror : The predicted value is negative, but it is positive!
+       A cat is recognized as a dog (not a cat!)
+# TP + FN : Actual value is positive
+       The cat is a cat!
+
+
            TP                     correctly identified        
 Recall = -----------   =  ------------------------------------
-           TP + FN             all identified in class        
+           TP + FN             all identified in class       
+
+
+Recall = % of positively identified
+         % of cat identified as cat
  ```
 
  Recall would be a better metric because we don’t want to accidentally discharge an infected person and let them mix with the healthy population thereby spreading contagious virus. Now you can understand why accuracy is NOT always thebest metric for a model.
+
+ More at:
+  * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
 
  See also [R], [Confusion Matrix]
 
@@ -170,18 +192,25 @@ Recall = -----------   =  ------------------------------------
  ![]( {{site.assets}}/r/recurrent_neural_network_repeating_module.png ){: width="100%"}
 
 
- Neural networks will "loops" that are optimized for speech recognition, language modeling, translation. Essential to these successes is the use of “LSTMs,” a very special kind of recurrent neural network which works, for many tasks, much much better than the standard version. Almost all exciting results based on recurrent neural networks are achieved with them. :warning: Can or cannot use backpropagation? Yes, can !
+ Neural networks will "loops" that are optimized for speech recognition, language modeling, translation. Essential to these successes is the use of “LSTMs,” a very special kind of recurrent neural network which works, for many tasks, much much better than the standard version. Almost all exciting results based on recurrent neural networks are achieved with them.
+
+ :warning: Can or cannot use [backpropagation]? Yes, can !
+
+ ![]( {{site.assets}}/r/recurrent_neural_network_cells.png ){: width="100%"}
 
  Beware:
-  * The most modern RNN uses Long-Short Term Memory (LSTM) or Gated Recurrent Unit (GRU) cells
+  * The most modern RNN uses [Long-Short Term Memory (LSTM)][LSTM Cell] or [Gated Recurrent Unit (GRU)][GRU Cell] cells
   * Memory = hidden state (output of previous stage) ?
 
-  `Are now deprecated by attention-based models such as transformers? Yes!`
-
-  * deprecated previous approach using bag of word and word2vec
+Beware:
+  * RNN are now deprecated by attention-based models such as those based on the [transformer architecture]
+  * deprecated previous approach using [bag of words] and [word2vec]
   * deprecated by attention-based models
 
- See also [R], [Attention-Based Model], [Backpropagation], [Bag Of Word], [Bidirectional Recurrent Neural Network], [Feedforward Neural Network], [Gated Recurrent Unit Cell], [Hidden State], [Long Short Term Memory Network], [Neural Network], [Pixel RNN], [Transformer Model], [Word2Vec]
+ More at:
+  * keras and RNN - [https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177](https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177)
+
+ See also [R], [Attention-Based Model], [Bidirectional Recurrent Neural Network], [Feedforward Neural Network], [Hidden State], [Long Short Term Memory Network], [Neural Network], [Pixel RNN], [Transformer Model]
 
 
 # Red Teaming
@@ -350,6 +379,13 @@ Recall = -----------   =  ------------------------------------
  See also [R], [MAML], [Meta Learning]
 
 
+# Reasoning
+
+ * [Logical Reasoning]
+
+ See also [R], ...
+
+
 # Resample
 
  a new sample of data that is created by selecting observations from an existing dataset.
@@ -391,7 +427,7 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
 
 # ResNET Model
 
- ResNET, short for Residual Networks is a classic neural network used as a backbone for many computer vision tasks = `a CNN image model` This model was the winner of ImageNET challenge in 2015. The fundamental breakthrough with ResNET was it allowed us to train extremely deep neural networks with 150+layers successfully. Prior to ResNET training very deep neural networks was difficult due to the problem of vanishing gradients.
+ ResNET, short for Residual Networks is a classic neural network used as a backbone for many computer vision tasks = `a CNN image model` This model was the winner of ImageNET challenge in 2015. The fundamental breakthrough with ResNET was it allowed us to train extremely deep neural networks with 150+layers successfully. Prior to ResNET training very deep neural networks was difficult due to the [problem of vanishing gradients][Vanishing Gradient Problem].
 
  {% pdf "{{site.assets}}/r/residual_network_paper.pdf" %}
 
@@ -485,6 +521,7 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  Examples of [social robots][social robot]
   * [Ameca][Ameca Robot] bu [Engineered Arts][Engineered Arts Company]
   * [Sophia][Sophia Robot] by [Hanson Robotics][Hanson Robotics Company]
+  * [Pepper][Pepper Robot] by ...
 
  Other 
   * [Atlas][Atlas Robot] by [Boston Dynamics][Boston Dynamics Company]

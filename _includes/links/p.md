@@ -8,6 +8,7 @@
 [PaLM-E Model]: {{ site.baseurl}}{% link glossary/p.md %}#palm-e-model
 [Pathways Model Architecture]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-model-architecture
 [People]: {{ site.baseurl}}{% link glossary/p.md %}#people
+[Pepper Robot]: {{ site.baseurl}}{% link glossary/p.md %}#pepper-robot
 [Perceiver IO Model]: {{ site.baseurl}}{% link glossary/p.md %}#perceiver-io-model
 [Perceiver Model]: {{ site.baseurl}}{% link glossary/p.md %}#perceiver-model
 [Perceptron]: {{ site.baseurl}}{% link glossary/p.md %}#perceptron

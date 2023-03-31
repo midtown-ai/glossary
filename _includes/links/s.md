@@ -42,6 +42,7 @@
 [Slicing Function]: {{ site.baseurl}}{% link glossary/s.md %}#slicing-function
 [Snorkel Program]: {{ site.baseurl}}{% link glossary/s.md %}#snorkel-program
 [Social Robot]: {{ site.baseurl}}{% link glossary/s.md %}#social-robot
+[Softbank Robotics Company]: {{ site.baseurl}}{% link glossary/s.md %}#softbank-robotics-company
 [Softmax Function]: {{ site.baseurl}}{% link glossary/s.md %}#softmax-function
 [Softplus Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#softplus-activation-function
 [Software 1.0]: {{ site.baseurl}}{% link glossary/s.md %}#software-1-0
@@ -70,6 +71,10 @@
 [State Model]: {{ site.baseurl}}{% link glossary/s.md %}#state-model
 [State Of The Art]: {{ site.baseurl}}{% link glossary/s.md %}#
 [SOTA]: {{ site.baseurl}}{% link glossary/s.md %}#sota
+[Statistical Machine Translation]: {{ site.baseurl}}{% link glossary/s.md %}#statistical-machine-translation
+[SMT]: {{ site.baseurl}}{% link glossary/s.md %}#smt
+[Statistical Model]: {{ site.baseurl}}{% link glossary/s.md %}#statistical-model
+[Statistics]: {{ site.baseurl}}{% link glossary/s.md %}#statistics
 [Stereo Vision]: {{ site.baseurl}}{% link glossary/s.md %}#stereo-vision
 [Stochastic Gradient Descent]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-gradient-descent
 [SGD]: {{ site.baseurl}}{% link glossary/s.md %}#sgd

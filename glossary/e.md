@@ -226,6 +226,16 @@ Research on emotion has increased over the past two decades with many fields con
  See also [E], [Autoencoder], [Decoder], [Decoder Stack], [Encoder], [Encoder Stack], [Hidden State], [U-Net Architecture]
 
 
+# Encoding
+
+ Often used in data preparation to turn categorical features into numbers.
+
+ Methods:
+  * [One-Cold Encoding]
+  * [One-Hot Encoding]
+  * [Ordinal Encoding]
+
+ See also [E], ...
 # Endpoint
 
  After the model has been built, we create an endpoint in docker to make it available for queries. An endpoint has a URL which can be queried directly. `You don't have SSH access to the endpoint`.
@@ -375,6 +385,18 @@ Research on emotion has increased over the past two decades with many fields con
  See also [E], [AI Movie]
 
 
+# Example-Based Machine Translation
+
+# EBMT
+
+ Example-based machine translation (EBMT) is a method of [machine translation] often characterized by its use of a bilingual [corpus] with parallel texts as its main knowledge base at run-time. It is essentially a translation by analogy and can be viewed as an implementation of a [case-based reasoning] approach to [machine learning].
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Example-based_machine_translation](https://en.wikipedia.org/wiki/Example-based_machine_translation)
+
+ See also [E], ...
+
+
 # Expected Value
 
  {% youtube "https://www.youtube.com/watch?v=KLs_7b7SKi4" %}
@@ -384,9 +406,14 @@ Research on emotion has increased over the past two decades with many fields con
 
 # Expert System
 
+ In [artificial intelligence], an expert system is a computer system emulating the decision-making ability of a human expert. Expert systems are designed to solve complex problems by reasoning through bodies of knowledge, represented mainly as if–then rules rather than through conventional procedural code. The first expert systems were created in the 1970s and then proliferated in the 1980s. Expert systems were among the first truly successful forms of artificial intelligence (AI) software. An expert system is divided into two subsystems: the inference engine and the knowledge base. The knowledge base represents facts and rules. The inference engine applies the rules to the known facts to deduce new facts. Inference engines can also include explanation and debugging abilities.
+
  ![]( {{site.assets}}/e/expert_system_comparison.png ){: width="100%"}
 
- See also [E], [Big Data], [Deep Learning], [Machine Learning]
+ More at:
+  * [https://en.wikipedia.org/wiki/Expert_system](https://en.wikipedia.org/wiki/Expert_system)
+
+ See also [E], [Big Data], [Deep Learning], [Logical Reasoning], [Machine Learning], [Optimization], [Statistics]
 
 
 # Explainable AI

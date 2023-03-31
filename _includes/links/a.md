@@ -27,6 +27,7 @@
 [AI Movie]: {{ site.baseurl }}{% link glossary/a.md %}#ai-movie
 [AI Paper]: {{ site.baseurl }}{% link glossary/a.md %}#ai-paper
 [AI Research]: {{ site.baseurl }}{% link glossary/a.md %}#ai-research
+[AI Winter]: {{ site.baseurl }}{% link glossary/a.md %}#ai-winter
 [AlexNet Model]: {{ site.baseurl }}{% link glossary/a.md %}#alexnet-model
 [Algorithmic]: {{ site.baseurl }}{% link glossary/a.md %}#algorithmic
 [Alpaca Model]: {{ site.baseurl }}{% link glossary/a.md %}#alpaca-model

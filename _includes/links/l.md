@@ -32,6 +32,7 @@
 [LDA]: {{ site.baseurl }}{% link glossary/l.md %}#lda
 [Linear Regression]: {{ site.baseurl }}{% link glossary/l.md %}#linear-regression
 [Log Loss Function]: {{ site.baseurl }}{% link glossary/l.md %}#log-loss-function
+[Log Transformation]: {{ site.baseurl }}{% link glossary/l.md %}#log-transformation
 [Logic Model]: {{ site.baseurl }}{% link glossary/l.md %}#logic-model
 [Logistic Regression]: {{ site.baseurl }}{% link glossary/l.md %}#logistic-regression
 [Long Short Term Memory Cell]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-cell

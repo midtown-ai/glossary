@@ -170,13 +170,6 @@ layout: page
    * [https://docs.google.com/presentation/d/1WrkeJ9-CjuotTXoa4ZZlB3UPBXpxe4B3FMs9R9tn34I/edit#slide=id.g164b1bac824_0_2980](https://docs.google.com/presentation/d/1WrkeJ9-CjuotTXoa4ZZlB3UPBXpxe4B3FMs9R9tn34I/edit#slide=id.g164b1bac824_0_2980)
 
 
-# Data Normalisation
-
- Cleaning the data in preparation of feeding it to a model.
-
- See also [D], [Data]
-
-
 # Data Point
 
  ~ an observation. Together the features and the label make a single data point. Imputation is a way to deal with missing data in data points.
@@ -184,6 +177,18 @@ layout: page
  ![]( {{site.assets}}/d/data_point.png ){: width="100%"}
 
  See also [D], [Dataset], [Feature], [Imputation], [Label]
+
+
+# Data Preparation
+
+ aka Data Cleaning
+
+ Steps:
+  * [Encoding]
+  * Feature scaling, including [Feature Normalization] and [Feature Standardization]
+  * [Transforming]
+
+ See also [D], ...
 
 
 # Data Science
@@ -455,6 +460,17 @@ layout: page
  See also [D], [Addiction], [Reinforcement Learning], [Reward Shaping]
 
 
+# Dendrocentric AI
+
+ Computing based on [Dendrites][Dendrite]
+
+ More at:
+  * [https://spectrum.ieee.org/dendrocentric-learning](https://spectrum.ieee.org/dendrocentric-learning)
+  * [https://www.nature.com/articles/s41586-021-04362-w](https://www.nature.com/articles/s41586-021-04362-w)
+
+ See also [D], ...
+
+
 # Dendrite
 
  See also [D], [Biological Neuron]
@@ -642,6 +658,12 @@ We need to do this for
 
  See also [D], ...
 
+
+# Discrete Convolution
+
+ See also [D], [Continuous Convolution]
+
+
 # Discrete Variable
 
  A variable that takes a (finite?) set of numerical value.
@@ -747,6 +769,21 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
 
  See also [D], [Finetuning], [Supervised Learning], [Upstream Task]
 
+
+# DreamFusion Model
+
+ Text-to-3D using 2D Diffusion
+
+ An alternative to [Point-E Model] built by [OpenAI][OpenAI Company]
+
+ {% pdf "https://arxiv.org/pdf/2209.14988.pdf" %}
+
+ More at:
+  * home - [https://dreamfusion3d.github.io/](https://dreamfusion3d.github.io/)
+  * paper - [https://arxiv.org/abs/2209.14988](https://arxiv.org/abs/2209.14988)
+  * sample - [https://dreamfusion3d.github.io/gallery.html](https://dreamfusion3d.github.io/gallery.html)
+
+ See also [D], [Google Company]
 
 # Drop Out
 

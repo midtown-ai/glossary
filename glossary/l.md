@@ -182,17 +182,17 @@ layout: page
 
  All of those are or should be machine learning algorithm type! Here is a non-exhaustive list:
   * experience : learn from the past/data
-  * unsupervised : try, fail, learn from failures ? Takes a long time / many iteration!
-  * imitation : clone behavior of experts <== good to get started, but do you understand?
-  * supervised learning : with a teacher
-  * reinforcement learning : reward based
-  * task-based learning : focus on goal, use all of your skills to complete it and develop new ones (be motivated to find new skills)
+  * [unsupervised learning] : try, fail, learn from failures ? Takes a long time / many iteration!
+  * [imitation learning] : clone behavior of experts <== good to get started, but do you understand?
+  * [supervised learning] : with a teacher
+  * [reinforcement learning] : reward based
+  * [task-based learning] : focus on goal, use all of your skills to complete it and develop new ones (be motivated to find new skills)
   * feedback-based learning : get feedback from the crowd (experts and non-experts), select the feedback you want -- always try your best --> develop a persona
-  * transfer learning : priors + I learned that concept before, no need to relearn
-  * weak-supervised learning : augment the data (i.e. create data!) which has been labeled (supervised)
-  * semi-supervised : label existing data based on data that has been labeled
+  * [transfer learning] : priors + I learned that concept before, no need to relearn
+  * [weak-supervised learning] : augment the data (i.e. create data!) which has been labeled (supervised)
+  * [semi-supervised learning] : label existing data based on data that has been labeled
 
- See also [L], [Feedback-Based Learning], [Imitation Learning], [Machine Learning Type], [Reinforcement Learning], [Self-Supervised Learning], [Semi-Supervised Learning], [Supervised Learning], [Task-Based Learning], [Transfer Learning], [Unsupervised Learning], [Weak-Supervised Learning]
+ See also [L], [Feedback-Based Learning], [Machine Learning Type], [Self-Supervised Learning]
 
 
 # Learning Process
@@ -308,11 +308,34 @@ with alpha = learning_rate
  See [Binary Cross-Entropy Loss Function]
 
 
-# Logic Model
+# Log Transformation
+
+ A [Feature Distribution Transformation]
+
+ {% youtube "https://www.youtube.com/watch?v=LCDiQxB5S84" %}
+
+ See also [L], ...
+
+# Logical Reasoning
+
+ If-then-else rules used in [expert systems][Expert System]
+
+ ```
+# Knowledge base
+All men are mortal
+# Input
+Aristotle is a men
+# Inference
+==>
+# New fact
+Aristotle is mortal!
+
+# If Aristotle is man AND all men are mortal, then Aritotle is mortal!
+ ```
 
  Ex: personal assistant with memory and can infer from dialog new things (i.e graph network?) !
 
- See also [L], [Model Type]
+ See also [L], [Reasoning]
 
 
 # Logistic Regression
@@ -348,6 +371,8 @@ with alpha = learning_rate
 
  {% youtube "https://www.youtube.com/watch?v=8HyCNIVRbSU" %}
 
+ {% youtube "https://www.youtube.com/watch?v=S27pHKBEp30" %}
+
  See also [L], [Hidden State], [LSTM Network]
 
 
@@ -375,6 +400,7 @@ with alpha = learning_rate
   * `Are now deprecated by attention-based models, such as transformers? Yes`
 
  More at
+  * LSTM with keras - [https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5](https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5)
   * [http://colah.github.io/posts/2015-08-Understanding-LSTMs/](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
  See also [L], [Attention-Based Model], [Gated Recurrent Unit Cell], [Gradient Descent], [Recurrent Neural Network], [Transformer Model], [Vanishing Gradient Problem]

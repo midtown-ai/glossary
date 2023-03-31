@@ -18,6 +18,7 @@
 [Encoder Stack]: {{site.baseurl }}{% link glossary/e.md %}#encoder-stack
 [Encoder-Decoder Attention]: {{site.baseurl }}{% link glossary/e.md %}#encoder-decoder-attention
 [Encoder-Decoder Model]: {{site.baseurl }}{% link glossary/e.md %}#encoder-decoder-model
+[Encoding]: {{site.baseurl }}{% link glossary/e.md %}#encoding
 [Endpoint]: {{site.baseurl }}{% link glossary/e.md %}#endpoint
 [Engineered Arts Company]: {{site.baseurl }}{% link glossary/e.md %}#engineered-arts-company
 [Ensemble Method]: {{site.baseurl }}{% link glossary/e.md %}#ensemble-method
@@ -32,6 +33,8 @@
 [Estimator]: {{site.baseurl }}{% link glossary/e.md %}#estimator
 [Ethics Problem]: {{site.baseurl }}{% link glossary/e.md %}#ethics-problem
 [Ex Machina Movie]: {{site.baseurl }}{% link glossary/e.md %}#ex-machina-movie
+[Example-Based Machine Translation]: {{site.baseurl }}{% link glossary/e.md %}#example-based-machine-translation
+[EBMT]: {{site.baseurl }}{% link glossary/e.md %}#ebmt
 [Expected Value]: {{site.baseurl }}{% link glossary/e.md %}#expected-value
 [Expert System]: {{site.baseurl }}{% link glossary/e.md %}#expert-system
 [Explainability Spectrum]: {{site.baseurl }}{% link glossary/e.md %}#explainability-spectrum

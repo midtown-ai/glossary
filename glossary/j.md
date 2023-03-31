@@ -60,6 +60,24 @@ f(x,y) = P(X = x, Y = y)
 
  See also [J], ...
 
+
+# Jukebox Model
+
+ Generative model for music built by [OpenAI][OpenAI Company]
+
+ {% pdf "https://arxiv.org/pdf/2005.00341.pdf" %}
+
+ More at:
+  * www - [https://openai.com/research/jukebox](https://openai.com/research/jukebox)
+  * code - [https://github.com/openai/jukebox/](https://github.com/openai/jukebox/)
+  * paper - [https://arxiv.org/abs/2005.00341](https://arxiv.org/abs/2005.00341)
+  * samples - [https://openai.com/research/jukebox](https://openai.com/research/jukebox) 
+  * articles
+   * [https://venturebeat.com/ai/openais-jukebox-ai-produces-music-in-any-style-from-scratch-complete-with-lyrics/](https://venturebeat.com/ai/openais-jukebox-ai-produces-music-in-any-style-from-scratch-complete-with-lyrics/)
+
+ See also [J], ...
+
+
 # Jupyter Notebook
 
  See also [J], ...

@@ -1,6 +1,8 @@
 [C]: {{ site.baseurl }}{% link glossary/c.md %}
 
 [Caffe]: {{ site.baseurl }}{% link glossary/c.md %}#caffe
+[Case-Based Reasoning]: {{ site.baseurl }}{% link glossary/c.md %}#case-based-reasoning
+[CBR]: {{ site.baseurl }}{% link glossary/c.md %}#cbr
 [Casual Language Modeling]: {{ site.baseurl }}{% link glossary/c.md %}#casual-language-modeling
 [CatBoost Library]: {{ site.baseurl }}{% link glossary/c.md %}#catboost-libary
 [Categorical Variable]: {{ site.baseurl }}{% link glossary/c.md %}#categorical-variable
@@ -41,6 +43,7 @@
 [Consumer Electric Show]: {{ site.baseurl }}{% link glossary/c.md %}#consumer-electronic-show
 [CES]: {{ site.baseurl }}{% link glossary/c.md %}#ces
 [Continuous Action Space]: {{ site.baseurl }}{% link glossary/c.md %}#continuous-action-space
+[Continuous Convolution]: {{ site.baseurl }}{% link glossary/c.md %}#continuous-convolution
 [Continuous Variable]: {{ site.baseurl }}{% link glossary/c.md %}#continuous-variable
 [Contrastive Language Image Pre-training Model]: {{ site.baseurl }}{% link glossary/c.md %}#contrastive-language-image-pre-training-model
 [CLIP Model]: {{ site.baseurl }}{% link glossary/c.md %}#clip-model

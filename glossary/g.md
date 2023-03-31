@@ -251,10 +251,15 @@ layout: page
 
  GPT4 released on Tuesday 03/14/2023
 
+ ![]( {{site.assets}}/g/gpt4_model_exams.png ){: width="100%"}
+
  {% pdf "{{site.assets}}/g/gpt4_model_paper.pdf" %}
 
  {% youtube "https://www.youtube.com/watch?v=outcGtbnMuQ" %}
+
  {% youtube "https://www.youtube.com/watch?v=PEjl7-7lZLA" %}
+
+ {% youtube "https://www.youtube.com/watch?v=6Hewb1wlOlo" %}
 
  More at:
    * GPT-1 paper - [https://paperswithcode.com/paper/improving-language-understanding-by](https://paperswithcode.com/paper/improving-language-understanding-by)
@@ -549,6 +554,13 @@ layout: page
 # GPU
 
  To accelerate processing of data.
+
+ The move of AI/ML from CPU to GPU was done when [AlexNet Model] solved the [ImageNet Large Scale Visual Recognition Challenge] in 09/30/2012
+
+ ![]( {{site.assets}}/g/graphical_processing_unit_scaling.webp ){: width="100%"}
+
+ More at:
+  * [https://www.nature.com/articles/s41586-021-04362-w](https://www.nature.com/articles/s41586-021-04362-w)
 
  See also [G], [CPU], [Cuda Core], [Hyperparameter Optimization], [TPU]
 
