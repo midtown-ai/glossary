@@ -28,17 +28,20 @@ layout: page
 
 {% include links/all.md %}
 
+
 # K-Mean Algorithm
 
  Recurrence algorithm. Give a number of clusters (eg 3), then you try to group your samples to the 3 clusters. A cluster is defined by its cluster centre. For each sample , measure the distance to the centre-1, centre-2, centre-3 if 3 clusters. The point/sample belongs to the cluster whose centre is the closest. then move the centre to the place where those that belongs to the cluster error is minimum (i.e. move the centre of the cluster to a new location). Then recur with the new position for the cluster centres. At some point, the cluster centres will not move and the recurrence will therefore stop.
 
  See also [K], [K-Mean Cluster], [K-Mean Failure]
 
+
 # K-Mean Cluster
 
   When using K-Mean algorithm, how to find the number of clusters? Do this iteratively (2, 3, ...) and for each scenario plot the sum of the squared error. Then look at the elbow, where the squared error drops significantly. Where that happens, you have found the number of clusters. Increasing the number of clusters beyond that number only has a marginal effect.
 
   See also [K], [K-Mean Algorithm]
+
 
 # K-Mean Failure
 
@@ -49,6 +52,7 @@ layout: page
  A possible solution is DBSCAN.
 
  See also [K], [DBSCAN], [K-Mean Algorithm]
+
 
 # K-Nearest Neighbor
 
@@ -63,11 +67,13 @@ layout: page
 
  See also [K], [Model Evaluation], [Semisupervised Learning]
 
+
 # Keras
 
  A python module ...
 
  See also [K], ...
+
 
 # Kernel Filter
 
@@ -82,6 +88,7 @@ layout: page
 
  See also [K], [Convolutional Layer], [Convolutional Neural Network]
 
+
 # Kernel Trick
 
  ![]( {{site.assets}}/k/kernel_trick_table.png ){: width="100%"}
@@ -92,6 +99,14 @@ layout: page
   * video - [https://www.youtube.com/watch?v=IpGxLWOIZy4](https://www.youtube.com/watch?v=IpGxLWOIZy4)
 
  See also [K], [Support Vector Machine]
+
+
+# Knowledge Corpus
+
+ Queried right after LLM prompt by a [Neural Retriever] for the purpose of [Knowledge Retrieval]
+
+ See also [K], ...
+
 
 # Knowledge Graph
 
@@ -104,9 +119,25 @@ layout: page
 
  See also [K], [Graph Neural Network]
 
+
+# Knowledge Retrieval
+
+ A solution to the [hallucinations][Hallucination] of [Large Language Model] ?
+
+ Possible thanks to a [Information Retriever] that fronts the model
+  * ...
+  * [Neural Retriever]
+
+ More at:
+  * [https://venturebeat.com/ai/whats-next-in-large-language-model-llm-research-heres-whats-coming-down-the-ml-pike/](https://venturebeat.com/ai/whats-next-in-large-language-model-llm-research-heres-whats-coming-down-the-ml-pike/)
+
+ See also [K], ...
+
+
 # Kullback-Liebler Distance
 
  See [Kullback-Liebler Divergence]
+
 
 # Kullback-Leibler Divergence
 

@@ -3,6 +3,7 @@
 [F1 Score]: {{site.baseurl }}{% link glossary/f.md %}#f1-score
 [Facebook Company]: {{site.baseurl }}{% link glossary/f.md %}#facebook-company
 [Feature]: {{site.baseurl }}{% link glossary/f.md %}#feture
+[Feature Attribution]: {{site.baseurl }}{% link glossary/f.md %}#feature-attribution
 [Feature Distribution]: {{site.baseurl }}{% link glossary/f.md %}#feature-distribution
 [Feature Distribution Transformation]: {{site.baseurl }}{% link glossary/f.md %}#feature-distribution-transformation
 [Feature Engineering]: {{site.baseurl }}{% link glossary/f.md %}#feature-engineering

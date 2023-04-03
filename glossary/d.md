@@ -291,7 +291,7 @@ layout: page
 
  {% youtube "https://www.youtube.com/watch?v=d_ixlCubqQw" %}
 
- See also [D], [Autoregressive], [Decoder Stack], [Encoder], [Encoder-Decoder Model], [Hidden State], [Image Decoder], [Masked Self-Attention], [Natural Language Generation]
+ See also [D], [Autoregressive Model], [Decoder Stack], [Encoder], [Encoder-Decoder Model], [Hidden State], [Image Decoder], [Masked Self-Attention], [Natural Language Generation]
 
 
 # Decoder Representation

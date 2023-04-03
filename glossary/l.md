@@ -50,6 +50,19 @@ layout: page
  See also [L], [Dawid-Skene Algorithm], [Majority Vote Algorithm], [Unlabelled Data Algorithm]
 
 
+# Labor Market Impact
+
+ We investigate the potential implications of [large language models (LLMs)][Large Language Model], such as [Generative Pre-trained Transformers (GPTs)][GPT Model], on the U.S. labor market, focusing on the increased capabilities arising from LLM-powered software compared to LLMs on their own. Using a new rubric, we assess occupations based on their alignment with LLM capabilities, integrating both human expertise and GPT-4 classifications. 
+
+ **Our findings reveal that around 80% of the U.S. workforce could have at least 10% of their work tasks affected by the introduction of LLMs, while approximately 19% of workers may see at least 50% of their tasks impacted**.
+
+ We do not make predictions about the development or adoption timeline of such LLMs. The projected effects span all wage levels, with higher-income jobs potentially facing greater exposure to LLM capabilities and LLM-powered software. Significantly, these impacts are not restricted to industries with higher recent productivity growth. Our analysis suggests that, with access to an LLM, about 15% of all worker tasks in the US could be completed significantly faster at the same level of quality. When incorporating software and tooling built on top of LLMs, this share increases to between 47 and 56% of all tasks. This finding implies that LLM-powered software will have a substantial effect on scaling the economic impacts of the underlying models. We conclude that LLMs such as GPTs exhibit traits of general-purpose technologies, indicating that they could have considerable economic, social, and policy implications.
+
+ {% pdf "https://arxiv.org/pdf/2303.10130.pdf" %}
+
+ See also [L], ...
+
+
 # Lambda Model
 
  Beware, cannot use GPU for inference. ??? <== ????
@@ -76,7 +89,24 @@ layout: page
 
 # Large Language Model
 
- See also [Language Model], [Language Modeling]
+# LLM
+
+ Large Language Models are [Language Model] with not millions, but billions of parameters/weights. The term "large" in LLM refers to the fact that these models are designed to handle large amounts of data, both in terms of the size of the text corpus used to train them and in terms of the amount of text they can generate or process at once.
+
+ In 2023, aftr the release of [ChatGPT][ChatGPT Model], LLMs started having a huge [impact on the labor force][Labor Market Impact]
+
+ These models typically utilize deep learning techniques and are trained on massive amounts of text data, such as books, articles, and web pages, in order to learn the patterns and structure of language.
+
+ Examples of Large Language Models include
+  * [GPT-3, GPT-2][GPT Model],
+  * [BERT][BERT Model],
+  * and [T5][T5 Model], among others.
+
+ These models have been used for a variety of tasks, such as [language translation][Machine Translation], text generation, [question answering], and [sentiment analysis], and have demonstrated impressive performance on many [benchmarks][Benchmark] in [natural language understanding] and generation.
+
+ {% youtube "https://www.youtube.com/watch?v=StLtMcsbQes" %}
+
+ See also [L], [Language Modeling], [SCaling Law]
 
 
 # Latent Diffusion Model

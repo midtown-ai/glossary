@@ -239,6 +239,41 @@ Beware:
  See also [R], [Supervised Fine-Tuning]
 
 
+# Reducible Error
+
+ Suppose that we want to predict a value Y based upon a set X = (X1, X2, …, Xp) of variables. For the predictions to have any chance of being good predictions, X needs to contain the core set of variables that drive the behavior of Y. But there will almost always be lesser variables, not included in X, that nonetheless exert some minor influence on Y. We capture the situation as follows:
+
+ ```
+ Y = f(X) + ɛ 
+ ```
+
+ Here, f is the function describing the relationship between X and Y, and ɛ is an error term that accounts for all the unmeasured influences on Y. We assume that ɛ is independent of X and has mean 0.
+
+ Usually we don’t know f exactly, so we use statistical methods (such as linear regression) to estimate f. We use f̂ to denote this estimate. This allows us to predict Y from X using the following:
+
+ ```
+ Y =  f̂(X) + ɛ 
+ ```
+
+ Our predictions will generally be imperfect: there will be some nonzero difference between the predicted and “true” values. This difference is called prediction error. In general we can’t see the true values directly, but we can see evidence of the gap by looking at the [residuals][Residual], which are the difference between the observed and predicted values.
+
+ To minimize prediction error, we need to understand its source. Broadly speaking there are two: reducible error and irreducible error.
+
+ Reducible error is the error arising from the mismatch between f̂ and f. f is the true relationship between X and Y, but we can’t see f directly— we can only estimate it. We can reduce the gap between our estimate and the true function by applying improved methods.
+
+ Irreducible error arises from the fact that X doesn’t completely determine Y. That is, there are variables outside of X — and independent of X— that still have some small effect on Y. The only way to improve prediction error related to irreducible error is to identify these outside influences and incorporate them as predictors.
+
+ More at:
+  * [https://medium.com/wwblog/reducible-vs-irreducible-error-e469036969fa](https://medium.com/wwblog/reducible-vs-irreducible-error-e469036969fa)
+
+ See also [R], [Loss Function]
+
+
+# Reducible Loss
+
+ See [Reducible Error]
+
+
 # Reflex Model
 
  An inference you can make almost instantaneously. Ex: flash the image of a zebra in front of me and recognize it is a zebra.

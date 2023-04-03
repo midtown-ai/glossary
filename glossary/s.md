@@ -63,7 +63,11 @@ layout: page
 
 # Sample Efficiency
 
- See also [S], [Learning Velocity]
+ How much is learned from each sample.
+
+ Relate to the impact of training the model with more data. Should you get more data, more compute, or more weights/parameters?
+
+ See also [S], [Learning Velocity], [Scaling Law]
 
 
 # Sampling Error
@@ -129,6 +133,33 @@ StandardScaler()
 
  See also [S], [Estimator]
 
+
+# Scaling Law
+
+ Here is the empirical observation: "Bigger model with more data and more compute keeps getting better!"
+
+ ![]( {{site.assets}}/s/scaling_law_compute_dataset_parameters.png ){: width="100%"}
+
+ As a result:
+
+ ![]( {{site.assets}}/s/scaling_law_meme.png ){: width="100%"}
+
+ Also opportunity cost for GPU compute (what is the best way to spend that compute to achieve lower loss?)
+ With more compute, you can 3 Possibilities:
+  1. Train with more data
+  2. Train on the same data multiple times
+  3. or Make model larger   <<====== SURPRISING WINNER! (won't ANN with too many layers overfit data?)
+
+ As model gets bigger, the model becomes more sample efficient (more learning is done by sample)
+
+ ![]( {{site.assets}}/s/scaling_law_data_batch_size.png ){: width="100%"}
+
+ **The thing about [GPT-3][GPT Model] that makes it so important is that it provides evidence that as long as we keep increasing the model size, we can keep driving down the loss, possibly right up until it hits the [Shannon entropy][Entropy] of text. No need for clever architectures or complex handcrafted [heuristics]. Just by scaling it up we can get a better language model, and a better language model entails a better world model**
+
+ More at:
+  * ...
+
+ See also [S], [Artificial Neural Network], [Statistical Model]
 
 # Search Problem
 
@@ -280,6 +311,28 @@ StandardScaler()
  The model in compact form, delivered to endpoint.
 
 
+# Shannon Entropy
+
+ See [Entropy]
+
+
+# Shapley Additive Explanations
+
+# SHAP Value
+
+ The Shapley Additive Explanations (SHAP) is another novel approach to [explainability][Explainable AI] developed by Scott Lundberg at [Microsoft][Microsoft Company] and eventually opened sourced.
+
+ SHAP has a strong mathematical foundation based on Shapley values in game theory where each player in the cooperation is rewarded based on how important they are to cooperation.
+
+ {% pdf "https://arxiv.org/pdf/1705.07874.pdf" %}
+ 
+ More at:
+  * paper - [https://arxiv.org/abs/1705.07874](https://arxiv.org/abs/1705.07874)
+  * [https://towardsdatascience.com/what-is-explainable-ai-xai-afc56938d513](https://towardsdatascience.com/what-is-explainable-ai-xai-afc56938d513)
+
+ See also [S], ...
+
+
 # Shapley Value
 
  In [Game Theory], ...
@@ -287,19 +340,7 @@ StandardScaler()
  More at:
   * [https://en.wikipedia.org/wiki/Shapley_value](https://en.wikipedia.org/wiki/Shapley_value)
 
- See also [S], ...
-
-
-# SHAP Value
-
- SHAP is another novel approach to [explainability][Explainable AI] developed by Scott Lundberg at [Microsoft][Microsoft Company] and eventually opened sourced.
-
- SHAP has a strong mathematical foundation based on Shapley values in game theory where each player in the cooperation is rewarded based on how important they are to cooperation.
- 
- More at:
-  * [https://towardsdatascience.com/what-is-explainable-ai-xai-afc56938d513](https://towardsdatascience.com/what-is-explainable-ai-xai-afc56938d513)
-
- See also [S], ...
+ See also [S], [Shapley Additive Explanations]
 
 
 # Short Circuit Movie
@@ -698,6 +739,8 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
 
 # Statistical Model
 
+Completely different from [artificial neural networks][Artificial Neural Network]
+
  Usage:
   * [Statistical Model Translation]
   * ...
@@ -706,7 +749,7 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
   * [https://en.wikipedia.org/wiki/Statistical_model](https://en.wikipedia.org/wiki/Statistical_model)
   
 
- See also [S], ...
+ See also [S], [Scaling Law]
 
 
 # Statistics
@@ -772,6 +815,14 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
 # Subsampling
 
  See also [S], [Convolutional Neural Network]
+
+
+# Sundar Pichai Person
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Sundar_Pichai](https://en.wikipedia.org/wiki/Sundar_Pichai)
+
+ See also [S], ...
 
 
 # Super Resolution GAN

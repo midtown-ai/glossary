@@ -287,7 +287,27 @@ Research on emotion has increased over the past two decades with many fields con
 
 # Entropy
 
+ . :warning: When a loss function hit the Shannon entropy, the model has learned everything there is to know, the model is predict everything as well as possible. So perfect algorithm and the model knows everything there is to know.
+
+ Shannon entropy is a measure of the amount of uncertainty or randomness in a system. It was introduced by Claude Shannon in 1948 as a way to quantify the amount of information in a message or signal.
+
+The entropy of a system is defined as the negative sum of the probabilities of each possible outcome multiplied by the logarithm of those probabilities. Mathematically, it can be expressed as:
+ ```
+H(X) = -∑(p(x) * log2 p(x))
+
+# H(X) is the entropy of the system,
+# p(x) is the probability of a particular outcome x,
+# and log2 is the base-2 logarithm.
+```
+
+ The entropy is measured in bits, and it represents the minimum number of bits required to encode the information in the system. A system with high entropy has more uncertainty and randomness, and therefore requires more bits to encode the information. Conversely, a system with low entropy has less uncertainty and randomness, and requires fewer bits to encode the information.
+
+ Shannon entropy has applications in various fields, including information theory, cryptography, and data compression. It is a fundamental concept in the study of communication and information processing.
+
  {% youtube "https://www.youtube.com/watch?v=YtebGVx-Fxw" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Entropy_(information_theory)](https://en.wikipedia.org/wiki/Entropy_(information_theory))
 
  See also [E], [Cross-Entropy], [Kullback-Liebler Divergence]
 
@@ -422,7 +442,10 @@ Research on emotion has increased over the past two decades with many fields con
 
  As more and more companies embed AI and advanced analytics within a business process and automate decisions, there needs to have transparency into how these models make decisions grows larger and larger. How do we achieve this transparency while harnessing the efficiencies AI brings. This is where the field of Explainable AI (XAI) can help. 
 
+ {% pdf "{{site.assets}}/e/explainable_ai_whitepaper.pdf" %}
+
  More at:
+  * whitepaper - [https://storage.googleapis.com/cloud-ai-whitepapers/AI%20Explainability%20Whitepaper.pdf](https://storage.googleapis.com/cloud-ai-whitepapers/AI%20Explainability%20Whitepaper.pdf)
   * [https://towardsdatascience.com/what-is-explainable-ai-xai-afc56938d513](https://towardsdatascience.com/what-is-explainable-ai-xai-afc56938d513)
   * [https://en.wikipedia.org/wiki/Explainable_artificial_intelligence#](https://en.wikipedia.org/wiki/Explainable_artificial_intelligence#)
 

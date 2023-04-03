@@ -63,6 +63,15 @@ layout: page
  See also [F], [Data Point], [Dataset], [Explanatory Variable], [Feature Engineering], [Feature Extraction], [Feature Vector], [Naive Bayes]
 
 
+# Feature Attribution
+
+ Feature Attributions is a family of methods for explaining a model’s predictions on a given input by attributing it to features of the individual inputs. The attributions are proportional to the contribution of the feature to the prediction. They are typically signed, indicating whether a feature helps push the prediction up or down. Finally, attributions across all features are required to add up to the model’s prediction score.
+
+ Feature Attributions have been successfully used in the industry and also at Google to improve model transparency, debug models, and assess model robustness. Prominent algorithms for computing feature attributions include SHAP, Integrated Gradients and LIME. Each algorithm offers a slightly different set of properties.
+
+ More at:
+  * [https://cloud.google.com/blog/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble](https://cloud.google.com/blog/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble)
+
 # Feature Distribution
 
  See also [F], ...
@@ -233,6 +242,8 @@ Xnorm = ---------------
 
 # Few-Shot Learning
 
+ A [prompt engineering] technique for [large language models][LLM]!
+
  In addition to the task description the model sees a few examples of the task. No gradient updates are performed.
 
  ```
@@ -242,7 +253,13 @@ peppermint => menthe poivree               # ...
 plush girafe => girafe peluche             # Example N
 cheese =>
  ```
+
  Deductions from a few hand-picked examples. ex: You watch someone playing a game. After he or she  played 5 round,, you say, oh yes, I think I can play the game. Few-, one-, and zero-shot settings are specialized cases of zero-shot task transfer. In a few-shot setting, the model is provided with a task description and as many examples as fit into the context window of the model. In a one-shot setting, the model is provided with exactly one example and, in a zero-shot setting, with no example. 
+
+ ![]( {{site.assets}}/f/few_shot_learning_accuracy.png ){: width="100%"}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Few-shot_learning_(natural_language_processing)](https://en.wikipedia.org/wiki/Few-shot_learning_(natural_language_processing))
 
  See also [F], [One-Shot Learning], [Zero-Shot Task Transfer], [Zero-Shot Learning], 
 

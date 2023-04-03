@@ -83,9 +83,10 @@ layout: page
 # People
 
  People
-  * [Bill Gates][Bill Gates Person]
-  * [Elon Musk][Elon Musk Person]
-  * [Sam Altman][Sam Altman Person]
+  * [Bill Gates][Bill Gates Person]: Founder and now chairman at [Microsoft][Microsoft Company]
+  * [Elon Musk][Elon Musk Person]: CEO of Tesla
+  * [Sam Altman][Sam Altman Person]: CEO of [OpenAI][OpenAI Company]
+  * [Sundar Pichai][Sundar Pichai Person]: CEO of Alphabet/[Google][Google Company]
   * ...
 
  See also [P], [AI Movies], [Company]
@@ -169,7 +170,7 @@ layout: page
 
 # Pixel RNN
 
- Autoregressive models such as PixelRNN instead train a network that models the conditional distribution of every individual pixel given previous pixels (to the left and to the top). This is similar to plugging the pixels of the image into a char-rnn, but the RNNs run both horizontally and vertically over the image instead of just a 1D sequence of characters. PixelRNNs have a very simple and stable training process (softmax loss) and currently give the best log likelihoods (that is, plausibility of the generated data). However, they are relatively inefficient during sampling and don’t easily provide simple low-dimensional codes for images.
+ [Autoregressive models][Autoregressive Model] such as PixelRNN instead train a network that models the conditional distribution of every individual pixel given previous pixels (to the left and to the top). This is similar to plugging the pixels of the image into a char-rnn, but the RNNs run both horizontally and vertically over the image instead of just a 1D sequence of characters. PixelRNNs have a very simple and stable training process (softmax loss) and currently give the best log likelihoods (that is, plausibility of the generated data). However, they are relatively inefficient during sampling and don’t easily provide simple low-dimensional codes for images.
 
  More at:
   * paper - [https://arxiv.org/abs/1601.06759](https://arxiv.org/abs/1601.06759)
@@ -413,6 +414,12 @@ Prediction Error = actual_value - predicted_value
 
 # Prompt Engineering
 
+ **[Large Language Models][LLM] are like alien artifiacts that feel from the sky one day and we are still banging rocks against them trying to make then do something useful!**
+
+ Impact of prompt engineering (aka prompt tuning!) on the large language model based on the [SuperGLUE Benchmark]
+
+ ![]( {{site.assets}}/p/prompt_engineering_impact.png ){: width="100%"}
+
  See also [P], [ChatGPT Model], [DALL-E Model]
 
 
@@ -422,6 +429,11 @@ Prediction Error = actual_value - predicted_value
   * example of PI - [https://twitter.com/goodside/status/1598253337400717313](https://twitter.com/goodside/status/1598253337400717313)
 
  See also [P], [ChatGPT Model], [GPT Model]
+
+
+# Prompt Tuning
+
+ See [Prompt Engineering]
 
 
 # Proximal Policy Optimization

@@ -231,6 +231,8 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 # AI Alignment
 
+ {% youtube "https://www.youtube.com/watch?v=EUjc1WuyPT8" %}
+
  {% youtube "https://www.youtube.com/watch?v=fc-cHk9yFpg" %}
 
  ```
@@ -320,18 +322,25 @@ First, we believe the clearest framing of general intelligence is a system that 
   * Universities
    * [Berkeley](https://ml.berkeley.edu/research)
    * [Stanford AI Lab](https://ai.stanford.edu/blog/)
-  * Companies
+  * For profit
    * Facebook - [https://ai.facebook.com/blog/](https://ai.facebook.com/blog/)
    * Google 
     * [https://research.google/](https://research.google/)
     * cloud-AI - [https://research.google/teams/cloud-ai/](https://research.google/teams/cloud-ai/)
     * Blog - [https://blog.google/technology/ai/](https://blog.google/technology/ai/)
+  * Non-profit
+    * [Eleuther AI](https://blog.eleuther.ai/)
 
  When to start research?
   * Look at the business impact
   * Make sure that stakeholders are engaged, because problems are not always well formulated or data is missing
 
  See [A], ...
+
+
+# AI Safety
+
+ See [AI Alignment]
 
 
 # AI Winter
@@ -666,16 +675,20 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 # ANN
 
- The way for researchers to build an artificial brain or neural network using artificial neurons. There are several types of ANN, including:
+ The way for researchers to build an artificial brain or [neural network] using [artificial neurons][Artificial Neuron]. There are several types of ANN, including:
   * ...
   * ...
 
- See also [A], [Artificial Neuron], [Neural Network]
+ The "knowledge/skills" of the ANN are encoded in their [parameters][Parameter]
+
+ See also [A], ...
 
 
 # Artificial Neuron
 
- aka Node, Perceptron. Several (binary) input channels, to produce one output (binary value) that can be faned out. Input weights, Bias (add an offset vector for adjustment to prior predictions), non-linear activation function (sum+bias must meet or exceed activation threshold).
+ aka Node, currently artificial neurons are implemented as a [Perceptrons][Perceptron].
+
+ Several (binary) input channels, to produce one output (binary value) that can be faned out. Input weights, Bias (add an offset vector for adjustment to prior predictions), non-linear activation function (sum+bias must meet or exceed activation threshold).
 
  ![]( {{site.assets}}/a/artificial_neuron.png ){: width="100%"}
 
@@ -850,18 +863,18 @@ If you don't ___ at the sign, you will get a ticket
 
  See also [A], [Hyperparameter Tuning], [Early Stopping], [Neural Architecture Search]
 
-# Autoregressive
+# Autoregressive Model
 
- Goal is to predict a future token (work) given either the past tokens or the future tokens but not both. (If both --> auto-encoding). Autoregressive models such as decoders are iterative and reused their temporary, incomplete output to generate the next, more complete output. Iterations stop when encoder input is exhausted (?). Well-known autoregressive models/use-cases are:
+ Goal is to predict a future token (word) given either the past tokens or the future tokens but not both. (If both --> auto-encoding). Autoregressive models such as decoders are iterative and reused their temporary, incomplete output to generate the next, more complete output. Iterations stop when encoder input is exhausted (?). Well-known autoregressive models/use-cases are:
   * Predicting next work in a sentence (auto-complete)
   * Natural language generation
-  * GPT family
+  * [GPT Models][GPT Model]
  ```
 If you don't ____ (forward prediction)
 ____ at the sign, you will get a ticket (backward prediction)
  ```
 
- See also [A], [Autoencoding], [Casual Language Modeling], [Decoder], [GPT Model]
+ See also [A], [Autoencoding], [Casual Language Modeling], [Decoder]
 
 
 # Autoregressive Convolutional Neural Network

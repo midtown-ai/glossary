@@ -110,6 +110,8 @@ print(df)
 
 # One-Shot Learning
 
+ A [prompt engineering] technique to increase the accuracy of a [large language model].
+
  In addition to the task description, the model sees a single example of the task. No gradient updates are performed.
 
  ```
@@ -123,6 +125,11 @@ cheese =>                                   # Prompt
  ![]( {{site.assets}}/o/one_shot_learning.png ){: width="100%"}
 
  Few-, one-, and zero-shot settings are specialized cases of zero-shot task transfer. In a few-shot setting, the model is provided with a task description and as many examples as fit into the context window of the model. In a one-shot setting, the model is provided with exactly one example and, in a zero-shot setting, with no example.
+
+ ![]( {{site.assets}}/o/one_shot_learning_accuracy.png ){: width="100%"}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/One-shot_learning_(computer_vision)](https://en.wikipedia.org/wiki/One-shot_learning_(computer_vision))
 
  See also [O], [Encoder], [Few-Shot Learning], [Siamese Network], [Similarity Function], [Transfer Learning], [Zero-Shot Learning], [Zero-Shot Task Transfer]
 

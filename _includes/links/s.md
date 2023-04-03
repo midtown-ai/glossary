@@ -9,6 +9,7 @@
 [Sampling Error]: {{ site.baseurl}}{% link glossary/s.md %}#sampling-error
 [Sampling Method]: {{ site.baseurl}}{% link glossary/s.md %}#sampling-method
 [Scaler]: {{ site.baseurl}}{% link glossary/s.md %}#scaler
+[Scaling Law]: {{ site.baseurl}}{% link glossary/s.md %}#scaling-law
 [Search Problem]: {{ site.baseurl}}{% link glossary/s.md %}#search-problem
 [Scene Graph]: {{ site.baseurl}}{% link glossary/s.md %}#scene-graph
 [Scikit Learn]: {{ site.baseurl}}{% link glossary/s.md %}#scikit-learn
@@ -28,8 +29,9 @@
 [Sequence To Sequence Transformer]: {{ site.baseurl}}{% link glossary/s.md %}#sequence-to-sequence-transformer
 [Seq2Seq Transformer]: {{ site.baseurl}}{% link glossary/s.md %}#seq2seq-transformer
 [Serialized Flat File]: {{ site.baseurl}}{% link glossary/s.md %}#serialized-flat-file
-[Shapley Value]: {{ site.baseurl}}{% link glossary/s.md %}#shaplet-value
+[Shapley Additive Explanations Value]: {{ site.baseurl}}{% link glossary/s.md %}#shapley-additive-explanations-value
 [SHAP Value]: {{ site.baseurl}}{% link glossary/s.md %}#shap-value
+[Shapley Value]: {{ site.baseurl}}{% link glossary/s.md %}#shaplet-value
 [Short Circuit Movie]: {{ site.baseurl}}{% link glossary/s.md %}#short-circuit-movie
 [Siamese Network]: {{ site.baseurl}}{% link glossary/s.md %}#siamese-network
 [Sigmoid Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-activation-function
@@ -84,8 +86,10 @@
 [Strong AI]: {{ site.baseurl}}{% link glossary/s.md %}#strong-ai
 [Style GAN]: {{ site.baseurl}}{% link glossary/s.md %}#style-gan
 [Subsampling]: {{ site.baseurl}}{% link glossary/s.md %}#subsampling
+[Sundar Pichai Person]: {{ site.baseurl}}{% link glossary/s.md %}#sundar-pichai-person
 [Super Resolution GAN]: {{ site.baseurl}}{% link glossary/s.md %}#super-resolution-gan
 [SRGAN]: {{ site.baseurl}}{% link glossary/s.md %}#srgan
+[SuperGLUE Benchmark]: {{ site.baseurl}}{% link glossary/s.md %}#superglue-benchmark
 [Supertranslate AI Company]: {{ site.baseurl}}{% link glossary/s.md %}#supertranslate-ai-company
 [Supervised Fine-Tuning]: {{ site.baseurl}}{% link glossary/s.md %}#supervised-fine-tuning
 [SFT]: {{ site.baseurl}}{% link glossary/s.md %}#sft

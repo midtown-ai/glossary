@@ -26,17 +26,22 @@ categories: jekyll update
  * 2016       - [Sophia Robot] from [Hanson Robotics Company]
  * 2016       - [Google Translate][Google Translate Model]
  * 2016       - [AlphaGo Model]
- * 2017       - [Transformer Architecture] and [BERT Model]
+ * 2017       - [Transformer Architecture] as a neural network architecture for sequence-to-sequence tasks: 
+                * Longer context/memory
+		* More easily parallelised than RNN ==> faster to train and can handle larger datasets
+ * 2018       - [BERT Model]
  * 2018       - [AlphaFold Model] by [DeepMind][DeepMind Company]
  * 2019       - [Pluribus Model] by [Facebook][Facebook Company] = First AI to beat human professionals in multiplayer poker
  * 2020       - [Viral happy new year](https://www.youtube.com/watch?v=fn3KWM1kuAw) by [Boston Dynamics Company]
+ * 2020/06    - [GPT3][GPT Model] is released and support [Scaling Law]
  * 2021
               - [https://www.youtube.com/watch?v=t4B99T_3IsM](https://www.youtube.com/watch?v=t4B99T_3IsM)
- * 2022       - [GPT3][GPT Model] and [ChatGPT][ChatGPT Model] by [OpenAI][OpenAI Company]
- * 2022/11/12 - [ChatGPT][ChatGPT Model] is released
+ * 2022/11/12 - [ChatGPT][ChatGPT Model] is released by [OpenAI][OpenAI Company] ==> 5 days to reach a million users!
  * 2023       - [AlphaTensor][AlphaTensor Model]
  * 2023       - [Bard Model] by [Google][Google Company]
- * 2023/03/21 - Bill Gates: [The Age of AI has begun](https://www.gatesnotes.com/The-Age-of-AI-Has-Begun)
+ * 2023/03/14 - [GPT4][GPT Model] is released and integrated in the [Bing Search Engine]
+ * 2023/03/17 - [Labor Market Impact] potential of Large Language Model
+ * 2023/03/21 - [Bill Gates][Bill Gates Person] : [The Age of AI has begun](https://www.gatesnotes.com/The-Age-of-AI-Has-Begun)
 
 # The future of AI
 

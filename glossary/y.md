@@ -1,5 +1,5 @@
 ---
-title: Y
+# title: Y
 permalink: /y/
 
 #=== THEMES

@@ -281,9 +281,19 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
 # Neural Network Interpretability
 
- There is a growing sense that neural networks need to be interpretable to humans. The field of neural network interpretability has formed in response to these concerns. As it matures, two major threads of research have begun to coalesce: feature visualization and attribution.
+ There is a growing sense that neural networks need to be interpretable to humans. The field of neural network interpretability has formed in response to these concerns. As it matures, two major threads of research have begun to coalesce: [feature visualization] and [attribution][Feature Attribution].
 
- See also [N], [Feature Visualization]
+ See also [N], ...
+
+
+# Neural Retriever
+
+ {% pdf "https://arxiv.org/pdf/2205.16005.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2205.16005]
+
+ See also [N], ...
 
 
 # Neural Style Transfer

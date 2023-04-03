@@ -30,6 +30,7 @@
 [NMT]: {{ site.baseurl }}{% link glossary/n.md %}#nmt
 [Neural Network]: {{ site.baseurl }}{% link glossary/n.md %}#neural-network
 [Neural Network Interpretability]: {{ site.baseurl }}{% link glossary/n.md %}#neural-network-interpretability
+[Neural Retriever]: {{ site.baseurl }}{% link glossary/n.md %}#neural-retriever
 [Neural Style Transfer]: {{ site.baseurl }}{% link glossary/n.md %}#neural-style-transfer
 [NST]: {{ site.baseurl }}{% link glossary/n.md %}#nst
 [Neural Topic Modeling]: {{ site.baseurl }}{% link glossary/n.md %}#neural-topic-modeling

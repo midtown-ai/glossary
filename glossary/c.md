@@ -58,7 +58,7 @@ layout: page
 
  Based on the context (previous words) find out the most likely following work. One that word is found, the new word is used to estimate the next one.
 
- See also [C], [Autoregressive], [Decoder], [GPT Model], [Natural Language Generation]
+ See also [C], [Autoregressive Model], [Decoder], [GPT Model], [Natural Language Generation]
 
 
 # CatBoost Library
@@ -305,6 +305,7 @@ set       <search space>               set
   * [Futuri Media][Futuri Media Company]: Content selection for media, such as tv and radio. Includes [RadioGPT]!
   * [GitHub][GitHub Company]: Code repositories with advanced features including  AI pair programming with Codex
   * [Google][Google Company]: Known for its search engine and ad-placement business model. Challenged by Microsoft
+  * [Got It AI](https://www.app.got-it.ai/): ELMAR LLM for the enterprise with truth checker!
   * [Hanson Robotics][Hanson Robotics Company]: Build humanoid for consumer, entertainment, service, healthcare, and research applications. 
   * [Meta][Meta Company]:  Formerly known as Facebook with a strong focus on the multiverse and more recently on AI
   * [Microsoft][Microsoft Company]: One of the largest company in the world, leading changes with AI 

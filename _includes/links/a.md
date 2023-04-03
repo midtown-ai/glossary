@@ -88,7 +88,7 @@
 [Automation]: {{ site.baseurl }}{% link glossary/a.md %}#automation
 [AutoML]: {{ site.baseurl }}{% link glossary/a.md %}#automl
 [Autonomous Vehicle]: {{ site.baseurl }}{% link glossary/a.md %}#autonomous-vehicle
-[Autoregressive]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive
+[Autoregressive Model]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive-model
 [Autoregressive Convolutional Neural Network]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive-convolutional-neural-network
 [AR-CNN]: {{ site.baseurl }}{% link glossary/a.md %}#ar-cnn
 [Autoregressive Model]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive-model

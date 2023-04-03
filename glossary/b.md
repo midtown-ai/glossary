@@ -279,6 +279,8 @@ P(A|B) = ----------------
 
  Ideally, a model will have both low bias and variance, but efforts to decrease one will frequently increase the other. This is known as the bias-variance trade-off.
 
+ See also [B], ...
+
 
 # Bidirectional Encoder Representation from Transformer Model
 
@@ -332,6 +334,8 @@ P(A|B) = ----------------
 
 
 # Bill Gates Person
+
+ {% youtube "https://www.youtube.com/watch?v=bHb_eG46v2c" %}
 
  More at:
   * [https://www.gatesnotes.com/The-Age-of-AI-Has-Begun](https://www.gatesnotes.com/The-Age-of-AI-Has-Begun)

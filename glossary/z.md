@@ -1,5 +1,5 @@
 ---
-title: Z
+title: XYZ
 permalink: /z/
 
 #=== THEMES
@@ -46,6 +46,8 @@ cheese =>                                # Prompt
   * Seen Classes: These are the data classes that have been used to train the deep learning model.
   * Unseen Classes: These are the data classes on which the existing deep model needs to generalize. Data from these classes were not used during training.
   * Auxiliary Information: Since no labeled instances belonging to the unseen classes are available, some auxiliary information is necessary to solve the Zero-Shot Learning problem. Such auxiliary information should contain information about all of the unseen classes, which can be descriptions, semantic information, or word embeddings.
+
+ ![]( {{site.assets}}/z/zero_shot_learning_accuracy.png ){: width="100%"}
 
  `Q:` To find a horse using a cat-dog model, do we need to build the model using the semantic attributes for the cat and dog? i.e the semantic attribute that will be used to find the horse (ex: has a tail, fur, color is brown, black, or white, etc)
 
