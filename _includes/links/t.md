@@ -39,6 +39,7 @@
 [Tokenizer]: {{ site.baseurl }}{% link glossary/t.md %}#tokenizer
 [Torch]: {{ site.baseurl }}{% link glossary/t.md %}#torch
 [Training Subset]: {{ site.baseurl }}{% link glossary/t.md %}#training-subset
+[Trajectory]: {{ site.baseurl }}{% link glossary/t.md %}#trajectory
 [Transfer Learning]: {{ site.baseurl }}{% link glossary/t.md %}#transfer-learning
 [Transform Function]: {{ site.baseurl }}{% link glossary/t.md %}#transform-function
 [TF]: {{ site.baseurl }}{% link glossary/t.md %}#tf

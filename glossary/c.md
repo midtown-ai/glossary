@@ -577,6 +577,15 @@ set       <search space>               set
  See also [C], [Dataset], [GPT], [Natural Language Processing]
 
 
+# Cost
+
+ Cost vs Reward = minimize vs maximize
+
+ Cost = negative reward
+
+ See also [C], [REward]
+
+
 # Cost Function
 
  See [Loss Function]

@@ -44,4 +44,5 @@
 [Noise]: {{ site.baseurl }}{% link glossary/n.md %}#noise
 [Noise Vector]: {{ site.baseurl }}{% link glossary/n.md %}#noise-vector
 [Non-Linear Regression]: {{ site.baseurl }}{% link glossary/n.md %}#non-linear-regression
+[Numpy Module]: {{ site.baseurl }}{% link glossary/n.md %}#numpy-module
 [Nvidia Company]: {{ site.baseurl }}{% link glossary/n.md %}#nvidia-company

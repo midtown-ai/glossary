@@ -228,6 +228,11 @@ P(A|B) = ----------------
  See also [B], ...
 
 
+# Bellman Equation
+
+ See also [B], ...
+
+
 # Benchmark
 
   See also [B], [NLP Benchmark]
@@ -364,6 +369,13 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
   * [https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a](https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a)
 
  See also [B], [Binary Classifier], [Cross-Entropy Loss Function], [Entropy], [Loss Function]
+
+
+# Bing Search Engine
+
+ Search engine developed by [Microsoft][Microsoft Company] that integrates with [ChatGPT][ChatGPT Model[
+
+ See also [B], ...
 
 
 # Biological Neuron

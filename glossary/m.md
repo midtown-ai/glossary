@@ -176,6 +176,17 @@ Predict what are the required agent skills based some input parameters
  See also [M], ...
 
 
+# Markov Chain
+
+ * stochastic model
+ * describe sequence of possible events
+ * what happens next depends on present state
+ * memory-less
+ * transition matrix
+
+ See also [M], ...
+
+
 # Markov Decision Process
 
  Markov Decision Process is a Reinforcement Learning algorithm that gives us a way to formalize sequential decision making. This formalization is the basis to the problems that are solved by Reinforcement Learning. The components involved in a Markov Decision Process (MDP) is a decision maker called an agent that interacts with the environment it is placed in. These interactions occur sequentially overtime. In each timestamp, the agent will get some representation of the environment state. Given this representation, the agent selects an action to make. The environment is then transitioned into some new state and the agent is given a reward as a consequence of its previous action. The process of selecting an action from a given state, transitioning to a new state and receiving a reward happens sequentially over and over again. This creates something called a trajectory that shows the sequence of states, actions and rewards. Throughout the process, it is the responsibility of the reinforcement learning agent to maximize the total amount of rewards that it received from taking actions in given states of environments. `The agent not only wants to maximize the immediate rewards but the cumulative reward it receives in the whole process.`

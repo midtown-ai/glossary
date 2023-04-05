@@ -233,6 +233,8 @@ First, we believe the clearest framing of general intelligence is a system that 
 
  {% youtube "https://www.youtube.com/watch?v=EUjc1WuyPT8" %}
 
+ {% youtube "https://www.youtube.com/watch?v=cSL3Zau1X8g" %}
+
  {% youtube "https://www.youtube.com/watch?v=fc-cHk9yFpg" %}
 
  ```
@@ -245,6 +247,8 @@ First, we believe the clearest framing of general intelligence is a system that 
  More at :
   * [https://scottaaronson.blog/?p=6823](https://scottaaronson.blog/?p=6823)
   * is RLHF flawed? - [https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the](https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the)
+  * more videos
+    * [https://www.youtube.com/watch?v=k6M_ScSBF6A](https://www.youtube.com/watch?v=k6M_ScSBF6A)
 
  See also [A], [AI Ethics]
 
@@ -571,6 +575,11 @@ argmax(likely_outputs) = [1, 0, 0]
 First, we believe the clearest framing of general intelligence is a system that can do anything a human can do in front of a computer. A foundation model for actions, trained to use every software tool, API, and webapp that exists, is a practical path to this ambitious goal, and ACT-1 is our first step in this direction.
 # adept.ai
  ```
+
+ {% pdf "https://arxiv.org/pdf/2303.12712.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2303.12712](https://arxiv.org/abs/2303.12712)
 
  See also [A], [Artificial Narrow Intelligence], [Artificial Super Intelligence]
 

@@ -50,6 +50,8 @@ layout: page
  Before that, he was well known in Silicon Valley as president of startup accelerator Y-Combinator.
  Here's how the serial entrepreneur got his start — and ended up helming one of today's most-watched companies.
 
+ {% youtube "https://www.youtube.com/watch?v=L_Guz73e6fw" %}
+
  More at:
   * [https://www.businessinsider.com/sam-altman-chatgpt-openai-ceo-career-net-worth-ycombinator-prepper-2023-1](https://www.businessinsider.com/sam-altman-chatgpt-openai-ceo-career-net-worth-ycombinator-prepper-2023-1)
 
@@ -160,6 +162,14 @@ StandardScaler()
   * ...
 
  See also [S], [Artificial Neural Network], [Statistical Model]
+
+
+# Seaborn Module
+
+ A [python module] for Statistical Data Visualization
+
+ See also [S], ...
+
 
 # Search Problem
 
@@ -801,6 +811,11 @@ Completely different from [artificial neural networks][Artificial Neural Network
   * [https://en.wikipedia.org/wiki/Chinese_room#Strong_AI](https://en.wikipedia.org/wiki/Chinese_room#Strong_AI)
 
  See also [S], [Weak AI]
+
+
+# Structured Data
+
+ See also [S], [Data]
 
 
 # Style GAN

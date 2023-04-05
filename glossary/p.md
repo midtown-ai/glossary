@@ -29,6 +29,13 @@ layout: page
 {% include links/all.md %}
 
 
+# Panda Module
+
+ A [Python module] for ...
+
+ See also [P], ...
+
+
 # Parameter
 
  A model parameter is something that the ML can learn from the data. For example, the weight of an input in a perceptron. Indeed the model has to have parameters to make predictions. This "parameters" are not set by humans. Hyperparameters cannot be learned from the data and are set by humans. Ex: number of layers in the neural network. 
@@ -85,11 +92,13 @@ layout: page
  People
   * [Bill Gates][Bill Gates Person]: Founder and now chairman at [Microsoft][Microsoft Company]
   * [Elon Musk][Elon Musk Person]: CEO of Tesla
+  * [Greg Brockman][Greg Brockman Person]: Co-founder of [OpenAI][OpenAI Company]
+  * [Ilya Sutskever][Ilya Sutskever Person]: Co-founder of [OpenAI][OpenAI Company]
   * [Sam Altman][Sam Altman Person]: CEO of [OpenAI][OpenAI Company]
   * [Sundar Pichai][Sundar Pichai Person]: CEO of Alphabet/[Google][Google Company]
   * ...
 
- See also [P], [AI Movies], [Company]
+ See also [P], [AI Movie], [Company]
 
 
 # Pepper Robot
@@ -238,6 +247,27 @@ layout: page
    * [https://techcrunch.com/2022/12/20/openai-releases-point-e-an-ai-that-generates-3d-models/](https://techcrunch.com/2022/12/20/openai-releases-point-e-an-ai-that-generates-3d-models/)
 
  See also [P], [CLIP Model], [DALL-E Model], [DreamFusion Model]
+
+
+# Policy
+
+ In [Reinforcement Learning], ...
+
+ State to action function !
+ * Strategy of agent in pursuit of gaol
+ * Policy is optimal if its expected reward >= any other policy for all state
+
+ Policy types
+  * Take first action in mind
+  * Select action at random
+  * use heuristic
+
+ Policy characterisitc
+  * agent's policy change due to ...
+
+ Greedy policy = agent exploits the current knowledge 
+
+ See also [P], ...
 
 
 # Policy Gradient Solution
@@ -472,6 +502,16 @@ Prediction Error = actual_value - predicted_value
  {% youtube "https://www.youtube.com/watch?v=PJl4iabBEz0" %}
 
  See also [P], [Gym Environment], [PyTorch ML Framework]
+
+
+# Python Module
+
+ * [Matplotlib][Matplotlib Module]
+ * [Numpy][Numpy Module]
+ * [Panda][Panda Module]
+ * [Seaborn][Seaborn Module]
+
+ See also [P], ...
 
 
 # PyTorch ML Framework

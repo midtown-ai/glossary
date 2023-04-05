@@ -370,6 +370,106 @@ B: I was just there
  See also [N], [Linear Regression], [Polynomial Regression], [Regression]
 
 
+# Numerical Python Module
+
+# Numpy Module
+
+ A [Python module] for ...
+  * mathematical, logical and shape manipulations
+  * sorting and selcting
+  * basic linear algebra
+  * basic statistical operaitons
+  * random simulation
+
+ Optimization over list comes from
+  * data type is known (and enforced!) <== major difference between a list and an array!
+  * data is stored in blocks
+  * new optimized methods for arrays
+
+ ```
+my_array = np.array(my_list)     # Create an array from a list
+type(my_array)                   # numpy.ndarray
+my_array(4)                      # Access element in array
+
+my_2d_array = np.array([my_list], np.int8)  # Specify non-default type (default is np.int32)
+my_2d_array(0,2)                            # Access element in 2D array
+
+my_3d_array = np.array([[[1,2],[3,4]],[[5,6].[7,8]]])
+my_3d_array.ndim                 # Number of dimensions or 3
+my_3d_array.dtype                # Type of the elements or int32 (default type)
+my_3d_array.size                 # Numbers of element or 8
+my_3d_array.shape                # number of rows, columns, 3rd dim or (2, 2, 2) ?
+                                 # First is number of of brackets?
+                                 # Last is number of elements in inner list?
+my_3d_array[0,1,2] = 4           # Set new value, beware of type!
+
+my_array = np.array(my_set)      # A set ~ {1,2,3,4,4} with unique elements only!
+                                 # Array size is 1 ?
+
+my_array = np.zeros((2,5))       # 5 innermost dimension, dtype = float64 !
+
+range_array = np.arange(100)     # Create an array starting at 0, ending at 99
+
+linspace_array = np.linspace(1,10,5)  # Start at 1, end at 10, with 5 linearly spaced values!
+                                      # or 1, 3.25, 5.5, 7.75, 10  (step is 2.25)
+
+empty_array = np.empty((2,3))    # Empty array of 2 rows and 3 columns
+                                 # Elements are set to whatever value in set in memory (memo is not overwritten? ~ randomized values?
+
+empty_like_array = np.empty_like(my_3d_array)     # Empty array with same dimension as input array
+
+identity_array = np.identity(5)  # 2d square matrix with 1s on diagonal
+
+orig_array = np_arrange(99)      # 99 elements, 0 to 98 with dim 1
+orig_array.size                  # 99
+reshaped_array = orig_array.reshape(3,33)  # Dim is 
+
+ravel_array = reshaped_array.ravel()      # Flatten the array in 1dim with shape of 99
+
+# row, columns, depth, etc = axis0, axis1, axis2, etc...
+my_array.sum()                   # Sum of all the elements
+my_array.sum(axis=0)             # Sum of elements in same rows
+my_array.sum(axis=1)             # Sum of elements in same columns
+
+my_array.nbytes
+my_array.T                       # Transpose in 2 or more dimensions
+my_array.flat                    # Return an Iterator object to be used in for loops!
+
+my_array.argmin()                # Return index where minimum is present (in flattened array)
+my_array.argmax()                #        index       maximum
+my_array.min()                   # Return value of minimum in array
+my_array.max()                   #        value    maximum
+
+arr1 + arr2                      # Addition element by element of 2 arrays
+arr1 * arr2                      # Multiplication element by element of 2 arrays
+arr1.sqrt()                      # Square root of elements
+
+np.where(arr1>4)                 # Return a tuple with all X and all Y where this is true
+np.count_non_zero(arr1)          #
+np.nonzero(arr3)                 #
+
+import matplotlib.pyplot as plt
+plt.plot(arr)                    # Plot array with X = index and Y = value in array
+
+from skimage import io
+photo = io.imread("file.jpg")
+photo
+type(photo)
+photo.shape                      # Ydim, Xdim, RGB_depth
+plt.imshow(photo)
+plt.imshow(photo[:,::-1]         # Mirror on Y index 
+plt.imshow(photo[::-1])          # Mirror on X index
+plt.imshow(photo[1000:2500, 800:2000])  # Croping
+plt.imshow(photo[::20, ::20])           # Pixelization ? Compress array?
+masked_photo = np.where(phto>150, 255, 0)
+plt.imshow(masked_photo)
+plt.imshow(photo[:,:,0].T)       # Multiple transformation at once!
+
+ ```
+
+ See also [N], ...
+
+
 # Nvidia Company
 
  {% youtube "https://www.youtube.com/watch?w=Gn_IMIPrX9s" %}

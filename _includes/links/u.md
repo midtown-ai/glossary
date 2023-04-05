@@ -8,6 +8,7 @@
 [Underfitting]: {{ site.baseurl }}{% link glossary/u.md %}#underfitting
 [Universal Function Approximator]: {{ site.baseurl }}{% link glossary/u.md %}#universal-function-approximation
 [Unlabeled Data Algorithm]: {{ site.baseurl }}{% link glossary/u.md %}#unlabeled-data-algorithm
+[Unstructured Data]: {{ site.baseurl }}{% link glossary/u.md %}#unstructured-data
 [Unsupervised Deep Learning Model]: {{ site.baseurl }}{% link glossary/u.md %}#unsupervised-deep-learning-model
 [Unsupervised Learning]: {{ site.baseurl }}{% link glossary/u.md %}#unsupervised-learning
 [Update Ratio]: {{ site.baseurl }}{% link glossary/u.md %}#update-ratio

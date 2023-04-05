@@ -42,6 +42,13 @@ layout: page
  See also [V], [Sentiment Analysis]
 
 
+# Value
+
+ In [Reinforcement Learning], ...
+
+ See also [V], ...
+
+
 # Vanilla GAN
 
  The Vanilla GAN is the simplest type of GAN made up of the generator and discriminator , where the classification and generation of images is done by the generator and discriminator internally with the use of multi layer perceptrons. The generator captures the data distribution meanwhile , the discriminator tries to find the probability of the input belonging to a certain class, finally the feedback is sent to both the generator and discriminator after calculating the loss function , and hence the effort to minimize the loss comes into picture.

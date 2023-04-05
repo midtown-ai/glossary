@@ -101,6 +101,15 @@ layout: page
  See also [K], [Support Vector Machine]
 
 
+# Knowledge
+
+ ```
+ Data < Information < Knowledge
+ ```
+
+ See also [K], [Data], [Information]
+
+
 # Knowledge Corpus
 
  Queried right after LLM prompt by a [Neural Retriever] for the purpose of [Knowledge Retrieval]

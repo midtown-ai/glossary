@@ -22,7 +22,8 @@
 [Generative Model]: {{ site.baseurl }}{% link glossary/g.md %}#generative-model
 [Generative Pre-Trained Transformer Model]: {{ site.baseurl }}{% link glossary/g.md %}#generative-pre-trained-transformer-model
 [GPT Model]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-model
-[GPT3]: {{ site.baseurl }}{% link glossary/g.md %}#gpt3
+[GPT-3]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-3
+[GPT-4]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-4
 [Generator]: {{ site.baseurl }}{% link glossary/g.md %}#generator
 [Generator Loss]: {{ site.baseurl }}{% link glossary/g.md %}#generator-loss
 [Genetic Programming]: {{ site.baseurl }}{% link glossary/g.md %}#genetic-programming
@@ -53,6 +54,7 @@
 [GNN Node-Level Task]: {{ site.baseurl }}{% link glossary/g.md %}#gnn-node-level-task
 [Graphical Processing Unit]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit
 [GPU]: {{ site.baseurl }}{% link glossary/g.md %}#gpu
+[Greg Brockman Person]: {{ site.baseurl }}{% link glossary/g.md %}#greg-brockman-person
 [Grid Search]: {{ site.baseurl }}{% link glossary/g.md %}#grid-search
 [Gshard Model]: {{ site.baseurl }}{% link glossary/g.md %}#gshard-model
 [GSMK Dataset]: {{ site.baseurl }}{% link glossary/g.md %}#gsmk-dataset

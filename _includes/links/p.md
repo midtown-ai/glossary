@@ -1,5 +1,6 @@
 [P]: {{ site.baseurl }}{% link glossary/p.md %}
 
+[Panda Module]: {{ site.baseurl}}{% link glossary/p.md %}#panda-module
 [Parameter]: {{ site.baseurl}}{% link glossary/p.md %}#parameter
 [Passive Learning]: {{ site.baseurl }}{% link glossary/p.md %}#passive-learning
 [Pathways Language Model]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-language-model
@@ -22,6 +23,7 @@
 [Pluribus Model]: {{ site.baseurl}}{% link glossary/p.md %}#pluribus-model
 [Point Estimator]: {{ site.baseurl}}{% link glossary/p.md %}#point-estimator
 [Point-E Model]: {{ site.baseurl}}{% link glossary/p.md %}#point-e-model
+[Policy]: {{ site.baseurl}}{% link glossary/p.md %}#policy
 [Policy Gradient Solution]: {{ site.baseurl}}{% link glossary/p.md %}#policy-gradient-solution
 [Policy Neural Network]: {{ site.baseurl}}{% link glossary/p.md %}#policy-neural-network
 [Polynomial Regression]: {{ site.baseurl}}{% link glossary/p.md %}#polynomial-regression
@@ -43,4 +45,5 @@
 [PPO]: {{ site.baseurl}}{% link glossary/p.md %}#ppo
 [PyBullet]: {{ site.baseurl}}{% link glossary/p.md %}#pybullet
 [PyGame Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pygame-python-module
+[Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#python-module
 [PyTorch ML Framework]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-ml-framework

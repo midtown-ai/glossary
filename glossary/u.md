@@ -95,6 +95,11 @@ layout: page
  See also [U], [Active Learning], [Data Augmentation], [Labeling Service], [Semi-Supervised Learning], [Snorkel Program], [Weak Supervision Labeling Function]
 
 
+# Unstructured Data
+
+ See also [U], [Data]
+
+
 # Unsupervised Deep Learning Model
 
  See also [U], [Autoencoder], [Boltzmann Machine], [Self-Organizing Map], [Unsupervised Learning]

@@ -60,6 +60,9 @@ layout: page
 
  {% pdf "https://arxiv.org/pdf/2303.10130.pdf" %}
 
+ More at:
+  * [https://openai.com/research/gpts-are-gpts](https://openai.com/research/gpts-are-gpts)
+
  See also [L], ...
 
 

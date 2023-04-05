@@ -118,6 +118,15 @@ layout: page
  See also [E], ...
 
 
+# Elon Musk Person
+
+ Founder of Tesla, SpaceX, the Boring company, and early investor in [OpenAI][OpenAI Company]
+
+ {% youtube "https://www.youtube.com/watch?v=iI_RNK4X2wg" %}
+
+ See also [E], ...
+
+
 # Embedding
 
  See [Word Embedding]
@@ -323,6 +332,11 @@ H(X) = -∑(p(x) * log2 p(x))
 
  In [Reinforcement Learning], 
 
+ we play a lot of episode to learn from the environment
+
+  * Continuous task = no end
+  * Episodic task = has at least one final state (time, goal, etc)
+
  See also [E], ...
 
 
@@ -477,12 +491,16 @@ H(X) = -∑(p(x) * log2 p(x))
 
  In [Reinforcement Learning]
 
+ allocate rest of budget to invest in slot
+
  See also [E], ... 
 
 
 # Exploration
 
  In [Reinforcement Learning]
+
+ allocate certain amount of money to find the most profitable slots
 
  See also [E], ... 
 

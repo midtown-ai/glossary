@@ -224,6 +224,12 @@ def huber_loss(y_pred, y, delta=1.0):
 
 # Hyperparameter
 
+ * Parameters not directly learned by learning algorithm
+ * specified outside of training procedure
+ * control the capacity of the model i.e. flexibility of model to fit the data
+ * prevent overfittting
+ * improve the convergence of the gradient descent (training time)
+
  `~ parameters to tune the performance of the ML model`. Any decision the algorithm author can't make for you. In machine learning, we use the term hyperparameter to distinguish from standard model parameters. So, it is worth to first understand what those are. A machine learning model is the definition of a mathematical formula with a number of parameters that need to be learned from the data. That is the crux of machine learning: fitting a model to the data. This is done through a process known as model training. In other words, by training a model with existing data, we are able to fit the model parameters. `However, there is another kind of parameters that cannot be directly learned from the regular training process`. These parameters express “higher-level” properties of the model such as its complexity or how fast it should learn. They are called hyperparameters. Hyperparameters are usually fixed before the actual training process begins. So, how are hyperparameters decided? That is probably beyond the scope of this question, but suffice to say that, broadly speaking, this is done by setting different values for those hyperparameters, training different models, and deciding which ones work best by testing them.
 
  So, to summarize. Hyperparameters:

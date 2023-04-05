@@ -63,6 +63,15 @@ layout: page
  See also [I], [IBM Company]
 
 
+# Ilya Sutskever Person
+
+ [OpenAI][OpenAI Company] Co-founder.
+
+ {% youtube "https://www.youtube.com/watch?v=UHSkjro-VbE" %}
+
+ See also [I], [People]
+
+
 # Image Analysis
 
  See also [I], [Amazon Recognition]
@@ -185,6 +194,13 @@ layout: page
  See also [I], [Data Point]
 
 
+# Incentive
+
+ What is the incentive to reach the goal with shortest route? [Reward Shaping]
+
+ See also [I], ...
+
+
 # Inductive Reasoning
 
  Coming up with `rules to explain the current observation`. Sometimes the truth can be learned ;-)
@@ -204,6 +220,15 @@ layout: page
  An endpoint to connect to behind which your model is running.
 
  See also [I], [Model]
+
+
+# Information
+
+```
+Data < Information < Knowledge
+```
+
+ See also [I], [Data], [Knowledge]
 
 
 # Initialization

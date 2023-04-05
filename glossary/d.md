@@ -128,7 +128,11 @@ layout: page
 
  The rocket fuel for AI, ML, etc.
 
- See also [D], [Data Augmentation], [Data Normalisation]
+ ```
+ Data < Information < knowledge
+ ```
+
+ See also [D], [Data Augmentation], [Data Normalisation], [Information], [Knowledge], [Structured Data], [Unstructured Data]
 
 
 # Data Analyst
@@ -431,7 +435,7 @@ layout: page
   * [Chinchilla][Chinchilla Model]: Optimized version of the [Gopher Model]
   * [Flamingo][Flamingo Model]: A [visual language model]
   * [Gato][Gato Model]: Multi-task generalist agent
-  * [Gopher][Gopher Model]: A LLM with same (or better) performance than GPT3
+  * [Gopher][Gopher Model]: A LLM with same (or better) performance than [GPT-3]
   * [Sparrow][Sparrow Model]: A ChatGPT alternative
 
  {% youtube "https://www.youtube.com/watch?v=kFlLzFuslfQ" %}
@@ -643,6 +647,23 @@ We need to do this for
   See also [D], [Autoencoder], [Decoder], [Encoder], [Feature], [Linear Discriminant Analysis], [Principal Component Analysis], [t-SNE], [UMAP]
 
 
+# Discount Factor
+
+ In [Reinforcement Learning], 
+
+ Who has seen the future?
+
+ Multiply future rewards by a discount factor
+
+ How far in the future?
+  * Myopic view
+  * Long term view
+
+ Why is the discount factor between [ 0 and 1 [ ?
+
+ See also [D], ...
+
+
 # Discovery Phase
 
  Before you build the ML model, you need to understand the problem. You may be the expert in ML, but you may not be the expert in problem. Ask questions to the domain experts. The more questions you ask the more relevant your model will be. Here are sample questions for the amazon call centre outing (multi-class) problem (i.e. to which agent-skill should a call be routed next?) :
@@ -808,3 +829,58 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
  ![]( {{site.assets}}/d/dual_encoder_contrastive_model.png ){: width="100%"}
 
  See also [D], ...
+
+
+# Dynamic Programming
+
+# DP
+
+ Dynamic Programming (DP) is defined as a technique that solves some particular type of problems in Polynomial Time. Dynamic Programming solutions are faster than the exponential brute method and can be easily proved their correctness.
+
+ Dynamic programming algorithms are often used in [optimization] problems, such as finding the shortest path in a graph or the minimum cost of a set of operations. They are also commonly used in bioinformatics, economics, and other fields where optimization problems arise.
+
+ Used in [Reinforcement Learning], ...
+
+ Where a decision is made when the optimal solution for the sub-problems have been found ?
+
+ ```python
+def fibonacci(n):
+   if n <= 1:
+       return n
+   # create a table to store the solutions to subproblems
+   table = [0] * (n + 1)
+   table[1] = 1
+   # fill the table with the solutions to subproblems
+   for i in range(2, n + 1):
+       table[i] = table[i-1] + table[i-2]
+   # return the solution to the original problem
+   return table[n]
+
+# test the function
+print(fibonacci(10))  # output: 55
+  ```
+
+ In this example, we use a table to store the solutions to the subproblems, starting with the base cases (0 and 1) and then filling in the table with the solutions to the remaining subproblems. Finally, we return the solution to the original problem (the nth Fibonacci number). This approach avoids redundant computations and is more efficient than the naive recursive solution for large values of n.
+
+ The naive recursive implementation of the Fibonacci sequence:
+
+ ```python
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+
+# test the function
+print(fibonacci(10))  # output: 55
+ ```
+
+ In this implementation, we define the function recursively, using the formula for the Fibonacci sequence: f(n) = f(n-1) + f(n-2). However, this approach has a major drawback: it involves redundant computations. For example, to compute the 5th Fibonacci number, we need to compute the 4th and 3rd Fibonacci numbers, and to compute the 4th Fibonacci number, we need to compute the 3rd and 2nd Fibonacci numbers. As a result, many of the subproblems are solved multiple times, leading to an exponential increase in the number of computations as n increases.
+
+In contrast, the dynamic programming approach avoids redundant computations by storing the solutions to subproblems in a table and reusing them as needed. This can lead to significant performance improvements for large values of n.
+
+ More at:
+  * [https://www.geeksforgeeks.org/introduction-to-dynamic-programming-data-structures-and-algorithm-tutorials/](https://www.geeksforgeeks.org/introduction-to-dynamic-programming-data-structures-and-algorithm-tutorials/)
+
+ See also [D], ...
+
+

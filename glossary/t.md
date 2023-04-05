@@ -393,6 +393,13 @@ vocab[2], vocab[13884], vocab[5], \
  See also [T], [Cross-validation Sampling Method], [Dataset], [Development Subset], [Overfitting], [Test Subset]
 
 
+# Trajectory
+
+ In [Reinforcement Learning], ...
+
+ See also [T], ...
+
+
 # Transfer Learning
 
  ~ Learning on one use-case can be reused for another case. Benefits:

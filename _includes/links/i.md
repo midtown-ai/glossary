@@ -3,6 +3,7 @@
 [I, Robot Movie]: {{ site.baseurl }}{% link glossary/i.md %}#i-robot-movie
 [IBM Company]: {{ site.baseurl }}{% link glossary/i.md %}#ibm-company
 [IBM Watson]: {{ site.baseurl }}{% link glossary/i.md %}#ibm-watson
+[Ilya Sutskever Person]: {{ site.baseurl }}{% link glossary/i.md %}#ilya-sutskever-person
 [Image Analysis]: {{ site.baseurl }}{% link glossary/i.md %}#image-analysis
 [Image Classifier]: {{ site.baseurl }}{% link glossary/i.md %}#image-classifier
 [Image Classification]: {{ site.baseurl }}{% link glossary/i.md %}#image-classification
@@ -18,9 +19,11 @@
 [Imitation Learning]: {{ site.baseurl }}{% link glossary/i.md %}#imitation-learning
 [IL]: {{ site.baseurl }}{% link glossary/i.md %}#il
 [Imputation]: {{ site.baseurl }}{% link glossary/i.md %}#imputation
+[Incentive]: {{ site.baseurl }}{% link glossary/i.md %}#incentive
 [Inductive Reasoning]: {{ site.baseurl }}{% link glossary/i.md %}#inductive-reasoning
 [Inference]: {{ site.baseurl }}{% link glossary/i.md %}#inference
 [Inference Point]: {{ site.baseurl }}{% link glossary/i.md %}#inference-point
+[Information]: {{ site.baseurl }}{% link glossary/i.md %}#information
 [Initialization]: {{ site.baseurl }}{% link glossary/i.md %}#initialization
 [Input Layer]: {{ site.baseurl }}{% link glossary/i.md %}#input-layer
 [Input Space]: {{ site.baseurl }}{% link glossary/i.md %}#input-space

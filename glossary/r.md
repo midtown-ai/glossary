@@ -524,7 +524,31 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 
  A form of feedback from the environment, program, or human.
 
- See also [R], [Addiction], [Environment], [Reinforcement Learning], [Reward Shaping]
+ 2 types of rewards:
+  * Deterministic = always the one expected
+  * Stochastic = change all the time, but can be defined with probabilities
+
+  * Positive reward
+  * Negative reward = Cost
+
+  * Immediate rewardi
+  * Long-term reward = Good in the long term
+   * Cumulative reward = Good in the long run? 
+
+   * Return / Value = total rward we are expecting to get
+    * Aim for high value
+    * value function = expected sum of discounted reward from a given state for all action or particular action
+
+ How you write your reward function matters!
+
+ See also [R], [Addiction], [Cost], [Environment], [Reinforcement Learning], [Reward Shaping]
+
+
+# Reward Function
+
+ How you write your reward function matters!
+
+ See also [R], ...
 
 
 # Reward Model
@@ -536,9 +560,11 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 
 # Reward Shaping
 
- How the reward needs to be structure given the rule of the game (ex chess where delayed reward is given for winning the game).
+ How the [reward] needs to be structure given the rule of the game (ex chess where delayed reward is given for winning the game).
 
- See also [R], [Addiction], [Delayed Reward], [Reinforcement Learning], [Reward]
+ What about [Incentive]?
+
+ See also [R], [Addiction], [Delayed Reward], [Reinforcement Learning]
 
 
 # Riva Model

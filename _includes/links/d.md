@@ -59,6 +59,7 @@
 [Diffusion Process]: {{ site.baseurl }}{% link glossary/d.md %}#diffusion-process
 [Digital Watermark]: {{ site.baseurl }}{% link glossary/d.md %}#digital-watermark
 [Dimensionality Reduction]: {{ site.baseurl }}{% link glossary/d.md %}#dimensionality-reduction
+[Discount Factor]: {{ site.baseurl }}{% link glossary/d.md %}#discount-factor
 [Discovery Phase]: {{ site.baseurl }}{% link glossary/d.md %}#discovery-phase
 [Discrete Action Space]: {{ site.baseurl }}{% link glossary/d.md %}#discrete-action-space
 [Discrete Convolution]: {{ site.baseurl }}{% link glossary/d.md %}#discrete-convolution
@@ -77,3 +78,5 @@
 [DreamFusion Model]: {{ site.baseurl }}{% link glossary/d.md %}#dreamfusion-model
 [Drop Out]: {{ site.baseurl }}{% link glossary/d.md %}#drop-out
 [Dual-Encoder Contrastive Model]: {{ site.baseurl }}{% link glossary/d.md %}#dual-encoder-contrastive-model
+[Dynamic Programming]: {{ site.baseurl }}{% link glossary/d.md %}#dynamic-programming
+[DP]: {{ site.baseurl }}{% link glossary/d.md %}#dp

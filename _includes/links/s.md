@@ -13,6 +13,7 @@
 [Search Problem]: {{ site.baseurl}}{% link glossary/s.md %}#search-problem
 [Scene Graph]: {{ site.baseurl}}{% link glossary/s.md %}#scene-graph
 [Scikit Learn]: {{ site.baseurl}}{% link glossary/s.md %}#scikit-learn
+[Seaborn Module]: {{ site.baseurl}}{% link glossary/s.md %}#seaborn-module
 [Self-Attention]: {{ site.baseurl}}{% link glossary/s.md %}#self-attention
 [Self-Organizing Map]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map
 [Self-Supervised Learning]: {{ site.baseurl}}{% link glossary/s.md %}#self-supervised-learning
@@ -84,6 +85,7 @@
 [Streamlit]: {{ site.baseurl}}{% link glossary/s.md %}#streamlit
 [Strong Artificial Intelligence]: {{ site.baseurl}}{% link glossary/s.md %}#strong-artificial-intelligence
 [Strong AI]: {{ site.baseurl}}{% link glossary/s.md %}#strong-ai
+[Structured Data]: {{ site.baseurl}}{% link glossary/s.md %}#structured-data
 [Style GAN]: {{ site.baseurl}}{% link glossary/s.md %}#style-gan
 [Subsampling]: {{ site.baseurl}}{% link glossary/s.md %}#subsampling
 [Sundar Pichai Person]: {{ site.baseurl}}{% link glossary/s.md %}#sundar-pichai-person

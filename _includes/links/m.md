@@ -8,6 +8,7 @@
 [Machine Reasoning]: {{ site.baseurl }}{% link glossary/m.md %}#machine-reasoning
 [Machine Translation]: {{ site.baseurl }}{% link glossary/m.md %}#machine-translation
 [Majority Vote Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#majority-vote-algorithm
+[Markov Chain]: {{ site.baseurl }}{% link glossary/m.md %}#markov-chain
 [Markov Decision Process]: {{ site.baseurl }}{% link glossary/m.md %}#markov-decision-process
 [Markov Random Field]: {{ site.baseurl }}{% link glossary/m.md %}#markov-random-field
 [Masked Language Modeling]: {{ site.baseurl }}{% link glossary/m.md %}#masked-language-modeling

@@ -67,6 +67,15 @@ layout: page
  See also [0], ...
 
 
+# One-Armed Bandit
+
+  * choice between slot machines (one-armed bandit)
+  * average profitability NOT known in advance
+  * Learning problem = ignorance of profitability
+
+ See also [O], ...
+
+
 # One-Cold Encoding
 
  Same as [one-hot encoding] except the 1 is a 0 and 0s are 1s. Example yellow = [1, 0, 1, 1].
@@ -136,7 +145,7 @@ cheese =>                                   # Prompt
 
 # OpenAI Company
 
- [Microsoft][Micosoft Company] + [OpenAI][OpenAI Company] ~ [Google][Google Company] + [DeepMind][DeepMind Company]
+ [Microsoft][Microsoft Company] + [OpenAI][OpenAI Company] ~ [Google][Google Company] + [DeepMind][DeepMind Company]
 
  Models:
   * [ChatGPT][ChatGPT Model]: An fine-tuned model of GPT that is based on dialog
@@ -152,12 +161,19 @@ cheese =>                                   # Prompt
  Interfaces
   * [Triton] : GPU programming for neural networks
 
+ People:
+  * [Sam Altman][Sam Altman Person]: CEO
+  * [Greg Brockman][Greg Brockman Person]: Co-founder
+  * [Ilya Sutskever][Ilya Sutskever Person]: Co-founder
+  * [Elon Mustk][Elon Musk Person]: Early investor
+  * [Bill Gates][Bill Gates Person]: Early/Late investor
+
  More at:
   * home - [http://www.openai.com](http://www.openai.com)
   * principles - [https://openai.com/policies/usage-policies](https://openai.com/policies/usage-policies)
   * safety - [https://openai.com/safety-standards](https://openai.com/safety-standards)
 
- See also [O], [Microsoft Company]
+ See also [O], [Microsoft Company], [People]
 
 
 # OpenAI Five Model
@@ -190,7 +206,7 @@ cheese =>                                   # Prompt
 
 # Optimization
 
-  See also [O], [Loss Function], [Optimizer]
+  See also [O], [Dynamic Programming], [Loss Function], [Optimizer]
 
 
 # Optimizer

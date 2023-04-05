@@ -57,6 +57,7 @@
 [Coral Hardware]: {{ site.baseurl }}{% link glossary/c.md %}#coral-hardware
 [Coreference]: {{ site.baseurl }}{% link glossary/c.md %}#coreference
 [Corpus]: {{ site.baseurl }}{% link glossary/c.md %}#corpus
+[Cost]: {{ site.baseurl }}{% link glossary/c.md %}#cost
 [Cost Function]: {{ site.baseurl }}{% link glossary/c.md %}#cost-function
 [CPU]: {{ site.baseurl }}{% link glossary/c.md %}#cpu
 [Cross-Attention]: {{ site.baseurl }}{% link glossary/c.md %}#cross-attention

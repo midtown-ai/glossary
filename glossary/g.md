@@ -241,12 +241,14 @@ layout: page
 
 # GPT Model
 
-# GPT3
+# GPT-3
+
+# GPT-4
 
  Before GPT-3 there was no general language model that could perform well on an array of NLP tasks. Language models were designed to perform one specific NLP task, such as text generation, summarization, or classification, using existing algorithms and architectures. GPT-3 has extraordinary capabilities as a general language model. GPT-3 is pre-trained on a corpus of text from five datasets: Common Crawl, !WebText2, Books1, Books2, and Wikipedia. 
-  * By default, GPT2 remembers the last 1024 words. That the max? length of the left-side context?
+  * By default, GPT-2 remembers the last 1024 words. That the max? length of the left-side context?
   * GPT-3 possesses 175 billion weights connecting the equivalent of 8.3 million [artificial neurons][Artificial Neuron] arranged 384 layers deep.
-    * GPT2 and GPT3 have fundamentally the same architecture
+    * GPT-2 and GPT-3 have fundamentally the same architecture
     * But each generation of models ~ 10-100x increase in compute/size
     * The difference in using these models is qualitatively extremely different
 
@@ -257,6 +259,8 @@ layout: page
  ![]( {{site.assets}}/g/gpt4_model_exams.png ){: width="100%"}
 
  {% pdf "{{site.assets}}/g/gpt4_model_paper.pdf" %}
+
+ Early experiement with GPT-4 have shown sparks of [Artificial General Intelligence]!
 
  {% youtube "https://www.youtube.com/watch?v=outcGtbnMuQ" %}
 
@@ -567,6 +571,15 @@ layout: page
 
  See also [G], [CPU], [Cuda Core], [Hyperparameter Optimization], [TPU]
 
+
+# Greg Brockman Person
+
+ {% youtube "https://www.youtube.com/watch?v=YtJEfTTD_Y4" %}
+
+ More at:
+  * ...
+
+ See also [G], ...
 
 # Grid Search
 
