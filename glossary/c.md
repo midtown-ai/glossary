@@ -486,7 +486,7 @@ set       <search space>               set
  More at:
   * [https://en.wikipedia.org/wiki/Convolution](https://en.wikipedia.org/wiki/Convolution)
 
- See also [C], [Convolutional Neural Network], [Kernel Filter]
+ See also [C], [Convolutional Neural Network], [Image Kernel]
 
 
 # Convolution Autoencoder
@@ -500,7 +500,7 @@ set       <search space>               set
 
  In a CNN, each layer tries to recognize a different pattern = extract features.
 
- See also [C], [Convolutional Neural Network], [Fully Connected Layer], [Kernel Filter], [Max Pooling Layer]
+ See also [C], [Convolutional Neural Network], [Fully Connected Layer], [Image Kernel], [Max Pooling Layer]
 
 
 # Convolutional Neural Network
@@ -520,10 +520,11 @@ set       <search space>               set
  `When using kernel, we are implicitly saying that pixel outside of the kernel do not have an impact on ... This is where attention-based models may be better than CNN, where attention to other pixel in the image needs to be taken into consideration`
 
  More at:
-   * [https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b](https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b)
-   * [https://medium.com/easyread/an-introduction-to-convolution-neural-network-cnn-for-a-beginner-88548e4b2a84](https://medium.com/easyread/an-introduction-to-convolution-neural-network-cnn-for-a-beginner-88548e4b2a84)
+  * [https://setosa.io/ev/image-kernels/](https://setosa.io/ev/image-kernels/)
+  * [https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b](https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b)
+  * [https://medium.com/easyread/an-introduction-to-convolution-neural-network-cnn-for-a-beginner-88548e4b2a84](https://medium.com/easyread/an-introduction-to-convolution-neural-network-cnn-for-a-beginner-88548e4b2a84)
 
- See also [C], [Attention-Based Model], [Convolution], [Convolutional Layer], [Deconvolution Neural Network], [Fully Connected Layer], [Kernel Filter], [Image Classification], [Instance Segmentation], [Latent Space], [Neural Network], [Object Detection], [Max Pooling Layer], [Rectified Linear Unit], [Region Based CNN], [Semantic Segmentation], [Subsampling]
+ See also [C], [Attention-Based Model], [Convolution], [Convolutional Layer], [Deconvolution Neural Network], [Fully Connected Layer], [Image Classification], [Image Kernel], [Instance Segmentation], [Latent Space], [Neural Network], [Object Detection], [Max Pooling Layer], [Rectified Linear Unit], [Region Based CNN], [Semantic Segmentation], [Subsampling]
 
 
 # Convolutional Neural Network Feature Extractor

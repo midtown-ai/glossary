@@ -367,6 +367,7 @@ layout: page
  Models developed by the company
   * [Bard][Bard Model]: A lightweight version of Lambda meant to compete against Bing + [ChatGPT Model]
   * [BERT][BERT Model]: 
+  * [Google Lens][Google Lens]:
   * [Google Translate][Google Translate Model]:
   * [Gshard Model] :
   * [Imagen][Imagen Model]: A text-to-image diffusion model
@@ -389,6 +390,13 @@ layout: page
  {% youtube "https://www.youtube.com/watch?v=X5iLF-cszu0&t=611s" %}
 
  See also [G], [Company]
+
+
+# Google Lens
+
+ Developed by [Google][Google Company], ...
+
+ See also [G], ...
 
 
 # Google Translate Model
@@ -583,7 +591,14 @@ layout: page
 
 # Grid Search
 
- Combinatorial growth.
+ It’s tricky to find the optimal value for hyperparameters. The simplest solution is to try a bunch of combinations and see what works best. This idea of creating a “grid” of parameters and just trying out all the possible combinations is called a Grid Search.
+
+ :warning: Beware of combinatorial growth or the [curse of dimensionality]
+
+ ![]( {{site.assets}}/g/grid_search.webp){: width="100%"}
+
+ More at:
+  * [https://towardsdatascience.com/a-practical-introduction-to-grid-search-random-search-and-bayes-search-d5580b1d941d](https://towardsdatascience.com/a-practical-introduction-to-grid-search-random-search-and-bayes-search-d5580b1d941d)
 
  See also [G], [Hyperparameter Optimization], [Random Search]
 

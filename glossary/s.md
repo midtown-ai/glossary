@@ -457,6 +457,15 @@ Siri is a spin-off from a project developed by the SRI International Artificial 
  See also [S], [Data Augmentation], [Labeling Function], [Slicing Function], [Transform Function], [Unlabelled Data Algorithm]
 
 
+# Sobol Search
+
+ Sobol is a type of random sampling supported by sweep job types. You can use sobol to reproduce your results using seed and cover the search space distribution more evenly.
+
+ Sobol search is used for [hyperparameter optimization]
+
+ See also [S], [Random Search]
+
+
 # Social Robot
 
  Social [robots][Robot] are [artificial intelligence] platforms, paired with sensors, cameras, microphones and other technology, like computer vision, so they can better interact and engage with humans or other robots.

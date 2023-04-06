@@ -383,7 +383,9 @@ Prediction Error = actual_value - predicted_value
 
 # Predictive Maintenance
 
- Predict when a part will fail. See [Regression], [Supervised Learning]
+ Predict when a part will fail.
+
+ See [P], [Regression], [Supervised Learning]
 
 
 # Predictor Variable
@@ -403,6 +405,9 @@ Prediction Error = actual_value - predicted_value
   * computation
 
  PCA can reduce the dimension of the data dramatically and without losing too much information when the linear correlations of the data are strong (PCA is based onlinear algebra!). :warning: And in fact you can also measure the actual extent of the information loss and adjust accordingly.) Principal Component Analysis (PCA) is a very popular technique used by data scientists primarily for dimensionality reduction in numerous applications ranging from stock market prediction to medical image classification. Other uses of PCA include de-noising and feature extraction. PCA is also used as an exploratory data analysis tool. To better understand PCA let’s consider an example dataset composed of the properties of trucks. These properties describe each truck by its color, size, compactness, number of seats, number of doors, size of trunk, and so on. Many of these features measured will be redundant and therefore, we should remove these redundancies and describe each truck with fewer properties. This is precisely what PCA aims to do. PCA is a technique used to compress d features into `p<<d` features, while preserving as much of the information as possible (~ compression !). A classic demonstration for PCA is given with images. A black and white image can be represented as an n by d matrix of integers, determining the grayscale of each pixel. PCA provides a low-rank (low-dimension) representation of that matrix that can be stored with (n+d) p numbers, instead of nd, such that the compressed image looks almost the same as the original. In the context of machine learning (ML), PCA is a dimension reduction technique. When the number of features is large, ML algorithms either are at risk of overfitting, or require too much time to train. To that end, `PCA can reduce the input dimension. The way PCA reduces the dimension is based on correlations. Two features are correlated if, given the value of one, you can make an educated guess about the value of the other`. PCA, with a target dimension of p, finds p features such that a linear function of these will do the best job of predicting the original d features. This kind of information-preserving objective makes the output of PCA useful to downstream tasks.
+
+ More at:
+  * [https://setosa.io/ev/principal-component-analysis/](https://setosa.io/ev/principal-component-analysis/)
 
  See also [P], [Dimensionality Reduction], [Feature Extraction], [Linear Autoencoder], [Linear Discriminant Analysis], [ML Algorithm], [Overfitting], [Synthesized Variable]
 

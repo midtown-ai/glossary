@@ -76,9 +76,9 @@ layout: page
 
  Good generalization for other data.
 
- ![]( {{site.assets}}/b/underfitting_overfitting_balanced.png ){: width="100%"}
+ ![]( {{site.assets}}/b/balanced_fitting_comparison.png ){: width="100%"}
 
- See also [B], [Overfitting], [Underfitting]
+ See also [B], [Bias], [Overfitting], [Underfitting], [Variance]
 
 
 # Bard Model
@@ -130,7 +130,7 @@ layout: page
 
 # Bayes Theorem
 
- Bayes theorem is used to find the reverse probabilities p(A|B) if we know the conditional probability of an event, i.e p(A) and p(B), and p(B|A)
+ Bayes theorem is used to find the reverse probabilities `p(A|B)` if we know the conditional probability of an event, i.e p(A) and p(B), and `p(B|A)`
 
  ```
 # Probability of having feature A and B
@@ -152,7 +152,7 @@ P(A|B) is the probability of event A given B
 P(B|A) is the probability of event B given A.
  ```
 
- See also [B], [Bayes Inference], [Naive Bayes]
+ See also [B], [Bayesian Inference], [Naive Bayes]
 
 
 # Bayesian Inference
@@ -194,9 +194,18 @@ P(A|B) = ----------------
  See also [B], [Active Learning], [Grid Search], [Hyperparameter], [Random Search], [Surrogate Model]
 
 
-# Bayesian Search
+# Bayes Search
 
- Searching for a value using the bayesian optimization sampling method. See also [B], [Bayesian Optimization Sampling Method], [Hyperparameter Tuning]
+ Searching for a value using the [bayesian optimization sampling method].
+
+ Bayes Search uses the Bayesian optimization technique to model the search space to arrive at optimized parameter values as soon as possible. It uses the structure of search space to optimize the search time. Bayes Search approach uses the past evaluation results to sample new candidates that are most likely to give better results (shown in the figure below).
+
+ ![]( {{site.assets}}/b/bayes_search.webp ){: width="100%"}
+
+ More at:
+  * [https://towardsdatascience.com/a-practical-introduction-to-grid-search-random-search-and-bayes-search-d5580b1d941d](https://towardsdatascience.com/a-practical-introduction-to-grid-search-random-search-and-bayes-search-d5580b1d941d)
+
+ See also [B], [Hyperparameter Optimization]
 
 
 # Behavioural Cloning
@@ -283,6 +292,16 @@ P(A|B) = ----------------
 # Bias-Variance Trade-Off
 
  Ideally, a model will have both low bias and variance, but efforts to decrease one will frequently increase the other. This is known as the bias-variance trade-off.
+
+ Let us consider that we have a very accurate model, this model has a low error in predictions and it’s not from the target (which is represented by bull’s eye). This model has low bias and variance. Now, if the predictions are scattered here and there then that is the symbol of high variance, also if the predictions are far from the target then that is the symbol of high bias.
+ Sometimes we need to choose between low [variance] and low [bias]. There is an approach that prefers some [bias] over high [variance], this approach is called [Regularization]. It works well for most of the [classification] / [regression] problems.
+
+ ![]( {{site.assets}}/b/bias_variance_tradeoff.jpeg ){: width="100%}
+
+ ![]( {{site.assets}}/b/bias_variance_tradeoff_model_complexity.jpeg ){: width="100%}
+
+ More at:
+  * [https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/](https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/)
 
  See also [B], ...
 

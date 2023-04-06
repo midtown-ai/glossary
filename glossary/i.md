@@ -113,6 +113,21 @@ layout: page
  See also [I], [Masked Language Learning Model]
 
 
+# Image Kernel
+
+ A small matrix which you can use to multiply to the pixel area of the same size. The Kernel is applied to the same image for every area possible. AS represented below, we can use a kernel of 2x2, but we recommend a 3x3 kernel.
+
+ ![]( {{site.assets}}/i/image_kernel.gif ){: width="100%"}
+
+ Where is the 'design' of the kernels coming from? Just like weights in a neural network, it comes from Backpropagation !
+
+ More at:
+  * [https://setosa.io/ev/image-kernels/](https://setosa.io/ev/image-kernels/)
+  * [https://medium.com/codex/kernels-filters-in-convolutional-neural-network-cnn-lets-talk-about-them-ee4e94f3319](https://medium.com/codex/kernels-filters-in-convolutional-neural-network-cnn-lets-talk-about-them-ee4e94f3319)
+
+ See also [I], [Convolutional Layer], [Convolutional Neural Network]
+
+
 # Image Reconstruction
 
  ![]( {{site.assets}}/i/image_reconstruction.png ){: width="100%"}
@@ -240,7 +255,7 @@ Data < Information < Knowledge
 
 # Input Layer
 
- See also [I], [Neural Network]
+ See also [I], [Artificial Neural Network], [Dropout Layer], [Feature]
 
 
 # Input Space

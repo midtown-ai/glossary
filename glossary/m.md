@@ -184,6 +184,9 @@ Predict what are the required agent skills based some input parameters
  * memory-less
  * transition matrix
 
+ More at:
+  * [https://setosa.io/ev/markov-chains/](https://setosa.io/ev/markov-chains/)
+
  See also [M], ...
 
 
@@ -723,13 +726,6 @@ def mse_loss(y_pred, y_true):
  See also [M], [DevOps]
 
 
-# MNIST Dataset
-
- ![]( {{site.assets}}/m/mnist_dataset.png ){: width="100%"}
-
- See also [M], [Dataset]
-
-
 # Model
 
  See also [M], [Chained Model]
@@ -761,6 +757,13 @@ def mse_loss(y_pred, y_true):
  See also [M], [Model Data Sheet]
 
 
+# Model Complexity
+
+ ![]( {{site.assets}}/m/model_complexity.jpeg ){: width="100%"}
+
+ SEe also [M], [Bias], [Variance]
+
+
 # Model Drift
 
  Model performance changes over time.
@@ -775,6 +778,18 @@ def mse_loss(y_pred, y_true):
 
  See also [M], [Model Card]
 
+
+# Model Performance Metrics
+
+  * percentage of correct predictions
+  * sensitivity, recall, hit rate or TPR
+  * precision
+  * F1 score = wiegthed harmonic mean of precision and recall = ( 2 X precision * recall ) / (Precision + recall)
+  * FPR, FNR
+
+  [Hyperparameter Tuning]
+
+ See also [M], ...
 
 # Model Tuning
 
@@ -798,6 +813,30 @@ def mse_loss(y_pred, y_true):
   {% youtube "https://www.youtube.com/watch?v=vfpZu0R1s1Y" %}
 
  See also [M], ...
+
+
+# Modified National Institute of Standards and Technology
+
+# MNIST Dataset
+
+ Pictures of numbers written by college student taken by the post office to be able to sort the zip codes. Conversion from every image to matrix was done by hand.
+
+ First approach to solve the problem was to use One of the first [neural networks][Neural Network], 
+  * layer 1: 200 neurons
+  * 2nd layer: 100
+  * 3rd: 60
+  * 4th: 30
+  * 5th: 10
+  * with signmoid function
+ The ANN has a inverted tree like structure. Unfortunately the accuracy of 92% could be improved!
+
+ A better model found later was the [CNN]
+
+ The first part of the CNN is called feature extraction, the second part is the classification.
+
+ ![]( {{site.assets}}/m/mnist_dataset.png ){: width="100%"}
+
+ See also [M], [Dataset]
 
 
 # Multiclass Classification

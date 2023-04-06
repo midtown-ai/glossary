@@ -4,6 +4,7 @@
 [Early Stopping Epoch]: {{site.baseurl }}{% link glossary/e.md %}#early-stopping-epoch
 [Eigenvalue]: {{site.baseurl }}{% link glossary/e.md %}#eigenvalue
 [Eigenvector]: {{site.baseurl }}{% link glossary/e.md %}#eigenvector
+[Elastic Net]: {{site.baseurl }}{% link glossary/e.md %}#elastic-net
 [Electric Dreams Movie]: {{site.baseurl }}{% link glossary/e.md %}#electric-dreams-movie
 [ElevenLabs AI Company]: {{site.baseurl }}{% link glossary/e.md %}#elevenlabs-ai-company
 [Elon Musk Person]: {{site.baseurl }}{% link glossary/e.md %}#elon-musk-person

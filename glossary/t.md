@@ -386,6 +386,24 @@ vocab[2], vocab[13884], vocab[5], \
  See also [T], [PyTorch]
 
 
+# Traditional Programming
+
+ ```
+          +-------------------------+
+Input --> | Traditional Programming | --> Outout
+          |        Algorithm        |
+          +-------------------------+
+
+
+                   +------------------+
+        Input  --> | Machine Learning |
+Desired Output --> |     Training     | --> Model
+                   +------------------+
+ ```
+
+ See also [T], [Machine Learning]
+
+
 # Training Subset
 
  Use with the development subset to build the model.

@@ -112,6 +112,16 @@ layout: page
  See also [L], [Language Modeling], [SCaling Law]
 
 
+# Lasso Regression
+
+ Used in [Regularization].
+
+ More at:
+  * [https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/](https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/)
+
+ See also [L], ...
+
+
 # Latent Diffusion Model
 
 # LDM
@@ -268,6 +278,18 @@ with alpha = learning_rate
  See also [L], [Learning Rate], [Sample Strategy], [Sample Efficiency]
 
 
+# Leave-One-Out Cross-Validation
+
+# LOOCV
+
+ A special case of [k-fold cross-validation] is the Leave-one-out cross-validation (LOOCV) method in which we set k=n (number of observations in the dataset). Only one training sample is used for testing during each iteration. This method is very useful when working with very small datasets.
+
+ More at:
+  * [https://machinelearningmastery.com/k-fold-cross-validation/](https://machinelearningmastery.com/k-fold-cross-validation/)
+
+ See also [L], ...
+
+
 # LIDAR 
 
  See also [L], [Autonomous Vehicle]
@@ -284,6 +306,16 @@ with alpha = learning_rate
   * [https://en.wikipedia.org/wiki/LightGBM](https://en.wikipedia.org/wiki/LightGBM)
 
  See also [L], [Ensemble Method]
+
+
+# Linear Algebra
+
+ Math where you do NOT have square, cubes, etc.
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Linear_algebra](https://en.wikipedia.org/wiki/Linear_algebra)
+
+ See also [L], ...
 
 
 # Linear Autoencoder
@@ -314,6 +346,7 @@ with alpha = learning_rate
  ![]( {{site.assets}}/l/linear_regression.png ){: width="100%"}
 
  More at :
+  * simulation [https://setosa.io/ev/ordinary-least-squares-regression/](https://setosa.io/ev/ordinary-least-squares-regression/)
   * introduction - [https://towardsdatascience.com/linear-regression-the-actually-complete-introduction-67152323fcf2](https://towardsdatascience.com/linear-regression-the-actually-complete-introduction-67152323fcf2)
   * code - [https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html](https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html)
 
@@ -440,6 +473,8 @@ Aristotle is mortal!
 
 
 # Loss Function
+
+ Loss function is a way to encode a goal. That loss function is going to dictate the optimized path toward that goal? Optimization?
 
  Loss function is used for parameter estimation.
 

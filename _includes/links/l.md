@@ -10,6 +10,7 @@
 [Language Parsing]: {{ site.baseurl }}{% link glossary/l.md %}#language-parsing
 [Large Language Model]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model
 [LLM]: {{ site.baseurl }}{% link glossary/l.md %}#llm
+[Lasso Regression]: {{ site.baseurl }}{% link glossary/l.md %}#lasso-regression
 [Latent Diffusion Model]: {{ site.baseurl }}{% link glossary/l.md %}#latent-diffusion-model
 [LDM]: {{ site.baseurl }}{% link glossary/l.md %}#ldm
 [Latent Dirichlet Allocation]: {{ site.baseurl }}{% link glossary/l.md %}#latent-dirichlet-allocation
@@ -28,7 +29,10 @@
 [Learning Strategy]: {{ site.baseurl }}{% link glossary/l.md %}#learning-strategy
 [Learning Velocity]: {{ site.baseurl }}{% link glossary/l.md %}#learning-velocity
 [LIDAR]: {{ site.baseurl }}{% link glossary/l.md %}#lidar
+[Leave-One-Out Cross-Validation]: {{ site.baseurl }}{% link glossary/l.md %}#leave-one-out-cross-validation
+[LOOCV]: {{ site.baseurl }}{% link glossary/l.md %}#loocv
 [LightGBM]: {{ site.baseurl }}{% link glossary/l.md %}#lightgbm
+[Linear Algebra]: {{ site.baseurl }}{% link glossary/l.md %}#linear-algebra
 [Linear Autoencoder]: {{ site.baseurl }}{% link glossary/l.md %}#linear-autoencoder
 [Linear Discriminant Analysis]: {{ site.baseurl }}{% link glossary/l.md %}#linear-discriminant-analysis
 [LDA]: {{ site.baseurl }}{% link glossary/l.md %}#lda

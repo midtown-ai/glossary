@@ -61,7 +61,6 @@
 [ML Algorithm Evaluation]: {{ site.baseurl }}{% link glossary/m.md %}#ml-algorithm-evaluation
 [MLFlow]: {{ site.baseurl }}{% link glossary/m.md %}#mlflow
 [MLOps]: {{ site.baseurl }}{% link glossary/m.md %}#mlops
-[MNIST Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#mnist-dataset
 [Model]: {{ site.baseurl }}{% link glossary/m.md %}#model
 [MAML]: {{ site.baseurl }}{% link glossary/m.md %}#maml
 [Model Agnostic Meta Learning]: {{ site.baseurl }}{% link glossary/m.md %}#model-agnostic-meta-learning
@@ -71,6 +70,8 @@
 [Model Data Sheet]: {{ site.baseurl }}{% link glossary/m.md %}#model-data-sheet
 [Model Tuning]: {{ site.baseurl }}{% link glossary/m.md %}#model-tuning
 [Model Type]: {{ site.baseurl }}{% link glossary/m.md %}#model-type
+[Modified National Institute Standards And Technology Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
+[MNIST Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#mnist-dataset
 [Multiclass Classification]: {{ site.baseurl }}{% link glossary/m.md %}#multiclass-classification
 [Multi-Head Attention]: {{ site.baseurl }}{% link glossary/m.md %}#multi-head-attention
 [MTL]: {{ site.baseurl }}{% link glossary/m.md %}#mtl

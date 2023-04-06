@@ -10,6 +10,7 @@
 [Image Decoder]: {{ site.baseurl }}{% link glossary/i.md %}#image-decoder
 [Image Encoder]: {{ site.baseurl }}{% link glossary/i.md %}#image-encoder
 [Image Inpainting]: {{ site.baseurl }}{% link glossary/i.md %}#image-inpainting
+[Image Kernel]: {{ site.baseurl }}{% link glossary/i.md %}#image-kernel
 [Image Reconstruction]: {{ site.baseurl }}{% link glossary/i.md %}#image-reconstruction
 [Imagen Model]: {{ site.baseurl }}{% link glossary/i.md %}#imagen-model
 [Imagen Video Model]: {{ site.baseurl }}{% link glossary/i.md %}#imagen-video-model

@@ -1,6 +1,8 @@
 [R]: {{ site.baseurl }}{% link glossary/r.md %}
 
 [R-Square]: {{site.baseurl }}{% link glossary/r.md %}#r-square
+[Radial Basis Function]: {{site.baseurl }}{% link glossary/r.md %}#radial-basis-function
+[RBF]: {{site.baseurl }}{% link glossary/r.md %}#rbf
 [RadioGPT]: {{site.baseurl }}{% link glossary/r.md %}#radiogpt
 [Random Cut Forest]: {{site.baseurl }}{% link glossary/r.md %}#random-cut-forest
 [RCF]: {{site.baseurl }}{% link glossary/r.md %}#rcf
@@ -27,6 +29,7 @@
 [Regression]: {{site.baseurl }}{% link glossary/r.md %}#regression
 [Regression Tree]: {{site.baseurl }}{% link glossary/r.md %}#regression-tree
 [Regularization]: {{site.baseurl }}{% link glossary/r.md %}#regularization
+[Regularization Parameter]: {{site.baseurl }}{% link glossary/r.md %}#regularization-parameter
 [Reinforcement Learning]: {{ site.baseurl }}{% link glossary/r.md %}#reinforcement-learning
 [Reinforcement Learning Environment]: {{site.baseurl }}{% link glossary/r.md %}#reinforcement-learning-environment
 [RL Environment]: {{site.baseurl }}{% link glossary/r.md %}#rl-environment
@@ -54,6 +57,7 @@
 [Reward Function]: {{site.baseurl }}{% link glossary/r.md %}#reward-function
 [Reward Model]: {{site.baseurl }}{% link glossary/r.md %}#reward-model
 [Reward Shaping]: {{site.baseurl }}{% link glossary/r.md %}#reward-shaping
+[Ridge Regression]: {{site.baseurl }}{% link glossary/r.md %}#ridge-regression
 [Riva Model]: {{site.baseurl }}{% link glossary/r.md %}#riva-model
 [Robot]: {{site.baseurl }}{% link glossary/r.md %}#robot
 [RobotSchool]: {{site.baseurl }}{% link glossary/r.md %}#robotschool

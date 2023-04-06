@@ -282,6 +282,10 @@ layout: page
   * classification:  Go from the root node to the leaf of the tree where is the classification.
   * regression: use the mean square error (MSE)
 
+ Nyperparameters:
+  * Metric measuring quality of split
+  * ...
+
  More at:
   * regression tree - [https://medium.com/analytics-vidhya/regression-trees-decision-tree-for-regression-machine-learning-e4d7525d8047](https://medium.com/analytics-vidhya/regression-trees-decision-tree-for-regression-machine-learning-e4d7525d8047)
 
@@ -806,11 +810,41 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
 
  See also [D], [Google Company]
 
-# Drop Out
 
- Remove nodes from the Neural Network to prevent over-fitting.
+# Dropout
+
+ ~ pruning ? More like intentionally filtering!
+  * filtering signal from input that we know won't be relevant (ex: finding the beat, when listening to the entire music!)
+  * nowing something about the output and hence reducing processing leading to the possibility of non compliant outputs
+  * etc
+
+ Dropout refers to data, or noise, that's intentionally dropped from a neural network to improve processing and time to results.
+  
+ The challenge for software-based neural networks is they must find ways to reduce the noise of billions of neuron nodes communicating with each other, so the networks' processing capabilities aren't overrun. To do this, a network eliminates all communications that are transmitted by its neuron nodes not directly related to the problem or training that it's working on. The term for this neuron node elimination is dropout.
+
+ ![]( {{site.assets}}/d/dropout.png ){: width="100%"}
+
+ See also [D], ...
+
+
+# Dropout Function
+
+ Function used to remove nodes from the Neural Network to prevent over-fitting.
 
  See also [D], [Hyperparameter]
+
+
+# Dropout Layer
+
+ Layer or layers where the [dropout function] is applied
+
+ [Input layer] : This is the top-most layer of [artificial intelligence] and [machine learning] where the initial raw data is being ingested. [Dropout] can be applied to this layer of visible data based on which data is deemed to be irrelevant to the business problem being worked on.
+
+ [Output layer] : This is the final, visible processing output from all neuron units. Dropout is NOT used on this layer (because the numbers of output has already been chosen carefully !)
+
+ [Intermediate or hidden layers][Hidden Layer]: These are the layers of processing after data ingestion. These layers are hidden because we can't exactly see what they do. The layers, which could be one or many, process data and then pass along intermediate -- but not final -- results that they send to other neurons for additional processing. Because much of this intermediate processing will end up as noise, data scientists use dropout to exclude some of it.
+
+ See also [D], ...
 
 
 # Dual-Encoder Contrastive Model

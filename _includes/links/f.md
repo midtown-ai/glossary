@@ -1,7 +1,9 @@
 [F]: {{ site.baseurl }}{% link glossary/f.md %}
 
 [F1 Score]: {{site.baseurl }}{% link glossary/f.md %}#f1-score
+[Face Detection]: {{site.baseurl }}{% link glossary/f.md %}#face-detection
 [Facebook Company]: {{site.baseurl }}{% link glossary/f.md %}#facebook-company
+[Fashion MNIST Dataset]: {{site.baseurl }}{% link glossary/f.md %}#fashion-mnist-dataset
 [Feature]: {{site.baseurl }}{% link glossary/f.md %}#feture
 [Feature Attribution]: {{site.baseurl }}{% link glossary/f.md %}#feature-attribution
 [Feature Distribution]: {{site.baseurl }}{% link glossary/f.md %}#feature-distribution

@@ -254,9 +254,18 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
  See also [O], [On-Cold Encoding], [One-Hot Encoding]
 
 
+# Outlier
+
+ Used in [Feature Engineering], ...
+
+ Q: How to identify an outlier?
+
+ See also [O], ...
+
+
 # Output Layer
 
- See also [O], [Layer], [Neural Network]
+ See also [O], [Layer], [Artificial Neural Network]
 
 
 # Output Perturbation
@@ -268,18 +277,23 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
 
 # Overfitting
 
- ~ a Model that is overly complex and leads to high variance and low bias = noise is memorized in model! . In contrast, a program that memorizes the training data by learning an overly-complex model could predict the values of the response variable for the training set accurately, but will fail to predict the value of the response variable for new examples. `A well functioning ML algorithm will separate the signal from the noise`. If the algorithm is too complex or flexible (e.g. it has too many input features or it’s not properly regularized), it can end up “memorizing the noise” instead of finding the signal. This overfit model will then make predictions based on that noise. It will perform unusually well on its training data… yet very poorly on new, unseen data. `A key challenge with overfitting, and with machine learning in general, is that we can’t know how well our model will perform on new data until we actually test it`. To address this, we can split our initial dataset into separate training and test subsets. To avoid over-fitting, try hyperparameter optimization.
+ ~ a Model that is overly complex and leads to high [variance] and low [bias] = noise is memorized in model! . In contrast, a program that memorizes the training data by learning an overly-complex model could predict the values of the response variable for the training set accurately, but will fail to predict the value of the response variable for new examples.
+
+ `A well functioning ML algorithm will separate the signal from the noise`.
+
+ If the algorithm is too complex or flexible (e.g. it has too many input features or it’s not properly regularized), it can end up “memorizing the noise” instead of finding the signal. This overfit model will then make predictions based on that noise. It will perform unusually well on its training data… yet very poorly on new, unseen data. `A key challenge with overfitting, and with machine learning in general, is that we can’t know how well our model will perform on new data until we actually test it`. To address this, we can split our initial [dataset] into separate [training][Training Subset] and [test subsets][Test Subset]. To avoid over-fitting, try [hyperparameter optimization].
 
  Reasons for overfitting:
   * too few training examples
-  * running the training process for too many epochs
+  * running the training process for too many epochs. Consider [early stopping] ?
 
- ![]( {{site.assets}}/o/underfitting_overfitting_balanced.png ){: width="100%"}
+ ![]( {{site.assets}}/o/overfitting_fitting_comparison.png ){: width="100%"}
 
  Beware:
-  * Overfitting is responsible for the membership inference attack
+  * Overfitting is responsible for the [membership inference attack]
+  * The opposite of overfitting is [underfitting]
 
- See also [O], [Balanced Fitting], [Bias], [Early Stopping], [Hyperparameter Optimization], [Membership Inference Attack], [Principal Component Analysis], [Test Subset], [Training Subset], [Underfitting], [Variance]
+ See also [O], [Balanced Fitting], [Bias], [Principal Component Analysis]
 
 
 # Overtraining

@@ -36,6 +36,13 @@ layout: page
  See also [R], [Regression]
 
 
+# Radial Basis Function
+
+# RBF
+
+ See also [R], [Support Vector Classifier]
+
+
 # RadioGPT
 
  RadioGPT combines the power of GPT-4 technology with AI voice tech and [Futuri][Futuri Media Company]’s AI-driven targeted story discovery and social content system, TopicPulse, to provide an unmatched localized radio experience for any market, any format.
@@ -54,7 +61,7 @@ layout: page
 
 # RCF
 
- Random Cut Forest (RCF) is an unsupervised algorithm for detecting anomalous data points within a dataset. These are observations which diverge from otherwise well-structured or patterned data. Anomalies can manifest as unexpected spikes in time series data, breaks in periodicity, or unclassifiable data points. They are easy to describe in that, when viewed in a plot, they are often easily distinguishable from the "regular" data. Including these anomalies in a dataset can drastically increase the complexity of a machine learning task since the "regular" data can often be described with a simple model. With each data point, RCF associates an anomaly score. Low score values indicate that the data point is considered "normal." High values indicate the presence of an anomaly in the data. The definitions of "low" and "high" depend on the application but common practice suggests that scores beyond three standard deviations from the mean score are considered anomalous. While there are many applications of anomaly detection algorithms to one-dimensional time series data such as traffic volume analysis or sound volume spike detection, RCF is designed to work with arbitrary-dimensional input. Amazon SageMaker RCF scales well with respect to number of features, dataset size, and number of instances.
+ Random Cut Forest (RCF) is an unsupervised algorithm for detecting anomalous data points within a [dataset]. These are observations which diverge from otherwise well-structured or patterned data. Anomalies can manifest as unexpected spikes in time series data, breaks in periodicity, or unclassifiable data points. They are easy to describe in that, when viewed in a plot, they are often easily distinguishable from the "regular" data. Including these anomalies in a [dataset] can drastically increase the complexity of a machine learning task since the "regular" data can often be described with a simple model. With each data point, RCF associates an anomaly score. Low score values indicate that the data point is considered "normal." High values indicate the presence of an anomaly in the data. The definitions of "low" and "high" depend on the application but common practice suggests that scores beyond three standard deviations from the mean score are considered anomalous. While there are many applications of anomaly detection algorithms to one-dimensional time series data such as traffic volume analysis or sound volume spike detection, RCF is designed to work with arbitrary-dimensional input. Amazon SageMaker RCF scales well with respect to number of features, dataset size, and number of instances.
 
 
 # Random Forest
@@ -74,7 +81,16 @@ layout: page
 
 # Random Search
 
- See also [R], ...
+ Sampling a parameter space - used with [hyperparameter optimization]
+
+ [Grid Searca] tries all combinations of hyperparameters hence increasing the time complexity of the computation and could result in an unfeasible computing cost. Providing a cheaper alternative, Random Search tests only as many tuples as you choose. The selection of the hyperparameter values is completely random.
+
+ ![]( {{site.assets}}/r/random_search.webp ){: width="100%"}
+
+ More at:
+  * [https://towardsdatascience.com/a-practical-introduction-to-grid-search-random-search-and-bayes-search-d5580b1d941d](https://towardsdatascience.com/a-practical-introduction-to-grid-search-random-search-and-bayes-search-d5580b1d941d)
+
+ See also [R], [Sobol Search]
 
 
 # Ranking
@@ -295,19 +311,19 @@ Beware:
 
  Regression is a statistical method used to analyze the relationship between a dependent variable (also known as the response or outcome variable) and one or more independent variables (also known as predictor or explanatory variables). The goal of regression is to find the line of best fit that describes the relationship between the variables, which can be used for prediction or understanding the relationship. There are many different types of regression, including linear, logistic, and polynomial regression.
 
- A type of supervised learning algorithm.
+ A type of [supervised learning] algorithm.
 
  In regression, instead of mapping inputs to a discrete number of classes like a classification, `the goal is to output a number` (ex stock price, temperature, probability, ...) . An example regression problem is predicting the price that a house will sell for. In this case, when XGBoost is given historical data about houses and selling prices, it can learn a function that predicts the selling price of a house given the corresponding metadata about the house. Another example: predictive maintenance, customer churn prediction. Practicality: outcome should be easy to measure, use historical observations. 
- The different algorithm are:
+ The different algorithms are:
   * Regression trees : Finite number of number output!
-  * Linear regression 
-  * Logistic regression : probability between 2 outcomes
-  * Non-Linear Regression
+  * [Linear regression]
+  * [Logistic regression] : probability between 2 outcomes
+  * [Non-Linear Regression]
     * Polynomial regression : dependent variable y is modelled as an nth degree polynomial in x.
       * Cubic and quadratic regression 
-  * (occasionally) Support vector machine
+  * (occasionally) [Support vector machine]
 
- See also [R], [Classification], [Custom Churn Prediction], [Linear Regression], [Logistic Regression], [Non-Linear Regression], [Predictive Maintenance], [Regression Tree], [Supervised Learning], [Support Vector Machine], [XGBoost]
+ See also [R], [Classification], [Custom Churn Prediction], [Predictive Maintenance], [Regression Tree], [XGBoost]
 
 
 # Regression Tree
@@ -324,7 +340,18 @@ Beware:
 
  Force a 'simpler model' to avoid memorizing training data.
 
- See also [R], [Hyperparameter]
+ There is an approach that prefers some [bias] over high [variance], this approach is called Regularization. It works well for most of the [classification] / [regression] problems.
+
+ * [Ridge Regression]
+ * [Lasso Regression]
+ * [Elastic Net]
+
+ See also [R], [Bias-Variance Trade-Off], [Hyperparameter]
+
+
+# Regularization Parameter
+
+ See also [R], [Support Vector Classifier]
 
 
 # Reinforcement Learning
@@ -565,6 +592,16 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  What about [Incentive]?
 
  See also [R], [Addiction], [Delayed Reward], [Reinforcement Learning]
+
+
+# Ridge Regression
+
+ Used for [Regularization]!
+
+ More at:
+  * [https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/](https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/)
+
+ See also [R], ...
 
 
 # Riva Model

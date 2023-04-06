@@ -117,7 +117,7 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
 
 # Hidden Layer
 
- See also [H], [Neural Network]
+ See also [H], [Artificial Neural Network], [Dropout Layer]
 
 
 # Hidden Markov Model
@@ -245,7 +245,7 @@ def huber_loss(y_pred, y, delta=1.0):
   * Number of hidden layers in a deep neural network
   * Number of hidden nodes in network layers
   * Number of clusters in a k-means clustering
-  * Drop out
+  * [Drop out function]
   * Regularization
   * Boosting step size
   * Initialization of clustering algorithm
@@ -259,17 +259,26 @@ def huber_loss(y_pred, y, delta=1.0):
 
 # HPO
 
- Tuning strategies:
-  * (1) Trial and Error, defaults, guess, experience, intuition, heuristics 
-  * (2) Try everything! Random, Grid search, Sobol :warning: High dimensional grid search, = the curse of dimensionality
-  * (3) Meta model ... Required to avoid over-fitting and under-fitting.
+ Process used to tune the [hyperparameters][Hyperparameter] to get the best prediction (best is defined by a function!)
 
- See also [H], [CPU], [Curse of Dimensionality], [F1 Score], [GPU], [Grid Search], [Hyperparameter], [Meta Model], [Overfitting], [Random Search], [Sobol], [Underfitting]
+ Tuning strategies:
+  1. Trial and Error, defaults, guess, experience, intuition, heuristics 
+  1. Try everything using one of the 3 most popular HPO techniques:
+   * [Random search] or the derived [Sobol Search]
+   * [Grid search]
+   * [Bayes Search]
+  1. Meta model ... Required to avoid over-fitting and under-fitting.
+
+ :warning: High dimensional grid search, = the [curse of dimensionality]
+
+ In general, if the number of combinations is limited enough, we can use the [Grid Search] technique. But when the number of combinations increases, we should try [Random Search] or [Bayes Search] as they are less computationally expensive.
+
+ See also [H], [AutoML], [CPU], [F1 Score], [GPU], [Hyperparameter], [Meta Model], [Overfitting], [Underfitting]
 
 
 # Hyperparameter Tuning
 
- Same as HPO? Process to tune the hyperparameters to get the best prediction? See also [H], [AutoML]
+ See [Hyperparameter Optimization]
 
 
 # Hyperplane

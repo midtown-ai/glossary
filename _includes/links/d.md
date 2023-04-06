@@ -76,7 +76,10 @@
 [Dot Product]: {{ site.baseurl }}{% link glossary/d.md %}#dot-product
 [Downstream Task]: {{ site.baseurl }}{% link glossary/d.md %}#downstream-task
 [DreamFusion Model]: {{ site.baseurl }}{% link glossary/d.md %}#dreamfusion-model
-[Drop Out]: {{ site.baseurl }}{% link glossary/d.md %}#drop-out
+[Dropout]: {{ site.baseurl }}{% link glossary/d.md %}#dropout
+[Dropout]: {{ site.baseurl }}{% link glossary/d.md %}#dropout
+[Dropout Function]: {{ site.baseurl }}{% link glossary/d.md %}#dropout-function
+[Dropout Layer]: {{ site.baseurl }}{% link glossary/d.md %}#dropout-layer
 [Dual-Encoder Contrastive Model]: {{ site.baseurl }}{% link glossary/d.md %}#dual-encoder-contrastive-model
 [Dynamic Programming]: {{ site.baseurl }}{% link glossary/d.md %}#dynamic-programming
 [DP]: {{ site.baseurl }}{% link glossary/d.md %}#dp

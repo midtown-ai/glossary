@@ -690,6 +690,12 @@ First, we believe the clearest framing of general intelligence is a system that 
 
  The "knowledge/skills" of the ANN are encoded in their [parameters][Parameter]
 
+ Hyperparameters:
+  * Number of neurons per layer
+  * Number of layers
+  * [Activation function]
+  * [Dropout function]
+
  See also [A], ...
 
 

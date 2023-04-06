@@ -44,6 +44,7 @@
 [Skip Connection]: {{ site.baseurl}}{% link glossary/s.md %}#skip-connection
 [Slicing Function]: {{ site.baseurl}}{% link glossary/s.md %}#slicing-function
 [Snorkel Program]: {{ site.baseurl}}{% link glossary/s.md %}#snorkel-program
+[Sobol Search]: {{ site.baseurl}}{% link glossary/s.md %}#sobol-search
 [Social Robot]: {{ site.baseurl}}{% link glossary/s.md %}#social-robot
 [Softbank Robotics Company]: {{ site.baseurl}}{% link glossary/s.md %}#softbank-robotics-company
 [Softmax Function]: {{ site.baseurl}}{% link glossary/s.md %}#softmax-function
@@ -98,6 +99,8 @@
 [Supervised Learning]: {{ site.baseurl}}{% link glossary/s.md %}#supervised-learning
 [Supervisor]: {{ site.baseurl}}{% link glossary/s.md %}#supervisor
 [Support Vector]: {{ site.baseurl}}{% link glossary/s.md %}#support-vector
+[Support Vector Classifier]: {{ site.baseurl}}{% link glossary/s.md %}#support-vector-classifier
+[SVC]: {{ site.baseurl}}{% link glossary/s.md %}#svc
 [Support Vector Machine]: {{ site.baseurl}}{% link glossary/s.md %}#support-vector-machine
 [SVM]: {{ site.baseurl}}{% link glossary/s.md %}#svm
 [Surrogate Model]: {{ site.baseurl}}{% link glossary/s.md %}#surrogate-model

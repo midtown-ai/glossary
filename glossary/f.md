@@ -41,6 +41,11 @@ layout: page
  See also [F], [Confusion Matrix], [Hyperparameter Optimization]
 
 
+# Face Detection
+
+ See also [F], ...
+
+
 # Facebook Company
 
  Models:
@@ -55,6 +60,10 @@ layout: page
 
  See also [F], ...
 
+
+# Fashion MNIST Dataset
+
+ See also [F], [MNIST Dataset]
 
 # Feature
 
@@ -91,8 +100,14 @@ layout: page
  Feature engineering is an iterative process that often requires experimentation and creating many models to find the input features that give the best model performance. You want features that are weakly correlated with each other, but that strongly correlated with the output. 
 
  Examples:
+  * Missing data imputation
+  * Variable discretization
+  * Handling [outliers][Outlier]
+  * Creating features from dates and time
+  * Extracting features from relational data and time series
+  * Extracting features from text
   * Numeric features may need to be [rescaled][Feature Scaling]
-  * The values of [categorical features][Categorical Feature] may need to be [encoded][Encoding]
+  * The values of [categorical features][Categorical Feature] may need to be [encoded][Encoding] (Monday=1, ..., Sunday =7, or one hot encoding? <!> In first encoding, you pass an incorrect hierachical information!)
   * Features may need to be parsed into multiple fields
   * Techniques like [Principal Component Analysis (PCA)][Principal Component Analysis] may need to be applied to extract new features
   * Features may need to [reshaped][Feature Distribution Transformation] to conform to statistical distribution, such as normal/Gaussian.

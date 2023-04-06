@@ -61,6 +61,9 @@ layout: page
 
  ![]( {{site.assets}}/e/eigenvalue_matrix.png ){: width="100%"}
 
+ More at:
+  * [https://setosa.io/ev/eigenvectors-and-eigenvalues/](https://setosa.io/ev/eigenvectors-and-eigenvalues/)
+
  See also [E], [Synthesized Variable]
 
 
@@ -82,7 +85,23 @@ layout: page
 
  ![]( {{site.assets}}/e/eigenvector_matrix.png ){: width="100%"}
 
+ More at:
+  * [https://setosa.io/ev/eigenvectors-and-eigenvalues/](https://setosa.io/ev/eigenvectors-and-eigenvalues/)
+
  See also [E], [Eigenvalue], [Matrix], [Synthesized Variable]
+
+
+# Elastic Net
+
+ Used in [Regularization].
+
+ {% pdf "https://hastie.su.domains/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf" %}
+
+ More at:
+  * paper - [https://hastie.su.domains/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf](https://hastie.su.domains/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf)
+  * [https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/](https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/)
+ 
+ See also [E], ...
 
 
 # Electric Dreams Movie
