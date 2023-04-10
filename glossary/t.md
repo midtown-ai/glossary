@@ -526,6 +526,11 @@ Desired Output --> |     Training     | --> Model
  See also [T], [OpenAI Company]
 
 
+# Trustworthy AI
+ 
+ See [Responsible AI]
+
+
 # Truth
 
  Can sometimes be discovered by observation and inductive reasoning, but not always!
@@ -536,3 +541,29 @@ Desired Output --> |     Training     | --> Model
 # Tuning Parameter
 
  See [Hyperparameter]
+
+
+# Turing Machine
+
+ A Turing machine is a machine proposed by the Alan Turing in 1936 that became the foundation for theories about computing and computers. The machine was a device that printed symbols on paper tape in a manner that emulated a person following logical instructions.
+
+ More at:
+  * [https://www.computerhope.com/jargon/t/turnmach.htm](https://www.computerhope.com/jargon/t/turnmach.htm)
+  * [https://www.computerhope.com/issues/ch000984.htm](https://www.computerhope.com/issues/ch000984.htm)
+
+ See also [T], ...
+
+
+# Turing Test
+
+ Conceptualized by [Alan Turing][Alan Turing Person] and published in the 1950 paper, Computing Machinery and Intelligence. The test proposed if a computer's output responses were indistinguishable from a human, it could be said to be able to "think."
+
+ The "standard interpretation" of the Turing test, in which the interrogator (C) is given the task of trying to determine which player – A or B – is a computer and which is a human. The interrogator is limited to using the responses to written questions to make the determination.
+
+ ![]( {{site.assets}}/t/turing_test.png ){: width="100%"}}
+
+ More at:
+  * [https://www.computerhope.com/jargon/t/turntest.htm](https://www.computerhope.com/jargon/t/turntest.htm)
+  * [https://en.wikipedia.org/wiki/Turing_test](https://en.wikipedia.org/wiki/Turing_test)
+
+ See also [T], ...

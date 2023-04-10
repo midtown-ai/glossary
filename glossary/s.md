@@ -190,6 +190,21 @@ StandardScaler()
  See also [S], [Dataset]
 
 
+# Segment Anything Model
+
+# SAM
+
+ [META AI][Facebook Company] has launched Segment Anything, a project that introduces the Segment Anything Model (SAM), a promptable model for [image segmentation][INstance Segmentation] in [computer vision]. SAM can generate masks for any object in any image or video and learn a generalized notion of objects, making it a powerful tool for various applications, such as AR/VR, content creation, and scientific domains. SAM's promptable design allows for flexible integration with other systems, eliminating the need for task-specific modeling expertise, training compute, and custom data annotation. SAM is a single model that can perform both interactive and automatic segmentation, making it a unique and innovative tool in the field of computer vision.
+
+ META AI has also released the Segment Anything 1-Billion mask dataset (SA-1B), containing more than 1.1 billion segmentation masks collected from about 11 million licensed and privacy-preserving images. The [dataset] is the largest segmentation dataset to date and has been verified through human evaluation studies. By sharing their research and dataset, META AI hopes to accelerate research in segmentation and contribute to more general image and video understanding, unlocking even more powerful AI systems in the future.
+
+ More at:
+  * [https://segment-anything.com/](https://segment-anything.com/)
+  * demo - [https://segment-anything.com/demo](https://segment-anything.com/demo)
+
+ See also [S], ...
+
+
 # Self-Attention
 
  Use itself as input to
@@ -406,6 +421,8 @@ StandardScaler()
 # SVD
 
  {% youtube "https://www.youtube.com/watch?v=vSczTbgc8Rc" %}
+
+ {% youtube "https://www.youtube.com/watch?v=DG7YTlGnCEo" %}
 
  More at:
   * [https://www.geeksforgeeks.org/singular-value-decomposition-svd/](https://www.geeksforgeeks.org/singular-value-decomposition-svd/)
@@ -815,6 +832,8 @@ Completely different from [artificial neural networks][Artificial Neural Network
  Searle identified a philosophical position he calls "strong AI":
    * The appropriately programmed computer with the right inputs and outputs would thereby have a mind in exactly the same sense human beings have minds.[b]
  The definition depends on the distinction between simulating a mind and actually having a mind. Searle writes that "according to Strong AI, the correct simulation really is a mind. According to Weak AI, the correct simulation is a model of the mind."
+
+
 
  More at:
   * [https://en.wikipedia.org/wiki/Chinese_room#Strong_AI](https://en.wikipedia.org/wiki/Chinese_room#Strong_AI)

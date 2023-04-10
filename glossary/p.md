@@ -90,12 +90,18 @@ layout: page
 # People
 
  People
+  * [Alan Turing][Alan Turing Person]: A founder of AI
+  * [Alex Krizhevsky][Alex Krizhevsky Person]: Build [AlexNet][AlexNet Model] and creator of [CIFAR Datasets][CIFAR Dataset]
+  * [Andrew Ng][Andrew Ng Person]: Cofounder and head of [Google Brain][Google Company] and was the former Chief Scientist at [Baidu][Baidu Company]
   * [Bill Gates][Bill Gates Person]: Founder and now chairman at [Microsoft][Microsoft Company]
   * [Elon Musk][Elon Musk Person]: CEO of Tesla
+  * [Geoffrey Hinton][Geoffrey Hinton Person]: Lead his student with [AlexNet][AlexNet Model], a godfather of AI and [Deep Learning]. Turing award in 2018.
   * [Greg Brockman][Greg Brockman Person]: Co-founder of [OpenAI][OpenAI Company]
   * [Ilya Sutskever][Ilya Sutskever Person]: Co-founder of [OpenAI][OpenAI Company]
   * [Sam Altman][Sam Altman Person]: CEO of [OpenAI][OpenAI Company]
   * [Sundar Pichai][Sundar Pichai Person]: CEO of Alphabet/[Google][Google Company]
+  * [Yann LeCun][Yann LeCun Person]: Turing award in 2018 for work on [Deep Learning]
+  * [Yoshua Bengio][Yoshua Bengio Person]: Professor at the Department of Computer Science at the Université de Montréal. Turing award in 2018 for work on [Deep Learning]
   * ...
 
  See also [P], [AI Movie], [Company]

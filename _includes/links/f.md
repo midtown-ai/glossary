@@ -26,6 +26,7 @@
 [Flow-Based Model]: {{site.baseurl }}{% link glossary/f.md %}#flow-based-model
 [Forbidden Planet Movie]: {{site.baseurl }}{% link glossary/f.md %}#forbidden-planet-movie
 [Forest Of Stumps]: {{site.baseurl }}{% link glossary/f.md %}#forest-of-stumps
+[Foundational Model]: {{site.baseurl }}{% link glossary/f.md %}#foundational-model
 [Fully Connected Layer]: {{site.baseurl }}{% link glossary/f.md %}#fully-connected-layer
 [FC Layer]: {{site.baseurl }}{% link glossary/f.md %}#fc-layer
 [Function Estimation]: {{site.baseurl }}{% link glossary/f.md %}#function-estimation

@@ -14,6 +14,8 @@
 [Scene Graph]: {{ site.baseurl}}{% link glossary/s.md %}#scene-graph
 [Scikit Learn]: {{ site.baseurl}}{% link glossary/s.md %}#scikit-learn
 [Seaborn Module]: {{ site.baseurl}}{% link glossary/s.md %}#seaborn-module
+[Segment Anything Model]: {{ site.baseurl}}{% link glossary/s.md %}#segment-anything-model
+[SAM]: {{ site.baseurl}}{% link glossary/s.md %}#sam
 [Self-Attention]: {{ site.baseurl}}{% link glossary/s.md %}#self-attention
 [Self-Organizing Map]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map
 [Self-Supervised Learning]: {{ site.baseurl}}{% link glossary/s.md %}#self-supervised-learning

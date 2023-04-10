@@ -29,6 +29,29 @@ layout: page
 {% include links/all.md %}
 
 
+# Yann LeCun Person
+
+ {% youtube "https://www.youtube.com/watch?v=bub58oYJTm0" %}
+
+ {% youtube "https://www.youtube.com/watch?v=BY9KV8uCtj4" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Yann_LeCun](https://en.wikipedia.org/wiki/Yann_LeCun)
+
+ See also [Y], [People]
+
+
+
+# Yoshua Bengio Person
+
+ {% youtube "https://www.youtube.com/watch?v=ZHYXp3gJCaI" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Yoshua_Bengio](https://en.wikipedia.org/wiki/Yoshua_Bengio)
+
+ See also [Y], [People]
+
+
 # Zero-Shot Learning
 
   The model predicts the answer given only a natural language description of the task. No gradient updates are performed.

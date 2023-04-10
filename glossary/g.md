@@ -303,6 +303,20 @@ layout: page
  Genetic programming is a technique to create algorithms that can program themselves by simulating biological breeding and Darwinian evolution. Instead of programming a model that can solve a particular problem, genetic programming only provides a general objective and lets the model figure out the details itself. The basic approach is to let the machine automatically test various simple evolutionary algorithms and then “breed” the most successful programs in new generations.
 
 
+# Geoffrey Hinton Person
+
+ Since 2013, he has divided his time working for Google (Google Brain) and the University of Toronto. In 2017, he co-founded and became the Chief Scientific Advisor of the Vector Institute in Toronto.
+
+ With David Rumelhart and Ronald J. Williams, Hinton was co-author of a highly cited paper published in 1986 that popularised the [backpropagation] algorithm for training multi-layer neural networks, although they were not the first to propose the approach. Hinton is viewed as a leading figure in the deep learning community. The dramatic image-recognition milestone of the [AlexNet Model] designed in collaboration with his students [Alex Krizhevsky][Alex Krizhevsky Person] and [Ilya Sutskever][Ilya Sutskever Person] for the ImageNet challenge 2012 was a breakthrough in the field of computer vision.
+
+ {% youtube "https://www.youtube.com/watch?v=qpoRO378qRY" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Geoffrey_Hinton](https://en.wikipedia.org/wiki/Geoffrey_Hinton)
+
+ See also [G], ...
+
+
 # GINI Impurity Index
 
  A metrics to measure how diverse the data is in a dataset.
@@ -432,6 +446,26 @@ layout: page
  P2 and P3 instances on AWS.
 
  See also [G], [Graphical Processing Unit]
+
+
+# GPU Technology Conference
+
+# GTC
+
+ Annual conference organized by [Nvidia][Nvidia Company]
+
+ The last conference was help on 2023/03/20 to 23.
+
+ Here are the highlights and the keynote.
+
+ {% youtube "https://www.youtube.com/watch?v=tg332P3IfOU" %}
+
+ {% youtube "https://www.youtube.com/watch?v=DiGB5uAYKAg" %}
+
+ More at:
+  * [https://www.nvidia.com/gtc/](https://www.nvidia.com/gtc/)
+
+ See also [G], ...
 
 
 # Gradient

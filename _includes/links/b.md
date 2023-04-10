@@ -34,6 +34,7 @@
 [Bill Gates Person]: {{ site.baseurl }}{% link glossary/b.md %}#bill-gates-person
 [Binary Classification]: {{ site.baseurl }}{% link glossary/b.md %}#binary-classification
 [Binary Cross-Entropy Loss Function]: {{ site.baseurl }}{% link glossary/b.md %}#binary-cross-entropy-loss-function
+[Bing Search Engine]: {{ site.baseurl }}{% link glossary/b.md %}#bing-search-engine
 [Biological Neuron]: {{ site.baseurl }}{% link glossary/b.md %}#biological-neuron
 [BLIP Model]: {{ site.baseurl }}{% link glossary/b.md %}#blip-model
 [Black Box Model]: {{ site.baseurl }}{% link glossary/b.md %}#black-box-model

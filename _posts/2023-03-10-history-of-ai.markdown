@@ -12,46 +12,60 @@ categories: jekyll update
 
 # History of AI
 
+ * 1930-      - Computer for computation
  * 1943       - [Perceptron] invented by McCulloch and Pitts. 
+ * 1950       - [Turing Test] authored by [Alan Turing][Alan Turing Person] and published in the "Computing Machinery and Intelligence" paper
+ * 1956       - The [Dartmouth workshop] in Hanover: Birth of "Artificial Intelligence"
  * 1974, 1980 - First [AI Winter] = promised results failed to materialize, funding for AI disappeared
- * 1987, 1993 - Second [AI Winter] = not enough compute!?
- * 1996, 1997 -
- * 2004, 2005 - [DARPA Grand Challenge]
+> "AI requires computer power the same way that aircraft require horsepower"
+ * 1980       - AI boom with [Expert Systems][Expert System] based on knowledge base and logic (if-then rules)
+ * 1981       - Introduction of the first IBM PC ==> client/server architecture
+ * 1987, 1993 - Second [AI Winter] = too much hype!
+ * 1992       - [Boston Dynamics][Boston Dynamics Company] is spun off from MIT
+ * 1996, 1997 - [Deep Blue][Deep Blue Challenge] beats the chess World champion Garry Kasparov
+ * 2002       - Beginning of the digital age: Emergence of [big data]
+ * 2004       - [Google][Google Company] publish a paper on a process called [MapReduce][MapReduce Process]: Parallelization + move processing to data
+ * 2004, 2005 - [DARPA Grand Challenge] : First driverless car competition
+ * 2006       - AWS public cloud is born!
  * 2007       - [DARPA Urban Challenge]
- * 2009       - [Waymo Company], a corporate spin-off of [Google Company] or more specifically Google X
-
- * 2011       - [Siri Virtual Assistant] is available on iPhone sold by [Apple Company]
- * 2011       - [IBM Watson] beats Jennings on Jeopardy
+ * 2009       - [Google X][Google Company] starts experimenting with driverless car. That effort was later spun off as [Waymo][Waymo Company]
+ * 2011       - [Siri Virtual Assistant] is available on iPhone sold by [Apple][Apple Company]
+ * 2011       - [IBM Watson] beats Jennings on Jeopardy: "The obsolete know-it-all!"
 
 # The last 10 years
 
- * 2013/09/30 - [AlexNet Model] wins the 
- *              [Benchmarks][Benchmark] become the challenges
+ * 2013/09/30 - [AlexNet Model] wins the [ImageNet Large Scale Visual Recognition Challenge] with a [ANN]/[CNN] trained on [GPU]
+ * 2014       - Renewed interest in [Deep Learning] and [Benchmarks][Benchmark] become the challenges
  * 2016       - [Sophia Robot] from [Hanson Robotics Company]
  * 2016       - [Google Translate][Google Translate Model]
  * 2016       - [AlphaGo Model]
- * 2017       - [Transformer Architecture] as a neural network architecture for sequence-to-sequence tasks: 
-                * Longer context/memory
-		* More easily parallelised than RNN ==> faster to train and can handle larger datasets
- * 2018       - [BERT Model]
+ * 2017/01/06 - Asilomar conference leads to first [AI principles][AI Principle]
+ * 2017       - [RNN] < [LSTM][LSTM Cell] < [Transformer][Transformer Architecture] as a neural network architecture for sequence-to-sequence tasks: Longer context/memory, training can be parallelized ==> faster to train + handle larger datasets
+ * 2018       - [BERT][BERT Model] open sourced: significant because [SOTA], [Transfer Learning] : A [Foundational Pre-trained Model][Pre-trained Model]
  * 2018       - [AlphaFold Model] by [DeepMind][DeepMind Company]
  * 2019       - [Pluribus Model] by [Facebook][Facebook Company] = First AI to beat human professionals in multiplayer poker
  * 2020       - [Viral happy new year](https://www.youtube.com/watch?v=fn3KWM1kuAw) by [Boston Dynamics Company]
  * 2020/06    - [GPT-3][GPT Model] is released and support [Scaling Law]
- * 2021
-              - [https://www.youtube.com/watch?v=t4B99T_3IsM](https://www.youtube.com/watch?v=t4B99T_3IsM)
+ * 2021       - AI enters the coronavirus [fight](https://www.zdnet.com/article/ai-and-the-coronavirus-fight-how-artificial-intelligence-is-taking-on-covid-19/) but [failed](https://hbr.org/2022/03/why-ai-failed-to-live-up-to-its-potential-during-the-pandemic)
+ * 2022/08    - Diffusion models such as [DALL-E][DALL-E Model] released to the public
  * 2022/11/12 - [ChatGPT][ChatGPT Model] is released by [OpenAI][OpenAI Company] ==> 5 days to reach a million users!
 
 # The last 10 weeks
 
- * 2023       - [AlphaTensor][AlphaTensor Model]
- * 2023       - [Bard Model] by [Google][Google Company]
- * 2023/03/14 - [GPT-4][GPT Model] is released and integrated in the [Bing Search Engine]
+ * 2023       - [AlphaTensor][AlphaTensor Model]: A faster way to do matrix multiplications
+ * 2023       - [Bard Model] by [Google][Google Company]: Valuation drops by 10%
+ * 2023/03/14 - [GPT-4][GPT Model] is released. [Microsoft][Microsoft Company] announces [Bing][Bing Search Engine] integration
  * 2023/03/17 - [Labor Market Impact] potential of Large Language Model
  * 2023/03/21 - [Bill Gates][Bill Gates Person] : [The Age of AI has begun](https://www.gatesnotes.com/The-Age-of-AI-Has-Begun)
+ * 2023/03/24 - [Nvidia][Nvidia Company] at its [GPU Technology Conference] announces new hardware, cloud platforms, new models, and ever improving [omniverse}
  * 2023/03/27 - Sparks of [Artificial General Intelligence]: Early experiments with GPT-4
+ * 2023/04/01 - "Release now, fix it later" - Should we [pause for 6 months?][AI Moratorium]
 
 # The next 2 years
+
+ * [Responsible AI]
+ * [AlphaFault] : Apparently [AlphaFold][AlphaFold Model] does not know physics. 
+ * Another [AI Winter] ?
 
 # The next 10 years
 

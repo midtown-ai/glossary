@@ -405,15 +405,62 @@ H(X) = -∑(p(x) * log2 p(x))
  See also [E], [Function Estimation], [Point Estimator]
 
 
-# Ethics Problem
+# Ethical AI
 
- * About the model
-  * Bias
- * About the industry
-  * Concentration
- * About use of the output
-  * Fake media
-  * Deepfake
+ Examples of ethical problems with AI
+  * About the model
+    * Bias
+  * About the industry
+    * Concentration
+  * About use of the output
+    * Fake media
+    * Deep fake
+
+ 5 Key ethical concepts in [Responsible AI] :
+
+ 1. Accountability
+  * When one is accountable, then one has to account for something
+  * An accountability framework refers to the formal and codified system for holding someone accountable within a specific social or organization context
+  * It can include processes for managing or explaining decision making in an organization. It also involves establishing clear roles, responsibilities and transparency with respect to who is responsible for what and how to rectify mistakes
+
+ 1. Fairness
+  * When something is fair, then people are given what they are due or deserve
+  * In law, fairness generally entails goals like non-discrimination, equality before the law, and procedural fairness.
+  * Statistical notions of fairness vary as well, and it is not possible to satisfy simultaneous all these definitions of fairness
+  * Many efforts to promote fairness in AI address the issue of [bias]
+  * In [Responsible AI], fairness is a socio-technical concept
+
+ 1. Understanding
+  * To understand means to grasp the core meaning or to comprehend
+  * In the field of [Responsible AI], understanding is closely connected to [explainability][Explainable AI]
+  * [Explainability][Explainable AI] means being able to explain the internal mechanisms of a system in human terms. While [explainability][Explainable AI] is necessary for understanding, it is not sufficient
+  * Understanding is audience-specific and contextual
+  * Understanding matters because our stakeholders need to understand how and why AI is being used to make decisions that impact their lives
+
+ 1. Data stewardship
+  * Stewardship is an ethical concept that means responsible management or care
+  * Data stewardship necessitates that ethical data practices are in place to not only ensure data quality, integrity, and protection, but also to preserve customer's right to privacy and meaningful, informed consent
+  * Machine learning is driven by data
+  * Data is tangible asset in the information-based economy and ethical data practices are an important element of [Responsible AI]
+
+ 1. Safety
+  * Being safe means being protected from harm or threats
+  * Commonly, people think of physical safety, but there are other forms of safety, such as emotional, psychological, and financial safety
+  * Safety is also a cluster-concept in [Responsible AI]
+  * From a technical perspective, safety often means that an AI system's outputs are accurate, secure from hostile actors, robust, and reliable in different settings and over time
+  * From a social and ethical perspective, safety is more robust concept that includes consideration of how an AI system will affect people's well-being, rights, and interests, as well as the broader safety of social institutions and the natural environment
+
+ {% youtube "https://www.youtube.com/watch?v=fc-cHk9yFpg" %}
+
+ {% pdf "{{site.assets}}/e/ethical_ai_cards.pdf" %}
+
+ More at:
+  * [https://hbr.org/2020/10/a-practical-guide-to-building-ethical-ai](https://hbr.org/2020/10/a-practical-guide-to-building-ethical-ai)
+  * ethics card - [https://www.ideo.com/blog/ai-needs-an-ethical-compass-this-tool-can-help](https://www.ideo.com/blog/ai-needs-an-ethical-compass-this-tool-can-help)
+  * [https://scottaaronson.blog/?p=6823](https://scottaaronson.blog/?p=6823)
+  * comic and copyright - [https://aibusiness.com/nlp/ai-generated-comic-book-keeps-copyright-well-some-of-it](https://aibusiness.com/nlp/ai-generated-comic-book-keeps-copyright-well-some-of-it)
+
+ See also [E], ...
 
 
 # Evolutionary Scale Modeling

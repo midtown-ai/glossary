@@ -54,6 +54,7 @@ layout: page
   * [LLaMA][LLaMA Model]: Large Language Model open-sourced
   * [Make-A-Video][Make-A-Video Model]: Text to video model
   * [Pluribus][Pluribus Model]: Plays poker better than humans
+  * [Segment Anything][Segment Anything Model]: Instance segmentation in images
 
  More at:
   * [https://github.com/facebookresearch](https://github.com/facebookresearch)
@@ -331,6 +332,22 @@ cheese =>
 # Forest Of Stumps
 
  See also [F], [AdaBoost], [Decision Stump], [Gini Impurity Index], [Random Forest], [Weighted Gini Impurity Index]
+
+
+# Foundational Model
+
+ A foundational model is a basic machine learning model that is built from scratch using a set of rules and parameters, without any pre-existing knowledge or training data. It requires manual tuning and optimization to perform well on specific tasks.
+
+ On the other hand, a [pre-trained model] is a [machine learning] model that has already been trained on a large amount of data and optimized for a specific task. Pre-training typically involves training a model on a large dataset, often using unsupervised learning techniques, to learn general features and patterns in the data. The pre-trained model can then be fine-tuned on a smaller, task-specific dataset to improve its performance on a particular task.
+
+ The main difference between a foundational model and a pre-trained model is the level of training and optimization required. Foundational models require extensive manual tuning and optimization to perform well on a specific task, while pre-trained models have already undergone extensive training and optimization, and can be fine-tuned for specific tasks with relatively little additional training.
+
+ Pre-trained models have become increasingly popular in recent years due to their ability to quickly achieve state-of-the-art performance on a wide range of tasks, without requiring extensive manual tuning and optimization.
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Foundation_models](https://en.wikipedia.org/wiki/Foundation_models)
+
+ See also [F], ...
 
 
 # Fully Connected Layer

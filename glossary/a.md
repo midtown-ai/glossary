@@ -281,16 +281,42 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 # AI Ethics
 
- {% youtube "https://www.youtube.com/watch?v=fc-cHk9yFpg" %}
+ See [Ethical AI]
 
- {% pdf "{{site.assets}}/a/ai_ethics_cards_by_ideo.pdf" %}
 
- More at :
-  * ethics card - [https://www.ideo.com/blog/ai-needs-an-ethical-compass-this-tool-can-help](https://www.ideo.com/blog/ai-needs-an-ethical-compass-this-tool-can-help)
-  * [https://scottaaronson.blog/?p=6823](https://scottaaronson.blog/?p=6823)
-  * comic and copyright - [https://aibusiness.com/nlp/ai-generated-comic-book-keeps-copyright-well-some-of-it](https://aibusiness.com/nlp/ai-generated-comic-book-keeps-copyright-well-some-of-it)
+# AI Moratorium
 
- See also [A], [AI Alignment], [Responsible AI]
+ A group of prominent individuals in the AI industry, including Elon Musk, Yoshua Bengio, and Steve Wozniak, have signed an open letter calling for a pause on the training of AI systems more powerful than GPT-4 for at least six months due to the "profound risks to society and humanity" posed by these systems. The signatories express concerns over the current "out-of-control race" between AI labs to develop and deploy machine learning systems that cannot be understood, predicted, or reliably controlled.
+
+ Alongside the pause, the letter calls for the creation of independent regulators to ensure future AI systems are safe to deploy, and shared safety protocols for advanced AI design and development that are audited and overseen by independent outside experts to ensure adherence to safety standards. While the letter is unlikely to have any immediate impact on AI research, it highlights growing opposition to the "ship it now and fix it later" approach to AI development.
+
+> AI systems with human-competitive intelligence can pose profound risks to society and humanity, as shown by extensive research and acknowledged by top AI labs. As stated in the widely-endorsed Asilomar AI Principles, Advanced AI could represent a profound change in the history of life on Earth, and should be planned for and managed with commensurate care and resources. Unfortunately, this level of planning and management is not happening, even though recent months have seen AI labs locked in an out-of-control race to develop and deploy ever more powerful digital minds that no one – not even their creators – can understand, predict, or reliably control.
+>
+> Contemporary AI systems are now becoming human-competitive at general tasks, and we must ask ourselves: Should we let machines flood our information channels with propaganda and untruth? Should we automate away all the jobs, including the fulfilling ones? Should we develop nonhuman minds that might eventually outnumber, outsmart, obsolete and replace us? Should we risk loss of control of our civilization? Such decisions must not be delegated to unelected tech leaders. Powerful AI systems should be developed only once we are confident that their effects will be positive and their risks will be manageable. This confidence must be well justified and increase with the magnitude of a system's potential effects. OpenAI's recent statement regarding artificial general intelligence, states that "At some point, it may be important to get independent review before starting to train future systems, and for the most advanced efforts to agree to limit the rate of growth of compute used for creating new models." We agree. That point is now.
+>
+> Therefore, we call on all AI labs to immediately pause for at least 6 months the training of AI systems more powerful than GPT-4. This pause should be public and verifiable, and include all key actors. If such a pause cannot be enacted quickly, governments should step in and institute a moratorium.
+>
+> AI labs and independent experts should use this pause to jointly develop and implement a set of shared safety protocols for advanced AI design and development that are rigorously audited and overseen by independent outside experts. These protocols should ensure that systems adhering to them are safe beyond a reasonable doubt. This does not mean a pause on AI development in general, merely a stepping back from the dangerous race to ever-larger unpredictable black-box models with emergent capabilities.
+>
+> AI research and development should be refocused on making today's powerful, state-of-the-art systems more accurate, safe, interpretable, transparent, robust, aligned, trustworthy, and loyal.
+>
+> In parallel, AI developers must work with policymakers to dramatically accelerate development of robust AI governance systems. These should at a minimum include: new and capable regulatory authorities dedicated to AI; oversight and tracking of highly capable AI systems and large pools of computational capability; provenance and watermarking systems to help distinguish real from synthetic and to track model leaks; a robust auditing and certification ecosystem; liability for AI-caused harm; robust public funding for technical AI safety research; and well-resourced institutions for coping with the dramatic economic and political disruptions (especially to democracy) that AI will cause.
+>
+> Humanity can enjoy a flourishing future with AI. Having succeeded in creating powerful AI systems, we can now enjoy an "AI summer" in which we reap the rewards, engineer these systems for the clear benefit of all, and give society a chance to adapt. Society has hit pause on other technologies with potentially catastrophic effects on society.  We can do so here. Let's enjoy a long AI summer, not rush unprepared into a fall.
+
+ {% youtube "https://www.youtube.com/watch?v=eJGxIH73zvQ" %}
+
+ {% youtube "https://www.youtube.com/watch?v=BxkVmLPq79k" %}
+
+ {% youtube "https://www.youtube.com/watch?v=8OpW5qboDDs" %}
+
+ {% youtube "https://www.youtube.com/watch?v=BY9KV8uCtj4" %}
+
+ More at:
+  * the letter - [https://futureoflife.org/open-letter/pause-giant-ai-experiments/](https://futureoflife.org/open-letter/pause-giant-ai-experiments/)
+  * FAQ after letter - [https://futureoflife.org/ai/faqs-about-flis-open-letter-calling-for-a-pause-on-giant-ai-experiments/](https://futureoflife.org/ai/faqs-about-flis-open-letter-calling-for-a-pause-on-giant-ai-experiments/)
+
+ See also [A], ...
 
 
 # AI Movie
@@ -316,6 +342,54 @@ First, we believe the clearest framing of general intelligence is a system that 
 # AI Paper
 
  See [AI Research]
+
+
+# AI Principle
+
+ Discussed for the first time by the AI community at the Asilomar AI conference themed Beneficial AI 2017.
+
+ Research Issues
+  1. Research Goal: The goal of AI research should be to create not undirected intelligence, but beneficial intelligence.
+  1. Research Funding: Investments in AI should be accompanied by funding for research on ensuring its beneficial use, including thorny questions in computer science, economics, law, ethics, and social studies, such as:
+   * How can we make future AI systems highly robust, so that they do what we want without malfunctioning or getting hacked?
+   * How can we grow our prosperity through automation while maintaining people’s resources and purpose?
+   * How can we update our legal systems to be more fair and efficient, to keep pace with AI, and to manage the risks associated with AI?
+   * What set of values should AI be aligned with, and what legal and ethical status should it have?
+  1. Science-Policy Link: There should be constructive and healthy exchange between AI researchers and policy-makers.
+  1. Research Culture: A culture of cooperation, trust, and transparency should be fostered among researchers and developers of AI.
+  1. Race Avoidance: Teams developing AI systems should actively cooperate to avoid corner-cutting on safety standards.
+
+ Ethics and Values
+  1. Safety: AI systems should be safe and secure throughout their operational lifetime, and verifiably so where applicable and feasible.
+  1. Failure Transparency: If an AI system causes harm, it should be possible to ascertain why.
+  1. Judicial Transparency: Any involvement by an autonomous system in judicial decision-making should provide a satisfactory explanation auditable by a competent human authority.
+  1. Responsibility: Designers and builders of advanced AI systems are stakeholders in the moral implications of their use, misuse, and actions, with a responsibility and opportunity to shape those implications.
+  1. Value Alignment: Highly autonomous AI systems should be designed so that their goals and behaviors can be assured to align with human values throughout their operation.  1. Human Values: AI systems should be designed and operated so as to be compatible with ideals of human dignity, rights, freedoms, and cultural diversity.
+  1. Personal Privacy: People should have the right to access, manage and control the data they generate, given AI systems’ power to analyze and utilize that data.
+  1. Liberty and Privacy: The application of AI to personal data must not unreasonably curtail people’s real or perceived liberty.
+  1. Shared Benefit: AI technologies should benefit and empower as many people as possible.
+  1. Shared Prosperity: The economic prosperity created by AI should be shared broadly, to benefit all of humanity.
+  1. Human Control: Humans should choose how and whether to delegate decisions to AI systems, to accomplish human-chosen objectives.
+  1. Non-subversion: The power conferred by control of highly advanced AI systems should respect and improve, rather than subvert, the social and civic processes on which the health of society depends.
+  1. AI Arms Race: An arms race in lethal autonomous weapons should be avoided.
+
+ Longer-term issues
+  1. Capability Caution: There being no consensus, we should avoid strong assumptions regarding upper limits on future AI capabilities.
+  1. Importance: Advanced AI could represent a profound change in the history of life on Earth, and should be planned for and managed with commensurate care and resources.
+  1. Risks: Risks posed by AI systems, especially catastrophic or existential risks, must be subject to planning and mitigation efforts commensurate with their expected impact.
+  1. Recursive Self-Improvement: AI systems designed to recursively self-improve or self-replicate in a manner that could lead to rapidly increasing quality or quantity must be subject to strict safety and control measures.
+  1. Common Good: Superintelligence should only be developed in the service of widely shared ethical ideals, and for the benefit of all humanity rather than one state or organization.
+
+ Video of the Asilomar conference in 2017
+
+ {% youtube "https://www.youtube.com/watch?v=h0962biiZa4" %}
+
+ More at:
+  * AI principles - [https://futureoflife.org/open-letter/ai-principles/](https://futureoflife.org/open-letter/ai-principles/)
+  * Asilomar conference - [https://futureoflife.org/event/bai-2017/](https://futureoflife.org/event/bai-2017/)
+  * Entire conference playlist - [https://www.youtube.com/playlist?list=PLpxRpA6hBNrwA8DlvNyIOO9B97wADE1tr](https://www.youtube.com/playlist?list=PLpxRpA6hBNrwA8DlvNyIOO9B97wADE1tr)
+
+ See also [A], ...
 
 
 # AI Research
@@ -354,6 +428,23 @@ First, we believe the clearest framing of general intelligence is a system that 
   * Second - [https://en.wikipedia.org/wiki/History_of_artificial_intelligence#Bust:_the_second_AI_winter_1987%E2%80%931993](https://en.wikipedia.org/wiki/History_of_artificial_intelligence#Bust:_the_second_AI_winter_1987%E2%80%931993)
 
   See also [A], ...
+
+
+# Alan Turing Person
+
+ The inventory of the imitation game, aka the [Turing Test]
+
+ See also [A], ...
+
+
+# Alex Krizhevsky Person
+
+ Built the [AlexNet Model], hence the name!
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Alex_Krizhevsky](https://en.wikipedia.org/wiki/Alex_Krizhevsky)
+
+ See also [A], ...
 
 
 # AlexNet Model
@@ -409,12 +500,47 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [Codex Model]
 
 
+# AlphaFault
+
+ More at:
+  * [https://phys.org/news/2023-04-alphafault-high-schoolers-fabled-ai.html](https://phys.org/news/2023-04-alphafault-high-schoolers-fabled-ai.html) 
+  * paper - [https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0282689](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0282689)
+
+ See also [A], ...
+
+
 # AlphaFold Model
+
+ AlphaFold is an [artificial intelligence (AI)][AI] program developed by [DeepMind][DeepMind Company], a subsidiary of Alphabet, which performs predictions of protein structure. The program is designed as a deep learning system.
+
+ AlphaFold AI software has had two major versions. A team of researchers that used AlphaFold 1 (2018) placed first in the overall rankings of the 13th [Critical Assessment of Structure Prediction (CASP)][CASP Challenge] in December 2018. The program was particularly successful at predicting the most accurate structure for targets rated as the most difficult by the competition organisers, where no existing template structures were available from proteins with a partially similar sequence.
+
+ A team that used AlphaFold 2 (2020) repeated the placement in the CASP competition in November 2020. The team achieved a level of accuracy much higher than any other group. It scored above 90 for around two-thirds of the proteins in CASP's global distance test (GDT), a test that measures the degree to which a computational program predicted structure is similar to the lab experiment determined structure, with 100 being a complete match, within the distance cutoff used for calculating GDT.
+
+ AlphaFold 2's results at CASP were described as "astounding" and "transformational." Some researchers noted that the accuracy is not high enough for a third of its predictions, and that it does not reveal the mechanism or rules of protein folding for the protein folding problem to be considered solved. Nevertheless, there has been widespread respect for the technical achievement.
+
+ On 15 July 2021 the AlphaFold 2 paper was published at Nature as an advance access publication alongside open source software and a searchable database of species proteomes.
+
+ But recently [AlphaFault] !
+
+ {% pdf "{{site.assets}}/a/alphafold_model_paper.pdf" %}
+
+ More at:
+  * nature paper - [https://www.nature.com/articles/s41586-021-03819-2](https://www.nature.com/articles/s41586-021-03819-2)
+  * [https://en.wikipedia.org/wiki/AlphaFold](https://en.wikipedia.org/wiki/AlphaFold)
+  * [https://alphafold.com/](https://alphafold.com/)
+
+ See also [A], [AlphaGo Model], [AlphaZero Model]
+
+
+# AlphaFold Protein Structure Database
+
+ The protein structure database managed by [DeepMind][DeepMind Company] where all the protein structures predicted by the [AlphaFold Model] are stored.
 
  More at:
   * [https://alphafold.com/](https://alphafold.com/)
 
- See also [A], [AlphaGo Model], [AlphaZero Model], [DeepMind Company]
+ See also [A}, ...
 
 
 # AlphaGo Model
@@ -497,6 +623,19 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [Robot]
 
 
+# Andrew Ng Person
+
+ {% youtube "https://www.youtube.com/watch?v=BY9KV8uCtj4" %}
+
+ {% youtube "https://www.youtube.com/watch?v=vStJoetOxJg" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Andrew_Ng](https://en.wikipedia.org/wiki/Andrew_Ng)
+  * deeplearning AI youtube channel - [https://www.youtube.com/@Deeplearningai](https://www.youtube.com/@Deeplearningai)
+
+ See also [A], [People]
+
+
 # Anomaly Detection
 
  Any deviation from a normal behavior is abnormal :warning: Evolution over time.
@@ -576,6 +715,12 @@ First, we believe the clearest framing of general intelligence is a system that 
 # adept.ai
  ```
 
+ {% youtube "https://www.youtube.com/watch?v=wHiOKDlA8Ac" %}
+
+ {% youtube "https://www.youtube.com/watch?v=Mqg3aTGNxZ0" %}
+
+ {% youtube "https://www.youtube.com/watch?v=qbIk7-JPB2c" %}
+
  {% pdf "https://arxiv.org/pdf/2303.12712.pdf" %}
 
  More at:
@@ -640,9 +785,10 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 # AI Challenge
 
+ * 1994 - 2022+ : First [CASP Challenge], CASP13 in 2018 was won by [AlphaFold 1][AlphaFold Model]
  * 1997 - 1998 : [Deep Blue Challenge]
  * 2004 - 2005 : [DARPA Grand Challenge]
- * 2006 - 2009 : [Netflix Prize]
+ * 2006 - 2009 : [Netflix Prize], in 2009 10% threshold was achieved, but customer data leak reported!
  * 2007 : [DARPA Urban Challenge]
  * 2011 - 2012 : [ImageNet Large Scale Visual Recognition Challenge]
  * 2015 : [DARPA Robotics Challenge]

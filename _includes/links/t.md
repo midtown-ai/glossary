@@ -49,5 +49,7 @@
 [Tree Parzen Estimators]: {{ site.baseurl }}{% link glossary/t.md %}#tree-parzen-estimators
 [TPE]: {{ site.baseurl }}{% link glossary/t.md %}#tpe
 [Triton]: {{ site.baseurl }}{% link glossary/t.md %}#triton
+[Trustworthy AI]: {{ site.baseurl }}{% link glossary/t.md %}#trustworthy-ai
 [Truth]: {{ site.baseurl }}{% link glossary/t.md %}#truth
 [Tuning Parameter]: {{ site.baseurl }}{% link glossary/t.md %}#tuning-parameter
+[Turing Test]: {{ site.baseurl }}{% link glossary/t.md %}#turing-test

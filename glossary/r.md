@@ -508,6 +508,30 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
 
 # Responsible AI
 
+ Responsible AI (RAI) refers to the individual and collective effort to promote beneficial users of AI and safeguard stakeholders -- clients, employees, members of the public, and beyond -- from harms or risks associated with AI, while acting ethically as institutions and individuals
+
+ * At its core, RAI is about protecting and benefiting people and society
+ * Using AI responsibly  is more than compliance, risk management, efficiency, or personal accountability
+ * RAI encompasses the full spectrum of social, technical, business, and governance practices involved in advancing AI's use in society
+
+ Related terms are [Ethical AI], [Trustworthy AI]
+
+ To whom are we responsible?
+  * Employees and shareholders
+  * Clients and customers
+  * Regulators and policymakers
+  * People and planet
+
+ What are we responsible for?
+  * Promoting ethical development, implementation, and monitoring throughout the AI lifecycle
+  * Centering well-being, human and civil rights, professional ethics, and people in our technology.
+
+ What processes, tools, and norms can achieve these goals?
+  * Development and implementation of transparent and safe AI systems
+  * Software toolkits, data science and data platform, controls and governance that enable RAI
+  * Culture and education around responsible practices
+  * Multi-objective and social good use cases
+
  More at:
   * [https://venturebeat.com/security/pwc-highlights-11-chatgpt-and-generative-ai-security-trends-to-watch-in-2023/](https://venturebeat.com/security/pwc-highlights-11-chatgpt-and-generative-ai-security-trends-to-watch-in-2023/)
 

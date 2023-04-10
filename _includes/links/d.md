@@ -7,6 +7,7 @@
 [DARPA Robotics Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#darpa-robotics-challenge
 [DARPA Subterranean Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#darpa-subterranean-challenge
 [DARPA Urban Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#darpa-urban-challenge
+[Dartmouth Workshop]: {{ site.baseurl }}{% link glossary/d.md %}#dartmouth-workshop
 [Data]: {{ site.baseurl }}{% link glossary/d.md %}#data
 [Data Analyst]: {{ site.baseurl }}{% link glossary/d.md %}#data-analyst
 [Data Augmentation]: {{ site.baseurl }}{% link glossary/d.md %}#data-augmentation

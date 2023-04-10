@@ -190,7 +190,13 @@ set       <search space>               set
  See also [C], [Facebook Company]
 
 
-# CIFAR-10 Dataset
+# CIFAR Dataset
+
+ Datasets created by [Alex Krizhevsky][ALex Krizhevsky: Person] for [AlexNet][AlexNet Model]
+
+ Datasets
+  * CIFAR-10
+  * CIFAR-100
 
  The CIFAR-10 dataset (Canadian Institute For Advanced Research) is a collection of images that are commonly used to train machine learning and computer vision algorithms. It is one of the most widely used datasets for machine learning research. The CIFAR-10 dataset contains 60,000 32x32 color images in 10 different classes/categories. The 10 different classes represent airplanes, cars, birds, cats, deer, dogs, frogs, horses, ships, and trucks. There are 6,000 images of each class. Computer algorithms for recognizing objects in photos often learn by example. CIFAR-10 is a set of images that can be used to teach a computer how to recognize objects. Since the images in CIFAR-10 are low-resolution (32x32), this dataset can allow researchers to quickly try different algorithms to see what works. CIFAR-10 is a labeled subset of the 80 million tiny images dataset. When the dataset was created, students were paid to label all of the images.
 
@@ -595,6 +601,20 @@ set       <search space>               set
 # CPU
 
  See also [C], [GPU], [Lambda], [Hyperparameter Optimization]
+
+
+# Critical Assessment of Structure Prediction Challenge
+
+# CASP Challenge
+
+ Critical Assessment of Structure Prediction (CASP), sometimes called Critical Assessment of Protein Structure Prediction, is a community-wide, worldwide experiment for protein structure prediction taking place every two years since 1994. CASP provides research groups with an opportunity to objectively test their structure prediction methods and delivers an independent assessment of the state of the art in protein structure modeling to the research community and software users. Even though the primary goal of CASP is to help advance the methods of identifying protein three-dimensional structure from its amino acid sequence many view the experiment more as a “world championship” in this field of science. More than 100 research groups from all over the world participate in CASP on a regular basis and it is not uncommon for entire groups to suspend their other research for months while they focus on getting their servers ready for the experiment and on performing the detailed predictions.
+
+ In December 2018, CASP13 made headlines when it was won by [AlphaFold][AlphaFold Model], an [artificial intelligence] program created by [DeepMind][DeepMind Company]. In November 2020, an improved version 2 of AlphaFold won CASP14. According to one of CASP co-founders John Moult, AlphaFold scored around 90 on a 100-point scale of prediction accuracy for moderately difficult protein targets. AlphaFold was made open source in 2021, and in CASP15 in 2022, while DeepMind did not enter, virtually all of the high-ranking teams used AlphaFold or modifications of AlphaFold.
+
+ More at:
+  * [https://en.wikipedia.org/wiki/CASP](https://en.wikipedia.org/wiki/CASP)
+
+ See also [C], ...
 
 
 # Cross-Attention

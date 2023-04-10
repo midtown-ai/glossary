@@ -27,6 +27,7 @@
 [Generator]: {{ site.baseurl }}{% link glossary/g.md %}#generator
 [Generator Loss]: {{ site.baseurl }}{% link glossary/g.md %}#generator-loss
 [Genetic Programming]: {{ site.baseurl }}{% link glossary/g.md %}#genetic-programming
+[Geoffrey Hinton Person]: {{ site.baseurl }}{% link glossary/g.md %}#geoffrey-hinton-person
 [GINI Impurity Index]: {{ site.baseurl }}{% link glossary/g.md %}#gini-impurity-index
 [GitHub Company]: {{ site.baseurl }}{% link glossary/g.md %}#github-company
 [GitHub Copilot]: {{ site.baseurl }}{% link glossary/g.md %}#github-copilot
@@ -38,6 +39,8 @@
 [Google Translate Model]: {{ site.baseurl }}{% link glossary/g.md %}#google-translate-model
 [Gopher Model]: {{ site.baseurl }}{% link glossary/g.md %}#gopher-model
 [GPU Instance]: {{ site.baseurl }}{% link glossary/g.md %}#gpu-instance
+[GPU Technology Conference]: {{ site.baseurl }}{% link glossary/g.md %}#gpu-technology-conference
+[GTC]: {{ site.baseurl }}{% link glossary/g.md %}#gtc
 [Gradient]: {{ site.baseurl }}{% link glossary/g.md %}#grandient
 [Gradient Boosting]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-boosting
 [Gradient Clipping]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-clipping

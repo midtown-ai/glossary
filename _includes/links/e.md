@@ -32,7 +32,7 @@
 [Ernie Bot]: {{site.baseurl }}{% link glossary/e.md %}#ernie-bot
 [Error]: {{site.baseurl }}{% link glossary/e.md %}#error
 [Estimator]: {{site.baseurl }}{% link glossary/e.md %}#estimator
-[Ethics Problem]: {{site.baseurl }}{% link glossary/e.md %}#ethics-problem
+[Ethical AI]: {{site.baseurl }}{% link glossary/e.md %}#ethical-ai
 [Ex Machina Movie]: {{site.baseurl }}{% link glossary/e.md %}#ex-machina-movie
 [Example-Based Machine Translation]: {{site.baseurl }}{% link glossary/e.md %}#example-based-machine-translation
 [EBMT]: {{site.baseurl }}{% link glossary/e.md %}#ebmt

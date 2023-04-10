@@ -16,7 +16,7 @@
 [Chinchilla Model]: {{ site.baseurl }}{% link glossary/c.md %}#chinchilla-model
 [CIDEr Score]: {{ site.baseurl }}{% link glossary/c.md %}#cider-score
 [CICERO Model]: {{ site.baseurl }}{% link glossary/c.md %}#cicero-model
-[CIFAR-10 Dataset]: {{ site.baseurl }}{% link glossary/c.md %}#cifar-10-dataset
+[CIFAR Dataset]: {{ site.baseurl }}{% link glossary/c.md %}#cifar-dataset
 [Classification]: {{ site.baseurl }}{% link glossary/c.md %}#classification
 [Claude Model]: {{ site.baseurl }}{% link glossary/c.md %}#claude-model
 [CLIP Image Encoder]: {{ site.baseurl }}{% link glossary/c.md %}#clip-image-encoder
@@ -60,6 +60,8 @@
 [Cost]: {{ site.baseurl }}{% link glossary/c.md %}#cost
 [Cost Function]: {{ site.baseurl }}{% link glossary/c.md %}#cost-function
 [CPU]: {{ site.baseurl }}{% link glossary/c.md %}#cpu
+[Critical Assessment of Structure Prediction Challenge]: {{ site.baseurl }}{% link glossary/c.md %}#critical-assessment-of-structure-prediction-challenge
+[CASP Challenge]: {{ site.baseurl }}{% link glossary/c.md %}#casp-challenge
 [Cross-Attention]: {{ site.baseurl }}{% link glossary/c.md %}#cross-attention
 [Cross-Entropy]: {{ site.baseurl }}{% link glossary/c.md %}#cross-entropy
 [Cross-Entropy Loss Function]: {{ site.baseurl }}{% link glossary/c.md %}#cross-entropy-loss-function

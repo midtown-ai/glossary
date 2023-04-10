@@ -24,14 +24,19 @@
 [AI Artificial Intelligence Movie]: {{ site.baseurl }}{% link glossary/a.md %}#ai-artificial-intelligence-movie
 [AI Avatar]: {{ site.baseurl }}{% link glossary/a.md %}#ai-avatar
 [AI Ethics]: {{ site.baseurl }}{% link glossary/a.md %}#ai-ethics
+[AI Moratorium]: {{ site.baseurl }}{% link glossary/a.md %}#ai-moratorium
 [AI Movie]: {{ site.baseurl }}{% link glossary/a.md %}#ai-movie
 [AI Paper]: {{ site.baseurl }}{% link glossary/a.md %}#ai-paper
+[AI Principle]: {{ site.baseurl }}{% link glossary/a.md %}#ai-principle
 [AI Research]: {{ site.baseurl }}{% link glossary/a.md %}#ai-research
 [AI Winter]: {{ site.baseurl }}{% link glossary/a.md %}#ai-winter
+[Alan Turing Person]: {{ site.baseurl }}{% link glossary/a.md %}#alan-turing-person
+[Alex Krizhevsky Person]: {{ site.baseurl }}{% link glossary/a.md %}#alex-krizhevsky-person
 [AlexNet Model]: {{ site.baseurl }}{% link glossary/a.md %}#alexnet-model
 [Algorithmic]: {{ site.baseurl }}{% link glossary/a.md %}#algorithmic
 [Alpaca Model]: {{ site.baseurl }}{% link glossary/a.md %}#alpaca-model
 [AlphaCode Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphacode-model
+[AlphaFault]: {{ site.baseurl }}{% link glossary/a.md %}#alphafault
 [AlphaGO Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphago-model
 [AlphaFold Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphafold-model
 [AlphaStar Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphastar-model
@@ -43,6 +48,7 @@
 [Amazon Recognition]: {{ site.baseurl }}{% link glossary/a.md %}#amazon-recognition
 [Amazon Web Services]: {{ site.baseurl }}{% link glossary/a.md %}#amazon-web-services
 [Ameca Robot]: {{ site.baseurl }}{% link glossary/a.md %}#ameca-robot
+[Andrew Ng Person]: {{ site.baseurl }}{% link glossary/a.md %}#andrew-ng-person
 [Anomally Detection]: {{ site.baseurl }}{% link glossary/a.md %}#anomally-detection
 [Anthropic Company]: {{ site.baseurl }}{% link glossary/a.md %}#anthropic-company
 [Apache MXNet]: {{ site.baseurl }}{% link glossary/a.md %}#apache-mxnet
@@ -57,6 +63,7 @@
 [Artificial General Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-general-intelligence
 [AGI]: {{ site.baseurl }}{% link glossary/a.md %}#agi
 [Artificial Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence
+[AI]: {{ site.baseurl }}{% link glossary/a.md %}#ai
 [Artificial Intelligence Areas Of Study]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-areas-of-study
 [AI Areas Of Study]: {{ site.baseurl }}{% link glossary/a.md %}#ai-areas-of-study
 [Artificial Intelligence Challenge]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-challenge

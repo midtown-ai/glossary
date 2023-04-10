@@ -42,6 +42,30 @@ layout: page
  See also [V], [Sentiment Analysis]
 
 
+# Validation Set
+
+ Double training data split!
+  * In python you train_test_plit twice !
+  * At the end you have a [Training Set], [Validation Set], and a [Test Set]
+
+ Why a validation set?
+  * Used for validation during training
+  * Help avoid overfitting
+  * ... 
+
+ Ratios ?
+  * 80 - 10 - 10
+  * 70 - 15 - 15
+
+ The validation set is used to [fine-tune the hyperparameters][Hyperparmeter Optimization] of the model and is considered a part of the training of the model. The model only sees this data for evaluation but does not learn from this data, providing an objective unbiased evaluation of the model. Validation dataset can be utilized for [regression] as well by interrupting training of model when loss of validation dataset becomes greater than loss of training dataset .i.e. reducing [bias] and [variance]. This data is approximately 10-15% of the total data available for the project but this can change depending upon the number of [hyperparameters][Hyperparameter] .i.e. if model has quite many hyperparameters then using large validation set will give better results. Now, whenever the [accuracy] of model on validation data is greater than that on training data then the model is said to have generalized well. 
+
+ More at:
+  * [https://www.geeksforgeeks.org/training-vs-testing-vs-validation-sets/](https://www.geeksforgeeks.org/training-vs-testing-vs-validation-sets/)
+  * [https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets#Validation_data_set](https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets#Validation_data_set)
+
+ See also [V], ...
+
+
 # Value
 
  In [Reinforcement Learning], ...

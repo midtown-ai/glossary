@@ -176,6 +176,22 @@ Predict what are the required agent skills based some input parameters
  See also [M], ...
 
 
+# MapReduce Process
+
+> Move the processing and not the data + process in parallel and combine
+
+ At [Google][Google Company], MapReduce was used to completely regenerate Google's index of the World Wide Web. It replaced the old ad hoc programs that updated the index and ran the various analyses.
+
+ MapReduce is a programming model and an associated implementation for processing and generating big data sets with a parallel, distributed algorithm on a cluster.
+
+ MapReduce is a framework for processing parallelizable problems across large datasets using a large number of computers (nodes), collectively referred to as a cluster (if all nodes are on the same local network and use similar hardware) or a grid (if the nodes are shared across geographically and administratively distributed systems, and use more heterogeneous hardware). Processing can occur on data stored either in a filesystem (unstructured) or in a database (structured). MapReduce can take advantage of the locality of data, processing it near the place it is stored in order to minimize communication overhead.
+
+ More at:
+  * [https://en.wikipedia.org/wiki/MapReduce](https://en.wikipedia.org/wiki/MapReduce) 
+
+ See also [M], [Big Data]
+
+
 # Markov Chain
 
  * stochastic model

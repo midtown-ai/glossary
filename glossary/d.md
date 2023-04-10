@@ -124,6 +124,19 @@ layout: page
  See also [D], [AI Challenge], [Autonomous Vehicle], [DARPA Grand Challenge], [LIDAR]
 
 
+# Dartmouth Workshop
+
+ The Dartmouth Summer Research Project on Artificial Intelligence was a 1956 summer workshop widely considered to be the founding event of artificial intelligence as a field.  The project lasted approximately **six to eight weeks** and was essentially **an extended brainstorming session**. Eleven mathematicians and scientists originally planned to attend; not all of them attended, but more than ten others came for short times.
+
+ > We propose that a 2-month, 10-man study of artificial intelligence be carried out during the summer of 1956 at Dartmouth College in Hanover, New Hampshire. The study is to proceed on the basis of the conjecture that every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it. An attempt will be made to find how to make machines use language, form abstractions and concepts, solve kinds of problems now reserved for humans, and improve themselves. We think that a significant advance can be made in one or more of these problems if a carefully selected group of scientists work on it together for a summer.
+
+ More at:
+  * participants- [https://en.wikipedia.org/wiki/Dartmouth_workshop#Participants](https://en.wikipedia.org/wiki/Dartmouth_workshop#Participants)
+  * [https://en.wikipedia.org/wiki/Dartmouth_workshop](https://en.wikipedia.org/wiki/Dartmouth_workshop)
+
+ See also [D], ...
+
+
 # Data
 
  The rocket fuel for AI, ML, etc.
@@ -228,7 +241,7 @@ layout: page
 # Dataset
 
  A group of several observations. Good data must contain a signal of what you are trying to measure. Beware that data-set may be incomplete. For example, if you are trying to forecast inventory, you can look at sale's number, but the data needs to includes the times when the sale did not happen because we run out of inventory! Dataset needs to be at least 10 times the number of features. The dataset is split in 3 subsets called the training subset, the development subset, and the test subset. If you have a lot of data 70% goes to the training, 15% to the dev, and 15% to the test. If not much data, 80% goes to training, 10% and 10%. A dataset is based on either one of those:
-  * images (MNIST for digits, CIFAR-10 for 10 categories, ImageNet)
+  * images (MNIST for digits, CIFAR-10 for 10 categories, ImageNet, etc)
   * audio sequences
   * text, aka corpus such as as C4
   * sentences
@@ -239,7 +252,7 @@ layout: page
   * [https://paperswithcode.com/datasets](https://paperswithcode.com/datasets)
   * [https://scikit-learn.org/stable/datasets.html](https://scikit-learn.org/stable/datasets.html)
 
- See also [D], [Corpus], [CIFAR-10 Dataset], [Data Point], [Development Subset], [GINI Impurity Index], [ImageNet Dataset], [MNIST Dataset], [Testing Subset], [Training Subset], [WordNet Dataset]
+ See also [D], [Corpus], [CIFAR Dataset], [Data Point], [Development Subset], [GINI Impurity Index], [ImageNet Dataset], [MNIST Dataset], [Testing Subset], [Training Subset], [WordNet Dataset]
 
 
 # Dawid-Skene Algorithm

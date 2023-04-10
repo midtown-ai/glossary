@@ -343,9 +343,19 @@ P(A|B) = ----------------
  See also [B], [Recurrent Neural Network]
 
 
-# Big Data 
+# Big Data
 
- See also [B], [Deep Learning], [Machine Learning]
+> "Move the processing where the data is!"
+
+ Big data primarily refers to data sets that are too large or complex to be dealt with by traditional data-processing application software.
+ Big data analysis challenges include capturing data, data storage, data analysis, search, sharing, transfer, visualization, querying, updating, information privacy, and data source. Big data was originally associated with three key concepts: volume, variety, and velocity.
+
+ ![]( {{site.assets}}/b/big_data_1986_to_2007.png ){: width="100%"}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Big_data](https://en.wikipedia.org/wiki/Big_data)
+
+ See also [B], [Deep Learning], [Machine Learning], [MapReduce Process]
 
 
 # Bilingual Evaluation Understudy Benchmark
