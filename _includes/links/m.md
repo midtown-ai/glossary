@@ -73,11 +73,12 @@
 [Model Type]: {{ site.baseurl }}{% link glossary/m.md %}#model-type
 [Modified National Institute Standards And Technology Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
 [MNIST Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#mnist-dataset
-[Multiclass Classification]: {{ site.baseurl }}{% link glossary/m.md %}#multiclass-classification
+[Multi-Agent Environment]: {{ site.baseurl }}{% link glossary/m.md %}#multi-agent-environment
 [Multi-Head Attention]: {{ site.baseurl }}{% link glossary/m.md %}#multi-head-attention
 [MTL]: {{ site.baseurl }}{% link glossary/m.md %}#mtl
 [Multi-Task Learning]: {{ site.baseurl }}{% link glossary/m.md %}#multi-task-learning
 [Multiattribute Objective]: {{ site.baseurl }}{% link glossary/m.md %}#multiattribute-objective
+[Multiclass Classification]: {{ site.baseurl }}{% link glossary/m.md %}#multiclass-classification
 [Multilayer Perceptron]: {{ site.baseurl }}{% link glossary/m.md %}#multilayer-perceptron
 [Multimodal Alignment]: {{ site.baseurl }}{% link glossary/m.md %}#multimodel-alignment
 [Multimodal Co-learning]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-co-learning

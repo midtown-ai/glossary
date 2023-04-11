@@ -125,11 +125,16 @@ layout: page
 
  A [GPT model] that has a state,  that is you can have a discussion/dialog with the device. This model is [fine-tuned with "supervised" interactions][Supervised Fine-Tuning] as was done with the [InstructGPT model], a precursor to ChatGPT. In recent weeks, the internet has been going crazy with the new ChatGPT model. In general, ChatGPT is part of a series of releases around [GPT 3.5][GPT Model] that are highlighting some of the capabilities of the upcoming [GPT-4 model][GPT Model]. One of the key differences of ChatGPT with previous models is its ability to follow instructions. This is powered another model called InstructGPT which OpenAI quietly unveiled at the beginning of the year.
 
+ ![]( {{site.assets}}/c/chatgpt_to_1m_users.jpeg ){: width="100%"}
+
+ ![]( {{site.assets}}/c/chatgpt_to_100m_users.png ){: width="100%"}
+
  {% youtube "https://www.youtube.com/watch?v=AsFgn8vU-tQ" %}
 
  {% youtube "https://www.youtube.com/watch?v=pOmpqdlVCoo" %}
 
  More at:
+  * adoption rate - [https://www.linkedin.com/pulse/chatgpts-100m-users-2-months-more-impressive-than-you-gilad-nass/](https://www.linkedin.com/pulse/chatgpts-100m-users-2-months-more-impressive-than-you-gilad-nass/)
   * gpt vs chatgpt vs instructgpt - [https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5](https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5)
   * webgpt chrome extension - [https://twitter.com/DataChaz/status/1610556519531089921](https://twitter.com/DataChaz/status/1610556519531089921)
   * [https://www.cnn.com/2022/12/05/tech/chatgpt-trnd/index.html](https://www.cnn.com/2022/12/05/tech/chatgpt-trnd/index.html)

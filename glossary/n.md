@@ -77,6 +77,7 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  In [Game Theory], ...
 
  More at:
+  * [https://www.deepmind.com/blog/game-theory-insights-into-asymmetric-multi-agent-games](https://www.deepmind.com/blog/game-theory-insights-into-asymmetric-multi-agent-games)
   * [https://www.deepmind.com/blog/game-theory-as-an-engine-for-large-scale-data-analysis](https://www.deepmind.com/blog/game-theory-as-an-engine-for-large-scale-data-analysis)
   * [https://en.wikipedia.org/wiki/Nash_equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium)
 
@@ -244,7 +245,7 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
  Find the best neural network architecture to use for the model.
 
- See also [N], [AutoML], [Neural Network]
+ See also [N], [Artificial Neural Network], [AutoML]
 
 
 # Neural Machine Translation
@@ -265,18 +266,10 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
 # Neural Network
 
- ~ `Can discover and approximate a(ny?) function given fixed(-count?) inputs and fixed(-count?) outputs! = universal function approximator` A multi-layer perceptron. Also known as Artificial Neural Network (ANN). Can be used in supervised or unsupervised learning.
- 
- ![]( {{site.assets}}/n/neural_network_example.png ){: width="100%"}
+ * If your neural network consists of [Biological Neuron], see [Brain]
+ * If your neural network consists of [Artificial Neuron], see [Artificial Neural Network]
 
- `For a young person, the university he/she is coming from is important. Compare that to someone with experience, whose university may not matter so much. but experience and field are important. ==> the weight of university is function of the age ==> That's what the second layer correct for!`
- 
- ![]( {{site.assets}}/n/neural_networks.png ){: width="100%"}
-
- More at:
-  * playground - [https://playground.tensorflow.org/](https://playground.tensorflow.org/)
-
- See also [N], [Artificial Neural Network], [Early Stopping], [Feedforward Neural Network], [Hidden Layer], [Input Layer], [Output Layer], [Perceptron], [Recurrent Neural Network], [Universal Function Approximator]
+ See also [N], ...
 
 
 # Neural Network Interpretability

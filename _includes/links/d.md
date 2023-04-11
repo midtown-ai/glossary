@@ -43,6 +43,7 @@
 [Deep Reinforcement Learning]: {{ site.baseurl }}{% link glossary/d.md %}#deep-reinforcement-learning
 [DeepAR Forecasting]: {{ site.baseurl }}{% link glossary/d.md %}#deepar-forecasting
 [DeepMind Company]: {{ site.baseurl }}{% link glossary/d.md %}#deepmind-company
+[DeepNash Model]: {{ site.baseurl }}{% link glossary/d.md %}#deepnash-model
 [DeepSpeed Project]: {{ site.baseurl }}{% link glossary/d.md %}#deepspeed-project
 [Delayed Reward]: {{ site.baseurl }}{% link glossary/d.md %}#delayed-reward
 [Dendrite]: {{ site.baseurl }}{% link glossary/d.md %}#dendrite
@@ -58,6 +59,7 @@
 [Diffusion Model]: {{ site.baseurl }}{% link glossary/d.md %}#diffusion-model
 [DM]: {{ site.baseurl }}{% link glossary/d.md %}#dm
 [Diffusion Process]: {{ site.baseurl }}{% link glossary/d.md %}#diffusion-process
+[Digital Immortality]: {{ site.baseurl }}{% link glossary/d.md %}#digital-immortality
 [Digital Watermark]: {{ site.baseurl }}{% link glossary/d.md %}#digital-watermark
 [Dimensionality Reduction]: {{ site.baseurl }}{% link glossary/d.md %}#dimensionality-reduction
 [Discount Factor]: {{ site.baseurl }}{% link glossary/d.md %}#discount-factor

@@ -117,10 +117,28 @@ layout: page
 
  See also [W], [Snorkel Program], [Weak-Supervised Learning]
 
- 
+
+# Weight
+
+ The stronger the relative weight (compared to the weights of other inputs), the stronger the relationship/bond/connection (the more important the feature is)
+
+ aka a parameter in an [artificial neural network]
+
+ Learned through [backpropagation] and choice of [loss function]
+
+ See also [W], ...
+
+
 # Weighted Gini Impurity Index
 
  See also [W], [Gini Impurity Index], [Forest Of Stumps]
+
+
+# Weighted Input
+
+ The input signal that is multiplied by its [weight]. Is comparable to a stimulus of an [Artificial Neuron].
+
+ See also [W], ...
 
 
 # Whisper Model

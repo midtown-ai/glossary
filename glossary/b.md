@@ -279,7 +279,14 @@ P(A|B) = ----------------
 
  See also [B], [Company]
 
- 
+
+# Bias
+
+ A threshold the output needs to exceed for the output to fire
+
+ See also [B], ...
+
+
 # Bias
 
   1. statistics ==> The gap between the prediction and the actual value. Where is bias coming from? Issues with the data sampling?

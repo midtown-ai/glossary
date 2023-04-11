@@ -406,9 +406,9 @@ layout: page
 
 # Deep Learning
 
- A branch of AI, a sub branch of Machine learning with neural networks! Use layers of non-linear processing units for feature extraction and transformation. Each layer use the output from the previous layer. May be supervised or unsupervised learning. Applications include pattern analysis (unsupervised) or classification (supervised or unsupervised).
+ A branch of AI, a sub branch of [machine learning] with [neural networks][Neural Network]! Use layers of non-linear processing units for feature extraction and transformation. Each layer use the output from the previous layer. May be [supervised][Supervised Learning] or [unsupervised learning]. Applications include pattern analysis (unsupervised) or [classification] (supervised or unsupervised).
 
- See also [D], [Deep Learning Framework], [Machine Learning], [Percepton]
+ See also [D], [Deep Learning Framework]
 
 
 # Deep Learning Framework
@@ -427,17 +427,23 @@ layout: page
 
 # DNN
 
- A deep neural network (DNN) is an artificial neural network (ANN) with multiple layers between the input and output layers. The DNN finds the correct mathematical manipulation to turn the input into the output, whether it be a linear relationship or a non-linear relationship. The network moves through the layers calculating the probability of each output.
+ A deep neural network (DNN) is an [artificial neural network (ANN)][ANN] with multiple layers between the input and output layers. The DNN finds the correct mathematical manipulation to turn the input into the output, whether it be a linear relationship or a non-linear relationship. The network moves through the layers calculating the probability of each output.
+
+ See also [D], ...
 
 
 # Deep Reinforcement Learning
 
- See [Reinforcement Learning]
+ [Reinforcement learning] where the policy and reward are deep neural networks.
+
+ See [D], ...
 
 
 # DeepAR Forecasting
 
  Based on neural network. `Time series forecasting` (ex number of units sold). Model needs to be trained, i.e. supervised. Integrated with Sagemaker. Lots of hyperparameters. Tuning is very important.
+
+ See also [D], ...
 
 
 # DeepMind Company
@@ -450,6 +456,7 @@ layout: page
   * [AlphaTensor][AlphaTensor Model]: Matrix multiplication algorithm optimization
   * [AlphaZero][AlphaZero Model]
   * [Chinchilla][Chinchilla Model]: Optimized version of the [Gopher Model]
+  * [DeepNash][DeepNash Model]: Mastering Stratego, the classic game of imperfect information
   * [Flamingo][Flamingo Model]: A [visual language model]
   * [Gato][Gato Model]: Multi-task generalist agent
   * [Gopher][Gopher Model]: A LLM with same (or better) performance than [GPT-3]
@@ -460,6 +467,19 @@ layout: page
  More at :
   * [https://www.deepmind.com/research](https://www.deepmind.com/research)
   * publications - [https://www.deepmind.com/research/publications](https://www.deepmind.com/research/publications)
+
+ See also [D], ...
+
+
+# DeepNash Model
+
+ A model developed by [DeepMind][DeepMind Company] to Mastering Stratego, the classic game of imperfect information.
+
+ DeepNash learns to play Stratego from scratch by combining game theory and model-free deep RL
+
+ More at:
+  * Paper in science - [https://www.science.org/stoken/author-tokens/ST-887/full](https://www.science.org/stoken/author-tokens/ST-887/full)
+  * announcment - [https://www.deepmind.com/blog/mastering-stratego-the-classic-game-of-imperfect-information](https://www.deepmind.com/blog/mastering-stratego-the-classic-game-of-imperfect-information)
 
  See also [D], ...
 
@@ -641,6 +661,11 @@ We need to do this for
  Coming from the real pgysical diffusion process, but for adding noise to an image.
 
  See also [D], [Diffusion Model], [Latent Diffusion]
+
+
+# Digital Immortality
+
+ See also [D], ...
 
 
 # Digital Watermark

@@ -207,8 +207,7 @@ Recall = % of positively identified
 
  ![]( {{site.assets}}/r/recurrent_neural_network_repeating_module.png ){: width="100%"}
 
-
- Neural networks will "loops" that are optimized for speech recognition, language modeling, translation. Essential to these successes is the use of “LSTMs,” a very special kind of recurrent neural network which works, for many tasks, much much better than the standard version. Almost all exciting results based on recurrent neural networks are achieved with them.
+ [Neural networks][Neural Network] will "loops" that are optimized for speech recognition, language modeling, translation. Essential to these successes is the use of “LSTMs,” a very special kind of recurrent neural network which works, for many tasks, much much better than the standard version. Almost all exciting results based on recurrent neural networks are achieved with them.
 
  :warning: Can or cannot use [backpropagation]? Yes, can !
 
@@ -221,12 +220,12 @@ Recall = % of positively identified
 Beware:
   * RNN are now deprecated by attention-based models such as those based on the [transformer architecture]
   * deprecated previous approach using [bag of words] and [word2vec]
-  * deprecated by attention-based models
+  * deprecated by [attention-based models][Attention-Based Model]
 
  More at:
   * keras and RNN - [https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177](https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177)
 
- See also [R], [Attention-Based Model], [Bidirectional Recurrent Neural Network], [Feedforward Neural Network], [Hidden State], [Long Short Term Memory Network], [Neural Network], [Pixel RNN], [Transformer Model]
+ See also [R], [Bidirectional Recurrent Neural Network], [Feedforward Neural Network], [Hidden State], [Long Short Term Memory Network], [Pixel RNN], [Transformer Model]
 
 
 # Red Teaming

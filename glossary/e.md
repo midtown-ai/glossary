@@ -160,13 +160,23 @@ layout: page
 
 # Emergent Ability
 
+> An ability is emergent if it is not present in smaller models but is present in larger models
+
+ Emerging abilities include
+  * [Theory Of Mind]
+  * [Translation]
+  * Word unscramble
+  * Math word problems
+  * Basic math operations
+  * Instruction following
+
  Emergence is when quantitative changes in a system result in qualitative changes in behavior. An ability is emergent if it is not present in smaller models but is present in larger models. For example Theory of Mind would be an example of a spontaneous emergence of an ability in AI. As far as we know, OpenAI engineers did not deliberately implement ToM in GPT. Instead, ToM has emerged spontaneously as a byproduct of GPT being trained to achieve its task: Predict a next word in a sentence. This means that AI can develop surprising abilities without humans explicitly trying to design them. We should think about what abilities may come next! Finally, our study shows the usefulness of applying psychological methods to studying AI. AI models’ increasing complexity prevents us from understanding their functioning and deriving their capabilities directly from their design. This echoes the challenges faced by psychologists and neuroscientists in studying the original black box: the human brain. We hope that psychological science will help us to stay abreast of rapidly evolving AI.
 
  {% pdf "{{site.assets}}/e/emergent_abilities_of_large_language_models_paper.pdf" %}
 
  ![]( {{site.assets}}/e/emergent_abilities_of_large_language_models_table.png ){: width="100%"}
 
- See also [E], [GPT Model], [Large Language Model], [Theory Of Mind], [Translation]
+ See also [E], [GPT Model], [Large Language Model]
 
 
 # Emotion

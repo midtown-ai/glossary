@@ -78,7 +78,7 @@ layout: page
 
 # Universal Function Approximator
 
- A Neural network can approximate almost any function. The number of inputs need to be finite and each input should be able to be turned into numbers. Same for outputs.
+ A [neural network] can approximate almost any function. The number of inputs need to be finite and each input should be able to be turned into numbers. Same for outputs.
 
  {% youtube "https://www.youtube.com/watch?v=0QczhVg5HaI" %}
 
@@ -87,7 +87,7 @@ layout: page
  More at:
   * playground - [https://playground.tensorflow.org/](https://playground.tensorflow.org/)
 
- See also [U], [Neural Network]
+ See also [U], ...
 
 
 # Unlabeled Data Algorithm

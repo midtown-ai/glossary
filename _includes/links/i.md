@@ -33,6 +33,8 @@
 [InstructGPT Model]: {{ site.baseurl }}{% link glossary/i.md %}#instructgpt-model
 [Insufficient Data Algorithm]: {{ site.baseurl }}{% link glossary/i.md %}#insufficient-data-algorithm
 [Intelligence]: {{ site.baseurl }}{% link glossary/i.md %}#intelligence
+[Intelligence Augmentation]: {{ site.baseurl }}{% link glossary/i.md %}#intelligence-augmentation
+[IA]: {{ site.baseurl }}{% link glossary/i.md %}#ia
 [Intent Analysis]: {{ site.baseurl }}{% link glossary/i.md %}#intent-analysis
 [InterpretML]: {{ site.baseurl }}{% link glossary/i.md %}#interpretml
 [Inverse Document Frequency]: {{ site.baseurl }}{% link glossary/i.md %}#inverse-document-frequency

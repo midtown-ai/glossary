@@ -298,6 +298,24 @@ StandardScaler()
  See also [S], [Confusion Matrix], [Specificity]
 
 
+# Sentient AI
+
+ Is Google's [Lambda Model] sentient?
+
+ {% youtube "https://www.youtube.com/watch?v=kgCUn4fQTsc" %}
+
+ {% youtube "https://www.youtube.com/watch?v=2856XOaUPpg" %}
+
+ {% youtube "https://www.youtube.com/watch?v=NAihcvDGaP8" %}
+
+ More at:
+  * [https://cajundiscordian.medium.com/is-lamda-sentient-an-interview-ea64d916d917](https://cajundiscordian.medium.com/is-lamda-sentient-an-interview-ea64d916d917)
+  * [https://medium.com/movement-dao/fired-google-engineer-blake-lemoine-on-his-future-lamda-and-ai-advocacy-98c816dde89e](https://medium.com/movement-dao/fired-google-engineer-blake-lemoine-on-his-future-lamda-and-ai-advocacy-98c816dde89e)
+  * [https://www.theatlantic.com/ideas/archive/2022/06/google-lamda-chatbot-sentient-ai/661322/](https://www.theatlantic.com/ideas/archive/2022/06/google-lamda-chatbot-sentient-ai/661322/)
+
+ See also [S], ...
+
+
 # Sentiment Analysis
 
  Marketers collect social media posts about specific brands, conversation subjects, and keywords, then use NLP to analyze how users feel about each topic, individually and collectively. This helps the brands with customer research, image evaluation, and social dynamics detection.
@@ -793,6 +811,18 @@ Completely different from [artificial neural networks][Artificial Neural Network
  See also [S], [Big Data]
 
 
+# Step Activation Function
+
+ When input is <0, output is 0
+ When input is >0, output is 1
+
+ Not continuous in 0!
+
+ A preferred activation function which is continuous in 0 is the [sigmoid][Sigmoid Activation Function]
+
+ See also [S], ...
+
+
 # Stereo Vision
 
  See also [S], [Autonomous Vehicle]
@@ -985,7 +1015,7 @@ Completely different from [artificial neural networks][Artificial Neural Network
 
  ![]( {{site.assets}}/s/synapse.png ){: width="100%}
 
- See also [S], [Activation Function], [Artificial Neuron], [Artificial Neural Network], [Neural Network]
+ See also [S], [Artificial Neuron], [Artificial Neural Network], [Biological Neuron], [Brain]
 
 
 # Synthesia Company

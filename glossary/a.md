@@ -102,20 +102,27 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 # Activation Function
 
- There are several activation function used in the fields. They are:
-  * Rectified Linear Unit (ReLU) function,
-  * LeakyReLU function
-  * tanh function,
-  * sigmoid function : Sigmoid is great to keep a probability between 0 and 1, even if sample is an outlier baed on the sample. (Ex: how long to slow down for a car, or will I hit the tree given the distance, but here car goes at 500km/h = an outlier)
-  * softplus
+ Activation functions are required to include non-linearity in the [artificial neural network] .
+
+ Without activation functions, in a multi-layered neural network the [Decision Boundary] stays a line regardless of the [weight] and [bias] settings of each [artificial neuron]!
+
+ There are several activation functions used in the fields. They are:
+  * [Rectified Linear Unit (ReLU) function][Rectified Linear Unit Activation Function],
+  * [LeakyReLU function][LeakyReLU Activation Function]
+  * [Tanh function][Tanh Activation Function],
+  * [Sigmoid function][Sigmoid Activation Function] : Sigmoid is great to keep a probability between 0 and 1, even if sample is an outlier based on the sample. (Ex: how long to slow down for a car, or will I hit the tree given the distance, but here car goes at 500km/h = an outlier)
+  * [Softplus function][Softplus Activation Function]
+  * [Step activation][Step Activation Function]
 
  ![]( {{site.assets}}/a/activation_functions.png){: width="100%" }
 
  ![]( {{site.assets}}/a/activation_functions_all_in_one.png){: width="100%" }
 
- :warning: Note that for multi-layer neural networks that use of an activation function at each layer, the backpropagation computation leads to loss of information (forward for input and backward for weight computation) which is known as the vanishing gradient problem.
+ {% youtube "https://www.youtube.com/watch?v=hfMk-kjRv4c" %}
 
- See also [A], [Backpropagation], [Batch Normalization], [Bias], [Decision Boundary], [Exploding Gradient Problem], [Gradient Descent], [LeakyReLU Activation Function], [Loss Function], [Rectified Linear Unit Activation Function], [Sigmoid Activation Function], [Softplus Activation Function], [Synapse], [Tanh Activation Function], [Vanishing Gradient Problem]
+ :warning: Note that for multi-layer neural networks that use of an activation function at each layer, the [backpropagation] computation leads to loss of information (forward for input and backward for weight computation) which is known as the [vanishing gradient problem].
+
+ See also [A], [Batch Normalization], [Exploding Gradient Problem], [Gradient Descent], [Loss Function]
 
 
 # Activation Step
@@ -502,6 +509,8 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 # AlphaFault
 
+ [AlphaFold Model] does not know physics, but just do pattern recognition/translation.
+
  More at:
   * [https://phys.org/news/2023-04-alphafault-high-schoolers-fabled-ai.html](https://phys.org/news/2023-04-alphafault-high-schoolers-fabled-ai.html) 
   * paper - [https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0282689](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0282689)
@@ -529,6 +538,8 @@ First, we believe the clearest framing of general intelligence is a system that 
   * nature paper - [https://www.nature.com/articles/s41586-021-03819-2](https://www.nature.com/articles/s41586-021-03819-2)
   * [https://en.wikipedia.org/wiki/AlphaFold](https://en.wikipedia.org/wiki/AlphaFold)
   * [https://alphafold.com/](https://alphafold.com/)
+  * online database - [https://alphafold.ebi.ac.uk/faq](https://alphafold.ebi.ac.uk/faq)
+  * colab - [https://colab.research.google.com/github/deepmind/alphafold/blob/main/notebooks/AlphaFold.ipynb](https://colab.research.google.com/github/deepmind/alphafold/blob/main/notebooks/AlphaFold.ipynb)
 
  See also [A], [AlphaGo Model], [AlphaZero Model]
 
@@ -572,7 +583,12 @@ First, we believe the clearest framing of general intelligence is a system that 
 
  Better algorithm for tensor multiplication  (on GPU ?). Based on !AlphaZero.
 
+ {% pdf "{{site.assets}}/a/alphatensor_nature_paper.pdf" %}
+
  More at:
+  * announcement - [https://www.deepmind.com/blog/discovering-novel-algorithms-with-alphatensor](https://www.deepmind.com/blog/discovering-novel-algorithms-with-alphatensor)
+  * paper in nature - [https://www.nature.com/articles/s41586-022-05172-4](https://www.nature.com/articles/s41586-022-05172-4)
+  * github code - [https://github.com/deepmind/alphatensor](https://github.com/deepmind/alphatensor)
   * [https://venturebeat.com/ai/deepmind-unveils-first-ai-to-discover-faster-matrix-multiplication-algorithms/](https://venturebeat.com/ai/deepmind-unveils-first-ai-to-discover-faster-matrix-multiplication-algorithms/)
 
  See also [A], [AlphaZero Model], [DeepMind Company]
@@ -830,8 +846,18 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 # ANN
 
+ ~ `Can discover and approximate a(ny?) function given fixed(-count?) inputs and fixed(-count?) outputs! = universal function approximator` A multi-layer perceptron. Also known as Artificial Neural Network (ANN). Can be used in supervised or unsupervised learning.
+
+ ![]( {{site.assets}}/a/artificial_neural_network_example.png ){: width="100%"}
+
+ `For a young person, the university he/she is coming from is important. Compare that to someone with experience, whose university may not matter so much. but experience and field are important. ==> the weight of university is function of the age ==> That's what the second layer correct for!`
+
+ ![]( {{site.assets}}/a/artificial_neural_network_types.png ){: width="100%"}
+
+
  The way for researchers to build an artificial brain or [neural network] using [artificial neurons][Artificial Neuron]. There are several types of ANN, including:
-  * ...
+  * [Convoluted Neural Network]
+  * [Recurrent Neural Network][RNN] vs [Feedforward Neural Network]
   * ...
 
  The "knowledge/skills" of the ANN are encoded in their [parameters][Parameter]
@@ -842,7 +868,12 @@ First, we believe the clearest framing of general intelligence is a system that 
   * [Activation function]
   * [Dropout function]
 
- See also [A], ...
+ {% youtube "https://www.youtube.com/watch?v=hfMk-kjRv4c" %}
+
+ More at:
+  * playground - [https://playground.tensorflow.org/](https://playground.tensorflow.org/)
+
+ See also [A], [Hidden Layer], [Input Layer], [Output Layer], [Perceptron], [Universal Function Approximator]
 
 
 # Artificial Neuron

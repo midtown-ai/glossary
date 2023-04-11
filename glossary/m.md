@@ -855,11 +855,9 @@ def mse_loss(y_pred, y_true):
  See also [M], [Dataset]
 
 
-# Multiclass Classification
+# Multi-Agent Environment
 
- ML for classification in more than 2 categories.
-
- See also [M], [Binary Classification], [Classification]
+ See also [M], [Game Theory]
 
 
 # Multi-Head Attention
@@ -896,6 +894,13 @@ def mse_loss(y_pred, y_true):
   * do not trigger road rage of other driver
 
  See also [M], [Reinforcement Learning]
+
+
+# Multiclass Classification
+
+ ML for classification in more than 2 categories.
+
+ See also [M], [Binary Classification], [Classification]
 
 
 # Multilayer Perceptron

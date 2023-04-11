@@ -26,6 +26,7 @@
 [Semantic Understanding]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-understanding
 [Semi-Supervised Learning]: {{ site.baseurl}}{% link glossary/s.md %}#semi-supervised-learning
 [Sensitivity]: {{ site.baseurl}}{% link glossary/s.md %}#sensitivity
+[Sentient AI]: {{ site.baseurl}}{% link glossary/s.md %}#sentient-ai
 [Sentiment Analysis]: {{ site.baseurl}}{% link glossary/s.md %}#sentiment-analysis
 [Sequence To Sequence Model]: {{ site.baseurl}}{% link glossary/s.md %}#sequence-to-sequence-model
 [Seq2Seq Model]: {{ site.baseurl}}{% link glossary/s.md %}#seq2seq-model
@@ -81,6 +82,7 @@
 [SMT]: {{ site.baseurl}}{% link glossary/s.md %}#smt
 [Statistical Model]: {{ site.baseurl}}{% link glossary/s.md %}#statistical-model
 [Statistics]: {{ site.baseurl}}{% link glossary/s.md %}#statistics
+[Step Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#step-activation-function
 [Stereo Vision]: {{ site.baseurl}}{% link glossary/s.md %}#stereo-vision
 [Stochastic Gradient Descent]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-gradient-descent
 [SGD]: {{ site.baseurl}}{% link glossary/s.md %}#sgd

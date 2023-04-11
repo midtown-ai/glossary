@@ -335,6 +335,11 @@ Data < Information < Knowledge
  See also [I], [Artificial Intelligence]
 
 
+# Intelligence Augmentation
+
+ See also [I], ...
+
+
 # Intent Analysis
 
  See also [I], [Amazon Lex]

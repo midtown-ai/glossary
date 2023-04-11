@@ -47,7 +47,7 @@ layout: page
 
 # Game Theory
 
- Used in model architecture, such as [GAN] and used for decision making process, such as in [Pluribus Model]
+ Used in model architecture, such as [GAN] and used for decision making process, such as in [Pluribus Model] and [Multi-Agent Model]
 
  More at:
   * ...

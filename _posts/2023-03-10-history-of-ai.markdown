@@ -12,10 +12,11 @@ categories: jekyll update
 
 # History of AI
 
- * 1930-      - Computer for computation
+ * 1927       - [Metropolis][Metropolis Movie]
+ * 1930-      - Computer = mechanical machines for computation
  * 1943       - [Perceptron] invented by McCulloch and Pitts. 
  * 1950       - [Turing Test] authored by [Alan Turing][Alan Turing Person] and published in the "Computing Machinery and Intelligence" paper
- * 1956       - The [Dartmouth workshop] in Hanover: Birth of "Artificial Intelligence"
+ * 1956       - The [Dartmouth workshop] in Hanover: Birth of "Artificial Intelligence", not "Thinking Machines", "Automata Theory", ...
  * 1974, 1980 - First [AI Winter] = promised results failed to materialize, funding for AI disappeared
 > "AI requires computer power the same way that aircraft require horsepower"
  * 1980       - AI boom with [Expert Systems][Expert System] based on knowledge base and logic (if-then rules)
@@ -47,13 +48,17 @@ categories: jekyll update
  * 2020       - [Viral happy new year](https://www.youtube.com/watch?v=fn3KWM1kuAw) by [Boston Dynamics Company]
  * 2020/06    - [GPT-3][GPT Model] is released and support [Scaling Law]
  * 2021       - AI enters the coronavirus [fight](https://www.zdnet.com/article/ai-and-the-coronavirus-fight-how-artificial-intelligence-is-taking-on-covid-19/) but [failed](https://hbr.org/2022/03/why-ai-failed-to-live-up-to-its-potential-during-the-pandemic)
+ * 2022/06    - Is [Lambda][Lambda Model] [sentient][Sentient AI]? Blake Lemoine thinks so!
  * 2022/08    - Diffusion models such as [DALL-E][DALL-E Model] released to the public
+ * 2022/10    - All LLM demonstrate [emergent abilities][Emergent Ability], such as [theory of mind], word unscrambling, solve math word problems, etc.
  * 2022/11/12 - [ChatGPT][ChatGPT Model] is released by [OpenAI][OpenAI Company] ==> 5 days to reach a million users!
 
 # The last 10 weeks
 
  * 2023       - [AlphaTensor][AlphaTensor Model]: A faster way to do matrix multiplications
- * 2023       - [Bard Model] by [Google][Google Company]: Valuation drops by 10%
+ * 2023/01/24 - [Microsoft][Microsoft Company] confirms [billions invested](https://www.cnn.com/2023/01/23/tech/microsoft-invests-chatgpt-openai) in [OpenAI][OpenAI Company]
+ * 2023/01/24 - [Google][Google Company] issue [Code Red](https://www.forbes.com/sites/davidphelan/2023/01/23/how-chatgpt-suddenly-became-googles-code-red-prompting-return-of-page-and-brin/)
+ * 2023/03/13 - [Bard Model] announced by [Google][Google Company]: Valuation drops by 10% after preview
  * 2023/03/14 - [GPT-4][GPT Model] is released. [Microsoft][Microsoft Company] announces [Bing][Bing Search Engine] integration
  * 2023/03/17 - [Labor Market Impact] potential of Large Language Model
  * 2023/03/21 - [Bill Gates][Bill Gates Person] : [The Age of AI has begun](https://www.gatesnotes.com/The-Age-of-AI-Has-Begun)
@@ -69,11 +74,19 @@ categories: jekyll update
 
 # The next 10 years
 
+ * [Intelligence Augmentation]
+
 # The next 100 years
 
 # The future of AI
 
+ {% youtube "https://www.youtube.com/watch?v=P5HNeahRYDM" %}
+
  {% youtube "https://www.youtube.com/watch?v=cwXnX49Bofk" %}
+
+ {% youtube "https://www.youtube.com/watch?v=63yr9dlI0cU" %}
+
+ {% youtube "https://www.youtube.com/watch?v=qTkHD55kcaw" %}
 
 
 {% include links/all.md %}
