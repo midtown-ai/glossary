@@ -45,6 +45,13 @@ layout: page
  See also [E], [Early Stopping], [Overfitting], [Underfitting]
 
 
+# Edge Detection
+
+ Used for image [segmentation] and ...
+
+ See also [E], ...
+
+
 # Eigenvalue
 
  Each eigenvector has a eigenvalue
@@ -379,6 +386,18 @@ H(X) = -∑(p(x) * log2 p(x))
  See also [E], [Batch], [Iteration], [Gradient Descent], [Overfitting]
 
 
+# Eric Schmidt Person
+
+ CEO of [Google][Google Company] between 2001 and 2011, Chairman of Alphabet.
+
+ {% youtube "https://www.youtube.com/watch?v=Sg3EchbCcA0" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Eric_Schmidt](https://en.wikipedia.org/wiki/Eric_Schmidt)
+
+ See also [E], [People]
+
+
 # Ernie Bot
 
  An alternative to [ChatGPT Model] developed by [Baidu][Baidu Company]
@@ -405,7 +424,7 @@ H(X) = -∑(p(x) * log2 p(x))
  More at:
   * [https://ai.facebook.com/blog/protein-folding-esmfold-metagenomics/](https://ai.facebook.com/blog/protein-folding-esmfold-metagenomics/)
 
- See also [E],  [DeepFold], [OpenFold]
+ See also [E], [AlphaFold Model], [OpenFold Model]
 
 
 # Estimator
@@ -469,6 +488,7 @@ H(X) = -∑(p(x) * log2 p(x))
   * ethics card - [https://www.ideo.com/blog/ai-needs-an-ethical-compass-this-tool-can-help](https://www.ideo.com/blog/ai-needs-an-ethical-compass-this-tool-can-help)
   * [https://scottaaronson.blog/?p=6823](https://scottaaronson.blog/?p=6823)
   * comic and copyright - [https://aibusiness.com/nlp/ai-generated-comic-book-keeps-copyright-well-some-of-it](https://aibusiness.com/nlp/ai-generated-comic-book-keeps-copyright-well-some-of-it)
+  * AAAI ethics and diversity - [https://aaai.org/about-aaai/ethics-and-diversity/](https://aaai.org/about-aaai/ethics-and-diversity/)
 
  See also [E], ...
 

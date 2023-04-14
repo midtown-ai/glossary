@@ -65,6 +65,7 @@
 [Sparse Vector]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-vector
 [Specificity]: {{ site.baseurl}}{% link glossary/s.md %}#specificity
 [Spectrogram Image]: {{ site.baseurl}}{% link glossary/s.md %}#spectrogram-image
+[Speech Recognition]: {{ site.baseurl}}{% link glossary/s.md %}#speech-recognition
 [Speech-To-Text]: {{ site.baseurl}}{% link glossary/s.md %}#speech-to-text
 [STT]: {{ site.baseurl}}{% link glossary/s.md %}#stt
 [SQuAD Benchmark]: {{ site.baseurl}}{% link glossary/s.md %}#squad-benchmark

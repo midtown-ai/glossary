@@ -140,6 +140,18 @@ layout: page
  See also [T], [Deep Learning Framework], [Distributed Training], [Google Company], [Machine Learning Framework]
 
 
+# TensorRT Software Development Kit
+
+# TensorRT SDK
+
+ A SDK developed by [Nvidia Company]
+
+ More at:
+  * home - [https://developer.nvidia.com/tensorrt](https://developer.nvidia.com/tensorrt)
+
+ See also [T], ...
+
+
 # Terminator Movie
 
  The Terminator is a 1984 American science fiction action film directed by James Cameron. It stars Arnold Schwarzenegger as the Terminator, a cyborg assassin sent back in time from 2029 to 1984 to kill Sarah Connor (Linda Hamilton), whose unborn son will one day save mankind from extinction by Skynet, a hostile artificial intelligence in a post-apocalyptic future.
@@ -294,6 +306,13 @@ layout: page
  See also [T], [Autoregressive Model]
 
 
+# Thresholding
+
+ In [image segmentation], ...
+
+ See also [T], ...
+
+
 # Tokenization
 
  Tokenization is the first step in any NLP pipeline. It has an important effect on the rest of your pipeline. A tokenizer breaks unstructured data and natural language text into chunks of information that can be considered as discrete elements. The token occurrences in a document can be used directly as a vector representing that document. Tokenization can separate sentences, words, characters, or subwords. When we split the text into sentences, we call it sentence tokenization. For words, we call it word tokenization.
@@ -384,6 +403,16 @@ vocab[2], vocab[13884], vocab[5], \
  at the origin of pytorch?
 
  See also [T], [PyTorch]
+
+
+# TorchScript Format
+
+ TorchScript is a way to create serializable and optimizable models from PyTorch code. Any TorchScript program can be saved from a Python process and loaded in a process where there is no Python dependency.
+
+ More at:
+  * [https://pytorch.org/docs/stable/jit.html](https://pytorch.org/docs/stable/jit.html)
+
+ See also [T], ...
 
 
 # Traditional Programming
@@ -511,6 +540,13 @@ Desired Output --> |     Training     | --> Model
  See also [T], [Gaussian Process], [Random Forest]
 
 
+# Triplet Loss Function
+
+ Handle 3 things at the same time
+
+ See also [T], [Contrastive Learning]
+
+
 # Triton
 
  A low level framework to compile code on any GPU. A major step toward bypassing CUDA and the [NVIDIA][Nvidia Company] lock in!
@@ -559,6 +595,8 @@ Desired Output --> |     Training     | --> Model
  Conceptualized by [Alan Turing][Alan Turing Person] and published in the 1950 paper, Computing Machinery and Intelligence. The test proposed if a computer's output responses were indistinguishable from a human, it could be said to be able to "think."
 
  The "standard interpretation" of the Turing test, in which the interrogator (C) is given the task of trying to determine which player – A or B – is a computer and which is a human. The interrogator is limited to using the responses to written questions to make the determination.
+
+ A computer passes the test if a human interrogator, after posing some written questions, cannot tell whether the written responses come from a person or from a computer.
 
  ![]( {{site.assets}}/t/turing_test.png ){: width="100%"}}
 

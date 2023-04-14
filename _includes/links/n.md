@@ -5,6 +5,8 @@
 [Naive Bayes]: {{ site.baseurl }}{% link glossary/n.md %}#naive-bayes
 [Name Entity Recognition]: {{ site.baseurl }}{% link glossary/n.md %}#name-entity-recognition
 [Nash Equilibrium]: {{ site.baseurl }}{% link glossary/n.md %}#nash-equilibrium
+[National Science Foundation]: {{ site.baseurl }}{% link glossary/n.md %}#national-science-foundation
+[NSF]: {{ site.baseurl }}{% link glossary/n.md %}#national-science-foundation
 [Natural Intelligence]: {{ site.baseurl }}{% link glossary/n.md %}#natural-intelligence
 [Natural Language Generation]: {{ site.baseurl }}{% link glossary/n.md %}#natural-language-generation
 [Natural Language Processing]: {{ site.baseurl }}{% link glossary/n.md %}#natural-language-processing
@@ -26,6 +28,8 @@
 [Netflix Company]: {{ site.baseurl }}{% link glossary/n.md %}#netflix-company
 [Netflix Challenge]: {{ site.baseurl }}{% link glossary/n.md %}#netflix-challenge
 [Neural Architecture Search]: {{ site.baseurl }}{% link glossary/n.md %}#neural-architecture-search
+[Neural Information Processing Systems Conference]: {{ site.baseurl }}{% link glossary/n.md %}#neural-information-processing-systems-conference
+[NeurIPS Conference]: {{ site.baseurl }}{% link glossary/n.md %}#neurips-conference
 [Neural Machine Translation]: {{ site.baseurl }}{% link glossary/n.md %}#neural-machine-translation
 [NMT]: {{ site.baseurl }}{% link glossary/n.md %}#nmt
 [Neural Network]: {{ site.baseurl }}{% link glossary/n.md %}#neural-network

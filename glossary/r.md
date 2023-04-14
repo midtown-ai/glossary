@@ -213,6 +213,13 @@ Recall = % of positively identified
 
  ![]( {{site.assets}}/r/recurrent_neural_network_cells.png ){: width="100%"}
 
+ There are several types of RNNs, including:
+  * one-to-many
+  * many-to-one
+  * many-to-many
+
+ ![]( {{site.assets}}/r/recurrent_neural_network_types.png ){: width="100%"}
+
  Beware:
   * The most modern RNN uses [Long-Short Term Memory (LSTM)][LSTM Cell] or [Gated Recurrent Unit (GRU)][GRU Cell] cells
   * Memory = hidden state (output of previous stage) ?
@@ -627,6 +634,17 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  See also [R], ...
 
 
+# Riffusion Model
+
+ A stable diffusion model trained on [spectrograms][Spectrogram] and which can therefore generate music.
+
+ More at:
+  * [https://www.riffusion.com/](https://www.riffusion.com/)
+  * [https://www.riffusion.com/about](https://www.riffusion.com/about)
+
+ See also [R], ...
+
+
 # Riva Model
 
  A [text-to-speech model] developer by [Nvidia][Nvidia Company].
@@ -666,6 +684,21 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
   * code - [https://github.com/openai/roboschool/tree/master/agent_zoo](https://github.com/openai/roboschool/tree/master/agent_zoo)
 
  See also [R], [PyBullet], [Isaac Gym]
+
+
+# Robustness
+
+ In [AI Safety], ...
+
+  * Black swan robustness
+  * Adversarial robustness
+
+ ![]( {{site.assets}}/r/robustness_adversarial.png ){: width="100%"}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/AI_safety#Robustness](https://en.wikipedia.org/wiki/AI_safety#Robustness)
+
+ See also [R], ...
 
 
 # Rocket League Gym

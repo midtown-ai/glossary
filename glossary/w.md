@@ -118,6 +118,11 @@ layout: page
  See also [W], [Snorkel Program], [Weak-Supervised Learning]
 
 
+# Web Scaping
+
+ More at:
+  * example with beautiful soup - [https://github.com/emayssat/web_scraping](https://github.com/emayssat/web_scraping)
+
 # Weight
 
  The stronger the relative weight (compared to the weights of other inputs), the stronger the relationship/bond/connection (the more important the feature is)

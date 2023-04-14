@@ -58,6 +58,8 @@ layout: page
 
  We do not make predictions about the development or adoption timeline of such LLMs. The projected effects span all wage levels, with higher-income jobs potentially facing greater exposure to LLM capabilities and LLM-powered software. Significantly, these impacts are not restricted to industries with higher recent productivity growth. Our analysis suggests that, with access to an LLM, about 15% of all worker tasks in the US could be completed significantly faster at the same level of quality. When incorporating software and tooling built on top of LLMs, this share increases to between 47 and 56% of all tasks. This finding implies that LLM-powered software will have a substantial effect on scaling the economic impacts of the underlying models. We conclude that LLMs such as GPTs exhibit traits of general-purpose technologies, indicating that they could have considerable economic, social, and policy implications.
 
+ {% youtube "https://www.youtube.com/watch?v=ooqYC781HGE" %}
+
  {% pdf "https://arxiv.org/pdf/2303.10130.pdf" %}
 
  More at:
@@ -234,6 +236,7 @@ layout: page
   * [transfer learning] : priors + I learned that concept before, no need to relearn
   * [weak-supervised learning] : augment the data (i.e. create data!) which has been labeled (supervised)
   * [semi-supervised learning] : label existing data based on data that has been labeled
+  * [contrastive learning] - learning based on similarities and differences
 
  See also [L], [Feedback-Based Learning], [Machine Learning Type], [Self-Supervised Learning]
 
@@ -345,6 +348,18 @@ with alpha = learning_rate
 
  ![]( {{site.assets}}/l/linear_regression.png ){: width="100%"}
 
+ Sample code:
+
+ ```
+from sklearn import linear_model
+
+regr = linear_model.LinearRegression()
+regr.fit(X_train, y_train)
+
+print regr.predict)X_test)
+print regr.score(X_test, y_test)
+ ```
+
  More at :
   * simulation [https://setosa.io/ev/ordinary-least-squares-regression/](https://setosa.io/ev/ordinary-least-squares-regression/)
   * introduction - [https://towardsdatascience.com/linear-regression-the-actually-complete-introduction-67152323fcf2](https://towardsdatascience.com/linear-regression-the-actually-complete-introduction-67152323fcf2)
@@ -419,7 +434,7 @@ Aristotle is mortal!
  See also [L], [ML Algorithm Evaluation], [Regression], [ROC Curve]
 
 
-# Long Short Term Memory Cell
+# Long Short-Term Memory Cell
 
 # LSTM Cell
 
@@ -442,7 +457,7 @@ Aristotle is mortal!
  See also [L], [Hidden State], [LSTM Network]
 
 
-# Long Short Term Memory Network
+# Long Short-Term Memory Network
 
 # LSTM Network
 
@@ -466,6 +481,7 @@ Aristotle is mortal!
   * `Are now deprecated by attention-based models, such as transformers? Yes`
 
  More at
+  * [https://en.wikipedia.org/wiki/Long_short-term_memory](https://en.wikipedia.org/wiki/Long_short-term_memory)
   * LSTM with keras - [https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5](https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5)
   * [http://colah.github.io/posts/2015-08-Understanding-LSTMs/](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
@@ -488,7 +504,8 @@ Aristotle is mortal!
   * [0-1 Loss Function] : 0=correct 1=not-correct classification
   * [binary cross-entropy loss function] (aka Log loss function) : Used with logistic regression because the logistic regression function (sigmoid or ?) is not linear and loss function needs to have a single minimum
   * [cross-entropy loss function]
-  * custom function !
+  * [Contrastive loss function] and [triplet loss function]
+  * another custom function !
  Choose your loss function based on
   * the original estimator function (?) e.g. lineear or sigmoid
   * must have a global minimum and not local ones

@@ -9,11 +9,15 @@
 [One-Cold Encoding]: {{ site.baseurl }}{% link glossary/o.md %}#one-cold-encoding
 [One-Hot Encoding]: {{ site.baseurl }}{% link glossary/o.md %}#one-hot-encoding
 [One-Shot Learning]: {{ site.baseurl }}{% link glossary/o.md %}#one-shot-learning
+[Online Machine Learning]: {{ site.baseurl }}{% link glossary/o.md %}#online-machine-learning
+[Open Neural Network Exchange Format]: {{ site.baseurl }}{% link glossary/o.md %}#open-neural-network-exchange-format
+[ONNX Format]: {{ site.baseurl }}{% link glossary/o.md %}#open-neural-network-exchange-format
 [OpenAI Company]: {{ site.baseurl }}{% link glossary/o.md %}#openai-company
 [OpenAI Five Model]: {{ site.baseurl }}{% link glossary/o.md %}#openai-five-model
 [OpenAI Gym Environment]: {{ site.baseurl }}{% link glossary/o.md %}#openai-gym-environment
 [OpenCV Library]: {{ site.baseurl }}{% link glossary/o.md %}#opencv-library
-[OpenFold]: {{ site.baseurl }}{% link glossary/o.md %}#openfold
+[OpenFold Model]: {{ site.baseurl }}{% link glossary/o.md %}#openfold-model
+[OpenVINO Toolkit]: {{ site.baseurl }}{% link glossary/o.md %}#openvino-toolkit
 [Optimization]: {{ site.baseurl }}{% link glossary/o.md %}#optimization
 [Optimizer]: {{ site.baseurl }}{% link glossary/o.md %}#optimizer
 [Ordinal Encoding]: {{ site.baseurl }}{% link glossary/o.md %}#ordinal-encoding

@@ -137,6 +137,19 @@ layout: page
  See also [I], [BLIP Model], [CLIP Image Encoder], [Text Reconstruction]
 
 
+# Image Segmentation
+
+ Image segmentation is a process of dividing an image into multiple segments or regions, each of which corresponds to a different object or part of the image. The goal of image segmentation is to simplify or change the representation of an image into something that is more meaningful and easier to analyze. It is a fundamental task in computer vision and is used in various applications, such as object recognition, tracking, and image editing.
+
+ Image segmentation can be performed using a variety of methods, including [thresholding], clustering, [edge detection], and machine learning algorithms. These methods typically involve grouping pixels or regions of pixels in an image based on similarities in color, texture, or other visual features.
+
+ The output of image segmentation is a set of labeled regions that can be used for further processing or analysis. For example, in object recognition, the segmented regions can be used to identify and classify objects in an image. In medical imaging, image segmentation can be used to identify and isolate specific structures or organs in a patient's body.
+
+ Overall, image segmentation is an essential step in many computer vision applications and is an active area of research in the field.
+
+ See also [I], [Object Detection]
+
+
 # Imagen Model
 
  Imagen, a text-to-image diffusion model with an unprecedented degree of photorealism and a deep level of language understanding. Imagen builds on the power of large transformer language models in understanding text and hinges on the strength of diffusion models in high-fidelity image generation. Our key discovery is that generic large language models (e.g. T5), pretrained on text-only corpora, are surprisingly effective at encoding text for image synthesis: increasing the size of the language model in Imagen boosts both sample fidelity and image-text alignment much more than increasing the size of the image diffusion model.
@@ -342,7 +355,33 @@ Data < Information < Knowledge
 
 # Intent Analysis
 
- See also [I], [Amazon Lex]
+ See also [I], [AWS Lex]
+
+
+# International Conference on Learning Representations Conference
+
+# ICLR Conference
+
+ The International Conference on Learning Representations (ICLR) is a machine learning conference typically held in late April or early May each year. The conference includes invited talks as well as oral and poster presentations of refereed papers. Since its inception in 2013, ICLR has employed an open peer review process to referee paper submissions (based on models proposed by [Yann LeCun][Yann LeCun Person]). In 2019, there were 1591 paper submissions, of which 500 accepted with poster presentations (31%) and 24 with oral presentations (1.5%). In 2021, there were 2997 paper submissions, of which 860 were accepted (29%).
+
+ More at:
+  * [https://iclr.cc/](https://iclr.cc/)
+  * [https://en.wikipedia.org/wiki/International_Conference_on_Learning_Representations](https://en.wikipedia.org/wiki/International_Conference_on_Learning_Representations)
+
+ See also [I], ...
+
+
+# International Conference on Machine Learning Conference
+
+# ICML Conference
+
+ The International Conference on Machine Learning (ICML) is the leading international academic [conference][AI Conference] in [machine learning]. Along with [NeurIPS][NeurIPS Conference] and [ICLR][ICLR Conference], it is one of the three primary conferences of high impact in machine learning and artificial intelligence research.
+
+ More at:
+  * Home - [https://icml.cc/](https://icml.cc/)
+  * [https://en.wikipedia.org/wiki/International_Conference_on_Machine_Learning](https://en.wikipedia.org/wiki/International_Conference_on_Machine_Learning)
+
+ See also [I], ...
 
 
 # InterpretML

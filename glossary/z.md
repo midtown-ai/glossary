@@ -41,6 +41,20 @@ layout: page
  See also [Y], [People]
 
 
+# You Only Look Once Model
+
+# YOLO  Model
+
+ For [Image Detection], [Image Segmentation], [Object Detection], [Pose Estimation], ...
+
+ More at:
+  * home - [https://docs.ultralytics.com/](https://docs.ultralytics.com/)
+  * pytorch code colab - [https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb](https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb)
+  * articles
+    * [https://www.v7labs.com/blog/yolo-object-detection](https://www.v7labs.com/blog/yolo-object-detection)
+
+ See also [Y], ...
+
 
 # Yoshua Bengio Person
 
@@ -50,6 +64,16 @@ layout: page
   * [https://en.wikipedia.org/wiki/Yoshua_Bengio](https://en.wikipedia.org/wiki/Yoshua_Bengio)
 
  See also [Y], [People]
+
+
+# Zero ETL
+
+ More at:
+  * articles
+    * [https://medium.com/starschema-blog/so-whats-all-this-talk-about-zero-etl-integration-aa3b0ca9612b](https://medium.com/starschema-blog/so-whats-all-this-talk-about-zero-etl-integration-aa3b0ca9612b)
+    * [https://towardsdatascience.com/zero-etl-chatgpt-and-the-future-of-data-engineering-71849642ad9c](https://towardsdatascience.com/zero-etl-chatgpt-and-the-future-of-data-engineering-71849642ad9c) 
+
+ See also [Z], ...
 
 
 # Zero-Shot Learning

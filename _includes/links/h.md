@@ -1,5 +1,8 @@
 [H]: {{ site.baseurl }}{% link glossary/h.md %}
 
+[Hallucination]: {{site.baseurl }}{% link glossary/h.md %}#hallucination
+[Hand Gesture Recognition]: {{site.baseurl }}{% link glossary/h.md %}#hand-gesture-recognition
+[Hand Tracking]: {{site.baseurl }}{% link glossary/h.md %}#hand-tracking
 [Hanson Robotics Company]: {{site.baseurl }}{% link glossary/h.md %}#hanson-robotics-company
 [Hebbian Learning]: {{site.baseurl }}{% link glossary/h.md %}#hebbian-learning
 [Her Movie]: {{site.baseurl }}{% link glossary/h.md %}#her-movie

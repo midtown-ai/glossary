@@ -1,6 +1,8 @@
 [C]: {{ site.baseurl }}{% link glossary/c.md %}
 
 [Caffe]: {{ site.baseurl }}{% link glossary/c.md %}#caffe
+[Carnegie Mellon University]: {{ site.baseurl }}{% link glossary/c.md %}#carnegie-mellon-university
+[CMU]: {{ site.baseurl }}{% link glossary/c.md %}#cmu
 [Case-Based Reasoning]: {{ site.baseurl }}{% link glossary/c.md %}#case-based-reasoning
 [CBR]: {{ site.baseurl }}{% link glossary/c.md %}#cbr
 [Casual Language Modeling]: {{ site.baseurl }}{% link glossary/c.md %}#casual-language-modeling
@@ -32,6 +34,8 @@
 [Complexity]: {{ site.baseurl }}{% link glossary/c.md %}#complexity
 [Compliance Analysis]: {{ site.baseurl }}{% link glossary/c.md %}#compliance-analysis
 [Computer Vision]: {{ site.baseurl }}{% link glossary/c.md %}#computer-vision
+[Computer Vision and Pattern Recognition Conference]: {{ site.baseurl }}{% link glossary/c.md %}#computer-vision-and-pattern-recognition-conference
+[CVPR Conference]: {{ site.baseurl }}{% link glossary/c.md %}#cvpr-conference
 [Concept Video]: {{ site.baseurl }}{% link glossary/c.md %}#concept-video
 [Conditioning]: {{ site.baseurl }}{% link glossary/c.md %}#conditioning
 [Conditioning GAN]: {{ site.baseurl }}{% link glossary/c.md %}#conditioning-gan
@@ -47,6 +51,8 @@
 [Continuous Variable]: {{ site.baseurl }}{% link glossary/c.md %}#continuous-variable
 [Contrastive Language Image Pre-training Model]: {{ site.baseurl }}{% link glossary/c.md %}#contrastive-language-image-pre-training-model
 [CLIP Model]: {{ site.baseurl }}{% link glossary/c.md %}#clip-model
+[Contrastive Learning]: {{ site.baseurl }}{% link glossary/c.md %}#contrastive-learning
+[Contrastive Loss Function]: {{ site.baseurl }}{% link glossary/c.md %}#contrastive-loss-function
 [Convolution]: {{ site.baseurl }}{% link glossary/c.md %}#covonlution
 [Convolution Autoencoder]: {{ site.baseurl }}{% link glossary/c.md %}#convolution-autoencoder
 [Convolutional Layer]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-layer
@@ -56,10 +62,14 @@
 [CNN Feature Extractor]: {{ site.baseurl }}{% link glossary/c.md %}#cnn-feature-extractor
 [Coral Hardware]: {{ site.baseurl }}{% link glossary/c.md %}#coral-hardware
 [Coreference]: {{ site.baseurl }}{% link glossary/c.md %}#coreference
+[CoreML Format]: {{ site.baseurl }}{% link glossary/c.md %}#coreml-format
+[CoreML Framework]: {{ site.baseurl }}{% link glossary/c.md %}#coreml-framework
+[CoreML Tool]: {{ site.baseurl }}{% link glossary/c.md %}#coreml-tool
 [Corpus]: {{ site.baseurl }}{% link glossary/c.md %}#corpus
 [Cost]: {{ site.baseurl }}{% link glossary/c.md %}#cost
 [Cost Function]: {{ site.baseurl }}{% link glossary/c.md %}#cost-function
 [CPU]: {{ site.baseurl }}{% link glossary/c.md %}#cpu
+[CreateML Application]: {{ site.baseurl }}{% link glossary/c.md %}#createml-application
 [Critical Assessment of Structure Prediction Challenge]: {{ site.baseurl }}{% link glossary/c.md %}#critical-assessment-of-structure-prediction-challenge
 [CASP Challenge]: {{ site.baseurl }}{% link glossary/c.md %}#casp-challenge
 [Cross-Attention]: {{ site.baseurl }}{% link glossary/c.md %}#cross-attention

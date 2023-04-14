@@ -2,6 +2,8 @@
 
 [F1 Score]: {{site.baseurl }}{% link glossary/f.md %}#f1-score
 [Face Detection]: {{site.baseurl }}{% link glossary/f.md %}#face-detection
+[Fake Art]: {{site.baseurl }}{% link glossary/f.md %}#fake-art
+[Fake News]: {{site.baseurl }}{% link glossary/f.md %}#fake-news
 [Facebook Company]: {{site.baseurl }}{% link glossary/f.md %}#facebook-company
 [Fashion MNIST Dataset]: {{site.baseurl }}{% link glossary/f.md %}#fashion-mnist-dataset
 [Feature]: {{site.baseurl }}{% link glossary/f.md %}#feture

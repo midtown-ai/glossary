@@ -41,6 +41,8 @@
 [GPU Instance]: {{ site.baseurl }}{% link glossary/g.md %}#gpu-instance
 [GPU Technology Conference]: {{ site.baseurl }}{% link glossary/g.md %}#gpu-technology-conference
 [GTC]: {{ site.baseurl }}{% link glossary/g.md %}#gtc
+[Grade School Math Dataset]: {{ site.baseurl }}{% link glossary/g.md %}#grade-school-math-dataset
+[GSM8K Dataset]: {{ site.baseurl }}{% link glossary/g.md %}#gsm8k-dataset
 [Gradient]: {{ site.baseurl }}{% link glossary/g.md %}#grandient
 [Gradient Boosting]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-boosting
 [Gradient Clipping]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-clipping
@@ -61,4 +63,3 @@
 [Greg Brockman Person]: {{ site.baseurl }}{% link glossary/g.md %}#greg-brockman-person
 [Grid Search]: {{ site.baseurl }}{% link glossary/g.md %}#grid-search
 [Gshard Model]: {{ site.baseurl }}{% link glossary/g.md %}#gshard-model
-[GSMK Dataset]: {{ site.baseurl }}{% link glossary/g.md %}#gsmk-dataset

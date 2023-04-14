@@ -54,6 +54,7 @@ layout: page
 
  More at:
   * [https://www.businessinsider.com/sam-altman-chatgpt-openai-ceo-career-net-worth-ycombinator-prepper-2023-1](https://www.businessinsider.com/sam-altman-chatgpt-openai-ceo-career-net-worth-ycombinator-prepper-2023-1)
+  * [http://startupclass.samaltman.com/](http://startupclass.samaltman.com/)
 
  See also [S], ...
 
@@ -655,6 +656,13 @@ Social robots also work as concierges in hotels and other settings like malls, w
  See also [S], [CycleGAN]
 
 
+# Speech Recognition
+
+ Possible thanks to [Recurrent Neural Network] such as [LSTM Network]
+
+ See also [S], ...
+
+
 # Speech-To-Text
 
 # STT
@@ -820,6 +828,9 @@ Completely different from [artificial neural networks][Artificial Neural Network
 
  A preferred activation function which is continuous in 0 is the [sigmoid][Sigmoid Activation Function]
 
+ More at:
+  * [https://en.wikipedia.org/wiki/Heaviside_step_function](https://en.wikipedia.org/wiki/Heaviside_step_function)
+
  See also [S], ...
 
 
@@ -951,6 +962,8 @@ Completely different from [artificial neural networks][Artificial Neural Network
 
  `provide labelled training data` (picture of a dog, with label this is a dog!). Ex:
    * Regression (predicting the price that a house will sell for)
+     * Simple [linear regression]
+     * multi regression
    * Classification (Cat or not cat?)
    * Random forest.
  

@@ -180,6 +180,7 @@ layout: page
 
  More at:
   * [http://hunterheidenreich.com/blog/what-is-a-gan/](http://hunterheidenreich.com/blog/what-is-a-gan/)
+  * GAN with Keras - [https://python.plainenglish.io/exploring-generative-adversarial-networks-gans-in-two-dimensional-space-922ee342b253](https://python.plainenglish.io/exploring-generative-adversarial-networks-gans-in-two-dimensional-space-922ee342b253)
 
  See also [G], [AR-CNN], [Convolutional Neural Network], [Conditional GAN], [Cycle GAN], [DeepComposer], [Discriminator], [Generative Model], [Generator]
 
@@ -401,6 +402,15 @@ layout: page
  Companies
   * [DeepMind][DeepMind Company] which built models such as [Chinchilla][Chinchilla Model], [Sparrow][Sparrow Model], [AlphaiFold][AlphaFold Model], and more ... 
 
+ Projects
+  * [Experiments](https://experiments.withgoogle.com/)
+    * [AI Experiments](https://experiments.withgoogle.com/collection/ai)
+      * [Quick Draw](https://quickdraw.withgoogle.com/)
+  * [Teachable Machine](https://teachablemachine.withgoogle.com/)
+    * Pose project - [https://medium.com/@warronbebster/teachable-machine-tutorial-head-tilt-f4f6116f491](https://medium.com/@warronbebster/teachable-machine-tutorial-head-tilt-f4f6116f491)
+    * Image project - [https://medium.com/p/4bfffa765866](https://medium.com/p/4bfffa765866)
+    * Audio project - [https://medium.com/p/4212fd7f3555(https://medium.com/p/4212fd7f3555)
+
  {% youtube "https://www.youtube.com/watch?v=X5iLF-cszu0&t=611s" %}
 
  See also [G], [Company]
@@ -414,6 +424,10 @@ layout: page
 
 
 # Google Translate Model
+
+ Google Translate is a multilingual neural machine translation service developed by Google to translate text, documents and websites from one language into another. It offers a website interface, a mobile app for Android and iOS, and an API that helps developers build browser extensions and software applications. As of April 2023, Google Translate supports 133 languages at various levels, and as of April 2016, claimed over 500 million total users, with more than 100 billion words translated daily, after the company stated in May 2013 that it served over 200 million people daily.
+
+ Launched in April 2006 as a statistical machine translation service, it used United Nations and European Parliament documents and transcripts to gather linguistic data. Rather than translating languages directly, it first translates text to English and then pivots to the target language in most of the language combinations it posits in its grid, with a few exceptions including Catalan-Spanish. During a translation, it looks for patterns in millions of documents to help decide which words to choose and how to arrange them in the target language. Its accuracy, which has been criticized on several occasions, has been measured to vary greatly across languages. In November 2016, Google announced that Google Translate would switch to a neural machine translation engine – Google Neural Machine Translation (GNMT) – which translates "whole sentences at a time, rather than just piece by piece. It uses this broader context to help it figure out the most relevant translation, which it then rearranges and adjusts to be more like a human speaking with proper grammar".
 
  {% youtube "https://www.youtube.com/watch?v=_GdSC1Z1Kzs" %}
 
@@ -468,6 +482,21 @@ layout: page
  See also [G], ...
 
 
+# Grade School Math Dataset
+
+# GSM8K Dataset
+
+ GSM8K is a dataset of 8.5K high quality linguistically diverse grade school math word problems created by human problem writers. The dataset is segmented into 7.5K training problems and 1K test problems. These problems take between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations (+ − ×÷) to reach the final answer. A bright middle school student should be able to solve every problem. It can be used for multi-step mathematical reasoning.
+
+ More at
+  * research and samples - [https://openai.com/research/solving-math-word-problems](https://openai.com/research/solving-math-word-problems)
+  * paper - [https://paperswithcode.com/paper/training-verifiers-to-solve-math-word](https://paperswithcode.com/paper/training-verifiers-to-solve-math-word)
+  * site - [https://github.com/openai/grade-school-math](https://github.com/openai/grade-school-math)
+  * dataset - [https://paperswithcode.com/dataset/gsm8k](https://paperswithcode.com/dataset/gsm8k)
+
+ See also [G], [Dataset], [OpenAI Company], [PaLM Model]
+
+
 # Gradient
 
  A gradient is the direction and magnitude calculated during the training of a neural network it is used to teach the network weights in the right direction by the right amount.
@@ -501,6 +530,20 @@ layout: page
  One of the shining successes in machine learning is the gradient descent algorithm (and its modified counterpart, stochastic gradient descent). Gradient descent is an iterative method for finding the minimum of a function. In machine learning, that function is typically the loss (or cost) function. "Loss" is simply some metric that quantifies the cost of wrong predictions. Gradient descent calculates the loss achieved by a model with a given set of parameters, and then alters those parameters to reduce the loss. It repeats this process until that loss can't substantially be reduced further. The final set of parameters that minimize the loss now define your fitted model. 
 
  {% youtube "https://www.youtube.com/watch?v=OkmNXy7er84" %}
+
+ Gradient descent
+  * stochastic gradient descent
+  * momentum gradient
+  * nesterov accelerated gradient
+  * ada gradient
+  * adadelta gradient
+  * adaptive momentum estimation
+  * nag ?
+  * rmsprop ?
+
+ {% youtube "https://www.youtube.com/watch?v=nhqo0u1a6fw" %}
+
+ {% youtube "https://www.youtube.com/watch?v=4F0_V_0OO2Q" %}
 
  ![]( {{site.assets}}/g/gradient_descent.png ){: width="100%"}
 
@@ -641,15 +684,3 @@ layout: page
   * [https://arxiv.org/abs/2006.16668](https://arxiv.org/abs/2006.16668)
 
  See also [G], [Google Company], [Sparse Activation]
-
-
-# GSMK Dataset
-
- GSM8K is a dataset of 8.5K high quality linguistically diverse grade school math word problems created by human problem writers. The dataset is segmented into 7.5K training problems and 1K test problems. These problems take between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations (+ − ×÷) to reach the final answer. A bright middle school student should be able to solve every problem. It can be used for multi-step mathematical reasoning.
-
- More at
-  * paper - [https://paperswithcode.com/paper/training-verifiers-to-solve-math-word](https://paperswithcode.com/paper/training-verifiers-to-solve-math-word)
-  * site - [https://github.com/openai/grade-school-math](https://github.com/openai/grade-school-math)
-  * dataset - [https://paperswithcode.com/dataset/gsm8k](https://paperswithcode.com/dataset/gsm8k)
-
- See also [G], [Dataset], [OpenAI Company], [PaLM Model]

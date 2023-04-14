@@ -43,7 +43,7 @@
 [Logistic Regression]: {{ site.baseurl }}{% link glossary/l.md %}#logistic-regression
 [Long Short Term Memory Cell]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-cell
 [LSTM Cell]: {{ site.baseurl }}{% link glossary/l.md %}#lstm-cell
-[Long Short Term Memory Network]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-network
+[Long Short-Term Memory Network]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-network
 [LSTM Network]: {{ site.baseurl }}{% link glossary/l.md %}#lstm-network
 [Loss Function]: {{ site.baseurl }}{% link glossary/l.md %}#loss-function
 [Loss Graph]: {{ site.baseurl }}{% link glossary/l.md %}#loss-graph

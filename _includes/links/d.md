@@ -35,6 +35,7 @@
 [DCGAN]: {{ site.baseurl }}{% link glossary/d.md %}#dcgan
 [Deep Belief]: {{ site.baseurl }}{% link glossary/d.md %}#deep-belief
 [Deep Blue Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#deep-bleu-challenge
+[Deep Brain]: {{ site.baseurl }}{% link glossary/d.md %}#deep-brain
 [Deep Learning]: {{ site.baseurl }}{% link glossary/d.md %}#deep-learning
 [Deep Learning Framework]: {{ site.baseurl }}{% link glossary/d.md %}#deep-learning-framework
 [Deep Multi-Task Learning]: {{ site.baseurl }}{% link glossary/d.md %}#deep-multi-task-learning

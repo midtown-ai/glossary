@@ -84,6 +84,16 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], ...
 
 
+# National Science Foundation
+
+# NSF
+
+ * Founding source
+   * D Research Learning - [https://www.nsf.gov/div/index.jsp?div=DRL](https://www.nsf.gov/div/index.jsp?div=DRL)
+
+ See also [N], [AI4K12]
+
+
 # Natural Intelligence
 
  See also [N], [Artificial Intelligence]
@@ -248,6 +258,19 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], [Artificial Neural Network], [AutoML]
 
 
+# Neural Information Processing Systems Conference
+
+# NeurIPS Conference
+
+ The most important [AI Conference] related to [Deep Learning]
+
+ More at:
+  * [https://neurips.cc/](https://neurips.cc/)
+  * [https://en.wikipedia.org/wiki/Conference_on_Neural_Information_Processing_Systems](https://en.wikipedia.org/wiki/Conference_on_Neural_Information_Processing_Systems)
+
+ See also [N], ...
+
+
 # Neural Machine Translation
 
 # NMT
@@ -261,7 +284,7 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  More at:
   * [https://en.wikipedia.org/wiki/Neural_machine_translation](https://en.wikipedia.org/wiki/Neural_machine_translation)
 
- See also [N], ...
+ See also [N], [Google Translate Model]
 
 
 # Neural Network
@@ -314,7 +337,7 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
  {% youtube "https://www.youtube.com/watch?v=VlDx6yzomEg" %}
 
- See also [N], [Company] [MindPong Game]
+ See also [N], [Brain Computer Interface], [Company] [MindPong Game]
 
 
 # Next Sentence Prediction
@@ -477,6 +500,9 @@ plt.imshow(photo[:,:,0].T)       # Multiple transformation at once!
   * [Megatron Model] : NLP large language model
   * [RIVA Model] : text-to-speech model
   * [VIMA Model] : multi-modal ? model for robots?
+
+ SDK
+  * [TensorRT SDK]
 
  Metaverse
   * [Omniverse] : The metaverse by Nvidia!

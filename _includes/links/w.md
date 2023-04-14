@@ -9,6 +9,7 @@
 [Weak Learner]: {{ site.baseurl }}{% link glossary/w.md %}#weak-learner
 [Weak-Supervised Learning]: {{ site.baseurl }}{% link glossary/w.md %}#weak-supervised-learning
 [Weak Supervision Labeling Function]: {{ site.baseurl }}{% link glossary/w.md %}#weak-supervision-labeling-function
+[Web Scraping]: {{ site.baseurl }}{% link glossary/w.md %}#web-scraping
 [Weight]: {{ site.baseurl }}{% link glossary/w.md %}#weight
 [Weighted Gini Impurity Index]: {{ site.baseurl }}{% link glossary/w.md %}#weighted-gini-impurity-index
 [Weighted Input]: {{ site.baseurl }}{% link glossary/w.md %}#weighted-input

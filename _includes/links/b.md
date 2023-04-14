@@ -45,3 +45,5 @@
 [Boston Dynamics Company]: {{ site.baseurl }}{% link glossary/b.md %}#boston-dynamics-company
 [Box Cox Transformation]: {{ site.baseurl }}{% link glossary/b.md %}#box-cox-transformation
 [Brain]: {{ site.baseurl }}{% link glossary/b.md %}#brain
+[Brain Computer Interface]: {{ site.baseurl }}{% link glossary/b.md %}#brain-computer-interface
+[BC Interface]: {{ site.baseurl }}{% link glossary/b.md %}#bc-interface

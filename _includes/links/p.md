@@ -8,6 +8,7 @@
 [Pathways Language Model Embodied]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-language-model-embodied
 [PaLM-E Model]: {{ site.baseurl}}{% link glossary/p.md %}#palm-e-model
 [Pathways Model Architecture]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-model-architecture
+[Pattern Recognition]: {{ site.baseurl}}{% link glossary/p.md %}#pattern-recognition
 [People]: {{ site.baseurl}}{% link glossary/p.md %}#people
 [Pepper Robot]: {{ site.baseurl}}{% link glossary/p.md %}#pepper-robot
 [Perceiver IO Model]: {{ site.baseurl}}{% link glossary/p.md %}#perceiver-io-model
@@ -27,6 +28,7 @@
 [Policy Gradient Solution]: {{ site.baseurl}}{% link glossary/p.md %}#policy-gradient-solution
 [Policy Neural Network]: {{ site.baseurl}}{% link glossary/p.md %}#policy-neural-network
 [Polynomial Regression]: {{ site.baseurl}}{% link glossary/p.md %}#polynomial-regression
+[Pose Estimation]: {{ site.baseurl}}{% link glossary/p.md %}#pose-estimation
 [Positional Encoding]: {{ site.baseurl}}{% link glossary/p.md %}#positional-encoding
 [Positive Attribute]: {{ site.baseurl}}{% link glossary/p.md %}#positive-attribute
 [Pre-Trained Model]: {{ site.baseurl}}{% link glossary/p.md %}#pre-trained-model

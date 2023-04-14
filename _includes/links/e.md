@@ -2,6 +2,7 @@
 
 [Early Stopping]: {{site.baseurl }}{% link glossary/e.md %}#early-stopping
 [Early Stopping Epoch]: {{site.baseurl }}{% link glossary/e.md %}#early-stopping-epoch
+[Edge Detection]: {{site.baseurl }}{% link glossary/e.md %}#edge-detection
 [Eigenvalue]: {{site.baseurl }}{% link glossary/e.md %}#eigenvalue
 [Eigenvector]: {{site.baseurl }}{% link glossary/e.md %}#eigenvector
 [Elastic Net]: {{site.baseurl }}{% link glossary/e.md %}#elastic-net
@@ -31,8 +32,11 @@
 [Epoch]: {{site.baseurl }}{% link glossary/e.md %}#epoch
 [Ernie Bot]: {{site.baseurl }}{% link glossary/e.md %}#ernie-bot
 [Error]: {{site.baseurl }}{% link glossary/e.md %}#error
+[ESM Metagenomic Atlas]: {{site.baseurl }}{% link glossary/e.md %}#esm-metagenomic-atlas
 [Estimator]: {{site.baseurl }}{% link glossary/e.md %}#estimator
 [Ethical AI]: {{site.baseurl }}{% link glossary/e.md %}#ethical-ai
+[Evolutionary Scale Modeling]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-modeling
+[ESM]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-modeling
 [Ex Machina Movie]: {{site.baseurl }}{% link glossary/e.md %}#ex-machina-movie
 [Example-Based Machine Translation]: {{site.baseurl }}{% link glossary/e.md %}#example-based-machine-translation
 [EBMT]: {{site.baseurl }}{% link glossary/e.md %}#ebmt

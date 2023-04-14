@@ -376,6 +376,25 @@ layout: page
  See also [D], [AI Challenge]
 
 
+# Deep Brain
+
+ Combination of a brain scan and a [diffusion model] ?
+
+ {% youtube "https://www.youtube.com/watch?v=rSpYEAUDiU0" %}
+
+ {% youtube "https://www.youtube.com/watch?v=rSpYEAUDiU0" %}
+
+ {% pdf "https://www.biorxiv.org/content/10.1101/2022.11.18.517004v3.full.pdf" %}
+
+ More at:
+  * home - [https://sites.google.com/view/stablediffusion-with-brain/home](https://sites.google.com/view/stablediffusion-with-brain/home) 
+  * paper - [https://www.biorxiv.org/content/10.1101/2022.11.18.517004v2](https://www.biorxiv.org/content/10.1101/2022.11.18.517004v2)
+  * FAQ - [https://sites.google.com/view/stablediffusion-with-brain/faq_en](https://sites.google.com/view/stablediffusion-with-brain/faq_en)
+  * [https://github.com/yu-takagi/StableDiffusionReconstruction](https://github.com/yu-takagi/StableDiffusionReconstruction)
+
+ See also [D], [BCI Interface]
+
+
 # Deep Convolutional GAN
 
 # DCGAN

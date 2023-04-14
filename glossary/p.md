@@ -68,6 +68,8 @@ layout: page
 # PaLM-E Model
 
  An embodied multimodal language model developed by [Google][Google Company] and based on the existing [PaLM Model]
+
+ {% youtube "https://www.youtube.com/watch?v=2BYC4_MMs8I" %}
  
  More at:
   * [https://ai.googleblog.com/2023/03/palm-e-embodied-multimodal-language.html](https://ai.googleblog.com/2023/03/palm-e-embodied-multimodal-language.html)
@@ -87,6 +89,17 @@ layout: page
   See also [P], [Google Company], [Multimodal Learning], [PaLM Model], [Sparse Activation]
 
 
+# Pattern Recognition
+
+ Pattern recognition is the automated recognition of patterns and regularities in data. It has applications in statistical data analysis, signal processing, image analysis, information retrieval, bioinformatics, data compression, computer graphics and machine learning. Pattern recognition has its origins in statistics and engineering; some modern approaches to pattern recognition include the use of machine learning, due to the increased availability of big data and a new abundance of processing power.
+
+ More at:
+  * quickdraw - [https://experiments.withgoogle.com/quick-draw](https://experiments.withgoogle.com/quick-draw)
+  * [https://en.wikipedia.org/wiki/Pattern_recognition](https://en.wikipedia.org/wiki/Pattern_recognition)
+
+ See also [P], [Hand Gesture Recognition]
+
+
 # People
 
  People
@@ -95,6 +108,7 @@ layout: page
   * [Andrew Ng][Andrew Ng Person]: Cofounder and head of [Google Brain][Google Company] and was the former Chief Scientist at [Baidu][Baidu Company]
   * [Bill Gates][Bill Gates Person]: Founder and now chairman at [Microsoft][Microsoft Company]
   * [Elon Musk][Elon Musk Person]: CEO of Tesla
+  * [Eric Schmidt][Eric Schmidt Person]: Chairman of Alphabet / [Google][Google Company]
   * [Geoffrey Hinton][Geoffrey Hinton Person]: Lead his student with [AlexNet][AlexNet Model], a godfather of AI and [Deep Learning]. Turing award in 2018.
   * [Greg Brockman][Greg Brockman Person]: Co-founder of [OpenAI][OpenAI Company]
   * [Ilya Sutskever][Ilya Sutskever Person]: Co-founder of [OpenAI][OpenAI Company]
@@ -103,6 +117,9 @@ layout: page
   * [Yann LeCun][Yann LeCun Person]: Turing award in 2018 for work on [Deep Learning]
   * [Yoshua Bengio][Yoshua Bengio Person]: Professor at the Department of Computer Science at the Université de Montréal. Turing award in 2018 for work on [Deep Learning]
   * ...
+
+  Others
+   * Manuela Veloso - Carnegie Mellon University and Head of research at JPMC
 
  See also [P], [AI Movie], [Company]
 
@@ -145,7 +162,7 @@ layout: page
 
  A neural network consisting of only 1 layer and 1 neuron.
 
- Note that a perceptron is a prototype of a modern [artificial neuron] , except it does not have an [activation function]
+ Note that a perceptron is a prototype of a modern [artificial neuron] , except it does not have an [activation function] ? Not sure!
 
  The perceptron was invented in 1943 by McCulloch and Pitts.
 
@@ -153,6 +170,8 @@ layout: page
 
  More at:
   * [https://en.wikipedia.org/wiki/Perceptron](https://en.wikipedia.org/wiki/Perceptron)
+  * inventor - [https://en.wikipedia.org/wiki/Frank_Rosenblatt](https://en.wikipedia.org/wiki/Frank_Rosenblatt)
+  * book ? - [https://direct.mit.edu/books/book/3132/PerceptronsAn-Introduction-to-Computational](https://direct.mit.edu/books/book/3132/PerceptronsAn-Introduction-to-Computational)
 
  See also [P], ...
 
@@ -314,6 +333,17 @@ layout: page
   * code - [https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html#examples-using-sklearn-preprocessing-polynomialfeatures](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html#examples-using-sklearn-preprocessing-polynomialfeatures)
 
  See also [P], [Cubic Regression], [Quadratic Regression], [Regression]
+
+
+# Pose Estimation
+
+ Can be estimated by [YOLO models][YOLO Model]
+
+ More at:
+  * [https://docs.ultralytics.com/tasks/pose/](https://docs.ultralytics.com/tasks/pose/)
+  * Teachable Machine project - [https://medium.com/@warronbebster/teachable-machine-tutorial-head-tilt-f4f6116f491](https://medium.com/@warronbebster/teachable-machine-tutorial-head-tilt-f4f6116f491)
+
+ See also [P], ...
 
 
 # Positional Encoding

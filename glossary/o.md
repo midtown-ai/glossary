@@ -31,10 +31,13 @@ layout: page
 
 # Object Detection
 
+ ![]( {{site.assets}}/o/object_detection.png ){: width="100%"}
+
  More at:
   * [https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b](https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b)
+  * [https://docs.ultralytics.com/tasks/detect/](https://docs.ultralytics.com/tasks/detect/)
 
- See also [O], [Computer Vision], [Convoluted Neural Network]
+ See also [O], [Computer Vision], [Convolutional Neural Network], [Image Segmentation]
 
 
 # Object Recognition
@@ -143,6 +146,28 @@ cheese =>                                   # Prompt
  See also [O], [Encoder], [Few-Shot Learning], [Siamese Network], [Similarity Function], [Transfer Learning], [Zero-Shot Learning], [Zero-Shot Task Transfer]
 
 
+# Online Machine Learning
+
+ In computer science, online machine learning is a method of machine learning in which data becomes available in a sequential order and is used to update the best predictor for future data at each step, as opposed to batch learning techniques which generate the best predictor by learning on the entire training data set at once. Online learning is a common technique used in areas of machine learning where it is computationally infeasible to train over the entire dataset, requiring the need of out-of-core algorithms. It is also used in situations where it is necessary for the algorithm to dynamically adapt to new patterns in the data, or when the data itself is generated as a function of time, e.g., stock price prediction. Online learning algorithms may be prone to catastrophic interference, a problem that can be addressed by incremental learning approaches.
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Online_machine_learning](https://en.wikipedia.org/wiki/Online_machine_learning)
+
+ See also [O], ...
+
+
+# Open Neural Network Exchange
+
+# ONNX
+
+ A common format to store a model?
+
+ More at:
+  * [https://onnx.ai/](https://onnx.ai/)
+
+ See also [O], [OpenVINO Toolkit]
+
+
 # OpenAI Company
 
  [Microsoft][Microsoft Company] + [OpenAI][OpenAI Company] ~ [Google][Google Company] + [DeepMind][DeepMind Company]
@@ -201,12 +226,33 @@ cheese =>                                   # Prompt
 
 # OpenCV Library
 
+ More at:
+  * Sample project - [https://github.com/ecemay/open_cv_studies](https://github.com/ecemay/open_cv_studies)
+
  See also [O], [Computer Vision]
+
+
+# OpenFold Model
+
+ OpenFold is a non-profit AI research and development consortium developing free and open-source software tools for biology and drug discovery. Our mission is to bring the most powerful software ever created -- AI systems with the ability to engineer the molecules of life -- to everyone. These tools can be used by academics, biotech and pharmaceutical companies, or students learning to create the medicines of tomorrow, to accelerate basic biological research, and bring new cures to market that would be impossible to discover without AI.
+
+ More at:
+  * [https://openfold.io/](https://openfold.io/)
+
+ See also [O], [AlphaFold Model], [ESM Metagenomic Atlas]
+
+
+# OpenVINO Toolkit
+ 
+ More at:
+  * home - [https://docs.openvino.ai/latest/home.html](https://docs.openvino.ai/latest/home.html)
+
+ See also [O], [Open Neural Network Exchange]
 
 
 # Optimization
 
-  See also [O], [Dynamic Programming], [Loss Function], [Optimizer]
+ See also [O], [Dynamic Programming], [Loss Function], [Optimizer]
 
 
 # Optimizer
@@ -231,16 +277,6 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
   * [https://keras.io/api/optimizers/](https://keras.io/api/optimizers/)
 
  See also [O], ...
-
-
-# OpenFold
-
- OpenFold is a non-profit AI research and development consortium developing free and open-source software tools for biology and drug discovery. Our mission is to bring the most powerful software ever created -- AI systems with the ability to engineer the molecules of life -- to everyone. These tools can be used by academics, biotech and pharmaceutical companies, or students learning to create the medicines of tomorrow, to accelerate basic biological research, and bring new cures to market that would be impossible to discover without AI.
-
- More at:
-  * [https://openfold.io/](https://openfold.io/)
-
- See also [O], [DeepFold], [ESM Metagenomic Atlas]
 
 
 # Ordinal Encoding

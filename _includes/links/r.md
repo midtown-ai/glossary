@@ -58,6 +58,7 @@
 [Reward Model]: {{site.baseurl }}{% link glossary/r.md %}#reward-model
 [Reward Shaping]: {{site.baseurl }}{% link glossary/r.md %}#reward-shaping
 [Ridge Regression]: {{site.baseurl }}{% link glossary/r.md %}#ridge-regression
+[Riffusion Model]: {{site.baseurl }}{% link glossary/r.md %}#riffusion-model
 [Riva Model]: {{site.baseurl }}{% link glossary/r.md %}#riva-model
 [Robot]: {{site.baseurl }}{% link glossary/r.md %}#robot
 [RobotSchool]: {{site.baseurl }}{% link glossary/r.md %}#robotschool

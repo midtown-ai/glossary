@@ -41,6 +41,19 @@ layout: page
  See also [C], [Deep Learning Framework]
 
 
+# Carnegie Mellon University
+
+# CMU
+
+ {% youtube "https://www.youtube.com/watch?v=krGtcHHGmpk" %}
+
+ More at:
+  * [https://ai.cs.cmu.edu/](https://ai.cs.cmu.edu/)
+  * research - [https://ai.cs.cmu.edu/research](https://ai.cs.cmu.edu/research)
+
+ See also [C], ...
+
+
 # Case-Based Reasoning
 
 # CBR
@@ -166,17 +179,17 @@ set       <search space>               set
 
  {% youtube "https://www.youtube.com/watch?v=PZXN7jm9IC0" %}
 
- {% pdf "{{site.assets}}/c/chinchilla_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2203.15556.pdf" %}
 
  More at:
-  * Training Compute-Optimal Large Language Models (Paper) - [https://arxiv.org/abs/2203.15556](https://arxiv.org/abs/2203.15556)
+  * paper - [https://arxiv.org/abs/2203.15556](https://arxiv.org/abs/2203.15556)
 
  See also [C], ...
 
 
 # CIDEr Score
 
- See also [C], [MS COCO Caption Dataset]
+ See also [C], [MSFT COCO Caption Dataset]
 
 
 # CICERO Model
@@ -228,7 +241,12 @@ set       <search space>               set
 
 # Claude Model
 
+ {% youtube "https://www.youtube.com/watch?v=KB5r9xmrQBY" %}
+
  {% pdf "{{site.assets}}/c/claude_model_paper.pdf" %}
+
+ More at:
+  * cost estimate - [https://orenleung.com/anthropic-claude-next-cost](https://orenleung.com/anthropic-claude-next-cost)
 
  See also [C], [Anthropic Company]
 
@@ -357,6 +375,21 @@ set       <search space>               set
  See also [C], [Convoluted Neural Network], [OpenCV Library], [ResNET Model]
 
 
+# Computer Vision and Pattern Recognition Conference
+
+# CVPR Conference
+
+ An [AI conference] related to [computer vision] and [pattern recognition]
+
+ More at:
+  * twitter - [https://twitter.com/cvpr/](https://twitter.com/cvpr/)
+  * [https://cvpr2023.thecvf.com/](https://cvpr2023.thecvf.com/)
+  * [https://cvpr2022.thecvf.com/](https://cvpr2022.thecvf.com/)
+  * [https://cvpr2021.thecvf.com/](https://cvpr2021.thecvf.com/)
+
+ See also [C], ...
+
+
 # Concept Video
 
  Here is an example of concept video of a Knoledge Navigator that later became the [Siri Virtual Assistant]
@@ -478,6 +511,18 @@ set       <search space>               set
  See also [C], [CLIP Image Encoder], [CLIP Text Encoder], [Embedding Space], [Vision Transformer], [VQGAN]
 
 
+# Contrastive Learning
+
+ {% youtube "https://www.youtube.com/watch?v=sftIkJ8MYL4" %}
+
+ See also [C], [Contrastive Loss]
+
+
+# Contrastive Loss Function
+
+ See also [C], [Contrastive Learning], [Loss Function]
+
+
 # Convolution
 
  In math, Convolution = Merging the shape of 2 functions together. Ex: Function that fires fireworks * smoke for 1 firework overtime = smoke in the air at a specific time ( = cumulative add all contribution of all firework)
@@ -577,6 +622,33 @@ set       <search space>               set
  See also [C], [NLP Benchmark]
 
 
+# CoreML Format
+
+ Format for ML models to load on devices made by [Apple Company]
+
+ See also [C], ...
+
+
+# CoreML Framework
+
+ Switch UI programming language
+
+ More at:
+  * [https://developer.apple.com/documentation/coreml](https://developer.apple.com/documentation/coreml)
+
+ See also [C], [CoreML Format], [CoreML Tool]
+
+
+# CoreML Tool
+
+ Tools to convert models to [CoreML Format], etc and integrate a model in [CoreML Framework]
+
+ More at:
+  * [ihttps://coremltools.readme.io/docs](https://coremltools.readme.io/docs)
+
+ See also [C], ...
+
+
 # Corpus
 
  GPT-3 is pre-trained on a corpus of text from five datasets: Common Crawl, WebText2, Books1, Books2, and Wikipedia..
@@ -606,6 +678,18 @@ set       <search space>               set
 # CPU
 
  See also [C], [GPU], [Lambda], [Hyperparameter Optimization]
+
+
+# CreateML Application
+
+ An application to easily create ML models
+
+ {% youtube "https://www.youtube.com/watch?v=49D0T8_O4OE" %}
+
+ More at:
+  * [https://developer.apple.com/videos/play/wwdc2022/110332/](https://developer.apple.com/videos/play/wwdc2022/110332/)
+
+ See also [C], [CoreML Framework]
 
 
 # Critical Assessment of Structure Prediction Challenge

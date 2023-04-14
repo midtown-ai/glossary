@@ -67,8 +67,10 @@
 [Model Agnostic Meta Learning]: {{ site.baseurl }}{% link glossary/m.md %}#model-agnostic-meta-learning
 [Model Benchmark]: {{ site.baseurl }}{% link glossary/m.md %}#model-benchmark
 [Model Card]: {{ site.baseurl }}{% link glossary/m.md %}#model-card
-[Model Drift]: {{ site.baseurl }}{% link glossary/m.md %}#model-drift
 [Model Data Sheet]: {{ site.baseurl }}{% link glossary/m.md %}#model-data-sheet
+[Model Drift]: {{ site.baseurl }}{% link glossary/m.md %}#model-drift
+[Model Format]: {{ site.baseurl }}{% link glossary/m.md %}#model-format
+[Model Hub]: {{ site.baseurl }}{% link glossary/m.md %}#model-hub
 [Model Tuning]: {{ site.baseurl }}{% link glossary/m.md %}#model-tuning
 [Model Type]: {{ site.baseurl }}{% link glossary/m.md %}#model-type
 [Modified National Institute Standards And Technology Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset

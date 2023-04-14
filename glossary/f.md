@@ -62,6 +62,19 @@ layout: page
  See also [F], ...
 
 
+# Fake Art
+
+ More at:
+  * [https://nypost.com/2023/04/05/how-frightening-new-ai-midjourney-creates-realistic-fake-art/](https://nypost.com/2023/04/05/how-frightening-new-ai-midjourney-creates-realistic-fake-art/)
+
+ See also [F], ...
+
+
+# Fake News
+
+  See also [F], ...
+
+
 # Fashion MNIST Dataset
 
  See also [F], [MNIST Dataset]

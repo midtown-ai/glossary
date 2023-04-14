@@ -238,6 +238,12 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 # AI Alignment
 
+ In the field of artificial intelligence (AI), AI alignment research aims to steer AI systems towards their designers’ intended goals and interests. An aligned AI system advances the intended objective; a misaligned AI system is competent at advancing some objective, but not the intended one.
+
+ Examples:
+  * [https://openai.casa/alignment/](https://openai.casa/alignment/)
+    * [https://openai.casa/blog/our-approach-to-alignment-research/index.html](https://openai.casa/blog/our-approach-to-alignment-research/index.html)
+
  {% youtube "https://www.youtube.com/watch?v=EUjc1WuyPT8" %}
 
  {% youtube "https://www.youtube.com/watch?v=cSL3Zau1X8g" %}
@@ -253,6 +259,8 @@ First, we believe the clearest framing of general intelligence is a system that 
 
  More at :
   * [https://scottaaronson.blog/?p=6823](https://scottaaronson.blog/?p=6823)
+  * wikipedia - [https://en.wikipedia.org/wiki/AI_alignment](https://en.wikipedia.org/wiki/AI_alignment)
+  * Misaligned goals - [https://en.wikipedia.org/wiki/Misaligned_goals_in_artificial_intelligence](https://en.wikipedia.org/wiki/Misaligned_goals_in_artificial_intelligence)
   * is RLHF flawed? - [https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the](https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the)
   * more videos
     * [https://www.youtube.com/watch?v=k6M_ScSBF6A](https://www.youtube.com/watch?v=k6M_ScSBF6A)
@@ -279,16 +287,103 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [Deep Fake], [Synthesia Company]
 
 
+# AI Award
+
+ See also [A], ...
+
+
+# AI Bill of Rights
+
+ In October, the White House released a 70-plus-page document called the “Blueprint for an A.I. Bill of Rights.” The document’s ambition was sweeping. It called for the right for individuals to “opt out” from automated systems in favor of human ones, the right to a clear explanation as to why a given A.I. system made the decision it did, and the right for the public to give input on how A.I. systems are developed and deployed.
+
+ For the most part, the blueprint isn’t enforceable by law. But if it did become law, it would transform how A.I. systems would need to be devised. And, for that reason, it raises an important set of questions: What does a public vision for A.I. actually look like? What do we as a society want from this technology, and how can we design policy to orient it in that direction?
+
+ {% pdf "{{site.assets}}/a/ai_bill_of_rights.pdf" %}
+
+ More at:
+  * [https://www.whitehouse.gov/ostp/ai-bill-of-rights/](https://www.whitehouse.gov/ostp/ai-bill-of-rights/)
+  * podcast - [https://www.nytimes.com/2023/04/11/opinion/ezra-klein-podcast-alondra-nelson.html](https://www.nytimes.com/2023/04/11/opinion/ezra-klein-podcast-alondra-nelson.html)
+
+ See also [A], [AI Principle]
+
+
 # AI Book
 
  * [A Thousand Brains](https://www.gatesnotes.com/A-Thousand-Brains)
+ * Artificial Intelligence: A Modern Approach
+   * [https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach)
+   * book site - [http://aima.cs.berkeley.edu/contents.html](http://aima.cs.berkeley.edu/contents.html)
+   * exercise - [https://aimacode.github.io/aima-exercises/](https://aimacode.github.io/aima-exercises/)
 
   See also [A], [AI Company], [AI Movie]
+
+
+# AI Conference
+
+ In order of importance? (Not sure about the last one!)
+
+ 1. [ICLR Conference] - International Conference on Learning Representations since 2013
+ 1. [NeurIPS Conference] - Neural networks since 1986
+ 1. [ICML Conference] - International conference on Machine learning since 1980
+ 1. [AAAI Conference](https://aaai-23.aaai.org/)
+   * [AAAI] and [ACM Conference](https://www.aies-conference.com/) on AI ethics and society
+ 1.  [Computer Vision and Pattern Recognition][Computer Vision and Pattern Recognition Conference]
+   * includes symposium - [AI For Content Creation][AI for Content Creation Conference]
+ 1. All other conferences
+
+ More at:
+  * [https://scholar.google.es/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence](https://scholar.google.es/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence)
+
+ See also [A], ...
+
+
+# AI Control
+
+ A risk of [AGI], where humans lose control of the [AI]
+
+ See also [A], ...
 
 
 # AI Ethics
 
  See [Ethical AI]
+
+
+# AI Explosion
+
+A risk of [AGI]
+
+ See also [A], ...
+
+
+# AI For Content Creation Conference
+
+# AI4CC Conference
+
+ [AI Conference] that takes place at the same time as the [CVPR Conference]
+
+ More at:
+  * [https://ai4cc.net/](https://ai4cc.net/)
+  * [https://ai4cc.net/2022/](https://ai4cc.net/2022/)
+  * [https://ai4cc.net/2021/](https://ai4cc.net/2021/)
+  * [https://ai4cc.net/2020/](https://ai4cc.net/2020/)
+  * [https://ai4cc.net/2019/](https://ai4cc.net/2019/)
+
+ See also [A], ...
+
+
+# AI Job
+
+ * [https://careers.aaai.org/](https://careers.aaai.org/)
+
+ See also [A], ...
+
+
+# AI Magazine
+
+ * [https://aaai.org/ai-magazine/](https://aaai.org/ai-magazine/)
+
+ See also [A], ...
 
 
 # AI Moratorium
@@ -396,25 +491,34 @@ First, we believe the clearest framing of general intelligence is a system that 
   * Asilomar conference - [https://futureoflife.org/event/bai-2017/](https://futureoflife.org/event/bai-2017/)
   * Entire conference playlist - [https://www.youtube.com/playlist?list=PLpxRpA6hBNrwA8DlvNyIOO9B97wADE1tr](https://www.youtube.com/playlist?list=PLpxRpA6hBNrwA8DlvNyIOO9B97wADE1tr)
 
- See also [A], ...
+ See also [A], [AI Bill Of Rights]
 
 
 # AI Research
+
+ Publications
+  * AI Journal - [https://www.sciencedirect.com/journal/artificial-intelligence/issues](https://www.sciencedirect.com/journal/artificial-intelligence/issues)
 
  Research labs:
   * Individuals
    * Sander Dieleman at [DeepMind][Deepmind Company] - [https://sander.ai/research/](https://sander.ai/research/)
   * Universities
-   * [Berkeley](https://ml.berkeley.edu/research)
+   * [Berkeley](https://ml.berkeley.edu/research) [@berkeley_ai](https://twitter.com/berkeley_ai)
    * [Stanford AI Lab](https://ai.stanford.edu/blog/)
-  * For profit
+   * [MIT CSAIL](https://www.csail.mit.edu/)
+   * [Carnegie Mellon Universityi](https://ai.cs.cmu.edu/)
+   * [Princeton](https://www.cs.princeton.edu/research/areas/mlearn)
+     * [https://3dvision.princeton.edu/](https://3dvision.princeton.edu/)
+   * [Yale University](https://cpsc.yale.edu/research/primary-areas/artificial-intelligence-and-machine-learning)
+  * For profit organizations
    * Facebook - [https://ai.facebook.com/blog/](https://ai.facebook.com/blog/)
    * Google 
     * [https://research.google/](https://research.google/)
     * cloud-AI - [https://research.google/teams/cloud-ai/](https://research.google/teams/cloud-ai/)
     * Blog - [https://blog.google/technology/ai/](https://blog.google/technology/ai/)
-  * Non-profit
+  * Non-profit organizations
     * [Eleuther AI](https://blog.eleuther.ai/)
+    * [AI Topics] managed by the [AAAI]
 
  When to start research?
   * Look at the business impact
@@ -425,16 +529,83 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 # AI Safety
 
- See [AI Alignment]
+ Umbrella term for:
+  * [AI Ethics] - The use of AI does not impact under represented people?
+  * [AI Alignment] - Goal of the AI is aligned with human desired goal?
+  * [Robustness] - Ensure AI systems behave as intended in a wide range of different situations, including rare situations
+
+ More at:
+  * Safety neglect in 1979? - [https://en.wikipedia.org/wiki/Robert_Williams_(robot_fatality)](https://en.wikipedia.org/wiki/Robert_Williams_(robot_fatality))
+  * Death of Elaine H by self driving car - [https://en.wikipedia.org/wiki/Death_of_Elaine_Herzberg](https://en.wikipedia.org/wiki/Death_of_Elaine_Herzberg) 
+  * Goodhart's law - [https://en.wikipedia.org/wiki/Goodhart%27s_law](https://en.wikipedia.org/wiki/Goodhart%27s_law)
+  * Fake podcast - [https://www.zerohedge.com/political/joe-rogan-issues-warning-after-ai-generated-version-his-podcast-surfaces](https://www.zerohedge.com/political/joe-rogan-issues-warning-after-ai-generated-version-his-podcast-surfaces)
+  * Wikipedia - [https://en.wikipedia.org/wiki/AI_safety](https://en.wikipedia.org/wiki/AI_safety)
+
+ See also [A], ...
+
+
+# AI Stack
+
+ See also [A], ...
+
+
+# AI Topics
+
+ A site managed by the [Association for the Advancement of Artificial Intelligence], a non-profit organization
+
+ More at:
+  * [https://aitopics.org/search](https://aitopics.org/search)
+
+ See also [A], ...
 
 
 # AI Winter
 
  More at:
-  * iFirst - [https://en.wikipedia.org/wiki/History_of_artificial_intelligence#The_first_AI_winter_1974%E2%80%931980](https://en.wikipedia.org/wiki/History_of_artificial_intelligence#The_first_AI_winter_1974%E2%80%931980)
+  * First - [https://en.wikipedia.org/wiki/History_of_artificial_intelligence#The_first_AI_winter_1974%E2%80%931980](https://en.wikipedia.org/wiki/History_of_artificial_intelligence#The_first_AI_winter_1974%E2%80%931980)
   * Second - [https://en.wikipedia.org/wiki/History_of_artificial_intelligence#Bust:_the_second_AI_winter_1987%E2%80%931993](https://en.wikipedia.org/wiki/History_of_artificial_intelligence#Bust:_the_second_AI_winter_1987%E2%80%931993)
 
   See also [A], ...
+
+
+# AI4ALL
+
+ Co-founder Olga Russakovsky and high school students Dennis Kwarteng and Adithi Raghavan discuss their motivations for participating in AI4ALL.
+
+ More at:
+  * twitter - [https://twitter.com/ai4allorg](https://twitter.com/ai4allorg)
+  * home - [https://ai-4-all.org/](https://ai-4-all.org/)
+  * college pathways - [https://ai-4-all.org/college-pathways/](https://ai-4-all.org/college-pathways/)
+  * open learning curriculum - [https://ai-4-all.org/resources/](https://ai-4-all.org/resources/)
+  * Article(s)
+    * [https://medium.com/ai4allorg/changes-at-ai4all-a-message-from-ai4alls-ceo-emily-reid-1fce0b7900c7](https://medium.com/ai4allorg/changes-at-ai4all-a-message-from-ai4alls-ceo-emily-reid-1fce0b7900c7)
+    * [https://www.princeton.edu/news/2018/09/17/princetons-first-ai4all-summer-program-aims-diversify-field-artificial-intelligence](https://www.princeton.edu/news/2018/09/17/princetons-first-ai4all-summer-program-aims-diversify-field-artificial-intelligence
+
+ See also [A], ...
+
+
+# AI4K12
+
+ {% pdf "https://ai4k12.org/wp-content/uploads/2021/08/Touretzky_Gardner-McCune_AI-Thinking_2021.pdf" %}
+
+ More at:
+  * twitter - [https://twitter.com/ai4k12](https://twitter.com/ai4k12)
+  * home - [https://ai4k12.org](https://ai4k12.org)
+  * big ideas - [https://ai4k12.org/resources/big-ideas-poster/](https://ai4k12.org/resources/big-ideas-poster/) 
+    * big idea 1 - [https://ai4k12.org/big-idea-1-overview/](https://ai4k12.org/big-idea-1-overview/) - perception
+    * big idea 2 - [https://ai4k12.org/big-idea-2-overview/](https://ai4k12.org/big-idea-2-overview/) - representation reasoning
+    * big idea 3 - [https://ai4k12.org/big-idea-3-overview/](https://ai4k12.org/big-idea-3-overview/) - learning
+    * big idea 4 - [https://ai4k12.org/big-idea-4-overview/](https://ai4k12.org/big-idea-4-overview/) - natural interaction
+    * big idea 5 - [https://ai4k12.org/big-idea-5-overview/](https://ai4k12.org/big-idea-5-overview/) - societal impact
+  * wiki - [https://github.com/touretzkyds/ai4k12/wiki](https://github.com/touretzkyds/ai4k12/wiki)
+  * code - [https://github.com/touretzkyds/ai4k12](https://github.com/touretzkyds/ai4k12)
+  * activities - [https://ai4k12.org/activities/](https://ai4k12.org/activities/)
+  * resources - [https://ai4k12.org/resources/](https://ai4k12.org/resources/)
+  * people - [https://ai4k12.org/working-group-and-advisory-board-members/](https://ai4k12.org/working-group-and-advisory-board-members/)
+    * Sheena Vaidyanathan - [https://www.linkedin.com/in/sheena-vaidyanathan-9ba9b134/](https://www.linkedin.com/in/sheena-vaidyanathan-9ba9b134/)
+  * NSF grant - DRL-1846073 - [https://www.nsf.gov/awardsearch/showAward?AWD_ID=1846073](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1846073)
+
+ See also [A], ...
 
 
 # Alan Turing Person
@@ -603,33 +774,21 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 # Amazon Company
 
- See also [A], [Amazon Lex], [Amazon Web Services]
-
-
-# Amazon Lex
-
- Text or Speech conversation.
-
- See also [A], [Amazon Company], [Amazon Web Services]
-
-
-# Amazon Polly
-
- Lifelike speech.
-
- See also [A], [Amazon Company], [Amazon Web Services]
-
-
-# Amazon Recognition
-
- Used for image analysis.
-
- See also [A], [Amazon Company], [Amazon Web Services]
+ See also [A], [Amazon Web Services]
 
 
 # Amazon Web Services
 
- See also [A], [Amazon Company]
+# AWS
+
+ A subsidiary of [Amazon][Amazon Company]
+
+  * [AWS Bedrock] - rival to ChatGPT and DALL-E, foundation models for generative AI
+  * [AWS Lex]
+  * [AWS Polly] - Text to speech service
+  * [AWS Recognition]
+
+ See also [A], ...
 
 
 # Ameca Robot
@@ -661,7 +820,13 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 # Anthropic Company
 
- See also [A], [Claude Model]
+ Models:
+  * [Claude Model]
+
+ More at:
+  * home - [https://anthropic.ai/](https://anthropic.ai/)
+
+ See also [A], ...
 
 
 # Apache MXNet
@@ -676,6 +841,7 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 # Apple Company
 
+ * [CoreML Framework] with the easy to get started [CreateML Application]
  * [Siri Virtual Assistant]
 
  See also [A], [Company]
@@ -730,6 +896,10 @@ argmax(likely_outputs) = [1, 0, 0]
 First, we believe the clearest framing of general intelligence is a system that can do anything a human can do in front of a computer. A foundation model for actions, trained to use every software tool, API, and webapp that exists, is a practical path to this ambitious goal, and ACT-1 is our first step in this direction.
 # adept.ai
  ```
+ 
+ Risks:
+  * Intelligence [control][AI Control] and [alignment][AI Alignment]
+  * [Intelligence explosion][AI Explosion]
 
  {% youtube "https://www.youtube.com/watch?v=wHiOKDlA8Ac" %}
 
@@ -741,6 +911,7 @@ First, we believe the clearest framing of general intelligence is a system that 
 
  More at:
   * paper - [https://arxiv.org/abs/2303.12712](https://arxiv.org/abs/2303.12712)
+  * risks - [https://en.wikipedia.org/wiki/Existential_risk_from_artificial_general_intelligence](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_general_intelligence)
 
  See also [A], [Artificial Narrow Intelligence], [Artificial Super Intelligence]
 
@@ -856,8 +1027,13 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 
  The way for researchers to build an artificial brain or [neural network] using [artificial neurons][Artificial Neuron]. There are several types of ANN, including:
-  * [Convoluted Neural Network]
-  * [Recurrent Neural Network][RNN] vs [Feedforward Neural Network]
+  * [Convolutional Neural Network] - used for [computer vision], such as [image recognition], [object detection], [image segmentation]. Use [filters][Image Kernel] to extract features from input image.
+  * [Feedforward Neural Network] - [input][Input Layer], [hidden][Hidden Layer], and [output][Output Layer] layers. Information flows only in one direction.
+  * [Recurrent Neural Network][RNN] - for sequential data, such as [natural language processing][NLP] and [speech recognition]. Have a feedback loop that allows information to flow in both directions.
+  * [Generative Adversarial Network] - 2 neural networks, one that generate data, another tries to distinguish between real and fake data.
+  * [Long Short-Term Memory Network] - a type of [RNN] that can remember long-term dependencies in sequential data. Used for [speech recognition] and [language translation]
+  * [Autoencoder] - used for [unsupervised learning], where goal is to learn a compressed representation of the input data. The [encoder] compresses, the [decoder] reconstructs the original data.
+  * [Deep belief network] - composed of multiple layers of [Restricted Boltzmann Machines]. Used for unsupervised learning and fine-tuned for [supervised learning] tasks.
   * ...
 
  The "knowledge/skills" of the ANN are encoded in their [parameters][Parameter]
@@ -894,6 +1070,36 @@ First, we believe the clearest framing of general intelligence is a system that 
  ASI is a by-product of accomplishing the goal of AGI. A commonly held belief is that general intelligence will trigger an “intelligence explosion” that will rapidly trigger super-intelligence. It is thought that ASI is “possible” due to recursive self-improvement, the limits of which are bounded only by a program’s mindless imagination. ASI accelerates to meet and quickly surpass the collective intelligence of all humankind. The only problem for ASI is that there are no more problems. When ASI solves one problem, it also demands another with the momentum of Newton’s Cradle. An acceleration of this sort will ask itself what is next ad infinitum until the laws of physics or theoretical computation set in. The University of Oxford scholar Nick Bostrom claims we have achieved ASI when machines have more intelligent than the best humans in every field, including scientific creativity, general wisdom, and social skills. Bostrom’s depiction of ASI has religious significance. Like their religious counterparts, believers of ASI even predict specific dates when the Second Coming will reveal our savior. Oddly, Bostrom can’t explain how to create artificial intelligence. His argument is regressive and depends upon itself for its explanation. What will create ASI? Well, AGI. Who will create AGI? Someone else, of course. AI categories suggest a false continuum at the end of which is ASI, and no one seems particularly thwarted by their ignorance. However, fanaticism is a doubtful innovation process.
 
  See also [A], [Artificial General Intelligence], [Artificial Narrow Intelligence]
+
+
+# Association for the Advancement of Artificial Intelligence
+
+# AAAI
+
+ Founded in 1979, the Association for the Advancement of Artificial Intelligence (AAAI) (formerly the American Association for Artificial Intelligence) is a nonprofit scientific society devoted to advancing the scientific understanding of the mechanisms underlying thought and intelligent behavior and their embodiment in machines. AAAI aims to promote research in, and responsible use of, artificial intelligence. AAAI also aims to increase public understanding of artificial intelligence, improve the teaching and training of AI practitioners, and provide guidance for research planners and funders concerning the importance and potential of current AI developments and future directions.
+
+ AAAI’s goals are:
+  * Promoting research in, and responsible use of, artificial intelligence (AI)
+  * Increasing public understanding of artificial intelligence
+  * Improving the teaching and training of AI practitioners
+  * Providing guidance for research planners and funders concerning the importance and potential of current AI developments and future directions.
+
+ AAAI’s activities include:
+
+  * Organizing and sponsoring conferences, symposia, and workshops
+  * Publishing a quarterly magazine for all members
+  * Publishing a series of proceedings, including the annual proceedings for the AAAI Conference on Artificial Intelligence
+  * Advocating for members throughout the world through educational programs and governmental outreach
+  * Awarding grants and scholarships
+
+ More at:
+  * [https://aaai.org/about-aaai/](https://aaai.org/about-aaai/)
+  * ai-topics - [https://aitopics.org/search](https://aitopics.org/search)
+  * conferences
+    * [https://www.aies-conference.com/](https://www.aies-conference.com/)
+    * [https://aaai-23.aaai.org/](https://aaai-23.aaai.org/
+
+ See also [A}, ...
 
 
 # Atlas Robot
@@ -1085,3 +1291,34 @@ ____ at the sign, you will get a ticket (backward prediction)
  `~ analyze the past steps (or future but not both) to identify the next step = learn from the past iteration (or future but not both) ONLY`. Unlike the GANs approach described before, where music generation happened in one iteration, autoregressive models add notes over many iterations. The models used are called autoregressive (AR) models because the model generates music by predicting future music notes based on the notes that were played in the past. In the music composition process, unlike traditional time series data, one generally does more than compose from left to right in time. New chords are added, melodies are embellished with accompaniments throughout. Thus, instead of conditioning our model solely on the past notes in time like standard autoregressive models, we want to condition our model on all the notes that currently exist in the provided input melody. For example, the notes for the left hand in a piano might be conditioned on the notes that have already been written for the right hand.
 
  See also [A], [Autoregressive Convolutional Neural Network], [Generative Adversarial Network], [GPT Model], [Time-Series Predictive Analysis]
+
+
+# AWS Bedrock
+
+ A [ChatGPT][ChatGPT Model] and [DALL-E][DALL-E Model] rival offered by [Amazon Web Services]
+
+ More at:
+  * [https://aws.amazon.com/bedrock/](https://aws.amazon.com/bedrock/)
+  * [https://www.businessinsider.com/amazon-bedrock-aws-ai-chatgpt-dall-e-competitor-2023-4](https://www.businessinsider.com/amazon-bedrock-aws-ai-chatgpt-dall-e-competitor-2023-4)
+
+ See also [A], ...
+
+# AWS Lex
+
+ Text or Speech conversation.
+
+ See also [A], [Amazon Web Services]
+
+
+# AWS Polly
+
+ Lifelike speech. Text to speech.
+
+ See also [A], [Amazon Web Services]
+
+
+# AWS Recognition
+
+ Used for image analysis.
+
+ See also [A], [Amazon Web Services]

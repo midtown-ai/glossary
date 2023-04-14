@@ -57,6 +57,12 @@ layout: page
 
 # Bagging
 
+ Bagging in regression = averaging
+
+ Bagging in classification = voting
+
+ 
+
  Bagging, also known as Bootstrap Aggregating. Build random sets by drawing random points from the dataset (with replacement). Train a different model on each of the sets. These models are the weak learners. The strong learner is then formed as a combination of the weak models, and the prediction is done by voting (if it is a classification model) or averaging the predictions (if it is a regression model). It is used to improve accuracy and make the model more generalize by reducing the variance, i.e., avoiding overfitting. In this, we take multiple subsets of the training dataset. For each subset, we take a model with the same learning algorithms like Decision tree, Logistic regression, etc., to predict the output for the same set of test data. Once we predict each model, we use a model averaging technique to get the final prediction output. One of the famous techniques used in Bagging is Random Forest. In the Random forest, we use multiple decision trees.
 
  See also [B], [Boosting], [Decision Tree], [Ensemble Method], [Random Forest], [Weak Learner]
@@ -451,6 +457,8 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
 # Boosting
 
+ Boosting = Bagging, but not with equal weights. Think of shareholder voting that is proportional to number of shares.
+
  Sequentially combine weak predictors (such as decision trees) to get a strong predictor! Start by training a random model, which is the first weak learner. Evaluate it on the entire dataset. Shrink the points that have good predictions, and enlarge the points that have poor predictions. Train a second weak learner on this modified dataset. We continue in this fashion until we build several models. The way to combine them into a strong learner is the same way as with bagging, namely, by voting or by averaging the predictions of the weak learner. More specifically, if the learners are classifiers, the strong learner predicts the most common class predicted by the weak learners (thus the term voting), and if there are ties, by choosing randomly among them. If the learners are regressors, the strong learner predicts the average of the predictions given by the weak learners. Boosting is primarily used to reduce the bias and variance in a supervised learning technique. It refers to the family of an algorithm that converts weak learners (base learner) to strong learners. The weak learner is the classifiers that are correct only up to a small extent with the actual classification, while the strong learners are the classifiers that are well correlated with the actual classification.
 
  Few famous techniques of Boosting are:
@@ -515,3 +523,12 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 # Brain
 
  See also [B], [Biological Neuron]
+
+
+# Brain Computer Interface
+
+# BCI
+
+ Connect your [brain] to a computer using a cable and by drilling a hole in your skull!
+
+ See also [B], [Deep Brain], [Neuralink Company]

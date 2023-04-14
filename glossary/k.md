@@ -160,6 +160,13 @@ layout: page
  See also [K], [Graph Neural Network]
 
 
+# Knowledge Representation
+
+ To store what a computer knows or hears!
+
+ See also [K], ...
+
+
 # Knowledge Retrieval
 
  A solution to the [hallucinations][Hallucination] of [Large Language Model] ?

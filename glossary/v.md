@@ -181,7 +181,10 @@ layout: page
 
 # VQGAN
 
+ {% youtube "https://www.youtube.com/watch?v=2hgfbf5OOoI" %}
+
  More at:
+  * colab - [https://colab.research.google.com/drive/1lx9AGsrh7MlyJhK9UrNTK8pYpARnx457?usp=sharing](https://colab.research.google.com/drive/1lx9AGsrh7MlyJhK9UrNTK8pYpARnx457?usp=sharing)
   * [https://medium.com/nightcafe-creator/vqgan-clip-tutorial-a411402cf3ad](https://medium.com/nightcafe-creator/vqgan-clip-tutorial-a411402cf3ad)
 
  See also [V], [Generative Adversarial Network]

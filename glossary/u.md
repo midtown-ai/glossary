@@ -109,7 +109,14 @@ layout: page
 
  `No teacher, just observations and raw data!` ==> find clusters in the samples. Leaning like a toddler would! The computer learns by itself! No labeled data? No external teacher or pre-trained data. Model detects emerging properties in the input dataset. :warning: Dataset can be modified for training (e.g masked/MLM, etc). Model then constructs patterns or clusters. Further grouped into clustering and association. The machine tries to create label on its own. Best when the relationship between the input and the output is unknown (ex: new ways to do credit card fraud?) Example: clustering.
 
- See also [U], [Clustering], [Supervised Learning]
+ Examples:
+  * [Clustering] with [K-Mean Algorithm]
+  * Association with [Apriori Algorithm]
+
+ More at:
+  * ...
+
+ See also [U], [Supervised Learning]
 
 
 # Update Ratio

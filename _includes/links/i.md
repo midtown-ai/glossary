@@ -12,6 +12,7 @@
 [Image Inpainting]: {{ site.baseurl }}{% link glossary/i.md %}#image-inpainting
 [Image Kernel]: {{ site.baseurl }}{% link glossary/i.md %}#image-kernel
 [Image Reconstruction]: {{ site.baseurl }}{% link glossary/i.md %}#image-reconstruction
+[Image Segmentation]: {{ site.baseurl }}{% link glossary/i.md %}#image-segmentation
 [Imagen Model]: {{ site.baseurl }}{% link glossary/i.md %}#imagen-model
 [Imagen Video Model]: {{ site.baseurl }}{% link glossary/i.md %}#imagen-video-model
 [ImageNet Dataset]: {{ site.baseurl }}{% link glossary/i.md %}#imagenet-dataset
@@ -36,6 +37,10 @@
 [Intelligence Augmentation]: {{ site.baseurl }}{% link glossary/i.md %}#intelligence-augmentation
 [IA]: {{ site.baseurl }}{% link glossary/i.md %}#ia
 [Intent Analysis]: {{ site.baseurl }}{% link glossary/i.md %}#intent-analysis
+[International Conference on Learning Representations Conference]: {{ site.baseurl }}{% link glossary/i.md %}#international-conference-on-learning-representations-conference
+[ICLR Conference]: {{ site.baseurl }}{% link glossary/i.md %}#iclr-conference
+[International Conference on Machine Learning Conference]: {{ site.baseurl }}{% link glossary/i.md %}#international-conference-on-machine-learning-conference
+[ICML Conference]: {{ site.baseurl }}{% link glossary/i.md %}#icml-conference
 [InterpretML]: {{ site.baseurl }}{% link glossary/i.md %}#interpretml
 [Inverse Document Frequency]: {{ site.baseurl }}{% link glossary/i.md %}#inverse-document-frequency
 [IDF]: {{ site.baseurl }}{% link glossary/i.md %}#idf
