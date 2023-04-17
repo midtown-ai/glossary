@@ -149,13 +149,22 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], [Benchmark], [Coreference], [Entity Extraction], [Language Parsing], [Model Benchmark], [Named Entity Recognition], [Question Answering], [Semantic Understanding], [Sentiment Analysis], [SNLI]
 
 
-# Natural Language ToolKit
+# Natural Language Toolkit
 
 # NLTK
 
- At the moment, the most popular package for processing text is NLTK (Natural Language ToolKit), created by researchers at Stanford. The simplest way to map text into a numerical representation is to compute the frequency of each word within each text document. Think of a matrix of integers where each row represents a text document and each column represents a word. This matrix representation of the word frequencies is commonly called Term Frequency Matrix (TFM). From there, we can create another popular matrix representation of a text document by dividing each entry on the matrix by a weight of how important each word is within the entire corpus of documents. We call this method Term Frequency Inverse Document Frequency (TFIDF) and it typically works better for machine learning tasks.
+ Before [transformers][Transformer Architecture], the most popular package for [processing text][NLP] was NLTK (Natural Language ToolKit), created by researchers at [Stanford University]. The simplest way to map text into a numerical representation is to compute the frequency of each word within each text document. Think of a matrix of integers where each row represents a text document and each column represents a word. This matrix representation of the word frequencies is commonly called [Term Frequency Matrix (TFM)][TFM]. From there, we can create another popular matrix representation of a text document by dividing each entry on the matrix by a weight of how important each word is within the entire corpus of documents. We call this method [Term Frequency Inverse Document Frequency (TFIDF)][TF-IDF] and it typically works better for machine learning tasks.
 
- See also [N], [NLP], [TF], [TF-IDF], [TFM]
+ Examples of applications
+  * [Sentiment analysis]
+  * ....
+
+ More at:
+  * home - [https://www.nltk.org/](https://www.nltk.org/)
+  * code - [https://github.com/nltk/nltk](https://github.com/nltk/nltk)
+  * wiki - [https://github.com/nltk/nltk/wiki](https://github.com/nltk/nltk/wiki)
+
+ See also [N], [NLP], ...
 
 
 # Natural Language Interpretation
