@@ -292,6 +292,18 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], ...
 
 
+# AI Bias
+
+ A form of [Bias]
+
+ More at:
+  * [https://mostly.ai/blog/why-bias-in-ai-is-a-problem](https://mostly.ai/blog/why-bias-in-ai-is-a-problem)
+  * [https://mostly.ai/blog/10-reasons-for-bias-in-ai-and-what-to-do-about-it-fairness-series-part-2](https://mostly.ai/blog/10-reasons-for-bias-in-ai-and-what-to-do-about-it-fairness-series-part-2)
+  * [https://mostly.ai/blog/tackling-ai-bias-at-its-source-with-fair-synthetic-data-fairness-series-part-4](https://mostly.ai/blog/tackling-ai-bias-at-its-source-with-fair-synthetic-data-fairness-series-part-4)
+
+ See also [A], [#Fair AI]
+
+
 # AI Bill of Rights
 
  In October, the White House released a 70-plus-page document called the “Blueprint for an A.I. Bill of Rights.” The document’s ambition was sweeping. It called for the right for individuals to “opt out” from automated systems in favor of human ones, the right to a clear explanation as to why a given A.I. system made the decision it did, and the right for the public to give input on how A.I. systems are developed and deployed.
@@ -1060,7 +1072,14 @@ First, we believe the clearest framing of general intelligence is a system that 
 
  ![]( {{site.assets}}/a/artificial_neuron.png ){: width="100%"}
 
- See also [A], [Activation Function], [Bias], [Input Weight]
+ See also [A], [Activation Function], [Artificial Neuron Bias], [Input Weight]
+
+
+# Artificial Neuron Bias
+
+ A threshold the output needs to exceed for the output to fire
+
+ See also [A], [Bias]
 
 
 # Artificial Super Intelligence

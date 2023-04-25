@@ -31,7 +31,7 @@ layout: page
 
 # Panda Module
 
- A [Python module] for ...
+ A [Python module] for importing, transforming, and working with tabular data
 
  See also [P], ...
 
@@ -63,7 +63,7 @@ layout: page
  See also [P], [Chain Of Thought Prompting], [Pathways Model Architecture]
 
 
-# Pathways Language Model - Embodied
+# Pathways Language Model Embodied Model
 
 # PaLM-E Model
 
@@ -362,17 +362,6 @@ layout: page
  See also [P], [Attribute], [Negative Attribute]
 
 
-# Pre-Trained Model
-
- ~ a base model that support transfer learning. A pre-trained model, keeping with Gladwell’s 10,000 hours theory, is the first skill you develop that can help you acquire another one faster. For example, mastering the skill of solving math problems can help you more quickly acquire the skill of solving engineering problems. A pre-trained model is trained (by you or someone else) for a more general task and is then available to be fine-tuned for different tasks. Instead of building a model from scratch to solve your problem, you use the model trained on a more general problem as a starting point and give it more specific training in the area of your choice using a specially curated dataset. A pre-trained model may not be 100% accurate, but it saves you from reinventing the wheel, thus saving time and improving performance.
-
- Useful if 
-  * retraining the model is expensive or time consuming
-  * model architecture allow transfer learning (through fine-tuning). 
-  . :warning: as far as I can tell, this is only possible today with transformer models (?)
- See also [P], [Supervised Fine-Tuning], [Transfer Learning], [Transformer Model], [Upstream Task]
-
-
 # Precision
 
  Precision is the fraction of the tumors that were predicted to be malignant (of one call) that are actually malignant (of that class).
@@ -433,6 +422,31 @@ Prediction Error = actual_value - predicted_value
  See also [P], [Regression], [Response Variable]
 
 
+# Pretrained Model
+
+ ~ a base model that support transfer learning. A pre-trained model, keeping with Gladwell’s 10,000 hours theory, is the first skill you develop that can help you acquire another one faster. For example, mastering the skill of solving math problems can help you more quickly acquire the skill of solving engineering problems. A pre-trained model is trained (by you or someone else) for a more general task and is then available to be fine-tuned for different tasks. Instead of building a model from scratch to solve your problem, you use the model trained on a more general problem as a starting point and give it more specific training in the area of your choice using a specially curated dataset. A pre-trained model may not be 100% accurate, but it saves you from reinventing the wheel, thus saving time and improving performance.
+
+ Useful if 
+  * retraining the model is expensive or time consuming
+  * model architecture allow transfer learning (through fine-tuning). 
+  . :warning: as far as I can tell, this is only possible today with transformer models (?)
+
+ Examples of pretrained models are:
+  * [BERT][BERT Model] whose [pretraining objectives] include [MLM] and [NSP] 
+  * [RoBERTa][RoBERTa Model]
+  * [GPT models][GPT Model]
+  * ...
+
+ See also [P], [Supervised Fine-Tuning], [Transfer Learning], [Transformer Model], [Upstream Task]
+
+
+# Pretraining Objective
+
+ The objectives on which the [pretrained model] was trained.
+
+ See also [P], [RoBERTa Model]
+
+
 # Principal Component Analysis
 
 # PCA
@@ -471,6 +485,22 @@ Prediction Error = actual_value - predicted_value
   * [https://rach0012.github.io/humanRL_website/](https://rach0012.github.io/humanRL_website/)
 
  See also [P], [Learning Rate], [Transfer Learning]
+
+
+# Probability
+
+ Statistics and probability are two closely related fields, but they have distinct differences.
+
+ Probability is the branch of mathematics that deals with the study of random events or phenomena. It provides a way to quantify the likelihood of an event occurring. Probability theory is used to make predictions about the likelihood of future events based on past observations and data. Probability is used in many areas such as finance, physics, engineering, and computer science.
+
+ [Statistics], on the other hand, is the science of collecting, analyzing, and interpreting data. It is concerned with making inferences and drawing conclusions from data. Statistics provides methods for summarizing and describing data, as well as making predictions and testing hypotheses. It is used in many fields such as business, medicine, social sciences, and economics.
+
+ In summary, probability is focused on the theoretical study of random events, while statistics is concerned with the practical application of data analysis to make inferences and draw conclusions.
+
+ More at:
+  * ...
+
+ See also [P], ...
 
 
 # Procedural Reasoning System
@@ -540,7 +570,7 @@ Prediction Error = actual_value - predicted_value
  See also [P], [Isaac Gym], [OpenAI Gym], [RobotSchool]
 
 
-# PyGame Python Module
+# PyGame Module
 
  {% youtube "https://www.youtube.com/watch?v=PJl4iabBEz0" %}
 
@@ -549,10 +579,14 @@ Prediction Error = actual_value - predicted_value
 
 # Python Module
 
- * [Matplotlib][Matplotlib Module]
- * [Numpy][Numpy Module]
- * [Panda][Panda Module]
- * [Seaborn][Seaborn Module]
+  * [Joblib][Joblib Module] - to save models in files
+  * [Matplotlib][Matplotlib Module] - for visualization
+  * [Numpy][Numpy Module]
+  * [Panda][Panda Module] - to work with tabular data
+  * [Seaborn][Seaborn Module] - for visualization
+
+ Other modules
+  * [PyGame][PyGame Module]
 
  See also [P], ...
 

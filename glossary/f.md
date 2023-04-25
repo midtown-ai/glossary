@@ -54,10 +54,20 @@ layout: page
   * [LLaMA][LLaMA Model]: Large Language Model open-sourced
   * [Make-A-Video][Make-A-Video Model]: Text to video model
   * [Pluribus][Pluribus Model]: Plays poker better than humans
+  * [RoBERTa][RoBERTa Model]: Optimized version of BERT
   * [Segment Anything][Segment Anything Model]: Instance segmentation in images
 
  More at:
   * [https://github.com/facebookresearch](https://github.com/facebookresearch)
+
+ See also [F], ...
+
+
+# Fair AI
+
+ More at:
+  * [https://mostly.ai/blog/we-want-fair-ai-algorithms-but-how-to-define-fairness](https://mostly.ai/blog/we-want-fair-ai-algorithms-but-how-to-define-fairness)
+  * Fair synthetic data generation - [https://mostly.ai/blog/diving-deep-into-fair-synthetic-data-generation-fairness-series-part-5](https://mostly.ai/blog/diving-deep-into-fair-synthetic-data-generation-fairness-series-part-5)
 
  See also [F], ...
 
@@ -80,6 +90,8 @@ layout: page
  See also [F], [MNIST Dataset]
 
 # Feature
+
+ :warning: features are expected to be independent variables between each other (and the output/prediction is dependent on the inputs/features)
 
  `Input parameter to the model`. Which features are important to make the right prediction? Beware that the dataset needs to be at least 10 times the number of features.
 

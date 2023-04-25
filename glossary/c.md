@@ -350,6 +350,11 @@ set       <search space>               set
   * [Tome App][Tome App Company]: Automated slide deck creation!
   * [Waymo][Waymo Company]: Focus on self-driving car 
 
+ Synthetic data
+  * [Datagen](https://datagen.tech/) - Synthetic data for faces/images
+  * [Gretel AI](https://gretel.ai/) - 
+  * [Mostly AI](https://mostly.ai/) - Generative AI for tabular data 
+
  See also [C], ...
 
 
@@ -644,7 +649,7 @@ set       <search space>               set
  Tools to convert models to [CoreML Format], etc and integrate a model in [CoreML Framework]
 
  More at:
-  * [ihttps://coremltools.readme.io/docs](https://coremltools.readme.io/docs)
+  * [https://coremltools.readme.io/docs](https://coremltools.readme.io/docs)
 
  See also [C], ...
 
@@ -660,6 +665,48 @@ set       <search space>               set
 
  See also [C], [Dataset], [GPT], [Natural Language Processing]
 
+
+# Correlation
+
+ :warning: Correlation is not causation!
+
+ Correlation refers to the statistical relationship between two variables. In other words, it measures the extent to which two variables are related to each other.
+
+ A correlation can be positive or negative. A positive correlation means that the two variables move in the same direction. For example, if one variable increases, the other variable also tends to increase. A negative correlation means that the two variables move in opposite directions. For example, if one variable increases, the other variable tends to decrease.
+
+ Correlation can be measured by a statistic called the [correlation coefficient], which ranges from -1 to +1.
+
+ ![]( {{site.assets}}/c/correlation.png ){: width="100%"}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Correlation](https://en.wikipedia.org/wiki/Correlation)
+
+ See also [C], ...
+
+
+# Correlation Coefficient
+
+ :warning: Correlation is not causation!
+
+ In [Statistics], correlation or dependence is any statistical relationship, whether causal or not, between two random variables.
+
+ | Correlation coefficient | Correlation strength | Correlation type |
+ | -0.7 to -1   | Very strong | Negative |
+ | -0.5 to -0.7 | Strong | Negative |
+ | -0.3 to -0.5 | Moderate | Negative |
+ | -0 to -0.3 | Weak | Negative |
+ | 0 | None | Zero |
+ | 0 to 0.3 | Weak | Positive |
+ | 0.3 to 0.5 | Moderate | Positive |
+ | 0.5 to 0.7 | Strong | Positive |
+ | 0.7 to 1 | Very strong | Positive |
+
+ ![]( {{site.assets}}/c/correlation_coefficient.png ){: width="100%"}
+
+ More at:
+  * [https://www.scribbr.com/statistics/correlation-coefficient/](https://www.scribbr.com/statistics/correlation-coefficient/)
+
+ See also [C], ...
 
 # Cost
 

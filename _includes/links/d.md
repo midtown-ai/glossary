@@ -16,6 +16,7 @@
 [Data Point]: {{ site.baseurl }}{% link glossary/d.md %}#data-point
 [Data Science]: {{ site.baseurl }}{% link glossary/d.md %}#data-science
 [Data Scientist]: {{ site.baseurl }}{% link glossary/d.md %}#data-scientist
+[Data Visualization]: {{ site.baseurl }}{% link glossary/d.md %}#data-visualization
 [Data2Vec]: {{ site.baseurl }}{% link glossary/d.md %}#data2vec
 [Dataset]: {{ site.baseurl }}{% link glossary/d.md %}#dataset
 [Dawid-Skene Algorithm]: {{ site.baseurl }}{% link glossary/d.md %}#dawid-skene-algorithm

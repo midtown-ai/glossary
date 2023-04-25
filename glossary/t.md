@@ -229,6 +229,8 @@ layout: page
 
  Summarizing a text involves reducing its size while keeping key information and the essential meaning. Some everyday examples of text summarization are news headlines, movie previews, newsletter production, financial research, legal contract analysis, and email summaries, as well as applications delivering news feeds, reports, and emails.
 
+ Summarization can be evaluated using the [ROUGE Score]
+
  See also [T], [Natural Language Processing]
 
 

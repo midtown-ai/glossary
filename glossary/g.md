@@ -388,6 +388,7 @@ layout: page
   * [Imagen][Imagen Model]: A text-to-image diffusion model
   * [Imagen Video][Imagen Video Model]: A text-to-video model
   * [LaMBDA][LaMBDA Model]: A large language model
+  * [Magi Model] :
   * [Minerva Model] :
   * [MUM Model] :
   * [Muse Model] :

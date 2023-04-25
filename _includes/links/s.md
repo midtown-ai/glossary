@@ -15,7 +15,7 @@
 [Scikit Learn]: {{ site.baseurl}}{% link glossary/s.md %}#scikit-learn
 [Seaborn Module]: {{ site.baseurl}}{% link glossary/s.md %}#seaborn-module
 [Segment Anything Model]: {{ site.baseurl}}{% link glossary/s.md %}#segment-anything-model
-[SAM]: {{ site.baseurl}}{% link glossary/s.md %}#sam
+[SAM]: {{ site.baseurl}}{% link glossary/s.md %}#segment-anything-model
 [Self-Attention]: {{ site.baseurl}}{% link glossary/s.md %}#self-attention
 [Self-Organizing Map]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map
 [Self-Supervised Learning]: {{ site.baseurl}}{% link glossary/s.md %}#self-supervised-learning
@@ -34,7 +34,7 @@
 [Seq2Seq Transformer]: {{ site.baseurl}}{% link glossary/s.md %}#seq2seq-transformer
 [Serialized Flat File]: {{ site.baseurl}}{% link glossary/s.md %}#serialized-flat-file
 [Shapley Additive Explanations Value]: {{ site.baseurl}}{% link glossary/s.md %}#shapley-additive-explanations-value
-[SHAP Value]: {{ site.baseurl}}{% link glossary/s.md %}#shap-value
+[SHAP Value]: {{ site.baseurl}}{% link glossary/s.md %}#shapley-additive-explanations-value
 [Shapley Value]: {{ site.baseurl}}{% link glossary/s.md %}#shaplet-value
 [Short Circuit Movie]: {{ site.baseurl}}{% link glossary/s.md %}#short-circuit-movie
 [Siamese Network]: {{ site.baseurl}}{% link glossary/s.md %}#siamese-network
@@ -42,7 +42,7 @@
 [Sigmoid Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-function
 [Similarity Function]: {{ site.baseurl}}{% link glossary/s.md %}#similarity-function
 [Single Value Decomposition]: {{ site.baseurl}}{% link glossary/s.md %}#single-value-decomposition
-[SVD]: {{ site.baseurl}}{% link glossary/s.md %}#svd
+[SVD]: {{ site.baseurl}}{% link glossary/s.md %}#single-value-decomposition
 [Siri Virtual Assistant]: {{ site.baseurl}}{% link glossary/s.md %}#siri-virtual-assistant
 [Skip Connection]: {{ site.baseurl}}{% link glossary/s.md %}#skip-connection
 [Slicing Function]: {{ site.baseurl}}{% link glossary/s.md %}#slicing-function
@@ -67,7 +67,7 @@
 [Spectrogram Image]: {{ site.baseurl}}{% link glossary/s.md %}#spectrogram-image
 [Speech Recognition]: {{ site.baseurl}}{% link glossary/s.md %}#speech-recognition
 [Speech-To-Text]: {{ site.baseurl}}{% link glossary/s.md %}#speech-to-text
-[STT]: {{ site.baseurl}}{% link glossary/s.md %}#stt
+[STT]: {{ site.baseurl}}{% link glossary/s.md %}#speech-to-text
 [SQuAD Benchmark]: {{ site.baseurl}}{% link glossary/s.md %}#squad-benchmark
 [Stable Diffusion Model]: {{ site.baseurl}}{% link glossary/s.md %}#stable-diffusion-model
 [Stablility AI Company]: {{ site.baseurl}}{% link glossary/s.md %}#stability-ai-company
@@ -77,16 +77,17 @@
 [SNLI]: {{ site.baseurl}}{% link glossary/s.md %}#snli
 [State]: {{ site.baseurl}}{% link glossary/s.md %}#state
 [State Model]: {{ site.baseurl}}{% link glossary/s.md %}#state-model
-[State Of The Art]: {{ site.baseurl}}{% link glossary/s.md %}#
-[SOTA]: {{ site.baseurl}}{% link glossary/s.md %}#sota
+[State Of The Art]: {{ site.baseurl}}{% link glossary/s.md %}#state-of-the-art
+[SOTA]: {{ site.baseurl}}{% link glossary/s.md %}#state-of-the-art
+[Statistical Bias]: {{ site.baseurl}}{% link glossary/s.md %}#statistical-bias
 [Statistical Machine Translation]: {{ site.baseurl}}{% link glossary/s.md %}#statistical-machine-translation
-[SMT]: {{ site.baseurl}}{% link glossary/s.md %}#smt
+[SMT]: {{ site.baseurl}}{% link glossary/s.md %}#statistical-machine-translation
 [Statistical Model]: {{ site.baseurl}}{% link glossary/s.md %}#statistical-model
 [Statistics]: {{ site.baseurl}}{% link glossary/s.md %}#statistics
 [Step Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#step-activation-function
 [Stereo Vision]: {{ site.baseurl}}{% link glossary/s.md %}#stereo-vision
 [Stochastic Gradient Descent]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-gradient-descent
-[SGD]: {{ site.baseurl}}{% link glossary/s.md %}#sgd
+[SGD]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-gradient-descent
 [Stochastic Node]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-node
 [Streamlit]: {{ site.baseurl}}{% link glossary/s.md %}#streamlit
 [Strong Artificial Intelligence]: {{ site.baseurl}}{% link glossary/s.md %}#strong-artificial-intelligence
@@ -96,21 +97,22 @@
 [Subsampling]: {{ site.baseurl}}{% link glossary/s.md %}#subsampling
 [Sundar Pichai Person]: {{ site.baseurl}}{% link glossary/s.md %}#sundar-pichai-person
 [Super Resolution GAN]: {{ site.baseurl}}{% link glossary/s.md %}#super-resolution-gan
-[SRGAN]: {{ site.baseurl}}{% link glossary/s.md %}#srgan
+[SRGAN]: {{ site.baseurl}}{% link glossary/s.md %}#super-resolution-gan
 [SuperGLUE Benchmark]: {{ site.baseurl}}{% link glossary/s.md %}#superglue-benchmark
 [Supertranslate AI Company]: {{ site.baseurl}}{% link glossary/s.md %}#supertranslate-ai-company
 [Supervised Fine-Tuning]: {{ site.baseurl}}{% link glossary/s.md %}#supervised-fine-tuning
-[SFT]: {{ site.baseurl}}{% link glossary/s.md %}#sft
+[SFT]: {{ site.baseurl}}{% link glossary/s.md %}#supervised-fine-tuning
 [Supervised Learning]: {{ site.baseurl}}{% link glossary/s.md %}#supervised-learning
 [Supervisor]: {{ site.baseurl}}{% link glossary/s.md %}#supervisor
 [Support Vector]: {{ site.baseurl}}{% link glossary/s.md %}#support-vector
 [Support Vector Classifier]: {{ site.baseurl}}{% link glossary/s.md %}#support-vector-classifier
-[SVC]: {{ site.baseurl}}{% link glossary/s.md %}#svc
+[SVC]: {{ site.baseurl}}{% link glossary/s.md %}#support-vector-classifier
 [Support Vector Machine]: {{ site.baseurl}}{% link glossary/s.md %}#support-vector-machine
-[SVM]: {{ site.baseurl}}{% link glossary/s.md %}#svm
+[SVM]: {{ site.baseurl}}{% link glossary/s.md %}#support-vector-machine
 [Surrogate Model]: {{ site.baseurl}}{% link glossary/s.md %}#surrogate-model
 [Switch Transformer]: {{ site.baseurl}}{% link glossary/s.md %}#switch-transformer
 [Synapse]: {{ site.baseurl}}{% link glossary/s.md %}#synapse
 [Synthesia Company]: {{ site.baseurl}}{% link glossary/s.md %}#synthesia-company
 [Synthesized Variable]: {{ site.baseurl}}{% link glossary/s.md %}#synthesized-variable
 [Synthetic Data]: {{ site.baseurl}}{% link glossary/s.md %}#synthetic-data
+[Synthetic Data Privacy]: {{ site.baseurl}}{% link glossary/s.md %}#synthetic-data-privacy

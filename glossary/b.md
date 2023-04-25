@@ -288,18 +288,15 @@ P(A|B) = ----------------
 
 # Bias
 
- A threshold the output needs to exceed for the output to fire
-
- See also [B], ...
-
-
-# Bias
+ * [Statistical Bias] = The gap between the prediction and the actual value. Where is bias coming from? Issues with the data sampling?
+ * [Artificial Neuron Bias] = When using bias in the connect of activation function, it is an integer that represent a threshold the weighted input should exceed to trigger the neuron. There is a bias at each node of the ANN. The node weighted input is = sum(aL . wL) + bias
+ * [AI Bias]
 
   1. statistics ==> The gap between the prediction and the actual value. Where is bias coming from? Issues with the data sampling?
   1. data sample ==> data that is used for learning is biased, ex: all nurse are female ==> implies unwanted correlation in data
   1. neural network learning ==> When using bias in the connect of activation function, it is an integer that represent a threshold the weighted input should exceed to trigger the neuron. There is a bias at each node of the ANN. The node weighted input is = sum(aL . wL) + bias.
 
- See also [B], [Activation Function], [Balanced Fitting], [Bias-Variance Trade-Off], [Overfitting], [Underfitting], [Variance]
+ See also [B], [Activation Function], [Balanced Fitting], [Bias-Variance Trade-Off], [Fair AI], [Overfitting], [Underfitting], [Variance]
 
 
 # Bias-Variance Trade-Off
@@ -323,26 +320,30 @@ P(A|B) = ----------------
 
 # BERT Model
 
-
- A NLP model that was built by Google in 2017. It is an Open-Source project by Google AI researchers with a great power of understanding the context of sentence (language) showing high performance in various nlp tasks such as question-answer system , Named-entity-recognition, Machine Translation and many more.
+ A NLP model that was built by [Google][Google Company] in 2017. It is an Open-Source project by Google AI researchers with a great power of understanding the context of sentence (language) showing high performance in various nlp tasks such as [classification][BERT classification] such as [sentiment analysis], [question answering], [named entity recognition], [machine Translation] and many more.
+  * Use the [transformer architecture]
   * BIDIRECTIONAL = use words before and after the [MASK] to predict the Masked word. This is different from unidirectional (used by GPT) such as predicting what the next word is.
-  * Can be extended, i.e. FinBERT.
+  * Can be extended, i.e. FinBERT for financial docs, SpanBERT for Spanish
+
  Trained using
-  * Masked Language Modeling (MLM)     <== pre-train work embedding and contextual understanding using [MASK]
-  * and next sentence prediction (NSP).  <== pre-train the [CLS] token (used to perform sequence/sentence-wide task)
+  * [Masked Language Modeling (MLM)][MLM]     <== pre-train work embedding and contextual understanding using [MASK]
+  * and [next sentence prediction (NSP)][NSP].  <== pre-train the [CLS] token (used to perform sequence/sentence-wide task)
     * Note that the representation of the [CLS] token include both the sentences, the one before and the one after the [SEP] token (separation token) (?)
 
- {% pdf {{site.assets}}/b/bert_paper.pdf %}
+ Superseded by the [RoBERTa model]
 
  ![]( {{site.assets}}/b/bert_embeddings.png ){: width=35%}
+
+ {% pdf {{site.assets}}/b/bert_paper.pdf %}
 
  More at:
   * embeddings (token + segment + position) - [https://medium.com/@_init_/why-bert-has-3-embedding-layers-and-their-implementation-details-9c261108e28a](https://medium.com/@_init_/why-bert-has-3-embedding-layers-and-their-implementation-details-9c261108e28a)
   * [https://medium.com/@mromerocalvo/6dcf5360b07f](https://medium.com/@mromerocalvo/6dcf5360b07f)
   * [https://medium.com/dissecting-bert/dissecting-bert-part2-335ff2ed9c73](https://medium.com/dissecting-bert/dissecting-bert-part2-335ff2ed9c73)
   * [https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853](https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853)
+  * spanBERT - [https://skimai.com/roberta-language-model-for-spanish/](https://skimai.com/roberta-language-model-for-spanish/)
 
- See also [B], [Attention Score], [Attention-Based Model], [BERT Classification], [Masked Language Modeling], [Name Entity Recognition], [Next Sentence Prediction], [Tokenizer], [Transformer Model]
+ See also [B], [Attention Score], [Attention-Based Model], [Tokenizer]
 
 
 # Bidirectional Recurrent Neural Network
@@ -371,13 +372,26 @@ P(A|B) = ----------------
  See also [B], [Deep Learning], [Machine Learning], [MapReduce Process]
 
 
-# Bilingual Evaluation Understudy Benchmark
+# Bilingual Evaluation Understudy Metric
 
-# BLEU Benchmark
+# BLEU Metric
 
- This is an algorithm for evaluating the quality of text which has been machine-translated from one natural language to another. Quality is considered to be the correspondence between a machine's output and that of a human: "the closer a machine translation is to a professional human translation, the better it is" – this is the central idea behind BLEU. BLEU was one of the first metrics to claim a high correlation with human judgements of quality, and remains one of the most popular automated and inexpensive metrics. Scores are calculated for individual translated segments—generally sentences—by comparing them with a set of good quality reference translations. Those scores are then averaged over the whole corpus to reach an estimate of the translation's overall quality. Intelligibility or grammatical correctness are not taken into account. BLEU's output is always a number between 0 and 1. This value indicates how similar the candidate text is to the reference texts, with values closer to 1 representing more similar texts. Few human translations will attain a score of 1, since this would indicate that the candidate is identical to one of the reference translations. For this reason, it is not necessary to attain a score of 1. Because there are more opportunities to match, adding additional reference translations will increase the BLEU score.
+ This is an algorithm for evaluating the quality of text which has been [machine-translated][machine translation] from one natural language to another. Quality is considered to be the correspondence between a machine's output and that of a human: "the closer a machine translation is to a professional human translation, the better it is" – this is the central idea behind BLEU.
 
- See also [B], [NLP Benchmark]
+ BLEU was one of the first metrics to claim a high correlation with human judgements of quality, and remains one of the most popular automated and inexpensive metrics. Scores are calculated for individual translated segments—generally sentences—by comparing them with a set of good quality reference translations. Those scores are then averaged over the whole corpus to reach an estimate of the translation's overall quality. Intelligibility or grammatical correctness are not taken into account. 
+
+ BLEU's output is always a number between 0 and 1. This value indicates how similar the candidate text is to the reference texts, with values closer to 1 representing more similar texts. Few human translations will attain a score of 1, since this would indicate that the candidate is identical to one of the reference translations. For this reason, it is not necessary to attain a score of 1. Because there are more opportunities to match, adding additional reference translations will increase the BLEU score.
+
+ In general:
+  * BLEU focuses on precision: how much the words (and/or n-grams) in the candidate model outputs appear in the human reference.
+  * ROUGE focuses on recall: how much the words (and/or n-grams) in the human references appear in the candidate model outputs.
+
+ These results are complementing, as is often the case in the precision-recall tradeoff.
+
+ More at:
+  * [https://medium.com/nlplanet/two-minutes-nlp-learn-the-bleu-metric-by-examples-df015ca73a86](https://medium.com/nlplanet/two-minutes-nlp-learn-the-bleu-metric-by-examples-df015ca73a86)
+
+ See also [B], [NLP Metric]
 
 
 # Bill Gates Person

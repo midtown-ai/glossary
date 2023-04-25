@@ -42,6 +42,59 @@ layout: page
  See [J], [Red Teaming]
 
 
+# Joblib Module
+
+ A [python module] to save models in files
+
+ Create a model and save it in a file
+
+ ```
+import joblib
+import ...
+
+df = pd.read_csv('/home/Data/transformed_airbnb_NYC_2019.csv')
+
+y = df['price']
+X = df.drop(columns = ['price', 'host_id', 'neighbourhood'])
+X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.2, random_state=123)
+
+lr_classifier = LinearRegression()
+lr_classifier.fit(X_train, y_train)
+
+joblib.dump(lr_classifier, 'airbnb_lr_classifier.joblib')
+ ```
+
+ Load model
+ ```
+ from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/predict', methods=['POST'])
+def predict():
+     json_ = request.json
+     query_df = pd.DataFrame(json_)
+     query = pd.get_dummies(query_df)
+
+     classifier = joblib.load('airbnb_lr_classifier.joblib')
+     prediction = classifier.predict(query)
+     return jsonify({'prediction': list(prediction)})
+
+
+if __name__ == '__main__':
+     #app.run(port=8080)
+     from gevent.pywsgi import WSGIServer
+     web_server = WSGIServer(('', 5000), app)
+     web_server.serve_forever()
+     print('Success! Server available at http://127.0.0.1:5000')
+ ```
+
+ More at:
+  * [https://joblib.readthedocs.io/en/latest/](https://joblib.readthedocs.io/en/latest/)
+
+ See also [J], ...
+
+
 # Join Distribution
 
  Joint distribution is based on joint probability, which can be simply defined as the probability of two events (variables) happening together. These two events are usually coined event A and event B, and can formally be written as:

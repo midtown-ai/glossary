@@ -156,6 +156,13 @@ Predict what are the required agent skills based some input parameters
  See also [M], [Natural Language Processing]
 
 
+# Magi Model
+
+ Hand gesture model by [Google Company] ?
+
+ See also [M], ...
+
+
 # Majority Vote Algorithm
 
  When you crowdsource a labeling task, how can you be certain that the label is correct? Have several people label the same image/entry and apply this algorithm! An alternative is to use Dawid-Skene algorithm.
@@ -846,6 +853,17 @@ def mse_loss(y_pred, y_true):
   * [https://youtu.be/J8Eh7RqggsU?list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX&t=2568](https://youtu.be/J8Eh7RqggsU?list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX&t=2568)
 
  See also [M], [Reflex Model], [Logic Model], [State Model], [Variable Model]
+
+
+# Model Uplift
+
+ Improvement of the model performance due to the usage of [synthetic data].
+
+ Comparison of the performance of a model trained and tested with real data vs the performance of the same model trained with real and synthesize data and tested on real data.
+
+ :warning: You do not test on synthetic data!
+
+ See also [M], ...
 
 
 # Model-Based Reinforcement Learning

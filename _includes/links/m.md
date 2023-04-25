@@ -7,6 +7,7 @@
 [Machine Learning Type]: {{ site.baseurl }}{% link glossary/m.md %}#machine-learning-type
 [Machine Reasoning]: {{ site.baseurl }}{% link glossary/m.md %}#machine-reasoning
 [Machine Translation]: {{ site.baseurl }}{% link glossary/m.md %}#machine-translation
+[Magi Model]: {{ site.baseurl }}{% link glossary/m.md %}#magi-model
 [Majority Vote Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#majority-vote-algorithm
 [MapReduce Process]: {{ site.baseurl }}{% link glossary/m.md %}#mapreduce-process
 [Markov Chain]: {{ site.baseurl }}{% link glossary/m.md %}#markov-chain
@@ -73,6 +74,7 @@
 [Model Hub]: {{ site.baseurl }}{% link glossary/m.md %}#model-hub
 [Model Tuning]: {{ site.baseurl }}{% link glossary/m.md %}#model-tuning
 [Model Type]: {{ site.baseurl }}{% link glossary/m.md %}#model-type
+[Model uplift]: {{ site.baseurl }}{% link glossary/m.md %}#model-uplift
 [Modified National Institute Standards And Technology Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
 [MNIST Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#mnist-dataset
 [Multi-Agent Environment]: {{ site.baseurl }}{% link glossary/m.md %}#multi-agent-environment

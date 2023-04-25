@@ -791,6 +791,11 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
  See also [S], [Model Benchmark]
 
 
+# Statistical Bias
+
+ See also [S], [Bias]
+
+
 # Statistical Machine Translation
 
 # SMT
@@ -821,6 +826,14 @@ Completely different from [artificial neural networks][Artificial Neural Network
 
 
 # Statistics
+
+ Statistics and probability are two closely related fields, but they have distinct differences.
+
+ [Probability] is the branch of mathematics that deals with the study of random events or phenomena. It provides a way to quantify the likelihood of an event occurring. Probability theory is used to make predictions about the likelihood of future events based on past observations and data. Probability is used in many areas such as finance, physics, engineering, and computer science.
+
+ Statistics, on the other hand, is the science of collecting, analyzing, and interpreting data. It is concerned with making inferences and drawing conclusions from data. Statistics provides methods for summarizing and describing data, as well as making predictions and testing hypotheses. It is used in many fields such as business, medicine, social sciences, and economics.
+
+II n summary, probability is focused on the theoretical study of random events, while statistics is concerned with the practical application of data analysis to make inferences and draw conclusions.
 
  See also [S], [Big Data]
 
@@ -1007,6 +1020,9 @@ Completely different from [artificial neural networks][Artificial Neural Network
  Beware:
   * SVM can be used for binary classification (but also with a trick can be used for multi-class classification)
 
+ More at:
+  * [https://www.analyticsvidhya.com/blog/2021/10/support-vector-machinessvm-a-complete-guide-for-beginners/](https://www.analyticsvidhya.com/blog/2021/10/support-vector-machinessvm-a-complete-guide-for-beginners/)
+
  See [Classification], [Decision Boundary], [Kernel Trick], [Hyperplane], [Regression], [Support Vector]
 
 
@@ -1056,13 +1072,73 @@ Completely different from [artificial neural networks][Artificial Neural Network
  ![]( {{site.assets}}/s/synthesized_variable.png ){: width="100%}
 
  Use the centre of gravity, i.e regression line for the projection. --> transpose to the projection on the 'best' regression line! The best line is used with the gradient descent. We use the 'best' line to project to the new dimension by losing the minimum quantity of information. (miximize the adjacent line of the triangle and minimize the T line. ... Q: How much information have we lost? ...
+
  See also [S], [Eigenvalue], [Principal Component Analysis]
 
 
 # Synthetic Data
 
+ Information that is artificially generated rather than produced by real-world events.
+
+ It can be created using 
+  * transformation
+  * simulation
+
+ It can be used to
+  * Liberate data, i.e. from top secret to confidential 
+  * Augment to improve performance = train on real data and augmented data + test on real data ==> [Model uplift]
+  * Fill gap in data
+  * Test 
+
  Synthetic data is a tool that addresses many data challenges, particularly artificial intelligence and analytics issues such as privacy protection, regulatory compliance, accessibility, data scarcity, and bias, as well as data sharing and time to data (and therefore time to market).
 
  {% pdf "{{site.assets}}/s/synthetic_data_booklet.pdf" %}
+
+ More at:
+  * Fair synthetic data generation - [https://mostly.ai/blog/diving-deep-into-fair-synthetic-data-generation-fairness-series-part-5](https://mostly.ai/blog/diving-deep-into-fair-synthetic-data-generation-fairness-series-part-5)
+
+ See also [S], [Synthetic Data Privacy]
+
+
+# Synthetic Data Privacy
+
+ Beware: is it possible to reverser-engineer [synthetic data] to find out what the real data was?
+
+ ![]( {{site.assets}}/s/synthetic_data_privacy.png ){: width="100%}
+
+ Privacy levels:
+  1. Obscure Personally Identifiable Information (PII)
+  1. Obscure Personally Identifiable Information (PII) + noise
+  1. Synthesized rows
+  1. Synthesized rows + tests
+  1. Simulation taught by looking at real data
+  1. Simulation taught without looking at real data
+
+ Level 1: Obscure Personally Identifiable Information (PII)
+
+ ![]( {{site.assets}}/s/synthetic_data_privacy_level_1.png ){: width="100%}
+
+ Level 2: Obscure Personally Identifiable Information (PII) + noise
+
+ ![]( {{site.assets}}/s/synthetic_data_privacy_level_2.png ){: width="100%}
+
+ Level 3: Synthesized rows
+
+ ![]( {{site.assets}}/s/synthetic_data_privacy_level_3.png ){: width="100%}
+
+ Level 4: Synthesized rows + tests
+
+ ![]( {{site.assets}}/s/synthetic_data_privacy_level_4.png ){: width="100%}
+
+ Level 5: Simulation based on input data
+
+ ![]( {{site.assets}}/s/synthetic_data_privacy_level_5.png ){: width="100%}
+
+ Level 6: Simulation NOT based on input data
+
+ ![]( {{site.assets}}/s/synthetic_data_privacy_level_6.png ){: width="100%}
+
+ More at:
+  * ...
 
  See also [S], ...

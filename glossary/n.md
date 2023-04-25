@@ -62,12 +62,19 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], [Bayes Theorem], [Feature]
 
 
-# Name Entity Recognition
+# Named Entity Recognition
+
+# NER
 
  A standard NLP problem which involves spotting named entities (people, places, organizations etc.) from a chunk of text, and classifying them into a predefined set of categories. Some of the practical applications of NER include:
   * Scanning news articles for the people, organizations and locations reported.
   * Providing concise features for search optimization: instead of searching the entire content, one may simply search for the major entities involved.
   * Quickly retrieving geographical locations talked about in Twitter posts.
+
+ ![]( {{site.assets}}/n/named_entity_recognition.png ){: width="100%"}
+
+ More at:
+  * ...
 
  See also [N], [Entity Extraction], [NLP Benchmark]
 
@@ -133,7 +140,6 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
 # NLP Benchmark
 
-  * [BLEU Benchmark] : for machine translation
   * Coref :  Links pronouns to antecedents. Also capable to take the perspective of a speak, e.g. I, you, my sister, etc refers to different people function of who said it.
   * [GLUE Benchmark] :
   * NER : Named Entity Recognition (place, people, date, etc)
@@ -147,6 +153,18 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
   All of those can be summarize in the [HELM Benchmark]
 
  See also [N], [Benchmark], [Coreference], [Entity Extraction], [Language Parsing], [Model Benchmark], [Named Entity Recognition], [Question Answering], [Semantic Understanding], [Sentiment Analysis], [SNLI]
+
+
+# Natural Language Programming Metric
+
+# NLP Metric
+
+ A metric is applied to one input-output pair. The metric returns a score often evaluated against human output.
+
+  * [BLEU Metric] : for machine translation (and summarization)
+  * [ROUGE Metric] : for machine summarization (and translation)
+
+ See also [N], ...
 
 
 # Natural Language Toolkit
@@ -353,14 +371,14 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
 # NSP
 
- Pretrain a [CLS] token in BERT by performing a classification task. Did sentence B come directly after sentence A? Yes or No ? A classification problem with softmax function on is_next and not_next (sum of probabilities = 1).
+ Pretrain a [CLS] token in [BERT][BERT Model] by performing a classification task. Did sentence B come directly after sentence A? Yes or No ? A classification problem with softmax function on is_next and not_next (sum of probabilities = 1).
  
  ```
 A: Istanbul is a great city to visit
 B: I was just there
  ```
 
- See also [N], [BERT Model], [Softmax Function]
+ See also [N], [Softmax Function]
 
 
 # Next Word Prediction

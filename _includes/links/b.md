@@ -17,7 +17,7 @@
 [Bayesian Optimization Sampling Method]: {{ site.baseurl }}{% link glossary/b.md %}#bayesian-optimization-sampling-method
 [Behavioural Cloning]: {{ site.baseurl }}{% link glossary/b.md %}#behavioural-cloning
 [Belief-Desire-Intention Framework]: {{ site.baseurl }}{% link glossary/b.md %}#belief-desire-intention-framework
-[BDI-Framework]: {{ site.baseurl }}{% link glossary/b.md %}#bdi-framework
+[BDI Framework]: {{ site.baseurl }}{% link glossary/b.md %}#belief-desire-intention-framework
 [Benchmark]: {{ site.baseurl }}{% link glossary/b.md %}#benchmark
 [Bernouilli Distribution]: {{ site.baseurl }}{% link glossary/b.md %}#bernouilli-distribution
 [BERT Classification]: {{ site.baseurl }}{% link glossary/b.md %}#bert-classification
@@ -25,12 +25,12 @@
 [Bias]: {{ site.baseurl }}{% link glossary/b.md %}#bias
 [Bias-Variance Trade-Off]: {{ site.baseurl }}{% link glossary/b.md %}#bias-variance-trade-off
 [Bidirectional Encoder Representation from Transformer Model]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model
-[BERT Model]: {{ site.baseurl }}{% link glossary/b.md %}#bert-model
+[BERT Model]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model
 [Bidirectional Recurrent Neural Network]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-recurrent-neural-network
-[BRNN]: {{ site.baseurl }}{% link glossary/b.md %}#brnn
+[BRNN]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-recurrent-neural-network
 [Big Data]: {{ site.baseurl }}{% link glossary/b.md %}#big-data
-[Bilingual Evaluation Understudy Score]: {{ site.baseurl }}{% link glossary/b.md %}#bilingual-evaluation-understudy-score
-[BLEU Benchmark]: {{ site.baseurl }}{% link glossary/b.md %}#bleu-benchmark
+[Bilingual Evaluation Understudy Metric]: {{ site.baseurl }}{% link glossary/b.md %}#bilingual-evaluation-understudy-score
+[BLEU Metric]: {{ site.baseurl }}{% link glossary/b.md %}#bilingual-evaluation-understudy-score
 [Bill Gates Person]: {{ site.baseurl }}{% link glossary/b.md %}#bill-gates-person
 [Binary Classification]: {{ site.baseurl }}{% link glossary/b.md %}#binary-classification
 [Binary Cross-Entropy Loss Function]: {{ site.baseurl }}{% link glossary/b.md %}#binary-cross-entropy-loss-function
@@ -46,4 +46,4 @@
 [Box Cox Transformation]: {{ site.baseurl }}{% link glossary/b.md %}#box-cox-transformation
 [Brain]: {{ site.baseurl }}{% link glossary/b.md %}#brain
 [Brain Computer Interface]: {{ site.baseurl }}{% link glossary/b.md %}#brain-computer-interface
-[BC Interface]: {{ site.baseurl }}{% link glossary/b.md %}#bc-interface
+[BC Interface]: {{ site.baseurl }}{% link glossary/b.md %}#brain-computer-interface

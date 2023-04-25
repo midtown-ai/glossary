@@ -24,13 +24,14 @@
 [AI Artificial Intelligence Movie]: {{ site.baseurl }}{% link glossary/a.md %}#ai-artificial-intelligence-movie
 [AI Avatar]: {{ site.baseurl }}{% link glossary/a.md %}#ai-avatar
 [AI Award]: {{ site.baseurl }}{% link glossary/a.md %}#ai-award
+[AI Bias]: {{ site.baseurl }}{% link glossary/a.md %}#ai-bias
 [AI Bill Of Rights]: {{ site.baseurl }}{% link glossary/a.md %}#ai-bill-of-rights
 [AI Conference]: {{ site.baseurl }}{% link glossary/a.md %}#ai-conference
 [AI Control]: {{ site.baseurl }}{% link glossary/a.md %}#ai-control
 [AI Ethics]: {{ site.baseurl }}{% link glossary/a.md %}#ai-ethics
 [AI Explosion]: {{ site.baseurl }}{% link glossary/a.md %}#ai-explosion
 [AI For Content Creation Conference]: {{ site.baseurl }}{% link glossary/a.md %}#ai-for-content-creation-conference
-[AI4CC Conference]: {{ site.baseurl }}{% link glossary/a.md %}#ai4cc-conference
+[AI4CC Conference]: {{ site.baseurl }}{% link glossary/a.md %}#ai-for-content-creation-conference
 [AI Job]: {{ site.baseurl }}{% link glossary/a.md %}#ai-job
 [AI Magazine]: {{ site.baseurl }}{% link glossary/a.md %}#ai-magazine
 [AI Moratorium]: {{ site.baseurl }}{% link glossary/a.md %}#ai-moratorium
@@ -57,7 +58,7 @@
 [AlphaZero Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphazero-model
 [Amazon Company]: {{ site.baseurl }}{% link glossary/a.md %}#amazon-company
 [Amazon Web Services]: {{ site.baseurl }}{% link glossary/a.md %}#amazon-web-services
-[AWS]: {{ site.baseurl }}{% link glossary/a.md %}#aws
+[AWS]: {{ site.baseurl }}{% link glossary/a.md %}#amazon-web-services
 [Ameca Robot]: {{ site.baseurl }}{% link glossary/a.md %}#ameca-robot
 [Andrew Ng Person]: {{ site.baseurl }}{% link glossary/a.md %}#andrew-ng-person
 [Anomally Detection]: {{ site.baseurl }}{% link glossary/a.md %}#anomally-detection
@@ -68,38 +69,39 @@
 [Apprentice Learning]: {{ site.baseurl }}{% link glossary/a.md %}#apprentice-learning
 [Apriori Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#apriori-algorithm
 [Area Under The Curve]: {{ site.baseurl }}{% link glossary/a.md %}#area-under-the-curve
-[AUC]: {{ site.baseurl }}{% link glossary/a.md %}#auc
+[AUC]: {{ site.baseurl }}{% link glossary/a.md %}#area-under-the-curve
 [Argmax Function]: {{ site.baseurl }}{% link glossary/a.md %}#argmax-function
 [Argmin Function]: {{ site.baseurl }}{% link glossary/a.md %}#argmin-function
 [Artificial General Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-general-intelligence
-[AGI]: {{ site.baseurl }}{% link glossary/a.md %}#agi
+[AGI]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-general-intelligence
 [Artificial Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence
-[AI]: {{ site.baseurl }}{% link glossary/a.md %}#ai
+[AI]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence
 [Artificial Intelligence Areas Of Study]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-areas-of-study
-[AI Areas Of Study]: {{ site.baseurl }}{% link glossary/a.md %}#ai-areas-of-study
+[AI Areas Of Study]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-areas-of-study
 [Artificial Intelligence Challenge]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-challenge
 [Artificial Intelligence Challenge]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-challenge
 [AI Challenge]: {{ site.baseurl }}{% link glossary/a.md %}#ai-challenge
 [Artificial Intelligence Complete]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-complete
-[AI Complete]: {{ site.baseurl }}{% link glossary/a.md %}#ai-complete
+[AI Complete]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-complete
 [Artificial Intelligence Hard]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-hard
 [AI Hard]: {{ site.baseurl }}{% link glossary/a.md %}#ai-hard
 [Artificial Narrow Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-narrow-intelligence
-[ANI]: {{ site.baseurl }}{% link glossary/a.md %}#ani
+[ANI]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-narrow-intelligence
 [Artificial Neural Network]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neural-network
-[ANN]: {{ site.baseurl }}{% link glossary/a.md %}#ann
+[ANN]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neural-network
 [Artificial Neuron]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neuron
+[Artificial Neuron Bias]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neuron-bias
 [Artificial Super Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-super-intelligence
-[ASI]: {{ site.baseurl }}{% link glossary/a.md %}#asi
+[ASI]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-super-intelligence
 [Association for the Advancement of Artificial Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#association-for-the-advancement-of-artificial-intelligence
-[AAAI]: {{ site.baseurl }}{% link glossary/a.md %}#aaai
+[AAAI]: {{ site.baseurl }}{% link glossary/a.md %}#association-for-the-advancement-of-artificial-intelligence
 [Atlas Robot]: {{ site.baseurl }}{% link glossary/a.md %}#atlas-robot
 [Attention]: {{ site.baseurl }}{% link glossary/a.md %}#attention
 [Attention-Based Model]: {{ site.baseurl }}{% link glossary/a.md %}#attention-based-model
 [Attention Score]: {{ site.baseurl }}{% link glossary/a.md %}#attention-score
 [Attribute]: {{ site.baseurl }}{% link glossary/a.md %}#attribute
 [Augmented Reality]: {{ site.baseurl }}{% link glossary/a.md %}#augmented-reality
-[AR]: {{ site.baseurl }}{% link glossary/a.md %}#ar
+[AR]: {{ site.baseurl }}{% link glossary/a.md %}#augmented-reality
 [Autoencoder]: {{ site.baseurl }}{% link glossary/a.md %}#autoencoder
 [Autoencoder Bottleneck]: {{ site.baseurl }}{% link glossary/a.md %}#autoencoder-bottleneck
 [Autoencoder Type]: {{ site.baseurl }}{% link glossary/a.md %}#autoencoder-type
@@ -110,9 +112,9 @@
 [Autonomous Vehicle]: {{ site.baseurl }}{% link glossary/a.md %}#autonomous-vehicle
 [Autoregressive Model]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive-model
 [Autoregressive Convolutional Neural Network]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive-convolutional-neural-network
-[AR-CNN]: {{ site.baseurl }}{% link glossary/a.md %}#ar-cnn
+[AR-CNN]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive-convolutional-neural-network
 [Autoregressive Model]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive-model
-[AR Model]: {{ site.baseurl }}{% link glossary/a.md %}#ar-model
+[AR Model]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive-model
 [AWS Bedrock]: {{ site.baseurl }}{% link glossary/a.md %}#aws-bedrock
 [AWS Lex]: {{ site.baseurl }}{% link glossary/a.md %}#aws-lex
 [AWS Polly]: {{ site.baseurl }}{% link glossary/a.md %}#aws-polly

@@ -4,9 +4,9 @@
 [Parameter]: {{ site.baseurl}}{% link glossary/p.md %}#parameter
 [Passive Learning]: {{ site.baseurl }}{% link glossary/p.md %}#passive-learning
 [Pathways Language Model]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-language-model
-[PaLM Model]: {{ site.baseurl}}{% link glossary/p.md %}#palm-model
-[Pathways Language Model Embodied]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-language-model-embodied
-[PaLM-E Model]: {{ site.baseurl}}{% link glossary/p.md %}#palm-e-model
+[PaLM Model]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-language-model
+[Pathways Language Model Embodied]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-language-model-embodied-model
+[PaLM-E Model]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-language-model-embodied-model
 [Pathways Model Architecture]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-model-architecture
 [Pattern Recognition]: {{ site.baseurl}}{% link glossary/p.md %}#pattern-recognition
 [People]: {{ site.baseurl}}{% link glossary/p.md %}#people
@@ -31,20 +31,22 @@
 [Pose Estimation]: {{ site.baseurl}}{% link glossary/p.md %}#pose-estimation
 [Positional Encoding]: {{ site.baseurl}}{% link glossary/p.md %}#positional-encoding
 [Positive Attribute]: {{ site.baseurl}}{% link glossary/p.md %}#positive-attribute
-[Pre-Trained Model]: {{ site.baseurl}}{% link glossary/p.md %}#pre-trained-model
 [Precision]: {{ site.baseurl}}{% link glossary/p.md %}#precision
 [Prediction]: {{ site.baseurl}}{% link glossary/p.md %}#prediction
 [Prediction Error]: {{ site.baseurl}}{% link glossary/p.md %}#prediction-error
 [Predictive Maintenance]: {{ site.baseurl}}{% link glossary/p.md %}#predictive-maintenance
 [Predictor Variable]: {{ site.baseurl}}{% link glossary/p.md %}#predictor-variable
+[Pretrained Model]: {{ site.baseurl}}{% link glossary/p.md %}#pretrained-model
+[Pretrained Objective]: {{ site.baseurl}}{% link glossary/p.md %}#pretrained-objective
 [Principal Component Analysis]: {{ site.baseurl}}{% link glossary/p.md %}#principal-component-analysis
-[PCA]: {{ site.baseurl}}{% link glossary/p.md %}#pca
+[PCA]: {{ site.baseurl}}{% link glossary/p.md %}#principal-component-analysis
 [Prior]: {{ site.baseurl}}{% link glossary/p.md %}#prior
+[Probability]: {{ site.baseurl}}{% link glossary/p.md %}#probability
 [Procedural Reasoning System]: {{ site.baseurl}}{% link glossary/p.md %}#procedural-reasoning-system
 [Prompt Engineering]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-engineering
 [Prompt Injection]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-injection
 [Proximal Policy Optimization]: {{ site.baseurl}}{% link glossary/p.md %}#proximal-policy-optimization
-[PPO]: {{ site.baseurl}}{% link glossary/p.md %}#ppo
+[PPO]: {{ site.baseurl}}{% link glossary/p.md %}#proximal-policy-optimization
 [PyBullet]: {{ site.baseurl}}{% link glossary/p.md %}#pybullet
 [PyGame Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pygame-python-module
 [Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#python-module

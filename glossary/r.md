@@ -541,7 +541,7 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
  More at:
   * [https://venturebeat.com/security/pwc-highlights-11-chatgpt-and-generative-ai-security-trends-to-watch-in-2023/](https://venturebeat.com/security/pwc-highlights-11-chatgpt-and-generative-ai-security-trends-to-watch-in-2023/)
 
- See also [R], [AI Alignment], [AI Ethics]
+ See also [R], [AI Alignment], [AI Bias], [AI Ethics], [AI Fairness]
 
 
 # Restricted Boltzmann Machine
@@ -686,6 +686,30 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  See also [R], [PyBullet], [Isaac Gym]
 
 
+# Robustly Optimized BERT Approach Model
+
+# RoBERTa Model
+
+ An update on the [BERT model] optimized by [Meta][Meta Company]. The RoBERTa model also uses the [transformer architecture]
+
+ A robustly optimized method for pretraining [natural language processing (NLP)][NLP] systems that improves on [Bidirectional Encoder Representations from Transformers, or BERT], the self-supervised method released by [Google][Google Company] in 2018. BERT is a revolutionary technique that achieved state-of-the-art results on a range of NLP tasks while relying on unannotated text drawn from the web, as opposed to a language [corpus] that’s been labeled specifically for a given task. The technique has since become popular both as an NLP research baseline and as a final task architecture. BERT also highlights the collaborative nature of AI research — thanks to Google’s open release, we were able to conduct a replication study of BERT, revealing opportunities to improve its performance. Our optimized method, RoBERTa, produces state-of-the-art results on the widely used NLP benchmark, [General Language Understanding Evaluation (GLUE)][GLUE Benchmark].
+
+ Pretraining objectives:
+  * [Masked Language Model (MLM)][MLM]
+  * but not [Next Sentence Prediction (NSP)][NSP] as the original [BERT model] was
+
+ {% youtube "https://www.youtube.com/watch?v=-MCYbmU9kfg" %}
+
+ {% pdf "https://arxiv.org/pdf/1907.11692.pdf" %}
+
+ More at:
+  * [https://ai.facebook.com/blog/roberta-an-optimized-method-for-pretraining-self-supervised-nlp-systems/](https://ai.facebook.com/blog/roberta-an-optimized-method-for-pretraining-self-supervised-nlp-systems/)
+  * paper - [https://arxiv.org/abs/1907.11692](https://arxiv.org/abs/1907.11692)
+  * RoBERTa with hugginface - [https://anubhav20057.medium.com/step-by-step-guide-abstractive-text-summarization-using-roberta-e93978234a90](https://anubhav20057.medium.com/step-by-step-guide-abstractive-text-summarization-using-roberta-e93978234a90)
+
+ See also [R], ...
+
+
 # Robustness
 
  In [AI Safety], ...
@@ -718,9 +742,59 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  See also [R], [Prediction Error]
 
 
-# ROUGE Score
+# RoseTTAFold Diffusion
 
- See also [R], [BLEU Score], [MS COCO Caption Dataset]
+# RF Diffusion
+
+ A diffusion model for protein design
+
+ A team led by Baker Lab scientists Joseph Watson, David Juergens, Nate Bennett, Brian Trippe, and Jason Yim has created a powerful new way to design proteins by combining structure prediction networks and generative diffusion models. The team demonstrated extremely high computational success and tested hundreds of A.I.-generated proteins in the lab, finding that many may be useful as medications, vaccines, or even new nanomaterials.
+
+ Similar to the [DALL-E model] and other [Denoising Diffusion Probabilistic Models][DDPM] that are used to generate images, we have developed a guided diffusion model for generating new proteins. With prior design methods, tens of thousands of molecules may have to be tested before finding a single one that performs as intended. Using the new design method, dubbed RF Diffusion, the team had to test as little as one per design challenge.
+
+ RF Diffusion outperforms existing protein design methods across a broad range of problems, including topology-constrained protein monomer design, protein binder design, symmetric oligomer design, enzyme active site scaffolding, and symmetric motif scaffolding for therapeutic and metal-binding protein design. Highlights include a picomolar binder generated through pure computation and a series of novel symmetric assemblies experimentally confirmed by electron microscopy.
+
+ {% youtube "https://www.youtube.com/watch?v=i8fGzddGbU8" %}
+
+ {% pdf "https://www.biorxiv.org/content/10.1101/2022.12.09.519842v1.full.pdf" %}
+
+ More at:
+  * blog - [https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/](https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/)
+  * paper - [https://www.biorxiv.org/content/10.1101/2022.12.09.519842v1](https://www.biorxiv.org/content/10.1101/2022.12.09.519842v1) 
+
+ See also [R], ...
+
+
+# ROUGE Metric
+
+ ROUGE score is a set of metrics commonly used for [text summarization] tasks, where the goal is to automatically generate a concise summary of a longer text. ROUGE was designed to evaluate the quality of machine-generated summaries by comparing them to reference summaries provided by humans.
+
+ ROUGE score measures the similarity between the machine-generated summary and the reference summaries using overlapping n-grams, word sequences that appear in both the machine-generated summary and the reference summaries. The most common n-grams used are unigrams, bigrams, and trigrams. ROUGE score calculates the recall of n-grams in the machine-generated summary by comparing them to the reference summaries.
+
+ ROUGE = ∑ (Recall of n-grams)
+
+ Where:
+
+  * Recall of n-grams is the number of n-grams that appear in both the machine-generated summary and the reference summaries divided by the total number of n-grams in the reference summaries.
+
+ ROUGE score ranges from 0 to 1, with higher values indicating better summary quality. Like BLEU score, a perfect summary would have a ROUGE score of 1, while a completely incorrect summary would have a ROUGE score of 0.
+
+ ROUGE scores are branched into ROUGE-N,ROUGE-L, and ROUGE-S.
+
+ In general:
+  * [BLEU][BLEU Metric] focuses on precision: how much the words (and/or n-grams) in the candidate model outputs appear in the human reference.
+  * ROUGE focuses on recall: how much the words (and/or n-grams) in the human references appear in the candidate model outputs.
+
+ These results are complementing, as is often the case in the precision-recall tradeoff.
+
+ {% pdf "https://aclanthology.org/W04-1013.pdf" %}
+
+ More at:
+  * paper - [https://aclanthology.org/W04-1013/](https://aclanthology.org/W04-1013/)
+  * [https://medium.com/@sthanikamsanthosh1994/understanding-bleu-and-rouge-score-for-nlp-evaluation-1ab334ecadcb](https://medium.com/@sthanikamsanthosh1994/understanding-bleu-and-rouge-score-for-nlp-evaluation-1ab334ecadcb)
+  * [https://www.freecodecamp.org/news/what-is-rouge-and-how-it-works-for-evaluation-of-summaries-e059fb8ac840/](https://www.freecodecamp.org/news/what-is-rouge-and-how-it-works-for-evaluation-of-summaries-e059fb8ac840/)
+
+ See also [R], [MS COCO Caption Dataset], [NLP Metric]
 
 
 # Runway Company

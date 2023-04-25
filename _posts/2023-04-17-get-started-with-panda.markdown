@@ -6,6 +6,8 @@ date:   2023-04-17 12:51:28 -0800
 categories: jekyll update
 ---
 
+{% include links/all.md %}
+
 # Panda
 
  * [https://lab.rtscloud.in/#/](https://lab.rtscloud.in/#/)
@@ -125,4 +127,123 @@ dollarizer = lambda x: float(x[1:-1])
 chipo.item_price = chipo.item_price.apply(dollarizer)
  ```
 
-{% include links/all.md %}
+# Visualization
+
+ * [https://github.com/m-mehdi/pandas_tutorials](https://github.com/m-mehdi/pandas_tutorials)
+
+ ```
+import pandas as pd
+
+dataset_url = ('https://raw.githubusercontent.com/m-mehdi/pandas_tutorials/main/weekly_stocks.csv')
+# Tell panda this is a Date, use as an index for resampling
+df = pd.read_csv(dataset_url, parse_dates=['Date'], index_col='Date')
+
+# Check index is date/timestamp
+df.index
+
+df.plot(y='MSFT', ax=figsize(9,6),color="#008800")
+
+df.plot.line(y=['FB','AAPL','MSFT'], ax=figsize(10,6))
+
+df.plot(y='FB', ax=figsize(10,6), title='Facebook stock', ylabel='USD')
+
+#  last 3 records of the mean per month for the stocks
+# <!> resample only on the index, not other columns
+df_3Months = df.resample(rule='M').mean()[-3:]
+print(df_3Months)
+
+help(df.resample)
+
+# Bar plot
+# * vertical bars
+# * horizontal bars
+# * stacked bars (sum of values, each bar has 3 layers)
+df_3Months.plot(kind='bar', ax=figsize(10,6), ylabel='Price', color=["red","green", "blue"])
+df_3Months.plot(kind='barh', ax=figsize(9,6))
+df_3Months.plot(kind='bar', stacked=True, ax=figsize(9,6))
+
+# Histogram = distribution of data
+df[['MSFT', 'FB']].plot(kind='hist', bins=25, ax=figsize(9,6))
+
+# Box plot (to understand outliers)
+# max
+# 75 percentile
+# median
+# 25 percentile
+# min
+df.plot(kind='box', figsize=(9,6))
+df.plot(kind='box', vert=False, figsize=(9,6))
+
+# Area plot
+df.plot(kind='area', figsize(9,6))
+
+# Pie chart
+# * Set name of wedgies
+# * 1 big pie chart! 
+# * many subplots (pie charts)
+df_3Months.index=['March', 'April', 'May']
+df_3Months.plot(kind='pie', y='AAPL', legend=False, autopct='%.f')
+df_3Months.plot(kind='pie', legend=False, autopct='%.f', subplots=True, figsize=(14,8))
+
+# Scatter plot = how points are distributed (find relationship between 2 vars = correlation)
+df.plot(kind='scatter', x='MSFT', y='AAPL', figsize=(9,6), color='Green')
+ ```
+
+Reformat axis names
+ ```
+def formatxaxis(label):
+    result=label.month_name() + str(month.year)
+    return result
+
+ax = df_3Months.plot(kind='bar', figsize=(10,6), ylabel='Price', color=["red","green", "blue"])
+# Change above plot
+ax.set_xticklabels(map(formatxaxis, df_3Months.index))
+ ```
+
+ Iris
+ ```
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import seaborn as sns
+
+%matplotlib inline
+sns.set()
+
+# pip install seaborn - if you are  using personal laptop to run the notebooks 
+
+iris = sns.load_dataset("iris")
+iris.head()
+iris.columns =['sepal_length','sepal_width','petal_length','petal_width']
+
+iris.columns =['sepal_length','sepal_width','petal_length','petal_width','species']
+iris['petal_length'].plot()
+iris.plot()
+
+# New dataset
+tips = sns.load_dataset('tips')
+tips.head()
+
+# Cross Tabulation
+day_size_table=pd.crosstab(tips["day"],tips["size"])    # Table with number of samples with a given tips["day"] and tips["size"]
+day_size_table
+day_size_table.plot.bar()
+
+tips['tips_perc'] = tips['tip'] / (tips['total_bill'] - tips['tip'])
+sns.barplot(x='day', y='tips_perc', data=tips, orient='v')
+sns.barplot(x='day', y='tips_perc', hue='time', data=tips, orient='v')
+
+# plot with confidence interval
+
+tips['tips_perc'].plot.hist(bins=70)
+sns.histplot(tips['tips_perc'], kde=True, bins=50, color="r")
+sns.regplot(x='sepal_length', y='petal_length', data=iris)
+
+ ```
+
+# Lunch break
+
+```
+```
+
+
