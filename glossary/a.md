@@ -443,12 +443,16 @@ A risk of [AGI]
   * 1984 - [Terminator][Terminator Movie]
   * 1986 - [Short Circuit][Short Circuit movie]
   * 1999 - [The Matrix][The Matrix Movie]
+  * 1999 - [Bicentennial Man][Bicentennial Man Movie] - a [social robot] that wants to become human
   * 2001 - [AI Artificial Intelligence][AI Artificial Intelligence Movie]
   * 2004 - [I, Robot][I, Robot Movie]
   * 2008 - [Wall-E][Wall-E Movie]
   * 2013 - [Her][Her Movie]
   * 2014 - [Ex Machina][Ex Machina Movie]
   * 2022 - [M3GAN][M3GAN Movie]: the eponymous artificially intelligent doll who develops self-awareness and becomes hostile toward anyone who comes between her and her human companion
+
+  Other of interest:
+  * 2014 - [The Imitation Game][The Imitation Game Movie] - Movie based on the biography Alan Turing: The Enigma.
 
  See also [A]
 
@@ -624,7 +628,9 @@ A risk of [AGI]
 
  The inventory of the imitation game, aka the [Turing Test]
 
- See also [A], ...
+ {% youtube "https://www.youtube.com/watch?v=nEomYB94TTI" %}
+
+ See also [A], [The Imitation Game Movie]
 
 
 # Alex Krizhevsky Person

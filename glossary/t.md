@@ -258,6 +258,18 @@ layout: page
  See also [T], [Colossal Clean Crawled Corpus], [Google Company]
 
 
+# The Imitation Game Movie
+
+ The Imitation Game is a 2014 American thriller film. The film's title quotes the name of the game cryptanalyst Alan Turing proposed for answering the question "Can machines think?", in his 1950 seminal paper "Computing Machinery and Intelligence". 
+
+  {% youtube "https://www.youtube.com/watch?v=nuPZUUED5uk" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/The_Imitation_Game](https://en.wikipedia.org/wiki/The_Imitation_Game)
+
+ See also [T], [AI Movie], [Alan Turing Person]
+
+
 # The Matrix Movie
 
  The Matrix is a 1999 science fiction action film written and directed by the Wachowskis. It is the first installment in the Matrix film series, starring Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving, and Joe Pantoliano, and depicts a dystopian future in which humanity is unknowingly trapped inside the Matrix, a simulated reality that intelligent machines have created to distract humans while using their bodies as an energy source.
@@ -509,10 +521,13 @@ Desired Output --> |     Training     | --> Model
 
  More at:
   * paper - 
+  * explanation - [http://jalammar.github.io/illustrated-transformer/](http://jalammar.github.io/illustrated-transformer/)
   * [https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0](https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0)
   * [https://bdtechtalks.com/2022/05/02/what-is-the-transformer/](https://bdtechtalks.com/2022/05/02/what-is-the-transformer/)
   * Articles
    * [https://venturebeat.com/business/why-transformers-offer-more-than-meets-the-eye/](https://venturebeat.com/business/why-transformers-offer-more-than-meets-the-eye/)
+  * Demos
+   * write with transformers - [https://transformer.huggingface.co/](https://transformer.huggingface.co/)
 
  See also [T], [Action Transformer], [Attention Score], [Attention-Based Model], [Autoregressive Model], [Generative Model], [Long Short Term Memory Network], [Masked Self-Attention], [Multi-Head Attention], [Recurrent Neural Network], [Self-Attention]
 

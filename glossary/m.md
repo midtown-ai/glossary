@@ -899,6 +899,19 @@ def mse_loss(y_pred, y_true):
  See also [M], [Dataset]
 
 
+# MuLan Model
+
+ Similar to the [CLIP model], but for music! Music to text model!
+
+ {% pdf "https://arxiv.org/pdf/2208.12415.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2208.12415](https://arxiv.org/abs/2208.12415)
+  * code - [https://github.com/lucidrains/musiclm-pytorch](https://github.com/lucidrains/musiclm-pytorch)
+
+ See also [M], ...
+
+
 # Multi-Agent Environment
 
  See also [M], [Game Theory]
@@ -1062,11 +1075,18 @@ Y = a + b.X1 + c.X2
 
 
 # MUM Model
+ 
+ MUM was developed by [Google][Google Company], uses the [T5][T5 Model] text-to-text framework, and is 1,000 times more powerful than [BERT][BERT Model].
+
+ T5 uses transformer-based architecture, just like BERT, but instead uses a text-to-text approach. What that means is with T5, the input (query) and output (result) are always text strings, in contrast to BERT-style models that can only output either a classification label or the span of the input into a question and answer format. This means that the output with BERT, while undeniably impressive, was in comparison to MUM still rather abstract.
+
+The T5 text-to-text process includes more in-depth machine translation, document summarization, question answering, and classification tasks (e.g., sentiment analysis).
 
  More at:
   * [https://blog.google/products/search/introducing-mum/](https://blog.google/products/search/introducing-mum/)
+  * [https://www.upbuild.io/blog/what-is-google-mum/](https://www.upbuild.io/blog/what-is-google-mum/)
 
- See also [M], [Google Company]
+ See also [M], ...
 
 
 # Muse Model
@@ -1104,6 +1124,7 @@ Y = a + b.X1 + c.X2
 # Music Generator
 
  More at:
+  * with transformer - [https://towardsdatascience.com/creating-a-pop-music-generator-with-the-transformer-5867511b382a](https://towardsdatascience.com/creating-a-pop-music-generator-with-the-transformer-5867511b382a)
   * with LSTM - [https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177](https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177)
   * with RNN - [https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177](https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177)
   * with transformer -

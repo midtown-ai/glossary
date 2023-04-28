@@ -77,6 +77,7 @@
 [Model uplift]: {{ site.baseurl }}{% link glossary/m.md %}#model-uplift
 [Modified National Institute Standards And Technology Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
 [MNIST Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#mnist-dataset
+[MuLan Model]: {{ site.baseurl }}{% link glossary/m.md %}#mulan-model
 [Multi-Agent Environment]: {{ site.baseurl }}{% link glossary/m.md %}#multi-agent-environment
 [Multi-Head Attention]: {{ site.baseurl }}{% link glossary/m.md %}#multi-head-attention
 [MTL]: {{ site.baseurl }}{% link glossary/m.md %}#mtl

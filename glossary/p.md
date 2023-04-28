@@ -579,6 +579,7 @@ Prediction Error = actual_value - predicted_value
 
 # Python Module
 
+  * [Gradio][Gradio Module] - to build a basic UI to interface with a model
   * [Joblib][Joblib Module] - to save models in files
   * [Matplotlib][Matplotlib Module] - for visualization
   * [Numpy][Numpy Module]

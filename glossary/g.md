@@ -379,26 +379,38 @@ layout: page
 
 # Google Company
 
+ Model architecture developed by company
+  * [Pathways Model Architecture] -
+  * [Transformer Architecture] -
+
+
+ Hardware developed by company
+  * [Tensor Processing Unit (TPU)][TPU] - custom hardware for tensor arithmetic
+
  Models developed by the company
   * [Bard][Bard Model]: A lightweight version of Lambda meant to compete against Bing + [ChatGPT Model]
-  * [BERT][BERT Model]: 
-  * [Google Lens][Google Lens]:
-  * [Google Translate][Google Translate Model]:
+  * [DreamIX][DreamIX Model]: text-to-video and image-to-video diffusion model
+  * [Google Lens][Google Lens]: search what you see, uses cellphone cameras and [computer vision]
+  * [Google Translate][Google Translate Model]: Translate one language into another, [machine translation]
   * [Gshard Model] :
   * [Imagen][Imagen Model]: A text-to-image diffusion model
   * [Imagen Video][Imagen Video Model]: A text-to-video model
   * [LaMBDA][LaMBDA Model]: A large language model
   * [Magi Model] :
-  * [Minerva Model] :
-  * [MUM Model] :
+  * [Minerva Model] -
+  * [MUM Model] - Use [T5 Model], NLU and multimodal, 1000 more powerful than the [BERT Model]. 
   * [Muse Model] :
   * [MusicLM][MusicLM Model]: Generative model for music
   * [PaLM Model] :
-  * [Pathways Model Architecture] :
   * [Switch Transformer] :
-  * [T5][T5 Model]:
-  * [Tensor Processing Unit] or TPU :
-  * [Transformer Model] :
+  * [T5 Model] -
+
+
+ Superseded models
+  * 2010: [Helping computers understand language](https://googleblog.blogspot.com/2010/01/helping-computers-understand-language.html)
+  * 2015: RankBrain
+  * 2018: Neural Matching
+  * 2019: [BERT Model] - A [natural language processing] model based on the [transformer architecture] 
 
  Companies
   * [DeepMind][DeepMind Company] which built models such as [Chinchilla][Chinchilla Model], [Sparrow][Sparrow Model], [AlphaiFold][AlphaFold Model], and more ... 
@@ -568,6 +580,21 @@ layout: page
   * paper - [https://www.microsoft.com/en-us/research/publication/gradient-perturbation-is-underrated-for-differentially-private-convex-optimization/](https://www.microsoft.com/en-us/research/publication/gradient-perturbation-is-underrated-for-differentially-private-convex-optimization/)
 
  See also [G], [Differential Privacy], [Gradient Clipping], [Output Perturbation]
+
+
+# Gradio Module
+
+ A [python module] to build a UI for machine learning models.
+
+ Compatible with [Hugging Face][Hugging Face Company] Spaces.
+
+ {% youtube "https://www.youtube.com/watch?v=RiCQzBluTxU" %}
+
+ More at:
+  * [https://www.gradio.app/](https://www.gradio.app/)
+  * quickstart - [https://www.gradio.app/quickstart/](https://www.gradio.app/quickstart/)
+
+ See also [G], ...
 
 
 # Graph Convolutional Network

@@ -81,6 +81,7 @@
 [Dot Product]: {{ site.baseurl }}{% link glossary/d.md %}#dot-product
 [Downstream Task]: {{ site.baseurl }}{% link glossary/d.md %}#downstream-task
 [DreamFusion Model]: {{ site.baseurl }}{% link glossary/d.md %}#dreamfusion-model
+[DreamIX Model]: {{ site.baseurl }}{% link glossary/d.md %}#dreamix-model
 [Dropout]: {{ site.baseurl }}{% link glossary/d.md %}#dropout
 [Dropout]: {{ site.baseurl }}{% link glossary/d.md %}#dropout
 [Dropout Function]: {{ site.baseurl }}{% link glossary/d.md %}#dropout-function

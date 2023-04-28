@@ -713,6 +713,20 @@ Social robots also work as concierges in hotels and other settings like malls, w
  See also [S], ...
 
 
+# Stable Diffusion Model
+
+ [Denoising Diffusion Probabilistic Model] by [Stability AI Company]
+
+ There are 2 versions:
+  * v1.5 - support for NSFW, more custom models, better ControlNet support, more LoRA, TIs, have more artists and celebrities in the training data image set. Training set is 512x512, so optimal size for quick exploration is 512x512, which is kind of limited.
+  * v2.x - Better support for photos, landscape. Training set is 768x768 so one get more interesting composition and detail, easier to explore and experiment starting at 768x768. Has one great model: Illuminati v1.1 that can produce interesting images with minimum prompting, kind of like Midjourney. Some "controversial" artist such as Greg Rutkowski has been removed. 
+
+ More at:
+  * [https://aituts.com/models](https://aituts.com/models)
+
+ See also [S], ...
+
+
 # Stanford Autonomous Helicopter
 
  {% youtube "https://www.youtube.com/watch?v=0JL04JJjocc" %}

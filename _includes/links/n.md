@@ -30,6 +30,7 @@
 [Neptune AI Company]: {{ site.baseurl }}{% link glossary/n.md %}#neptune-ai-company
 [Netflix Company]: {{ site.baseurl }}{% link glossary/n.md %}#netflix-company
 [Netflix Challenge]: {{ site.baseurl }}{% link glossary/n.md %}#netflix-challenge
+[Netlify Company]: {{ site.baseurl }}{% link glossary/n.md %}#netlify-company
 [Neural Architecture Search]: {{ site.baseurl }}{% link glossary/n.md %}#neural-architecture-search
 [Neural Information Processing Systems Conference]: {{ site.baseurl }}{% link glossary/n.md %}#neural-information-processing-systems-conference
 [NeurIPS Conference]: {{ site.baseurl }}{% link glossary/n.md %}#neurips-conference
@@ -50,6 +51,8 @@
 [Node]: {{ site.baseurl }}{% link glossary/n.md %}#node
 [Noise]: {{ site.baseurl }}{% link glossary/n.md %}#noise
 [Noise Vector]: {{ site.baseurl }}{% link glossary/n.md %}#noise-vector
+[Non-Deterministic Polynomial-Time Hard]: {{ site.baseurl }}{% link glossary/n.md %}#non-deterministic-polynomial-time-hard
+[NP-Hard]: {{ site.baseurl }}{% link glossary/n.md %}#non-deterministic-polynomial-time-hard
 [Non-Linear Regression]: {{ site.baseurl }}{% link glossary/n.md %}#non-linear-regression
 [Numpy Module]: {{ site.baseurl }}{% link glossary/n.md %}#numpy-module
 [Nvidia Company]: {{ site.baseurl }}{% link glossary/n.md %}#nvidia-company

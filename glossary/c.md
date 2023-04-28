@@ -336,6 +336,7 @@ set       <search space>               set
   * [Google][Google Company]: Known for its search engine and ad-placement business model. Challenged by Microsoft
   * [Got It AI](https://www.app.got-it.ai/): ELMAR LLM for the enterprise with truth checker!
   * [Hanson Robotics][Hanson Robotics Company]: Build humanoid for consumer, entertainment, service, healthcare, and research applications. 
+  * [Hugging Face][Hugging Face Company] - A model hub, with datasets, and space/UI with [Gradio][Gradio Module]
   * [Meta][Meta Company]:  Formerly known as Facebook with a strong focus on the multiverse and more recently on AI
   * [Microsoft][Microsoft Company]: One of the largest company in the world, leading changes with AI 
   * [Neptune AI][Neptune AI Company]
@@ -354,6 +355,9 @@ set       <search space>               set
   * [Datagen](https://datagen.tech/) - Synthetic data for faces/images
   * [Gretel AI](https://gretel.ai/) - 
   * [Mostly AI](https://mostly.ai/) - Generative AI for tabular data 
+
+ Deployment:
+  * [Netlify][Netlify Company]
 
  See also [C], ...
 

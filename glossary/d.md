@@ -126,11 +126,16 @@ layout: page
 
 # Dartmouth Workshop
 
- The Dartmouth Summer Research Project on Artificial Intelligence was a 1956 summer workshop widely considered to be the founding event of artificial intelligence as a field.  The project lasted approximately **six to eight weeks** and was essentially **an extended brainstorming session**. Eleven mathematicians and scientists originally planned to attend; not all of them attended, but more than ten others came for short times.
+ The Dartmouth Summer Research Project on Artificial Intelligence was a 1956 summer workshop widely considered to be the founding event of artificial intelligence as a field. The project lasted approximately **six to eight weeks** and was essentially **an extended brainstorming session**. Eleven mathematicians and scientists originally planned to attend; not all of them attended, but more than ten others came for short times.
 
  > We propose that a 2-month, 10-man study of artificial intelligence be carried out during the summer of 1956 at Dartmouth College in Hanover, New Hampshire. The study is to proceed on the basis of the conjecture that every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it. An attempt will be made to find how to make machines use language, form abstractions and concepts, solve kinds of problems now reserved for humans, and improve themselves. We think that a significant advance can be made in one or more of these problems if a carefully selected group of scientists work on it together for a summer.
 
+ The opening paragraph echoes unbounded optimism of humans and a lesson of the complexity involved. Though their efforts was ultimately “[NP-HARD]”, this very project sparked one the greatest philosophy and engineering movement: **Design a machine capable of intelligent behavior.**
+
+ {% pdf "http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf" %}
+
  More at:
+  * proposal - [http://jmc.stanford.edu/articles/dartmouth.html](http://jmc.stanford.edu/articles/dartmouth.html)
   * participants- [https://en.wikipedia.org/wiki/Dartmouth_workshop#Participants](https://en.wikipedia.org/wiki/Dartmouth_workshop#Participants)
   * [https://en.wikipedia.org/wiki/Dartmouth_workshop](https://en.wikipedia.org/wiki/Dartmouth_workshop)
 
@@ -879,6 +884,22 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
 
  See also [D], [Google Company]
 
+
+# DreamIX Model
+
+ A diffusion model for video built by [Google][Goolge Company]
+
+ Text-driven image and video diffusion models have recently achieved unprecedented generation realism. While diffusion models have been successfully applied for image editing, very few works have done so for video editing. We present the first diffusion-based method that is able to perform text-based motion and appearance editing of general videos. Our approach uses a video diffusion model to combine, at inference time, the low-resolution spatio-temporal information from the original video with new, high resolution information that it synthesized to align with the guiding text-prompt. As obtaining high-fidelity to the original video requires retaining some of its high-resolution information, we add a preliminary stage of finetuning the model on the original video, significantly boosting fidelity. We propose to improve motion editability by a new, mixed objective that jointly finetunes with full temporal attention and with temporal attention masking. We further introduce a new framework for image animation. We first transform the image into a coarse video by simple image processing operations such as replication and perspective geometric projections, and then use our general video editor to animate it. As a further application, we can use our method for subject-driven video generation. Extensive qualitative and numerical experiments showcase the remarkable editing ability of our method and establish its superior performance compared to baseline methods.
+
+ {% youtube "https://www.youtube.com/watch?v=xcvnHhfDSGM" %}
+
+ {% youtube "https://www.youtube.com/watch?v=i5sO-BOFVoo" %}
+
+ {% pdf "https://arxiv.org/pdf/2302.01329.pdf" %}
+
+ More at:
+  * [https://dreamix-video-editing.github.io/]](https://dreamix-video-editing.github.io/)
+  * paper - [https://arxiv.org/abs/2302.01329](https://arxiv.org/abs/2302.01329)
 
 # Dropout
 

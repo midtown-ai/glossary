@@ -24,6 +24,7 @@
 [BHuman Company]: {{ site.baseurl }}{% link glossary/b.md %}#bhuman-company
 [Bias]: {{ site.baseurl }}{% link glossary/b.md %}#bias
 [Bias-Variance Trade-Off]: {{ site.baseurl }}{% link glossary/b.md %}#bias-variance-trade-off
+[Bicentennial Man Movie]: {{ site.baseurl }}{% link glossary/b.md %}#bicentenial-man-movie
 [Bidirectional Encoder Representation from Transformer Model]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model
 [BERT Model]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model
 [Bidirectional Recurrent Neural Network]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-recurrent-neural-network
