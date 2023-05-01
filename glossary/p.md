@@ -405,7 +405,7 @@ Prediction Error = actual_value - predicted_value
 
  ![]( {{site.assets}}/p/prediction_error_measurement.png ){: width="100%"}
 
- See also [P], [Bias], [Gradient Descent], [Loss Function], [Mean Absolute Error], [Mean Absolute Percentage Error], [Prediction], [Relative Approximation Error], [Root Mean Square Error], [Variance]
+ See also [P], [Bias], [Gradient Descent Algorithm], [Loss Function], [Mean Absolute Error], [Mean Absolute Percentage Error], [Prediction], [Relative Approximation Error], [Root Mean Square Error], [Variance]
 
 
 # Predictive Maintenance

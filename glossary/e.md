@@ -31,11 +31,11 @@ layout: page
 
 # Early Stopping
 
- There is a challenge in training a neural network long enough for it to learn the mapping, but not so long that it overfits the training data. One way to accomplish this is to train on the training dataset, but to stop training at the point when performance on a validation dataset starts to degrade. In the world of training neural networks, this is what is known as “early stopping”. `A key challenge with overfitting, and with machine learning in general, is that we can’t know how well our model will perform on new data until we actually test it"`.
+ There is a challenge in training a [neural network] long enough for it to learn the mapping, but not so long that it overfits the training data. One way to accomplish this is to train on the training dataset, but to stop training at the point when performance on a validation dataset starts to degrade. In the world of training neural networks, this is what is known as “early stopping”. `A key challenge with [overfitting], and with machine learning in general, is that we can’t know how well our model will perform on new data until we actually test it"`.
 
  ![]( {{site.assets}}/e/early_stopping.png ){: width="100%"}
 
- See also [E], [AutoML], [Balanced Fitting], [Early Stopping Epoch], [Neural Network], [Overfitting], [Underfitting]
+ See also [E], [AutoML], [Balanced Fitting], [Early Stopping Epoch], [Underfitting]
 
 
 # Early Stopping Epoch
@@ -378,12 +378,21 @@ H(X) = -∑(p(x) * log2 p(x))
 
 # Epoch
 
- Epoch = Number of times a model will adjust itself, i.e. learn something new!
+ Epoch = Number of passes on the training dataset
 
- `A complete pass on the dataset ~ 1 iteration!`. A complete dataset can be large in which case it is broken in batches and processed in many iteration (one per batch). Why use more than one Epoch? It may not look correct that passing the entire dataset through an ML algorithm or neural network is not enough, and we need to pass it multiple times to the same algorithm. So it needs to be kept in mind that to optimize the learning, we use gradient descent, an iterative process. Hence, it is not enough to update the weights with a single pass or one epoch. Moreover, one epoch may lead to overfitting in the model. In other words, when the training loop has passed through the entire training dataset once, we call that one epoch. Training for a higher number of epochs will mean your model will take longer to complete its training task, but it may produce better output if it has not yet converged.
+ :warning: The parameters of the model are usually updated many times during each epoch. The model is updated after each batch of data. This is known as [batch training] or mini-batch training.
+
+ One epoch means that every training sample has been fed through the model at least once. If your epochs are set to 50, for example, it means that the model you are training will work through the entire training dataset 50 times.
+
+ `A complete pass on the dataset ~ 1 iteration!`. A complete dataset can be large in which case it is broken in [batches][Batch] and processed in many [iteration] (one per batch). Why use more than one Epoch? It may not look correct that passing the entire dataset through an ML algorithm or neural network is not enough, and we need to pass it multiple times to the same algorithm. So it needs to be kept in mind that to optimize the learning, we use gradient descent, an iterative process. Hence, it is not enough to update the weights with a single pass or one epoch. Moreover, one epoch may lead to [overfitting] in the model. In other words, when the training loop has passed through the entire training dataset once, we call that one epoch. Training for a higher number of epochs will mean your model will take longer to complete its training task, but it may produce better output if it has not yet converged.
   * Training over more epochs will take longer but can lead to a better output (e.g. sounding musical output)
   * Model training is a trade-off between the number of epochs (i.e. time) and the quality of sample output.
- See also [E], [Batch], [Iteration], [Gradient Descent], [Overfitting]
+
+ Typically, the number of epochs is a hyperparameter that is set prior to training, and the model is trained for a fixed number of epochs. The optimal number of epochs depends on the complexity of the problem, the amount of training data, and other factors specific to the particular machine learning task.
+
+ After training is complete, the model can be evaluated on a separate validation dataset to assess its performance. If the model is [overfitting] the training data, the validation loss will start to increase while the training loss continues to decrease, indicating that the model is starting to memorize the training data rather than learning to generalize to new data. In this case, [early stopping] or other regularization techniques can be used to prevent overfitting.
+
+ See also [E], [Gradient Descent Algorithm]
 
 
 # Eric Schmidt Person

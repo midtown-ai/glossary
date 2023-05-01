@@ -10,6 +10,7 @@
 [Batch Gradient Descent]: {{ site.baseurl }}{% link glossary/b.md %}#batch-gradient-descent
 [Batch Normalization]: {{ site.baseurl }}{% link glossary/b.md %}#batch-normalization
 [Batch Size]: {{ site.baseurl }}{% link glossary/b.md %}#batch-size
+[Batch Training]: {{ site.baseurl }}{% link glossary/b.md %}#batch-training
 [Bayes Search]: {{ site.baseurl }}{% link glossary/b.md %}#bayes-search
 [Bayes Theorem]: {{ site.baseurl }}{% link glossary/b.md %}#bayes-theorem
 [Bayesian Inference]: {{ site.baseurl }}{% link glossary/b.md %}#bayesian-inference

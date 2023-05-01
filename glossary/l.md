@@ -226,19 +226,21 @@ layout: page
 # Learning Method
 
  All of those are or should be machine learning algorithm type! Here is a non-exhaustive list:
-  * experience : learn from the past/data
-  * [unsupervised learning] : try, fail, learn from failures ? Takes a long time / many iteration!
-  * [imitation learning] : clone behavior of experts <== good to get started, but do you understand?
-  * [supervised learning] : with a teacher
-  * [reinforcement learning] : reward based
-  * [task-based learning] : focus on goal, use all of your skills to complete it and develop new ones (be motivated to find new skills)
-  * feedback-based learning : get feedback from the crowd (experts and non-experts), select the feedback you want -- always try your best --> develop a persona
-  * [transfer learning] : priors + I learned that concept before, no need to relearn
-  * [weak-supervised learning] : augment the data (i.e. create data!) which has been labeled (supervised)
-  * [semi-supervised learning] : label existing data based on data that has been labeled
+  * experience - learn from the past/data
+  * [unsupervised learning] - try, fail, learn from failures ? Takes a long time / many iteration!
+  * [imitation learning] - clone behavior of experts <== good to get started, but do you understand?
+  * [supervised learning] - with a teacher
+  * [reinforcement learning] - reward-and-policy-based learning
+  * [task-based learning] - focus on goal, use all of your skills to complete it and develop new ones (be motivated to find new skills)
+  * [feedback-based learning] - get feedback from the crowd (experts and non-experts), select the feedback you want -- always try your best --> develop a persona
+  * [transfer learning] - priors + I learned that concept before, no need to relearn
+  * [weak-supervised learning] - augment the data (i.e. create data!) which has been labeled (supervised)
+  * [semi-supervised learning] - label existing data based on data that has been labeled
+  * [self-supervised learning] - acquire knowledge and skills through experiences and interactions without external feedback or instruction
   * [contrastive learning] - learning based on similarities and differences
+  * [adaptive learning] - learning adapted to the learner's level and what has not yet been understood
 
- See also [L], [Feedback-Based Learning], [Machine Learning Type], [Self-Supervised Learning]
+ See also [L], [Machine Learning Type]
 
 
 # Learning Process
@@ -266,7 +268,7 @@ with alpha = learning_rate
   * if alpha = 0  ==> oblivious to observation = no change!
   * A starting value can be between 0.01 and 0.1 which implies that updates with be between 1% and 10% of the observed error.
 
- See also [L], [Gradient Descent], [Hyperparameter], [Loss Function], [Prior], [Transfer Learning]
+ See also [L], [Gradient Descent Algorithm], [Hyperparameter], [Loss Function], [Prior], [Transfer Learning]
 
 
 # Learning Strategy
@@ -485,7 +487,7 @@ Aristotle is mortal!
   * LSTM with keras - [https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5](https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5)
   * [http://colah.github.io/posts/2015-08-Understanding-LSTMs/](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
- See also [L], [Attention-Based Model], [Gated Recurrent Unit Cell], [Gradient Descent], [Recurrent Neural Network], [Transformer Model], [Vanishing Gradient Problem]
+ See also [L], [Attention-Based Model], [Gated Recurrent Unit Cell], [Gradient Descent Algorithm], [Recurrent Neural Network], [Transformer Model], [Vanishing Gradient Problem]
 
 
 # Loss Function
@@ -513,7 +515,7 @@ Aristotle is mortal!
  More at :
   * choosing a loss function - [https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/](https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/)
 
- See also [L], [Activation Function], [Backpropagation], [Discriminator], [Gradient Descent], [Linear Regression], [Optimizer], [Prediction Error], [Representation Space], [Residual]
+ See also [L], [Activation Function], [Backpropagation], [Discriminator], [Gradient Descent Algorithm], [Linear Regression], [Optimizer], [Prediction Error], [Representation Space], [Residual]
 
 
 # Loss Graph

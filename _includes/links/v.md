@@ -22,6 +22,7 @@
 [Vector Search Plugin]: {{ site.baseurl }}{% link glossary/v.md %}#vector-search-plugin
 [Video Pre-Training Model]: {{ site.baseurl }}{% link glossary/v.md %}#video-pre-trained-model
 [VPT Model]: {{ site.baseurl }}{% link glossary/v.md %}#vpt-model
+[Video Restauration]: {{ site.baseurl }}{% link glossary/v.md %}#video-restauration
 [VIMA Model]: {{ site.baseurl }}{% link glossary/v.md %}#vima-model
 [Visual Geometry Group Model]: {{ site.baseurl }}{% link glossary/v.md %}#visual-geometry-group-model
 [VGG-16 Model]: {{ site.baseurl }}{% link glossary/v.md %}#vgg-16-model

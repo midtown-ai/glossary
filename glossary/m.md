@@ -679,9 +679,9 @@ def mse_loss(y_pred, y_true):
  See also [M], [Mini-Batch Gradient Descent]
 
 
-# Mini-Batch Gradient Descent
+# Mini-Batch Gradient Descent Algorithm
 
- ~ stochastic gradient descent with more than 1 sample that use matrix optimization in computation. A compromise between computing the true gradient (all samples) and the gradient at a single example (aka stochastic gradient descent), is to compute the gradient against more than one training example (called a "mini-batch") at each step. This can perform significantly better than true stochastic gradient descent because the code can make use of vectorization libraries rather than computing each step separately. It may also result in smoother convergence, as the gradient computed at each step uses more training examples.
+ ~ [stochastic gradient descent][SGD Algorithm] with more than 1 sample that use matrix optimization in computation. A compromise between computing the true gradient (all samples) and the gradient at a single example (aka stochastic gradient descent), is to compute the gradient against more than one training example (called a "mini-batch") at each step. This can perform significantly better than true stochastic gradient descent because the code can make use of vectorization libraries rather than computing each step separately. It may also result in smoother convergence, as the gradient computed at each step uses more training examples.
 
  ![]( {{site.assets}}/m/mini_batch_gradient_descent.png ){: width="100%"}
 
@@ -692,9 +692,9 @@ def mse_loss(y_pred, y_true):
   * Use the mean gradient we calculated in step 3 to update the weights
   * Repeat steps 1–4 for the mini-batches we created
 
- Just like SGD, the average cost over the epochs in mini-batch gradient descent fluctuates because we are averaging a small number of examples at a time. But the mini-batch gradient descent is a good (the best) approximation. Also note that the path is less optimized than the "complete" gradient descent where you take all sample into consideration for one step, but it is a good approximation and the destination/convergence is the same = the local minima is not changed by the path taken to reach it.
+ Just like SGD, the average cost over the [epochs] in mini-batch gradient descent fluctuates because we are averaging a small number of examples at a time. But the mini-batch gradient descent is a good (the best) approximation. Also note that the path is less optimized than the "complete" gradient descent where you take all sample into consideration for one step, but it is a good approximation and the destination/convergence is the same = the local minima is not changed by the path taken to reach it.
 
- See also [M], [Batch Gradient Descent], [Gradient Descent], [Mini-Batch], [Stochastic Gradient Descent]
+ See also [M], [Batch Gradient Descent Algorithm], [Gradient Descent Algorithm], [Mini-Batch]
 
 
 # Mixed Reality

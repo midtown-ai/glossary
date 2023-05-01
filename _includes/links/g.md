@@ -46,7 +46,10 @@
 [Gradient]: {{ site.baseurl }}{% link glossary/g.md %}#grandient
 [Gradient Boosting]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-boosting
 [Gradient Clipping]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-clipping
-[Gradient Descent]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descentgradient-descent
+[Gradient Descent Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descent-algorithm
+[GD Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descent-algorithm
+[Gradient Descent with Momentum Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descent-with-momentum-algorithm
+[GD with Momentum Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descent-with-momentum-algorithm
 [Gradient Perturbation]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-perturbation
 [Gradio Module]: {{ site.baseurl }}{% link glossary/g.md %}#gradio-module
 [Graph Convolutional Network]: {{ site.baseurl }}{% link glossary/g.md %}#graph-convolutinoal-network

@@ -447,12 +447,19 @@ set       <search space>               set
 
  A Confusion matrix is an N x N matrix used for evaluating the performance of a classification model, where N is the number of target classes. The matrix compares the actual target values with those predicted by the machine learning model. In the case where N=2 (true or false), it shows false and true positive as well as false and true negative.
 
- ![]( {{site.assets}}/c/confusion_matrix.jpg ){: width="100%"}
+ ![]( {{site.assets}}/c/confusion_matrix_binary_classifier.jpeg ){: width="100%"}
+
+ :warning: Beware:
+  * [precision] = [recall] !
+  * [specificity] = precision if classes in binary classifier are inverted!
+  * [precision] = true positive / total positive
+
+ ![]( {{site.assets}}/c/confusion_matrix_multiclass_classifier.jpeg ){: width="100%"}
 
  More at:
   * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
 
- See also [C], [Accuracy], [Classification], [Model Drift], [Precision], [Prediction Error], [Recall], [Sensitivity], [Specificity]
+ See also [C], [Accuracy], [Classification], [Model Drift], [Prediction Error]
 
 
 # Constraint Satisfaction Problem

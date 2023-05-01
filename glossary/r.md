@@ -505,6 +505,27 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
  See also [R], [Convoluted Neural Network], [Computer Vision], [Rectified Linear Unit], [Residual Block], [Vanishing Gradient Problem]
 
 
+# Resilient Backpropagation Algorithm
+
+# Rprop Algorithm
+
+ Rprop, short for resilient [backpropagation], is a type of [optimization algorithm] commonly used in [machine learning] and [neural networks][ANN] to minimize the [cost function] or error function.
+
+ Unlike other optimization algorithms that use a fixed [learning rate], Rprop [adapts][Adative Algorithm] the step size for each parameter based on the sign of the gradient. This allows the algorithm to take larger steps in flat regions and smaller steps in steep regions of the cost function, thus improving convergence speed.
+
+ The Rprop algorithm maintains a separate update value for each parameter and adjusts the update value based on the sign of the gradient at each iteration. If the gradient changes sign, the update value is reset to its initial value, otherwise, it is increased or decreased by a fixed factor. The step size for each parameter is then calculated based on the current update value and the sign of the gradient.
+
+ Rprop is particularly effective when dealing with high-dimensional optimization problems, noisy gradients, or sparse data. It is also computationally efficient and does not require the calculation of second-order derivatives.
+
+ One drawback of Rprop is that it may get stuck in local minima or plateaus, and it may not perform well in non-convex optimization problems. To address this issue, hybrid variants of Rprop have been proposed that combine it with other optimization algorithms such as Adam or momentum to improve its robustness and generalization capabilities.
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Rprop](https://en.wikipedia.org/wiki/Rprop)
+  * [https://towardsdatascience.com/understanding-rmsprop-faster-neural-network-learning-62e116fcf29a](https://towardsdatascience.com/understanding-rmsprop-faster-neural-network-learning-62e116fcf29a)
+
+ See also [R], [RMSprop Algorithm]
+
+
 # Response Variable
 
  Y or prediction Y_hat There are many names for the output of a machine learning program. Several disciplines converge in machine learning, and many of those disciplines use their own terminology. We will refer to the output as the response variable. Other names for response variables include "dependent variables", "regressands", "criterion variables", "measured variables", "responding variables", "explained variables", "outcome variables", "experimental variables", "labels", and "output variables".
@@ -740,6 +761,24 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 # RMSE
 
  See also [R], [Prediction Error]
+
+
+# Root Mean Square Propagation Algorithm
+
+# RMSprop Algorithm
+
+ An [optimization algorithm][optimizer] to compute parameters to minimize the loss function.
+
+ RMSprop (Root Mean Square Propagation) is an optimization algorithm used in machine learning to update the weights of a neural network during training. It is similar to the adaptive learning rate methods, such as [AdaGrad][AdaGrad Algorithm] and [Adam][Adam Algorithm], in that it adjusts the learning rate for each weight based on the estimated variance of the gradients.
+
+ It is an unpublished algorithm first proposed in the Coursera course. "Neural Network for Machine Learning" lecture six by Geoff Hinton. RMSProp lies in the realm of [adaptive learning] rate methods, which have been growing in popularity in recent years because it is the extension of [Stochastic Gradient Descent (SGD)][SGD Algorithm] algorithm, momentum method, and the foundation of [Adam][Adam Algorithm] algorithm. One of the applications of RMSProp is the stochastic technology for [mini-batch gradient descent].
+
+ More at:
+  * [https://towardsdatascience.com/understanding-rmsprop-faster-neural-network-learning-62e116fcf29a](https://towardsdatascience.com/understanding-rmsprop-faster-neural-network-learning-62e116fcf29a)
+  * [https://optimization.cbe.cornell.edu/index.php?title=RMSProp](https://optimization.cbe.cornell.edu/index.php?title=RMSProp)
+  * from scratch - [https://machinelearningmastery.com/gradient-descent-with-rmsprop-from-scratch/](https://machinelearningmastery.com/gradient-descent-with-rmsprop-from-scratch/)
+
+ See also [R], [Rprop Algorithm]
 
 
 # RoseTTAFold Diffusion

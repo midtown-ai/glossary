@@ -266,6 +266,16 @@ z_q(x)=\text{argmin}_i ||z_e(x)-e_i||_2
  See also [V], [Inverse Dynamics Model], [Reinforcement Learning]
 
 
+# Video Restauration
+
+ {% youtube "https://www.youtube.com/watch?v=sHkc83XA2dY" %}
+
+ More at:
+  * [https://www.youtube.com/@NASS_0/videos](https://www.youtube.com/@NASS_0/videos)
+
+ See also [V], ...
+
+
 # VIMA Model
 
  {% youtube "https://www.youtube.com/watch?v=oLBg8aLoQ00" %}

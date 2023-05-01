@@ -122,7 +122,7 @@ First, we believe the clearest framing of general intelligence is a system that 
 
  :warning: Note that for multi-layer neural networks that use of an activation function at each layer, the [backpropagation] computation leads to loss of information (forward for input and backward for weight computation) which is known as the [vanishing gradient problem].
 
- See also [A], [Batch Normalization], [Exploding Gradient Problem], [Gradient Descent], [Loss Function]
+ See also [A], [Batch Normalization], [Exploding Gradient Problem], [Gradient Descent Algorithm], [Loss Function]
 
 
 # Activation Step
@@ -157,6 +157,99 @@ First, we believe the clearest framing of general intelligence is a system that 
   * [https://towardsdatascience.com/understanding-adaboost-2f94f22d5bfe](https://towardsdatascience.com/understanding-adaboost-2f94f22d5bfe)
 
  See also [A], [Boosting], [Decision Stump], [Forest Of Stumps]
+
+
+# Adaptive Delta Algorithm
+
+# AdaDelta
+
+ AdaDelta is an [optimization algorithm][Optimizer] for [gradient descent], which is commonly used in [machine learning] and [deep learning]. It was introduced by Matthew Zeiler in 2012 as an extension of the [AdaGrad algorithm].
+
+ The key idea behind AdaDelta is to adaptively adjust the learning rate for each parameter based on the historical gradients of that parameter. Unlike AdaGrad, which accumulates the square of the gradients over all time, AdaDelta restricts the accumulation to a fixed window of the most recent gradients.
+
+ AdaDelta stands for "Adaptive Delta". The "Delta" part of the name refers to the parameter updates, which are represented by the variable delta in the update rule. The "Adaptive" part of the name refers to the fact that the learning rate is adaptively adjusted for each parameter based on the historical gradients of that parameter. 
+
+ More at:
+  * [https://paperswithcode.com/method/adadelta](https://paperswithcode.com/method/adadelta)
+  * paper - [https://arxiv.org/abs/1212.5701v1](https://arxiv.org/abs/1212.5701v1)
+  * code - [https://github.com/pytorch/pytorch/blob/b7bda236d18815052378c88081f64935427d7716/torch/optim/adadelta.py#L6](https://github.com/pytorch/pytorch/blob/b7bda236d18815052378c88081f64935427d7716/torch/optim/adadelta.py#L6)
+  * from scratch - [https://machinelearningmastery.com/gradient-descent-with-adadelta-from-scratch/](https://machinelearningmastery.com/gradient-descent-with-adadelta-from-scratch/)
+
+ See also [A], [Adaptive Gradient Algorithm]
+
+
+# Adaptive Learning
+
+ Adaptive learning is a way of delivering learning experiences that are customized to the unique needs and performance of each individual. It can use computer software, online systems, algorithms, and artificial intelligence to provide feedback, pathways, resources, and materials that are most effective for each learner. Adaptive learning can vary depending on the content, the learner, and the network of other learners.
+
+ More at:
+  * ...
+
+ See also [A], [Learning Method]
+
+
+# Adaptive Learning Algorithm
+
+ In [Gradient Descent][GD Algorithm] and [Gradient Descent with Momentum][GD with momentum Algorithm], we saw how [learning rate] affects the convergence. Setting the learning rate too high can cause oscillations around minima and setting it too low, slows the convergence. Learning Rate in Gradient Descent and its variations like Momentum is a hyper-parameter which needs to be tuned manually for all the features.
+
+ With those algorithms, when we try updating weights in a neural net
+  * Learning rate is the same for all the features
+  * Learning rate is the same at all the places in the cost space
+
+ With adaptive learning algorithm, the learning rate is not constant and changes based on the feature and the location
+
+ Algorithm with adaptive learning rates are:
+  * [Adam][Adam Algorithm]
+  * [AdaGrad][AdaGrad Algorithm]
+  * [RMSprop][RMSprop Algorithm]
+  * [AdaDelta][AdaDelta Algorithm]
+  * and more ...
+
+ More at:
+  * ...
+
+ See also [A], ...
+
+
+# Adaptive Gradient Algorithm
+
+# AdaGrad Algorithm
+
+ Unfortunately, this hyper-parameter could be very difficult to set because if we set it too small, then the parameter update will be very slow and it will take very long time to achieve an acceptable loss. Otherwise, if we set it too large, then the parameter will move all over the function and may never achieve acceptable loss at all. To make things worse, the high-dimensional non-convex nature of neural networks optimization could lead to different sensitivity on each dimension. The learning rate could be too small in some dimension and could be too large in another dimension.
+
+One obvious way to mitigate that problem is to choose different learning rate for each dimension, but imagine if we have thousands or millions of dimensions, which is normal for deep neural networks, that would not be practical. So, in practice, one of the earlier algorithms that have been used to mitigate this problem for deep neural networks is the AdaGrad algorithm (Duchi et al., 2011). This algorithm adaptively scaled the learning rate for each dimension. 
+
+ Adagrads most significant benefit is that it eliminates the need to tune the [learning rate] manually, but it still isn't perfect. Its main weakness is that it accumulates the squared gradients in the denominator. Since all the squared terms are positive, the accumulated sum keeps on growing during training. Therefore the learning rate keeps shrinking as the training continues, and it eventually becomes infinitely small. Other algorithms like [Adadelta][Adadelta Algorithm], [RMSprop][RMSprop Algorithm], and [Adam][Adam Algorithm] try to resolve this flaw.
+
+ ![]( {{site.assets}}/a/adaptive_gradient_algorithm.gif){: width="100%" }
+
+ More at:
+  * [https://medium.com/konvergen/an-introduction-to-adagrad-f130ae871827](https://medium.com/konvergen/an-introduction-to-adagrad-f130ae871827)
+  * [https://ml-explained.com/blog/adagrad-explained](https://ml-explained.com/blog/adagrad-explained)
+
+ See also [A], ...
+
+
+# Adaptive Learning Rate
+
+ See also [A], ...
+
+
+# Adaptive Moment Estimation Algorithm
+
+# Adam Algorithm
+
+ Adam (Adaptive Moment Estimation) is an [optimization algorithm][Optimizer] used in machine learning to update the weights of a neural network during training. It is an extension of [stochastic gradient descent (SGD)][SGD Algorithm] that incorporates ideas from both momentum-based methods and adaptive learning rate methods.
+
+ The main idea behind Adam is to adjust the learning rate for each weight based on the gradient's estimated first and second moments. The first moment is the mean of the gradient, and the second moment is the variance of the gradient. Adam maintains an exponentially decaying average of the past gradients, similar to the momentum method, and also an exponentially decaying average of the past squared gradients, similar to the adaptive learning rate methods. These two estimates are used to update the weights of the network during training.
+
+ Compared to [Stochastic Gradient Descent (SGD)][SGD Algorithm], Adam can converge faster and requires less [hyperparameter tuning]. It adapts the [learning rate] on a per-parameter basis, which helps it to converge faster and avoid getting stuck in local minima. It also uses momentum to accelerate the convergence process, which helps the algorithm to smooth out the gradient updates, resulting in a more stable convergence process. Furthermore, Adam uses an adaptive learning rate, which can lead to better convergence on complex, high-dimensional problems.
+
+ More at:
+  * [https://medium.com/geekculture/a-2021-guide-to-improving-cnns-optimizers-adam-vs-sgd-495848ac6008](https://medium.com/geekculture/a-2021-guide-to-improving-cnns-optimizers-adam-vs-sgd-495848ac6008)
+  * [https://medium.com/@Biboswan98/optim-adam-vs-optim-sgd-lets-dive-in-8dbf1890fbdc](https://medium.com/@Biboswan98/optim-adam-vs-optim-sgd-lets-dive-in-8dbf1890fbdc)
+
+ See also [A], ...
 
 
 # Addiction

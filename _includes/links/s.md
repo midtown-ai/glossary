@@ -86,8 +86,8 @@
 [Statistics]: {{ site.baseurl}}{% link glossary/s.md %}#statistics
 [Step Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#step-activation-function
 [Stereo Vision]: {{ site.baseurl}}{% link glossary/s.md %}#stereo-vision
-[Stochastic Gradient Descent]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-gradient-descent
-[SGD]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-gradient-descent
+[Stochastic Gradient Descent Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-gradient-descent-algorithm
+[SGD Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-gradient-descent-algorithm
 [Stochastic Node]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-node
 [Streamlit]: {{ site.baseurl}}{% link glossary/s.md %}#streamlit
 [Strong Artificial Intelligence]: {{ site.baseurl}}{% link glossary/s.md %}#strong-artificial-intelligence

@@ -14,10 +14,10 @@
 [Markov Decision Process]: {{ site.baseurl }}{% link glossary/m.md %}#markov-decision-process
 [Markov Random Field]: {{ site.baseurl }}{% link glossary/m.md %}#markov-random-field
 [Masked Language Modeling]: {{ site.baseurl }}{% link glossary/m.md %}#masked-language-modeling
-[MLM]: {{ site.baseurl }}{% link glossary/m.md %}#mlm
+[MLM]: {{ site.baseurl }}{% link glossary/m.md %}#masked-language-modeling
 [Masked Self-Attention]: {{ site.baseurl }}{% link glossary/m.md %}#masked-self-attention
 [Masked Vision Modeling]: {{ site.baseurl }}{% link glossary/m.md %}#masked-vision-modeling
-[MVM]: {{ site.baseurl }}{% link glossary/m.md %}#mvm
+[MVM]: {{ site.baseurl }}{% link glossary/m.md %}#masked-vision-modeling
 [Matrix]: {{ site.baseurl }}{% link glossary/m.md %}#matrix
 [Matrix Composition]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-composition
 [Matrix Decomposition]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-decomposition
@@ -32,11 +32,11 @@
 [Mean Absolute Error]: {{ site.baseurl }}{% link glossary/m.md %}#mean-absolute-error
 [MAE]: {{ site.baseurl }}{% link glossary/m.md %}#mae
 [Mean Absolute Error Loss Function]: {{ site.baseurl }}{% link glossary/m.md %}#mean-absolute-error-loss-function
-[MAE Loss Function]: {{ site.baseurl }}{% link glossary/m.md %}#mae-loss-function
+[MAE Loss Function]: {{ site.baseurl }}{% link glossary/m.md %}#mean-absolute-error-loss-function
 [Mean Absolute Percentage Error]: {{ site.baseurl }}{% link glossary/m.md %}#mean-absolute-percentage-error
-[MAPE]: {{ site.baseurl }}{% link glossary/m.md %}#mape
+[MAPE]: {{ site.baseurl }}{% link glossary/m.md %}#mean-absolute-percentage-error
 [Mean Square Error Loss Function]: {{ site.baseurl }}{% link glossary/m.md %}#mean-square-error-loss-function
-[MSE Loss Function]: {{ site.baseurl }}{% link glossary/m.md %}#mse-loss-function
+[MSE Loss Function]: {{ site.baseurl }}{% link glossary/m.md %}#mean-square-error-loss-function
 [Mechanical Turk]: {{ site.baseurl }}{% link glossary/m.md %}#mechanical-turk
 [Megatron Model]: {{ site.baseurl }}{% link glossary/m.md %}#megatron-model
 [Membership Inference Attack]: {{ site.baseurl }}{% link glossary/m.md %}#membership-inference-attack
@@ -48,24 +48,25 @@
 [Metropolis Movie]: {{ site.baseurl }}{% link glossary/m.md %}#metropolis-movie
 [Microsoft Common Object In Context Caption Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#microsoft-common-object-in-context-caption-dataset
 [Microsoft COCO Caption Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#microsoft-coco-caption-dataset
-[MSFT COCO Caption Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#msft-coco-caption-dataset
+[MSFT COCO Caption Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#microsoft-coco-caption-dataset
 [Microsoft Company]: {{ site.baseurl }}{% link glossary/m.md %}#microsoft-company
-[MSFT Company]: {{ site.baseurl }}{% link glossary/m.md %}#msft-company
+[MSFT Company]: {{ site.baseurl }}{% link glossary/m.md %}#microsoft-company
 [Midjourney Model]: {{ site.baseurl }}{% link glossary/m.md %}#midjourney-model
 [Milvus Database]: {{ site.baseurl }}{% link glossary/m.md %}#milvus-database
 [Minerva Model]: {{ site.baseurl }}{% link glossary/m.md %}#minerva-model
 [Mini-Batch]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch
+[Mini-Batch Training]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-training
 [Mini-Batch Gradient Descent]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-gradient-descent
 [Mixed Reality]: {{ site.baseurl }}{% link glossary/m.md %}#mixed-reality
-[MR]: {{ site.baseurl }}{% link glossary/m.md %}#mr
+[MR]: {{ site.baseurl }}{% link glossary/m.md %}#mixed-reality
 [Mixture Of Local Experts]: {{ site.baseurl }}{% link glossary/m.md %}#mixture-of-local-exports
-[MoE]: {{ site.baseurl }}{% link glossary/m.md %}#moe
+[MoE]: {{ site.baseurl }}{% link glossary/m.md %}#mixture-of-local-exports
 [ML Algorithm Evaluation]: {{ site.baseurl }}{% link glossary/m.md %}#ml-algorithm-evaluation
 [MLFlow]: {{ site.baseurl }}{% link glossary/m.md %}#mlflow
 [MLOps]: {{ site.baseurl }}{% link glossary/m.md %}#mlops
 [Model]: {{ site.baseurl }}{% link glossary/m.md %}#model
-[MAML]: {{ site.baseurl }}{% link glossary/m.md %}#maml
 [Model Agnostic Meta Learning]: {{ site.baseurl }}{% link glossary/m.md %}#model-agnostic-meta-learning
+[MAML]: {{ site.baseurl }}{% link glossary/m.md %}#model-agnostic-meta-learning
 [Model Benchmark]: {{ site.baseurl }}{% link glossary/m.md %}#model-benchmark
 [Model Card]: {{ site.baseurl }}{% link glossary/m.md %}#model-card
 [Model Data Sheet]: {{ site.baseurl }}{% link glossary/m.md %}#model-data-sheet
@@ -76,20 +77,20 @@
 [Model Type]: {{ site.baseurl }}{% link glossary/m.md %}#model-type
 [Model uplift]: {{ site.baseurl }}{% link glossary/m.md %}#model-uplift
 [Modified National Institute Standards And Technology Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
-[MNIST Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#mnist-dataset
+[MNIST Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
 [MuLan Model]: {{ site.baseurl }}{% link glossary/m.md %}#mulan-model
 [Multi-Agent Environment]: {{ site.baseurl }}{% link glossary/m.md %}#multi-agent-environment
 [Multi-Head Attention]: {{ site.baseurl }}{% link glossary/m.md %}#multi-head-attention
-[MTL]: {{ site.baseurl }}{% link glossary/m.md %}#mtl
 [Multi-Task Learning]: {{ site.baseurl }}{% link glossary/m.md %}#multi-task-learning
+[MTL]: {{ site.baseurl }}{% link glossary/m.md %}#multi-task-learning
 [Multiattribute Objective]: {{ site.baseurl }}{% link glossary/m.md %}#multiattribute-objective
 [Multiclass Classification]: {{ site.baseurl }}{% link glossary/m.md %}#multiclass-classification
 [Multilayer Perceptron]: {{ site.baseurl }}{% link glossary/m.md %}#multilayer-perceptron
 [Multimodal Alignment]: {{ site.baseurl }}{% link glossary/m.md %}#multimodel-alignment
 [Multimodal Co-learning]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-co-learning
 [Multimodal Distribution]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-distribution
-[MMF]: {{ site.baseurl }}{% link glossary/m.md %}#mmf
 [Multimodal Framework]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-framework
+[MMF]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-framework
 [Multimodal Fusion]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-fusion
 [Multimodal Learning]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-learning
 [Multimodal Space]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-space

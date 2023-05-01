@@ -514,7 +514,7 @@ layout: page
 
  A gradient is the direction and magnitude calculated during the training of a neural network it is used to teach the network weights in the right direction by the right amount.
 
- See also [G], [Gradient Descent]
+ See also [G], [Gradient Descent Algorithm]
 
 
 # Gradient Boosting
@@ -535,24 +535,26 @@ layout: page
   * [https://towardsdatascience.com/what-is-gradient-clipping-b8e815cdfb48](https://towardsdatascience.com/what-is-gradient-clipping-b8e815cdfb48)
   * gradient clipping accelerate learning? - [https://openreview.net/pdf?id=BJgnXpVYwS](https://openreview.net/pdf?id=BJgnXpVYwS)
 
- See also [G], [Exploding Gradient Problem], [Gradient Descent], [Recurring Neural Network]
+ See also [G], [Exploding Gradient Problem], [Gradient Descent Algorithm], [Recurring Neural Network]
 
 
-# Gradient Descent
+# Gradient Descent Algorithm
+
+# GD Algorithm
 
  One of the shining successes in machine learning is the gradient descent algorithm (and its modified counterpart, stochastic gradient descent). Gradient descent is an iterative method for finding the minimum of a function. In machine learning, that function is typically the loss (or cost) function. "Loss" is simply some metric that quantifies the cost of wrong predictions. Gradient descent calculates the loss achieved by a model with a given set of parameters, and then alters those parameters to reduce the loss. It repeats this process until that loss can't substantially be reduced further. The final set of parameters that minimize the loss now define your fitted model. 
 
  {% youtube "https://www.youtube.com/watch?v=OkmNXy7er84" %}
 
- Gradient descent
-  * stochastic gradient descent
-  * momentum gradient
+ Gradient descent algorithms nad derivatives
+  * [stochastic gradient descent][SGD Algorithm]
+  * [Gradient descent with momentum][GD with Momentum Algorithm]
   * nesterov accelerated gradient
-  * ada gradient
-  * adadelta gradient
-  * adaptive momentum estimation
+  * [adaptive gradient][AdaGrad Algorithm]
+  * [adadelta gradient][AdaDelta Algorithm]
+  * [Adaptive momentum estimation (Adam)][Adam Algorithm]
+  * [RMSprop][RMSprop Algorithm]
   * nag ?
-  * rmsprop ?
 
  {% youtube "https://www.youtube.com/watch?v=nhqo0u1a6fw" %}
 
@@ -567,7 +569,25 @@ layout: page
   * mini-batch ... = uses all the data in batches (= best of all proposed alternatives?)
   * data sampling or stochastic gradient descent. (= lower compute required since we use only a few sample, but faster iteration with slower convergence st each step, but faster overall?)
 
- See also [G], [Activation Function], [Batch Gradient Descent], [Gradient Perturbation], [Learning Rate], [Loss Function], [Mini-Batch Gradient Descent], [Parameter], [Prediction Error], [Stochastic Gradient Descent]
+ See also [G], [Activation Function], [Batch Gradient Descent Algorithm], [Gradient Perturbation], [Learning Rate], [Loss Function], [Mini-Batch Gradient Descent Algorithm], [Parameter], [Prediction Error], [Stochastic Gradient Descent Algorithm]
+
+
+# Gradient Descent with Momentum Algorithm
+
+# GD with Momentum Algorithm
+
+ In the context of [gradient descent][GD Algorithm], momentum is a technique that helps the algorithm to converge faster and more consistently by reducing the oscillation of the updates to the model parameters.
+
+ The momentum technique introduces a new parameter called momentum coefficient, which determines the contribution of the previous updates to the current update. Instead of computing the update at each iteration solely based on the gradient, the momentum technique calculates an exponentially weighted average of the past gradients and uses it to update the model parameters.
+
+ This helps to smooth out the updates and prevent the model from getting stuck in local optima. It also helps to accelerate the convergence in directions where the gradient changes sign frequently, by preserving the momentum of the gradient in the previous iterations.
+
+ The momentum technique is particularly useful in deep learning where the optimization problem is complex and high-dimensional, and the gradient can be noisy or sparse. It is often used in combination with other optimization techniques such as [Adam][Adam Algorithm], [Adagrad][Adagrad Algorithm], and [RMSProp][RMSprop algorithm] to further improve the performance of the gradient descent algorithm.
+
+ More at:
+  * [https://towardsdatascience.com/gradient-descent-with-momentum-59420f626c8f](https://towardsdatascience.com/gradient-descent-with-momentum-59420f626c8f)
+
+ See also [G], ...
 
 
 # Gradient Perturbation

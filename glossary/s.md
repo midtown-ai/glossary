@@ -226,13 +226,16 @@ StandardScaler()
 # Self-Supervised Learning
 
  `~ automatic generation of labels from the unlabelled input data.` A type of learning that does not need labels to be applied by humans. The training dataset is generated from the data. Examples:
-   * Next word prediction : "she planned to visit the"
-   * Masked Language Modeling : "Alice chased the ____ rabbit and fell down the ____ into a new world."
+   * [Next word prediction] - "she planned to visit the"
+   * [Masked Language Modeling] - "Alice chased the ____ rabbit and fell down the ____ into a new world."
    * Replaced word detection : "The cat pounced on the carrot"
    * Paraphrased sentences : "He needs to throw a lot of things -- he has a lot of stuff to get rid off."
+
  ![]( {{site.assets}}/s/self_supervised_learning.png ){: width="100%}
 
- See also [S], [Data2Vec Model], [Masked Language Modeling], [Next Word Prediction], [Replaced Word Detection], [Semi-Surpervised Learning], [Supervised Learning], [Unsupervised Learning], [Upstream Task]
+ Self-supervised learning in humans refers to the process by which individuals acquire knowledge and skills through their own experiences and interactions with their environment, without the need for explicit external feedback or instruction.  This type of learning can occur in a variety of contexts, including during childhood development, where children learn to walk, talk, and interact with their surroundings through self-directed exploration and experimentation.  Self-supervised learning can also occur in more advanced stages of learning, such as when individuals acquire new skills or knowledge in their field of expertise through self-directed practice and experimentation. Overall, self-supervised learning for humans is a natural and essential process that enables individuals to acquire new knowledge and skills in a self-directed and autonomous manner.
+
+ See also [S], [Data2Vec Model], [Replaced Word Detection], [Semi-Surpervised Learning], [Supervised Learning], [Unsupervised Learning], [Upstream Task]
 
 
 # Semantic Search
@@ -872,15 +875,17 @@ II n summary, probability is focused on the theoretical study of random events, 
  See also [S], [Autonomous Vehicle]
 
 
-# Stochastic Gradient Descent
+# Stochastic Gradient Descent Algorithm
 
-# SGD
+# SGD Algorithm
+
+ An [optimization algorithm][optimizer] for the model parameters used to minimize the loss function.
 
  There are a few downsides of the gradient descent algorithm. We need to take a closer look at the amount of computation we make for each iteration of the algorithm. Say we have 10,000 data points and 10 features. The sum of squared residuals consists of as many terms as there are data points, so 10000 terms in our case. We need to compute the derivative of this function with respect to each of the features, so in effect we will be doing 10000 * 10 = 100,000 computations per iteration. It is common to take 1000 iterations, in effect we have 100,000 * 1000 = 100000000 computations to complete the algorithm. That is pretty much an overhead and hence gradient descent is slow on huge data. Stochastic gradient descent comes to our rescue! “Stochastic”, in plain terms means “random”. SGD randomly picks ONE data point (if more than one = mini-batch or batch Gradient Descent!) from the whole data set at each iteration/step to reduce the computations enormously.
 
  ![]( {{site.assets}}/s/stochastic_gradient_descent.png ){: width="100%}
 
- See also [S], [Batch Gradient Descent], [Gradient Descent], [Mini-Batch Gradient Descent]
+ See also [S], [Batch Gradient Descent Algorithm], [Gradient Descent Algorithm], [Mini-Batch Gradient Descent Algorithm]
 
 
 # Stochastic Node

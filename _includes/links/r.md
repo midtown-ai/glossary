@@ -49,6 +49,8 @@
 [Residual Block]: {{site.baseurl }}{% link glossary/r.md %}#residual-block
 [Residual Network Model]: {{site.baseurl }}{% link glossary/r.md %}#residual-network-model
 [ResNET Model]: {{site.baseurl }}{% link glossary/r.md %}#residual-network-model
+[Resilient Backpropagation Algorithm]: {{site.baseurl }}{% link glossary/r.md %}#resilient-backpropagation-algorithm
+[Rprop Algoritmh]: {{site.baseurl }}{% link glossary/r.md %}#resilient-backpropagation-algorithm
 [Response Variable]: {{site.baseurl }}{% link glossary/r.md %}#response-variable
 [Responsible AI]: {{site.baseurl }}{% link glossary/r.md %}#responsible-ai
 [Restricted Boltzmann Machine]: {{site.baseurl }}{% link glossary/r.md %}#restricted-boltzmann-machine
@@ -68,6 +70,8 @@
 [RL Gym]: {{site.baseurl }}{% link glossary/r.md %}#rocket-league-gym
 [Root Mean Square Error]: {{site.baseurl }}{% link glossary/r.md %}#root-mean-square-error
 [RMSE]: {{site.baseurl }}{% link glossary/r.md %}#root-mean-square-error
+[Root Mean Square Propagation Algorithm]: {{site.baseurl }}{% link glossary/r.md %}#root-mean-square-propagation-algorithm
+[RMSprop Algorithm]: {{site.baseurl }}{% link glossary/r.md %}#root-mean-square-propagation-algorithm
 [RoseTTAFold Diffusion]: {{site.baseurl }}{% link glossary/r.md %}#rosettafold-diffusion
 [RF Diffusion]: {{site.baseurl }}{% link glossary/r.md %}#rosettafold-diffusion
 [ROUGE Metric]: {{site.baseurl }}{% link glossary/r.md %}#rouge-metric

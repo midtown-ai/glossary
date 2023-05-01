@@ -109,13 +109,13 @@ layout: page
  See also [B], [Batch Size], [Epoch], [Iteration]
 
 
-# Batch Gradient Descent
+# Batch Gradient Descent Algorithm
 
  ~ standard gradient descent. In Batch Gradient Descent, all the training data is taken into consideration to take a single step. We take the average of the gradients of all the training examples and then use that mean gradient to update our parameters. So that’s just one step of gradient descent in one epoch. Batch Gradient Descent is great for convex or relatively smooth error manifolds. In this case, we move somewhat directly towards an optimum solution.
 
  ![]( {{site.assets}}/b/batch_gradient_descent.png ){: width=20%}
 
- See also [B], [Gradient Descent], [Mini-Batch Gradient Descent]
+ See also [B], [Gradient Descent Algorithm], [Mini-Batch Gradient Descent Algorithm]
 
 
 # Batch Normalization
@@ -159,6 +159,17 @@ P(B|A) is the probability of event B given A.
  ```
 
  See also [B], [Bayesian Inference], [Naive Bayes]
+
+
+# Batch Training
+
+ The parameters of a machine learning model are usually updated multiple times during each [epoch]. In most cases, the training data is divided into batches, and the model is updated after processing each [batch] of data. This is known as batch training or mini-batch training.
+
+ For example, suppose we have a dataset with 1000 examples, and we choose a batch size of 100. During each epoch, the model will process 10 batches, with each batch consisting of 100 examples. After processing each batch, the model will update its parameters based on the error it made on that batch, using an optimization algorithm such as [stochastic gradient descent (SGD)][SGD] or [Adaptive Moment Estimation (Adam)][Adam].
+
+ Batch training has several advantages over updating the model after processing the entire [dataset] (known as batch training or full-batch training), including faster convergence, better memory efficiency, and the ability to handle large datasets that may not fit into memory. However, it also introduces some additional noise in the parameter updates due to the smaller sample size, which can be mitigated by adjusting the learning rate and other [hyperparameters][Hyperparameter].
+
+ See also [B], ...
 
 
 # Bayesian Inference

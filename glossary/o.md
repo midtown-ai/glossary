@@ -260,6 +260,26 @@ cheese =>                                   # Prompt
  Optimizer = How you are going to minimize the [Loss Function].
 
  To minimize the prediction error or loss, the model while experiencing the examples of the training set, updates the model parameters W. These error calculations when plotted against the W is also called cost function plot J(w), since it determines the cost/penalty of the model. So minimizing the error is also called as minimization the cost function. But how exactly do you do that? Using optimizers.
+
+ Optimization algorithm
+  * The first algorithms
+   * [Gradient Descent (GD)][GD Algorithm]
+   * [Stochastic Gradient Descent (SGD)][SGD Algorithm] - faster convergence than GD
+  * Adaptive learning algorithms
+   * [Resilient Backpropagation (Rrop)][Rprop Algorithm] (1992)
+   * [Adaptive Gradient Algorithm][AdaGrad Algorithm] 
+   * [Root Mean Square Propagation (RMSprop)][RMSProp Algorithm] 
+  * Momentum algorithms
+   * [Gradient Descent with Momentum][GD with Momentum algorithm]
+  * Adaptive learning with Momentum algorithms
+   * [Adaptive Delta Algorithm][AdaDelta Algorithm] 
+   * [Adaptive Momentum Estimation (Adam)][Adam Algorithm]
+  * Others
+   * Nesterov-accelerated Adaptive Momentum Estimation (Nadam)
+   * Nadamax
+   * Nesterov
+   * MaxaProp
+
  
  ```
 from tensorflow import keras

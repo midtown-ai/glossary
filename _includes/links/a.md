@@ -11,6 +11,14 @@
 [ACER]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-with-experience-replay
 [Adaptive Boosting]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-boosting
 [AdaBoost]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-boosting
+[Adaptive Delta Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-delta-algorithm
+[AdaDelta Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-delta-algorithm
+[Adaptive Gradient Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-gradient-algorithm
+[AdaGrad Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-gradient-algorithm
+[Adaptive Learning]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-learning
+[Adaptive Learning Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-learning-algorithm
+[Adaptive Moment Estimation]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-moment-estimation
+[Adam]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-moment-estimation
 [Addiction]: {{ site.baseurl }}{% link glossary/a.md %}#addiction
 [Adept AI Company]: {{ site.baseurl }}{% link glossary/a.md %}#adept-ai-company
 [Adversarial Attack]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-attack
