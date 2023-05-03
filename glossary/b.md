@@ -127,6 +127,13 @@ layout: page
  See also [B], [Exploding Gradient Problem], [Sigmoid Activation Function], [Vanishing Gradient Problem]
 
 
+# Batch Of Experience
+
+ A set of experience, mostly likely sampled randomly from the replay memory.
+
+ See also [B], [Deep Q-Network], [Experience], [Replay Memory] 
+
+
 # Batch Size
 
  The number of samples (rows) in a batch.
@@ -256,7 +263,28 @@ P(A|B) = ----------------
 
 # Bellman Equation
 
- See also [B], ...
+ They are a class of Reinforcement Learning algorithms that are used particularly for deterministic environments. Beware:
+  * if we have large state spaces, it becomes extremely difficult and close to impossible to solve this system of equations explicitly.
+ First the target Q-value equation (which is used to compute the loss function? Yes!)
+
+ ![]( {{site.assets}}/b/bellman_equation_target_qvalue.png ){: width=100%}
+
+ Notice that we first must compute the " max Q * (s',a') " with s' and a' are the state and action that occur in the following [timestep]. This value is found 
+   * in the Q-table when using one
+   * or by passing s' to the DQN and taking the maximum of its output, i.e q(s',a_?). <== <!> That's 2 forward passes(one for s or s_t and one for s' or s_t+1) before an type of gradient update
+
+ The loss function used for DQN training is calculated 
+  * by subtracting the Q-Value for a given state-action pair given by the policy network (DQN) FROM the optimal Q-value for the same state-action pair. 
+  * or by subtracting the Q value given by the policy network for the state action pair from our original experience tuple FROM the target optimal key value for the same state action pair 
+
+  :warning: updates are such that the output Q_values will be as close as possible to the target_q_values given by the bellman equation. This will approximate te optimal Q function which will give us the optimal policy. 
+
+ ![]( {{site.assets}}/b/bellman_equation_loss_function.png ){: width="100%"}
+
+ More at:
+  * loss - [https://deeplizard.com/learn/video/0bt0SjbS3xc](https://deeplizard.com/learn/video/0bt0SjbS3xc)
+
+ See also [B], [Deep Q-Network], [State Space], [Value Function]
 
 
 # Benchmark

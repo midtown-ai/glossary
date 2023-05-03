@@ -58,7 +58,7 @@ TP + TN + FP + FN = all experiments/classifications/samples
 
 # Action
 
- In [Reinforcement Learning], ...
+ In [Reinforcement Learning], an action is a move made by the agent in the current state. For [AWS DeepRacer], an action corresponds to a move at a particular speed (throttle) and steering angle. With [AWS DeepRacer], there is an immediate reward associated with any action. 
 
  See also [A], [Action Space]
 
@@ -66,8 +66,12 @@ TP + TN + FP + FN = all experiments/classifications/samples
 # Action Space
 
  In [Reinforcement Learning], represents a set of actions.
-  * [Discrete action space] : We can individually define each action.
-  * [Continuous action space]
+  * [Discrete action space] - We can individually define each action. In the discrete action space setting, limiting an agent's choices to a finite number of predefined actions puts the onus on you to understand the impact of these actions and define them based on the environment (track, racing format) and your reward functions.
+  * [Continuous action space] - 
+
+ This lists out all of what the agent can actually do at each timestep virtually or physically.
+  * Speed between 0.5 and 1 m/s
+  * Steering angle -30 to 30 deg
 
  See also [A], [Action]
 
@@ -89,6 +93,21 @@ First, we believe the clearest framing of general intelligence is a system that 
 
  See also [A], [Reinforcement Learning], [Transformer Model]
 
+
+# Action-Value Function
+
+ This tells us how good it is for the agent to take any given action from a given state while following the policy. In other words, it gives us the value of an action under policy (pi). The state-value function tells us how good any given state is for the agent, whereas the action-value function tells us how good it is for the agent to take any action from a given state.
+
+ ```
+Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
+# St state at a given timestep
+# At action at a given timestep
+ ```
+
+ More at:
+  * ...
+
+ See also [A], [Bellman Equation], [Step-Value Function], [Timestep]
 
 # Active Learning
 
@@ -130,6 +149,11 @@ First, we believe the clearest framing of general intelligence is a system that 
  Last step in an [artificial neuron] before an output is generated.
 
  See also [A], ...
+
+
+# Actor Critic Algorithm
+
+ See also [A], [Model-Free RL Algorithm]
 
 
 # Actor Critic With Experience Replay
@@ -318,6 +342,16 @@ One obvious way to mitigate that problem is to choose different learning rate fo
 
  Examples:
   * DeepRacer, the goal of the program running on the car is to go around the track as fast as possible without getting out of the track.
+
+ The agent simulates the AWS DeepRacer vehicle in the simulation for training. More specifically, it embodies the neural network that controls the vehicle, taking inputs and deciding actions. `The agent embodies a neural network that represents a function to approximate the agent's policy.`
+  * The essence of Reinforced Learning is to enforce behavior based on the actions performed by the agent. The agent is rewarded if the action positively affects the overall goal.
+  * The basic aim of Reinforcement Learning is reward maximization. The agent is trained to take the best action to maximize the overall reward.
+  * RL agents work by using the already known exploited information or exploring unknown information about an environment.
+  * ... 
+ It’s also important to understand that the learner and decision-maker is called the agent. The thing it interacts with, comprising everything outside the agent, is called the environment.
+
+ More at:
+  * ...
 
  See also [Agent's Goal], [Cumulative Reward], [Reinforcement Learning]
 
@@ -775,6 +809,27 @@ A risk of [AGI]
  {% youtube "https://www.youtube.com/watch?v=PyZPyqQqkLE" %}
 
   See also [A], ...
+
+
+# Alpha Learning Rate
+
+ A number between 0 and 1 which indicate how much the agent forgets/abandons the previous Q-value in the Q-table for the new Q-value for a given state-action pair. 
+  * A learning rate of 1 means that the Q-value is updated to the new Q-value  
+  * is <> 1, it is the weighted sum between the old and the learned Q-value
+ ```
+Q_new = (1 - alpha) * Q_old + alpha * Q_learned 
+
+# From state, go to next_state
+# Q_old = value in the Q-table for the state-action pair
+# Q_learned = computed value in the Q-table for the state-action pair given the latest action
+            = R_t+1 + gamma * optimized_Q_value(next_state)               <== next state is known & next-state Q-values are known       
+            = R_t+1 + gamma * max( Q_current(next_state, action_i) ) 
+ ```
+
+ More at:
+  * ...
+
+ See also [A], [Gamma Discount Rate], [State Action Pair] 
 
 
 # AlphaCode Model

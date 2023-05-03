@@ -371,6 +371,9 @@ Beware:
  More at:
   * [https://neptune.ai/blog/category/reinforcement-learning](https://neptune.ai/blog/category/reinforcement-learning)
   * [http://karpathy.github.io/2016/05/31/rl/](http://karpathy.github.io/2016/05/31/rl/)
+  * Tutorials
+   * [https://rl-lab.com/](https://rl-lab.com/)
+   * [https://huggingface.co/learn/deep-rl-course/unit0/introduction](https://huggingface.co/learn/deep-rl-course/unit0/introduction)
 
  See also [R], [Addiction], [Action], [Action Space], [Agent], [Delayed Reward], [Environment], [Exploitation], [Exploration], [Learning Method], [Machine Learning], [Machine Learning Algorithm], [Markov Decision Process], [Meta Learning], [Observation], [Policy Gradient Solution], [Proximal Policy Optimization], [Reinforcement Learning Environment], [Reward], [Reward Shaping], [State]
 

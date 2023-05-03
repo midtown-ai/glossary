@@ -278,7 +278,7 @@ layout: page
    * GPT fine-tuning - [https://platform.openai.com/docs/guides/fine-tuning](https://platform.openai.com/docs/guides/fine-tuning)
    * gpt vs chatgpt vs instructgpt - [https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5](https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5)
 
- See also [G], [ChatGPT Model], [Digital Watermark], [Fine-Tuning], [InstructGPT Model], [Natural Language Processing], [Pre-Trained Model]
+ See also [G], [ChatGPT Model], [Digital Watermark], [Fine-Tuning], [InstructGPT Model], [Natural Language Processing], [Pre-Trained Model], [RadioGPT], [WebGPT Model]
 
 
 # Generator

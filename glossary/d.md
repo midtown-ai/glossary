@@ -423,6 +423,18 @@ layout: page
  See also [D], [Generative Adversarial Network], [Rectified Linear Unit]
 
 
+# Deep Q Network
+
+# DQN
+
+ {% pdf "https://arxiv.org/pdf/1312.5602.pdf" %}
+
+ More at:
+  * ...
+
+ See also [D], ...
+
+
 # Deepfake
 
  Deepfakes (a portmanteau of "deep learning" and "fake") are synthetic media in which a person in an existing image or video is replaced with someone else's likeness. While the act of creating fake content is not new, deepfakes leverage powerful techniques from machine learning and artificial intelligence to manipulate or generate visual and audio content that can more easily deceive. The main machine learning methods used to create deepfakes are based on deep learning and involve training generative neural network architectures, such as autoencoders, or generative adversarial networks (GANs).
@@ -468,9 +480,14 @@ layout: page
 
 # Deep Reinforcement Learning
 
+# Deep RL
+
  [Reinforcement learning] where the policy and reward are deep neural networks.
 
- See [D], ...
+ More at:
+  * [https://huggingface.co/learn/deep-rl-course/unit0/introduction](https://huggingface.co/learn/deep-rl-course/unit0/introduction)
+
+ See also [D], ...
 
 
 # DeepAR Forecasting

@@ -29,9 +29,14 @@ layout: page
 {% include links/all.md %}
 
 
-# Panda Module
+# Pandas Module
 
  A [Python module] for importing, transforming, and working with tabular data
+
+ More at:
+  * home - [https://pandas.pydata.org/](https://pandas.pydata.org/)
+  * user guide - [https://pandas.pydata.org/docs/user_guide/index.html](https://pandas.pydata.org/docs/user_guide/index.html)
+  * API reference - [https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
 
  See also [P], ...
 

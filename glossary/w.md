@@ -123,6 +123,21 @@ layout: page
  More at:
   * example with beautiful soup - [https://github.com/emayssat/web_scraping](https://github.com/emayssat/web_scraping)
 
+ See also [W], ...
+
+# WebGPT Model
+
+ {% pdf "https://arxiv.org/pdf/2112.09332.pdf" %}
+
+ More at:
+  * [https://openai.com/research/webgpt](https://openai.com/research/webgpt)
+  * paper - [https://arxiv.org/abs/2112.09332](https://arxiv.org/abs/2112.09332)
+  * articles
+   * [https://www.infoq.com/news/2022/01/openai-webgpt/](https://www.infoq.com/news/2022/01/openai-webgpt/)
+
+ See also [W], [GPT Model]
+
+
 # Weight
 
  The stronger the relative weight (compared to the weights of other inputs), the stronger the relationship/bond/connection (the more important the feature is)

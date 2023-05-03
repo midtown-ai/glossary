@@ -301,7 +301,7 @@ Data < Information < Knowledge
 
  A model that is a pre-trained GPT model and is fine tuned using reinforcement learning based on human feedback. A precursor of the chatGPT model. Large language models like GPT-3 are often used to follow instructions to execute user’s tasks. However, quite often, these models generate toxic or untruthful outputs that are not related to the input instructions. This is mostly due to the fact that models like GPT-3 are trained to predict the next word in a sentence rather than to execute a specific task. This is precisesly the problem OpenAI tried to address with InstructGPT, a language model that builds upon GPT-3 language capabilities but improves it its ability to follow instructions.
 
- {% pdf "{{site.assets}}/i/instructgpt_model_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2203.02155.pdf" %}
 
  The InstructGPT is build in three steps.
   1. The first step fine-tunes pretrained GPT-3 using 13k dataset. This dataset is from two sources:
@@ -320,9 +320,11 @@ Data < Information < Knowledge
 
  More at:
   * paper - [https://arxiv.org/abs/2203.02155](https://arxiv.org/abs/2203.02155)
-  * blog post - [https://tmmtt.medium.com/the-instructgpt-e25797d8f4df](https://tmmtt.medium.com/the-instructgpt-e25797d8f4df)
-  * gpt vs chatgpt vs instructgpt - [https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5](https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5)
-  * openai post - [https://openai.com/blog/instruction-following/](https://openai.com/blog/instruction-following/)
+  * announcement - [https://openai.com/research/instruction-following](https://openai.com/research/instruction-following)
+  * model card - [https://github.com/openai/following-instructions-human-feedback](https://github.com/openai/following-instructions-human-feedback)
+  * article(s)
+   * blog post - [https://tmmtt.medium.com/the-instructgpt-e25797d8f4df](https://tmmtt.medium.com/the-instructgpt-e25797d8f4df)
+   * gpt vs chatgpt vs instructgpt - [https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5](https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5)
 
  See also [I], [ChatGPT Model], [Digital Watermark], [GPT Model], [Proximal Policy Optimization], [Reinforcement Learning], [Reinforcement Learning Human Feedback], [Reward Model]
 

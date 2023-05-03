@@ -244,6 +244,12 @@ sns.regplot(x='sepal_length', y='petal_length', data=iris)
 # Lunch break
 
 ```
+
+
 ```
 
+other - 
+.astype('categorical') 
+
+ * [https://stackoverflow.com/questions/55012142/pandas-difference-between-astypecategorical-and-pd-category](https://stackoverflow.com/questions/55012142/pandas-difference-between-astypecategorical-and-pd-category)
 

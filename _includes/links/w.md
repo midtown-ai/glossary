@@ -10,6 +10,7 @@
 [Weak-Supervised Learning]: {{ site.baseurl }}{% link glossary/w.md %}#weak-supervised-learning
 [Weak Supervision Labeling Function]: {{ site.baseurl }}{% link glossary/w.md %}#weak-supervision-labeling-function
 [Web Scraping]: {{ site.baseurl }}{% link glossary/w.md %}#web-scraping
+[WebGPT Model]: {{ site.baseurl }}{% link glossary/w.md %}#webgpt-model
 [Weight]: {{ site.baseurl }}{% link glossary/w.md %}#weight
 [Weighted Gini Impurity Index]: {{ site.baseurl }}{% link glossary/w.md %}#weighted-gini-impurity-index
 [Weighted Input]: {{ site.baseurl }}{% link glossary/w.md %}#weighted-input

@@ -42,7 +42,11 @@
 [Deep Multi-Task Learning]: {{ site.baseurl }}{% link glossary/d.md %}#deep-multi-task-learning
 [Deep Neural Network]: {{ site.baseurl }}{% link glossary/d.md %}#deep-neural-network
 [DNN]: {{ site.baseurl }}{% link glossary/d.md %}#dnn
+[Deep Q Learning Algorithm]: {{ site.baseurl }}{% link glossary/d.md %}#deep-q-learning-algorithm
+[Deep Q Network]: {{ site.baseurl }}{% link glossary/d.md %}#deep-q-network
+[DQN]: {{ site.baseurl }}{% link glossary/d.md %}#deep-q-network
 [Deep Reinforcement Learning]: {{ site.baseurl }}{% link glossary/d.md %}#deep-reinforcement-learning
+[Deep RL]: {{ site.baseurl }}{% link glossary/d.md %}#deep-reinforcement-learning
 [DeepAR Forecasting]: {{ site.baseurl }}{% link glossary/d.md %}#deepar-forecasting
 [DeepMind Company]: {{ site.baseurl }}{% link glossary/d.md %}#deepmind-company
 [DeepNash Model]: {{ site.baseurl }}{% link glossary/d.md %}#deepnash-model
@@ -79,6 +83,7 @@
 [Distributed Training]: {{ site.baseurl }}{% link glossary/d.md %}#distributed-training
 [Domain-Specific Model]: {{ site.baseurl }}{% link glossary/d.md %}#domain-specific-model
 [Dot Product]: {{ site.baseurl }}{% link glossary/d.md %}#dot-product
+[Double Q Network]: {{ site.baseurl }}{% link glossary/d.md %}#double-q-network
 [Downstream Task]: {{ site.baseurl }}{% link glossary/d.md %}#downstream-task
 [DreamFusion Model]: {{ site.baseurl }}{% link glossary/d.md %}#dreamfusion-model
 [DreamIX Model]: {{ site.baseurl }}{% link glossary/d.md %}#dreamix-model

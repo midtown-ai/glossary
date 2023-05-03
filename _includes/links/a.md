@@ -4,9 +4,11 @@
 [Action]: {{ site.baseurl }}{% link glossary/a.md %}#action
 [Action Space]: {{ site.baseurl }}{% link glossary/a.md %}#action-space
 [Action Transformer]: {{ site.baseurl }}{% link glossary/a.md %}#action-transformer
+[Action-Value Function]: {{ site.baseurl }}{% link glossary/a.md %}#action-value-function
 [Active Learning]: {{ site.baseurl }}{% link glossary/a.md %}#active-learning
 [Activation Function]: {{ site.baseurl }}{% link glossary/a.md %}#activation-function
 [Activation Step]: {{ site.baseurl }}{% link glossary/a.md %}#activation-step
+[Actor Critic Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-algorithm
 [Actor Critic With Experience Replay]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-with-experience-replay
 [ACER]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-with-experience-replay
 [Adaptive Boosting]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-boosting
@@ -57,6 +59,7 @@
 [AlexNet Model]: {{ site.baseurl }}{% link glossary/a.md %}#alexnet-model
 [Algorithmic]: {{ site.baseurl }}{% link glossary/a.md %}#algorithmic
 [Alpaca Model]: {{ site.baseurl }}{% link glossary/a.md %}#alpaca-model
+[Alpha Learning Rate]: {{ site.baseurl }}{% link glossary/a.md %}#alpha-learning-rate
 [AlphaCode Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphacode-model
 [AlphaFault]: {{ site.baseurl }}{% link glossary/a.md %}#alphafault
 [AlphaGO Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphago-model

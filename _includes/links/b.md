@@ -9,6 +9,7 @@
 [Batch]: {{ site.baseurl }}{% link glossary/b.md %}#batch
 [Batch Gradient Descent]: {{ site.baseurl }}{% link glossary/b.md %}#batch-gradient-descent
 [Batch Normalization]: {{ site.baseurl }}{% link glossary/b.md %}#batch-normalization
+[Batch Of Experience]: {{ site.baseurl }}{% link glossary/b.md %}#batch-of-experience
 [Batch Size]: {{ site.baseurl }}{% link glossary/b.md %}#batch-size
 [Batch Training]: {{ site.baseurl }}{% link glossary/b.md %}#batch-training
 [Bayes Search]: {{ site.baseurl }}{% link glossary/b.md %}#bayes-search
@@ -19,6 +20,7 @@
 [Behavioural Cloning]: {{ site.baseurl }}{% link glossary/b.md %}#behavioural-cloning
 [Belief-Desire-Intention Framework]: {{ site.baseurl }}{% link glossary/b.md %}#belief-desire-intention-framework
 [BDI Framework]: {{ site.baseurl }}{% link glossary/b.md %}#belief-desire-intention-framework
+[Bellman Equation]: {{ site.baseurl }}{% link glossary/b.md %}#bellman-equation
 [Benchmark]: {{ site.baseurl }}{% link glossary/b.md %}#benchmark
 [Bernouilli Distribution]: {{ site.baseurl }}{% link glossary/b.md %}#bernouilli-distribution
 [BERT Classification]: {{ site.baseurl }}{% link glossary/b.md %}#bert-classification

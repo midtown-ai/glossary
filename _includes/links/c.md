@@ -9,11 +9,13 @@
 [CatBoost Library]: {{ site.baseurl }}{% link glossary/c.md %}#catboost-libary
 [Categorical Variable]: {{ site.baseurl }}{% link glossary/c.md %}#categorical-variable
 [Cell Block]: {{ site.baseurl }}{% link glossary/c.md %}#cell-block
+[Center Line]: {{ site.baseurl }}{% link glossary/c.md %}#center-line
 [Central Limit Theorem]: {{ site.baseurl }}{% link glossary/c.md %}#central-limit-theorem
 [Chain Of Thought Prompting]: {{ site.baseurl }}{% link glossary/c.md %}#chain-of-thought-prompting
 [Chained Model]: {{ site.baseurl }}{% link glossary/c.md %}#chained-model
 [Chatbot]: {{ site.baseurl }}{% link glossary/c.md %}#chatbot
 [Chatgpt Model]: {{ site.baseurl }}{% link glossary/c.md %}#chatgpt-model
+[Checkpoint Evaluation]: {{ site.baseurl }}{% link glossary/c.md %}#checkpoint-evaluation
 [Child Development Milestone]: {{ site.baseurl }}{% link glossary/c.md %}#child-development-milestone
 [Chinchilla Model]: {{ site.baseurl }}{% link glossary/c.md %}#chinchilla-model
 [CIDEr Score]: {{ site.baseurl }}{% link glossary/c.md %}#cider-score
@@ -53,6 +55,7 @@
 [CLIP Model]: {{ site.baseurl }}{% link glossary/c.md %}#clip-model
 [Contrastive Learning]: {{ site.baseurl }}{% link glossary/c.md %}#contrastive-learning
 [Contrastive Loss Function]: {{ site.baseurl }}{% link glossary/c.md %}#contrastive-loss-function
+[Convergence]: {{ site.baseurl }}{% link glossary/c.md %}#convergence
 [Convolution]: {{ site.baseurl }}{% link glossary/c.md %}#covonlution
 [Convolution Autoencoder]: {{ site.baseurl }}{% link glossary/c.md %}#convolution-autoencoder
 [Convolutional Layer]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-layer
