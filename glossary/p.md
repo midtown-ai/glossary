@@ -192,7 +192,21 @@ layout: page
 
 # Personal Assistant
 
+ * Pi by [Inflection AI Company]
+
  See also [P], [Logic Model]
+
+
+# Phenaki Model
+
+ A model for generating videos from text, with prompts that can change over time, and videos that can be as long as multiple minutes.
+ Built by employees at [Google][Google Company]
+
+ {% pdf "{{site.assets}}/p/phenaki_model_paper.pdf" %}
+
+ More at:
+  * home - [https://phenaki.video/](https://phenaki.video/)
+  * paper - [https://openreview.net/forum?id=vOEXS39nOF](https://openreview.net/forum?id=vOEXS39nOF)
 
 
 # Piano Roll
@@ -200,6 +214,26 @@ layout: page
  As a 2D matrix, also known as a piano roll, with time on the horizontal and pitch on the vertical axis.
 
  See also [P], [U-Net Architecture]
+
+
+# Pinecone Company
+
+ A company that is building a commercial [vector database], similar to [Milvus][Milvus Database]
+
+ More at:
+  * home - [https://www.pinecone.io/](https://www.pinecone.io/)
+  * articles
+   * [https://www.pinecone.io/learn/series-b/](https://www.pinecone.io/learn/series-b/)
+
+ See also [P], ...
+
+
+# Pinecone Database
+
+ More at:
+  * docs - [https://docs.pinecone.io/docs/overview](https://docs.pinecone.io/docs/overview)
+
+ See also [P], ...
 
 
 # Pipe Mode
@@ -586,6 +620,7 @@ Prediction Error = actual_value - predicted_value
 
   * [Gradio][Gradio Module] - to build a basic UI to interface with a model
   * [Joblib][Joblib Module] - to save models in files
+  * [LangChain][LangChain Module] - LLMOps!
   * [Matplotlib][Matplotlib Module] - for visualization
   * [Numpy][Numpy Module]
   * [Panda][Panda Module] - to work with tabular data

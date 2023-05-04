@@ -5,6 +5,7 @@
 [Labeling Service]: {{ site.baseurl }}{% link glossary/l.md %}#labeling-service
 [Labor Market Impact]: {{ site.baseurl }}{% link glossary/l.md %}#labor-market-impact
 [Lambda Model]: {{ site.baseurl }}{% link glossary/l.md %}#lambda-model
+[LangChain Module]: {{ site.baseurl }}{% link glossary/l.md %}#langchain-module
 [Language Model]: {{ site.baseurl }}{% link glossary/l.md %}#language-model
 [Language Modeling]: {{ site.baseurl }}{% link glossary/l.md %}#language-modeling
 [Language Parsing]: {{ site.baseurl }}{% link glossary/l.md %}#language-parsing
@@ -38,6 +39,8 @@
 [Linear Discriminant Analysis]: {{ site.baseurl }}{% link glossary/l.md %}#linear-discriminant-analysis
 [LDA]: {{ site.baseurl }}{% link glossary/l.md %}#linear-discriminant-analysis
 [Linear Regression]: {{ site.baseurl }}{% link glossary/l.md %}#linear-regression
+[Linux Foundation AI and Data]: {{ site.baseurl }}{% link glossary/l.md %}#linux-fundation-ai-and-data
+[LFAI&Data]: {{ site.baseurl }}{% link glossary/l.md %}#linux-fundation-ai-and-data
 [Log Loss Function]: {{ site.baseurl }}{% link glossary/l.md %}#log-loss-function
 [Log Transformation]: {{ site.baseurl }}{% link glossary/l.md %}#log-transformation
 [Logic Model]: {{ site.baseurl }}{% link glossary/l.md %}#logic-model

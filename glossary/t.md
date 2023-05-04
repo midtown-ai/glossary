@@ -116,6 +116,24 @@ layout: page
  See also [T], [Learning Method], [Task]
 
 
+# Task-Driven Autonomous Agent
+
+ Open-source
+  * [AutoGPT Model]
+  * [BabyAGI Model]
+  * AgentGPT
+  * GodMode
+ Commercial
+  * [Cognosys AI][Cognosys AI Company]
+
+ {% youtube "https://www.youtube.com/watch?v=5DykmpzbV90" %}
+
+ More at:
+  * ...
+
+ See also [T], ...
+
+
 # Taxonomy
 
  See also [T], ...
@@ -577,6 +595,16 @@ Desired Output --> |     Training     | --> Model
    * [https://www.semianalysis.com/p/nvidiaopenaitritonpytorch](https://www.semianalysis.com/p/nvidiaopenaitritonpytorch)
 
  See also [T], [OpenAI Company]
+
+
+# TriviaQA Dataset
+
+ TriviaQA is a reading comprehension [dataset] containing over 650K question-answer-evidence triples. TriviaQA includes 95K question-answer pairs authored by trivia enthusiasts and independently gathered evidence documents, six per question on average, that provide high quality distant supervision for answering the questions.
+
+ More at:
+  * [https://nlp.cs.washington.edu/triviaqa/](https://nlp.cs.washington.edu/triviaqa/)
+
+ See also [T], ...
 
 
 # Trustworthy AI

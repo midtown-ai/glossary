@@ -234,7 +234,15 @@ z_q(x)=\text{argmin}_i ||z_e(x)-e_i||_2
   * a complete suite of APIs, and
   * an intuitive user interface/administrative console.
 
- See also [V], [Milvus Database], [Representation Space], [Vector], [Vector Search Library]
+ Databases
+  * [Pinecone Database]
+  * [Milvus Database]
+  * [Chroma Database] - in-memory ?
+
+ More at:
+  * [https://www.pinecone.io/learn/vector-database/](https://www.pinecone.io/learn/vector-database/)
+
+ See also [V], [Representation Space], [Vector], [Vector Search Library]
 
 
 # Vector Search Library

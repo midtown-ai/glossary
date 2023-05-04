@@ -16,7 +16,10 @@
 [Perceptron]: {{ site.baseurl}}{% link glossary/p.md %}#perceptron
 [Perplexity]: {{ site.baseurl}}{% link glossary/p.md %}#perplexity
 [Personal Assistant]: {{ site.baseurl}}{% link glossary/p.md %}#personal-assistant
+[Phenaki Model]: {{ site.baseurl}}{% link glossary/p.md %}#phenaki-model
 [Piano Roll]: {{ site.baseurl}}{% link glossary/p.md %}#piano-roll
+[Pinecone Company]: {{ site.baseurl}}{% link glossary/p.md %}#pinecone-company
+[Pinecone Database]: {{ site.baseurl}}{% link glossary/p.md %}#pinecone-database
 [Pipe Mode]: {{ site.baseurl}}{% link glossary/p.md %}#pipe-mode
 [Pixel RNN]: {{ site.baseurl}}{% link glossary/p.md %}#pixel-rnn
 [Pixel Space]: {{ site.baseurl}}{% link glossary/p.md %}#pixel-space

@@ -103,3 +103,16 @@ answer = ask_question({
   * [https://ai.stanford.edu/blog/qagnn/](https://ai.stanford.edu/blog/qagnn/)
 
  See also [Q], [Entity Extraction], [Graph Neural Network], [Knowledge Graph], [Machine Reasoning], [Question Answering]
+
+
+# Quora Company
+
+ A Q&A internet company that is jumping in the AI race with the poe interface.
+
+ Quora is a question-and-answer platform where users can ask questions and get answers from a community of users. It was founded in 2009 by two former Facebook employees and has since grown to become one of the largest question-and-answer platforms on the internet. Users can ask any question they have on any topic, and other users can answer the question, provide comments, and upvote or downvote answers. Quora also allows users to follow topics and other users, which can help them discover new questions and answers that are relevant to their interests. Quora is known for its high-quality answers, which are often written by experts in their respective fields.
+
+ More at:
+  * announcement - [https://quorablog.quora.com/Poe-1](https://quorablog.quora.com/Poe-1)
+  * POE web UI - [https://poe.com/](https://poe.com/)
+
+ See also [Q], ...

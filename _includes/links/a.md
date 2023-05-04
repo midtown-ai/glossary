@@ -118,6 +118,7 @@
 [Autoencoder Type]: {{ site.baseurl }}{% link glossary/a.md %}#autoencoder-type
 [Autoencoding]: {{ site.baseurl }}{% link glossary/a.md %}#autoencoding
 [Autoencoding Model]: {{ site.baseurl }}{% link glossary/a.md %}#autoencoding-model
+[AutoGPT Model]: {{ site.baseurl }}{% link glossary/a.md %}#autogpt-model
 [Automation]: {{ site.baseurl }}{% link glossary/a.md %}#automation
 [AutoML]: {{ site.baseurl }}{% link glossary/a.md %}#automl
 [Autonomous Vehicle]: {{ site.baseurl }}{% link glossary/a.md %}#autonomous-vehicle

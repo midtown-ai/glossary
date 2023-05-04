@@ -1324,6 +1324,24 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [Autoencoding], [Backpropagation], [Decoder], [Denoising Autoencoder], [Dimensionality Reduction], [Disentangled Variational Autoencoder], [Encoder], [Encoder-Decoder Model], [Hidden State], [Linear Autoencoder], [Unsupervised Deep Learning Model], [Unsupervised Learning], [Variational Autoencoder]
 
 
+# AutoGPT 
+
+ {% youtube "https://www.youtube.com/watch?v=LqjVMy2qhRY" %}
+
+ More at:
+  * home - [https://news.agpt.co/](https://news.agpt.co/)
+  * code - [https://github.com/Significant-Gravitas/Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT)
+  * wikipedia - [https://en.wikipedia.org/wiki/Auto-GPT](https://en.wikipedia.org/wiki/Auto-GPT)
+  * langchain - [https://python.langchain.com/en/latest/use_cases/autonomous_agents.html](https://python.langchain.com/en/latest/use_cases/autonomous_agents.html)
+  * UI
+   * huggingface - [https://huggingface.co/spaces/aliabid94/AutoGPT](https://huggingface.co/spaces/aliabid94/AutoGPT)
+   * [https://generativeai.pub/autogpt-now-supports-web-ui-heres-how-you-can-try-fd94b2a6ddad](https://generativeai.pub/autogpt-now-supports-web-ui-heres-how-you-can-try-fd94b2a6ddad)
+  * articles
+   * [https://www.zdnet.com/article/what-is-auto-gpt-everything-to-know-about-the-next-powerful-ai-tool/](https://www.zdnet.com/article/what-is-auto-gpt-everything-to-know-about-the-next-powerful-ai-tool/)
+
+ See also [A], ...
+
+
 # Autonomous Vehicle
 
  See also [DARPA Grant Challenge], [DARPA Urban Challenge]

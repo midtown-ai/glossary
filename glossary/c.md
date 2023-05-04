@@ -187,6 +187,63 @@ set       <search space>               set
  See also [C], ...
 
 
+# Chroma Database
+
+ An in-memory [vector datatabase] ...
+
+ ```
+import chromadb
+
+client = chromadb.Client()
+
+collection = client.create_collection("test")
+
+collection.add(
+    embeddings=[
+        [1.1, 2.3, 3.2],
+        [4.5, 6.9, 4.4],
+        [1.1, 2.3, 3.2],
+        [4.5, 6.9, 4.4],
+        [1.1, 2.3, 3.2],
+        [4.5, 6.9, 4.4],
+        [1.1, 2.3, 3.2],
+        [4.5, 6.9, 4.4],
+    ],
+    metadatas=[
+        {"uri": "img1.png", "style": "style1"},
+        {"uri": "img2.png", "style": "style2"},
+        {"uri": "img3.png", "style": "style1"},
+        {"uri": "img4.png", "style": "style1"},
+        {"uri": "img5.png", "style": "style1"},
+        {"uri": "img6.png", "style": "style1"},
+        {"uri": "img7.png", "style": "style1"},
+        {"uri": "img8.png", "style": "style1"},
+    ],
+    documents=["doc1", "doc2", "doc3", "doc4", "doc5", "doc6", "doc7", "doc8"],
+    ids=["id1", "id2", "id3", "id4", "id5", "id6", "id7", "id8"],
+)
+
+query_result = collection.query(
+        query_embeddings=[[1.1, 2.3, 3.2], [5.1, 4.3, 2.2]],
+        n_results=2,
+    )
+
+print(query_result)
+```
+ when run, it outputs
+ ```
+{'ids': [['id1', 'id5'], ['id2', 'id4']], 'embeddings': None, 'documents': [['doc1', 'doc5'], ['doc2', 'doc4']], 'metadatas': [[{'uri': 'img1.png', 'style': 'style1'}, {'uri': 'img5.png', 'style': 'style1'}], [{'uri': 'img2.png', 'style': 'style2'}, {'uri': 'img4.png', 'style': 'style1'}]], 'distances': [[0.0, 0.0], [11.960000038146973, 11.960000038146973]]}
+ ```
+
+ More at:
+  * home - [https://www.trychroma.com/](https://www.trychroma.com/)
+  * docs - [https://docs.trychroma.com/getting-started](https://docs.trychroma.com/getting-started)
+  * colab 
+   * [https://colab.research.google.com/drive/1QEzFyqnoFxq7LUGyP1vzR4iLt9PpCDXv](https://colab.research.google.com/drive/1QEzFyqnoFxq7LUGyP1vzR4iLt9PpCDXv)
+
+ See also [C], ...
+
+
 # CIDEr Score
 
  See also [C], [MSFT COCO Caption Dataset]
@@ -282,6 +339,17 @@ set       <search space>               set
  See also [C], [OpenAI Company]
 
 
+# Cognosys AI Company
+
+ Build a UI for their task-driven autonomous agent
+
+ More at:
+  * home - [https://www.cognosys.ai/](https://www.cognosys.ai/)
+  * blgo - [https://www.cognosys.ai/blog](https://www.cognosys.ai/blog)
+
+ See also [C], ...
+
+
 # Cohere AI Company
 
  Cohere (stylized as co:here) is a Canadian startup that provides [Natural Language Processing] models that help companies improve human-machine interactions. Cohere was founded in 2019 by Aidan Gomez, Ivan Zhang, and Nick Frosst.
@@ -320,41 +388,57 @@ set       <search space>               set
 # Company
 
  Example of companies are:
-  * [Adept][Adept AI Company]: Focus on [AGI] through automation of tasks on desktops
-  * [Anthropic][Anthropic Company]: Focus on LLM, building an alternative to [GPT models][GPT Model]
-  * [Apple][Apple Company]: Large company in the world, strangely not so influential in the AI industry. At least not yet!
-  * [Baidu][Baidu Company]: Chinese search engine
-  * [BHuman][BHuman Company]: Focus on creating deepfake of yourself!
-  * [Boston Dynamics][Boston Dynamics Company]: Focus on robotics
-  * [Cohere][Cohere AI Company]: Focus on NLP applications
-  * [DeepMind][DeepMind Company]: Focus on AI applications in science
-  * [ElevenLabs][ElevenLabs AI Company]: Focus on Text-to-speech rendition
-  * [Engineered Arts][Engineered Arts Company]: Focus on social robots, such as [Ameca][Ameca Robot]
+  * [Adept][Adept AI Company] - Focus on [AGI] through automation of tasks on desktops
+  * [Anthropic][Anthropic Company] - Focus on LLM, building an alternative to [GPT models][GPT Model]
+  * [Apple][Apple Company] - Large company in the world, strangely not so influential in the AI industry. At least not yet!
+  * [Baidu][Baidu Company] - Chinese search engine
+  * [BHuman][BHuman Company] - Focus on creating deepfake of yourself!
+  * [Cohere][Cohere AI Company] - Focus on NLP applications
+  * [Cognosys AI][Cognosys AI Company] - Task driven autonomous agent, similar to [AutoGPT][AutoGPT Model]
+  * [DeepMind][DeepMind Company] - Focus on AI applications in science
+  * [ElevenLabs][ElevenLabs AI Company] - Focus on Text-to-speech rendition
   * [Fermat](https://www.youtube.com/@fermat_ws/videos): Collaboration canvas with AI
-  * [Futuri Media][Futuri Media Company]: Content selection for media, such as tv and radio. Includes [RadioGPT]!
-  * [GitHub][GitHub Company]: Code repositories with advanced features including  AI pair programming with Codex
-  * [Google][Google Company]: Known for its search engine and ad-placement business model. Challenged by Microsoft
-  * [Got It AI](https://www.app.got-it.ai/): ELMAR LLM for the enterprise with truth checker!
-  * [Hanson Robotics][Hanson Robotics Company]: Build humanoid for consumer, entertainment, service, healthcare, and research applications. 
+  * [Futuri Media][Futuri Media Company] - Content selection for media, such as tv and radio. Includes [RadioGPT]!
+  * [GitHub][GitHub Company] - Code repositories with advanced features including  AI pair programming with Codex
+  * [Google][Google Company] - Known for its search engine and ad-placement business model. Challenged by Microsoft
+  * [Got It AI](https://www.app.got-it.ai/) - ELMAR LLM for the enterprise with truth checker!
+  * [Gretel AI](https://gretel.ai/) - 
   * [Hugging Face][Hugging Face Company] - A model hub, with datasets, and space/UI with [Gradio][Gradio Module]
-  * [Meta][Meta Company]:  Formerly known as Facebook with a strong focus on the multiverse and more recently on AI
-  * [Microsoft][Microsoft Company]: One of the largest company in the world, leading changes with AI 
+  * [Inflection AI][Inflection AI Company] - A chatbot that listens and talks
+  * [Meta][Meta Company] - Formerly known as Facebook with a strong focus on the multiverse and more recently on AI
+  * [Microsoft][Microsoft Company] - One of the largest company in the world, leading changes with AI 
   * [Neptune AI][Neptune AI Company]
-  * [Neuralink][Neuralink Company]: A company lead by [Elon Musk] that is focusing on human [Brain] Machine Interfaces
-  * [Nvidia][Nvidia Company]: The leading supplier of [GPU]
-  * [OpenAI][OpenAI Company]: Focus on democratizing AI. Known for releasing [ChatGPT][ChatGPT Model]
-  * [Runway][Runway Company]: Focus on generative AI for images and now videos
-  * [Softbank Robotics][Softbank Robotics Company]: Focus on [social robots][Social Robot]
-  * [Stability AI][Stability AI Company]: Focus on [diffusion model] or image generation, adopted the open-source philosophy
-  * [Supertranslate][Supertranslate AI Company]: Focus on generating proper subtitles to videos
-  * [Synthesia][Synthesia Company]: Focus on AI avatars
-  * [Tome App][Tome App Company]: Automated slide deck creation!
-  * [Waymo][Waymo Company]: Focus on self-driving car 
+  * [Neuralink][Neuralink Company] - A company lead by [Elon Musk] that is focusing on human [Brain] Machine Interfaces
+  * [Nvidia][Nvidia Company] - The leading supplier of [GPU]
+  * [OpenAI][OpenAI Company] - Focus on democratizing AI. Known for releasing [ChatGPT][ChatGPT Model]
+  * [Quora][Quora Company] - A static Q&A internet site that is not offering an interface to chatbots though its interface, poe.
+  * [Runway][Runway Company] - Focus on generative AI for images and now videos
+  * [Stability AI][Stability AI Company] - Focus on [diffusion model] or image generation, adopted the open-source philosophy
+  * [Supertranslate][Supertranslate AI Company] - Focus on generating proper subtitles to videos
+  * [Synthesia][Synthesia Company] - Focus on AI avatars
+  * [Tome App][Tome App Company] - Automated slide deck creation!
+  * [Waymo][Waymo Company] - Focus on self-driving car 
+
+ Vector Databases:
+  * [Chroma][Chroma Database] - in memory database (good for development!)
+  * [Milvus][Milvus Database] - project supported by the [LFAI&Data]
+  * [Pinecone][Pinecone Company] - building the [Pinecone Database]
 
  Synthetic data
   * [Datagen](https://datagen.tech/) - Synthetic data for faces/images
-  * [Gretel AI](https://gretel.ai/) - 
+  * [Hanson Robotics][Hanson Robotics Company] - Build humanoid for consumer, entertainment, service, healthcare, and research applications. 
   * [Mostly AI](https://mostly.ai/) - Generative AI for tabular data 
+  * [Softbank Robotics][Softbank Robotics Company] - Focus on [social robots][Social Robot]
+
+ Robotics
+  * [Boston Dynamics][Boston Dynamics Company] - Focus on robotics
+  * [Engineered Arts][Engineered Arts Company] - Focus on social robots, such as [Ameca][Ameca Robot]
+
+ Education
+  * [Chegg](https://www.chegg.com) - AI assistant called [CheegMate](https://www.chegg.com/cheggmate)
+  * [Duolingo](https://www.duolingo.com) - Learn a language with role play with [Duolingo Max](https://blog.duolingo.com/duolingo-max/)
+  * [Khan Academy](https://www.khanacademy.org) - AI assistant called [Khanmigo](https://www.khanacademy.org/khan-labs)
+  * [Person](https://www.pearson.com/en-us.html) - Still in denial 
 
  Deployment:
   * [Netlify][Netlify Company]
@@ -454,7 +538,7 @@ set       <search space>               set
   * [specificity] = precision if classes in binary classifier are inverted!
   * [precision] = true positive / total positive
 
- ![]( {{site.assets}}/c/confusion_matrix_multiclass_classifier.jpeg ){: width="100%"}
+ ![]( {{site.assets}}/c/confusion_matrix_multiclass_classifier.png ){: width="100%"}
 
  More at:
   * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
@@ -523,6 +607,8 @@ set       <search space>               set
   * paper - [https://arxiv.org/abs/2103.00020](https://arxiv.org/abs/2103.00020)
   * [https://openai.com/blog/clip/](https://openai.com/blog/clip/)
   * Hierarchical Text-Conditional Image Generation with CLIP Latents (paper) - [https://arxiv.org/abs/2204.06125](https://arxiv.org/abs/2204.06125)
+  * articles
+   * [https://www.pinecone.io/learn/clip/](https://www.pinecone.io/learn/clip/)
 
  See also [C], [CLIP Image Encoder], [CLIP Text Encoder], [Embedding Space], [Vision Transformer], [VQGAN]
 

@@ -29,6 +29,24 @@ layout: page
 {% include links/all.md %}
 
 
+# BabyAGI Model
+
+ A task-driven autonomous agent
+
+ In this research, we propose a novel task-driven autonomous agent that leverages OpenAI’s GPT-4 language model, [Pinecone vector search][Pinecone Database], and the [LangChain framework][LangChain Module] to perform a wide range of tasks across diverse domains. Our system is capable of completing tasks, generating new tasks based on completed results, and prioritizing tasks in real-time. We discuss potential future improvements, including the integration of a security/safety agent, expanding functionality, generating interim milestones, and incorporating real-time priority updates. The significance of this research lies in demonstrating the potential of AI-powered language models to autonomously perform tasks within various constraints and contexts.
+
+ ![]( {{site.assets}}/b/babyagi_model.png ){: width="100%"}
+
+ More at:
+  * code - [https://github.com/yoheinakajima/babyagi](https://github.com/yoheinakajima/babyagi)
+  * docs - [https://babyagi.org/](https://babyagi.org/)
+  * paper - [https://yoheinakajima.com/task-driven-autonomous-agent-utilizing-gpt-4-pinecone-and-langchain-for-diverse-applications/](https://yoheinakajima.com/task-driven-autonomous-agent-utilizing-gpt-4-pinecone-and-langchain-for-diverse-applications/)
+  * tweet - [https://twitter.com/yoheinakajima/status/1640934493489070080](https://twitter.com/yoheinakajima/status/1640934493489070080)
+  * langchain - [https://python.langchain.com/en/latest/use_cases/autonomous_agents.html](https://python.langchain.com/en/latest/use_cases/autonomous_agents.html)
+
+ See also [B], ...
+
+
 # Backpropagation
 
  = a brute force approach, where you pick random weight and you iterate on them until they arrive at a stable solution. This is a `widely used algorithm for training feedforward neural networks and other ANN`. Approach discovered in 1986 that re-stimulated AI. Help a model learn from its mistakes by leveraging the chain rule of derivatives. The backpropagation algorithm consists in modifying the weight and bias of each cell in each layer based on their impact on the estimated output, or loss function (diff between estimated output and real output).

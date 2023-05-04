@@ -9,6 +9,7 @@
 [Task]: {{ site.baseurl }}{% link glossary/t.md %}#task
 [Task-Based Learning]: {{ site.baseurl }}{% link glossary/t.md %}#task-based-learning
 [TBL]: {{ site.baseurl }}{% link glossary/t.md %}#task-based-learning
+[Task-Driven Autonomous Agent]: {{ site.baseurl }}{% link glossary/t.md %}#task-driven-autonomous-agent
 [Taxonomy]: {{ site.baseurl }}{% link glossary/t.md %}#taxonomy
 [Tensor]: {{ site.baseurl }}{% link glossary/t.md %}#tensor
 [Tensor Processing Unit]: {{ site.baseurl }}{% link glossary/t.md %}#tensor-processing-unit
@@ -55,6 +56,7 @@
 [TPE]: {{ site.baseurl }}{% link glossary/t.md %}#tree-parzen-estimators
 [Triplet Loss Function]: {{ site.baseurl }}{% link glossary/t.md %}#triplet-loss-function
 [Triton]: {{ site.baseurl }}{% link glossary/t.md %}#triton
+[TriviaQA Dataset]: {{ site.baseurl }}{% link glossary/t.md %}#triviaqa-dataset
 [Trustworthy AI]: {{ site.baseurl }}{% link glossary/t.md %}#trustworthy-ai
 [Truth]: {{ site.baseurl }}{% link glossary/t.md %}#truth
 [Tuning Parameter]: {{ site.baseurl }}{% link glossary/t.md %}#tuning-parameter

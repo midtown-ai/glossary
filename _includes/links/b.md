@@ -1,5 +1,6 @@
 [B]: {{ site.baseurl }}{% link glossary/b.md %}
 
+[BabyAGI Model]: {{ site.baseurl }}{% link glossary/b.md %}#babyagi-model
 [Backpropagation]: {{ site.baseurl }}{% link glossary/b.md %}#backpropagation
 [Bag Of Words]: {{ site.baseurl }}{% link glossary/b.md %}#bag-of-words
 [Baggingng]: {{ site.baseurl }}{% link glossary/b.md %}#bag-of-words

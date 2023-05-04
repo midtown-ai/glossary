@@ -8,3 +8,4 @@
 [QA]: {{ site.baseurl}}{% link glossary/q.md %}#qa
 [Question Answering Graph Neural Network]: {{ site.baseurl}}{% link glossary/q.md %}#question-answering-graph-neural-network
 [QAGNN]: {{ site.baseurl}}{% link glossary/q.md %}#qagnn
+[Quora Company]: {{ site.baseurl}}{% link glossary/q.md %}#quora-company

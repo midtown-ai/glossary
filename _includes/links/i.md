@@ -25,6 +25,7 @@
 [Inductive Reasoning]: {{ site.baseurl }}{% link glossary/i.md %}#inductive-reasoning
 [Inference]: {{ site.baseurl }}{% link glossary/i.md %}#inference
 [Inference Point]: {{ site.baseurl }}{% link glossary/i.md %}#inference-point
+[Inflection AI Company]: {{ site.baseurl }}{% link glossary/i.md %}#inflection-ai-company
 [Information]: {{ site.baseurl }}{% link glossary/i.md %}#information
 [Initialization]: {{ site.baseurl }}{% link glossary/i.md %}#initialization
 [Input Layer]: {{ site.baseurl }}{% link glossary/i.md %}#input-layer

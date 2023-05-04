@@ -250,6 +250,18 @@ layout: page
  See also [I], [Model]
 
 
+# Inflection AI Company
+
+ A start-up [company] that is launching Pi, a chatbot as a personal assistant. The Pi name comes from "Personal Intelligence".
+
+ More at:
+  * home - [https://inflection.ai/](https://inflection.ai/)
+  * hey pi - [https://heypi.com/talk](https://heypi.com/talk)
+  * [https://www.forbes.com/sites/alexkonrad/2023/05/02/inflection-ai-ex-deepmind-launches-pi-chatbot/?sh=a14f4343d6dd](https://www.forbes.com/sites/alexkonrad/2023/05/02/inflection-ai-ex-deepmind-launches-pi-chatbot/?sh=a14f4343d6dd)
+
+ See also [I], ...
+
+
 # Information
 
 ```

@@ -256,18 +256,27 @@ layout: page
 # Dataset
 
  A group of several observations. Good data must contain a signal of what you are trying to measure. Beware that data-set may be incomplete. For example, if you are trying to forecast inventory, you can look at sale's number, but the data needs to includes the times when the sale did not happen because we run out of inventory! Dataset needs to be at least 10 times the number of features. The dataset is split in 3 subsets called the training subset, the development subset, and the test subset. If you have a lot of data 70% goes to the training, 15% to the dev, and 15% to the test. If not much data, 80% goes to training, 10% and 10%. A dataset is based on either one of those:
-  * images (MNIST for digits, CIFAR-10 for 10 categories, ImageNet, etc)
+  * images
+   * [MNIST Dataset] - Digits for zip codes
+   * [CIFAR Dataset] - 10+ categories
+   * [ImageNet Dataset] - ...
   * audio sequences
-  * text, aka corpus such as as C4
+  * text, aka [corpus]
+   * [C4 Dataset]
+  * books
+   * [TriviaQA Dataset] - QA to test reading comprehension
   * sentences
-  * words (!WordNet, GSM8K for math reasoning)
+  * words
+   * [WordNet Dataset]
+   * [GSM Dataset] - math word problems for math reasoning
 
  More at
+  * [https://huggingface.co/datasets](https://huggingface.co/datasets)
   * [https://www.kaggle.com/datasets](https://www.kaggle.com/datasets)
   * [https://paperswithcode.com/datasets](https://paperswithcode.com/datasets)
   * [https://scikit-learn.org/stable/datasets.html](https://scikit-learn.org/stable/datasets.html)
 
- See also [D], [Corpus], [CIFAR Dataset], [Data Point], [Development Subset], [GINI Impurity Index], [ImageNet Dataset], [MNIST Dataset], [Testing Subset], [Training Subset], [WordNet Dataset]
+ See also [D], [Data Point], [Development Subset], [GINI Impurity Index], [Testing Subset], [Training Subset]
 
 
 # Dawid-Skene Algorithm

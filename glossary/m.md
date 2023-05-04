@@ -646,7 +646,12 @@ def mse_loss(y_pred, y_true):
 
 # Milvus Database
 
+ An open-source [vector database] that is highly flexible, reliable, and blazing fast.
+
  ![]( {{site.assets}}/m/milvus_database.png ){: width="100%"}
+
+ More at:
+  * home - [https://milvus.io/](https://milvus.io/)
 
  See also [M], [Vector Database]
 

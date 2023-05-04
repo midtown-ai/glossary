@@ -18,6 +18,7 @@
 [Checkpoint Evaluation]: {{ site.baseurl }}{% link glossary/c.md %}#checkpoint-evaluation
 [Child Development Milestone]: {{ site.baseurl }}{% link glossary/c.md %}#child-development-milestone
 [Chinchilla Model]: {{ site.baseurl }}{% link glossary/c.md %}#chinchilla-model
+[Chroma Database]: {{ site.baseurl }}{% link glossary/c.md %}#chroma-database
 [CIDEr Score]: {{ site.baseurl }}{% link glossary/c.md %}#cider-score
 [CICERO Model]: {{ site.baseurl }}{% link glossary/c.md %}#cicero-model
 [CIFAR Dataset]: {{ site.baseurl }}{% link glossary/c.md %}#cifar-dataset
@@ -28,6 +29,7 @@
 [Clustering]: {{ site.baseurl }}{% link glossary/c.md %}#clustering
 [CNTK]: {{ site.baseurl }}{% link glossary/c.md %}#cntk
 [Codex Model]: {{ site.baseurl }}{% link glossary/c.md %}#codex-model
+[Cognosys AI Company]: {{ site.baseurl }}{% link glossary/c.md %}#cognosys-ai-company
 [Cohere AI Company]: {{ site.baseurl }}{% link glossary/c.md %}#cohere-ai-company
 [Collaborative Filtering]: {{ site.baseurl }}{% link glossary/c.md %}#collaborative-filtering
 [Colossal Clean Crawled Corpus]: {{ site.baseurl }}{% link glossary/c.md %}#colossal-clean-crawled-corpus

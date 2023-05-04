@@ -73,6 +73,47 @@ layout: page
  Beware, cannot use GPU for inference. ??? <== ????
 
 
+# LangChain Module
+
+ LangChain is a framework for developing applications powered by language models. We believe that the most powerful and differentiated applications will not only call out to a language model via an API, but will also:
+  * Be data-aware: connect a language model to other sources of data
+  * Be agentic: allow a language model to interact with its environment
+
+ The LangChain framework is designed with the above principles in mind.
+
+ ```
+# Proprietary LLM from e.g. OpenAI
+# pip install openai
+from langchain.llms import OpenAI
+llm = OpenAI(model_name="text-davinci-003")
+
+# Alternatively, open-source LLM hosted on Hugging Face
+# pip install huggingface_hub
+from langchain import HuggingFaceHub
+llm = HuggingFaceHub(repo_id = "google/flan-t5-xl")
+
+# The LLM takes a prompt as an input and outputs a completion
+prompt = "Alice has a parrot. What animal is Alice's pet?"
+completion = llm(prompt)
+ ```
+
+ {% youtube "https://www.youtube.com/watch?v=nE2skSRWTTs" %}
+
+ More at:
+  * announcement - [https://www.pinecone.io/learn/langchain-intro/](https://www.pinecone.io/learn/langchain-intro/)
+  * docs - [https://python.langchain.com/en/latest/index.html](https://python.langchain.com/en/latest/index.html)
+  * JS docs - [https://js.langchain.com/docs/](https://js.langchain.com/docs/)
+  * tutorials
+   * book - [https://www.pinecone.io/learn/langchain/](https://www.pinecone.io/learn/langchain/)
+   * notebooks - [https://github.com/pinecone-io/examples/tree/master/generation/langchain/handbook](https://github.com/pinecone-io/examples/tree/master/generation/langchain/handbook)
+  * articles
+   * [https://towardsdatascience.com/getting-started-with-langchain-a-beginners-guide-to-building-llm-powered-applications-95fc8898732c](https://towardsdatascience.com/getting-started-with-langchain-a-beginners-guide-to-building-llm-powered-applications-95fc8898732c)
+  * colabs
+   * intro - [https://colab.research.google.com/github/pinecone-io/examples/blob/master/generation/langchain/handbook/00-langchain-intro.ipynb](https://colab.research.google.com/github/pinecone-io/examples/blob/master/generation/langchain/handbook/00-langchain-intro.ipynb)
+
+ See also [L], [Vector Database]
+
+
 # Language Model
 
  See also [L], [Language Modeling], [Large Language Model]
@@ -373,6 +414,28 @@ print regr.score(X_test, y_test)
   * code - [https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html](https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html)
 
  See also [L], [Classification], [Multiple Linear Regression], [Non-Linear Regression], [Prediction Error], [Regression]
+
+
+# Linux Foundation AI And Data
+
+# LFAI&Data
+
+ The mission of LF AI & Data is to build and support an open artificial intelligence (AI) and data community, and drive open source innovation in the AI and data domains by enabling collaboration and the creation of new opportunities for all the members of the community.
+
+ Projects
+  * Graduated
+   * [Milvus Database]
+   * [ONNX Format]
+   * Egeria, Flyte, Horovod, Pyro
+  * Incubation
+  * Sandbox
+
+
+ More at:
+  * site - [https://lfaidata.foundation/](https://lfaidata.foundation/) 
+  * projects - [https://lfaidata.foundation/projects/](https://lfaidata.foundation/projects/)
+
+ See also [L], ...
 
 
 # LLaMA Model

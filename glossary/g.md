@@ -388,21 +388,22 @@ layout: page
   * [Tensor Processing Unit (TPU)][TPU] - custom hardware for tensor arithmetic
 
  Models developed by the company
-  * [Bard][Bard Model]: A lightweight version of Lambda meant to compete against Bing + [ChatGPT Model]
-  * [DreamIX][DreamIX Model]: text-to-video and image-to-video diffusion model
-  * [Google Lens][Google Lens]: search what you see, uses cellphone cameras and [computer vision]
-  * [Google Translate][Google Translate Model]: Translate one language into another, [machine translation]
-  * [Gshard Model] :
-  * [Imagen][Imagen Model]: A text-to-image diffusion model
-  * [Imagen Video][Imagen Video Model]: A text-to-video model
-  * [LaMBDA][LaMBDA Model]: A large language model
-  * [Magi Model] :
+  * [Bard][Bard Model] - A lightweight version of Lambda meant to compete against Bing + [ChatGPT Model]
+  * [DreamIX][DreamIX Model] - text-to-video and image-to-video diffusion model
+  * [Google Lens][Google Lens] - search what you see, uses cellphone cameras and [computer vision]
+  * [Google Translate][Google Translate Model] - Translate one language into another, [machine translation]
+  * [Gshard Model] -
+  * [Imagen][Imagen Model] - A text-to-image diffusion model
+  * [Imagen Video][Imagen Video Model] - A text-to-video model
+  * [LaMBDA][LaMBDA Model] - A large language model
+  * [Magi Model] -
   * [Minerva Model] -
   * [MUM Model] - Use [T5 Model], NLU and multimodal, 1000 more powerful than the [BERT Model]. 
-  * [Muse Model] :
-  * [MusicLM][MusicLM Model]: Generative model for music
-  * [PaLM Model] :
-  * [Switch Transformer] :
+  * [Muse Model] -
+  * [MusicLM][MusicLM Model] - Generative model for music
+  * [PaLM Model] -
+  * [Phenaki Model] - realistic video synthesis, given a sequence of textual prompts
+  * [Switch Transformer] -
   * [T5 Model] -
 
 
