@@ -269,6 +269,12 @@ layout: page
   * words
    * [WordNet Dataset]
    * [GSM Dataset] - math word problems for math reasoning
+  * science
+   * [ScienceQA Dataset] - covers natural science, language science, social science
+
+ Other
+  * Instruction following
+   * [Self-Instruct Dataset]
 
  More at
   * [https://huggingface.co/datasets](https://huggingface.co/datasets)
@@ -533,7 +539,7 @@ layout: page
 
 # DeepNash Model
 
- A model developed by [DeepMind][DeepMind Company] to Mastering Stratego, the classic game of imperfect information.
+ A model developed by [DeepMind] to Mastering Stratego, the classic game of imperfect information.
 
  DeepNash learns to play Stratego from scratch by combining game theory and model-free deep RL
 
@@ -546,12 +552,14 @@ layout: page
 
 # DeepSpeed Project
 
+ A ... built by [Microsoft] ?
+
  {% youtube "https://www.youtube.com/watch?v=pDGI668pNg0" %}
 
  More at :
   * [https://github.com/microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed)
 
- See also [D], [Microsoft Company]
+ See also [D], ...
 
 
 # Delayed Reward
@@ -669,7 +677,7 @@ We need to do this for
  Examples:
   * Apple employs differential privacy to accumulate anonymous usage insights from devices like iPhones, iPads and Mac.
   * Amazon uses differential privacy to access user’s personalized shopping preferences while covering sensitive information regarding their past purchases.
-  * Facebook uses it to gather behavioral data for target advertising campaigns without defying  any nation’s privacy policies.
+  * Meta uses it to gather behavioral data for target advertising campaigns without defying  any nation’s privacy policies.
 
  For example, consider an algorithm that analyzes a dataset and compute its statistics such as mean, median, mode, etc. Now, this algorithm can be considered as differentially private only if via examining at the output if a person cannot state whether any individual’s data was included in the actual dataset or not.
 
@@ -700,9 +708,9 @@ We need to do this for
  This is possible because the model will have access to the real images during training and will be able to learn the right parameters by applying such noise to the image iteratively until it reaches complete noise and is unrecognizable. Then, when we are satisfied with the noise we get from all images, meaning that they are similar and generate noise from a similar distribution, we are ready to use our model in reverse and feed it similar noise in the reverse order to expect an image similar to the ones used during training.
 
  At this time, the most popular diffusion models are:
-  * [Dall-E][Dall-E Model] by [OpenAI][OpenAI Company]
+  * [Dall-E][Dall-E Model] by [OpenAI]
   * [Midjourney][Midjourney Model] by ...
-  * [Stable Diffusion][Stable Diffusion Model] by [Stability AI][Stability AI Company]
+  * [Stable Diffusion][Stable Diffusion Model] by [Stability AI]
  and
   * [ZF Diffusion] for protein generation
 
@@ -897,9 +905,9 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
 
 # DreamFusion Model
 
- Text-to-3D using 2D Diffusion
+ Text-to-3D using 2D Diffusion built by [Google]
 
- An alternative to [Point-E Model] built by [OpenAI][OpenAI Company]
+ An alternative to [Point-E Model] built by [OpenAI]
 
  {% pdf "https://arxiv.org/pdf/2209.14988.pdf" %}
 
@@ -908,12 +916,12 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
   * paper - [https://arxiv.org/abs/2209.14988](https://arxiv.org/abs/2209.14988)
   * sample - [https://dreamfusion3d.github.io/gallery.html](https://dreamfusion3d.github.io/gallery.html)
 
- See also [D], [Google Company]
+ See also [D], ...
 
 
 # DreamIX Model
 
- A diffusion model for video built by [Google][Goolge Company]
+ A diffusion model for video built by [Google]
 
  Text-driven image and video diffusion models have recently achieved unprecedented generation realism. While diffusion models have been successfully applied for image editing, very few works have done so for video editing. We present the first diffusion-based method that is able to perform text-based motion and appearance editing of general videos. Our approach uses a video diffusion model to combine, at inference time, the low-resolution spatio-temporal information from the original video with new, high resolution information that it synthesized to align with the guiding text-prompt. As obtaining high-fidelity to the original video requires retaining some of its high-resolution information, we add a preliminary stage of finetuning the model on the original video, significantly boosting fidelity. We propose to improve motion editability by a new, mixed objective that jointly finetunes with full temporal attention and with temporal attention masking. We further introduce a new framework for image animation. We first transform the image into a coarse video by simple image processing operations such as replication and perspective geometric projections, and then use our general video editor to animate it. As a further application, we can use our method for subject-driven video generation. Extensive qualitative and numerical experiments showcase the remarkable editing ability of our method and establish its superior performance compared to baseline methods.
 

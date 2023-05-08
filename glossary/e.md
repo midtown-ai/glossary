@@ -146,7 +146,7 @@ layout: page
 
 # Elon Musk Person
 
- Founder of Tesla, SpaceX, the Boring company, and early investor in [OpenAI][OpenAI Company]
+ Founder of Tesla, SpaceX, the Boring company, and early investor in [OpenAI]
 
  {% youtube "https://www.youtube.com/watch?v=iI_RNK4X2wg" %}
 
@@ -397,7 +397,7 @@ H(X) = -∑(p(x) * log2 p(x))
 
 # Eric Schmidt Person
 
- CEO of [Google][Google Company] between 2001 and 2011, Chairman of Alphabet.
+ CEO of [Google] between 2001 and 2011, Chairman of Alphabet.
 
  {% youtube "https://www.youtube.com/watch?v=Sg3EchbCcA0" %}
 
@@ -409,7 +409,7 @@ H(X) = -∑(p(x) * log2 p(x))
 
 # Ernie Bot
 
- An alternative to [ChatGPT Model] developed by [Baidu][Baidu Company]
+ An alternative to [ChatGPT Model] developed by [Baidu]
 
  {% youtube "https://www.youtube.com/watch?v=ukvEUI3x0vI" %}
 

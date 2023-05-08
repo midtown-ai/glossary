@@ -2,6 +2,8 @@
 
 [Panda Module]: {{ site.baseurl}}{% link glossary/p.md %}#panda-module
 [Parameter]: {{ site.baseurl}}{% link glossary/p.md %}#parameter
+[Parameter-Efficient Fine-Tuning]: {{ site.baseurl}}{% link glossary/p.md %}#parameter-efficient-fine-tuning
+[PEFT]: {{ site.baseurl}}{% link glossary/p.md %}#parameter-efficient-fine-tuning
 [Passive Learning]: {{ site.baseurl }}{% link glossary/p.md %}#passive-learning
 [Pathways Language Model]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-language-model
 [PaLM Model]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-language-model
@@ -19,6 +21,7 @@
 [Phenaki Model]: {{ site.baseurl}}{% link glossary/p.md %}#phenaki-model
 [Piano Roll]: {{ site.baseurl}}{% link glossary/p.md %}#piano-roll
 [Pinecone Company]: {{ site.baseurl}}{% link glossary/p.md %}#pinecone-company
+[Pinecone]: {{ site.baseurl}}{% link glossary/p.md %}#pinecone-company
 [Pinecone Database]: {{ site.baseurl}}{% link glossary/p.md %}#pinecone-database
 [Pipe Mode]: {{ site.baseurl}}{% link glossary/p.md %}#pipe-mode
 [Pixel RNN]: {{ site.baseurl}}{% link glossary/p.md %}#pixel-rnn

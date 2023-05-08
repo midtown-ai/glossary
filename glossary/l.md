@@ -68,11 +68,6 @@ layout: page
  See also [L], ...
 
 
-# Lambda Model
-
- Beware, cannot use GPU for inference. ??? <== ????
-
-
 # LangChain Module
 
  LangChain is a framework for developing applications powered by language models. We believe that the most powerful and differentiated applications will not only call out to a language model via an API, but will also:
@@ -117,6 +112,15 @@ completion = llm(prompt)
 # Language Model
 
  See also [L], [Language Modeling], [Large Language Model]
+
+
+# Language Model for Discussion Applications Model 
+
+# LaMbDA Model
+
+ Built by [Google]
+
+ Beware, cannot use GPU for inference. ??? <== ????
 
 
 # Language Modeling
@@ -448,8 +452,22 @@ print regr.score(X_test, y_test)
  {% pdf "{{site.assets}}/l/llama_model_paper.pdf" %}
 
  More at:
-  * [https://ai.facebook.com/blog/large-language-model-llama-meta-ai/](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/)
+  * announcement - [https://ai.facebook.com/blog/large-language-model-llama-meta-ai/](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/)
   * paper [https://arxiv.org/abs/2302.13971](https://arxiv.org/abs/2302.13971)
+  * model card - [https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md](https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md)
+  * model leak - [https://www.vice.com/en/article/xgwqgw/facebooks-powerful-large-language-model-leaks-online-4chan-llama](https://www.vice.com/en/article/xgwqgw/facebooks-powerful-large-language-model-leaks-online-4chan-llama)
+
+ See also [L], ...
+
+
+# LLaMA-Adapter Model
+
+ We present LLaMA-Adapter, a lightweight adaption method to efficiently fine-tune [LLaMA][LLaMA Model] into an instruction-following model. Using 52K self-instruct demonstrations, LLaMA-Adapter only introduces 1.2M learnable parameters upon the frozen LLaMA 7B model, and costs less than one hour for fine-tuning on 8 A100 GPUs. Specifically, we adopt a set of learnable adaption prompts, and prepend them to the input text tokens at higher transformer layers. Then, a zero-init attention mechanism with zero gating is proposed, which adaptively injects the new instructional cues into LLaMA, while effectively preserves its pre-trained knowledge. With efficient training, LLaMA-Adapter generates high-quality responses, comparable to Alpaca with fully fine-tuned 7B parameters. Furthermore, our approach can be simply extended to multi-modal input, e.g., images, for image-conditioned [LLaMA][LLaMa Model], which achieves superior reasoning capacity on [ScienceQA][ScienceQA Dataset].
+
+ {% pdf "https://arxiv.org/pdf/2303.16199.pdf" %} 
+
+ More at:
+  * paper - [https://arxiv.org/abs/2303.16199](https://arxiv.org/abs/2303.16199)
 
  See also [L], ...
 
@@ -591,3 +609,39 @@ Aristotle is mortal!
  ![]( {{site.assets}}/l/loss_graph.png ){: width="100%"}
 
  See also [L], [Discriminator  Loss], [Generator Loss], [Loss Function]
+
+
+# Low-Rank Adaptation Fine-Tuning
+
+# LoRA Fine-Tuning
+
+ A method for [parameter-efficient fine-tuning (PEFT)]
+
+ LoRA performs on-par or better than finetuning in model quality on RoBERTa, DeBERTa, GPT-2, and GPT-3, despite having fewer trainable parameters, a higher training throughput, and, unlike [adapters], no additional inference latency
+
+ {% pdf "https://arxiv.org/pdf/2106.09685.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2106.09685](https://arxiv.org/abs/2106.09685)
+
+ See also [L], ...
+
+
+# Low-Rank Approximation
+
+ Replace a high-rank matrix by an approximation returned by the multiplication of 2 low-rank matrices.
+ To find the best low-rank approximation use [Single Value Decomposition (SVD)][SVD]!
+
+ ```
+ Bm,n = Am,k  .  Ck,n
+
+# k << n  and k << m
+# Am,k = matrix of m rows and k columns
+# Ck,n = matrix of k rows and n columns
+ ```
+
+ To find the optimum values for k, Am,k , and Ck,n look at [singular value decomposition]
+
+ {% youtube "https://www.youtube.com/watch?v=12K5aydB9cQ" %}
+
+ See also [L], ...

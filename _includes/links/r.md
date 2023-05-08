@@ -59,6 +59,7 @@
 [Reward Function]: {{site.baseurl }}{% link glossary/r.md %}#reward-function
 [Reward Model]: {{site.baseurl }}{% link glossary/r.md %}#reward-model
 [Reward Shaping]: {{site.baseurl }}{% link glossary/r.md %}#reward-shaping
+[Reward Trap]: {{site.baseurl }}{% link glossary/r.md %}#reward-trap
 [Ridge Regression]: {{site.baseurl }}{% link glossary/r.md %}#ridge-regression
 [Riffusion Model]: {{site.baseurl }}{% link glossary/r.md %}#riffusion-model
 [Riva Model]: {{site.baseurl }}{% link glossary/r.md %}#riva-model
@@ -76,3 +77,4 @@
 [RF Diffusion]: {{site.baseurl }}{% link glossary/r.md %}#rosettafold-diffusion
 [ROUGE Metric]: {{site.baseurl }}{% link glossary/r.md %}#rouge-metric
 [Runway Company]: {{site.baseurl }}{% link glossary/r.md %}#runway-company
+[Runway]: {{site.baseurl }}{% link glossary/r.md %}#runway-company

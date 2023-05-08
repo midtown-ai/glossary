@@ -45,7 +45,7 @@ layout: page
 
 # RadioGPT
 
- RadioGPT combines the power of GPT-4 technology with AI voice tech and [Futuri][Futuri Media Company]’s AI-driven targeted story discovery and social content system, TopicPulse, to provide an unmatched localized radio experience for any market, any format.
+ RadioGPT combines the power of GPT-4 technology with AI voice tech and [Futuri Media]’s AI-driven targeted story discovery and social content system, TopicPulse, to provide an unmatched localized radio experience for any market, any format.
 
  {% include vimeoPlayer.html id=801620131 %}
 
@@ -648,6 +648,20 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  See also [R], [Addiction], [Delayed Reward], [Reinforcement Learning]
 
 
+# Reward Trap
+
+ Beware of incorrect [reward shaping] in digital evolution! The AI may find unexpected shortcuts or solutions!
+
+ {% youtube "https://www.youtube.com/watch?v=GdTBqBnqhaQ" %}
+
+ {% pdf "https://arxiv.org/pdf/1803.03453.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/1803.03453(https://arxiv.org/abs/1803.03453)
+
+ See also [R], ...
+
+
 # Ridge Regression
 
  Used for [Regularization]!
@@ -671,7 +685,7 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 
 # Riva Model
 
- A [text-to-speech model] developer by [Nvidia][Nvidia Company].
+ A [text-to-speech model] developer by [Nvidia].
 
  More at:
   * site - [https://resources.nvidia.com/en-us-riva-tts-briefcase/speech-synthesis-documentation](https://resources.nvidia.com/en-us-riva-tts-briefcase/speech-synthesis-documentation)
@@ -682,12 +696,12 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 # Robot
 
  Examples of [social robots][social robot]
-  * [Ameca][Ameca Robot] bu [Engineered Arts][Engineered Arts Company]
-  * [Sophia][Sophia Robot] by [Hanson Robotics][Hanson Robotics Company]
-  * [Pepper][Pepper Robot] by ...
+  * [Ameca][Ameca Robot] by [Engineered Arts].
+  * [Sophia][Sophia Robot] by [Hanson Robotics]
+  * [Pepper][Pepper Robot] by [Softbank Robotics]
 
  Other 
-  * [Atlas][Atlas Robot] by [Boston Dynamics][Boston Dynamics Company]
+  * [Atlas][Atlas Robot] by [Boston Dynamics]
 
  {% youtube "https://www.youtube.com/watch?v=Oqq5tgday_w" %}
 
@@ -714,9 +728,9 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 
 # RoBERTa Model
 
- An update on the [BERT model] optimized by [Meta][Meta Company]. The RoBERTa model also uses the [transformer architecture]
+ An update on the [BERT model] optimized by [Meta]. The RoBERTa model also uses the [transformer architecture]
 
- A robustly optimized method for pretraining [natural language processing (NLP)][NLP] systems that improves on [Bidirectional Encoder Representations from Transformers, or BERT], the self-supervised method released by [Google][Google Company] in 2018. BERT is a revolutionary technique that achieved state-of-the-art results on a range of NLP tasks while relying on unannotated text drawn from the web, as opposed to a language [corpus] that’s been labeled specifically for a given task. The technique has since become popular both as an NLP research baseline and as a final task architecture. BERT also highlights the collaborative nature of AI research — thanks to Google’s open release, we were able to conduct a replication study of BERT, revealing opportunities to improve its performance. Our optimized method, RoBERTa, produces state-of-the-art results on the widely used NLP benchmark, [General Language Understanding Evaluation (GLUE)][GLUE Benchmark].
+ A robustly optimized method for pretraining [natural language processing (NLP)][NLP] systems that improves on [Bidirectional Encoder Representations from Transformers, or BERT], the self-supervised method released by [Google] in 2018. BERT is a revolutionary technique that achieved state-of-the-art results on a range of NLP tasks while relying on unannotated text drawn from the web, as opposed to a language [corpus] that’s been labeled specifically for a given task. The technique has since become popular both as an NLP research baseline and as a final task architecture. BERT also highlights the collaborative nature of AI research — thanks to Google’s open release, we were able to conduct a replication study of BERT, revealing opportunities to improve its performance. Our optimized method, RoBERTa, produces state-of-the-art results on the widely used NLP benchmark, [General Language Understanding Evaluation (GLUE)][GLUE Benchmark].
 
  Pretraining objectives:
   * [Masked Language Model (MLM)][MLM]

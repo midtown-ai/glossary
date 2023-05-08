@@ -2,6 +2,7 @@
 
 [Accuracy]: {{ site.baseurl }}{% link glossary/a.md %}#accuracy
 [Action]: {{ site.baseurl }}{% link glossary/a.md %}#action
+[Actions]: {{ site.baseurl }}{% link glossary/a.md %}#action
 [Action Space]: {{ site.baseurl }}{% link glossary/a.md %}#action-space
 [Action Transformer]: {{ site.baseurl }}{% link glossary/a.md %}#action-transformer
 [Action-Value Function]: {{ site.baseurl }}{% link glossary/a.md %}#action-value-function
@@ -11,6 +12,8 @@
 [Actor Critic Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-algorithm
 [Actor Critic With Experience Replay]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-with-experience-replay
 [ACER]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-with-experience-replay
+[Adapter]: {{ site.baseurl }}{% link glossary/a.md %}#adapter
+[Adapters]: {{ site.baseurl }}{% link glossary/a.md %}#adapter
 [Adaptive Boosting]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-boosting
 [AdaBoost]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-boosting
 [Adaptive Delta Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-delta-algorithm
@@ -23,6 +26,7 @@
 [Adam]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-moment-estimation
 [Addiction]: {{ site.baseurl }}{% link glossary/a.md %}#addiction
 [Adept AI Company]: {{ site.baseurl }}{% link glossary/a.md %}#adept-ai-company
+[Adept AI]: {{ site.baseurl }}{% link glossary/a.md %}#adept-ai-company
 [Adversarial Attack]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-attack
 [Adversarial Imitation Learning]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-imitation-learning
 [Adversarial Model]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-model
@@ -55,7 +59,9 @@
 [AI Winter]: {{ site.baseurl }}{% link glossary/a.md %}#ai-winter
 [AI4ALL]: {{ site.baseurl }}{% link glossary/a.md %}#ai4all
 [Alan Turing Person]: {{ site.baseurl }}{% link glossary/a.md %}#alan-turing-person
+[Alan Turing]: {{ site.baseurl }}{% link glossary/a.md %}#alan-turing-person
 [Alex Krizhevsky Person]: {{ site.baseurl }}{% link glossary/a.md %}#alex-krizhevsky-person
+[Alex Krizhevsky]: {{ site.baseurl }}{% link glossary/a.md %}#alex-krizhevsky-person
 [AlexNet Model]: {{ site.baseurl }}{% link glossary/a.md %}#alexnet-model
 [Algorithmic]: {{ site.baseurl }}{% link glossary/a.md %}#algorithmic
 [Alpaca Model]: {{ site.baseurl }}{% link glossary/a.md %}#alpaca-model
@@ -68,15 +74,19 @@
 [AlphaTensor Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphatensor-model
 [AlphaZero Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphazero-model
 [Amazon Company]: {{ site.baseurl }}{% link glossary/a.md %}#amazon-company
+[Amazon]: {{ site.baseurl }}{% link glossary/a.md %}#amazon-company
 [Amazon Web Services]: {{ site.baseurl }}{% link glossary/a.md %}#amazon-web-services
 [AWS]: {{ site.baseurl }}{% link glossary/a.md %}#amazon-web-services
 [Ameca Robot]: {{ site.baseurl }}{% link glossary/a.md %}#ameca-robot
 [Andrew Ng Person]: {{ site.baseurl }}{% link glossary/a.md %}#andrew-ng-person
+[Andrew Ng]: {{ site.baseurl }}{% link glossary/a.md %}#andrew-ng-person
 [Anomally Detection]: {{ site.baseurl }}{% link glossary/a.md %}#anomally-detection
 [Anthropic Company]: {{ site.baseurl }}{% link glossary/a.md %}#anthropic-company
+[Anthropic]: {{ site.baseurl }}{% link glossary/a.md %}#anthropic-company
 [Apache MXNet]: {{ site.baseurl }}{% link glossary/a.md %}#apache-mxnet
 [Apache Spark]: {{ site.baseurl }}{% link glossary/a.md %}#apache-spark
 [Apple Company]: {{ site.baseurl }}{% link glossary/a.md %}#apple-company
+[Apple]: {{ site.baseurl }}{% link glossary/a.md %}#apple-company
 [Apprentice Learning]: {{ site.baseurl }}{% link glossary/a.md %}#apprentice-learning
 [Apriori Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#apriori-algorithm
 [Area Under The Curve]: {{ site.baseurl }}{% link glossary/a.md %}#area-under-the-curve

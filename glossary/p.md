@@ -49,6 +49,25 @@ layout: page
  See also [P], [Hyperparameter]
 
 
+# Parameter-Efficient Fine-Tuning
+
+# PEFT
+
+ Parameter-Efficient Fine-Tuning (PEFT) methods enable efficient adaptation of pre-trained language models (PLMs) to various downstream applications without fine-tuning all the model's parameters. Fine-tuning large-scale PLMs is often prohibitively costly. In this regard, PEFT methods only fine-tune a small number of (extra) model parameters, thereby greatly decreasing the computational and storage costs. Recent State-of-the-Art PEFT techniques achieve performance comparable to that of full fine-tuning.
+
+ Methods
+  * [Low-Rank Adaptation (LoRA)][LoRA Tuning] of [large language model]
+  * [Prefix Tuning]
+  * [P-Tuning]
+  * [Prompt Tuning]
+  * [AdaLoRA][AdaLoRA Tuning]
+
+ More at:
+  * [https://github.com/huggingface/peft](https://github.com/huggingface/peft)
+
+ See also [P], ...
+
+
 # Passive Learning
 
  The main hypothesis in active learning is that if a learning algorithm can choose the data it wants to learn from, it can perform better than traditional methods with substantially less data for training. But what are these traditional methods exactly? These are tasks which involve gathering a large amount of data randomly sampled from the underlying distribution and using this large dataset to train a model that can perform some sort of prediction. You will call this typical method passive learning. One of the more time-consuming tasks in passive learning is collecting labelled data. In many settings, there can be limiting factors that hamper gathering large amounts of labelled data.
@@ -72,7 +91,7 @@ layout: page
 
 # PaLM-E Model
 
- An embodied multimodal language model developed by [Google][Google Company] and based on the existing [PaLM Model]
+ An embodied multimodal language model developed by [Google] and based on the existing [PaLM Model]
 
  {% youtube "https://www.youtube.com/watch?v=2BYC4_MMs8I" %}
  
@@ -84,14 +103,14 @@ layout: page
 
 # Pathways Model Architecture
 
- An architecture to support (1) transfer learning, (2) multimodal learning, (3) Sparse activation, i.e NOT dense networks/models
+ An architecture developed by [Google] to support (1) transfer learning, (2) multimodal learning, (3) Sparse activation, i.e NOT dense networks/models
 
   {% youtube "https://www.youtube.com/watch?v=Nf-d9CcEZ2w" %}
 
   More at 
    * [https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/](https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/)
 
-  See also [P], [Google Company], [Multimodal Learning], [PaLM Model], [Sparse Activation]
+  See also [P], [Multimodal Learning], [PaLM Model], [Sparse Activation]
 
 
 # Pattern Recognition
@@ -110,15 +129,16 @@ layout: page
  People
   * [Alan Turing][Alan Turing Person]: A founder of AI
   * [Alex Krizhevsky][Alex Krizhevsky Person]: Build [AlexNet][AlexNet Model] and creator of [CIFAR Datasets][CIFAR Dataset]
-  * [Andrew Ng][Andrew Ng Person]: Cofounder and head of [Google Brain][Google Company] and was the former Chief Scientist at [Baidu][Baidu Company]
-  * [Bill Gates][Bill Gates Person]: Founder and now chairman at [Microsoft][Microsoft Company]
+  * [Andrew Ng][Andrew Ng Person]: Cofounder and head of [Google] Brain and was the former Chief Scientist at [Baidu]
+  * [Bill Gates][Bill Gates Person]: Founder and now chairman at [Microsoft]
+  * [David Luan] - CEO of Adept
   * [Elon Musk][Elon Musk Person]: CEO of Tesla
-  * [Eric Schmidt][Eric Schmidt Person]: Chairman of Alphabet / [Google][Google Company]
+  * [Eric Schmidt][Eric Schmidt Person]: Chairman of Alphabet / [Google]
   * [Geoffrey Hinton][Geoffrey Hinton Person]: Lead his student with [AlexNet][AlexNet Model], a godfather of AI and [Deep Learning]. Turing award in 2018.
-  * [Greg Brockman][Greg Brockman Person]: Co-founder of [OpenAI][OpenAI Company]
-  * [Ilya Sutskever][Ilya Sutskever Person]: Co-founder of [OpenAI][OpenAI Company]
-  * [Sam Altman][Sam Altman Person]: CEO of [OpenAI][OpenAI Company]
-  * [Sundar Pichai][Sundar Pichai Person]: CEO of Alphabet/[Google][Google Company]
+  * [Greg Brockman][Greg Brockman Person]: Co-founder of [OpenAI]
+  * [Ilya Sutskever][Ilya Sutskever Person]: Co-founder of [OpenAI]
+  * [Sam Altman][Sam Altman Person]: CEO of [OpenAI]
+  * [Sundar Pichai][Sundar Pichai Person]: CEO of Alphabet/[Google]
   * [Yann LeCun][Yann LeCun Person]: Turing award in 2018 for work on [Deep Learning]
   * [Yoshua Bengio][Yoshua Bengio Person]: Professor at the Department of Computer Science at the Université de Montréal. Turing award in 2018 for work on [Deep Learning]
   * ...
@@ -131,7 +151,7 @@ layout: page
 
 # Pepper Robot
 
- Built by [Softbank Robotics][Softbank Robotics Company]
+ Robot built by [Softbank Robotics]
 
  {% youtube "https://www.youtube.com/watch?v=Ti4NiaQj8q0" %}
 
@@ -192,7 +212,7 @@ layout: page
 
 # Personal Assistant
 
- * Pi by [Inflection AI Company]
+ * Pi by [Inflection AI]
 
  See also [P], [Logic Model]
 
@@ -200,7 +220,7 @@ layout: page
 # Phenaki Model
 
  A model for generating videos from text, with prompts that can change over time, and videos that can be as long as multiple minutes.
- Built by employees at [Google][Google Company]
+ Built by employees at [Google]
 
  {% pdf "{{site.assets}}/p/phenaki_model_paper.pdf" %}
 
@@ -271,7 +291,7 @@ layout: page
 
 # Pluribus Model
 
- Pluribus is a computer poker player using artificial intelligence built by Facebook's AI Lab and Carnegie Mellon University. Pluribus plays the poker variation no-limit Texas hold 'em and is "the first bot to beat humans in a complex multiplayer competition".
+ Pluribus is a computer poker player using artificial intelligence built by [Meta]'s AI Lab and [Carnegie Mellon University]. Pluribus plays the poker variation no-limit Texas hold 'em and is "the first bot to beat humans in a complex multiplayer competition".
 
  Challenge:
   * Poken is a game of imperfect information
@@ -287,7 +307,7 @@ layout: page
   * [https://en.wikipedia.org/wiki/Pluribus_(poker_bot)](https://en.wikipedia.org/wiki/Pluribus_(poker_bot))
   * [https://www.smithsonianmag.com/smart-news/poker-playing-ai-knows-when-hold-em-when-fold-em-180972643/](https://www.smithsonianmag.com/smart-news/poker-playing-ai-knows-when-hold-em-when-fold-em-180972643/)
 
- See also [P], [Facebook Company], [Game Theory]
+ See also [P], [Game Theory]
 
 
 # Point Estimator

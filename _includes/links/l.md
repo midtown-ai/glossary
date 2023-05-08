@@ -4,9 +4,10 @@
 [Labeling Function]: {{ site.baseurl }}{% link glossary/l.md %}#labeling-function
 [Labeling Service]: {{ site.baseurl }}{% link glossary/l.md %}#labeling-service
 [Labor Market Impact]: {{ site.baseurl }}{% link glossary/l.md %}#labor-market-impact
-[Lambda Model]: {{ site.baseurl }}{% link glossary/l.md %}#lambda-model
 [LangChain Module]: {{ site.baseurl }}{% link glossary/l.md %}#langchain-module
 [Language Model]: {{ site.baseurl }}{% link glossary/l.md %}#language-model
+[Language Model For Discussion Applications]: {{ site.baseurl }}{% link glossary/l.md %}#language-model-for-discussion-applications-model
+[LaMDA Model]: {{ site.baseurl }}{% link glossary/l.md %}#language-model-for-discussion-applications-model
 [Language Modeling]: {{ site.baseurl }}{% link glossary/l.md %}#language-modeling
 [Language Parsing]: {{ site.baseurl }}{% link glossary/l.md %}#language-parsing
 [Large Language Model]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model
@@ -41,6 +42,8 @@
 [Linear Regression]: {{ site.baseurl }}{% link glossary/l.md %}#linear-regression
 [Linux Foundation AI and Data]: {{ site.baseurl }}{% link glossary/l.md %}#linux-fundation-ai-and-data
 [LFAI&Data]: {{ site.baseurl }}{% link glossary/l.md %}#linux-fundation-ai-and-data
+[LLaMa Model]: {{ site.baseurl }}{% link glossary/l.md %}#llama-model
+[LLaMa-Adapter Model]: {{ site.baseurl }}{% link glossary/l.md %}#llama-adapter-model
 [Log Loss Function]: {{ site.baseurl }}{% link glossary/l.md %}#log-loss-function
 [Log Transformation]: {{ site.baseurl }}{% link glossary/l.md %}#log-transformation
 [Logic Model]: {{ site.baseurl }}{% link glossary/l.md %}#logic-model
@@ -51,3 +54,5 @@
 [LSTM Network]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-network
 [Loss Function]: {{ site.baseurl }}{% link glossary/l.md %}#loss-function
 [Loss Graph]: {{ site.baseurl }}{% link glossary/l.md %}#loss-graph
+[Low-Rank Adaptation]: {{ site.baseurl }}{% link glossary/l.md %}#low-rank-adaptation
+[Low-Rank Approximation]: {{ site.baseurl }}{% link glossary/l.md %}#low-rank-approximation

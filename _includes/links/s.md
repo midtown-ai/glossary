@@ -4,6 +4,7 @@
 [SageMaker Ground Truth]: {{ site.baseurl}}{% link glossary/s.md %}#sagemaker-ground-truth
 [SageMaker Neo]: {{ site.baseurl}}{% link glossary/s.md %}#sagemaker-neo
 [Sam Altman Person]: {{ site.baseurl}}{% link glossary/s.md %}#sam-altman-person
+[Sam Altman]: {{ site.baseurl}}{% link glossary/s.md %}#sam-altman-person
 [Sample]: {{ site.baseurl}}{% link glossary/s.md %}#sample
 [Sample Efficiency]: {{ site.baseurl}}{% link glossary/s.md %}#sample-efficiency
 [Sampling Error]: {{ site.baseurl}}{% link glossary/s.md %}#sampling-error
@@ -12,6 +13,7 @@
 [Scaling Law]: {{ site.baseurl}}{% link glossary/s.md %}#scaling-law
 [Search Problem]: {{ site.baseurl}}{% link glossary/s.md %}#search-problem
 [Scene Graph]: {{ site.baseurl}}{% link glossary/s.md %}#scene-graph
+[ScienceQA Dataset]: {{ site.baseurl}}{% link glossary/s.md %}#scienceqa-dataset
 [Scikit Learn]: {{ site.baseurl}}{% link glossary/s.md %}#scikit-learn
 [Seaborn Module]: {{ site.baseurl}}{% link glossary/s.md %}#seaborn-module
 [Segment Anything Model]: {{ site.baseurl}}{% link glossary/s.md %}#segment-anything-model
@@ -50,6 +52,7 @@
 [Sobol Search]: {{ site.baseurl}}{% link glossary/s.md %}#sobol-search
 [Social Robot]: {{ site.baseurl}}{% link glossary/s.md %}#social-robot
 [Softbank Robotics Company]: {{ site.baseurl}}{% link glossary/s.md %}#softbank-robotics-company
+[Softbank Robotics]: {{ site.baseurl}}{% link glossary/s.md %}#softbank-robotics-company
 [Softmax Function]: {{ site.baseurl}}{% link glossary/s.md %}#softmax-function
 [Softplus Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#softplus-activation-function
 [Software 1.0]: {{ site.baseurl}}{% link glossary/s.md %}#software-1-0
@@ -70,7 +73,8 @@
 [STT]: {{ site.baseurl}}{% link glossary/s.md %}#speech-to-text
 [SQuAD Benchmark]: {{ site.baseurl}}{% link glossary/s.md %}#squad-benchmark
 [Stable Diffusion Model]: {{ site.baseurl}}{% link glossary/s.md %}#stable-diffusion-model
-[Stablility AI Company]: {{ site.baseurl}}{% link glossary/s.md %}#stability-ai-company
+[Stability AI Company]: {{ site.baseurl}}{% link glossary/s.md %}#stability-ai-company
+[Stability AI]: {{ site.baseurl}}{% link glossary/s.md %}#stability-ai-company
 [Stanford Autonomous Helicopter]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-autonomous-helicopter
 [Stanford Natural Language Inference]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-natural-language-inference
 [Stanford University]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-university
@@ -96,10 +100,12 @@
 [Style GAN]: {{ site.baseurl}}{% link glossary/s.md %}#style-gan
 [Subsampling]: {{ site.baseurl}}{% link glossary/s.md %}#subsampling
 [Sundar Pichai Person]: {{ site.baseurl}}{% link glossary/s.md %}#sundar-pichai-person
+[Sundar Pichai]: {{ site.baseurl}}{% link glossary/s.md %}#sundar-pichai-person
 [Super Resolution GAN]: {{ site.baseurl}}{% link glossary/s.md %}#super-resolution-gan
 [SRGAN]: {{ site.baseurl}}{% link glossary/s.md %}#super-resolution-gan
 [SuperGLUE Benchmark]: {{ site.baseurl}}{% link glossary/s.md %}#superglue-benchmark
 [Supertranslate AI Company]: {{ site.baseurl}}{% link glossary/s.md %}#supertranslate-ai-company
+[Supertranslate AI]: {{ site.baseurl}}{% link glossary/s.md %}#supertranslate-ai-company
 [Supervised Fine-Tuning]: {{ site.baseurl}}{% link glossary/s.md %}#supervised-fine-tuning
 [SFT]: {{ site.baseurl}}{% link glossary/s.md %}#supervised-fine-tuning
 [Supervised Learning]: {{ site.baseurl}}{% link glossary/s.md %}#supervised-learning
@@ -113,6 +119,7 @@
 [Switch Transformer]: {{ site.baseurl}}{% link glossary/s.md %}#switch-transformer
 [Synapse]: {{ site.baseurl}}{% link glossary/s.md %}#synapse
 [Synthesia Company]: {{ site.baseurl}}{% link glossary/s.md %}#synthesia-company
+[Synthesia]: {{ site.baseurl}}{% link glossary/s.md %}#synthesia-company
 [Synthesized Variable]: {{ site.baseurl}}{% link glossary/s.md %}#synthesized-variable
 [Synthetic Data]: {{ site.baseurl}}{% link glossary/s.md %}#synthetic-data
 [Synthetic Data Privacy]: {{ site.baseurl}}{% link glossary/s.md %}#synthetic-data-privacy

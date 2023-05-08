@@ -33,7 +33,7 @@ layout: page
 
 # Galactica LLM
 
- Galactica is “a large language model that can store, combine and reason about scientific knowledge,” according to a paper published by Meta AI. It is a transformer model that has been trained on a carefully curated dataset of 48 million papers, textbooks and lecture notes, millions of compounds and proteins, scientific websites, encyclopedias, and more. Galactica was supposed to help scientists navigate the ton of published scientific information. Its developers presented it as being able to find citations, summarize academic literature, solve math problems, and perform other tasks that help scientists in research and writing papers.
+ Galactica is “a [large language model] that can store, combine and reason about scientific knowledge,” according to a paper published by [Meta] AI. It is a transformer model that has been trained on a carefully curated dataset of 48 million papers, textbooks and lecture notes, millions of compounds and proteins, scientific websites, encyclopedias, and more. Galactica was supposed to help scientists navigate the ton of published scientific information. Its developers presented it as being able to find citations, summarize academic literature, solve math problems, and perform other tasks that help scientists in research and writing papers.
 
  {% pdf "{{site.assets}}/g/galactica_model_paper.pdf" %}
 
@@ -42,7 +42,7 @@ layout: page
   * take aways - [https://bdtechtalks.com/2022/11/21/meta-ai-galactica](https://bdtechtalks.com/2022/11/21/meta-ai-galactica)
   * site - [http://galactica.org](http://galactica.org)
 
- See also [G], [Large Language Model], [Meta Company]
+ See also [G], ...
 
 
 # Game Theory
@@ -73,7 +73,7 @@ layout: page
 
 # Gato Model
 
- A model developed by [DeepMind][DeepMind Company] that uses [Multi-Task Learning]
+ A model developed by [DeepMind] that uses [Multi-Task Learning]
 
  ![]( {{site.assets}}/g/gato_model.png ){: width="100%"}
 
@@ -104,7 +104,7 @@ layout: page
 
 # Gen Model
 
- A text-to-video model built by the [Runway Company]
+ A text-to-video model built by the [Runway]
 
  {% youtube "https://www.youtube.com/watch?v=trXPfpV5iRQ" %}
 
@@ -335,14 +335,14 @@ layout: page
 
 # GitHub Company
 
- Offers code repositories. An acquisition of [Microsoft][Microsoft Company]
+ Offers code repositories. An acquisition of [Microsoft]
 
  See also [G], [GitHub Copilot]
 
 
 # GitHub Copilot
 
- The [OpenAI Codex][Codex Model] integrated to [GitHub][GitHub Company] to suggest code and entire functions in real-time, right from your editor.
+ The [OpenAI Codex][Codex Model] integrated to [GitHub] to suggest code and entire functions in real-time, right from your editor.
 
  Morea at:
   * [https://github.com/features/copilot](https://github.com/features/copilot)
@@ -414,7 +414,7 @@ layout: page
   * 2019: [BERT Model] - A [natural language processing] model based on the [transformer architecture] 
 
  Companies
-  * [DeepMind][DeepMind Company] which built models such as [Chinchilla][Chinchilla Model], [Sparrow][Sparrow Model], [AlphaiFold][AlphaFold Model], and more ... 
+  * [DeepMind] which built models such as [Chinchilla][Chinchilla Model], [Sparrow][Sparrow Model], [AlphaiFold][AlphaFold Model], and more ... 
 
  Projects
   * [Experiments](https://experiments.withgoogle.com/)
@@ -432,14 +432,14 @@ layout: page
 
 # Google Lens
 
- Developed by [Google][Google Company], ...
+ Developed by [Google], ...
 
  See also [G], ...
 
 
 # Google Translate Model
 
- Google Translate is a multilingual neural machine translation service developed by Google to translate text, documents and websites from one language into another. It offers a website interface, a mobile app for Android and iOS, and an API that helps developers build browser extensions and software applications. As of April 2023, Google Translate supports 133 languages at various levels, and as of April 2016, claimed over 500 million total users, with more than 100 billion words translated daily, after the company stated in May 2013 that it served over 200 million people daily.
+ Google Translate is a multilingual neural machine translation service developed by [Google] to translate text, documents and websites from one language into another. It offers a website interface, a mobile app for Android and iOS, and an API that helps developers build browser extensions and software applications. As of April 2023, Google Translate supports 133 languages at various levels, and as of April 2016, claimed over 500 million total users, with more than 100 billion words translated daily, after the company stated in May 2013 that it served over 200 million people daily.
 
  Launched in April 2006 as a statistical machine translation service, it used United Nations and European Parliament documents and transcripts to gather linguistic data. Rather than translating languages directly, it first translates text to English and then pivots to the target language in most of the language combinations it posits in its grid, with a few exceptions including Catalan-Spanish. During a translation, it looks for patterns in millions of documents to help decide which words to choose and how to arrange them in the target language. Its accuracy, which has been criticized on several occasions, has been measured to vary greatly across languages. In November 2016, Google announced that Google Translate would switch to a neural machine translation engine – Google Neural Machine Translation (GNMT) – which translates "whole sentences at a time, rather than just piece by piece. It uses this broader context to help it figure out the most relevant translation, which it then rearranges and adjusts to be more like a human speaking with proper grammar".
 
@@ -451,12 +451,12 @@ layout: page
   * site - [https://translate.google.com/](https://translate.google.com/)
   * wikipedia - [https://en.wikipedia.org/wiki/Google_Translate](https://en.wikipedia.org/wiki/Google_Translate)
 
- See also [G], [Google Company]
+ See also [G], ...
 
 
 # Gopher Model
 
- NLP model developed by [DeepMind][DeepMind Company]
+ NLP model developed by [DeepMind]
  ~ 280 parameters with a transformer architecture. Was later optimized and resulted in the [Chinchilla Model]
 
  {% youtube "https://www.youtube.com/watch?v=nO653U-Pb5c" %}
@@ -480,7 +480,7 @@ layout: page
 
 # GTC
 
- Annual conference organized by [Nvidia][Nvidia Company]
+ Annual conference organized by [Nvidia]
 
  The last conference was help on 2023/03/20 to 23.
 
@@ -500,7 +500,7 @@ layout: page
 
 # GSM8K Dataset
 
- GSM8K is a dataset of 8.5K high quality linguistically diverse grade school math word problems created by human problem writers. The dataset is segmented into 7.5K training problems and 1K test problems. These problems take between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations (+ − ×÷) to reach the final answer. A bright middle school student should be able to solve every problem. It can be used for multi-step mathematical reasoning.
+ GSM8K is a dataset of 8.5K high quality linguistically diverse grade school math word problems created by human problem writers and financed by [OpenAI]. The dataset is segmented into 7.5K training problems and 1K test problems. These problems take between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations (+ − ×÷) to reach the final answer. A bright middle school student should be able to solve every problem. It can be used for multi-step mathematical reasoning.
 
  More at
   * research and samples - [https://openai.com/research/solving-math-word-problems](https://openai.com/research/solving-math-word-problems)
@@ -508,7 +508,7 @@ layout: page
   * site - [https://github.com/openai/grade-school-math](https://github.com/openai/grade-school-math)
   * dataset - [https://paperswithcode.com/dataset/gsm8k](https://paperswithcode.com/dataset/gsm8k)
 
- See also [G], [Dataset], [OpenAI Company], [PaLM Model]
+ See also [G], [Dataset], [PaLM Model]
 
 
 # Gradient
@@ -607,7 +607,7 @@ layout: page
 
  A [python module] to build a UI for machine learning models.
 
- Compatible with [Hugging Face][Hugging Face Company] Spaces.
+ Compatible with [Hugging Face] Spaces.
 
  {% youtube "https://www.youtube.com/watch?v=RiCQzBluTxU" %}
 
@@ -730,6 +730,9 @@ layout: page
 
 # Gshard Model
 
-  * [https://arxiv.org/abs/2006.16668](https://arxiv.org/abs/2006.16668)
+ A Model built by [Google] to ...
 
- See also [G], [Google Company], [Sparse Activation]
+ More at:
+  * paper - [https://arxiv.org/abs/2006.16668](https://arxiv.org/abs/2006.16668)
+
+ See also [G], [Sparse Activation]

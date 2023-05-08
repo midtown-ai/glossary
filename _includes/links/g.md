@@ -28,13 +28,16 @@
 [Generator Loss]: {{ site.baseurl }}{% link glossary/g.md %}#generator-loss
 [Genetic Programming]: {{ site.baseurl }}{% link glossary/g.md %}#genetic-programming
 [Geoffrey Hinton Person]: {{ site.baseurl }}{% link glossary/g.md %}#geoffrey-hinton-person
+[Geoffrey Hinton]: {{ site.baseurl }}{% link glossary/g.md %}#geoffrey-hinton-person
 [GINI Impurity Index]: {{ site.baseurl }}{% link glossary/g.md %}#gini-impurity-index
 [GitHub Company]: {{ site.baseurl }}{% link glossary/g.md %}#github-company
+[GitHub]: {{ site.baseurl }}{% link glossary/g.md %}#github-company
 [GitHub Copilot]: {{ site.baseurl }}{% link glossary/g.md %}#github-copilot
 [GLIDE Model]: {{ site.baseurl }}{% link glossary/g.md %}#glide-model
 [GloVe]: {{ site.baseurl }}{% link glossary/g.md %}#glove
 [Gluon]: {{ site.baseurl }}{% link glossary/g.md %}#gluon
 [Google Company]: {{ site.baseurl }}{% link glossary/g.md %}#google-company
+[Google]: {{ site.baseurl }}{% link glossary/g.md %}#google-company
 [Google Lens]: {{ site.baseurl }}{% link glossary/g.md %}#google-lens
 [Google Translate Model]: {{ site.baseurl }}{% link glossary/g.md %}#google-translate-model
 [Gopher Model]: {{ site.baseurl }}{% link glossary/g.md %}#gopher-model
@@ -65,5 +68,6 @@
 [Graphical Processing Unit]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit
 [GPU]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit
 [Greg Brockman Person]: {{ site.baseurl }}{% link glossary/g.md %}#greg-brockman-person
+[Greg Brockman]: {{ site.baseurl }}{% link glossary/g.md %}#greg-brockman-person
 [Grid Search]: {{ site.baseurl }}{% link glossary/g.md %}#grid-search
 [Gshard Model]: {{ site.baseurl }}{% link glossary/g.md %}#gshard-model

@@ -62,7 +62,7 @@ layout: page
 
 # WaveNet Model
 
- A [text-to-speech model] built by [DeepMind Company]
+ A [text-to-speech model] built by [DeepMind]
 
  More at:
   * [https://www.deepmind.com/blog/wavenet-a-generative-model-for-raw-audio](https://www.deepmind.com/blog/wavenet-a-generative-model-for-raw-audio)
@@ -72,13 +72,15 @@ layout: page
 
 # Waymo Company
 
+ A spin-off from [Google]
+
  {% youtube "https://www.youtube.com/watch?v=hA_-MkU0Nfw" %}
 
  More at:
   * company site - [https://waymo.com/](https://waymo.com/)
   * wikipedia - [https://en.wikipedia.org/wiki/Waymo](https://en.wikipedia.org/wiki/Waymo)
 
- See also [W], [Company], [Google Company]
+ See also [W], [Company]
 
 
 # Weak AI
@@ -163,7 +165,7 @@ layout: page
 
 # Whisper Model
 
- A speech-to-text model developed by [OpenAI][OpenAI Company]
+ A speech-to-text model developed by [OpenAI]
 
  Open-sourcing a neural net called Whisper that approaches human level robustness and accuracy on English speech recognition.
 

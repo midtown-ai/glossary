@@ -62,7 +62,7 @@ layout: page
 
 # Omniverse
 
- The metaverse by [Nvidia][Nvidia Company]
+ The metaverse by [Nvidia]
 
  More at:
   * [https://venturebeat.com/ai/architects-and-engineers-find-a-transformative-solution-in-nvidia-omniverse/](https://venturebeat.com/ai/architects-and-engineers-find-a-transformative-solution-in-nvidia-omniverse/)
@@ -170,7 +170,7 @@ cheese =>                                   # Prompt
 
 # OpenAI Company
 
- [Microsoft][Microsoft Company] + [OpenAI][OpenAI Company] ~ [Google][Google Company] + [DeepMind][DeepMind Company]
+ [Microsoft] + [OpenAI] ~ [Google] + [DeepMind]
 
  Models:
   * [ChatGPT][ChatGPT Model]: An fine-tuned model of GPT that is based on dialog
@@ -198,7 +198,7 @@ cheese =>                                   # Prompt
   * principles - [https://openai.com/policies/usage-policies](https://openai.com/policies/usage-policies)
   * safety - [https://openai.com/safety-standards](https://openai.com/safety-standards)
 
- See also [O], [Microsoft Company], [People]
+ See also [O], [People]
 
 
 # OpenAI Five Model
@@ -221,7 +221,9 @@ cheese =>                                   # Prompt
 
 # OpenAI Gym Environment
 
- See also [O], [OpenAI Company], [Rocket League Gym]
+ Virtual environment built by [OpenAI] and to be used for [Reinforcement Learning] projects
+
+ See also [O], [Rocket League Gym]
 
 
 # OpenCV Library

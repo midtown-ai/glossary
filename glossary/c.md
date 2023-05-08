@@ -239,7 +239,10 @@ print(query_result)
   * home - [https://www.trychroma.com/](https://www.trychroma.com/)
   * docs - [https://docs.trychroma.com/getting-started](https://docs.trychroma.com/getting-started)
   * colab 
-   * [https://colab.research.google.com/drive/1QEzFyqnoFxq7LUGyP1vzR4iLt9PpCDXv](https://colab.research.google.com/drive/1QEzFyqnoFxq7LUGyP1vzR4iLt9PpCDXv)
+    * [https://colab.research.google.com/drive/1QEzFyqnoFxq7LUGyP1vzR4iLt9PpCDXv](https://colab.research.google.com/drive/1QEzFyqnoFxq7LUGyP1vzR4iLt9PpCDXv)
+    * [https://github.com/hwchase17/chroma-langchain](https://github.com/hwchase17/chroma-langchain)
+  * Articles
+    * [https://blog.langchain.dev/langchain-chroma/](https://blog.langchain.dev/langchain-chroma/)
 
  See also [C], ...
 
@@ -250,6 +253,8 @@ print(query_result)
 
 
 # CICERO Model
+
+ A Model built by [Meta].
 
  Diplomacy is what AI researchers call a “seven player, zero sum and deterministic game of imperfect information”. A seven player game is much harder to solve than a two player game such as chess or Go. You must consider the many possible strategies of not one but six other players. This makes it much harder to write an AI to play the game. Diplomacy is also a game of imperfect information, because players make moves simultaneously. Unlike games such as chess or Go, where you know everything about your opponent’s moves, players in Diplomacy make moves not knowing what their opponents are about to do. They must therefore predict their opponents’ next actions. This also adds to the challenge of writing an AI to play it. Finally, Diplomacy is a zero sum game in which if you win, I lose. And the outcome is deterministic and not dependent on chance. Nonetheless, before victory or defeat, it still pays for players to form alliances and team up on each other. Indeed, one of the real challenges in playing the game is managing the informal negotiations with other players before making simultaneous moves. The main reason Cicero’s performance is a scientific breakthrough is that it can both play the game well, and also perform these informal negotiations. This combination of natural language processing and strategic reasoning is a first for any game-playing AI.
 
@@ -262,7 +267,7 @@ print(query_result)
    * request for proposal - [https://ai.facebook.com/research/request-for-proposal/towards-human-AI-cooperation/](https://ai.facebook.com/research/request-for-proposal/towards-human-AI-cooperation/)
    * gizmodo - [https://www.gizmodo.com.au/2022/11/an-ai-named-cicero-can-beat-humans-in-diplomacy-a-complex-alliance-building-game-thats-a-big-deal/](https://www.gizmodo.com.au/2022/11/an-ai-named-cicero-can-beat-humans-in-diplomacy-a-complex-alliance-building-game-thats-a-big-deal/)
 
- See also [C], [Facebook Company]
+ See also [C], ...
 
 
 # CIFAR Dataset
@@ -298,6 +303,8 @@ print(query_result)
 
 # Claude Model
 
+ An [LLM] built by [Anthropic]
+
  {% youtube "https://www.youtube.com/watch?v=KB5r9xmrQBY" %}
 
  {% pdf "{{site.assets}}/c/claude_model_paper.pdf" %}
@@ -305,7 +312,7 @@ print(query_result)
  More at:
   * cost estimate - [https://orenleung.com/anthropic-claude-next-cost](https://orenleung.com/anthropic-claude-next-cost)
 
- See also [C], [Anthropic Company]
+ See also [C], ...
 
 
 # CLIP Image Encoder
@@ -336,7 +343,9 @@ print(query_result)
 
 # Codex Model
 
- See also [C], [OpenAI Company]
+ A model built by [OpenAI]
+
+ See also [C], ...
 
 
 # Cognosys AI Company
@@ -388,60 +397,109 @@ print(query_result)
 # Company
 
  Example of companies are:
-  * [Adept][Adept AI Company] - Focus on [AGI] through automation of tasks on desktops
-  * [Anthropic][Anthropic Company] - Focus on LLM, building an alternative to [GPT models][GPT Model]
-  * [Apple][Apple Company] - Large company in the world, strangely not so influential in the AI industry. At least not yet!
-  * [Baidu][Baidu Company] - Chinese search engine
-  * [BHuman][BHuman Company] - Focus on creating deepfake of yourself!
-  * [Cohere][Cohere AI Company] - Focus on NLP applications
-  * [Cognosys AI][Cognosys AI Company] - Task driven autonomous agent, similar to [AutoGPT][AutoGPT Model]
-  * [DeepMind][DeepMind Company] - Focus on AI applications in science
-  * [ElevenLabs][ElevenLabs AI Company] - Focus on Text-to-speech rendition
+
+  * [Abnormal Security](https://abnormalsecurity.com/) - Email cyberattack detection
+  * [Adept AI] - AI model developer. Focus on [AGI] through automation of tasks on desktops
+  * [AlphaSense](https://www.alpha-sense.com/) - Focus on market intelligence search
+  * [Amazon] - Focus on public cloud and partnership with 3rd parties
+  * [Anduril Industries](https://www.anduril.com/) - Focus on defense software with AI
+  * [Anthropic] - Focus on LLM, building an alternative to [GPT models][GPT Model]
+  * [Apple] - Large company in the world, strangely not so influential in the AI industry. At least not yet!
+  * [Arize AI](https://arize.com/) - Focus on data issue detection
+  * [Baidu] - Chinese search engine
+  * [Bayesian Health](https://www.bayesianhealth.com/) - Focus on patient risk detection
+  * [BHuman] - Focus on creating deepfake of yourself!
+  * [Canvas](https://www.canvas.build/) - Focus on construction robots
+  * [Character AI](https://beta.character.ai/) - Chatbot application
+  * [Clari](https://www.clari.com/) - Focus on sales software
+  * [Coactive AI](https://coactive.ai/) - Data labelling software
+  * [Cohere AI] - Focus on NLP applications
+  * [Cognosys AI] - Task driven autonomous agent, similar to [AutoGPT][AutoGPT Model]
+  * [Databricks](https://www.databricks.com/) - Data storage and analytics
+  * [DeepMind] - Focus on AI applications in science
+  * [Descript](https://www.descript.com/) - Video and podcast editing
+  * [Eightfold AI](https://eightfold.ai/) - Recruiting software
+  * [ElevenLabs AI] - Focus on Text-to-speech rendition
+  * [FarmWise Labs](https://farmwise.io/home) - Weeding tractors for farming
   * [Fermat](https://www.youtube.com/@fermat_ws/videos): Collaboration canvas with AI
-  * [Futuri Media][Futuri Media Company] - Content selection for media, such as tv and radio. Includes [RadioGPT]!
-  * [GitHub][GitHub Company] - Code repositories with advanced features including  AI pair programming with Codex
-  * [Google][Google Company] - Known for its search engine and ad-placement business model. Challenged by Microsoft
+  * [Futuri Media] - Content selection for media, such as tv and radio. Includes [RadioGPT]!
+  * [GitHub] - Code repositories with advanced features including  AI pair programming with Codex
+  * [Glean](https://glean.co/) - Internal workplace search
+  * [Google] - Known for its search engine and ad-placement business model. Challenged by Microsoft
+  * [Gong](https://www.gong.io/) - Sales software
   * [Got It AI](https://www.app.got-it.ai/) - ELMAR LLM for the enterprise with truth checker!
   * [Gretel AI](https://gretel.ai/) - 
-  * [Hugging Face][Hugging Face Company] - A model hub, with datasets, and space/UI with [Gradio][Gradio Module]
-  * [Inflection AI][Inflection AI Company] - A chatbot that listens and talks
-  * [Meta][Meta Company] - Formerly known as Facebook with a strong focus on the multiverse and more recently on AI
-  * [Microsoft][Microsoft Company] - One of the largest company in the world, leading changes with AI 
-  * [Neptune AI][Neptune AI Company]
-  * [Neuralink][Neuralink Company] - A company lead by [Elon Musk] that is focusing on human [Brain] Machine Interfaces
-  * [Nvidia][Nvidia Company] - The leading supplier of [GPU]
-  * [OpenAI][OpenAI Company] - Focus on democratizing AI. Known for releasing [ChatGPT][ChatGPT Model]
-  * [Quora][Quora Company] - A static Q&A internet site that is not offering an interface to chatbots though its interface, poe.
-  * [Runway][Runway Company] - Focus on generative AI for images and now videos
-  * [Stability AI][Stability AI Company] - Focus on [diffusion model] or image generation, adopted the open-source philosophy
-  * [Supertranslate][Supertranslate AI Company] - Focus on generating proper subtitles to videos
-  * [Synthesia][Synthesia Company] - Focus on AI avatars
-  * [Tome App][Tome App Company] - Automated slide deck creation!
-  * [Waymo][Waymo Company] - Focus on self-driving car 
+  * [Harvey](ihttps://techcrunch.com/2022/11/23/harvey-which-uses-ai-to-answer-legal-questions-lands-cash-from-openai/) - Digital assistant for lawyers
+  * [Hugging Face] - Open-source AI library, a model hub, with datasets, and space/UI with [Gradio][Gradio Module]
+  * [Inflection AI] - A chatbot that listens and talks
+  * [Insitro](https://www.insitro.com/) - Drug discovery
+  * [Ironclad](https://ironcladapp.com/) - Legal contract management
+  * [Jasper] - Copywriting software
+  * [Meta] - Formerly known as Facebook with a strong focus on the multiverse and more recently on AI
+  * [Microsoft] - One of the largest company in the world, leading changes with AI 
+  * [Midjourney AI] - AI image generator
+  * [MosaicML] - AI model training tools
+  * [Moveworks] - Automated IT support
+  * [Neeva] - Personalized search engine
+  * [Neptune AI] -
+  * [Neuralink] - A company lead by [Elon Musk] that is focusing on human [Brain] Machine Interfaces
+  * [Nvidia] - The leading supplier of [GPU]
+  * [OpenAI] - Focus on democratizing AI. Known for releasing [ChatGPT][ChatGPT Model]
+  * [Pachama] - Forestry satellite data analysis
+  * [PathAI] - Drug discovery and diagnosis
+  * [PolyAI] - Voice chatbots
+  * [Quora] - A static Q&A internet site that is not offering an interface to chatbots though its interface, poe.
+  * [RevComm] - Voice analysis software
+  * [Runway] - Focus on generative AI for images and now videos
+  * [Scale AI] - Data labeling provider
+  * [Shield AI] - Autonomous defense software
+  * [Slingshot Aerospace] - Space simulation software
+  * [Snorkel AI] - Data labeling software
+  * [Stability AI] - Focus on [diffusion model] or image generation, adopted the open-source philosophy
+  * [Supertranslate AI] - Focus on generating proper subtitles to videos
+  * [Synthesia] - Focus on AI avatars
+  * [Tome](https://beta.tome.app/) - Presentation creation software
+  * [Trigo] - Cashierless retail checkout
+  * [Unlearn.AI] - Clinical trial forecasting
+  * [Vannevar Labs] - Defense intelligence software
+  * [Vectra AI] - Cyberattack detection
+  * [VIZ.AI] - Disease detection
+  * [Waabi] - Autonomous trucking technology
+  * [Weights & Biases] - Developer tools for AI
+  * [Writer] - Copywriting software
+
+ Drug Discovery
+  * ...
+
+ Driverless cars
+  * [Cruise] - Self-driving, now robotaxis! 
+  * [Waymo] - Focus on self-driving car 
+  * others: [WeRide](https://www.weride.ai/en), [Momenta](https://www.momenta.cn/en/), [Didi](https://web.didiglobal.com/), [Pony AI](https://pony.ai)
+  * defunct: [Argo AI](https://en.wikipedia.org/wiki/Argo_AI)
 
  Vector Databases:
   * [Chroma][Chroma Database] - in memory database (good for development!)
   * [Milvus][Milvus Database] - project supported by the [LFAI&Data]
-  * [Pinecone][Pinecone Company] - building the [Pinecone Database]
+  * [Pinecone] - building the [Pinecone Database]
 
  Synthetic data
   * [Datagen](https://datagen.tech/) - Synthetic data for faces/images
-  * [Hanson Robotics][Hanson Robotics Company] - Build humanoid for consumer, entertainment, service, healthcare, and research applications. 
+  * [Hanson Robotics] - Build humanoid for consumer, entertainment, service, healthcare, and research applications. 
   * [Mostly AI](https://mostly.ai/) - Generative AI for tabular data 
-  * [Softbank Robotics][Softbank Robotics Company] - Focus on [social robots][Social Robot]
+  * [Softbank Robotics] - Focus on [social robots][Social Robot]
 
  Robotics
-  * [Boston Dynamics][Boston Dynamics Company] - Focus on robotics
-  * [Engineered Arts][Engineered Arts Company] - Focus on social robots, such as [Ameca][Ameca Robot]
+  * [Boston Dynamics] - Focus on robotics
+  * [Engineered Arts] - Focus on social robots, such as [Ameca][Ameca Robot]
 
  Education
   * [Chegg](https://www.chegg.com) - AI assistant called [CheegMate](https://www.chegg.com/cheggmate)
   * [Duolingo](https://www.duolingo.com) - Learn a language with role play with [Duolingo Max](https://blog.duolingo.com/duolingo-max/)
   * [Khan Academy](https://www.khanacademy.org) - AI assistant called [Khanmigo](https://www.khanacademy.org/khan-labs)
-  * [Person](https://www.pearson.com/en-us.html) - Still in denial 
+  * [Pearson](https://www.pearson.com/en-us.html) - Not bot yet! Still in denial?
 
  Deployment:
-  * [Netlify][Netlify Company]
+  * [Netlify] -
 
  See also [C], ...
 
@@ -583,7 +641,7 @@ print(query_result)
 
 # CLIP Model
 
- CLIP is a [dual-encoder contrastive model] that was developed by [OpenAI][OpenAI Company] and released open-source in 01/05/2021
+ CLIP is a [dual-encoder contrastive model] that was developed by [OpenAI] and released open-source in 01/05/2021
 
  CLIP is a vision-language model that aligns image and text representations into a shared embedding space.
  is trained on large-scale image and text pair datasets to obtain a unified representation of different representations for the same concept. For that, an image encoder and a text encoder separately map images and text into a high-dimensional space, and a distance-based loss is utilized to enforce representations of identical concepts in neighborhood regions.
@@ -726,7 +784,7 @@ print(query_result)
 
 # CoreML Format
 
- Format for ML models to load on devices made by [Apple Company]
+ Format for ML models to load on devices made by [Apple]
 
  See also [C], ...
 
@@ -842,7 +900,7 @@ print(query_result)
 
  Critical Assessment of Structure Prediction (CASP), sometimes called Critical Assessment of Protein Structure Prediction, is a community-wide, worldwide experiment for protein structure prediction taking place every two years since 1994. CASP provides research groups with an opportunity to objectively test their structure prediction methods and delivers an independent assessment of the state of the art in protein structure modeling to the research community and software users. Even though the primary goal of CASP is to help advance the methods of identifying protein three-dimensional structure from its amino acid sequence many view the experiment more as a “world championship” in this field of science. More than 100 research groups from all over the world participate in CASP on a regular basis and it is not uncommon for entire groups to suspend their other research for months while they focus on getting their servers ready for the experiment and on performing the detailed predictions.
 
- In December 2018, CASP13 made headlines when it was won by [AlphaFold][AlphaFold Model], an [artificial intelligence] program created by [DeepMind][DeepMind Company]. In November 2020, an improved version 2 of AlphaFold won CASP14. According to one of CASP co-founders John Moult, AlphaFold scored around 90 on a 100-point scale of prediction accuracy for moderately difficult protein targets. AlphaFold was made open source in 2021, and in CASP15 in 2022, while DeepMind did not enter, virtually all of the high-ranking teams used AlphaFold or modifications of AlphaFold.
+ In December 2018, CASP13 made headlines when it was won by [AlphaFold][AlphaFold Model], an [artificial intelligence] program created by [DeepMind]. In November 2020, an improved version 2 of AlphaFold won CASP14. According to one of CASP co-founders John Moult, AlphaFold scored around 90 on a 100-point scale of prediction accuracy for moderately difficult protein targets. AlphaFold was made open source in 2021, and in CASP15 in 2022, while DeepMind did not enter, virtually all of the high-ranking teams used AlphaFold or modifications of AlphaFold.
 
  More at:
   * [https://en.wikipedia.org/wiki/CASP](https://en.wikipedia.org/wiki/CASP)
@@ -924,6 +982,16 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
    * 
 
  See also [C], [Dataset], [Development Subset], [Holdout Fold], [Resampling Method], [Testing Subset], [Training Subset]
+
+
+# Cruise Company
+
+ A robotaxi company
+
+ More at:
+  * [https://getcruise.com/](https://getcruise.com/)
+
+ See also [C], ...
 
 
 # Cubic Regression

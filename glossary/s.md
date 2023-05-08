@@ -184,6 +184,19 @@ StandardScaler()
  See also [S], [Entity Extraction], [Graph Neural Network], [Knowledge Graph], [Relation Extraction]
 
 
+# ScienceQA Dataset
+
+ ScienceQA, in contrast to previous datasets, has richer domain diversity from three subjects: natural science, language science, and social science. ScienceQA features 26 topics, 127 categories, and 379 skills that cover a wide range of domains.
+
+ {% pdf "https://lupantech.github.io/papers/neurips22_scienceqa.pdf" %}
+
+ More at:
+  * [https://github.com/lupantech/ScienceQA](https://github.com/lupantech/ScienceQA)
+  * explore - [https://scienceqa.github.io/explore.html](https://scienceqa.github.io/explore.html)
+
+ See also [S], ...
+
+
 # Scikit Learn
 
  Since its release in 2007, scikit-learn has become one of the most popular machine learning libraries. scikit-learn provides algorithms for machine learning tasks including classification, regression, dimensionality reduction, and clustering. It also provides modules for pre-processing data, extracting features, optimizing hyperparameters, and evaluating models. scikit-learn is built on the popular Python libraries NumPy and SciPy. NumPy extends Python to support efficient operations on large arrays and multi-dimensional matrices. SciPy provides modules for scientific computing. The visualization library matplotlib is often used in conjunction with scikit-learn.
@@ -195,7 +208,7 @@ StandardScaler()
 
 # SAM
 
- [META AI][Facebook Company] has launched Segment Anything, a project that introduces the Segment Anything Model (SAM), a promptable model for [image segmentation][INstance Segmentation] in [computer vision]. SAM can generate masks for any object in any image or video and learn a generalized notion of objects, making it a powerful tool for various applications, such as AR/VR, content creation, and scientific domains. SAM's promptable design allows for flexible integration with other systems, eliminating the need for task-specific modeling expertise, training compute, and custom data annotation. SAM is a single model that can perform both interactive and automatic segmentation, making it a unique and innovative tool in the field of computer vision.
+ [Meta] has launched Segment Anything, a project that introduces the Segment Anything Model (SAM), a promptable model for [image segmentation][INstance Segmentation] in [computer vision]. SAM can generate masks for any object in any image or video and learn a generalized notion of objects, making it a powerful tool for various applications, such as AR/VR, content creation, and scientific domains. SAM's promptable design allows for flexible integration with other systems, eliminating the need for task-specific modeling expertise, training compute, and custom data annotation. SAM is a single model that can perform both interactive and automatic segmentation, making it a unique and innovative tool in the field of computer vision.
 
  META AI has also released the Segment Anything 1-Billion mask dataset (SA-1B), containing more than 1.1 billion segmentation masks collected from about 11 million licensed and privacy-preserving images. The [dataset] is the largest segmentation dataset to date and has been verified through human evaluation studies. By sharing their research and dataset, META AI hopes to accelerate research in segmentation and contribute to more general image and video understanding, unlocking even more powerful AI systems in the future.
 
@@ -216,6 +229,27 @@ StandardScaler()
   * [https://towardsdatascience.com/self-attention-5b95ea164f61](https://towardsdatascience.com/self-attention-5b95ea164f61)
 
  See also [S], [Attention], [Attention-Based Model], [Masked Self-Attention], [Multi-Head Attention]
+
+
+# Self-Instruct Dataset
+
+ The Self-Instruct process is an iterative bootstrapping algorithm that starts with a seed set of manually-written instructions and uses them to prompt the language model to generate new instructions and corresponding input-output instances. These generations are then filtered to remove low-quality or similar ones, and the resulting data is added back to the task pool. This process can be repeated multiple times, resulting in a large collection of instructional data that can be used to fine-tune the language model to follow instructions more effectively.
+
+ ![]( {{site.assets}}/s/self_instruct_dataset.jpeg ){:width="100%"}
+
+ We plot the below figure to demonstrate the diversity of our data. The inner circle of the plot represents the root verb of the instructions, and the outer circle represents the direct objects.
+
+ ![]( {{site.assets}}/s/self_instruct_dataset_wheel.png ){:width="100%"}
+
+ This dataset was created to be used to train the [Alpaca model]
+
+ {% pdf "https://arxiv.org/pdf/2212.10560.pdf" %}
+
+ More at:
+  * [https://github.com/clcarwin/self-instruct-for-alpaca-dataset](https://github.com/clcarwin/self-instruct-for-alpaca-dataset)
+  * paper - [https://arxiv.org/abs/2212.10560](https://arxiv.org/abs/2212.10560)
+
+ See also [S], ...
 
 
 # Self-Organizing Map
@@ -373,7 +407,7 @@ StandardScaler()
 
 # SHAP Value
 
- The Shapley Additive Explanations (SHAP) is another novel approach to [explainability][Explainable AI] developed by Scott Lundberg at [Microsoft][Microsoft Company] and eventually opened sourced.
+ The Shapley Additive Explanations (SHAP) is another novel approach to [explainability][Explainable AI] developed by Scott Lundberg at [Microsoft] and eventually opened sourced.
 
  SHAP has a strong mathematical foundation based on Shapley values in game theory where each player in the cooperation is rewarded based on how important they are to cooperation.
 
@@ -463,7 +497,7 @@ StandardScaler()
 
  First conceptualized in a [Concept Video] and named the Knowledge Navigator.
 
- Siri is a virtual assistant that is part of Apple Inc.'s iOS, iPadOS, watchOS, macOS, tvOS, and audioOS operating systems. It uses voice queries, gesture based control, focus-tracking and a natural-language user interface to answer questions, make recommendations, and perform actions by delegating requests to a set of Internet services. With continued use, it adapts to users' individual language usages, searches and preferences, returning individualized results.
+ Siri is a virtual assistant developed by [Apple] that is part of iOS, iPadOS, watchOS, macOS, tvOS, and audioOS operating systems. It uses voice queries, gesture based control, focus-tracking and a natural-language user interface to answer questions, make recommendations, and perform actions by delegating requests to a set of Internet services. With continued use, it adapts to users' individual language usages, searches and preferences, returning individualized results.
 
  ![]( {{site.assets}}/s/siri_logo.png )
 
@@ -474,7 +508,7 @@ Siri is a spin-off from a project developed by the SRI International Artificial 
   * [https://www.cultofmac.com/447783/today-in-apple-history-siri-makes-its-public-debut-on-iphone-4s/](https://www.cultofmac.com/447783/today-in-apple-history-siri-makes-its-public-debut-on-iphone-4s/)
   * [https://en.wikipedia.org/wiki/Knowledge_Navigator](https://en.wikipedia.org/wiki/Knowledge_Navigator)
 
- See also [S], [Apple Company]
+ See also [S], ...
 
 
 # Skip Connection
@@ -531,7 +565,7 @@ Social robots also work as concierges in hotels and other settings like malls, w
 
 # Softbank Robotics Company
 
- Maker of the [Pepper Robot]
+ The [company] that built the [Pepper Robot]
 
  More at:
   * [https://us.softbankrobotics.com/](https://us.softbankrobotics.com/)
@@ -582,14 +616,14 @@ Social robots also work as concierges in hotels and other settings like malls, w
 
 # Sophia Robot
 
- Sophia is a social humanoid robot developed by the Hong Kong-based company Hanson Robotics. Sophia was activated on February 14, 2016, and made its first public appearance in mid-March 2016 at South by Southwest (SXSW) in Austin, Texas, United States. Sophia is marketed as a "social robot" that can mimic social behavior and induce feelings of love in humans.
+ Sophia is a social humanoid robot developed by the Hong Kong-based company [Hanson Robotics]. Sophia was activated on February 14, 2016, and made its first public appearance in mid-March 2016 at South by Southwest (SXSW) in Austin, Texas, United States. Sophia is marketed as a "social robot" that can mimic social behavior and induce feelings of love in humans.
 
  {% youtube "https://www.youtube.com/watch?v=BhU9hOo5Cuc" %}
 
  More at:
   * [https://en.wikipedia.org/wiki/Sophia_(robot)](https://en.wikipedia.org/wiki/Sophia_(robot)) 
 
- See also [S], [Hanson Robotics Company], [Robot]
+ See also [S], [Robot]
 
 # Sound Analysis
 
@@ -612,12 +646,12 @@ Social robots also work as concierges in hotels and other settings like malls, w
 
 # Sparrow Model
 
- Google's answer to chatGPT. To be released in mid 2023.
+ [Google]'s answer to chatGPT. To be released in mid 2023.
 
  More at:
   * [https://medium.com/@tokamalpathak/chatgpt-and-google-sparrow-the-future-of-ai-powered-communication-5febb200f5ab](https://medium.com/@tokamalpathak/chatgpt-and-google-sparrow-the-future-of-ai-powered-communication-5febb200f5ab)
 
- See also [S], [ChatGPT Model], [Google Company]
+ See also [S], [ChatGPT Model]
 
 
 # Sparse Activation
@@ -679,14 +713,14 @@ Social robots also work as concierges in hotels and other settings like malls, w
  Speech-to-text models transcribe speech into text! The oppositve of [Text-To-Speech][Text-To-Speech Model]
 
  Models:
-  * [Whisper Model] by [OpenAI][OpenAI Company]
+  * [Whisper Model] by [OpenAI]
 
  See also [S], ...
 
 
 # Spot Robot
 
- A robot dog developed by [Boston Dynamics][Boston Dynamics Company]
+ A robot dog developed by [Boston Dynamics]
 
  {% youtube "https://www.youtube.com/watch?v=Fmj5r8ws2Mw" %}
 
@@ -708,7 +742,7 @@ Social robots also work as concierges in hotels and other settings like malls, w
 
 # Stability AI Company
 
- The [AI Company][Company] that created the [Stable Diffusion Model]
+ The [company] that created the [Stable Diffusion Model]
 
  More at:
   * [https://stability.ai/](https://stability.ai/)
@@ -718,7 +752,7 @@ Social robots also work as concierges in hotels and other settings like malls, w
 
 # Stable Diffusion Model
 
- [Denoising Diffusion Probabilistic Model] by [Stability AI Company]
+ [Denoising Diffusion Probabilistic Model] by [Stability AI]
 
  There are 2 versions:
   * v1.5 - support for NSFW, more custom models, better ControlNet support, more LoRA, TIs, have more artists and celebrities in the training data image set. Training set is 512x512, so optimal size for quick exploration is 512x512, which is kind of limited.
@@ -976,7 +1010,7 @@ II n summary, probability is focused on the theoretical study of random events, 
 
 # Supertranslate AI Company
 
- An [AI Company][Company] Focus on generating subtitle for a given video (check the meditation video!)
+ An [company] that focuses on generating subtitle for a given video (check the meditation video!)
 
  More at:
   * mediation video - [https://twitter.com/ramsri_goutham/status/1619620737509396483](https://twitter.com/ramsri_goutham/status/1619620737509396483)
@@ -1054,13 +1088,13 @@ II n summary, probability is focused on the theoretical study of random events, 
 
 # Switch Transformer
 
- Based on the T5 model uses sparse activation +
+ Model developed by [Google] and based on the [T5 model] uses sparse activation +
 
  More at:
   * [https://analyticsindiamag.com/a-deep-dive-into-switch-transformer-architecture/](https://analyticsindiamag.com/a-deep-dive-into-switch-transformer-architecture/)
   * paper - [https://arxiv.org/pdf/2101.03961.pdf](https://arxiv.org/pdf/2101.03961.pdf)
 
- See also [S], [Google Company], [Mixture Of Local Expect], [Sparse Activation], [T5 Model]
+ See also [S], [Mixture Of Local Expect], [Sparse Activation], [T5 Model]
 
 
 # Synapse
@@ -1074,6 +1108,8 @@ II n summary, probability is focused on the theoretical study of random events, 
 
 # Synthesia Company
 
+ A [company] that focuses on the creation of AI avatars
+
  {% youtube "https://www.youtube.com/watch?v=G-7jbNPQ0TQ" %}
 
  {% youtube "https://www.youtube.com/watch?v=UVNUCBUrHL0" %}
@@ -1081,7 +1117,7 @@ II n summary, probability is focused on the theoretical study of random events, 
  More at:
   * [https://www.synthesia.io/about](https://www.synthesia.io/about)
 
- See also [S], [Company], [AI Avatar]
+ See also [S], ...
 
 
 # Synthesized Variable

@@ -13,6 +13,7 @@
 [Open Neural Network Exchange Format]: {{ site.baseurl }}{% link glossary/o.md %}#open-neural-network-exchange-format
 [ONNX Format]: {{ site.baseurl }}{% link glossary/o.md %}#open-neural-network-exchange-format
 [OpenAI Company]: {{ site.baseurl }}{% link glossary/o.md %}#openai-company
+[OpenAI]: {{ site.baseurl }}{% link glossary/o.md %}#openai-company
 [OpenAI Five Model]: {{ site.baseurl }}{% link glossary/o.md %}#openai-five-model
 [OpenAI Gym Environment]: {{ site.baseurl }}{% link glossary/o.md %}#openai-gym-environment
 [OpenCV Library]: {{ site.baseurl }}{% link glossary/o.md %}#opencv-library

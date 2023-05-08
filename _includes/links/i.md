@@ -2,8 +2,10 @@
 
 [I, Robot Movie]: {{ site.baseurl }}{% link glossary/i.md %}#i-robot-movie
 [IBM Company]: {{ site.baseurl }}{% link glossary/i.md %}#ibm-company
+[IBM]: {{ site.baseurl }}{% link glossary/i.md %}#ibm-company
 [IBM Watson]: {{ site.baseurl }}{% link glossary/i.md %}#ibm-watson
 [Ilya Sutskever Person]: {{ site.baseurl }}{% link glossary/i.md %}#ilya-sutskever-person
+[Ilya Sutskever]: {{ site.baseurl }}{% link glossary/i.md %}#ilya-sutskever-person
 [Image Analysis]: {{ site.baseurl }}{% link glossary/i.md %}#image-analysis
 [Image Classifier]: {{ site.baseurl }}{% link glossary/i.md %}#image-classifier
 [Image Classification]: {{ site.baseurl }}{% link glossary/i.md %}#image-classification
@@ -26,6 +28,7 @@
 [Inference]: {{ site.baseurl }}{% link glossary/i.md %}#inference
 [Inference Point]: {{ site.baseurl }}{% link glossary/i.md %}#inference-point
 [Inflection AI Company]: {{ site.baseurl }}{% link glossary/i.md %}#inflection-ai-company
+[Inflection AI]: {{ site.baseurl }}{% link glossary/i.md %}#inflection-ai-company
 [Information]: {{ site.baseurl }}{% link glossary/i.md %}#information
 [Initialization]: {{ site.baseurl }}{% link glossary/i.md %}#initialization
 [Input Layer]: {{ site.baseurl }}{% link glossary/i.md %}#input-layer

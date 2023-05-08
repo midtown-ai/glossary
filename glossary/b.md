@@ -391,7 +391,7 @@ P(A|B) = ----------------
 
 # BERT Model
 
- A NLP model that was built by [Google][Google Company] in 2017. It is an Open-Source project by Google AI researchers with a great power of understanding the context of sentence (language) showing high performance in various nlp tasks such as [classification][BERT classification] such as [sentiment analysis], [question answering], [named entity recognition], [machine Translation] and many more.
+ A NLP model that was built by [Google] in 2017. It is an Open-Source project by Google AI researchers with a great power of understanding the context of sentence (language) showing high performance in various nlp tasks such as [classification][BERT classification] such as [sentiment analysis], [question answering], [named entity recognition], [machine Translation] and many more.
   * Use the [transformer architecture]
   * BIDIRECTIONAL = use words before and after the [MASK] to predict the Masked word. This is different from unidirectional (used by GPT) such as predicting what the next word is.
   * Can be extended, i.e. FinBERT for financial docs, SpanBERT for Spanish
@@ -500,7 +500,7 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
 # Bing Search Engine
 
- Search engine developed by [Microsoft][Microsoft Company] that integrates with [ChatGPT][ChatGPT Model[
+ Search engine developed by [Microsoft] that integrates with [ChatGPT][ChatGPT Model[
 
  See also [B], ...
 
@@ -616,4 +616,6 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
  Connect your [brain] to a computer using a cable and by drilling a hole in your skull!
 
- See also [B], [Deep Brain], [Neuralink Company]
+ Used by [Neuralink]
+
+ See also [B], [Deep Brain], ...

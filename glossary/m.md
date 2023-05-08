@@ -158,7 +158,7 @@ Predict what are the required agent skills based some input parameters
 
 # Magi Model
 
- Hand gesture model by [Google Company] ?
+ Hand gesture model by [Google] ?
 
  See also [M], ...
 
@@ -172,7 +172,7 @@ Predict what are the required agent skills based some input parameters
 
 # Make-A-Video Model
 
- A state-of-the-art AI system that generates videos from text built by [Meta][Facebook Company].
+ A state-of-the-art AI system that generates videos from text built by [Meta].
 
  {% pdf "{{site.assets}}/m/make_a_video_model_paper.pdf" %}
 
@@ -187,7 +187,7 @@ Predict what are the required agent skills based some input parameters
 
 > Move the processing and not the data + process in parallel and combine
 
- At [Google][Google Company], MapReduce was used to completely regenerate Google's index of the World Wide Web. It replaced the old ad hoc programs that updated the index and ran the various analyses.
+ At [Google], MapReduce was used to completely regenerate Google's index of the World Wide Web. It replaced the old ad hoc programs that updated the index and ran the various analyses.
 
  MapReduce is a programming model and an associated implementation for processing and generating big data sets with a parallel, distributed algorithm on a cluster.
 
@@ -539,7 +539,7 @@ def mse_loss(y_pred, y_true):
  More at :
   * [https://developer.nvidia.com/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-language-model/](https://developer.nvidia.com/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-language-model/)
 
- See also [M], [Nvidia Company]
+ See also [M], [Nvidia]
 
 
 # Membership Inference Attack
@@ -562,7 +562,21 @@ def mse_loss(y_pred, y_true):
 
 # Meta Company
 
- See [Facebook Company]
+ A [company] previously known as [Facebook]
+
+ Models:
+  * [CICERO][CICERO Model]: Strategy game with multiplayer interaction
+  * [ESMFold][ESMFold Model]: Protein folding
+  * [LLaMA][LLaMA Model]: Large Language Model open-sourced
+  * [Make-A-Video][Make-A-Video Model]: Text to video model
+  * [Pluribus][Pluribus Model]: Plays poker better than humans
+  * [RoBERTa][RoBERTa Model]: Optimized version of BERT
+  * [Segment Anything][Segment Anything Model]: Instance segmentation in images
+
+ More at:
+  * research on github - [https://github.com/facebookresearch](https://github.com/facebookresearch)
+
+ See also [M], ...
 
 
 # Meta Learning
@@ -631,7 +645,7 @@ def mse_loss(y_pred, y_true):
 
 # MSFT Company
 
- See also [M], [Company], [DeepSpeed Project], [OpenAI Company]
+ See also [M], [Company], [DeepSpeed Project], [OpenAI]
 
 
 # Midjourney Model
@@ -663,7 +677,7 @@ def mse_loss(y_pred, y_true):
  More at:
   * ...
 
- See also [M], [Neuralink Company]
+ See also [M], [Neuralink]
 
 
 # Minerva Model
@@ -674,7 +688,7 @@ def mse_loss(y_pred, y_true):
   * [https://ai.googleblog.com/2022/06/minerva-solving-quantitative-reasoning.html](https://ai.googleblog.com/2022/06/minerva-solving-quantitative-reasoning.html)
   * [https://www.nature.com/articles/d41586-023-00487-2](https://www.nature.com/articles/d41586-023-00487-2)
 
- See also [M], [Google Company]
+ See also [M], [Google]
 
 
 # Mini-Batch
@@ -784,10 +798,12 @@ def mse_loss(y_pred, y_true):
 
 # Model Card
 
- {% pdf "{{site.assets}}/m/model_card_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1810.03993.pdf" %}
 
  More at:
+  * paper - [https://arxiv.org/abs/1810.03993](https://arxiv.org/abs/1810.03993)
   * model cards at google - [https://modelcards.withgoogle.com/about](https://modelcards.withgoogle.com/about)
+  * facebook LLaMa model card - [https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md](https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md)
 
  See also [M], [Model Data Sheet]
 
@@ -1081,7 +1097,7 @@ Y = a + b.X1 + c.X2
 
 # MUM Model
  
- MUM was developed by [Google][Google Company], uses the [T5][T5 Model] text-to-text framework, and is 1,000 times more powerful than [BERT][BERT Model].
+ MUM was developed by [Google], uses the [T5][T5 Model] text-to-text framework, and is 1,000 times more powerful than [BERT][BERT Model].
 
  T5 uses transformer-based architecture, just like BERT, but instead uses a text-to-text approach. What that means is with T5, the input (query) and output (result) are always text strings, in contrast to BERT-style models that can only output either a classification label or the span of the input into a question and answer format. This means that the output with BERT, while undeniably impressive, was in comparison to MUM still rather abstract.
 
@@ -1096,7 +1112,7 @@ The T5 text-to-text process includes more in-depth machine translation, document
 
 # Muse Model
 
- Muse is a fast, state-of-the-art text-to-image generation and editing model.
+ Muse is a fast, state-of-the-art text-to-image generation and editing model built by [Google].
 
  We present Muse, a text-to-image Transformer model that achieves state-of-the-art image generation performance while being significantly more efficient than diffusion or autoregressive models. Muse is trained on a masked modeling task in discrete token space: given the text embedding extracted from a pre-trained large language model (LLM), Muse is trained to predict randomly masked image tokens. Compared to pixel-space diffusion models, such as [Imagen][Imagen Model] and [DALL-E 2][DALL-E Model], Muse is significantly more efficient due to the use of discrete tokens and requiring fewer sampling iterations; compared to autoregressive models, such as [Parti][Parti Model], Muse is more efficient due to the use of parallel decoding. The use of a pre-trained LLM enables fine-grained language understanding, translating to high-fidelity image generation and the understanding of visual concepts such as objects, their spatial relationships, pose, cardinality, etc. Our 900M parameter model achieves a new SOTA on CC3M, with an FID score of 6.06. The Muse 3B parameter model achieves an FID of 7.88 on zero-shot COCO evaluation, along with a CLIP score of 0.32. Muse also directly enables a number of image editing applications without the need to fine-tune or invert the model: inpainting, outpainting, and mask-free editing.
 
@@ -1107,7 +1123,7 @@ The T5 text-to-text process includes more in-depth machine translation, document
   * paper [https://arxiv.org/abs/2301.00704](https://arxiv.org/abs/2301.00704)
   * [https://venturebeat.com/ai/googles-muse-model-could-be-the-next-big-thing-for-generative-ai/](https://venturebeat.com/ai/googles-muse-model-could-be-the-next-big-thing-for-generative-ai/)
 
- See also [M], [Google Company]
+ See also [M], ...
 
 
 # MuseGAN
@@ -1139,7 +1155,7 @@ The T5 text-to-text process includes more in-depth machine translation, document
 
 # MusicLM Model
 
- An impressive new AI system from Google can generate music in any genre given a text description. Called MusicLM, Google’s certainly isn’t the first generative artificial intelligence system for song. There have been other attempts, including Riffusion, an AI that composes music by visualizing it, as well as Dance Diffusion, Google’s own AudioML and OpenAI’s Jukebox. But owing to technical limitations and limited training data, none have been able to produce songs particularly complex in composition or high-fidelity. MusicLM is perhaps the first that can.
+ An impressive new AI system from [Google] can generate music in any genre given a text description. Called MusicLM, Google’s certainly isn’t the first generative artificial intelligence system for song. There have been other attempts, including Riffusion, an AI that composes music by visualizing it, as well as Dance Diffusion, Google’s own AudioML and OpenAI’s Jukebox. But owing to technical limitations and limited training data, none have been able to produce songs particularly complex in composition or high-fidelity. MusicLM is perhaps the first that can.
 
  {% pdf "{{site.assets}}/m/musiclm_model_paper.pdf" %}
 
@@ -1150,10 +1166,12 @@ The T5 text-to-text process includes more in-depth machine translation, document
   * dataset - [https://www.kaggle.com/datasets/googleai/musiccaps](https://www.kaggle.com/datasets/googleai/musiccaps)
   * techcrunch article - [https://techcrunch.com/2023/01/27/google-created-an-ai-that-can-generate-music-from-text-descriptions-but-wont-release-it/](https://techcrunch.com/2023/01/27/google-created-an-ai-that-can-generate-music-from-text-descriptions-but-wont-release-it/)
 
- See also [M], [Google Company], [Jukebox Model], [Riffusion Model]
+ See also [M], [Jukebox Model], [Riffusion Model]
 
 
 # MuZero Model
+
+ A model built by [DeepMind]
 
  ![]( {{site.assets}}/m/muzero_model.jpeg ){: width="100%"}
 
@@ -1166,7 +1184,7 @@ The T5 text-to-text process includes more in-depth machine translation, document
  More at:
   * nature article - [https://www.nature.com/articles/s41586-020-03051-4.epdf?sharing_token=kTk-xTZpQOF8Ym8nTQK6EdRgN0jAjWel9jnR3ZoTv0PMSWGj38iNIyNOw_ooNp2BvzZ4nIcedo7GEXD7UmLqb0M_V_fop31mMY9VBBLNmGbm0K9jETKkZnJ9SgJ8Rwhp3ySvLuTcUr888puIYbngQ0fiMf45ZGDAQ7fUI66-u7Y%3D|https://www.nature.com/articles/s41586-020-03051-4.epdf|](https://www.nature.com/articles/s41586-020-03051-4.epdf?sharing_token=kTk-xTZpQOF8Ym8nTQK6EdRgN0jAjWel9jnR3ZoTv0PMSWGj38iNIyNOw_ooNp2BvzZ4nIcedo7GEXD7UmLqb0M_V_fop31mMY9VBBLNmGbm0K9jETKkZnJ9SgJ8Rwhp3ySvLuTcUr888puIYbngQ0fiMf45ZGDAQ7fUI66-u7Y%3D|https://www.nature.com/articles/s41586-020-03051-4.epdf|)
 
- See also [M], [DeepMind Company]
+ See also [M], ...
 
 
 # MXNET

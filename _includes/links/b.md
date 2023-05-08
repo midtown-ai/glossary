@@ -5,6 +5,7 @@
 [Bag Of Words]: {{ site.baseurl }}{% link glossary/b.md %}#bag-of-words
 [Baggingng]: {{ site.baseurl }}{% link glossary/b.md %}#bag-of-words
 [Baidu Company]: {{ site.baseurl }}{% link glossary/b.md %}#baidu-company
+[Baidu]: {{ site.baseurl }}{% link glossary/b.md %}#baidu-company
 [Balanced Fitting]: {{ site.baseurl }}{% link glossary/b.md %}#balanced-fitting
 [Bard Model]: {{ site.baseurl }}{% link glossary/b.md %}#bard-model
 [Batch]: {{ site.baseurl }}{% link glossary/b.md %}#batch
@@ -26,6 +27,7 @@
 [Bernouilli Distribution]: {{ site.baseurl }}{% link glossary/b.md %}#bernouilli-distribution
 [BERT Classification]: {{ site.baseurl }}{% link glossary/b.md %}#bert-classification
 [BHuman Company]: {{ site.baseurl }}{% link glossary/b.md %}#bhuman-company
+[BHuman]: {{ site.baseurl }}{% link glossary/b.md %}#bhuman-company
 [Bias]: {{ site.baseurl }}{% link glossary/b.md %}#bias
 [Bias-Variance Trade-Off]: {{ site.baseurl }}{% link glossary/b.md %}#bias-variance-trade-off
 [Bicentennial Man Movie]: {{ site.baseurl }}{% link glossary/b.md %}#bicentenial-man-movie
@@ -37,6 +39,7 @@
 [Bilingual Evaluation Understudy Metric]: {{ site.baseurl }}{% link glossary/b.md %}#bilingual-evaluation-understudy-score
 [BLEU Metric]: {{ site.baseurl }}{% link glossary/b.md %}#bilingual-evaluation-understudy-score
 [Bill Gates Person]: {{ site.baseurl }}{% link glossary/b.md %}#bill-gates-person
+[Bill Gates]: {{ site.baseurl }}{% link glossary/b.md %}#bill-gates-person
 [Binary Classification]: {{ site.baseurl }}{% link glossary/b.md %}#binary-classification
 [Binary Cross-Entropy Loss Function]: {{ site.baseurl }}{% link glossary/b.md %}#binary-cross-entropy-loss-function
 [Bing Search Engine]: {{ site.baseurl }}{% link glossary/b.md %}#bing-search-engine
@@ -48,6 +51,7 @@
 [Boosting Step Size]: {{ site.baseurl }}{% link glossary/b.md %}#boosting-step-size
 [Boosting Sampling Method]: {{ site.baseurl }}{% link glossary/b.md %}#boosting-sampling-method
 [Boston Dynamics Company]: {{ site.baseurl }}{% link glossary/b.md %}#boston-dynamics-company
+[Boston Dynamics]: {{ site.baseurl }}{% link glossary/b.md %}#boston-dynamics-company
 [Box Cox Transformation]: {{ site.baseurl }}{% link glossary/b.md %}#box-cox-transformation
 [Brain]: {{ site.baseurl }}{% link glossary/b.md %}#brain
 [Brain Computer Interface]: {{ site.baseurl }}{% link glossary/b.md %}#brain-computer-interface

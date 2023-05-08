@@ -61,24 +61,6 @@ layout: page
  See also [T], [Activation Function], [Exploding Gradient Problem], [Recurrent Neural Network], [Vanishing Gradient Problem]
 
 
-# T5 Model
-
- Trained with [Colossal Clean Crawled Corpus] or [C4]. A [Transformer based architecture][Transformer Architecture] that uses a text-to-text approach. Every task – including translation, question answering, and classification – is cast as feeding the model text as input and training it to generate some target text. This allows for the use of the same model, loss function, hyperparameters, etc. across our diverse set of tasks. The changes compared to [BERT][BERT Model] include:
-   * adding a causal decoder to the bidirectional architecture.
-   * replacing the fill-in-the-blank cloze task with a mix of alternative pre-training tasks.
- T5 claims the state of the art on more than twenty established NLP tasks. It’s extremely rare for a single method to yield consistent progress across so many tasks. That list includes most of the tasks in the GLUE and SuperGLUE benchmarks, which have caught on as one of the main measures of progress for applied language understanding work of this kind (and which my group helped to create). On many of these task datasets, T5 is doing as well as human crowdworkers, which suggests that it may be reaching the upper bound on how well it is possible to do on our metrics.
-
- ![]( {{site.assets}}/t/t5_model.jpeg ){: width="100%"}
-
- More at:
-   * [https://paperswithcode.com/method/t5](https://paperswithcode.com/method/t5)
-   * code - [https://github.com/google-research/text-to-text-transfer-transformer](https://github.com/google-research/text-to-text-transfer-transformer)
-   * blog article - [https://medium.com/syncedreview/google-t5-explores-the-limits-of-transfer-learning-a87afbf2615b](https://medium.com/syncedreview/google-t5-explores-the-limits-of-transfer-learning-a87afbf2615b)
-   * [https://paperswithcode.com/method/t5#:~:text=T5%2C%20or%20Text%2Dto%2D,to%20generate%20some%20target%20text.](https://paperswithcode.com/method/t5#:~:text=T5%2C%20or%20Text%2Dto%2D,to%20generate%20some%20target%20text.)
-
- See also [T], [Google Company], [Switch Transformer], [Transformer Model]
-
-
 # Target Attribute
 
  This is the attribute that we want the XGBoost to predict. In unsupervised training, corresponds to a label in supervised training.
@@ -118,18 +100,20 @@ layout: page
 
 # Task-Driven Autonomous Agent
 
+ Instead of a prompt, you input a goal. The goal is broken down into smaller tasks and agents are spawn to complete this goals.
+
  Open-source
   * [AutoGPT Model]
   * [BabyAGI Model]
   * AgentGPT
   * GodMode
  Commercial
-  * [Cognosys AI][Cognosys AI Company]
+  * [Cognosys AI]
 
  {% youtube "https://www.youtube.com/watch?v=5DykmpzbV90" %}
 
  More at:
-  * ...
+  * [https://medium.com/@maanna.stephenson/chatgpt-vs-autogpt-vs-agentgptvs-godmode-1077441a09a4](https://medium.com/@maanna.stephenson/chatgpt-vs-autogpt-vs-agentgptvs-godmode-1077441a09a4)
 
  See also [T], ...
 
@@ -150,19 +134,23 @@ layout: page
 
 # TPU
 
- See also [T], [Google Company], [Tensor]
+ GPU-like hardware built by [Google] specifically to run AI/ML training and accelerate deployed model inferences
+
+ See also [T], [Tensor]
 
 
 # TensorFlow ML Framework
 
- See also [T], [Deep Learning Framework], [Distributed Training], [Google Company], [Machine Learning Framework]
+ One of the leading AI/ML framework. Was developed by [Google] and released as open-source.
+
+ See also [T], [Deep Learning Framework], [Distributed Training], [Machine Learning Framework]
 
 
 # TensorRT Software Development Kit
 
 # TensorRT SDK
 
- A SDK developed by [Nvidia Company]
+ A SDK developed by [Nvidia]
 
  More at:
   * home - [https://developer.nvidia.com/tensorrt](https://developer.nvidia.com/tensorrt)
@@ -259,8 +247,8 @@ layout: page
  Turn text into speech. The opposite of [Speech-To-Text][Speech-To-Text Model]
 
  Models such as
-  * [Riva][Riva Model] by [Nvidia][Nvidia Company]
-  * [WaveNet][WaveNet Model] by [DeepMind][DeepMind Company]
+  * the [Riva Model] by [Nvidia]
+  * the [WaveNet Model] by [DeepMind]
 
  See also [T], [Sequence To Sequence Model]
 
@@ -269,11 +257,24 @@ layout: page
 
 # T5 Model
 
+ A sequence-to-sequence model built by [Google]
+
  The T5 model, pre-trained on C4, achieves state-of-the-art results on many NLP benchmarks while being flexible enough to be fine-tuned to a variety of important downstream tasks.
 
- ![]( {{site.assets}}/t/t5_model.gif ){: width="100%"}
+ Trained with [Colossal Clean Crawled Corpus] or [C4]. A [Transformer based architecture][Transformer Architecture] that uses a text-to-text approach. Every task – including translation, question answering, and classification – is cast as feeding the model text as input and training it to generate some target text. This allows for the use of the same model, loss function, hyperparameters, etc. across our diverse set of tasks. The changes compared to [BERT][BERT Model] include:
+   * adding a causal decoder to the bidirectional architecture.
+   * replacing the fill-in-the-blank cloze task with a mix of alternative pre-training tasks.
+ T5 claims the state of the art on more than twenty established NLP tasks. It’s extremely rare for a single method to yield consistent progress across so many tasks. That list includes most of the tasks in the GLUE and SuperGLUE benchmarks, which have caught on as one of the main measures of progress for applied language understanding work of this kind (and which my group helped to create). On many of these task datasets, T5 is doing as well as human crowdworkers, which suggests that it may be reaching the upper bound on how well it is possible to do on our metrics.
 
- See also [T], [Colossal Clean Crawled Corpus], [Google Company]
+ ![]( {{site.assets}}/t/t5_model.jpeg ){: width="100%"}
+
+ More at:
+   * [https://paperswithcode.com/method/t5](https://paperswithcode.com/method/t5)
+   * code - [https://github.com/google-research/text-to-text-transfer-transformer](https://github.com/google-research/text-to-text-transfer-transformer)
+   * blog article - [https://medium.com/syncedreview/google-t5-explores-the-limits-of-transfer-learning-a87afbf2615b](https://medium.com/syncedreview/google-t5-explores-the-limits-of-transfer-learning-a87afbf2615b)
+   * [https://paperswithcode.com/method/t5#:~:text=T5%2C%20or%20Text%2Dto%2D,to%20generate%20some%20target%20text.](https://paperswithcode.com/method/t5#:~:text=T5%2C%20or%20Text%2Dto%2D,to%20generate%20some%20target%20text.)
+
+ See also [T], [Switch Transformer], [Transformer Model]
 
 
 # The Imitation Game Movie
@@ -584,7 +585,7 @@ Desired Output --> |     Training     | --> Model
 
 # Triton
 
- A low level framework to compile code on any GPU. A major step toward bypassing CUDA and the [NVIDIA][Nvidia Company] lock in!
+ A low level framework to compile code on any GPU developed by [OpenAI]. A major step toward bypassing CUDA and the [NVIDIA] lock in!
 
  More at :
   * home - [https://openai.com/research/triton](https://openai.com/research/triton)
@@ -594,7 +595,7 @@ Desired Output --> |     Training     | --> Model
   * articles
    * [https://www.semianalysis.com/p/nvidiaopenaitritonpytorch](https://www.semianalysis.com/p/nvidiaopenaitritonpytorch)
 
- See also [T], [OpenAI Company]
+ See also [T], ...
 
 
 # TriviaQA Dataset

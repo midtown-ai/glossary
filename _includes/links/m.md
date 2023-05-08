@@ -41,6 +41,7 @@
 [Megatron Model]: {{ site.baseurl }}{% link glossary/m.md %}#megatron-model
 [Membership Inference Attack]: {{ site.baseurl }}{% link glossary/m.md %}#membership-inference-attack
 [Meta Company]: {{ site.baseurl }}{% link glossary/m.md %}#meta-company
+[Meta]: {{ site.baseurl }}{% link glossary/m.md %}#meta-company
 [Meta Learning]: {{ site.baseurl }}{% link glossary/m.md %}#meta-learning
 [Meta Model]: {{ site.baseurl }}{% link glossary/m.md %}#meta-model
 [Metaverse]: {{ site.baseurl }}{% link glossary/m.md %}#metaverse
@@ -50,7 +51,8 @@
 [Microsoft COCO Caption Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#microsoft-coco-caption-dataset
 [MSFT COCO Caption Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#microsoft-coco-caption-dataset
 [Microsoft Company]: {{ site.baseurl }}{% link glossary/m.md %}#microsoft-company
-[MSFT Company]: {{ site.baseurl }}{% link glossary/m.md %}#microsoft-company
+[Microsoft]: {{ site.baseurl }}{% link glossary/m.md %}#microsoft-company
+[MSFT]: {{ site.baseurl }}{% link glossary/m.md %}#microsoft-company
 [Midjourney Model]: {{ site.baseurl }}{% link glossary/m.md %}#midjourney-model
 [Milvus Database]: {{ site.baseurl }}{% link glossary/m.md %}#milvus-database
 [Minerva Model]: {{ site.baseurl }}{% link glossary/m.md %}#minerva-model

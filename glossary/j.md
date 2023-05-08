@@ -116,7 +116,7 @@ f(x,y) = P(X = x, Y = y)
 
 # Jukebox Model
 
- Generative model for music built by [OpenAI][OpenAI Company]
+ Generative model for music built by [OpenAI]
 
  {% pdf "https://arxiv.org/pdf/2005.00341.pdf" %}
 

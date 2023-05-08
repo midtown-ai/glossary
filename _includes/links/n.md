@@ -28,9 +28,12 @@
 [NLU]: {{ site.baseurl }}{% link glossary/n.md %}#nlu
 [Negative Attribute]: {{ site.baseurl }}{% link glossary/n.md %}#negative-attribute
 [Neptune AI Company]: {{ site.baseurl }}{% link glossary/n.md %}#neptune-ai-company
+[Neptune AI]: {{ site.baseurl }}{% link glossary/n.md %}#neptune-ai-company
 [Netflix Company]: {{ site.baseurl }}{% link glossary/n.md %}#netflix-company
+[Netflix]: {{ site.baseurl }}{% link glossary/n.md %}#netflix-company
 [Netflix Challenge]: {{ site.baseurl }}{% link glossary/n.md %}#netflix-challenge
 [Netlify Company]: {{ site.baseurl }}{% link glossary/n.md %}#netlify-company
+[Netlify]: {{ site.baseurl }}{% link glossary/n.md %}#netlify-company
 [Neural Architecture Search]: {{ site.baseurl }}{% link glossary/n.md %}#neural-architecture-search
 [Neural Information Processing Systems Conference]: {{ site.baseurl }}{% link glossary/n.md %}#neural-information-processing-systems-conference
 [NeurIPS Conference]: {{ site.baseurl }}{% link glossary/n.md %}#neurips-conference
@@ -45,6 +48,7 @@
 [NTM]: {{ site.baseurl }}{% link glossary/n.md %}#ntm
 [Neural Winter]: {{ site.baseurl }}{% link glossary/n.md %}#neural-winter
 [Neuralink Company]: {{ site.baseurl }}{% link glossary/n.md %}#neuralink-company
+[Neuralink]: {{ site.baseurl }}{% link glossary/n.md %}#neuralink-company
 [Next Sentence Prediction]: {{ site.baseurl }}{% link glossary/n.md %}#next-sentence-prediction
 [NSP]: {{ site.baseurl }}{% link glossary/n.md %}#next-sentence-prediction
 [Next Word Prediction]: {{ site.baseurl }}{% link glossary/n.md %}#next-word-prediction
@@ -56,3 +60,4 @@
 [Non-Linear Regression]: {{ site.baseurl }}{% link glossary/n.md %}#non-linear-regression
 [Numpy Module]: {{ site.baseurl }}{% link glossary/n.md %}#numpy-module
 [Nvidia Company]: {{ site.baseurl }}{% link glossary/n.md %}#nvidia-company
+[Nvidia]: {{ site.baseurl }}{% link glossary/n.md %}#nvidia-company

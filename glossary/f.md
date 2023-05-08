@@ -48,19 +48,7 @@ layout: page
 
 # Facebook Company
 
- Models:
-  * [CICERO][CICERO Model]: Strategy game with multiplayer interaction
-  * [ESMFold][ESMFold Model]: Protein folding
-  * [LLaMA][LLaMA Model]: Large Language Model open-sourced
-  * [Make-A-Video][Make-A-Video Model]: Text to video model
-  * [Pluribus][Pluribus Model]: Plays poker better than humans
-  * [RoBERTa][RoBERTa Model]: Optimized version of BERT
-  * [Segment Anything][Segment Anything Model]: Instance segmentation in images
-
- More at:
-  * [https://github.com/facebookresearch](https://github.com/facebookresearch)
-
- See also [F], ...
+ See [Meta Company]
 
 
 # Fair AI
@@ -322,7 +310,7 @@ cheese =>
 
 # Flamingo Model
 
- A [visual language model] developed at [DeepMind][DeepMind Company]
+ A [visual language model] developed at [DeepMind]
 
  {% youtube "https://www.youtube.com/watch?v=yM9S3fLp5Gc" %}
 

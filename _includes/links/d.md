@@ -49,6 +49,7 @@
 [Deep RL]: {{ site.baseurl }}{% link glossary/d.md %}#deep-reinforcement-learning
 [DeepAR Forecasting]: {{ site.baseurl }}{% link glossary/d.md %}#deepar-forecasting
 [DeepMind Company]: {{ site.baseurl }}{% link glossary/d.md %}#deepmind-company
+[DeepMind]: {{ site.baseurl }}{% link glossary/d.md %}#deepmind-company
 [DeepNash Model]: {{ site.baseurl }}{% link glossary/d.md %}#deepnash-model
 [DeepSpeed Project]: {{ site.baseurl }}{% link glossary/d.md %}#deepspeed-project
 [Delayed Reward]: {{ site.baseurl }}{% link glossary/d.md %}#delayed-reward

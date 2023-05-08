@@ -286,9 +286,11 @@ z_q(x)=\text{argmin}_i ||z_e(x)-e_i||_2
 
 # VIMA Model
 
+ A model built by [Nvidia]
+
  {% youtube "https://www.youtube.com/watch?v=oLBg8aLoQ00" %}
 
- See also [V], [Nvidia Company]
+ See also [V], ...
 
 
 # Virtual Continuum

@@ -2,7 +2,6 @@
 
 [F1 Score]: {{site.baseurl }}{% link glossary/f.md %}#f1-score
 [Face Detection]: {{site.baseurl }}{% link glossary/f.md %}#face-detection
-[Facebook Company]: {{site.baseurl }}{% link glossary/f.md %}#facebook-company
 [Fair AI]: {{site.baseurl }}{% link glossary/f.md %}#fair-ai
 [Fake Art]: {{site.baseurl }}{% link glossary/f.md %}#fake-art
 [Fake News]: {{site.baseurl }}{% link glossary/f.md %}#fake-news
@@ -34,3 +33,4 @@
 [FC Layer]: {{site.baseurl }}{% link glossary/f.md %}#fully-connected-layer
 [Function Estimation]: {{site.baseurl }}{% link glossary/f.md %}#function-estimation
 [Futuri Media Company]: {{site.baseurl }}{% link glossary/f.md %}#futuri-media-company
+[Futuri Media]: {{site.baseurl }}{% link glossary/f.md %}#futuri-media-company

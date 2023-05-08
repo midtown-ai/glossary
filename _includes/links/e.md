@@ -8,7 +8,9 @@
 [Elastic Net]: {{site.baseurl }}{% link glossary/e.md %}#elastic-net
 [Electric Dreams Movie]: {{site.baseurl }}{% link glossary/e.md %}#electric-dreams-movie
 [ElevenLabs AI Company]: {{site.baseurl }}{% link glossary/e.md %}#elevenlabs-ai-company
+[ElevenLabs AI]: {{site.baseurl }}{% link glossary/e.md %}#elevenlabs-ai-company
 [Elon Musk Person]: {{site.baseurl }}{% link glossary/e.md %}#elon-musk-person
+[Elon Musk]: {{site.baseurl }}{% link glossary/e.md %}#elon-musk-person
 [Embedding]: {{site.baseurl }}{% link glossary/e.md %}#embedding
 [Embedding Space]: {{site.baseurl }}{% link glossary/e.md %}#embedding-space
 [Emergent Ability]: {{site.baseurl }}{% link glossary/e.md %}#emergent-ability
@@ -23,6 +25,7 @@
 [Encoding]: {{site.baseurl }}{% link glossary/e.md %}#encoding
 [Endpoint]: {{site.baseurl }}{% link glossary/e.md %}#endpoint
 [Engineered Arts Company]: {{site.baseurl }}{% link glossary/e.md %}#engineered-arts-company
+[Engineered Arts]: {{site.baseurl }}{% link glossary/e.md %}#engineered-arts-company
 [Ensemble Method]: {{site.baseurl }}{% link glossary/e.md %}#ensemble-method
 [Entity]: {{site.baseurl }}{% link glossary/e.md %}#entity
 [Entity Extraction]: {{site.baseurl }}{% link glossary/e.md %}#entity-extraction

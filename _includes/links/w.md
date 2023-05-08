@@ -5,6 +5,7 @@
 [Wave2Vec]: {{ site.baseurl }}{% link glossary/w.md %}#wave2vec
 [WaveNet Model]: {{ site.baseurl }}{% link glossary/w.md %}#wavenet-model
 [Waymo Company]: {{ site.baseurl }}{% link glossary/w.md %}#waymo-company
+[Waymo]: {{ site.baseurl }}{% link glossary/w.md %}#waymo-company
 [Weak AI]: {{ site.baseurl }}{% link glossary/w.md %}#weak-ai
 [Weak Learner]: {{ site.baseurl }}{% link glossary/w.md %}#weak-learner
 [Weak-Supervised Learning]: {{ site.baseurl }}{% link glossary/w.md %}#weak-supervised-learning

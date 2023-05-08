@@ -60,12 +60,12 @@ layout: page
   * site - [https://www.ibm.com/watson](https://www.ibm.com/watson)
   * wikipedia - [https://en.wikipedia.org/wiki/IBM_Watson](https://en.wikipedia.org/wiki/IBM_Watson)
 
- See also [I], [IBM Company]
+ See also [I], [IBM]
 
 
 # Ilya Sutskever Person
 
- [OpenAI][OpenAI Company] Co-founder.
+ [OpenAI] Co-founder.
 
  {% youtube "https://www.youtube.com/watch?v=UHSkjro-VbE" %}
 
@@ -400,7 +400,7 @@ Data < Information < Knowledge
 
 # InterpretML
 
- Developed by [Microsoft Company] as an open source project, InterpretML is “a toolkit to help understand models and enable responsible machine learning”. 
+ Developed by [Microsoft] as an open source project, InterpretML is “a toolkit to help understand models and enable responsible machine learning”. 
 
  More at:
   * [https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145](https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145)
@@ -456,12 +456,12 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
 
 # Isaac Gym
 
- Physics based reinforcement learning environment
+ Physics based reinforcement learning environment built by [Nvidia]
 
  More at :
   * [https://developer.nvidia.com/isaac-gym](https://developer.nvidia.com/isaac-gym)
 
- See also [I], [Nvidia Company], [Reinforcement Learning Environment]
+ See also [I], [Reinforcement Learning Environment]
 
 
 # Isolation Forest
