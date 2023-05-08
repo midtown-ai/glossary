@@ -398,16 +398,16 @@ print(query_result)
 
  Example of companies are:
 
-  * [Abnormal Security](https://abnormalsecurity.com/) - Email cyberattack detection
-  * [Adept AI] - AI model developer. Focus on [AGI] through automation of tasks on desktops
-  * [AlphaSense](https://www.alpha-sense.com/) - Focus on market intelligence search
+  * [Abnormal Security](https://abnormalsecurity.com/) - Email cyberattack detection ([Forbes](https://www.forbes.com/companies/abnormal-security/?sh=4c992843536a))
+  * [Adept AI] - AI model developer. Focus on [AGI] through automation of tasks on desktops ([Forbes](https://www.forbes.com/companies/adept/?list=ai50&sh=7eb9ebdf4ebb))
+  * [AlphaSense](https://www.alpha-sense.com/) - Focus on market intelligence search ([Forbes](https://www.forbes.com/companies/alphasense/?list=ai50&sh=298a91255f19))
   * [Amazon] - Focus on public cloud and partnership with 3rd parties
-  * [Anduril Industries](https://www.anduril.com/) - Focus on defense software with AI
-  * [Anthropic] - Focus on LLM, building an alternative to [GPT models][GPT Model]
+  * [Anduril Industries](https://www.anduril.com/) - Focus on defense software with AI ([Forbes](https://www.forbes.com/companies/anduril-industries/?list=ai50&sh=3edae6e7e083))
+  * [Anthropic] - Focus on LLM, building an alternative to [GPT models][GPT Model] ([Forbes](https://www.forbes.com/companies/anthropic/?list=ai50&sh=2cdb4d2fb94e))
   * [Apple] - Large company in the world, strangely not so influential in the AI industry. At least not yet!
-  * [Arize AI](https://arize.com/) - Focus on data issue detection
+  * [Arize AI](https://arize.com/) - Focus on data issue detection ([Forbes](https://www.forbes.com/companies/arize-ai/?list=ai50&sh=72ba67871f36))
   * [Baidu] - Chinese search engine
-  * [Bayesian Health](https://www.bayesianhealth.com/) - Focus on patient risk detection
+  * [Bayesian Health](https://www.bayesianhealth.com/) - Focus on patient risk detection ([Forbes](https://www.forbes.com/companies/bayesian-health/?list=ai50&sh=257bfdaa13ac))
   * [BHuman] - Focus on creating deepfake of yourself!
   * [Canvas](https://www.canvas.build/) - Focus on construction robots
   * [Character AI](https://beta.character.ai/) - Chatbot application
@@ -434,39 +434,39 @@ print(query_result)
   * [Inflection AI] - A chatbot that listens and talks
   * [Insitro](https://www.insitro.com/) - Drug discovery
   * [Ironclad](https://ironcladapp.com/) - Legal contract management
-  * [Jasper] - Copywriting software
+  * [Jasper](https://www.jasper.ai/) - Copywriting software
   * [Meta] - Formerly known as Facebook with a strong focus on the multiverse and more recently on AI
   * [Microsoft] - One of the largest company in the world, leading changes with AI 
-  * [Midjourney AI] - AI image generator
-  * [MosaicML] - AI model training tools
-  * [Moveworks] - Automated IT support
-  * [Neeva] - Personalized search engine
+  * [Midjourney AI](https://www.midjourney.com/) - AI image generator
+  * [MosaicML](https://www.mosaicml.com/) - AI model training tools
+  * [Moveworks](https://www.moveworks.com/) - Automated IT support
+  * [Neeva](https://neeva.com/) - Personalized search engine
   * [Neptune AI] -
   * [Neuralink] - A company lead by [Elon Musk] that is focusing on human [Brain] Machine Interfaces
   * [Nvidia] - The leading supplier of [GPU]
   * [OpenAI] - Focus on democratizing AI. Known for releasing [ChatGPT][ChatGPT Model]
-  * [Pachama] - Forestry satellite data analysis
-  * [PathAI] - Drug discovery and diagnosis
-  * [PolyAI] - Voice chatbots
+  * [Pachama](https://pachama.com/) - Forestry satellite data analysis
+  * [PathAI](https://www.pathai.com/) - Drug discovery and diagnosis
+  * [PolyAI](https://poly.ai/) - Voice chatbots
   * [Quora] - A static Q&A internet site that is not offering an interface to chatbots though its interface, poe.
-  * [RevComm] - Voice analysis software
+  * [RevComm](https://www.revcomm.co.jp/) - Voice analysis software ([Forbes](https://www.forbes.com/companies/revcomm/?sh=6c1080a7340c))
   * [Runway] - Focus on generative AI for images and now videos
-  * [Scale AI] - Data labeling provider
-  * [Shield AI] - Autonomous defense software
-  * [Slingshot Aerospace] - Space simulation software
-  * [Snorkel AI] - Data labeling software
+  * [Scale AI](https://scale.com/) - Data labeling provider
+  * [Shield AI](https://shield.ai/) - Autonomous defense software
+  * [Slingshot Aerospace](https://slingshotaerospace.com/) - Space simulation software
+  * [Snorkel AI](https://snorkel.ai/) - Data labeling software
   * [Stability AI] - Focus on [diffusion model] or image generation, adopted the open-source philosophy
   * [Supertranslate AI] - Focus on generating proper subtitles to videos
   * [Synthesia] - Focus on AI avatars
   * [Tome](https://beta.tome.app/) - Presentation creation software
-  * [Trigo] - Cashierless retail checkout
-  * [Unlearn.AI] - Clinical trial forecasting
-  * [Vannevar Labs] - Defense intelligence software
-  * [Vectra AI] - Cyberattack detection
-  * [VIZ.AI] - Disease detection
-  * [Waabi] - Autonomous trucking technology
-  * [Weights & Biases] - Developer tools for AI
-  * [Writer] - Copywriting software
+  * [Trigo](https://www.trigoretail.com/) - Cashierless retail checkout
+  * [Unlearn.AI](https://www.unlearn.ai/) - Clinical trial forecasting
+  * [Vannevar Labs](https://www.vannevarlabs.com/) - Defense intelligence software
+  * [Vectra AI](https://www.vectra.ai/) - Cyberattack detection
+  * [VIZ.AI](https://www.viz.ai/) - Disease detection
+  * [Waabi](https://waabi.ai/) - Autonomous trucking technology
+  * [Weights & Biases](https://wandb.ai/site) - Developer tools for AI
+  * [Writer](https://writer.com/) - Copywriting software
 
  Drug Discovery
   * ...
@@ -484,13 +484,13 @@ print(query_result)
 
  Synthetic data
   * [Datagen](https://datagen.tech/) - Synthetic data for faces/images
-  * [Hanson Robotics] - Build humanoid for consumer, entertainment, service, healthcare, and research applications. 
   * [Mostly AI](https://mostly.ai/) - Generative AI for tabular data 
-  * [Softbank Robotics] - Focus on [social robots][Social Robot]
 
  Robotics
   * [Boston Dynamics] - Focus on robotics
   * [Engineered Arts] - Focus on social robots, such as [Ameca][Ameca Robot]
+  * [Hanson Robotics] - Build humanoid for consumer, entertainment, service, healthcare, and research applications. 
+  * [Softbank Robotics] - Focus on [social robots][Social Robot]
 
  Education
   * [Chegg](https://www.chegg.com) - AI assistant called [CheegMate](https://www.chegg.com/cheggmate)
