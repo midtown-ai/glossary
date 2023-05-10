@@ -59,5 +59,6 @@
 [TriviaQA Dataset]: {{ site.baseurl }}{% link glossary/t.md %}#triviaqa-dataset
 [Trustworthy AI]: {{ site.baseurl }}{% link glossary/t.md %}#trustworthy-ai
 [Truth]: {{ site.baseurl }}{% link glossary/t.md %}#truth
+[TruthfulQA]: {{ site.baseurl }}{% link glossary/t.md %}#truthfulqa
 [Tuning Parameter]: {{ site.baseurl }}{% link glossary/t.md %}#tuning-parameter
 [Turing Test]: {{ site.baseurl }}{% link glossary/t.md %}#turing-test

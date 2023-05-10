@@ -400,6 +400,7 @@ print(query_result)
 
   * [Abnormal Security](https://abnormalsecurity.com/) - Email cyberattack detection ([Forbes](https://www.forbes.com/companies/abnormal-security/?sh=4c992843536a))
   * [Adept AI] - AI model developer. Focus on [AGI] through automation of tasks on desktops ([Forbes](https://www.forbes.com/companies/adept/?list=ai50&sh=7eb9ebdf4ebb))
+  * [Adobe] - Offer a midjourey alternative called [Adobe Firefly]
   * [AlphaSense](https://www.alpha-sense.com/) - Focus on market intelligence search ([Forbes](https://www.forbes.com/companies/alphasense/?list=ai50&sh=298a91255f19))
   * [Amazon] - Focus on public cloud and partnership with 3rd parties
   * [Anduril Industries](https://www.anduril.com/) - Focus on defense software with AI ([Forbes](https://www.forbes.com/companies/anduril-industries/?list=ai50&sh=3edae6e7e083))
@@ -451,7 +452,7 @@ print(query_result)
   * [Quora] - A static Q&A internet site that is not offering an interface to chatbots though its interface, poe.
   * [RevComm](https://www.revcomm.co.jp/) - Voice analysis software ([Forbes](https://www.forbes.com/companies/revcomm/?sh=6c1080a7340c))
   * [Runway] - Focus on generative AI for images and now videos
-  * [Scale AI](https://scale.com/) - Data labeling provider
+  * [Scale AI] - Data labeling provider
   * [Shield AI](https://shield.ai/) - Autonomous defense software
   * [Slingshot Aerospace](https://slingshotaerospace.com/) - Space simulation software
   * [Snorkel AI](https://snorkel.ai/) - Data labeling software
@@ -500,6 +501,18 @@ print(query_result)
 
  Deployment:
   * [Netlify] -
+
+ {% youtube "https://www.youtube.com/watch?v=62ptqfCcizQ" %}
+
+ More at:
+  * Forbes AI top 50:
+    * 2023 - [https://www.forbes.com/lists/ai50/?sh=1f9472b1290f](https://www.forbes.com/lists/ai50/?sh=1f9472b1290f)
+    * 2022 - [https://www.forbes.com/sites/helenpopkin/2022/05/06/ai-50-2022-north-americas-top-ai-companies-shaping-the-future/?sh=63dcbbdc34b5](https://www.forbes.com/sites/helenpopkin/2022/05/06/ai-50-2022-north-americas-top-ai-companies-shaping-the-future/?sh=63dcbbdc34b5) 
+    * 2021 - [https://www.forbes.com/sites/alanohnsman/2021/04/26/ai-50-americas-most-promising-artificial-intelligence-companies/?sh=12d718d177cf](https://www.forbes.com/sites/alanohnsman/2021/04/26/ai-50-americas-most-promising-artificial-intelligence-companies/?sh=12d718d177cf)
+  * CNBC disruptor 50:
+    * 2023 - [https://www.cnbc.com/2023/05/09/these-are-the-2023-cnbc-disruptor-50-companies.html](https://www.cnbc.com/2023/05/09/these-are-the-2023-cnbc-disruptor-50-companies.html)
+    * 2022 - [https://www.cnbc.com/disruptor-50-2022/](https://www.cnbc.com/disruptor-50-2022/)
+    * 2021 - [https://www.cnbc.com/disruptor-50-2021/](https://www.cnbc.com/disruptor-50-2021/)
 
  See also [C], ...
 

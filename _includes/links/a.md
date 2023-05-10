@@ -27,6 +27,8 @@
 [Addiction]: {{ site.baseurl }}{% link glossary/a.md %}#addiction
 [Adept AI Company]: {{ site.baseurl }}{% link glossary/a.md %}#adept-ai-company
 [Adept AI]: {{ site.baseurl }}{% link glossary/a.md %}#adept-ai-company
+[Adobe Firefly Product]: {{ site.baseurl }}{% link glossary/a.md %}#adobe-firefly-product
+[Adobe Firefly]: {{ site.baseurl }}{% link glossary/a.md %}#adobe-firefly-product
 [Adversarial Attack]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-attack
 [Adversarial Imitation Learning]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-imitation-learning
 [Adversarial Model]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-model
@@ -62,6 +64,8 @@
 [Alan Turing]: {{ site.baseurl }}{% link glossary/a.md %}#alan-turing-person
 [Alex Krizhevsky Person]: {{ site.baseurl }}{% link glossary/a.md %}#alex-krizhevsky-person
 [Alex Krizhevsky]: {{ site.baseurl }}{% link glossary/a.md %}#alex-krizhevsky-person
+[Alexander Wang Person]: {{ site.baseurl }}{% link glossary/a.md %}#alexander-wang-person
+[Alexander Wang]: {{ site.baseurl }}{% link glossary/a.md %}#alexander-wang-person
 [AlexNet Model]: {{ site.baseurl }}{% link glossary/a.md %}#alexnet-model
 [Algorithmic]: {{ site.baseurl }}{% link glossary/a.md %}#algorithmic
 [Alpaca Model]: {{ site.baseurl }}{% link glossary/a.md %}#alpaca-model

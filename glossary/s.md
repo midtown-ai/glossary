@@ -93,6 +93,17 @@ layout: page
  See also [S], [Bayesian Optimization Sampling Method]
 
 
+# Scale AI Company
+
+ Focus on augmenting the data with metadata/labels
+
+ More at:
+  * [https://scale.com/](https://scale.com/)
+  * [https://pitchbook.com/profiles/company/163154-17](https://pitchbook.com/profiles/company/163154-17)
+
+ See also [S], ...
+
+
 # Scaler
 
  Standardization of a dataset is a common requirement for many machine learning estimators: they might behave badly if the individual features do not more or less look like standard normally distributed data (e.g. Gaussian with 0 mean and unit variance). For instance many elements used in the objective function of a learning algorithm (such as the RBF kernel of Support Vector Machines or the L1 and L2 regularizers of linear models) assume that all features are centered around 0 and have variance in the same order. If a feature has a variance that is orders of magnitude larger than others, it might dominate the objective function and make the estimator unable to learn from other features correctly as expected. THe standard scaler does the following:

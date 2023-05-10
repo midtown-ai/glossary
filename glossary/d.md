@@ -179,6 +179,14 @@ layout: page
  See also [D], [Data], [Insufficient Data Algorithm], [Self-Supervised Learning], [Snorkel Program], [Zero-Shot Learning]
 
 
+# Data Collection
+
+ More at:
+  * [https://thereader.mitpress.mit.edu/the-myth-of-objective-data/](https://thereader.mitpress.mit.edu/the-myth-of-objective-data/)
+
+ See also [D], ...
+
+
 # Data Handling
 
  See also [D], [Hyperparameter]

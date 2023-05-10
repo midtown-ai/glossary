@@ -9,6 +9,8 @@
 [Sample Efficiency]: {{ site.baseurl}}{% link glossary/s.md %}#sample-efficiency
 [Sampling Error]: {{ site.baseurl}}{% link glossary/s.md %}#sampling-error
 [Sampling Method]: {{ site.baseurl}}{% link glossary/s.md %}#sampling-method
+[Scale AI Company]: {{ site.baseurl}}{% link glossary/s.md %}#scale-ai-company
+[Scale AI]: {{ site.baseurl}}{% link glossary/s.md %}#scale-ai-company
 [Scaler]: {{ site.baseurl}}{% link glossary/s.md %}#scaler
 [Scaling Law]: {{ site.baseurl}}{% link glossary/s.md %}#scaling-law
 [Search Problem]: {{ site.baseurl}}{% link glossary/s.md %}#search-problem

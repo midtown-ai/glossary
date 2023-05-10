@@ -6,10 +6,6 @@ date:   2023-04-10 12:51:28 -0800
 categories: jekyll update
 ---
 
-# AI pioneer
-
- {% youtube "https://www.youtube.com/watch?v=IBe2o-cZncU" %}
-
 # AI prehistory
 
  * Philosophy - Logic, methods of reasoning, mind as physical system, foundations of learning, language, rationality
@@ -20,6 +16,18 @@ categories: jekyll update
  * Computer engineering - building a computer
  * Control theory - design systems that maximize an objective function over time
  * Linguistic - knowledge representation, grammar
+
+# AI pioneer
+
+ {% youtube "https://www.youtube.com/watch?v=IBe2o-cZncU" %}
+
+ The video discusses the potential of artificial intelligence to revolutionize the world and how it has already made an impact. It explores the pioneers of AI and their contributions to the field. The first major contribution was the development of the perceptron, a digital neural network designed to mimic a few brain neurons by psychologist Frank Rosenblatt in 1957. However, it did not work very well due to the limited use of a single layer of artificial neurons. Though the idea of AI was abandoned, decades later, computer scientist Geoffrey Hinton theorized that the human brain is a neural network and saw the genius in the perceptron idea. He believed that artificial neural networks could work with some tweaking.
+
+ 1. What is the perceptron, and who invented it?
+
+ 2. Did the hype over the perceptron in the media affect the development of AI?
+
+ 3. Who revived the idea of artificial neural networks, and why did he believe in them despite the previous failure of the perceptron?
 
 # History of AI
 

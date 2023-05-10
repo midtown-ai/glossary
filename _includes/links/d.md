@@ -11,6 +11,7 @@
 [Data]: {{ site.baseurl }}{% link glossary/d.md %}#data
 [Data Analyst]: {{ site.baseurl }}{% link glossary/d.md %}#data-analyst
 [Data Augmentation]: {{ site.baseurl }}{% link glossary/d.md %}#data-augmentation
+[Data Collection]: {{ site.baseurl }}{% link glossary/d.md %}#data-collection
 [Data Handling]: {{ site.baseurl }}{% link glossary/d.md %}#data-handling
 [Data Leakage]: {{ site.baseurl }}{% link glossary/d.md %}#data-leakage
 [Data Point]: {{ site.baseurl }}{% link glossary/d.md %}#data-point
