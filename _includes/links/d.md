@@ -38,14 +38,21 @@
 [Deep Belief]: {{ site.baseurl }}{% link glossary/d.md %}#deep-belief
 [Deep Blue Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#deep-bleu-challenge
 [Deep Brain]: {{ site.baseurl }}{% link glossary/d.md %}#deep-brain
+[Deep Deterministic Policy Gradient Algorithm]: {{ site.baseurl }}{% link glossary/d.md %}#deep-deterministic-policy-gradient-algorithm
+[Deep Deterministic Policy Gradient]: {{ site.baseurl }}{% link glossary/d.md %}#deep-deterministic-policy-gradient-algorithm
+[DDPG Algorithm]: {{ site.baseurl }}{% link glossary/d.md %}#deep-deterministic-policy-gradient-algorithm
+[DDPG]: {{ site.baseurl }}{% link glossary/d.md %}#deep-deterministic-policy-gradient-algorithm
 [Deep Learning]: {{ site.baseurl }}{% link glossary/d.md %}#deep-learning
+[DL]: {{ site.baseurl }}{% link glossary/d.md %}#deep-learning
 [Deep Learning Framework]: {{ site.baseurl }}{% link glossary/d.md %}#deep-learning-framework
 [Deep Multi-Task Learning]: {{ site.baseurl }}{% link glossary/d.md %}#deep-multi-task-learning
 [Deep Neural Network]: {{ site.baseurl }}{% link glossary/d.md %}#deep-neural-network
 [DNN]: {{ site.baseurl }}{% link glossary/d.md %}#dnn
 [Deep Q Learning Algorithm]: {{ site.baseurl }}{% link glossary/d.md %}#deep-q-learning-algorithm
-[Deep Q Network]: {{ site.baseurl }}{% link glossary/d.md %}#deep-q-network
+[Deep Q-Network]: {{ site.baseurl }}{% link glossary/d.md %}#deep-q-network
+[Deep Q-Networks]: {{ site.baseurl }}{% link glossary/d.md %}#deep-q-network
 [DQN]: {{ site.baseurl }}{% link glossary/d.md %}#deep-q-network
+[DQNs]: {{ site.baseurl }}{% link glossary/d.md %}#deep-q-network
 [Deep Reinforcement Learning]: {{ site.baseurl }}{% link glossary/d.md %}#deep-reinforcement-learning
 [Deep RL]: {{ site.baseurl }}{% link glossary/d.md %}#deep-reinforcement-learning
 [DeepAR Forecasting]: {{ site.baseurl }}{% link glossary/d.md %}#deepar-forecasting

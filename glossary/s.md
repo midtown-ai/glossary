@@ -574,6 +574,25 @@ Social robots also work as concierges in hotels and other settings like malls, w
  See also [S], ...
 
 
+# Soft Actor Critic Algorithm
+
+# SAC Algorithm
+
+ Soft Actor Critic, or SAC, is an off-policy actor-critic deep RL algorithm based on the maximum entropy reinforcement learning framework. In this framework, the actor aims to maximize expected reward while also maximizing entropy. That is, to succeed at the task while acting as randomly as possible. Prior deep RL methods based on this framework have been formulated as Q-learning methods. SAC combines off-policy updates with a stable stochastic actor-critic formulation.
+
+ The SAC objective has a number of advantages. First, the policy is incentivized to explore more widely, while giving up on clearly unpromising avenues. Second, the policy can capture multiple modes of near-optimal behavior. In problem settings where multiple actions seem equally attractive, the policy will commit equal probability mass to those actions. Lastly, the authors present evidence that it improves learning speed over state-of-art methods that optimize the conventional RL objective function.
+
+ {% pdf "https://arxiv.org/pdf/1801.01290v2.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/1812.05905](https://arxiv.org/abs/1812.05905)
+  * code - [https://paperswithcode.com/paper/soft-actor-critic-off-policy-maximum-entropy#code](https://paperswithcode.com/paper/soft-actor-critic-off-policy-maximum-entropy#code)
+  * ICML 2018 - [https://icml.cc/Conferences/2018/Schedule?showEvent=1986](https://icml.cc/Conferences/2018/Schedule?showEvent=1986)
+  * [https://bair.berkeley.edu/blog/2018/12/14/sac/](https://bair.berkeley.edu/blog/2018/12/14/sac/)
+
+ See also [S], [Proximal Policy Optimization Algorithm]
+
+
 # Softbank Robotics Company
 
  The [company] that built the [Pepper Robot]

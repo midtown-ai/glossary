@@ -356,7 +356,12 @@ layout: page
  See also [P], ...
 
 
-# Policy Gradient Solution
+# Policy Gradient Algorithm
+
+ * [Advanced Actor-Critic (A2C)][A2C]
+ * [Asynchronous Advanced Actor-Critic (A3C)][A3C]
+ * [Deep Deterministic Policy Gradient (DDPG)][DDPG]
+ * [Proximal Policy Optimization (PPO)][PPO]
 
  {% youtube "https://www.youtube.com/watch?v=YOW8m2YGtRg" %}
 
@@ -367,7 +372,7 @@ layout: page
   * [https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5](https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5)
   * colab - [https://colab.research.google.com/github/DJCordhose/ai/blob/master/notebooks/rl/pg-from-scratch.ipynb](https://colab.research.google.com/github/DJCordhose/ai/blob/master/notebooks/rl/pg-from-scratch.ipynb)
 
- See also [P], [Proximal Policy Optimization], [Reinforcement Learning]
+ See also [P], [Proximal Policy Optimization Algorithm], [Reinforcement Learning]
 
 
 # Policy Neural Network
@@ -598,24 +603,29 @@ Prediction Error = actual_value - predicted_value
  See [Prompt Engineering]
 
 
-# Proximal Policy Optimization
+# Proximal Policy Optimization Algorithm
 
-# PPO
+# PPO Algorithm
 
- We propose a new family of policy gradient methods for reinforcement learning, which alternate between sampling data through interaction with the environment, and optimizing a "surrogate" objective function using stochastic gradient ascent. Whereas standard policy gradient methods perform one gradient update per data sample, we propose a novel objective function that enables multiple epochs of minibatch updates. The new methods, which we call proximal policy optimization (PPO), have some of the benefits of trust region policy optimization (TRPO), but they are much simpler to implement, more general, and have better sample complexity (empirically). Our experiments test PPO on a collection of benchmark tasks, including simulated robotic locomotion and Atari game playing, and we show that PPO outperforms other online policy gradient methods, and overall strikes a favorable balance between sample complexity, simplicity, and wall-time.
-
- {% pdf "{{site.assets}}/p/proximal_policy_optimization_paper.pdf" %}
+ We propose a new family of policy gradient methods for [reinforcement learning], which alternate between sampling data through interaction with the environment, and optimizing a "surrogate" objective function using stochastic gradient ascent. Whereas standard policy gradient methods perform one gradient update per data sample, we propose a novel objective function that enables multiple epochs of minibatch updates. The new methods, which we call proximal policy optimization (PPO), have some of the benefits of trust region policy optimization (TRPO), but they are much simpler to implement, more general, and have better sample complexity (empirically). Our experiments test PPO on a collection of benchmark tasks, including simulated robotic locomotion and Atari game playing, and we show that PPO outperforms other online policy gradient methods, and overall strikes a favorable balance between sample complexity, simplicity, and wall-time.
 
  {% youtube "https://www.youtube.com/watch?v=HrapVFNBN64" %}
 
- More at:
-  * official page - [https://openai.com/blog/openai-baselines-ppo/](https://openai.com/blog/openai-baselines-ppo/)
-  * code - [https://github.com/openai/baselines](https://github.com/openai/baselines)
-  * paper - [https://arxiv.org/abs/1707.06347](https://arxiv.org/abs/1707.06347)
-  * blgo post - [https://huggingface.co/blog/deep-rl-ppo](https://huggingface.co/blog/deep-rl-ppo)
-  * [http://karpathy.github.io/2016/05/31/rl/](http://karpathy.github.io/2016/05/31/rl/)
+ {% youtube "https://www.youtube.com/watch?v=5P7I-xPq8u8" %}
 
- See also [P], [Policy Gradient Solution], [Reinforcement Learning], [SAC]
+ {% youtube "https://www.youtube.com/watch?v=hlv79rcHws0" %}
+
+ {% pdf "{{site.assets}}/p/proximal_policy_optimization_paper.pdf" %}
+
+ More at:
+  * home - [https://openai.com/blog/openai-baselines-ppo/](https://openai.com/blog/openai-baselines-ppo/)
+  * paper - [https://arxiv.org/abs/1707.06347](https://arxiv.org/abs/1707.06347)
+  * code - [https://github.com/openai/baselines](https://github.com/openai/baselines)
+  * articles
+    * huggingface - [https://huggingface.co/blog/deep-rl-ppo](https://huggingface.co/blog/deep-rl-ppo)
+    * pong from pixel - [http://karpathy.github.io/2016/05/31/rl/](http://karpathy.github.io/2016/05/31/rl/)
+
+ See also [P], [Policy Gradient Algorithm], [Soft Actor-Critic Algorithm]
 
 
 # PyBullet

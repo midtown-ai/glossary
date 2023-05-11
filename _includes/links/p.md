@@ -31,7 +31,8 @@
 [Point Estimator]: {{ site.baseurl}}{% link glossary/p.md %}#point-estimator
 [Point-E Model]: {{ site.baseurl}}{% link glossary/p.md %}#point-e-model
 [Policy]: {{ site.baseurl}}{% link glossary/p.md %}#policy
-[Policy Gradient Solution]: {{ site.baseurl}}{% link glossary/p.md %}#policy-gradient-solution
+[Policy Gradient Algorithm]: {{ site.baseurl}}{% link glossary/p.md %}#policy-gradient-algorithm
+[Policy Gradient Algorithms]: {{ site.baseurl}}{% link glossary/p.md %}#policy-gradient-algorithm
 [Policy Neural Network]: {{ site.baseurl}}{% link glossary/p.md %}#policy-neural-network
 [Polynomial Regression]: {{ site.baseurl}}{% link glossary/p.md %}#polynomial-regression
 [Pose Estimation]: {{ site.baseurl}}{% link glossary/p.md %}#pose-estimation
@@ -51,8 +52,9 @@
 [Procedural Reasoning System]: {{ site.baseurl}}{% link glossary/p.md %}#procedural-reasoning-system
 [Prompt Engineering]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-engineering
 [Prompt Injection]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-injection
-[Proximal Policy Optimization]: {{ site.baseurl}}{% link glossary/p.md %}#proximal-policy-optimization
-[PPO]: {{ site.baseurl}}{% link glossary/p.md %}#proximal-policy-optimization
+[Proximal Policy Optimization Algorithm]: {{ site.baseurl}}{% link glossary/p.md %}#proximal-policy-optimization-algorithm
+[PPO Algorithm]: {{ site.baseurl}}{% link glossary/p.md %}#proximal-policy-optimization-algorithm
+[PPO]: {{ site.baseurl}}{% link glossary/p.md %}#proximal-policy-optimization-algorithm
 [PyBullet]: {{ site.baseurl}}{% link glossary/p.md %}#pybullet
 [PyGame Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pygame-python-module
 [Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#python-module

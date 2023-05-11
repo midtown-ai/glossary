@@ -446,7 +446,24 @@ layout: page
  See also [D], [Generative Adversarial Network], [Rectified Linear Unit]
 
 
-# Deep Q Network
+# Deep Deterministic Policy Gradient Algorithm
+
+# DDPG Algorithm
+
+ DDPG, or Deep Deterministic Policy Gradient, is an actor-critic, model-free algorithm based on the deterministic policy gradient that can operate over continuous [action spaces]. It combines the actor-critic approach with insights from [Deep Q-Networks]: in particular, the insights that 1) the network is trained off-policy with samples from a replay buffer to minimize correlations between samples, and 2) the network is trained with a target Q network to give consistent targets during temporal difference backups. DDPG makes use of the same ideas along with [batch normalization].
+
+ {% youtube "https://www.youtube.com/watch?v=4jh32CvwKYw" %}
+
+ {% pdf "https://arxiv.org/pdf/1509.02971v6.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/1509.02971v6](https://arxiv.org/abs/1509.02971v6)
+  * code - [https://paperswithcode.com/method/ddpg](https://paperswithcode.com/method/ddpg)
+
+ See also [D], ...
+
+
+# Deep Q-Network
 
 # DQN
 

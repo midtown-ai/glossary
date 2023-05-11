@@ -53,6 +53,8 @@
 [Snorkel Program]: {{ site.baseurl}}{% link glossary/s.md %}#snorkel-program
 [Sobol Search]: {{ site.baseurl}}{% link glossary/s.md %}#sobol-search
 [Social Robot]: {{ site.baseurl}}{% link glossary/s.md %}#social-robot
+[Soft Actor Critic Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#soft-actor-critic-algorithm
+[SAC Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#soft-actor-critic-algorithm
 [Softbank Robotics Company]: {{ site.baseurl}}{% link glossary/s.md %}#softbank-robotics-company
 [Softbank Robotics]: {{ site.baseurl}}{% link glossary/s.md %}#softbank-robotics-company
 [Softmax Function]: {{ site.baseurl}}{% link glossary/s.md %}#softmax-function

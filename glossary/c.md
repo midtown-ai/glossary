@@ -907,6 +907,13 @@ print(query_result)
  See also [C], [CoreML Framework]
 
 
+# Critic
+
+ In [reinforcement learning], when using an [actor-critic algorithm], a critic is Q-learning algorithm that critiques the action that the Actor selected, providing feedback on how to adjust. It can take advantage of efficiency tricks in Q-learning, such as memory replay.
+
+ See also [C], ...
+
+
 # Critical Assessment of Structure Prediction Challenge
 
 # CASP Challenge

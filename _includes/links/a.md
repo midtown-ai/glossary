@@ -4,14 +4,18 @@
 [Action]: {{ site.baseurl }}{% link glossary/a.md %}#action
 [Actions]: {{ site.baseurl }}{% link glossary/a.md %}#action
 [Action Space]: {{ site.baseurl }}{% link glossary/a.md %}#action-space
+[Action Spaces]: {{ site.baseurl }}{% link glossary/a.md %}#action-space
 [Action Transformer]: {{ site.baseurl }}{% link glossary/a.md %}#action-transformer
 [Action-Value Function]: {{ site.baseurl }}{% link glossary/a.md %}#action-value-function
 [Active Learning]: {{ site.baseurl }}{% link glossary/a.md %}#active-learning
 [Activation Function]: {{ site.baseurl }}{% link glossary/a.md %}#activation-function
 [Activation Step]: {{ site.baseurl }}{% link glossary/a.md %}#activation-step
-[Actor Critic Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-algorithm
-[Actor Critic With Experience Replay]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-with-experience-replay
-[ACER]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-with-experience-replay
+[Actor]: {{ site.baseurl }}{% link glossary/a.md %}#actor
+[Actors]: {{ site.baseurl }}{% link glossary/a.md %}#actors
+[Actor-Critic Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-algorithm
+[Actor-Critic]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-algorithm
+[Actor-Critic With Experience Replay Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-with-experience-replay-algorithm
+[ACER Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-with-experience-replay-algorithm
 [Adapter]: {{ site.baseurl }}{% link glossary/a.md %}#adapter
 [Adapters]: {{ site.baseurl }}{% link glossary/a.md %}#adapter
 [Adaptive Boosting]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-boosting
@@ -22,13 +26,19 @@
 [AdaGrad Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-gradient-algorithm
 [Adaptive Learning]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-learning
 [Adaptive Learning Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-learning-algorithm
-[Adaptive Moment Estimation]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-moment-estimation
-[Adam]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-moment-estimation
+[Adaptive Moment Estimation Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-moment-estimation-algorithm
+[Adaptive Moment Estimation]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-moment-estimation-algorithm
+[Adam Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-moment-estimation-algorithm
+[Adam]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-moment-estimation-algorithm
 [Addiction]: {{ site.baseurl }}{% link glossary/a.md %}#addiction
 [Adept AI Company]: {{ site.baseurl }}{% link glossary/a.md %}#adept-ai-company
 [Adept AI]: {{ site.baseurl }}{% link glossary/a.md %}#adept-ai-company
 [Adobe Firefly Product]: {{ site.baseurl }}{% link glossary/a.md %}#adobe-firefly-product
 [Adobe Firefly]: {{ site.baseurl }}{% link glossary/a.md %}#adobe-firefly-product
+[Advantage Actor-Critic Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#advantage-actor-critic-algorithm
+[Advantage Actor-Critic]: {{ site.baseurl }}{% link glossary/a.md %}#advantage-actor-critic-algorithm
+[A2C Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#advantage-actor-critic-algorithm
+[A2C]: {{ site.baseurl }}{% link glossary/a.md %}#advantage-actor-critic-algorithm
 [Adversarial Attack]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-attack
 [Adversarial Imitation Learning]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-imitation-learning
 [Adversarial Model]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-model
@@ -120,6 +130,10 @@
 [ASI]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-super-intelligence
 [Association for the Advancement of Artificial Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#association-for-the-advancement-of-artificial-intelligence
 [AAAI]: {{ site.baseurl }}{% link glossary/a.md %}#association-for-the-advancement-of-artificial-intelligence
+[Asynchronous Advantage Actor-Critic Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#asynchronous-advantage-actor-critic-algorithm
+[Asynchronous Advantage Actor-Critic]: {{ site.baseurl }}{% link glossary/a.md %}#asynchronous-advantage-actor-critic-algorithm
+[A3C Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#asynchronous-advantage-actor-critic-algorithm
+[A3C]: {{ site.baseurl }}{% link glossary/a.md %}#asynchronous-advantage-actor-critic-algorithm
 [Atlas Robot]: {{ site.baseurl }}{% link glossary/a.md %}#atlas-robot
 [Attention]: {{ site.baseurl }}{% link glossary/a.md %}#attention
 [Attention-Based Model]: {{ site.baseurl }}{% link glossary/a.md %}#attention-based-model

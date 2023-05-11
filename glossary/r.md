@@ -362,20 +362,31 @@ Beware:
 
 # Reinforcement Learning
 
+# RL
+
  `Pavlov's dog experiment!` also `How we learn to bike!` Beware: `No training set is provided, training is coming from experience! = learn by try and error`. Continue doing the iehavior that led you to the most reward. Imagine teaching a program to play chess. It level of playing is only as good as the training data provided. If it learns/analyses the games played by average players, the program will only be average. If it analyses the games of the best player in the work, it will be just as good as them, but not better. `Reinforcement learning is the way to make a computer be better  than human at chess or any other activity` using rewards and punishments. `Learning through trials and errors` input/sensor --> software agent --> [Action], leads to reward feedback. Ex: points in video game where rules are unknown. The [Agent] continuously learns. There is no final state. Gives a reward for each move. Get's better based on past-experience. `Reinforcement learning is located near the supervised end of the spectrum. Unlike supervised learning, reinforcement learning programs do not learn from labeled pairs of inputs and outputs. Instead, they receive feedback for their decisions, but errors are not explicitly corrected` For example, a reinforcement learning program that is learning to play a side-scrolling video game like Super Mario Bros may receive a reward when it completes a level or exceeds a certain score, and a punishment when it loses a life. However, this supervised feedback is not associated with specific decisions to run, avoid Goombas, or pick up fire flowers. We will focus primarily on supervised and unsupervised learning, as these categories include most common machine learning problems.
 
  ![]( {{site.assets}}/r/reinforcement_learning.png ){: width="100%"}
 
  Imagine a mouse in a maze trying to find hidden pieces of cheese. The more times we expose the mouse to the maze, the better it gets at finding the cheese. At first, the mouse might move randomly, but after some time, the mouse’s experience helps it realize which actions bring it closer to the cheese. The process for the mouse mirrors what we do with Reinforcement Learning (RL) to train a system or a game. Generally speaking, RL is a machine learning method that helps an agent learn from experience. By recording actions and using a trial-and-error approach in a set environment, RL can maximize a cumulative reward. In our example, the mouse is the agent and the maze is the environment. The set of possible actions for the mouse are: move front, back, left or right. The reward is the cheese. You can use RL when you have little to no historical data about a problem, because it doesn’t need information in advance (unlike traditional machine learning methods). In a RL framework, you learn from the data as you go. Not surprisingly, RL is especially successful with games, especially games of “perfect information” like chess and Go. With games, feedback from the agent and the environment comes quickly, allowing the model to learn fast. The downside of RL is that it can take a very long time to train if the problem is complex. Just as IBM’s Deep Blue beat the best human chess player in 1997, [AlphaGo][AlphaGo Model], a RL-based algorithm, beat the best Go player in 2016. The current pioneers of RL are the teams at DeepMind in the UK. More on AlphaGo and DeepMind here. On April, 2019, the OpenAI Five team was the first AI to beat a world champion team of e-sport Dota 2, a very complex video game that the OpenAI Five team chose because there were no RL algorithms that were able to win it at the time. The same AI team that beat Dota 2’s champion human team also developed a robotic hand that can reorient a block. Read more about the OpenAI Five team here. You can tell that Reinforcement Learning is an especially powerful form of AI, and we’re sure to see more progress from these teams, but it’s also worth remembering the method’s limitations.
 
+ [Policy Gradient Algorithms]
+  * [Actor-Critic with Experience (ACER)][ACER]
+  * [Advanced Actor-Critic (A2C)][A2C]
+  * [Asynchronous Advanced Actor-Critic (A3C)][A3C]
+  * [Deep Deterministic Policy Gradient (DDPG)][DDPG]
+  * [Proximal Policy Optimization (PPO)][PPO]
+  * [Soft Actor Critic (SAC)][SAC]
+  * ...
+
  More at:
   * [https://neptune.ai/blog/category/reinforcement-learning](https://neptune.ai/blog/category/reinforcement-learning)
   * [http://karpathy.github.io/2016/05/31/rl/](http://karpathy.github.io/2016/05/31/rl/)
   * Tutorials
-   * [https://rl-lab.com/](https://rl-lab.com/)
-   * [https://huggingface.co/learn/deep-rl-course/unit0/introduction](https://huggingface.co/learn/deep-rl-course/unit0/introduction)
+    * [https://rl-lab.com/](https://rl-lab.com/)
+    * [https://huggingface.co/learn/deep-rl-course/unit0/introduction](https://huggingface.co/learn/deep-rl-course/unit0/introduction)
 
- See also [R], [Addiction], [Action], [Action Space], [Agent], [Delayed Reward], [Environment], [Exploitation], [Exploration], [Learning Method], [Machine Learning], [Machine Learning Algorithm], [Markov Decision Process], [Meta Learning], [Observation], [Policy Gradient Solution], [Proximal Policy Optimization], [Reinforcement Learning Environment], [Reward], [Reward Shaping], [State]
+ See also [R], [Addiction], [Action], [Action Space], [Agent], [Delayed Reward], [Environment], [Exploitation], [Exploration], [Learning Method], [Machine Learning], [Machine Learning Algorithm], [Markov Decision Process], [Meta Learning], [Observation], [Reinforcement Learning Environment], [Reward], [Reward Shaping], [State]
 
 
 # Reinforcement Learning Environment

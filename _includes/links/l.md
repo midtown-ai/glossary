@@ -11,7 +11,9 @@
 [Language Modeling]: {{ site.baseurl }}{% link glossary/l.md %}#language-modeling
 [Language Parsing]: {{ site.baseurl }}{% link glossary/l.md %}#language-parsing
 [Large Language Model]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model
+[Large Language Models]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model
 [LLM]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model
+[LLMs]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model
 [Lasso Regression]: {{ site.baseurl }}{% link glossary/l.md %}#lasso-regression
 [Latent Diffusion Model]: {{ site.baseurl }}{% link glossary/l.md %}#latent-diffusion-model
 [LDM]: {{ site.baseurl }}{% link glossary/l.md %}#latent-diffusion-model

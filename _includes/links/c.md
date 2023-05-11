@@ -77,6 +77,8 @@
 [Cost Function]: {{ site.baseurl }}{% link glossary/c.md %}#cost-function
 [CPU]: {{ site.baseurl }}{% link glossary/c.md %}#cpu
 [CreateML Application]: {{ site.baseurl }}{% link glossary/c.md %}#createml-application
+[Critic]: {{ site.baseurl }}{% link glossary/c.md %}#critic
+[Critics]: {{ site.baseurl }}{% link glossary/c.md %}#critic
 [Critical Assessment of Structure Prediction Challenge]: {{ site.baseurl }}{% link glossary/c.md %}#critical-assessment-of-structure-prediction-challenge
 [CASP Challenge]: {{ site.baseurl }}{% link glossary/c.md %}#casp-challenge
 [Cross-Attention]: {{ site.baseurl }}{% link glossary/c.md %}#cross-attention

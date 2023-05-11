@@ -150,19 +150,31 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
 
  See also [A], ...
 
+# Actor
 
-# Actor Critic Algorithm
+ In [reinforcement learning], when using an [actor-critic algorithm], an actor is a Policy Gradient algorithm that decides on an action to take.
+
+ See also [A], [Critic]
+ 
+
+# Actor-Critic Algorithm
+
+ When you put [actor] and [critic] together!
+
+ {% youtube "https://www.youtube.com/watch?v=w_3mmm0P0j8" %}
+
+ ![]( {{site.assets}}/a/actor_critictor_criticc_algorithm.png){: width="100%" }
 
  See also [A], [Model-Free RL Algorithm]
 
 
-# Actor Critic With Experience Replay
+# Actor-Critic With Experience Replay Algorithm
 
-# ACER
+# ACER Algorithm
 
  A sample-efficient policy gradient algorithm. ACER makes use of a replay buffer, enabling it to perform more than one gradient update using each piece of sampled experience, as well as a Q-Function approximate trained with the Retrace algorithm.
 
- See also [A], [PPO], [Reinforcement Learning]
+ See also [A], [PPO Algorithm], [Reinforcement Learning], [SAC Algorithm]
 
 
 # Adaptive Boosting
@@ -309,6 +321,22 @@ One obvious way to mitigate that problem is to choose different learning rate fo
   * [https://firefly.adobe.com/](https://firefly.adobe.com/)
 
  See also [A], ...
+
+
+# Advantage Actor-Critic Algorithm
+
+# A2C Algorithm
+
+ A2C, or Advantage [Actor-Critic], is a synchronous version of the A3C policy gradient method. As an alternative to the asynchronous implementation of A3C, A2C is a synchronous, deterministic implementation that waits for each [actor] to finish its segment of experience before updating, averaging over all of the [actors]. This more effectively uses [GPUs] due to larger [batch sizes].
+
+ {% pdf "https://arxiv.org/pdf/1602.01783v2.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/1602.01783v2](https://arxiv.org/abs/1602.01783v2)
+  * code - [https://paperswithcode.com/paper/asynchronous-methods-for-deep-reinforcement#code](https://paperswithcode.com/paper/asynchronous-methods-for-deep-reinforcement#code)
+
+ See also [A], ...
+ 
 
 # Adversarial Attack
 
@@ -1305,9 +1333,26 @@ First, we believe the clearest framing of general intelligence is a system that 
   * ai-topics - [https://aitopics.org/search](https://aitopics.org/search)
   * conferences
     * [https://www.aies-conference.com/](https://www.aies-conference.com/)
-    * [https://aaai-23.aaai.org/](https://aaai-23.aaai.org/
+    * [https://aaai-23.aaai.org/](https://aaai-23.aaai.org/)
 
- See also [A}, ...
+ See also [A], ...
+
+
+# Asynchronous Advantage Actor-Critic Algorithm
+
+# A3C Algorithm
+
+ A [policy gradient algorithm] used in [reinforcement learning]
+
+ {% youtube "https://www.youtube.com/watch?v=OcIx_TBu90Q" %}
+
+ More at:
+  * code - [https://github.com/philtabor/Youtube-Code-Repository/blob/master/ReinforcementLearning/PolicyGradient/A3C/pytorch/a3c.py](https://github.com/philtabor/Youtube-Code-Repository/blob/master/ReinforcementLearning/PolicyGradient/A3C/pytorch/a3c.py)
+  * Articles
+    * [https://www.neuralnet.ai/asynchronous-deep-reinforcement-learning/](https://www.neuralnet.ai/asynchronous-deep-reinforcement-learning/)
+
+
+ See also [A], ...
 
 
 # Atlas Robot
