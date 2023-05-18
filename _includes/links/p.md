@@ -2,6 +2,7 @@
 
 [Panda Module]: {{ site.baseurl}}{% link glossary/p.md %}#panda-module
 [Parameter]: {{ site.baseurl}}{% link glossary/p.md %}#parameter
+[Parameters]: {{ site.baseurl}}{% link glossary/p.md %}#parameter
 [Parameter-Efficient Fine-Tuning]: {{ site.baseurl}}{% link glossary/p.md %}#parameter-efficient-fine-tuning
 [PEFT]: {{ site.baseurl}}{% link glossary/p.md %}#parameter-efficient-fine-tuning
 [Passive Learning]: {{ site.baseurl }}{% link glossary/p.md %}#passive-learning

@@ -1,5 +1,12 @@
 [Q]: {{ site.baseurl }}{% link glossary/q.md %}
 
+[Q-Function]: {{ site.baseurl}}{% link glossary/q.md %}#q-function
+[Q-Learning Algorithm]: {{ site.baseurl}}{% link glossary/q.md %}#q-learning-algorithm
+[Q-Learning]: {{ site.baseurl}}{% link glossary/q.md %}#q-learning-algorithm
+[Q-Network]: {{ site.baseurl}}{% link glossary/q.md %}#q-network
+[Q-Table]: {{ site.baseurl}}{% link glossary/q.md %}#q-table
+[Q-Value]: {{ site.baseurl}}{% link glossary/q.md %}#q-value
+[Q-Values]: {{ site.baseurl}}{% link glossary/q.md %}#q-value
 [Quadratic Regression]: {{ site.baseurl}}{% link glossary/q.md %}#quadratic-regression
 [Quantization Error]: {{ site.baseurl}}{% link glossary/q.md %}#quantization-error
 [Quantized Signal]: {{ site.baseurl}}{% link glossary/q.md %}#quantized-signal

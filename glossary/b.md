@@ -619,3 +619,15 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  Used by [Neuralink]
 
  See also [B], [Deep Brain], ...
+
+
+# Buffered Online Learning
+
+ Of the two types (online / offline), [online learning algorithms] are more general in that you can easily construct an offline algorithm from a strictly online one plus a stored [dataset], but the opposite is not true for a strictly [offline learning algorithm]. However, this does not necessarily make them superior - often compromises are made in terms of sample efficiency, CPU cost or accuracy when using an online algorithm. Approaches such as [mini-batches] in neural network training can be viewed as attempts to find a middle ground between online and offline algorithms.
+
+ [Experience replay], a common RL technique, used in [Deep Q-Networks] amongst others, is another in-between approach. Although you could store all the experience necessary to fully train an agent in theory, typically you store a rolling history and sample from it. It's possible to argue semantics about this, but I view the approach as being a kind of "buffered online", as it requires low-level components that can work online (e.g. neural networks for [DQN]).
+
+ More at:
+  * [https://ai.stackexchange.com/questions/10474/what-is-the-relation-between-online-or-offline-learning-and-on-policy-or-off](https://ai.stackexchange.com/questions/10474/what-is-the-relation-between-online-or-offline-learning-and-on-policy-or-off)
+
+ See also [B], ...

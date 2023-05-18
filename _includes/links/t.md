@@ -57,8 +57,16 @@
 [Triplet Loss Function]: {{ site.baseurl }}{% link glossary/t.md %}#triplet-loss-function
 [Triton]: {{ site.baseurl }}{% link glossary/t.md %}#triton
 [TriviaQA Dataset]: {{ site.baseurl }}{% link glossary/t.md %}#triviaqa-dataset
+[Trust Region Policy Optimization Algorithm]: {{ site.baseurl }}{% link glossary/t.md %}#trust-region-policy-optimization-algorithm
+[Trust Region Policy Optimization]: {{ site.baseurl }}{% link glossary/t.md %}#trust-region-policy-optimization-algorithm
+[TRPO Algorithm]: {{ site.baseurl }}{% link glossary/t.md %}#trust-region-policy-optimization-algorithm
+[TRPO]: {{ site.baseurl }}{% link glossary/t.md %}#trust-region-policy-optimization-algorithm
 [Trustworthy AI]: {{ site.baseurl }}{% link glossary/t.md %}#trustworthy-ai
 [Truth]: {{ site.baseurl }}{% link glossary/t.md %}#truth
 [TruthfulQA]: {{ site.baseurl }}{% link glossary/t.md %}#truthfulqa
 [Tuning Parameter]: {{ site.baseurl }}{% link glossary/t.md %}#tuning-parameter
 [Turing Test]: {{ site.baseurl }}{% link glossary/t.md %}#turing-test
+[Twin Delayed Deep Deterministic Algorithm]: {{ site.baseurl }}{% link glossary/t.md %}#twin-delayed-deep-deterministic-algorithm
+[Twin Delayed Deep Deterministic]: {{ site.baseurl }}{% link glossary/t.md %}#twin-delayed-deep-deterministic-algorithm
+[TD3 Algorithm]: {{ site.baseurl }}{% link glossary/t.md %}#twin-delayed-deep-deterministic-algorithm
+[TD3]: {{ site.baseurl }}{% link glossary/t.md %}#twin-delayed-deep-deterministic-algorithm

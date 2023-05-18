@@ -4,12 +4,23 @@
 [Object Recognition]: {{ site.baseurl }}{% link glossary/o.md %}#object-recognition
 [Object Tracking]: {{ site.baseurl }}{% link glossary/o.md %}#object-tracking
 [Observation]: {{ site.baseurl }}{% link glossary/o.md %}#observation
+[Off-policy Learning]: {{ site.baseurl }}{% link glossary/o.md %}#off-policy-learning
+[Off-policy Learning Algorithm]: {{ site.baseurl }}{% link glossary/o.md %}#off-policy-learning-algorithm
+[Off-policy Learning Algorithms]: {{ site.baseurl }}{% link glossary/o.md %}#off-policy-learning-algorithm
+[Offline Learning]: {{ site.baseurl }}{% link glossary/o.md %}#offline-learning
+[Offline Learning Algorithm]: {{ site.baseurl }}{% link glossary/o.md %}#offline-learning-algorithm
+[Offline Learning Algorithms]: {{ site.baseurl }}{% link glossary/o.md %}#offline-learning-algorithm
 [Omniverse]: {{ site.baseurl }}{% link glossary/o.md %}#omniverse
+[On-policy Learning]: {{ site.baseurl }}{% link glossary/o.md %}#on-policy-learning
+[On-policy Learning Algorithm]: {{ site.baseurl }}{% link glossary/o.md %}#on-policy-learning-algorithm
+[On-policy Learning Algorithms]: {{ site.baseurl }}{% link glossary/o.md %}#on-policy-learning-algorithm
 [One-Arm Bandit]: {{ site.baseurl }}{% link glossary/o.md %}#one-arm-bandit
 [One-Cold Encoding]: {{ site.baseurl }}{% link glossary/o.md %}#one-cold-encoding
 [One-Hot Encoding]: {{ site.baseurl }}{% link glossary/o.md %}#one-hot-encoding
 [One-Shot Learning]: {{ site.baseurl }}{% link glossary/o.md %}#one-shot-learning
-[Online Machine Learning]: {{ site.baseurl }}{% link glossary/o.md %}#online-machine-learning
+[Online Learning]: {{ site.baseurl }}{% link glossary/o.md %}#online-learning
+[Online Learning Algorithm]: {{ site.baseurl }}{% link glossary/o.md %}#online-learning-algorithm
+[Online Learning Algorithms]: {{ site.baseurl }}{% link glossary/o.md %}#online-learning-algorithm
 [Open Neural Network Exchange Format]: {{ site.baseurl }}{% link glossary/o.md %}#open-neural-network-exchange-format
 [ONNX Format]: {{ site.baseurl }}{% link glossary/o.md %}#open-neural-network-exchange-format
 [OpenAI Company]: {{ site.baseurl }}{% link glossary/o.md %}#openai-company

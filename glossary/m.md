@@ -887,11 +887,46 @@ def mse_loss(y_pred, y_true):
  See also [M], ...
 
 
-# Model-Based Reinforcement Learning
+# Model-Based Learning
 
- In [Reinforcement Learning] ....
+ In [Reinforcement Learning], you modelize the environment ....
 
-  {% youtube "https://www.youtube.com/watch?v=vfpZu0R1s1Y" %}
+ {% youtube "https://www.youtube.com/watch?v=vfpZu0R1s1Y" %}
+
+ More at:
+  * ...
+
+ See also [M], ...
+
+
+# Model-Free Learning
+
+ Model-free learning is a category of [reinforcement learning (RL)][RL] algorithms that do not require a complete model of the environment to make decisions. In model-free learning, the agent learns directly from interacting with the environment, without explicitly building or using a model that represents the environment's dynamics or transition probabilities.
+
+ Instead of modeling the environment, model-free learning algorithms focus on estimating value functions or directly learning policies through trial-and-error interactions. The two primary components in model-free learning are the [policy] and the value function:
+
+ * Policy: The policy determines the agent's behavior by mapping states or state-action pairs to actions. The policy can be deterministic (selecting a single action) or stochastic (selecting actions based on probabilities). Model-free learning algorithms aim to find an optimal policy that maximizes the expected cumulative reward over time.
+
+ * Value Function: The value function estimates the expected long-term return or cumulative reward associated with being in a particular state or taking a specific action in a given state. It represents the desirability or utility of states or actions. Value functions can be estimated through various techniques such as Monte Carlo methods, temporal difference learning, or function approximation.
+
+ * Model-free learning algorithms learn by iteratively updating the value function or policy based on the observed [rewards] and [states] during interactions with the environment. These updates are typically driven by optimization principles, such as maximizing cumulative rewards or minimizing the difference between estimated and observed values.
+
+ Model-free learning is suitable in scenarios where it is difficult or impractical to obtain a complete model of the environment, and the [agent] must learn directly from experience.
+
+ More at:
+   * ...
+
+ See also [M], ...
+
+
+# Model-Free Learning Algorithm
+
+ Examples of model-free learning algorithms include:
+  * [Q-learning], 
+  * [State-Action-Reward-State-Action (SARSA)][SARSA],
+  * and [REINFORCE].
+
+ ![]( {{site.assets}}/m/model_free_learning_algorithm.png ){: width="100%"}
 
  See also [M], ...
 
@@ -902,22 +937,27 @@ def mse_loss(y_pred, y_true):
 
  Pictures of numbers written by college student taken by the post office to be able to sort the zip codes. Conversion from every image to matrix was done by hand.
 
- First approach to solve the problem was to use One of the first [neural networks][Neural Network], 
+ First approach to solve the problem was to use One of the first [neural networks], 
   * layer 1: 200 neurons
   * 2nd layer: 100
   * 3rd: 60
   * 4th: 30
   * 5th: 10
-  * with signmoid function
- The ANN has a inverted tree like structure. Unfortunately the accuracy of 92% could be improved!
+  * with [sigmoid activation function]
+ The [artificial neural network] has a inverted tree like structure. Unfortunately the [accuracy] of 92% could be improved!
 
- A better model found later was the [CNN]
+ A better model found later was the [Convoluted Neural Network (CNN)][CNN]
 
- The first part of the CNN is called feature extraction, the second part is the classification.
+ The first part of the [CNN] is called [feature extraction], the second part is the [classification].
 
  ![]( {{site.assets}}/m/mnist_dataset.png ){: width="100%"}
 
  See also [M], [Dataset]
+
+
+# Monte Carlo Policy Gradient Algorithm
+
+ See [REINFORCE Algorithm]
 
 
 # MuLan Model

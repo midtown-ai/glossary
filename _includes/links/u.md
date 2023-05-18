@@ -3,6 +3,7 @@
 [U-Net Architecture]: {{ site.baseurl }}{% link glossary/u.md %}#u-net-architecture
 [U-Net Discriminator]: {{ site.baseurl }}{% link glossary/u.md %}#u-net-discriminator
 [U-Net Generator]: {{ site.baseurl }}{% link glossary/u.md %}#u-net-generator
+[Uncanny Valley]: {{ site.baseurl }}{% link glossary/u.md %}#uncanny-valley
 [Uniform Manifold Approximation and Projection]: {{ site.baseurl }}{% link glossary/u.md %}#uniform-manifold-approximation-and-projection
 [UMAP]: {{ site.baseurl }}{% link glossary/u.md %}#umap
 [Underfitting]: {{ site.baseurl }}{% link glossary/u.md %}#underfitting

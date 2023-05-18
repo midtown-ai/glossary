@@ -360,6 +360,18 @@ Beware:
  See also [R], [Support Vector Classifier]
 
 
+# REINFORCE Algorithm
+
+ REINFORCE is a Monte-Carlo variant of policy gradients (Monte-Carlo: taking random samples). The agent collects a [trajectory] τ of one [episode] using its current [policy], and uses it to update the policy parameter. Since one full trajectory must be completed to construct a sample space, REINFORCE is updated in an [off-policy] way.
+
+ {% youtube "https://www.youtube.com/watch?v=5eSh5F8gjWU" %}
+
+ More at:
+  * pytorch implementation - [https://medium.com/@thechrisyoon/deriving-policy-gradients-and-implementing-reinforce-f887949bd63](https://medium.com/@thechrisyoon/deriving-policy-gradients-and-implementing-reinforce-f887949bd63)
+
+ See also [R], ...
+
+
 # Reinforcement Learning
 
 # RL
@@ -370,6 +382,18 @@ Beware:
 
  Imagine a mouse in a maze trying to find hidden pieces of cheese. The more times we expose the mouse to the maze, the better it gets at finding the cheese. At first, the mouse might move randomly, but after some time, the mouse’s experience helps it realize which actions bring it closer to the cheese. The process for the mouse mirrors what we do with Reinforcement Learning (RL) to train a system or a game. Generally speaking, RL is a machine learning method that helps an agent learn from experience. By recording actions and using a trial-and-error approach in a set environment, RL can maximize a cumulative reward. In our example, the mouse is the agent and the maze is the environment. The set of possible actions for the mouse are: move front, back, left or right. The reward is the cheese. You can use RL when you have little to no historical data about a problem, because it doesn’t need information in advance (unlike traditional machine learning methods). In a RL framework, you learn from the data as you go. Not surprisingly, RL is especially successful with games, especially games of “perfect information” like chess and Go. With games, feedback from the agent and the environment comes quickly, allowing the model to learn fast. The downside of RL is that it can take a very long time to train if the problem is complex. Just as IBM’s Deep Blue beat the best human chess player in 1997, [AlphaGo][AlphaGo Model], a RL-based algorithm, beat the best Go player in 2016. The current pioneers of RL are the teams at DeepMind in the UK. More on AlphaGo and DeepMind here. On April, 2019, the OpenAI Five team was the first AI to beat a world champion team of e-sport Dota 2, a very complex video game that the OpenAI Five team chose because there were no RL algorithms that were able to win it at the time. The same AI team that beat Dota 2’s champion human team also developed a robotic hand that can reorient a block. Read more about the OpenAI Five team here. You can tell that Reinforcement Learning is an especially powerful form of AI, and we’re sure to see more progress from these teams, but it’s also worth remembering the method’s limitations.
 
+ More at:
+  * [https://neptune.ai/blog/category/reinforcement-learning](https://neptune.ai/blog/category/reinforcement-learning)
+  * [http://karpathy.github.io/2016/05/31/rl/](http://karpathy.github.io/2016/05/31/rl/)
+  * Tutorials
+    * [https://rl-lab.com/](https://rl-lab.com/)
+    * [https://huggingface.co/learn/deep-rl-course/unit0/introduction](https://huggingface.co/learn/deep-rl-course/unit0/introduction)
+
+ See also [R], [Addiction], [Action], [Action Space], [Agent], [Delayed Reward], [Environment], [Exploitation], [Exploration], [Learning Method], [Machine Learning], [Machine Learning Algorithm], [Markov Decision Process], [Meta Learning], [Observation], [Reward], [Reward Shaping], [State]
+
+
+# Reinforcement Learning Algorithm
+
  [Policy Gradient Algorithms]
   * [Actor-Critic with Experience (ACER)][ACER]
   * [Advanced Actor-Critic (A2C)][A2C]
@@ -379,21 +403,11 @@ Beware:
   * [Soft Actor Critic (SAC)][SAC]
   * ...
 
- More at:
-  * [https://neptune.ai/blog/category/reinforcement-learning](https://neptune.ai/blog/category/reinforcement-learning)
-  * [http://karpathy.github.io/2016/05/31/rl/](http://karpathy.github.io/2016/05/31/rl/)
-  * Tutorials
-    * [https://rl-lab.com/](https://rl-lab.com/)
-    * [https://huggingface.co/learn/deep-rl-course/unit0/introduction](https://huggingface.co/learn/deep-rl-course/unit0/introduction)
+ [Value-Based Algorithms]
+  * [Q-Learning] 
+  * [State-Action-Reward-State-Action (SARSA)][SARSA]
 
- See also [R], [Addiction], [Action], [Action Space], [Agent], [Delayed Reward], [Environment], [Exploitation], [Exploration], [Learning Method], [Machine Learning], [Machine Learning Algorithm], [Markov Decision Process], [Meta Learning], [Observation], [Reinforcement Learning Environment], [Reward], [Reward Shaping], [State]
-
-
-# Reinforcement Learning Environment
-
-# RL Environment
-
- See also [R], [Isaac Gym], [PyBullet], [RobotSchool]
+ See also [R], ...
 
 
 # Reinforcement Learning Human Feedback
@@ -573,8 +587,16 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
   * Culture and education around responsible practices
   * Multi-objective and social good use cases
 
+ {% pdf "https://assets.ctfassets.net/3nanhbfkr0pc/acoo1Fj5uungnGNPJ3QWy/3a1dafd64f22efcf8f27380aafae9789/2021_RAI_Report-v3.pdf" %}
+
+ {% pdf "{{site.assets}}/r/responsible_ai_by_us_dod.pdf" %}
+
  More at:
   * [https://venturebeat.com/security/pwc-highlights-11-chatgpt-and-generative-ai-security-trends-to-watch-in-2023/](https://venturebeat.com/security/pwc-highlights-11-chatgpt-and-generative-ai-security-trends-to-watch-in-2023/)
+  * US DoD
+    * [https://www.cnn.com/videos/business/2023/05/11/nightcap-ai-drones-clip-orig-jc.cnn](https://www.cnn.com/videos/business/2023/05/11/nightcap-ai-drones-clip-orig-jc.cnn)
+    * [https://www.defense.gov/Spotlights/Artificial-Intelligence/](https://www.defense.gov/Spotlights/Artificial-Intelligence/)
+    * [https://www.diu.mil/responsible-ai-guidelines](https://www.diu.mil/responsible-ai-guidelines)
 
  See also [R], [AI Alignment], [AI Bias], [AI Ethics], [AI Fairness]
 
@@ -619,17 +641,20 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  2 types of rewards:
   * Deterministic = always the one expected
   * Stochastic = change all the time, but can be defined with probabilities
-
   * Positive reward
   * Negative reward = Cost
-
-  * Immediate rewardi
+  * Immediate reward
   * Long-term reward = Good in the long term
-   * Cumulative reward = Good in the long run? 
-
-   * Return / Value = total rward we are expecting to get
-    * Aim for high value
-    * value function = expected sum of discounted reward from a given state for all action or particular action
+    * Cumulative reward = Good in the long run? 
+    * Return / Value = total reward we are expecting to get
+      * Aim for high value
+      * value function = expected sum of discounted reward from a given state for all action or particular action
+  * Extrinsic rewards
+    * Examples: Capture, achieve, collect, ...
+    * Specific to the environment
+      *"Getting rich"
+  * Intrinsic Rewards
+    * Examples: Curiosity, (im)patience, happiness,love, empathy, ...
 
  How you write your reward function matters!
 

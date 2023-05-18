@@ -157,22 +157,42 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
  See also [A], [Critic]
  
 
+# Actor Network
+
+ See also [A], ...
+
+
 # Actor-Critic Algorithm
 
  When you put [actor] and [critic] together!
 
  {% youtube "https://www.youtube.com/watch?v=w_3mmm0P0j8" %}
 
- ![]( {{site.assets}}/a/actor_critictor_criticc_algorithm.png){: width="100%" }
+ ![]( {{site.assets}}/a/actor_critic_algorithm.png){: width="100%" }
 
- See also [A], [Model-Free RL Algorithm]
+ See also [A], [Model-Free Learning Algorithm]
+
+
+# Actor-Critic Architecture
+
+ To use an analogy, an actor=child playing in a environment=playground and watched by a critic=parent!
+
+ The [critic] outputs feedback = an action score!
+
+ The actor-critic architecture combines the [critic network] with an [actor network], which is responsible for selecting [actions] based on the current [state]. The [critic network] provides feedback to the [actor network] by estimating the quality of the selected actions or the value of the current state. This feedback is then used to update the actor network's [policy] parameters, guiding it towards [actions] that are expected to maximize the cumulative reward.
+
+ This architecture works, because of the [derivative chain rule]
+
+ ![]( {{site.assets}}/a/actor_critic_architecture.png){: width="100%" }
+
+ See also [A], ...
 
 
 # Actor-Critic With Experience Replay Algorithm
 
 # ACER Algorithm
 
- A sample-efficient policy gradient algorithm. ACER makes use of a replay buffer, enabling it to perform more than one gradient update using each piece of sampled experience, as well as a Q-Function approximate trained with the Retrace algorithm.
+ A sample-efficient policy gradient algorithm. ACER makes use of a replay buffer, enabling it to perform more than one gradient update using each piece of sampled experience, as well as a [Q-Function] approximate trained with the Retrace algorithm.
 
  See also [A], [PPO Algorithm], [Reinforcement Learning], [SAC Algorithm]
 
@@ -1088,6 +1108,25 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
  See also [Recommendation Engine]
 
 
+# Arcade Learning Environment
+
+# ALE
+
+ The Arcade Learning Environment (ALE) is an extension of the [Atari Learning Environment] (ALE) that encompasses a broader range of arcade games beyond just the Atari 2600. While ALE focuses exclusively on Atari 2600 games, ALE expands the scope to include various arcade games from different platforms.
+
+ ALE provides a unified framework and API for RL agents to interact with arcade games. It offers support for multiple game platforms, such as Atari 2600, MAME (Multiple Arcade Machine Emulator), and others. ALE provides a consistent interface for RL agents, allowing them to observe game screens, receive rewards, and take actions in a variety of arcade game environments.
+
+ The key difference between the Arcade and Atari Learning Environments is the inclusion of additional arcade games in ALE. While the Atari LE is limited to Atari 2600 games, Arcade LE extends the game selection to include a broader range of arcade titles. This expansion increases the diversity of environments available for RL research and allows for more comprehensive evaluation of RL algorithms.
+
+ {% pdf "https://arxiv.org/pdf/1207.4708.pdf" %}
+
+ More at:
+  * [https://github.com/mgbellemare/Arcade-Learning-Environment](https://github.com/mgbellemare/Arcade-Learning-Environment)
+  * paper - [https://arxiv.org/abs/1207.4708](https://arxiv.org/abs/1207.4708)
+
+ See also [A], ...
+
+
 # Area Under The Curve
 
 # AUC
@@ -1355,6 +1394,21 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], ...
 
 
+# Atari Learning Environment
+
+ The Atari Learning Environment (ALE) is an open-source software platform developed for research in reinforcement learning (RL). It is built upon the popular Atari 2600 video game console, which provides a diverse set of game environments for RL agents to interact with. ALE allows researchers to develop and evaluate RL algorithms by providing a standardized interface and a collection of Atari 2600 games as benchmark tasks.
+
+ The ALE provides a set of APIs (Application Programming Interfaces) that enable RL agents to interact with the Atari games. Agents can observe the game screen, receive reward signals based on their actions, and make decisions on how to act in the game environment. ALE also provides a scoring system that allows for performance comparison across different algorithms and agents.
+
+ The primary objective of ALE is to facilitate the development and evaluation of RL algorithms by providing a common framework and standardized benchmark tasks. It has been widely used in the research community to test and compare various RL algorithms and techniques.
+
+ More at:
+  * integration with the [Arcade Learning Environment]
+  * integration with OpenAI Gym - [https://www.gymlibrary.dev/environments/atari/index.html](https://www.gymlibrary.dev/environments/atari/index.html)
+
+ See also [A], ...
+
+
 # Atlas Robot
 
  Atlas is a bipedal humanoid [robot] primarily developed by the American robotics company [Boston Dynamics] with funding and oversight from the [U.S. Defense Advanced Research Projects Agency (DARPA)][DARPA]. The robot was initially designed for a variety of search and rescue tasks, and was unveiled to the public on July 11, 2013.
@@ -1418,6 +1472,13 @@ First, we believe the clearest framing of general intelligence is a system that 
    * [https://generativeai.pub/autogpt-now-supports-web-ui-heres-how-you-can-try-fd94b2a6ddad](https://generativeai.pub/autogpt-now-supports-web-ui-heres-how-you-can-try-fd94b2a6ddad)
   * articles
    * [https://www.zdnet.com/article/what-is-auto-gpt-everything-to-know-about-the-next-powerful-ai-tool/](https://www.zdnet.com/article/what-is-auto-gpt-everything-to-know-about-the-next-powerful-ai-tool/)
+
+ See also [A], ...
+
+
+# Automation
+
+ Automation refers to the use of technology, machinery, or systems to perform tasks or processes with minimal human intervention. It involves the implementation of control systems, sensors, and algorithms to carry out repetitive or complex actions automatically, reducing the need for manual effort. Automation aims to improve efficiency, productivity, accuracy, and reliability by streamlining operations and reducing human error. It can be applied in various domains, including manufacturing, transportation, agriculture, healthcare, and information technology. Examples of automation include robotic assembly lines, automated customer service systems, self-driving cars, and smart home devices.
 
  See also [A], ...
 

@@ -54,6 +54,13 @@ layout: page
  See also [U], [Convolutional Neural Network], [Encoder-Decoder Model], [Latent Space], [Noise Vector], [U-Net Architecture]
 
 
+# Uncanny Valley
+
+ When a robot is designed to look human, but is not quite there yet!
+
+ See also [U], [Social Robot]
+
+
 # Uniform Manifold Approximation and Projection
 
 # UMAP

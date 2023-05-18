@@ -59,6 +59,8 @@
 [CLIP Model]: {{ site.baseurl }}{% link glossary/c.md %}#clip-model
 [Contrastive Learning]: {{ site.baseurl }}{% link glossary/c.md %}#contrastive-learning
 [Contrastive Loss Function]: {{ site.baseurl }}{% link glossary/c.md %}#contrastive-loss-function
+[Control System]: {{ site.baseurl }}{% link glossary/c.md %}#control-system
+[Control Systems]: {{ site.baseurl }}{% link glossary/c.md %}#control-system
 [Convergence]: {{ site.baseurl }}{% link glossary/c.md %}#convergence
 [Convolution]: {{ site.baseurl }}{% link glossary/c.md %}#covonlution
 [Convolution Autoencoder]: {{ site.baseurl }}{% link glossary/c.md %}#convolution-autoencoder
@@ -79,6 +81,7 @@
 [CreateML Application]: {{ site.baseurl }}{% link glossary/c.md %}#createml-application
 [Critic]: {{ site.baseurl }}{% link glossary/c.md %}#critic
 [Critics]: {{ site.baseurl }}{% link glossary/c.md %}#critic
+[Critic Network]: {{ site.baseurl }}{% link glossary/c.md %}#critic-network
 [Critical Assessment of Structure Prediction Challenge]: {{ site.baseurl }}{% link glossary/c.md %}#critical-assessment-of-structure-prediction-challenge
 [CASP Challenge]: {{ site.baseurl }}{% link glossary/c.md %}#casp-challenge
 [Cross-Attention]: {{ site.baseurl }}{% link glossary/c.md %}#cross-attention
@@ -92,5 +95,8 @@
 [CDF]: {{ site.baseurl }}{% link glossary/c.md %}#cdf
 [Curse Of Dimensionality]: {{ site.baseurl }}{% link glossary/c.md %}#curse-of-dimensionality
 [Custom Churn Prediction]: {{ site.baseurl }}{% link glossary/c.md %}#custom-churn-prediction
+[Cybernetic Organism]: {{ site.baseurl }}{% link glossary/c.md %}#cybernetic-organism
+[Cyborg]: {{ site.baseurl }}{% link glossary/c.md %}#cybernetic-organism
+[Cyborg Beetle]: {{ site.baseurl }}{% link glossary/c.md %}#cyborg-bettle
 [Cycle Generative Adversarial Network]: {{ site.baseurl }}{% link glossary/c.md %}#cycle-generative-adversarial-network
 [Cycle GAN]: {{ site.baseurl }}{% link glossary/c.md %}#cycle-gan

@@ -475,7 +475,17 @@ Desired Output --> |     Training     | --> Model
 
 # Trajectory
 
- In [Reinforcement Learning], ...
+ In [Reinforcement Learning], a trajectory is the sequence of [states] that an [agent] goes through given a fixed [policy].
+
+ A trajectory refers to a sequence of [states], [actions], [rewards], and potentially other information that an agent encounters during its interaction with an environment. It represents the history of the agent's experience while navigating the environment and is often used to learn and improve the agent's [policy] or value function.
+
+ A trajectory typically starts from an initial state and extends over a certain number of time steps. At each time step, the agent observes the current state, selects an action based on its [policy], receives a reward from the environment, and transitions to the next state. This process continues until a termination condition is met, such as reaching a goal state or a predefined time limit.
+
+ By examining a trajectory, an RL algorithm can gather information about the agent's past experiences, the consequences of its actions, and the resulting rewards. Trajectories are commonly used in RL algorithms that involve [model-free learning], such as Monte Carlo methods or temporal difference learning, to estimate value functions, compute policy updates, or assess the performance of the agent.
+
+ In practice, RL algorithms often sample multiple trajectories from the environment to gather a diverse set of experiences and improve the estimation and learning process. These trajectories provide the necessary data for updating policies, estimating state-action values, or training value function approximators.
+
+ ![]( {{site.assets}}/t/trajectory.png ){: width="100%"}
 
  See also [T], ...
 
@@ -608,6 +618,34 @@ Desired Output --> |     Training     | --> Model
  See also [T], ...
 
 
+# Trust Region Policy Optimization Algorithm
+
+# TRPO Algorithm
+
+ TRPO, which stands for Trust Region Policy Optimization, is an algorithm for policy optimization in [reinforcement learning (RL)][RL]. It is designed to iteratively improve a policy to maximize the expected cumulative reward in an RL task.
+
+ TRPO belongs to the class of [on-policy learning algorithms] for optimization and is known for its stability and strong performance in complex RL domains. It aims to address the challenge of policy updates in RL without causing significant deviations from the current policy distribution, which could lead to unstable learning.
+
+ The key idea behind TRPO is to ensure that the policy update remains within a trust region, which constrains the magnitude of policy changes. By limiting the deviation from the current policy, TRPO ensures that the learned policy does not diverge too far and maintains a stable learning process.
+
+ TRPO utilizes a surrogate objective function that approximates the expected improvement in the policy. It then computes a search direction that maximizes this objective function while staying within the trust region. The policy update is performed by solving a constrained optimization problem to find the optimal policy parameters.
+
+ One of the advantages of TRPO is that it offers theoretical guarantees on the monotonic improvement of the policy. However, TRPO can be computationally expensive and may require careful [hyperparameter tuning] to achieve good performance.
+
+ TRPO has been widely used in various RL applications and has served as a foundation for subsequent algorithms like [Proximal Policy Optimization (PPO)][PPO], which further improves upon TRPO's computational efficiency.
+
+ {% youtube "https://www.youtube.com/watch?v=KjWF8VIMGiY" %}
+
+ {% pdf "https://arxiv.org/pdf/1502.05477v5.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/1502.05477v5](https://arxiv.org/abs/1502.05477v5)
+  * code - [https://paperswithcode.com/paper/trust-region-policy-optimization#code](https://paperswithcode.com/paper/trust-region-policy-optimization#code)
+  * [https://paperswithcode.com/method/trpo](https://paperswithcode.com/method/trpo)
+
+ See also [T], ...
+
+
 # Trustworthy AI
  
  See [Responsible AI]
@@ -660,5 +698,35 @@ Desired Output --> |     Training     | --> Model
  More at:
   * [https://www.computerhope.com/jargon/t/turntest.htm](https://www.computerhope.com/jargon/t/turntest.htm)
   * [https://en.wikipedia.org/wiki/Turing_test](https://en.wikipedia.org/wiki/Turing_test)
+
+ See also [T], ...
+
+
+# Twin Delayed Deep Deterministic Algorithm
+
+# TD3 Algorithm
+
+ 
+
+ * [Model-free learning algorithm]
+ * [Off-policy learning algorithm]
+ * continuous action space
+ * continuous state space
+ * [Value-based algorithm]
+
+ The TD3 (Twin Delayed Deep Deterministic [Policy Gradient]) algorithm is a [state-of-the-art] [reinforcement learning algorithm] that combines elements of both value-based and policy gradient methods. It is primarily used for continuous [action spaces].
+
+ TD3 is an extension of the [Deep Deterministic Policy Gradient (DDPG)][DDPG] algorithm, which is itself a [policy gradient algorithm] for continuous control problems. The key enhancements in TD3 address issues such as overestimation of [Q-values] and instability in training.
+
+ Here are the main features and components of the TD3 algorithm:
+  1. Twin Networks: TD3 employs two sets of [deep Q-networks], known as twin networks. Having two separate networks reduces the overestimation bias commonly encountered in [value-based methods].
+  1. Delayed Updates: TD3 introduces delayed updates for the target networks. Instead of updating the target networks at every time step, the updates are performed less frequently. This helps stabilize the learning process and mitigates the issues related to correlated samples.
+  1. Target Policy Smoothing: To further improve stability, TD3 applies target policy smoothing. It adds noise to the target actions during the learning process, encouraging the [agent] to explore different [actions] and reducing the sensitivity to small policy updates.
+  1. Replay Buffer: TD3 utilizes an [experience replay] buffer, which stores past experiences ([state], [action], [reward], next state) for training. The replay buffer helps to decorrelate samples and provides a diverse set of experiences for learning.
+  1. [Actor-Critic Architecture]: TD3 combines an [actor network], which generates actions based on the current state, and a [critic network], which estimates the [Q-value] for state-action pairs. Both networks are typically implemented using deep neural networks.
+
+ Through iterations of interacting with the environment, collecting experiences, and updating the network parameters using [gradient descent], TD3 aims to learn an [optimal policy] that maximizes the cumulative reward. It leverages the policy gradient approach to update the [actor network] and the value-based approach to update the [critic networks].
+
+ TD3 has shown impressive performance in various challenging continuous control tasks, providing a balance between [exploration] and [exploitation] and achieving [state-of-the-art] results in terms of [sample efficiency] and stability.
 
  See also [T], ...

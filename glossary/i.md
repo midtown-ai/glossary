@@ -456,12 +456,12 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
 
 # Isaac Gym
 
- Physics based reinforcement learning environment built by [Nvidia]
+ In [reinforcement learning], a physics-based [environment] built by [Nvidia]
 
  More at :
   * [https://developer.nvidia.com/isaac-gym](https://developer.nvidia.com/isaac-gym)
 
- See also [I], [Reinforcement Learning Environment]
+ See also [I], ...
 
 
 # Isolation Forest

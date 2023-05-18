@@ -45,6 +45,9 @@
 [Sigmoid Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-activation-function
 [Sigmoid Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-function
 [Similarity Function]: {{ site.baseurl}}{% link glossary/s.md %}#similarity-function
+[Simulated Policy Learning Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-policy-learning-algorithm
+[SimPLe Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-policy-learning-algorithm
+[SimPLe]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-policy-learning-algorithm
 [Single Value Decomposition]: {{ site.baseurl}}{% link glossary/s.md %}#single-value-decomposition
 [SVD]: {{ site.baseurl}}{% link glossary/s.md %}#single-value-decomposition
 [Siri Virtual Assistant]: {{ site.baseurl}}{% link glossary/s.md %}#siri-virtual-assistant
@@ -53,8 +56,10 @@
 [Snorkel Program]: {{ site.baseurl}}{% link glossary/s.md %}#snorkel-program
 [Sobol Search]: {{ site.baseurl}}{% link glossary/s.md %}#sobol-search
 [Social Robot]: {{ site.baseurl}}{% link glossary/s.md %}#social-robot
-[Soft Actor Critic Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#soft-actor-critic-algorithm
+[Soft Actor-Critic Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#soft-actor-critic-algorithm
+[Soft Actor-Critic]: {{ site.baseurl}}{% link glossary/s.md %}#soft-actor-critic-algorithm
 [SAC Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#soft-actor-critic-algorithm
+[SAC]: {{ site.baseurl}}{% link glossary/s.md %}#soft-actor-critic-algorithm
 [Softbank Robotics Company]: {{ site.baseurl}}{% link glossary/s.md %}#softbank-robotics-company
 [Softbank Robotics]: {{ site.baseurl}}{% link glossary/s.md %}#softbank-robotics-company
 [Softmax Function]: {{ site.baseurl}}{% link glossary/s.md %}#softmax-function
@@ -84,9 +89,15 @@
 [Stanford University]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-university
 [SNLI]: {{ site.baseurl}}{% link glossary/s.md %}#snli
 [State]: {{ site.baseurl}}{% link glossary/s.md %}#state
+[States]: {{ site.baseurl}}{% link glossary/s.md %}#state
 [State Model]: {{ site.baseurl}}{% link glossary/s.md %}#state-model
-[State Of The Art]: {{ site.baseurl}}{% link glossary/s.md %}#state-of-the-art
+[State Space]: {{ site.baseurl}}{% link glossary/s.md %}#state-space
+[State-Of-The-Art]: {{ site.baseurl}}{% link glossary/s.md %}#state-of-the-art
 [SOTA]: {{ site.baseurl}}{% link glossary/s.md %}#state-of-the-art
+[State-Action-Reward-State-Action Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#state-action-reward-state-action-algorithm
+[State-Action-Reward-State-Action]: {{ site.baseurl}}{% link glossary/s.md %}#state-action-reward-state-action-algorithm
+[SARSA Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#state-action-reward-state-action-algorithm
+[SARSA]: {{ site.baseurl}}{% link glossary/s.md %}#state-action-reward-state-action-algorithm
 [Statistical Bias]: {{ site.baseurl}}{% link glossary/s.md %}#statistical-bias
 [Statistical Machine Translation]: {{ site.baseurl}}{% link glossary/s.md %}#statistical-machine-translation
 [SMT]: {{ site.baseurl}}{% link glossary/s.md %}#statistical-machine-translation
@@ -95,7 +106,9 @@
 [Step Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#step-activation-function
 [Stereo Vision]: {{ site.baseurl}}{% link glossary/s.md %}#stereo-vision
 [Stochastic Gradient Descent Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-gradient-descent-algorithm
+[Stochastic Gradient Descent]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-gradient-descent-algorithm
 [SGD Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-gradient-descent-algorithm
+[SGD]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-gradient-descent-algorithm
 [Stochastic Node]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-node
 [Streamlit]: {{ site.baseurl}}{% link glossary/s.md %}#streamlit
 [Strong Artificial Intelligence]: {{ site.baseurl}}{% link glossary/s.md %}#strong-artificial-intelligence

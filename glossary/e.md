@@ -359,9 +359,16 @@ H(X) = -∑(p(x) * log2 p(x))
 
 # Environment
 
- In reinforcement learning, the environment provides states or observations of current state, and rewards/feeback.
+ In [reinforcement learning], the environment provides states or observations of current state, and rewards/feeback.
 
- See also [E], [Reinforcement Learning]
+ In a RL environment,
+  * you cannot use [backpropagation] through an environment (Reward <-- Action <-- State) because too complicated and we cannot compute the derivative!
+  * you cannot change its [parameters] as it is fixed!
+  * but you can use the reward to signal (intensity and direction) to identify which  action is preferred over the others and update the agent's [policy] weights
+
+ ![]( {{site.assets}}/e/environment.png ){: width="100%"}
+
+ See also [E], [Isaac Gym], [PyBullet], [RobotSchool]
 
 
 # Episode
@@ -539,6 +546,22 @@ H(X) = -∑(p(x) * log2 p(x))
 # Expected Value
 
  {% youtube "https://www.youtube.com/watch?v=KLs_7b7SKi4" %}
+
+ See also [E], ...
+
+
+# Experience Replay
+
+ Experience replay, a common RL technique, used in [Deep Q-Networks] amongst others, is another in-between approach ([Offline learning] vs [Online Learning]). Although you could store all the experience necessary to fully train an agent in theory, typically you store a rolling history and sample from it. It's possible to argue semantics about this, but I view the approach as being a kind of "[buffered online learning]", as it requires low-level components that can work online (e.g. neural networks for [DQN]).
+
+ More at:
+  * [https://ai.stackexchange.com/questions/10474/what-is-the-relation-between-online-or-offline-learning-and-on-policy-or-off](https://ai.stackexchange.com/questions/10474/what-is-the-relation-between-online-or-offline-learning-and-on-policy-or-off)
+
+ See also [E], [Actor-Critic with Experience Replay Algorithm]
+
+
+# Experience Replay Buffer
+
 
  See also [E], ...
 

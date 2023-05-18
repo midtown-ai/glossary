@@ -337,10 +337,12 @@ layout: page
 
 # Policy
 
- In [Reinforcement Learning], ...
+ In [Reinforcement Learning], a policy is a function that takes for input a state and outputs an action.
+
+ In the case of Deep RL, a policy function is an artificial neural network.
 
  State to action function !
- * Strategy of agent in pursuit of gaol
+ * Strategy of agent in pursuit of goal
  * Policy is optimal if its expected reward >= any other policy for all state
 
  Policy types
@@ -348,7 +350,7 @@ layout: page
   * Select action at random
   * use heuristic
 
- Policy characterisitc
+ Policy characteristic
   * agent's policy change due to ...
 
  Greedy policy = agent exploits the current knowledge 
@@ -358,10 +360,15 @@ layout: page
 
 # Policy Gradient Algorithm
 
- * [Advanced Actor-Critic (A2C)][A2C]
- * [Asynchronous Advanced Actor-Critic (A3C)][A3C]
- * [Deep Deterministic Policy Gradient (DDPG)][DDPG]
- * [Proximal Policy Optimization (PPO)][PPO]
+ A set of algorithms that update the policy [artificial neural network].
+
+ Examples of algorithm:
+  * [REINFORCE algorithm]
+  * [Advanced Actor-Critic (A2C)][A2C]
+  * [Asynchronous Advanced Actor-Critic (A3C)][A3C]
+  * [Deep Deterministic Policy Gradient (DDPG)][DDPG]
+  * [Proximal Policy Optimization (PPO)][PPO]
+
 
  {% youtube "https://www.youtube.com/watch?v=YOW8m2YGtRg" %}
 

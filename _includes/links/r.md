@@ -30,9 +30,14 @@
 [Regression Tree]: {{site.baseurl }}{% link glossary/r.md %}#regression-tree
 [Regularization]: {{site.baseurl }}{% link glossary/r.md %}#regularization
 [Regularization Parameter]: {{site.baseurl }}{% link glossary/r.md %}#regularization-parameter
+[REINFORCE Algorithm]: {{ site.baseurl }}{% link glossary/r.md %}#reinforce-algorithm
+[REINFORCE]: {{ site.baseurl }}{% link glossary/r.md %}#reinforce-algorithm
 [Reinforcement Learning]: {{ site.baseurl }}{% link glossary/r.md %}#reinforcement-learning
-[Reinforcement Learning Environment]: {{site.baseurl }}{% link glossary/r.md %}#reinforcement-learning-environment
-[RL Environment]: {{site.baseurl }}{% link glossary/r.md %}#reinforcement-learning-environment
+[RL]: {{ site.baseurl }}{% link glossary/r.md %}#reinforcement-learning
+[Reinforcement Learning Algorithm]: {{ site.baseurl }}{% link glossary/r.md %}#reinforcement-learning-algorithm
+[Reinforcement Learning Algorithms]: {{ site.baseurl }}{% link glossary/r.md %}#reinforcement-learning-algorithm
+[RL Algorithm]: {{ site.baseurl }}{% link glossary/r.md %}#reinforcement-learning-algorithm
+[RL Algorithms]: {{ site.baseurl }}{% link glossary/r.md %}#reinforcement-learning-algorithm
 [Reinforcement Learning Human Feedback]: {{site.baseurl }}{% link glossary/r.md %}#reinforcement-learning-human-feedback
 [RLHF]: {{site.baseurl }}{% link glossary/r.md %}#reinforcement-learning-human-feedback
 [Relation]: {{site.baseurl }}{% link glossary/r.md %}#relation

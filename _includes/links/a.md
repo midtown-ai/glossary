@@ -12,8 +12,10 @@
 [Activation Step]: {{ site.baseurl }}{% link glossary/a.md %}#activation-step
 [Actor]: {{ site.baseurl }}{% link glossary/a.md %}#actor
 [Actors]: {{ site.baseurl }}{% link glossary/a.md %}#actors
+[Actor Network]: {{ site.baseurl }}{% link glossary/a.md %}#actor-network
 [Actor-Critic Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-algorithm
 [Actor-Critic]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-algorithm
+[Actor-Critic Architecture]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-architecture
 [Actor-Critic With Experience Replay Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-with-experience-replay-algorithm
 [ACER Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-with-experience-replay-algorithm
 [Adapter]: {{ site.baseurl }}{% link glossary/a.md %}#adapter
@@ -134,6 +136,8 @@
 [Asynchronous Advantage Actor-Critic]: {{ site.baseurl }}{% link glossary/a.md %}#asynchronous-advantage-actor-critic-algorithm
 [A3C Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#asynchronous-advantage-actor-critic-algorithm
 [A3C]: {{ site.baseurl }}{% link glossary/a.md %}#asynchronous-advantage-actor-critic-algorithm
+[Atari Learning Environment]: {{ site.baseurl }}{% link glossary/a.md %}#atari-learning-environment
+[ALE]: {{ site.baseurl }}{% link glossary/a.md %}#atari-learning-environment
 [Atlas Robot]: {{ site.baseurl }}{% link glossary/a.md %}#atlas-robot
 [Attention]: {{ site.baseurl }}{% link glossary/a.md %}#attention
 [Attention-Based Model]: {{ site.baseurl }}{% link glossary/a.md %}#attention-based-model

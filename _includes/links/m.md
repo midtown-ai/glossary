@@ -57,6 +57,7 @@
 [Milvus Database]: {{ site.baseurl }}{% link glossary/m.md %}#milvus-database
 [Minerva Model]: {{ site.baseurl }}{% link glossary/m.md %}#minerva-model
 [Mini-Batch]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch
+[Mini-Batchs]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch
 [Mini-Batch Training]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-training
 [Mini-Batch Gradient Descent]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-gradient-descent
 [Mixed Reality]: {{ site.baseurl }}{% link glossary/m.md %}#mixed-reality
@@ -77,7 +78,11 @@
 [Model Hub]: {{ site.baseurl }}{% link glossary/m.md %}#model-hub
 [Model Tuning]: {{ site.baseurl }}{% link glossary/m.md %}#model-tuning
 [Model Type]: {{ site.baseurl }}{% link glossary/m.md %}#model-type
-[Model uplift]: {{ site.baseurl }}{% link glossary/m.md %}#model-uplift
+[Model Uplift]: {{ site.baseurl }}{% link glossary/m.md %}#model-uplift
+[Model-Based Learning]: {{ site.baseurl }}{% link glossary/m.md %}#model-based-learning
+[Model-Based Learning Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#model-based-learning-algorithm
+[Model-Free Learning]: {{ site.baseurl }}{% link glossary/m.md %}#model-free-learning
+[Model-Free Learning Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#model-free-learning-algorithm
 [Modified National Institute Standards And Technology Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
 [MNIST Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
 [MuLan Model]: {{ site.baseurl }}{% link glossary/m.md %}#mulan-model

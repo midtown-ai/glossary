@@ -696,6 +696,15 @@ print(query_result)
  See also [C], [Contrastive Learning], [Loss Function]
 
 
+# Control System
+
+ A control system is a system that manages and regulates the behavior or operation of another system or process. It typically consists of sensors, actuators, and a controller. The sensors gather information about the system's current state, which is then compared to a desired state or setpoint. The controller processes this information and generates control signals that are sent to the actuators to adjust the system's inputs or parameters. The objective of a control system is to maintain the system's behavior within desired limits or achieve specific goals. 
+
+ Control systems are a set of devices, components, and algorithms designed to regulate and manipulate the behavior of dynamic systems. These systems can be mechanical, electrical, chemical, or biological in nature. Control systems aim to maintain desired outputs or states by continuously monitoring and adjusting inputs or control signals. They play a crucial role in [automation], [robotics], manufacturing, and various other fields.
+
+ See also [C], ...
+
+
 # Convolution
 
  In math, Convolution = Merging the shape of 2 functions together. Ex: Function that fires fireworks * smoke for 1 firework overtime = smoke in the air at a specific time ( = cumulative add all contribution of all firework)
@@ -876,6 +885,36 @@ print(query_result)
 
  See also [C], ...
 
+
+# Correlation Matrix
+
+ ```
+# Correction Matrix Plot (generic)
+from matplotlib import pyplot
+from pandas import read_csv
+import numpy
+
+filename = 'pima-indians-diabetes.data.csv'
+names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
+data = read_csv(filename, names=names)
+
+correlations = data.corr()
+# plot correlation matrix
+fig = pyplot.figure()
+ax = fig.add_subplot(111)
+cax = ax.matshow(correlations, vmin=-1, vmax=1)
+fig.colorbar(cax)
+pyplot.show()
+ ```
+
+ ![]( {{site.assets}}/c/correlation_matrixi_plot.png ){: width="100%"}
+
+ More at:
+  * ...
+
+ See also [C], ...
+
+
 # Cost
 
  Cost vs Reward = minimize vs maximize
@@ -909,7 +948,14 @@ print(query_result)
 
 # Critic
 
- In [reinforcement learning], when using an [actor-critic algorithm], a critic is Q-learning algorithm that critiques the action that the Actor selected, providing feedback on how to adjust. It can take advantage of efficiency tricks in Q-learning, such as memory replay.
+ In [reinforcement learning], when using an [actor-critic algorithm], a critic is Q-learning algorithm that critiques the action that the [actor] selected, providing feedback on how to adjust. It can take advantage of efficiency tricks in Q-learning, such as memory replay.
+
+ In deep RL, a critic is an [artificial neural network] that computes the [Q-value]
+
+ See also [C], ...
+
+
+# Critic Network
 
  See also [C], ...
 
@@ -1040,6 +1086,34 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 # Custom Churn Prediction
 
  See also [C], [Regression], [Supervised Learning]
+
+
+# Cybernetic Organism
+
+# Cyborg
+
+ A cyborg, short for "cybernetic organism," refers to a being that combines both biological and artificial components. It is a concept derived from science fiction and represents a fusion of human and technological elements.
+
+ In a general sense, a cyborg can encompass a range of entities, from individuals with prosthetic limbs or implants that enhance their physical capabilities to more advanced combinations where artificial components are integrated deeply into the body and nervous system.
+
+ Cyborgs can be created for various purposes, including medical reasons, such as providing assistance to individuals with disabilities or injuries, or for enhancing human performance and capabilities beyond natural limits. This can involve incorporating electronic devices, sensors, or implants that connect to the body's systems to provide new functionalities or augment existing ones.
+
+ The concept of cyborgs raises ethical and philosophical questions about the boundaries between human and machine, the impact on identity and autonomy, and the potential implications for society as technology advances. While there are real-world examples of individuals with artificial limbs or implants, the depiction of highly integrated and advanced cyborgs seen in science fiction is yet to be fully realized.
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Cyborg](https://en.wikipedia.org/wiki/Cyborg) 
+
+ See also [C], ...
+
+
+# Cyborg Bettle
+
+ {% youtube "https://www.youtube.com/watch?v=awG09liCMD4" %}
+
+ More at:
+  * [https://www.scientificamerican.com/article/cyborg-beetles/](https://www.scientificamerican.com/article/cyborg-beetles/)
+
+ See also [C], ...
 
 
 # Cycle Generative Adversarial Network

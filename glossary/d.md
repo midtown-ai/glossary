@@ -194,7 +194,13 @@ layout: page
 
 # Data Leakage
 
+
  Data leakage is an umbrella term covering all cases where data that shouldn’t be available to a model in fact is. The most common example is when test data is included in the training set. But the leakage can be more pernicious: when the model uses features that are a proxy of the outcome variable or when test data come from a distribution which is different from the one about which the scientific claim is made.
+
+ * When the answer is in the input!
+ * When the model knows something in training that it won't know in production
+
+ Solution: Look at the feature importance to find out if one of them is 100% predictive!
 
  More at:
    * [https://docs.google.com/presentation/d/1WrkeJ9-CjuotTXoa4ZZlB3UPBXpxe4B3FMs9R9tn34I/edit#slide=id.g164b1bac824_0_2980](https://docs.google.com/presentation/d/1WrkeJ9-CjuotTXoa4ZZlB3UPBXpxe4B3FMs9R9tn34I/edit#slide=id.g164b1bac824_0_2980)
@@ -467,6 +473,13 @@ layout: page
 
 # DQN
 
+ Use this algorithm when
+  * Model-free learning
+  * Off-policy learning
+  * Discrete action space
+  * Continuous state space
+  * Q-value operator
+
  {% pdf "https://arxiv.org/pdf/1312.5602.pdf" %}
 
  More at:
@@ -643,7 +656,11 @@ with loss function computed from (output - input)
 
 # Derivative Chain Rule
 
- A fundamental rule that is used to do backpropagation starting from the cost function.
+ A fundamental rule of calculus that is used to do backpropagation starting from the cost function.
+
+ ```
+f'(x) = f'(g(x)) * g'(x)
+ ```
 
  ![]( {{site.assets}}/d/derivative_chain_rule.png ){: width="100%"}
 
@@ -673,7 +690,7 @@ We need to do this for
 * dC/dbL                       <== compute the bias L as well with backpropagation !!!!
  ```
 
- See also [D], [Backward Propagation], [Loss Function]
+ See also [D], [Backpropagation], [Loss Function]
 
 
 # Deterministic Node
@@ -786,7 +803,7 @@ We need to do this for
 
 # Discount Factor
 
- In [Reinforcement Learning], 
+ In [Reinforcement Learning], the discount factor is used to compute the cumulative [reward]. 
 
  Who has seen the future?
 

@@ -29,6 +29,51 @@ layout: page
 {% include links/all.md %}
 
 
+# Q-Function
+
+ See also [Q], ...
+
+
+# Q-Learning Algorithm
+
+ Q-learning is a [reinforcement learning algorithm] that enables an agent to learn an optimal policy for making decisions in an [environment]. It is specifically designed for problems with discrete [state] and [action] spaces.
+
+ In Q-learning, the agent learns by iteratively updating a value function called the Q-function, which represents the expected cumulative reward for taking a particular action in a given state. The [Q-function] is represented as a table or a function that maps state-action pairs to their corresponding [Q-values].
+
+ During the learning process, the [agent] interacts with the environment by taking [actions] based on its current [policy]. After each [action], it receives a [reward] and transitions to a new [state]. The [agent] updates the [Q-value] of the previous state-action pair using the [reward] received and the estimated maximum [Q-value] of the possible [actions] in the next [state].
+
+ The Q-learning algorithm uses a form of temporal difference learning known as the [Bellman equation] to update [Q-values]. By repeatedly updating the [Q-values] over multiple iterations, the [agent] gradually converges towards the [optimal Q-values], which lead to the best possible [policy] for maximizing long-term rewards.
+
+ Once the [Q-values] have converged or reached a satisfactory level of performance, the [agent] can use the learned [Q-function] to determine the best [action] to take in any given state. This allows the [agent] to make optimal decisions and solve the [reinforcement learning] problem in the [environment].
+
+ Q-learning has been successfully applied in various domains, including game playing, robotics, and [control systems], where an [agent] needs to learn from trial-and-error interactions to achieve a specific goal.
+
+ See also [Q], ...
+
+
+# Q-Network
+
+ See [Deep Q-Network]
+
+
+# Q-Table
+
+ The Q-Table is updated during the environment exploration. The Q-Table is used as is during the environment exploitation.
+
+ ![]( {{site.assets}}/q/q_table.png ){: width="100%"}
+
+ See also [Q], ...
+
+
+# Q-Value
+
+ The cell value in the [Q-table] that correspond for the state-action pair. Note that the Q-value is [reward] + discounted Q-value (or future rewards) for expected destination state.
+
+ Beware:
+  * At initialization, all Q-values in the Q-tables are initialized at 0, because nothing is known about the environment.
+  * In Contrast to Reward, which implies a short-term gain, Value refers to the long-term return with discount.
+
+
 # Quadratic Regression
 
  See also [Q], [Polynomial Regression], [Regression]

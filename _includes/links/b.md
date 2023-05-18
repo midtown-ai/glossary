@@ -56,3 +56,4 @@
 [Brain]: {{ site.baseurl }}{% link glossary/b.md %}#brain
 [Brain Computer Interface]: {{ site.baseurl }}{% link glossary/b.md %}#brain-computer-interface
 [BC Interface]: {{ site.baseurl }}{% link glossary/b.md %}#brain-computer-interface
+[Buffered Online Learning]: {{ site.baseurl }}{% link glossary/b.md %}#buffered-online-learning

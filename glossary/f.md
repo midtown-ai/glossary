@@ -153,6 +153,55 @@ layout: page
  See also [F], [Dimensionality Reduction], [Feature], [Principal Component Analysis]
 
 
+# Feature Importance
+
+ Feature importance is a technique used in [machine learning] to determine the relative importance of each input feature or predictor variable in predicting the target variable. It allows us to identify which features are most relevant or informative for making accurate predictions.
+
+ In many machine learning models, including [decision trees], [random forests], and [gradient boosting], feature importance can be calculated based on how much each feature reduces the uncertainty or error of the model when it is used to make predictions. The most important features are those that lead to the greatest reduction in uncertainty or error.
+
+ Feature importance can be used for a variety of purposes, such as identifying which features to focus on when collecting new data, identifying potential problems with the model, and explaining how the model is making its predictions. It is also useful for [feature selection], which involves choosing a subset of the most important features to include in the model, in order to improve its [accuracy] and reduce [overfitting].
+
+ Problems solved by feature importance:
+  * [Data Leakage] check
+  * ...
+
+ ```
+from sklearn.datasets import load_iris
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import train_test_split
+
+# Load dataset
+iris = load_iris()
+X = iris.data
+y = iris.target
+
+# Split dataset into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Create a decision tree classifier object
+dt = DecisionTreeClassifier(random_state=42)
+
+# Fit the model on training data
+dt.fit(X_train, y_train)
+
+# Calculate feature importance
+importance = dt.feature_importances_
+
+# Print feature importance scores
+for i,v in enumerate(importance):
+    print('Feature: %s, Score: %.5f' % (iris.feature_names[i], v))
+
+# Make predictions on testing data
+y_pred = dt.predict(X_test)
+
+# Evaluate the model performance on testing data
+accuracy = dt.score(X_test, y_test)
+print("Accuracy:", accuracy)
+ ```
+
+ See also [F], ...
+
+
 # Feature Learning
 
  before classifier training!
@@ -189,6 +238,11 @@ Xnorm = --------------
  Methods:
   * [Feature Normalization]
   * [Feature Standardization]
+
+ See also [F], ...
+
+
+# Feature Selection
 
  See also [F], ...
 
