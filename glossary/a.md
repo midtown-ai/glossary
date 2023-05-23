@@ -1458,9 +1458,18 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [Autoencoding], [Backpropagation], [Decoder], [Denoising Autoencoder], [Dimensionality Reduction], [Disentangled Variational Autoencoder], [Encoder], [Encoder-Decoder Model], [Hidden State], [Linear Autoencoder], [Unsupervised Deep Learning Model], [Unsupervised Learning], [Variational Autoencoder]
 
 
-# AutoGPT 
+# AutoGPT  Model
 
  {% youtube "https://www.youtube.com/watch?v=LqjVMy2qhRY" %}
+
+ {% youtube "https://www.youtube.com/watch?v=0m0AbdoFLq4" %}
+
+ Derivative versions:
+  * AgentGPT
+    * site - [https://agentgpt.reworkd.ai/](https://agentgpt.reworkd.ai/)
+    * code - [https://github.com/reworkd/AgentGPT](https://github.com/reworkd/AgentGPT)
+  * God Mode
+    * site - [https://godmode.space/](https://godmode.space/)
 
  More at:
   * home - [https://news.agpt.co/](https://news.agpt.co/)

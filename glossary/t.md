@@ -29,22 +29,40 @@ layout: page
 {% include links/all.md %}
 
 
+# T-Distributed Stochastic Neighbor Embedding Algorithm
+
+# t-SNE Algorithm
+
+ Algorithm created in 2008, so modern compared to other existing (but a bit more complex than [PCA]!)
+
+ Another popular method is t-Stochastic Neighbor Embedding (t-SNE), which does non-linear [dimensionality reduction]. People typically use t-SNE for data visualization, but you can also use it for machine learning tasks like reducing the feature space and clustering, to mention just a few. The next plot shows an analysis of the [MNIST] database of handwritten digits. [MNIST] contains thousands of images of digits from 0 to 9, which researchers use to test their clustering and [classification] algorithms. Each row of the [dataset] is a vectorized version of the original image (size 28 x 28 = 784) and a label for each image (zero, one, two, three, …, nine). Note that we’re therefore reducing the dimensionality from 784 (pixels) to 2 (dimensions in our visualization). Projecting to two dimensions allows us to visualize the high-dimensional original dataset.
+
+ * [PCA] - Try to preserve global shape/structure of data
+ * t-SNE - Can choose to preserved local structure 
+
+ ![]( {{site.assets}}/t/t_distributed_stochastic_neighbor_embedding_algorithm.gif ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=NEaUSP4YerM" %}
+
+ {% youtube "https://www.youtube.com/watch?v=FQmCzpKWD48" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding)
+ 
+ See also [T], ...
+
+
 # T-Distribution
 
  ~ normal distribution with fatter tails!
 
+ ![]( {{site.assets}}/t/t_distribution.png ){: width="100%"}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Student%27s_t-distribution](https://en.wikipedia.org/wiki/Student%27s_t-distribution)
+
+
  See also [T], ...
-
-
-# t-Stochastic Neighbor Embedding
-
-# t-SNE
-
- Another popular method is t-Stochastic Neighbor Embedding (t-SNE), which does non-linear dimensionality reduction. People typically use t-SNE for data visualization, but you can also use it for machine learning tasks like reducing the feature space and clustering, to mention just a few. The next plot shows an analysis of the MNIST database of handwritten digits. MNIST contains thousands of images of digits from 0 to 9, which researchers use to test their clustering and classification algorithms. Each row of the dataset is a vectorized version of the original image (size 28 x 28 = 784) and a label for each image (zero, one, two, three, …, nine). Note that we’re therefore reducing the dimensionality from 784 (pixels) to 2 (dimensions in our visualization). Projecting to two dimensions allows us to visualize the high-dimensional original dataset.
-
- ![]( {{site.assets}}/t/tsne.gif ){: width="100%"}
- 
- See also [T], [Dimensionality Reduction]
 
 
 # Tanh Activation Function

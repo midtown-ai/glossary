@@ -310,11 +310,11 @@ layout: page
  See also [D], [Labeling Service], [Majority Vote Algorithm]
 
 
-# DBSCAN
+# DBSCAN Algorithm
 
- To use for clustering when k-mean fails. With k-Mean, we look for round clusters. With DBSCAN, the radius (epsilon) is from every point in the cluster ==> the cluster shape does not need to be round! If epion is too large --> gigantic cluster. If too small, --> ...
+ To use for clustering when the [k-means clustering algorithm] fails. With k-Means, we look for round clusters. With DBSCAN, the radius (epsilon) is from every point in the cluster ==> the cluster shape does not need to be round! If epion is too large --> gigantic cluster. If too small, --> ...
 
- See also [D], [K-Mean Failure]
+ See also [D], ...
 
 
 # Decision Boundary
@@ -656,7 +656,7 @@ with loss function computed from (output - input)
 
 # Derivative Chain Rule
 
- A fundamental rule of calculus that is used to do backpropagation starting from the cost function.
+ A fundamental rule of calculus that is used to do [backpropagation] starting from the [loss function].
 
  ```
 f'(x) = f'(g(x)) * g'(x)
@@ -690,7 +690,9 @@ We need to do this for
 * dC/dbL                       <== compute the bias L as well with backpropagation !!!!
  ```
 
- See also [D], [Backpropagation], [Loss Function]
+ {% youtube "https://www.youtube.com/watch?v=wl1myxrtQHQ" %}
+
+ See also [D], ...
 
 
 # Deterministic Node
@@ -794,11 +796,18 @@ We need to do this for
 
 # Dimensionality Reduction
 
- Some problems may contain thousands or millions of features, which can be computationally costly to work with. Additionally, the program's ability to generalize may be reduced if some of the features capture noise or are irrelevant to the underlying relationship. Dimensionality reduction is the process of discovering the features that account for the greatest changes in the response variable. Dimensionality reduction can also be used to visualize data. It is easy to visualize a regression problem such as predicting the price of a home from its size; the size of the home can be plotted on the graph's x axis, and the price of the home can be plotted on the y axis. It is similarly easy to visualize the housing price regression problem when a second feature is added; the number of bathrooms in the house could be plotted on the z axis, for instance. A problem with thousands of features, however, becomes impossible to visualize.
+ Some problems may contain thousands or millions of [features], which can be computationally costly to work with. Additionally, the program's ability to generalize may be reduced if some of the [features] capture [noise] or are irrelevant to the underlying relationship. Dimensionality reduction is the process of discovering the [features] that account for the greatest changes in the response variable. Dimensionality reduction can also be used to visualize data. It is easy to visualize a regression problem such as predicting the price of a home from its size; the size of the home can be plotted on the graph's x axis, and the price of the home can be plotted on the y axis. It is similarly easy to visualize the housing price regression problem when a second [feature] is added; the number of bathrooms in the house could be plotted on the z axis, for instance. A problem with thousands of features, however, becomes impossible to visualize.
 
-  As the name suggests, we use dimensionality reduction to remove the least important information (sometime redundant columns) from a dataset. In practice, I often see datasets with hundreds or even thousands of columns (also called features), so reducing the total number is vital. For instance, images can include thousands of pixels, not all of which matter to your analysis. Or when testing microchips within the manufacturing process, you might have thousands of measurements and tests applied to every chip, many of which provide redundant information. In these cases, you need dimensionality reduction algorithms to make the dataset manageable. The most popular dimensionality reduction method is Principal Component Analysis (PCA). Other methods exist such as the Linear Discriminant Analysis (LDA). For visualisation, data scientists use the t-SNE method.
+ As the name suggests, we use dimensionality reduction to remove the least important information (sometime redundant columns) from a [dataset]. In practice, I often see [datasets] with hundreds or even thousands of columns (also called [features]), so reducing the total number is vital. For instance, images can include thousands of pixels, not all of which matter to your analysis. Or when testing microchips within the manufacturing process, you might have thousands of measurements and tests applied to every chip, many of which provide redundant information. In these cases, you need dimensionality reduction algorithms to make the [dataset] manageable.
 
-  See also [D], [Autoencoder], [Decoder], [Encoder], [Feature], [Linear Discriminant Analysis], [Principal Component Analysis], [t-SNE], [UMAP]
+  Dimensionality reduction algorithm:
+   * [Principal Component Analysis (PCA)][PCA] - The most popular (and simple to understand and implement)
+   * [Linear Discriminant Analysis (LDA)][LDA]
+   * [T-Distributed Stochastic Neighborhood Embedding (t-SNE)][t-SNE] - for visualization (modern and a bit more complex to understand/implement)
+   * [UMAP]
+   * [Self-Organizing Map (SOM)][SOM]
+
+  See also [D], [Autoencoder], [Decoder], [Encoder]
 
 
 # Discount Factor

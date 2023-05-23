@@ -21,7 +21,7 @@
 [Data2Vec]: {{ site.baseurl }}{% link glossary/d.md %}#data2vec
 [Dataset]: {{ site.baseurl }}{% link glossary/d.md %}#dataset
 [Dawid-Skene Algorithm]: {{ site.baseurl }}{% link glossary/d.md %}#dawid-skene-algorithm
-[DBSCAN]: {{ site.baseurl }}{% link glossary/d.md %}#dbscan
+[DBSCAN Algorithm]: {{ site.baseurl }}{% link glossary/d.md %}#dbscan-algorithm
 [Decision Boundary]: {{ site.baseurl }}{% link glossary/d.md %}#decision-boundary
 [Decision Stump]: {{ site.baseurl }}{% link glossary/d.md %}#decision-stump
 [Decision Tree]: {{ site.baseurl }}{% link glossary/d.md %}#decision-tree

@@ -122,6 +122,13 @@ completion = llm(prompt)
 
  Beware, cannot use GPU for inference. ??? <== ????
 
+ {% youtube "https://www.youtube.com/watch?v=7BvbgUNT2gI" %}
+
+ More at:
+  * blog - [https://blog.google/technology/ai/lamda/](https://blog.google/technology/ai/lamda/)
+
+ See also [L], ...
+
 
 # Language Modeling
 
@@ -319,6 +326,14 @@ with alpha = learning_rate
 # Learning Strategy
 
  See also [L], [Learning Method], [Learning Rate], [Learning Velocity]
+
+
+# Learning Vector Quantization Algorithm
+
+# LVQ Algorithm
+
+
+ See also [L], ...
 
 
 # Learning Velocity

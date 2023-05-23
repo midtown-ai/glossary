@@ -388,14 +388,15 @@ layout: page
   * [Tensor Processing Unit (TPU)][TPU] - custom hardware for tensor arithmetic
 
  Models developed by the company
-  * [Bard][Bard Model] - A lightweight version of Lambda meant to compete against Bing + [ChatGPT Model]
+  * [Bard] - A lightweight version of Lambda meant to compete against Bing + [ChatGPT Model]
   * [DreamIX][DreamIX Model] - text-to-video and image-to-video diffusion model
+  * [Gameface](https://blog.google/technology/ai/google-project-gameface/) - use your face in place of a mouse!
   * [Google Lens][Google Lens] - search what you see, uses cellphone cameras and [computer vision]
   * [Google Translate][Google Translate Model] - Translate one language into another, [machine translation]
   * [Gshard Model] -
   * [Imagen][Imagen Model] - A text-to-image diffusion model
   * [Imagen Video][Imagen Video Model] - A text-to-video model
-  * [LaMBDA][LaMBDA Model] - A large language model
+  * [LaMBDA] - A large language model
   * [Magi Model] -
   * [Minerva Model] -
   * [MUM Model] - Use [T5 Model], NLU and multimodal, 1000 more powerful than the [BERT Model]. 
@@ -411,7 +412,7 @@ layout: page
   * 2010: [Helping computers understand language](https://googleblog.blogspot.com/2010/01/helping-computers-understand-language.html)
   * 2015: RankBrain
   * 2018: Neural Matching
-  * 2019: [BERT Model] - A [natural language processing] model based on the [transformer architecture] 
+  * 2019: [BERT] - A [natural language processing] model based on the [transformer architecture] 
 
  Companies
   * [DeepMind] which built models such as [Chinchilla][Chinchilla Model], [Sparrow][Sparrow Model], [AlphaiFold][AlphaFold Model], and more ... 
@@ -438,6 +439,8 @@ layout: page
 
 
 # Google Translate Model
+
+`Google Translate started using a [Seq2Seq]-based model in production in late 2016`
 
  Google Translate is a multilingual neural machine translation service developed by [Google] to translate text, documents and websites from one language into another. It offers a website interface, a mobile app for Android and iOS, and an API that helps developers build browser extensions and software applications. As of April 2023, Google Translate supports 133 languages at various levels, and as of April 2016, claimed over 500 million total users, with more than 100 billion words translated daily, after the company stated in May 2013 that it served over 200 million people daily.
 

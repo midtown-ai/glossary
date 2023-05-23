@@ -6,8 +6,10 @@
 [Labor Market Impact]: {{ site.baseurl }}{% link glossary/l.md %}#labor-market-impact
 [LangChain Module]: {{ site.baseurl }}{% link glossary/l.md %}#langchain-module
 [Language Model]: {{ site.baseurl }}{% link glossary/l.md %}#language-model
+[Language Model For Discussion Applications Model]: {{ site.baseurl }}{% link glossary/l.md %}#language-model-for-discussion-applications-model
 [Language Model For Discussion Applications]: {{ site.baseurl }}{% link glossary/l.md %}#language-model-for-discussion-applications-model
 [LaMDA Model]: {{ site.baseurl }}{% link glossary/l.md %}#language-model-for-discussion-applications-model
+[LaMDA]: {{ site.baseurl }}{% link glossary/l.md %}#language-model-for-discussion-applications-model
 [Language Modeling]: {{ site.baseurl }}{% link glossary/l.md %}#language-modeling
 [Language Parsing]: {{ site.baseurl }}{% link glossary/l.md %}#language-parsing
 [Large Language Model]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model
@@ -31,6 +33,10 @@
 [Learning Process]: {{ site.baseurl }}{% link glossary/l.md %}#learning-process
 [Learning Rate]: {{ site.baseurl }}{% link glossary/l.md %}#learning-rate
 [Learning Strategy]: {{ site.baseurl }}{% link glossary/l.md %}#learning-strategy
+[Learning Vector Quantization Algorithm]: {{ site.baseurl }}{% link glossary/l.md %}#learning-vector-quantization-algorithm
+[Learning Vector Quantization]: {{ site.baseurl }}{% link glossary/l.md %}#learning-vector-quantization-algorithm
+[LVQ Algorithm]: {{ site.baseurl }}{% link glossary/l.md %}#learning-vector-quantization-algorithm
+[LVQ]: {{ site.baseurl }}{% link glossary/l.md %}#learning-vector-quantization-algorithm
 [Learning Velocity]: {{ site.baseurl }}{% link glossary/l.md %}#learning-velocity
 [LIDAR]: {{ site.baseurl }}{% link glossary/l.md %}#lidar
 [Leave-One-Out Cross-Validation]: {{ site.baseurl }}{% link glossary/l.md %}#leave-one-out-cross-validation
@@ -45,7 +51,9 @@
 [Linux Foundation AI and Data]: {{ site.baseurl }}{% link glossary/l.md %}#linux-fundation-ai-and-data
 [LFAI&Data]: {{ site.baseurl }}{% link glossary/l.md %}#linux-fundation-ai-and-data
 [LLaMa Model]: {{ site.baseurl }}{% link glossary/l.md %}#llama-model
+[LLaMa]: {{ site.baseurl }}{% link glossary/l.md %}#llama-model
 [LLaMa-Adapter Model]: {{ site.baseurl }}{% link glossary/l.md %}#llama-adapter-model
+[LLaMa-Adapter]: {{ site.baseurl }}{% link glossary/l.md %}#llama-adapter-model
 [Log Loss Function]: {{ site.baseurl }}{% link glossary/l.md %}#log-loss-function
 [Log Transformation]: {{ site.baseurl }}{% link glossary/l.md %}#log-transformation
 [Logic Model]: {{ site.baseurl }}{% link glossary/l.md %}#logic-model

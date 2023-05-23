@@ -1,6 +1,7 @@
 [B]: {{ site.baseurl }}{% link glossary/b.md %}
 
 [BabyAGI Model]: {{ site.baseurl }}{% link glossary/b.md %}#babyagi-model
+[BabyAGI]: {{ site.baseurl }}{% link glossary/b.md %}#babyagi-model
 [Backpropagation]: {{ site.baseurl }}{% link glossary/b.md %}#backpropagation
 [Bag Of Words]: {{ site.baseurl }}{% link glossary/b.md %}#bag-of-words
 [Baggingng]: {{ site.baseurl }}{% link glossary/b.md %}#bag-of-words
@@ -8,6 +9,7 @@
 [Baidu]: {{ site.baseurl }}{% link glossary/b.md %}#baidu-company
 [Balanced Fitting]: {{ site.baseurl }}{% link glossary/b.md %}#balanced-fitting
 [Bard Model]: {{ site.baseurl }}{% link glossary/b.md %}#bard-model
+[Bard]: {{ site.baseurl }}{% link glossary/b.md %}#bard-model
 [Batch]: {{ site.baseurl }}{% link glossary/b.md %}#batch
 [Batch Gradient Descent]: {{ site.baseurl }}{% link glossary/b.md %}#batch-gradient-descent
 [Batch Normalization]: {{ site.baseurl }}{% link glossary/b.md %}#batch-normalization
@@ -32,7 +34,9 @@
 [Bias-Variance Trade-Off]: {{ site.baseurl }}{% link glossary/b.md %}#bias-variance-trade-off
 [Bicentennial Man Movie]: {{ site.baseurl }}{% link glossary/b.md %}#bicentenial-man-movie
 [Bidirectional Encoder Representation from Transformer Model]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model
+[Bidirectional Encoder Representation from Transformer]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model
 [BERT Model]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model
+[BERT]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model
 [Bidirectional Recurrent Neural Network]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-recurrent-neural-network
 [BRNN]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-recurrent-neural-network
 [Big Data]: {{ site.baseurl }}{% link glossary/b.md %}#big-data
@@ -45,6 +49,7 @@
 [Bing Search Engine]: {{ site.baseurl }}{% link glossary/b.md %}#bing-search-engine
 [Biological Neuron]: {{ site.baseurl }}{% link glossary/b.md %}#biological-neuron
 [BLIP Model]: {{ site.baseurl }}{% link glossary/b.md %}#blip-model
+[BLIP]: {{ site.baseurl }}{% link glossary/b.md %}#blip-model
 [Black Box Model]: {{ site.baseurl }}{% link glossary/b.md %}#black-box-model
 [Boltzmann Machine]: {{ site.baseurl }}{% link glossary/b.md %}#boltzmann-machine
 [Boosting]: {{ site.baseurl }}{% link glossary/b.md %}#boosting

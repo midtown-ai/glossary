@@ -1,8 +1,8 @@
 [T]: {{ site.baseurl }}{% link glossary/t.md %}
 
+[T-Distributed Stochastic Neighbor Embedding]: {{ site.baseurl }}{% link glossary/t.md %}#t-distributed-stochastic-neighbor-embedding-algorithm
+[t-SNE]: {{ site.baseurl }}{% link glossary/t.md %}#t-distributed-stochastic-neighbor-embedding-algorithm
 [T-Distribution]: {{ site.baseurl }}{% link glossary/t.md %}#t-distribution
-[t-Stochastic Neighbor Embedding]: {{ site.baseurl }}{% link glossary/t.md %}#t-stochastic-neighbor-embedding
-[t-SNE]: {{ site.baseurl }}{% link glossary/t.md %}#t-stochastic-neighbor-embedding
 [Tanh Activation Function]: {{ site.baseurl }}{% link glossary/t.md %}#tanh-activation-function
 [T5 Model]: {{ site.baseurl }}{% link glossary/t.md %}#t5-model
 [Target Attribute]: {{ site.baseurl }}{% link glossary/t.md %}#target-attribute

@@ -81,14 +81,21 @@
 [AlexNet Model]: {{ site.baseurl }}{% link glossary/a.md %}#alexnet-model
 [Algorithmic]: {{ site.baseurl }}{% link glossary/a.md %}#algorithmic
 [Alpaca Model]: {{ site.baseurl }}{% link glossary/a.md %}#alpaca-model
+[Alpaca]: {{ site.baseurl }}{% link glossary/a.md %}#alpaca-model
 [Alpha Learning Rate]: {{ site.baseurl }}{% link glossary/a.md %}#alpha-learning-rate
 [AlphaCode Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphacode-model
+[AlphaCode]: {{ site.baseurl }}{% link glossary/a.md %}#alphacode-model
 [AlphaFault]: {{ site.baseurl }}{% link glossary/a.md %}#alphafault
 [AlphaGO Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphago-model
+[AlphaGO]: {{ site.baseurl }}{% link glossary/a.md %}#alphago-model
 [AlphaFold Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphafold-model
+[AlphaFold]: {{ site.baseurl }}{% link glossary/a.md %}#alphafold-model
 [AlphaStar Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphastar-model
+[AlphaStar]: {{ site.baseurl }}{% link glossary/a.md %}#alphastar-model
 [AlphaTensor Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphatensor-model
+[AlphaTensor]: {{ site.baseurl }}{% link glossary/a.md %}#alphatensor-model
 [AlphaZero Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphazero-model
+[AlphaZero]: {{ site.baseurl }}{% link glossary/a.md %}#alphazero-model
 [Amazon Company]: {{ site.baseurl }}{% link glossary/a.md %}#amazon-company
 [Amazon]: {{ site.baseurl }}{% link glossary/a.md %}#amazon-company
 [Amazon Web Services]: {{ site.baseurl }}{% link glossary/a.md %}#amazon-web-services
@@ -105,10 +112,13 @@
 [Apple]: {{ site.baseurl }}{% link glossary/a.md %}#apple-company
 [Apprentice Learning]: {{ site.baseurl }}{% link glossary/a.md %}#apprentice-learning
 [Apriori Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#apriori-algorithm
+[Apriori]: {{ site.baseurl }}{% link glossary/a.md %}#apriori-algorithm
 [Area Under The Curve]: {{ site.baseurl }}{% link glossary/a.md %}#area-under-the-curve
 [AUC]: {{ site.baseurl }}{% link glossary/a.md %}#area-under-the-curve
 [Argmax Function]: {{ site.baseurl }}{% link glossary/a.md %}#argmax-function
+[Argmax]: {{ site.baseurl }}{% link glossary/a.md %}#argmax-function
 [Argmin Function]: {{ site.baseurl }}{% link glossary/a.md %}#argmin-function
+[Argmin]: {{ site.baseurl }}{% link glossary/a.md %}#argmin-function
 [Artificial General Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-general-intelligence
 [AGI]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-general-intelligence
 [Artificial Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence
@@ -116,8 +126,7 @@
 [Artificial Intelligence Areas Of Study]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-areas-of-study
 [AI Areas Of Study]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-areas-of-study
 [Artificial Intelligence Challenge]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-challenge
-[Artificial Intelligence Challenge]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-challenge
-[AI Challenge]: {{ site.baseurl }}{% link glossary/a.md %}#ai-challenge
+[AI Challenge]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-challenge
 [Artificial Intelligence Complete]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-complete
 [AI Complete]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-complete
 [Artificial Intelligence Hard]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-hard
@@ -151,6 +160,7 @@
 [Autoencoding]: {{ site.baseurl }}{% link glossary/a.md %}#autoencoding
 [Autoencoding Model]: {{ site.baseurl }}{% link glossary/a.md %}#autoencoding-model
 [AutoGPT Model]: {{ site.baseurl }}{% link glossary/a.md %}#autogpt-model
+[AutoGPT]: {{ site.baseurl }}{% link glossary/a.md %}#autogpt-model
 [Automation]: {{ site.baseurl }}{% link glossary/a.md %}#automation
 [AutoML]: {{ site.baseurl }}{% link glossary/a.md %}#automl
 [Autonomous Vehicle]: {{ site.baseurl }}{% link glossary/a.md %}#autonomous-vehicle

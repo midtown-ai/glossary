@@ -265,7 +265,33 @@ StandardScaler()
  See also [S], ...
 
 
-# Self-Organizing Map
+# Self-Organizing Map Algorithm
+
+# SOM Algorithm
+
+ SOM (Self-Organizing Map), also known as Kohonen map, is an [unsupervised learning] algorithm used for clustering, visualization, and dimensionality reduction tasks. It was developed by Finnish professor Teuvo Kohonen in the 1980s.
+
+ SOM is a type of artificial neural network that learns to represent the input data in a lower-dimensional grid or map while preserving the topological relationships between the data points. The algorithm organizes the input data based on their similarity, grouping similar instances together in the map.
+
+ Here's a general overview of how SOM works:
+  1. Initialization: SOM starts by initializing a grid of neurons, each representing a specific location in the map. Each neuron is associated with a weight vector of the same dimensionality as the input data.
+  1. Training: The algorithm iteratively presents input data samples to the SOM. For each input sample, the algorithm finds the best matching unit (BMU), which is the neuron with weight vector closest to the input sample in terms of similarity (e.g., using Euclidean distance).
+  1. Neighborhood Update: After finding the BMU, the algorithm updates the weights of the BMU and its neighboring neurons in the map. The update is performed to move the weights closer to the input sample, encouraging nearby neurons to become more similar to the BMU.
+  1. Iteration: The training process repeats for a specified number of iterations or until convergence. As the training progresses, the map self-organizes, and similar input samples tend to be grouped together.
+  1. Visualization and Clustering: Once trained, the SOM can be used for various purposes. It can be used to visualize the high-dimensional input data in a lower-dimensional map, providing insights into the underlying structure of the data. Additionally, the SOM can be used for clustering by assigning new instances to the cluster associated with the BMU or by grouping instances that are close to each other in the map.
+
+ SOM is particularly useful for visualizing and exploring high-dimensional data, discovering clusters or patterns, and reducing the dimensionality of data for subsequent analysis. It has applications in various fields, including data mining, image processing, feature extraction, and anomaly detection.
+
+ ![]( {{site.assets}}/s/self_organizing_map_algorithm.png ){:width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=5CvJWtxytIk" %}
+
+ {% youtube "https://www.youtube.com/watch?v=K4WuE7zlOZo" %}
+
+ {% pdf "https://sci2s.ugr.es/keel/pdf/algorithm/articulo/1990-Kohonen-PIEEE.pdf" %}
+
+ More at:
+  * [https://www.superdatascience.com/blogs/the-ultimate-guide-to-self-organizing-maps-soms](https://www.superdatascience.com/blogs/the-ultimate-guide-to-self-organizing-maps-soms)
 
  See also [S], [Unsupervised Deep Learning Model], [Unsupervised Learning]
 
@@ -387,13 +413,24 @@ StandardScaler()
 
 # Seq2Seq Model
 
- = A supervised learning algorithm where the input is a sequence of tokens (for example, text, audio) and the output generated is another sequence of tokens. Example applications include: machine translation (input a sentence from one language and predict what that sentence would be in another language), text summarization (input a longer string of words and predict a shorter string of words that is a summary), speech-to-text (audio clips converted into output sentences in tokens). Recently, problems in this domain have been successfully modeled with deep neural networks that show a significant performance boost over previous methodologies. Amazon SageMaker seq2seq uses Recurrent Neural Networks (RNNs) and Convolutional Neural Network (CNN) models with attention as encoder-decoder architectures. Seq2Seq models are particularly good at translation, where a sequence of words from one language is transformed into a sequence of different words in another language. `Google Translate started using a Seq2Seq-based model in production in late 2016`
+ = A [supervised learning] algorithm where the input is a sequence of tokens (for example, text, audio) and the output generated is another sequence of tokens. 
+
+ Example applications include:
+  * [machine translation] - input a sentence from one language and predict what that sentence would be in another language
+  * [text summarization] - input a longer string of words and predict a shorter string of words that is a summary
+  * [speech-to-text] - audio clips converted into output sentences in tokens.
+
+ Recently, problems in this domain have been successfully modeled with deep neural networks that show a significant performance boost over previous methodologies. Amazon SageMaker seq2seq uses [Recurrent Neural Networks (RNNs)][RNN] and [Convolutional Neural Network (CNN)][CNN] models with [attention] as encoder-decoder architectures. Seq2Seq models are particularly good at translation, where a sequence of words from one language is transformed into a sequence of different words in another language.
+
+ `Google Translate started using a Seq2Seq-based model in production in late 2016`
 
  ![]( {{site.assets}}/s/sequence_to_sequence_model.png ){: width="100%}
 
- Seq2Seq models consist of two parts: an encoder and a decoder. Imagine the encoder and decoder as human translators who can each speak only two languages, with each having a different mother tongue. For our example, we’ll say the encoder is a native French speaker and the decoder is a native English speaker. The two have a second language in common: let’s say it’s Korean. To translate French into English, the encoder converts the French sentence into Korean (known as context) and passes on the context to the decoder. Since the decoder understands Korean, he or she can now translate from Korean into English. Working together, they can translate the French language to English.
+ Seq2Seq models consist of two parts: an [encoder] and a [decoder]. Imagine the encoder and decoder as human translators who can each speak only two languages, with each having a different mother tongue. For our example, we’ll say the encoder is a native French speaker and the decoder is a native English speaker. The two have a second language in common: let’s say it’s Korean. To translate French into English, the encoder converts the French sentence into Korean (known as context) and passes on the context to the decoder. Since the decoder understands Korean, he or she can now translate from Korean into English. Working together, they can translate the French language to English.
 
- See also [S], [Convolutional Neural Network], [Seq2Seq Transformer], [Natural Language Processing], [Recurrent Neural Network], [Supervised Learning], [Text-To-Speech Model]
+ {% youtube "https://www.youtube.com/watch?v=L8HKweZIOmg" %}
+
+ See also [S], [Seq2Seq Transformer], [Natural Language Processing], [Text-To-Speech Model]
 
 
 # Sequence To Sequence Transformer
@@ -538,6 +575,13 @@ Siri is a spin-off from a project developed by the SRI International Artificial 
  A way to alleviate the vanishing gradient problem by having activation skip hidden layers?
 
  See also [S], [Residual Block], [Residual Network Model]
+
+
+# Skip Gram
+
+ = increases the context by using word in the middle to predict the surrounding words
+
+ See also [S], [Word2Vec Model]
 
 
 # Slicing Function

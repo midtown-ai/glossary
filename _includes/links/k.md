@@ -1,11 +1,12 @@
 [K]: {{ site.baseurl }}{% link glossary/k.md %}
 
 [K-Fold Cross Validation]: {{ site.baseurl }}{% link glossary/k.md %}#k-fold-cross-validation
-[K-Mean Algorithm]: {{ site.baseurl }}{% link glossary/k.md %}#k-mean-algorithm
-[K-Mean Cluster]: {{ site.baseurl }}{% link glossary/k.md %}#k-mean-cluster
-[K-Mean Failure]: {{ site.baseurl }}{% link glossary/k.md %}#k-mean-failure
-[K-Nearest Neighbor]: {{ site.baseurl }}{% link glossary/k.md %}#k-nearest-neihbor
-[KNN]: {{ site.baseurl }}{% link glossary/k.md %}#knn
+[K-Means Clustering Algorithm]: {{ site.baseurl }}{% link glossary/k.md %}#k-means-clustering-algorithm
+[K-Means Clustering Algorithms]: {{ site.baseurl }}{% link glossary/k.md %}#k-means-clustering-algorithm
+[K-Means Clustering]: {{ site.baseurl }}{% link glossary/k.md %}#k-means-clustering-algorithm
+[K-Means Clustering Failure]: {{ site.baseurl }}{% link glossary/k.md %}#k-means-clustering-failure
+[K-Nearest Neighbor Algorithm]: {{ site.baseurl }}{% link glossary/k.md %}#k-nearest-neighbor-algorithm
+[KNN Algorithm]: {{ site.baseurl }}{% link glossary/k.md %}#k-nearest-neighbor-algorithm
 [Keras]: {{ site.baseurl }}{% link glossary/k.md %}#keras
 [Kernel Trick]: {{ site.baseurl }}{% link glossary/k.md %}#kernel-trick
 [Knowledge]: {{ site.baseurl }}{% link glossary/k.md %}#knowledge

@@ -74,38 +74,40 @@ layout: page
  See also [K], ...
 
 
-# K-Mean Algorithm
+# K-Means Clustering Algorithm
 
  Recurrence algorithm. Give a number of clusters (eg 3), then you try to group your samples to the 3 clusters. A cluster is defined by its cluster centre. For each sample , measure the distance to the centre-1, centre-2, centre-3 if 3 clusters. The point/sample belongs to the cluster whose centre is the closest. then move the centre to the place where those that belongs to the cluster error is minimum (i.e. move the centre of the cluster to a new location). Then recur with the new position for the cluster centres. At some point, the cluster centres will not move and the recurrence will therefore stop.
 
- See also [K], [K-Mean Cluster], [K-Mean Failure]
+ When using K-Means algorithm, how to find the number of clusters? Do this iteratively (2, 3, ...) and for each scenario plot the sum of the squared error. Then look at the elbow, where the squared error drops significantly. Where that happens, you have found the number of clusters. Increasing the number of clusters beyond that number only has a marginal effect.
+
+ {% youtube "https://www.youtube.com/watch?v=mEGYznC6F9s" %}
+
+ {% youtube "https://www.youtube.com/watch?v=6UF5Ysk_2gk" %}
+
+ See also [K], [K-Means Clustering Failure]
 
 
-# K-Mean Cluster
+# K-Means Clustering Failure
 
-  When using K-Mean algorithm, how to find the number of clusters? Do this iteratively (2, 3, ...) and for each scenario plot the sum of the squared error. Then look at the elbow, where the squared error drops significantly. Where that happens, you have found the number of clusters. Increasing the number of clusters beyond that number only has a marginal effect.
-
-  See also [K], [K-Mean Algorithm]
-
-
-# K-Mean Failure
-
- There are scenarios in which k-means fails. Here the 2 groups of samples are not correctly identified. In that particular case, k-mean does not work correctly.
+ There are scenarios in which the k-means clustering algorithm fails. Here the 2 groups of samples are not correctly identified. In that particular case, k-mean does not work correctly.
 
  ![]( {{site.assets}}/k/kmean_failure.png ){: width="100%"}
 
- A possible solution is DBSCAN.
+ A possible solution is the [DBSCAN algorithm].
 
- See also [K], [DBSCAN], [K-Mean Algorithm]
+ See also [K], ...
 
 
 # K-Nearest Neighbor
 
 # KNN
 
- KNN can be used for both classification and regression predictive problems. However, it is more widely used in classification problems in the industry. It is commonly used for its easy of interpretation and low calculation time. In the example below, K=3 and given that the 3 nearest neighbor are in the same class, we are fairly confident, the new sample is in the same class.
+ KNN can be used for both [classification] and regression predictive problems. However, it is more widely used in classification problems in the industry. It is commonly used for its easy of interpretation and low calculation time. In the example below, K=3 and given that the 3 nearest neighbor are in the same class, we are fairly confident, the new [sample] is in the same class.
 
  ![]( {{site.assets}}/k/k_nearest_neighbor.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=0p0o5cmgLdE" %}
+ {% youtube "https://www.youtube.com/watch?v=rTEtEy5o3X0" %}
 
  More at:
   * [https://www.analyticsvidhya.com/blog/2018/03/introduction-k-neighbours-algorithm-clustering/](https://www.analyticsvidhya.com/blog/2018/03/introduction-k-neighbours-algorithm-clustering/)

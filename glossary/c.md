@@ -76,7 +76,7 @@ layout: page
 
 # CatBoost Library
 
- CatBoost is a machine learning method based on [Gradient Boosting] over [Decision Trees][Decision Tree].
+ CatBoost is a machine learning method based on [gradient boosting] over [decision trees].
 
  Main advantages:
   * Superior quality when compared with other GBDT libraries on many datasets.
@@ -85,6 +85,10 @@ layout: page
   * Fast GPU and multi-GPU support for training out of the box.
   * Visualization tools included.
   * Fast and reproducible distributed training with Apache Spark and CLI.
+
+ {% youtube "https://www.youtube.com/watch?v=KXOTSkPL2X4" %}
+
+ {% youtube "https://www.youtube.com/watch?v=3Bg2XRFOTzg" %}
 
  More at:
   * [https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145](https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145)
@@ -291,14 +295,25 @@ print(query_result)
 
 # Classification
 
- A type of supervised learning algorithm. The goal in classification is to take input values and organize them into two or more categories. The categories are normally mutually exclusive (ex is this shape a circle, a rectangle or a triangle? Beware of 3-d shape projections, i.e. perspectives!). An example classification use case is fraud detection. In fraud detection, the goal is to take information about the transaction and use it to determine if the transaction is either fraudulent or not fraudulent. When XGBoost is given a dataset of past transactions and whether or not they were fraudulent, it can learn a function that maps input transaction data to the probability that transaction was fraudulent. Models used for classification:
-  * Decision tree 
-  * Logistic regression
-  * Support Vector Machine (~ boundary zone in an hyperplane)
+ A type of supervised learning algorithm. The goal in classification is to take input values and organize them into two or more categories. The categories are normally mutually exclusive (ex is this shape a circle, a rectangle or a triangle? Beware of 3-d shape projections, i.e. perspectives!). An example classification use case is fraud detection. In fraud detection, the goal is to take information about the transaction and use it to determine if the transaction is either fraudulent or not fraudulent. When XGBoost is given a dataset of past transactions and whether or not they were fraudulent, it can learn a function that maps input transaction data to the probability that transaction was fraudulent.
+
+ Classification algorithms:
+  * Supervised
+    * [Learning Vector Quantization (LVQ)][LVQ]
+  * Unsupervised
+    * [K-Means Clustering]
+  * Semi-supervised
+    * [K-Nearest Neighbor (KNN)][KNN]
+  * Others
+    * [Decision tree]
+    * [Logistic regression]
+    * [Support Vector Machine (SVM)][SVM] - [boundary zone] is an [hyperplane]
+    * [Random Forest]
+    * [Boosted Trees] with [XGBoost] or LightBoost
 
  ![]( {{site.assets}}/c/classification.png ){: width="100%"}
 
- See also [C], [Binary Classification], [Decision Tree], [Hyperplane], [Logistic Regression], [Multiclass Classification], [Supervised Learning], [Support Vector Machine], [XGBoost]
+ See also [C], [Binary Classification], [Multiclass Classification], [Supervised Learning]
 
 
 # Claude Model
@@ -331,7 +346,11 @@ print(query_result)
 
 # Clustering
 
- Ex: Clustering is also used by internet radio services; given a collection of songs, a clustering algorithm might be able to group the songs according to their genres. Using different similarity measures, the same clustering algorithm might group the songs by their keys, or by the instruments they contain.
+ Ex: Clustering is also used by internet radio services; given a collection of songs, a clustering algorithm might be able to group the songs according to their genres. Using different similarity measures, the same clustering algorithm might group the songs by their keys, or by the instruments they contain. ==> [Classification]
+
+ Algorithms:
+  * [Learning Vector Quantization (LVQ)][LVQ] - Supervised
+  * [K-Means Clustering] - Semi-supervised
 
  See also [C], [Initialization], [Unsupervised Learning]
 
@@ -907,10 +926,41 @@ fig.colorbar(cax)
 pyplot.show()
  ```
 
- ![]( {{site.assets}}/c/correlation_matrixi_plot.png ){: width="100%"}
+ ![]( {{site.assets}}/c/correlation_matrix_plot.png ){: width="100%"}
 
  More at:
   * ...
+
+ See also [C], ...
+
+
+# Cosine Similarity
+
+ Can tell us how similar or different 2 phrases are.
+  * 2 same sentences, are the exact same, then the cosine similarity is cos(0) = 1
+  * 2 sentences have no words in common, then the angle between 2 phrases is 90 deg, cosine similarity is cos(90 deg) = 0 
+  * 2 sentences have some words in common, then cosine similarity is between 0 and 1
+
+ Step-by-step
+  1. Make a table of word counts
+  1. Plot the points
+  1. Figure out angle
+  1. Calculate the Cosine of the angle
+
+ Beware:
+  * Use angles only!
+  * The number of times a word appears does not change the cosine similarity, e.g. "hello hello world" is exactly same as "hello world"
+  * Each word adds a new dimension. So for more than 2 words, use the cosine similarity formula (but assume the math-context is the same)
+
+ Here is an illustration for a cosine similarity for 2 sentences with only 2 words (2 dimensions)
+
+ ![]( {{site.assets}}/c/cosine_similarity_1.png ){: width="100%"}
+
+ Here is the formula for the cosine similarity for N words (N dimensions)
+
+ ![]( {{site.assets}}/c/cosine_similarity_2.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=e9U0QAFbfLI" %}
 
  See also [C], ...
 
@@ -921,7 +971,7 @@ pyplot.show()
 
  Cost = negative reward
 
- See also [C], [REward]
+ See also [C], [Reward]
 
 
 # Cost Function

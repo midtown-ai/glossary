@@ -14,16 +14,20 @@
 [Chain Of Thought Prompting]: {{ site.baseurl }}{% link glossary/c.md %}#chain-of-thought-prompting
 [Chained Model]: {{ site.baseurl }}{% link glossary/c.md %}#chained-model
 [Chatbot]: {{ site.baseurl }}{% link glossary/c.md %}#chatbot
-[Chatgpt Model]: {{ site.baseurl }}{% link glossary/c.md %}#chatgpt-model
+[ChatGPT Model]: {{ site.baseurl }}{% link glossary/c.md %}#chatgpt-model
+[ChatGPT]: {{ site.baseurl }}{% link glossary/c.md %}#chatgpt-model
 [Checkpoint Evaluation]: {{ site.baseurl }}{% link glossary/c.md %}#checkpoint-evaluation
 [Child Development Milestone]: {{ site.baseurl }}{% link glossary/c.md %}#child-development-milestone
 [Chinchilla Model]: {{ site.baseurl }}{% link glossary/c.md %}#chinchilla-model
 [Chroma Database]: {{ site.baseurl }}{% link glossary/c.md %}#chroma-database
 [CIDEr Score]: {{ site.baseurl }}{% link glossary/c.md %}#cider-score
 [CICERO Model]: {{ site.baseurl }}{% link glossary/c.md %}#cicero-model
+[CICERO]: {{ site.baseurl }}{% link glossary/c.md %}#cicero-model
 [CIFAR Dataset]: {{ site.baseurl }}{% link glossary/c.md %}#cifar-dataset
+[CIFAR]: {{ site.baseurl }}{% link glossary/c.md %}#cifar-dataset
 [Classification]: {{ site.baseurl }}{% link glossary/c.md %}#classification
 [Claude Model]: {{ site.baseurl }}{% link glossary/c.md %}#claude-model
+[Claude]: {{ site.baseurl }}{% link glossary/c.md %}#claude-model
 [CLIP Image Encoder]: {{ site.baseurl }}{% link glossary/c.md %}#clip-image-encoder
 [CLIP Text Encoder]: {{ site.baseurl }}{% link glossary/c.md %}#clip-text-encoder
 [Clustering]: {{ site.baseurl }}{% link glossary/c.md %}#clustering
@@ -75,6 +79,7 @@
 [CoreML Framework]: {{ site.baseurl }}{% link glossary/c.md %}#coreml-framework
 [CoreML Tool]: {{ site.baseurl }}{% link glossary/c.md %}#coreml-tool
 [Corpus]: {{ site.baseurl }}{% link glossary/c.md %}#corpus
+[Cosine Similarity]: {{ site.baseurl }}{% link glossary/c.md %}#cosine-similarity
 [Cost]: {{ site.baseurl }}{% link glossary/c.md %}#cost
 [Cost Function]: {{ site.baseurl }}{% link glossary/c.md %}#cost-function
 [CPU]: {{ site.baseurl }}{% link glossary/c.md %}#cpu

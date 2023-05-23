@@ -21,7 +21,10 @@
 [Segment Anything Model]: {{ site.baseurl}}{% link glossary/s.md %}#segment-anything-model
 [SAM]: {{ site.baseurl}}{% link glossary/s.md %}#segment-anything-model
 [Self-Attention]: {{ site.baseurl}}{% link glossary/s.md %}#self-attention
-[Self-Organizing Map]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map
+[Self-Organizing Map Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
+[Self-Organizing Map]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
+[SOM Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
+[SOM]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
 [Self-Supervised Learning]: {{ site.baseurl}}{% link glossary/s.md %}#self-supervised-learning
 [Semantic Search]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-search
 [Semantic Segmentation]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-segmentation
@@ -52,6 +55,8 @@
 [SVD]: {{ site.baseurl}}{% link glossary/s.md %}#single-value-decomposition
 [Siri Virtual Assistant]: {{ site.baseurl}}{% link glossary/s.md %}#siri-virtual-assistant
 [Skip Connection]: {{ site.baseurl}}{% link glossary/s.md %}#skip-connection
+[Skip Connections]: {{ site.baseurl}}{% link glossary/s.md %}#skip-connection
+[Skip Gram]: {{ site.baseurl}}{% link glossary/s.md %}#skip-gram
 [Slicing Function]: {{ site.baseurl}}{% link glossary/s.md %}#slicing-function
 [Snorkel Program]: {{ site.baseurl}}{% link glossary/s.md %}#snorkel-program
 [Sobol Search]: {{ site.baseurl}}{% link glossary/s.md %}#sobol-search
