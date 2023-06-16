@@ -49,6 +49,8 @@ layout: page
 
 # Backpropagation
 
+ The way for machine to learn from their mistakes!
+
  = a brute force approach, where you pick random weight and you iterate on them until they arrive at a stable solution. This is a `widely used algorithm for training feedforward neural networks and other ANN`. Approach discovered in 1986 that re-stimulated AI. Help a model learn from its mistakes by leveraging the chain rule of derivatives. The backpropagation algorithm consists in modifying the weight and bias of each cell in each layer based on their impact on the estimated output, or loss function (diff between estimated output and real output).
 
  {% youtube "https://www.youtube.com/watch?v=Ilg3gGewQ5U" %}
@@ -154,7 +156,10 @@ layout: page
 
 # Batch Size
 
- The number of samples (rows) in a batch.
+ The number of samples (rows) in a batch. Configured to optimize the utilization of the [GPU]
+
+ More at:
+  * [https://towardsdatascience.com/how-to-increase-training-performance-through-memory-optimization-1000d30351c8](https://towardsdatascience.com/how-to-increase-training-performance-through-memory-optimization-1000d30351c8)
 
  See also [B], [Batch]
 
@@ -526,6 +531,23 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  A neural network is a black box model as even if you saw the weights you would have difficulties understanding how it comes to a decision. In fact it may come to the right answer using the wrong reasons. The opposite of a [White Box Model] in relation to [Explainable AI]
 
  See also [B], ...
+
+
+# BloombergGPT Model
+
+ Based on Bloom, but what makes it special is the data set it is trained on, public and private (FinPile)
+
+ {% youtube "https://www.youtube.com/watch?v=FxMDrHnKWnk" %}
+
+ {% pdf "https://arxiv.org/pdf/2303.17564.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2303.17564](https://arxiv.org/abs/2303.17564)
+  * blog - [https://www.bloomberg.com/company/press/bloomberggpt-50-billion-parameter-llm-tuned-finance/](https://www.bloomberg.com/company/press/bloomberggpt-50-billion-parameter-llm-tuned-finance/)
+  * article(s)
+    * [https://openaimaster.com/how-to-use-bloomberg-gpt/](https://openaimaster.com/how-to-use-bloomberg-gpt/)
+
+ See also [B], [Chinchilla Scaling Law]
 
 
 # Boltzmann Machine

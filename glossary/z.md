@@ -76,6 +76,19 @@ layout: page
  See also [Z], ...
 
 
+# Zero Redundancy Optimization
+
+ [GPU] memory optimization
+
+ More at:
+  * [https://towardsdatascience.com/how-to-increase-training-performance-through-memory-optimization-1000d30351c8](https://towardsdatascience.com/how-to-increase-training-performance-through-memory-optimization-1000d30351c8)
+  * [https://www.deepspeed.ai/tutorials/zero/](https://www.deepspeed.ai/tutorials/zero/)
+  * [https://www.microsoft.com/en-us/research/blog/zero-deepspeed-new-system-optimizations-enable-training-models-with-over-100-billion-parameters/](https://www.microsoft.com/en-us/research/blog/zero-deepspeed-new-system-optimizations-enable-training-models-with-over-100-billion-parameters/)
+  * [https://huggingface.co/docs/transformers/main_classes/deepspeed](https://huggingface.co/docs/transformers/main_classes/deepspeed)
+
+ See also [Z], [Activation Checkpointing]
+
+
 # Zero-Shot Learning
 
   The model predicts the answer given only a natural language description of the task. No gradient updates are performed.
@@ -98,7 +111,30 @@ cheese =>                                # Prompt
 
  `Q:` To find a horse using a cat-dog model, do we need to build the model using the semantic attributes for the cat and dog? i.e the semantic attribute that will be used to find the horse (ex: has a tail, fur, color is brown, black, or white, etc)
 
+ More at:
+  * [https://www.promptingguide.ai/techniques/zeroshot](https://www.promptingguide.ai/techniques/zeroshot)
+
  See also [Z], [Data Augmentation], [Few-Shot Learning], [Image Classifier], [Insufficient Data Algorithm], [One-Shot Learning], [Semantic Space], [Zero-Shot Task Transfer]
+
+
+# Zero-Shot Prompting
+
+ ~ [Zero-shot learning] applied to [prompt engineering]
+
+ ```
+# Prompt
+Classify the text into neutral, negative or positive. 
+Text: I think the vacation is okay.
+Sentiment:
+
+# Output
+Neutral
+```
+
+ More at:
+  * [https://www.promptingguide.ai/techniques/zeroshot](https://www.promptingguide.ai/techniques/zeroshot)
+
+ See also [Z], ...
 
 
 # Zero-Shot Task Transfer

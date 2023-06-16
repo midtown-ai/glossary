@@ -62,9 +62,10 @@ Predict what are the required agent skills based some input parameters
 
 # Machine Learning Framework
 
-  * pytorch
-  * tensorflow
-  * JAX
+  * [pytorch]
+  * [tensorflow]
+  * [JAX]
+
  Watch for:
   * eager mode (execute like a python script, from top to bottom)
   * graph format and execution engine natively has no need for Python, and TensorFlow Lite and TensorFlow Serving address mobile and serving considerations respectively.
@@ -72,7 +73,7 @@ Predict what are the required agent skills based some input parameters
  More at :
   * [https://thegradient.pub/state-of-ml-frameworks-2019-pytorch-dominates-research-tensorflow-dominates-industry/](https://thegradient.pub/state-of-ml-frameworks-2019-pytorch-dominates-research-tensorflow-dominates-industry/)
 
- See also [M], [JAX ML Framework], [PyTorch ML Framework], [TensorFlow ML Framework]
+ See also [M], ...
 
 
 # Machine Learning Pipeline
@@ -158,7 +159,10 @@ Predict what are the required agent skills based some input parameters
 
 # Magi Model
 
- Hand gesture model by [Google] ?
+ New search engine based on an AI model built by [Google] ?
+
+ More at:
+  * [https://blog.google/technology/developers/google-io-2023-100-announcements/](https://blog.google/technology/developers/google-io-2023-100-announcements/)
 
  See also [M], ...
 
@@ -265,6 +269,42 @@ The training is identical -- we still predict each masked WordPiece token indepe
 # MVM
 
  See also [M], [Masked Language Modeling], [Vision-Language Pre-Training]
+
+
+# Matplotlib Python Module
+
+ A [python module] used for visualization
+
+ ```
+import matplotlib.pyplot as plt
+import numpy as np
+
+plt.style.use('_mpl-gallery')
+
+# make the data
+np.random.seed(3)
+x = 4 + np.random.normal(0, 2, 24)
+y = 4 + np.random.normal(0, 2, len(x))
+# size and color:
+sizes = np.random.uniform(15, 80, len(x))
+colors = np.random.uniform(15, 80, len(x))
+
+# plot
+fig, ax = plt.subplots()
+
+ax.scatter(x, y, s=sizes, c=colors, vmin=0, vmax=100)
+
+ax.set(xlim=(0, 8), xticks=np.arange(1, 8),
+       ylim=(0, 8), yticks=np.arange(1, 8))
+
+plt.show()
+ ```
+
+ More at:
+  * [https://matplotlib.org/](https://matplotlib.org/)
+  * examples - [https://matplotlib.org/stable/plot_types/index.html](https://matplotlib.org/stable/plot_types/index.html)
+
+ See also [M], ...
 
 
 # Matrix
@@ -572,6 +612,8 @@ def mse_loss(y_pred, y_true):
   * [Pluribus][Pluribus Model]: Plays poker better than humans
   * [RoBERTa][RoBERTa Model]: Optimized version of BERT
   * [Segment Anything][Segment Anything Model]: Instance segmentation in images
+  * [Fairseq Toolkit] - Facebook AI Research Toolkit
+    * [Wav2Vec] - For [Automatic Speech Recognition (ASR)][ASR]
 
  More at:
   * research on github - [https://github.com/facebookresearch](https://github.com/facebookresearch)
@@ -658,14 +700,14 @@ def mse_loss(y_pred, y_true):
  See also [M], [Diffusion Model]
 
 
-# Milvus Database
+# Milvus Vector Database
 
  An open-source [vector database] that is highly flexible, reliable, and blazing fast.
 
  ![]( {{site.assets}}/m/milvus_database.png ){: width="100%"}
 
  More at:
-  * home - [https://milvus.io/](https://milvus.io/)
+  * site - [https://milvus.io/](https://milvus.io/)
 
  See also [M], [Vector Database]
 
@@ -978,11 +1020,15 @@ def mse_loss(y_pred, y_true):
  See also [M], [Game Theory]
 
 
-# Multi-Head Attention
+# Multi-Head Self-Attention
 
  ~ the brains of the Transformer and responsible for performance through parallelism. Multi-Head Attention consists of several attention layers running in parallel. The Attention layer takes its input in the form of three parameters, known as the Query, Key, and Value (aka Q,K,V). All three parameters are similar in structure, with each word in the sequence represented by a vector. In transformers is used for encoder and decoder.
 
  ![]( {{site.assets}}/m/multi_head_attention.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=g2BRIuln4uc" %}
+
+ {% youtube "https://www.youtube.com/watch?v=PFczJ6NR5rY" %}
 
  See also [M], [Attention Score], [Attention-Based Model], [Decoder], [Encoder], [Masked Self-Attention], [Self-Attention], [Transformer Model]
 
@@ -1122,6 +1168,15 @@ AI that can understand the relationships between images, text and more
  See also [M], [BLIP Model]
 
 
+# Multinomial Naive Bayes Classifier
+
+ {% youtube "https://www.youtube.com/watch?v=O2L2Uv9pdDA" %}
+
+ {% youtube "https://www.youtube.com/watch?v=YbHbsaJhhKM" %}
+
+ See also [M], [Naive Bayes Theorem]
+
+
 # Multiple Linear Regression
 
  A linear regression with multiple input / independent variable.
@@ -1222,7 +1277,7 @@ The T5 text-to-text process includes more in-depth machine translation, document
  {% youtube "https://www.youtube.com/watch?v=pgZhGavMHcU" %}
 
  More at:
-  * nature article - [https://www.nature.com/articles/s41586-020-03051-4.epdf?sharing_token=kTk-xTZpQOF8Ym8nTQK6EdRgN0jAjWel9jnR3ZoTv0PMSWGj38iNIyNOw_ooNp2BvzZ4nIcedo7GEXD7UmLqb0M_V_fop31mMY9VBBLNmGbm0K9jETKkZnJ9SgJ8Rwhp3ySvLuTcUr888puIYbngQ0fiMf45ZGDAQ7fUI66-u7Y%3D|https://www.nature.com/articles/s41586-020-03051-4.epdf|](https://www.nature.com/articles/s41586-020-03051-4.epdf?sharing_token=kTk-xTZpQOF8Ym8nTQK6EdRgN0jAjWel9jnR3ZoTv0PMSWGj38iNIyNOw_ooNp2BvzZ4nIcedo7GEXD7UmLqb0M_V_fop31mMY9VBBLNmGbm0K9jETKkZnJ9SgJ8Rwhp3ySvLuTcUr888puIYbngQ0fiMf45ZGDAQ7fUI66-u7Y%3D|https://www.nature.com/articles/s41586-020-03051-4.epdf|)
+  * nature article - [https://www.nature.com/articles/s41586-020-03051-4.epdf](https://www.nature.com/articles/s41586-020-03051-4.epdf)
 
  See also [M], ...
 

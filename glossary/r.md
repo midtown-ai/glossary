@@ -108,6 +108,25 @@ layout: page
  See also [R], ...
 
 
+# Reason-Act Prompting
+
+# ReAct Prompting
+
+ ~ A [prompt engineering] technique where [LLMs] are used to generate both reasoning traces and task-specific actions in an interleaved manner.
+
+ ReAct is a general paradigm that combines reasoning and acting with LLMs. ReAct prompts LLMs to generate verbal reasoning traces and actions for a task. This allows the system to perform dynamic reasoning to create, maintain, and adjust plans for acting while also enabling interaction to external environments (e.g., Wikipedia) to incorporate additional information into the reasoning. The figure below shows an example of ReAct and the different steps involved to perform question answering.
+
+ ![]( {{site.assets}}/r/reason_act_prompting.webp ){: width="100%"}
+
+ {% pdf "https://arxiv.org/pdf/2210.03629.pdf" %}
+
+ More at:
+  * [https://www.promptingguide.ai/techniques/react](https://www.promptingguide.ai/techniques/react)
+  * paper - [https://arxiv.org/abs/2210.03629](https://arxiv.org/abs/2210.03629)
+
+ See also [R], ...
+
+
 # Reasoning
 
  There are 2 types of reasoning:
@@ -169,7 +188,10 @@ Recall = % of positively identified
 
 # Recommendation Engine
 
- See also [R], [Apriori Algorithm]
+ * [Apriori Algorithm]
+ * [Link Prediction] in a graph database
+
+ See also [R], ...
 
 
 # Rectified Linear Unit Activation Function
@@ -228,6 +250,8 @@ Beware:
   * RNN are now deprecated by attention-based models such as those based on the [transformer architecture]
   * deprecated previous approach using [bag of words] and [word2vec]
   * deprecated by [attention-based models][Attention-Based Model]
+
+ {% youtube "https://www.youtube.com/watch?v=AsNTP8Kwu80" %}
 
  More at:
   * keras and RNN - [https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177](https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177)

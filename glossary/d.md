@@ -275,6 +275,7 @@ layout: page
    * [CIFAR Dataset] - 10+ categories
    * [ImageNet Dataset] - ...
   * audio sequences
+   * [https://github.com/LAION-AI/audio-dataset](https://github.com/LAION-AI/audio-dataset)
   * text, aka [corpus]
    * [C4 Dataset]
   * books
@@ -312,7 +313,17 @@ layout: page
 
 # DBSCAN Algorithm
 
+ A clustering algo that can work with embedded clusters.
+
  To use for clustering when the [k-means clustering algorithm] fails. With k-Means, we look for round clusters. With DBSCAN, the radius (epsilon) is from every point in the cluster ==> the cluster shape does not need to be round! If epion is too large --> gigantic cluster. If too small, --> ...
+
+ Hyperparameter:
+  * radius
+  * core point to proximal points
+  * non-core point to proximal points
+  * outliers
+
+ {% youtube "https://www.youtube.com/watch?v=RDZUdRSDOok" %}
 
  See also [D], ...
 
@@ -339,9 +350,11 @@ layout: page
   * classification:  Go from the root node to the leaf of the tree where is the classification.
   * regression: use the mean square error (MSE)
 
- Nyperparameters:
+ Hyperparameters:
   * Metric measuring quality of split
   * ...
+
+ {% youtube "https://www.youtube.com/watch?v=Ke0dok5CRiU" %}
 
  More at:
   * regression tree - [https://medium.com/analytics-vidhya/regression-trees-decision-tree-for-regression-machine-learning-e4d7525d8047](https://medium.com/analytics-vidhya/regression-trees-decision-tree-for-regression-machine-learning-e4d7525d8047)
@@ -600,6 +613,17 @@ layout: page
  See also [D], ...
 
 
+# DeepWalk
+
+ In 2014 ...
+
+ {% youtube "https://www.youtube.com/watch?v=-uJL_ANy1jc" %}
+
+ {% pdf "https://arxiv.org/pdf/1403.6652.pdf" %}
+
+ See also [D], [FastRP], [Node2Vec]
+
+
 # Delayed Reward
 
  `You must reward for the correct outcome!` Do not only reward for the completion of an assignment, but for passing the final exam. Ex: In chess, what matters is winning the game, not really how many piece you have kept at the end!
@@ -735,7 +759,10 @@ We need to do this for
   * output perturbation (works for all cases since treat the model as a black box?)
   * gradient perturbation (works for neural network only)
 
+ {% pdf "https://arxiv.org/pdf/1607.00133.pdf" %}
+
  More at:
+  * paper - [https://arxiv.org/abs/1607.00133](https://arxiv.org/abs/1607.00133)
   * [https://www.analyticssteps.com/blogs/what-differential-privacy-and-how-does-it-work](https://www.analyticssteps.com/blogs/what-differential-privacy-and-how-does-it-work)
 
  See also [D], [Gradient Perturbation], [Membership Inference Attack], [Output Perturbation]
@@ -808,6 +835,22 @@ We need to do this for
    * [Self-Organizing Map (SOM)][SOM]
 
   See also [D], [Autoencoder], [Decoder], [Encoder]
+
+
+# Direct Preference Optimization
+
+# DPO
+
+ DPO replaces [RLHF] : In this technical and informative video, we explore a groundbreaking methodology called direct preference optimization (DPO) by Stanford Univ that has the potential to replace reinforcement learning in the training of GPT systems. 
+
+ {% youtube "https://www.youtube.com/watch?v=pzh2oc6shic" %}
+
+ {% pdf "https://arxiv.org/pdf/2305.18290.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2305.18290](https://arxiv.org/abs/2305.18290)
+
+ See also [D], ...
 
 
 # Discount Factor
@@ -954,6 +997,21 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
  See also [D], [Finetuning], [Supervised Learning], [Upstream Task]
 
 
+# DragGAN Model
+
+ A [GAN] ...
+
+ {% pdf "https://vcai.mpi-inf.mpg.de/projects/DragGAN/data/paper.pdf" %}
+
+ More at:
+  * site - [https://vcai.mpi-inf.mpg.de/projects/DragGAN/](https://vcai.mpi-inf.mpg.de/projects/DragGAN/)
+  * code - [https://github.com/Zeqiang-Lai/DragGAN](https://github.com/Zeqiang-Lai/DragGAN)
+  * articles
+    * [https://www.creativebloq.com/news/draggan](https://www.creativebloq.com/news/draggan)
+
+ See also [D], ...
+
+
 # DreamFusion Model
 
  Text-to-3D using 2D Diffusion built by [Google]
@@ -1036,6 +1094,24 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
   * MMV
 
  ![]( {{site.assets}}/d/dual_encoder_contrastive_model.png ){: width="100%"}
+
+ See also [D], ...
+
+
+# Dying ReLU Problem
+
+ The dying ReLU problem refers to the scenario when many [ReLU] neurons only output values of 0. The red outline below shows that this happens when the inputs are in the negative range. 
+
+ While this characteristic gives ReLU its strengths (through network sparsity), it becomes a problem when most of the inputs to these ReLU neurons are in the negative range. The worst-case scenario is when the entire network dies, meaning that it becomes just a constant function.
+
+ When most of these neurons return output zero, the gradients fail to flow during [backpropagation], and the [weights] are not updated. Ultimately a large part of the network becomes inactive, and it is unable to learn further.
+
+ Because the slope of ReLU in the negative input range is also zero, once it becomes dead (i.e., stuck in negative range and giving output 0), it is likely to remain unrecoverable.
+
+ However, the dying ReLU problem does not happen all the time since the [optimizer] (e.g., [stochastic gradient descent]) considers multiple input values each time. As long as NOT all the inputs push ReLU to the negative segment (i.e., some inputs are in the positive range), the [artificial neurons] can stay active, the weights can get updated, and the network can continue learning.
+
+ More at:
+  * [https://towardsdatascience.com/the-dying-relu-problem-clearly-explained-42d0c54e0d24](https://towardsdatascience.com/the-dying-relu-problem-clearly-explained-42d0c54e0d24)
 
  See also [D], ...
 

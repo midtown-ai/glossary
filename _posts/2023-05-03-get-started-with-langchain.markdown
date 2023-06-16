@@ -19,14 +19,36 @@ categories: jekyll update
 
  {% youtube "https://www.youtube.com/watch?v=nE2skSRWTTs" %}
 
+### Prompt Template
+
  {% youtube "https://www.youtube.com/watch?v=RflBcK0oDH0" %}
+
+### Chains
 
  {% youtube "https://www.youtube.com/watch?v=S8j9Tk0lZHU" %}
 
+### Data loaders, Tokenizers, Chunking, and ...
+
  {% youtube "https://www.youtube.com/watch?v=X05uK0TZozM" %}
+
+### Retrieval Augmentation
 
  {% youtube "https://www.youtube.com/watch?v=CnAgB3A5OlU" %}
 
+### Agents
+
  {% youtube "https://www.youtube.com/watch?v=jSP-gSEyVeI" %}
 
+### Create Custom Tools for Chatbots
+
  {% youtube "https://www.youtube.com/watch?v=q-HNphrWsDE" %}
+
+## More
+
+### Output Parsers
+
+ {% youtube "https://www.youtube.com/watch?v=UVn2NroKQCw" %}
+
+### Agents
+
+ {% youtube "https://www.youtube.com/watch?v=ziu87EXZVUE" %}

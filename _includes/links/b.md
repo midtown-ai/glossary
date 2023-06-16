@@ -51,6 +51,7 @@
 [BLIP Model]: {{ site.baseurl }}{% link glossary/b.md %}#blip-model
 [BLIP]: {{ site.baseurl }}{% link glossary/b.md %}#blip-model
 [Black Box Model]: {{ site.baseurl }}{% link glossary/b.md %}#black-box-model
+[BloombergGPT Model]: {{ site.baseurl }}{% link glossary/b.md %}#blombergGPT-model
 [Boltzmann Machine]: {{ site.baseurl }}{% link glossary/b.md %}#boltzmann-machine
 [Boosting]: {{ site.baseurl }}{% link glossary/b.md %}#boosting
 [Boosting Step Size]: {{ site.baseurl }}{% link glossary/b.md %}#boosting-step-size

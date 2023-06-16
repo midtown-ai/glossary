@@ -109,14 +109,23 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
 
  See also [A], [Bellman Equation], [Step-Value Function], [Timestep]
 
-# Active Learning
 
- `Pick the sample from which you will learn the most and have them labelled`. How to select those samples? But a model with a seed sample set, run data to the model, label the ones that have the most uncertainty.
+# Activation Checkpointing
+
+ Activation checkpointing is a technique used in deep learning models to reduce memory consumption during the backpropagation process, particularly in recurrent neural networks (RNNs) and transformers. It allows for training models with longer sequences or larger batch sizes without running into memory limitations.
+
+ During the forward pass of a deep learning model, activations (intermediate outputs) are computed and stored for each layer. These activations are required for computing gradients during the backward pass or backpropagation, which is necessary for updating the model parameters.
+
+ In activation checkpointing, instead of storing all activations for the entire sequence or batch, only a subset of activations is saved. The rest of the activations are recomputed during the backward pass as needed. By selectively recomputing activations, the memory requirements can be significantly reduced, as only a fraction of the activations need to be stored in memory at any given time.
+
+ The process of activation checkpointing involves dividing the computational graph into segments or checkpoints. During the forward pass, the model computes and stores the activations at the checkpoints. During the backward pass, the gradients are calculated using the stored activations, and the remaining activations are recomputed as necessary, using the saved memory from recomputed activations.
+
+ Activation checkpointing is an effective technique for mitigating memory limitations in deep learning models, particularly in scenarios where memory constraints are a bottleneck for training large-scale models with long sequences or large batch sizes. It helps strike a balance between memory consumption and computational efficiency, enabling the training of more memory-intensive models.
 
  More at:
-  * [https://www.datacamp.com/community/tutorials/active-learning](https://www.datacamp.com/community/tutorials/active-learning)
+  * [https://towardsdatascience.com/how-to-increase-training-performance-through-memory-optimization-1000d30351c8](https://towardsdatascience.com/how-to-increase-training-performance-through-memory-optimization-1000d30351c8)
 
- See also [A], [Bayesian Optimization Sampling Method], [Passive Learning]
+ See also [A], [Zero Redundancy Optimization]
 
 
 # Activation Function
@@ -126,16 +135,21 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
  Without activation functions, in a multi-layered neural network the [Decision Boundary] stays a line regardless of the [weight] and [bias] settings of each [artificial neuron]!
 
  There are several activation functions used in the fields. They are:
-  * [Rectified Linear Unit (ReLU) function][Rectified Linear Unit Activation Function],
-  * [LeakyReLU function][LeakyReLU Activation Function]
+  * [Rectified Linear Unit (ReLU)][ReLU] function
+  * [LeakyReLU] function
   * [Tanh function][Tanh Activation Function],
   * [Sigmoid function][Sigmoid Activation Function] : Sigmoid is great to keep a probability between 0 and 1, even if sample is an outlier based on the sample. (Ex: how long to slow down for a car, or will I hit the tree given the distance, but here car goes at 500km/h = an outlier)
   * [Softplus function][Softplus Activation Function]
   * [Step activation][Step Activation Function]
+  * [Gaussian Error Linear Unit (GELU)][GELU] function
+  * [Exponential Linear Unit (ELU)][ELU] function
+  * [Linear function][Linear Activation Function]
 
- ![]( {{site.assets}}/a/activation_functions.png){: width="100%" }
+ ![]( {{site.assets}}/a/activation_function.png){: width="100%" }
 
- ![]( {{site.assets}}/a/activation_functions_all_in_one.png){: width="100%" }
+ ![]( {{site.assets}}/a/activation_function_table.png){: width="100%" }
+
+ ![]( {{site.assets}}/a/activation_function_all_in_one.png){: width="100%" }
 
  {% youtube "https://www.youtube.com/watch?v=hfMk-kjRv4c" %}
 
@@ -149,6 +163,17 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
  Last step in an [artificial neuron] before an output is generated.
 
  See also [A], ...
+
+
+# Active Learning
+
+ `Pick the sample from which you will learn the most and have them labelled`. How to select those samples? But a model with a seed sample set, run data to the model, label the ones that have the most uncertainty.
+
+ More at:
+  * [https://www.datacamp.com/community/tutorials/active-learning](https://www.datacamp.com/community/tutorials/active-learning)
+
+ See also [A], [Bayesian Optimization Sampling Method], [Passive Learning]
+
 
 # Actor
 
@@ -520,6 +545,15 @@ Also developed by [Synthesia]
   See also [A], [Company], [AI Movie]
 
 
+# AI Chip
+
+ {% pdf "{{site.assets}}/a/ai_chip_2022.pdf" %}
+
+ More at:
+  * [https://pitchbook.com/newsletter/semiconductor-demand-from-generative-ai-leaders-begins-a-gold-rush-in-ai-inference](https://pitchbook.com/newsletter/semiconductor-demand-from-generative-ai-leaders-begins-a-gold-rush-in-ai-inference)
+
+ See also [A], ...
+
 # AI Conference
 
  In order of importance? (Not sure about the last one!)
@@ -531,6 +565,7 @@ Also developed by [Synthesia]
    * [AAAI] and [ACM Conference](https://www.aies-conference.com/) on AI ethics and society
  1.  [Computer Vision and Pattern Recognition][Computer Vision and Pattern Recognition Conference]
    * includes symposium - [AI For Content Creation][AI for Content Creation Conference]
+ 1. [SIGGRAPH] - computer graphics and interactive techniques
  1. All other conferences
 
  More at:
@@ -778,6 +813,12 @@ A risk of [AGI]
 
  Co-founder Olga Russakovsky and high school students Dennis Kwarteng and Adithi Raghavan discuss their motivations for participating in AI4ALL.
 
+ {% youtube "https://www.youtube.com/watch?v=i1I3VkKABVY" %}
+
+ * [https://nidhiparthasarathy.medium.com/my-summer-at-ai4all-f06eea5cdc2e](https://nidhiparthasarathy.medium.com/my-summer-at-ai4all-f06eea5cdc2e)
+ * [https://nidhiparthasarathy.medium.com/ai4all-day-1-an-exciting-start-d78de2cdb8c0](https://nidhiparthasarathy.medium.com/ai4all-day-1-an-exciting-start-d78de2cdb8c0)
+ * ...
+
  More at:
   * twitter - [https://twitter.com/ai4allorg](https://twitter.com/ai4allorg)
   * home - [https://ai-4-all.org/](https://ai-4-all.org/)
@@ -899,6 +940,7 @@ A risk of [AGI]
  A number between 0 and 1 which indicate how much the agent forgets/abandons the previous Q-value in the Q-table for the new Q-value for a given state-action pair. 
   * A learning rate of 1 means that the Q-value is updated to the new Q-value  
   * is <> 1, it is the weighted sum between the old and the learned Q-value
+
  ```
 Q_new = (1 - alpha) * Q_old + alpha * Q_learned 
 
@@ -1153,6 +1195,26 @@ argmax(likely_outputs) = [1, 0, 0]
  See also [A], [Argmax Function], [Softmax Function]
 
 
+# Argparse Module
+
+ ```
+parser = argparse.ArgumentParser()
+parser.add_argument('--max-epochs', type=int, default=10)
+parser.add_argument('--batch-size', type=int, default=256)
+parser.add_argument('--sequence-length', type=int, default=4)
+args = parser.parse_args()
+dataset = Dataset(args)
+model = Model(dataset)
+train(dataset, model, args)
+print(predict(dataset, model, text='Knock knock. Whos there?'))
+```
+
+ More at:
+  * [https://closeheat.com/blog/pytorch-lstm-text-generation-tutorial](https://closeheat.com/blog/pytorch-lstm-text-generation-tutorial)
+
+ See also [A], ...
+
+
 # Artificial General Intelligence
 
 # AGI
@@ -1218,6 +1280,10 @@ First, we believe the clearest framing of general intelligence is a system that 
 
  ![]( {{site.assets}}/a/artificial_intelligence_3_types.png){: width="100%" }
 
+ More at:
+  * state of AI
+    * 2022 - [https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-in-2022-and-a-half-decade-in-review](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-in-2022-and-a-half-decade-in-review)
+
  See also [A], [AI Areas Of Study], [Artificial Narrow Intelligence], [Artificial General Intelligence], [Artificial Super Intelligence], [Human-Centered AI], [Inference], [Intelligence], [Machine Learning], [Natural Intelligence]
 
 
@@ -1268,6 +1334,20 @@ First, we believe the clearest framing of general intelligence is a system that 
  Relates to NP hard from complexity.
 
  See also [A], [AI Complete]
+
+
+# Artification Intelligence Risk Management Framework
+
+# AI RMF
+
+ Written by [NIST]
+
+ {% pdf "{{site.assets}}/a/artificial_intelligence_risk_management_framework.pdf" %}
+
+ More at:
+  * [https://aibusiness.com/responsible-ai/microsoft-offers-support-on-responsible-ai-deployments](https://aibusiness.com/responsible-ai/microsoft-offers-support-on-responsible-ai-deployments)
+
+ See also [A], ...
 
 
 # Artificial Narrow Intelligence
@@ -1441,6 +1521,8 @@ First, we believe the clearest framing of general intelligence is a system that 
   1. Auto-regressive ( ~ auto-complete and generative)
   1. Auto-encoding ( ~ best possible match given context )
 
+ {% youtube "https://www.youtube.com/watch?v=g2BRIuln4uc" %}
+
  See also [A], [Attention], [Attention Score], [Autoencoding], [Autoregressive], [BERT Model], [GPT Model], [Multi-Head Attention], [T5 Model]
 
 
@@ -1481,6 +1563,15 @@ First, we believe the clearest framing of general intelligence is a system that 
    * [https://generativeai.pub/autogpt-now-supports-web-ui-heres-how-you-can-try-fd94b2a6ddad](https://generativeai.pub/autogpt-now-supports-web-ui-heres-how-you-can-try-fd94b2a6ddad)
   * articles
    * [https://www.zdnet.com/article/what-is-auto-gpt-everything-to-know-about-the-next-powerful-ai-tool/](https://www.zdnet.com/article/what-is-auto-gpt-everything-to-know-about-the-next-powerful-ai-tool/)
+
+ See also [A], ...
+
+
+# Automatic Speech Recognition
+
+# ASR
+
+ Possible thanks to [Recurrent Neural Network] such as [LSTM Network]
 
  See also [A], ...
 

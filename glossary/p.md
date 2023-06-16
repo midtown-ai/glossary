@@ -29,7 +29,7 @@ layout: page
 {% include links/all.md %}
 
 
-# Pandas Module
+# Pandas Python Module
 
  A [Python module] for importing, transforming, and working with tabular data
 
@@ -127,20 +127,21 @@ layout: page
 # People
 
  People
-  * [Alan Turing][Alan Turing Person]: A founder of AI
-  * [Alex Krizhevsky][Alex Krizhevsky Person]: Build [AlexNet][AlexNet Model] and creator of [CIFAR Datasets][CIFAR Dataset]
-  * [Andrew Ng][Andrew Ng Person]: Cofounder and head of [Google] Brain and was the former Chief Scientist at [Baidu]
-  * [Bill Gates][Bill Gates Person]: Founder and now chairman at [Microsoft]
+  * [Alan Turing] - A founder of AI
+  * [Alex Krizhevsky] - Build [AlexNet][AlexNet Model] and creator of [CIFAR Datasets][CIFAR Dataset]
+  * [Andrew Ng] - Cofounder and head of [Google] Brain and was the former Chief Scientist at [Baidu]
+  * [Bill Gates] - Founder and now chairman at [Microsoft]
   * [David Luan] - CEO of Adept
-  * [Elon Musk][Elon Musk Person]: CEO of Tesla
-  * [Eric Schmidt][Eric Schmidt Person]: Chairman of Alphabet / [Google]
-  * [Geoffrey Hinton][Geoffrey Hinton Person]: Lead his student with [AlexNet][AlexNet Model], a godfather of AI and [Deep Learning]. Turing award in 2018.
-  * [Greg Brockman][Greg Brockman Person]: Co-founder of [OpenAI]
-  * [Ilya Sutskever][Ilya Sutskever Person]: Co-founder of [OpenAI]
-  * [Sam Altman][Sam Altman Person]: CEO of [OpenAI]
-  * [Sundar Pichai][Sundar Pichai Person]: CEO of Alphabet/[Google]
-  * [Yann LeCun][Yann LeCun Person]: Turing award in 2018 for work on [Deep Learning]
-  * [Yoshua Bengio][Yoshua Bengio Person]: Professor at the Department of Computer Science at the Université de Montréal. Turing award in 2018 for work on [Deep Learning]
+  * [Elon Musk] - CEO of Tesla
+  * [Eric Schmidt] - Chairman of Alphabet / [Google]
+  * [Fei-Fei Li] - Creator of the [ImageNet dataset], focus on the data, not the algorithm!
+  * [Geoffrey Hinton] - Lead his student with [AlexNet], a godfather of AI and [Deep Learning]. Turing award in 2018.
+  * [Greg Brockman] - Co-founder of [OpenAI]
+  * [Ilya Sutskever] - Co-founder of [OpenAI]
+  * [Sam Altman] - CEO of [OpenAI]
+  * [Sundar Pichai] - CEO of Alphabet/[Google]
+  * [Yann LeCun] - Turing award in 2018 for work on [Deep Learning]
+  * [Yoshua Bengio] - Professor at the Department of Computer Science at the Université de Montréal. Turing award in 2018 for work on [Deep Learning]
   * ...
 
   Others
@@ -234,6 +235,16 @@ layout: page
  As a 2D matrix, also known as a piano roll, with time on the horizontal and pitch on the vertical axis.
 
  See also [P], [U-Net Architecture]
+
+
+# Picasso Model
+
+ Build by [Nvidia]
+
+ More at:
+  * [https://www.creativebloq.com/news/nvidia-picasso-ai](https://www.creativebloq.com/news/nvidia-picasso-ai)
+
+ See also [N], ...
 
 
 # Pinecone Company
@@ -537,6 +548,13 @@ Prediction Error = actual_value - predicted_value
 
 # Prior
 
+ Can refer either to [prior knowledge] or [prior probability]
+
+ See also [P], ...
+
+
+# Prior Knowledge
+
  `~ Prior knowledge of how the world works. Also the reason why human learn so much faster than computers!`. Fundamental concepts that are transfered from one task to the other that humans do not have to learn and therefore reduce the training time significantly. ~ stereotypes, shortcuts. Examples of priors are
   * concepts of objects
   * look similar = act similar
@@ -556,6 +574,13 @@ Prediction Error = actual_value - predicted_value
   * [https://rach0012.github.io/humanRL_website/](https://rach0012.github.io/humanRL_website/)
 
  See also [P], [Learning Rate], [Transfer Learning]
+
+
+# Prior Probability
+
+ Assess a (sample distribution) probability using the training data (i.e. the training data is representative of the data distributions or likelihoods)
+
+ See also [P], ...
 
 
 # Probability
@@ -588,11 +613,28 @@ Prediction Error = actual_value - predicted_value
 
 # Prompt Engineering
 
- **[Large Language Models][LLM] are like alien artifiacts that feel from the sky one day and we are still banging rocks against them trying to make then do something useful!**
+ ~ Acquire new capabilities at inference time
+
+ **[Large Language Models] are like alien artifiacts that feel from the sky one day and we are still banging rocks against them trying to make then do something useful!**
 
  Impact of prompt engineering (aka prompt tuning!) on the large language model based on the [SuperGLUE Benchmark]
 
  ![]( {{site.assets}}/p/prompt_engineering_impact.png ){: width="100%"}
+
+ Techniques:
+  * [Zero-Shot Prompting]
+  * [Few-Shot Prompting]
+  * [Tree Of Thoughts (ToT) Prompting][ToT]
+  * [Chain Of Thought (CoT) Prompting][CoT]
+  * [Reason-Act (ReAct) Prompting][ReAct]
+  * [Self-Consistency (SC) Prompting][SC]
+
+ ![]( {{site.assets}}/p/prompt_engineering_techniques_comparison.png ){: width="100%"}
+
+ ![]( {{site.assets}}/p/prompt_engineering_techniques_diagrams.png ){: width="100%"}
+
+ More at:
+  * [https://www.promptingguide.ai/](https://www.promptingguide.ai/)
 
  See also [P], [ChatGPT Model], [DALL-E Model]
 
@@ -646,7 +688,9 @@ Prediction Error = actual_value - predicted_value
  See also [P], [Isaac Gym], [OpenAI Gym], [RobotSchool]
 
 
-# PyGame Module
+# PyGame Python Module
+
+ A [Python Module] that ...
 
  {% youtube "https://www.youtube.com/watch?v=PJl4iabBEz0" %}
 
@@ -655,20 +699,37 @@ Prediction Error = actual_value - predicted_value
 
 # Python Module
 
-  * [Gradio][Gradio Module] - to build a basic UI to interface with a model
-  * [Joblib][Joblib Module] - to save models in files
-  * [LangChain][LangChain Module] - LLMOps!
-  * [Matplotlib][Matplotlib Module] - for visualization
-  * [Numpy][Numpy Module]
-  * [Panda][Panda Module] - to work with tabular data
-  * [Seaborn][Seaborn Module] - for visualization
+  * [Argparse] - take command line parameters
+  * [Gradio] - to build a basic UI to interface with a model
+  * [JAX] - 
+  * [Joblib] - to save models in files
+  * [LangChain] - LLMOps!
+  * [Matplotlib] - for visualization
+  * [Numpy] -
+  * [Pandas] - to work with tabular data
+  * [PyTorch] - A framework for deep learning
+  * [PyTorch Geometric] - A framework for ML on graph
+  * [Seaborn] - for visualization
+  * [TensorFlow] - a framework for deep learning developed by [Google]
 
  Other modules
-  * [PyGame][PyGame Module]
+  * [PyGame] -
 
  See also [P], ...
 
 
-# PyTorch ML Framework
+# PyTorch Geometric Python Module
+
+ Developed at Stanford
+
+ {% youtube "https://www.youtube.com/watch?v=JAB_plj2rbA" %}
+
+ More at:
+  * docs - [https://pytorch-geometric.readthedocs.io/en/latest/index.html](https://pytorch-geometric.readthedocs.io/en/latest/index.html)
+
+ See also [P], ...
+
+
+# PyTorch Python Module
 
  See also [P], [Deep Learning Framework], [Machine Learning Framework]

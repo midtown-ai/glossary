@@ -20,6 +20,7 @@
 [Vector Database]: {{ site.baseurl }}{% link glossary/v.md %}#vector-database
 [Vector Search Library]: {{ site.baseurl }}{% link glossary/v.md %}#vector-search-library
 [Vector Search Plugin]: {{ site.baseurl }}{% link glossary/v.md %}#vector-search-plugin
+[Vicuna Model]: {{ site.baseurl }}{% link glossary/v.md %}#vicuna-model
 [Video Pre-Training Model]: {{ site.baseurl }}{% link glossary/v.md %}#video-pre-trained-model
 [VPT Model]: {{ site.baseurl }}{% link glossary/v.md %}#vpt-model
 [Video Restauration]: {{ site.baseurl }}{% link glossary/v.md %}#video-restauration

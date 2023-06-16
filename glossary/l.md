@@ -68,7 +68,7 @@ layout: page
  See also [L], ...
 
 
-# LangChain Module
+# LangChain Python Module
 
  LangChain is a framework for developing applications powered by language models. We believe that the most powerful and differentiated applications will not only call out to a language model via an API, but will also:
   * Be data-aware: connect a language model to other sources of data
@@ -116,11 +116,13 @@ completion = llm(prompt)
 
 # Language Model for Discussion Applications Model 
 
-# LaMbDA Model
+# LaMDA Model
 
  Built by [Google]
 
  Beware, cannot use GPU for inference. ??? <== ????
+
+ {% youtube "https://www.youtube.com/watch?v=7BvbgUNT2gI" %}
 
  {% youtube "https://www.youtube.com/watch?v=7BvbgUNT2gI" %}
 
@@ -378,6 +380,31 @@ with alpha = learning_rate
  See also [L], [Ensemble Method]
 
 
+# Likelihood
+
+ Another word for a probability in a discrete space/word/exercise
+
+ See also [L], ...
+
+
+# Linear Activation Function
+
+ It is a simple straight-line [activation function] which is directly proportional to the input i.e. the weighted sum of neurons. It has the equation:
+
+```
+f(x) = kx
+```
+
+ where k is a constant.
+
+ ![]( {{site.assets}}/l/linear_activation_function.png ){: width="100%"}
+
+ More at:
+  * ...
+
+ See also [L], ...
+
+
 # Linear Algebra
 
  Math where you do NOT have square, cubes, etc.
@@ -433,6 +460,22 @@ print regr.score(X_test, y_test)
   * code - [https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html](https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html)
 
  See also [L], [Classification], [Multiple Linear Regression], [Non-Linear Regression], [Prediction Error], [Regression]
+
+
+# Link Prediction
+
+ There are many ways to solve problems in [recommendation engines]. These solutions range from algorithmic approaches, link prediction algorithms, embedding based solutions, etc. Link prediction is also referred to as graph completion, a common problem in graph theory. In the simplest form, given a network, you want to know if there should be an edge between a pair of nodes. This definition changes slightly depending on the type of network you’re working with. A directed / multi graph can have slightly different interpretations but the fundamental concept of identifying missing edges in a network remains.
+
+ ![]( {{site.assets}}/l/link_prediction.webp ){: width="100%"}
+
+ Problems in link prediction are also quite common when dealing with temporal networks (networks which change over time). Given a network G at time step t, you would want to predict the edges of the graph G at time step t+1.
+
+ {% youtube "https://www.youtube.com/watch?v=kq_b0QmxFCI" %}
+
+ More at:
+  * [https://towardsdatascience.com/link-prediction-recommendation-engines-with-node2vec-c97c429351a8](https://towardsdatascience.com/link-prediction-recommendation-engines-with-node2vec-c97c429351a8)
+
+ See also [L], ...
 
 
 # Linux Foundation AI And Data
@@ -553,6 +596,8 @@ Aristotle is mortal!
 
  ![]( {{site.assets}}/l/long_short_term_memory_cell.png ){: width="100%"}
 
+ {% youtube "https://www.youtube.com/watch?v=YCzL96nL7j0" %}
+
  {% youtube "https://www.youtube.com/watch?v=8HyCNIVRbSU" %}
 
  {% youtube "https://www.youtube.com/watch?v=S27pHKBEp30" %}
@@ -576,6 +621,37 @@ Aristotle is mortal!
 
  In its chain, a LSTM can optionally use a Gated Recurrent Unit (GRU) cell, which is simpler than the one represented above.
 
+ ```
+import torch
+from torch import nn
+class Model(nn.Module):
+    def __init__(self, dataset):
+        super(Model, self).__init__()
+        self.lstm_size = 128
+        self.embedding_dim = 128
+        self.num_layers = 3
+        n_vocab = len(dataset.uniq_words)
+        self.embedding = nn.Embedding(
+            num_embeddings=n_vocab,
+            embedding_dim=self.embedding_dim,
+        )
+        self.lstm = nn.LSTM(
+            input_size=self.lstm_size,
+            hidden_size=self.lstm_size,
+            num_layers=self.num_layers,
+            dropout=0.2,
+        )
+        self.fc = nn.Linear(self.lstm_size, n_vocab)
+    def forward(self, x, prev_state):
+        embed = self.embedding(x)
+        output, state = self.lstm(embed, prev_state)
+        logits = self.fc(output)
+        return logits, state
+    def init_state(self, sequence_length):
+        return (torch.zeros(self.num_layers, sequence_length, self.lstm_size),
+                torch.zeros(self.num_layers, sequence_length, self.lstm_size))
+ ```
+
  {% youtube "https://www.youtube.com/watch?v=WCUNPb-5EYI" %}
 
  {% pdf "{{site.assets}}/l/long_short_term_memory_paper.pdf" %}
@@ -585,7 +661,9 @@ Aristotle is mortal!
 
  More at
   * [https://en.wikipedia.org/wiki/Long_short-term_memory](https://en.wikipedia.org/wiki/Long_short-term_memory)
-  * LSTM with keras - [https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5](https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5)
+  * LSTM code
+    * pytorch - [https://closeheat.com/blog/pytorch-lstm-text-generation-tutorial](https://closeheat.com/blog/pytorch-lstm-text-generation-tutorial)
+    * keras - [https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5](https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5)
   * [http://colah.github.io/posts/2015-08-Understanding-LSTMs/](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
  See also [L], [Attention-Based Model], [Gated Recurrent Unit Cell], [Gradient Descent Algorithm], [Recurrent Neural Network], [Transformer Model], [Vanishing Gradient Problem]
@@ -634,10 +712,16 @@ Aristotle is mortal!
 
  LoRA performs on-par or better than finetuning in model quality on RoBERTa, DeBERTa, GPT-2, and GPT-3, despite having fewer trainable parameters, a higher training throughput, and, unlike [adapters], no additional inference latency
 
+ {% youtube "https://www.youtube.com/watch?v=dA-NhCtrrVE" %}
+
+ {% youtube "https://www.youtube.com/watch?v=iYr1xZn26R8" %}
+
  {% pdf "https://arxiv.org/pdf/2106.09685.pdf" %}
 
  More at:
   * paper - [https://arxiv.org/abs/2106.09685](https://arxiv.org/abs/2106.09685)
+  * article(s)
+    * [https://bdtechtalks.com/2023/05/22/what-is-lora/](https://bdtechtalks.com/2023/05/22/what-is-lora/)
 
  See also [L], ...
 

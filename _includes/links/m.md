@@ -8,6 +8,7 @@
 [Machine Reasoning]: {{ site.baseurl }}{% link glossary/m.md %}#machine-reasoning
 [Machine Translation]: {{ site.baseurl }}{% link glossary/m.md %}#machine-translation
 [Magi Model]: {{ site.baseurl }}{% link glossary/m.md %}#magi-model
+[Magi]: {{ site.baseurl }}{% link glossary/m.md %}#magi-model
 [Majority Vote Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#majority-vote-algorithm
 [MapReduce Process]: {{ site.baseurl }}{% link glossary/m.md %}#mapreduce-process
 [Markov Chain]: {{ site.baseurl }}{% link glossary/m.md %}#markov-chain
@@ -18,6 +19,8 @@
 [Masked Self-Attention]: {{ site.baseurl }}{% link glossary/m.md %}#masked-self-attention
 [Masked Vision Modeling]: {{ site.baseurl }}{% link glossary/m.md %}#masked-vision-modeling
 [MVM]: {{ site.baseurl }}{% link glossary/m.md %}#masked-vision-modeling
+[Matplotlib Python Module]: {{ site.baseurl }}{% link glossary/m.md %}#matplotlib-python-module
+[Matplotlib]: {{ site.baseurl }}{% link glossary/m.md %}#matplotlib-python-module
 [Matrix]: {{ site.baseurl }}{% link glossary/m.md %}#matrix
 [Matrix Composition]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-composition
 [Matrix Decomposition]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-decomposition
@@ -39,6 +42,7 @@
 [MSE Loss Function]: {{ site.baseurl }}{% link glossary/m.md %}#mean-square-error-loss-function
 [Mechanical Turk]: {{ site.baseurl }}{% link glossary/m.md %}#mechanical-turk
 [Megatron Model]: {{ site.baseurl }}{% link glossary/m.md %}#megatron-model
+[Megatron]: {{ site.baseurl }}{% link glossary/m.md %}#megatron-model
 [Membership Inference Attack]: {{ site.baseurl }}{% link glossary/m.md %}#membership-inference-attack
 [Meta Company]: {{ site.baseurl }}{% link glossary/m.md %}#meta-company
 [Meta]: {{ site.baseurl }}{% link glossary/m.md %}#meta-company
@@ -54,7 +58,10 @@
 [Microsoft]: {{ site.baseurl }}{% link glossary/m.md %}#microsoft-company
 [MSFT]: {{ site.baseurl }}{% link glossary/m.md %}#microsoft-company
 [Midjourney Model]: {{ site.baseurl }}{% link glossary/m.md %}#midjourney-model
-[Milvus Database]: {{ site.baseurl }}{% link glossary/m.md %}#milvus-database
+[Midjourney]: {{ site.baseurl }}{% link glossary/m.md %}#midjourney-model
+[Milvus Vector Database]: {{ site.baseurl }}{% link glossary/m.md %}#milvus-vector-database
+[Milvus Database]: {{ site.baseurl }}{% link glossary/m.md %}#milvus-vector-database
+[Milvus]: {{ site.baseurl }}{% link glossary/m.md %}#milvus-vector-database
 [Minerva Model]: {{ site.baseurl }}{% link glossary/m.md %}#minerva-model
 [Mini-Batch]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch
 [Mini-Batchs]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch
@@ -87,7 +94,7 @@
 [MNIST Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
 [MuLan Model]: {{ site.baseurl }}{% link glossary/m.md %}#mulan-model
 [Multi-Agent Environment]: {{ site.baseurl }}{% link glossary/m.md %}#multi-agent-environment
-[Multi-Head Attention]: {{ site.baseurl }}{% link glossary/m.md %}#multi-head-attention
+[Multi-Head Self-Attention]: {{ site.baseurl }}{% link glossary/m.md %}#multi-head-self-attention
 [Multi-Task Learning]: {{ site.baseurl }}{% link glossary/m.md %}#multi-task-learning
 [MTL]: {{ site.baseurl }}{% link glossary/m.md %}#multi-task-learning
 [Multiattribute Objective]: {{ site.baseurl }}{% link glossary/m.md %}#multiattribute-objective
@@ -102,6 +109,7 @@
 [Multimodal Learning]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-learning
 [Multimodal Space]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-space
 [Multimodal Translation]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-translation
+[Multinomial Naive Bayes Classifier]: {{ site.baseurl }}{% link glossary/m.md %}#multinomial-naive-bayes-classifier
 [Multiple Linear Regression]: {{ site.baseurl }}{% link glossary/m.md %}#multiple-linear-regression
 [MUM Model]: {{ site.baseurl }}{% link glossary/m.md %}#mum-model
 [Muse Model]: {{ site.baseurl }}{% link glossary/m.md %}#muse-model

@@ -45,7 +45,16 @@ layout: page
  See also [N], [N-Gram]
 
 
-# Naive Bayes
+# Naive Bayes Classifier
+
+ When most people want to learn about Naive Bayes, they want to learn about the [Multinomial Naive Bayes Classifier].
+
+ However, just know that there is another commonly used version of Naive Bayes, called [Gaussian Naive Bayes Classifier]
+
+ See also [N], ...
+
+
+# Naive Bayes Theorem
 
  uses the Bayes’ Theorem and assumes that all predictors are independent. In other words, this classifier assumes that the presence of one particular feature in a class doesn’t affect the presence of another one.
  
@@ -59,7 +68,7 @@ If we generalize
 p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  ```
 
- See also [N], [Bayes Theorem], [Feature]
+ See also [N], [Bayes Theorem], [Feature], [Naive Bayes Classifier]
 
 
 # Named Entity Recognition
@@ -87,6 +96,15 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
   * [https://www.deepmind.com/blog/game-theory-insights-into-asymmetric-multi-agent-games](https://www.deepmind.com/blog/game-theory-insights-into-asymmetric-multi-agent-games)
   * [https://www.deepmind.com/blog/game-theory-as-an-engine-for-large-scale-data-analysis](https://www.deepmind.com/blog/game-theory-as-an-engine-for-large-scale-data-analysis)
   * [https://en.wikipedia.org/wiki/Nash_equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium)
+
+ See also [N], ...
+
+
+# National Institute of Standards and Technology
+
+# NIST
+
+ Author of the [AI Risk Management Framework]
 
  See also [N], ...
 
@@ -249,6 +267,19 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], [Attribute], [Positive Attribute]
 
 
+# Neo4J Graph Database
+
+ * Query language = GDS
+ * Java application
+
+ {% youtube "https://www.youtube.com/watch?v=kq_b0QmxFCI" %}
+
+ More at:
+  * ...
+
+ See also [N], ...
+
+
 # Neptune AI Company
 
  An AI [company]
@@ -401,6 +432,21 @@ B: I was just there
  See [Artificial Neuron]
 
 
+# Node2Vec Model
+
+ A method used for [Graph Embeddings]
+
+ {% youtube "https://www.youtube.com/watch?v=LpwGZG5j_q0" %}
+
+ More at:
+  * notebook - [https://github.com/vatsal220/medium_articles/blob/main/n2v/n2v.ipynb](https://github.com/vatsal220/medium_articles/blob/main/n2v/n2v.ipynb)
+  * article(s)
+    * [https://towardsdatascience.com/node2vec-explained-db86a319e9ab](https://towardsdatascience.com/node2vec-explained-db86a319e9ab)
+    * [https://towardsdatascience.com/complete-guide-to-understanding-node2vec-algorithm-4e9a35e5d147(https://towardsdatascience.com/complete-guide-to-understanding-node2vec-algorithm-4e9a35e5d147)
+
+ See also [N], [DeepWalk], [FastRP], [Skip-Gram Model]
+
+
 # Noise
 
  Add to an input to turn the same input going through a given model into different output.
@@ -440,13 +486,13 @@ Some well-known NP-hard problems include the traveling salesman problem, the kna
 
 # Numerical Python Module
 
-# Numpy Module
+# Numpy Python Module
 
  A [Python module] for ...
   * mathematical, logical and shape manipulations
-  * sorting and selcting
+  * sorting and selecting
   * basic linear algebra
-  * basic statistical operaitons
+  * basic statistical operations
   * random simulation
 
  Optimization over list comes from
@@ -548,10 +594,11 @@ plt.imshow(photo[:,:,0].T)       # Multiple transformation at once!
 
 
  Models
-  * [Isaac Gym] : environment for RL
-  * [Megatron Model] : NLP large language model
-  * [RIVA Model] : text-to-speech model
-  * [VIMA Model] : multi-modal ? model for robots?
+  * [Isaac Gym] - environment for RL
+  * [Megatron Model] - NLP large language model
+  * [PIcasso Model] - image diffusion model
+  * [RIVA Model] - text-to-speech model
+  * [VIMA Model] - multi-modal ? model for robots?
 
  SDK
   * [TensorRT SDK]

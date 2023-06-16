@@ -301,11 +301,11 @@ Research on emotion has increased over the past two decades with many fields con
 # Ensemble Method
 
  `Ensemble methods consist of joining several weak learners to build a strong learner.` ~ average the output of several models, such as decision trees?. Ex: aver Ensemble methods, meaning that they use a number of weak classifiers/learner to produce a strong classifier, which usually means better results. Imagine you’ve decided to build a bicycle because you are not feeling happy with the options available in stores and online. You might begin by finding the best of each part you need. Once you assemble all these great parts, the resulting bike will outshine all the other options.
- Ensemble methods use this same idea of combining several predictive models (supervised ML) to get higher quality predictions than each of the models could provide on its own. For example, the Random Forest algorithms is an ensemble method that combines many Decision Trees trained with different samples of the datasets. As a result, the quality of the predictions of a Random Forest is higher than the quality of the predictions estimated with a single Decision Tree. Think of ensemble methods as a way to reduce the variance and bias of a single machine learning model. That’s important because any given model may be accurate under certain conditions but inaccurate under other conditions. With another model, the relative accuracy might be reversed. By combining the two models, the quality of the predictions is balanced out. The great majority of top winners of Kaggle competitions use ensemble methods of some kind. The most popular ensemble algorithms are Random Forest, XGBoost and LightGBM. 
+ Ensemble methods use this same idea of combining several predictive models (supervised ML) to get higher quality predictions than each of the models could provide on its own. For example, the Random Forest algorithms is an ensemble method that combines many Decision Trees trained with different samples of the datasets. As a result, the quality of the predictions of a Random Forest is higher than the quality of the predictions estimated with a single Decision Tree. Think of ensemble methods as a way to reduce the variance and bias of a single machine learning model. That’s important because any given model may be accurate under certain conditions but inaccurate under other conditions. With another model, the relative accuracy might be reversed. By combining the two models, the quality of the predictions is balanced out. The great majority of top winners of Kaggle competitions use ensemble methods of some kind. The most popular ensemble algorithms are [Random Forest], [XGBoost] and [LightGBM]. 
 
  ![]( {{site.assets}}/e/ensemble_method.png ){: width=20%}
 
- See also [E], [Gradient Bagging], [Gradient Boosting], [Isolation Forest], [LightGBM], [Random Forest], [Weak Leaner], [XGBoost]
+ See also [E], [Gradient Bagging], [Gradient Boosting], [Isolation Forest], [Weak Leaner]
 
 
 # Entity
@@ -578,6 +578,20 @@ H(X) = -∑(p(x) * log2 p(x))
  See also [E], [Big Data], [Deep Learning], [Logical Reasoning], [Machine Learning], [Optimization], [Statistics]
 
 
+# Explainability
+
+ How to explain the output of the AI
+
+ See also [E], ...
+
+
+# Explainability Spectrum
+
+ ![]( {{site.assets}}/e/explainability_spectrum.png ){: width="100%"}
+
+ See also [E], [Chain Of Thought Prompting]
+
+
 # Explainable AI
 
 # XAI
@@ -592,13 +606,6 @@ H(X) = -∑(p(x) * log2 p(x))
   * [https://en.wikipedia.org/wiki/Explainable_artificial_intelligence#](https://en.wikipedia.org/wiki/Explainable_artificial_intelligence#)
 
  See also [E], [Black Box Model], [White Box Model]
-
-
-# Explainability Spectrum
-
- ![]( {{site.assets}}/e/explainability_spectrum.png ){: width="100%"}
-
- See also [E], [Chain Of Thought Prompting]
 
 
 # Explanatory Variable
@@ -632,6 +639,94 @@ H(X) = -∑(p(x) * log2 p(x))
 
  See also [E], ... 
 
+
+# Exponential Linear Unit Activation Function
+
+# ELU Activation Function
+
+ The ELU output for positive input is the input (identity). If the input is negative, the output curve is slightly smoothed towards the (minus) alpha constant (α). The higher the alpha constant, the more negative the output for negative inputs gets.
+
+ ELU and ReLU are the most popular activation functions used. Here are the advantages and disadvantages of using it when compared to other popular activation functions.
+
+ Advantages of ELU
+  * Tend to converge faster than ReLU (because mean ELU activations are closer to zero)
+  * Better generalization performance than ReLU
+  * Fully continuous
+  * Fully differentiable
+  * Does not have a [vanishing gradient problem]
+  * Does not have an [exploding gradient problem]
+  * Does not have a [dying relu problem]
+
+ Disadvantages of ELU
+  * Slower to compute (because of non-linearity for negative input values)
+
+ ELU is slower to compute, but ELU compensates this by faster convergence during training. During test time ELU is slower to compute than ReLU though.
+
+ ```
+m = nn.ELU()
+input = torch.randn(2)
+output = m(input)
+ ```
+
+ ```
+import torch
+from torch import nn
+class Model(nn.Module):
+    def __init__(self, dataset):
+        super(Model, self).__init__()
+        self.layer1 = nn.Sequential(
+            nn.Conv3d(in_channels=4, out_channels=2, kernel_size=2),
+            nn.ELU(alpha=2.0)
+        )
+    def forward(self, x):
+        return self.layer1(x)
+ ```
+
+ ```
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+def elu(x, u):
+    if x >= 0:
+        return x
+    else:
+        return u*(np.exp(x) - 1)
+
+
+def elu_prime(x, u):
+    if x >= 0:
+        return 1
+    else:
+        return elu(x, u) + u
+
+
+# For alpha = 1, 2, 3, 4
+for u in range(1, 5):
+    inputs = [x for x in range(-10, 11)]
+    outputs = [elu(x, u) for x in inputs]
+    output_prime = [elu_prime(x, u) for x in inputs]
+    plt.plot(inputs, outputs)
+    # plt.plot(inputs, output_prime)
+
+
+plt.ylim(-1, 5)
+plt.title("ELU outputs for inputs between -10 to 10")
+plt.title("Derivative function of inputs between -10 to 10")
+plt.ylabel("Outputs")
+plt.xlabel("Inputs")
+plt.show()
+ ```
+
+ ![]( {{site.assets}}/e/exponential_linear_unit_activation_function.png ){: width="100%"}
+
+ More at:
+  * [https://closeheat.com/blog/elu-activation-function](https://closeheat.com/blog/elu-activation-function)
+  * pytorch docs - [https://pytorch.org/docs/master/generated/torch.nn.ELU.html](https://pytorch.org/docs/master/generated/torch.nn.ELU.html)
+
+ See also [E], ...
+
+
 # Expressiveness
 
  See also [E], [Hyperparameter]
@@ -646,6 +741,14 @@ H(X) = -∑(p(x) * log2 p(x))
  ![]( {{site.assets}}/e/extreme_gradient_boosting.png ){: width="100%"}
 
  {% youtube "https://www.youtube.com/watch?v=XXHhrlL-FWc" %}
+
+ {% youtube "https://www.youtube.com/watch?v=OtD8wVaFm6E" %}
+
+ {% youtube "https://www.youtube.com/watch?v=8b1JEDvenQU" %}
+  
+ {% youtube "https://www.youtube.com/watch?v=ZVFeW798-2I" %}
+
+ {% youtube "https://www.youtube.com/watch?v=oRrKeUCEbq8" %}
 
  More at:
   * ...

@@ -1,6 +1,7 @@
 [P]: {{ site.baseurl }}{% link glossary/p.md %}
 
-[Panda Module]: {{ site.baseurl}}{% link glossary/p.md %}#panda-module
+[Pandas Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pandas-python-module
+[Pandas]: {{ site.baseurl}}{% link glossary/p.md %}#pandas-python-module
 [Parameter]: {{ site.baseurl}}{% link glossary/p.md %}#parameter
 [Parameters]: {{ site.baseurl}}{% link glossary/p.md %}#parameter
 [Parameter-Efficient Fine-Tuning]: {{ site.baseurl}}{% link glossary/p.md %}#parameter-efficient-fine-tuning
@@ -49,6 +50,8 @@
 [Principal Component Analysis]: {{ site.baseurl}}{% link glossary/p.md %}#principal-component-analysis
 [PCA]: {{ site.baseurl}}{% link glossary/p.md %}#principal-component-analysis
 [Prior]: {{ site.baseurl}}{% link glossary/p.md %}#prior
+[Prior Knowlege]: {{ site.baseurl}}{% link glossary/p.md %}#prior-knowledge
+[Prior Probability]: {{ site.baseurl}}{% link glossary/p.md %}#prior-probability
 [Probability]: {{ site.baseurl}}{% link glossary/p.md %}#probability
 [Procedural Reasoning System]: {{ site.baseurl}}{% link glossary/p.md %}#procedural-reasoning-system
 [Prompt Engineering]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-engineering
@@ -58,5 +61,10 @@
 [PPO]: {{ site.baseurl}}{% link glossary/p.md %}#proximal-policy-optimization-algorithm
 [PyBullet]: {{ site.baseurl}}{% link glossary/p.md %}#pybullet
 [PyGame Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pygame-python-module
+[PyGame]: {{ site.baseurl}}{% link glossary/p.md %}#pygame-python-module
 [Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#python-module
-[PyTorch ML Framework]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-ml-framework
+[PyTorch Geometric Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-geometric-python-module
+[PyG Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-geometric-python-module
+[PyG]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-geometric-python-module
+[PyTorch Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-python-module
+[PyTorch]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-python-module

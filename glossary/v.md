@@ -177,6 +177,64 @@ layout: page
  See also [V], [Backpropagation], [Deterministic Node], [Stochastic Node], [Variational Autoencoder]
 
 
+# Vector
+
+ A 1 column matrix (akak a list!) that represent all the inputs to a neural network or a summary of all the values of the features. Not a tensor (matrix).
+
+ See also [V], [Dot Product], [Feature], [Tensor], [Sparse Vector], [Vector Database]
+
+
+# Vector Database
+
+ A vector database indexes and stores vector embeddings for fast retrieval and similarity search.
+
+ Being able to search across images, video, text, audio, and other forms of unstructured data via their content rather than human-generated labels or tags is exactly what vector databases were meant to solve. When combined with powerful machine learning models, vector databases such as Milvus have the ability to revolutionize e-commerce solutions, recommendation systems, computer security, pharmaceuticals, and many other industries. A vector database is a fully managed, no-frills solution for storing, indexing, and searching across a massive dataset of unstructured data that leverages the power of embeddings from machine learning models. A vector database should have the following features:
+  * scalability and tunability,
+  * multi-tenancy and data isolation,
+  * a complete suite of APIs, and
+  * an intuitive user interface/administrative console.
+
+ Databases
+  * [Chroma Database] - in-memory ?
+  * [Milvus Database]
+  * [Pinecone Database]
+  * [Qdrant Database]
+  * [Redis Database]
+  * [Vespa Database]
+  * [Weaviate Database]
+
+ Alternatives
+  * np.array
+  * traditional databases
+
+ Use cases
+  * Long-term memory for LLMs
+  * Semantic search: search based on the meaning or context
+  * Similarity search for text, images, audio, or video data
+  * Recommendation engine (recommend items similar to past purchases)
+
+ {% youtube "https://www.youtube.com/watch?v=yM9aKQiJVo0" %}
+
+ {% youtube "https://www.youtube.com/watch?v=klTvEwg3oJ4" %}
+
+ {% youtube "https://www.youtube.com/watch?v=dN0lsF2cvm4" %}
+
+ More at:
+  * [https://www.pinecone.io/learn/vector-database/](https://www.pinecone.io/learn/vector-database/)
+
+ See also [V], [Representation Space], [Vector], [Vector Search Library]
+
+
+# Vector Embedding
+
+ See also [V], [Vector Database]
+
+
+# Vector Indexing
+
+ See also [V], [Vector Database]
+
+
 # Vector Quantized Generative Adversarial Network
 
 # VQGAN
@@ -219,32 +277,6 @@ z_q(x)=\text{argmin}_i ||z_e(x)-e_i||_2
  See also [V], [Codebook], [Variational Autoencoder]
 
 
-# Vector
-
- A 1 column matrix (akak a list!) that represent all the inputs to a neural network or a summary of all the values of the features. Not a tensor (matrix).
-
- See also [V], [Dot Product], [Feature], [Tensor], [Sparse Vector], [Vector Database]
-
-
-# Vector Database
-
- Being able to search across images, video, text, audio, and other forms of unstructured data via their content rather than human-generated labels or tags is exactly what vector databases were meant to solve. When combined with powerful machine learning models, vector databases such as Milvus have the ability to revolutionize e-commerce solutions, recommendation systems, computer security, pharmaceuticals, and many other industries. A vector database is a fully managed, no-frills solution for storing, indexing, and searching across a massive dataset of unstructured data that leverages the power of embeddings from machine learning models. A vector database should have the following features:
-  * scalability and tunability,
-  * multi-tenancy and data isolation,
-  * a complete suite of APIs, and
-  * an intuitive user interface/administrative console.
-
- Databases
-  * [Pinecone Database]
-  * [Milvus Database]
-  * [Chroma Database] - in-memory ?
-
- More at:
-  * [https://www.pinecone.io/learn/vector-database/](https://www.pinecone.io/learn/vector-database/)
-
- See also [V], [Representation Space], [Vector], [Vector Search Library]
-
-
 # Vector Search Library
 
  projects such as FAISS, ScaNN, and HNSW are lightweight ANN libraries rather than managed solutions. The intention of these libraries is to aid in the construction of vector indices – data structures designed to significantly speed up nearest neighbor search for multi-dimensional vectors. If your dataset is small and limited, these libraries can prove to be sufficient for unstructured data processing, even for systems running in production. However, as dataset sizes increase and more users are onboarded, the problem of scale becomes increasingly difficult to solve. Vector databases also operate in a totally different layer of abstraction from vector search libraries - vector databases are full-fledged services, while ANN libraries are meant to be integrated into the application that you’re developing. In this sense, ANN libraries are one of the many components that vector databases are built on top of, similar to how Elasticsearch is built on top of Apache Lucene.
@@ -256,6 +288,14 @@ z_q(x)=\text{argmin}_i ||z_e(x)-e_i||_2
 
  An increasing number of traditional databases and search systems, such as Clickhouse and Elasticsearch, include built-in vector search plugins. Elasticsearch 8.0, for example, includes vector insertion and ANN search functionality that can be called via restful API endpoints. The problem with vector search plugins should be clear as night and day - these solutions do not take a full-stack approach to embedding management and vector search. Instead, these plugins are meant to be enhancements on top of existing architectures, thereby making them limited and unoptimized. Developing an unstructured data application atop a traditional database would be like trying to fit lithium batteries and electric motors inside a frame of a gas-powered car - not a great idea! To illustrate why this is, let’s go back to the list of features that a vector database should implement (from the first section). Vector search plugins are missing two of these features - tunability and user-friendly APIs/SDKs.
  See also [V], [Vector], [Vector Database]
+
+
+# Vicuna Model
+
+More at:
+ * [https://lmsys.org/blog/2023-03-30-vicuna/](https://lmsys.org/blog/2023-03-30-vicuna/)
+
+ See also [V], ...
 
 
 # Video Pre-Training Model

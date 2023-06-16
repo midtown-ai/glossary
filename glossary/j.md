@@ -42,7 +42,14 @@ layout: page
  See [J], [Red Teaming]
 
 
-# Joblib Module
+# JAX Python Module
+
+ A [python module] that
+
+ See also [J], ...
+
+
+# Joblib Python Module
 
  A [python module] to save models in files
 

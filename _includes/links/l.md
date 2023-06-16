@@ -4,7 +4,8 @@
 [Labeling Function]: {{ site.baseurl }}{% link glossary/l.md %}#labeling-function
 [Labeling Service]: {{ site.baseurl }}{% link glossary/l.md %}#labeling-service
 [Labor Market Impact]: {{ site.baseurl }}{% link glossary/l.md %}#labor-market-impact
-[LangChain Module]: {{ site.baseurl }}{% link glossary/l.md %}#langchain-module
+[LangChain Python Module]: {{ site.baseurl }}{% link glossary/l.md %}#langchain-python-module
+[LangChain]: {{ site.baseurl }}{% link glossary/l.md %}#langchain-python-module
 [Language Model]: {{ site.baseurl }}{% link glossary/l.md %}#language-model
 [Language Model For Discussion Applications Model]: {{ site.baseurl }}{% link glossary/l.md %}#language-model-for-discussion-applications-model
 [Language Model For Discussion Applications]: {{ site.baseurl }}{% link glossary/l.md %}#language-model-for-discussion-applications-model
@@ -29,6 +30,7 @@
 [Latent Vector]: {{ site.baseurl }}{% link glossary/l.md %}#latent-vector
 [Layer]: {{ site.baseurl }}{% link glossary/l.md %}#layer
 [LeakyReLU Activation Function]: {{ site.baseurl }}{% link glossary/l.md %}#leakyrelu-activation-function
+[LeakyReLU]: {{ site.baseurl }}{% link glossary/l.md %}#leakyrelu-activation-function
 [Learning Method]: {{ site.baseurl }}{% link glossary/l.md %}#learning-method
 [Learning Process]: {{ site.baseurl }}{% link glossary/l.md %}#learning-process
 [Learning Rate]: {{ site.baseurl }}{% link glossary/l.md %}#learning-rate
@@ -43,11 +45,14 @@
 [LOOCV]: {{ site.baseurl }}{% link glossary/l.md %}#loocv
 [Light Gradient Boosting Machine]: {{ site.baseurl }}{% link glossary/l.md %}#light-gradient-boosting-machine
 [LightGBM]: {{ site.baseurl }}{% link glossary/l.md %}#light-gradient-boosting-machine
+[Likelihood]: {{ site.baseurl }}{% link glossary/l.md %}#likelihood
+[Linear Activation Function]: {{ site.baseurl }}{% link glossary/l.md %}#linear-activation-function
 [Linear Algebra]: {{ site.baseurl }}{% link glossary/l.md %}#linear-algebra
 [Linear Autoencoder]: {{ site.baseurl }}{% link glossary/l.md %}#linear-autoencoder
 [Linear Discriminant Analysis]: {{ site.baseurl }}{% link glossary/l.md %}#linear-discriminant-analysis
 [LDA]: {{ site.baseurl }}{% link glossary/l.md %}#linear-discriminant-analysis
 [Linear Regression]: {{ site.baseurl }}{% link glossary/l.md %}#linear-regression
+[Link Prediction]: {{ site.baseurl }}{% link glossary/l.md %}#link-prediction
 [Linux Foundation AI and Data]: {{ site.baseurl }}{% link glossary/l.md %}#linux-fundation-ai-and-data
 [LFAI&Data]: {{ site.baseurl }}{% link glossary/l.md %}#linux-fundation-ai-and-data
 [LLaMa Model]: {{ site.baseurl }}{% link glossary/l.md %}#llama-model
@@ -58,7 +63,7 @@
 [Log Transformation]: {{ site.baseurl }}{% link glossary/l.md %}#log-transformation
 [Logic Model]: {{ site.baseurl }}{% link glossary/l.md %}#logic-model
 [Logistic Regression]: {{ site.baseurl }}{% link glossary/l.md %}#logistic-regression
-[Long Short Term Memory Cell]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-cell
+[Long Short-Term Memory Cell]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-cell
 [LSTM Cell]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-cell
 [Long Short-Term Memory Network]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-network
 [LSTM Network]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-network

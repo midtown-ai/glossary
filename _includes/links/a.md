@@ -7,9 +7,10 @@
 [Action Spaces]: {{ site.baseurl }}{% link glossary/a.md %}#action-space
 [Action Transformer]: {{ site.baseurl }}{% link glossary/a.md %}#action-transformer
 [Action-Value Function]: {{ site.baseurl }}{% link glossary/a.md %}#action-value-function
-[Active Learning]: {{ site.baseurl }}{% link glossary/a.md %}#active-learning
+[Activation Checkpointing]: {{ site.baseurl }}{% link glossary/a.md %}#activation-checkpointing
 [Activation Function]: {{ site.baseurl }}{% link glossary/a.md %}#activation-function
 [Activation Step]: {{ site.baseurl }}{% link glossary/a.md %}#activation-step
+[Active Learning]: {{ site.baseurl }}{% link glossary/a.md %}#active-learning
 [Actor]: {{ site.baseurl }}{% link glossary/a.md %}#actor
 [Actors]: {{ site.baseurl }}{% link glossary/a.md %}#actors
 [Actor Network]: {{ site.baseurl }}{% link glossary/a.md %}#actor-network
@@ -119,6 +120,8 @@
 [Argmax]: {{ site.baseurl }}{% link glossary/a.md %}#argmax-function
 [Argmin Function]: {{ site.baseurl }}{% link glossary/a.md %}#argmin-function
 [Argmin]: {{ site.baseurl }}{% link glossary/a.md %}#argmin-function
+[Argparse Module]: {{ site.baseurl }}{% link glossary/a.md %}#argparse-module
+[Argparse]: {{ site.baseurl }}{% link glossary/a.md %}#argparse-module
 [Artificial General Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-general-intelligence
 [AGI]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-general-intelligence
 [Artificial Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence
@@ -131,11 +134,15 @@
 [AI Complete]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-complete
 [Artificial Intelligence Hard]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-hard
 [AI Hard]: {{ site.baseurl }}{% link glossary/a.md %}#ai-hard
+[Artificial Intelligence Risk Managment Framework]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-risk-management-framework
+[AI Risk Managment Framework]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-risk-management-framework
+[AI RMF]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-risk-management-framework
 [Artificial Narrow Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-narrow-intelligence
 [ANI]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-narrow-intelligence
 [Artificial Neural Network]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neural-network
 [ANN]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neural-network
 [Artificial Neuron]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neuron
+[Artificial Neurons]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neuron
 [Artificial Neuron Bias]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neuron-bias
 [Artificial Super Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-super-intelligence
 [ASI]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-super-intelligence
@@ -161,6 +168,8 @@
 [Autoencoding Model]: {{ site.baseurl }}{% link glossary/a.md %}#autoencoding-model
 [AutoGPT Model]: {{ site.baseurl }}{% link glossary/a.md %}#autogpt-model
 [AutoGPT]: {{ site.baseurl }}{% link glossary/a.md %}#autogpt-model
+[Automatic Speech Recognition]: {{ site.baseurl }}{% link glossary/a.md %}#automatic-speech-recognition
+[ASR]: {{ site.baseurl }}{% link glossary/a.md %}#automatic-speech-recognition
 [Automation]: {{ site.baseurl }}{% link glossary/a.md %}#automation
 [AutoML]: {{ site.baseurl }}{% link glossary/a.md %}#automl
 [Autonomous Vehicle]: {{ site.baseurl }}{% link glossary/a.md %}#autonomous-vehicle

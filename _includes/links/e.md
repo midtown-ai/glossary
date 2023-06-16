@@ -9,6 +9,7 @@
 [Eigenvectors]: {{site.baseurl }}{% link glossary/e.md %}#eigenvector
 [Elastic Net]: {{site.baseurl }}{% link glossary/e.md %}#elastic-net
 [Electric Dreams Movie]: {{site.baseurl }}{% link glossary/e.md %}#electric-dreams-movie
+[Electric Dreams]: {{site.baseurl }}{% link glossary/e.md %}#electric-dreams-movie
 [ElevenLabs AI Company]: {{site.baseurl }}{% link glossary/e.md %}#elevenlabs-ai-company
 [ElevenLabs AI]: {{site.baseurl }}{% link glossary/e.md %}#elevenlabs-ai-company
 [Elon Musk Person]: {{site.baseurl }}{% link glossary/e.md %}#elon-musk-person
@@ -57,6 +58,7 @@
 [Experience Replay Buffer]: {{site.baseurl }}{% link glossary/e.md %}#experience-replay-buffer
 [Expert System]: {{site.baseurl }}{% link glossary/e.md %}#expert-system
 [Expert Systems]: {{site.baseurl }}{% link glossary/e.md %}#expert-system
+[Explainability]: {{site.baseurl }}{% link glossary/e.md %}#explainability
 [Explainability Spectrum]: {{site.baseurl }}{% link glossary/e.md %}#explainability-spectrum
 [Explainable AI]: {{site.baseurl }}{% link glossary/e.md %}#explainable-ai
 [XAI]: {{site.baseurl }}{% link glossary/e.md %}#xai
@@ -64,6 +66,9 @@
 [Exploding Gradient Problem]: {{ site.baseurl }}{% link glossary/e.md %}#exploding-gradient-problem
 [Exploitation]: {{site.baseurl }}{% link glossary/e.md %}#exploitation
 [Exploration]: {{site.baseurl }}{% link glossary/e.md %}#exploration
+[Exponential Linear Unit Activation Function]: {{site.baseurl }}{% link glossary/e.md %}#exponential-linear-unit-activation-function
+[ELU Activation Function]: {{site.baseurl }}{% link glossary/e.md %}#exponential-linear-unit-activation-function
+[ELU]: {{site.baseurl }}{% link glossary/e.md %}#exponential-linear-unit-activation-function
 [Expressiveness]: {{site.baseurl }}{% link glossary/e.md %}#expressiveness
 [Extreme Gradient Boosting]: {{site.baseurl }}{% link glossary/e.md %}#extreme-gradient=boosting
 [XGBoost]: {{site.baseurl }}{% link glossary/e.md %}#xgboost

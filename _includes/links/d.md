@@ -60,6 +60,7 @@
 [DeepMind]: {{ site.baseurl }}{% link glossary/d.md %}#deepmind-company
 [DeepNash Model]: {{ site.baseurl }}{% link glossary/d.md %}#deepnash-model
 [DeepSpeed Project]: {{ site.baseurl }}{% link glossary/d.md %}#deepspeed-project
+[DeepWalk]: {{ site.baseurl }}{% link glossary/d.md %}#deepwalk
 [Delayed Reward]: {{ site.baseurl }}{% link glossary/d.md %}#delayed-reward
 [Dendrite]: {{ site.baseurl }}{% link glossary/d.md %}#dendrite
 [Denoising Autoencoder]: {{ site.baseurl }}{% link glossary/d.md %}#denoising-autoencoder
@@ -77,6 +78,7 @@
 [Digital Immortality]: {{ site.baseurl }}{% link glossary/d.md %}#digital-immortality
 [Digital Watermark]: {{ site.baseurl }}{% link glossary/d.md %}#digital-watermark
 [Dimensionality Reduction]: {{ site.baseurl }}{% link glossary/d.md %}#dimensionality-reduction
+[Direct Preference Optimization]: {{ site.baseurl }}{% link glossary/d.md %}#direct-preference-optimization
 [Discount Factor]: {{ site.baseurl }}{% link glossary/d.md %}#discount-factor
 [Discovery Phase]: {{ site.baseurl }}{% link glossary/d.md %}#discovery-phase
 [Discrete Action Space]: {{ site.baseurl }}{% link glossary/d.md %}#discrete-action-space
@@ -94,6 +96,7 @@
 [Dot Product]: {{ site.baseurl }}{% link glossary/d.md %}#dot-product
 [Double Q Network]: {{ site.baseurl }}{% link glossary/d.md %}#double-q-network
 [Downstream Task]: {{ site.baseurl }}{% link glossary/d.md %}#downstream-task
+[DragGAN Model]: {{ site.baseurl }}{% link glossary/d.md %}#draggan-model
 [DreamFusion Model]: {{ site.baseurl }}{% link glossary/d.md %}#dreamfusion-model
 [DreamIX Model]: {{ site.baseurl }}{% link glossary/d.md %}#dreamix-model
 [Dropout]: {{ site.baseurl }}{% link glossary/d.md %}#dropout
@@ -101,5 +104,6 @@
 [Dropout Function]: {{ site.baseurl }}{% link glossary/d.md %}#dropout-function
 [Dropout Layer]: {{ site.baseurl }}{% link glossary/d.md %}#dropout-layer
 [Dual-Encoder Contrastive Model]: {{ site.baseurl }}{% link glossary/d.md %}#dual-encoder-contrastive-model
+[Dying Relu Problem]: {{ site.baseurl }}{% link glossary/d.md %}#dying-relu-problem
 [Dynamic Programming]: {{ site.baseurl }}{% link glossary/d.md %}#dynamic-programming
 [DP]: {{ site.baseurl }}{% link glossary/d.md %}#dp

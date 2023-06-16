@@ -7,6 +7,10 @@
 [GRU Cell]: {{ site.baseurl }}{% link glossary/g.md %}#gated-recurrent-unit-cell
 [Gato Model]: {{ site.baseurl }}{% link glossary/g.md %}#gato-model
 [Gaussian Distribution]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-distribution
+[Gaussian Error Linear Unit Activation Function]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-error-linear-unit-activation-function
+[GELU Activation Function]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-error-linear-unit-activation-function
+[GELU]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-error-linear-unit-activation-function
+[Gaussian Naive Bayes Classifier]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-naive-bayes-classifier
 [Gaussian Process]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-process
 [Gen Model]: {{ site.baseurl }}{% link glossary/g.md %}#gen-model
 [General Language Understanding Evaluation Benchmark]: {{ site.baseurl }}{% link glossary/g.md %}#general-language-understanding-evaluation-benchmark
@@ -55,9 +59,15 @@
 [Gradient Descent with Momentum Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descent-with-momentum-algorithm
 [GD with Momentum Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descent-with-momentum-algorithm
 [Gradient Perturbation]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-perturbation
-[Gradio Module]: {{ site.baseurl }}{% link glossary/g.md %}#gradio-module
+[Gradio Python Module]: {{ site.baseurl }}{% link glossary/g.md %}#gradio-python-module
+[Gradio]: {{ site.baseurl }}{% link glossary/g.md %}#gradio-python-module
 [Graph Convolutional Network]: {{ site.baseurl }}{% link glossary/g.md %}#graph-convolutinoal-network
 [GCN]: {{ site.baseurl }}{% link glossary/g.md %}#graph-convolutinoal-network
+[Graph Data Science]: {{ site.baseurl }}{% link glossary/g.md %}#graph-data-science
+[GDS]: {{ site.baseurl }}{% link glossary/g.md %}#graph-data-science
+[Graph Database]: {{ site.baseurl }}{% link glossary/g.md %}#graph-database
+[Graph Embedding]: {{ site.baseurl }}{% link glossary/g.md %}#graph-embedding
+[Graph Embeddings]: {{ site.baseurl }}{% link glossary/g.md %}#graph-embedding
 [Graph Neural Network]: {{ site.baseurl }}{% link glossary/g.md %}#graph-neural-network
 [GNN]: {{ site.baseurl }}{% link glossary/g.md %}#gnn
 [Graph Neural Network Edge-Level Task]: {{ site.baseurl }}{% link glossary/g.md %}#graph-neural-network-edge-level-task

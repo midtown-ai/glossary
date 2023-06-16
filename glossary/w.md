@@ -53,13 +53,38 @@ layout: page
  See also [W], [AI Movie]
 
 
-# Wave2Vec
+# Wav2Letter Model
 
- Used for speech.
+ Included in the [Fairseq Toolkit] built by [Meta]
 
- {% youtube "https://www.youtube.com/watch?v=viZrOnJclY0" %}
+ More at:
+  * ...
 
  See also [W], ...
+
+
+# Wav2Vec Model
+
+ Used for [automatic speech recognition].
+
+ As presented in the picture below, the model is trained in two phases. The first phase is in a self-supervised mode, which is done using unlabeled data and it aims to achieve the best speech representation possible. You can think about that in a similar way as you think of word embeddings. Word embeddings also aim to achieve the best representation of natural language. The main difference is that Wav2Vec 2.0 processes audio instead of text. The second phase of training is [supervised fine-tuning (SFT)][SFT], during which labeled data is used to teach the model to predict particular words or phonemes. If you are not familiar with the word ‘phoneme’, you can think about it as the smallest possible unit of sound in a particular language, usually represented by one or two letters.
+
+ ![]( {{site.assets}}/w/wave2vec_model.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=B5A1bMi4dJI" %}
+
+ {% pdf "https://arxiv.org/pdf/1904.05862.pdf" %}
+
+ More at:
+  * Wav2vec 2.0 
+    * site - [https://ai.facebook.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/](https://ai.facebook.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/)
+    * articles
+      * [https://towardsdatascience.com/wav2vec-2-0-a-framework-for-self-supervised-learning-of-speech-representations-7d3728688cae](https://towardsdatascience.com/wav2vec-2-0-a-framework-for-self-supervised-learning-of-speech-representations-7d3728688cae)
+  * Wav2vec 1.0 
+    * site - [https://ai.facebook.com/blog/wav2vec-state-of-the-art-speech-recognition-through-self-supervision/](https://ai.facebook.com/blog/wav2vec-state-of-the-art-speech-recognition-through-self-supervision/)
+    * paper - [https://arxiv.org/abs/1904.05862](https://arxiv.org/abs/1904.05862)
+
+ See also [W], [FairSec ToolKit]
 
 
 # WaveNet Model
@@ -167,9 +192,9 @@ layout: page
 
 # Whisper Model
 
- A speech-to-text model developed by [OpenAI]
+ A open-source speech-to-text model developed by [OpenAI] that uses a [transformer architecture].
 
- Open-sourcing a neural net called Whisper that approaches human level robustness and accuracy on English speech recognition.
+ Open-sourcing a neural net called Whisper that approaches human level robustness and accuracy on English speech recognition. Can also be used for translation.
 
  ```
 curl https://api.openai.com/v1/audio/transcriptions \
@@ -179,8 +204,17 @@ curl https://api.openai.com/v1/audio/transcriptions \
   -F file="@/path/to/file/openai.mp3"
  ```
 
+ ![]( {{site.assets}}/w/whisper_model_architecture.svg ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=ABFqbY_rmEk" %}
+
+ {% pdf "https://cdn.openai.com/papers/whisper.pdf" %}
+
  More at:
-  * [https://openai.com/blog/whisper/](https://openai.com/blog/whisper/)
+  * site - [https://openai.com/blog/whisper/](https://openai.com/blog/whisper/)
+  * code - [https://github.com/openai/whisper](https://github.com/openai/whisper)
+  * paper - 
+  * model card - [https://github.com/openai/whisper/blob/main/model-card.md](https://github.com/openai/whisper/blob/main/model-card.md)
 
  See also [W], ...
 
@@ -226,7 +260,25 @@ vector(‘king’) + vector(‘woman’) — vector(‘man’) ~ vector(‘queen
 
  See also [W], [Input Space], [Latent Space]
 
- 
+
+# Word Error Rate Metric
+
+# WER Metric
+
+ ~ a common metric of the performance of an [automatic speech recognition] or [machine translation] system.
+
+ The general difficulty of measuring performance lies in the fact that the recognized word sequence can have a different length from the reference word sequence (supposedly the correct one). The WER is derived from the Levenshtein distance, working at the word level instead of the phoneme level. The WER is a valuable tool for comparing different systems as well as for evaluating improvements within one system. This kind of measurement, however, provides no details on the nature of translation errors and further work is therefore required to identify the main source(s) of error and to focus any research effort.
+
+ {% youtube "https://www.youtube.com/watch?v=9ULmu6hh-HM" %}
+
+ {% youtube "https://www.youtube.com/watch?v=UqhZG4DDtuk" %}
+
+ More at:
+  * wikipedia - [https://en.wikipedia.org/wiki/Word_error_rate](https://en.wikipedia.org/wiki/Word_error_rate)
+
+ See also [W], [BLEU Metric], [ROUGE Metric]
+
+
 # Word2Vec Model
 
  Context-free models such as word2vec or GloVe generate a single "word embedding" representation for each word in the vocabulary, so bank would have the same representation in bank deposit and river bank. Do not take into consideration the context on the right or on the left of the word. ~ Bag of Words. Deprecated by RNN?
@@ -237,7 +289,7 @@ vector(‘king’) + vector(‘woman’) — vector(‘man’) ~ vector(‘queen
 
  {% youtube "https://www.youtube.com/watch?v=viZrOnJclY0" %}
 
- See also [W], [Bag Of Words], [Recurrent Neural Network], [Word Embedding]
+ See also [W], [Bag Of Words], [Node2Vec Model], [Recurrent Neural Network], [Word Embedding]
 
  
 # WordNet Dataset

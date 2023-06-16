@@ -68,7 +68,7 @@ layout: page
  More at:
   * [http://colah.github.io/posts/2015-08-Understanding-LSTMs/](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
- See also [G], [Long Short Term Memory Network], 
+ See also [G], [Long Short-Term Memory Network], 
 
 
 # Gato Model
@@ -94,12 +94,56 @@ layout: page
 
  ![]( {{site.assets}}/g/gaussian_distribution.png ){: width="100%"}
 
- See also [G], [Central Limit Theorem], [Gaussian Process]
+ See also [G], [Central Limit Theorem], [Gaussian Naive Bayes Classifier], [Gaussian Process]
+
+
+# Gaussian Error Linear Unit Activation Function
+
+# GELU Activation Function
+
+ GELU activation functions are used in GPT-3, BERT, and most other [Transformer architecture] models.
+
+ An empirical evaluation of the GELU nonlinearity against the [ReLU] and [ELU] activations and find performance improvements across all considered [computer vision], [natural language processing], and speech tasks.
+
+ ```
+m = nn.GELU()
+input = torch.randn(2)
+output = m(input)
+ ```
+
+ ![]( {{site.assets}}/g/gaussian_error_linear_unit_activation_function.png ){: width="100%"}
+
+ {% pdf "https://arxiv.org/pdf/1606.08415v5.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/1606.08415v5](https://arxiv.org/abs/1606.08415v5)
+  * code - [https://github.com/pytorch/pytorch/blob/96aaa311c0251d24decb9dc5da4957b7c590af6f/torch/nn/modules/activation.py#L584](https://github.com/pytorch/pytorch/blob/96aaa311c0251d24decb9dc5da4957b7c590af6f/torch/nn/modules/activation.py#L584)
+
+ See also [G], ...
+
+
+# Gaussian Naive Bayes Classifier
+
+ A type of [Naive Bayes Classifiers] that use the [Gaussian Distribution] for training data
+
+ {% youtube "https://www.youtube.com/watch?v=H3EjCKtlVog" %}
+
+ See also [G], ...
 
 
 # Gaussian Process
 
  See also [G], [Random Forest], [Tree Parzen Estimators]
+
+
+# Gemini Model
+
+ Built by [Google] using [PaLM] to compete with multimodal GPT4
+
+ More at:
+  * [https://aibusiness.com/companies/google-doubles-down-on-ai-launches-new-language-model-and-ai-tools](https://aibusiness.com/companies/google-doubles-down-on-ai-launches-new-language-model-and-ai-tools)
+
+ See also [G], ...
 
 
 # Gen Model
@@ -383,7 +427,6 @@ layout: page
   * [Pathways Model Architecture] -
   * [Transformer Architecture] -
 
-
  Hardware developed by company
   * [Tensor Processing Unit (TPU)][TPU] - custom hardware for tensor arithmetic
 
@@ -391,18 +434,18 @@ layout: page
   * [Bard] - A lightweight version of Lambda meant to compete against Bing + [ChatGPT Model]
   * [DreamIX][DreamIX Model] - text-to-video and image-to-video diffusion model
   * [Gameface](https://blog.google/technology/ai/google-project-gameface/) - use your face in place of a mouse!
+  * [Gemini] - multimodal to enable future innovations like memory and planning
   * [Google Lens][Google Lens] - search what you see, uses cellphone cameras and [computer vision]
   * [Google Translate][Google Translate Model] - Translate one language into another, [machine translation]
   * [Gshard Model] -
   * [Imagen][Imagen Model] - A text-to-image diffusion model
   * [Imagen Video][Imagen Video Model] - A text-to-video model
-  * [LaMBDA] - A large language model
-  * [Magi Model] -
+  * [Magi Model] - [Bard] with Ads!
   * [Minerva Model] -
   * [MUM Model] - Use [T5 Model], NLU and multimodal, 1000 more powerful than the [BERT Model]. 
   * [Muse Model] -
   * [MusicLM][MusicLM Model] - Generative model for music
-  * [PaLM Model] -
+  * [PaLM Model] - The GPT3 equivalent, deprecated [LaMBDA]
   * [Phenaki Model] - realistic video synthesis, given a sequence of textual prompts
   * [Switch Transformer] -
   * [T5 Model] -
@@ -413,6 +456,7 @@ layout: page
   * 2015: RankBrain
   * 2018: Neural Matching
   * 2019: [BERT] - A [natural language processing] model based on the [transformer architecture] 
+  * 2023: [LaMDA] - A large language model built for discussion applications, deprecated by PaLM
 
  Companies
   * [DeepMind] which built models such as [Chinchilla][Chinchilla Model], [Sparrow][Sparrow Model], [AlphaiFold][AlphaFold Model], and more ... 
@@ -427,6 +471,9 @@ layout: page
     * Audio project - [https://medium.com/p/4212fd7f3555(https://medium.com/p/4212fd7f3555)
 
  {% youtube "https://www.youtube.com/watch?v=X5iLF-cszu0&t=611s" %}
+
+ More at:
+  * Google IO 2023 - [https://blog.google/technology/developers/google-io-2023-100-announcements/](https://blog.google/technology/developers/google-io-2023-100-announcements/)
 
  See also [G], [Company]
 
@@ -611,7 +658,7 @@ layout: page
  See also [G], [Differential Privacy], [Gradient Clipping], [Output Perturbation]
 
 
-# Gradio Module
+# Gradio Python Module
 
  A [python module] to build a UI for machine learning models.
 
@@ -634,6 +681,44 @@ layout: page
   * [https://towardsdatascience.com/how-to-do-deep-learning-on-graphs-with-graph-convolutional-networks-7d2250723780](https://towardsdatascience.com/how-to-do-deep-learning-on-graphs-with-graph-convolutional-networks-7d2250723780)
 
  See also [G], ...
+
+
+# Graph Data Science
+
+# GDS
+
+ Language used by the open-source neo4j  graph database database
+
+ More at:
+  * [https://neo4j.com/docs/graph-data-science/current/](https://neo4j.com/docs/graph-data-science/current/)
+  * articles
+    * [https://towardsdatascience.com/getting-started-with-graph-embeddings-2f06030e97ae](https://towardsdatascience.com/getting-started-with-graph-embeddings-2f06030e97ae)
+
+
+# Graph Database
+
+ * [Neo4j] --> use [GDS] and [openCypher] language
+ * AWS Neptune --> [DGL] and [Gremlin]
+ * TigerGraph  --> [GSQL]
+
+ Algorithms
+  * [Link Prediction] for recommendation engine
+  * ...
+
+ See also [G], ...
+
+
+# Graph Embedding
+
+ ~ turn the nodes of a network graph into a vectors
+  
+ * [Node2Vec]
+ * [DeepWalk]
+ * [FastRP]
+
+ More at:
+  * [https://towardsdatascience.com/getting-started-with-graph-embeddings-2f06030e97ae](https://towardsdatascience.com/getting-started-with-graph-embeddings-2f06030e97ae)
+  * visualization with t-SNE - [https://towardsdatascience.com/visualizing-graph-embeddings-with-t-sne-in-python-10227e7876aa](https://towardsdatascience.com/visualizing-graph-embeddings-with-t-sne-in-python-10227e7876aa)
 
 
 # Graph Neural Network

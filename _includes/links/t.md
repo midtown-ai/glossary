@@ -14,7 +14,8 @@
 [Tensor]: {{ site.baseurl }}{% link glossary/t.md %}#tensor
 [Tensor Processing Unit]: {{ site.baseurl }}{% link glossary/t.md %}#tensor-processing-unit
 [TPU]: {{ site.baseurl }}{% link glossary/t.md %}#tpu
-[TensorFlow ML Framework]: {{ site.baseurl }}{% link glossary/t.md %}#tensorflow-ml-framework
+[TensorFlow Python Module]: {{ site.baseurl }}{% link glossary/t.md %}#tensorflow-python-module
+[TensorFlow]: {{ site.baseurl }}{% link glossary/t.md %}#tensorflow-python-module
 [TensorRT Software Development Kit]: {{ site.baseurl }}{% link glossary/t.md %}#tensorrt-software-development-kit
 [TensorRT SDK]: {{ site.baseurl }}{% link glossary/t.md %}#tensorrt-software-development-kit
 [Term Frequency]: {{ site.baseurl }}{% link glossary/t.md %}#term-frequency
@@ -52,6 +53,10 @@
 [Transformer Architecture]: {{ site.baseurl }}{% link glossary/t.md %}#transformer-architecture
 [Transformer Model]: {{ site.baseurl }}{% link glossary/t.md %}#transformer-model
 [Translation]: {{ site.baseurl }}{% link glossary/t.md %}#translation
+[Tree Of Thoughts Prompting]: {{ site.baseurl }}{% link glossary/t.md %}#tree-of-thoughts-prompting
+[Tree Of Thoughts]: {{ site.baseurl }}{% link glossary/t.md %}#tree-of-thoughts-prompting
+[TOT Prompting]: {{ site.baseurl }}{% link glossary/t.md %}#tree-of-thoughts-prompting
+[TOT]: {{ site.baseurl }}{% link glossary/t.md %}#tree-of-thoughts-prompting
 [Tree Parzen Estimators]: {{ site.baseurl }}{% link glossary/t.md %}#tree-parzen-estimators
 [TPE]: {{ site.baseurl }}{% link glossary/t.md %}#tree-parzen-estimators
 [Triplet Loss Function]: {{ site.baseurl }}{% link glossary/t.md %}#triplet-loss-function

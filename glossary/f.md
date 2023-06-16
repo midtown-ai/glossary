@@ -60,6 +60,21 @@ layout: page
  See also [F], ...
 
 
+# FAIRSEQ Toolkit
+
+ Built by [Meta] on the top of [PyTorch]
+
+ Includes
+  * [Wav2Letter Model]
+  * [Wav2Vec Model]
+  * ...
+
+ {% youtube "https://www.youtube.com/watch?v=t6JjlNVuBUQ" %}
+
+ More at:
+  * code - [https://github.com/facebookresearch/fairseq](https://github.com/facebookresearch/fairseq)
+
+
 # Fake Art
 
  More at:
@@ -76,6 +91,25 @@ layout: page
 # Fashion MNIST Dataset
 
  See also [F], [MNIST Dataset]
+
+
+# Fast Random Projection
+
+# FastRP
+
+ FastRP, a scalable and performant algorithm for learning distributed node representations in a graph. FastRP is over 4,000 times faster than state-of-the-art methods such as [DeepWalk] and [node2vec], while achieving comparable or even better performance as evaluated on several real-world networks on various downstream tasks. We observe that most network embedding methods consist of two components: construct a node similarity matrix and then apply dimension reduction techniques to this matrix. 
+
+ {% youtube "https://www.youtube.com/watch?v=uYvniQlSvyQ" %}
+
+ {% pdf "https://arxiv.org/pdf/1908.11512.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/1908.11512](https://arxiv.org/abs/1908.11512)
+  * articles
+    * [https://towardsdatascience.com/behind-the-scenes-on-the-fast-random-projection-algorithm-for-generating-graph-embeddings-efb1db0895](https://towardsdatascience.com/behind-the-scenes-on-the-fast-random-projection-algorithm-for-generating-graph-embeddings-efb1db0895)
+
+ See also [F], ...
+
 
 # Feature
 
@@ -323,6 +357,19 @@ Xnorm = ---------------
  See also [F], [Backpropagation], [Neural Network], [Recurrent Neural Network], [Softmax Function]
 
 
+# Fei-Fei Li Person
+
+ * Studied at caltech
+ * Launched the image project [ImageNet] in 2007
+ * Led the computer vision lab at Stanford
+
+ {% youtube "https://www.youtube.com/watch?v=40riCqvRoMs" %}
+
+ {% youtube "https://www.youtube.com/watch?v=lV29vATjoW4" %}
+
+ See also [F], [People]
+
+
 # Few-Shot Learning
 
  A [prompt engineering] technique for [large language models][LLM]!
@@ -345,6 +392,13 @@ cheese =>
   * [https://en.wikipedia.org/wiki/Few-shot_learning_(natural_language_processing)](https://en.wikipedia.org/wiki/Few-shot_learning_(natural_language_processing))
 
  See also [F], [One-Shot Learning], [Zero-Shot Task Transfer], [Zero-Shot Learning], 
+
+
+# Few-Shot Prompting
+
+ ~ [Few-shot learning] applied on [Prompt Engineering]
+
+ See also [F], ...
 
 
 # File Mode
@@ -434,6 +488,31 @@ cheese =>
  Here we are trying to predict a variable y given an input vector x. We assume that there is a function f(x) that describes the approximate relationship between y and x. For example, we may assume that y = f(x) + ε, where ε stands for the part of y that is not predictable from x. In function estimation, we are interested in approximating f with a model or estimate fˆ. Function estimation is really just the same as estimating a parameter θ; the function estimator fˆis simply a point estimator in function space. Ex: in polynomial regression we are either estimating a parameter w or estimating a function mapping from x to y. 
 
  See also [F], [Estimator], [Point Estimator]
+
+
+# Fused Kernel
+
+ Fused kernels, in the context of deep learning, refer to a technique that combines multiple computational operations into a single kernel or operation. The purpose of fusing kernels is to improve computational efficiency and reduce memory overhead by minimizing data movement and kernel launch overhead.
+
+ In deep learning models, there are often multiple operations performed on the same set of data. These operations can include element-wise operations, matrix multiplications, convolutions, and more. Fusing these operations means combining them into a single operation that performs all the required computations simultaneously, reducing the need for intermediate storage and data transfer between different kernel launches.
+
+ By fusing kernels, the computational efficiency can be improved in several ways:
+
+ Reduced memory overhead: Fusing kernels eliminates the need to store intermediate results in memory, resulting in lower memory usage. This is particularly beneficial when dealing with large tensors or when memory resources are limited.
+
+ Minimized data movement: Fused kernels perform multiple operations on the same data without the need for transferring data between different kernel launches. This reduces the data movement overhead, improving performance.
+
+ Enhanced hardware utilization: Fusing kernels allows for better utilization of hardware resources, such as [GPU] cores. By executing multiple operations in a single kernel, the GPU cores can be fully utilized, leading to improved parallelism and faster computation.
+
+ Fused kernels are commonly used in deep learning frameworks and libraries to optimize the execution of neural network models. They are implemented through specialized libraries or compiler optimizations that identify opportunities for fusion and generate efficient code that combines multiple operations into a single kernel. The specific techniques and mechanisms for kernel fusion may vary depending on the deep learning framework or library being used.
+
+ More at:
+  * [https://www.surfactants.net/creating-a-fused-kernel-in-pytorch/](https://www.surfactants.net/creating-a-fused-kernel-in-pytorch/)
+  * [https://stackoverflow.com/questions/56601075/what-is-a-fused-kernel-or-fused-layer-in-deep-learning](https://stackoverflow.com/questions/56601075/what-is-a-fused-kernel-or-fused-layer-in-deep-learning)
+  * [https://towardsdatascience.com/how-to-increase-training-performance-through-memory-optimization-1000d30351c8](https://towardsdatascience.com/how-to-increase-training-performance-through-memory-optimization-1000d30351c8)
+
+ See also [F], [Activation Checkpointing], [GPU], [Zero Redundancy Optimization]
+
 
 # Futuri Media Company
 

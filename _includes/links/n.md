@@ -2,10 +2,14 @@
 
 [N-Gram]: {{ site.baseurl }}{% link glossary/n.md %}#n-gram
 [N-Gram Model]: {{ site.baseurl }}{% link glossary/n.md %}#n-gram-model
-[Naive Bayes]: {{ site.baseurl }}{% link glossary/n.md %}#naive-bayes
+[Naive Bayes Classifier]: {{ site.baseurl }}{% link glossary/n.md %}#naive-bayes-classifier
+[Naive Bayes Classifiers]: {{ site.baseurl }}{% link glossary/n.md %}#naive-bayes-classifier
+[Naive Bayes Theorem]: {{ site.baseurl }}{% link glossary/n.md %}#naive-bayes-theorem
 [Named Entity Recognition]: {{ site.baseurl }}{% link glossary/n.md %}#named-entity-recognition
 [NER]: {{ site.baseurl }}{% link glossary/n.md %}#named-entity-recognition
 [Nash Equilibrium]: {{ site.baseurl }}{% link glossary/n.md %}#nash-equilibrium
+[National Institute of Standards and Technology]: {{ site.baseurl }}{% link glossary/n.md %}#national-institute-of-standards-and-technology
+[NIST]: {{ site.baseurl }}{% link glossary/n.md %}#national-institute-of-standards-and-technology
 [National Science Foundation]: {{ site.baseurl }}{% link glossary/n.md %}#national-science-foundation
 [NSF]: {{ site.baseurl }}{% link glossary/n.md %}#national-science-foundation
 [Natural Intelligence]: {{ site.baseurl }}{% link glossary/n.md %}#natural-intelligence
@@ -27,6 +31,8 @@
 [Natural Language Understanding]: {{ site.baseurl }}{% link glossary/n.md %}#natural-language-understanding
 [NLU]: {{ site.baseurl }}{% link glossary/n.md %}#nlu
 [Negative Attribute]: {{ site.baseurl }}{% link glossary/n.md %}#negative-attribute
+[Neo4j Graph Database]: {{ site.baseurl }}{% link glossary/n.md %}#neo4j-graph-database
+[Neo4j]: {{ site.baseurl }}{% link glossary/n.md %}#neo4j-graph-database
 [Neptune AI Company]: {{ site.baseurl }}{% link glossary/n.md %}#neptune-ai-company
 [Neptune AI]: {{ site.baseurl }}{% link glossary/n.md %}#neptune-ai-company
 [Netflix Company]: {{ site.baseurl }}{% link glossary/n.md %}#netflix-company
@@ -53,11 +59,15 @@
 [NSP]: {{ site.baseurl }}{% link glossary/n.md %}#next-sentence-prediction
 [Next Word Prediction]: {{ site.baseurl }}{% link glossary/n.md %}#next-word-prediction
 [Node]: {{ site.baseurl }}{% link glossary/n.md %}#node
+[Node2Vec Model]: {{ site.baseurl }}{% link glossary/n.md %}#node2vec-model
+[Node2Vec]: {{ site.baseurl }}{% link glossary/n.md %}#node2vec-model
 [Noise]: {{ site.baseurl }}{% link glossary/n.md %}#noise
 [Noise Vector]: {{ site.baseurl }}{% link glossary/n.md %}#noise-vector
 [Non-Deterministic Polynomial-Time Hard]: {{ site.baseurl }}{% link glossary/n.md %}#non-deterministic-polynomial-time-hard
 [NP-Hard]: {{ site.baseurl }}{% link glossary/n.md %}#non-deterministic-polynomial-time-hard
 [Non-Linear Regression]: {{ site.baseurl }}{% link glossary/n.md %}#non-linear-regression
-[Numpy Module]: {{ site.baseurl }}{% link glossary/n.md %}#numpy-module
+[Numerical Python Module]: {{ site.baseurl }}{% link glossary/n.md %}#numerical-python-module
+[Numpy Python Module]: {{ site.baseurl }}{% link glossary/n.md %}#numerical-python-module
+[Numpy]: {{ site.baseurl }}{% link glossary/n.md %}#numerical-python-module
 [Nvidia Company]: {{ site.baseurl }}{% link glossary/n.md %}#nvidia-company
 [Nvidia]: {{ site.baseurl }}{% link glossary/n.md %}#nvidia-company

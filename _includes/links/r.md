@@ -11,18 +11,22 @@
 [Random Search]: {{site.baseurl }}{% link glossary/r.md %}#random-search
 [Ranking]: {{site.baseurl }}{% link glossary/r.md %}#ranking
 [Raspberry Pi Computer]: {{site.baseurl }}{% link glossary/r.md %}#raspberry-pi-computer
+[Reason-Act Prompting]: {{site.baseurl }}{% link glossary/r.md %}#reason-act-prompting
+[ReAct Prompting]: {{site.baseurl }}{% link glossary/r.md %}#reason-act-prompting
+[ReAct]: {{site.baseurl }}{% link glossary/r.md %}#reason-act-prompting
 [Reasoning]: {{site.baseurl }}{% link glossary/r.md %}#reasoning
 [Recall]: {{site.baseurl }}{% link glossary/r.md %}#recall
 [Receiver Operating Characteristic Curve]: {{site.baseurl }}{% link glossary/r.md %}#receiver-operating-characteristic-curve
 [ROC Curve]: {{site.baseurl }}{% link glossary/r.md %}#receiver-operating-characteristic-curve
 [Recommendation Engine]: {{site.baseurl }}{% link glossary/r.md %}#recommendation-enginer
 [Rectified Linear Unit Activation Function]: {{site.baseurl }}{% link glossary/r.md %}#rectified-linear-unit-activation-function
-[Red Teaming]: {{site.baseurl }}{% link glossary/r.md %}#red-teaming
 [ReLU Activation Function]: {{site.baseurl }}{% link glossary/r.md %}#relu-activation-function
+[ReLU]: {{site.baseurl }}{% link glossary/r.md %}#relu-activation-function
 [Rectified Linear Unit Layer]: {{site.baseurl }}{% link glossary/r.md %}#rectified-linear-unit-layer
 [ReLU Layer]: {{site.baseurl }}{% link glossary/r.md %}#rectified-linear-unit-layer
 [Recurrent Neural Network]: {{site.baseurl }}{% link glossary/r.md %}#recurrent-neural-network
 [RNN]: {{site.baseurl }}{% link glossary/r.md %}#recurrent-neural-network
+[Red Teaming]: {{site.baseurl }}{% link glossary/r.md %}#red-teaming
 [Reflex Model]: {{site.baseurl }}{% link glossary/r.md %}#reflec-model
 [Region-Based Convolutional Neural Network]: {{site.baseurl }}{% link glossary/r.md %}#region-based-convolutional-neural-network
 [Region-Based CNN]: {{site.baseurl }}{% link glossary/r.md %}#ragion-based-cnn

@@ -11,16 +11,21 @@
 [Sampling Method]: {{ site.baseurl}}{% link glossary/s.md %}#sampling-method
 [Scale AI Company]: {{ site.baseurl}}{% link glossary/s.md %}#scale-ai-company
 [Scale AI]: {{ site.baseurl}}{% link glossary/s.md %}#scale-ai-company
+[Scaled Dot-Product Attention]: {{ site.baseurl}}{% link glossary/s.md %}#scaled-dot-product-attention
 [Scaler]: {{ site.baseurl}}{% link glossary/s.md %}#scaler
 [Scaling Law]: {{ site.baseurl}}{% link glossary/s.md %}#scaling-law
 [Search Problem]: {{ site.baseurl}}{% link glossary/s.md %}#search-problem
 [Scene Graph]: {{ site.baseurl}}{% link glossary/s.md %}#scene-graph
 [ScienceQA Dataset]: {{ site.baseurl}}{% link glossary/s.md %}#scienceqa-dataset
 [Scikit Learn]: {{ site.baseurl}}{% link glossary/s.md %}#scikit-learn
-[Seaborn Module]: {{ site.baseurl}}{% link glossary/s.md %}#seaborn-module
+[Seaborn Python Module]: {{ site.baseurl}}{% link glossary/s.md %}#seaborn-python-module
+[Seaborn]: {{ site.baseurl}}{% link glossary/s.md %}#seaborn-python-module
 [Segment Anything Model]: {{ site.baseurl}}{% link glossary/s.md %}#segment-anything-model
 [SAM]: {{ site.baseurl}}{% link glossary/s.md %}#segment-anything-model
 [Self-Attention]: {{ site.baseurl}}{% link glossary/s.md %}#self-attention
+[Self-Consistency Prompting]: {{ site.baseurl}}{% link glossary/s.md %}#self-consistency-prompting
+[SC Prompting]: {{ site.baseurl}}{% link glossary/s.md %}#self-consistency-prompting
+[SC]: {{ site.baseurl}}{% link glossary/s.md %}#self-consistency-prompting
 [Self-Organizing Map Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
 [Self-Organizing Map]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
 [SOM Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
@@ -45,6 +50,8 @@
 [Shapley Value]: {{ site.baseurl}}{% link glossary/s.md %}#shaplet-value
 [Short Circuit Movie]: {{ site.baseurl}}{% link glossary/s.md %}#short-circuit-movie
 [Siamese Network]: {{ site.baseurl}}{% link glossary/s.md %}#siamese-network
+[SIGGRAPH Conference]: {{ site.baseurl}}{% link glossary/s.md %}#siggraph-conference
+[SIGGRAPH]: {{ site.baseurl}}{% link glossary/s.md %}#siggraph-conference
 [Sigmoid Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-activation-function
 [Sigmoid Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-function
 [Similarity Function]: {{ site.baseurl}}{% link glossary/s.md %}#similarity-function
@@ -56,7 +63,7 @@
 [Siri Virtual Assistant]: {{ site.baseurl}}{% link glossary/s.md %}#siri-virtual-assistant
 [Skip Connection]: {{ site.baseurl}}{% link glossary/s.md %}#skip-connection
 [Skip Connections]: {{ site.baseurl}}{% link glossary/s.md %}#skip-connection
-[Skip Gram]: {{ site.baseurl}}{% link glossary/s.md %}#skip-gram
+[Skip-Gram Model]: {{ site.baseurl}}{% link glossary/s.md %}#skip-gram-model
 [Slicing Function]: {{ site.baseurl}}{% link glossary/s.md %}#slicing-function
 [Snorkel Program]: {{ site.baseurl}}{% link glossary/s.md %}#snorkel-program
 [Sobol Search]: {{ site.baseurl}}{% link glossary/s.md %}#sobol-search

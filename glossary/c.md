@@ -119,11 +119,26 @@ layout: page
 
 # Chain Of Thought Prompting
 
+# COT Prompting
+
+ ~ A [Prompt Engineering] technique
+
  A solution to get the explainability of a model OR RATHER ITS OUTPUT! Generating a chain of thought -- a series of intermediate reasoning steps -- significantly improves the ability of large language models to perform complex reasoning. In particular, we show how such reasoning abilities emerge naturally in sufficiently large language models via a simple method called chain of thought prompting, where a few chain of thought demonstrations are provided as exemplars in prompting. Experiments on three large language models show that chain of thought prompting improves performance on a range of arithmetic, commonsense, and symbolic reasoning tasks. The empirical gains can be striking. For instance, prompting a 540B-parameter language model with just eight chain of thought exemplars achieves state of the art accuracy on the GSM8K benchmark of math word problems, surpassing even fine-tuned GPT-3 with a verifier.
+
+ Variations:
+  * Zero-shot COT
+  * Few-shot COT
+  * Automatic COT
 
  ![]( {{site.assets}}/c/chain_of_thought_prompting.png ){:width="100%"}
 
- See also [C], [Explanability], [GPT Model], [Natural Language Programming], [PaLM Model]
+ {% pdf "https://arxiv.org/pdf/2201.11903.pdf" %}
+
+ More at:
+  * variations - [https://www.promptingguide.ai/techniques/cot](https://www.promptingguide.ai/techniques/cot)
+  * paper - [https://arxiv.org/abs/2201.11903](https://arxiv.org/abs/2201.11903)
+
+ See also [C], [Explanability]
 
 
 # Chained Model
@@ -151,8 +166,10 @@ layout: page
  {% youtube "https://www.youtube.com/watch?v=pOmpqdlVCoo" %}
 
  More at:
+  * training explained - [https://medium.com/mlearning-ai/a-new-ai-buzz-chatgpt-training-explained-cafd253ce442](https://medium.com/mlearning-ai/a-new-ai-buzz-chatgpt-training-explained-cafd253ce442)
   * adoption rate - [https://www.linkedin.com/pulse/chatgpts-100m-users-2-months-more-impressive-than-you-gilad-nass/](https://www.linkedin.com/pulse/chatgpts-100m-users-2-months-more-impressive-than-you-gilad-nass/)
   * gpt vs chatgpt vs instructgpt - [https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5](https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5)
+  * prompt engineering - [https://www.promptingguide.ai/](https://www.promptingguide.ai/)
   * webgpt chrome extension - [https://twitter.com/DataChaz/status/1610556519531089921](https://twitter.com/DataChaz/status/1610556519531089921)
   * [https://www.cnn.com/2022/12/05/tech/chatgpt-trnd/index.html](https://www.cnn.com/2022/12/05/tech/chatgpt-trnd/index.html)
   * [https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5](https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5)
@@ -187,6 +204,13 @@ set       <search space>               set
 
  More at:
   * paper - [https://arxiv.org/abs/2203.15556](https://arxiv.org/abs/2203.15556)
+
+ See also [C], ...
+
+
+# Chinchilla Scaling Law
+
+ {% youtube "https://www.youtube.com/watch?v=TSqkKH4zuZY" %}
 
  See also [C], ...
 
@@ -310,6 +334,9 @@ print(query_result)
     * [Support Vector Machine (SVM)][SVM] - [boundary zone] is an [hyperplane]
     * [Random Forest]
     * [Boosted Trees] with [XGBoost] or LightBoost
+    * [Naive Bayes Classifier]
+      * [Gaussian Naive Bayes Classifier]
+      * [Multinomial Naive Bayes Classifier]
 
  ![]( {{site.assets}}/c/classification.png ){: width="100%"}
 
@@ -326,6 +353,7 @@ print(query_result)
 
  More at:
   * cost estimate - [https://orenleung.com/anthropic-claude-next-cost](https://orenleung.com/anthropic-claude-next-cost)
+  * UI - [https://console.anthropic.com/chat/a38ac87b-b229-455a-b742-58b4639cf995](https://console.anthropic.com/chat/a38ac87b-b229-455a-b742-58b4639cf995)
 
  See also [C], ...
 
@@ -638,6 +666,9 @@ print(query_result)
 
 # Constraint Satisfaction Problem
 
+ More at:
+  * wikipedia - [https://en.wikipedia.org/wiki/Constraint_satisfaction_problem](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem)
+
  See also [C], [Variable Model]
 
 
@@ -807,8 +838,8 @@ print(query_result)
 
  More at:
   * [https://www.amazon.com/Google-G950-01456-01-Coral-USB-Accelerator/dp/B07S214S5Y](https://www.amazon.com/Google-G950-01456-01-Coral-USB-Accelerator/dp/B07S214S5Y)
-  * [https://coral.ai/projects/teachable-sorter#project-intro](https://coral.ai/projects/teachable-sorter#project-intro)
   * [https://teachablemachine.withgoogle.com/](https://teachablemachine.withgoogle.com/)
+  * marshmallow sorter - [https://coral.ai/projects/teachable-sorter#project-intro](https://coral.ai/projects/teachable-sorter#project-intro)
 
  See also [C], ...
 

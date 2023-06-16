@@ -12,6 +12,9 @@
 [Center Line]: {{ site.baseurl }}{% link glossary/c.md %}#center-line
 [Central Limit Theorem]: {{ site.baseurl }}{% link glossary/c.md %}#central-limit-theorem
 [Chain Of Thought Prompting]: {{ site.baseurl }}{% link glossary/c.md %}#chain-of-thought-prompting
+[Chain Of Thought]: {{ site.baseurl }}{% link glossary/c.md %}#chain-of-thought-prompting
+[COT Prompting]: {{ site.baseurl }}{% link glossary/c.md %}#chain-of-thought-prompting
+[COT]: {{ site.baseurl }}{% link glossary/c.md %}#chain-of-thought-prompting
 [Chained Model]: {{ site.baseurl }}{% link glossary/c.md %}#chained-model
 [Chatbot]: {{ site.baseurl }}{% link glossary/c.md %}#chatbot
 [ChatGPT Model]: {{ site.baseurl }}{% link glossary/c.md %}#chatgpt-model
@@ -19,6 +22,7 @@
 [Checkpoint Evaluation]: {{ site.baseurl }}{% link glossary/c.md %}#checkpoint-evaluation
 [Child Development Milestone]: {{ site.baseurl }}{% link glossary/c.md %}#child-development-milestone
 [Chinchilla Model]: {{ site.baseurl }}{% link glossary/c.md %}#chinchilla-model
+[Chinchilla Scaling Law]: {{ site.baseurl }}{% link glossary/c.md %}#chinchilla-scaling-law
 [Chroma Database]: {{ site.baseurl }}{% link glossary/c.md %}#chroma-database
 [CIDEr Score]: {{ site.baseurl }}{% link glossary/c.md %}#cider-score
 [CICERO Model]: {{ site.baseurl }}{% link glossary/c.md %}#cicero-model

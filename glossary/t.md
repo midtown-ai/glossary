@@ -566,6 +566,8 @@ Desired Output --> |     Training     | --> Model
 # https://techcrunch.com/2022/04/26/2304039/
  ```
 
+ {% youtube "https://www.youtube.com/watch?v=g2BRIuln4uc" %}
+
  More at:
   * paper - 
   * explanation - [http://jalammar.github.io/illustrated-transformer/](http://jalammar.github.io/illustrated-transformer/)
@@ -576,7 +578,7 @@ Desired Output --> |     Training     | --> Model
   * Demos
    * write with transformers - [https://transformer.huggingface.co/](https://transformer.huggingface.co/)
 
- See also [T], [Action Transformer], [Attention Score], [Attention-Based Model], [Autoregressive Model], [Generative Model], [Long Short Term Memory Network], [Masked Self-Attention], [Multi-Head Attention], [Recurrent Neural Network], [Self-Attention]
+ See also [T], [Action Transformer], [Attention Score], [Attention-Based Model], [Autoregressive Model], [Generative Model], [Long Short-Term Memory Network], [Masked Self-Attention], [Multi-Head Attention], [Recurrent Neural Network], [Self-Attention]
 
 
 # Transformer Model
@@ -595,6 +597,76 @@ Desired Output --> |     Training     | --> Model
 # Translation
 
  See also [T], [Emergent Ability]
+
+
+
+# Tree of Thoughts Prompting
+
+ This video explains the 'Tree of Thought' prompting technique, designed to emulate human brainstorming and prove beneficial in problem-solving, particularly in mathematical reasoning.
+
+ ```
+1. Carlos is at the swimming pool.
+2. He walks to the locker room, carrying a towel.
+3. He puts his watch in the towel and carries the towel tightly to a lounger at the poolside.
+4. At the lounger he opens and vigorously shakes the towel, then walks to the snack bar.
+5. He leaves the towel at the snack bar, then walks to the diving board.
+6. Later Carlos realises he has has lost his watch. Where is the single most likely location of the watch?
+
+Think through each step logically.
+
+Imagine three different experts are answering this question.
+They will brainstorm the answer step by step reasoning carefully and taking all facts into consideration
+All experts will write down 1 step of their thinking,
+then share it with the group.
+They will each critique their response, and the all the responses of others
+They will check their answer based on science and the laws of physics
+Then all experts will go on to the next step and write down this step of their thinking.
+They will keep going through steps until they reach their conclusion taking into account the thoughts of the other experts
+If at any time they realise that there is a flaw in their logic they will backtrack to where that flaw occurred 
+If any expert realises they're wrong at any point then they acknowledges this and start another train of thought
+Each expert will assign a likelihood of their current assertion being correct
+Continue until the experts agree on the single most likely location
+The question is...
+ ```
+ ```
+Here is my attempt at step-by-step reasoning for this question:
+
+Expert 1: 
+Step 1: Carlos walked to the locker room with his towel. The watch was still in/on the towel at this point. 
+Likelihood: 100%
+
+Expert 2:
+Step 2: Carlos shook out the towel vigorously before walking to the snack bar. The watch likely fell out of the towel at this point, so it's most likely location is the area around the lounger. 
+Likelihood: 80% 
+
+Expert 3: 
+Step 3: However, Carlos did not notice the watch fall out at that time. He then left the towel behind at the snack bar, so it's possible the watch remained entangled in the towel and is now at the snack bar.
+Likelihood: 70%
+
+Expert 1: 
+Step 4: But when Carlos shook out the towel, the watch could have landed anywhere in the area around the lounger, not necessarily in the towel. It may have landed on the ground, by the poolside, in the grass, etc. The snack bar is less likely given the details provided.
+Likelihood: 60%
+
+Expert 2:
+Step 5: After considering the laws of physics, the single most likely location of the watch is on the ground around the pool lounger that Carlos was using, since that is where the towel was most vigorously shaken out. The watch likely fell out at that location. 
+Likelihood: 90%
+
+Expert 3: 
+Agreed. Based on the sequence of events and the details provided, the area around the pool lounger where Carlos shook out his towel is the single most likely location of the lost watch.
+ ```
+
+ ![]( {{site.assets}}/t/tree_of_thoughts_prompting.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=2lnW1PSB2_g" %}
+
+ {% pdf "https://arxiv.org/pdf/2305.10601.pdf" %}
+
+ More at:
+  * paper [https://arxiv.org/abs/2305.10601](https://arxiv.org/abs/2305.10601)
+  * code - [https://github.com/princeton-nlp/tree-of-thought-llm](https://github.com/princeton-nlp/tree-of-thought-llm)
+  * twitter - [https://twitter.com/ShunyuYao12/status/1659357547474681857](https://twitter.com/ShunyuYao12/status/1659357547474681857)
+
+ See also [T], [Prompt Engineering]
 
 
 # Tree Parzen Estimators

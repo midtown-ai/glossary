@@ -2,7 +2,10 @@
 
 [Jackknife Sampling Method]: {{ site.baseurl }}{% link glossary/j.md %}#jackknife-sampling-method
 [Jailbreaking]: {{ site.baseurl }}{% link glossary/j.md %}#jailbreaking
-[Joblib Module]: {{ site.baseurl }}{% link glossary/j.md %}#joblib-module
+[JAX Python Module]: {{ site.baseurl }}{% link glossary/j.md %}#jax-python-module
+[JAX]: {{ site.baseurl }}{% link glossary/j.md %}#jax-python-module
+[Joblib Python Module]: {{ site.baseurl }}{% link glossary/j.md %}#joblib-python-module
+[Joblib]: {{ site.baseurl }}{% link glossary/j.md %}#joblib-python-module
 [Join Distribution]: {{ site.baseurl }}{% link glossary/j.md %}#join-distribution
 [Jukebox Model]: {{ site.baseurl }}{% link glossary/j.md %}#jukebox-model
 [Jupyter Notebook]: {{ site.baseurl }}{% link glossary/j.md %}#jupyter-notebook

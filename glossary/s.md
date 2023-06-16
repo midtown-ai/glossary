@@ -106,6 +106,17 @@ layout: page
  See also [S], ...
 
 
+# Scaled Dot-Product Attention
+
+ * Scaled => kind of a normalization
+ * Dot-product = kind of similarity measure (cosine similarity)
+ * attention = kind of a weighted sum, with attention weights (tensor)
+
+ {% youtube "https://www.youtube.com/watch?v=PFczJ6NR5rY" %}
+
+ See also [S], [Self-Attention]
+
+
 # Scaler
 
  Standardization of a dataset is a common requirement for many machine learning estimators: they might behave badly if the individual features do not more or less look like standard normally distributed data (e.g. Gaussian with 0 mean and unit variance). For instance many elements used in the objective function of a learning algorithm (such as the RBF kernel of Support Vector Machines or the L1 and L2 regularizers of linear models) assume that all features are centered around 0 and have variance in the same order. If a feature has a variance that is orders of magnitude larger than others, it might dominate the objective function and make the estimator unable to learn from other features correctly as expected. THe standard scaler does the following:
@@ -178,7 +189,7 @@ StandardScaler()
  See also [S], [Artificial Neural Network], [Statistical Model]
 
 
-# Seaborn Module
+# Seaborn Python Module
 
  A [python module] for Statistical Data Visualization
 
@@ -238,10 +249,73 @@ StandardScaler()
    * find to what pronouns are referring to, what noun is being modified by adjective, subject of verbs, etc
    * (implicit) grammar rules  --- when you learn to speak, you do not have to learn grammar rules first to speak!
 
+ {% youtube "https://www.youtube.com/watch?v=g2BRIuln4uc" %}
+
+ {% youtube "https://www.youtube.com/watch?v=PFczJ6NR5rY" %}
+
  More at:
   * [https://towardsdatascience.com/self-attention-5b95ea164f61](https://towardsdatascience.com/self-attention-5b95ea164f61)
 
- See also [S], [Attention], [Attention-Based Model], [Masked Self-Attention], [Multi-Head Attention]
+ See also [S], [Attention], [Attention-Based Model], [Masked Self-Attention], [Multi-Head Attention], [Scaled Dot-Product Attention]
+
+
+# Self-Consistency Prompting
+
+ ~ a [prompt engineering technique] that improves over [Chain Of Thought (COT)][COT] prompting
+
+ Self-consistency aims "to replace the naive greedy decoding used in chain-of-thought prompting". The idea is to sample multiple, diverse reasoning paths through few-shot CoT, and use the generations to select the most consistent answer. This helps to boost the performance of CoT prompting on tasks involving arithmetic and commonsense reasoning.
+
+ ```
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done,
+there will be 21 trees. How many trees did the grove workers plant today?
+A: We start with 15 trees. Later we have 21 trees. The difference must be the number of trees they planted.
+So, they must have planted 21 - 15 = 6 trees. The answer is 6.
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+A: There are 3 cars in the parking lot already. 2 more arrive. Now there are 3 + 2 = 5 cars. The answer is 5.
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+A: Leah had 32 chocolates and Leah’s sister had 42. That means there were originally 32 + 42 = 74
+chocolates. 35 have been eaten. So in total they still have 74 - 35 = 39 chocolates. The answer is 39.
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops
+did Jason give to Denny?
+A: Jason had 20 lollipops. Since he only has 12 now, he must have given the rest to Denny. The number of
+lollipops he has given to Denny must have been 20 - 12 = 8 lollipops. The answer is 8.
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does
+he have now?
+A: He has 5 toys. He got 2 from mom, so after that he has 5 + 2 = 7 toys. Then he got 2 more from dad, so
+in total he has 7 + 2 = 9 toys. The answer is 9.
+Q: There were nine computers in the server room. Five more computers were installed each day, from
+monday to thursday. How many computers are now in the server room?
+A: There are 4 days from monday to thursday. 5 computers were added each day. That means in total 4 * 5 =
+20 computers were added. There were 9 computers in the beginning, so now there are 9 + 20 = 29 computers.
+The answer is 29.
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many
+golf balls did he have at the end of wednesday?
+A: Michael initially had 58 balls. He lost 23 on Tuesday, so after that he has 58 - 23 = 35 balls. On
+Wednesday he lost 2 more so now he has 35 - 2 = 33 balls. The answer is 33.
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+A: She bought 5 bagels for $3 each. This means she spent 5
+Q: When I was 6 my sister was half my age. Now I’m 70 how old is my sister?
+A:
+
+# output 1
+When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70 - 3 = 67. The answer is 67.
+
+# output 2
+When the narrator was 6, his sister was half his age, which is 3. Now that the narrator is 70, his sister would be 70 - 3 = 67 years old. The answer is 67.
+
+# output 3
+When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/2 = 35. The answer is 35.
+ ```
+
+ Computing for the final answer involves a few steps (check out the paper for the details) but for the sake of simplicity, we can see that there is already a majority answer emerging so that would essentially become the final answer.
+
+ {% pdf "https://arxiv.org/pdf/2203.11171.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2203.11171](https://arxiv.org/abs/2203.11171)
+  * [https://www.promptingguide.ai/techniques/consistency](https://www.promptingguide.ai/techniques/consistency) 
+
+ See also [S], ...
 
 
 # Self-Instruct Dataset
@@ -501,6 +575,16 @@ StandardScaler()
  See also [S], [One Short Learning], [Similarity Function]
 
 
+# SIGGRAPH Conference
+
+ An [AI conference] reltated to graphics and interactive techniques
+
+ More at:
+  * [https://s2023.siggraph.org/](https://s2023.siggraph.org/)
+
+ See also [S], ...
+
+
 # Sigmoid Activation Function
 
  Pros:
@@ -577,11 +661,24 @@ Siri is a spin-off from a project developed by the SRI International Artificial 
  See also [S], [Residual Block], [Residual Network Model]
 
 
-# Skip Gram
+# Skip-Gram Model
 
  = increases the context by using word in the middle to predict the surrounding words
 
- See also [S], [Word2Vec Model]
+ The skip-gram model is a simple neural network with one hidden layer trained in order to predict the probability of a given word being present when an input word is present. The process can be described visually as seen below.
+
+ ![]( {{site.assets}}/s/skip_gram_model_training_data.webp )
+
+ As seen above, given some corpus of text, a target word is selected over some rolling window. The training data consists of pairwise combinations of that target word and all other words in the window. This is the resulting training data for the neural network. Once the model is trained, we can essentially yield a probability of a word being a context word for a given target. The following image below represents the architecture of the neural network for the skip-gram model.
+
+ ![]( {{site.assets}}/s/skip_gram_model_architecture.webp )
+
+ A corpus can be represented as a vector of size N, where each element in N corresponds to a word in the corpus. During the training process, we have a pair of target and context words, the input array will have 0 in all elements except for the target word. The target word will be equal to 1. The hidden layer will learn the embedding representation of each word, yielding a d-dimensional embedding space. The output layer is a dense layer with a softmax activation function. The output layer will essentially yield a vector of the same size as the input, each element in the vector will consist of a probability. This probability indicates the similarity between the target word and the associated word in the corpus.
+
+ More at:
+  * [https://towardsdatascience.com/node2vec-explained-db86a319e9ab](https://towardsdatascience.com/node2vec-explained-db86a319e9ab)
+
+ See also [S], [Node2Vec Model], [Word2Vec Model]
 
 
 # Slicing Function
@@ -787,9 +884,7 @@ Social robots also work as concierges in hotels and other settings like malls, w
 
 # Speech Recognition
 
- Possible thanks to [Recurrent Neural Network] such as [LSTM Network]
-
- See also [S], ...
+ See [Automated Speech Recognition]
 
 
 # Speech-To-Text
