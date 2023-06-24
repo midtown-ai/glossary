@@ -997,6 +997,18 @@ def mse_loss(y_pred, y_true):
  See also [M], [Dataset]
 
 
+# Modular Reasoning Knowledge and Language
+
+# MRLK
+
+ {% pdf "https://arxiv.org/pdf/2205.00445.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2205.00445](https://arxiv.org/abs/2205.00445)
+
+ See also [M], [ReACT Prompting]
+
+
 # Monte Carlo Policy Gradient Algorithm
 
  See [REINFORCE Algorithm]

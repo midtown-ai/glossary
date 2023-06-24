@@ -20,6 +20,8 @@
 [Scikit Learn]: {{ site.baseurl}}{% link glossary/s.md %}#scikit-learn
 [Seaborn Python Module]: {{ site.baseurl}}{% link glossary/s.md %}#seaborn-python-module
 [Seaborn]: {{ site.baseurl}}{% link glossary/s.md %}#seaborn-python-module
+[Segformer Model]: {{ site.baseurl}}{% link glossary/s.md %}#segformer-model
+[Segformer]: {{ site.baseurl}}{% link glossary/s.md %}#segformer-model
 [Segment Anything Model]: {{ site.baseurl}}{% link glossary/s.md %}#segment-anything-model
 [SAM]: {{ site.baseurl}}{% link glossary/s.md %}#segment-anything-model
 [Self-Attention]: {{ site.baseurl}}{% link glossary/s.md %}#self-attention
@@ -78,6 +80,8 @@
 [Softplus Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#softplus-activation-function
 [Software 1.0]: {{ site.baseurl}}{% link glossary/s.md %}#software-1-0
 [Software 2.0]: {{ site.baseurl}}{% link glossary/s.md %}#software-2-0
+[Software Development Life Cycle Agent]: {{ site.baseurl}}{% link glossary/s.md %}#software-development-life-cycle-agent
+[SDLC Agent]: {{ site.baseurl}}{% link glossary/s.md %}#software-development-lifecycle-agent
 [Sophia Robot]: {{ site.baseurl}}{% link glossary/s.md %}#sophia-robot
 [Sound Analysis]: {{ site.baseurl}}{% link glossary/s.md %}#sound-analysis
 [Spam Detection]: {{ site.baseurl}}{% link glossary/s.md %}#spam-detection

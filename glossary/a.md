@@ -356,6 +356,16 @@ One obvious way to mitigate that problem is to choose different learning rate fo
  See also [A], ...
 
 
+# Adobe Company
+
+ * [Firefly] - text to image generator
+
+ More at:
+  * principles - [https://www.adobe.com/about-adobe/aiethics.html](https://www.adobe.com/about-adobe/aiethics.html)
+
+ See also [A], ...
+
+
 # Adobe Firefly Product
 
  Experiment, imagine, and make an infinite range of creations with Firefly, a family of creative generative AI models coming to Adobe products.
@@ -439,7 +449,7 @@ One obvious way to mitigate that problem is to choose different learning rate fo
  More at:
   * ...
 
- See also [Agent's Goal], [Cumulative Reward], [Reinforcement Learning]
+ See also [Agent's Goal], [Cumulative Reward], [Reinforcement Learning], [SDLC Agent]
 
 
 # Agent's goal
@@ -1620,6 +1630,20 @@ Then you are presented with the best matched videos (values).                   
   * [https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853](https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853)
 
  See also [A], [Attention], [Attention-Based Model], [Multi-Head Attention], [Positional Encoding], [Transformer Model]
+
+
+# Augmented Language Model
+
+# ALM
+
+ A language model that can use external tools.
+
+ LLM reasons to call an external tool, gets halted to fetch the tool’s response as observation, and then decides the next action based on all preceding responses. This technique is also sometimes referred as Augmented Language Models (ALMs).
+
+ More at:
+  * [https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/](https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/)
+
+ See also [A], [ReACT Prompting]
 
 
 # Augmented Reality

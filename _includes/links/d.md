@@ -76,6 +76,7 @@
 [DM]: {{ site.baseurl }}{% link glossary/d.md %}#dm
 [Diffusion Process]: {{ site.baseurl }}{% link glossary/d.md %}#diffusion-process
 [Digital Immortality]: {{ site.baseurl }}{% link glossary/d.md %}#digital-immortality
+[Digital Human]: {{ site.baseurl }}{% link glossary/d.md %}#digital-human
 [Digital Watermark]: {{ site.baseurl }}{% link glossary/d.md %}#digital-watermark
 [Dimensionality Reduction]: {{ site.baseurl }}{% link glossary/d.md %}#dimensionality-reduction
 [Direct Preference Optimization]: {{ site.baseurl }}{% link glossary/d.md %}#direct-preference-optimization

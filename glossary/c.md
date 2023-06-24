@@ -395,6 +395,11 @@ print(query_result)
  See also [C], ...
 
 
+# Cognitron
+
+ See also [C], [Neocognitron]
+
+
 # Cognosys AI Company
 
  Build a UI for their task-driven autonomous agent
@@ -447,7 +452,7 @@ print(query_result)
 
   * [Abnormal Security](https://abnormalsecurity.com/) - Email cyberattack detection ([Forbes](https://www.forbes.com/companies/abnormal-security/?sh=4c992843536a))
   * [Adept AI] - AI model developer. Focus on [AGI] through automation of tasks on desktops ([Forbes](https://www.forbes.com/companies/adept/?list=ai50&sh=7eb9ebdf4ebb))
-  * [Adobe] - Offer a midjourey alternative called [Adobe Firefly]
+  * [Adobe] - Offer a midjourey alternative called [Firefly]
   * [AlphaSense](https://www.alpha-sense.com/) - Focus on market intelligence search ([Forbes](https://www.forbes.com/companies/alphasense/?list=ai50&sh=298a91255f19))
   * [Amazon] - Focus on public cloud and partnership with 3rd parties
   * [Anduril Industries](https://www.anduril.com/) - Focus on defense software with AI ([Forbes](https://www.forbes.com/companies/anduril-industries/?list=ai50&sh=3edae6e7e083))
@@ -483,6 +488,7 @@ print(query_result)
   * [Insitro](https://www.insitro.com/) - Drug discovery
   * [Ironclad](https://ironcladapp.com/) - Legal contract management
   * [Jasper](https://www.jasper.ai/) - Copywriting software
+  * [Kumo AI] - Pytorch Geometric
   * [Meta] - Formerly known as Facebook with a strong focus on the multiverse and more recently on AI
   * [Microsoft] - One of the largest company in the world, leading changes with AI 
   * [Midjourney AI](https://www.midjourney.com/) - AI image generator
@@ -515,6 +521,12 @@ print(query_result)
   * [Waabi](https://waabi.ai/) - Autonomous trucking technology
   * [Weights & Biases](https://wandb.ai/site) - Developer tools for AI
   * [Writer](https://writer.com/) - Copywriting software
+
+ Digital Humans and Meta-Humans
+  * [Ravatar](https://ravatar.com/)
+  * [SoulMachines](https://www.soulmachines.com/)
+  * [UneeQ](https://www.digitalhumans.com/)
+  * [Unreal Engine](https://www.unrealengine.com/en-US/metahuman)
 
  Drug Discovery
   * ...

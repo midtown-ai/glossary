@@ -85,6 +85,9 @@ layout: page
 
 # Fake News
 
+  More at:
+   * SIFT method - [https://oer.pressbooks.pub/collegeresearch/chapter/the-sift-method/](https://oer.pressbooks.pub/collegeresearch/chapter/the-sift-method/)
+
   See also [F], ...
 
 

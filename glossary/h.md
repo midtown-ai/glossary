@@ -187,6 +187,22 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
  See also [H], [Loss Function]
 
 
+# Histogram Of Oriented Gradients
+
+# HoG
+
+ Inspired by the [Neocognitron]
+
+ The histogram of oriented gradients (HOG) is a feature descriptor used in computer vision and image processing for the purpose of object detection. The technique counts occurrences of gradient orientation in localized portions of an image. This method is similar to that of edge orientation histograms, [scale-invariant feature transform] descriptors, and shape contexts, but differs in that it is computed on a dense grid of uniformly spaced cells and uses overlapping local contrast normalization for improved accuracy.
+
+ {% youtube "https://www.youtube.com/watch?v=5nZGnYPyKLU" %}
+  
+ More at:
+  * [https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients](https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients)
+
+ See also [H], ...
+
+
 # Holdout Fold
 
  See also [H], [Cross-Validation Sampling Method]
@@ -203,6 +219,20 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
   * [https://github.com/stanford-crfm/helm](https://github.com/stanford-crfm/helm)
   * [https://crfm.stanford.edu/2022/11/17/helm.html](https://crfm.stanford.edu/2022/11/17/helm.html)
 
+
+ See also [H], ...
+
+
+# Homography
+
+ ~ image stitching = relates 2 images from the same camera center
+
+ Map a picture to another ---> using the [RANSAC Algorithm] ?
+
+ {% youtube "https://www.youtube.com/watch?v=EkYXjmiolBg" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Homography](https://en.wikipedia.org/wiki/Homography)
 
  See also [H], ...
 

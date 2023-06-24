@@ -18,3 +18,5 @@
 [Kullback-Leibler Distance]: {{ site.baseurl }}{% link glossary/k.md %}#kullback-leibler-distance
 [Kullback-Leibler Divergence]: {{ site.baseurl }}{% link glossary/k.md %}#kullback-leibler-divergence
 [KL Divergence]: {{ site.baseurl }}{% link glossary/k.md %}#kl-divergence
+[Kumo AI Company]: {{ site.baseurl }}{% link glossary/k.md %}#kumo-ai-company
+[Kumo AI]: {{ site.baseurl }}{% link glossary/k.md %}#kumo-ai-company

@@ -809,6 +809,17 @@ We need to do this for
  See also [D], ...
 
 
+# Digital Human
+
+ {% youtube "https://www.youtube.com/watch?v=rF2u7RTPsHI" %}
+
+ More at:
+  * [https://www.soulmachines.com/](https://www.soulmachines.com/)
+  * [https://www.digitalhumans.com/](https://www.digitalhumans.com/)
+
+ See also [D], ...
+
+
 # Digital Watermark
 
  Digital watermarking is a method of embedding information into a digital signal in a way that is difficult to remove, but can be detected. This information can be used to identify the source of the digital signal, or to prevent unauthorized copying or tampering. Digital watermarks are often used to protect copyrights in digital media, such as images, audio, or video.

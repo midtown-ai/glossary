@@ -732,4 +732,7 @@ Prediction Error = actual_value - predicted_value
 
 # PyTorch Python Module
 
+ More at:
+  * tutorials - [https://pytorch.org/tutorials/](https://pytorch.org/tutorials/)
+
  See also [P], [Deep Learning Framework], [Machine Learning Framework]

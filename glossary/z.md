@@ -47,6 +47,8 @@ layout: page
 
  For [Image Detection], [Image Segmentation], [Object Detection], [Pose Estimation], ...
 
+ {% youtube "https://www.youtube.com/watch?v=UYLp0-iOvFc" %}
+
  More at:
   * home - [https://docs.ultralytics.com/](https://docs.ultralytics.com/)
   * pytorch code colab - [https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb](https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb)

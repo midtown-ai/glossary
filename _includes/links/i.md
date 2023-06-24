@@ -31,6 +31,8 @@
 [Inflection AI]: {{ site.baseurl }}{% link glossary/i.md %}#inflection-ai-company
 [Information]: {{ site.baseurl }}{% link glossary/i.md %}#information
 [Initialization]: {{ site.baseurl }}{% link glossary/i.md %}#initialization
+[Inlier]: {{ site.baseurl }}{% link glossary/i.md %}#inlier
+[Inliers]: {{ site.baseurl }}{% link glossary/i.md %}#inlier
 [Input Layer]: {{ site.baseurl }}{% link glossary/i.md %}#input-layer
 [Input Space]: {{ site.baseurl }}{% link glossary/i.md %}#input-space
 [Input Weight]: {{ site.baseurl }}{% link glossary/i.md %}#input-weight

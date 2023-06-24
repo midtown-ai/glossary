@@ -319,7 +319,7 @@ cheese =>                                   # Prompt
  See also [O], [Rocket League Gym]
 
 
-# OpenCV Library
+# OpenCV Module
 
  More at:
   * Sample project - [https://github.com/ecemay/open_cv_studies](https://github.com/ecemay/open_cv_studies)
@@ -335,6 +335,18 @@ cheese =>                                   # Prompt
   * [https://openfold.io/](https://openfold.io/)
 
  See also [O], [AlphaFold Model], [ESM Metagenomic Atlas]
+
+
+# OpenMMLab
+
+ OpenMMLab team integrates open source, academic research, business application and system development, aiming at becoming a worldwide leader in open source algorithm platform for computer vision and providing advanced R&D models and systems for the industry.
+
+ Based on [PyTorch]
+
+ More at:
+  * [https://openmmlab.com/](https://openmmlab.com/)
+
+ See also [O], ...
 
 
 # OpenVINO Toolkit
@@ -408,8 +420,9 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
 # Outlier
 
  Used in [Feature Engineering], ...
+ THe opposite of [Inlier]
 
- Q: How to identify an outlier?
+ Q: How to identify an outlier? --> [RANSAC Algorithm]
 
  See also [O], ...
 

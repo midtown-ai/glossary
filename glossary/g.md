@@ -305,7 +305,7 @@ output = m(input)
 
  {% pdf "{{site.assets}}/g/gpt4_model_paper.pdf" %}
 
- Early experiement with GPT-4 have shown sparks of [Artificial General Intelligence]!
+ Early experiment with GPT-4 have shown sparks of [Artificial General Intelligence]!
 
  {% youtube "https://www.youtube.com/watch?v=outcGtbnMuQ" %}
 
@@ -322,7 +322,7 @@ output = m(input)
    * GPT fine-tuning - [https://platform.openai.com/docs/guides/fine-tuning](https://platform.openai.com/docs/guides/fine-tuning)
    * gpt vs chatgpt vs instructgpt - [https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5](https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5)
 
- See also [G], [ChatGPT Model], [Digital Watermark], [Fine-Tuning], [InstructGPT Model], [Natural Language Processing], [Pre-Trained Model], [RadioGPT], [WebGPT Model]
+ See also [G], [ChatGPT Model], [Digital Watermark], [Fine-Tuning], [GPT Function Calling], [InstructGPT Model], [Natural Language Processing], [Pre-Trained Model], [RadioGPT], [WebGPT Model]
 
 
 # Generator
@@ -517,6 +517,15 @@ output = m(input)
   * [https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval](https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval)
 
  See also [G], ...
+
+
+# GPT Function Calling
+
+ {% youtube "https://www.youtube.com/watch?v=JVdFB5hgcwQ" %}
+
+ {% youtube "https://www.youtube.com/watch?v=AetT0ZqwNqY&t=87s" %}
+
+ See also [G], [GPT Model]
 
 
 # GPU Instance

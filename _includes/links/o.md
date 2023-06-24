@@ -27,13 +27,15 @@
 [OpenAI]: {{ site.baseurl }}{% link glossary/o.md %}#openai-company
 [OpenAI Five Model]: {{ site.baseurl }}{% link glossary/o.md %}#openai-five-model
 [OpenAI Gym Environment]: {{ site.baseurl }}{% link glossary/o.md %}#openai-gym-environment
-[OpenCV Library]: {{ site.baseurl }}{% link glossary/o.md %}#opencv-library
+[OpenCV Module]: {{ site.baseurl }}{% link glossary/o.md %}#opencv-module
 [OpenFold Model]: {{ site.baseurl }}{% link glossary/o.md %}#openfold-model
+[OpenMMLab]: {{ site.baseurl }}{% link glossary/o.md %}#openmmlab
 [OpenVINO Toolkit]: {{ site.baseurl }}{% link glossary/o.md %}#openvino-toolkit
 [Optimization]: {{ site.baseurl }}{% link glossary/o.md %}#optimization
 [Optimizer]: {{ site.baseurl }}{% link glossary/o.md %}#optimizer
 [Ordinal Encoding]: {{ site.baseurl }}{% link glossary/o.md %}#ordinal-encoding
 [Outlier]: {{ site.baseurl }}{% link glossary/o.md %}#outlier
+[Outliers]: {{ site.baseurl }}{% link glossary/o.md %}#outlier
 [Output Layer]: {{ site.baseurl }}{% link glossary/o.md %}#output-layer
 [Output Perturbation]: {{ site.baseurl }}{% link glossary/o.md %}#output-perturbation
 [Overfitting]: {{ site.baseurl }}{% link glossary/o.md %}#overfitting

@@ -37,6 +37,7 @@
 [Clustering]: {{ site.baseurl }}{% link glossary/c.md %}#clustering
 [CNTK]: {{ site.baseurl }}{% link glossary/c.md %}#cntk
 [Codex Model]: {{ site.baseurl }}{% link glossary/c.md %}#codex-model
+[Cognitron]: {{ site.baseurl }}{% link glossary/c.md %}#cognitron
 [Cognosys AI Company]: {{ site.baseurl }}{% link glossary/c.md %}#cognosys-ai-company
 [Cognosys AI]: {{ site.baseurl }}{% link glossary/c.md %}#cognosys-ai-company
 [Cohere AI Company]: {{ site.baseurl }}{% link glossary/c.md %}#cohere-ai-company

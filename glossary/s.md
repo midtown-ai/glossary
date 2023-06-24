@@ -106,6 +106,25 @@ layout: page
  See also [S], ...
 
 
+# Scale-Invariant Feature Transform
+
+# SIFT
+
+ Inspired by the [neocognitron]
+
+ For any object in an image, interesting points on the object can be extracted to provide a "feature description" of the object. This description, extracted from a training image, can then be used to identify the object when attempting to locate the object in a test image containing many other objects. To perform reliable recognition, it is important that the features extracted from the training image be detectable even under changes in image scale, noise and illumination. Such points usually lie on high-contrast regions of the image, such as object edges.
+
+ Another important characteristic of these features is that the relative positions between them in the original scene shouldn't change from one image to another. For example, if only the four corners of a door were used as features, they would work regardless of the door's position; but if points in the frame were also used, the recognition would fail if the door is opened or closed. Similarly, features located in articulated or flexible objects would typically not work if any change in their internal geometry happens between two images in the set being processed. However, in practice SIFT detects and uses a much larger number of features from the images, which reduces the contribution of the errors caused by these local variations in the average error of all feature matching errors.
+
+ {% youtube "https://www.youtube.com/watch?v=6oLRdnQI_2w" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Scale-invariant_feature_transform](https://en.wikipedia.org/wiki/Scale-invariant_feature_transform)
+  * <!> not this SIFT method! - [https://oer.pressbooks.pub/collegeresearch/chapter/the-sift-method/](https://oer.pressbooks.pub/collegeresearch/chapter/the-sift-method/)
+
+ See also [S], ...
+
+
 # Scaled Dot-Product Attention
 
  * Scaled => kind of a normalization
@@ -226,6 +245,23 @@ StandardScaler()
  Since its release in 2007, scikit-learn has become one of the most popular machine learning libraries. scikit-learn provides algorithms for machine learning tasks including classification, regression, dimensionality reduction, and clustering. It also provides modules for pre-processing data, extracting features, optimizing hyperparameters, and evaluating models. scikit-learn is built on the popular Python libraries NumPy and SciPy. NumPy extends Python to support efficient operations on large arrays and multi-dimensional matrices. SciPy provides modules for scientific computing. The visualization library matplotlib is often used in conjunction with scikit-learn.
 
  See also [S], [Dataset]
+
+
+# Segformer Model
+
+ Semantic image segmentation with transformers. Developed by [Nvidia]
+
+ {% youtube "https://www.youtube.com/watch?v=J0MoRQzZe8U" %}
+
+ {% youtube "https://www.youtube.com/watch?v=cgq2d_HkfnM" %}
+
+ {% pdf "https://arxiv.org/pdf/2105.15203.pdf" %}
+
+ More at:
+  * site - [https://github.com/NVlabs/SegFormer](https://github.com/NVlabs/SegFormer)
+  * paper - [https://arxiv.org/abs/2105.15203](https://arxiv.org/abs/2105.15203)
+
+ See also [S], [OpenMMLab]
 
 
 # Segment Anything Model
@@ -797,6 +833,27 @@ Social robots also work as concierges in hotels and other settings like malls, w
  See also [S], [Software 1.0]
 
 
+# Software Development Life Cycle Agent
+
+# SDLC Agent
+
+ An [Agent] that automated the development lifecycle
+  * Sprint agent - Breaks down a request into subtasks, add description of tasks, adds acceptance criteria, estimate effort
+  * Dev agent - transition JIRA to "in progress" and create feature branch, generates relevant code given sub-tasks from sprint agent
+  * Test agent - Write unit tests and scenarios for code given acceptance criteria, commits and pushes code and unit tests to code repository
+  * Peer Review agent - transitions tasks to "Peer Review" state in JIRA, provides thorough review of code as part of description of pull request, creates a pull request to merge branch into master
+
+ The final output = application fully generated automatically using SDLC chain given the task
+
+ ```
+As a trader, I want to create an application that lets me customize and viualize charts for different stock options so that I can compare different stocks at different points in times
+ ```
+
+ ![]( {{site.assets}}/s/software_development_lifecycle_agent.png ){: width="100%}
+
+ See also [S], ...
+
+
 # Sophia Robot
 
  Sophia is a social humanoid robot developed by the Hong Kong-based company [Hanson Robotics]. Sophia was activated on February 14, 2016, and made its first public appearance in mid-March 2016 at South by Southwest (SXSW) in Austin, Texas, United States. Sophia is marketed as a "social robot" that can mimic social behavior and induce feelings of love in humans.
@@ -992,6 +1049,8 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
    * blog - [https://hai.stanford.edu/news/what-dall-e-reveals-about-human-creativity](https://hai.stanford.edu/news/what-dall-e-reveals-about-human-creativity)
    * ai4all - [https://nidhiparthasarathy.medium.com/my-summer-at-ai4all-f06eea5cdc2e](https://nidhiparthasarathy.medium.com/my-summer-at-ai4all-f06eea5cdc2e)
 
+ * Collaboration
+   * [MedAI Group Exchange](https://stanford-medai.github.io/)
 
  See also [S], ...
 

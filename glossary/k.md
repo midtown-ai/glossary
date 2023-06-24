@@ -199,3 +199,13 @@ layout: page
   * [https://machinelearningmastery.com/divergence-between-probability-distributions/](https://machinelearningmastery.com/divergence-between-probability-distributions/)
 
  See also [K], [Cross-Entropy Loss Function], [Disentangled Variational Autoencoder], [Entropy], [Variational Autoencoder]
+
+
+# Kumo AI Company
+
+ An AI [Company] that is developing [Pytorch Geometric]
+
+ More at:
+  * [https://kumo.ai/](https://kumo.ai/)
+
+ See also [K], ...

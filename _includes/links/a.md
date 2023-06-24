@@ -36,8 +36,11 @@
 [Addiction]: {{ site.baseurl }}{% link glossary/a.md %}#addiction
 [Adept AI Company]: {{ site.baseurl }}{% link glossary/a.md %}#adept-ai-company
 [Adept AI]: {{ site.baseurl }}{% link glossary/a.md %}#adept-ai-company
+[Adobe Company]: {{ site.baseurl }}{% link glossary/a.md %}#adobe-company
+[Adobe]: {{ site.baseurl }}{% link glossary/a.md %}#adobe-company
 [Adobe Firefly Product]: {{ site.baseurl }}{% link glossary/a.md %}#adobe-firefly-product
 [Adobe Firefly]: {{ site.baseurl }}{% link glossary/a.md %}#adobe-firefly-product
+[Firefly]: {{ site.baseurl }}{% link glossary/a.md %}#adobe-firefly-product
 [Advantage Actor-Critic Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#advantage-actor-critic-algorithm
 [Advantage Actor-Critic]: {{ site.baseurl }}{% link glossary/a.md %}#advantage-actor-critic-algorithm
 [A2C Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#advantage-actor-critic-algorithm
@@ -159,6 +162,8 @@
 [Attention-Based Model]: {{ site.baseurl }}{% link glossary/a.md %}#attention-based-model
 [Attention Score]: {{ site.baseurl }}{% link glossary/a.md %}#attention-score
 [Attribute]: {{ site.baseurl }}{% link glossary/a.md %}#attribute
+[Augmented Language Model]: {{ site.baseurl }}{% link glossary/a.md %}#augmented-language-model
+[ALM]: {{ site.baseurl }}{% link glossary/a.md %}#augmented-language-model
 [Augmented Reality]: {{ site.baseurl }}{% link glossary/a.md %}#augmented-reality
 [AR]: {{ site.baseurl }}{% link glossary/a.md %}#augmented-reality
 [Autoencoder]: {{ site.baseurl }}{% link glossary/a.md %}#autoencoder

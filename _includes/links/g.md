@@ -45,6 +45,7 @@
 [Google Lens]: {{ site.baseurl }}{% link glossary/g.md %}#google-lens
 [Google Translate Model]: {{ site.baseurl }}{% link glossary/g.md %}#google-translate-model
 [Gopher Model]: {{ site.baseurl }}{% link glossary/g.md %}#gopher-model
+[GPT Function Calling]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-function-calling
 [GPU Instance]: {{ site.baseurl }}{% link glossary/g.md %}#gpu-instance
 [GPU Technology Conference]: {{ site.baseurl }}{% link glossary/g.md %}#gpu-technology-conference
 [GTC]: {{ site.baseurl }}{% link glossary/g.md %}#gtc

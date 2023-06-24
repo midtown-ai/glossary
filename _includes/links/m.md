@@ -92,6 +92,8 @@
 [Model-Free Learning Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#model-free-learning-algorithm
 [Modified National Institute Standards And Technology Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
 [MNIST Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
+[Modular Reasoning Knowledge and Language]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language
+[MRKL]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language
 [MuLan Model]: {{ site.baseurl }}{% link glossary/m.md %}#mulan-model
 [Multi-Agent Environment]: {{ site.baseurl }}{% link glossary/m.md %}#multi-agent-environment
 [Multi-Head Self-Attention]: {{ site.baseurl }}{% link glossary/m.md %}#multi-head-self-attention

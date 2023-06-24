@@ -279,6 +279,13 @@ Data < Information < Knowledge
  See also [I], [Hyperparameter]
 
 
+# Inlier
+
+ The opposite of [Outlier]. Check the [RANSAC Algorithm] for separation!
+
+ See also [I], ...
+
+
 # Input Layer
 
  See also [I], [Artificial Neural Network], [Dropout Layer], [Feature]

@@ -74,6 +74,31 @@ layout: page
 
 
 
+# Random Sample Consensus Algorithm
+
+# RANSAC Algorithm
+
+ Developed in the early 1990s, in computer vision, but can be used in several fields.
+ The algorithm removes [outliers] and keep the [inliers] from a sample set
+
+ Parameters:
+  * tolerance
+  * number of iterations
+
+ Assume the number of outliers is < than the number of inliers.
+
+ ![]( {{site.assets}}/r/random_sample_consensus_algorithm.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=9D5rrtCC_E0" %}
+ {% youtube "https://www.youtube.com/watch?v=1YNjMxxXO-E" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Random_sample_consensus](https://en.wikipedia.org/wiki/Random_sample_consensus)
+  * code - [https://scikit-learn.org/stable/auto_examples/linear_model/plot_ransac.html](https://scikit-learn.org/stable/auto_examples/linear_model/plot_ransac.html)
+
+ See also [R], ...
+
+
 # Random Sampling
 
  See also [R], [Passive Learning]
@@ -123,8 +148,10 @@ layout: page
  More at:
   * [https://www.promptingguide.ai/techniques/react](https://www.promptingguide.ai/techniques/react)
   * paper - [https://arxiv.org/abs/2210.03629](https://arxiv.org/abs/2210.03629)
+  * articles
+    * [https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/](https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/)
 
- See also [R], ...
+ See also [R], [Modular Reasoning Knowledge and Language]
 
 
 # Reasoning

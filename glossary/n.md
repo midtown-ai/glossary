@@ -280,6 +280,25 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], ...
 
 
+# Neocognitron
+
+ An improvement on the [cognitron]
+
+ The neocognitron is a hierarchical, multilayered [artificial neural network] proposed by Kunihiko Fukushima in 1979. It has been used for Japanese handwritten character recognition and other pattern recognition tasks, and served as the inspiration for [convolutional neural networks].
+
+ The neocognitron was inspired by the model proposed by Hubel & Wiesel in 1959. They found two types of cells in the visual primary cortex called simple cell and complex cell, and also proposed a cascading model of these two types of cells for use in pattern recognition tasks.
+
+ The neocognitron is a natural extension of these cascading models. The neocognitron consists of multiple types of cells, the most important of which are called S-cells and C-cells. The local features are extracted by S-cells, and these features' deformation, such as local shifts, are tolerated by C-cells. Local features in the input are integrated gradually and classified in the higher layers. The idea of local feature integration is found in several other models, such as the [Convolutional Neural Network] model, the [Scale-Invariant Feature Transform (SIFT)][SIFT] method, and the [Histogram of Oriented Gradient (HoG)][HoG] method.
+
+There are various kinds of neocognitron. For example, some types of neocognitron can detect multiple patterns in the same input by using backward signals to achieve selective attention.
+
+ {% pdf "https://www.rctn.org/bruno/public/papers/Fukushima1980.pdf" %}
+
+ {% youtube "https://www.youtube.com/watch?v=Bh5uPyerI1M" %}
+
+ See also [N], ...
+
+
 # Neptune AI Company
 
  An AI [company]
@@ -593,6 +612,9 @@ plt.imshow(photo[:,:,0].T)       # Multiple transformation at once!
  {% youtube "https://www.youtube.com/watch?w=GuV-HyslPxk" %}
 
 
+ Research:
+  * [SegFormer] - Image segmentation using the [transformer architecture]
+
  Models
   * [Isaac Gym] - environment for RL
   * [Megatron Model] - NLP large language model
@@ -608,5 +630,6 @@ plt.imshow(photo[:,:,0].T)       # Multiple transformation at once!
 
  More at :
   * [https://blogs.nvidia.com/blog/2022/12/16/top-five-nvidia-ai-videos/](https://blogs.nvidia.com/blog/2022/12/16/top-five-nvidia-ai-videos/)
+  * repo - [https://github.com/NVlabs](https://github.com/NVlabs/SegFormer)
 
  See also [N], [Company]

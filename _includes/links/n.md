@@ -33,6 +33,7 @@
 [Negative Attribute]: {{ site.baseurl }}{% link glossary/n.md %}#negative-attribute
 [Neo4j Graph Database]: {{ site.baseurl }}{% link glossary/n.md %}#neo4j-graph-database
 [Neo4j]: {{ site.baseurl }}{% link glossary/n.md %}#neo4j-graph-database
+[Neocognitron]: {{ site.baseurl }}{% link glossary/n.md %}#neocognitron
 [Neptune AI Company]: {{ site.baseurl }}{% link glossary/n.md %}#neptune-ai-company
 [Neptune AI]: {{ site.baseurl }}{% link glossary/n.md %}#neptune-ai-company
 [Netflix Company]: {{ site.baseurl }}{% link glossary/n.md %}#netflix-company
