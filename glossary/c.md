@@ -497,7 +497,6 @@ print(query_result)
   * [Neeva](https://neeva.com/) - Personalized search engine
   * [Neptune AI] -
   * [Neuralink] - A company lead by [Elon Musk] that is focusing on human [Brain] Machine Interfaces
-  * [Nvidia] - The leading supplier of [GPU]
   * [OpenAI] - Focus on democratizing AI. Known for releasing [ChatGPT][ChatGPT Model]
   * [Pachama](https://pachama.com/) - Forestry satellite data analysis
   * [PathAI](https://www.pathai.com/) - Drug discovery and diagnosis
@@ -560,6 +559,12 @@ print(query_result)
 
  Deployment:
   * [Netlify] -
+
+ Hardware
+  * [AMD] - Another supplier of [GPU]
+  * [Cortical Labs] - Use biological [neurons] to use as AI 
+  * [Koniku](https://koniku.com/) - Use biological [neurons] to compete with regular computers
+  * [Nvidia] - The leading supplier of [GPU]
 
  {% youtube "https://www.youtube.com/watch?v=62ptqfCcizQ" %}
 
@@ -973,6 +978,23 @@ pyplot.show()
 
  More at:
   * ...
+
+ See also [C], ...
+
+
+# Cortical Labs Company
+
+ A company that is trying to build a chip dubbed DishBrain with biological [neurons] to do AI.
+
+ The biggest cost out of any data center or cloud provider is the energy that they pay for running the equipment and cooling the system. DishBrain is a system that consumes hardly any energy and outputs very little heat. The unit economics completely flips on its head, especially if you can start training it to do AI tasks.
+
+ {% pdf "{{site.assets}}/+/papers/cortical_labs_neuron_paper.pdf" %}
+
+ More at:
+  * site - [https://corticallabs.com/](https://corticallabs.com/)
+  * research - [https://corticallabs.com/research.html](https://corticallabs.com/research.html)
+  * articles
+    * [https://www.forbes.com/sites/zinnialee/2023/06/21/cortical-labs-brain-computer/](https://www.forbes.com/sites/zinnialee/2023/06/21/cortical-labs-brain-computer/)
 
  See also [C], ...
 

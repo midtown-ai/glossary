@@ -84,6 +84,8 @@
 [CoreML Framework]: {{ site.baseurl }}{% link glossary/c.md %}#coreml-framework
 [CoreML Tool]: {{ site.baseurl }}{% link glossary/c.md %}#coreml-tool
 [Corpus]: {{ site.baseurl }}{% link glossary/c.md %}#corpus
+[Cortical Labs Company]: {{ site.baseurl }}{% link glossary/c.md %}#cortical-labs-company
+[Cortical Labs]: {{ site.baseurl }}{% link glossary/c.md %}#cortical-labs-company
 [Cosine Similarity]: {{ site.baseurl }}{% link glossary/c.md %}#cosine-similarity
 [Cost]: {{ site.baseurl }}{% link glossary/c.md %}#cost
 [Cost Function]: {{ site.baseurl }}{% link glossary/c.md %}#cost-function

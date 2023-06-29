@@ -849,7 +849,7 @@ Social robots also work as concierges in hotels and other settings like malls, w
 As a trader, I want to create an application that lets me customize and viualize charts for different stock options so that I can compare different stocks at different points in times
  ```
 
- ![]( {{site.assets}}/s/software_development_lifecycle_agent.png ){: width="100%}
+ ![]( {{site.assets}}/s/software_development_life_cycle_agent.png ){: width="100%}
 
  See also [S], ...
 
@@ -1442,6 +1442,8 @@ II n summary, probability is focused on the theoretical study of random events, 
   1. Synthesized rows + tests
   1. Simulation taught by looking at real data
   1. Simulation taught without looking at real data
+
+ ![]( {{site.assets}}/s/synthetic_data_privacy_levels.png ){: width="100%}
 
  Level 1: Obscure Personally Identifiable Information (PII)
 
