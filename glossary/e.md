@@ -155,6 +155,9 @@ layout: page
 
 # Embedding
 
+ More at:
+  * [https://frankzliu.com/blog/a-gentle-introduction-to-vector-databases](https://frankzliu.com/blog/a-gentle-introduction-to-vector-databases)
+
  See [Word Embedding]
 
 

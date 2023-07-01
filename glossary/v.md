@@ -221,7 +221,8 @@ layout: page
 
  More at:
   * [https://www.pinecone.io/learn/vector-database/](https://www.pinecone.io/learn/vector-database/)
-  * article(s)
+  * article(s)A
+    * [https://frankzliu.com/blog/a-gentle-introduction-to-vector-databases](https://frankzliu.com/blog/a-gentle-introduction-to-vector-databases)
     * part 1 - [https://arupnanda.medium.com/lowdown-on-vector-databases-a4c8ddcf5d1d](https://arupnanda.medium.com/lowdown-on-vector-databases-a4c8ddcf5d1d)
     * part 2 - [https://arupnanda.medium.com/lowdown-on-vector-databases-ec39fe70a17](https://arupnanda.medium.com/lowdown-on-vector-databases-ec39fe70a17)
     * part 3 - [https://arupnanda.medium.com/lowdown-on-vector-databases-be93a8dd82d8](https://arupnanda.medium.com/lowdown-on-vector-databases-be93a8dd82d8)
@@ -230,6 +231,9 @@ layout: page
 
 
 # Vector Embedding
+
+ More at:
+  * [https://frankzliu.com/blog/a-gentle-introduction-to-vector-databases](https://frankzliu.com/blog/a-gentle-introduction-to-vector-databases)
 
  See also [V], [Vector Database]
 
