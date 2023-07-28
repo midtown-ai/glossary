@@ -179,6 +179,32 @@ layout: page
  See also [D], [Data], [Insufficient Data Algorithm], [Self-Supervised Learning], [Snorkel Program], [Zero-Shot Learning]
 
 
+# Data Bias
+
+ ~ a form of [bias]
+
+ * Sample bias
+ * Historic bias
+ * Survivorship bias
+ * Cognitive bias = anchoring effect + confirmation bias + framing effect + ...
+
+
+ More at:
+  * [https://medium.com/@nahmed3536/data-bias-what-all-data-practitioners-should-be-aware-of-115eaeae48c](https://medium.com/@nahmed3536/data-bias-what-all-data-practitioners-should-be-aware-of-115eaeae48c)
+
+ See also [D], ...
+
+
+# Data Cleaning
+
+ ~ an aspect of [data preparation]
+
+ More at:
+  * ...
+
+ See also [D], ...
+
+
 # Data Collection
 
  More at:
@@ -217,12 +243,28 @@ layout: page
 
 # Data Preparation
 
- aka Data Cleaning
+ ~ data preprocessing, a step in the [machine learning pipeline]
+
+ Data preparation transforms the data into a format that is more easily and effectively processed in data mining, machine learning and other data science tasks. the techniques are generally used at the earliest staeges of the machine learning and AI development pipeline to ensure accurate results.
 
  Steps:
-  * [Encoding]
-  * Feature scaling, including [Feature Normalization] and [Feature Standardization]
-  * [Transforming]
+  * [Data Cleaning]
+  * [Data Transformation]
+    * [Encoding]
+    * Feature scaling, including [Feature Normalization] and [Feature Standardization]
+  * [Data Reduction]
+
+ ![]( {{site.assets}}/d/data_preparation.png ){: width="100%"}
+
+ See also [D], ...
+
+
+# Data Reduction
+
+ A step in [data preparation]
+
+ More at:
+  * ...
 
  See also [D], ...
 
@@ -243,6 +285,16 @@ layout: page
   * ...
 
  See also [D], [Data Analyst], [DevOps]
+
+
+# Data Transformation
+
+ ~ a step in [data preparation]
+
+ More at:
+  * ...
+
+ See also [D], ...
 
 
 # Data Visualization
@@ -473,11 +525,23 @@ layout: page
 
  {% youtube "https://www.youtube.com/watch?v=4jh32CvwKYw" %}
 
+ {% youtube "https://www.youtube.com/watch?v=pg-lKy7JIRk" %}
+
  {% pdf "https://arxiv.org/pdf/1509.02971v6.pdf" %}
 
  More at:
   * paper - [https://arxiv.org/abs/1509.02971v6](https://arxiv.org/abs/1509.02971v6)
   * code - [https://paperswithcode.com/method/ddpg](https://paperswithcode.com/method/ddpg)
+
+ See also [D], ...
+
+
+# Deep Q-Learning
+
+ {% youtube "https://www.youtube.com/watch?v=AKbX1Zvo7r8" %}
+
+ More at:
+  * ...
 
  See also [D], ...
 
@@ -496,7 +560,7 @@ layout: page
  {% pdf "https://arxiv.org/pdf/1312.5602.pdf" %}
 
  More at:
-  * ...
+  * [https://towardsdatascience.com/deep-q-networks-theory-and-implementation-37543f60dd67](https://towardsdatascience.com/deep-q-networks-theory-and-implementation-37543f60dd67)
 
  See also [D], ...
 
@@ -834,18 +898,25 @@ We need to do this for
 
 # Dimensionality Reduction
 
+ ~ a type of [unsupervised learning] to ...
+
  Some problems may contain thousands or millions of [features], which can be computationally costly to work with. Additionally, the program's ability to generalize may be reduced if some of the [features] capture [noise] or are irrelevant to the underlying relationship. Dimensionality reduction is the process of discovering the [features] that account for the greatest changes in the response variable. Dimensionality reduction can also be used to visualize data. It is easy to visualize a regression problem such as predicting the price of a home from its size; the size of the home can be plotted on the graph's x axis, and the price of the home can be plotted on the y axis. It is similarly easy to visualize the housing price regression problem when a second [feature] is added; the number of bathrooms in the house could be plotted on the z axis, for instance. A problem with thousands of features, however, becomes impossible to visualize.
 
  As the name suggests, we use dimensionality reduction to remove the least important information (sometime redundant columns) from a [dataset]. In practice, I often see [datasets] with hundreds or even thousands of columns (also called [features]), so reducing the total number is vital. For instance, images can include thousands of pixels, not all of which matter to your analysis. Or when testing microchips within the manufacturing process, you might have thousands of measurements and tests applied to every chip, many of which provide redundant information. In these cases, you need dimensionality reduction algorithms to make the [dataset] manageable.
 
-  Dimensionality reduction algorithm:
-   * [Principal Component Analysis (PCA)][PCA] - The most popular (and simple to understand and implement)
-   * [Linear Discriminant Analysis (LDA)][LDA]
-   * [T-Distributed Stochastic Neighborhood Embedding (t-SNE)][t-SNE] - for visualization (modern and a bit more complex to understand/implement)
-   * [UMAP]
-   * [Self-Organizing Map (SOM)][SOM]
+ Dimensionality reduction algorithm:
+  * [Principal Component Analysis (PCA)][PCA] - The most popular (and simple to understand and implement)
+  * [Linear Discriminant Analysis (LDA)][LDA]
+  * [T-Distributed Stochastic Neighborhood Embedding (t-SNE)][t-SNE] - for visualization (modern and a bit more complex to understand/implement)
+  * [UMAP]
+  * [Self-Organizing Map (SOM)][SOM]
 
-  See also [D], [Autoencoder], [Decoder], [Encoder]
+ Use-cases:
+  * Image compression
+  * Feature reduction/selection
+  * ...
+
+ See also [D], [Autoencoder], [Decoder], [Encoder]
 
 
 # Direct Preference Optimization

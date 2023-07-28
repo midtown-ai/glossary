@@ -308,7 +308,7 @@ Research on emotion has increased over the past two decades with many fields con
 
  ![]( {{site.assets}}/e/ensemble_method.png ){: width=20%}
 
- See also [E], [Gradient Bagging], [Gradient Boosting], [Isolation Forest], [Weak Leaner]
+ See also [E], [Gradient Bagging], [Gradient Boosting], [Isolation Forest], [Weak Learner]
 
 
 # Entity
@@ -403,6 +403,32 @@ H(X) = -∑(p(x) * log2 p(x))
  After training is complete, the model can be evaluated on a separate validation dataset to assess its performance. If the model is [overfitting] the training data, the validation loss will start to increase while the training loss continues to decrease, indicating that the model is starting to memorize the training data rather than learning to generalize to new data. In this case, [early stopping] or other regularization techniques can be used to prevent overfitting.
 
  See also [E], [Gradient Descent Algorithm]
+
+
+# Equivalence Class Clustering And Bottom-Up Lattice Traversal Algorithm
+
+# ECLAT Algorithm
+
+ ~ an [unsupervised learning] method that is classified as a [association rule learning] ...
+
+ Equivalence class clustering and bottom-up lattice traversal are related techniques for hierarchical conceptual clustering. The key ideas are:
+
+  * Equivalence class clustering groups objects into clusters based on equivalence relations between object attributes.
+  * Objects are placed in the same cluster if they have identical values for the clustering attributes.
+  * This creates a set of equivalence classes (clusters) partitioned by attribute values.
+  * Bottom-up lattice traversal builds a concept hierarchy from these equivalence classes in a bottom-up manner.
+  * Starting from the most specific concepts (individual objects), clusters are iteratively merged up the hierarchy.
+  * Similar concepts are merged based on a similarity measure like overlap of attribute values.
+  * This forms a lattice structure with most general concepts at the top and most specific at the bottom.
+  * The lattice represents a concept hierarchy where each node is a cluster of similar objects.
+  * Traversing the lattice bottom-up reveals the conceptual relationships between objects in a hierarchical fashion.
+
+ In summary, equivalence class clustering creates discrete groupings of similar objects, while lattice traversal organizes these groupings into a hierarchical conceptual structure that reveals relationships in the data.
+
+ More at:
+  * [https://pianalytix.com/association-rules-ml-method/](https://pianalytix.com/association-rules-ml-method/)
+
+ See also [E], ...
 
 
 # Eric Schmidt Person
@@ -643,6 +669,32 @@ H(X) = -∑(p(x) * log2 p(x))
  See also [E], ... 
 
 
+# Exploratory Data Analysis
+
+# EDA
+
+ Exploratory Data Analysis (EDA) refers to the critical process of performing initial investigations on data to discover patterns, spot anomalies, test hypotheses and check assumptions. The key aspects of EDA include:
+
+  * It is an open-ended data analysis approach aimed at finding the key characteristics and relationships in a [dataset] without any preconceived notions.
+  * It relies heavily on [data visualization], i.e. visual methods like histograms, scatter plots, and other graphical techniques to provide overviews of data.
+  * Summary statistics such as means, variances, correlations are used to spotlight distribution characteristics.
+  * It may employ methods like [clustering], [dimensionality reduction], [segmentation], and [outlier detection] to identify structure.
+  * The goal is to learn what the data can tell us and extract important variables, identify underlying assumptions, and develop models/hypotheses for further analysis.
+  * It is ultimately about developing an intuitive understanding of the dataset, the relations between variables, and informing next steps in formal modeling or hypothesis testing.
+  * EDA is an iterative cycle as new insights and questions emerge throughout the analysis process.
+
+ ==> [Data preprocessing]
+
+ In summary, EDA is an critical first step in analyzing an unfamiliar dataset to discover patterns, anomalies, form hypotheses and develop intuition about a dataset prior to more formal modeling, inference or predictive analysis.
+
+ ![]( {{site.assets}}/e/exploratory_data_analysis.png ){: width="100%"}
+
+ More at:
+  * ...
+
+ See also [E], ...
+
+
 # Exponential Linear Unit Activation Function
 
 # ELU Activation Function
@@ -752,6 +804,8 @@ plt.show()
  {% youtube "https://www.youtube.com/watch?v=ZVFeW798-2I" %}
 
  {% youtube "https://www.youtube.com/watch?v=oRrKeUCEbq8" %}
+
+ {% youtube "https://www.youtube.com/watch?v=R5FB1ZUejXM" %}
 
  More at:
   * ...

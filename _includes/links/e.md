@@ -66,6 +66,8 @@
 [Exploding Gradient Problem]: {{ site.baseurl }}{% link glossary/e.md %}#exploding-gradient-problem
 [Exploitation]: {{site.baseurl }}{% link glossary/e.md %}#exploitation
 [Exploration]: {{site.baseurl }}{% link glossary/e.md %}#exploration
+[Exploratory Data Analysis]: {{site.baseurl }}{% link glossary/e.md %}#exploratory-data-analysis
+[EDA]: {{site.baseurl }}{% link glossary/e.md %}#exploratory-data-analysis
 [Exponential Linear Unit Activation Function]: {{site.baseurl }}{% link glossary/e.md %}#exponential-linear-unit-activation-function
 [ELU Activation Function]: {{site.baseurl }}{% link glossary/e.md %}#exponential-linear-unit-activation-function
 [ELU]: {{site.baseurl }}{% link glossary/e.md %}#exponential-linear-unit-activation-function

@@ -21,6 +21,7 @@
 [Hugging Face Company]: {{site.baseurl }}{% link glossary/h.md %}#hugging-face-company
 [Hugging Face]: {{site.baseurl }}{% link glossary/h.md %}#hugging-face-company
 [Human-Centered AI]: {{site.baseurl }}{% link glossary/h.md %}#human-centered-ai
+[Hype Cycle]: {{site.baseurl }}{% link glossary/h.md %}#hype-cycle
 [Hyperparameter]: {{site.baseurl }}{% link glossary/h.md %}#hyperparameter
 [Hyperparameter Optimization]: {{site.baseurl }}{% link glossary/h.md %}#hyperparameter-optimization
 [HPO]: {{site.baseurl }}{% link glossary/h.md %}#hyperparameter-optimization

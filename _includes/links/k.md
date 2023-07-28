@@ -7,6 +7,10 @@
 [K-Means Clustering Failure]: {{ site.baseurl }}{% link glossary/k.md %}#k-means-clustering-failure
 [K-Nearest Neighbor Algorithm]: {{ site.baseurl }}{% link glossary/k.md %}#k-nearest-neighbor-algorithm
 [KNN Algorithm]: {{ site.baseurl }}{% link glossary/k.md %}#k-nearest-neighbor-algorithm
+[Kaggle Company]: {{ site.baseurl }}{% link glossary/k.md %}#kaggle-company
+[Kaggle]: {{ site.baseurl }}{% link glossary/k.md %}#kaggle-company
+[KaggleX Project]: {{ site.baseurl }}{% link glossary/k.md %}#kagglex-project
+[KaggleX]: {{ site.baseurl }}{% link glossary/k.md %}#kagglex-project
 [Keras]: {{ site.baseurl }}{% link glossary/k.md %}#keras
 [Kernel Trick]: {{ site.baseurl }}{% link glossary/k.md %}#kernel-trick
 [Knowledge]: {{ site.baseurl }}{% link glossary/k.md %}#knowledge

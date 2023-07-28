@@ -148,6 +148,8 @@ layout: page
 
 # Feature Engineering
 
+ ~ a step in a [machine learning pipeline]
+
  Feature engineering is an iterative process that often requires experimentation and creating many models to find the input features that give the best model performance. You want features that are weakly correlated with each other, but that strongly correlated with the output. 
 
  Examples:
@@ -281,6 +283,8 @@ Xnorm = --------------
 
 # Feature Selection
 
+ ~ a step in the [machine learning pipeline]
+
  See also [F], ...
 
 
@@ -391,8 +395,11 @@ cheese =>
 
  ![]( {{site.assets}}/f/few_shot_learning_accuracy.png ){: width="100%"}
 
+ {% pdf "https://arxiv.org/pdf/2005.14165.pdf" %}
+
  More at:
   * [https://en.wikipedia.org/wiki/Few-shot_learning_(natural_language_processing)](https://en.wikipedia.org/wiki/Few-shot_learning_(natural_language_processing))
+  * paper - 
 
  See also [F], [One-Shot Learning], [Zero-Shot Task Transfer], [Zero-Shot Learning], 
 
@@ -417,6 +424,24 @@ cheese =>
    * GPT fine-tuning - [https://platform.openai.com/docs/guides/fine-tuning](https://platform.openai.com/docs/guides/fine-tuning)
 
  See [Supervised Fine-Tuning]
+
+
+# FinGPT Model
+
+ A model developed by the [AI Finance Foundation]
+
+ {% pdf "https://arxiv.org/pdf/2306.06031.pdf" %}
+
+ {% youtube "https://www.youtube.com/watch?v=CH3BdIvWxrA" %}
+
+ More at:
+  * AI finance foundation - [https://github.com/AI4Finance-Foundation](https://github.com/AI4Finance-Foundation)
+  * paper - [https://arxiv.org/abs/2306.06031](https://arxiv.org/abs/2306.06031)
+  * code - [https://github.com/AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)
+  * articles
+    * [https://medium.datadriveninvestor.com/fingpt-powering-the-future-of-finance-with-20-cutting-edge-applications-7c4d082ad3d8](https://medium.datadriveninvestor.com/fingpt-powering-the-future-of-finance-with-20-cutting-edge-applications-7c4d082ad3d8)
+
+  See also [F], [IndexGPT Model], [LLaMa Model]
 
 
 # Flamingo Model
@@ -470,6 +495,31 @@ cheese =>
 
  More at:
   * [https://en.wikipedia.org/wiki/Foundation_models](https://en.wikipedia.org/wiki/Foundation_models)
+
+ See also [F], ...
+
+
+# Frequent Pattern Growth Algorithm
+
+# FP-Growth Algorithm
+
+ ~ a type of [unsupervised learning] that is used for [association rule]
+
+ The FP-growth (Frequent Pattern growth) algorithm is an efficient method for mining frequent itemsets and generating association rules without candidate generation. Here are the key points about FP-growth:
+
+  * It uses a divide-and-conquer approach to compress a large database into a compact FP-tree (frequent pattern tree) representation.
+  * The FP-tree stores quantified itemset information in a compressed form and avoids costly database scans.
+  * It decomposes the mining task into smaller tasks in a recursive fashion by partitioning the database on frequent itemsets.
+  * Each partition is represented by a conditional FP-tree which is used to recursively grow frequent patterns.
+  * It uses a pattern-fragment growth method to avoid the costly generation of candidate sets.
+  * It uses a pattern growth approach instead of the candidate generation and test approach of Apriori-like algorithms.
+  * Performance is improved by orders of magnitude compared to Apriori because of the compressed representation and no candidate generation.
+  * Works well for mining long patterns and in dense databases.
+
+ In summary, the FP-growth algorithm mines frequent itemsets by recursively building conditional FP-trees and joining frequent itemset fragments. This divide-and-conquer approach avoids costly database scans and expensive candidate generation.
+
+ More at:
+  * ...
 
  See also [F], ...
 

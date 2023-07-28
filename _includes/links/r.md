@@ -68,6 +68,7 @@
 [Restricted Boltzmann Machine]: {{site.baseurl }}{% link glossary/r.md %}#restricted-boltzmann-machine
 [RBM]: {{site.baseurl }}{% link glossary/r.md %}#restricted-boltzmann-machine
 [Reward]: {{site.baseurl }}{% link glossary/r.md %}#reward
+[Rewards]: {{site.baseurl }}{% link glossary/r.md %}#reward
 [Reward Function]: {{site.baseurl }}{% link glossary/r.md %}#reward-function
 [Reward Model]: {{site.baseurl }}{% link glossary/r.md %}#reward-model
 [Reward Shaping]: {{site.baseurl }}{% link glossary/r.md %}#reward-shaping

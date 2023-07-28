@@ -11,12 +11,17 @@
 [Data]: {{ site.baseurl }}{% link glossary/d.md %}#data
 [Data Analyst]: {{ site.baseurl }}{% link glossary/d.md %}#data-analyst
 [Data Augmentation]: {{ site.baseurl }}{% link glossary/d.md %}#data-augmentation
+[Data Bias]: {{ site.baseurl }}{% link glossary/d.md %}#data-bias
+[Data Cleaning]: {{ site.baseurl }}{% link glossary/d.md %}#data-cleaning
 [Data Collection]: {{ site.baseurl }}{% link glossary/d.md %}#data-collection
 [Data Handling]: {{ site.baseurl }}{% link glossary/d.md %}#data-handling
 [Data Leakage]: {{ site.baseurl }}{% link glossary/d.md %}#data-leakage
 [Data Point]: {{ site.baseurl }}{% link glossary/d.md %}#data-point
+[Data Preparation]: {{ site.baseurl }}{% link glossary/d.md %}#data-preparation
+[Data Reduction]: {{ site.baseurl }}{% link glossary/d.md %}#data-reduction
 [Data Science]: {{ site.baseurl }}{% link glossary/d.md %}#data-science
 [Data Scientist]: {{ site.baseurl }}{% link glossary/d.md %}#data-scientist
+[Data Transformation]: {{ site.baseurl }}{% link glossary/d.md %}#data-transformation
 [Data Visualization]: {{ site.baseurl }}{% link glossary/d.md %}#data-visualization
 [Data2Vec]: {{ site.baseurl }}{% link glossary/d.md %}#data2vec
 [Dataset]: {{ site.baseurl }}{% link glossary/d.md %}#dataset

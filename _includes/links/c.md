@@ -54,18 +54,20 @@
 [Concept Video]: {{ site.baseurl }}{% link glossary/c.md %}#concept-video
 [Conditioning]: {{ site.baseurl }}{% link glossary/c.md %}#conditioning
 [Conditioning GAN]: {{ site.baseurl }}{% link glossary/c.md %}#conditioning-gan
-[CGAN]: {{ site.baseurl }}{% link glossary/c.md %}#cgan
+[CGAN]: {{ site.baseurl }}{% link glossary/c.md %}#conditioning-gan
 [Conditional Random Fields]: {{ site.baseurl }}{% link glossary/c.md %}#conditional-random-fields
 [Confidence Interval]: {{ site.baseurl }}{% link glossary/c.md %}#confidence-interval
 [Confusion Matrix]: {{ site.baseurl }}{% link glossary/c.md %}#confusion-matrixxxx
 [Constraint Satisfaction Problem]: {{ site.baseurl }}{% link glossary/c.md %}#constraint-satisfaction-problem
 [Consumer Electric Show]: {{ site.baseurl }}{% link glossary/c.md %}#consumer-electronic-show
-[CES]: {{ site.baseurl }}{% link glossary/c.md %}#ces
+[CES]: {{ site.baseurl }}{% link glossary/c.md %}#consumer-electronic-show
+[Continual Reinforcement Learning]: {{ site.baseurl }}{% link glossary/c.md %}#continual-reinforcement-learning
+[CRL]: {{ site.baseurl }}{% link glossary/c.md %}#continual-reinforcement-learning
 [Continuous Action Space]: {{ site.baseurl }}{% link glossary/c.md %}#continuous-action-space
 [Continuous Convolution]: {{ site.baseurl }}{% link glossary/c.md %}#continuous-convolution
 [Continuous Variable]: {{ site.baseurl }}{% link glossary/c.md %}#continuous-variable
 [Contrastive Language Image Pre-training Model]: {{ site.baseurl }}{% link glossary/c.md %}#contrastive-language-image-pre-training-model
-[CLIP Model]: {{ site.baseurl }}{% link glossary/c.md %}#clip-model
+[CLIP Model]: {{ site.baseurl }}{% link glossary/c.md %}#contrastive-language-image-pre-training-model
 [Contrastive Learning]: {{ site.baseurl }}{% link glossary/c.md %}#contrastive-learning
 [Contrastive Loss Function]: {{ site.baseurl }}{% link glossary/c.md %}#contrastive-loss-function
 [Control System]: {{ site.baseurl }}{% link glossary/c.md %}#control-system
@@ -75,9 +77,9 @@
 [Convolution Autoencoder]: {{ site.baseurl }}{% link glossary/c.md %}#convolution-autoencoder
 [Convolutional Layer]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-layer
 [Convolutional Neural Network]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-neural-network
-[CNN]: {{ site.baseurl }}{% link glossary/c.md %}#cnn
+[CNN]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-neural-network
 [Convolutional Neural Network Feature Extractor]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-neural-network-feature-extractor
-[CNN Feature Extractor]: {{ site.baseurl }}{% link glossary/c.md %}#cnn-feature-extractor
+[CNN Feature Extractor]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-neural-network-feature-extractor
 [Coral Hardware]: {{ site.baseurl }}{% link glossary/c.md %}#coral-hardware
 [Coreference]: {{ site.baseurl }}{% link glossary/c.md %}#coreference
 [CoreML Format]: {{ site.baseurl }}{% link glossary/c.md %}#coreml-format
@@ -95,7 +97,8 @@
 [Critics]: {{ site.baseurl }}{% link glossary/c.md %}#critic
 [Critic Network]: {{ site.baseurl }}{% link glossary/c.md %}#critic-network
 [Critical Assessment of Structure Prediction Challenge]: {{ site.baseurl }}{% link glossary/c.md %}#critical-assessment-of-structure-prediction-challenge
-[CASP Challenge]: {{ site.baseurl }}{% link glossary/c.md %}#casp-challenge
+[CASP Challenge]: {{ site.baseurl }}{% link glossary/c.md %}#critical-assessment-of-structure-prediction-challenge
+[CASP]: {{ site.baseurl }}{% link glossary/c.md %}#critical-assessment-of-structure-prediction-challenge
 [Cross-Attention]: {{ site.baseurl }}{% link glossary/c.md %}#cross-attention
 [Cross-Entropy]: {{ site.baseurl }}{% link glossary/c.md %}#cross-entropy
 [Cross-Entropy Loss Function]: {{ site.baseurl }}{% link glossary/c.md %}#cross-entropy-loss-function
@@ -104,11 +107,12 @@
 [Cruise]: {{ site.baseurl }}{% link glossary/c.md %}#cruise-company
 [Cubic Regression]: {{ site.baseurl }}{% link glossary/c.md %}#cubic-regression
 [Cumulative Distribution Function]: {{ site.baseurl }}{% link glossary/c.md %}#cumulative-distribution-function
-[CDF]: {{ site.baseurl }}{% link glossary/c.md %}#cdf
+[CDF]: {{ site.baseurl }}{% link glossary/c.md %}#cumulative-distribution-function
+[Cumulative Reward]: {{ site.baseurl }}{% link glossary/c.md %}#cumulative-reward
 [Curse Of Dimensionality]: {{ site.baseurl }}{% link glossary/c.md %}#curse-of-dimensionality
 [Custom Churn Prediction]: {{ site.baseurl }}{% link glossary/c.md %}#custom-churn-prediction
 [Cybernetic Organism]: {{ site.baseurl }}{% link glossary/c.md %}#cybernetic-organism
 [Cyborg]: {{ site.baseurl }}{% link glossary/c.md %}#cybernetic-organism
 [Cyborg Beetle]: {{ site.baseurl }}{% link glossary/c.md %}#cyborg-bettle
 [Cycle Generative Adversarial Network]: {{ site.baseurl }}{% link glossary/c.md %}#cycle-generative-adversarial-network
-[Cycle GAN]: {{ site.baseurl }}{% link glossary/c.md %}#cycle-gan
+[Cycle GAN]: {{ site.baseurl }}{% link glossary/c.md %}#cycle-generative-adversarial-network

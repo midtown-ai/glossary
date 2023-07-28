@@ -19,6 +19,7 @@
 [Feature Learning]: {{site.baseurl }}{% link glossary/f.md %}#feature-learning
 [Feature Normalization]: {{site.baseurl }}{% link glossary/f.md %}#feature-normalization
 [Feature Scaling]: {{site.baseurl }}{% link glossary/f.md %}#feature-scaling
+[Feature Selection]: {{site.baseurl }}{% link glossary/f.md %}#feature-selection
 [Feature Standardization]: {{site.baseurl }}{% link glossary/f.md %}#feature-standardization
 [Feedback]: {{site.baseurl }}{% link glossary/f.md %}#feedback
 [Feedback-Based Learning]: {{site.baseurl }}{% link glossary/f.md %}#feedback-based-learning
@@ -30,12 +31,17 @@
 [Few-Shot Prompting]: {{site.baseurl }}{% link glossary/f.md %}#few-shot-prompting
 [File Mode]: {{site.baseurl }}{% link glossary/f.md %}#file-mode
 [Fine-Tuning]: {{site.baseurl }}{% link glossary/f.md %}#fine-tuning
+[FinGPT Model]: {{site.baseurl }}{% link glossary/f.md %}#fingpt-model
 [Flamingo Model]: {{site.baseurl }}{% link glossary/f.md %}#flamingo-model
 [Flamingo]: {{site.baseurl }}{% link glossary/f.md %}#flamingo-model
 [Flow-Based Model]: {{site.baseurl }}{% link glossary/f.md %}#flow-based-model
 [Forbidden Planet Movie]: {{site.baseurl }}{% link glossary/f.md %}#forbidden-planet-movie
 [Forest Of Stumps]: {{site.baseurl }}{% link glossary/f.md %}#forest-of-stumps
 [Foundational Model]: {{site.baseurl }}{% link glossary/f.md %}#foundational-model
+[Frequent Pattern Growth Algorithm]: {{site.baseurl }}{% link glossary/f.md %}#frequent-pattern-growth-algorithm
+[Frequent Pattern Growth]: {{site.baseurl }}{% link glossary/f.md %}#frequent-pattern-growth-algorithm
+[FP-Growth Algorithm]: {{site.baseurl }}{% link glossary/f.md %}#frequent-pattern-growth-algorithm
+[FP-Growth]: {{site.baseurl }}{% link glossary/f.md %}#frequent-pattern-growth-algorithm
 [Fully Connected Layer]: {{site.baseurl }}{% link glossary/f.md %}#fully-connected-layer
 [FC Layer]: {{site.baseurl }}{% link glossary/f.md %}#fully-connected-layer
 [Function Estimation]: {{site.baseurl }}{% link glossary/f.md %}#function-estimation

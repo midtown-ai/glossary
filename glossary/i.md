@@ -230,6 +230,15 @@ layout: page
  See also [I], ...
 
 
+# IndexGPT Model
+
+ More at:
+  * trademark - [https://tsdr.uspto.gov/documentviewer?caseId=sn9793153](https://tsdr.uspto.gov/documentviewer?caseId=sn9793153)
+  * articles
+    * [https://www.cnbc.com/2023/05/25/jpmorgan-develops-ai-investment-advisor.html](https://www.cnbc.com/2023/05/25/jpmorgan-develops-ai-investment-advisor.html)
+
+ See also [I], ...
+
 # Inductive Reasoning
 
  Coming up with `rules to explain the current observation`. Sometimes the truth can be learned ;-)

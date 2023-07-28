@@ -90,6 +90,8 @@ layout: page
 
  {% youtube "https://www.youtube.com/watch?v=3Bg2XRFOTzg" %}
 
+ {% youtube "https://www.youtube.com/watch?v=R5FB1ZUejXM" %}
+
  More at:
   * [https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145](https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145)
   * [https://github.com/catboost/catboost](https://github.com/catboost/catboost)
@@ -326,6 +328,7 @@ print(query_result)
     * [Learning Vector Quantization (LVQ)][LVQ]
   * Unsupervised
     * [K-Means Clustering]
+    * [LVQ Algorithm]
   * Semi-supervised
     * [K-Nearest Neighbor (KNN)][KNN]
   * Others
@@ -377,7 +380,7 @@ print(query_result)
  Ex: Clustering is also used by internet radio services; given a collection of songs, a clustering algorithm might be able to group the songs according to their genres. Using different similarity measures, the same clustering algorithm might group the songs by their keys, or by the instruments they contain. ==> [Classification]
 
  Algorithms:
-  * [Learning Vector Quantization (LVQ)][LVQ] - Supervised
+  * [Learning Vector Quantization (LVQ)][LVQ] - (un)Supervised?
   * [K-Means Clustering] - Semi-supervised
 
  See also [C], [Initialization], [Unsupervised Learning]
@@ -570,7 +573,9 @@ print(query_result)
 
  More at:
   * Forbes AI top 50:
-    * 2023 - [https://www.forbes.com/lists/ai50/?sh=1f9472b1290f](https://www.forbes.com/lists/ai50/?sh=1f9472b1290f)
+    * 2023 
+      * [https://www.forbes.com/lists/ai50/?sh=1f9472b1290f](https://www.forbes.com/lists/ai50/?sh=1f9472b1290f)
+      * [https://www.forbes.com/sites/kenrickcai/2023/04/11/ai-50-2023-methodology-judges/?sh=5b1ec13b4f73](https://www.forbes.com/sites/kenrickcai/2023/04/11/ai-50-2023-methodology-judges/?sh=5b1ec13b4f73)
     * 2022 - [https://www.forbes.com/sites/helenpopkin/2022/05/06/ai-50-2022-north-americas-top-ai-companies-shaping-the-future/?sh=63dcbbdc34b5](https://www.forbes.com/sites/helenpopkin/2022/05/06/ai-50-2022-north-americas-top-ai-companies-shaping-the-future/?sh=63dcbbdc34b5) 
     * 2021 - [https://www.forbes.com/sites/alanohnsman/2021/04/26/ai-50-americas-most-promising-artificial-intelligence-companies/?sh=12d718d177cf](https://www.forbes.com/sites/alanohnsman/2021/04/26/ai-50-americas-most-promising-artificial-intelligence-companies/?sh=12d718d177cf)
   * CNBC disruptor 50:
@@ -694,6 +699,24 @@ print(query_result)
 # CES
 
  {% youtube "https://www.youtube.com/watch?v=CnwGrI6T7X0" %}
+
+ See also [C], ...
+
+
+# Continual Reinforcement Learning
+
+# CRL
+
+ Consider an agent learning to play Go: Once the agent has discovered how to master the game, the task is complete, and the agent’s learning can stop. This view of learning is often embedded in the standard formulation of [Reinforcement Learning (RL)][RL], in which an agent interacts with a Markovian environment with the goal of efficiently identifying an optimal behavior, at which point learning can cease. But what if this is not the best way to model the RL problem? That is, instead of viewing learning as finding a solution, we can instead think of it as endless adaptation
+
+ An [Reinforcement Learning (RL)][RL] problem is an instance of CRL if the best agents never stop learning. :warning: In the case of RL the learning stops because it has converged?
+
+ {% pdf "https://arxiv.org/pdf/2307.11046.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2307.11046](https://arxiv.org/abs/2307.11046)
+  * articles
+    * [https://syncedreview.com/2023/07/25/deepmind-builds-a-precise-mathematical-foundation-of-continual-reinforcement-learning/](https://syncedreview.com/2023/07/25/deepmind-builds-a-precise-mathematical-foundation-of-continual-reinforcement-learning/)
 
  See also [C], ...
 
@@ -1191,6 +1214,17 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  Graph or histogram reporting the probability that a function has reached this value or is below.
 
  See also [C], [Distribution]
+
+
+# Cumulative Reward
+
+ In [Reinforcement Learning (RL)][RL] the agent is going to learn to maximize its cumulative reward, not the immediate [reward].
+ To make sure the agent adopt the correct behavior, you must understand the agent incentive, that is the cumulative reward!
+
+ More at:
+  * ...
+
+ See also [C], [Reward Shaping]
 
 
 # Curse of Dimensionality

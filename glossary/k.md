@@ -115,6 +115,32 @@ layout: page
  See also [K], [Model Evaluation], [Semisupervised Learning]
 
 
+# Kaggle Company
+
+ Kaggle is a data science competition platform and online community of data scientists and machine learning practitioners under Google LLC. Kaggle enables users to find and publish datasets, explore and build models in a web-based data science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges.
+
+ Kaggle was founded by Anthony Goldbloom and Ben Hamner in 2010 with Nicholas Gruen as the founding chair. Equity was raised in 2011 valuing the company at $25.2 million. On 8 March 2017, Google announced it was acquiring Kaggle.
+
+ More at:
+  * site - [https://www.kaggle.com/](https://www.kaggle.com/)
+  * wikipedia - [https://en.wikipedia.org/wiki/Kaggle](https://en.wikipedia.org/wiki/Kaggle)
+
+# KaggleX Project
+
+ Kaggle is excited to announce the launch of our Cohort 3 of the KaggleX BIPOC Mentorship Program (formerly known as the BIPOC Grant Program). The goal of this program is to increase representation, create career opportunities, and develop individual growth for BIPOC (Black, Indigenous, People of Color) people in the data science industry. This will be achieved through pairing early-career Kagglers with advanced and senior-level mentors, curating a space for career-related discussion and learning opportunities.
+
+ More at:
+  * application - [https://www.kaggle.com/kagglex](https://www.kaggle.com/kagglex)
+  * Mentor portal - [https://www.kagglex.org/](https://www.kagglex.org/)
+  * Mentors
+    * [https://www.kaggle.com/omarvivas/competitions](https://www.kaggle.com/omarvivas/competitions)
+  * 2021 showcase
+    * [https://www.kaggle.com/bipoc2021-project-showcase](https://www.kaggle.com/bipoc2021-project-showcase)
+  * Video - [https://www.youtube.com/playlist?list=PLqFaTIg4myu9eghQKv8nFXTUaDbwnpaKi](https://www.youtube.com/playlist?list=PLqFaTIg4myu9eghQKv8nFXTUaDbwnpaKi)
+
+ See also [K], ...
+
+
 # Keras
 
  A python module ...

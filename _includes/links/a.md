@@ -45,6 +45,7 @@
 [Advantage Actor-Critic]: {{ site.baseurl }}{% link glossary/a.md %}#advantage-actor-critic-algorithm
 [A2C Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#advantage-actor-critic-algorithm
 [A2C]: {{ site.baseurl }}{% link glossary/a.md %}#advantage-actor-critic-algorithm
+[Advantage Estimation]: {{ site.baseurl }}{% link glossary/a.md %}#advantage-estimation
 [Adversarial Attack]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-attack
 [Adversarial Imitation Learning]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-imitation-learning
 [Adversarial Model]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-model
@@ -117,6 +118,8 @@
 [Apprentice Learning]: {{ site.baseurl }}{% link glossary/a.md %}#apprentice-learning
 [Apriori Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#apriori-algorithm
 [Apriori]: {{ site.baseurl }}{% link glossary/a.md %}#apriori-algorithm
+[Arcade Learning Environment]: {{ site.baseurl }}{% link glossary/a.md %}#arcade-learning-environment
+[ALE]: {{ site.baseurl }}{% link glossary/a.md %}#arcade-learning-environment
 [Area Under The Curve]: {{ site.baseurl }}{% link glossary/a.md %}#area-under-the-curve
 [AUC]: {{ site.baseurl }}{% link glossary/a.md %}#area-under-the-curve
 [Argmax Function]: {{ site.baseurl }}{% link glossary/a.md %}#argmax-function
@@ -151,6 +154,7 @@
 [ASI]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-super-intelligence
 [Association for the Advancement of Artificial Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#association-for-the-advancement-of-artificial-intelligence
 [AAAI]: {{ site.baseurl }}{% link glossary/a.md %}#association-for-the-advancement-of-artificial-intelligence
+[Association Rule Learning]: {{ site.baseurl }}{% link glossary/a.md %}#association-rule-learning
 [Asynchronous Advantage Actor-Critic Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#asynchronous-advantage-actor-critic-algorithm
 [Asynchronous Advantage Actor-Critic]: {{ site.baseurl }}{% link glossary/a.md %}#asynchronous-advantage-actor-critic-algorithm
 [A3C Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#asynchronous-advantage-actor-critic-algorithm

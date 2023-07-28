@@ -385,6 +385,8 @@ layout: page
 
  {% youtube "https://www.youtube.com/watch?v=tqrcjHuNdmQ" %}
 
+ {% youtube "https://www.youtube.com/watch?v=AKbX1Zvo7r8" %}
+
  More at : 
   * [http://karpathy.github.io/2016/05/31/rl/](http://karpathy.github.io/2016/05/31/rl/)
   * [https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5](https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5)
@@ -663,6 +665,8 @@ Prediction Error = actual_value - predicted_value
  {% youtube "https://www.youtube.com/watch?v=5P7I-xPq8u8" %}
 
  {% youtube "https://www.youtube.com/watch?v=hlv79rcHws0" %}
+
+ {% youtube "https://www.youtube.com/watch?v=KjWF8VIMGiY" %}
 
  {% pdf "{{site.assets}}/p/proximal_policy_optimization_paper.pdf" %}
 

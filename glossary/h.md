@@ -311,6 +311,29 @@ Overall, Hugging Face's products and services are designed to make NLP more acce
  See also [H], [Robot]
 
 
+# Hype Cycle
+
+ Where is AI on the hype cycle?
+
+ ![]( {{site.assets}}/h/hype_cycle_2021.png )
+
+ Each Hype Cycle drills down into the five key phases of a technology’s life cycle.
+  * Innovation Trigger: A potential technology breakthrough kicks things off. Early proof-of-concept stories and media interest trigger significant publicity. Often no usable products exist and commercial viability is unproven.
+  * Peak of Inflated Expectations: Early publicity produces a number of success stories — often accompanied by scores of failures. Some companies take action; many do not.
+  * Trough of Disillusionment: Interest wanes as experiments and implementations fail to deliver. Producers of the technology shake out or fail. Investments continue only if the surviving providers improve their products to the satisfaction of early adopters.
+  * Slope of Enlightenment: More instances of how the technology can benefit the enterprise start to crystallize and become more widely understood. Second- and third-generation products appear from technology providers. More enterprises fund pilots; conservative companies remain cautious.
+  * Plateau of Productivity: Mainstream adoption starts to take off. Criteria for assessing provider viability are more clearly defined. The technology's broad market applicability and relevance are clearly paying off.
+
+ {% youtube "https://www.youtube.com/watch?v=jB1RDz9jaj0" %}
+
+ More at:
+  * [https://www.gartner.com/en/research/methodologies/gartner-hype-cycle](https://www.gartner.com/en/research/methodologies/gartner-hype-cycle)
+  * articles
+    * [https://www.wired.com/story/ai-hype-cycle-burnout/](https://www.wired.com/story/ai-hype-cycle-burnout/)
+
+ See also [H], ...
+
+
 # Hyperparameter
 
  * Parameters not directly learned by learning algorithm

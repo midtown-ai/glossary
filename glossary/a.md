@@ -195,6 +195,9 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
 
  ![]( {{site.assets}}/a/actor_critic_algorithm.png){: width="100%" }
 
+ More at:
+  * [https://pylessons.com/A2C-reinforcement-learning](https://pylessons.com/A2C-reinforcement-learning)
+
  See also [A], [Model-Free Learning Algorithm]
 
 
@@ -389,9 +392,21 @@ One obvious way to mitigate that problem is to choose different learning rate fo
  More at:
   * paper - [https://arxiv.org/abs/1602.01783v2](https://arxiv.org/abs/1602.01783v2)
   * code - [https://paperswithcode.com/paper/asynchronous-methods-for-deep-reinforcement#code](https://paperswithcode.com/paper/asynchronous-methods-for-deep-reinforcement#code)
+  * articles
+    * [https://pylessons.com/A2C-reinforcement-learning](https://pylessons.com/A2C-reinforcement-learning)
 
  See also [A], ...
- 
+
+
+# Advantage Estimation
+
+ {% youtube "https://www.youtube.com/watch?v=AKbX1Zvo7r8" %}
+
+ More at:
+  * ...
+
+ See also [A], ...
+
 
 # Adversarial Attack
 
@@ -754,7 +769,7 @@ A risk of [AGI]
   * Individuals
    * Sander Dieleman at [DeepMind] - [https://sander.ai/research/](https://sander.ai/research/)
   * Universities
-   * [Berkeley](https://ml.berkeley.edu/research) [@berkeley_ai](https://twitter.com/berkeley_ai)
+   * [Berkeley University]
    * [Stanford AI Lab](https://ai.stanford.edu/blog/)
    * [MIT CSAIL](https://www.csail.mit.edu/)
    * [Carnegie Mellon Universityi](https://ai.cs.cmu.edu/)
@@ -1155,9 +1170,28 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
 # Apriori Algorithm
 
+ ~ a type of [unsupervised learning] in sub-class [association rule learning] used to ...
+
+ The Apriori algorithm is a classic algorithm in data mining for learning association rules between items in a transactional database. Here are some key points about Apriori:
+
+  * It employs a "bottom up" approach to find frequent itemsets through iterative passes over the dataset.
+  * It starts by identifying individual items that satisfy minimum support.
+  * In each subsequent pass, it combines the frequent items from the previous pass to form candidate itemsets.
+  * Itemsets that still satisfy minimum support after a pass form the frequent itemsets.
+  * The algorithm terminates when no new frequent itemsets are found in a pass.
+  * Apriori uses the "downward-closure" property, which states that if an itemset is infrequent, its supersets should not be generated/tested.
+  * It generates candidate itemsets efficiently by only exploring frequent subsets, pruning away infrequent candidates.
+  * After frequent itemsets are found, association rules are generated based on minimum confidence constraints.
+  * Performance degrades if there are lots of frequent itemsets or long patterns due to costly candidate generation.
+
+ In summary, Apriori is an influential algorithm for mining associations that uses iterative passes over data and pruning strategies to efficiently discover frequent itemsets from which association rules can be derived.
+
  {% youtube "https://www.youtube.com/watch?v=T3Pd_3QP9J4" %}
 
- See also [Recommendation Engine]
+ More at:
+  * [https://pianalytix.com/association-rules-ml-method/](https://pianalytix.com/association-rules-ml-method/)
+
+ See also [A], [Recommendation Engine]
 
 
 # Arcade Learning Environment
@@ -1183,9 +1217,15 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
 # AUC
 
- `~ helpful measurement to compare the classification performance of various models. The bigger the AUC, the better the model!"`. The curve is the ROC Curve! The area under the ROC curve (AUC) is a measure of the classifier's overall performance, with a value of 1 indicating perfect performance and a value of 0.5 indicating a performance no better than random guessing (ROC curve is diagonal ==> ...) .
+ `~ helpful measurement to compare the classification performance of various models. The bigger the AUC, the better the model!"`.
 
- See also [A], [ROC Curve]
+ The curve is the Receiver Operating Characteristic (ROC) Curve][ROC Curve]! The area under the ROC curve (AUC) is a measure of the classifier's overall performance, with a value of 1 indicating perfect performance and a value of 0.5 indicating a performance no better than random guessing (ROC curve is diagonal ==> ...) .
+
+ ![]( {{site.assets}}/a/area_under_the_curve.png){: width="100%" }
+
+ ![]( {{site.assets}}/a/area_under_the_curve_code.png){: width="100%" }
+
+ See also [A], ...
 
 
 # Argmax Function
@@ -1467,6 +1507,38 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], ...
 
 
+# Association Rule Learning
+
+ ~ a type of [unsupervised learning] used to uncover relationships and associations between variables in transactional and relational datasets.
+
+ Association rules are a technique in machine learning used to uncover relationships between variables in large datasets. The key concepts are:
+
+  * Association rules identify associations between items in a [dataset]. For example, an association rule could identify that customers who purchase bread and butter together frequently also tend to purchase jam.
+  * Associations are based on the frequency of items occurring together in transactions and how strongly they are associated.
+  * Rules are generated by analyzing data for frequent if/then patterns and using measures of support and confidence to identify the most significant relationships.
+  * Support refers to how frequently the items appear together in the data. Confidence refers to the probability of item Y appearing in transactions with item X. Rules must meet minimum support and confidence thresholds to be considered significant.
+  * Market basket analysis is a key application of association rules for discovering associations in retail transaction data. But it has also been used for other applications like bioinformatics, intrusion detection, and web usage mining.
+  * Algorithms like Apriori and FP-Growth are used to efficiently find association rules in large high-dimensional datasets.
+
+ In summary, association rule learning is an unsupervised learning technique to uncover relationships and associations between variables in transactional and relational datasets. It relies on support and confidence statistical measures to identify the strongest associations.
+
+ Metrics:
+  * Support: Support: This Gives The Fraction Of Transactions Which Contains Item A And B. This Tells Us About The Frequently Bought Items Or The Combination Of Items Bought Frequently.  Support = Freq(A,B)N 
+  * Confidence: It Tells Us How Often Items A And B Occur Together, Given The Number Of Times A Occurs. Confidence = Freq(A,B)Freq(A)
+  * Lift: It Indicates The Strength Of A Rule Over The Random Occurrence Of A And B. This Tells Us The Strength Of Any Rule. Lift = Supportsupport(A) * Support(B)
+
+ Algorithms:
+  * [Apriori Algorithm]
+  * [Equivalence Class Clustering And Bottom-Up Lattice Trasversal (ECLAT)][ECLAT]
+  * [FP-Growth Algorithm]
+
+ Use-cases:
+  * Market basket analysis
+  * ...
+
+ See also [A], ...
+
+
 # Asynchronous Advantage Actor-Critic Algorithm
 
 # A3C Algorithm
@@ -1492,9 +1564,12 @@ First, we believe the clearest framing of general intelligence is a system that 
 
  The primary objective of ALE is to facilitate the development and evaluation of RL algorithms by providing a common framework and standardized benchmark tasks. It has been widely used in the research community to test and compare various RL algorithms and techniques.
 
+ {% pdf "https://arxiv.org/pdf/1312.5602v1.pdf" %}
+
  More at:
   * integration with the [Arcade Learning Environment]
   * integration with OpenAI Gym - [https://www.gymlibrary.dev/environments/atari/index.html](https://www.gymlibrary.dev/environments/atari/index.html)
+  * paper - 
 
  See also [A], ...
 

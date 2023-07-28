@@ -80,11 +80,12 @@ Predict what are the required agent skills based some input parameters
 
  1. ML problem framing (aka discovery phase)
  1. data collection and integration
-  * :warning: data-set can be incomplete and therefore misleading
-  * :warning: data in data-set can be irrelevant
-  * :warning: data-set may be too small (needs to be at least 10 times the number of features!)
+  * :warning: [dataset] can be incomplete and therefore misleading
+  * :warning: data in dataset can be irrelevant
+  * :warning: bias in dataset?
+  * :warning: dataset may be too small (needs to be at least 10 times the number of features!)
   * :warning: needs to be cleaned?
- 1. data preparation
+ 1. [data preparation]
   * dig into a small to manually critically explore the data.
   * confirm that all label are relevant to solve the ML problem
   * What features are there?
@@ -95,14 +96,14 @@ Predict what are the required agent skills based some input parameters
   * Can some label be combined because of overlap?
   * Are existing labels accurate or not?
   * Reviewing questions from discovery phase and continue to interact with domain expert
- 1. data visualization and analysis
+ 1. [data visualization] and analysis
   * understand the relationships in a dataset
   * find outliers (use histograms)
   * find groups
   * use imputation to complete data
   * pie charts, histogram, scatter plots for correlation
   * try to extract noise from data, noise causes overfitting and reduce accuracy of predictions
- 1. feature selection and engineering
+ 1. [feature selection] and [feature engineering]
   * you want a minimum correlation between the features, but the maximum correlation between the feature and the output
   * do the feature I use make sense?
   * very time consuming step!
@@ -110,11 +111,13 @@ Predict what are the required agent skills based some input parameters
   * ex: when was the last purchase of the customer?
   * ex: do the customer owns a kindle? (then do not expect questions related to kindle)
  1. model training
- 1. model evaluation
-  * confusion matrix
- 1. prediction
+  * model selection
+  * model evaluation
+    * confusion matrix for classification
+    * [overfitting] ?
+ 1. deployment for prediction / inference
 
- See also [M], [Dataset], [Discovery Phase], [Feature Engineering], [Machine Learning], [Machine Learning Algorithm], [Overfitting]
+ See also [M], [Discovery Phase], [Machine Learning], [Machine Learning Algorithm]
 
 
 # Machine Learning Type
@@ -219,7 +222,11 @@ Predict what are the required agent skills based some input parameters
 
 # Markov Decision Process
 
- Markov Decision Process is a Reinforcement Learning algorithm that gives us a way to formalize sequential decision making. This formalization is the basis to the problems that are solved by Reinforcement Learning. The components involved in a Markov Decision Process (MDP) is a decision maker called an agent that interacts with the environment it is placed in. These interactions occur sequentially overtime. In each timestamp, the agent will get some representation of the environment state. Given this representation, the agent selects an action to make. The environment is then transitioned into some new state and the agent is given a reward as a consequence of its previous action. The process of selecting an action from a given state, transitioning to a new state and receiving a reward happens sequentially over and over again. This creates something called a trajectory that shows the sequence of states, actions and rewards. Throughout the process, it is the responsibility of the reinforcement learning agent to maximize the total amount of rewards that it received from taking actions in given states of environments. `The agent not only wants to maximize the immediate rewards but the cumulative reward it receives in the whole process.`
+# MDP
+
+ Markov Decision Process is a [Reinforcement Learning] algorithm that gives us a way to formalize sequential decision making. This formalization is the basis to the problems that are solved by Reinforcement Learning. The components involved in a Markov Decision Process (MDP) is a decision maker called an [agent] that interacts with the [environment] it is placed in. These interactions occur sequentially overtime. In each timestamp, the [agent] will get some representation of the environment state. Given this representation, the agent selects an [action] to make. The environment is then transitioned into some new state and the agent is given a reward as a consequence of its previous [action]. The process of selecting an [action] from a given state, transitioning to a new state and receiving a reward happens sequentially over and over again. This creates something called a trajectory that shows the sequence of [states], [actions] and [rewards]. Throughout the process, it is the responsibility of the reinforcement learning [agent] to maximize the total amount of [rewards] that it received from taking actions in given states of environments. `The agent not only wants to maximize the immediate rewards but the [cumulative reward] it receives in the whole process.`
+
+ {% youtube "https://www.youtube.com/watch?v=2GwBez0D20A" %}
 
  More at :
   * [https://en.wikipedia.org/wiki/Markov_decision_process](https://en.wikipedia.org/wiki/Markov_decision_process)

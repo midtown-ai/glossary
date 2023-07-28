@@ -566,6 +566,8 @@ Desired Output --> |     Training     | --> Model
 # https://techcrunch.com/2022/04/26/2304039/
  ```
 
+ {% youtube "https://www.youtube.com/watch?v=zxQyTK8quyY" %}
+
  {% youtube "https://www.youtube.com/watch?v=g2BRIuln4uc" %}
 
  More at:

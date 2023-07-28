@@ -460,6 +460,7 @@ output = m(input)
 
  Companies
   * [DeepMind] which built models such as [Chinchilla][Chinchilla Model], [Sparrow][Sparrow Model], [AlphaiFold][AlphaFold Model], and more ... 
+  * [Kaggle] which also runs [KaggleX]
 
  Projects
   * [Experiments](https://experiments.withgoogle.com/)
@@ -582,9 +583,40 @@ output = m(input)
  See also [G], ...
 
 
+# Gradient Bagging
+
+ [Gradient boosting] is an ensemble machine learning technique that combines multiple [weak learners] (typically [decision trees]) together to produce a strong predictive model. Bagging is another ensemble technique involving training [weak learners] on different randomized subsets of the data. Gradient bagging combines these two methods:
+
+  * Like gradient boosting, it trains predictors sequentially, with each new tree correcting errors from the previous tree.
+  * Like bagging, each tree is trained on a random subset of the data for diversity.
+  * At each iteration, a subsample of the data is taken (without replacement), similar to bagging.
+  * A new model is fit to the subsample, aiming to reduce the errors from previous models.
+  * This continues for a specified number of iterations, adding models that complement each other.
+  * The final prediction is obtained by aggregating the predictions from all the trained weak learners.
+
+ Some key advantages of gradient bagging include:
+
+  * Reduces overfitting compared to gradient boosting alone.
+  * Computationally efficient for training weak learners.
+  * Captures complex interactions like gradient boosting.
+  * Maintains model interpretability.
+
+ Overall, gradient bagging combines the strengths of bagging and gradient boosting to produce robust, accurate and interpretable ensembles for prediction tasks.
+
+ More at:
+  * ...
+
+ See also [G], ...
+
+
 # Gradient Boosting
 
  Use gradient descent to minimize the loss function.
+
+ More at:
+  * wikipedia - [https://en.wikipedia.org/wiki/Gradient_boosting](https://en.wikipedia.org/wiki/Gradient_boosting)
+  * articles
+    * [https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-1-regression-2520a34a502](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-1-regression-2520a34a502)
 
  See also [G], [Boosting], [Ensemble Method], [Gradient Bagging], [Weak Learner]
 

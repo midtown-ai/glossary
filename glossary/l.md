@@ -282,6 +282,7 @@ completion = llm(prompt)
  All of those are or should be machine learning algorithm type! Here is a non-exhaustive list:
   * experience - learn from the past/data
   * [unsupervised learning] - try, fail, learn from failures ? Takes a long time / many iteration!
+    * [association rule learning] -
   * [imitation learning] - clone behavior of experts <== good to get started, but do you understand?
   * [supervised learning] - with a teacher
   * [reinforcement learning] - reward-and-policy-based learning
@@ -334,6 +335,12 @@ with alpha = learning_rate
 
 # LVQ Algorithm
 
+ Clustering algorithm used in [unsupervised learning].
+
+ {% youtube "https://www.youtube.com/watch?v=iq8aFkZo67o" %}
+
+ More at:
+  * ...
 
  See also [L], ...
 
@@ -371,6 +378,8 @@ with alpha = learning_rate
  LightGBM, short for light gradient-boosting machine, is a free and open-source distributed gradient-boosting framework for machine learning, originally developed by Microsoft. It is based on [Decision tree algorithms][Decision Tree] and used for ranking, [classification] and other machine learning tasks. The development focus is on performance and scalability.
 
  {% pdf "https://proceedings.neurips.cc/paper_files/paper/2017/file/6449f44a102fde848669bdd9eb6b76fa-Paper.pdf" %}
+
+ {% youtube "https://www.youtube.com/watch?v=R5FB1ZUejXM" %}
 
  More at:
   * docs - [https://lightgbm.readthedocs.io/en/latest/index.html](https://lightgbm.readthedocs.io/en/latest/index.html)
@@ -510,10 +519,13 @@ print regr.score(X_test, y_test)
  {% pdf "{{site.assets}}/l/llama_model_paper.pdf" %}
 
  More at:
-  * announcement - [https://ai.facebook.com/blog/large-language-model-llama-meta-ai/](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/)
-  * paper [https://arxiv.org/abs/2302.13971](https://arxiv.org/abs/2302.13971)
-  * model card - [https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md](https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md)
-  * model leak - [https://www.vice.com/en/article/xgwqgw/facebooks-powerful-large-language-model-leaks-online-4chan-llama](https://www.vice.com/en/article/xgwqgw/facebooks-powerful-large-language-model-leaks-online-4chan-llama)
+  * LLaMa 2 
+    * UI - [https://labs.perplexity.ai/](https://labs.perplexity.ai/)
+  * LLaMa 1
+    * announcement - [https://ai.facebook.com/blog/large-language-model-llama-meta-ai/](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/)
+    * paper [https://arxiv.org/abs/2302.13971](https://arxiv.org/abs/2302.13971)
+    * model card - [https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md](https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md)
+    * model leak - [https://www.vice.com/en/article/xgwqgw/facebooks-powerful-large-language-model-leaks-online-4chan-llama](https://www.vice.com/en/article/xgwqgw/facebooks-powerful-large-language-model-leaks-online-4chan-llama)
 
  See also [L], ...
 

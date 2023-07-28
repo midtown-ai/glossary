@@ -53,6 +53,7 @@
 [GSM8K Dataset]: {{ site.baseurl }}{% link glossary/g.md %}#grade-school-math-dataset
 [Gradient]: {{ site.baseurl }}{% link glossary/g.md %}#grandient
 [Gradient Ascent Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-ascent-algorithm
+[Gradient Bagging]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-bagging
 [Gradient Boosting]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-boosting
 [Gradient Clipping]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-clipping
 [Gradient Descent Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descent-algorithm

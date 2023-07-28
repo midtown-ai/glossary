@@ -26,6 +26,7 @@
 [BDI Framework]: {{ site.baseurl }}{% link glossary/b.md %}#belief-desire-intention-framework
 [Bellman Equation]: {{ site.baseurl }}{% link glossary/b.md %}#bellman-equation
 [Benchmark]: {{ site.baseurl }}{% link glossary/b.md %}#benchmark
+[Berkeley University]: {{ site.baseurl }}{% link glossary/b.md %}#berkeley-university
 [Bernouilli Distribution]: {{ site.baseurl }}{% link glossary/b.md %}#bernouilli-distribution
 [BERT Classification]: {{ site.baseurl }}{% link glossary/b.md %}#bert-classification
 [BHuman Company]: {{ site.baseurl }}{% link glossary/b.md %}#bhuman-company

@@ -24,6 +24,7 @@
 [IL]: {{ site.baseurl }}{% link glossary/i.md %}#il
 [Imputation]: {{ site.baseurl }}{% link glossary/i.md %}#imputation
 [Incentive]: {{ site.baseurl }}{% link glossary/i.md %}#incentive
+[IndexGPT Model]: {{ site.baseurl }}{% link glossary/i.md %}#indexgpt-model
 [Inductive Reasoning]: {{ site.baseurl }}{% link glossary/i.md %}#inductive-reasoning
 [Inference]: {{ site.baseurl }}{% link glossary/i.md %}#inference
 [Inference Point]: {{ site.baseurl }}{% link glossary/i.md %}#inference-point

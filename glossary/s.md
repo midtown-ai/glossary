@@ -770,6 +770,8 @@ Social robots also work as concierges in hotels and other settings like malls, w
 
  The SAC objective has a number of advantages. First, the [policy] is incentivized to explore more widely, while giving up on clearly unpromising avenues. Second, the [policy] can capture multiple modes of near-optimal behavior. In problem settings where multiple [actions] seem equally attractive, the [policy] will commit equal probability mass to those [actions]. Lastly, the authors present evidence that it improves learning speed over [state-of-the-art] methods that optimize the conventional RL objective function.
 
+ {% youtube "https://www.youtube.com/watch?v=pg-lKy7JIRk" %}
+
  {% pdf "https://arxiv.org/pdf/1801.01290v2.pdf" %}
 
  More at:

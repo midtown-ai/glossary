@@ -366,9 +366,9 @@ Beware:
 
 # Regression
 
- Regression is a statistical method used to analyze the relationship between a dependent variable (also known as the response or outcome variable) and one or more independent variables (also known as predictor or explanatory variables). The goal of regression is to find the line of best fit that describes the relationship between the variables, which can be used for prediction or understanding the relationship. There are many different types of regression, including linear, logistic, and polynomial regression.
+ A type of [supervised learning] algorithm used for forecasting and prediction.
 
- A type of [supervised learning] algorithm.
+ Regression is a statistical method used to analyze the relationship between a dependent variable (also known as the response or outcome variable) and one or more independent variables (also known as predictor or explanatory variables). The goal of regression is to find the line of best fit that describes the relationship between the variables, which can be used for prediction or understanding the relationship. There are many different types of regression, including linear, logistic, and polynomial regression.
 
  In regression, instead of mapping inputs to a discrete number of classes like a classification, `the goal is to output a number` (ex stock price, temperature, probability, ...) . An example regression problem is predicting the price that a house will sell for. In this case, when XGBoost is given historical data about houses and selling prices, it can learn a function that predicts the selling price of a house given the corresponding metadata about the house. Another example: predictive maintenance, customer churn prediction. Practicality: outcome should be easy to measure, use historical observations. 
  The different algorithms are:
@@ -379,6 +379,9 @@ Beware:
     * Polynomial regression : dependent variable y is modelled as an nth degree polynomial in x.
       * Cubic and quadratic regression 
   * (occasionally) [Support vector machine]
+
+ More at:
+  * ...
 
  See also [R], [Classification], [Custom Churn Prediction], [Predictive Maintenance], [Regression Tree], [XGBoost]
 
@@ -440,7 +443,7 @@ Beware:
     * [https://rl-lab.com/](https://rl-lab.com/)
     * [https://huggingface.co/learn/deep-rl-course/unit0/introduction](https://huggingface.co/learn/deep-rl-course/unit0/introduction)
 
- See also [R], [Addiction], [Action], [Action Space], [Agent], [Delayed Reward], [Environment], [Exploitation], [Exploration], [Learning Method], [Machine Learning], [Machine Learning Algorithm], [Markov Decision Process], [Meta Learning], [Observation], [Reward], [Reward Shaping], [State]
+ See also [R], [Addiction], [Action], [Action Space], [Agent], [Continual Reinforcement Learning], [Delayed Reward], [Environment], [Exploitation], [Exploration], [Learning Method], [Machine Learning], [Machine Learning Algorithm], [Markov Decision Process], [Meta Learning], [Observation], [Reward], [Reward Shaping], [State]
 
 
 # Reinforcement Learning Algorithm
@@ -687,29 +690,33 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 
 # Reward
 
- A form of feedback from the environment, program, or human.
+ In [Reinforcement Learning (RL)][RL], a reward is a form of feedback from a real or simulated [environment], a program, or a human.
 
- 2 types of rewards:
-  * Deterministic = always the one expected
-  * Stochastic = change all the time, but can be defined with probabilities
-  * Positive reward
-  * Negative reward = Cost
-  * Immediate reward
+ Rewards must consider the following:
+  * Positive vs negative reward (or Cost)
+  * Immediate vs delayed vs cumulative
+  * Immediate vs long-term reward
   * Long-term reward = Good in the long term
     * Cumulative reward = Good in the long run? 
     * Return / Value = total reward we are expecting to get
       * Aim for high value
       * value function = expected sum of discounted reward from a given state for all action or particular action
-  * Extrinsic rewards
-    * Examples: Capture, achieve, collect, ...
-    * Specific to the environment
-      *"Getting rich"
-  * Intrinsic Rewards
-    * Examples: Curiosity, (im)patience, happiness,love, empathy, ...
+  * Intrinsic vs Extrinsic rewards
+    * Extrinsic
+      * Examples: Capture, achieve, collect, ...
+      * Specific to the environment
+        * "Getting rich"
+        * "Control of resources"
+        * "Power"
+    * Intrinsic
+      * Examples: Curiosity, (im)patience, happiness,love, empathy, ...
+  * Deterministic vs stochastic
+    * Deterministic = always the one expected
+    * Stochastic = change all the time, but can be defined with probabilities
 
- How you write your reward function matters!
+ How you write your reward function matters! This is called [reward shaping]. More important than the immediate reward is the [cumulative reward] which the [agent] is optimizing on! 
 
- See also [R], [Addiction], [Cost], [Environment], [Reinforcement Learning], [Reward Shaping]
+ See also [R], [Addiction], [Cost]
 
 
 # Reward Function
@@ -863,6 +870,14 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 # Root Mean Square Error
 
 # RMSE
+
+ ```
+def rmse(predictions, targets):
+    return np.sqrt(((predictions - targets) ** 2).mean())
+ ```
+
+ More at:
+  * code - [https://www.kaggle.com/code/dmitryuarov/ps-s3e1-coordinates-key-to-victory](https://www.kaggle.com/code/dmitryuarov/ps-s3e1-coordinates-key-to-victory)
 
  See also [R], [Prediction Error]
 

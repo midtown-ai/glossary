@@ -315,6 +315,22 @@ P(A|B) = ----------------
   See also [B], [NLP Benchmark]
 
 
+# Berkeley University
+
+ Models
+  * [Koala](https://bair.berkeley.edu/blog/2023/04/03/koala/)
+  * ...
+
+ Research
+  * BLAIR Blog - [https://bair.berkeley.edu/blog/](https://bair.berkeley.edu/blog/)
+  * [Berkeley](https://ml.berkeley.edu/research) [@berkeley_ai](https://twitter.com/berkeley_ai)
+
+ More at:
+  * ...
+
+ See also [B], ...
+
+
 # Bernoulli Distribution
 
  the discrete probability distribution of a random variable which takes the value 1 with probability P and the value 0 with probability Q=1-P. Less formally, it can be thought of as a model for the set of possible outcomes of any single experiment that asks a yes–no question. Such questions lead to outcomes that are boolean-valued: a single bit whose value is success/yes/true/one with probability p and failure/no/false/zero with probability Q. It can be used to represent a (possibly biased) coin toss where 1 and 0 would represent "heads" and "tails", respectively, and P would be the probability of the coin landing on heads (or vice versa where 1 would represent tails and P would be the probability of tails). In particular, unfair coins would have P =/= 1/2. The Bernoulli distribution is a special case of the binomial distribution where a single trial is conducted (so n would be 1 for such a binomial distribution). It is also a special case of the two-point distribution, for which the possible outcomes need not be 0 and 1.
@@ -352,7 +368,7 @@ P(A|B) = ----------------
 
  * [Statistical Bias] = The gap between the prediction and the actual value. Where is bias coming from? Issues with the data sampling?
  * [Artificial Neuron Bias] = When using bias in the connect of activation function, it is an integer that represent a threshold the weighted input should exceed to trigger the neuron. There is a bias at each node of the ANN. The node weighted input is = sum(aL . wL) + bias
- * [AI Bias]
+ * [Data Bias] which can lead to [AI Bias]
 
   1. statistics ==> The gap between the prediction and the actual value. Where is bias coming from? Issues with the data sampling?
   1. data sample ==> data that is used for learning is biased, ex: all nurse are female ==> implies unwanted correlation in data
