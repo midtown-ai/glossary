@@ -9,6 +9,8 @@
 [KNN Algorithm]: {{ site.baseurl }}{% link glossary/k.md %}#k-nearest-neighbor-algorithm
 [Kaggle Company]: {{ site.baseurl }}{% link glossary/k.md %}#kaggle-company
 [Kaggle]: {{ site.baseurl }}{% link glossary/k.md %}#kaggle-company
+[Kaggle Competition]: {{ site.baseurl }}{% link glossary/k.md %}#kaggle-competition
+[Kaggle Competitions]: {{ site.baseurl }}{% link glossary/k.md %}#kaggle-competition
 [KaggleX Project]: {{ site.baseurl }}{% link glossary/k.md %}#kagglex-project
 [KaggleX]: {{ site.baseurl }}{% link glossary/k.md %}#kagglex-project
 [Keras]: {{ site.baseurl }}{% link glossary/k.md %}#keras

@@ -62,6 +62,8 @@ layout: page
 
  ![]( {{site.assets}}/q/q_table.png ){: width="100%"}
 
+ Reinforcement Learning involves managing state-action pairs and keeping a track of value (reward) attached to an action to determine the optimum policy. This method of maintaining a state-action-value table is not possible in real-life scenarios when there are a larger number of possibilities. Instead of utilizing a table, we can make use of Neural Networks to predict values for actions in a given state.
+
  See also [Q], ...
 
 
@@ -73,6 +75,35 @@ layout: page
   * At initialization, all Q-values in the Q-tables are initialized at 0, because nothing is known about the environment.
   * In Contrast to Reward, which implies a short-term gain, Value refers to the long-term return with discount.
 
+ See also [Q], [Optimal Q-Value]
+
+
+# Q-Value Function
+
+ The q-value function, or action-value function, is a core concept in reinforcement learning. Here are some key points:
+
+  * For a given state s and action a, the q-value q(s,a) represents the expected future reward for taking action a from state s.
+  * More formally, it gives the expected discounted return starting from s, taking a, and following the optimal [policy] thereafter.
+  * The optimal q-function q*(s,a) gives the maximum attainable q-value for each [state-action pair] by following the optimal policy.
+  * Q-learning and other RL algorithms aim to learn good approximations of the optimal q-function. This allows identifying the best action in any state.
+  * With a learned q-function, the [agent] can achieve optimal behavior by simply selecting the [action] with the highest q-value in each [state].
+  * The optimal q-function satisfies the [Bellman equation], allowing [q-values] to be updated recursively in RL algorithms.
+  * [Deep Q-Networks (DQN)][DQN] use neural networks to approximate q-values for problems with large state spaces like Atari games.
+  * The max operator in the Bellman equation induces overestimation bias during q-learning, which algorithms aim to correct.
+
+ So in summary, the q-value function is key for reinforcement learning agents to evaluate long-term returns and identify optimal actions in each state. Learning q-values is a core RL technique.
+
+ See also [Q], ...
+
+
+# Q-Value Loss Function
+
+ ```
+Loss = converged_Q-Value - optimum_Q-value          <== but do we know converged_Q-value ???!??
+ ```
+
+ See also [Q], [Huber Loss Function]
+
 
 # Quadratic Regression
 
@@ -82,6 +113,32 @@ layout: page
 # Quantization Error
 
  Quantization error is the difference between the analog signal and the closest available digital value at each sampling instant from A/D converter. Quantization error also introduces noise,to the sample signal. Relations The higher the resolution of A/D converter, the lower the quantization error and the smaller the quantization noise.
+
+
+# Quantized And Low-Rank Adapters Fine-Tuning
+# QLoRA Fine-Tuning
+
+ ~ An improved version of [LoRA fine-tuning] that can run on a single [GPU]
+
+ We present QLoRA, an efficient finetuning approach that reduces memory usage enough to finetune a 65B parameter model on a single 48GB GPU while preserving full 16-bit finetuning task performance. QLoRA backpropagates gradients through a frozen, 4-bit quantized pretrained language model into Low Rank Adapters~(LoRA). Our best model family, which we name Guanaco, outperforms all previous openly released models on the Vicuna benchmark, reaching 99.3% of the performance level of ChatGPT while only requiring 24 hours of finetuning on a single GPU. QLoRA introduces a number of innovations to save memory without sacrificing performance: (a) 4-bit NormalFloat (NF4), a new data type that is information theoretically optimal for normally distributed weights (b) double quantization to reduce the average memory footprint by quantizing the quantization constants, and (c) paged optimziers to manage memory spikes. We use QLoRA to finetune more than 1,000 models, providing a detailed analysis of instruction following and chatbot performance across 8 instruction datasets, multiple model types (LLaMA, T5), and model scales that would be infeasible to run with regular finetuning (e.g. 33B and 65B parameter models). Our results show that QLoRA finetuning on a small high-quality dataset leads to state-of-the-art results, even when using smaller models than the previous SoTA. We provide a detailed analysis of chatbot performance based on both human and GPT-4 evaluations showing that GPT-4 evaluations are a cheap and reasonable alternative to human evaluation. Furthermore, we find that current chatbot benchmarks are not trustworthy to accurately evaluate the performance levels of chatbots. A lemon-picked analysis demonstrates where Guanaco fails compared to ChatGPT. We release all of our models and code, including CUDA kernels for 4-bit training.
+
+ {% youtube "https://www.youtube.com/watch?v=TPcXVJ1VSRI" %}
+
+ {% youtube "https://www.youtube.com/watch?v=pov3pLFMOPY" %}
+
+ {% youtube "https://www.youtube.com/watch?v=C33SwN3Ynp4" %}
+
+ {% pdf "https://arxiv.org/pdf/2305.14314.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2305.14314](https://arxiv.org/abs/2305.14314)
+  * github - [https://github.com/artidoro/qlora](https://github.com/artidoro/qlora)
+  * ARticle(s)
+    *4-bit quatization - [https://huggingface.co/blog/4bit-transformers-bitsandbytes](https://huggingface.co/blog/4bit-transformers-bitsandbytes)
+    * github - [https://github.com/huggingface/blog/blob/main/4bit-transformers-bitsandbytes.md](https://github.com/huggingface/blog/blob/main/4bit-transformers-bitsandbytes.md)
+    * colab - [https://colab.research.google.com/drive/1BiQiw31DT7-cDp1-0ySXvvhzqomTdI-o?usp=sharing](https://colab.research.google.com/drive/1BiQiw31DT7-cDp1-0ySXvvhzqomTdI-o?usp=sharing)
+
+ See also [Q], ...
 
 
 # Quantized Signal

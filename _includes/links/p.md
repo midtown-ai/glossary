@@ -18,6 +18,7 @@
 [Perceiver IO Model]: {{ site.baseurl}}{% link glossary/p.md %}#perceiver-io-model
 [Perceiver Model]: {{ site.baseurl}}{% link glossary/p.md %}#perceiver-model
 [Perceptron]: {{ site.baseurl}}{% link glossary/p.md %}#perceptron
+[Perfect Information]: {{ site.baseurl}}{% link glossary/p.md %}#perfect-information
 [Perplexity]: {{ site.baseurl}}{% link glossary/p.md %}#perplexity
 [Personal Assistant]: {{ site.baseurl}}{% link glossary/p.md %}#personal-assistant
 [Phenaki Model]: {{ site.baseurl}}{% link glossary/p.md %}#phenaki-model
@@ -33,6 +34,8 @@
 [Point Estimator]: {{ site.baseurl}}{% link glossary/p.md %}#point-estimator
 [Point-E Model]: {{ site.baseurl}}{% link glossary/p.md %}#point-e-model
 [Policy]: {{ site.baseurl}}{% link glossary/p.md %}#policy
+[Policy Evaluation]: {{ site.baseurl}}{% link glossary/p.md %}#policy-evaluation
+[Policy Function]: {{ site.baseurl}}{% link glossary/p.md %}#policy-function
 [Policy Gradient Algorithm]: {{ site.baseurl}}{% link glossary/p.md %}#policy-gradient-algorithm
 [Policy Gradient Algorithms]: {{ site.baseurl}}{% link glossary/p.md %}#policy-gradient-algorithm
 [Policy Neural Network]: {{ site.baseurl}}{% link glossary/p.md %}#policy-neural-network
@@ -40,6 +43,8 @@
 [Pose Estimation]: {{ site.baseurl}}{% link glossary/p.md %}#pose-estimation
 [Positional Encoding]: {{ site.baseurl}}{% link glossary/p.md %}#positional-encoding
 [Positive Attribute]: {{ site.baseurl}}{% link glossary/p.md %}#positive-attribute
+[Posterior Belief]: {{ site.baseurl}}{% link glossary/p.md %}#posterior-belief
+[Posterior Beliefs]: {{ site.baseurl}}{% link glossary/p.md %}#posterior-belief
 [Precision]: {{ site.baseurl}}{% link glossary/p.md %}#precision
 [Prediction]: {{ site.baseurl}}{% link glossary/p.md %}#prediction
 [Prediction Error]: {{ site.baseurl}}{% link glossary/p.md %}#prediction-error
@@ -50,15 +55,23 @@
 [Principal Component Analysis]: {{ site.baseurl}}{% link glossary/p.md %}#principal-component-analysis
 [PCA]: {{ site.baseurl}}{% link glossary/p.md %}#principal-component-analysis
 [Prior]: {{ site.baseurl}}{% link glossary/p.md %}#prior
+[Prior Belief]: {{ site.baseurl}}{% link glossary/p.md %}#prior-belief
+[Prior Beliefs]: {{ site.baseurl}}{% link glossary/p.md %}#prior-belief
 [Prior Knowlege]: {{ site.baseurl}}{% link glossary/p.md %}#prior-knowledge
 [Prior Probability]: {{ site.baseurl}}{% link glossary/p.md %}#prior-probability
+[Prioritized Experience Replay]: {{ site.baseurl}}{% link glossary/p.md %}#prioritized-experience-replay
 [Probability]: {{ site.baseurl}}{% link glossary/p.md %}#probability
+[Probabilistic Inference For Learning Control Model]: {{ site.baseurl}}{% link glossary/p.md %}#probabilistic-inference-for-learning-control-model
+[PILCO Model]: {{ site.baseurl}}{% link glossary/p.md %}#probabilistic-inference-for-learning-control-model
+[PILCO]: {{ site.baseurl}}{% link glossary/p.md %}#probabilistic-inference-for-learning-control-model
 [Procedural Reasoning System]: {{ site.baseurl}}{% link glossary/p.md %}#procedural-reasoning-system
 [Prompt Engineering]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-engineering
 [Prompt Injection]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-injection
 [Proximal Policy Optimization Algorithm]: {{ site.baseurl}}{% link glossary/p.md %}#proximal-policy-optimization-algorithm
 [PPO Algorithm]: {{ site.baseurl}}{% link glossary/p.md %}#proximal-policy-optimization-algorithm
 [PPO]: {{ site.baseurl}}{% link glossary/p.md %}#proximal-policy-optimization-algorithm
+[Punishment]: {{ site.baseurl}}{% link glossary/p.md %}#punishment
+[Punishments]: {{ site.baseurl}}{% link glossary/p.md %}#punishment
 [PyBullet]: {{ site.baseurl}}{% link glossary/p.md %}#pybullet
 [PyGame Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pygame-python-module
 [PyGame]: {{ site.baseurl}}{% link glossary/p.md %}#pygame-python-module

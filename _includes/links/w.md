@@ -20,6 +20,7 @@
 [WebGPT Model]: {{ site.baseurl }}{% link glossary/w.md %}#webgpt-model
 [WebGPT]: {{ site.baseurl }}{% link glossary/w.md %}#webgpt-model
 [Weight]: {{ site.baseurl }}{% link glossary/w.md %}#weight
+[Weighted Ensemble Model]: {{ site.baseurl }}{% link glossary/w.md %}#weighted-ensemble-model
 [Weighted Gini Impurity Index]: {{ site.baseurl }}{% link glossary/w.md %}#weighted-gini-impurity-index
 [Weighted Input]: {{ site.baseurl }}{% link glossary/w.md %}#weighted-input
 [Whisper Model]: {{ site.baseurl }}{% link glossary/w.md %}#whisper-model

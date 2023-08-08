@@ -26,11 +26,16 @@
 [OpenAI Company]: {{ site.baseurl }}{% link glossary/o.md %}#openai-company
 [OpenAI]: {{ site.baseurl }}{% link glossary/o.md %}#openai-company
 [OpenAI Five Model]: {{ site.baseurl }}{% link glossary/o.md %}#openai-five-model
+[OpenAI Five]: {{ site.baseurl }}{% link glossary/o.md %}#openai-five-model
 [OpenAI Gym Environment]: {{ site.baseurl }}{% link glossary/o.md %}#openai-gym-environment
+[OpenAI Gym]: {{ site.baseurl }}{% link glossary/o.md %}#openai-gym-environment
 [OpenCV Module]: {{ site.baseurl }}{% link glossary/o.md %}#opencv-module
 [OpenFold Model]: {{ site.baseurl }}{% link glossary/o.md %}#openfold-model
+[OpenFold]: {{ site.baseurl }}{% link glossary/o.md %}#openfold-model
 [OpenMMLab]: {{ site.baseurl }}{% link glossary/o.md %}#openmmlab
 [OpenVINO Toolkit]: {{ site.baseurl }}{% link glossary/o.md %}#openvino-toolkit
+[Optimal Policy]: {{ site.baseurl }}{% link glossary/o.md %}#optimal-policy
+[Optimal Q-Value]: {{ site.baseurl }}{% link glossary/o.md %}#optimal-q-value
 [Optimization]: {{ site.baseurl }}{% link glossary/o.md %}#optimization
 [Optimizer]: {{ site.baseurl }}{% link glossary/o.md %}#optimizer
 [Ordinal Encoding]: {{ site.baseurl }}{% link glossary/o.md %}#ordinal-encoding

@@ -25,6 +25,8 @@
 [Data Visualization]: {{ site.baseurl }}{% link glossary/d.md %}#data-visualization
 [Data2Vec]: {{ site.baseurl }}{% link glossary/d.md %}#data2vec
 [Dataset]: {{ site.baseurl }}{% link glossary/d.md %}#dataset
+[David Luan Person]: {{ site.baseurl }}{% link glossary/d.md %}#david-luan-person
+[David Luan]: {{ site.baseurl }}{% link glossary/d.md %}#david-luan-person
 [Dawid-Skene Algorithm]: {{ site.baseurl }}{% link glossary/d.md %}#dawid-skene-algorithm
 [DBSCAN Algorithm]: {{ site.baseurl }}{% link glossary/d.md %}#dbscan-algorithm
 [Decision Boundary]: {{ site.baseurl }}{% link glossary/d.md %}#decision-boundary
@@ -42,6 +44,7 @@
 [DCGAN]: {{ site.baseurl }}{% link glossary/d.md %}#dcgan
 [Deep Belief]: {{ site.baseurl }}{% link glossary/d.md %}#deep-belief
 [Deep Blue Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#deep-bleu-challenge
+[Deep Blue]: {{ site.baseurl }}{% link glossary/d.md %}#deep-bleu-challenge
 [Deep Brain]: {{ site.baseurl }}{% link glossary/d.md %}#deep-brain
 [Deep Deterministic Policy Gradient Algorithm]: {{ site.baseurl }}{% link glossary/d.md %}#deep-deterministic-policy-gradient-algorithm
 [Deep Deterministic Policy Gradient]: {{ site.baseurl }}{% link glossary/d.md %}#deep-deterministic-policy-gradient-algorithm
@@ -52,8 +55,13 @@
 [Deep Learning Framework]: {{ site.baseurl }}{% link glossary/d.md %}#deep-learning-framework
 [Deep Multi-Task Learning]: {{ site.baseurl }}{% link glossary/d.md %}#deep-multi-task-learning
 [Deep Neural Network]: {{ site.baseurl }}{% link glossary/d.md %}#deep-neural-network
+[Deep Neural Networks]: {{ site.baseurl }}{% link glossary/d.md %}#deep-neural-network
 [DNN]: {{ site.baseurl }}{% link glossary/d.md %}#dnn
+[DNNs]: {{ site.baseurl }}{% link glossary/d.md %}#dnn
 [Deep Q Learning Algorithm]: {{ site.baseurl }}{% link glossary/d.md %}#deep-q-learning-algorithm
+[Deep Q Learning]: {{ site.baseurl }}{% link glossary/d.md %}#deep-q-learning-algorithm
+[DQL Algorithm]: {{ site.baseurl }}{% link glossary/d.md %}#deep-q-learning-algorithm
+[DQL]: {{ site.baseurl }}{% link glossary/d.md %}#deep-q-learning-algorithm
 [Deep Q-Network]: {{ site.baseurl }}{% link glossary/d.md %}#deep-q-network
 [Deep Q-Networks]: {{ site.baseurl }}{% link glossary/d.md %}#deep-q-network
 [DQN]: {{ site.baseurl }}{% link glossary/d.md %}#deep-q-network
@@ -96,8 +104,10 @@
 [Disentangled Variational Autoencoder]: {{ site.baseurl }}{% link glossary/d.md %}#disentangled-variational-autoencoder
 [Beta-VAE]: {{ site.baseurl }}{% link glossary/d.md %}#beta-vae
 [DistilBert Model]: {{ site.baseurl }}{% link glossary/d.md %}#distilbert-model
-[Distribution]: {{ site.baseurl }}{% link glossary/d.md %}#distribution
 [Distributed Training]: {{ site.baseurl }}{% link glossary/d.md %}#distributed-training
+[Distribution]: {{ site.baseurl }}{% link glossary/d.md %}#distribution
+[Distributional Reinforcement Learning]: {{ site.baseurl }}{% link glossary/d.md %}#distributional-reinforcement-learning
+[Distributional RL]: {{ site.baseurl }}{% link glossary/d.md %}#distributional-reinforcement-learning
 [Domain-Specific Model]: {{ site.baseurl }}{% link glossary/d.md %}#domain-specific-model
 [Dot Product]: {{ site.baseurl }}{% link glossary/d.md %}#dot-product
 [Double Q Network]: {{ site.baseurl }}{% link glossary/d.md %}#double-q-network
@@ -111,5 +121,7 @@
 [Dropout Layer]: {{ site.baseurl }}{% link glossary/d.md %}#dropout-layer
 [Dual-Encoder Contrastive Model]: {{ site.baseurl }}{% link glossary/d.md %}#dual-encoder-contrastive-model
 [Dying Relu Problem]: {{ site.baseurl }}{% link glossary/d.md %}#dying-relu-problem
+[Dyna Model]: {{ site.baseurl }}{% link glossary/d.md %}#dyna-model
+[Dyna]: {{ site.baseurl }}{% link glossary/d.md %}#dyna-model
 [Dynamic Programming]: {{ site.baseurl }}{% link glossary/d.md %}#dynamic-programming
 [DP]: {{ site.baseurl }}{% link glossary/d.md %}#dp

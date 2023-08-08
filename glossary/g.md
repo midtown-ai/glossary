@@ -247,7 +247,7 @@ output = m(input)
 
  ![]( {{site.assets}}/g/generative_classifier.png ){: width="100%"}
 
- See also [G], [Bayesian Network], [Hidden Markov Model], [Markov Random Field], [Naive Bayes]
+ See also [G], [Bayesian Network], [Hidden Markov Model], [Markov Random Field], [Naive Bayes Theorem]
 
 
 # Generative Design
@@ -419,6 +419,16 @@ output = m(input)
 # Gluon
 
  This is ...
+
+
+# Goal-Conditioned Reinforcement Learning
+
+ In [RL], Train universal policies conditioned on goals. Generalizes to new goals.
+
+ More at:
+  * ...
+
+ See also [G], ...
 
 
 # Google Company
@@ -636,7 +646,6 @@ output = m(input)
 
 
 # Gradient Descent Algorithm
-
 # GD Algorithm
 
  One of the shining successes in machine learning is the gradient descent algorithm (and its modified counterpart, stochastic gradient descent). Gradient descent is an iterative method for finding the minimum of a function. In machine learning, that function is typically the loss (or cost) function. "Loss" is simply some metric that quantifies the cost of wrong predictions. Gradient descent calculates the loss achieved by a model with a given set of parameters, and then alters those parameters to reduce the loss. It repeats this process until that loss can't substantially be reduced further. The final set of parameters that minimize the loss now define your fitted model. 

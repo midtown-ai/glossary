@@ -67,7 +67,13 @@
 [LSTM Cell]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-cell
 [Long Short-Term Memory Network]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-network
 [LSTM Network]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-network
+[LSTM Networks]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-network
+[LSTM]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-network
+[LSTMs]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-network
 [Loss Function]: {{ site.baseurl }}{% link glossary/l.md %}#loss-function
 [Loss Graph]: {{ site.baseurl }}{% link glossary/l.md %}#loss-graph
-[Low-Rank Adaptation]: {{ site.baseurl }}{% link glossary/l.md %}#low-rank-adaptation
+[Low-Rank Adaptation Fine-Tuning]: {{ site.baseurl }}{% link glossary/l.md %}#low-rank-adaptation-fine-tuning
+[Low-Rank Adaptation]: {{ site.baseurl }}{% link glossary/l.md %}#low-rank-adaptation-fine-tuning
+[LoRA Fine-Tuning]: {{ site.baseurl }}{% link glossary/l.md %}#low-rank-adaptation-fine-tuning
+[LoRA]: {{ site.baseurl }}{% link glossary/l.md %}#low-rank-adaptation-fine-tuning
 [Low-Rank Approximation]: {{ site.baseurl }}{% link glossary/l.md %}#low-rank-approximation

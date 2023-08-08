@@ -96,7 +96,7 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 # Action-Value Function
 
- This tells us how good it is for the agent to take any given action from a given state while following the policy. In other words, it gives us the value of an action under policy (pi). The state-value function tells us how good any given state is for the agent, whereas the action-value function tells us how good it is for the agent to take any action from a given state.
+ This tells us how good it is for the agent to take any given action from a given state while following the policy. In other words, it gives us the value of an action under policy (pi). The [state-value] function tells us how good any given state is for the [RL agent], whereas the action-value function tells us how good it is for the [RL agent] to take any [action] from a given [state].
 
  ```
 Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
@@ -107,7 +107,7 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
  More at:
   * ...
 
- See also [A], [Bellman Equation], [Step-Value Function], [Timestep]
+ See also [A], [Bellman Equation], [Timestep]
 
 
 # Activation Checkpointing
@@ -448,28 +448,15 @@ One obvious way to mitigate that problem is to choose different learning rate fo
 
 # Agent
 
- A person, an animal, or a program that is free to make a decision or take an action. An agent has a goal.
- The agent is focusing on maximizing its cumulative reward.
+ A person, an animal, or a program that is free to make a decision or take an action. An agent has a purpose and a goal.
 
- Examples:
-  * DeepRacer, the goal of the program running on the car is to go around the track as fast as possible without getting out of the track.
-
- The agent simulates the AWS DeepRacer vehicle in the simulation for training. More specifically, it embodies the neural network that controls the vehicle, taking inputs and deciding actions. `The agent embodies a neural network that represents a function to approximate the agent's policy.`
-  * The essence of Reinforced Learning is to enforce behavior based on the actions performed by the agent. The agent is rewarded if the action positively affects the overall goal.
-  * The basic aim of Reinforcement Learning is reward maximization. The agent is trained to take the best action to maximize the overall reward.
-  * RL agents work by using the already known exploited information or exploring unknown information about an environment.
-  * ... 
- It’s also important to understand that the learner and decision-maker is called the agent. The thing it interacts with, comprising everything outside the agent, is called the environment.
+ There are different types of agents, function of how their goal is coded. That includes:
+  * [Reinforcement Learning (RL) agent][RL Agent] whose goal is to maximize a total reward
+  * LLM agent such as [SDLC Agent]
+  * ...
 
  More at:
   * ...
-
- See also [Agent's Goal], [Cumulative Reward], [Reinforcement Learning], [SDLC Agent]
-
-
-# Agent's goal
-
- An Agent is set by using the appropriate reward and reward shaping.
 
  See also [A], ...
 
@@ -1833,6 +1820,33 @@ ____ at the sign, you will get a ticket (backward prediction)
   * [https://www.businessinsider.com/amazon-bedrock-aws-ai-chatgpt-dall-e-competitor-2023-4](https://www.businessinsider.com/amazon-bedrock-aws-ai-chatgpt-dall-e-competitor-2023-4)
 
  See also [A], ...
+
+# AWS DeepRacer
+
+ AWS DeepRacer is a cloud-based 3D racing simulator designed by Amazon Web Services (AWS) to help developers learn reinforcement learning. Some key things to know about AWS DeepRacer:
+
+  * It allows developers to train reinforcement learning models and then race autonomous 1/18th scale cars around a physical track. The virtual training environment simulates the physical track.
+  * Reinforcement learning models are trained using a reward function defined by the developer to incentivize the desired racing behavior. The model learns by racing around the track and optimizing for rewards.
+  * The physical DeepRacer car has onboard sensors and computing to autonomously control steering, speed, and driving decisions based on the trained model.
+  * Developers can use popular reinforcement learning frameworks like TensorFlow and SageMaker to train models. AWS provides Jupyter notebooks to help get started.
+  * DeepRacer races and leagues are held at AWS events and summits as a fun way to showcase reinforcement learning applications.
+
+ So in summary, it provides a hands-on platform for developers to learn reinforcement learning at scale using AWS services. The combination of virtual training and physical track racing makes it unique.
+
+ ![]( {{site.assets}}/a/aws_deepracer_log_guru_track.png){: width="100%"}
+
+ ![]( {{site.assets}}/a/aws_deepracer_log_guru_step.png){: width="100%"}
+
+ More at:
+  * DeepRacer - [https://aws.amazon.com/deepracer/](https://aws.amazon.com/deepracer/)
+  * Car - [https://www.amazon.com/dp/B07JMHRKQG](https://www.amazon.com/dp/B07JMHRKQG)
+  * utilities
+    * DeepRacer For Cloud (DFC) - [https://aws-deepracer-community.github.io/deepracer-for-cloud/](https://aws-deepracer-community.github.io/deepracer-for-cloud/) 
+    * DeepRacer On The Spot (DOTS) - [https://github.com/aws-deepracer-community/deepracer-on-the-spot](https://github.com/aws-deepracer-community/deepracer-on-the-spot) 
+    * DeepRacer Log Guru (DLG) - [https://github.com/aws-deepracer-community/deepracer-log-guru](https://github.com/aws-deepracer-community/deepracer-log-guru)
+
+ See also [A], ...
+
 
 # AWS Lex
 

@@ -125,6 +125,27 @@ layout: page
   * site - [https://www.kaggle.com/](https://www.kaggle.com/)
   * wikipedia - [https://en.wikipedia.org/wiki/Kaggle](https://en.wikipedia.org/wiki/Kaggle)
 
+
+# Kaggle Competition
+
+ Getting started
+  * [https://www.kaggle.com/competitions?hostSegmentIdFilter=5](https://www.kaggle.com/competitions?hostSegmentIdFilter=5)
+  * Supervised
+    * Titanic - [https://www.kaggle.com/competitions/titanic](https://www.kaggle.com/competitions/titanic)
+    * Spaceship Titanic - [https://www.kaggle.com/competitions/spaceship-titanic](https://www.kaggle.com/competitions/spaceship-titanic)
+      * [https://www.kaggle.com/code/beezus666/titanic-space-total-overkill](https://www.kaggle.com/code/beezus666/titanic-space-total-overkill)
+  * Reinforcement Learning
+    * ConnectX - [https://www.kaggle.com/competitions/connectx](https://www.kaggle.com/competitions/connectx)
+
+ For advanced
+  * ...
+
+ More at:
+  * ...
+
+ See also [K], ...
+
+
 # KaggleX Project
 
  Kaggle is excited to announce the launch of our Cohort 3 of the KaggleX BIPOC Mentorship Program (formerly known as the BIPOC Grant Program). The goal of this program is to increase representation, create career opportunities, and develop individual growth for BIPOC (Black, Indigenous, People of Color) people in the data science industry. This will be achieved through pairing early-career Kagglers with advanced and senior-level mentors, curating a space for career-related discussion and learning opportunities.

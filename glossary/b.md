@@ -164,9 +164,9 @@ layout: page
  See also [B], [Batch]
 
 
-# Bayes Theorem
+# Bayes' Theorem
 
- Bayes theorem is used to find the reverse probabilities `p(A|B)` if we know the conditional probability of an event, i.e p(A) and p(B), and `p(B|A)`
+ Bayes' theorem is used to find the reverse probabilities `p(A|B)` if we know the conditional probability of an event, i.e p(A) and p(B), and `p(B|A)`
 
  ```
 # Probability of having feature A and B
@@ -191,6 +191,59 @@ P(B|A) is the probability of event B given A.
  See also [B], [Bayesian Inference], [Naive Bayes]
 
 
+# Bayesian Inference
+
+ Used by [RL agent] in stochastic [environments]
+
+ Bayesian inference is a method of statistical inference in which Bayes' theorem is used to update the probability for a hypothesis as more evidence or information becomes available. Some key points about Bayesian inference:
+
+  * It is based on Bayes' theorem, which describes the probability of an event based on prior knowledge of conditions that might be related to the event.
+It allows you to combine prior beliefs with observed data to get posterior beliefs. The prior beliefs are your initial probabilities for a hypothesis before seeing any evidence.
+  * As new evidence is gathered, the prior probability is updated to become the posterior probability. This allows you to adjust your beliefs about a hypothesis as you gather more information.
+  * It involves computing the posterior probability distribution - the probability of a hypothesis given the observed data.
+Bayesian inference uses Bayes' rule to compute and update probabilities after obtaining new data. This allows you to update your beliefs sequentially as you gather more information.
+  * A major advantage is that it accounts for uncertainty and allows explicit use of prior information.
+Bayes' theorem provides a principled way to update beliefs in light of new evidence. This allows Bayesian inference to combine new data with prior knowledge in a coherent way.
+
+ In summary, Bayesian inference uses Bayes' theorem to update probabilities after observing data. It incorporates prior beliefs, models uncertainty, and allows for sequential analysis, making it very useful for data analysis and modeling.
+
+ ```
+Here's a simple example of how a person could use Bayesian inference in a real-world situation:
+
+Suppose you take a medical test to screen for a rare disease. The test has a 98% accuracy rate - meaning if you have the disease, there is a 98% chance of a positive result, and if you don't have the disease, there is a 98% chance of a negative result.
+
+The disease affects 1 in 10,000 people in the general population. You take the test and receive a positive result. You want to figure out the probability that you actually have the disease, given the evidence of the positive test result.
+
+Using Bayesian inference:
+
+Let D be the event that you have the disease
+Let T+ be the event of a positive test
+We start with the initial prior probability of having the disease P(D) = 1/10,000 = 0.0001
+
+The probability of a positive test given that you do have the disease: P(T+|D) = 0.98
+And the probability of a positive test given you don't have the disease: P(T+|~D) = 0.02
+
+Using Bayes' theorem:
+
+P(D|T+) = P(T+|D) x P(D) / P(T+)
+
+P(T+) can be calculated using the law of total probability:
+P(T+) = P(T+|D) x P(D) + P(T+|~D) x P(~D)
+= 0.98 x 0.0001 + 0.02 x 0.9999
+= 0.0298
+
+Plugging this all in gives:
+P(D|T+) = 0.98 x 0.0001 / 0.0298 = 0.0033
+
+So the probability you have the disease after getting a positive test is only about 0.33% or 1 in 300 people, much lower than the 1 in 10,000 prior probability. This shows how a positive test result updates our beliefs using Bayesian inference.
+ ```
+
+ More at:
+  * ...
+
+ See also [B], [Belief Distribution], [Prior Belief]
+
+
 # Batch Training
 
  The parameters of a machine learning model are usually updated multiple times during each [epoch]. In most cases, the training data is divided into batches, and the model is updated after processing each [batch] of data. This is known as batch training or mini-batch training.
@@ -211,7 +264,7 @@ P(A|B) = ----------------
             P(B)
  ```
 
- See also [B], [Bayesian Network], [Bayes Theorem]
+ See also [B], [Bayes' Theorem], [Bayesian Network]
 
 
 # Bayesian Network
@@ -266,8 +319,59 @@ P(A|B) = ----------------
  See also [B], [Imitation Learning]
 
 
-# Belief-Desire-Intention Framework
+# Belief Distribution
 
+A belief distribution, also known as a probability distribution, is a mathematical function that describes all the possible values a random variable can take and the probability associated with each value.
+
+In Bayesian inference, belief distributions represent the probabilities assigned to different hypotheses or parameter values before (prior distribution) and after (posterior distribution) observing evidence.
+
+Some key points about belief distributions:
+
+ * They summarize current beliefs about plausible values a quantity can take by assigning probabilities.
+ * The area under the belief distribution sums to 1, representing all possible outcomes.
+ * Common belief distributions include the normal, binomial, Poisson, etc. Each models different processes and assumptions.
+ * The [prior belief] distribution captures initial beliefs about a quantity before evidence is considered. It may be based on previous data, a physical model, or just a subjective guess.
+ * The [posterior belief] distribution is the result of updating the prior with new evidence using Bayes' theorem. It represents updated knowledge.
+ * Belief updating refers to transforming a prior distribution into a posterior distribution when new data is observed.
+ * Bayes' theorem describes how to update beliefs mathematically by combining prior knowledge with likelihood functions from new data.
+
+ So in summary, a belief distribution models uncertainty by assigning probabilities over a range of values. Bayesian inference updates beliefs from the prior to posterior distribution as evidence is gathered.
+
+ ```
+# Example:
+Here is a simple example to illustrate belief distributions:
+
+Suppose there is a bag with 20 marbles. You believe 5 of them are red and the rest are blue, but you're not completely certain. Your belief can be represented by a probability distribution:
+
+Prior belief distribution:
+
+Red marbles: 5, with probability 0.25
+Blue marbles: 15, with probability 0.75
+This shows your initial belief before observing any evidence. The probability sums to 1 over all possibilities.
+
+Now suppose you draw a sample of 5 marbles randomly, and get:
+Red: 3
+Blue: 2
+
+You can now update your belief using Bayes' theorem:
+P(Red|Data) = P(Data|Red)*P(Red) / P(Data)
+
+The posterior probability of red is now 0.4 after seeing the data. The full posterior distribution is:
+
+Posterior belief distribution:
+
+Red marbles: 8, with probability 0.4
+Blue marbles: 12, with probability 0.6
+Your belief has shifted towards more red marbles based on the observed data. The posterior distribution represents your updated knowledge about the marble bag after combining your prior belief with the evidence.
+ ```
+
+ More at:
+  * ...
+
+ See also [B], ...
+
+
+# Belief-Desire-Intention Framework
 # BDI Framework
 
  The belief-desire-intention (BDI) framework for intelligent agents is the foundation for [Procedural Reasoning System] or PRS. A person's beliefs are what they hold to be true about how the world is right now, while their desires and intentions are what they are doing to work toward those goals. In addition, unlike purely reactive systems like the subsumption architecture, each of these three components is within the PRS agent.
@@ -286,7 +390,7 @@ P(A|B) = ----------------
 
 # Bellman Equation
 
- They are a class of Reinforcement Learning algorithms that are used particularly for deterministic environments. Beware:
+ They are a class of reinforcement Learning algorithms that are used particularly for deterministic [environments]. Beware:
   * if we have large state spaces, it becomes extremely difficult and close to impossible to solve this system of equations explicitly.
  First the target Q-value equation (which is used to compute the loss function? Yes!)
 

@@ -65,6 +65,34 @@ layout: page
  See also [T], ...
 
 
+# Tabular Data
+
+ See also [T], ...
+
+
+# Tabular Prior-Data Fitted Network
+# TabPFN
+
+ TabPFN is radically different from previous ML methods. It is a meta-learned algorithm and it provably approximates Bayesian inference with a prior for principles of causality and simplicity. Qualitatively, its resulting predictions are very intuitive as well, with very smooth uncertainty estimates:
+
+ ![]( {{site.assets}}/t/tabular-prior-data-fitted-network.png ){: width="100%"}
+
+ TabPFN happens to be a single transformer.
+
+ {% pdf "https://arxiv.org/pdf/2207.01848.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2207.01848](https://arxiv.org/abs/2207.01848)
+  * code - [https://github.com/automl/TabPFN](https://github.com/automl/TabPFN)
+  * articles
+    * [https://www.automl.org/tabpfn-a-transformer-that-solves-small-tabular-classification-problems-in-a-second/](https://www.automl.org/tabpfn-a-transformer-that-solves-small-tabular-classification-problems-in-a-second/)
+    * [https://sebastianraschka.com/blog/2022/deep-learning-for-tabular-data.html](https://sebastianraschka.com/blog/2022/deep-learning-for-tabular-data.html)
+  * code
+    * [https://www.kaggle.com/code/beezus666/titanic-space-total-overkill](https://www.kaggle.com/code/beezus666/titanic-space-total-overkill)
+
+ See also [T], ...
+
+
 # Tanh Activation Function
 
  Pros:
@@ -259,7 +287,6 @@ layout: page
 
 
 # Text-To-Speech Model
-
 # TTS Model
 
  Turn text into speech. The opposite of [Speech-To-Text][Speech-To-Text Model]
@@ -272,7 +299,6 @@ layout: page
 
 
 # Text-To-Text Transfer Transformer Model
-
 # T5 Model
 
  A sequence-to-sequence model built by [Google]
@@ -547,7 +573,7 @@ Desired Output --> |     Training     | --> Model
 
 # Transformer Architecture
 
- The Transformer is a recent deep learning model for use with sequential data such as text, time series, music, and genomes. Whereas older sequence models such as recurrent neural networks (RNNs) or long short-term memory networks (LSTMs) process data sequentially, the Transformer processes data in parallel (can therefore be parallelised on machines in the cloud!). This allows them to process massive amounts of available training data by using powerful GPU-based compute resources. Furthermore, traditional RNNs and LSTMs can have difficulty modeling the long-term dependencies of a sequence because they can forget earlier parts of the sequence. Transformers use an attention mechanism to overcome this memory shortcoming by directing each step of the output sequence to pay “attention” to relevant parts of the input sequence. For example, when a Transformer-based conversational AI model is asked “How is the weather now?” and the model replies “It is warm and sunny today,” the attention mechanism guides the model to focus on the word “weather” when answering with “warm” and “sunny,” and to focus on “now” when answering with “today.” This is different from traditional RNNs and LSTMs, which process sentences from left to right and forget the context of each word as the distance between the words increases.
+ The Transformer is a recent deep learning model for use with sequential data such as text, time series, music, and genomes. Whereas older sequence models such as [recurrent neural networks (RNNs)][RNN] or [long short-term memory networks (LSTMs)][LSTM] process data sequentially, the Transformer processes data in parallel (can therefore be parallelised on machines in the cloud!). This allows them to process massive amounts of available training data by using powerful GPU-based compute resources. Furthermore, traditional [RNNs] and [LSTMs] can have difficulty modeling the long-term dependencies of a sequence because they can forget earlier parts of the sequence. Transformers use an attention mechanism to overcome this memory shortcoming by directing each step of the output sequence to pay “attention” to relevant parts of the input sequence. For example, when a Transformer-based conversational AI model is asked “How is the weather now?” and the model replies “It is warm and sunny today,” the attention mechanism guides the model to focus on the word “weather” when answering with “warm” and “sunny,” and to focus on “now” when answering with “today.” This is different from traditional [RNNs] and [LSTMs], which process sentences from left to right and forget the context of each word as the distance between the words increases.
   * word positioning (feed the work and its position in the sentence)
   * Attention
    * self-attention (link pronouns, subject to verbs, adjectives to nouns, adverbs)
@@ -566,35 +592,26 @@ Desired Output --> |     Training     | --> Model
 # https://techcrunch.com/2022/04/26/2304039/
  ```
 
+ Models that are based on transformers are:
+   * [BERT models] - use the encoder side of the transformer
+   * [GPT models] - use the decoder side of the transformer
+   * [T5 models] - use the encode-decoder, the whole transformer !
+
  {% youtube "https://www.youtube.com/watch?v=zxQyTK8quyY" %}
 
  {% youtube "https://www.youtube.com/watch?v=g2BRIuln4uc" %}
 
  More at:
   * paper - 
-  * explanation - [http://jalammar.github.io/illustrated-transformer/](http://jalammar.github.io/illustrated-transformer/)
-  * [https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0](https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0)
-  * [https://bdtechtalks.com/2022/05/02/what-is-the-transformer/](https://bdtechtalks.com/2022/05/02/what-is-the-transformer/)
   * Articles
-   * [https://venturebeat.com/business/why-transformers-offer-more-than-meets-the-eye/](https://venturebeat.com/business/why-transformers-offer-more-than-meets-the-eye/)
-  * Demos
-   * write with transformers - [https://transformer.huggingface.co/](https://transformer.huggingface.co/)
+    * [https://venturebeat.com/business/why-transformers-offer-more-than-meets-the-eye/](https://venturebeat.com/business/why-transformers-offer-more-than-meets-the-eye/)
+    * explanation - [http://jalammar.github.io/illustrated-transformer/](http://jalammar.github.io/illustrated-transformer/)
+    * [https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0](https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0)
+    * [https://bdtechtalks.com/2022/05/02/what-is-the-transformer/](https://bdtechtalks.com/2022/05/02/what-is-the-transformer/)
+  * Code samples
+    * write with transformers - [https://transformer.huggingface.co/](https://transformer.huggingface.co/)
 
- See also [T], [Action Transformer], [Attention Score], [Attention-Based Model], [Autoregressive Model], [Generative Model], [Long Short-Term Memory Network], [Masked Self-Attention], [Multi-Head Attention], [Recurrent Neural Network], [Self-Attention]
-
-
-# Transformer Model
-
- Models that are based on transformers are:
-   * BERT models : use the encoder side of the transformer
-   * GPT models : use the decoder side of the transformer
-   * T5 models : use the encode-decoder, the whole transformer !
-
- :warning: Beware:
-   * As far as I can tell, transformer are the only models that can do transfer learning. Is this true?
-
- See also [T], [BERT Model], [GPT Model], [T5 Model]
-
+ See also [T], [Action Transformer], [Attention Score], [Attention-Based Model], [Autoregressive Model], [Generative Model], [Masked Self-Attention], [Multi-Head Attention], [Self-Attention]
 
 # Translation
 

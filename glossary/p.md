@@ -56,7 +56,7 @@ layout: page
  Parameter-Efficient Fine-Tuning (PEFT) methods enable efficient adaptation of pre-trained language models (PLMs) to various downstream applications without fine-tuning all the model's parameters. Fine-tuning large-scale PLMs is often prohibitively costly. In this regard, PEFT methods only fine-tune a small number of (extra) model parameters, thereby greatly decreasing the computational and storage costs. Recent State-of-the-Art PEFT techniques achieve performance comparable to that of full fine-tuning.
 
  Methods
-  * [Low-Rank Adaptation (LoRA)][LoRA Tuning] of [large language model]
+  * [Low-Rank Adaptation (LoRA)][LoRA] of [large language model]
   * [Prefix Tuning]
   * [P-Tuning]
   * [Prompt Tuning]
@@ -88,7 +88,6 @@ layout: page
 
 
 # Pathways Language Model Embodied Model
-
 # PaLM-E Model
 
  An embodied multimodal language model developed by [Google] and based on the existing [PaLM Model]
@@ -128,10 +127,10 @@ layout: page
 
  People
   * [Alan Turing] - A founder of AI
-  * [Alex Krizhevsky] - Build [AlexNet][AlexNet Model] and creator of [CIFAR Datasets][CIFAR Dataset]
+  * [Alex Krizhevsky] - Build [AlexNet] and creator of [CIFAR Datasets]
   * [Andrew Ng] - Cofounder and head of [Google] Brain and was the former Chief Scientist at [Baidu]
   * [Bill Gates] - Founder and now chairman at [Microsoft]
-  * [David Luan] - CEO of Adept
+  * [David Luan] - CEO of [Adept]
   * [Elon Musk] - CEO of Tesla
   * [Eric Schmidt] - Chairman of Alphabet / [Google]
   * [Fei-Fei Li] - Creator of the [ImageNet dataset], focus on the data, not the algorithm!
@@ -198,6 +197,21 @@ layout: page
   * [https://en.wikipedia.org/wiki/Perceptron](https://en.wikipedia.org/wiki/Perceptron)
   * inventor - [https://en.wikipedia.org/wiki/Frank_Rosenblatt](https://en.wikipedia.org/wiki/Frank_Rosenblatt)
   * book ? - [https://direct.mit.edu/books/book/3132/PerceptronsAn-Introduction-to-Computational](https://direct.mit.edu/books/book/3132/PerceptronsAn-Introduction-to-Computational)
+
+ See also [P], ...
+
+
+# Perfect Information
+
+ In [Reinforcement Learning (RL)][RL], an environment where everything is known.
+
+ Example:
+  * In chess, by looking at the board, we can see the position of all pieces and therefore find the optimal decision
+
+ In an imperfect information game, we have to make assumption and associate probabilities to those assumption.
+
+ More at:
+  * ...
 
  See also [P], ...
 
@@ -348,9 +362,8 @@ layout: page
 
 # Policy
 
- In [Reinforcement Learning], a policy is a function that takes for input a state and outputs an action.
+ Policy refers to the strategy the agent follows to determine the next action based on current state. The policy may look like a lookup table, a simple function, or it may involve extensive computation such as a search process. Also, the policy alone is sufficient to determine the agent’s behavior.
 
- In the case of Deep RL, a policy function is an artificial neural network.
 
  State to action function !
  * Strategy of agent in pursuit of goal
@@ -363,8 +376,54 @@ layout: page
 
  Policy characteristic
   * agent's policy change due to ...
+  * stochastic ==> proba for each action
+  * deterministic ==> return the chosen action
 
  Greedy policy = agent exploits the current knowledge 
+
+ See also [P], [Optimal Policy]
+
+
+# Policy Evaluation
+
+ It computes values for the states in the environment using the policy provided by the policy improvement phase.
+
+ See also [P], ...
+
+
+# Policy Function
+
+ In [Reinforcement Learning], a policy is a function that takes for input a state and outputs an action.
+
+ ```
+a deterministic policy π is a function that takes as an input a state “S” and returns an action “a” 
+That is: π(s) → a
+ ```
+
+ Policies are usually stochastic, meaning that we select an action from a probability distribution. As an example, imagine that we are state S2 again. The policy will not just tell the agent “take action a6”. Instead, it will say “take action a6 with probability 88%, and take action a3 with probability 12%”.
+
+ a stochastic policy π is a function that takes as an input a state "S" and returns a set of action A with, for each action, an associated probability.
+ 
+ In the case of Deep RL, a policy function is an artificial neural network.
+
+ During training, updated at every iteration. The goal of the reinforcement learning in AWS DeepRacer is to learn the optimal policy in a given environment. Learning is an iterative process of trials and errors. Note:
+  * Firstly, the reinforcement learning agents starts with a random policy π (i). Policy Evaluation will evaluate the value functions like state values for that particular policy.
+  * The policy improvement will improve the policy and give us π (1) and so on until we get the optimal policy where the algorithm stops. This algorithm communicates back and forth between the two phases—Policy Improvement gives the policy to the policy evaluation module which computes values.
+
+ In reinforcement learning, a policy function defines an agent's behavior by mapping states to actions. It specifies which action the agent should take in any given state. Some key characteristics:
+  * The policy is the core element that guides how an [RL agent] acts. It fully defines the agent's behavior.
+  * It maps states to probability distributions over possible actions.
+  * Stochastic policies return probabilities for each action. Deterministic policies return the chosen action.
+  * Policies aim to maximize reward signals from the environment over time.
+  * Policies can be learned through methods like policy gradients, which optimize network parameters.
+  * Learned policies start out random but improve through experience and updating rewards.
+  * Simple policies may implement hand-coded rules. Complex ones use neural networks.
+  * The input is a state description. The output is which action to take.
+  * Better policies lead to higher accumulated rewards over time. The optimal policy maximizes total reward.
+  * Policies balance exploration of new states with exploitation of known rewards.
+  * The policy function represents the agent's complete behavior model. Changing the policy changes how the agent acts.
+
+ So in summary, a policy function in reinforcement learning maps state information to agent actions in order to define behavior that maximizes rewards from the environment over time. The policy is the core component that is learned.
 
  See also [P], ...
 
@@ -444,6 +503,16 @@ layout: page
  A cat has legs, fur, 2 eyes, etc. Those are positive attributes. 
 
  See also [P], [Attribute], [Negative Attribute]
+
+
+# Posterior Belief
+
+ Posterior belief refers to the degree of belief in a hypothesis or claim after accounting for observed evidence. It is the result of updating your [prior beliefs] using [Bayes' theorem] to incorporate the likelihood of the evidence.
+
+ More at:
+  * ...
+
+ See also [P], ...
 
 
 # Precision
@@ -532,7 +601,6 @@ Prediction Error = actual_value - predicted_value
 
 
 # Principal Component Analysis
-
 # PCA
 
  The most popular dimensionality reduction method is Principal Component Analysis (PCA), which reduces the dimension of the feature space by finding new vectors that maximize the linear variation of the data. Why use? many situations that require low dimensional data including:
@@ -551,6 +619,29 @@ Prediction Error = actual_value - predicted_value
 # Prior
 
  Can refer either to [prior knowledge] or [prior probability]
+
+ See also [P], ...
+
+
+# Prior Belief
+
+ A prior belief refers to the initial degree of belief in a hypothesis or claim before accounting for observed data or evidence. It is the probability assigned to a hypothesis before new evidence is considered.
+
+ Some key properties of prior beliefs:
+
+  * Prior beliefs are subjective and based on previous knowledge, expertise, or assumptions made about a problem. They may also be called the prior probability.
+  * In Bayesian statistics, the prior probability is the initial probability assigned to a hypothesis before new relevant data is collected.
+  * A prior is needed to apply [Bayes' theorem] to update beliefs when new evidence is obtained.
+  * Priors can come from previous data, logical constraints, subjective judgment, physical models, etc. Uninformative priors reflect limited initial knowledge.
+  * The choice of prior can significantly impact conclusions if data is limited. More data makes inferences less dependent on the specific prior.
+  * Priors are combined with the likelihood of observing evidence to determine the posterior probability using Bayes' rule.
+  * As more evidence accumulates, the [posterior belief] dominates over the influence of the prior.
+  * Common non-informative priors include the uniform distribution or Jeffreys prior which let data drive conclusions.
+
+ In summary, prior beliefs represent initial hypotheses and uncertainties before considering new evidence. [Bayesian inference] provides a mathematical framework for updating priors to [posterior beliefs] as new data is collected.
+
+ More at:
+  * ...
 
  See also [P], ...
 
@@ -581,6 +672,49 @@ Prediction Error = actual_value - predicted_value
 # Prior Probability
 
  Assess a (sample distribution) probability using the training data (i.e. the training data is representative of the data distributions or likelihoods)
+
+ See also [P], [Prior Belief]
+
+
+# Prioritized Experience Replay
+
+ In [RL], Replay important transitions more frequently for efficient learning.
+
+ Prioritized experience replay is a technique to improve the efficiency of experience replay in reinforcement learning. The key ideas are:
+
+  * In standard experience replay, samples are drawn uniformly at random from the [replay memory].
+  * In prioritized experience replay, transitions are sampled with [probability] proportional to a priority value.
+  * Transitions that have high priority (e.g. errors in value function prediction) are sampled more frequently.
+  * Priorities can be determined in different ways, but common approaches involve using the magnitude of error in the Q-value or TD error.
+  * After sampling based on priority, importance sampling weights are used to correct for the non-uniform probabilities.
+  * Periodically, priorities are updated based on the latest errors. So over time, the priorities shift to reflect new assessments.
+  * This focuses sampling and replay on transitions deemed important either due to uncertainty or prediction error. This leads to faster and more efficient learning.
+  * A potential downside is it could over-fit to certain transitions if priorities do not get updated properly. Proper tuning is required.
+
+ So in summary, prioritized experience replay samples important transitions more frequently to make better use of experience in reinforcement learning. It is a key technique to enable efficient learning from experience.
+
+ More at:
+  * ...
+
+ See also [P], ...
+
+# Probabilistic Inference For Learning Control Model
+# PILCO Model
+
+ PILCO (Probabilistic Inference for Learning Control) is a [model-based reinforcement learning] method for continuous control problems:
+
+  * It learns a probabilistic dynamics model of the environment based on Gaussian processes. This captures model uncertainties.
+  * It uses this learned model to perform probabilistic inference and directly compute a controllers policy in closed form, avoiding needing to learn a value function.
+  * Specifically, it uses the dynamics model to estimate the distributions of future states for different sequence of actions. It then optimizes these predictions to find an optimal policy that maximizes long-term rewards.
+  * A key benefit is data efficiency - by learning a model, PILCO can plan solutions with fewer interactions with the real [environment]. It is therefore a [sample efficient RL Algorithm]
+  * It also explicitly handles model uncertainty during long-term planning. This avoids overfitting to poor models.
+  * Limitations are that it relies on Gaussian processes, which can be computationally expensive in high dimensions. The dynamics model learning also currently happens offline.
+  * PILCO has been applied to control tasks like cartpole, pendulum, and robot arm control. It achieves good performance with relatively little training data.
+
+ In summary, PILCO is a [model-based reinforcement learning] technique that learns a probabilistic dynamics model for efficient and robust [policy] optimization in continuous control problems. It explicitly represents and handles model uncertainties.
+
+ More at:
+  * ...
 
  See also [P], ...
 
@@ -655,7 +789,6 @@ Prediction Error = actual_value - predicted_value
 
 
 # Proximal Policy Optimization Algorithm
-
 # PPO Algorithm
 
  We propose a new family of policy gradient methods for [reinforcement learning], which alternate between sampling data through interaction with the environment, and optimizing a "surrogate" objective function using stochastic gradient ascent. Whereas standard policy gradient methods perform one gradient update per data sample, we propose a novel objective function that enables multiple epochs of minibatch updates. The new methods, which we call proximal policy optimization (PPO), have some of the benefits of trust region policy optimization (TRPO), but they are much simpler to implement, more general, and have better sample complexity (empirically). Our experiments test PPO on a collection of benchmark tasks, including simulated robotic locomotion and Atari game playing, and we show that PPO outperforms other online policy gradient methods, and overall strikes a favorable balance between sample complexity, simplicity, and wall-time.
@@ -679,6 +812,16 @@ Prediction Error = actual_value - predicted_value
     * pong from pixel - [http://karpathy.github.io/2016/05/31/rl/](http://karpathy.github.io/2016/05/31/rl/)
 
  See also [P], [Policy Gradient Algorithm], [Soft Actor-Critic Algorithm]
+
+
+# Punishment
+
+ In [Reinforcement Learning (RL)][RL], this is a negative [reward].
+
+ More at:
+  * ...
+
+ See also [P], ...
 
 
 # PyBullet

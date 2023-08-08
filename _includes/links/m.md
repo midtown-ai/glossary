@@ -32,22 +32,24 @@
 [Matrix Rank]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-rank
 [Matrix Spectral Decomposition]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-spectral-decomposition
 [Max Pooling Layer]: {{ site.baseurl }}{% link glossary/m.md %}#max-pooling-layer
-[Mean Absolute Error]: {{ site.baseurl }}{% link glossary/m.md %}#mean-absolute-error
-[MAE]: {{ site.baseurl }}{% link glossary/m.md %}#mae
 [Mean Absolute Error Loss Function]: {{ site.baseurl }}{% link glossary/m.md %}#mean-absolute-error-loss-function
+[Mean Absolute Error]: {{ site.baseurl }}{% link glossary/m.md %}#mean-absolute-error-loss-function
 [MAE Loss Function]: {{ site.baseurl }}{% link glossary/m.md %}#mean-absolute-error-loss-function
+[MAE]: {{ site.baseurl }}{% link glossary/m.md %}#mean-absolute-error-loss-function
 [Mean Absolute Percentage Error]: {{ site.baseurl }}{% link glossary/m.md %}#mean-absolute-percentage-error
 [MAPE]: {{ site.baseurl }}{% link glossary/m.md %}#mean-absolute-percentage-error
 [Mean Square Error Loss Function]: {{ site.baseurl }}{% link glossary/m.md %}#mean-square-error-loss-function
+[Mean Square Error]: {{ site.baseurl }}{% link glossary/m.md %}#mean-square-error-loss-function
 [MSE Loss Function]: {{ site.baseurl }}{% link glossary/m.md %}#mean-square-error-loss-function
+[MSE]: {{ site.baseurl }}{% link glossary/m.md %}#mean-square-error-loss-function
 [Mechanical Turk]: {{ site.baseurl }}{% link glossary/m.md %}#mechanical-turk
 [Megatron Model]: {{ site.baseurl }}{% link glossary/m.md %}#megatron-model
 [Megatron]: {{ site.baseurl }}{% link glossary/m.md %}#megatron-model
 [Membership Inference Attack]: {{ site.baseurl }}{% link glossary/m.md %}#membership-inference-attack
 [Meta Company]: {{ site.baseurl }}{% link glossary/m.md %}#meta-company
 [Meta]: {{ site.baseurl }}{% link glossary/m.md %}#meta-company
-[Meta Learning]: {{ site.baseurl }}{% link glossary/m.md %}#meta-learning
 [Meta Model]: {{ site.baseurl }}{% link glossary/m.md %}#meta-model
+[Meta-Learning]: {{ site.baseurl }}{% link glossary/m.md %}#meta-learning
 [Metaverse]: {{ site.baseurl }}{% link glossary/m.md %}#metaverse
 [METEOR Score]: {{ site.baseurl }}{% link glossary/m.md %}#meteor-score
 [Metropolis Movie]: {{ site.baseurl }}{% link glossary/m.md %}#metropolis-movie
@@ -79,23 +81,31 @@
 [MAML]: {{ site.baseurl }}{% link glossary/m.md %}#model-agnostic-meta-learning
 [Model Benchmark]: {{ site.baseurl }}{% link glossary/m.md %}#model-benchmark
 [Model Card]: {{ site.baseurl }}{% link glossary/m.md %}#model-card
+[Model Checkpoint]: {{ site.baseurl }}{% link glossary/m.md %}#model-checkpoint
 [Model Data Sheet]: {{ site.baseurl }}{% link glossary/m.md %}#model-data-sheet
 [Model Drift]: {{ site.baseurl }}{% link glossary/m.md %}#model-drift
+[Model Evaluation]: {{ site.baseurl }}{% link glossary/m.md %}#model-evaluation
 [Model Format]: {{ site.baseurl }}{% link glossary/m.md %}#model-format
 [Model Hub]: {{ site.baseurl }}{% link glossary/m.md %}#model-hub
 [Model Tuning]: {{ site.baseurl }}{% link glossary/m.md %}#model-tuning
 [Model Type]: {{ site.baseurl }}{% link glossary/m.md %}#model-type
 [Model Uplift]: {{ site.baseurl }}{% link glossary/m.md %}#model-uplift
-[Model-Based Learning]: {{ site.baseurl }}{% link glossary/m.md %}#model-based-learning
-[Model-Based Learning Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#model-based-learning-algorithm
-[Model-Free Learning]: {{ site.baseurl }}{% link glossary/m.md %}#model-free-learning
-[Model-Free Learning Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#model-free-learning-algorithm
+[Model-Based Reinforcement Learning]: {{ site.baseurl }}{% link glossary/m.md %}#model-based-reinforcement-learning
+[Model-Based RL]: {{ site.baseurl }}{% link glossary/m.md %}#model-based-reinforcement-learning
+[Model-Based Reinforcement Learning Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#model-based-reinforcement-learning-algorithm
+[Model-Based RL Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#model-based-reinforcement-learning-algorithm
+[Model-Free Reinforcement Learning]: {{ site.baseurl }}{% link glossary/m.md %}#model-free-reinforcement-learning
+[Model-Free RL]: {{ site.baseurl }}{% link glossary/m.md %}#model-free-reinforcement-learning
+[Model-Free Reinforcement Learning Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#model-free-reinforcement-learning-algorithm
+[Model-Free RL Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#model-free-reinforcement-learning-algorithm
 [Modified National Institute Standards And Technology Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
 [MNIST Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
 [Modular Reasoning Knowledge and Language]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language
 [MRKL]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language
 [MuLan Model]: {{ site.baseurl }}{% link glossary/m.md %}#mulan-model
 [Multi-Agent Environment]: {{ site.baseurl }}{% link glossary/m.md %}#multi-agent-environment
+[Multi-Agent Reinforcement Learning]: {{ site.baseurl }}{% link glossary/m.md %}#multi-agent-reinforcement-learning
+[Multi-Agent RL]: {{ site.baseurl }}{% link glossary/m.md %}#multi-agent-reinforcement-learning
 [Multi-Head Self-Attention]: {{ site.baseurl }}{% link glossary/m.md %}#multi-head-self-attention
 [Multi-Task Learning]: {{ site.baseurl }}{% link glossary/m.md %}#multi-task-learning
 [MTL]: {{ site.baseurl }}{% link glossary/m.md %}#multi-task-learning

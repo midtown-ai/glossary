@@ -55,8 +55,10 @@
 [IDM]: {{ site.baseurl }}{% link glossary/i.md %}#idm
 [Inverse Q-Learning]: {{ site.baseurl }}{% link glossary/i.md %}#inverse-q-learning
 [Inverse Reinforcement Learning]: {{ site.baseurl }}{% link glossary/i.md %}#inverse-reinforcement-learning
+[Inverse RL]: {{ site.baseurl }}{% link glossary/i.md %}#inverse-reinforcement-learning
 [IRL]: {{ site.baseurl }}{% link glossary/i.md %}#irl
 [IQ-Learn Model]: {{ site.baseurl }}{% link glossary/i.md %}#iq-learn-model
+[Isaac Gym Environment]: {{ site.baseurl }}{% link glossary/i.md %}#isaac-gym-environment
 [Isaac Gym]: {{ site.baseurl }}{% link glossary/i.md %}#isaac-gym
 [Isolation Forest]: {{ site.baseurl }}{% link glossary/i.md %}#isolation-forest
 [Iteration]: {{ site.baseurl }}{% link glossary/i.md %}#iteration

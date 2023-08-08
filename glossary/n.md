@@ -56,7 +56,7 @@ layout: page
 
 # Naive Bayes Theorem
 
- uses the Bayes’ Theorem and assumes that all predictors are independent. In other words, this classifier assumes that the presence of one particular feature in a class doesn’t affect the presence of another one.
+ uses the [Bayes’ Theorem] and assumes that all predictors are independent. In other words, this classifier assumes that the presence of one particular [feature] in a class doesn’t affect the presence of another one.
  
  ```
 p(X1,X2) = p(X2 | X1) * p(X1)
@@ -68,11 +68,10 @@ If we generalize
 p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  ```
 
- See also [N], [Bayes Theorem], [Feature], [Naive Bayes Classifier]
+ See also [N], [Naive Bayes Classifier]
 
 
 # Named Entity Recognition
-
 # NER
 
  A standard NLP problem which involves spotting named entities (people, places, organizations etc.) from a chunk of text, and classifying them into a predefined set of categories. Some of the practical applications of NER include:
@@ -101,7 +100,6 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
 
 # National Institute of Standards and Technology
-
 # NIST
 
  Author of the [AI Risk Management Framework]
@@ -110,7 +108,6 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
 
 # National Science Foundation
-
 # NSF
 
  * Founding source
@@ -130,7 +127,6 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
 
 # Natural Language Processing
-
 # NLP
 
  A huge percentage of the world’s data and knowledge is in some form of human language. Can you imagine being able to read and comprehend thousands of books, articles and blogs in seconds? Obviously, computers can’t yet fully understand human text but we can train them to do certain tasks. For example, we can train our phones to autocomplete our text messages or to correct misspelled words. We can even teach a machine to have a simple conversation with a human. Natural Language Processing (NLP) is not a machine learning method per se, but rather a widely used technique to prepare text for machine learning. Think of tons of text documents in a variety of formats (word, online blogs, ….). Most of these text documents will be full of typos, missing characters and other words that needed to be filtered out. NLP applications includes:
@@ -155,7 +151,6 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
 
 # Natural Language Programming Benchmark
-
 # NLP Benchmark
 
   * Coref :  Links pronouns to antecedents. Also capable to take the perspective of a speak, e.g. I, you, my sister, etc refers to different people function of who said it.
@@ -174,7 +169,6 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
 
 # Natural Language Programming Metric
-
 # NLP Metric
 
  A metric is applied to one input-output pair. The metric returns a score often evaluated against human output.
@@ -186,7 +180,6 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
 
 # Natural Language Toolkit
-
 # NLTK
 
  Before [transformers][Transformer Architecture], the most popular package for [processing text][NLP] was NLTK (Natural Language ToolKit), created by researchers at [Stanford University]. The simplest way to map text into a numerical representation is to compute the frequency of each word within each text document. Think of a matrix of integers where each row represents a text document and each column represents a word. This matrix representation of the word frequencies is commonly called [Term Frequency Matrix (TFM)][TFM]. From there, we can create another popular matrix representation of a text document by dividing each entry on the matrix by a weight of how important each word is within the entire corpus of documents. We call this method [Term Frequency Inverse Document Frequency (TFIDF)][TF-IDF] and it typically works better for machine learning tasks.
@@ -204,28 +197,24 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
 
 # Natural Language Interpretation
-
 # NLI
 
  See [Natural Language Understanding]
 
 
 # Natural Language Inference
-
 # NLI
 
  See [Natural Language Understanding]
 
 
 # Natural Language Supervision
-
 # NLS
 
  See also [N], [CLIP Model]
 
 
 # Natural Language Understanding
-
 # NLU
 
  Natural-language understanding (NLU) is a subtopic of natural-language processing in artificial intelligence that deals with machine reading comprehension (Intent, slots ~ Alexa). Natural-language understanding is considered an AI-hard problem. There is considerable commercial interest in the field because of its application to automated reasoning, machine translation, question answering, news-gathering, text categorization, voice-activation, archiving, and large-scale content analysis. A popular json libary for this is snip-NLU.
@@ -344,7 +333,6 @@ There are various kinds of neocognitron. For example, some types of neocognitron
 
 
 # Neural Information Processing Systems Conference
-
 # NeurIPS Conference
 
  The most important [AI Conference] related to [Deep Learning]
@@ -357,7 +345,6 @@ There are various kinds of neocognitron. For example, some types of neocognitron
 
 
 # Neural Machine Translation
-
 # NMT
 
  Neural machine translation (NMT) is an approach to machine translation that uses an [artificial neural network] to predict the likelihood of a sequence of words, typically modeling entire sentences in a single integrated model.
@@ -405,7 +392,6 @@ There are various kinds of neocognitron. For example, some types of neocognitron
 
 
 # Neural Topic Modeling
-
 # NTM
 
  An unsupervised learning algorithm that is used to organize a corpus of documents into topics that contain word groupings based on their statistical distribution. Documents that contain frequent occurrences of words such as "bike", "car", "train", "mileage", and "speed" are likely to share a topic on "transportation" for example. Topic modeling can be used to classify or summarize documents based on the topics detected or to retrieve information or recommend content based on topic similarities. The topics from documents that NTM learns are characterized as a latent representation because the topics are inferred from the observed word distributions in the corpus. The semantics of topics are usually inferred by examining the top ranking words they contain. Because the method is unsupervised, only the number of topics, not the topics themselves, are prespecified. In addition, the topics are not guaranteed to align with how a human might naturally categorize documents. // Topic modeling provides a way to visualize the contents of a large document corpus in terms of the learned topics. Documents relevant to each topic might be indexed or searched for based on their soft topic labels. The latent representations of documents might also be used to find similar documents in the topic space. You can also use the latent representations of documents that the topic model learns for input to another supervised algorithm such as a document classifier. Because the latent representations of documents are expected to capture the semantics of the underlying documents, algorithms based in part on these representations are expected to perform better than those based on lexical features alone. // Although you can use both the Amazon SageMaker NTM and LDA algorithms for topic modeling, they are distinct algorithms and can be expected to produce different results on the same input data.
@@ -428,7 +414,6 @@ There are various kinds of neocognitron. For example, some types of neocognitron
 
 
 # Next Sentence Prediction
-
 # NSP
 
  Pretrain a [CLS] token in [BERT][BERT Model] by performing a classification task. Did sentence B come directly after sentence A? Yes or No ? A classification problem with softmax function on is_next and not_next (sum of probabilities = 1).
@@ -481,7 +466,6 @@ B: I was just there
 
 
 # Non-deterministic Polynomial-time hard
-
 # NP-hard
 
  NP-hard (Non-deterministic Polynomial-time hard) is a term used in computational complexity theory to describe a class of decision problems that are at least as difficult to solve as the hardest problems in the class NP (Non-deterministic Polynomial-time).
@@ -504,7 +488,6 @@ Some well-known NP-hard problems include the traveling salesman problem, the kna
 
 
 # Numerical Python Module
-
 # Numpy Python Module
 
  A [Python module] for ...

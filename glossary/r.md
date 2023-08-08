@@ -427,14 +427,21 @@ Beware:
 
 
 # Reinforcement Learning
-
 # RL
 
- `Pavlov's dog experiment!` also `How we learn to bike!` Beware: `No training set is provided, training is coming from experience! = learn by try and error`. Continue doing the iehavior that led you to the most reward. Imagine teaching a program to play chess. It level of playing is only as good as the training data provided. If it learns/analyses the games played by average players, the program will only be average. If it analyses the games of the best player in the work, it will be just as good as them, but not better. `Reinforcement learning is the way to make a computer be better  than human at chess or any other activity` using rewards and punishments. `Learning through trials and errors` input/sensor --> software agent --> [Action], leads to reward feedback. Ex: points in video game where rules are unknown. The [Agent] continuously learns. There is no final state. Gives a reward for each move. Get's better based on past-experience. `Reinforcement learning is located near the supervised end of the spectrum. Unlike supervised learning, reinforcement learning programs do not learn from labeled pairs of inputs and outputs. Instead, they receive feedback for their decisions, but errors are not explicitly corrected` For example, a reinforcement learning program that is learning to play a side-scrolling video game like Super Mario Bros may receive a reward when it completes a level or exceeds a certain score, and a punishment when it loses a life. However, this supervised feedback is not associated with specific decisions to run, avoid Goombas, or pick up fire flowers. We will focus primarily on supervised and unsupervised learning, as these categories include most common machine learning problems.
+ `Pavlov's dog experiment!` also `How we learn to bike!` Beware: `No training set is provided, training is coming from experience! = learn by try and error`. Continue doing the behavior that led you to the most [reward]. Imagine teaching a program to play chess. It level of playing is only as good as the training data provided. If it learns/analyses the games played by average players, the program will only be average. If it analyses the games of the best player in the work, it will be just as good as them, but not better. `Reinforcement learning is the way to make a computer be better  than human at chess or any other activity` using [rewards] and [punishments]. `Learning through trials and errors` input/sensor --> software agent --> [Action], leads to [supervised feedback] in the form of a [reward].
+
+ The [RL agent] continuously learns. There is no final state. Gives a [reward] for each move. Get's better based on past-experience.
+
+ `Reinforcement learning is located near the supervised end of the spectrum`. Unlike [supervised learning], reinforcement learning programs do not learn from labeled pairs of inputs and outputs. Instead, they receive feedback for their decisions, but errors are not explicitly corrected. For example, a reinforcement learning program that is learning to play a side-scrolling video game like Super Mario Bros may receive a [reward] when it completes a level or exceeds a certain score, and a [punishment] when it loses a life. However, this [supervised feedback] is not associated with specific decisions to run, avoid Goombas, or pick up fire flowers.
 
  ![]( {{site.assets}}/r/reinforcement_learning.png ){: width="100%"}
 
- Imagine a mouse in a maze trying to find hidden pieces of cheese. The more times we expose the mouse to the maze, the better it gets at finding the cheese. At first, the mouse might move randomly, but after some time, the mouse’s experience helps it realize which actions bring it closer to the cheese. The process for the mouse mirrors what we do with Reinforcement Learning (RL) to train a system or a game. Generally speaking, RL is a machine learning method that helps an agent learn from experience. By recording actions and using a trial-and-error approach in a set environment, RL can maximize a cumulative reward. In our example, the mouse is the agent and the maze is the environment. The set of possible actions for the mouse are: move front, back, left or right. The reward is the cheese. You can use RL when you have little to no historical data about a problem, because it doesn’t need information in advance (unlike traditional machine learning methods). In a RL framework, you learn from the data as you go. Not surprisingly, RL is especially successful with games, especially games of “perfect information” like chess and Go. With games, feedback from the agent and the environment comes quickly, allowing the model to learn fast. The downside of RL is that it can take a very long time to train if the problem is complex. Just as IBM’s Deep Blue beat the best human chess player in 1997, [AlphaGo][AlphaGo Model], a RL-based algorithm, beat the best Go player in 2016. The current pioneers of RL are the teams at DeepMind in the UK. More on AlphaGo and DeepMind here. On April, 2019, the OpenAI Five team was the first AI to beat a world champion team of e-sport Dota 2, a very complex video game that the OpenAI Five team chose because there were no RL algorithms that were able to win it at the time. The same AI team that beat Dota 2’s champion human team also developed a robotic hand that can reorient a block. Read more about the OpenAI Five team here. You can tell that Reinforcement Learning is an especially powerful form of AI, and we’re sure to see more progress from these teams, but it’s also worth remembering the method’s limitations.
+ Imagine a mouse in a maze trying to find hidden pieces of cheese. The more times we expose the mouse to the maze, the better it gets at finding the cheese. At first, the mouse might move randomly, but after some time, the mouse’s experience helps it realize which actions bring it closer to the cheese. The process for the mouse mirrors what we do with Reinforcement Learning (RL) to train a system or a game. Generally speaking, RL is a [machine learning] method that helps an [RL agent] learn from experience. By recording actions and using a trial-and-error approach in a set [environment], RL can maximize a [cumulative reward]. In our example, the mouse is the [RL agent] and the maze is the [environment]. The set of possible [actions] for the mouse are: move front, back, left or right. The [reward] is the cheese.
+
+ You can use RL when you have little to no historical data about a problem, because it doesn’t need information in advance (unlike traditional machine learning methods). In a RL framework, you learn from the data as you go. Not surprisingly, RL is especially successful with games, especially games of “[perfect information]” like chess and Go. With games, feedback from the [RL agent] and the [environment] comes quickly, allowing the model to learn fast. The downside of RL is that it can take a very long time to train if the problem is complex. Just as IBM’s [Deep Blue] beat the best human chess player in 1997, [AlphaGo], a RL-based algorithm, beat the best Go player in 2016. The current pioneers of RL are the teams at [DeepMind] in the UK. 
+
+ On April, 2019, the [OpenAI Five] team was the first AI to beat a world champion team of e-sport Dota 2, a very complex video game that the [OpenAI Five] team chose because there were no RL algorithms that were able to win it at the time. The same AI team that beat Dota 2’s champion human team also developed a robotic hand that can reorient a block. 
 
  More at:
   * [https://neptune.ai/blog/category/reinforcement-learning](https://neptune.ai/blog/category/reinforcement-learning)
@@ -443,10 +450,39 @@ Beware:
     * [https://rl-lab.com/](https://rl-lab.com/)
     * [https://huggingface.co/learn/deep-rl-course/unit0/introduction](https://huggingface.co/learn/deep-rl-course/unit0/introduction)
 
- See also [R], [Addiction], [Action], [Action Space], [Agent], [Continual Reinforcement Learning], [Delayed Reward], [Environment], [Exploitation], [Exploration], [Learning Method], [Machine Learning], [Machine Learning Algorithm], [Markov Decision Process], [Meta Learning], [Observation], [Reward], [Reward Shaping], [State]
+ See also [R], [Action], [Action Space], [Continual Reinforcement Learning], [Delayed Reward], [Environment], [Exploitation], [Exploration], [Learning Method], [Machine Learning], [Machine Learning Algorithm], [Markov Decision Process], [Meta Learning], [Observation], [Reward Shaping], [State]
+
+
+# Reinforcement Learning Agent
+# RL Agent
+
+ In [reinforcement learning], an [agent] whose goal is to maximize its [cumulative reward].
+ To observe the right behavior, be sure to use appropriate [reward] and correct [reward shaping].
+
+ Examples:
+  * In [AWS DeepRacer], the goal of the program running on the car is to go around the track as fast as possible without getting out of the track.
+
+ The agent simulates the AWS DeepRacer vehicle in the simulation for training. More specifically, it embodies the neural network that controls the vehicle, taking inputs and deciding [actions]. `The agent embodies a neural network that represents a function to approximate the agent's policy.`
+  * The essence of Reinforced Learning is to enforce behavior based on the actions performed by the agent. The agent is rewarded if the action positively affects the overall goal.
+  * The basic aim of reinforcement Learning is reward maximization. The agent is trained to take the best action to maximize the overall reward.
+  * RL agents work by using the already known exploited information or exploring unknown information about an environment.
+  * ...
+ It’s also important to understand that the learner and decision-maker is called the agent. The thing it interacts with, comprising everything outside the agent, is called the [environment].
+
+ More at:
+  * ...
+
+
+ More at:
+  * ...
+
+ See also [R], [Addiction]
 
 
 # Reinforcement Learning Algorithm
+# RL Algorithm
+
+ During the training phase of an [RL agent], its policy is updated after each [iteration] based on the preset [learning rate], an [hyperparameter]
 
  [Policy Gradient Algorithms]
   * [Actor-Critic with Experience (ACER)][ACER]
@@ -461,11 +497,20 @@ Beware:
   * [Q-Learning] 
   * [State-Action-Reward-State-Action (SARSA)][SARSA]
 
+
+ * [Evolutionary Algorithms] = Generate policies through ab evolutionary process of selection, mutation, and fitness evaluation. Ex: [Genetic Algorithm], [Evolution Strategy]
+ * [Model-Based RL] = Learn model of environment transistions and rewards, then optimizes policy through planning. Ex: [Dyna Model], [AlphaGo]
+ * [Inverse RL] = learn reward function from expert demonstrations. Allows mimicking behavior without rewards.
+ * [Hierarchical RL] = Decomposes problem into hierarchy of sub-policies over different timescales
+ * [Transfer Learning] = Leverage knowledge fro previous tasks to accelerate learning on new tasks.
+
+ More at:
+  * ...
+
  See also [R], ...
 
 
 # Reinforcement Learning Human Feedback
-
 # RLHF
 
  Reinforcement learning process using human feedback as a reward model. RLHF is use in InstructGPT model, a precursor to ChatGPT model. A way to prevent or make [Red Teaming] language models more difficult?
@@ -511,6 +556,17 @@ Beware:
 # Replaced Word Prediction
 
  See also [R], [Self-Supervised Learning]
+
+
+# Replay Memory
+ 
+ Used for [experience replay]
+
+ Circular buffer of fixed size that stores the last trailing state transitions, aka [experience]. To train the [Deep Q-Network (DQN)][DQN], the training algorithm sample from the [experiences] from that memory!  
+
+ {% youtube "https://www.youtube.com/watch?v=Bcuj2fTH4_4" %}
+
+ See also [R], ...
 
 
 # Representation Space
@@ -692,10 +748,12 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 
  In [Reinforcement Learning (RL)][RL], a reward is a form of feedback from a real or simulated [environment], a program, or a human.
 
+ The reward is the score given as feedback to the agent when it takes an action in a given state. A reward can be positive or negative. In training the AWS DeepRacer model, the reward is returned by a [reward function]. In general, you define or supply a reward function to specify what is desirable or undesirable action for the [RL agent] to take in a given [state]. There is an immediate reward associated with any [action]. In Contrast to Reward, which implies a short-term gain, [Q-Value] refers to the long-term return with discount.
+
  Rewards must consider the following:
   * Positive vs negative reward (or Cost)
   * Immediate vs delayed vs cumulative
-  * Immediate vs long-term reward
+  * Immediate vs long-term reward, aka Q-value.
   * Long-term reward = Good in the long term
     * Cumulative reward = Good in the long run? 
     * Return / Value = total reward we are expecting to get
@@ -721,7 +779,44 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 
 # Reward Function
 
- How you write your reward function matters!
+ How you write your reward function matters to obtain the expected behavior of the [RL agent]. This is called [reward shaping]
+
+ An agent receives something from this in order to learn the appropriate actions to take. With all these parameters at your disposal, you can define a reward function to incentivize whatever driving behavior you like. Let's see a few examples of reward functions and how they use the parameters to determine a reward.
+
+
+
+ Example of reward function for a self-driving car in [AWS DeepRacer].
+
+ ```
+def reward_function(params):
+    '''
+    Example of rewarding the agent to follow center line
+    '''
+    
+    # Read input parameters
+    track_width = params['track_width']
+    distance_from_center = params['distance_from_center']
+
+    # Calculate 3 markers that are increasingly further away from the center line
+    marker_1 = 0.1 * track_width
+    marker_2 = 0.25 * track_width
+    marker_3 = 0.5 * track_width
+
+    # Give higher reward if the car is closer to center line and vice versa
+    if distance_from_center <= marker_1:
+        reward = 1
+    elif distance_from_center <= marker_2:
+        reward = 0.5
+    elif distance_from_center <= marker_3:
+        reward = 0.1
+    else:
+        reward = 1e-3  # likely crashed/ close to off track
+
+    return reward
+ ```
+
+ More at:
+  * deepracer reward functions - [https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-reward-function-examples.html](https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-reward-function-examples.html)
 
  See also [R], ...
 
@@ -738,6 +833,8 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  How the [reward] needs to be structure given the rule of the game (ex chess where delayed reward is given for winning the game).
 
  What about [Incentive]?
+
+ {% youtube "https://www.youtube.com/watch?v=xManAGjbx2k" %}
 
  See also [R], [Addiction], [Delayed Reward], [Reinforcement Learning]
 

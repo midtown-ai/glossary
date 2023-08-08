@@ -3,8 +3,12 @@
 [T-Distributed Stochastic Neighbor Embedding]: {{ site.baseurl }}{% link glossary/t.md %}#t-distributed-stochastic-neighbor-embedding-algorithm
 [t-SNE]: {{ site.baseurl }}{% link glossary/t.md %}#t-distributed-stochastic-neighbor-embedding-algorithm
 [T-Distribution]: {{ site.baseurl }}{% link glossary/t.md %}#t-distribution
+[Tabular Data]: {{ site.baseurl }}{% link glossary/t.md %}#tabular-data
+[Tabular Prior-Data Fitted Network]: {{ site.baseurl }}{% link glossary/t.md %}#tabular-prior-data-fitted-network
+[TabPFN]: {{ site.baseurl }}{% link glossary/t.md %}#tabular-prior-data-fitted-network
 [Tanh Activation Function]: {{ site.baseurl }}{% link glossary/t.md %}#tanh-activation-function
 [T5 Model]: {{ site.baseurl }}{% link glossary/t.md %}#t5-model
+[T5 Models]: {{ site.baseurl }}{% link glossary/t.md %}#t5-model
 [Target Attribute]: {{ site.baseurl }}{% link glossary/t.md %}#target-attribute
 [Task]: {{ site.baseurl }}{% link glossary/t.md %}#task
 [Task-Based Learning]: {{ site.baseurl }}{% link glossary/t.md %}#task-based-learning
@@ -51,7 +55,7 @@
 [Transform Function]: {{ site.baseurl }}{% link glossary/t.md %}#transform-function
 [TF]: {{ site.baseurl }}{% link glossary/t.md %}#transform-function
 [Transformer Architecture]: {{ site.baseurl }}{% link glossary/t.md %}#transformer-architecture
-[Transformer Model]: {{ site.baseurl }}{% link glossary/t.md %}#transformer-model
+[Transformer]: {{ site.baseurl }}{% link glossary/t.md %}#transformer-architecture
 [Translation]: {{ site.baseurl }}{% link glossary/t.md %}#translation
 [Tree Of Thoughts Prompting]: {{ site.baseurl }}{% link glossary/t.md %}#tree-of-thoughts-prompting
 [Tree Of Thoughts]: {{ site.baseurl }}{% link glossary/t.md %}#tree-of-thoughts-prompting

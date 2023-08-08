@@ -60,6 +60,9 @@
 [Simulated Policy Learning Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-policy-learning-algorithm
 [SimPLe Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-policy-learning-algorithm
 [SimPLe]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-policy-learning-algorithm
+[Single Life Reinforcement Learning]: {{ site.baseurl}}{% link glossary/s.md %}#single-life-reinforcement-learning
+[Single Life RL]: {{ site.baseurl}}{% link glossary/s.md %}#single-life-reinforcement-learning
+[SLRL]: {{ site.baseurl}}{% link glossary/s.md %}#single-life-reinforcement-learning
 [Single Value Decomposition]: {{ site.baseurl}}{% link glossary/s.md %}#single-value-decomposition
 [SVD]: {{ site.baseurl}}{% link glossary/s.md %}#single-value-decomposition
 [Siri Virtual Assistant]: {{ site.baseurl}}{% link glossary/s.md %}#siri-virtual-assistant
@@ -107,13 +110,18 @@
 [State]: {{ site.baseurl}}{% link glossary/s.md %}#state
 [States]: {{ site.baseurl}}{% link glossary/s.md %}#state
 [State Model]: {{ site.baseurl}}{% link glossary/s.md %}#state-model
-[State Space]: {{ site.baseurl}}{% link glossary/s.md %}#state-space
-[State-Of-The-Art]: {{ site.baseurl}}{% link glossary/s.md %}#state-of-the-art
+[State Of The Art]: {{ site.baseurl}}{% link glossary/s.md %}#state-of-the-art
 [SOTA]: {{ site.baseurl}}{% link glossary/s.md %}#state-of-the-art
+[State Space]: {{ site.baseurl}}{% link glossary/s.md %}#state-space
+[State Transition]: {{ site.baseurl}}{% link glossary/s.md %}#state-transition
+[State Transitions]: {{ site.baseurl}}{% link glossary/s.md %}#state-transition
+[State-Action Pair]: {{ site.baseurl}}{% link glossary/s.md %}#state-action-pair
+[State-Action Pairs]: {{ site.baseurl}}{% link glossary/s.md %}#state-action-pair
 [State-Action-Reward-State-Action Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#state-action-reward-state-action-algorithm
 [State-Action-Reward-State-Action]: {{ site.baseurl}}{% link glossary/s.md %}#state-action-reward-state-action-algorithm
 [SARSA Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#state-action-reward-state-action-algorithm
 [SARSA]: {{ site.baseurl}}{% link glossary/s.md %}#state-action-reward-state-action-algorithm
+[State-Value Function]: {{ site.baseurl}}{% link glossary/s.md %}#state-value-function
 [Statistical Bias]: {{ site.baseurl}}{% link glossary/s.md %}#statistical-bias
 [Statistical Machine Translation]: {{ site.baseurl}}{% link glossary/s.md %}#statistical-machine-translation
 [SMT]: {{ site.baseurl}}{% link glossary/s.md %}#statistical-machine-translation

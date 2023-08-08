@@ -39,21 +39,29 @@
 [Entity Extraction]: {{site.baseurl }}{% link glossary/e.md %}#entity-extraction
 [Entropy]: {{site.baseurl }}{% link glossary/e.md %}#entropy
 [Environment]: {{site.baseurl }}{% link glossary/e.md %}#environment
+[Environments]: {{site.baseurl }}{% link glossary/e.md %}#environment
 [Episode]: {{site.baseurl }}{% link glossary/e.md %}#episode
 [Episodes]: {{site.baseurl }}{% link glossary/e.md %}#episode
 [Epoch]: {{site.baseurl }}{% link glossary/e.md %}#epoch
 [Epochs]: {{site.baseurl }}{% link glossary/e.md %}#epoch
+[Epsilon-Greedy Exploration Strategy]: {{site.baseurl }}{% link glossary/e.md %}#epsilon-greedy-exploration-strategy
+[Eric Schmidt Person]: {{site.baseurl }}{% link glossary/e.md %}#eric-schmidt-person
+[Eric Schmidt]: {{site.baseurl }}{% link glossary/e.md %}#eric-schmidt-person
 [Ernie Bot]: {{site.baseurl }}{% link glossary/e.md %}#ernie-bot
 [Error]: {{site.baseurl }}{% link glossary/e.md %}#error
 [ESM Metagenomic Atlas]: {{site.baseurl }}{% link glossary/e.md %}#esm-metagenomic-atlas
 [Estimator]: {{site.baseurl }}{% link glossary/e.md %}#estimator
 [Ethical AI]: {{site.baseurl }}{% link glossary/e.md %}#ethical-ai
+[Evolution Strategy]: {{site.baseurl }}{% link glossary/e.md %}#evoluation-strategy
+[ES]: {{site.baseurl }}{% link glossary/e.md %}#evoluation-strategy
 [Evolutionary Scale Modeling]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-modeling
 [ESM]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-modeling
 [Ex Machina Movie]: {{site.baseurl }}{% link glossary/e.md %}#ex-machina-movie
 [Example-Based Machine Translation]: {{site.baseurl }}{% link glossary/e.md %}#example-based-machine-translation
 [EBMT]: {{site.baseurl }}{% link glossary/e.md %}#ebmt
 [Expected Value]: {{site.baseurl }}{% link glossary/e.md %}#expected-value
+[Experience]: {{site.baseurl }}{% link glossary/e.md %}#experience
+[Experience Batch]: {{site.baseurl }}{% link glossary/e.md %}#experience-batch
 [Experience Replay]: {{site.baseurl }}{% link glossary/e.md %}#experience-replay
 [Experience Replay Buffer]: {{site.baseurl }}{% link glossary/e.md %}#experience-replay-buffer
 [Expert System]: {{site.baseurl }}{% link glossary/e.md %}#expert-system

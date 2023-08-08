@@ -220,7 +220,6 @@ layout: page
 
 # Data Leakage
 
-
  Data leakage is an umbrella term covering all cases where data that shouldn’t be available to a model in fact is. The most common example is when test data is included in the training set. But the leakage can be more pernicious: when the model uses features that are a proxy of the outcome variable or when test data come from a distribution which is different from the one about which the scientific claim is made.
 
  * When the answer is in the input!
@@ -350,6 +349,13 @@ layout: page
   * [https://scikit-learn.org/stable/datasets.html](https://scikit-learn.org/stable/datasets.html)
 
  See also [D], [Data Point], [Development Subset], [GINI Impurity Index], [Testing Subset], [Training Subset]
+
+
+# David Luan Person
+
+ CEO of [Adept]
+
+ See also [D], ...
 
 
 # Dawid-Skene Algorithm
@@ -505,7 +511,6 @@ layout: page
 
 
 # Deep Convolutional GAN
-
 # DCGAN
 
  A type of GAN for ... This is the first GAN where the generator used deep convolutional network , hence generating high resolution and quality images to be differentiated. Rectified Linear Unit (ReLU) activation is used in Generator all layers except last one where Tanh activation is used, meanwhile in Discriminator all layers use the Leaky-ReLu activation function. Adam optimizer is used with a learning rate of 0.0002.
@@ -518,7 +523,6 @@ layout: page
 
 
 # Deep Deterministic Policy Gradient Algorithm
-
 # DDPG Algorithm
 
  DDPG, or Deep Deterministic Policy Gradient, is an actor-critic, model-free algorithm based on the deterministic policy gradient that can operate over continuous [action spaces]. It combines the actor-critic approach with insights from [Deep Q-Networks]: in particular, the insights that 1) the network is trained off-policy with samples from a replay buffer to minimize correlations between samples, and 2) the network is trained with a target Q network to give consistent targets during temporal difference backups. DDPG makes use of the same ideas along with [batch normalization].
@@ -535,50 +539,6 @@ layout: page
 
  See also [D], ...
 
-
-# Deep Q-Learning
-
- {% youtube "https://www.youtube.com/watch?v=AKbX1Zvo7r8" %}
-
- More at:
-  * ...
-
- See also [D], ...
-
-
-# Deep Q-Network
-
-# DQN
-
- Use this algorithm when
-  * Model-free learning
-  * Off-policy learning
-  * Discrete action space
-  * Continuous state space
-  * Q-value operator
-
- {% pdf "https://arxiv.org/pdf/1312.5602.pdf" %}
-
- More at:
-  * [https://towardsdatascience.com/deep-q-networks-theory-and-implementation-37543f60dd67](https://towardsdatascience.com/deep-q-networks-theory-and-implementation-37543f60dd67)
-
- See also [D], ...
-
-
-# Deepfake
-
- Deepfakes (a portmanteau of "deep learning" and "fake") are synthetic media in which a person in an existing image or video is replaced with someone else's likeness. While the act of creating fake content is not new, deepfakes leverage powerful techniques from machine learning and artificial intelligence to manipulate or generate visual and audio content that can more easily deceive. The main machine learning methods used to create deepfakes are based on deep learning and involve training generative neural network architectures, such as autoencoders, or generative adversarial networks (GANs).
-
- Deepfakes have garnered widespread attention for their potential use in creating child sexual abuse material, celebrity pornographic videos, revenge porn, fake news, hoaxes, bullying, and financial fraud. This has elicited responses from both industry and government to detect and limit their use.
-
- From traditional entertainment to gaming, deepfake technology has evolved to be increasingly convincing and available to the public, allowing the disruption of the entertainment and media industries.
-
- {% youtube "https://www.youtube.com/watch?v=Yb1GCjmw8_8" %}
-
- More at:
-  * [https://en.wikipedia.org/wiki/Deepfake](https://en.wikipedia.org/wiki/Deepfake)
-
- See also [D], [AI Avatar]
 
 # Deep Learning
 
@@ -600,7 +560,6 @@ layout: page
 
 
 # Deep Neural Network
-
 # DNN
 
  A deep neural network (DNN) is an [artificial neural network (ANN)][ANN] with multiple layers between the input and output layers. The DNN finds the correct mathematical manipulation to turn the input into the output, whether it be a linear relationship or a non-linear relationship. The network moves through the layers calculating the probability of each output.
@@ -608,11 +567,74 @@ layout: page
  See also [D], ...
 
 
-# Deep Reinforcement Learning
+# Deep Q-Learning Algorithm
+# DQL Algorithm
 
+ [Deep Q-learning (DQN)][DQN] is an extension of the basic [Q-learning algorithm] that uses deep neural networks as function approximators to estimate the [Q-values], also known as the [Q-Value function]..
+
+ [Reinforcement Learning] involves managing state-action pairs and keeping a track of value ([reward]) attached to an action to determine the optimum policy. This method of maintaining a state-action-value table is not possible in real-life scenarios when there are a larger number of possibilities. Instead of utilizing a table, we can make use of Neural Networks to predict values for actions in a given [state].
+
+ ![]( {{site.assets}}/d/deep_q_learning_algorithm.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=wrBUkpiRvCA" %}
+
+ More at:
+  * ...
+
+ See also [D], ...
+
+
+# Deep Q-Network
+# DQN
+
+ Used as an approximation for the [Q-Value function] when the number of state is large (action count is often limited or much smaller than the state count). The name of the neural network that approximate a [Q-Value function].
+
+ Use this algorithm when
+  * [Model-free RL] learning
+  * Off-policy learning
+  * Discrete [action space]
+  * Continuous [state space]
+  * [Q-value] operator
+
+ ![]( {{site.assets}}/d/deep_q_network.png ){: width="100%"}
+
+ We understand that the input layer of the DNN has the same size than a state size and that the output layer has the size of the number of actions that the agent can take. In other words, the output is the Q-value vector for each action that can be taken from that state. That is if there are only 4 actions: Q(s,a_1), Q(s, a_2), Q(s, a_3), Q(a, a_4).
+
+ DQN training ==> find the optimal policy by approximating the Q-function
+
+  1. initialize [replay memory] capacity
+  2. initialize the network with random weights
+  3. for each [episode]
+     1. initialize the starting state
+     2. for each time step:
+        1. Select an [action]via [exploration] or [exploitation]
+        2. Execute selected action in an emulator
+        3. Observe reward and next state
+        4. Store experience in replay memory. Review [Bellman Equation] !
+        5. Sample random [batch] from [replay memory]
+        6. Preprocess states from batch
+        7. Pass batch of preprocessed states to [policy] network
+        8. Calculate loss between output [Q-values] and target [Q-values]
+           * Requires a second pass to the network for the next state
+        9. [Gradient descent] updates weights in the policy network to minimize loss.
+
+ Beware: weights are calculated using the [stochastic gradient descent] AND [backpropagation] (as other neural networks)
+
+ {% pdf "https://arxiv.org/pdf/1312.5602.pdf" %}
+
+ More at:
+  * [https://deeplizard.com/learn/video/0bt0SjbS3xc](https://deeplizard.com/learn/video/0bt0SjbS3xc)
+  * [https://towardsdatascience.com/deep-q-networks-theory-and-implementation-37543f60dd67](https://towardsdatascience.com/deep-q-networks-theory-and-implementation-37543f60dd67)
+
+ See also [D], ...
+
+
+# Deep Reinforcement Learning
 # Deep RL
 
- [Reinforcement learning] where the policy and reward are deep neural networks.
+ [Reinforcement learning] where the [policy] and [reward] are [deep neural networks].
+
+ {% youtube "https://www.youtube.com/watch?v=AKbX1Zvo7r8" %}
 
  More at:
   * [https://huggingface.co/learn/deep-rl-course/unit0/introduction](https://huggingface.co/learn/deep-rl-course/unit0/introduction)
@@ -625,6 +647,22 @@ layout: page
  Based on neural network. `Time series forecasting` (ex number of units sold). Model needs to be trained, i.e. supervised. Integrated with Sagemaker. Lots of hyperparameters. Tuning is very important.
 
  See also [D], ...
+
+
+# Deepfake
+
+ Deepfakes (a portmanteau of "deep learning" and "fake") are synthetic media in which a person in an existing image or video is replaced with someone else's likeness. While the act of creating fake content is not new, deepfakes leverage powerful techniques from machine learning and artificial intelligence to manipulate or generate visual and audio content that can more easily deceive. The main machine learning methods used to create deepfakes are based on deep learning and involve training generative neural network architectures, such as autoencoders, or generative adversarial networks (GANs).
+
+ Deepfakes have garnered widespread attention for their potential use in creating child sexual abuse material, celebrity pornographic videos, revenge porn, fake news, hoaxes, bullying, and financial fraud. This has elicited responses from both industry and government to detect and limit their use.
+
+ From traditional entertainment to gaming, deepfake technology has evolved to be increasingly convincing and available to the public, allowing the disruption of the entertainment and media industries.
+
+ {% youtube "https://www.youtube.com/watch?v=Yb1GCjmw8_8" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Deepfake](https://en.wikipedia.org/wiki/Deepfake)
+
+ See also [D], [AI Avatar]
 
 
 # DeepMind Company
@@ -833,7 +871,6 @@ We need to do this for
 
 
 # Diffusion Model
-
 # DM
 
  There are a few downsides to Diffusion models: they work sequentially on the whole image, meaning that both the training and inference times are expansive. This is why you need hundreds of GPUs to train such a model and why you wait a few minutes to get your results. they are iterative models that take random noise as inputs, which can be conditioned with a text or an image, so it is not completely random noise. It iteratively learns to remove this noise by learning what parameters the model should apply to this noise to end up with a final image. So the basic diffusion models will take random noise with the size of the image and learn to apply even further noise until we get back to a real image.
@@ -920,7 +957,6 @@ We need to do this for
 
 
 # Direct Preference Optimization
-
 # DPO
 
  DPO replaces [RLHF] : In this technical and informative video, we explore a groundbreaking methodology called direct preference optimization (DPO) by Stanford Univ that has the potential to replace reinforcement learning in the training of GPT systems. 
@@ -1006,7 +1042,6 @@ We need to do this for
 
 
 # Disentangled Variational Autoencoder
-
 # Beta-VAE
 
  Variational autoencoder where weights in the latent space are meaningful, e.g. rotation of the head in a portrait representation.
@@ -1030,14 +1065,22 @@ We need to do this for
  See also [D], [BERT Model]
 
 
+# Distributed Training
+
+ See also [D], [Apache Spark], [TensorFlow ML Framework]
+
+
 # Distribution
 
  See also [D], [Cumulative Distribution Function], [Sample]
 
 
-# Distributed Training
+# Distributional Reinforcement Learning
+# Distributional RL
 
- See also [D], [Apache Spark], [TensorFlow ML Framework]
+ In [RL], Learn value distribution rather than just mean. Improves extrapolation.
+
+ See also [D], ...
 
 
 # Domain-Specific Model
@@ -1198,8 +1241,31 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
  See also [D], ...
 
 
-# Dynamic Programming
+# Dyna Model
 
+ Dyna is a [model-based reinforcement learning (RL)][Model-based RL] algorithm that combines model-free RL with model-based search to improve sample efficiency. The key characteristics are:
+
+  * Learns a model of the environment's transition dynamics and rewards
+  * Uses experience to improve model accuracy
+  * Plans [actions] using simulated experiences generated from the learned model
+  * Executes [actions] in real [environment] and uses results to further improve model
+  * Interleaves model-based planning with model-free RL
+  * Allows exploiting knowledge from model while continuing to explore environment
+  * Dramatically improves learning rate over pure model-free approaches
+  * Planning step is computationally inexpensive compared to real experiences
+  * Plans can focus on promising areas to guide exploration
+  * Model can be learned with [neural networks] to handle complex [environments]
+  * Does not need a perfect model, approximate is sufficient if sampled appropriately
+
+ In summary, Dyna augments real experience with simulated experience from a learned model to accelerate learning. It achieves efficiency gains by leveraging planning in addition to model-free learning.
+
+ More at:
+  * ...
+
+ See also [D], ...
+
+
+# Dynamic Programming
 # DP
 
  Dynamic Programming (DP) is defined as a technique that solves some particular type of problems in Polynomial Time. Dynamic Programming solutions are faster than the exponential brute method and can be easily proved their correctness.
@@ -1249,5 +1315,3 @@ In contrast, the dynamic programming approach avoids redundant computations by s
   * [https://www.geeksforgeeks.org/introduction-to-dynamic-programming-data-structures-and-algorithm-tutorials/](https://www.geeksforgeeks.org/introduction-to-dynamic-programming-data-structures-and-algorithm-tutorials/)
 
  See also [D], ...
-
-

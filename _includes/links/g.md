@@ -26,6 +26,7 @@
 [Generative Model]: {{ site.baseurl }}{% link glossary/g.md %}#generative-model
 [Generative Pre-Trained Transformer Model]: {{ site.baseurl }}{% link glossary/g.md %}#generative-pre-trained-transformer-model
 [GPT Model]: {{ site.baseurl }}{% link glossary/g.md %}#generative-pre-trained-transformer-model
+[GPT Models]: {{ site.baseurl }}{% link glossary/g.md %}#generative-pre-trained-transformer-model
 [GPT-3]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-3
 [GPT-4]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-4
 [Generator]: {{ site.baseurl }}{% link glossary/g.md %}#generator
@@ -40,6 +41,8 @@
 [GLIDE Model]: {{ site.baseurl }}{% link glossary/g.md %}#glide-model
 [GloVe]: {{ site.baseurl }}{% link glossary/g.md %}#glove
 [Gluon]: {{ site.baseurl }}{% link glossary/g.md %}#gluon
+[Goal-Conditioned Reinforcement Learning]: {{ site.baseurl }}{% link glossary/g.md %}#goal-conditioned-reinforcement-learning
+[Goal-Conditioned RL]: {{ site.baseurl }}{% link glossary/g.md %}#goal-conditioned-reinforcement-learning
 [Google Company]: {{ site.baseurl }}{% link glossary/g.md %}#google-company
 [Google]: {{ site.baseurl }}{% link glossary/g.md %}#google-company
 [Google Lens]: {{ site.baseurl }}{% link glossary/g.md %}#google-lens
@@ -57,21 +60,28 @@
 [Gradient Boosting]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-boosting
 [Gradient Clipping]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-clipping
 [Gradient Descent Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descent-algorithm
+[Gradient Descent]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descent-algorithm
 [GD Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descent-algorithm
+[GD]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descent-algorithm
 [Gradient Descent with Momentum Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descent-with-momentum-algorithm
+[Gradient Descent with Momentum]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descent-with-momentum-algorithm
 [GD with Momentum Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descent-with-momentum-algorithm
 [Gradient Perturbation]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-perturbation
 [Gradio Python Module]: {{ site.baseurl }}{% link glossary/g.md %}#gradio-python-module
 [Gradio]: {{ site.baseurl }}{% link glossary/g.md %}#gradio-python-module
 [Graph Convolutional Network]: {{ site.baseurl }}{% link glossary/g.md %}#graph-convolutinoal-network
+[Graph Convolutional Networks]: {{ site.baseurl }}{% link glossary/g.md %}#graph-convolutinoal-network
 [GCN]: {{ site.baseurl }}{% link glossary/g.md %}#graph-convolutinoal-network
+[GCNs]: {{ site.baseurl }}{% link glossary/g.md %}#graph-convolutinoal-network
 [Graph Data Science]: {{ site.baseurl }}{% link glossary/g.md %}#graph-data-science
 [GDS]: {{ site.baseurl }}{% link glossary/g.md %}#graph-data-science
 [Graph Database]: {{ site.baseurl }}{% link glossary/g.md %}#graph-database
 [Graph Embedding]: {{ site.baseurl }}{% link glossary/g.md %}#graph-embedding
 [Graph Embeddings]: {{ site.baseurl }}{% link glossary/g.md %}#graph-embedding
 [Graph Neural Network]: {{ site.baseurl }}{% link glossary/g.md %}#graph-neural-network
+[Graph Neural Networks]: {{ site.baseurl }}{% link glossary/g.md %}#graph-neural-network
 [GNN]: {{ site.baseurl }}{% link glossary/g.md %}#gnn
+[GNNs]: {{ site.baseurl }}{% link glossary/g.md %}#gnn
 [Graph Neural Network Edge-Level Task]: {{ site.baseurl }}{% link glossary/g.md %}#graph-neural-network-edge-level-task
 [GNN Edge-Level Task]: {{ site.baseurl }}{% link glossary/g.md %}#graph-neural-network-edge-level-task
 [Graph Neural Network Graph Level Task]: {{ site.baseurl }}{% link glossary/g.md %}#graph-neural-network-graph-level-task

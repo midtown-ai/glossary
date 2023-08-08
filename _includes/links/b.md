@@ -17,13 +17,14 @@
 [Batch Size]: {{ site.baseurl }}{% link glossary/b.md %}#batch-size
 [Batch Training]: {{ site.baseurl }}{% link glossary/b.md %}#batch-training
 [Bayes Search]: {{ site.baseurl }}{% link glossary/b.md %}#bayes-search
-[Bayes Theorem]: {{ site.baseurl }}{% link glossary/b.md %}#bayes-theorem
+[Bayes' Theorem]: {{ site.baseurl }}{% link glossary/b.md %}#bayes-theorem
 [Bayesian Inference]: {{ site.baseurl }}{% link glossary/b.md %}#bayesian-inference
 [Bayesian Network]: {{ site.baseurl }}{% link glossary/b.md %}#bayesian-network
 [Bayesian Optimization Sampling Method]: {{ site.baseurl }}{% link glossary/b.md %}#bayesian-optimization-sampling-method
 [Behavioural Cloning]: {{ site.baseurl }}{% link glossary/b.md %}#behavioural-cloning
 [Belief-Desire-Intention Framework]: {{ site.baseurl }}{% link glossary/b.md %}#belief-desire-intention-framework
 [BDI Framework]: {{ site.baseurl }}{% link glossary/b.md %}#belief-desire-intention-framework
+[Belief Distribution]: {{ site.baseurl }}{% link glossary/b.md %}#belief-distribution
 [Bellman Equation]: {{ site.baseurl }}{% link glossary/b.md %}#bellman-equation
 [Benchmark]: {{ site.baseurl }}{% link glossary/b.md %}#benchmark
 [Berkeley University]: {{ site.baseurl }}{% link glossary/b.md %}#berkeley-university
@@ -37,6 +38,7 @@
 [Bidirectional Encoder Representation from Transformer Model]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model
 [Bidirectional Encoder Representation from Transformer]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model
 [BERT Model]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model
+[BERT Models]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model
 [BERT]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model
 [Bidirectional Recurrent Neural Network]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-recurrent-neural-network
 [BRNN]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-recurrent-neural-network

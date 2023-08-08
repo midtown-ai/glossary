@@ -29,6 +29,8 @@
 [Fei-Fei Li]: {{site.baseurl }}{% link glossary/f.md %}#fei-fei-li-person
 [Few-Shot Learning]: {{site.baseurl }}{% link glossary/f.md %}#few-shot-learning
 [Few-Shot Prompting]: {{site.baseurl }}{% link glossary/f.md %}#few-shot-prompting
+[Few-Shot Reinforcement Learning]: {{site.baseurl }}{% link glossary/f.md %}#few-shot-reinforcement-learning
+[Few-Shot RL]: {{site.baseurl }}{% link glossary/f.md %}#few-shot-reinforcement-learning
 [File Mode]: {{site.baseurl }}{% link glossary/f.md %}#file-mode
 [Fine-Tuning]: {{site.baseurl }}{% link glossary/f.md %}#fine-tuning
 [FinGPT Model]: {{site.baseurl }}{% link glossary/f.md %}#fingpt-model

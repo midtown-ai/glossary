@@ -411,6 +411,16 @@ cheese =>
  See also [F], ...
 
 
+# Few-Shot Reinforcement Learning
+# Few-Shot RL
+
+ Learn new tasks from only a few examples. Leverages prior knowledge.
+
+ More at:
+  * ...
+
+ See also [F], ...
+
 # File Mode
 
  Each step of the training process generate file and are not streamed (?). 

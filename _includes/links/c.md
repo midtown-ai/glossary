@@ -22,12 +22,14 @@
 [Checkpoint Evaluation]: {{ site.baseurl }}{% link glossary/c.md %}#checkpoint-evaluation
 [Child Development Milestone]: {{ site.baseurl }}{% link glossary/c.md %}#child-development-milestone
 [Chinchilla Model]: {{ site.baseurl }}{% link glossary/c.md %}#chinchilla-model
+[Chinchilla]: {{ site.baseurl }}{% link glossary/c.md %}#chinchilla-model
 [Chinchilla Scaling Law]: {{ site.baseurl }}{% link glossary/c.md %}#chinchilla-scaling-law
 [Chroma Database]: {{ site.baseurl }}{% link glossary/c.md %}#chroma-database
 [CIDEr Score]: {{ site.baseurl }}{% link glossary/c.md %}#cider-score
 [CICERO Model]: {{ site.baseurl }}{% link glossary/c.md %}#cicero-model
 [CICERO]: {{ site.baseurl }}{% link glossary/c.md %}#cicero-model
 [CIFAR Dataset]: {{ site.baseurl }}{% link glossary/c.md %}#cifar-dataset
+[CIFAR Datasets]: {{ site.baseurl }}{% link glossary/c.md %}#cifar-dataset
 [CIFAR]: {{ site.baseurl }}{% link glossary/c.md %}#cifar-dataset
 [Classification]: {{ site.baseurl }}{% link glossary/c.md %}#classification
 [Claude Model]: {{ site.baseurl }}{% link glossary/c.md %}#claude-model
@@ -37,6 +39,7 @@
 [Clustering]: {{ site.baseurl }}{% link glossary/c.md %}#clustering
 [CNTK]: {{ site.baseurl }}{% link glossary/c.md %}#cntk
 [Codex Model]: {{ site.baseurl }}{% link glossary/c.md %}#codex-model
+[Codex]: {{ site.baseurl }}{% link glossary/c.md %}#codex-model
 [Cognitron]: {{ site.baseurl }}{% link glossary/c.md %}#cognitron
 [Cognosys AI Company]: {{ site.baseurl }}{% link glossary/c.md %}#cognosys-ai-company
 [Cognosys AI]: {{ site.baseurl }}{% link glossary/c.md %}#cognosys-ai-company
@@ -109,6 +112,8 @@
 [Cumulative Distribution Function]: {{ site.baseurl }}{% link glossary/c.md %}#cumulative-distribution-function
 [CDF]: {{ site.baseurl }}{% link glossary/c.md %}#cumulative-distribution-function
 [Cumulative Reward]: {{ site.baseurl }}{% link glossary/c.md %}#cumulative-reward
+[Curiosity-Driven Reinforcement Learning]: {{ site.baseurl }}{% link glossary/c.md %}#curiosity-driven-reinforcement-learning
+[Curiosity-Driven RL]: {{ site.baseurl }}{% link glossary/c.md %}#curiosity-driven-reinforcement-learning
 [Curse Of Dimensionality]: {{ site.baseurl }}{% link glossary/c.md %}#curse-of-dimensionality
 [Custom Churn Prediction]: {{ site.baseurl }}{% link glossary/c.md %}#custom-churn-prediction
 [Cybernetic Organism]: {{ site.baseurl }}{% link glossary/c.md %}#cybernetic-organism

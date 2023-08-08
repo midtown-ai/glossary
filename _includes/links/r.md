@@ -41,6 +41,10 @@
 [REINFORCE]: {{ site.baseurl }}{% link glossary/r.md %}#reinforce-algorithm
 [Reinforcement Learning]: {{ site.baseurl }}{% link glossary/r.md %}#reinforcement-learning
 [RL]: {{ site.baseurl }}{% link glossary/r.md %}#reinforcement-learning
+[Reinforcement Learning Agent]: {{ site.baseurl }}{% link glossary/r.md %}#reinforcement-learning-agent
+[Reinforcement Learning Agents]: {{ site.baseurl }}{% link glossary/r.md %}#reinforcement-learning-agent
+[RL Agent]: {{ site.baseurl }}{% link glossary/r.md %}#reinforcement-learning-agent
+[RL Agents]: {{ site.baseurl }}{% link glossary/r.md %}#reinforcement-learning-agent
 [Reinforcement Learning Algorithm]: {{ site.baseurl }}{% link glossary/r.md %}#reinforcement-learning-algorithm
 [Reinforcement Learning Algorithms]: {{ site.baseurl }}{% link glossary/r.md %}#reinforcement-learning-algorithm
 [RL Algorithm]: {{ site.baseurl }}{% link glossary/r.md %}#reinforcement-learning-algorithm
@@ -53,6 +57,7 @@
 [RAE]: {{site.baseurl }}{% link glossary/r.md %}#relative-approximation-error
 [Relative Entropy]: {{site.baseurl }}{% link glossary/r.md %}#relative-entropy
 [Replaced Word Prediction]: {{site.baseurl }}{% link glossary/r.md %}#replaced-word-prediction
+[Replay Memory]: {{site.baseurl }}{% link glossary/r.md %}#replay-memory
 [Representation Space]: {{site.baseurl }}{% link glossary/r.md %}#representation-space
 [Reptile]: {{site.baseurl }}{% link glossary/r.md %}#reptile
 [Resample]: {{site.baseurl }}{% link glossary/r.md %}#resample

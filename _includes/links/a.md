@@ -52,7 +52,6 @@
 [Adversarial Policy]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-policy
 [Affective Computing]: {{ site.baseurl }}{% link glossary/a.md %}#affective-computing
 [Agent]: {{ site.baseurl }}{% link glossary/a.md %}#agent
-[Agent's Goal]: {{ site.baseurl }}{% link glossary/a.md %}#agent-s-goal
 [AI Alignment]: {{ site.baseurl }}{% link glossary/a.md %}#ai-alignment
 [AI Artificial Intelligence Movie]: {{ site.baseurl }}{% link glossary/a.md %}#ai-artificial-intelligence-movie
 [AI Avatar]: {{ site.baseurl }}{% link glossary/a.md %}#ai-avatar
@@ -84,6 +83,7 @@
 [Alexander Wang Person]: {{ site.baseurl }}{% link glossary/a.md %}#alexander-wang-person
 [Alexander Wang]: {{ site.baseurl }}{% link glossary/a.md %}#alexander-wang-person
 [AlexNet Model]: {{ site.baseurl }}{% link glossary/a.md %}#alexnet-model
+[AlexNet]: {{ site.baseurl }}{% link glossary/a.md %}#alexnet-model
 [Algorithmic]: {{ site.baseurl }}{% link glossary/a.md %}#algorithmic
 [Alpaca Model]: {{ site.baseurl }}{% link glossary/a.md %}#alpaca-model
 [Alpaca]: {{ site.baseurl }}{% link glossary/a.md %}#alpaca-model

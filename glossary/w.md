@@ -178,6 +178,16 @@ layout: page
  See also [W], ...
 
 
+# Weighted Ensemble Model
+
+ Used several models and weights their outputs based on their accuracy, or [BAU]
+
+ More at:
+  * code - [https://www.kaggle.com/code/beezus666/titanic-space-total-overkill](https://www.kaggle.com/code/beezus666/titanic-space-total-overkill)
+
+ See also [W], ...
+
+
 # Weighted Gini Impurity Index
 
  See also [W], [Gini Impurity Index], [Forest Of Stumps]

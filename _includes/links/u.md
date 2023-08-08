@@ -12,5 +12,6 @@
 [Unstructured Data]: {{ site.baseurl }}{% link glossary/u.md %}#unstructured-data
 [Unsupervised Deep Learning Model]: {{ site.baseurl }}{% link glossary/u.md %}#unsupervised-deep-learning-model
 [Unsupervised Learning]: {{ site.baseurl }}{% link glossary/u.md %}#unsupervised-learning
+[Unsupervised Pre-Training]: {{ site.baseurl }}{% link glossary/u.md %}#unsupervised-pre-training
 [Update Ratio]: {{ site.baseurl }}{% link glossary/u.md %}#update-ratio
 [Upstream Task]: {{ site.baseurl }}{% link glossary/u.md %}#upstream-task

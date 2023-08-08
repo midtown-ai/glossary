@@ -307,8 +307,13 @@ completion = llm(prompt)
 
 # Learning Rate
 
+ ~ controls how rapidly the model learns/changes
+
+ :warning: Often symbolized by 'alpha'
+
  The learning rate `controls how rapidly the weights and biases of each network are updated during training`. A higher learning rate might allow the network to explore a wider set of model weights, but might pass over more optimal weights. Iterative learning: (1) observe difference between predicted answer, and correct answer. (2) Adjust the model a 'small amount' (at each pass /epoch) to make the prediction closer to the correct answer. Size of update at each iteration. Relative weight of new iteration vs old iterations?
 
+ The learning rate is impacted differently function of the ML algorithm in use
  ```
 new_value = expected_value + alpha * ( observed_error )
           = expected_value + alpha * ( observed_value - expected_value)
@@ -316,6 +321,19 @@ new_value = expected_value + alpha * ( observed_error )
 
 with alpha = learning_rate
  ```
+ In [reinforcement learning], more specifically in Q-learning, the learning rate is used as follow:
+
+ ```
+# Q-Learning
+
+Q_new = (1 - alpha) * Q_old + alpha * Q_learned
+
+# From state, go to next_state
+# Q_old = value in the Q-table for the state-action pair
+# Q_learned = computed value in the Q-table for the state-action pair given the latest action
+            = R_t+1 + gamma * optimized_Q_value(next_state)               <== next state is known & next-state Q-values are known
+            = R_t+1 + gamma * max( Q_current(next_state, action_i) )
+  ```
 
  Beware:
   * the learning rate, alpha, is between 0 and 1
@@ -685,22 +703,22 @@ class Model(nn.Module):
 
  Loss function is a way to encode a goal. That loss function is going to dictate the optimized path toward that goal? Optimization?
 
- Loss function is used for parameter estimation.
+ In most cases, the loss function is used for parameter estimation. Those parameters reflect the goal?
 
  `The loss function must encode what you want your model to do!` The loss function will take two items as input: the output value of our model and the ground truth expected value. The output of the loss function is called the loss which is a measure of how well our model did at predicting the outcome. A high value for the loss means our model performed very poorly. A low value for the loss means our model performed very well. In most learning networks, error is calculated as the difference between the actual output y and the predicted output ŷ. The function that is used to compute this error is known as Loss Function also known as Cost function. The loss function allows us to find the best line. The model is iterated to minimize the loss function using the gradient descent algorithm. Selection of the proper loss function is critical for training an accurate model. Certain loss functions will have certain properties and help your model learn in a specific way. Some may put more weight on outliers, others on the majority.
 
  The most common loss functions are:
-  * [Mean Squared Error (MSE)][Mean Square Error Loss Function]: Used in a linear regression, the best line is the one that minimize the root-mean square of the error.
-  * [Mean Absolute Error (MAE)][Mean Absolute Error Loss Function]
+  * [Mean Squared Error (MSE)][MSE] - Used in a linear regression, the best line is the one that minimize the root-mean square of the error.
+  * [Mean Absolute Error (MAE)][MAE] - Use the absolute error instead of the RMS error. Beware of [outliers].
   * [Hinge Loss Function]
-  * [Huber Loss Function]
+  * [Huber Loss Function] - Use the [MSE] for small values and [MAE] for large values ?
   * [0-1 Loss Function] : 0=correct 1=not-correct classification
-  * [binary cross-entropy loss function] (aka Log loss function) : Used with logistic regression because the logistic regression function (sigmoid or ?) is not linear and loss function needs to have a single minimum
-  * [cross-entropy loss function]
+  * [Binary cross-entropy loss function] (aka Log loss function) : Used with logistic regression because the logistic regression function (sigmoid or ?) is not linear and loss function needs to have a single minimum
+  * [Cross-entropy loss function]
   * [Contrastive loss function] and [triplet loss function]
   * another custom function !
  Choose your loss function based on
-  * the original estimator function (?) e.g. lineear or sigmoid
+  * the original estimator function (?) e.g. linear or sigmoid
   * must have a global minimum and not local ones
 
  More at :
@@ -720,7 +738,7 @@ class Model(nn.Module):
 
 # LoRA Fine-Tuning
 
- A method for [parameter-efficient fine-tuning (PEFT)]
+ A method for [parameter-efficient fine-tuning (PEFT)][PEFT]
 
  LoRA performs on-par or better than finetuning in model quality on RoBERTa, DeBERTa, GPT-2, and GPT-3, despite having fewer trainable parameters, a higher training throughput, and, unlike [adapters], no additional inference latency
 
@@ -735,7 +753,7 @@ class Model(nn.Module):
   * article(s)
     * [https://bdtechtalks.com/2023/05/22/what-is-lora/](https://bdtechtalks.com/2023/05/22/what-is-lora/)
 
- See also [L], ...
+ See also [L], [QLoRA Fine-Tuning]
 
 
 # Low-Rank Approximation

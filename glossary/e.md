@@ -362,26 +362,74 @@ H(X) = -∑(p(x) * log2 p(x))
 
 # Environment
 
- In [reinforcement learning], the environment provides states or observations of current state, and rewards/feeback.
+ In [reinforcement learning], the environment provides [states] or observations of current [state], and [rewards] ([supervised feedback]).
 
  In a RL environment,
   * you cannot use [backpropagation] through an environment (Reward <-- Action <-- State) because too complicated and we cannot compute the derivative!
   * you cannot change its [parameters] as it is fixed!
-  * but you can use the reward to signal (intensity and direction) to identify which  action is preferred over the others and update the agent's [policy] weights
+  * but you can use the [reward] to signal (intensity and direction) to identify which [action] is preferred over the others and update the [RL agent]'s [policy] weights
+
+ Environments can be
+  * deterministic = where the next state and reward are completely determined by the current state and action taken by the agent. In other words, there is no randomness.
+  * stochastic = there is randomness involved in the state transition and reward functions. The next state and reward are not solely determined by the current state and action. (Ex: a car/agent on an icy road)
+  * fully observable = agent can directly observe the complete state of the environment at each time step
+  * partially observable = agent cannot directly observe the full state, only partial observation. (Ex: a self-driving car has sensors that can only give it information about its immediate surroundings, not the full map/city/world) ==> agent needs memory to remember past observations and actions. Agents also use techniques like [Bayesian inference] to maintain a [belief distribution] over possible current states.
 
  ![]( {{site.assets}}/e/environment.png ){: width="100%"}
 
- See also [E], [Isaac Gym], [PyBullet], [RobotSchool]
+ More at:
+  * ...
+
+ See also [E], [Isaac Gym Environment], [OpenAI Gym Environment], [PyBullet], [RobotSchool]
 
 
 # Episode
 
- In [Reinforcement Learning], 
+ In [reinforcement learning], an episode refers to a single complete run of the [agent] interacting with the [environment]. Here are some key points:
 
- we play a lot of episode to learn from the environment
+  * An episode begins when the agent observes the initial state of the environment.
+  * The agent then selects actions which lead to new states, continuing until the terminal state is reached, ending the episode.
+  * A terminal state signifies the end of an episode. This could be due to success, failure or a set time limit.
+  * Starting a new training episode resets the environment and begins a new independent run. The initial state is sampled again.
+  * Episodes allow the reinforcement learning agent to have multiple attempts at the task to gain experience and improve over time.
+  * The agent implements the policy it has learned so far to try and maximize reward during each episode.
+  * Metrics like episode reward and length track performance across episodes to monitor learning progress.
+  * In a continuing task without terminal states, episodes may be defined by fixed timeouts rather than end states.
 
+ Training processes often iterate through a large number of episodes, learning from the experience gained in each one.
+
+ So in summary, episodes are complete simulations used to train and evaluate reinforcement learning agents in a repeatable manner. Multiple episodes build up the agent's experience.
+
+ Episode types:
   * Continuous task = no end
   * Episodic task = has at least one final state (time, goal, etc)
+
+ ```
+In the context of DeepRacer, an episode refers to a single complete race around the track. Here are some key details:
+
+  * Each episode starts with the agent (the car) placed at the starting line and ends when it crosses the finish line or goes off course.
+  * During an episode, the agent observes the track environment through its onboard camera and selects actions (steering angle and speed) to try to complete the lap.
+  * Episodes initially last only a few seconds as the untrained agent goes off track quickly. As learning progresses, episode duration increases.
+  * When an episode ends, the car is reset to the start and a new episode begins - like restarting a race in a game.
+  * Over many episodes, DeepRacer gradually learns how to navigate the turns and terrain of the track to improve lap time and completion rate.
+  * Metrics like time per episode, progress (distance traveled), and reward per episode are tracked to monitor learning across episodes.
+  * Good hyperparameter tuning is required so the agent can learn effectively across episodes without overfitting or getting stuck.
+ 
+ So in summary, each full lap of the track is considered a distinct episode for the DeepRacer agent to gain experience and improve its policy. Multiple laps make up the full training.
+ ```
+
+ ![]( {{site.assets}}/e/episode_deepracer.png ){: width="100%"}
+
+ The vehicle will start by exploring the grid until it moves out of bounds or reaches the destination. As it drives around, the vehicle accumulates rewards from the scores we defined. This process is called an episode. The interaction of the agent from an initial state to a terminal state is called an episode. An episode starts with the agent somewhere on the race track and finishes when the agent either goes off-track or completes a lap.
+
+ In this episode, the vehicle accumulates a total reward of 2.2 before reaching a stop state.
+ After each episode, the epsilon used in the epsilon greedy strategy decays (is reduced) and hence the likelihood of exploitation vs exploration increases. 
+
+ Episode Status:
+  * prepare
+  * in_progress
+  * off_track
+  * auto_terminated = when the episode does not reach a terminate condition, it is auto-terminated based on the number of steps.
 
  See also [E], ...
 
@@ -402,7 +450,59 @@ H(X) = -∑(p(x) * log2 p(x))
 
  After training is complete, the model can be evaluated on a separate validation dataset to assess its performance. If the model is [overfitting] the training data, the validation loss will start to increase while the training loss continues to decrease, indicating that the model is starting to memorize the training data rather than learning to generalize to new data. In this case, [early stopping] or other regularization techniques can be used to prevent overfitting.
 
+ The number of epochs used during neural network training impacts model performance. Both using too few or too many epochs can lead to problems:
+
+ Too Few Epochs:
+  * Underfitting: With too few epochs, the model does not have enough opportunities to learn from the training data. This can lead to underfitting, where the model fails to capture important patterns in the data.
+  * Suboptimal metrics: Validation metrics like accuracy and loss will be worse than their optimum if training is stopped too early. The model has not had enough iterations to converge on better weights.
+
+ Too Many Epochs:
+  * Overfitting: With too many epochs, the model may end up overfitting to the training data. This causes it to memorize noise and details instead of learning generalizable patterns.
+  * Long training time: Additional epochs extend training time significantly, especially for large datasets. The model may have already converged, so extra epochs are wasteful.
+  * Performance plateau: After a point, more epochs do not improve validation metrics like accuracy and loss. The model stops generalizing better.
+
+ The ideal number of epochs involves stopping after the validation loss has plateaued - this indicates the model has fit the training data as well as possible without overfitting. The exact number depends on the size and complexity of the dataset and model. Setting up early stopping callbacks helps prevent both underfitting and overfitting.
+
  See also [E], [Gradient Descent Algorithm]
+
+
+# Epsilon-Greedy Exploration Strategy
+
+ The epsilon-greedy exploration strategy is a commonly used approach in [reinforcement learning] for balancing [exploration] and [exploitation] during training. Here's an overview:
+
+  * [Exploration] refers to the agent trying new actions to gather more information about the environment. [Exploitation] refers to the agent leveraging knowledge gained so far to obtain the maximum reward.
+  * In epsilon-greedy strategy, the agent chooses the greedy or exploitative [action] most of the time - i.e. the action with the highest expected [reward] based on past [experience].
+  * But the [agent] also takes a random exploratory [action] with some probability epsilon. This ensures the [agent] continues to explore new [actions].
+  * The epsilon value controls the chance of taking a random action instead of the greedy action. It is typically decays over time from a higher starting value like 1 or 0.5 to a small value like 0.01.
+  * With higher epsilon initially, the agent explores more. As epsilon decays, the [agent] shifts focus to [exploitation] by taking actions with the highest observed rewards.
+  * The schedule for decaying epsilon balances short-term and long-term returns - explore more initially to find good [policies], exploit more later to maximize [cumulative reward].
+  * Setting epsilon scheduling requires tuning - faster decay for simple [environments], slower for complex ones.
+  * Epsilon-greedy strikes a good balance between simple random [exploration] and pure greedy [exploitation].
+
+ So in summary, epsilon-greedy exploration defines how often an agent should choose random exploratory actions instead of exploitative actions to balance discovering new information with maximizing rewards through past knowledge.
+
+ The [exploration rate] (epsilon) and epsilon-greedy strategy are closely related, but refer to slightly different aspects of the reinforcement learning process:
+  * Exploration rate (epsilon): This is a hyperparameter that determines the probability of choosing a random action instead of the greedy action during training. It controls the degree of exploration.
+  * Epsilon-greedy strategy: This is the overall exploration strategy that makes use of the epsilon parameter to balance exploration and exploitation. It chooses greedy actions with probability (1 - epsilon) and random actions with probability epsilon.
+
+ Epsilon's decay factor is another important hyperparameter that controls how quickly the exploration rate epsilon decays over time in epsilon-greedy reinforcement learning. Here are some key points:
+
+  * The decay factor determines the rate at which epsilon will decrease from its initial value towards its minimum value.
+  * It impacts the exploration schedule - how quickly the agent shifts focus from exploration to exploitation.
+  * Common decay functions involving the decay factor include:
+    * Linear decay: et = et-1 - decay_factor
+    * Exponential decay: et = e^(-decay_factor * t)
+    * Inverse sigmoid decay: et = 1 / (1 + decay_factor * t)
+  * The decay factor is a tunable scalar hyperparameter typically in the range of 0.001 to 1.0.
+  * Lower decay values cause epsilon to decrease slowly, enabling more thorough exploration over many episodes.
+  * Higher decay leads to faster decrease in epsilon and quicker shift to exploitation. Better for simple environments.
+  * The optimal decay factor balances initial exploration to find optimal actions with subsequent exploitation to maximize cumulative reward.
+  * Setting the decay factor requires empirical tuning over multiple training runs and evaluating the impact on metrics like cumulative rewards, losses, and training stability.
+  * It interacts closely with other hyperparameters like initial epsilon and number of episodes.
+
+ So in summary, the decay factor controls the epsilon decay rate in an epsilon-greedy strategy. Tuning this hyperparameter is key to achieving the right exploration-exploitation trade-off.
+
+ See also [E], ...
 
 
 # Equivalence Class Clustering And Bottom-Up Lattice Traversal Algorithm
@@ -538,14 +638,40 @@ H(X) = -∑(p(x) * log2 p(x))
  See also [E], ...
 
 
-# Evolutionary Scale Modeling
+# Evolution Strategy
+# ES
 
+ Evolution Strategies (ES) is a type of [reinforcement learning algorithm] based on principles of biological evolution. The key characteristics are:
+
+  * Optimization is performed through a population of parameter vectors (genotypes).
+  * Each parameter vector encodes the policy/solution, analogous to a genome.
+  * The population is mutated to produce new candidate solutions.
+  * Solutions are evaluated on the task and assigned a fitness score.
+  * Higher scoring solutions are more likely to be selected for the next generation through a selection operator.
+  * Mutations and selection applied over generations gradually improves the solutions.
+  * ES methods only need the scalar reward signal, not gradients.
+  * Key parameters to tune are population size, mutation strength & type, selection pressure.
+  * Compared to [deep RL], ES can optimize policies with larger parameter spaces but is [sample inefficient].
+  * Modern ES methods incorporate recombination and adaptive mutation rates.
+  * ES is simpler to implement than backprop-based methods and trivially parallelizable.
+  * ES has shown successes in robotics, game AI, neuroevolution, and optimization.
+ 
+ In summary, evolution strategies mimic biological evolution to train policies and optimize solutions through mutations, fitness evaluation, and selection over generations. It provides a gradient-free alternative to deep RL.
+
+ More at:
+  * ...
+
+ See also [E], ...
+
+
+# Evolutionary Scale Modeling
 # ESM
 
  More at:
   * [https://github.com/facebookresearch/esm](https://github.com/facebookresearch/esm)
 
  See also [E], ...
+
 
 # Ex Machina Movie
 
@@ -579,9 +705,47 @@ H(X) = -∑(p(x) * log2 p(x))
  See also [E], ...
 
 
+# Experience
+
+ In [reinforcement learning], an experience is a sample of data that an agent observes when interacting with the environment in order to learn. An experience typically contains:
+
+  * The state (S) - The representation of the environment's condition when the agent selected an action. This captures relevant details about the situation.
+  * The action (A) - The specific action the agent took in that state. Drawn from the set of possible actions.
+  * The reward (R) - The feedback signal the agent received after taking that action in that state. Indicates the desirability of the resulting state.
+  * The next state (S') - The new state of the environment triggered by the action. Represents the consequences of the action.
+  * Done - A boolean indicating if S' is a terminal state ending the episode.
+
+ So a full experience would be represented as (S, A, R, S', Done). The sequence of states, actions and rewards make up the agent's trajectory in the environment.
+
+ These experiences are stored in the agent's experience memory. Algorithms like deep Q-learning then sample from this memory to train the neural network policy and value functions. The diverse experiences allow the agent to learn how actions connect states and rewards.
+
+ In summary, experiences are the atomic pieces of observed data that the reinforcement learning agent collects through environmental interaction to learn the optimal policy. They capture the state transitions, actions and rewards.
+
+ See also [E], ...
+
+
+# Experience Batch
+
+ A set of experiences, most likely sampled randomly from the [replay memory].
+
+ More at:
+  * ...
+
+ See also [B], ...
+
+
 # Experience Replay
 
- Experience replay, a common RL technique, used in [Deep Q-Networks] amongst others, is another in-between approach ([Offline learning] vs [Online Learning]). Although you could store all the experience necessary to fully train an agent in theory, typically you store a rolling history and sample from it. It's possible to argue semantics about this, but I view the approach as being a kind of "[buffered online learning]", as it requires low-level components that can work online (e.g. neural networks for [DQN]).
+ Experience replay, a common RL technique, used in [Deep Q-Networks] amongst others, is another in-between approach ([Offline learning] vs [Online Learning]). Although you could store all the [experience] necessary to fully train an [agent] in theory, typically you store a rolling history and sample from it. It's possible to argue semantics about this, but I view the approach as being a kind of "[buffered online learning]", as it requires low-level components that can work online (e.g. neural networks for [DQN]).
+
+ Experience is stored in the [replay memory]. To train the [DQN] network, the training algorithm sample from the experiences from that memory! So experience replay is
+  * sampling from the replay memory that stores the last-N experiences
+  * to gain experience (i.e. be trained)
+  * Take random sample from the replay memory
+
+ :warning: Do not use consecutive experiences to prevent correlation between consecutive samples to manifest and lead to inefficient learning!
+
+ {% youtube "https://www.youtube.com/watch?v=Bcuj2fTH4_4" %}
 
  More at:
   * [https://ai.stackexchange.com/questions/10474/what-is-the-relation-between-online-or-offline-learning-and-on-policy-or-off](https://ai.stackexchange.com/questions/10474/what-is-the-relation-between-online-or-offline-learning-and-on-policy-or-off)
@@ -653,20 +817,56 @@ H(X) = -∑(p(x) * log2 p(x))
 
 # Exploitation
 
- In [Reinforcement Learning]
+ When exploiting, unlike exploration the goal is to maximize the reward. During exploitation, the agent choose for a given state the action corresponding to the state optimal [Q-value]. ( = the highest Q-value = the highest expected total reward) :warning: Before exploiting an environment to the max, you need to explore it! 
 
- allocate rest of budget to invest in slot
+ In [reinforcement learning], when we refer to "exploration", it typically means the agent is exploring the environment's [action space] and [state space], rather than the [environment] itself being explored.
+
+ Specifically:
+
+  * The [environment] is the problem or world the [agent] is interacting with and trying to maximize [rewards] in. The environment itself is fixed.
+  * The agent explores by taking various actions in different states to discover which actions yield the highest rewards in which states.
+  * It is exploring the [action space] by trying different available actions to see their outcomes.
+  * It is exploring the [state space] by visiting new states it has not encountered before.
+  * The key tradeoff is between [exploration] of uncharted actions and states vs. exploitation of known rewarding actions in familiar states.
+  * The goal is to build an optimal policy mapping states to actions that maximizes long-term [cumulative reward] through a balance of [exploration] and exploitation.
+
+ So in essence, "exploration" refers to the agent's activity of exploring the search space of possible actions and states within a fixed environment, in order to learn an optimal policy for collecting rewards in that environment. The environment itself does not change or get explored.
 
  See also [E], ... 
 
 
 # Exploration
 
- In [Reinforcement Learning]
+ In [reinforcement learning], when an agent performs "exploration", it is exploring the [action] and [state] spaces of the environment, not the [environment] itself. Specifically:
 
- allocate certain amount of money to find the most profitable slots
+  * The [environment] refers to the external world or system the [agent] is interacting with and trying to perform a task in. The [environment] itself does not change during the learning process.
+  * The agent explores by taking different actions in different states to discover which actions yield the highest rewards in which situations.
+  * The agent is exploring the [action space] - the set of possible actions the agent can take at any given state. It tries various actions to learn their outcomes.
+  * It is also exploring the [state space] - the set of possible states the environment can be in. It visits new states it has not encountered before.
+  * The goal of exploration is to build up [experience] about which actions maximizes long-term reward in different states. This is used to learn an [optimal policy].
+  * Balancing exploration and exploitation of known rewards is key in reinforcement learning.
+
+ So in summary, the agent explores the action and state spaces within a fixed environment to learn how to maximize [cumulative reward]. The environment itself does not change or get explored in the learning process. The search spaces being explored are the actions available to the agent and states the environment can be in.
 
  See also [E], ... 
+
+
+# Exploration Rate
+
+ The exploration rate, often represented by the Greek letter epsilon (ε), is a key [hyperparameter] used in [reinforcement learning algorithms] that employ an [epsilon-greedy exploration strategy]. Here are some key points about the exploration rate:
+
+  * It controls the balance between exploration and exploitation during training. Exploration involves trying new actions randomly, while exploitation is taking the best known action based on past experience.
+  * The exploration rate (epsilon) determines the probability that the agent will take a random exploratory action instead of the best exploitative action at any given time step.
+  * Typically, epsilon starts closer to 1 early in training to encourage more random exploration. It is then decayed towards 0 as training progresses to focus more on exploitation.
+  * Higher epsilon values force the agent to explore more. Lower epsilon values make it exploit learned knowledge more.
+  * Setting the initial epsilon value and decay rate allows controlling this tradeoff between exploration and exploitation. Faster decay can be used for simpler environments.
+  * Common decay functions include linear decay, exponential decay, or inverse sigmoid decay. The schedule can be based on number of timesteps or episodes.
+  * Too little exploration can lead to the agent getting stuck in suboptimal policies. Too much exploration becomes inefficient if random actions are taken when better ones are known.
+  * The optimal exploration rate schedule is environment-specific and must be tuned through multiple training iterations. Exploration is critical in the early learning phases.
+
+ So in summary, the epsilon exploration rate is a key RL hyperparameter that controls the degree of exploration vs exploitation by determining the probability of taking random actions during training.
+
+ See also [E], ...
 
 
 # Exploratory Data Analysis

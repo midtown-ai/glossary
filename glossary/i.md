@@ -453,8 +453,13 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
 
 
 # Inverse Reinforcement Learning
-
+# Inverse RL
 # IRL
+
+ Learn reward function from expert demonstrations. Allows mimicking behavior without rewards.
+
+ More at:
+  * ...
 
  See also [I], [Behavioural Cloning], [Imitation Learning], [IQ-Learn Model], [Reinforcement Learning], [Reward Function]
 
@@ -471,7 +476,7 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
  See also [I], [Imitation Learning], [Inverse Q-Learning]
 
 
-# Isaac Gym
+# Isaac Gym Environment
 
  In [reinforcement learning], a physics-based [environment] built by [Nvidia]
 
@@ -492,4 +497,71 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
 
  Each time a batch is processed is called an iteration. Note that the processing of the entire dataset, called an epoch, may require several iterations. This is particularly the case in the case of a large / very-large dataset.
 
- See also [I], [Batch], [Epoch]
+ In DeepRacer, an iteration refers to one full pass through the training data to update the [reinforcement learning] model. Each iteration consists of multiple [episodes]:
+
+  * One iteration involves running a specified number of [episodes] on the track.
+  * For example, 10 episodes per iteration.
+  * During each episode, the agent races around the track, gathering experience about taking actions in different states.
+  * After completing the specified number of episodes, the reinforcement learning model is updated once based on the experience gathered.
+  * This completes one full iteration. The episodes are reset and the process repeats for the next iteration.
+  * Multiple iterations are run consecutively to train the model over time with more and more experience from the track.
+  * The number of episodes per iteration and number of total iterations are key hyperparameters to configure the training.
+  * More episodes per iteration gather more diverse experience for each update but reduce update frequency.
+  * Running many iterations is needed for the agent to converge to a good policy. Hundreds of iterations are common.
+
+ So in summary, one iteration involves multiple episodes followed by one model update. Multiple iterations drive the learning process over time to optimize the policy.
+
+ The concepts of iteration and epoch are sometimes used interchangeably, but they have some subtle differences in the context of reinforcement learning:
+
+ Iteration:
+  * In reinforcement learning, one iteration typically refers to running through a batch of experience data and updating the model once.
+  * For example, Running 10 episodes to generate new experience data, then using that to improve the policy once.
+
+ Epoch:
+  * Epoch usually refers to the number of complete passes through the full dataset to train the model.
+  * For example, setting epoch=5 would mean passing through ALL available experience data 5 times, updating the model each time.
+
+ So the key differences are:
+  * Iteration - Single update based on a batch of new experience (episodes).
+  * Epoch - Full pass through all past experience with multiple updates.
+  * Iterations happen sequentially, gathering new data over time.
+  * Epochs reuse the same dataset multiple times.
+  * In DeepRacer, iterations happen continuously as the car gathers more experience. Epochs are less common.
+
+ So in reinforcement learning, iterations drive learning over time from new experience, while epochs reuse experience for regularization. But the terms are sometimes conflated.
+
+ Here is a concrete example to illustrate the differences between epoch and iteration:
+
+ Let's say we are training a DeepRacer model. We configure the following:
+
+  * Episodes per iteration: 10
+  * Iterations: 100
+  * Epochs: 5
+
+ This means:
+  * During each iteration, the agent will run 10 episode races to generate experience data.
+  * There will be 100 iterations, so 100 batches of 10 episodes.
+  * 1000 total episodes (10 * 100).
+  * The experience from each iteration's episodes will be used to update the model weights once.
+  * After the 100 iterations complete, representing gathering new experience over time, we will then run 5 epochs.
+  * For each epoch, the agent will replay through ALL past 1000 episodes to further train the model.
+
+ So:
+  * Iterations = New data gathered over time, single update per batch.
+  * Epochs = Multiple passes over full past data for further training.
+
+ This example highlights how iterations drive sequential learning, while epochs refine training on existing experience. The terms have distinct meanings in reinforcement learning.
+
+ There are a few key reasons why having both the notion of iterations and epochs can be useful in reinforcement learning:
+  * Iterations allow for sequential learning - New data is gathered over time through agent-environment interaction, and the policy is updated incrementally. This is crucial for online RL.
+  * Epochs complement this by allowing offline refinement on past experience. The policy can be smoothed and regularized by replaying old episodes.
+  * In the early stages of training, iterations quickly evolve the policy using fresh data. Epochs are less critical.
+  * But epochs become more useful later. As sample efficiency increases, replay and reuse of past experience is helpful.
+  * Epochs also help deal with correlated sequential experience. Random reshuffling during epoch replays helps de-correlate the data.
+  * Multiple epochs can expose the model to a wider variety of transitions rather than just recent frequent ones.
+  * Too many epochs can however lead to overfitting. The balance with iterations should be tuned.
+  * For continuous training, iterations naturally align with expanding the dataset over time.
+
+ So in essence, iterations drive continuous learning while epochs refine and generalize the behavior through experience replay. Their complementary strengths improve overall learning.
+
+ See also [I], ...

@@ -57,7 +57,7 @@ Predict what are the required agent skills based some input parameters
 ==> That's a multiclass classification problem!
  ```
 
- See also [M], [Deep Learning], [Machine Learning Algorithm], [Machine Learning Pipeline], [Neural Network], [Prediction]
+ See also [M], [Deep Learning], [Machine Learning Framework], [Machine Learning Pipeline], [Neural Network], [Prediction]
 
 
 # Machine Learning Framework
@@ -117,7 +117,7 @@ Predict what are the required agent skills based some input parameters
     * [overfitting] ?
  1. deployment for prediction / inference
 
- See also [M], [Discovery Phase], [Machine Learning], [Machine Learning Algorithm]
+ See also [M], [Discovery Phase], [Machine Learning], [Machine Learning Framework]
 
 
 # Machine Learning Type
@@ -504,18 +504,11 @@ S = Q D Qt
  See also [M], [Convoluted Layer], [Convoluted Neural Network], [Fully Connected Layer]
 
 
-# Mean Absolute Error
-
-# MAE
-
- See also [M], [Prediction Error]
-
-
 # Mean Absolute Error Loss Function
 
 # MAE Loss Function
 
- The Mean Absolute Error (MAE) is only slightly different in definition from the MSE, but interestingly provides almost exactly opposite properties! To calculate the MAE, you take the difference between your model’s predictions and the ground truth, apply the absolute value to that difference, and then average it out across the whole dataset. The MAE, like the Mean Square Error (MSE), will never be negative since in this case we are always taking the absolute value of the errors. The MAE is formally defined by the following equation:
+ The Mean Absolute Error (MAE) [loss function] is only slightly different in definition from the [MSE], but interestingly provides almost exactly opposite properties! To calculate the MAE, you take the difference between your model’s predictions and the [ground truth], apply the absolute value to that difference, and then average it out across the whole [dataset]. The MAE, like the [Mean Square Error (MSE)][MSE], will never be negative since in this case we are always taking the absolute value of the errors. The MAE is formally defined by the following equation:
 
  ![]( {{site.assets}}/m/mean_absolute_error_loss_function_formula.png ){: width="100%"}
  ![]( {{site.assets}}/m/mean_absolute_error_loss_function_graph.png ){: width="100%"}
@@ -530,10 +523,10 @@ def mae_loss(y_pred, y_true):
  ```
 
  Pros and Cons:
-  * Advantage: The beauty of the MAE is that its advantage directly covers the MSE disadvantage. Since we are taking the absolute value, all of the errors will be weighted on the same linear scale. Thus, unlike the MSE, we won’t be putting too much weight on our outliers and our loss function provides a generic and even measure of how well our model is performing.
-  * Disadvantage: If we do in fact care about the outlier predictions of our model, then the MAE won’t be as effective. The large errors coming from the outliers end up being weighted the exact same as lower errors. This might results in our model being great most of the time, but making a few very poor predictions every so-often.
+  * Advantage: The beauty of the MAE is that its advantage directly covers the [MSE] disadvantage. Since we are taking the absolute value, all of the errors will be weighted on the same linear scale. Thus, unlike the [MSE], we won’t be putting too much weight on our [outliers] and our [loss function] provides a generic and even measure of how well our model is performing.
+  * Disadvantage: If we do in fact care about the [outlier] predictions of our model, then the MAE won’t be as effective. The large errors coming from the [outliers] end up being weighted the exact same as lower errors. This might results in our model being great most of the time, but making a few very poor predictions every so-often.
 
- See also [M], [Huber Loss Function], [Loss Function], [Mean Square Error Loss Function]
+ See also [M], [Huber Loss Function]
 
 
 # Mean Absolute Percentage Error
@@ -628,20 +621,24 @@ def mse_loss(y_pred, y_true):
  See also [M], ...
 
 
-# Meta Learning
+# Meta Model
+
+ A ML model to find the best hyperparameters. Ex: Gaussian process regression models object metric as a function of hyperparameters (beware assume smoothness, works with low data, confidence estimates) + bayesian optimization decides where to search next (explore and exploit and gradient free) .
+
+ See also [M], [Hyperparameter Optimization], [Meta Learning]
+
+
+# Meta-Learning
+
+ Learn how to quickly adapt to new tasks within similar domains.
+
+ Is a [sample efficient RL algorithm]
 
  Normally you take the x to predict the y and optimize parameters to get as close to y as possible. Here you take the x and y to generate a theta parameter to fit in another model... then use the loss of the aggregate model to
 
  ![]( {{site.assets}}/m/meta_learning.png ){: width="100%"}
 
  See also [M], [Meta Model], [Model Agnostic Meta Learning], [Reinforcement Learning], [Transfer Learning]
-
-
-# Meta Model
-
- A ML model to find the best hyperparameters. Ex: Gaussian process regression models object metric as a function of hyperparameters (beware assume smoothness, works with low data, confidence estimates) + bayesian optimization decides where to search next (explore and exploit and gradient free) .
-
- See also [M], [Hyperparameter Optimization], [Meta Learning]
 
 
 # Metaverse
@@ -830,7 +827,6 @@ def mse_loss(y_pred, y_true):
 
 
 # Model Agnostic Meta Learning
-
 # MAML
 
  How to pick a better initialization point? Don't start randomly, but use a particular function phy... Gradient descent for initial point = 2 step of normal training.
@@ -857,11 +853,43 @@ def mse_loss(y_pred, y_true):
  See also [M], [Model Data Sheet]
 
 
+# Model Checkpoint
+
+ A snapshot of a model with its weights.
+ Is usually used for [model evaluation] before being released.
+
+ See also [M], ...
+
+
 # Model Complexity
 
  ![]( {{site.assets}}/m/model_complexity.jpeg ){: width="100%"}
 
  See also [M], [Bias], [Variance]
+
+
+# Model Convergence
+
+ When we say a machine learning model has converged, it generally means that the model has stabilized during training and additional training is not producing significant changes or improvements in its parameters or performance on the training set. Here are some key points about model convergence:
+
+  * During training, the model parameters are updated iteratively to minimize a loss function. As this loss gets lower, the model fits the training data better.
+  * In the initial stages of training, the loss decreases rapidly with each update as the model rapidly learns. But over time, the rate of improvement slows and eventually plateaus.
+  * We say the model has converged when the loss flattens out and further parameter updates lead to diminishing or negligible improvements. The model has fit the training data as well as it can.
+  * Convergence happens when the learning rate drops to near zero. The updates to parameters become very small. The model is no longer improving meaningfully.
+  * Checking for convergence helps decide when to stop training. Continuing training post-convergence is wasteful.
+
+ In the context of [RL], with more experience, the agent gets better and eventually is able to reach the destination reliably. Depending on the exploration-exploitation strategy, the vehicle may still have a small probability of taking random actions to explore the environment.
+
+ ![]( {{site.assets}}/m/model_convergence_reinforcement_learning.png ){: width="100%"}
+
+ :warning: Well, this is not true, because Convergence does not necessarily mean the model has achieved optimal performance. The model may converge to a local minimum. Regularization and hyperparameter tuning is still important.
+
+ In the case of [RL[, the model may have converge, but if the reward function is not programmed correctly, we may see a converged ehavior, but not the desired behavior!
+
+ More at:
+  * ...
+
+ See also [M], ...
 
 
 # Model Cost
@@ -883,6 +911,20 @@ def mse_loss(y_pred, y_true):
   * [https://www.microsoft.com/en-us/research/project/datasheets-for-datasets/](https://www.microsoft.com/en-us/research/project/datasheets-for-datasets/)
 
  See also [M], [Model Card]
+
+
+# Model Evaluation
+
+ Use a [model checkpoint] with a benchmark tool or process for evaluation.
+
+ In the case of [RL], the benchmark process is a simulation in a virtual environment.
+
+ ![]( {{site.assets}}/m/model_evaluation_reinforcement_learning.png ){: width="100%"}
+
+ More at:
+  * ...
+
+ See also [M], ...
 
 
 # Model Format
@@ -936,9 +978,18 @@ def mse_loss(y_pred, y_true):
  See also [M], ...
 
 
-# Model-Based Learning
+# Model-Based Reinforcement Learning
+# Model-Based RL
 
- In [Reinforcement Learning], you modelize the environment ....
+ Model-based RL approaches explicitly learn a model of [state transitions]. [Model-free RL] methods like [Q-learning] learn without modeling transitions.
+
+ In [Reinforcement Learning], you learns model of [environment] transitions & [rewards], then optimizes [policy] through planning. e.g. [Dyna], [AlphaGo].
+
+ Given a state and an action, the model might predict the next state and next reward. Models are used for deciding on a course of actions, by taking into account possible future situations before they are actually experienced.
+
+ Model-based reinforcement learning has an agent try to understand the world and create a model to represent it. Here the model is trying to capture 2 functions, the transition function from states 𝑇 and the reward function 𝑅. From this model, the agent has a reference and can plan accordingly. A simple check to see if an RL algorithm is model-based or model-free is:
+  * If, after learning, the agent can make predictions about what the next state and reward will be before it takes each action, it's a model-based RL algorithm.
+  * If it can't, then it’s a model-free algorithm.
 
  {% youtube "https://www.youtube.com/watch?v=vfpZu0R1s1Y" %}
 
@@ -948,7 +999,20 @@ def mse_loss(y_pred, y_true):
  See also [M], ...
 
 
-# Model-Free Learning
+# Model-Based Reinforcement Learning Algorithm
+# Model-Based RL Algorithm
+
+ More at:
+  * ...
+
+ See also [M], ...
+
+
+# Model-Free Reinforcement Learning
+# Model-Free RL
+
+ [Model-based RL] approaches explicitly learn a model of [state transitions]. Model-free RL methods like [Q-learning] learn without modeling transitions.
+ The agents here are explicitly trial-and-error learners. (?)
 
  Model-free learning is a category of [reinforcement learning (RL)][RL] algorithms that do not require a complete model of the environment to make decisions. In model-free learning, the agent learns directly from interacting with the environment, without explicitly building or using a model that represents the environment's dynamics or transition probabilities.
 
@@ -962,13 +1026,20 @@ def mse_loss(y_pred, y_true):
 
  Model-free learning is suitable in scenarios where it is difficult or impractical to obtain a complete model of the environment, and the [agent] must learn directly from experience.
 
+ A model-free RL algorithm can be thought of as an "explicit" trial-and-error algorithm. A simple check to see if an RL algorithm is model-based or model-free is:
+  * If, after learning, the agent can make predictions about what the next state and reward will be before it takes each action, it's a model-based RL algorithm.
+  * If it can't, then it’s a model-free algorithm.
+
+ Algorithms that purely sample from experience such as Monte Carlo Control, [SARSA], [Q-learning], Actor-Critic are "model free" RL algorithms. They rely on real samples from the [environment] and never use generated predictions of next [state] and next [reward] to alter behaviour (although they might sample from experience memory, which is close to being a model).
+
  More at:
    * ...
 
  See also [M], ...
 
 
-# Model-Free Learning Algorithm
+# Model-Free Reinforcement Learning Algorithm
+# Model-Free RL Algorithm
 
  Examples of model-free learning algorithms include:
   * [Q-learning], 
@@ -981,7 +1052,6 @@ def mse_loss(y_pred, y_true):
 
 
 # Modified National Institute of Standards and Technology
-
 # MNIST Dataset
 
  Pictures of numbers written by college student taken by the post office to be able to sort the zip codes. Conversion from every image to matrix was done by hand.
@@ -1036,7 +1106,20 @@ def mse_loss(y_pred, y_true):
 
 # Multi-Agent Environment
 
+ An [environment] where several agent can coexist?
+
  See also [M], [Game Theory]
+
+
+# Multi-Agent Reinforcement Learning
+# Multi-Agent RL
+
+ Learns policies for multiple interacting agents. Emergent coordination & competition.
+
+ More at:
+  * ...
+
+ See also [M], ...
 
 
 # Multi-Head Self-Attention

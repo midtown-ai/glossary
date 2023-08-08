@@ -12,6 +12,9 @@
 [Hidden Markov Model]: {{site.baseurl }}{% link glossary/h.md %}#hidden-markov-model
 [HMM]: {{site.baseurl }}{% link glossary/h.md %}#hidden-markov-model
 [Hidden State]: {{site.baseurl }}{% link glossary/h.md %}#hidden-state
+[Hindsight Experience Replay]: {{site.baseurl }}{% link glossary/h.md %}#hindsight-experience-replay
+[Hierarchical Reinforcement Learning]: {{site.baseurl }}{% link glossary/h.md %}#hierarchical-reinforcement-learning
+[Hierarchical RL]: {{site.baseurl }}{% link glossary/h.md %}#hierarchical-reinforcement-learning
 [Hinge Loss Function]: {{site.baseurl }}{% link glossary/h.md %}#hinge-loss-function
 [Holdout Fold]: {{site.baseurl }}{% link glossary/h.md %}#holdout-fold
 [Holistic Evaluation of Language Model Benchmark]: {{site.baseurl }}{% link glossary/h.md %}#holistic-evaluation-of-language-model-benchmark

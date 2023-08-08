@@ -75,6 +75,32 @@ layout: page
  See also [S], [Learning Velocity], [Scaling Law]
 
 
+# Sample Efficient Reinforcement Learning Algorithm
+# Sample Efficient RL Algorithm
+
+ Here are some sample efficient reinforcement learning algorithms:
+
+  * [Model-based RL] - Learn model of environment to simulate experiences. Examples: [Dyna], [PILCO].
+  * [Hierarchical RL] - Learn policies at different levels of temporal abstraction over options. Accelerates learning.
+  * [Transfer Learning] - Leverage knowledge from source tasks when learning target tasks. Jumpstarts learning.
+  * [Few-shot RL] - Learn new tasks from only a few examples. Leverages prior knowledge.
+  * [Curiosity-Driven RL] - Exploration bonuses for novel or uncertain states to guide experience collection.
+  * [Prioritized Experience Replay] - Replay important transitions more frequently for efficient learning.
+  * [Distributional RL] - Learn value distribution rather than just mean. Improves extrapolation.
+  * [Unsupervised pre-training] - Pretrain representation using unsupervised learning before RL fine-tuning.
+  * [Reward shaping] - Carefully shape reward function to accelerate learning the desired behavior.
+  * [Goal-conditioned RL] - Train universal policies conditioned on goals. Generalizes to new goals.
+  * [Hindsight experience replay] - Learn from failed episodes by pretending any state reached was the goal.
+  * [Meta-learning] - Learn how to quickly adapt to new tasks within similar domains.
+
+  In general, any method that enables effective generalization, transfers knowledge across tasks, or reduces the samples needed through simulation, pre-training, or guided exploration will improve sample efficiency.
+
+ More at:
+  * ...
+
+ See also [S], ...
+
+
 # Sampling Error
 
  Sampling errors occur when a sample of data is used to estimate a population parameter, such as the mean or proportion. These errors occur because the sample may not be a perfect representation of the population, and there will be some degree of difference between the sample statistic and the true population parameter. There are two types of sampling errors:
@@ -86,6 +112,27 @@ layout: page
   * ...
 
  See also [S], [Resampling Method], [Sampling]
+
+
+# Sample Inefficient Reinforcement Learning Algorithm
+# Sample Inefficient RL Algorithm
+
+ Sample inefficiency refers to reinforcement learning algorithms that require a large number of interactions with the environment to learn an effective policy. Some key characteristics:
+
+  * Sample inefficient algorithms need more samples (steps through the environment) to reach a good policy.
+  * This is problematic for real-world environments where samples are expensive or limited.
+  * Common causes are lack of generalization, not reusing past experience, or inability to plan ahead.
+  * Random exploration without exploiting past knowledge wastes samples.
+  * [Deep reinforcement learning] methods like [DQN] can be sample inefficient due to dependency on massive experience replays.
+  * [Evolution strategies] are considered sample inefficient as random mutations ignore past fitness.
+  * [Model-based RL] can improve sample efficiency by learning environment models for planning.
+  * Hierarchy, abstraction, [transfer learning], and curiosity can improve sample efficiency.
+  * Key metrics are total samples to threshold performance, samples per [epoch], and computational cost per sample.
+  * [Sample efficiency] is crucial for real-world complex tasks like robotics where environment samples are slow and expensive.
+
+  In summary, sample inefficient RL algorithms require large amounts of environment interaction to find performant policies. Improving sample efficiency remains an active research area in RL.
+
+ See also [S], ...
 
 
 # Sampling Method
@@ -649,7 +696,6 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
 
 
 # Simulated Policy Learning Algorithm
-
 # SimPLe Algorithm
 
  In [Reinforcement Learning], ... 
@@ -657,8 +703,18 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
  See also [S], ...
 
 
-# Singular Value Decomposition
+# Single Life Reinforcement Learning
+# SLRL
 
+ RL algorithms are designed to learn a performant policy that can repeatedly complete a task, but many real-world situations involve on-the-fly adaptation that requires solving a task successfully once without interventions. Example: A disaster relief robot tasked with retrieving an item has a single trial to complete its mission and may encounter novel obstacles in a previously-experienced building. We model these situations with the following problem setting: Utilizing some prior data, the agent is given a single “life”, i.e. trial, to autonomously adapt to a novel scenario to complete a task once. We call this problem setting single-life reinforcement learning (SLRL). SLRL provides a natural setting in which to study autonomous adaptation to novel situations in reinforcement learning.
+
+ More at:
+  * [https://sites.google.com/stanford.edu/single-life-rl](https://sites.google.com/stanford.edu/single-life-rl)
+
+ See also [S], ...
+
+
+# Singular Value Decomposition
 # SVD
 
  {% youtube "https://www.youtube.com/watch?v=vSczTbgc8Rc" %}
@@ -763,7 +819,6 @@ Social robots also work as concierges in hotels and other settings like malls, w
 
 
 # Soft Actor-Critic Algorithm
-
 # SAC Algorithm
 
  Soft Actor Critic, or SAC, is an off-policy actor-critic deep RL algorithm based on the maximum entropy reinforcement learning framework. In this framework, the [actor] aims to maximize expected reward while also maximizing [entropy]. That is, to succeed at the task while acting as randomly as possible. Prior deep RL methods based on this framework have been formulated as [Q-learning] methods. SAC combines off-policy updates with a stable stochastic actor-critic formulation.
@@ -836,7 +891,6 @@ Social robots also work as concierges in hotels and other settings like malls, w
 
 
 # Software Development Life Cycle Agent
-
 # SDLC Agent
 
  An [Agent] that automated the development lifecycle
@@ -1065,6 +1119,8 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
  Beware:
   * Sometimes you do not know the state, but can make an observation that is strongly correlated to the state.
 
+ A state represents a snapshot of the environment the agent is in at a point in time. State is a numerical representation of what an agent observes at a particular point in an environment. For AWS DeepRacer, a state is the representation of an image captured by the front-facing camera on the vehicle. The agent takes an action, guided by a strategy referred to as a policy, at a given environment state and reaches a new state.
+
  See also [S], [Observation], [Reinforcement Learning]
 
 
@@ -1087,17 +1143,49 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
  See also [S], ...
 
 
-# State Of The Art
+# State Transition
 
-# SOTA
+ A state transition occurs at each step in a period. If the agent is exploring, the action is taken randomly. If the agent is exploiting, the state-action pari with the highest Q-value is chosen. A transition from state s to state s' given an action is probabilistic (?) For example, with DeepRacer it is possible there is no friction on the road and therefore after an action the state s' is still state s'. A state is identified based on the agent sensing the environment.
+ 
+In reinforcement learning, state transitions refer to how the environment changes from one state to another in response to the agent's actions. Here are some key points:
 
- The model that scored the highest based on the available benchmarks.
+  * At each timestep, the agent observes the current [state], takes an [action], and the [environment] transitions to a new state.
+  * The state transition is the change from the current state to the next state as a result of the agent's action.
+  * The dynamics of the environment determine the transitions. After taking an action At in state St, the environment updates to state St+1 according to these dynamics.
+  * For example, a robot taking a step forward could transition from state "middle of room" to state "front of room". An enemy moved in a game transitions the state to reflect its new position.
+  * State transitions can be stochastic - there may be a probability distribution over possible next states from the current state-action pair.
+  * Understanding state transitions helps agents maximize long-term reward. Favorable transitions that lead closer to the goal are preferable.
+  * [Model-based RL] approaches explicitly learn a model of state transitions. [Model-free RL] methods like [Q-learning] learn without modeling transitions.
 
- See also [S], [Model Benchmark]
+ In summary, state transitions describe how the environment changes state in response to actions, which is key for agents to understand in order to optimize behavior.
+
+ See also [], ...
+
+
+# State-Action Pair
+
+ Use to find the corresponding Q-value in the Q-Table.
+
+ In reinforcement learning, a state-action pair refers to the combination of a state and an action taken from that state. Some key points:
+
+  * A state captures the current situation or [environment] the [agent] is observing. It summarizes relevant details into a representation.
+  * An action is one of the moves or decisions an agent can take from a given state. The set of valid actions may differ between states.
+  * A state-action pair represents the agent taking a specific action while in a specific state. For example, moving left while at intersection A.
+  * The core goal in RL is to learn which actions are optimal for each state - i.e. learn the best [policy] mapping [states] to [actions].
+  * Q-learning and other RL algorithms work by estimating value functions for state-action pairs - i.e. estimating the value or utility of taking given actions at given states.
+  * Exploration strategies allow the agent to try different actions from a state to discover the optimal ones.
+  * The full set of state-action pairs defines the environment's dynamics - how actions influence [transitions between states][state transition].
+  * State-action pairs are central to both planning and learning in RL. They form the basic building blocks for learning optimal behavior.
+
+ So in summary, state-action pairs represent the core link between states, actions, and values that reinforcement learning agents leverage to maximize [cumulative reward].
+
+ More at:
+  * ...
+
+ See also [S], ...
 
 
 # State-Action-Reward-State-Action Algorithm
-
 # SARSA Algorithm
 
  SARSA is another [reinforcement learning algorithm] that is similar to [Q-learning]. SARSA stands for State-Action-Reward-State-Action, which reflects the sequence of information that the algorithm uses to learn.
@@ -1114,6 +1202,21 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
 
  More at:
   * ...
+
+ See also [S], ...
+
+
+# State-Of-The-Art
+# SOTA
+
+ The model that scored the highest based on the available benchmarks.
+
+ See also [S], [Model Benchmark]
+
+
+# State-Value Function
+
+ The expected reward when entering a state. The state-value function tells us how good any given state is for the agent, whereas the [action-value function] tells us how good it is for the agent to take any action from a given state.
 
  See also [S], ...
 
@@ -1297,8 +1400,20 @@ II n summary, probability is focused on the theoretical study of random events, 
  See also [S], ...
 
 
-# Supervised Fine-Tuning
+# Supervised Feedback
 
+ Used in [Reinforcement Learning (RL)][RL], not unlike [supervised learning]!
+
+ Ex:
+  * points in a video game where rules are unknown
+
+ More at:
+  * ...
+
+ See also [S], ...
+
+
+# Supervised Fine-Tuning
 # SFT
 
  `A way to turn a generalist [pre-trained model] into a "fine-tuned" expert model, aka domain-specific model` Normally done with [supervised learning] to minimize the number of samples required and be less compute intensive and be more compute friendly?

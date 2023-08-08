@@ -57,6 +57,10 @@ layout: page
 
  In Reinforcement learning, an observation using one or more sensor (ex: camera) can help you identify in which state you are.
 
+ From the observation, you try to define in which state you are!
+
+ ![]( {{site.assets}}/o/observation_deepracer.png ){: width="100%"}
+
  See also [O], [Reinforcement Learning], [State]
 
 
@@ -355,6 +359,46 @@ cheese =>                                   # Prompt
   * home - [https://docs.openvino.ai/latest/home.html](https://docs.openvino.ai/latest/home.html)
 
  See also [O], [Open Neural Network Exchange]
+
+
+# Optimal Policy
+
+ In [reinforcement learning], an optimal policy refers to the strategy that maximizes expected [cumulative reward] for an [RL agent].
+
+  * A policy defines how an agent takes actions in a particular state of the environment to maximize rewards. It maps states to actions.
+  * The optimal policy is the one that results in the highest total reward over time across all states.
+  * It maximizes the expected return - the sum of discounted future rewards - from any initial state.
+  * For simple environments, optimal policies can sometimes be derived mathematically using dynamic programming.
+  * But in complex environments, machine learning is used to learn good policies through trial-and-error experience.
+  * Reinforcement learning algorithms like Q-learning, policy gradients, and deep Q-networks aim to learn the optimal policy that maximizes long-term reward.
+  * However, they may converge to near-optimal policies only, especially in environments with partial observability.
+  * The learned policy is considered optimal if no other policy results in significantly higher reward over multiple trials.
+  * Evaluation metrics like cumulative reward, win rate, and score determine how close a learned policy is to the theoretical optimal.
+  * The optimal policy balances short-term and long-term rewards. It exploits known rewards while still exploring for better returns.
+
+ So in summary, the optimal policy maximizes overall reward from the environment through an ideal strategy for taking actions given particular state information. RL agents attempt to learn policies that approach optimal returns.
+
+ See also [O], ...
+
+
+# Optimal Q-Value
+
+ This value is the maximum value in the [Q-table] for a given state. The Optimal [Q-valuei] helps the [agent] decides what action to take in the case of [exploitation].
+
+ In Q-learning and other reinforcement learning algorithms, the optimal Q-value for a given state-action pair refers to the maximum expected future reward that can be obtained by taking that action in that state. Here are some key points:
+  * Q-values represent the quality or desirability of taking a given action in a particular state based on expected future rewards.
+  * The optimal Q-value is the highest possible Q-value for that state-action pair. It quantifies the maximum future reward the agent can achieve by taking that action.
+  * Finding the optimal policy involves learning the optimal Q-values for each state-action pair. The optimal action for a state has the highest Q-value.
+  * In tabular Q-learning, the optimal Q-values can be learned iteratively by updating a Q-table through experience: Q(s,a) += alpha * (R + gamma * max Q(s',a') - Q(s,a))
+  * In deep Q-learning, a neural network approximates the optimal Q-function mapping states and actions to expected returns.
+  * The optimal Q-values satisfy the Bellman optimality equation, allowing Q-values to be optimized recursively.
+  * Early in training, Q-values may be far from optimal. But through continual updates guided by rewards and the discount factor, they gradually converge closer to the optimal values.
+  * The difference between the current Q-value and optimal Q-value for a state-action determines how much more the agent has left to learn about that state-action.
+  * Learning is considered complete when Q-values change minimally during updates, indicating they have converged close to optimal.
+
+ So in summary, the optimal Q-value quantifies the maximum future reward for taking a particular action in a given state, guiding optimal action selection.
+
+ See also [O], ...
 
 
 # Optimization

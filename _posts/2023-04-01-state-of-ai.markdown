@@ -10,6 +10,6 @@ categories: jekyll update
 
 # The state of generative AI in 7 charts
 
- {% pdf "{{site.assets}}/+/research/20230401_state_of_generative_ai.pdf" %}
+ {% pdf "{{site.assets}}/_/s/state_of_generative_ai_research_20230401.pdf" %}
 
 

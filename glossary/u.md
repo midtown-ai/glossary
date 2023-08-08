@@ -133,6 +133,16 @@ layout: page
  See also [U], [Supervised Learning]
 
 
+# Unsupervised Pre-Training
+
+ In [RL], Pretrain representation using unsupervised learning before RL fine-tuning.
+
+ More at:
+  * ...
+
+ See also [U], ...
+
+
 # Update Ratio
 
  A ratio of the number of times the discriminator is updated per generator training epoch. Updating the discriminator multiple times per generator training epoch is useful because it can improve the discriminators accuracy. Changing this ratio might allow the generator to learn more quickly early-on, but will increase the overall training time.

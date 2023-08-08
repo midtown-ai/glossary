@@ -177,6 +177,27 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
  See also [H], [H], [Encoder-Decoder Model], [Hidden Markov Model], [Recurrent Neural Network]
 
 
+# Hindsight Experience Replay
+
+ In [RL], Learn from failed episodes by pretending any state reached was the goal.
+
+ More at:
+  * ...
+
+ See also [H], ...
+
+
+# Hierarchical Reinforcement Learning
+# Hierarchical RL
+
+ Decomposes problem into hierarchy of sub-policies over different timescales.
+
+ More at:
+  * ...
+
+ See also [H], ...
+
+
 # Hinge Loss Function
 
  The use of hinge loss is very common in binary classification problems where we want to separate a group of data points from those from another group. It also leads to a powerful machine learning algorithm called [Support Vector Machines (SVMs)] Let’s have a look at the mathematical definition of this function.
@@ -239,13 +260,13 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
 
 # Huber Loss Function
 
- Now we know that the Mean Square Error (MSE) is great for learning outliers while the Mean Absolute Error (MAE) is great for ignoring them. But what about something in the middle? Consider an example where we have a dataset of 100 values we would like our model to be trained to predict. Out of all that data, 25% of the expected values are 5 while the other 75% are 10. An MSE loss wouldn’t quite do the trick, since we don’t really have “outliers”; 25% is by no means a small fraction. On the other hand we don’t necessarily want to weight that 25% too low with an MAE. Those values of 5 aren’t close to the median (10 — since 75% of the points have a value of 10), but they’re also not really outliers. Our solution? The Huber Loss Function. The Huber Loss offers the best of both worlds by balancing the MSE and MAE together. We can define it using the following piecewise function:
+ Now we know that the [Mean Square Error (MSE)][MSE] is great for learning [outliers] while the [Mean Absolute Error (MAE)] is great for ignoring them. But what about something in the middle? Consider an example where we have a [dataset] of 100 values we would like our model to be trained to predict. Out of all that data, 25% of the expected values are 5 while the other 75% are 10. An MSE loss wouldn’t quite do the trick, since we don’t really have “[outliers]”; 25% is by no means a small fraction. On the other hand we don’t necessarily want to weight that 25% too low with an MAE. Those values of 5 aren’t close to the median (10 — since 75% of the points have a value of 10), but they’re also not really [outliers]. Our solution? The Huber Loss Function. The Huber Loss offers the best of both worlds by balancing the [MSE] and [MAE] together. We can define it using the following piecewise function:
 
  ![]( {{site.assets}}/h/huber_loss_function_formula.png ){: width="100%"}
 
  ![]( {{site.assets}}/h/huber_loss_function_graph.png ){: width="100%"}
 
- What this equation essentially says is: for loss values less than delta, use the MSE; for loss values greater than delta, use the MAE. This effectively combines the best of both worlds from the two loss functions! Using the MAE for larger loss values mitigates the weight that we put on outliers so that we still get a well-rounded model. At the same time we use the MSE for the smaller loss values to maintain a quadratic function near the centre. This has the effect of magnifying the loss values as long as they are greater than 1. Once the loss for those data points dips below 1, the quadratic function down-weights them to focus the training on the higher-error data points.
+ What this equation essentially says is: for loss values less than delta, use the [MSE]; for loss values greater than delta, use the [MAE]. This effectively combines the best of both worlds from the two [loss functions]! Using the [MAE] for larger loss values mitigates the weight that we put on [outliers] so that we still get a well-rounded model. At the same time we use the [MSE] for the smaller loss values to maintain a quadratic function near the centre. This has the effect of magnifying the loss values as long as they are greater than 1. Once the loss for those data points dips below 1, the quadratic function down-weights them to focus the training on the higher-error data points.
 
  ```
 import numpy as np
@@ -259,8 +280,8 @@ def huber_loss(y_pred, y, delta=1.0):
  Pros and Cons:
   * Advantages : Best of the MSE and the MAE ?
   * Disadvantages
-   * For cases where outliers are very important to you, use the MSE! 
-   * For cases where you don’t care at all about the outliers, use the MAE!
+   * For cases where [outliers] are very important to you, use the [MSE]! 
+   * For cases where you don’t care at all about the [outliers], use the [MAE]!
 
  See also [H], [Loss Function], [Mean Absolute Error Loss Function], [Mean Square Error Loss Function]
 

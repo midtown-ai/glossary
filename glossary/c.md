@@ -30,7 +30,6 @@ layout: page
 
 
 # Caffe
-
 # Caffe2
 
  PyTorch is not an end-to-end machine learning development tool; the development of actual applications requires conversion of the PyTorch code into another framework such as Caffe2 to deploy applications to servers, workstations, and mobile devices.
@@ -42,7 +41,6 @@ layout: page
 
 
 # Carnegie Mellon University
-
 # CMU
 
  {% youtube "https://www.youtube.com/watch?v=krGtcHHGmpk" %}
@@ -55,7 +53,6 @@ layout: page
 
 
 # Case-Based Reasoning
-
 # CBR
 
  In artificial intelligence and philosophy, case-based [reasoning] (CBR), broadly construed, is the process of solving new problems based on the solutions of similar past problems.
@@ -120,7 +117,6 @@ layout: page
 
 
 # Chain Of Thought Prompting
-
 # COT Prompting
 
  ~ A [Prompt Engineering] technique
@@ -436,7 +432,6 @@ print(query_result)
 
 
 # Colossal Clean Crawled Corpus Dataset
-
 # C4 Dataset
 
  To accurately measure the effect of scaling up the amount of pre-training, one needs a dataset that is not only high quality and diverse, but also massive. Existing pre-training datasets don’t meet all three of these criteria — for example, text from Wikipedia is high quality, but uniform in style and relatively small for our purposes, while the Common Crawl web scrapes are enormous and highly diverse, but fairly low quality.
@@ -609,7 +604,6 @@ print(query_result)
 
 
 # Computer Vision and Pattern Recognition Conference
-
 # CVPR Conference
 
  An [AI conference] related to [computer vision] and [pattern recognition]
@@ -643,7 +637,6 @@ print(query_result)
 
 
 # Conditional GAN
-
 # CGAN
 
  In this GAN the generator and discriminator both are provided with additional information that could be a class label or any modal data. As the name suggests the additional information helps the discriminator in finding the conditional probability instead of the joint probability.
@@ -695,7 +688,6 @@ print(query_result)
 
 
 # Consumer Electronic Show
-
 # CES
 
  {% youtube "https://www.youtube.com/watch?v=CnwGrI6T7X0" %}
@@ -704,7 +696,6 @@ print(query_result)
 
 
 # Continual Reinforcement Learning
-
 # CRL
 
  Consider an agent learning to play Go: Once the agent has discovered how to master the game, the task is complete, and the agent’s learning can stop. This view of learning is often embedded in the standard formulation of [Reinforcement Learning (RL)][RL], in which an agent interacts with a Markovian environment with the goal of efficiently identifying an optimal behavior, at which point learning can cease. But what if this is not the best way to model the RL problem? That is, instead of viewing learning as finding a solution, we can instead think of it as endless adaptation
@@ -741,7 +732,6 @@ print(query_result)
 
 
 # Contrastive Language Image Pre-training Model
-
 # CLIP Model
 
  CLIP is a [dual-encoder contrastive model] that was developed by [OpenAI] and released open-source in 01/05/2021
@@ -832,7 +822,6 @@ print(query_result)
 
 
 # Convolutional Neural Network
-
 # CNN
 
  `Particularly useful for image analysis/processing` such as object recognition, image classification, semantic segmentation (object in image), artistic style transfer (filter on an image with the style of another image often a painting), meow generator (find cats in image?) . `The idea is that the pixel are not completely independent from the one surrounding them. CNN takes the surrounding pixel into consideration as well instead of just an independent pixel`. Use filter. Max Pooling layers (dimension reduction of outputs to downstream layers to convert a tensor into a vector). A succession of convolution-subsampling layers. Example: Does a pixel belongs to an object or not? .
@@ -856,7 +845,6 @@ print(query_result)
 
 
 # Convolutional Neural Network Feature Extractor
-
 # CNN Feature Extractor
 
 
@@ -1099,7 +1087,6 @@ pyplot.show()
 
 
 # Critical Assessment of Structure Prediction Challenge
-
 # CASP Challenge
 
  Critical Assessment of Structure Prediction (CASP), sometimes called Critical Assessment of Protein Structure Prediction, is a community-wide, worldwide experiment for protein structure prediction taking place every two years since 1994. CASP provides research groups with an opportunity to objectively test their structure prediction methods and delivers an independent assessment of the state of the art in protein structure modeling to the research community and software users. Even though the primary goal of CASP is to help advance the methods of identifying protein three-dimensional structure from its amino acid sequence many view the experiment more as a “world championship” in this field of science. More than 100 research groups from all over the world participate in CASP on a regular basis and it is not uncommon for entire groups to suspend their other research for months while they focus on getting their servers ready for the experiment and on performing the detailed predictions.
@@ -1208,7 +1195,6 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
 
 # Cumulative Distribution Function
-
 # CDF
 
  Graph or histogram reporting the probability that a function has reached this value or is below.
@@ -1227,6 +1213,19 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  See also [C], [Reward Shaping]
 
 
+# Curiosity-Driven Reinforcement Learning
+# Curiosity-Driven RL
+
+ {% youtube "https://www.youtube.com/watch?v=J99MlZbKTDU" %}
+
+ {% youtube "https://www.youtube.com/watch?v=CIDRdLOWrXQ" %}
+
+ More at:
+  * random distillation paper - [https://arxiv.org/abs/1810.12894](https://arxiv.org/abs/1810.12894)
+
+ See also [C], ...
+
+
 # Curse of Dimensionality
 
  See also [C], [HPO]
@@ -1238,7 +1237,6 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
 
 # Cybernetic Organism
-
 # Cyborg
 
  A cyborg, short for "cybernetic organism," refers to a being that combines both biological and artificial components. It is a concept derived from science fiction and represents a fusion of human and technological elements.
@@ -1266,7 +1264,6 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
 
 # Cycle Generative Adversarial Network
-
 # Cycle GAN
 
  Image-to-image translation involves generating a new synthetic version of a given image with a specific modification, such as translating a summer landscape to winter. This opens up the possibility to do a lot of interesting tasks like photo-enhancement, image colorization, style transfer, season translation, object transfiguration, and generating photos from paintings, etc. Traditionally, training an image-to-image translation model requires a dataset comprised of paired examples. That is, a large dataset of many examples of input images X (e.g. summer landscapes) and the same image with the desired modification that can be used as an expected output image Y (e.g. winter landscapes). The requirement for a paired training dataset is a limitation. These datasets are challenging and expensive to prepare, e.g. photos of different scenes under different conditions. In many cases, the datasets simply do not exist, such as famous paintings and their respective photographs. As such, there is a desire for techniques for training an image-to-image translation system that does not require paired examples. Specifically, where any two collections of unrelated images can be used and the general characteristics extracted from each collection and used in the image translation process. For example, to be able to take a large collection of photos of summer landscapes and a large collection of photos of winter landscapes with unrelated scenes and locations as the first location and be able to translate specific photos from one group to the other. This is called the problem of unpaired image-to-image translation.
