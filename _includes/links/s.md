@@ -60,6 +60,12 @@
 [Simulated Policy Learning Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-policy-learning-algorithm
 [SimPLe Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-policy-learning-algorithm
 [SimPLe]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-policy-learning-algorithm
+[Simulated-To-Real Performance Gap]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-to-real-performance-gap
+[Simulated-To-Real Performance Gaps]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-to-real-performance-gap
+[Sim2Real Performance Gap]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-to-real-performance-gap
+[Sim2Real Performance Gaps]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-to-real-performance-gap
+[Sim2Real Gap]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-to-real-performance-gap
+[Sim2Real Gaps]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-to-real-performance-gap
 [Single Life Reinforcement Learning]: {{ site.baseurl}}{% link glossary/s.md %}#single-life-reinforcement-learning
 [Single Life RL]: {{ site.baseurl}}{% link glossary/s.md %}#single-life-reinforcement-learning
 [SLRL]: {{ site.baseurl}}{% link glossary/s.md %}#single-life-reinforcement-learning

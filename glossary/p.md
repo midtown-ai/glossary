@@ -50,7 +50,6 @@ layout: page
 
 
 # Parameter-Efficient Fine-Tuning
-
 # PEFT
 
  Parameter-Efficient Fine-Tuning (PEFT) methods enable efficient adaptation of pre-trained language models (PLMs) to various downstream applications without fine-tuning all the model's parameters. Fine-tuning large-scale PLMs is often prohibitively costly. In this regard, PEFT methods only fine-tune a small number of (extra) model parameters, thereby greatly decreasing the computational and storage costs. Recent State-of-the-Art PEFT techniques achieve performance comparable to that of full fine-tuning.
@@ -68,6 +67,28 @@ layout: page
  See also [P], ...
 
 
+# Particule Swarm Optimization Algorithm
+# PSO Algorithm
+
+ PSO was first intended for simulating social behaviour, as a stylized representation of the movement of organisms in a bird flock or fish school. The algorithm was simplified and it was observed to be performing optimization. 
+
+ PSO is a [metaheuristic] as it makes few or no assumptions about the problem being optimized and can search very large spaces of candidate solutions. Also, PSO does not use the gradient of the problem being optimized, which means PSO does not require that the optimization problem be differentiable as is required by classic optimization methods such as [gradient descent] and quasi-newton methods. However, [metaheuristics] such as PSO do not guarantee an optimal solution is ever found.
+
+ ![]( {{site.assets}}/p/particle_swarm_optimization.gif ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=8xycqWWqz50" %}
+ {% youtube "https://www.youtube.com/watch?v=JhgDMAm-imI" %}
+
+ More at:
+  * Articles
+    * [https://machinelearningmastery.com/a-gentle-introduction-to-particle-swarm-optimization/](https://machinelearningmastery.com/a-gentle-introduction-to-particle-swarm-optimization/)
+    * wikipedia - [https://en.wikipedia.org/wiki/Particle_swarm_optimization](https://en.wikipedia.org/wiki/Particle_swarm_optimization)
+    * code
+      * race line - [https://github.com/ParsaD23/Racing-Line-Optimization-with-PSO](https://github.com/ParsaD23/Racing-Line-Optimization-with-PSO)
+
+ See also [P], ...
+
+
 # Passive Learning
 
  The main hypothesis in active learning is that if a learning algorithm can choose the data it wants to learn from, it can perform better than traditional methods with substantially less data for training. But what are these traditional methods exactly? These are tasks which involve gathering a large amount of data randomly sampled from the underlying distribution and using this large dataset to train a model that can perform some sort of prediction. You will call this typical method passive learning. One of the more time-consuming tasks in passive learning is collecting labelled data. In many settings, there can be limiting factors that hamper gathering large amounts of labelled data.
@@ -76,7 +97,6 @@ layout: page
 
 
 # Pathways Language Model
-
 # PaLM Model
 
  {% pdf "{{site.assets}}/p/palm_model_paper.pdf" %}
@@ -736,7 +756,6 @@ Prediction Error = actual_value - predicted_value
 
 
 # Procedural Reasoning System
-
 # PRS
 
  In artificial intelligence, a procedural reasoning system (PRS) is a framework for constructing real-time reasoning systems that can perform complex tasks in dynamic environments. It is based on the notion of a rational agent or intelligent agent using the belief–desire–intention software model. A user application is predominately defined, and provided to a PRS system is a set of knowledge areas. Each knowledge area is a piece of procedural knowledge that specifies how to do something, e.g., how to navigate down a corridor, or how to plan a path (in contrast with robotic architectures where the programmer just provides a model of what the states of the world are and how the agent's primitive actions affect them). Such a program, together with a PRS interpreter, is used to control the agent. The interpreter is responsible for maintaining beliefs about the world state, choosing which goals to attempt to achieve next, and choosing which knowledge area to apply in the current situation. How exactly these operations are performed might depend on domain-specific meta-level knowledge areas. Unlike traditional AI planning systems that generate a complete plan at the beginning, and replan if unexpected things happen, PRS interleaves planning and doing actions in the world. At any point, the system might only have a partially specified plan for the future. PRS is based on the BDI or [Belief-Desire-Intention Framework] for intelligent agents. Beliefs consist of what the agent believes to be true about the current state of the world, desires consist of the agent's goals, and intentions consist of the agent's current plans for achieving those goals. Furthermore, each of these three components is typically explicitly represented somewhere within the memory of the PRS agent at runtime, which is in contrast to purely reactive systems, such as the subsumption architecture.

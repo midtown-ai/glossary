@@ -50,6 +50,7 @@
 [Meta]: {{ site.baseurl }}{% link glossary/m.md %}#meta-company
 [Meta Model]: {{ site.baseurl }}{% link glossary/m.md %}#meta-model
 [Meta-Learning]: {{ site.baseurl }}{% link glossary/m.md %}#meta-learning
+[Metaheuristic]: {{ site.baseurl }}{% link glossary/m.md %}#metaheuristic
 [Metaverse]: {{ site.baseurl }}{% link glossary/m.md %}#metaverse
 [METEOR Score]: {{ site.baseurl }}{% link glossary/m.md %}#meteor-score
 [Metropolis Movie]: {{ site.baseurl }}{% link glossary/m.md %}#metropolis-movie

@@ -675,6 +675,9 @@ output = m(input)
   * mini-batch ... = uses all the data in batches (= best of all proposed alternatives?)
   * data sampling or stochastic gradient descent. (= lower compute required since we use only a few sample, but faster iteration with slower convergence st each step, but faster overall?)
 
+ More at:
+  * [https://towardsdatascience.com/gradient-descent-algorithm-a-deep-dive-cf04e8115f21](https://towardsdatascience.com/gradient-descent-algorithm-a-deep-dive-cf04e8115f21)
+
  See also [G], [Activation Function], [Batch Gradient Descent Algorithm], [Gradient Perturbation], [Learning Rate], [Loss Function], [Mini-Batch Gradient Descent Algorithm], [Parameter], [Prediction Error], [Stochastic Gradient Descent Algorithm]
 
 

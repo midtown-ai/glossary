@@ -316,6 +316,18 @@ cheese =>                                   # Prompt
  See also [O], [AlphaStar Model]
 
 
+# OpenAI Function
+
+ {% youtube "https://www.youtube.com/watch?v=0gPh18vRghQ" %}
+
+ More at:
+  * docs - [https://openai-functions.readthedocs.io/en/latest/introduction.html](https://openai-functions.readthedocs.io/en/latest/introduction.html)
+  * [https://openai.com/blog/function-calling-and-other-api-updates?ref=upstract.com](https://openai.com/blog/function-calling-and-other-api-updates?ref=upstract.com)
+  * [https://towardsdatascience.com/an-introduction-to-openai-function-calling-e47e7cd7680e](https://towardsdatascience.com/an-introduction-to-openai-function-calling-e47e7cd7680e)
+
+ See also [O], ...
+
+
 # OpenAI Gym Environment
 
  Virtual environment built by [OpenAI] and to be used for [Reinforcement Learning] projects

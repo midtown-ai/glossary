@@ -641,6 +641,14 @@ def mse_loss(y_pred, y_true):
  See also [M], [Meta Model], [Model Agnostic Meta Learning], [Reinforcement Learning], [Transfer Learning]
 
 
+# Metaheuristic
+
+ More at:
+  * ...
+
+ See also [M], [PSO]
+
+
 # Metaverse
 
  Think of it as the internet brought to life, or at least rendered in 3D. Zuckerberg has described it as a "virtual environment" you can go inside of — instead of just looking at on a screen. Essentially, it's a world of endless, interconnected virtual communities where people can meet, work and play, using virtual reality headsets, augmented reality glasses, smartphone apps or other devices.

@@ -27,6 +27,7 @@
 [OpenAI]: {{ site.baseurl }}{% link glossary/o.md %}#openai-company
 [OpenAI Five Model]: {{ site.baseurl }}{% link glossary/o.md %}#openai-five-model
 [OpenAI Five]: {{ site.baseurl }}{% link glossary/o.md %}#openai-five-model
+[OpenAI Function]: {{ site.baseurl }}{% link glossary/o.md %}#openai-function
 [OpenAI Gym Environment]: {{ site.baseurl }}{% link glossary/o.md %}#openai-gym-environment
 [OpenAI Gym]: {{ site.baseurl }}{% link glossary/o.md %}#openai-gym-environment
 [OpenCV Module]: {{ site.baseurl }}{% link glossary/o.md %}#opencv-module

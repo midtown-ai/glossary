@@ -6,6 +6,10 @@
 [Parameters]: {{ site.baseurl}}{% link glossary/p.md %}#parameter
 [Parameter-Efficient Fine-Tuning]: {{ site.baseurl}}{% link glossary/p.md %}#parameter-efficient-fine-tuning
 [PEFT]: {{ site.baseurl}}{% link glossary/p.md %}#parameter-efficient-fine-tuning
+[Particule Swarm Optimization ALgorithm]: {{ site.baseurl }}{% link glossary/p.md %}#particule-swarm-optimization-algorithm
+[Particule Swarm Optimization]: {{ site.baseurl }}{% link glossary/p.md %}#particule-swarm-optimization-algorithm
+[PSO Algorithm]: {{ site.baseurl }}{% link glossary/p.md %}#particule-swarm-optimization-algorithm
+[PSO]: {{ site.baseurl }}{% link glossary/p.md %}#particule-swarm-optimization-algorithm
 [Passive Learning]: {{ site.baseurl }}{% link glossary/p.md %}#passive-learning
 [Pathways Language Model]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-language-model
 [PaLM Model]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-language-model
