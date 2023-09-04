@@ -58,7 +58,6 @@ layout: page
  See also [R], [GPT Model]
 
 # Random Cut Forest
-
 # RCF
 
  Random Cut Forest (RCF) is an unsupervised algorithm for detecting anomalous data points within a [dataset]. These are observations which diverge from otherwise well-structured or patterned data. Anomalies can manifest as unexpected spikes in time series data, breaks in periodicity, or unclassifiable data points. They are easy to describe in that, when viewed in a plot, they are often easily distinguishable from the "regular" data. Including these anomalies in a [dataset] can drastically increase the complexity of a machine learning task since the "regular" data can often be described with a simple model. With each data point, RCF associates an anomaly score. Low score values indicate that the data point is considered "normal." High values indicate the presence of an anomaly in the data. The definitions of "low" and "high" depend on the application but common practice suggests that scores beyond three standard deviations from the mean score are considered anomalous. While there are many applications of anomaly detection algorithms to one-dimensional time series data such as traffic volume analysis or sound volume spike detection, RCF is designed to work with arbitrary-dimensional input. Amazon SageMaker RCF scales well with respect to number of features, dataset size, and number of instances.
@@ -75,7 +74,6 @@ layout: page
 
 
 # Random Sample Consensus Algorithm
-
 # RANSAC Algorithm
 
  Developed in the early 1990s, in computer vision, but can be used in several fields.
@@ -122,7 +120,12 @@ layout: page
 
  Ranking. Suppose you are given a query and a set of documents. In ranking, the goal is to find the relative importance of the documents and order them based on relevance. An example use case of ranking is a product search for an ecommerce website. You could leverage data about search results, clicks, and successful purchases, and then apply XGBoost for training. This produces a model that gives relevance scores for the searched products.
 
- See also [R], [ML Algorithm], [XGBoost]
+ {% youtube "https://www.youtube.com/watch?v=YroewVVp7SM" %}
+
+ More at:
+  * ...
+
+ See also [R], [ML Algorithm], [Reranking], [XGBoost]
 
 
 # Raspberry Pi Computer
@@ -134,7 +137,6 @@ layout: page
 
 
 # Reason-Act Prompting
-
 # ReAct Prompting
 
  ~ A [prompt engineering] technique where [LLMs] are used to generate both reasoning traces and task-specific actions in an interleaved manner.
@@ -162,6 +164,7 @@ layout: page
 
  Examples:
   * [Case-Based Reasoning]
+  * [Logical Reasoning] ???
 
  More at:
   * ...
@@ -170,6 +173,8 @@ layout: page
 
 
 # Recall
+
+ Metric used for [model evaluation] when the cost of false negatives is high. For example, in disease prediction, it is critical not to miss any positive cases.
 
  Recall is the fraction of malignant tumors (of one class) that the system identified (correctly). Recall measures the fraction of truly malignant tumors that were detected. Recall is important in medical cases where it doesn’t matter whether we raise a false alarm but the actual positive cases should not go undetected!
  
@@ -217,6 +222,7 @@ Recall = % of positively identified
 
  * [Apriori Algorithm]
  * [Link Prediction] in a graph database
+ * [Two-Tower Model] uses cosine or euclidian similarity between [embeddings]
 
  See also [R], ...
 
@@ -355,7 +361,6 @@ Beware:
 
 
 # Region-Based Convolutional Neural Network
-
 # Region-Based CNN
 
  More at:
@@ -472,10 +477,6 @@ Beware:
  More at:
   * ...
 
-
- More at:
-  * ...
-
  See also [R], [Addiction]
 
 
@@ -542,7 +543,6 @@ Beware:
 
 
 # Relative Approximation Error
-
 # RAE
 
  See also [R], [Prediction Error]
@@ -585,9 +585,18 @@ Beware:
  See also [R], [MAML], [Meta Learning]
 
 
-# Reasoning
+# Reranking
 
- * [Logical Reasoning]
+ Used in [semantic search] to find the best answer to a question!
+
+ Reranking refers to the process of reordering or reorganizing a list of items based on certain criteria to improve the quality of the [ranking]. This concept is often used in [information retrieval], search engines, recommendation systems, and other applications where a list of items needs to be presented in a specific order to provide better user experiences or more relevant results.
+
+ In various scenarios, the initial [ranking] of items might not be perfect or optimized for the user's preferences, needs, or relevance. Reranking aims to address this by adjusting the order of items in the list to better match the user's intent or to improve the quality of the presented information. The reranking process can be guided by different factors, such as user feedback, relevance scores, contextual information, or machine learning models.
+
+ {% youtube "https://www.youtube.com/watch?v=GSixIsI1eZE" %}
+
+ More at:
+  * ...
 
  See also [R], ...
 
@@ -712,7 +721,6 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
 
 
 # Restricted Boltzmann Machine
-
 # RBM
 
  In a full Boltzmann machine, each node is connected to every other node and hence the connections grow exponentially. This is the reason we use RBMs. The restrictions in the node connections in RBMs are as follows:
@@ -742,6 +750,53 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  ![]( {{site.assets}}/r/restricted_boltzmann_machine.jpeg ){: width="100%"}
 
  See also [R], [Boltzmann Machine]
+
+
+# Retrieval-Augmented Generation
+# RAG
+
+ ~ A LLM that works with a [retriever]
+
+ Retrieval-augmented generation is a technique used in [natural language processing] that combines the power of both [retrieval models] and [generative models] to enhance the quality and relevance of generated text.
+
+ Now, retrieval-augmented generation combines these two approaches to overcome their individual limitations. In this framework, a retrieval model is used to retrieve relevant information from a knowledge base or a set of documents based on a given query or context. The retrieved information is then used as input or additional context for the generative model.
+
+ ![]( {{site.assets}}/r/retrieval_augmented_generation.webp ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=T-D1OfcDW1M" %}
+
+ {% youtube "https://www.youtube.com/watch?v=ypzmPwLH_Q4" %}
+
+ More at:
+  * [https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79](https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79)
+
+ See also [R], ...
+
+
+# Retrieval Model
+
+ These models are designed to retrieve relevant information from a given set of documents or a knowledge base. They typically use techniques like [information retrieval] or [semantic search] techniques to identify the most relevant pieces of information based on a given query. Retrieval-based models excel at finding accurate and specific information but lack the ability to generate creative or novel content.
+
+ Retrieval models:
+  * Neural Network [Embeddings]
+  * [Best Match 25]
+  * [TF-IDF]
+  * [LDA]
+  * Hybrid search = a combination of the above methodologies with different weightings.
+
+ More at:
+  * [https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79](https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79)
+
+ See also [R], ...
+
+
+# Retriever
+
+
+ More at:
+  * ...
+
+ See also [R], ...
 
 
 # Reward

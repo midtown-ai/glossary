@@ -91,7 +91,8 @@
 [Corpus]: {{ site.baseurl }}{% link glossary/c.md %}#corpus
 [Cortical Labs Company]: {{ site.baseurl }}{% link glossary/c.md %}#cortical-labs-company
 [Cortical Labs]: {{ site.baseurl }}{% link glossary/c.md %}#cortical-labs-company
-[Cosine Similarity]: {{ site.baseurl }}{% link glossary/c.md %}#cosine-similarity
+[Cosine Similarity Function]: {{ site.baseurl }}{% link glossary/c.md %}#cosine-similarity-function
+[Cosine Similarity]: {{ site.baseurl }}{% link glossary/c.md %}#cosine-similarity-function
 [Cost]: {{ site.baseurl }}{% link glossary/c.md %}#cost
 [Cost Function]: {{ site.baseurl }}{% link glossary/c.md %}#cost-function
 [CPU]: {{ site.baseurl }}{% link glossary/c.md %}#cpu

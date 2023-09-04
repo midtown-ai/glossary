@@ -141,7 +141,9 @@ output = m(input)
  Built by [Google] using [PaLM] to compete with multimodal GPT4
 
  More at:
-  * [https://aibusiness.com/companies/google-doubles-down-on-ai-launches-new-language-model-and-ai-tools](https://aibusiness.com/companies/google-doubles-down-on-ai-launches-new-language-model-and-ai-tools)
+  * Articles
+    * [https://aibusiness.com/companies/google-doubles-down-on-ai-launches-new-language-model-and-ai-tools](https://aibusiness.com/companies/google-doubles-down-on-ai-launches-new-language-model-and-ai-tools)
+    * [https://www.wired.com/story/google-deepmind-demis-hassabis-chatgpt/](https://www.wired.com/story/google-deepmind-demis-hassabis-chatgpt/)
 
  See also [G], ...
 
@@ -682,7 +684,6 @@ output = m(input)
 
 
 # Gradient Descent with Momentum Algorithm
-
 # GD with Momentum Algorithm
 
  In the context of [gradient descent][GD Algorithm], momentum is a technique that helps the algorithm to converge faster and more consistently by reducing the oscillation of the updates to the model parameters.
@@ -727,7 +728,6 @@ output = m(input)
 
 
 # Graph Convolutional Network
-
 # GCN
 
  More at 
@@ -737,7 +737,6 @@ output = m(input)
 
 
 # Graph Data Science
-
 # GDS
 
  Language used by the open-source neo4j  graph database database
@@ -775,7 +774,6 @@ output = m(input)
 
 
 # Graph Neural Network
-
 # GNN
 
  Use graph relationship to ... GNNs are used to train predictive models on datasets such as:
@@ -794,7 +792,6 @@ output = m(input)
 
 
 # Graph Neural Network Edge-Level Task
-
 # GNN Edge-Level Task
 
  One example of edge-level inference is in image scene understanding. Beyond identifying objects in an image, deep learning models can be used to predict the relationship between them. We can phrase this as an edge-level classification: given nodes that represent the objects in the image, we wish to predict which of these nodes share an edge or what the value of that edge is. If we wish to discover connections between entities, we could consider the graph fully connected and based on their predicted value prune edges to arrive at a sparse graph.
@@ -809,7 +806,6 @@ output = m(input)
 
 
 # Graph Neural Network Graph Level Task
-
 # GNN Graph-Level Task
 
  In a graph-level task, our goal is to predict the property of an entire graph. For example, for a molecule represented as a graph, we might want to predict what the molecule smells like, or whether it will bind to a receptor implicated in a disease.
@@ -822,7 +818,6 @@ output = m(input)
 
 
 # Graph Neural Network Node-Level Task
-
 # GNN Node-Level Task
 
  Node-level tasks are concerned with predicting the identity or role of each node within a graph. A classic example of a node-level prediction problem is Zach’s karate club. The dataset is a single social network graph made up of individuals that have sworn allegiance to one of two karate clubs after a political rift. As the story goes, a feud between Mr. Hi (Instructor) and John H (Administrator) creates a schism in the karate club. The nodes represent individual karate practitioners, and the edges represent interactions between these members outside of karate. The prediction problem is to classify whether a given member becomes loyal to either Mr. Hi or John H, after the feud. In this case, distance between a node to either the Instructor or Administrator is highly correlated to this label.
@@ -837,7 +832,6 @@ output = m(input)
 
 
 # Graphical Processing Unit
-
 # GPU
 
  To accelerate processing of data.
@@ -873,6 +867,19 @@ output = m(input)
   * [https://towardsdatascience.com/a-practical-introduction-to-grid-search-random-search-and-bayes-search-d5580b1d941d](https://towardsdatascience.com/a-practical-introduction-to-grid-search-random-search-and-bayes-search-d5580b1d941d)
 
  See also [G], [Hyperparameter Optimization], [Random Search]
+
+
+# Ground Truth
+
+ In machine learning, ground truth refers to the accurate and reliable information about the target values or outcomes of a dataset, which is used to train, validate, and assess the performance of machine learning models. Ground truth data provides a basis for comparison, allowing machine learning algorithms to learn patterns and make predictions.
+
+ Here's how ground truth is used in machine learning:
+  * Training: During the training phase, a machine learning model learns from a dataset that includes input features and corresponding ground truth labels. The model adjusts its internal parameters to minimize the discrepancy between its predictions and the ground truth labels.
+  * Validation: After training, the model's performance is assessed using a validation dataset that also contains ground truth labels. This helps determine how well the model generalizes to new, unseen data.
+  * Testing and Evaluation: Once the model is trained and validated, it's tested on a separate testing dataset with ground truth labels. This final evaluation helps measure the model's real-world performance and its ability to make accurate predictions.
+
+ See also [G], ...
+
 
 # Gshard Model
 

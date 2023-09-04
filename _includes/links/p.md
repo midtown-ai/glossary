@@ -6,6 +6,7 @@
 [Parameters]: {{ site.baseurl}}{% link glossary/p.md %}#parameter
 [Parameter-Efficient Fine-Tuning]: {{ site.baseurl}}{% link glossary/p.md %}#parameter-efficient-fine-tuning
 [PEFT]: {{ site.baseurl}}{% link glossary/p.md %}#parameter-efficient-fine-tuning
+[Parametric Knowledge]: {{ site.baseurl}}{% link glossary/p.md %}#parametric-knowledge
 [Particule Swarm Optimization ALgorithm]: {{ site.baseurl }}{% link glossary/p.md %}#particule-swarm-optimization-algorithm
 [Particule Swarm Optimization]: {{ site.baseurl }}{% link glossary/p.md %}#particule-swarm-optimization-algorithm
 [PSO Algorithm]: {{ site.baseurl }}{% link glossary/p.md %}#particule-swarm-optimization-algorithm
@@ -46,6 +47,7 @@
 [Polynomial Regression]: {{ site.baseurl}}{% link glossary/p.md %}#polynomial-regression
 [Pose Estimation]: {{ site.baseurl}}{% link glossary/p.md %}#pose-estimation
 [Positional Encoding]: {{ site.baseurl}}{% link glossary/p.md %}#positional-encoding
+[Positive And Negative Pairs]: {{ site.baseurl}}{% link glossary/p.md %}#positive-and-negative-pairs
 [Positive Attribute]: {{ site.baseurl}}{% link glossary/p.md %}#positive-attribute
 [Posterior Belief]: {{ site.baseurl}}{% link glossary/p.md %}#posterior-belief
 [Posterior Beliefs]: {{ site.baseurl}}{% link glossary/p.md %}#posterior-belief

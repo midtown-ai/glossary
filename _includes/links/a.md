@@ -71,6 +71,7 @@
 [AI Paper]: {{ site.baseurl }}{% link glossary/a.md %}#ai-paper
 [AI Principle]: {{ site.baseurl }}{% link glossary/a.md %}#ai-principle
 [AI Research]: {{ site.baseurl }}{% link glossary/a.md %}#ai-research
+[AI Risk]: {{ site.baseurl }}{% link glossary/a.md %}#ai-risk
 [AI Safety]: {{ site.baseurl }}{% link glossary/a.md %}#ai-safety
 [AI Stack]: {{ site.baseurl }}{% link glossary/a.md %}#ai-stack
 [AI Topics]: {{ site.baseurl }}{% link glossary/a.md %}#ai-topics

@@ -344,6 +344,19 @@ There are various kinds of neocognitron. For example, some types of neocognitron
  See also [N], ...
 
 
+# Neural Information Retrieval Model
+# Neural IR Model
+
+ Neural Information Retrieval (Neural IR) models are a class of information retrieval models that utilize neural network architectures to enhance various aspects of the information retrieval process. Information retrieval involves finding relevant documents or information from a large collection based on a user's query or information need. Neural IR models leverage the power of neural networks to improve the effectiveness and efficiency of this retrieval process.
+
+ These models aim to capture complex relationships between queries and documents, as well as exploit contextual and semantic information that might be challenging to capture using traditional retrieval models. Neural IR models have been applied to various tasks within the information retrieval domain, including search engines, recommendation systems, question-answering systems, and more.
+
+ More at:
+  * ...
+
+ See also [N], [Information Retrieval]
+
+
 # Neural Machine Translation
 # NMT
 

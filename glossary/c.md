@@ -326,7 +326,7 @@ print(query_result)
     * [K-Means Clustering]
     * [LVQ Algorithm]
   * Semi-supervised
-    * [K-Nearest Neighbor (KNN)][KNN]
+    * [K-Nearest Neighbors (KNN)][KNN]
   * Others
     * [Decision tree]
     * [Logistic regression]
@@ -486,6 +486,7 @@ print(query_result)
   * [Insitro](https://www.insitro.com/) - Drug discovery
   * [Ironclad](https://ironcladapp.com/) - Legal contract management
   * [Jasper](https://www.jasper.ai/) - Copywriting software
+  * [Kasisto](https://kasisto.com) - Build an [intelligent digital assistant] for finance projects
   * [Kumo AI] - Pytorch Geometric
   * [Meta] - Formerly known as Facebook with a strong focus on the multiverse and more recently on AI
   * [Microsoft] - One of the largest company in the world, leading changes with AI 
@@ -502,6 +503,7 @@ print(query_result)
   * [Quora] - A static Q&A internet site that is not offering an interface to chatbots though its interface, poe.
   * [RevComm](https://www.revcomm.co.jp/) - Voice analysis software ([Forbes](https://www.forbes.com/companies/revcomm/?sh=6c1080a7340c))
   * [Runway] - Focus on generative AI for images and now videos
+  * [Sakana AI](https://sakana.ai/) - Foundation model based on nature-inspired intelligence !?!?
   * [Scale AI] - Data labeling provider
   * [Shield AI](https://shield.ai/) - Autonomous defense software
   * [Slingshot Aerospace](https://slingshotaerospace.com/) - Space simulation software
@@ -1010,7 +1012,9 @@ pyplot.show()
  See also [C], ...
 
 
-# Cosine Similarity
+# Cosine Similarity Function
+
+ A [similarity function] that can tell us how similar or different 2 [embeddings] are
 
  Can tell us how similar or different 2 phrases are.
   * 2 same sentences, are the exact same, then the cosine similarity is cos(0) = 1
@@ -1030,13 +1034,16 @@ pyplot.show()
 
  Here is an illustration for a cosine similarity for 2 sentences with only 2 words (2 dimensions)
 
- ![]( {{site.assets}}/c/cosine_similarity_1.png ){: width="100%"}
+ ![]( {{site.assets}}/c/cosine_similarity_function_1.png ){: width="100%"}
 
  Here is the formula for the cosine similarity for N words (N dimensions)
 
- ![]( {{site.assets}}/c/cosine_similarity_2.png ){: width="100%"}
+ ![]( {{site.assets}}/c/cosine_similarity_function2.png ){: width="100%"}
 
  {% youtube "https://www.youtube.com/watch?v=e9U0QAFbfLI" %}
+
+ More at:
+  * [https://hackernoon.com/understanding-the-two-tower-model-in-personalized-recommendation-systems](https://hackernoon.com/understanding-the-two-tower-model-in-personalized-recommendation-systems)
 
  See also [C], ...
 

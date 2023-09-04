@@ -5,8 +5,10 @@
 [K-Means Clustering Algorithms]: {{ site.baseurl }}{% link glossary/k.md %}#k-means-clustering-algorithm
 [K-Means Clustering]: {{ site.baseurl }}{% link glossary/k.md %}#k-means-clustering-algorithm
 [K-Means Clustering Failure]: {{ site.baseurl }}{% link glossary/k.md %}#k-means-clustering-failure
-[K-Nearest Neighbor Algorithm]: {{ site.baseurl }}{% link glossary/k.md %}#k-nearest-neighbor-algorithm
+[K-Nearest Neighbors Algorithm]: {{ site.baseurl }}{% link glossary/k.md %}#k-nearest-neighbors-algorithm
+[K-Nearest Neighbors]: {{ site.baseurl }}{% link glossary/k.md %}#k-nearest-neighbors-algorithm
 [KNN Algorithm]: {{ site.baseurl }}{% link glossary/k.md %}#k-nearest-neighbor-algorithm
+[KNN]: {{ site.baseurl }}{% link glossary/k.md %}#k-nearest-neighbor-algorithm
 [Kaggle Company]: {{ site.baseurl }}{% link glossary/k.md %}#kaggle-company
 [Kaggle]: {{ site.baseurl }}{% link glossary/k.md %}#kaggle-company
 [Kaggle Competition]: {{ site.baseurl }}{% link glossary/k.md %}#kaggle-competition

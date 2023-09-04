@@ -46,7 +46,7 @@ layout: page
  A model parameter is something that the ML can learn from the data. For example, the weight of an input in a perceptron. Indeed the model has to have parameters to make predictions. This "parameters" are not set by humans. Hyperparameters cannot be learned from the data and are set by humans. Ex: number of layers in the neural network. 
   * GPT-3 possesses 175 billion weights connecting the equivalent of 8.3 million neurons arranged 384 layers deep.
 
- See also [P], [Hyperparameter]
+ See also [P], [Hyperparameter], [Parametric Knowledge]
 
 
 # Parameter-Efficient Fine-Tuning
@@ -65,6 +65,13 @@ layout: page
   * [https://github.com/huggingface/peft](https://github.com/huggingface/peft)
 
  See also [P], ...
+
+
+# Parametric Knowledge
+
+ ~ knowledge stored in the parameters of the model. Frozen in time.
+
+ See also [P], [Parameter]
 
 
 # Particule Swarm Optimization Algorithm
@@ -518,6 +525,30 @@ That is: π(s) → a
  See also [P], [Multi-Head Attention]
 
 
+# Positive And Negative Pairs
+
+ ~ used in embedded space. Positive pairs = points should be brought closer, negative pair = points should be brought further apart
+
+ Positive and negative pairs are concepts often used in machine learning, particularly in tasks related to similarity or ranking. These pairs are used to represent relationships between data points and help models learn to distinguish between different classes or levels of similarity.
+
+  * Positive Pairs: Positive pairs, also known as matching pairs, are pairs of data points that are considered similar or belong to the same class. In other words, these pairs represent instances that should be recognized as related by a model. For example, in face recognition, positive pairs might consist of images of the same person taken from different angles or under different lighting conditions.
+  * Negative Pairs: Negative pairs, also known as non-matching pairs or contrasting pairs, are pairs of data points that are considered dissimilar or belong to different classes. These pairs represent instances that should be distinguished from each other by a model. Continuing with the face recognition example, negative pairs might consist of images of different individuals.
+
+ Positive and negative pairs are commonly used in various machine learning tasks, such as:
+  * Siamese Networks: These are neural network architectures designed to learn similarity or dissimilarity between data points. Siamese networks use positive and negative pairs during training to learn to minimize the distance between positive pairs and maximize the distance between negative pairs in the learned representation space.
+  * Triplet Loss: Triplet loss is another approach used in tasks like face recognition. It involves using three data points: an anchor A, a positive P (similar to the anchor), and a negative N (dissimilar to the anchor). The network is trained to minimize the distance between the anchor and positive while maximizing the distance between the anchor and negative.
+  * Ranking and Retrieval: In information retrieval tasks, positive pairs could be queries matched with relevant documents, while negative pairs could be queries matched with non-relevant documents. Models learn to rank relevant documents higher than non-relevant ones.
+
+ The use of positive and negative pairs helps models learn meaningful representations or decision boundaries that can generalize well to new, unseen data. By incorporating both similarity and dissimilarity information, models can learn to make accurate predictions or rankings in various tasks.
+
+ An alternative technique is [ranking]
+
+ More at:
+  * ...
+
+ See also [P], ...
+
+
 # Positive Attribute
 
  A cat has legs, fur, 2 eyes, etc. Those are positive attributes. 
@@ -536,6 +567,8 @@ That is: π(s) → a
 
 
 # Precision
+
+ Metric used for [model evaluation] when the cost of false positives is high. An example task could be spam detection, when we don't want to incorrectly classify legitimate emails as spam.
 
  Precision is the fraction of the tumors that were predicted to be malignant (of one call) that are actually malignant (of that class).
  
@@ -668,7 +701,11 @@ Prediction Error = actual_value - predicted_value
 
 # Prior Knowledge
 
- `~ Prior knowledge of how the world works. Also the reason why human learn so much faster than computers!`. Fundamental concepts that are transfered from one task to the other that humans do not have to learn and therefore reduce the training time significantly. ~ stereotypes, shortcuts. Examples of priors are
+ `~ Prior knowledge about the world, enabling efficient decision making. Also the reason why human learn so much faster than computers!`. Fundamental concepts that are transfered from one task to the other that humans do not have to learn and therefore reduce the training time significantly.
+
+ `~ stereotypes, shortcuts.`
+
+ Examples of priors are
   * concepts of objects
   * look similar = act similar
   * object semantics = a key 
@@ -676,15 +713,19 @@ Prediction Error = actual_value - predicted_value
   * affordance : In HCI, to “afford” means to “invite” or to “suggest.” Ex: when you see a button, you assume you can push it to trigger an action. If the button is next to an elevator, you assume it is used to call the elevator. If you recognize a ladder, you assume you can climb it. etc
  . :warning: Note that many priors are innate (look at faces) while others are learned (object permanence = when an object disappear from my view, it still exists) 
  
- {% youtube "https://www.youtube.com/watch?v=Ol0-c9OE3VQ" %}
- 
  Beware priors can also slow down or even prevent learning
   * False Affordances. This type of affordance doesn’t have an apparent function when it is observed. That causes the individual to perceive possibilities of action that do not exist in reality. A placebo is an example of a false affordance.
   * Hidden Affordances. These affordances offer the potential for actions to be taken, but are not necessarily perceived by individuals within their environment. One might look at a book and think, “I could use that for reading.” It could also be used to smash a spider that looks like trouble.
   * Perceptible Affordances. These clues offer information to individuals that allows them to understand what actions can be taken and encourages them to take that action.A
 
+ {% youtube "https://www.youtube.com/watch?v=Ol0-c9OE3VQ" %}
+ 
+ {% pdf "https://arxiv.org/pdf/1802.10217.pdf" %}
+
  More at:
-  * [https://rach0012.github.io/humanRL_website/](https://rach0012.github.io/humanRL_website/)
+  * post - [https://rach0012.github.io/humanRL_website/](https://rach0012.github.io/humanRL_website/)
+  * code - [https://github.com/rach0012/humanRL_prior_games](https://github.com/rach0012/humanRL_prior_games)
+  * paper -  [https://arxiv.org/abs/1802.10217](https://arxiv.org/abs/1802.10217)
 
  See also [P], [Learning Rate], [Transfer Learning]
 

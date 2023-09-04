@@ -69,7 +69,8 @@
 [Mini-Batch]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch
 [Mini-Batchs]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch
 [Mini-Batch Training]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-training
-[Mini-Batch Gradient Descent]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-gradient-descent
+[Mini-Batch Gradient Descent Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-gradient-descent-algorithm
+[Mini-Batch Gradient Descent]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-gradient-descent-algorithm
 [Mixed Reality]: {{ site.baseurl }}{% link glossary/m.md %}#mixed-reality
 [MR]: {{ site.baseurl }}{% link glossary/m.md %}#mixed-reality
 [Mixture Of Local Experts]: {{ site.baseurl }}{% link glossary/m.md %}#mixture-of-local-exports

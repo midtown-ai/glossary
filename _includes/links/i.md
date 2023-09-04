@@ -31,6 +31,8 @@
 [Inflection AI Company]: {{ site.baseurl }}{% link glossary/i.md %}#inflection-ai-company
 [Inflection AI]: {{ site.baseurl }}{% link glossary/i.md %}#inflection-ai-company
 [Information]: {{ site.baseurl }}{% link glossary/i.md %}#information
+[Information Retrieval]: {{ site.baseurl }}{% link glossary/i.md %}#information-retrieval
+[IR]: {{ site.baseurl }}{% link glossary/i.md %}#information-retrieval
 [Initialization]: {{ site.baseurl }}{% link glossary/i.md %}#initialization
 [Inlier]: {{ site.baseurl }}{% link glossary/i.md %}#inlier
 [Inliers]: {{ site.baseurl }}{% link glossary/i.md %}#inlier
@@ -43,6 +45,8 @@
 [Intelligence]: {{ site.baseurl }}{% link glossary/i.md %}#intelligence
 [Intelligence Augmentation]: {{ site.baseurl }}{% link glossary/i.md %}#intelligence-augmentation
 [IA]: {{ site.baseurl }}{% link glossary/i.md %}#ia
+[Intelligent Digital Assistant]: {{ site.baseurl }}{% link glossary/i.md %}#intelligence-digital- assistant
+[IDA]: {{ site.baseurl }}{% link glossary/i.md %}#intelligence-digital- assistant
 [Intent Analysis]: {{ site.baseurl }}{% link glossary/i.md %}#intent-analysis
 [International Conference on Learning Representations Conference]: {{ site.baseurl }}{% link glossary/i.md %}#international-conference-on-learning-representations-conference
 [ICLR Conference]: {{ site.baseurl }}{% link glossary/i.md %}#iclr-conference

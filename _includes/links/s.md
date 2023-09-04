@@ -14,6 +14,8 @@
 [Scaled Dot-Product Attention]: {{ site.baseurl}}{% link glossary/s.md %}#scaled-dot-product-attention
 [Scaler]: {{ site.baseurl}}{% link glossary/s.md %}#scaler
 [Scaling Law]: {{ site.baseurl}}{% link glossary/s.md %}#scaling-law
+[Search Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#search-algorithm
+[Search Algorithms]: {{ site.baseurl}}{% link glossary/s.md %}#search-algorithm
 [Search Problem]: {{ site.baseurl}}{% link glossary/s.md %}#search-problem
 [Scene Graph]: {{ site.baseurl}}{% link glossary/s.md %}#scene-graph
 [ScienceQA Dataset]: {{ site.baseurl}}{% link glossary/s.md %}#scienceqa-dataset
@@ -33,9 +35,9 @@
 [SOM Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
 [SOM]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
 [Self-Supervised Learning]: {{ site.baseurl}}{% link glossary/s.md %}#self-supervised-learning
+[Semantic Embedding]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-embedding
 [Semantic Search]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-search
 [Semantic Segmentation]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-segmentation
-[Semantic Embedding]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-embedding
 [Semantic Space]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-space
 [Semantic Understanding]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-understanding
 [Semi-Supervised Learning]: {{ site.baseurl}}{% link glossary/s.md %}#semi-supervised-learning
@@ -57,6 +59,7 @@
 [Sigmoid Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-activation-function
 [Sigmoid Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-function
 [Similarity Function]: {{ site.baseurl}}{% link glossary/s.md %}#similarity-function
+[Similarity]: {{ site.baseurl}}{% link glossary/s.md %}#similarity-function
 [Simulated Policy Learning Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-policy-learning-algorithm
 [SimPLe Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-policy-learning-algorithm
 [SimPLe]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-policy-learning-algorithm
@@ -93,6 +96,7 @@
 [SDLC Agent]: {{ site.baseurl}}{% link glossary/s.md %}#software-development-lifecycle-agent
 [Sophia Robot]: {{ site.baseurl}}{% link glossary/s.md %}#sophia-robot
 [Sound Analysis]: {{ site.baseurl}}{% link glossary/s.md %}#sound-analysis
+[Source Knowledge]: {{ site.baseurl}}{% link glossary/s.md %}#source-knowledge
 [Spam Detection]: {{ site.baseurl}}{% link glossary/s.md %}#spam-detection
 [Space]: {{ site.baseurl}}{% link glossary/s.md %}#space
 [Sparrow Model]: {{ site.baseurl}}{% link glossary/s.md %}#sparrow-model
@@ -105,10 +109,15 @@
 [Speech Recognition]: {{ site.baseurl}}{% link glossary/s.md %}#speech-recognition
 [Speech-To-Text]: {{ site.baseurl}}{% link glossary/s.md %}#speech-to-text
 [STT]: {{ site.baseurl}}{% link glossary/s.md %}#speech-to-text
+[Speechx Model]: {{ site.baseurl}}{% link glossary/s.md %}#speechx-model
+[Speechx]: {{ site.baseurl}}{% link glossary/s.md %}#speechx-model
 [SQuAD Benchmark]: {{ site.baseurl}}{% link glossary/s.md %}#squad-benchmark
-[Stable Diffusion Model]: {{ site.baseurl}}{% link glossary/s.md %}#stable-diffusion-model
 [Stability AI Company]: {{ site.baseurl}}{% link glossary/s.md %}#stability-ai-company
 [Stability AI]: {{ site.baseurl}}{% link glossary/s.md %}#stability-ai-company
+[StableCode Model]: {{ site.baseurl}}{% link glossary/s.md %}#stablecode-model
+[StableCode]: {{ site.baseurl}}{% link glossary/s.md %}#stablecode-model
+[StableDiffusion Model]: {{ site.baseurl}}{% link glossary/s.md %}#stablediffusion-model
+[StableDiffusion]: {{ site.baseurl}}{% link glossary/s.md %}#stablediffusion-model
 [Stanford Autonomous Helicopter]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-autonomous-helicopter
 [Stanford Natural Language Inference]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-natural-language-inference
 [Stanford University]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-university

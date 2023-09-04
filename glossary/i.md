@@ -281,6 +281,34 @@ Data < Information < Knowledge
  See also [I], [Data], [Knowledge]
 
 
+# Information Retrieval
+# IR
+
+ Information Retrieval (IR) is the process of obtaining relevant information or documents from a large collection of data in response to a user's query or information need. The goal of information retrieval is to effectively locate and present information that is most relevant to the user's request, enabling users to find the information they are looking for efficiently and accurately.
+
+ The main components of an information retrieval system include:
+  * User Query: The user provides a query, which is a set of keywords, phrases, or questions that describe their information need. This query is used to search for relevant documents.
+  * Document Collection: This is the set of documents or data that the information retrieval system searches through. Documents can be text, images, audio, video, or any other type of data.
+  * Indexing: To speed up the retrieval process, an index is created from the document collection. The index contains information about the terms (words or phrases) present in the documents and their locations.
+  * Ranking: When a user submits a query, the information retrieval system retrieves documents that are relevant to the query. These documents are ranked based on their relevance to the query. The ranking is typically done using various algorithms that consider factors like term frequency, document frequency, and other relevance metrics.
+  * Retrieval: The system retrieves a set of documents that are considered relevant to the user's query, based on the ranking process.
+  * Presentation: The retrieved documents are presented to the user in a way that makes it easy for them to review and select the information they are interested in. This can involve displaying snippets of text, document titles, and other relevant information.
+
+ Information retrieval systems are used in various applications, including:
+  * Search Engines: Web search engines like Google, Bing, and Yahoo use information retrieval techniques to provide users with relevant search results from the vast amount of content available on the internet.
+  * Document Management Systems: Organizations use information retrieval systems to manage and retrieve documents from their internal databases.
+  * Digital Libraries: Libraries and archives use IR systems to help users find books, articles, and other resources.
+  * Recommendation Systems: E-commerce platforms and streaming services use IR to recommend products, movies, music, and other content to users based on their preferences and behavior.
+  * Question Answering Systems: IR is used to find relevant answers to user questions, either by searching for relevant documents or by generating answers directly.
+
+ Information retrieval is an essential component of modern technology, enabling users to access and make sense of the vast amount of information available in digital form.
+
+ More at:
+  * ...
+
+ See also [I], ...
+
+
 # Initialization
 
  Initialization (of clustering algorithm)
@@ -380,6 +408,17 @@ Data < Information < Knowledge
 
 
 # Intelligence Augmentation
+
+ See also [I], ...
+
+
+# Intelligent Digital Assistant
+# IDA
+
+ {% pdf "https://5691986.fs1.hubspotusercontent-na1.net/hubfs/5691986/Cornerstone%20Report/CORNERSTONE%20-%20KASISTO%20Chatbot%20Journey.pdf" %}
+
+ More at:
+  * source - [https://pages.kasisto.com/cornerstone-report?submissionGuid=8401e085-4f2d-46ed-8bf4-cb9c5afe4046](https://pages.kasisto.com/cornerstone-report?submissionGuid=8401e085-4f2d-46ed-8bf4-cb9c5afe4046)
 
  See also [I], ...
 

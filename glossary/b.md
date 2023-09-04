@@ -158,6 +158,16 @@ layout: page
 
  The number of samples (rows) in a batch. Configured to optimize the utilization of the [GPU]
 
+ The larger the batch size, the faster the training is.
+ If the batch is too large, the model degrades does not generatlize well.
+ ==> maximize the resource/GPU utilization
+
+ ```
+# of batches  *  batch size  =  1 epoch
+ ```
+
+ {% youtube "https://www.youtube.com/watch?v=U4WB9p6ODjM" %}
+
  More at:
   * [https://towardsdatascience.com/how-to-increase-training-performance-through-memory-optimization-1000d30351c8](https://towardsdatascience.com/how-to-increase-training-performance-through-memory-optimization-1000d30351c8)
 
@@ -456,6 +466,14 @@ Your belief has shifted towards more red marbles based on the observed data. The
    * "What is the cost?" and "Is it expensive?" have almost the same SEP_representation !
 
  See also [B], [Bidirectional Encoder Representations from Transformers]
+
+
+# Best Match 25 Retrieval Model
+# BM25 Retrieval Model
+
+ A widely used text [retrieval model] based on probabilistic [information retrieval] theory. It ranks documents based on term frequencies and inverse document frequencies, considering both the relevance and rarity of terms within a corpus.
+
+ See also [B], ...
 
 
 # BHuman Company

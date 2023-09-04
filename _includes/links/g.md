@@ -24,6 +24,7 @@
 [Generative Classifier]: {{ site.baseurl }}{% link glossary/g.md %}#generative-classifier
 [Generative Design]: {{ site.baseurl }}{% link glossary/g.md %}#generative-design
 [Generative Model]: {{ site.baseurl }}{% link glossary/g.md %}#generative-model
+[Generative Models]: {{ site.baseurl }}{% link glossary/g.md %}#generative-model
 [Generative Pre-Trained Transformer Model]: {{ site.baseurl }}{% link glossary/g.md %}#generative-pre-trained-transformer-model
 [GPT Model]: {{ site.baseurl }}{% link glossary/g.md %}#generative-pre-trained-transformer-model
 [GPT Models]: {{ site.baseurl }}{% link glossary/g.md %}#generative-pre-trained-transformer-model
@@ -93,4 +94,5 @@
 [Greg Brockman Person]: {{ site.baseurl }}{% link glossary/g.md %}#greg-brockman-person
 [Greg Brockman]: {{ site.baseurl }}{% link glossary/g.md %}#greg-brockman-person
 [Grid Search]: {{ site.baseurl }}{% link glossary/g.md %}#grid-search
+[Ground Truth]: {{ site.baseurl }}{% link glossary/g.md %}#ground-truth
 [Gshard Model]: {{ site.baseurl }}{% link glossary/g.md %}#gshard-model

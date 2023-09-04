@@ -30,6 +30,10 @@
 [Berkeley University]: {{ site.baseurl }}{% link glossary/b.md %}#berkeley-university
 [Bernouilli Distribution]: {{ site.baseurl }}{% link glossary/b.md %}#bernouilli-distribution
 [BERT Classification]: {{ site.baseurl }}{% link glossary/b.md %}#bert-classification
+[Best Match 25 Retrieval Model]: {{ site.baseurl }}{% link glossary/b.md %}#best-match-25-retrieval-model
+[Best Match 25 Retrieval]: {{ site.baseurl }}{% link glossary/b.md %}#best-match-25-retrieval-model
+[BM25 Retrieval Model]: {{ site.baseurl }}{% link glossary/b.md %}#best-match-25-retrieval-model
+[BM25 Retrieval]: {{ site.baseurl }}{% link glossary/b.md %}#best-match-25-retrieval-model
 [BHuman Company]: {{ site.baseurl }}{% link glossary/b.md %}#bhuman-company
 [BHuman]: {{ site.baseurl }}{% link glossary/b.md %}#bhuman-company
 [Bias]: {{ site.baseurl }}{% link glossary/b.md %}#bias

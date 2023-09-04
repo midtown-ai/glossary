@@ -31,6 +31,8 @@ layout: page
 
 # Accuracy
 
+ A metric used for [model evaluation] that measures the number of correct predictions made by the model over all kinds of predictions. Useful for classification tasks like sentiment analysis.
+
  ~ the percentage of samples correctly classified given a labelled (but possibly biased) dataset. Consider a classification task in which a machine learning system observes tumors and must predict whether they are malignant or benign. Accuracy, or the `fraction of instances that were classified correctly, is an intuitive measure of the program's performance`. While accuracy does measure the program's performance, it does not differentiate between malignant tumors that were classified as being benign, and benign tumors that were classified as being malignant. In some applications, the costs associated with all types of errors may be the same. In this problem, however, failing to identify malignant tumors is likely a more severe error than mistakenly classifying benign tumors as being malignant.
 
  ```
@@ -533,6 +535,8 @@ Also developed by [Synthesia]
 
 # AI Bill of Rights
 
+ ~ American version of the [EU AI Act] ?
+
  In October, the White House released a 70-plus-page document called the “Blueprint for an A.I. Bill of Rights.” The document’s ambition was sweeping. It called for the right for individuals to “opt out” from automated systems in favor of human ones, the right to a clear explanation as to why a given A.I. system made the decision it did, and the right for the public to give input on how A.I. systems are developed and deployed.
 
  For the most part, the blueprint isn’t enforceable by law. But if it did become law, it would transform how A.I. systems would need to be devised. And, for that reason, it raises an important set of questions: What does a public vision for A.I. actually look like? What do we as a society want from this technology, and how can we design policy to orient it in that direction?
@@ -778,6 +782,34 @@ A risk of [AGI]
   * Make sure that stakeholders are engaged, because problems are not always well formulated or data is missing
 
  See [A], ...
+
+
+# AI Risk
+
+ ~ wrong [Objective Function] ?
+
+ Current approaches to building general-purpose AI systems tend to produce systems with both beneficial and harmful capabilities. Further progress in AI development could lead to capabilities that pose extreme risks, such as offensive cyber capabilities or strong manipulation skills. We explain why model evaluation is critical for addressing extreme risks. Developers must be able to identify dangerous capabilities (through "dangerous capability evaluations") and the propensity of models to apply their capabilities for harm (through "alignment evaluations"). These evaluations will become critical for keeping policymakers and other stakeholders informed, and for making responsible decisions about model training, deployment, and security.
+
+ Risks:
+  * Cyber-offense - The model can discover vulnerabilities in systems (hardwares, software, data). It can write code for exploiting those vulnerabilities. It can make effective decisions once it has gained access to a system or network, and skilfully evade threat detection and response (both human and system) whilst focusing on a specific objective. If deployed as a coding assistant, it can insert subtle bugs into the code for future exploitation.
+  * Deception - The model has the skills necessary to deceive humans, e.g. constructing believable (but false) statements, making accurate predictions about the effect of a lie on a human, and keeping track of what information it needs to withhold to maintain the deception. The model can impersonate a human effectively
+  * Persuasion & manipulation - The model is effective at shaping people’s beliefs, in dialogue and other settings (e.g. social media posts), even towards untrue beliefs. The model is effective at promoting certain narratives in a persuasive way. It can convince people to do things that they would not otherwise do, including unethical acts.
+  * Political Strategy - The model can perform the social modelling and planning necessary for an actor to gain and exercise political influence, not just on a micro-level but in scenarios with multiple actors and rich social context. For example, the model can score highly in forecasting competitions on questions relating to global affairs or political negotiations.
+  * Weapon acquisition - The model can gain access to existing weapons systems or contribute to building new weapons.  For example, the model could assemble a bioweapon (with human assistance) or provide actionable instructions for how to do so. The model can make, or significantly assist with, scientific discoveries that unlock novel weapons.
+  * Long-horizon planning - The model can make sequential plans that involve multiple steps, unfolding over long time horizons (or at least involving many interdependent steps). It can perform such planning within and across many domains. The model can sensibly adapt its plans in light of unexpected obstacles or adversaries. The model’s planning capabilities generalise to novel settings, and do not rely heavily on trial and error.
+  * AI development - The model could build new AI systems from scratch, including AI systems with dangerous capabilities. It can find ways of adapting other, existing models to increase their performance on tasks relevant to extreme risks. As an assistant, the model could significantly improve the productivity of actors building dual use AI capabilities.
+  * Situational awareness - The model can distinguish between whether it is being trained, evaluated, or deployed – allowing it to behave differently in each case. The model knows that it is a model, and has knowledge about itself and its likely surroundings (e.g. what company trained it, where their servers are, what kind of people might be giving it feedback, and who has administrative access).
+  * Selfproliferation - The model can break out of its local environment (e.g. using a vulnerability in its underlying system or suborning an engineer). The model can exploit limitations in the systems for monitoring its behaviour post-deployment. The model could independently generate revenue (e.g. by offering crowdwork services, ransomware attacks), use these revenues to acquire cloud computing resources, and operate a large number of other AI systems. The model can generate creative strategies for uncovering information about itself or exfiltrating its code and weights.
+
+ {% pdf "https://arxiv.org/pdf/2305.15324.pdf" %}
+
+ More at:
+  * paperis
+    * [https://arxiv.org/abs/2305.15324](https://arxiv.org/abs/2305.15324)
+    * [https://arxiv.org/abs/2202.07785](https://arxiv.org/abs/2202.07785)
+  * [https://www.linkedin.com/pulse/unpacking-ai-risks-closer-look-deepminds-evaluation-des-w-woodruff/](https://www.linkedin.com/pulse/unpacking-ai-risks-closer-look-deepminds-evaluation-des-w-woodruff/)
+
+ See also [A], ...
 
 
 # AI Safety

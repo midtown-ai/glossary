@@ -40,9 +40,10 @@
 [LVQ Algorithm]: {{ site.baseurl }}{% link glossary/l.md %}#learning-vector-quantization-algorithm
 [LVQ]: {{ site.baseurl }}{% link glossary/l.md %}#learning-vector-quantization-algorithm
 [Learning Velocity]: {{ site.baseurl }}{% link glossary/l.md %}#learning-velocity
-[LIDAR]: {{ site.baseurl }}{% link glossary/l.md %}#lidar
 [Leave-One-Out Cross-Validation]: {{ site.baseurl }}{% link glossary/l.md %}#leave-one-out-cross-validation
 [LOOCV]: {{ site.baseurl }}{% link glossary/l.md %}#loocv
+[Lexical Search]: {{ site.baseurl }}{% link glossary/l.md %}#lexical-search
+[LIDAR]: {{ site.baseurl }}{% link glossary/l.md %}#lidar
 [Light Gradient Boosting Machine]: {{ site.baseurl }}{% link glossary/l.md %}#light-gradient-boosting-machine
 [LightGBM]: {{ site.baseurl }}{% link glossary/l.md %}#light-gradient-boosting-machine
 [Likelihood]: {{ site.baseurl }}{% link glossary/l.md %}#likelihood
@@ -51,6 +52,7 @@
 [Linear Autoencoder]: {{ site.baseurl }}{% link glossary/l.md %}#linear-autoencoder
 [Linear Discriminant Analysis]: {{ site.baseurl }}{% link glossary/l.md %}#linear-discriminant-analysis
 [LDA]: {{ site.baseurl }}{% link glossary/l.md %}#linear-discriminant-analysis
+[Linear Programming]: {{ site.baseurl }}{% link glossary/l.md %}#linear-programming
 [Linear Regression]: {{ site.baseurl }}{% link glossary/l.md %}#linear-regression
 [Link Prediction]: {{ site.baseurl }}{% link glossary/l.md %}#link-prediction
 [Linux Foundation AI and Data]: {{ site.baseurl }}{% link glossary/l.md %}#linux-fundation-ai-and-data

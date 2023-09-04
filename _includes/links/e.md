@@ -52,6 +52,11 @@
 [ESM Metagenomic Atlas]: {{site.baseurl }}{% link glossary/e.md %}#esm-metagenomic-atlas
 [Estimator]: {{site.baseurl }}{% link glossary/e.md %}#estimator
 [Ethical AI]: {{site.baseurl }}{% link glossary/e.md %}#ethical-ai
+[Euclidean Geometry]: {{site.baseurl }}{% link glossary/e.md %}#euclidean-geometry
+[Euclidean Similarity Function]: {{site.baseurl }}{% link glossary/e.md %}#euclidean-similarity-function
+[Euclidean Similarity]: {{site.baseurl }}{% link glossary/e.md %}#euclidean-similarity-function
+[European Union AI Act]: {{site.baseurl }}{% link glossary/e.md %}#european-union-ai-act
+[EU AI Act]: {{site.baseurl }}{% link glossary/e.md %}#european-union-ai-act
 [Evolution Strategy]: {{site.baseurl }}{% link glossary/e.md %}#evoluation-strategy
 [ES]: {{site.baseurl }}{% link glossary/e.md %}#evoluation-strategy
 [Evolutionary Scale Modeling]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-modeling
@@ -61,6 +66,7 @@
 [EBMT]: {{site.baseurl }}{% link glossary/e.md %}#ebmt
 [Expected Value]: {{site.baseurl }}{% link glossary/e.md %}#expected-value
 [Experience]: {{site.baseurl }}{% link glossary/e.md %}#experience
+[Experiences]: {{site.baseurl }}{% link glossary/e.md %}#experience
 [Experience Batch]: {{site.baseurl }}{% link glossary/e.md %}#experience-batch
 [Experience Replay]: {{site.baseurl }}{% link glossary/e.md %}#experience-replay
 [Experience Replay Buffer]: {{site.baseurl }}{% link glossary/e.md %}#experience-replay-buffer

@@ -3,6 +3,7 @@
 [Object Detection]: {{ site.baseurl }}{% link glossary/o.md %}#object-detection
 [Object Recognition]: {{ site.baseurl }}{% link glossary/o.md %}#object-recognition
 [Object Tracking]: {{ site.baseurl }}{% link glossary/o.md %}#object-tracking
+[Objective Function]: {{ site.baseurl }}{% link glossary/o.md %}#objective-function
 [Observation]: {{ site.baseurl }}{% link glossary/o.md %}#observation
 [Off-policy Learning]: {{ site.baseurl }}{% link glossary/o.md %}#off-policy-learning
 [Off-policy Learning Algorithm]: {{ site.baseurl }}{% link glossary/o.md %}#off-policy-learning-algorithm

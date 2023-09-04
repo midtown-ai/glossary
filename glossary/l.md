@@ -204,15 +204,19 @@ completion = llm(prompt)
 
 
 # Latent Dirichlet Allocation
-
 # LDA
 
  Used as a topic modeling technique that is it can classify text in a document to a particular topic. It uses Dirichlet distribution to find topics for each document model and words for each topic model. Johann Peter Gustav Lejeune Dirichlet was a German mathematician in the 1800s who contributed widely to the field of modern mathematics. There is a probability distribution named after him ‘Dirichlet Distribution’ which is the basis of Latent Dirichlet Allocation (--LDA--).
 
+ More at:
+  * ...
+
+ See also [L], ...
+
 
 # Latent Perturbation
 
- Used yo find out what the latent variable are/mean in a latent variable model. :warning: The model learns by itself that those are important variables based on the provided training sample. :warning: The loss function defines what is learned and HOW it learns it! Latent perturbation is useful to see how entangled or disentangled latent variables are.
+ Used to find out what the latent variable are/mean in a latent variable model. :warning: The model learns by itself that those are important variables based on the provided training sample. :warning: The loss function defines what is learned and HOW it learns it! Latent perturbation is useful to see how entangled or disentangled latent variables are.
 
  See also [L], [Disentangled Variational Autoencoder], [Latent Variable], [Latent Variable Model]
 
@@ -350,7 +354,6 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
 
 # Learning Vector Quantization Algorithm
-
 # LVQ Algorithm
 
  Clustering algorithm used in [unsupervised learning].
@@ -371,7 +374,6 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
 
 # Leave-One-Out Cross-Validation
-
 # LOOCV
 
  A special case of [k-fold cross-validation] is the Leave-one-out cross-validation (LOOCV) method in which we set k=n (number of observations in the dataset). Only one training sample is used for testing during each iteration. This method is very useful when working with very small datasets.
@@ -382,13 +384,31 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
  See also [L], ...
 
 
+# Lexical Search
+
+ Word matching. Keyword search or exact phrase.
+
+ Algorithms:
+  * Rabin-Karp
+  * Bayer-Moore
+  * Knuth-Morris-Pratt
+
+ ![]( {{site.assets}}/l/lexical_search_problem.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=au59-CEPegg" %}
+
+ More at:
+  * ...
+
+ See also [L], [Semantic Search]
+
+
 # LIDAR 
 
  See also [L], [Autonomous Vehicle]
 
 
 # Light Gradient Boosting Machine
-
 # LightGBM
 
  An [ensemble method].
@@ -450,7 +470,6 @@ f(x) = kx
 
 
 # Linear Discriminant Analysis
-
 # LDA
 
  Linear Discriminant Analysis(or LDA for short) was proposed by Ronald Fisher which is a Supervised Learning algorithm. It means that you must use both features and labels of data to reduce dimension while PCA only uses features. Another key point : the purpose of LDA is to find a new space in which reduced-dimension dataset is good for classification task. To meet this goal, LDA uses 2 metrics: Within-class variance and Between-class variance. The core idea is quite straightforward: finding vectors w which maximize the distance between mean vectors of 2 classes and minimize the variance within each class. A little bit explanation: within-class variance stands for scatter. The smaller this quantity, the lower data points scatter and vice versa. We want to classify classes, of course we have to maximize the distance between each class, that's why maximizing distance between mean vectors. However, we also need to take into account the scatter of data.The greater the within-class variance, the more data points of 2 classes overlap and it culminates in bad result for classification. Now you know why we need to minimize the scatter.
@@ -459,6 +478,16 @@ f(x) = kx
   * [https://iq.opengenus.org/pca-vs-lda/](https://iq.opengenus.org/pca-vs-lda/)
 
  See also [L], [Dimensionality Reduction], [Principal Component Analysis]
+
+
+# Linear Programming
+
+ {% youtube "https://www.youtube.com/watch?v=Bzzqx1F23a8" %}
+
+ More at:
+  * ...
+
+ See also [L], [Objective Function]
 
 
 # Linear Regression

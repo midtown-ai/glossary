@@ -53,6 +53,28 @@ layout: page
  See also [O], [Computer Vision]
 
 
+# Objective Function
+
+ The "objective function" is the function that you want to minimize or maximize in your problem.
+  * If minimize, the objective function is also called a loss, error, or fitness function, but more often a [cost function]
+  * If maximize, the objective function is called a maximization or maximize function
+
+ The expression "objective function" is used in several different contexts (e.g. [machine learning] or [linear programming]), but it always refers to the function to be maximized or minimized in the specific (optimization) problem. Hence, this expression is used in the context of mathematical optimization.
+
+ For example, in machine learning, you define a model, M. To train M, you usually define a loss function L (e.g., a [mean squared error]), which you want to minimize. L is the "objective function" of your problem (which in this case is to be minimized).
+
+ In the context of [search algorithms], the objective function could represent e.g. the cost of the solution. For example, in the case of the [traveling salesman problem (TSP)][TSP], you define a function, call it C , which represents the "cost" of the tour or [Hamiltonian cycle], that is, a function which sums up the weights of all edges in the tour. In this case, the "objective" of your problem is to minimize this function C , because, essentially, you want to find an inexpensive tour, which is associated with either a local (or global) minimum of C . This function C is the "objective function".
+
+ It should now be easy to memorize the expression "objective function", as it contains the term "objective", and the "objective" (or goal) in your ([optimization]) problem is to minimize (or maximize) the corresponding function.
+
+ ![]( {{site.assets}}/o/objective_function.jpeg ){: width="100%"}
+
+ More at:
+  * [https://ai.stackexchange.com/questions/9005/what-is-an-objective-function](https://ai.stackexchange.com/questions/9005/what-is-an-objective-function)
+
+ See also [O], ...
+
+
 # Observation
 
  In Reinforcement learning, an observation using one or more sensor (ex: camera) can help you identify in which state you are.

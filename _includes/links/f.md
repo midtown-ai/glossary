@@ -6,6 +6,7 @@
 [Fairseq Toolkit]: {{site.baseurl }}{% link glossary/f.md %}#fairseq-toolkit
 [Fake Art]: {{site.baseurl }}{% link glossary/f.md %}#fake-art
 [Fake News]: {{site.baseurl }}{% link glossary/f.md %}#fake-news
+[Falcon Model]: {{site.baseurl }}{% link glossary/f.md %}#falcon-model
 [Fashion MNIST Dataset]: {{site.baseurl }}{% link glossary/f.md %}#fashion-mnist-dataset
 [Fast Random Projection]: {{site.baseurl }}{% link glossary/f.md %}#fast-random-projection
 [FastRP]: {{site.baseurl }}{% link glossary/f.md %}#fast-random-projection

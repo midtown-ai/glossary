@@ -24,8 +24,10 @@
 [TensorRT SDK]: {{ site.baseurl }}{% link glossary/t.md %}#tensorrt-software-development-kit
 [Term Frequency]: {{ site.baseurl }}{% link glossary/t.md %}#term-frequency
 [TF]: {{ site.baseurl }}{% link glossary/t.md %}#term-frequency
-[Term Frequency Inverse Document Frequency]: {{ site.baseurl }}{% link glossary/t.md %}#term-frequency-inverse-document-frequency
-[TF-IDF]: {{ site.baseurl }}{% link glossary/t.md %}#term-frequency-inverse-document-frequency
+[Term Frequency Inverse Document Frequency Retrieval Model]: {{ site.baseurl }}{% link glossary/t.md %}#term-frequency-inverse-document-frequency-retrieval-model
+[Term Frequency Inverse Document Frequency]: {{ site.baseurl }}{% link glossary/t.md %}#term-frequency-inverse-document-frequency-retrieval-model
+[TF-IDF Retrieval Model]: {{ site.baseurl }}{% link glossary/t.md %}#term-frequency-inverse-document-frequency-retrieval-model
+[TF-IDF]: {{ site.baseurl }}{% link glossary/t.md %}#term-frequency-inverse-document-frequency-retrieval-model
 [Term Frequency Matrix]: {{ site.baseurl }}{% link glossary/t.md %}#term-frequency-matrix
 [TFM]: {{ site.baseurl }}{% link glossary/t.md %}#term-frequency-matrix
 [Terminator Movie]: {{ site.baseurl }}{% link glossary/t.md %}#terminator-movie
@@ -57,6 +59,9 @@
 [Transformer Architecture]: {{ site.baseurl }}{% link glossary/t.md %}#transformer-architecture
 [Transformer]: {{ site.baseurl }}{% link glossary/t.md %}#transformer-architecture
 [Translation]: {{ site.baseurl }}{% link glossary/t.md %}#translation
+[Traveling Salesman Problem]: {{ site.baseurl }}{% link glossary/t.md %}#traveling-salesman-problem
+[Traveling Salesman]: {{ site.baseurl }}{% link glossary/t.md %}#traveling-salesman-problem
+[TSP]: {{ site.baseurl }}{% link glossary/t.md %}#traveling-salesman-problem
 [Tree Of Thoughts Prompting]: {{ site.baseurl }}{% link glossary/t.md %}#tree-of-thoughts-prompting
 [Tree Of Thoughts]: {{ site.baseurl }}{% link glossary/t.md %}#tree-of-thoughts-prompting
 [TOT Prompting]: {{ site.baseurl }}{% link glossary/t.md %}#tree-of-thoughts-prompting
@@ -79,3 +84,6 @@
 [Twin Delayed Deep Deterministic]: {{ site.baseurl }}{% link glossary/t.md %}#twin-delayed-deep-deterministic-algorithm
 [TD3 Algorithm]: {{ site.baseurl }}{% link glossary/t.md %}#twin-delayed-deep-deterministic-algorithm
 [TD3]: {{ site.baseurl }}{% link glossary/t.md %}#twin-delayed-deep-deterministic-algorithm
+[Two-Tower Embeddings]: {{ site.baseurl }}{% link glossary/t.md %}#two-tower-embeddings
+[TTE]: {{ site.baseurl }}{% link glossary/t.md %}#two-tower embeddings
+[Two-Tower Model]: {{ site.baseurl }}{% link glossary/t.md %}#two-tower-model

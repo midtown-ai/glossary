@@ -231,18 +231,17 @@ layout: page
  See also [T], [TF-IDF]
 
 
-# Term Frequency Inverse Document Frequency
+# Term Frequency Inverse Document Frequency Retrieval Model
+# TF-IDF Retrieval Model
 
-# TF-IDF
-
- TF-IDF stands for term frequency-inverse document frequency, and the tf-idf weight is a weight often used in information retrieval and text mining. This weight is a statistical measure used to evaluate how important a word is to a document in a collection or corpus. The importance increases proportionally to the number of times a word appears in the document but is offset by the frequency of the word in the corpus. Variations of the tf-idf weighting scheme are often used by search engines as a central tool in scoring and ranking a document's relevance given a user query. One of the simplest ranking functions is computed by summing the tf-idf for each query term; many more sophisticated ranking functions are variants of this simple model. Tf-idf can be successfully used for stop-words filtering in various subject fields including text summarization and classification. Typically, the tf-idf weight is composed by two terms: the first computes the normalized Term Frequency (TF), aka. the number of times a word appears in a document, divided by the total number of words in that document; the second term is the Inverse Document Frequency (IDF), computed as the logarithm of the number of the documents in the corpus divided by the number of documents where the specific term appears.
+ TF-IDF stands for term frequency-inverse document frequency, and the tf-idf weight is a weight often used in [information retrieval] and text mining. This weight is a statistical measure used to evaluate how important a word is to a document in a collection or corpus. The importance increases proportionally to the number of times a word appears in the document but is offset by the frequency of the word in the corpus. Variations of the tf-idf weighting scheme are often used by search engines as a central tool in scoring and ranking a document's relevance given a user query. One of the simplest ranking functions is computed by summing the tf-idf for each query term; many more sophisticated ranking functions are variants of this simple model. Tf-idf can be successfully used for stop-words filtering in various subject fields including text summarization and classification. Typically, the tf-idf weight is composed by two terms: the first computes the normalized Term Frequency (TF), aka. the number of times a word appears in a document, divided by the total number of words in that document; the second term is the Inverse Document Frequency (IDF), computed as the logarithm of the number of the documents in the corpus divided by the number of documents where the specific term appears.
 
  ![]( {{site.assets}}/t/tfidf.jpeg ){: width="100%"}
 
  More at:
   * [http://tfidf.com/](http://tfidf.com/)
 
- See also [T], [NLP], [Term Frequency Matrix]
+ See also [T], [NLP], [Retrieval Model], [Term Frequency Matrix]
 
 
 # Term Frequency Matrix
@@ -613,10 +612,25 @@ Desired Output --> |     Training     | --> Model
 
  See also [T], [Action Transformer], [Attention Score], [Attention-Based Model], [Autoregressive Model], [Generative Model], [Masked Self-Attention], [Multi-Head Attention], [Self-Attention]
 
+
 # Translation
 
  See also [T], [Emergent Ability]
 
+
+# Traveling Salesman Problem
+# TSP
+
+ Requires a [search algorithm], ...
+
+ The Traveling Salesperson Problem (TSP) is a well-known algorithmic problem in computer science and operations research that deals with finding the shortest and most efficient route for a person to take, given a list of specific destinations. The problem is to find a path that visits each city once, returns to the starting city, and minimizes the distance traveled. It is an NP-hard problem in combinatorial optimization, important in theoretical computer science and operations research. The TSP has real-world applications for logistics and delivery businesses.
+
+ {% youtube "https://www.youtube.com/watch?v=q8nQTNvCrjE" %}
+
+ More at:
+  * colab - [https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/traveling_salesman/tsp_gcl.ipynb](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/traveling_salesman/tsp_gcl.ipynb)
+
+ See also [T], [Objective Function]
 
 
 # Tree of Thoughts Prompting
@@ -802,7 +816,7 @@ Agreed. Based on the sequence of events and the details provided, the area aroun
 
  A computer passes the test if a human interrogator, after posing some written questions, cannot tell whether the written responses come from a person or from a computer.
 
- ![]( {{site.assets}}/t/turing_test.png ){: width="100%"}}
+ ![]( {{site.assets}}/t/turing_test.png ){: width="100%"}
 
  More at:
   * [https://www.computerhope.com/jargon/t/turntest.htm](https://www.computerhope.com/jargon/t/turntest.htm)
@@ -814,8 +828,6 @@ Agreed. Based on the sequence of events and the details provided, the area aroun
 # Twin Delayed Deep Deterministic Algorithm
 
 # TD3 Algorithm
-
- 
 
  * [Model-free learning algorithm]
  * [Off-policy learning algorithm]
@@ -839,3 +851,27 @@ Agreed. Based on the sequence of events and the details provided, the area aroun
  TD3 has shown impressive performance in various challenging continuous control tasks, providing a balance between [exploration] and [exploitation] and achieving [state-of-the-art] results in terms of [sample efficiency] and stability.
 
  See also [T], ...
+
+# Two-Tower Embeddings
+# TTE
+
+ Two-tower embeddings are the [embeddings] generated by a special deep learning architecture named two towers. TTE model architecture usually consists of a query tower and an item tower: query tower encodes search query and user profile to query embeddings, and item tower encodes store, grocery item, geo location to item embeddings.
+
+ {% pdf "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf" %}
+
+ More at:
+  * [https://www.uber.com/blog/innovative-recommendation-applications-using-two-tower-embeddings/](https://www.uber.com/blog/innovative-recommendation-applications-using-two-tower-embeddings/)
+ 
+# Two-Tower Model
+
+ The Two-Tower model is widely used in the recommendation system retrieval stage. The idea is quite simple for this model architecture; it consists of two fully separated towers, one for the user and one for the item, as shown in the figure below. Through deep neural networks, the model is able to learn high-level abstract representations for both a user and an item with past user-item interactions. The output is the [similarity] between user embedding and item embedding, which represents how interested the user is in the given item.
+
+ To further accelerate online serving, user embeddings and item embeddings can be precomputed and stored offline. Thus, we only need to compute the similarity between user and item embeddings during online serving.
+
+ ![]( {{site.assets}}/t/two_tower_model.png ){: width="100%"}
+
+ More at:
+  * [https://hackernoon.com/understanding-the-two-tower-model-in-personalized-recommendation-systems](https://hackernoon.com/understanding-the-two-tower-model-in-personalized-recommendation-systems)
+
+ See also [T], ...
+

@@ -98,11 +98,10 @@ layout: page
  See also [K], ...
 
 
-# K-Nearest Neighbor
+# K-Nearest Neighbors Algorithm
+# KNN Algorithm
 
-# KNN
-
- KNN can be used for both [classification] and regression predictive problems. However, it is more widely used in classification problems in the industry. It is commonly used for its easy of interpretation and low calculation time. In the example below, K=3 and given that the 3 nearest neighbor are in the same class, we are fairly confident, the new [sample] is in the same class.
+ KNN can be used for both [classification] and regression predictive problems. However, it is more widely used in classification problems in the industry. It is commonly used for its easy of interpretation and low calculation time. In the example below, K=3 and given that the 3 nearest neighbors are in the same class, we are fairly confident, the new [sample] is in the same class.
 
  ![]( {{site.assets}}/k/k_nearest_neighbor.png ){: width="100%"}
 
@@ -112,7 +111,7 @@ layout: page
  More at:
   * [https://www.analyticsvidhya.com/blog/2018/03/introduction-k-neighbours-algorithm-clustering/](https://www.analyticsvidhya.com/blog/2018/03/introduction-k-neighbours-algorithm-clustering/)
 
- See also [K], [Model Evaluation], [Semisupervised Learning]
+ See also [K], [Model Evaluation], [Semisupervised Learning], [Similarity Function]
 
 
 # Kaggle Company
@@ -186,6 +185,11 @@ layout: page
  ```
  Data < Information < Knowledge
  ```
+
+ There are different types of knowledge
+  * [Parametric knowledge] - knowledge stored in the [parameters] of the model
+  * [Source knowledge] - vector database + augmented context
+  * ...
 
  See also [K], [Data], [Information]
 

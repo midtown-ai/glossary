@@ -31,7 +31,9 @@ layout: page
 
 # F1 Score
 
- A Measure of accuracy of a model. Used to find hyperparameter optimization.
+ Harmonic mean of precision and recall. A metric used for [model evaluation]  in scenarios where both false positives and false negatives are crucial. For instance, in information retrieval or sumarization tasks.
+
+ A Measure of accuracy of a model. Used to find [hyperparameter optimization].
 
  When to use? F1-Score is used when the False Negatives and False Positives are important. F1-Score is a better metric for Imbalanced Data.
 
@@ -89,6 +91,55 @@ layout: page
    * SIFT method - [https://oer.pressbooks.pub/collegeresearch/chapter/the-sift-method/](https://oer.pressbooks.pub/collegeresearch/chapter/the-sift-method/)
 
   See also [F], ...
+
+
+# Falcon Model
+
+ ```
+from langchain import HuggingFacePipeline
+from transformers import AutoTokenizer, pipeline
+import torch
+
+model = "tiiuae/falcon-7b-instruct" # You can also use the larger model falcon-40b-instruct
+
+tokenizer = AutoTokenizer.from_pretrained(model)
+
+pipeline = pipeline(
+    "text-generation", #task
+    model=model,
+    tokenizer=tokenizer,
+    torch_dtype=torch.bfloat16,
+    trust_remote_code=True,
+    device_map="auto",
+    max_length=10000,
+    do_sample=True,
+    top_k=10,
+    num_return_sequences=1,
+    eos_token_id=tokenizer.eos_token_id
+)
+
+llm = HuggingFacePipeline(pipeline = pipeline, model_kwargs = {'temperature':0})
+
+from langchain import PromptTemplate,  LLMChain
+
+template = """
+You are an ethical hacker and programmer. Help the following question with brilliant answers.
+Question: {question}
+Answer:"""
+prompt = PromptTemplate(template=template, input_variables=["question"])
+
+llm_chain = LLMChain(prompt=prompt, llm=llm)
+
+question = "Create a python script to send a DNS packet using scapy with a secret payload "
+
+print(llm_chain.run(question))
+
+ ```
+
+ More at:
+  * colab - [https://colab.research.google.com/drive/1rLShukC14BodnSI9OTyBLu9v0CVrrCsi?usp=sharing](https://colab.research.google.com/drive/1rLShukC14BodnSI9OTyBLu9v0CVrrCsi?usp=sharing)
+
+ See also [F], ...
 
 
 # Fashion MNIST Dataset

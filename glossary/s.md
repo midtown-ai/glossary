@@ -262,6 +262,17 @@ StandardScaler()
  See also [S], ...
 
 
+# Search Algorithm
+
+ Problems
+  * [Traveling Salesman]
+
+ Algorithm
+  * A*
+
+ See also [S], [Objective Function]
+
+
 # Search Problem
 
  See also [S], [State Model]
@@ -465,14 +476,33 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
 
  Self-supervised learning in humans refers to the process by which individuals acquire knowledge and skills through their own experiences and interactions with their environment, without the need for explicit external feedback or instruction.  This type of learning can occur in a variety of contexts, including during childhood development, where children learn to walk, talk, and interact with their surroundings through self-directed exploration and experimentation.  Self-supervised learning can also occur in more advanced stages of learning, such as when individuals acquire new skills or knowledge in their field of expertise through self-directed practice and experimentation. Overall, self-supervised learning for humans is a natural and essential process that enables individuals to acquire new knowledge and skills in a self-directed and autonomous manner.
 
- See also [S], [Data2Vec Model], [Replaced Word Detection], [Semi-Surpervised Learning], [Supervised Learning], [Unsupervised Learning], [Upstream Task]
+ See also [S], [Data2Vec Model], [Replaced Word Detection], [Semi-Supervised Learning], [Supervised Learning], [Unsupervised Learning], [Upstream Task]
+
+
+# Semantic Embedding
+
+ ![]( {{site.assets}}/s/semantic_embedding.png ){: width="100%}
+
+ See also [S], [Semantic Space], [Zero-Shot Learning]
 
 
 # Semantic Search
 
+ = embedding + similarity + reranking
+
  Semantic search leverages deep neural networks to intelligently search through data. You interact with it every time you search on Google. Semantic search is helpful when you want to search for something based on the context rather than specific keywords.
 
- See also [S], [Natural Language Processing]
+ Semantic search is often used in [retriever] in [RAG]
+
+ Beware:
+  * If you only use embeddings and similarity, you may not be finding the answer to the question as the closest point may be out of date or false. To solve this, you need to use [reranking] --> give a score to all the nearest embeddings and pick the one with the highest score!
+
+ {% youtube "https://www.youtube.com/watch?v=fFt4kR4ntAA" %}
+
+ More at:
+  * [https://txt.cohere.com/what-is-semantic-search/](https://txt.cohere.com/what-is-semantic-search/)
+
+ See also [S], [Lexical Search], [Natural Language Processing], [Similarity Function]
 
 
 # Semantic Segmentation
@@ -489,13 +519,6 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
   * [https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b](https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b)
 
  See also [S], [Convolutional Neural Network], [Instance Segmentation], [U-Net Architecture]
-
-
-# Semantic Embedding
-
- ![]( {{site.assets}}/s/semantic_embedding.png ){: width="100%}
-
- See also [S], [Semantic Space], [Zero-Shot Learning]
 
 
 # Semantic Space
@@ -516,7 +539,7 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
 
  ~ `dataset not fully labeled --> use similarity to label other data` Supervised learning and unsupervised learning can be thought of as occupying opposite ends of a spectrum. Some types of problem, called semi-supervised learning problems, make use of both supervised and unsupervised data; these problems are located on the spectrum between supervised and unsupervised learning.  Several algorithm can be used like neighbor infection or nearest labeled neighbor. Example A: In a series of picture, you recognize people, let's say 4 of them. If you tag one image, then the tags can be pushed to all the other images. Example B: Classification problem but only on a small subset you have is CORRECTLY labeled. Can you train your model with the rest of the unlabelled data? 
 
- See also [S], [K-Nearest Neighbor], [Self-Supervised Learning], [Supervised Learning], [Unlabelled Data Algorithm], [Unsupervised Learning], [Weak-Supervised Learning]
+ See also [S], [K-Nearest Neighbors Algorithm], [Self-Supervised Learning], [Supervised Learning], [Unlabelled Data Algorithm], [Unsupervised Learning], [Weak-Supervised Learning]
 
 
 # Sensitivity
@@ -691,6 +714,20 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
 
 
 # Similarity Function
+
+ Similarity is almost like distance in the semantic embedding space, except that:
+  * When the distance is small, the similarity is big
+  * When the distance is big, the similarity is small
+
+ Algorithms:
+  * [K-Nearest Neighbors] - good, but slow as I have to calculate as many distances as we have points in the dataset! (Ex: 8 words --> 8^2 distances)
+  * [Inverted File Index (IVD)][IVD] - cluster, then search
+  * [Hierarchical Navigable Small Worlds (HNSW)][HNSW] - Start with fewer points, search there. Then add more and iterate
+
+ Functions
+  * [Cosine Similarity]
+  * [Dot Product Similarity]
+  * [Euclidean Similarity]
 
  See also [S], [Encoder], [One-Shot Learning], [Siamese Network]
 
@@ -942,6 +979,13 @@ As a trader, I want to create an application that lets me customize and viualize
  See also [S], ...
 
 
+# Source Knowledge
+
+ [Knowledge] stored in the vector database
+
+ See also [S], ...
+
+
 # Spam Detection
 
  The spam filtering in your email inbox assigns a percentage of the incoming emails to the spam folder, using NLP to evaluate which emails look suspicious.
@@ -1028,6 +1072,32 @@ As a trader, I want to create an application that lets me customize and viualize
  See also [S], ...
 
 
+# SpeechX Model
+
+ Model developed by [Microsoft]
+
+ Use-cases:
+  * Zero-shot text-to-speech
+  * Spoken content editing
+  * Background-preserving spoken content editing
+  * Noise suppression
+  * Target speaker extraction
+  * Speech removal
+
+ The proposed SpeechX is built upon VALL-E, which leverages the Transformer-based neural codec language model - EnCodec to generate neural codes conditioned on textual and acoustic prompts. More specifically, SpeechX uses autoregressive (AR) to output the neural codes of the first quantization layer of EnCodec and non-auto-regressive (NAR) Transformer models to produce the neural codes of all the layers above the first layer. The combination of these two models provides a reasonable trade-off between generation flexibility and inference speed.
+
+ To enable SpeechX to handle multiple tasks, the researchers adopt task-based prompting, which incorporates additional tokens in the multi-task learning setup, where the tokens collectively control what task to be executed. As a result, SpeechX is able to acquire knowledge of diverse tasks, facilitating a versatile and highly extensible speech generation process.
+
+ ![]( {{site.assets}}/s/speechx_model_comparison.png ){: width="100%}
+
+ In their empirical study, the team compared SpeechX to the baseline expert models on various tasks, e.g. noise suppression, target speaker extraction, zero-shot TTS, clean speech editing, speech removal and etc. SpeechX achieves comparable and even superior performance to baseline models across various tasks. The team believes their work is an important step toward unified generative speech models.
+
+ {% pdf "https://arxiv.org/pdf/2308.06873.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2308.06873](https://arxiv.org/abs/2308.06873)
+  * 
+
 # Spot Robot
 
  A robot dog developed by [Boston Dynamics]
@@ -1052,7 +1122,9 @@ As a trader, I want to create an application that lets me customize and viualize
 
 # Stability AI Company
 
- The [company] that created the [Stable Diffusion Model]
+ The [company] that created 
+   * [StableCode]
+   * [StableDiffusion]
 
  More at:
   * [https://stability.ai/](https://stability.ai/)
@@ -1060,7 +1132,26 @@ As a trader, I want to create an application that lets me customize and viualize
  See also [S], ...
 
 
-# Stable Diffusion Model
+# StableCode Model
+
+ StableCode offers a unique way for developers to become more efficient by using three different models to help in their coding. The base model was first trained on a diverse set of programming languages from the stack-dataset (v1.2) from BigCode and then trained further with popular languages like Python, Go, Java, Javascript, C, markdown and C++.  In total, we trained our models on 560B tokens of code on our HPC cluster. 
+
+ After the base model had been established, the instruction model was then tuned for specific use cases to help solve complex programming tasks. ~120,000 code instruction/response pairs in Alpaca format were trained on the base model to achieve this result. 
+
+ {% youtube "https://www.youtube.com/watch?v=knt5svAL0SI" %}
+
+ More at:
+  * [https://stablecode.dev/](https://stablecode.dev/)
+  * announcement - [https://stability.ai/blog/stablecode-llm-generative-ai-coding](https://stability.ai/blog/stablecode-llm-generative-ai-coding)
+  * models 
+    * base - [https://huggingface.co/stabilityai/stablecode-completion-alpha-3b-4k](https://huggingface.co/stabilityai/stablecode-completion-alpha-3b-4k)
+    * instruction - [https://huggingface.co/stabilityai/stablecode-instruct-alpha-3b](https://huggingface.co/stabilityai/stablecode-instruct-alpha-3b)
+  * stack dataset - [https://www.bigcode-project.org/docs/about/the-stack/](https://www.bigcode-project.org/docs/about/the-stack/)
+
+ See also [S], ...
+
+
+# StableDiffusion Model
 
  [Denoising Diffusion Probabilistic Model] by [Stability AI]
 
@@ -1156,7 +1247,7 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
  More at:
   * ...
 
- See also [S], ...
+ See also [S], [Objective Function]
 
 
 # State Transition

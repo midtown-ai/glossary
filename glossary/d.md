@@ -163,19 +163,21 @@ layout: page
 # Data Augmentation
 
  To use when you don't have enough data.
+
+ Recommendations
   * For images, you can increase the number of samples by
-   * flipping the image
-   * zooming on the image
-   * moving the image
-   * cropping the image
+    * flipping the image
+    * zooming on the image
+    * moving the image
+    * cropping the image
   * With voice, you can
-   * change the speech speed
-   * change the volume
-   * change the pitch.
+    * change the speech speed
+    * change the volume
+    * change the pitch.
 
  Beware:
-   * :warning: The transformation operation should be invariant and not change the output.
-
+    * :warning: The transformation operation should be invariant and not change the output.
+ 
  See also [D], [Data], [Insufficient Data Algorithm], [Self-Supervised Learning], [Snorkel Program], [Zero-Shot Learning]
 
 
@@ -1115,6 +1117,15 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
   * [https://www.cuemath.com/algebra/dot-product/](https://www.cuemath.com/algebra/dot-product/)
 
  See also [D], [Vector]
+
+
+# Dot Product Similarity
+
+ An alternative to other similarity functions
+
+ {% youtube "https://www.youtube.com/watch?v=TBpDMLCC2uY" %}
+
+ See also [D], ...
 
 
 # Downstream Task

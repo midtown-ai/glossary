@@ -60,6 +60,7 @@
 [Replay Memory]: {{site.baseurl }}{% link glossary/r.md %}#replay-memory
 [Representation Space]: {{site.baseurl }}{% link glossary/r.md %}#representation-space
 [Reptile]: {{site.baseurl }}{% link glossary/r.md %}#reptile
+[Reranking]: {{site.baseurl }}{% link glossary/r.md %}#reranking
 [Resample]: {{site.baseurl }}{% link glossary/r.md %}#resample
 [Resampling Method]: {{site.baseurl }}{% link glossary/r.md %}#resampling-method
 [Residual]: {{site.baseurl }}{% link glossary/r.md %}#residual
@@ -72,6 +73,11 @@
 [Responsible AI]: {{site.baseurl }}{% link glossary/r.md %}#responsible-ai
 [Restricted Boltzmann Machine]: {{site.baseurl }}{% link glossary/r.md %}#restricted-boltzmann-machine
 [RBM]: {{site.baseurl }}{% link glossary/r.md %}#restricted-boltzmann-machine
+[Retrieval-Augmented Generation]: {{site.baseurl }}{% link glossary/r.md %}#retrieval-augmented-generation
+[RAG]: {{site.baseurl }}{% link glossary/r.md %}#retrieval-augmented-generation
+[Retrieval-Based Model]: {{site.baseurl }}{% link glossary/r.md %}#retrieval-based-model
+[Retrieval-Based Models]: {{site.baseurl }}{% link glossary/r.md %}#retrieval-based-model
+[Retriever]: {{site.baseurl }}{% link glossary/r.md %}#retriever
 [Reward]: {{site.baseurl }}{% link glossary/r.md %}#reward
 [Rewards]: {{site.baseurl }}{% link glossary/r.md %}#reward
 [Reward Function]: {{site.baseurl }}{% link glossary/r.md %}#reward-function

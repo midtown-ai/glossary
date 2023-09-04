@@ -14,7 +14,11 @@ categories: jekyll update
 
 ## Links
 
-  * input parameters description - [https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-reward-function-input.html](https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-reward-function-input.html)
+ * input parameters description - [https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-reward-function-input.html](https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-reward-function-input.html)
+
+
+ * Sample reward functions
+   * [https://www.mytechmint.com/advanced-guide-to-aws-deepracer-with-all-tips-and-hacks-to-win-the-race/](https://www.mytechmint.com/advanced-guide-to-aws-deepracer-with-all-tips-and-hacks-to-win-the-race/)
 
 ## Function inputs
 
@@ -128,4 +132,6 @@ SIM_TRACE_LOG:0,2,0.0119,-3.3566,-28.7673,-15.00,1.50,0,1.0000,False,True,0.2784
     ...
  ```
 
+## Sample reward functions
 
+ Source - [https://www.mytechmint.com/advanced-guide-to-aws-deepracer-with-all-tips-and-hacks-to-win-the-race/](https://www.mytechmint.com/advanced-guide-to-aws-deepracer-with-all-tips-and-hacks-to-win-the-race/)

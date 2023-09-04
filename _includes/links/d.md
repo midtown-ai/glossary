@@ -110,6 +110,7 @@
 [Distributional RL]: {{ site.baseurl }}{% link glossary/d.md %}#distributional-reinforcement-learning
 [Domain-Specific Model]: {{ site.baseurl }}{% link glossary/d.md %}#domain-specific-model
 [Dot Product]: {{ site.baseurl }}{% link glossary/d.md %}#dot-product
+[Dot Product Similarity]: {{ site.baseurl }}{% link glossary/d.md %}#dot-product-similarity
 [Double Q Network]: {{ site.baseurl }}{% link glossary/d.md %}#double-q-network
 [Downstream Task]: {{ site.baseurl }}{% link glossary/d.md %}#downstream-task
 [DragGAN Model]: {{ site.baseurl }}{% link glossary/d.md %}#draggan-model

@@ -155,10 +155,13 @@ layout: page
 
 # Embedding
 
+ An embedding is a rich representation for any entity via d-dimensional latent variables; these entities include, but are not limited to: stores, eaters, items, drivers, locations, and so on.  It generally transforms human-friendly features, such as store menu, store price, store review, item title and description, item price, location’s full address, eater preference cuisine and past orders, rider preferred drop-offs and so on, to machine-learning-friendly dense vectors. These vectors can be directly used in any ML task (such as clustering, nearest neighbor search, classification, and so on) without too much feature engineering.
+
  More at:
+  * [https://www.uber.com/blog/innovative-recommendation-applications-using-two-tower-embeddings/](https://www.uber.com/blog/innovative-recommendation-applications-using-two-tower-embeddings/) 
   * [https://frankzliu.com/blog/a-gentle-introduction-to-vector-databases](https://frankzliu.com/blog/a-gentle-introduction-to-vector-databases)
 
- See [Word Embedding]
+ See [E], [Word Embedding]
 
 
 # Embedding Space
@@ -638,6 +641,64 @@ In the context of DeepRacer, an episode refers to a single complete race around 
  See also [E], ...
 
 
+# Euclidean Geometry
+
+ Euclid is said to be the father of geometry, not the first one that studied geometry!
+
+ Axioms (or postulates)
+  1. A straight line segment can be drawn joining any two points
+  2. Any straight line segment can be extended indefinitely in a straight line
+  3. A circle can be drawn with any center and any radius
+  4. All right angles are congruent
+  5. If two lines are drawn which intersect a third in such a way that the sum of the inner angles on one side is less than two right angles, then the two lines inevitably must intersect each other on that side if extended far enough
+
+ This 5th postulate is known as the parallel postulate
+
+ What was revolutionary in his thinking was that from those postulates, he was able to prove many concepts in geometry.
+
+ {% youtube "https://www.youtube.com/watch?v=WqzK3UAXaHs" %}
+
+ {% youtube "https://www.youtube.com/watch?v=yqUv2JO2BCs" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Euclidean_geometry](https://en.wikipedia.org/wiki/Euclidean_geometry)
+
+ See also [E], ...
+
+
+# Euclidean Similarity Function
+
+ A [similarity function] used to compute the distance between 2 [embeddings]!
+
+ * the output is within the range [-oo, +oo]
+ * the closer the output is to 0, the mode similar inputs are 
+ * unlike the [cosine similarity function], this one is sensitive to the absolute distance in the space
+
+ ![]( {{site.assets}}/e/euclidean_similarity_function.png ){: width="100%"}
+
+ ```
+The biggest difference is that Cosine similarity is insensitive to the absolute distance in the space, only directional difference matters. What does this mean? Let’s use one example to illustrate. Let’s say that we have user A who rates 2 movies as (4,4) and user B who rates 2 moves as (5,5). If we compute Cosine similarity and Euclidean similarity separately for these two users, it’s obvious that Cosine similarity is 1, which means that there is no difference between these two users. However, the Euclidean similarity is 1.4, which means that user A and user B are still different from each other. Thus Euclidean similarity is more strict than Cosine similarity because Euclidean similarity not only requires users to have the same taste in movies but also to have the same level of ‘like’ for every movie.
+ ```
+
+ More at:
+  * [https://hackernoon.com/understanding-the-two-tower-model-in-personalized-recommendation-systems](https://hackernoon.com/understanding-the-two-tower-model-in-personalized-recommendation-systems)
+
+ See also [E], ...
+
+
+# European Union AI Act
+# EU AI Act
+
+ * doc 1 - [https://eur-lex.europa.eu/resource.html?uri=cellar:e0649735-a372-11eb-9585-01aa75ed71a1.0001.02/DOC_1&format=PDF](https://eur-lex.europa.eu/resource.html?uri=cellar:e0649735-a372-11eb-9585-01aa75ed71a1.0001.02/DOC_1&format=PDF)
+ * doc 2 - [https://eur-lex.europa.eu/resource.html?uri=cellar:e0649735-a372-11eb-9585-01aa75ed71a1.0001.02/DOC_2&format=PDF](https://eur-lex.europa.eu/resource.html?uri=cellar:e0649735-a372-11eb-9585-01aa75ed71a1.0001.02/DOC_2&format=PDF)
+
+
+ More at:
+  * [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021PC0206](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021PC0206)
+
+ See also [E], [AI Bill Of Rights]
+
+
 # Evolution Strategy
 # ES
 
@@ -687,7 +748,6 @@ In the context of DeepRacer, an episode refers to a single complete race around 
 
 
 # Example-Based Machine Translation
-
 # EBMT
 
  Example-based machine translation (EBMT) is a method of [machine translation] often characterized by its use of a bilingual [corpus] with parallel texts as its main knowledge base at run-time. It is essentially a translation by analogy and can be viewed as an implementation of a [case-based reasoning] approach to [machine learning].
@@ -786,7 +846,6 @@ In the context of DeepRacer, an episode refers to a single complete race around 
 
 
 # Explainable AI
-
 # XAI
 
  As more and more companies embed AI and advanced analytics within a business process and automate decisions, there needs to have transparency into how these models make decisions grows larger and larger. How do we achieve this transparency while harnessing the efficiencies AI brings. This is where the field of Explainable AI (XAI) can help. 
