@@ -11,12 +11,12 @@
 [Data]: {{ site.baseurl }}{% link glossary/d.md %}#data
 [Data Analyst]: {{ site.baseurl }}{% link glossary/d.md %}#data-analyst
 [Data Augmentation]: {{ site.baseurl }}{% link glossary/d.md %}#data-augmentation
-[Data Bias]: {{ site.baseurl }}{% link glossary/d.md %}#data-bias
 [Data Cleaning]: {{ site.baseurl }}{% link glossary/d.md %}#data-cleaning
 [Data Collection]: {{ site.baseurl }}{% link glossary/d.md %}#data-collection
 [Data Handling]: {{ site.baseurl }}{% link glossary/d.md %}#data-handling
 [Data Leakage]: {{ site.baseurl }}{% link glossary/d.md %}#data-leakage
 [Data Point]: {{ site.baseurl }}{% link glossary/d.md %}#data-point
+[Data Poisoning]: {{ site.baseurl }}{% link glossary/d.md %}#data-poisoning
 [Data Preparation]: {{ site.baseurl }}{% link glossary/d.md %}#data-preparation
 [Data Reduction]: {{ site.baseurl }}{% link glossary/d.md %}#data-reduction
 [Data Science]: {{ site.baseurl }}{% link glossary/d.md %}#data-science
@@ -25,6 +25,7 @@
 [Data Visualization]: {{ site.baseurl }}{% link glossary/d.md %}#data-visualization
 [Data2Vec]: {{ site.baseurl }}{% link glossary/d.md %}#data2vec
 [Dataset]: {{ site.baseurl }}{% link glossary/d.md %}#dataset
+[Dataset Bias]: {{ site.baseurl }}{% link glossary/d.md %}#dataset-bias
 [David Luan Person]: {{ site.baseurl }}{% link glossary/d.md %}#david-luan-person
 [David Luan]: {{ site.baseurl }}{% link glossary/d.md %}#david-luan-person
 [Dawid-Skene Algorithm]: {{ site.baseurl }}{% link glossary/d.md %}#dawid-skene-algorithm
@@ -98,6 +99,7 @@
 [Discrete Action Space]: {{ site.baseurl }}{% link glossary/d.md %}#discrete-action-space
 [Discrete Convolution]: {{ site.baseurl }}{% link glossary/d.md %}#discrete-convolution
 [Discrete Variable]: {{ site.baseurl }}{% link glossary/d.md %}#discrete-variable
+[Discrimination]: {{ site.baseurl }}{% link glossary/d.md %}#discrimination
 [Discriminative Classifier]: {{ site.baseurl }}{% link glossary/d.md %}#discriminative-classifier
 [Discriminator]: {{ site.baseurl }}{% link glossary/d.md %}#discriminator
 [Discriminator Loss]: {{ site.baseurl }}{% link glossary/d.md %}#discriminator-loss

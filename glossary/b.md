@@ -490,10 +490,12 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
  * [Statistical Bias] = The gap between the prediction and the actual value. Where is bias coming from? Issues with the data sampling?
  * [Artificial Neuron Bias] = When using bias in the connect of activation function, it is an integer that represent a threshold the weighted input should exceed to trigger the neuron. There is a bias at each node of the ANN. The node weighted input is = sum(aL . wL) + bias
- * [Data Bias] which can lead to [AI Bias]
+ * [Dataset Bias] and
+ * [Algorithmic Bias] which can lead to [AI Bias]
 
   1. statistics ==> The gap between the prediction and the actual value. Where is bias coming from? Issues with the data sampling?
   1. data sample ==> data that is used for learning is biased, ex: all nurse are female ==> implies unwanted correlation in data
+  1. algorithmic bias ==> algorithm is trained using biased data
   1. neural network learning ==> When using bias in the connect of activation function, it is an integer that represent a threshold the weighted input should exceed to trigger the neuron. There is a bias at each node of the ANN. The node weighted input is = sum(aL . wL) + bias.
 
  See also [B], [Activation Function], [Balanced Fitting], [Bias-Variance Trade-Off], [Fair AI], [Overfitting], [Underfitting], [Variance]

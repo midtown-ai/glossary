@@ -40,6 +40,7 @@
 [Flow-Based Model]: {{site.baseurl }}{% link glossary/f.md %}#flow-based-model
 [Forbidden Planet Movie]: {{site.baseurl }}{% link glossary/f.md %}#forbidden-planet-movie
 [Forest Of Stumps]: {{site.baseurl }}{% link glossary/f.md %}#forest-of-stumps
+[Formal Reasoning]: {{site.baseurl }}{% link glossary/f.md %}#formal-reasoning
 [Foundational Model]: {{site.baseurl }}{% link glossary/f.md %}#foundational-model
 [Frequent Pattern Growth Algorithm]: {{site.baseurl }}{% link glossary/f.md %}#frequent-pattern-growth-algorithm
 [Frequent Pattern Growth]: {{site.baseurl }}{% link glossary/f.md %}#frequent-pattern-growth-algorithm

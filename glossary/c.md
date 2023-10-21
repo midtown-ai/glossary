@@ -444,6 +444,14 @@ print(query_result)
  See also [C], [Corpus], [Dataset], [T5 Model]
 
 
+# Common Sense
+
+ More at:
+  * [https://bdtechtalks.com/2022/08/08/machines-like-us-review/](https://bdtechtalks.com/2022/08/08/machines-like-us-review/)
+
+ See also [C], ...
+
+
 # Company
 
  Example of companies are:
@@ -464,8 +472,10 @@ print(query_result)
   * [Character AI](https://beta.character.ai/) - Chatbot application
   * [Clari](https://www.clari.com/) - Focus on sales software
   * [Coactive AI](https://coactive.ai/) - Data labelling software
-  * [Cohere AI] - Focus on NLP applications
   * [Cognosys AI] - Task driven autonomous agent, similar to [AutoGPT][AutoGPT Model]
+  * [Cohere AI] - Focus on NLP applications
+  * [Copy AI] - 
+    * valentine AI - [https://www.valentinesday.ai/](https://www.valentinesday.ai/)
   * [Databricks](https://www.databricks.com/) - Data storage and analytics
   * [DeepMind] - Focus on AI applications in science
   * [Descript](https://www.descript.com/) - Video and podcast editing
@@ -501,6 +511,7 @@ print(query_result)
   * [PathAI](https://www.pathai.com/) - Drug discovery and diagnosis
   * [PolyAI](https://poly.ai/) - Voice chatbots
   * [Quora] - A static Q&A internet site that is not offering an interface to chatbots though its interface, poe.
+  * [Replika](https://replika.com/) - Build AI companion who cares!
   * [RevComm](https://www.revcomm.co.jp/) - Voice analysis software ([Forbes](https://www.forbes.com/companies/revcomm/?sh=6c1080a7340c))
   * [Runway] - Focus on generative AI for images and now videos
   * [Sakana AI](https://sakana.ai/) - Foundation model based on nature-inspired intelligence !?!?
@@ -561,7 +572,7 @@ print(query_result)
   * [Netlify] -
 
  Hardware
-  * [AMD] - Another supplier of [GPU]
+  * [AMD] - Another supplier of [GPUs]
   * [Cortical Labs] - Use biological [neurons] to use as AI 
   * [Koniku](https://koniku.com/) - Use biological [neurons] to compete with regular computers
   * [Nvidia] - The leading supplier of [GPU]

@@ -4,6 +4,8 @@
 [Pandas]: {{ site.baseurl}}{% link glossary/p.md %}#pandas-python-module
 [Parameter]: {{ site.baseurl}}{% link glossary/p.md %}#parameter
 [Parameters]: {{ site.baseurl}}{% link glossary/p.md %}#parameter
+[Parameter-Efficient and Quantization-Aware Adaptation]: {{ site.baseurl}}{% link glossary/p.md %}#parameter-efficient-and-quantization-aware-adaptation
+[PEQA]: {{ site.baseurl}}{% link glossary/p.md %}#parameter-efficient-and-quantization-aware-adaptation
 [Parameter-Efficient Fine-Tuning]: {{ site.baseurl}}{% link glossary/p.md %}#parameter-efficient-fine-tuning
 [PEFT]: {{ site.baseurl}}{% link glossary/p.md %}#parameter-efficient-fine-tuning
 [Parametric Knowledge]: {{ site.baseurl}}{% link glossary/p.md %}#parametric-knowledge
@@ -49,6 +51,8 @@
 [Positional Encoding]: {{ site.baseurl}}{% link glossary/p.md %}#positional-encoding
 [Positive And Negative Pairs]: {{ site.baseurl}}{% link glossary/p.md %}#positive-and-negative-pairs
 [Positive Attribute]: {{ site.baseurl}}{% link glossary/p.md %}#positive-attribute
+[Post-Training Quantization]: {{ site.baseurl}}{% link glossary/p.md %}#post-training-quantization
+[PTQ]: {{ site.baseurl}}{% link glossary/p.md %}#post-training-quantization
 [Posterior Belief]: {{ site.baseurl}}{% link glossary/p.md %}#posterior-belief
 [Posterior Beliefs]: {{ site.baseurl}}{% link glossary/p.md %}#posterior-belief
 [Precision]: {{ site.baseurl}}{% link glossary/p.md %}#precision
@@ -76,6 +80,7 @@
 [Proximal Policy Optimization Algorithm]: {{ site.baseurl}}{% link glossary/p.md %}#proximal-policy-optimization-algorithm
 [PPO Algorithm]: {{ site.baseurl}}{% link glossary/p.md %}#proximal-policy-optimization-algorithm
 [PPO]: {{ site.baseurl}}{% link glossary/p.md %}#proximal-policy-optimization-algorithm
+[Pruning]: {{ site.baseurl}}{% link glossary/p.md %}#pruning
 [Punishment]: {{ site.baseurl}}{% link glossary/p.md %}#punishment
 [Punishments]: {{ site.baseurl}}{% link glossary/p.md %}#punishment
 [PyBullet]: {{ site.baseurl}}{% link glossary/p.md %}#pybullet

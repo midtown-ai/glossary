@@ -147,6 +147,17 @@ layout: page
 
  Overall, image segmentation is an essential step in many computer vision applications and is an active area of research in the field.
 
+ Algorithms:
+  * [AlexNet]
+  * Faster [R-CNN]
+  * Mask [R-CNN]
+  * Panoptic FPN
+
+ Models:
+  * [Segment Anything Model]
+
+ ![]( {{site.assets}}/i/image_segmentation_timeline.png ){: width="100%"}
+
  See also [I], [Object Detection]
 
 
@@ -268,6 +279,16 @@ layout: page
   * home - [https://inflection.ai/](https://inflection.ai/)
   * hey pi - [https://heypi.com/talk](https://heypi.com/talk)
   * [https://www.forbes.com/sites/alexkonrad/2023/05/02/inflection-ai-ex-deepmind-launches-pi-chatbot/?sh=a14f4343d6dd](https://www.forbes.com/sites/alexkonrad/2023/05/02/inflection-ai-ex-deepmind-launches-pi-chatbot/?sh=a14f4343d6dd)
+
+ See also [I], ...
+
+
+# Informal Reasoning
+
+ Informal Reasoning is a less structured approach to [reasoning] that relies on intuition, experience, and common sense. It is used in everyday life situations where strict formal rules may not apply. Informal reasoning allows for more flexibility and open-ended thinking. It often involves making decisions or drawing conclusions based on personal experiences, heuristics, and contextual factors. Informal reasoning is more adaptable but may also be less reliable compared to formal reasoning.
+
+ More at:
+  * LLM reasoning ability - [https://www.kaggle.com/code/flaussy/large-language-models-reasoning-ability](https://www.kaggle.com/code/flaussy/large-language-models-reasoning-ability)
 
  See also [I], ...
 

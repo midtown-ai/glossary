@@ -135,7 +135,35 @@ Predict what are the required agent skills based some input parameters
  See also [M], [Reinforcement Learning], [Self-Supervised Learning], [Supervised Learning], [Transfer Learning], [Unsupervised Learning]
 
 
+# Machine Unlearning
+
+ Coined as "machine unlearning," this concept represents the converse of [machine learning] — it serves to make a model unlearn or forget. These algorithms, applied to previously trained models, force them to expunge specific portions of the training dataset. The beginnings of machine unlearning lie in responding to the "Right to be Forgotten" legislation, a provision of the European Union's General Data Protection Regulation (GDPR).
+
+ Methods
+  * Exact unlearning
+    * [Reverse Nearest Neighbors (RNN)][RNN] - find and adjust the model based on the nearest neighbors of the data points set for removal
+    * [K-Nearest Neighbors (KNN)][KNN] - remove data points based on their closeness to the nearest neighbors, provide an intricate strategy for effective data point exclusion
+  * Approximate unlearning - more efficient alternative to exact unlearning by utilizing additional data to be expunged or retained after removal
+    * [Local Outlier Factor (LOF)][LOF] - identifies and purges outliers in the dataset to boost the model's performance
+    * [Isolation Forest (IF)][IF] - constructs random forests and determines the anomaly scores of data points, isolating and discarding those with elevated scores
+ 
+ ![]( {{site.assets}}/m/machine_unlearning.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=xUnMkCB0Gns" %}
+
+ {% pdf "https://arxiv.org/pdf/1912.03817.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/1912.03817](https://arxiv.org/abs/1912.03817)
+  * [https://blog.research.google/2023/06/announcing-first-machine-unlearning.html](https://blog.research.google/2023/06/announcing-first-machine-unlearning.tml)
+  * [https://deepgram.com/learn/what-is-machine-unlearning-and-why-does-it-matter](https://deepgram.com/learn/what-is-machine-unlearning-and-why-does-it-matter)
+
+ See also [M], ...
+
+
 # Machine Reasoning
+
+ Prompt engineering techniques
 
  Query a knowledge graph = traverse a knowledge graph with queries. Query types are:
   * one-hop queries
@@ -144,7 +172,10 @@ Predict what are the required agent skills based some input parameters
 
  ![]( {{site.assets}}/m/machine_reasoning.png ){: width="100%"}
 
- See also [M], [Deductive Reasoning], [Inductive Reasoning], [Knowledge Graph], [Question Answering Graph Neural Network], [Reasoning]
+ More at:
+  * LLM reasoning ability - [https://www.kaggle.com/code/flaussy/large-language-models-reasoning-ability](https://www.kaggle.com/code/flaussy/large-language-models-reasoning-ability)
+
+ See also [M], [Deductive Reasoning], [Inductive Reasoning], [Knowledge Graph], [Prompt Engineering], [Question Answering Graph Neural Network], [Reasoning]
 
 
 # Machine Translation
@@ -186,6 +217,8 @@ Predict what are the required agent skills based some input parameters
  More at:
   * [https://makeavideo.studio/](https://makeavideo.studio/)
   * [https://arxiv.org/abs/2209.14792](https://arxiv.org/abs/2209.14792)
+  * articles
+    * [https://aibusiness.com/ml/meta-unveils-ai-model-that-can-generate-videos-from-text-inputs](https://aibusiness.com/ml/meta-unveils-ai-model-that-can-generate-videos-from-text-inputs)
 
  See also [M], ...
 
@@ -622,6 +655,7 @@ def mse_loss(y_pred, y_true):
   * [Segment Anything][Segment Anything Model]: Instance segmentation in images
   * [Fairseq Toolkit] - Facebook AI Research Toolkit
     * [Wav2Vec] - For [Automatic Speech Recognition (ASR)][ASR]
+  * [Voicebox] - edit, create, transfer styles between audio recordings
 
  More at:
   * research on github - [https://github.com/facebookresearch](https://github.com/facebookresearch)
@@ -778,8 +812,15 @@ def mse_loss(y_pred, y_true):
  See also [M], [Batch Gradient Descent Algorithm], [Gradient Descent Algorithm], [Mini-Batch]
 
 
-# Mixed Reality
+# Minimax Algorithm
 
+ * [One-Step Lookahead]
+ * [N-Step Lookahead]
+
+ See also [M], ...
+
+
+# Mixed Reality
 # MR
 
  Mixed reality is a blend of physical and digital worlds, unlocking natural and intuitive 3D human, computer, and environmental interactions. This new reality is based on advancements in computer vision, graphical processing, display technologies, input systems, and cloud computing.
@@ -863,7 +904,10 @@ def mse_loss(y_pred, y_true):
 
  More at:
   * paper - [https://arxiv.org/abs/1810.03993](https://arxiv.org/abs/1810.03993)
-  * model cards at google - [https://modelcards.withgoogle.com/about](https://modelcards.withgoogle.com/about)
+  * Edu
+    * Kaggle - [https://www.kaggle.com/code/var0101/model-cards](https://www.kaggle.com/code/var0101/model-cards)
+  * Articles
+    * model cards at google - [https://modelcards.withgoogle.com/about](https://modelcards.withgoogle.com/about)
   * facebook LLaMa model card - [https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md](https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md)
 
  See also [M], [Model Data Sheet]
@@ -882,6 +926,25 @@ def mse_loss(y_pred, y_true):
  ![]( {{site.assets}}/m/model_complexity.jpeg ){: width="100%"}
 
  See also [M], [Bias], [Variance]
+
+
+# Model Compression
+
+ [Large language models (LLM)][LLM] have been making waves, demonstrating exceptional performance in many tasks. However, their impressive capabilities come with a significant drawback: high computational costs.
+
+ Top-tier models such as [LLaMA 2] and [Falcon] can demand dozens, if not hundreds, of gigabytes of [GPU memory]. This not only makes them expensive to run but also presents a formidable challenge in terms of setup. Furthermore, their resource-intensive nature makes it nearly impossible to run them on edge devices without access to robust cloud servers.
+
+ To overcome these hurdles, researchers have been developing a range of innovative compression techniques. These methods aim to make LLMs more compact, enabling them to fit on devices with limited resources. Additionally, they can enhance the speed of these models and reduce inference latency, making them more efficient.
+
+ Methods:
+  * [Pruning]
+  * [Quantization]
+  * [Knowledge Distillation]
+
+ More at:
+  * [https://bdtechtalks.com/2023/09/18/what-is-llm-compression/](https://bdtechtalks.com/2023/09/18/what-is-llm-compression/)
+
+ See also [M], ...
 
 
 # Model Convergence
@@ -956,6 +1019,63 @@ def mse_loss(y_pred, y_true):
  See also [M], ...
 
 # Model Hub
+
+ See also [M], ...
+
+
+# Model Release Card
+
+ ~ What is released and how for a given model.
+
+ Includes:
+  * overall position on safety-transparency scale
+  * datasets
+  * code
+  * (trained) model
+  * model card
+  * responsible use guide
+  * notebook
+  * research paper
+  * demo/samples
+ all of whom can be:
+  * not released
+  * gated release for researchers
+  * released
+  * available for non-commercial use
+
+ A team should assume that the project will be entirely open-sourced even so that may not be the case due to [responsible AI]
+
+ Below is the example for the [LLaMa Model]
+
+ ![]( {{site.assets}}/m/model_release_card_llama.png ){: width="100%"}
+
+ See also [M], ...
+
+
+# Model Release Frontier
+
+ A ... approach to conceptually mapping trade-offs of model releases is a frontier which present trade-offs between 2 dimensions:
+  * knowledge = greater understanding of the capability and limitations of model performance
+  * steerability = degree of control to adjust or alter release conditions ex post
+
+ The past few years have seen a range of attempts to identify options along the knowledge-steerability frontier.
+
+ Seeking to balance the benefits of knowledge gains with
+  * accessibility
+  * recourse
+  * maintenance (of code base)
+  * downstream impacts
+
+ ![]( {{site.assets}}/m/model_release_frontier_1d.png ){: width="100%"}
+ ![]( {{site.assets}}/m/model_release_frontier_2d.png ){: width="100%"}
+
+ More at:
+  * related paper on staged release - [https://arxiv.org/abs/1908.09203](https://arxiv.org/abs/1908.09203)
+  * CivicScape
+    * code - [https://github.com/BurgerAutomata/CivicScape/blob/master/README.md](https://github.com/BurgerAutomata/CivicScape/blob/master/README.md)
+    * open-source the solution? - [https://qz.com/938635/a-predictive-policing-startup-released-all-its-code-so-it-can-be-scoured-for-bias](https://qz.com/938635/a-predictive-policing-startup-released-all-its-code-so-it-can-be-scoured-for-bias)
+    * mit review - [https://www.technologyreview.com/2020/07/17/1005396/predictive-policing-algorithms-racist-dismantled-machine-learning-bias-criminal-justice/](https://www.technologyreview.com/2020/07/17/1005396/predictive-policing-algorithms-racist-dismantled-machine-learning-bias-criminal-justice/) 
+    * bloomberg (blocked) - [https://www.bloomberg.com/news/features/2017-07-10/the-ex-cop-at-the-center-of-controversy-over-crime-prediction-tech](https://www.bloomberg.com/news/features/2017-07-10/the-ex-cop-at-the-center-of-controversy-over-crime-prediction-tech)
 
  See also [M], ...
 

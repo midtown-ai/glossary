@@ -183,18 +183,7 @@ layout: page
 
 # Data Bias
 
- ~ a form of [bias]
-
- * Sample bias
- * Historic bias
- * Survivorship bias
- * Cognitive bias = anchoring effect + confirmation bias + framing effect + ...
-
-
- More at:
-  * [https://medium.com/@nahmed3536/data-bias-what-all-data-practitioners-should-be-aware-of-115eaeae48c](https://medium.com/@nahmed3536/data-bias-what-all-data-practitioners-should-be-aware-of-115eaeae48c)
-
- See also [D], ...
+ See [Dataset Bias]
 
 
 # Data Cleaning
@@ -240,6 +229,16 @@ layout: page
  ![]( {{site.assets}}/d/data_point.png ){: width="100%"}
 
  See also [D], [Dataset], [Feature], [Imputation], [Label]
+
+
+# Data Poisoning
+
+ ![]( {{site.assets}}/d/data_poisoning.webp ){: width="100%"}
+
+ More at:
+  * [https://bdtechtalks.com/2020/10/07/machine-learning-data-poisoning/](https://bdtechtalks.com/2020/10/07/machine-learning-data-poisoning/)
+
+ See also [D], ...
 
 
 # Data Preparation
@@ -351,6 +350,37 @@ layout: page
   * [https://scikit-learn.org/stable/datasets.html](https://scikit-learn.org/stable/datasets.html)
 
  See also [D], [Data Point], [Development Subset], [GINI Impurity Index], [Testing Subset], [Training Subset]
+
+
+# Dataset Bias
+
+ ~ a form of [bias] that is introduced by [datasets] and that can lead to [AI bias]
+
+ Dataset bias, also known as data bias, refers to the presence of systematic and unfair inaccuracies or imbalances in a dataset used for machine learning, statistical analysis, or data-driven decision-making. Dataset bias can result in models or algorithms that make inaccurate predictions or exhibit unfair behavior because the training data does not accurately represent the real-world population or scenario they are meant to address.
+
+ Dataset bias can manifest in various ways:
+  * Underrepresentation: Underrepresentation occurs when certain categories or groups within the dataset are inadequately represented. For example, if you're training a facial recognition algorithm, and the dataset contains a disproportionate number of images of people with light skin compared to people with dark skin, the algorithm may perform poorly on the latter group.
+  * Sampling Bias: Sampling bias arises when the data collection process is not random or the sample selection is flawed. For example, if a political poll is conducted by calling only landline numbers, it may not accurately represent the broader population, leading to sampling bias.
+  * Labeling Bias: Labeling bias occurs when the labels or annotations in the dataset are influenced by human biases or errors. For instance, in a text classification dataset, if the annotators have political biases that affect their labeling, the resulting model may inherit those biases.
+  * Historical Bias: This type of bias is present when the dataset reflects past practices and biases. For example, in criminal justice, historical bias may exist in arrest and sentencing data, which can lead to models that unfairly target or discriminate against certain demographics.
+  * Measurement Bias: Measurement bias results from errors or inaccuracies in the data collection process or measurement instruments. For instance, in climate data, a miscalibrated temperature sensor can introduce measurement bias.
+  * Survivorship bias
+  * Cognitive bias = anchoring effect + confirmation bias + framing effect + ...
+
+ Addressing dataset bias is essential to develop models and algorithms that are fair, accurate, and representative of the real-world scenarios they are meant to handle. To mitigate dataset bias, data scientists and machine learning practitioners should:
+  * Carefully curate and preprocess datasets, paying attention to potential sources of bias.
+  * Collect diverse and representative data, and use techniques like oversampling to address underrepresented groups.
+  * Implement fairness-aware machine learning methods to ensure that models do not exhibit discriminatory behavior.
+  * Be transparent about the limitations and potential biases of the dataset when using machine learning for decision-making.
+
+ {% youtube "https://www.youtube.com/watch?v=uDcb-RkbrK8" %}
+
+ More at:
+  * [https://medium.com/@nahmed3536/data-bias-what-all-data-practitioners-should-be-aware-of-115eaeae48c](https://medium.com/@nahmed3536/data-bias-what-all-data-practitioners-should-be-aware-of-115eaeae48c)
+  * examples:
+    * [https://pair.withgoogle.com/explorables/hidden-bias/](https://pair.withgoogle.com/explorables/hidden-bias/)
+
+ See also [D], [Artefact]
 
 
 # David Luan Person
@@ -943,12 +973,12 @@ We need to do this for
 
  As the name suggests, we use dimensionality reduction to remove the least important information (sometime redundant columns) from a [dataset]. In practice, I often see [datasets] with hundreds or even thousands of columns (also called [features]), so reducing the total number is vital. For instance, images can include thousands of pixels, not all of which matter to your analysis. Or when testing microchips within the manufacturing process, you might have thousands of measurements and tests applied to every chip, many of which provide redundant information. In these cases, you need dimensionality reduction algorithms to make the [dataset] manageable.
 
- Dimensionality reduction algorithm:
+ Dimensionality reduction algorithms:
   * [Principal Component Analysis (PCA)][PCA] - The most popular (and simple to understand and implement)
-  * [Linear Discriminant Analysis (LDA)][LDA]
+  * [Linear Discriminant Analysis (LDA)][LDA] -
   * [T-Distributed Stochastic Neighborhood Embedding (t-SNE)][t-SNE] - for visualization (modern and a bit more complex to understand/implement)
-  * [UMAP]
-  * [Self-Organizing Map (SOM)][SOM]
+  * [Uniform Manifold Approximation and Projection (UMAP)][UMAP] -
+  * [Self-Organizing Map (SOM)][SOM] -
 
  Use-cases:
   * Image compression
@@ -995,6 +1025,14 @@ We need to do this for
  Before you build the ML model, you need to understand the problem. You may be the expert in ML, but you may not be the expert in problem. Ask questions to the domain experts. The more questions you ask the more relevant your model will be. Here are sample questions for the amazon call centre outing (multi-class) problem (i.e. to which agent-skill should a call be routed next?) :
 
  ![]( {{site.assets}}/d/discovery_phase_questions.png ){: width="100%"}
+
+
+
+# Discremination
+
+ A form of bias that can be prevented with regulation?
+
+ See also [D], ...
 
 
 # Discrete Action Space

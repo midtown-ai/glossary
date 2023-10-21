@@ -110,10 +110,46 @@ Loss = converged_Q-Value - optimum_Q-value          <== but do we know converged
  See also [Q], [Polynomial Regression], [Regression]
 
 
+# Quantization
+
+ LLMs like GPT-3 typically store their parameters as floating-point values. At half-precision, each parameter occupies two bytes, leading to a model the size of GPT-3 requiring hundreds of gigabytes of memory. Quantization, a [model compression] technique, converts these parameters into single-byte or smaller integers, significantly reducing the size of an LLM.
+
+ Quantization has gained popularity as it enables open-source LLMs to run on everyday devices like laptops and desktop computers. GPT4All and Llama.cpp are two notable examples of quantized LLMs that have leveraged this technique effectively.
+
+ Quantization can be applied at various stages of the model’s training cycle:
+  * [Quantization-Aware Training (QAT)][QAT]
+  * [Quantization-Aware Fine-Tuning (QAFT)][QAFT]
+  * [Post-Training Quantization (PTQ)][PTQ]
+
+ More at:
+  * [https://bdtechtalks.com/2023/09/18/what-is-llm-compression/](https://bdtechtalks.com/2023/09/18/what-is-llm-compression/)
+
+ See also [Q], ...
+
 # Quantization Error
 
  Quantization error is the difference between the analog signal and the closest available digital value at each sampling instant from A/D converter. Quantization error also introduces noise,to the sample signal. Relations The higher the resolution of A/D converter, the lower the quantization error and the smaller the quantization noise.
 
+
+# Quantization-Aware Fine-Tuning
+# QAFT
+
+ A [quantization] method that is another approach where a pre-trained high-precision model is adapted to maintain its quality with lower-precision weights. Techniques like [QLoRA] and [parameter-efficient and quantization-aware adaptation (PEQA)][PEQA] are commonly used for QAFT.
+
+ More at:
+  * [https://bdtechtalks.com/2023/09/18/what-is-llm-compression/](https://bdtechtalks.com/2023/09/18/what-is-llm-compression/)
+
+ See also [Q], [Model Compression]
+
+
+# Quantization-Aware Training
+
+ A [quantization] method where quantization is integrated into the training process. This approach allows the model to learn low-precision representations from the start, mitigating the precision loss caused by quantization. However, the downside of QAT is that it requires training the model from scratch, which can be resource-intensive and costly.
+
+ More at:
+  * [https://bdtechtalks.com/2023/09/18/what-is-llm-compression/](https://bdtechtalks.com/2023/09/18/what-is-llm-compression/)
+
+ See also [Q], [Model Compression]
 
 # Quantized And Low-Rank Adapters Fine-Tuning
 # QLoRA Fine-Tuning

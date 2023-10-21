@@ -157,6 +157,12 @@ layout: page
 
  An embedding is a rich representation for any entity via d-dimensional latent variables; these entities include, but are not limited to: stores, eaters, items, drivers, locations, and so on.  It generally transforms human-friendly features, such as store menu, store price, store review, item title and description, item price, location’s full address, eater preference cuisine and past orders, rider preferred drop-offs and so on, to machine-learning-friendly dense vectors. These vectors can be directly used in any ML task (such as clustering, nearest neighbor search, classification, and so on) without too much feature engineering.
 
+ Embedding types:
+  * [Word Embeddings]
+  * [Sentence Embeddings]
+  * Many others!
+    * [Painting Embeddings](https://dimensionality-reduction-293e465c2a3443e8941b016d.vercel.app/)
+
  More at:
   * [https://www.uber.com/blog/innovative-recommendation-applications-using-two-tower-embeddings/](https://www.uber.com/blog/innovative-recommendation-applications-using-two-tower-embeddings/) 
   * [https://frankzliu.com/blog/a-gentle-introduction-to-vector-databases](https://frankzliu.com/blog/a-gentle-introduction-to-vector-databases)
@@ -189,7 +195,17 @@ layout: page
 
  ![]( {{site.assets}}/e/emergent_abilities_of_large_language_models_table.png ){: width="100%"}
 
- See also [E], [GPT Model], [Large Language Model]
+ See also [E], [Emergent Ability Distillation], [GPT Model], [Large Language Model]
+
+
+# Emergent Ability Distillation
+
+ A [knowledge distillation] method that seeks to extract a specific ability that the teacher model has learned and transfer it to the student model. [Emergent abilities] are capabilities that are present in large models but not in smaller ones. For example, you can gather prompts and responses on mathematics or reasoning problems from GPT-4 and try to transfer them to a smaller model like Vicuna. The advantage of EA distillation is that it is much easier to measure because it focuses on a narrow set of tasks. However, it’s crucial to remember that there are limits to the abilities of LLMs that mimic the emergent behaviors of larger models.
+
+ More at:
+  * [https://bdtechtalks.com/2023/09/18/what-is-llm-compression/](https://bdtechtalks.com/2023/09/18/what-is-llm-compression/)
+
+ See also [E], [Model Compression], [Standard Knowledge Distillation]
 
 
 # Emotion
@@ -632,6 +648,7 @@ In the context of DeepRacer, an episode refers to a single complete race around 
  {% pdf "{{site.assets}}/e/ethical_ai_cards.pdf" %}
 
  More at:
+  * kaggle course - [https://www.kaggle.com/code/var0101/introduction-to-ai-ethics](https://www.kaggle.com/code/var0101/introduction-to-ai-ethics)
   * [https://hbr.org/2020/10/a-practical-guide-to-building-ethical-ai](https://hbr.org/2020/10/a-practical-guide-to-building-ethical-ai)
   * ethics card - [https://www.ideo.com/blog/ai-needs-an-ethical-compass-this-tool-can-help](https://www.ideo.com/blog/ai-needs-an-ethical-compass-this-tool-can-help)
   * [https://scottaaronson.blog/?p=6823](https://scottaaronson.blog/?p=6823)

@@ -37,6 +37,7 @@ layout: page
 
  More at:
   * [https://en.wikipedia.org/wiki/Yann_LeCun](https://en.wikipedia.org/wiki/Yann_LeCun)
+  * [https://aibusiness.com/meta/ai-luminary-yann-lecunn-sets-us-straight-on-generative-ai](https://aibusiness.com/meta/ai-luminary-yann-lecunn-sets-us-straight-on-generative-ai)
 
  See also [Y], [People]
 

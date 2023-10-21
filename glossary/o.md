@@ -255,6 +255,14 @@ cheese =>                                   # Prompt
  See also [O], [Encoder], [Few-Shot Learning], [Siamese Network], [Similarity Function], [Transfer Learning], [Zero-Shot Learning], [Zero-Shot Task Transfer]
 
 
+# One-Step Lookahead
+
+ More at: 
+  * [https://www.kaggle.com/code/alexisbcook/one-step-lookahead](https://www.kaggle.com/code/alexisbcook/one-step-lookahead)
+
+ See also [O], ...
+
+
 # Online Learning
 
  ~ Learning from streamed data!
@@ -292,15 +300,16 @@ cheese =>                                   # Prompt
  [Microsoft] + [OpenAI] ~ [Google] + [DeepMind]
 
  Models:
-  * [ChatGPT][ChatGPT Model]: An fine-tuned model of GPT that is based on dialog
-  * [CLIP][CLIP Model]: A model that can put a legend to an image
-  * [Codex][Codex Model]: A [LLM] that specialize on generating code
-  * [DALL-E][DALL-E Model]: A [Diffusion Model] that from text can generate images
-  * [Five][OpenAI Five Model]: An agent that isnow world champion at the Dota2 game!
-  * [GPT][GPT Model]: A Generative model for text
-  * [Gym Environment][OpenAI Gym Environment]: Environments for development of [Reinforcement Learning] algorithms.
-  * [Jukebox][Jukebox Model]: Generative model for music
-  * [Whisper][Whisper Model]: A speech-to-text model
+  * [ChatGPT] - An fine-tuned model of GPT that is based on dialog
+  * [CLIP] - A model that can put a legend to an image
+  * [Codex] - A [LLM] that specialize on generating code
+  * [DALL-E] - A [Diffusion Model] that from text can generate images
+  * [GPT]: A Generative model for text
+  * [Jukebox] - Generative model for music
+  * [OpenAI Five]: An agent that isnow world champion at the Dota2 game!
+  * [OpenAI Gym Environment] - Environments for development of [Reinforcement Learning] algorithms.
+  * [Unsupervised Sentiment Neuron] - A single character language model, with a sentiment neuron! 
+  * [Whisper] - A speech-to-text model
 
  Interfaces
   * [Triton] : GPU programming for neural networks
@@ -316,6 +325,8 @@ cheese =>                                   # Prompt
   * home - [http://www.openai.com](http://www.openai.com)
   * principles - [https://openai.com/policies/usage-policies](https://openai.com/policies/usage-policies)
   * safety - [https://openai.com/safety-standards](https://openai.com/safety-standards)
+  * articles
+    * [https://www.wired.com/story/what-openai-really-wants/](https://www.wired.com/story/what-openai-really-wants/)
 
  See also [O], [People]
 

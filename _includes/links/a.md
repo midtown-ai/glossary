@@ -1,5 +1,6 @@
 [A]: {{ site.baseurl }}{% link glossary/a.md %}
 
+[Abductive Reasoning]: {{ site.baseurl }}{% link glossary/a.md %}#abductive-reasoning
 [Accuracy]: {{ site.baseurl }}{% link glossary/a.md %}#accuracy
 [Action]: {{ site.baseurl }}{% link glossary/a.md %}#action
 [Actions]: {{ site.baseurl }}{% link glossary/a.md %}#action
@@ -41,6 +42,10 @@
 [Adobe Firefly Product]: {{ site.baseurl }}{% link glossary/a.md %}#adobe-firefly-product
 [Adobe Firefly]: {{ site.baseurl }}{% link glossary/a.md %}#adobe-firefly-product
 [Firefly]: {{ site.baseurl }}{% link glossary/a.md %}#adobe-firefly-product
+[Advanced Micro Devices Company]: {{ site.baseurl }}{% link glossary/a.md %}#advanced-micro-devices-company
+[Advanced Micro Devices]: {{ site.baseurl }}{% link glossary/a.md %}#advanced-micro-devices-company
+[AMD Company]: {{ site.baseurl }}{% link glossary/a.md %}#advanced-micro-devices-company
+[AMD]: {{ site.baseurl }}{% link glossary/a.md %}#advanced-micro-devices-company
 [Advantage Actor-Critic Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#advantage-actor-critic-algorithm
 [Advantage Actor-Critic]: {{ site.baseurl }}{% link glossary/a.md %}#advantage-actor-critic-algorithm
 [A2C Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#advantage-actor-critic-algorithm
@@ -64,6 +69,7 @@
 [AI Explosion]: {{ site.baseurl }}{% link glossary/a.md %}#ai-explosion
 [AI For Content Creation Conference]: {{ site.baseurl }}{% link glossary/a.md %}#ai-for-content-creation-conference
 [AI4CC Conference]: {{ site.baseurl }}{% link glossary/a.md %}#ai-for-content-creation-conference
+[AI Index]: {{ site.baseurl }}{% link glossary/a.md %}#ai-index
 [AI Job]: {{ site.baseurl }}{% link glossary/a.md %}#ai-job
 [AI Magazine]: {{ site.baseurl }}{% link glossary/a.md %}#ai-magazine
 [AI Moratorium]: {{ site.baseurl }}{% link glossary/a.md %}#ai-moratorium
@@ -129,6 +135,9 @@
 [Argmin]: {{ site.baseurl }}{% link glossary/a.md %}#argmin-function
 [Argparse Module]: {{ site.baseurl }}{% link glossary/a.md %}#argparse-module
 [Argparse]: {{ site.baseurl }}{% link glossary/a.md %}#argparse-module
+[Artefact]: {{ site.baseurl }}{% link glossary/a.md %}#artefact
+[Artificial Emotion]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-emotion
+[Artificial Empathy]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-empathy
 [Artificial General Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-general-intelligence
 [AGI]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-general-intelligence
 [Artificial Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence
@@ -144,6 +153,7 @@
 [Artificial Intelligence Risk Managment Framework]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-risk-management-framework
 [AI Risk Managment Framework]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-risk-management-framework
 [AI RMF]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-risk-management-framework
+[Artificial Intuition]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intuition
 [Artificial Narrow Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-narrow-intelligence
 [ANI]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-narrow-intelligence
 [Artificial Neural Network]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neural-network

@@ -1,0 +1,96 @@
+---
+layout: post
+# layout: single
+title:  "CS231n- Convolutional Neural Networks"
+date:   2023-05-04 12:51:28 -0800
+categories: jekyll update
+---
+
+{% include links/all.md %}
+
+JLS students and AI teachers,
+
+We will be meeting on Sunday 05/07/2023 at the usual place and time. 
+Please remember to RSVP so I can manage space and attendance.
+Currently, the best way to RSVP (or UNSUBSCRIBE) is by replying to this email. 
+
+The upcoming meeting will start at 2:00 pm PST
+
+The theme of this meeting is "AI and Education"
+
+Bring your computer (or be ready to share one):
+All attendees must have a laptop computer to participate in the individual "hands-on" section
+Those computers must access to ChatGPT at https://chat.openai.com/chat and Dall-E at  https://labs.openai.com/
+Install Zoom for screen sharing and possibly Discord to access Midjourney  
+
+Tentative Agenda
+ 
+2:00 PM - Club starts
+Name tags distribution
+Vocal warm-up: Introductions and share an interesting moment of your week!
+2:05 PM - SUMMARY OF PREVIOUS SESSION
+Referring to the previous meeting's agenda helps!
+2:10 PM - MATH CIRCLE - wrap up by Emmanuel
+Gradient descent
+Introduction to cost/loss function, optimization, and gradient descent.
+What is gradient descent? https://www.youtube.com/watch?v=4F0_V_0OO2Q 
+Why is gradient descent the most important algorithm in machine learning?
+2:25 PM - THEMED SECTION: AI AND EDUCATION
+Group discussion
+Example video - https://www.youtube.com/watch?v=CedKd32OjA8
+What is the purpose of education?
+How has the education process changed over the last 10.000 years? last 100 years? last 10 years?
+Is education disrupted by AI? Should education change/adapt now?
+How is AI similar to calculators, the Internet, and Wikipedia in relation to education? How is AI different? 
+Are JLS and the Palo Alto School District impacted by AI? See attached email from the PAUSD superintendent.
+ChatGPT came out 6 months ago. Has the AI disruption started?
+https://www.youtube.com/watch?v=PR_ykicOZYU
+Your next school tutor: an AI chatbot!
+chegg stock price drop - https://www.ft.com/content/0db12614-324c-483c-b31c-2255e8562910 
+cheggmate - https://www.chegg.com/cheggmate
+duolingo max - https://blog.duolingo.com/duolingo-max/
+khanamigo
+https://www.youtube.com/watch?v=hJP5GqnTrNo --> https://www.khanacademy.org/khan-labs
+https://www.youtube.com/watch?v=CL923loG1G4
+is AI bad for education?
+https://apnews.com/article/what-is-chat-gpt-ac4967a4fb41fda31c4d27f015e32660
+is AI good for education?
+video - https://www.cnn.com/videos/business/2023/01/26/nightcap-chatgpt-students-clip-orig-nb.cnn 
+https://apnews.com/article/chatgpt-ai-use-school-essay-7bc171932ff9b994e04f6eaefc09319f
+https://www.oneusefulthing.org/p/all-my-classes-suddenly-became-ai
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4300783 (see attached document)
+What does "improving transfer" mean?
+What does "breaking the illusion of explanatory depth" mean?
+What does "training students to critically evaluate explanations" mean?
+Future of education = Human-led education augmented by AI? https://www.youtube.com/watch?v=t2Hya9i7djQ 
+Creative use of AI in the classroom 
+EEG on 5 graders - https://www.youtube.com/watch?v=JMLsHI8aV0g
+Argue: is using EEG good or bad?
+I master AI
+How to use AI to learn anything - https://www.youtube.com/watch?v=MnDudvCyWpc
+What is the Pareto principle?
+What is the Socratic method?
+Hands-on: Pick a topic of your choice and let's try it!
+Bonus: 
+Education by AI for AI (Us ! ) - https://www.youtube.com/watch?v=LiDHiRVVxk8 
+3:15 PM - HANDS-ON: PLAYING WITH CHATBOTS
+How was chatGPT trained again? What are emergent abilities?
+Hey, let's talk with ChatGPT's new friend Pi: https://heypi.com/talk 
+Let's pick a few games and get to know Pi! 
+Two truths, a lie
+Guess the AI movie!
+Would you rather ...
+Other suggested games
+AI, Disney, or other trivia
+20 questions
+AI Hangman, Tic-tac-toe, Rock-paper-scissors 
+Choose your own adventure, Dungeons and Dragons
+Word association, Word unscrambling, Word ladder, Anagrams, Wordle
+Inspiration: https://www.geekmetaverse.com/24-best-games-you-can-play-with-chatgpt/ 
+3:50 PM - Awards, Feedback, next session
+Presentation, preparation, and participation awards
+Competent leadership form update ==> Ideas for future themes? 
+Encouragement award 
+Club feedback: "What did you like and what would you change to improve the club and next sessions?" 
+4:00 PM - End of session
+

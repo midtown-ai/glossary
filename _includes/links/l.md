@@ -17,6 +17,8 @@
 [Large Language Models]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model
 [LLM]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model
 [LLMs]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model
+[Large Language Model Self-Correction Reasoning]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-self-correction-reasoning
+[LLM Self-Correction Reasoning]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-self-correction-reasoning
 [Lasso Regression]: {{ site.baseurl }}{% link glossary/l.md %}#lasso-regression
 [Latent Diffusion Model]: {{ site.baseurl }}{% link glossary/l.md %}#latent-diffusion-model
 [LDM]: {{ site.baseurl }}{% link glossary/l.md %}#latent-diffusion-model
@@ -54,11 +56,14 @@
 [LDA]: {{ site.baseurl }}{% link glossary/l.md %}#linear-discriminant-analysis
 [Linear Programming]: {{ site.baseurl }}{% link glossary/l.md %}#linear-programming
 [Linear Regression]: {{ site.baseurl }}{% link glossary/l.md %}#linear-regression
+[Linear Temporal Logic]: {{ site.baseurl }}{% link glossary/l.md %}#linear-temporal-logic
 [Link Prediction]: {{ site.baseurl }}{% link glossary/l.md %}#link-prediction
 [Linux Foundation AI and Data]: {{ site.baseurl }}{% link glossary/l.md %}#linux-fundation-ai-and-data
 [LFAI&Data]: {{ site.baseurl }}{% link glossary/l.md %}#linux-fundation-ai-and-data
 [LLaMa Model]: {{ site.baseurl }}{% link glossary/l.md %}#llama-model
 [LLaMa]: {{ site.baseurl }}{% link glossary/l.md %}#llama-model
+[LLaMa 2 Model]: {{ site.baseurl }}{% link glossary/l.md %}#llama-model
+[LLaMa 2]: {{ site.baseurl }}{% link glossary/l.md %}#llama-model
 [LLaMa-Adapter Model]: {{ site.baseurl }}{% link glossary/l.md %}#llama-adapter-model
 [LLaMa-Adapter]: {{ site.baseurl }}{% link glossary/l.md %}#llama-adapter-model
 [Log Loss Function]: {{ site.baseurl }}{% link glossary/l.md %}#log-loss-function

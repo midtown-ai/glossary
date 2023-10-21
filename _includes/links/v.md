@@ -2,6 +2,8 @@
 
 [Valence Aware Dictionary And Sentiment Reasoner]: {{ site.baseurl }}{% link glossary/v.md %}#valence-aware-dictionary-and-sentiment-reasoner-library
 [Value]: {{ site.baseurl }}{% link glossary/v.md %}#value
+[Value-Based Algorithm]: {{ site.baseurl }}{% link glossary/v.md %}#value-based-algorithm
+[Value-Based Algorithms]: {{ site.baseurl }}{% link glossary/v.md %}#value-based-algorithm
 [VADER Library]: {{ site.baseurl }}{% link glossary/v.md %}#vader-library
 [Vanilla GAN]: {{ site.baseurl }}{% link glossary/v.md %}#vanilla-gan
 [Vanishing Gradient Problem]: {{ site.baseurl }}{% link glossary/v.md %}#vanishing-gradient-problem
@@ -10,34 +12,41 @@
 [Variable Type]: {{ site.baseurl }}{% link glossary/v.md %}#variable-type
 [Variance]: {{ site.baseurl }}{% link glossary/v.md %}#variance
 [Variational Autoencoder]: {{ site.baseurl }}{% link glossary/v.md %}#variational-autoencoder
-[VAE]: {{ site.baseurl }}{% link glossary/v.md %}#vae
+[VAE]: {{ site.baseurl }}{% link glossary/v.md %}#variational-autoencoder
 [Variational Autoencoder Reparameterization Trick]: {{ site.baseurl }}{% link glossary/v.md %}#variational-autoencoder-reparameterization-trick
 [Vector Quantized Generative Adversarial Network]: {{ site.baseurl }}{% link glossary/v.md %}#vector-quantized-generative-adversarial-network
-[VQGAN]: {{ site.baseurl }}{% link glossary/v.md %}#vqgan
+[VQGAN]: {{ site.baseurl }}{% link glossary/v.md %}#vector-quantized-generative-adversarial-network
 [Vector Quantized Variational Autoencoder]: {{ site.baseurl }}{% link glossary/v.md %}#vector-quantized-variational-autoencoder
-[VQVAE]: {{ site.baseurl }}{% link glossary/v.md %}#vqvae
+[VQVAE]: {{ site.baseurl }}{% link glossary/v.md %}#vector-quantized-variational-autoencoder
 [Vector]: {{ site.baseurl }}{% link glossary/v.md %}#vector
 [Vector Database]: {{ site.baseurl }}{% link glossary/v.md %}#vector-database
 [Vector Search Library]: {{ site.baseurl }}{% link glossary/v.md %}#vector-search-library
 [Vector Search Plugin]: {{ site.baseurl }}{% link glossary/v.md %}#vector-search-plugin
+[Viam]: {{ site.baseurl }}{% link glossary/v.md %}#viam
 [Vicuna Model]: {{ site.baseurl }}{% link glossary/v.md %}#vicuna-model
+[Vicuna]: {{ site.baseurl }}{% link glossary/v.md %}#vicuna-model
 [Video Pre-Training Model]: {{ site.baseurl }}{% link glossary/v.md %}#video-pre-trained-model
-[VPT Model]: {{ site.baseurl }}{% link glossary/v.md %}#vpt-model
+[VPT Model]: {{ site.baseurl }}{% link glossary/v.md %}#video-pre-trained-model
 [Video Restauration]: {{ site.baseurl }}{% link glossary/v.md %}#video-restauration
 [VIMA Model]: {{ site.baseurl }}{% link glossary/v.md %}#vima-model
 [Visual Geometry Group Model]: {{ site.baseurl }}{% link glossary/v.md %}#visual-geometry-group-model
+[VGG Model]: {{ site.baseurl }}{% link glossary/v.md %}#visual-geometry-group-model
+[VGG]: {{ site.baseurl }}{% link glossary/v.md %}#visual-geometry-group-model
 [VGG-16 Model]: {{ site.baseurl }}{% link glossary/v.md %}#vgg-16-model
+[VGG-16]: {{ site.baseurl }}{% link glossary/v.md %}#vgg-16-model
 [VGG-19 Model]: {{ site.baseurl }}{% link glossary/v.md %}#vgg-19-model
-[VGG Model]: {{ site.baseurl }}{% link glossary/v.md %}#vgg-model
+[VGG-19]: {{ site.baseurl }}{% link glossary/v.md %}#vgg-19-model
 [Virtual Assistant]: {{ site.baseurl }}{% link glossary/v.md %}#virtual-assistant
 [Virtual Continuum]: {{ site.baseurl }}{% link glossary/v.md %}#virtual-continuum
 [Virtual Reality]: {{ site.baseurl }}{% link glossary/v.md %}#virtual-reality
-[VR]: {{ site.baseurl }}{% link glossary/v.md %}#vr
+[VR]: {{ site.baseurl }}{% link glossary/v.md %}#virtual-reality
 [Vision-Language Pre-Training]: {{ site.baseurl }}{% link glossary/v.md %}#vision-language-pre-training
-[VLP]: {{ site.baseurl }}{% link glossary/v.md %}#vlp
+[VLP]: {{ site.baseurl }}{% link glossary/v.md %}#vision-language-pre-training
 [Vision Transformer]: {{ site.baseurl }}{% link glossary/v.md %}#vision-transformer
-[ViT]: {{ site.baseurl }}{% link glossary/v.md %}#vit
+[ViT]: {{ site.baseurl }}{% link glossary/v.md %}#vision-transformer
 [Visual Grounding]: {{ site.baseurl }}{% link glossary/v.md %}#visual-grounding
 [Visual Language Model]: {{ site.baseurl }}{% link glossary/v.md %}#visual-language-model
 [Voice Encoder]: {{ site.baseurl }}{% link glossary/v.md %}#voice-encoder
-[Vocoder]: {{ site.baseurl }}{% link glossary/v.md %}#vocoder
+[Vocoder]: {{ site.baseurl }}{% link glossary/v.md %}#voice-encoder
+[Voicebox Model]: {{ site.baseurl }}{% link glossary/v.md %}#voicebox-model
+[Voicebox]: {{ site.baseurl }}{% link glossary/v.md %}#voicebox-model

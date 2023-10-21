@@ -158,9 +158,12 @@ layout: page
 
 # Reasoning
 
- There are 2 types of reasoning:
-  * [Inductive reasoning]
-  * [Deductive reasoning]
+ There are 5 types of reasoning:
+  * [Inductive reasoning] - a conclusion is drawn based on observations or evidence.
+  * [Deductive reasoning] - a conclusion is drawn based on the truth of the premises.
+  * [Abductive reasoning] - a conclusion is drawn based on the best explanation for a given set of observations.
+  * [Formal reasoning] - a systematic and logical process that follows a set of rules and principles.
+  * [Informal reasoning] - a less structured approach to reasoning that relies on intuition, experience, and common sense.
 
  Examples:
   * [Case-Based Reasoning]
@@ -282,14 +285,14 @@ Recall = % of positively identified
 Beware:
   * RNN are now deprecated by attention-based models such as those based on the [transformer architecture]
   * deprecated previous approach using [bag of words] and [word2vec]
-  * deprecated by [attention-based models][Attention-Based Model]
+  * deprecated by [attention-based models]
 
  {% youtube "https://www.youtube.com/watch?v=AsNTP8Kwu80" %}
 
  More at:
   * keras and RNN - [https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177](https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177)
 
- See also [R], [Bidirectional Recurrent Neural Network], [Feedforward Neural Network], [Hidden State], [Long Short Term Memory Network], [Pixel RNN], [Transformer Model]
+ See also [R], [Bidirectional Recurrent Neural Network], [Feedforward Neural Network], [Hidden State], [Long Short-Term Memory Network], [Pixel RNN]
 
 
 # Red Teaming
@@ -362,11 +365,31 @@ Beware:
 
 # Region-Based Convolutional Neural Network
 # Region-Based CNN
+# R-CNN
+
+ ~ algorithm used for [image segmentation]
+
+ 1. Object detection --> bounding boxes for 2K proposed region-of-interest, aka ROI pooling
+ 1. Warped image regions
+ 1. pass image in CNN
+
+
+ {% youtube "https://www.youtube.com/watch?v=PlXE1_FVtMQ" %}
 
  More at:
   * [https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b](https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b)
 
  See also [R], [CNN]
+
+
+# Region-Of-Interest Pooling
+# ROI Pooling
+
+ The first step in a [R-CNN]
+
+ {% youtube "https://www.youtube.com/watch?v=oj6Ub874gHI" %}
+
+ See also [R], ...
 
 
 # Regression
@@ -499,7 +522,7 @@ Beware:
   * [State-Action-Reward-State-Action (SARSA)][SARSA]
 
 
- * [Evolutionary Algorithms] = Generate policies through ab evolutionary process of selection, mutation, and fitness evaluation. Ex: [Genetic Algorithm], [Evolution Strategy]
+ * [Evolutionary Algorithms] = Generate policies through ab evolutionary process of selection, mutation, and fitness evaluation. Ex: [Genetic Programming], [Evolution Strategy]
  * [Model-Based RL] = Learn model of environment transistions and rewards, then optimizes policy through planning. Ex: [Dyna Model], [AlphaGo]
  * [Inverse RL] = learn reward function from expert demonstrations. Allows mimicking behavior without rewards.
  * [Hierarchical RL] = Decomposes problem into hierarchy of sub-policies over different timescales
@@ -519,6 +542,7 @@ Beware:
  More at:
   * [https://huggingface.co/blog/rlhf](https://huggingface.co/blog/rlhf)
   * RLHF is flawed? - [https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the](https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the)
+  * challenges - [https://bdtechtalks.com/2023/09/04/rlhf-limitations/](https://bdtechtalks.com/2023/09/04/rlhf-limitations/)
 
  See also [R], [ChatGPT Model], [Feedback-Based Learning], [InstructGPT Model], [Reinforcement Learning], 
 
@@ -587,16 +611,25 @@ Beware:
 
 # Reranking
 
+ ~ reordering results returned by a [ranking] engine that you do not control or do not want to change/touch using another engine that use different ranking dimensions to up-rank or down-rank previously returned results.
+
  Used in [semantic search] to find the best answer to a question!
 
  Reranking refers to the process of reordering or reorganizing a list of items based on certain criteria to improve the quality of the [ranking]. This concept is often used in [information retrieval], search engines, recommendation systems, and other applications where a list of items needs to be presented in a specific order to provide better user experiences or more relevant results.
 
  In various scenarios, the initial [ranking] of items might not be perfect or optimized for the user's preferences, needs, or relevance. Reranking aims to address this by adjusting the order of items in the list to better match the user's intent or to improve the quality of the presented information. The reranking process can be guided by different factors, such as user feedback, relevance scores, contextual information, or machine learning models.
 
+ Example of applications:
+  * Implementing societal objective function in ranking of social posts
+  * ...
+
+ ![]( {{site.assets}}/r/reranking_social_objective_functions.png ){: width="100%"}
+
  {% youtube "https://www.youtube.com/watch?v=GSixIsI1eZE" %}
 
  More at:
-  * ...
+  * applications
+    * social objective functions - [https://youtu.be/IzK55L26FgA?t=8579](https://youtu.be/IzK55L26FgA?t=8579)
 
  See also [R], ...
 

@@ -3,6 +3,7 @@
 [Galactica Large Language Model]: {{ site.baseurl }}{% link glossary/g.md %}#galactica-large-language-model
 [Galactica LLM]: {{ site.baseurl }}{% link glossary/g.md %}#galactica-large-language-model
 [Game Theory]: {{ site.baseurl }}{% link glossary/g.md %}#game-theory
+[Game Tree]: {{ site.baseurl }}{% link glossary/g.md %}#game-tree
 [Gated Recurrent Unit Cell]: {{ site.baseurl }}{% link glossary/g.md %}#gated-recurrent-unit-cell
 [GRU Cell]: {{ site.baseurl }}{% link glossary/g.md %}#gated-recurrent-unit-cell
 [Gato Model]: {{ site.baseurl }}{% link glossary/g.md %}#gato-model
@@ -90,7 +91,9 @@
 [Graph Neural Network Node-Level Task]: {{ site.baseurl }}{% link glossary/g.md %}#graph-neural-network-node-level-task
 [GNN Node-Level Task]: {{ site.baseurl }}{% link glossary/g.md %}#graph-neural-network-node-level-task
 [Graphical Processing Unit]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit
+[Graphical Processing Units]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit
 [GPU]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit
+[GPUs]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit
 [Greg Brockman Person]: {{ site.baseurl }}{% link glossary/g.md %}#greg-brockman-person
 [Greg Brockman]: {{ site.baseurl }}{% link glossary/g.md %}#greg-brockman-person
 [Grid Search]: {{ site.baseurl }}{% link glossary/g.md %}#grid-search

@@ -412,6 +412,17 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
  See also [S], ...
 
 
+# Self-Destructive Model
+
+ A way to make sure that a model cannot be retrained or fine-tuned for negative intent.
+ So the end user does not have to be trusted to have good intentions to use a model.
+ This is being researched now.
+
+ For what I understand, the model is using "instabilities" ... whatever that means!
+
+ See also [S], ...
+
+
 # Self-Instruct Dataset
 
  The Self-Instruct process is an iterative bootstrapping algorithm that starts with a seed set of manually-written instructions and uses them to prompt the language model to generate new instructions and corresponding input-output instances. These generations are then filtered to remove low-quality or similar ones, and the resulting data is added back to the task pool. This process can be repeated multiple times, resulting in a large collection of instructional data that can be used to fine-tune the language model to follow instructions more effectively.
@@ -434,7 +445,6 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
 
 
 # Self-Organizing Map Algorithm
-
 # SOM Algorithm
 
  SOM (Self-Organizing Map), also known as Kohonen map, is an [unsupervised learning] algorithm used for clustering, visualization, and dimensionality reduction tasks. It was developed by Finnish professor Teuvo Kohonen in the 1980s.
@@ -555,6 +565,16 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
  See also [S], [Confusion Matrix], [Specificity]
 
 
+# Sentence Embedding
+
+ A type of [embeddings]
+
+ More at:
+  * tutorial - [https://txt.cohere.com/sentence-word-embeddings/](https://txt.cohere.com/sentence-word-embeddings/)
+
+ See also [S], ...
+
+
 # Sentient AI
 
  Is Google's [Lambda Model] sentient?
@@ -566,6 +586,7 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
  {% youtube "https://www.youtube.com/watch?v=NAihcvDGaP8" %}
 
  More at:
+  * [https://bdtechtalks.com/2023/02/20/llm-dissociating-language-and-thought/](https://bdtechtalks.com/2023/02/20/llm-dissociating-language-and-thought/)
   * [https://cajundiscordian.medium.com/is-lamda-sentient-an-interview-ea64d916d917](https://cajundiscordian.medium.com/is-lamda-sentient-an-interview-ea64d916d917)
   * [https://medium.com/movement-dao/fired-google-engineer-blake-lemoine-on-his-future-lamda-and-ai-advocacy-98c816dde89e](https://medium.com/movement-dao/fired-google-engineer-blake-lemoine-on-his-future-lamda-and-ai-advocacy-98c816dde89e)
   * [https://www.theatlantic.com/ideas/archive/2022/06/google-lamda-chatbot-sentient-ai/661322/](https://www.theatlantic.com/ideas/archive/2022/06/google-lamda-chatbot-sentient-ai/661322/)
@@ -1025,6 +1046,11 @@ As a trader, I want to create an application that lets me customize and viualize
  See also [S], [Sparse Vector]
 
 
+# Sparse Model
+
+ See also [S], [Unstructured Pruning]
+
+
 # Sparse Tensor
 
  See also [S], [Sparse Vector]
@@ -1165,6 +1191,18 @@ As a trader, I want to create an application that lets me customize and viualize
  See also [S], ...
 
 
+# Standard Knowledge Distillation
+
+ A [knowledge distillation] method that aims to transfer the general knowledge of the teacher model to the student. For instance, you can gather a series of prompts and responses from ChatGPT and use them to train a smaller open-source LLM. However, it’s important to note that there are restrictions on training LLMs on data gathered from commercial models.
+
+ The challenge with standard knowledge distillation lies in accurately capturing the underlying data distributions. MiniLLM, a technique developed by researchers at Tsinghua University and Microsoft Research, addresses this issue. It employs different objective and optimization functions specifically designed for LLMs, enhancing the effectiveness of the distillation process.
+
+ More at:
+  * [https://bdtechtalks.com/2023/09/18/what-is-llm-compression/](https://bdtechtalks.com/2023/09/18/what-is-llm-compression/)
+
+ See also [S], [Emergent Ability Distillation], [Model Compression]
+
+
 # Stanford Autonomous Helicopter
 
  {% youtube "https://www.youtube.com/watch?v=0JL04JJjocc" %}
@@ -1205,10 +1243,11 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
  * [AI in Medicine and Imaging](https://aimi.stanford.edu/) or AIMI
    * blog - [https://aimi.stanford.edu/blog](https://aimi.stanford.edu/blog)
  * [Autonomous lab agent](https://www.autonomousagents.stanford.edu/)
+ * CRFM or [Center for Research on Foundation Model](https://crfm.stanford.edu/)
  * [Neuroscience](https://neuroscience.stanford.edu/)
- * [Stanford AI Lab](https://ai.stanford.edu/) or SAIL 
+ * SAIL or [Stanford AI Lab](https://ai.stanford.edu/)
    * blog - [https://ai.stanford.edu/blog/](https://ai.stanford.edu/blog/)
- * [Human Centered Artificial Intelligence](https://hai.stanford.edu/) or HAI
+ * HAI or [Human Centered Artificial Intelligence](https://hai.stanford.edu/)
    * blog - [https://hai.stanford.edu/news/what-dall-e-reveals-about-human-creativity](https://hai.stanford.edu/news/what-dall-e-reveals-about-human-creativity)
    * ai4all - [https://nidhiparthasarathy.medium.com/my-summer-at-ai4all-f06eea5cdc2e](https://nidhiparthasarathy.medium.com/my-summer-at-ai4all-f06eea5cdc2e)
 
@@ -1443,6 +1482,20 @@ II n summary, probability is focused on the theoretical study of random events, 
 # Structured Data
 
  See also [S], [Data]
+
+
+# Structured Pruning
+
+ A [pruning] method that involves removing entire parts of a model, such as neurons, channels, or layers. The advantage of structured pruning is that it simplifies model compression and improves hardware efficiency. For instance, removing an entire layer can reduce the computational complexity of the model without introducing irregularities in the model structure.
+
+ However, structured pruning requires a deep understanding of the model’s architecture and how different parts contribute to overall performance. There’s also a higher risk of significantly impacting the model’s accuracy, as removing entire neurons or layers can potentially eliminate important learned features.
+
+ One promising technique for structured pruning is LLM-Pruner. This task-agnostic method minimizes reliance on original training data and selectively removes non-critical coupled structures based on gradient information. This approach maximally preserves the majority of the LLM’s functionality, making it an effective tool for [model compression].
+
+ More at:
+  * [https://bdtechtalks.com/2023/09/18/what-is-llm-compression/](https://bdtechtalks.com/2023/09/18/what-is-llm-compression/)
+
+ See also [S], [Unstructured Pruning]
 
 
 # Style GAN

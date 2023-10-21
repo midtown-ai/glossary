@@ -45,6 +45,14 @@ layout: page
  See also [N], [N-Gram]
 
 
+# N-Step Lookahead
+
+ More at:
+  * [https://www.kaggle.com/code/alexisbcook/n-step-lookahead](https://www.kaggle.com/code/alexisbcook/n-step-lookahead)
+
+ See also [N], ...
+
+
 # Naive Bayes Classifier
 
  When most people want to learn about Naive Bayes, they want to learn about the [Multinomial Naive Bayes Classifier].

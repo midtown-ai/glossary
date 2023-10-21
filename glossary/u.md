@@ -62,8 +62,19 @@ layout: page
 
 
 # Uniform Manifold Approximation and Projection
-
 # UMAP
+
+ ~ an algorithm used for [Dimensionality Reduction]
+
+ Pros:
+  * Non-linear reduction that is computationally faster than [t-SNE]
+  * User defined parameter for preserving local or global structure.
+  * Solid theoretical foundations in manifold learning.
+
+ Cons:
+  * New, less prevalent algorithm.
+  * Requires setting hyperparameters that influence quality of the embedding.
+  * Non-deterministic algorithm.
 
  {% youtube "https://www.youtube.com/watch?v=nq6iPZVUxZU" %}
 
@@ -71,7 +82,10 @@ layout: page
 
  {% youtube "https://www.youtube.com/watch?v=jth4kEvJ3P8" %}
 
- See also [U], [Dimensionality Reduction]
+ More at:
+  * [https://dimensionality-reduction-293e465c2a3443e8941b016d.vercel.app/](https://dimensionality-reduction-293e465c2a3443e8941b016d.vercel.app/)
+
+ See also [U], ... 
 
 
 # Underfitting
@@ -107,6 +121,22 @@ layout: page
  See also [U], [Data]
 
 
+# Unstructured Pruning
+
+ A [pruning] method that involves removing irrelevant parameters without considering the model’s structure. Essentially, unstructured pruning sets parameters below a certain threshold to zero, effectively eliminating their impact. This results in a [sparse model] where zero and non-zero weights are randomly distributed.
+
+ Unstructured pruning is easy to implement. However, the random distribution of weights in unstructured pruning makes it difficult to leverage hardware optimization. It requires additional computation and processing steps to compress the sparse model. Moreover, the compressed model often requires further retraining to achieve optimal performance.
+
+ Despite these challenges, there have been significant advancements in unstructured pruning , including
+  * SparseGPT - a technique developed by researchers at the Institute of Science and Technology Austria (ISTA). SparseGPT performs one-shot pruning on large transformer models such as BLOOM and OPT, eliminating the need for retraining.
+  * LoRAPrune - combines [low-rank adaptation (LoRA)][LoRA] with pruning to enhance the performance of [LLMs] on downstream tasks. [LoRA] is a [parameter-efficient fine-tuning (PEFT)][PEFT] technique that only updates a small subset of the parameters of a foundational model. This makes it a highly efficient method for improving model performance.
+
+ More at:
+  * [https://bdtechtalks.com/2023/09/18/what-is-llm-compression/](https://bdtechtalks.com/2023/09/18/what-is-llm-compression/)
+
+ See also [U], [Model Compression], [Structured Pruning]
+
+
 # Unsupervised Deep Learning Model
 
  See also [U], [Autoencoder], [Boltzmann Machine], [Self-Organizing Map], [Unsupervised Learning]
@@ -139,6 +169,28 @@ layout: page
 
  More at:
   * ...
+
+ See also [U], ...
+
+
+# Unsupervised Sentiment Neuron
+
+ A neural network that learns sentiment just by predicting the next character!
+
+ We explore the properties of byte-level recurrent language models. When given sufficient amounts of capacity, training data, and compute time, the representations learned by these models include disentangled features corresponding to high-level concepts. Specifically, we find a single unit which performs sentiment analysis. These representations, learned in an unsupervised manner, achieve state of the art on the binary subset of the Stanford Sentiment Treebank. They are also very data efficient. When using only a handful of labeled examples, our approach matches the performance of strong baselines trained on full datasets. We also demonstrate the sentiment unit has a direct influence on the generative process of the model. Simply fixing its value to be positive or negative generates samples with the corresponding positive or negative sentiment.
+
+ {% youtube "https://www.youtube.com/watch?v=hYWr67i8z5o" %}
+
+ {% youtube "https://www.youtube.com/watch?v=mQX96CT8kkA" %}
+
+ {% pdf "https://arxiv.org/pdf/1704.01444.pdf" %}
+
+ More at:
+  * blog - [https://openai.com/research/unsupervised-sentiment-neuron](https://openai.com/research/unsupervised-sentiment-neuron)
+  * paper - [https://arxiv.org/abs/1704.01444](https://arxiv.org/abs/1704.01444)
+  * code - [https://github.com/openai/generating-reviews-discovering-sentiment](https://github.com/openai/generating-reviews-discovering-sentiment)
+  * articles
+    * [https://www.wired.com/story/what-openai-really-wants/](https://www.wired.com/story/what-openai-really-wants/)
 
  See also [U], ...
 

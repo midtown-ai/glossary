@@ -50,13 +50,22 @@ layout: page
  Used in model architecture, such as [GAN] and used for decision making process, such as in [Pluribus Model] and [Multi-Agent Model]
 
  More at:
-  * ...
+  * [https://link.springer.com/article/10.1007/s11042-022-12153-2](https://link.springer.com/article/10.1007/s11042-022-12153-2)
 
  See also [G], [Nash Equilibrium], [Shapley Value]
 
 
-# Gated Recurrent Unit Cell
+# Game Tree
 
+ ![]( {{site.assets}}/g/game_tree.png ){: width="100%"}
+
+ More at:
+  * ...
+
+ See also [G], ...
+
+
+# Gated Recurrent Unit Cell
 # GRU Cell
 
  Cell or module that can be used in the RNN chain of a Long Short Term Memory, or LSTM Network. A slightly more dramatic variation on the LSTM is the Gated Recurrent Unit, or GRU, introduced by Cho, et al. (2014). It combines the forget and input gates into a single “update gate.” It also merges the cell state and hidden state, and makes some other changes. The resulting model is simpler than standard LSTM models and therefore less compute intensive. This cell has been growing increasingly popular.
@@ -569,7 +578,6 @@ output = m(input)
 
 
 # Grade School Math Dataset
-
 # GSM8K Dataset
 
  GSM8K is a dataset of 8.5K high quality linguistically diverse grade school math word problems created by human problem writers and financed by [OpenAI]. The dataset is segmented into 7.5K training problems and 1K test problems. These problems take between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations (+ − ×÷) to reach the final answer. A bright middle school student should be able to solve every problem. It can be used for multi-step mathematical reasoning.
@@ -591,6 +599,8 @@ output = m(input)
 
 
 # Gradient Ascent Algorithm
+
+ Maximize a function, unlike [gradient descent] which minimize a cost function.
 
  See also [G], ...
 
@@ -636,9 +646,12 @@ output = m(input)
 # Gradient Clipping
 
  A technique to prevent exploding gradients in very deep networks, usually in recurrent neural networks. Gradient Clipping is a method where the error derivative is changed or clipped to a threshold during backward propagation through the network, and using the clipped gradients to update the weights.
+
  Gradient Clipping is implemented in two variants:
   * Clipping-by-value
   * Clipping-by-norm
+
+ Benefits ?
 
  More at: 
   * [https://towardsdatascience.com/what-is-gradient-clipping-b8e815cdfb48](https://towardsdatascience.com/what-is-gradient-clipping-b8e815cdfb48)

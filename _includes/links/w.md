@@ -27,6 +27,7 @@
 [Whisper]: {{ site.baseurl }}{% link glossary/w.md %}#whisper-model
 [White Box Model]: {{ site.baseurl }}{% link glossary/w.md %}#white-box-model
 [Word Embedding]: {{ site.baseurl }}{% link glossary/w.md %}#word-embedding
+[Word Embeddings]: {{ site.baseurl }}{% link glossary/w.md %}#word-embedding
 [Word Embedding Space]: {{ site.baseurl }}{% link glossary/w.md %}#word-embedding-space
 [Word Error Rate Metric]: {{ site.baseurl }}{% link glossary/w.md %}#word-error-rate-metric
 [Word Error Rate]: {{ site.baseurl }}{% link glossary/w.md %}#word-error-rate-metric
@@ -36,3 +37,5 @@
 [Word2Vec]: {{ site.baseurl }}{% link glossary/w.md %}#word2vec-model
 [WordNet Dataset]: {{ site.baseurl }}{% link glossary/w.md %}#wordnet-dataset
 [WordNet]: {{ site.baseurl }}{% link glossary/w.md %}#wordnet-dataset
+[World Artificial Intelligence Cannes Festival]: {{ site.baseurl }}{% link glossary/w.md %}#world-artificial-intelligence-cannes-festival
+[WAICF]: {{ site.baseurl }}{% link glossary/w.md %}#world-artificial-intelligence-cannes-festival

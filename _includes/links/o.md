@@ -19,6 +19,7 @@
 [One-Cold Encoding]: {{ site.baseurl }}{% link glossary/o.md %}#one-cold-encoding
 [One-Hot Encoding]: {{ site.baseurl }}{% link glossary/o.md %}#one-hot-encoding
 [One-Shot Learning]: {{ site.baseurl }}{% link glossary/o.md %}#one-shot-learning
+[One-Step Lookahead]: {{ site.baseurl }}{% link glossary/o.md %}#one-step-lookahead
 [Online Learning]: {{ site.baseurl }}{% link glossary/o.md %}#online-learning
 [Online Learning Algorithm]: {{ site.baseurl }}{% link glossary/o.md %}#online-learning-algorithm
 [Online Learning Algorithms]: {{ site.baseurl }}{% link glossary/o.md %}#online-learning-algorithm

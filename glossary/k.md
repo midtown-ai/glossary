@@ -123,6 +123,9 @@ layout: page
  More at:
   * site - [https://www.kaggle.com/](https://www.kaggle.com/)
   * wikipedia - [https://en.wikipedia.org/wiki/Kaggle](https://en.wikipedia.org/wiki/Kaggle)
+  * courses - [https://www.kaggle.com/learn](https://www.kaggle.com/learn)
+
+ See also [K], ...
 
 
 # Kaggle Competition
@@ -138,6 +141,8 @@ layout: page
 
  For advanced
   * ...
+
+ {% youtube "https://www.youtube.com/watch?v=I3FBJdiExcg" %}
 
  More at:
   * ...
@@ -201,8 +206,21 @@ layout: page
  See also [K], ...
 
 
-# Knowledge Graph
+# Knowledge Distillation
 
+ Knowledge distillation is a machine learning technique where a small “student” model is trained to emulate the behavior of a larger, more complex “teacher” model. The training process effectively transfers knowledge from the teacher to the student model, creating a more compact yet capable model.
+
+ In the realm of LLMs, knowledge distillation techniques fall into two main categories:
+  * [standard knowledge distillation]
+  * [emergent ability distillation]
+
+ More at:
+  * [https://bdtechtalks.com/2023/09/18/what-is-llm-compression/](https://bdtechtalks.com/2023/09/18/what-is-llm-compression/)
+
+ See also [K], ...
+
+
+# Knowledge Graph
 # KG
 
  A knowledge graph is a directed labeled graph in which we have associated domain specific meanings with nodes and edges. Anything can act as a node, for example, people, company, computer, etc. An edge label captures the relationship of interest between the nodes, for example, a friendship relationship between two people, a customer relationship between a company and person, or a network connection between two computers, etc. The directed labeled graph representation is used in a variety of ways depending on the needs of an application. A directed labeled graph such as the one in which the nodes are people, and the edges capture the parent relationship is also known as a data graph. A directed labeled graph in which the nodes are classes of objects (e.g., Book, Textbook, etc.), and the edges capture the subclass relationship, is also known as a taxonomy. In some data models, given a triple (A,B,C), we refer to A, B, C as the subject, the predicate, and the object of the triple respectively. A knowledge graph serves as a data structure in which an application stores information. The information could be added to the knowledge graph through a combination of human input, automated and semi-automated methods. Regardless of the method of knowledge entry, it is expected that the recorded information can be easily understood and verified by humans. Many interesting computations over a graph can be reduced to navigating it. For example, in a friendship KG, to calculate the friends of friends of a person A, we can navigate the graph from A to all nodes B connected to it by a relation labeled as friend, and then recursively to all nodes C connected by the friend relation to each B.
@@ -234,13 +252,12 @@ layout: page
  See also [K], ...
 
 
-# Kullback-Liebler Distance
+# Kullback-Leibler Distance
 
- See [Kullback-Liebler Divergence]
+ See [Kullback-Leibler Divergence]
 
 
 # Kullback-Leibler Divergence
-
 # KL Divergence
 
  calculates a score that measures the divergence of one probability distribution from another. The Kullback–Leibler divergence (KL divergence), aka relative entropy, is the difference between cross-entropy of two distributions and their own entropy. For everyone else, imagine drawing out the two distributions, and wherever they do not overlap will be an area proportional to the KL divergence. Appears in the loss function of a variational autoencoder! This term stay close to normal(mean=0,stdev=1) !!

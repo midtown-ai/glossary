@@ -30,6 +30,7 @@
 [Inference Point]: {{ site.baseurl }}{% link glossary/i.md %}#inference-point
 [Inflection AI Company]: {{ site.baseurl }}{% link glossary/i.md %}#inflection-ai-company
 [Inflection AI]: {{ site.baseurl }}{% link glossary/i.md %}#inflection-ai-company
+[Informal Reasoning]: {{ site.baseurl }}{% link glossary/i.md %}#informal-reasoning
 [Information]: {{ site.baseurl }}{% link glossary/i.md %}#information
 [Information Retrieval]: {{ site.baseurl }}{% link glossary/i.md %}#information-retrieval
 [IR]: {{ site.baseurl }}{% link glossary/i.md %}#information-retrieval

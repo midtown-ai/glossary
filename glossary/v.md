@@ -30,7 +30,6 @@ layout: page
 
 
 # Valence Aware Dictionary and sEntiment Reasoner Library
-
 # VADER Library
 
  VADER is a lexicon and rule-based feeling analysis instrument that is explicitly sensitive to suppositions communicated in web-based media. VADER utilizes a mix of lexical highlights (e.g., words) that are, for the most part, marked by their semantic direction as one or the other positive or negative. Thus, VADER not only tells about the Polarity score yet, in addition, it tells us concerning how positive or negative a conclusion is.
@@ -69,6 +68,13 @@ layout: page
 # Value
 
  In [Reinforcement Learning], ...
+
+ See also [V], ...
+
+
+# Value-Based Algorithm
+
+ ~ a class of [Reinforcement Learning Algorithms]
 
  See also [V], ...
 
@@ -298,6 +304,16 @@ z_q(x)=\text{argmin}_i ||z_e(x)-e_i||_2
  See also [V], [Vector], [Vector Database]
 
 
+# Viam 
+
+ Developed by [Nvidia], ...
+
+ More at:
+  * [https://www.viam.com/](https://www.viam.com/)
+
+ See also [V}, ...
+
+
 # Vicuna Model
 
 More at:
@@ -429,7 +445,6 @@ Currently, standard virtual reality systems use either virtual reality headsets 
 
 
 # Voice Encoder
-
 # Vocoder
 
  used to transform the generated mel-spectrogram into a waveform.
@@ -440,3 +455,23 @@ Currently, standard virtual reality systems use either virtual reality headsets 
   * [https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53](https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53)
 
  See also [V], [Encoder]
+
+
+# Voicebox Model
+
+ A speech infilling model, where audio style is inferred from audio context, and textual content is specified through transcript
+
+ Applications:
+  * Denoising - edit audio track, remove non-white noise
+  * Text-only sampling - read from text
+  * Zero-shot TTS - style transfer from existing recording to text
+  * Cross-lingual style transfer - style transfer from existing voice recording with text extracted from another audio recording to a final audio with changed voice
+
+ {% pdf "https://dl.fbaipublicfiles.com/voicebox/paper.pdf" %}
+
+ More at:
+  * blog posts
+    * [https://about.fb.com/news/2023/06/introducing-voicebox-ai-for-speech-generation/](https://about.fb.com/news/2023/06/introducing-voicebox-ai-for-speech-generation/)
+    * [https://ai.meta.com/blog/voicebox-generative-ai-model-speech/](https://ai.meta.com/blog/voicebox-generative-ai-model-speech/)
+  * site - [https://voicebox.metademolab.com/](https://voicebox.metademolab.com/)
+  *  

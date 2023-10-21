@@ -31,6 +31,8 @@ layout: page
 
 # Label
 
+ ~ think of your label as your model teacher!
+
  Name of a prediction in a supervised models. Correspond to a target attribute in unsupervised learning. Example of label: the agent-skill needed to result the customer's call.
 
  See also [L], [Data Point], [Labeling Function], [Supervised Learning], [Target Attribute]
@@ -147,7 +149,6 @@ completion = llm(prompt)
 
 
 # Large Language Model
-
 # LLM
 
  Large Language Models are [Language Model] with not millions, but billions of parameters/weights. The term "large" in LLM refers to the fact that these models are designed to handle large amounts of data, both in terms of the size of the text corpus used to train them and in terms of the amount of text they can generate or process at once.
@@ -165,7 +166,22 @@ completion = llm(prompt)
 
  {% youtube "https://www.youtube.com/watch?v=StLtMcsbQes" %}
 
- See also [L], [Language Modeling], [SCaling Law]
+ See also [L], [Language Modeling], [Model Compression], [Scaling Law]
+
+
+# Large Language Model Self-Correction Reasoning
+# LLM Self-Correction Reasoning
+
+ ![]( {{site.assets}}/l/large_language_model_self_correction_reasoning.png ){: width="100%"}
+
+ {% pdf "https://arxiv.org/pdf/2308.03188.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2308.03188](https://arxiv.org/abs/2308.03188)
+  * github - [https://github.com/teacherpeterpan/self-correction-llm-papers](https://github.com/teacherpeterpan/self-correction-llm-papers)
+  * [https://bdtechtalks.com/2023/10/09/llm-self-correction-reasoning-failures/](https://bdtechtalks.com/2023/10/09/llm-self-correction-reasoning-failures/)
+
+ See also [L], ....
 
 
 # Lasso Regression
@@ -516,6 +532,17 @@ print regr.score(X_test, y_test)
   * code - [https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html](https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html)
 
  See also [L], [Classification], [Multiple Linear Regression], [Non-Linear Regression], [Prediction Error], [Regression]
+
+
+# Linear Temporal Logic
+
+ Temporal logic is a subfield of mathematical logic that deals with reasoning about time and the temporal relationships between events. In artificial intelligence, temporal logic is used as a formal language to describe and reason about the temporal behavior of systems and processes.
+
+ More at:
+  * [https://www.geeksforgeeks.org/aritificial-intelligence-temporal-logic/](https://www.geeksforgeeks.org/aritificial-intelligence-temporal-logic/)
+  * wikipedia - [https://en.wikipedia.org/wiki/Linear_temporal_logic](https://en.wikipedia.org/wiki/Linear_temporal_logic)
+
+ See also [L], ...
 
 
 # Link Prediction

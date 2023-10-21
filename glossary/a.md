@@ -29,6 +29,16 @@ layout: page
 {% include links/all.md %}
 
 
+# Abductive Reasoning
+
+ Abductive reasoning is a type of [reasoning] where a conclusion is drawn based on the best explanation for a given set of observations. It involves considering different hypotheses and selecting the most likely or best explanation based on the available evidence. Abductive reasoning is used to make educated guesses or hypotheses when faced with incomplete or uncertain information. For example, observing a car that cannot start and a puddle of liquid under the engine, and concluding that the most likely explanation is a leak in the radiator.
+
+ More at:
+  * LLM reasoning ability - [https://www.kaggle.com/code/flaussy/large-language-models-reasoning-ability](https://www.kaggle.com/code/flaussy/large-language-models-reasoning-ability)
+
+ See also [A], ...
+
+
 # Accuracy
 
  A metric used for [model evaluation] that measures the number of correct predictions made by the model over all kinds of predictions. Useful for classification tasks like sentiment analysis.
@@ -219,7 +229,6 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
 
 
 # Actor-Critic With Experience Replay Algorithm
-
 # ACER Algorithm
 
  A sample-efficient policy gradient algorithm. ACER makes use of a replay buffer, enabling it to perform more than one gradient update using each piece of sampled experience, as well as a [Q-Function] approximate trained with the Retrace algorithm.
@@ -228,7 +237,6 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
 
 
 # Adaptive Boosting
-
 # AdaBoost
 
  * AdaBoost combines a lot of "weak learners" to make classifications. The weak learners are almost always decision stumps.
@@ -246,7 +254,6 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
 
 
 # Adaptive Delta Algorithm
-
 # AdaDelta
 
  AdaDelta is an [optimization algorithm][Optimizer] for [gradient descent], which is commonly used in [machine learning] and [deep learning]. It was introduced by Matthew Zeiler in 2012 as an extension of the [AdaGrad algorithm].
@@ -298,7 +305,6 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
 
 
 # Adaptive Gradient Algorithm
-
 # AdaGrad Algorithm
 
  Unfortunately, this hyper-parameter could be very difficult to set because if we set it too small, then the parameter update will be very slow and it will take very long time to achieve an acceptable loss. Otherwise, if we set it too large, then the parameter will move all over the function and may never achieve acceptable loss at all. To make things worse, the high-dimensional non-convex nature of neural networks optimization could lead to different sensitivity on each dimension. The learning rate could be too small in some dimension and could be too large in another dimension.
@@ -322,7 +328,6 @@ One obvious way to mitigate that problem is to choose different learning rate fo
 
 
 # Adaptive Moment Estimation Algorithm
-
 # Adam Algorithm
 
  Adam (Adaptive Moment Estimation) is an [optimization algorithm][Optimizer] used in machine learning to update the weights of a neural network during training. It is an extension of [stochastic gradient descent (SGD)][SGD Algorithm] that incorporates ideas from both momentum-based methods and adaptive learning rate methods.
@@ -384,7 +389,6 @@ One obvious way to mitigate that problem is to choose different learning rate fo
 
 
 # Advantage Actor-Critic Algorithm
-
 # A2C Algorithm
 
  A2C, or Advantage [Actor-Critic], is a synchronous version of the A3C policy gradient method. As an alternative to the asynchronous implementation of A3C, A2C is a synchronous, deterministic implementation that waits for each [actor] to finish its segment of experience before updating, averaging over all of the [actors]. This more effectively uses [GPUs] due to larger [batch sizes].
@@ -396,6 +400,14 @@ One obvious way to mitigate that problem is to choose different learning rate fo
   * code - [https://paperswithcode.com/paper/asynchronous-methods-for-deep-reinforcement#code](https://paperswithcode.com/paper/asynchronous-methods-for-deep-reinforcement#code)
   * articles
     * [https://pylessons.com/A2C-reinforcement-learning](https://pylessons.com/A2C-reinforcement-learning)
+
+ See also [A], ...
+
+
+# Advanced Micro Devices Company
+# AMD Company
+
+ A company that build, design, and sells [GPUs]
 
  See also [A], ...
 
@@ -610,7 +622,6 @@ A risk of [AGI]
 
 
 # AI For Content Creation Conference
-
 # AI4CC Conference
 
  [AI Conference] that takes place at the same time as the [CVPR Conference]
@@ -621,6 +632,22 @@ A risk of [AGI]
   * [https://ai4cc.net/2021/](https://ai4cc.net/2021/)
   * [https://ai4cc.net/2020/](https://ai4cc.net/2020/)
   * [https://ai4cc.net/2019/](https://ai4cc.net/2019/)
+
+ See also [A], ...
+
+
+# AI Index
+
+ The AI Index is an independent initiative at the [Stanford] Institute for Human-Centered Artificial Intelligence (HAI), led by the AI Index Steering Committee, an interdisciplinary group of experts from across academia and industry. The annual report tracks, collates, distills, and visualizes data relating to artificial intelligence, enabling decision-makers to take meaningful action to advance AI responsibly and ethically with humans in mind.
+
+ The AI Index collaborates with many different organizations to track progress in artificial intelligence. These organizations include: the Center for Security and Emerging Technology at Georgetown University, LinkedIn, NetBase Quid, Lightcast, and McKinsey. The 2023 report also features more self-collected data and original analysis than ever before. This year’s report included new analysis on foundation models, including their geopolitics and training costs, the environmental impact of AI systems, K-12 AI education, and public opinion trends in AI. The AI Index also broadened its tracking of global AI legislation from 25 countries in 2022 to 127 in 2023.
+
+ {% youtube "https://www.youtube.com/watch?v=-0dk3CK5qSQ" %}
+
+ {% pdf "https://aiindex.stanford.edu/wp-content/uploads/2023/04/HAI_AI-Index-Report_2023.pdf" %}
+
+ More at:
+  * [https://aiindex.stanford.edu/report/](https://aiindex.stanford.edu/report/)
 
  See also [A], ...
 
@@ -962,6 +989,25 @@ A risk of [AGI]
  See also [A], ...
 
 
+# Algorithmic Bias
+
+ refers to the presence of unfair or discriminatory outcomes in algorithms, which can occur when the data used to train these algorithms is biased in some way. Here's an example of algorithmic bias:
+
+ Example: Biased Hiring Algorithm
+Suppose a company uses an algorithm to assist in the hiring process. The algorithm is trained on historical data of successful and unsuccessful candidates, which includes resumes, interview performance, and hiring decisions. However, historical hiring decisions at the company were biased in various ways, such as favoring candidates of a certain gender, race, or educational background.
+
+ As a result, the algorithm learns and perpetuates these biases. When it is used to evaluate new job applicants, it may systematically favor candidates who resemble those who were historically preferred, while disadvantaging those who don't fit the same profile. This can result in unfair and discriminatory hiring practices, even if the company's intention was to eliminate bias in its hiring process.
+
+ Algorithmic bias can occur in various applications, including lending decisions, criminal justice, healthcare, and more. It is a critical issue because it can reinforce and exacerbate existing societal biases and discrimination. To mitigate algorithmic bias, it is essential to carefully curate training data, regularly audit and test algorithms for bias, and implement fairness-aware machine learning techniques. Additionally, ensuring diversity and inclusion in the teams developing and deploying these algorithms is crucial to address and prevent bias effectively.
+
+ {% youtube "https://www.youtube.com/watch?v=gV0_raKR2UQ" %}
+
+ More at:
+  * ...
+
+ See also [A], [Discrimination]
+
+
 # Alpaca Model
 
  Developed at [Stanford University] ! The current Alpaca model is fine-tuned from a 7B [LLaMA model] on 52K instruction-following data generated by the techniques in the [Self-Instruct][Self-Instruct Dataset] paper, with some modifications that we discuss in the next section. In a preliminary human evaluation, we found that the Alpaca 7B model behaves similarly to the text-davinci-003 model on the Self-Instruct instruction-following evaluation suite.
@@ -1113,7 +1159,6 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
 
 # Amazon Web Services
-
 # AWS
 
  A subsidiary of [Amazon]
@@ -1214,7 +1259,6 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
 
 # Arcade Learning Environment
-
 # ALE
 
  The Arcade Learning Environment (ALE) is an extension of the [Atari Learning Environment] (ALE) that encompasses a broader range of arcade games beyond just the Atari 2600. While ALE focuses exclusively on Atari 2600 games, ALE expands the scope to include various arcade games from different platforms.
@@ -1233,7 +1277,6 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
 
 # Area Under The Curve
-
 # AUC
 
  `~ helpful measurement to compare the classification performance of various models. The bigger the AUC, the better the model!"`.
@@ -1284,8 +1327,31 @@ print(predict(dataset, model, text='Knock knock. Whos there?'))
  See also [A], ...
 
 
-# Artificial General Intelligence
+# Artefact
 
+ See also [A], [Dataset Bias]
+
+
+# Artificial Emotion
+
+ Researchers are working on artificial emotion so that machines can mimic human behavior more accurately.
+
+ More at:
+  * ...
+
+ See also [A], ...
+
+
+# Artificial Empathy
+
+ Artificial empathy aims to identify a human's state of mind in real time.
+
+ More at:
+  * ...
+
+ See also [A], ...
+
+# Artificial General Intelligence
 # AGI
 
  AGI is the idealised solution many conceive when thinking about AI. While researchers work on the narrow and superficial, they talk about AGI, which represents the single story of AI, dating back to the 1950s, with a revival in the past decade. AGI implies two things about a solution that should not apply to business-centric problem-solving. First, a program has the general aptitude for human intelligence (perhaps all human intelligence). Second, an AGI is a general problem solver or a blank slate meaning any knowledge of a problem is rhetorical and independent of a strategy to solve that problem. Instead, the knowledge depends on some vague, ill-defined aptitude relating to the multidimensional structure of natural intelligence. If that sounds ostentatious, it’s because it is. Examples:
@@ -1316,7 +1382,6 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 
 # Artificial Intelligence
-
 # AI
 
  Difficult to define?
@@ -1357,7 +1422,6 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 
 # Artificial Intelligence Areas Of Study
-
 # AI Areas Of Study
 
   * Data and knowledge : massive data understanding, graph learning, synthetic data, knowledge representation
@@ -1372,7 +1436,6 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 
 # Artificial Intelligence Challenge
-
 # AI Challenge
 
  * 1994 - 2022+ : First [CASP Challenge], CASP13 in 2018 was won by [AlphaFold 1][AlphaFold Model]
@@ -1388,7 +1451,6 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 
 # Artificial Intelligence Complete
-
 # AI Complete
 
  Relates to NP complete from complexity.
@@ -1397,7 +1459,6 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 
 # Artificial Intelligence Hard
-
 # AI Hard
 
  Relates to NP hard from complexity.
@@ -1406,7 +1467,6 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 
 # Artification Intelligence Risk Management Framework
-
 # AI RMF
 
  Written by [NIST]
@@ -1419,8 +1479,17 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], ...
 
 
-# Artificial Narrow Intelligence
+# Artificial Intuition
 
+ "Artificial intuition" is an easy term to misunderstand because it sounds like [artificial emotion] and [artificial empathy]. However, it differs significantly. Researchers are working on [artificial emotion] so that machines can mimic human behavior more accurately. [Artificial empathy] aims to identify a human's state of mind in real time. So, for example, chatbots, virtual assistants and care robots can respond to humans more appropriately in context. Artificial intuition is more like human instinct because it can rapidly assess the totality of a situation, including very subtle indicators of specific activity.
+
+ More at:
+  * [https://www.informationweek.com/ai-or-machine-learning/artificial-intuition-takes-pattern-recognition-to-a-new-level](https://www.informationweek.com/ai-or-machine-learning/artificial-intuition-takes-pattern-recognition-to-a-new-level)
+
+ See also [A], ...
+
+
+# Artificial Narrow Intelligence
 # ANI
 
  ANI is often conflated with weak artificial intelligence. John Searle, philosopher and professor at the University of California, explained in his seminal 1980 paper, “Minds, Brains, and Programs,” that weak artificial intelligence would be any solution that is both narrow and a superficial look-alike to intelligence. Searle explains that such research would be helpful in testing hypotheses about segments of minds but would not be minds.[3] ANI reduces this by half and allows researchers to focus on the narrow and superficial and ignore hypotheses about minds. In other words, ANI purges intelligence and minds and makes artificial intelligence “possible” without doing anything. After all, everything is narrow, and if you squint hard enough, anything is a superficial look-alike to intelligence.
@@ -1431,7 +1500,6 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 
 # Artificial Neural Network
-
 # ANN
 
  ~ `Can discover and approximate a(ny?) function given fixed(-count?) inputs and fixed(-count?) outputs! = universal function approximator` A multi-layer perceptron. Also known as Artificial Neural Network (ANN). Can be used in supervised or unsupervised learning.
@@ -1488,7 +1556,6 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 
 # Artificial Super Intelligence
-
 # ASI
 
  ASI is a by-product of accomplishing the goal of AGI. A commonly held belief is that general intelligence will trigger an “intelligence explosion” that will rapidly trigger super-intelligence. It is thought that ASI is “possible” due to recursive self-improvement, the limits of which are bounded only by a program’s mindless imagination. ASI accelerates to meet and quickly surpass the collective intelligence of all humankind. The only problem for ASI is that there are no more problems. When ASI solves one problem, it also demands another with the momentum of Newton’s Cradle. An acceleration of this sort will ask itself what is next ad infinitum until the laws of physics or theoretical computation set in. The University of Oxford scholar Nick Bostrom claims we have achieved ASI when machines have more intelligent than the best humans in every field, including scientific creativity, general wisdom, and social skills. Bostrom’s depiction of ASI has religious significance. Like their religious counterparts, believers of ASI even predict specific dates when the Second Coming will reveal our savior. Oddly, Bostrom can’t explain how to create artificial intelligence. His argument is regressive and depends upon itself for its explanation. What will create ASI? Well, AGI. Who will create AGI? Someone else, of course. AI categories suggest a false continuum at the end of which is ASI, and no one seems particularly thwarted by their ignorance. However, fanaticism is a doubtful innovation process.
@@ -1497,7 +1564,6 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 
 # Association for the Advancement of Artificial Intelligence
-
 # AAAI
 
  Founded in 1979, the Association for the Advancement of Artificial Intelligence (AAAI) (formerly the American Association for Artificial Intelligence) is a nonprofit scientific society devoted to advancing the scientific understanding of the mechanisms underlying thought and intelligent behavior and their embodiment in machines. AAAI aims to promote research in, and responsible use of, artificial intelligence. AAAI also aims to increase public understanding of artificial intelligence, improve the teaching and training of AI practitioners, and provide guidance for research planners and funders concerning the importance and potential of current AI developments and future directions.
@@ -1559,7 +1625,6 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 
 # Asynchronous Advantage Actor-Critic Algorithm
-
 # A3C Algorithm
 
  A [policy gradient algorithm] used in [reinforcement learning]
@@ -1672,7 +1737,6 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 
 # Automatic Speech Recognition
-
 # ASR
 
  Possible thanks to [Recurrent Neural Network] such as [LSTM Network]
@@ -1727,7 +1791,6 @@ Then you are presented with the best matched videos (values).                   
 
 
 # Augmented Language Model
-
 # ALM
 
  A language model that can use external tools.
@@ -1741,7 +1804,6 @@ Then you are presented with the best matched videos (values).                   
 
 
 # Augmented Reality
-
 # AR
 
  Augmented reality (AR) is an interactive experience that combines the real world and computer-generated content. The content can span multiple sensory modalities, including visual, auditory, haptic, somatosensory and olfactory. AR can be defined as a system that incorporates three basic features: a combination of real and virtual worlds, real-time interaction, and accurate 3D registration of virtual and real objects. The overlaid sensory information can be constructive (i.e. additive to the natural environment), or destructive (i.e. masking of the natural environment). This experience is seamlessly interwoven with the physical world such that it is perceived as an immersive aspect of the real environment. In this way, augmented reality alters one's ongoing perception of a real-world environment, whereas virtual reality completely replaces the user's real-world environment with a simulated one.
@@ -1785,6 +1847,7 @@ If you don't ___ at the sign, you will get a ticket
 
  See also [A], [Autoencoder], [Autoregressive]
 
+
 # Autoencoding Model
 
   * Comprehensive understanding and encoding of entire sequences of tokens
@@ -1792,6 +1855,7 @@ If you don't ___ at the sign, you will get a ticket
   * BERT Models
 
  See also [A], [BERT Model], [Natural Language Understanding]
+
 
 # Automation
 
@@ -1805,11 +1869,13 @@ If you don't ___ at the sign, you will get a ticket
 
  See also
 
+
 # AutoML
 
  significant advances in automated machine learning that can “automatically discover complete machine learning algorithms just using basic mathematical operations as building blocks.”
 
  See also [A], [Hyperparameter Tuning], [Early Stopping], [Neural Architecture Search]
+
 
 # Autoregressive Model
 
@@ -1826,7 +1892,6 @@ ____ at the sign, you will get a ticket (backward prediction)
 
 
 # Autoregressive Convolutional Neural Network
-
 # AR-CNN
 
  `~ representing the problem/solution as a time series of images`. Q: How do you generated the images? Q: How many images? Ex: music --> given the previous images (piano roll with notes until now), find the next image (piano roll with new note!) ? NO, WRONG!! More like imagine your first COMPLETE draft, you review the draft, you review it once more, and again, getting better and better each time until it cannot get better anymore! `Each action (i.e. addition or removal of exactly one note) is a transformation from one piano roll image to another piano roll image`.
@@ -1835,7 +1900,6 @@ ____ at the sign, you will get a ticket (backward prediction)
 
 
 # Autoregressive Model
-
 # AR Model
 
  `~ analyze the past steps (or future but not both) to identify the next step = learn from the past iteration (or future but not both) ONLY`. Unlike the GANs approach described before, where music generation happened in one iteration, autoregressive models add notes over many iterations. The models used are called autoregressive (AR) models because the model generates music by predicting future music notes based on the notes that were played in the past. In the music composition process, unlike traditional time series data, one generally does more than compose from left to right in time. New chords are added, melodies are embellished with accompaniments throughout. Thus, instead of conditioning our model solely on the past notes in time like standard autoregressive models, we want to condition our model on all the notes that currently exist in the provided input melody. For example, the notes for the left hand in a piano might be conditioned on the notes that have already been written for the right hand.

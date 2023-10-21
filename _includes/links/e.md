@@ -15,9 +15,12 @@
 [Elon Musk Person]: {{site.baseurl }}{% link glossary/e.md %}#elon-musk-person
 [Elon Musk]: {{site.baseurl }}{% link glossary/e.md %}#elon-musk-person
 [Embedding]: {{site.baseurl }}{% link glossary/e.md %}#embedding
+[Embeddings]: {{site.baseurl }}{% link glossary/e.md %}#embedding
 [Embedding Space]: {{site.baseurl }}{% link glossary/e.md %}#embedding-space
 [Emergent Ability]: {{site.baseurl }}{% link glossary/e.md %}#emergent-ability
 [Emergent Abilities]: {{site.baseurl }}{% link glossary/e.md %}#emergent-ability
+[Emergent Ability Distillation]: {{site.baseurl }}{% link glossary/e.md %}#emergent-ability-distillation
+[EA Distillation]: {{site.baseurl }}{% link glossary/e.md %}#emergent-ability-distillation
 [Emotion]: {{site.baseurl }}{% link glossary/e.md %}#emotion
 [Emotions]: {{site.baseurl }}{% link glossary/e.md %}#emotion
 [Emotional Intelligence]: {{site.baseurl }}{% link glossary/e.md %}#emotional-intelligence

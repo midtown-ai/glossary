@@ -9,8 +9,13 @@
 [Q-Values]: {{ site.baseurl}}{% link glossary/q.md %}#q-value
 [Q-Value Function]: {{ site.baseurl}}{% link glossary/q.md %}#q-value-function
 [Quadratic Regression]: {{ site.baseurl}}{% link glossary/q.md %}#quadratic-regression
+[Quantization]: {{ site.baseurl}}{% link glossary/q.md %}#quantization
+[Quantization-Aware Fine-Tuning]: {{ site.baseurl}}{% link glossary/q.md %}#quantization-aware-fine-tuning
+[QAFT]: {{ site.baseurl}}{% link glossary/q.md %}#quantization-aware-fine-tuning
+[Quantization-Aware Training]: {{ site.baseurl}}{% link glossary/q.md %}#quantization-aware-training
+[QAT]: {{ site.baseurl}}{% link glossary/q.md %}#quantization-aware-training
 [Quantization Error]: {{ site.baseurl}}{% link glossary/q.md %}#quantization-error
-[Quantized And Low-Rank Adapter]: {{ site.baseurl}}{% link glossary/q.md %}#quantized-and-low-rank-adapter
+[Quantized and Low-Rank Adapter]: {{ site.baseurl}}{% link glossary/q.md %}#quantized-and-low-rank-adapter
 [QLoRA]: {{ site.baseurl}}{% link glossary/q.md %}#quantized-and-low-rank-adapter
 [Quantized Signal]: {{ site.baseurl}}{% link glossary/q.md %}#quantized-signal
 [Quantizer]: {{ site.baseurl}}{% link glossary/q.md %}#quantizer

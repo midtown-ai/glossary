@@ -30,6 +30,7 @@
 [Self-Consistency Prompting]: {{ site.baseurl}}{% link glossary/s.md %}#self-consistency-prompting
 [SC Prompting]: {{ site.baseurl}}{% link glossary/s.md %}#self-consistency-prompting
 [SC]: {{ site.baseurl}}{% link glossary/s.md %}#self-consistency-prompting
+[Self-Destructive Model]: {{ site.baseurl}}{% link glossary/s.md %}#self-destructive-model
 [Self-Organizing Map Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
 [Self-Organizing Map]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
 [SOM Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
@@ -42,6 +43,8 @@
 [Semantic Understanding]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-understanding
 [Semi-Supervised Learning]: {{ site.baseurl}}{% link glossary/s.md %}#semi-supervised-learning
 [Sensitivity]: {{ site.baseurl}}{% link glossary/s.md %}#sensitivity
+[Sentence Embedding]: {{ site.baseurl}}{% link glossary/s.md %}#sentence-embedding
+[Sentence Embeddings]: {{ site.baseurl}}{% link glossary/s.md %}#sentence-embedding
 [Sentient AI]: {{ site.baseurl}}{% link glossary/s.md %}#sentient-ai
 [Sentiment Analysis]: {{ site.baseurl}}{% link glossary/s.md %}#sentiment-analysis
 [Sequence To Sequence Model]: {{ site.baseurl}}{% link glossary/s.md %}#sequence-to-sequence-model
@@ -102,6 +105,7 @@
 [Sparrow Model]: {{ site.baseurl}}{% link glossary/s.md %}#sparrow-model
 [Sparse Activation]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-activation
 [Sparse Matrix]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-matrix
+[Sparse Model]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-model
 [Sparse Tensor]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-tensor
 [Sparse Vector]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-vector
 [Specificity]: {{ site.baseurl}}{% link glossary/s.md %}#specificity
@@ -118,6 +122,7 @@
 [StableCode]: {{ site.baseurl}}{% link glossary/s.md %}#stablecode-model
 [StableDiffusion Model]: {{ site.baseurl}}{% link glossary/s.md %}#stablediffusion-model
 [StableDiffusion]: {{ site.baseurl}}{% link glossary/s.md %}#stablediffusion-model
+[Standard Knowledge Distillation]: {{ site.baseurl}}{% link glossary/s.md %}#standard-knowledge-distillation
 [Stanford Autonomous Helicopter]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-autonomous-helicopter
 [Stanford Natural Language Inference]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-natural-language-inference
 [Stanford University]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-university
@@ -153,6 +158,7 @@
 [Strong Artificial Intelligence]: {{ site.baseurl}}{% link glossary/s.md %}#strong-artificial-intelligence
 [Strong AI]: {{ site.baseurl}}{% link glossary/s.md %}#strong-ai
 [Structured Data]: {{ site.baseurl}}{% link glossary/s.md %}#structured-data
+[Structured Pruning]: {{ site.baseurl}}{% link glossary/s.md %}#structured-pruning
 [Style GAN]: {{ site.baseurl}}{% link glossary/s.md %}#style-gan
 [Subsampling]: {{ site.baseurl}}{% link glossary/s.md %}#subsampling
 [Sundar Pichai Person]: {{ site.baseurl}}{% link glossary/s.md %}#sundar-pichai-person

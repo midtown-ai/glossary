@@ -148,6 +148,8 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
  ```
 
  More at:
+  * examples
+    * [https://www.kaggle.com/code/alexisbcook/one-step-lookahead](https://www.kaggle.com/code/alexisbcook/one-step-lookahead)
   * [https://www.psychologytoday.com/us/basics/heuristics](https://www.psychologytoday.com/us/basics/heuristics)
   * [https://www.investopedia.com/terms/h/heuristics.asp](https://www.investopedia.com/terms/h/heuristics.asp)
 
@@ -324,6 +326,16 @@ Overall, Hugging Face's products and services are designed to make NLP more acce
 
  See also [H], [Artificial Intelligence]
 
+
+# Human-Centered Design
+# HCD
+
+ When applied to AI, gives rise to [Human-Centered AI]
+
+ More at:
+  * [https://www.kaggle.com/code/var0101/human-centered-design-for-ai/tutorial#Introduction](https://www.kaggle.com/code/var0101/human-centered-design-for-ai/tutorial#Introduction)
+
+ See also [H], ...
 
 # Humanoid
 

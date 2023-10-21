@@ -32,7 +32,10 @@
 [Red Teaming]: {{site.baseurl }}{% link glossary/r.md %}#red-teaming
 [Reflex Model]: {{site.baseurl }}{% link glossary/r.md %}#reflec-model
 [Region-Based Convolutional Neural Network]: {{site.baseurl }}{% link glossary/r.md %}#region-based-convolutional-neural-network
-[Region-Based CNN]: {{site.baseurl }}{% link glossary/r.md %}#ragion-based-cnn
+[Region-Based CNN]: {{site.baseurl }}{% link glossary/r.md %}#region-based-convolutional-neural-network
+[R-CNN]: {{site.baseurl }}{% link glossary/r.md %}#region-based-convolutional-neural-network
+[Region-Of-Interest Pooling]: {{site.baseurl }}{% link glossary/r.md %}#region-of-interest-pooling
+[ROI Pooling]: {{site.baseurl }}{% link glossary/r.md %}#region-of-interest-pooling
 [Regression]: {{site.baseurl }}{% link glossary/r.md %}#regression
 [Regression Tree]: {{site.baseurl }}{% link glossary/r.md %}#regression-tree
 [Regularization]: {{site.baseurl }}{% link glossary/r.md %}#regularization

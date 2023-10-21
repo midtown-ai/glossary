@@ -30,8 +30,9 @@ layout: page
 
 
 # T-Distributed Stochastic Neighbor Embedding Algorithm
-
 # t-SNE Algorithm
+
+ ~ an algorithm used for [dimensionality reduction]
 
  Algorithm created in 2008, so modern compared to other existing (but a bit more complex than [PCA]!)
 
@@ -39,6 +40,16 @@ layout: page
 
  * [PCA] - Try to preserve global shape/structure of data
  * t-SNE - Can choose to preserved local structure 
+
+ Pros:
+  * Produces highly clustered, visually striking embeddings.
+  * Non-linear reduction, captures local structure well.
+
+ Cons:
+  * Global structure may be lost in favor of preserving local distances.
+  * More computationally expensive.
+  * Requires setting hyperparameters that influence quality of the embedding.
+  * Non-deterministic algorithm.
 
  ![]( {{site.assets}}/t/t_distributed_stochastic_neighbor_embedding_algorithm.gif ){: width="100%"}
 
@@ -48,6 +59,7 @@ layout: page
 
  More at:
   * [https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding)
+  * [https://dimensionality-reduction-293e465c2a3443e8941b016d.vercel.app/](https://dimensionality-reduction-293e465c2a3443e8941b016d.vercel.app/)
  
  See also [T], ...
 

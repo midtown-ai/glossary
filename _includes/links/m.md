@@ -7,6 +7,7 @@
 [Machine Learning Type]: {{ site.baseurl }}{% link glossary/m.md %}#machine-learning-type
 [Machine Reasoning]: {{ site.baseurl }}{% link glossary/m.md %}#machine-reasoning
 [Machine Translation]: {{ site.baseurl }}{% link glossary/m.md %}#machine-translation
+[Machine Unlearning]: {{ site.baseurl }}{% link glossary/m.md %}#machine-unlearning
 [Magi Model]: {{ site.baseurl }}{% link glossary/m.md %}#magi-model
 [Magi]: {{ site.baseurl }}{% link glossary/m.md %}#magi-model
 [Majority Vote Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#majority-vote-algorithm
@@ -71,6 +72,7 @@
 [Mini-Batch Training]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-training
 [Mini-Batch Gradient Descent Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-gradient-descent-algorithm
 [Mini-Batch Gradient Descent]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-gradient-descent-algorithm
+[Minimax Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#minimax-algorithm
 [Mixed Reality]: {{ site.baseurl }}{% link glossary/m.md %}#mixed-reality
 [MR]: {{ site.baseurl }}{% link glossary/m.md %}#mixed-reality
 [Mixture Of Local Experts]: {{ site.baseurl }}{% link glossary/m.md %}#mixture-of-local-exports
@@ -84,11 +86,14 @@
 [Model Benchmark]: {{ site.baseurl }}{% link glossary/m.md %}#model-benchmark
 [Model Card]: {{ site.baseurl }}{% link glossary/m.md %}#model-card
 [Model Checkpoint]: {{ site.baseurl }}{% link glossary/m.md %}#model-checkpoint
+[Model Compression]: {{ site.baseurl }}{% link glossary/m.md %}#model-compression
 [Model Data Sheet]: {{ site.baseurl }}{% link glossary/m.md %}#model-data-sheet
 [Model Drift]: {{ site.baseurl }}{% link glossary/m.md %}#model-drift
 [Model Evaluation]: {{ site.baseurl }}{% link glossary/m.md %}#model-evaluation
 [Model Format]: {{ site.baseurl }}{% link glossary/m.md %}#model-format
 [Model Hub]: {{ site.baseurl }}{% link glossary/m.md %}#model-hub
+[Model Release Card]: {{ site.baseurl }}{% link glossary/m.md %}#model-release-card
+[Model Release Frontier]: {{ site.baseurl }}{% link glossary/m.md %}#model-release-frontier
 [Model Tuning]: {{ site.baseurl }}{% link glossary/m.md %}#model-tuning
 [Model Type]: {{ site.baseurl }}{% link glossary/m.md %}#model-type
 [Model Uplift]: {{ site.baseurl }}{% link glossary/m.md %}#model-uplift

@@ -238,6 +238,8 @@ curl https://api.openai.com/v1/audio/transcriptions \
  
 # Word Embedding
 
+ ~ a type of [embeddings] for words
+
  ~ `Take a sparse vector as input to a word2vec process and turn into a point in the embedding space, where 2 close related words (in meaning) are close (at a small euclidian distance)`. TFM and TFIDF are numerical representations of text documents that only consider frequency and weighted frequencies to represent text documents. By contrast, word embeddings can capture the context of a word in a document (e.g. "bank" in bank account and river bank have different embeddings). With the word context, embeddings can quantify the similarity between words, which in turn allows us to do arithmetic with words. [Word2Vec] is a method based on neural nets that maps words in a corpus to a numerical vector. We can then use these vectors to find synonyms, perform arithmetic operations with words, or to represent text documents (by taking the mean of all the word vectors in a document). For example, let’s assume that we use a sufficiently big corpus of text documents to estimate word embeddings. Let’s also assume that the words king, queen, man and woman are part of the corpus. Let say that vector(‘word’) is the numerical vector that represents the word ‘word’. To estimate vector(‘woman’), we can perform the arithmetic operation with vectors:
  
  ```
@@ -251,6 +253,7 @@ vector(‘king’) + vector(‘woman’) — vector(‘man’) ~ vector(‘queen
  {% youtube "https://www.youtube.com/watch?v=bof9EdygMSo" %}
 
  More at:
+  * tutorial - [https://txt.cohere.com/sentence-word-embeddings/](https://txt.cohere.com/sentence-word-embeddings/)
   * [https://www.louisbouchard.ai/text-embedding/](https://www.louisbouchard.ai/text-embedding/)
   * [https://towardsdatascience.com/introduction-to-word-embeddings-4cf857b12edc](https://towardsdatascience.com/introduction-to-word-embeddings-4cf857b12edc)
 
@@ -310,3 +313,12 @@ vector(‘king’) + vector(‘woman’) — vector(‘man’) ~ vector(‘queen
   * [https://wordnet.princeton.edu/](https://wordnet.princeton.edu/)
 
  See also [W], [Dataset], [ImageNet Dataset], [Transfer Learning]
+
+
+# World Artificial Intelligence Cannes Festival
+# WAICF
+
+ More at
+  * site - [https://www.worldaicannes.com/festival](https://www.worldaicannes.com/festival)
+  * articles
+    * [https://aibusiness.com/meta/ai-luminary-yann-lecunn-sets-us-straight-on-generative-ai](https://aibusiness.com/meta/ai-luminary-yann-lecunn-sets-us-straight-on-generative-ai)

@@ -48,6 +48,7 @@
 [Collaborative Filtering]: {{ site.baseurl }}{% link glossary/c.md %}#collaborative-filtering
 [Colossal Clean Crawled Corpus]: {{ site.baseurl }}{% link glossary/c.md %}#colossal-clean-crawled-corpus
 [C4 Dataset]: {{ site.baseurl }}{% link glossary/c.md %}#c4-dataset
+[Common Sense]: {{ site.baseurl }}{% link glossary/c.md %}#common-sense
 [Company]: {{ site.baseurl }}{% link glossary/c.md %}#company
 [Complexity]: {{ site.baseurl }}{% link glossary/c.md %}#complexity
 [Compliance Analysis]: {{ site.baseurl }}{% link glossary/c.md %}#compliance-analysis

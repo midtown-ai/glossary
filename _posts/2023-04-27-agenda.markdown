@@ -1,0 +1,11 @@
+---
+layout: post
+# layout: single
+title:  "CS231n- Convolutional Neural Networks"
+date:   2023-05-04 12:51:28 -0800
+categories: jekyll update
+---
+
+{% include links/all.md %}
+
+
