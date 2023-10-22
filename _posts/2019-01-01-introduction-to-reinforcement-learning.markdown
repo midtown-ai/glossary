@@ -1,7 +1,7 @@
 ---
 layout: post
 # layout: single
-title:  "The age of AI"
+title:  "Introduction to reinforcement learning"
 date:   2019-01-01 12:51:28 -0800
 categories: jekyll update
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 # layout: single
-title:  "Get started with pands"
+title:  "Getting started with pandas"
 date:   2023-04-17 12:51:28 -0800
 categories: jekyll update
 ---

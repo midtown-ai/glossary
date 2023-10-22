@@ -186,7 +186,7 @@ ax.plot(x, y, color='cyan', alpha=0.7, linewidth=3, solid_capstyle='round', zord
 
   {% pdf "https://arxiv.org/pdf/2002.04794.pdf" %}
 
-  {% pdf "{{site.assets}}/_/r/racing_lline_optimization_paper.pdf" %}
+  {% pdf "{{site.assets}}/_/r/racing_line_optimization_paper.pdf" %}
 
   {% pdf "https://arxiv.org/pdf/2104.11106.pdf" %}
 
