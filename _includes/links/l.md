@@ -60,6 +60,8 @@
 [Link Prediction]: {{ site.baseurl }}{% link glossary/l.md %}#link-prediction
 [Linux Foundation AI and Data]: {{ site.baseurl }}{% link glossary/l.md %}#linux-fundation-ai-and-data
 [LFAI&Data]: {{ site.baseurl }}{% link glossary/l.md %}#linux-fundation-ai-and-data
+[Liquid Neural Network]: {{ site.baseurl }}{% link glossary/l.md %}#liquid-neural-network
+[LNN]: {{ site.baseurl }}{% link glossary/l.md %}#liquid-neural-network
 [LLaMa Model]: {{ site.baseurl }}{% link glossary/l.md %}#llama-model
 [LLaMa]: {{ site.baseurl }}{% link glossary/l.md %}#llama-model
 [LLaMa 2 Model]: {{ site.baseurl }}{% link glossary/l.md %}#llama-model

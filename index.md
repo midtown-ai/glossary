@@ -29,6 +29,8 @@ layout: home
 
 ---
 
+Open API Key (Emmanuel) - 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
+
 {% comment %}
 
 {% render_time "page rendered at:" %}

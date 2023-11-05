@@ -562,7 +562,6 @@ print regr.score(X_test, y_test)
 
 
 # Linux Foundation AI And Data
-
 # LFAI&Data
 
  The mission of LF AI & Data is to build and support an open artificial intelligence (AI) and data community, and drive open source innovation in the AI and data domains by enabling collaboration and the creation of new opportunities for all the members of the community.
@@ -579,6 +578,19 @@ print regr.score(X_test, y_test)
  More at:
   * site - [https://lfaidata.foundation/](https://lfaidata.foundation/) 
   * projects - [https://lfaidata.foundation/projects/](https://lfaidata.foundation/projects/)
+
+ See also [L], ...
+
+
+# Liquid Neural Network
+# LNN
+
+ {% youtube "https://youtu.be/0FNkrjVIcuk?si=I35p6esxM83rYsLf" %}
+
+ {% youtube "https://www.youtube.com/watch?v=ql3ETcRDMEM" %}
+
+ More at:
+  * ...
 
  See also [L], ...
 
