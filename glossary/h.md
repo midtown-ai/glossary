@@ -189,6 +189,23 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
  See also [H], ...
 
 
+# Hierarchical Navigable Small World Function
+# HNSW Function
+
+ a state-of-the-art algorithm used for an approximate search of nearest neighbours. Under the hood, HNSW constructs optimized graph structures
+
+ ![]( {{site.assets}}/h/hierarchical_navigable_small_world_function.webp ){: width="100%"}
+
+ {% pdf "https://arxiv.org/pdf/1603.09320.pdf" %}
+
+ More at:
+  * [https://towardsdatascience.com/similarity-search-part-4-hierarchical-navigable-small-world-hnsw-2aad4fe87d37](https://towardsdatascience.com/similarity-search-part-4-hierarchical-navigable-small-world-hnsw-2aad4fe87d37)
+  * small world network - [https://en.wikipedia.org/wiki/Small-world_network](https://en.wikipedia.org/wiki/Small-world_network)
+  * vector search engine with HNSW - [https://esteininger.medium.com/building-a-vector-search-engine-using-hnsw-and-cosine-similarity-753fb5268839](https://esteininger.medium.com/building-a-vector-search-engine-using-hnsw-and-cosine-similarity-753fb5268839)
+
+ See also [H], ...
+
+
 # Hierarchical Reinforcement Learning
 # Hierarchical RL
 
@@ -232,16 +249,16 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
 
 
 # Holistic Evaluation of Language Model Benchmark
-
 # HELM Benchmark
 
  A language model takes in text and produces text. Despite their simplicity, language models are increasingly functioning as the foundation for almost all language technologies from question answering to summarization. But their immense capabilities and risks are not well understood. Holistic Evaluation of Language Models (HELM) is a living benchmark that aims to improve the transparency of language models.
+
+ ![]( {{site.assets}}/h/helm_benchmark.png ){: width="100%"}
 
  More at:
   * [https://crfm.stanford.edu/helm/latest/](https://crfm.stanford.edu/helm/latest/)
   * [https://github.com/stanford-crfm/helm](https://github.com/stanford-crfm/helm)
   * [https://crfm.stanford.edu/2022/11/17/helm.html](https://crfm.stanford.edu/2022/11/17/helm.html)
-
 
  See also [H], ...
 

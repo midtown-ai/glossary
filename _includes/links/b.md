@@ -21,12 +21,14 @@
 [Bayesian Inference]: {{ site.baseurl }}{% link glossary/b.md %}#bayesian-inference
 [Bayesian Network]: {{ site.baseurl }}{% link glossary/b.md %}#bayesian-network
 [Bayesian Optimization Sampling Method]: {{ site.baseurl }}{% link glossary/b.md %}#bayesian-optimization-sampling-method
+[Beam Search]: {{ site.baseurl }}{% link glossary/b.md %}#beam-search
 [Behavioural Cloning]: {{ site.baseurl }}{% link glossary/b.md %}#behavioural-cloning
 [Belief-Desire-Intention Framework]: {{ site.baseurl }}{% link glossary/b.md %}#belief-desire-intention-framework
 [BDI Framework]: {{ site.baseurl }}{% link glossary/b.md %}#belief-desire-intention-framework
 [Belief Distribution]: {{ site.baseurl }}{% link glossary/b.md %}#belief-distribution
 [Bellman Equation]: {{ site.baseurl }}{% link glossary/b.md %}#bellman-equation
 [Benchmark]: {{ site.baseurl }}{% link glossary/b.md %}#benchmark
+[Benchmarks]: {{ site.baseurl }}{% link glossary/b.md %}#benchmark
 [Berkeley University]: {{ site.baseurl }}{% link glossary/b.md %}#berkeley-university
 [Bernouilli Distribution]: {{ site.baseurl }}{% link glossary/b.md %}#bernouilli-distribution
 [BERT Classification]: {{ site.baseurl }}{% link glossary/b.md %}#bert-classification
@@ -47,8 +49,9 @@
 [Bidirectional Recurrent Neural Network]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-recurrent-neural-network
 [BRNN]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-recurrent-neural-network
 [Big Data]: {{ site.baseurl }}{% link glossary/b.md %}#big-data
-[Bilingual Evaluation Understudy Metric]: {{ site.baseurl }}{% link glossary/b.md %}#bilingual-evaluation-understudy-score
-[BLEU Metric]: {{ site.baseurl }}{% link glossary/b.md %}#bilingual-evaluation-understudy-score
+[Bilingual Evaluation Understudy Score]: {{ site.baseurl }}{% link glossary/b.md %}#bilingual-evaluation-understudy-score
+[BLEU Score]: {{ site.baseurl }}{% link glossary/b.md %}#bilingual-evaluation-understudy-score
+[BLEU]: {{ site.baseurl }}{% link glossary/b.md %}#bilingual-evaluation-understudy-score
 [Bill Gates Person]: {{ site.baseurl }}{% link glossary/b.md %}#bill-gates-person
 [Bill Gates]: {{ site.baseurl }}{% link glossary/b.md %}#bill-gates-person
 [Binary Classification]: {{ site.baseurl }}{% link glossary/b.md %}#binary-classification

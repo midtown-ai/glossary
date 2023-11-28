@@ -75,8 +75,11 @@
 [PILCO Model]: {{ site.baseurl}}{% link glossary/p.md %}#probabilistic-inference-for-learning-control-model
 [PILCO]: {{ site.baseurl}}{% link glossary/p.md %}#probabilistic-inference-for-learning-control-model
 [Procedural Reasoning System]: {{ site.baseurl}}{% link glossary/p.md %}#procedural-reasoning-system
+[Product Quantization]: {{ site.baseurl}}{% link glossary/p.md %}#product-quantization
 [Prompt Engineering]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-engineering
 [Prompt Injection]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-injection
+[PromptIDE Application]: {{ site.baseurl}}{% link glossary/p.md %}#promptide-application
+[PromptIDE]: {{ site.baseurl}}{% link glossary/p.md %}#promptide-application
 [Proximal Policy Optimization Algorithm]: {{ site.baseurl}}{% link glossary/p.md %}#proximal-policy-optimization-algorithm
 [PPO Algorithm]: {{ site.baseurl}}{% link glossary/p.md %}#proximal-policy-optimization-algorithm
 [PPO]: {{ site.baseurl}}{% link glossary/p.md %}#proximal-policy-optimization-algorithm
@@ -84,6 +87,8 @@
 [Punishment]: {{ site.baseurl}}{% link glossary/p.md %}#punishment
 [Punishments]: {{ site.baseurl}}{% link glossary/p.md %}#punishment
 [PyBullet]: {{ site.baseurl}}{% link glossary/p.md %}#pybullet
+[PyCaret Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pycaret-python-module
+[PyCaret]: {{ site.baseurl}}{% link glossary/p.md %}#pycaret-python-module
 [PyGame Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pygame-python-module
 [PyGame]: {{ site.baseurl}}{% link glossary/p.md %}#pygame-python-module
 [Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#python-module

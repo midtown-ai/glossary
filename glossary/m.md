@@ -120,6 +120,12 @@ Predict what are the required agent skills based some input parameters
  See also [M], [Discovery Phase], [Machine Learning], [Machine Learning Framework]
 
 
+# Machine Learning System On Chip
+# MLSoc
+
+ See also [M], ...
+
+
 # Machine Learning Type
 
   * unsupervised,
@@ -227,6 +233,13 @@ Predict what are the required agent skills based some input parameters
 
  More at:
   * [https://multiplatform.ai/man-group-the-worlds-largest-publicly-traded-hedge-fund-introduces-mangpt-an-ai-driven-platform-for-idea-formation-and-information-summarization/](https://multiplatform.ai/man-group-the-worlds-largest-publicly-traded-hedge-fund-introduces-mangpt-an-ai-driven-platform-for-idea-formation-and-information-summarization/)
+
+ See also [M], ...
+
+
+# Manhattan Distance
+
+ The Euclidean distance is the length of the shortest path between 2 points. The Manhattan distance instead assumes there is a grid and the total distance is the sum of the delta for each of the dimensions. In other words, ManDist = (X2-X1) + (Y2-Y1)   etc 
 
  See also [M], ...
 
@@ -895,7 +908,17 @@ def mse_loss(y_pred, y_true):
 
 # Model Benchmark
 
- See also [M], [NLP Benchmark]
+ The result of a model evaluation against a set of reference [benchmarks]
+
+ See also [M], ...
+
+
+# Model Build Of Material
+# Model BoM
+
+ What was used to build the model!
+
+ See also [M], ...
 
 
 # Model Card
@@ -911,6 +934,13 @@ def mse_loss(y_pred, y_true):
   * facebook LLaMa model card - [https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md](https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md)
 
  See also [M], [Model Data Sheet]
+
+
+# Model-Centric AI
+
+ Focus on the algorithm, assume the data is static! (like a kaggle dataset). The opposite of [data-centric AI]
+
+ See also [M], ...
 
 
 # Model Checkpoint
@@ -977,6 +1007,12 @@ def mse_loss(y_pred, y_true):
   * estimates for claude model - [https://orenleung.com/anthropic-claude-next-cost](https://orenleung.com/anthropic-claude-next-cost)
 
 
+# Model Development Lifecycle
+# MDLC
+
+ See also [M], [DDLC], [SDLC]
+
+
 # Model Drift
 
  Model performance changes over time.
@@ -990,6 +1026,35 @@ def mse_loss(y_pred, y_true):
   * [https://www.microsoft.com/en-us/research/project/datasheets-for-datasets/](https://www.microsoft.com/en-us/research/project/datasheets-for-datasets/)
 
  See also [M], [Model Card]
+
+
+# Model Denial Of Service
+# Model DoS
+# MDoS
+
+ 
+Model denial of service (MDoS) is a potential attack vector against machine learning systems, with the goal of preventing legitimate use of the model. Some key characteristics of MDoS attacks:
+  * The attacker floods the ML system with malicious input data designed to degrade model performance. This data is engineered to exploit model vulnerabilities.
+  * The constant barrage of malicious data forces the model to expend computational resources on processing it.
+  * Over time, the model's predictions become less accurate, less useful, or fails completely. It is unable to serve legitimate users.
+  * The attack can be carried out remotely through the input channels exposed by ML APIs and services.
+
+ Some examples of how MDoS can manifest:
+  * Spamming image classification APIs with adversarial images to degrade confidence scores.
+  * Flooding a fraud detection system with valid but misleading inputs to increase false positives.
+  * Manipulating data to poison the training set of an online learning system.
+  * Barraging video analysis models with carefully crafted corrupted footage.
+
+ Defenses against MDoS include:
+  * Input filtering and anomaly detection to catch obvious malicious data.
+  * Rate limiting and throttling to slow down potential attackers.
+  * Resetting and retraining models periodically to clear accumulated poisoned data.
+  * Using robust and adversarially resistant models that degrade gracefully.
+  * Monitoring model performance for sudden changes as indication of attack.
+
+ Overall, MDoS demonstrates vulnerabilities related to the data-driven nature of machine learning. Managing input sources and monitoring for degradation helps counter this threat.
+
+ See also [M], [Model Threat Analysis]
 
 
 # Model Evaluation
@@ -1010,6 +1075,13 @@ def mse_loss(y_pred, y_true):
  See also [M], ...
 
 
+# Model Firewall
+
+ A proxy that front the LLM and inspect input and output of queries.
+
+ See also [M], ...
+
+
 # Model Format
 
  * [CoreML Format] - Apple format
@@ -1021,6 +1093,34 @@ def mse_loss(y_pred, y_true):
 # Model Hub
 
  See also [M], ...
+
+
+# Model Inversion
+
+ Model inversion is a type of attack against machine learning models, particularly in privacy-sensitive applications. The goal of model inversion is to extract private or sensitive attributes used as inputs to train the model.
+
+ Here is an overview of how model inversion works:
+  * An adversary has black box access to a trained ML model (e.g. can query it).
+  * The adversary sends carefully crafted queries to the model and observes the outputs.
+  * They analyze the input-output relationships to make inferences about the training data.
+  * With enough queries, they can reconstruct approximations of private attributes in the training data.
+  * For example, a model trained on medical records to predict disease risk. The adversary queries it to infer a patient's probable age, gender, medications, etc. without seeing the actual records.
+
+ Some key risks of model inversion:
+  * Reveal demographics, behaviors, identities of individuals in training data.
+  * Expose sensitive attributes meant to be kept private.
+  * Violate regulations on use of personal data like HIPAA.
+  * Enable other attacks like model evasion, poisoning, etc.
+
+ Defenses against model inversion include:
+  * Differential privacy - Add noise to inputs/outputs to obfuscate data.
+  * Regularization - Simplicity constraints make model behavior more uniform.
+  * Restrict queries - Limit what outputs can be observed by adversaries.
+  * Federated learning - Train on decentralized data, don't centralize it.
+
+ Overall, model inversion exploits the inherent fit between a model and its training data. Managing what models reveal through queries helps mitigate this emerging threat.
+
+ See also [M], [Model Threat Analysis]
 
 
 # Model Release Card
@@ -1080,17 +1180,47 @@ def mse_loss(y_pred, y_true):
  See also [M], ...
 
 
-# Model Performance Metrics
+# Model Performance Metric
 
+ Examples:
   * percentage of correct predictions
   * sensitivity, recall, hit rate or TPR
   * precision
-  * F1 score = wiegthed harmonic mean of precision and recall = ( 2 X precision * recall ) / (Precision + recall)
+  * F1 score = weigthed harmonic mean of precision and recall = ( 2 X precision * recall ) / (Precision + recall)
   * FPR, FNR
 
   [Hyperparameter Tuning]
 
  See also [M], ...
+
+
+# Model Scanning
+
+ A step required in [model threat analysis] when importing open-source models like [LlaMa] , [Falcon] , or others less popular models.
+ Looking at a model to find vulnerabilities, a bit like an antivirus would!
+
+ See also [M], ...
+
+
+# Model Threat Analysis
+
+ Covers:
+  * [Data Poisoning]
+  * [Supply Chain Vulnerabilities] calls for [Model Scanning]
+  * Inference
+    * [Prompt Injection]
+    * [Model Denial Of Service]
+    * [Data Leakage]
+    * [Model Inversion]
+  * Automation
+    * Output Handling
+    * Overreliance
+    * Excessive Agency
+
+ ![]( {{site.assets}}/m/model_threat_analysis.png ){: width="100%"}
+
+ See also [M], [Adversarial Attack], [Adversarial Policy]
+
 
 # Model Tuning
 
@@ -1262,7 +1392,7 @@ def mse_loss(y_pred, y_true):
 
 # Multi-Agent Environment
 
- An [environment] where several agent can coexist?
+ An [environment] where several agent can coexist? a [Society Of Mind]
 
  See also [M], [Game Theory]
 
@@ -1292,7 +1422,6 @@ def mse_loss(y_pred, y_true):
 
 
 # Multi-Task Learning
-
 # MTL
 
  ~ `not enough data for individual algo --> reuse data from other similar algo` Train all parameters at the same time, but each of the task have shared parameters. One example is a spam-filter, which can be treated as distinct but related classification tasks across different users. To make this more concrete, consider that different people have different distributions of features which distinguish spam emails from legitimate ones, for example an English speaker may find that all emails in Russian are spam, not so for Russian speakers. Yet there is a definite commonality in this classification task across users, for example one common feature might be text related to money transfer. Solving each user's spam classification problem jointly via MTL can let the solutions inform each other and improve performance.
@@ -1380,10 +1509,11 @@ class MLP(nn.Module):
 
 
 # Multimodal Framework
-
 # MMF
 
- A rfameowkr build on top of Pytorch for language and vision models. Features include (1) modular, (2) distributed, (3) pre-trained multimodal transformer.
+ A frameowkr build on top of Pytorch for language and vision models. Features include (1) modular, (2) distributed, (3) pre-trained multimodal transformer.
+
+ See also [M], ...
 
 
 # Multimodal Fusion
@@ -1412,6 +1542,24 @@ AI that can understand the relationships between images, text and more
  See also [M], [Embedding Space], [Multimodal Distribution], [Multimodal Space], [Pathways Model Architecture]
 
 
+# Multimodal Model
+
+ Multimodal models go beyond traditional language models by incorporating various types of data, such as images, videos, audio, and more. They create joint embeddings that capture information from both text and visual inputs, enabling them to solve complex tasks that require a combination of visual and textual understanding.
+
+ Multimodal models enhance robotics by enabling robots to understand and interact with their environment more effectively. By integrating visual and textual inputs, robots can navigate complex environments, recognize objects, and respond to commands in a more human-like manner. This opens up new possibilities for applications in areas such as autonomous navigation and human-robot interaction.
+
+ See also [M], ...
+
+
+# Multinomial Naive Bayes Classifier
+
+ {% youtube "https://www.youtube.com/watch?v=O2L2Uv9pdDA" %}
+
+ {% youtube "https://www.youtube.com/watch?v=YbHbsaJhhKM" %}
+
+ See also [M], [Naive Bayes Theorem]
+
+
 # Multimodal Space
 
  A latent/embedded space where both modality have the same representation.
@@ -1424,15 +1572,6 @@ AI that can understand the relationships between images, text and more
  How to translate one mode to the other. Ex: captioning an image.
 
  See also [M], [BLIP Model]
-
-
-# Multinomial Naive Bayes Classifier
-
- {% youtube "https://www.youtube.com/watch?v=O2L2Uv9pdDA" %}
-
- {% youtube "https://www.youtube.com/watch?v=YbHbsaJhhKM" %}
-
- See also [M], [Naive Bayes Theorem]
 
 
 # Multiple Linear Regression

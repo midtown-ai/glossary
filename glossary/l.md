@@ -94,6 +94,9 @@ prompt = "Alice has a parrot. What animal is Alice's pet?"
 completion = llm(prompt)
  ```
 
+ ![]( {{site.assets}}/l/langchain_python_module_value_proposition.png ){: width="100%"}
+ ![]( {{site.assets}}/l/langchain_python_module_components.png ){: width="100%"}
+
  {% youtube "https://www.youtube.com/watch?v=nE2skSRWTTs" %}
 
  More at:
@@ -117,7 +120,6 @@ completion = llm(prompt)
 
 
 # Language Model for Discussion Applications Model 
-
 # LaMDA Model
 
  Built by [Google]
@@ -145,9 +147,26 @@ completion = llm(prompt)
 
  ~ figuring out which group of words go together (as “phrases”) and which words are the subject or object of a verb. The NLP parser separates a series of text into smaller pieces based on the grammar rules. If a sentence that cannot be parsed may have grammatical errors.
 
- See also [L], [NLP Benchmark]
+ See also [L], [Benchmark]
 
 
+# Large Language and Vision Assistant Model
+# LLaVa Model
+
+ An extension to the [LLaMA Model] to allow it to be multimodal or see.
+
+ Lava is a recently released multimodal model called Large Language and Vision Assistant. It can run multimodal tasks across both image and text inputs. Lava has shown promising performance in understanding and reasoning about images, generating HTML websites from wireframe sketches, and generating stories based on complex images. Its ability to process both visual and textual information sets it apart from traditional language models.
+
+ {% youtube "https://www.youtube.com/watch?v=RxBSmbdJ1I8" %}
+
+ More at:
+  * demo - [https://llava.hliu.cc/](https://llava.hliu.cc/)
+  * code - [https://github.com/haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA)
+  * project site - [https://llava-vl.github.io/](https://llava-vl.github.io/)
+
+ See also [L], ...
+
+ 
 # Large Language Model
 # LLM
 
@@ -167,6 +186,14 @@ completion = llm(prompt)
  {% youtube "https://www.youtube.com/watch?v=StLtMcsbQes" %}
 
  See also [L], [Language Modeling], [Model Compression], [Scaling Law]
+
+
+# Large Language Model Operations
+# LLMOps
+
+  * where you validate improvements over baseline
+
+ See also [L], ...
 
 
 # Large Language Model Self-Correction Reasoning
@@ -195,7 +222,6 @@ completion = llm(prompt)
 
 
 # Latent Diffusion Model
-
 # LDM
 
  ![]( {{site.assets}}/l/latent_diffusion_model.png ){: width="100%"}
@@ -314,6 +340,7 @@ completion = llm(prompt)
   * [self-supervised learning] - acquire knowledge and skills through experiences and interactions without external feedback or instruction
   * [contrastive learning] - learning based on similarities and differences
   * [adaptive learning] - learning adapted to the learner's level and what has not yet been understood
+  * [curriculum learning] - learning from simple to complex in order to learn faster and more efficiently.
 
  See also [L], [Machine Learning Type]
 
@@ -624,6 +651,20 @@ print regr.score(X_test, y_test)
 
  More at:
   * paper - [https://arxiv.org/abs/2303.16199](https://arxiv.org/abs/2303.16199)
+
+ See also [L], ...
+
+
+# Local Sensitive Hashing
+# LSH
+
+ ~ an algorithm used in [similarity search]
+
+ a set of methods that is used to reduce the search scope by transforming data vectors into hash values while preserving information about their similarity.
+
+ More at:
+  * [https://towardsdatascience.com/similarity-search-part-5-locality-sensitive-hashing-lsh-76ae4b388203](https://towardsdatascience.com/similarity-search-part-5-locality-sensitive-hashing-lsh-76ae4b388203)
+  * [https://srivatssan.medium.com/locality-sensitive-hashing-e70985c4e95d](https://srivatssan.medium.com/locality-sensitive-hashing-e70985c4e95d)
 
  See also [L], ...
 

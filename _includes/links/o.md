@@ -11,6 +11,8 @@
 [Offline Learning]: {{ site.baseurl }}{% link glossary/o.md %}#offline-learning
 [Offline Learning Algorithm]: {{ site.baseurl }}{% link glossary/o.md %}#offline-learning-algorithm
 [Offline Learning Algorithms]: {{ site.baseurl }}{% link glossary/o.md %}#offline-learning-algorithm
+[Olympus Model]: {{ site.baseurl }}{% link glossary/o.md %}#olympus-model
+[Olympus]: {{ site.baseurl }}{% link glossary/o.md %}#olympus-model
 [Omniverse]: {{ site.baseurl }}{% link glossary/o.md %}#omniverse
 [On-policy Learning]: {{ site.baseurl }}{% link glossary/o.md %}#on-policy-learning
 [On-policy Learning Algorithm]: {{ site.baseurl }}{% link glossary/o.md %}#on-policy-learning-algorithm

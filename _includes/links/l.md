@@ -17,6 +17,8 @@
 [Large Language Models]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model
 [LLM]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model
 [LLMs]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model
+[Large Language Model Operations]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-operations
+[LLMops]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-operations
 [Large Language Model Self-Correction Reasoning]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-self-correction-reasoning
 [LLM Self-Correction Reasoning]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-self-correction-reasoning
 [Lasso Regression]: {{ site.baseurl }}{% link glossary/l.md %}#lasso-regression
@@ -68,6 +70,8 @@
 [LLaMa 2]: {{ site.baseurl }}{% link glossary/l.md %}#llama-model
 [LLaMa-Adapter Model]: {{ site.baseurl }}{% link glossary/l.md %}#llama-adapter-model
 [LLaMa-Adapter]: {{ site.baseurl }}{% link glossary/l.md %}#llama-adapter-model
+[Local Sensitive Hashing]: {{ site.baseurl }}{% link glossary/l.md %}#local-sensitive-hashing
+[LSH]: {{ site.baseurl }}{% link glossary/l.md %}#local-sensitive-hashing
 [Log Loss Function]: {{ site.baseurl }}{% link glossary/l.md %}#log-loss-function
 [Log Transformation]: {{ site.baseurl }}{% link glossary/l.md %}#log-transformation
 [Logic Model]: {{ site.baseurl }}{% link glossary/l.md %}#logic-model

@@ -13,6 +13,9 @@
 [HMM]: {{site.baseurl }}{% link glossary/h.md %}#hidden-markov-model
 [Hidden State]: {{site.baseurl }}{% link glossary/h.md %}#hidden-state
 [Hindsight Experience Replay]: {{site.baseurl }}{% link glossary/h.md %}#hindsight-experience-replay
+[Hierarchical Navigable Small World Function]: {{site.baseurl }}{% link glossary/h.md %}#hierarchical-navigable-small-world-function
+[HNSW Function]: {{site.baseurl }}{% link glossary/h.md %}#hierarchical-navigable-small-world-function
+[HNSW]: {{site.baseurl }}{% link glossary/h.md %}#hierarchical-navigable-small-world-function
 [Hierarchical Reinforcement Learning]: {{site.baseurl }}{% link glossary/h.md %}#hierarchical-reinforcement-learning
 [Hierarchical RL]: {{site.baseurl }}{% link glossary/h.md %}#hierarchical-reinforcement-learning
 [Hinge Loss Function]: {{site.baseurl }}{% link glossary/h.md %}#hinge-loss-function

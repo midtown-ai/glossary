@@ -154,7 +154,6 @@ layout: page
 
 
 # Scale-Invariant Feature Transform
-
 # SIFT
 
  Inspired by the [neocognitron]
@@ -542,7 +541,7 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
 
  machine translation, information extraction, text summarization, question answering.
 
- See also [S], [NLP Benchmark]
+ See also [S], [Benchmark]
 
 
 # Semi-Supervised Learning
@@ -585,6 +584,8 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
 
  {% youtube "https://www.youtube.com/watch?v=NAihcvDGaP8" %}
 
+ {% pdf "{{site.assets}}/s/sentient_ai_post.pdf" %}
+
  More at:
   * [https://bdtechtalks.com/2023/02/20/llm-dissociating-language-and-thought/](https://bdtechtalks.com/2023/02/20/llm-dissociating-language-and-thought/)
   * [https://cajundiscordian.medium.com/is-lamda-sentient-an-interview-ea64d916d917](https://cajundiscordian.medium.com/is-lamda-sentient-an-interview-ea64d916d917)
@@ -598,7 +599,7 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
 
  Marketers collect social media posts about specific brands, conversation subjects, and keywords, then use NLP to analyze how users feel about each topic, individually and collectively. This helps the brands with customer research, image evaluation, and social dynamics detection.
 
- Archiectures
+ Architectures
   * [Natural Language ToolKit (NLTK)][NLTK]
   * [BERT Model]
   * [VADER Library]
@@ -606,12 +607,12 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
 
  More at:
   * [https://www.geeksforgeeks.org/twitter-sentiment-analysis-using-python/](https://www.geeksforgeeks.org/twitter-sentiment-analysis-using-python/)
+  * word sentiment weight - [https://observablehq.com/d/caaff7524e19d7ba](https://observablehq.com/d/caaff7524e19d7ba)
 
- See also [S], [Natural Language Processing], [NLP Benchmark]
+ See also [S], [Benchmark], [Natural Language Processing]
 
 
 # Sequence To Sequence Model
-
 # Seq2Seq Model
 
  = A [supervised learning] algorithm where the input is a sequence of tokens (for example, text, audio) and the output generated is another sequence of tokens. 
@@ -635,7 +636,6 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
 
 
 # Sequence To Sequence Transformer
-
 # Seq2Seq Transformer
 
  When you use the encoder and decoder of a transformer, you can do a sequence to sequence transformer!
@@ -649,13 +649,17 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
  The model in compact form, delivered to endpoint.
 
 
+# Shallow Neural Network
+
+ See also [S], ...
+
+
 # Shannon Entropy
 
  See [Entropy]
 
 
 # Shapley Additive Explanations
-
 # SHAP Value
 
  The Shapley Additive Explanations (SHAP) is another novel approach to [explainability][Explainable AI] developed by Scott Lundberg at [Microsoft] and eventually opened sourced.
@@ -740,17 +744,27 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
   * When the distance is small, the similarity is big
   * When the distance is big, the similarity is small
 
+
+ Functions
+  * [Euclidean Similarity]
+  * [Manhattan Distance]
+  * [Cosine Similarity]
+  * [Dot Product Similarity]
+  * [Scaled Dot Product Similarity]
+  * [Hadamard Product]
+
+ See also [S], [Encoder], [One-Shot Learning], [Siamese Network]
+
+
+# Similarity Search
+
  Algorithms:
   * [K-Nearest Neighbors] - good, but slow as I have to calculate as many distances as we have points in the dataset! (Ex: 8 words --> 8^2 distances)
   * [Inverted File Index (IVD)][IVD] - cluster, then search
-  * [Hierarchical Navigable Small Worlds (HNSW)][HNSW] - Start with fewer points, search there. Then add more and iterate
+  * [Hierarchical Navigable Small World (HNSW)][HNSW] - Start with fewer points, search there. Then add more and iterate
+  * [Local Sensitive Hashing (LSH)][LSH]
 
- Functions
-  * [Cosine Similarity]
-  * [Dot Product Similarity]
-  * [Euclidean Similarity]
-
- See also [S], [Encoder], [One-Shot Learning], [Siamese Network]
+ See also [S], ...
 
 
 # Simulated Policy Learning Algorithm
@@ -892,6 +906,36 @@ Social robots also work as concierges in hotels and other settings like malls, w
  See also [S], ...
 
 
+# Society Of Mind
+
+ So, AGI might look like a video game, with multiple AI agents working together like a well-oiled machine, each having different roles and reaching consensus after a hearty discussion. Here, you’ve got an office vibe with AI-powered workers divided into departments. They are given tasks, they brainstorm, debate, plan, code, test, document the results, and finally deliver a working product, be it a game, an app, or whatever.
+
+ {% youtube "https://www.youtube.com/watch?v=5Zj_zstLLP4" %}
+
+ {% pdf "https://arxiv.org/pdf/2307.07924.pdf" %}
+
+ More at:
+  * MetaGPT
+    * code - [https://github.com/geekan/MetaGPT](https://github.com/geekan/MetaGPT)
+    * paper - [https://arxiv.org/abs/2308.00352](https://arxiv.org/abs/2308.00352)
+    * video - [https://www.youtube.com/watch?v=uT75J_KG_aY](https://www.youtube.com/watch?v=uT75J_KG_aY)
+    * articles
+      * [https://www.unite.ai/metagpt-complete-guide-to-the-best-ai-agent-available-right-now/](https://www.unite.ai/metagpt-complete-guide-to-the-best-ai-agent-available-right-now/)
+  * ChatDev
+    * paper-with-code - [https://paperswithcode.com/paper/communicative-agents-for-software-development](https://paperswithcode.com/paper/communicative-agents-for-software-development)
+    * paper - [https://arxiv.org/abs/2307.07924](https://arxiv.org/abs/2307.07924)
+    * code - [https://github.com/OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev)
+    * articles
+      * [https://www.unite.ai/chatdev-communicative-agents-for-software-development/](https://www.unite.ai/chatdev-communicative-agents-for-software-development/)
+  * AgentVerse
+    * paper-with-code - [https://paperswithcode.com/paper/agentverse-facilitating-multi-agent](https://paperswithcode.com/paper/agentverse-facilitating-multi-agent)
+    * code - [https://github.com/OpenBMB/AgentVerse](https://github.com/OpenBMB/AgentVerse)
+    * paper - [https://arxiv.org/abs/2308.10848](https://arxiv.org/abs/2308.10848)
+    * huggingface - [https://huggingface.co/spaces/AgentVerse/agentVerse](https://huggingface.co/spaces/AgentVerse/agentVerse)
+
+ See also [S], ...
+
+
 # Soft Actor-Critic Algorithm
 # SAC Algorithm
 
@@ -964,6 +1008,12 @@ Social robots also work as concierges in hotels and other settings like malls, w
  See also [S], [Software 1.0]
 
 
+# Software Development Life Cycle
+# SDLC
+
+ See also [S], [DDLC], [MDLC]
+
+
 # Software Development Life Cycle Agent
 # SDLC Agent
 
@@ -994,6 +1044,12 @@ As a trader, I want to create an application that lets me customize and viualize
   * [https://en.wikipedia.org/wiki/Sophia_(robot)](https://en.wikipedia.org/wiki/Sophia_(robot)) 
 
  See also [S], [Robot]
+
+
+# Soul Machine Company
+
+ See also [S], ...
+
 
 # Sound Analysis
 
@@ -1143,7 +1199,7 @@ As a trader, I want to create an application that lets me customize and viualize
 
  A benchmark for NLP models for question answering.
 
- See also [S], [NLP Benchmark], [Question Answering]
+ See also [S], [Benchmark], [Question Answering]
 
 
 # Stability AI Company
@@ -1211,7 +1267,6 @@ As a trader, I want to create an application that lets me customize and viualize
 
 
 # Stanford Natural Language Inference
-
 # SNLI
 
  Natural Language Inference (NLI), also known as Recognizing Textual Entailment (RTE), is the task of determining the inference relation between two (short, ordered) texts: entailment, contradiction, or neutral.
@@ -1235,7 +1290,7 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
                                                                          neutral
  ```
 
- See also [S], [NLP Benchmark], [Stanford University]
+ See also [S], [Benchmark], [Stanford University]
 
 
 # Stanford University
@@ -1253,6 +1308,11 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
 
  * Collaboration
    * [MedAI Group Exchange](https://stanford-medai.github.io/)
+
+ * Assets
+   * Algorithms
+     * [GloVe] - vector representations for words
+   * Models
 
  See also [S], ...
 
@@ -1373,7 +1433,6 @@ In reinforcement learning, state transitions refer to how the environment change
 
 
 # Statistical Machine Translation
-
 # SMT
 
  A [Machine Translation] paradigm where translations are generated on the basis of statistical models.
@@ -1429,13 +1488,33 @@ II n summary, probability is focused on the theoretical study of random events, 
  See also [S], ...
 
 
+# Step-Back Prompting
+
+ A [prompt engineering] method which involves just adding one additional prompt to give the model the freedom to do some abstract thinking before addressing the primary question.
+
+ Step-Back Prompting is broken down into 2 steps
+
+  1. Abstraction: Rather than addressing the question head-on, we would first prompt the LLM to ask a more generic question about a high-level concept, still related to the main question
+  1. Reasoning: Using the first prompt and answer as a grounding mechanism, the LLM can now more accurately reason about a solution to the main question
+
+ For example if the main question was ‘What specific steps should I take to reduce my energy consumption at home?', the step-back question may be 'What are the general principles of energy conservation?'. Or, instead of diving straight into 'How do I fix the error in this specific line of code?', a step-back question may be 'What are the common causes of this type of error?'.
+
+ ![]( {{site.assets}}/s/step_back_prompting.png ){: width="100%}
+
+ {% pdf "https://arxiv.org/pdf/2310.06117.pdf" %}
+
+ More at:
+  * [https://www.prompthub.us/blog/a-step-forward-with-step-back-prompting](https://www.prompthub.us/blog/a-step-forward-with-step-back-prompting)
+
+ See also [S], ...
+
+
 # Stereo Vision
 
  See also [S], [Autonomous Vehicle]
 
 
 # Stochastic Gradient Descent Algorithm
-
 # SGD Algorithm
 
  An [optimization algorithm][optimizer] for the model parameters used to minimize the loss function.
@@ -1463,15 +1542,33 @@ II n summary, probability is focused on the theoretical study of random events, 
  SEe also [S], ...
 
 
-# Strong Artificial Intelligence
+# Stretch Robot
 
+ A robot dog developed by [Boston Dynamics]
+
+ {% youtube "https://www.youtube.com/watch?v=8WZoVJIV9V0" %}
+
+ More at:
+  * [https://www.bostondynamics.com/products/stretch/](https://www.bostondynamics.com/products/stretch/)
+
+ See also [S], ...
+
+
+# SQuAD Benchmark
+
+ A benchmark for NLP models for question answering.
+
+ See also [S], [Benchmark], [Question Answering]
+
+
+# Strong Artificial Intelligence
 # Strong AI
 
+ ~ [Artificial General Intelligence] or [AGI]
+
  Searle identified a philosophical position he calls "strong AI":
-   * The appropriately programmed computer with the right inputs and outputs would thereby have a mind in exactly the same sense human beings have minds.[b]
+  * The appropriately programmed computer with the right inputs and outputs would thereby have a mind in exactly the same sense human beings have minds.[b]
  The definition depends on the distinction between simulating a mind and actually having a mind. Searle writes that "according to Strong AI, the correct simulation really is a mind. According to Weak AI, the correct simulation is a model of the mind."
-
-
 
  More at:
   * [https://en.wikipedia.org/wiki/Chinese_room#Strong_AI](https://en.wikipedia.org/wiki/Chinese_room#Strong_AI)
@@ -1521,7 +1618,6 @@ II n summary, probability is focused on the theoretical study of random events, 
 
 
 # Super Resolution GAN
-
 # SRGAN
 
  The main purpose of this type of GAN is to make a low resolution picture into a more detailed picture. This is one of the most researched problems in Computer vision. The architecture of the SRGAN is given below
@@ -1544,7 +1640,7 @@ II n summary, probability is focused on the theoretical study of random events, 
  More at:
   * [https://super.gluebenchmark.com/](https://super.gluebenchmark.com/)
 
- See also [S], [GLUE Benchmark], [NLP Benchmark]
+ See also [S], [Benchmark], [GLUE Benchmark]
 
 
 # Supertranslate AI Company
@@ -1602,6 +1698,11 @@ II n summary, probability is focused on the theoretical study of random events, 
  See also [S], [Supervised Learning]
 
 
+# Supply Chain Vulnerability
+
+ See also [S], [Model Scanning], [Model Threat Analysis]
+
+
 # Support Vector
 
  Name of the type of points that are closed to the final SVM boundary and usd for the computation of the SMV boundary!
@@ -1610,7 +1711,6 @@ II n summary, probability is focused on the theoretical study of random events, 
 
 
 # Support Vector Machine
-
 # SVM
 
  `Find a linear/planar/x-D/hyperplane to use as a decision boundary in real, transformed, or latent space!` To find the boundary, only use the distance from the points/samples/support-vectors to the boundary and make sure it is as large/wide as possible to maximize the chance of success of the classification (i.e. minimize false positive). Mostly used for classification, but occasionally for regression.
@@ -1635,6 +1735,12 @@ II n summary, probability is focused on the theoretical study of random events, 
  Can be done in second or minute. X: hyperparameter configuration, Y= model quality, no gradient.
 
  See also [S], [HPO]
+
+
+# Swarm Artificial Intelligence
+# Swarm AI
+
+ See also [S], ...
 
 
 # Switch Transformer
@@ -1698,7 +1804,9 @@ II n summary, probability is focused on the theoretical study of random events, 
 
  Synthetic data is a tool that addresses many data challenges, particularly artificial intelligence and analytics issues such as privacy protection, regulatory compliance, accessibility, data scarcity, and bias, as well as data sharing and time to data (and therefore time to market).
 
- {% pdf "{{site.assets}}/s/synthetic_data_booklet.pdf" %}
+ {% pdf "{{site.assets}}/s/synthetic_data_mostly_ai.pdf" %}
+
+ {% pdf "{{site.assets}}/s/synthetic_data_datagen.pdf" %}
 
  More at:
   * Fair synthetic data generation - [https://mostly.ai/blog/diving-deep-into-fair-synthetic-data-generation-fairness-series-part-5](https://mostly.ai/blog/diving-deep-into-fair-synthetic-data-generation-fairness-series-part-5)

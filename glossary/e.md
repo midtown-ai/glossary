@@ -5,7 +5,7 @@ permalink: /e/
 #=== THEMES
 # = minima
 layout: page
-# = minimal mistake
+# = minima mistake
 # layout: archive-taxonomy
 # layout: archive
 # layout: categories
@@ -716,6 +716,100 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
  See also [E], [AI Bill Of Rights]
 
 
+# Evident AI Index
+
+ ~ A flagship publication by [Evident Insights]
+
+ {% pdf "{{site.assets}}/e/evident_ai_index_20231101.pdf" %}
+
+ More at:
+  * [https://www.evidentinsights.com/ai-index/](https://www.evidentinsights.com/ai-index/)
+
+ See also [E], ...
+
+
+# Evident AI Innovation Report
+
+ ~ A flagship publication by [Evident Insights]
+
+ In a time of rapid AI advancement, how are leading banks keeping up with the pace of AI innovation? And what are the secrets of their success?
+
+ This report covers the developments of in-house AI research teams; the pros and cons of patents; how leading banks are engaging with academia and the open source ecosystem; and addresses long-standing questions about when to 'build' and when to 'buy'.
+
+ {% pdf "{{site.assets}}/e/evident_ai_innovation_report_20231101.pdf" %}
+
+ More at:
+  * [https://www.evidentinsights.com/insights/](https://www.evidentinsights.com/insights/)
+
+ See also [E], ...
+
+
+# Evident AI Leadership Report
+
+ ~ A flagship publication by [Evident Insights]
+
+ Becoming an AI-first bank requires strong top-down leadership, strategic prioritisation, and clear and consistent messaging to various stakeholders.
+
+ This report examines the extent to which AI is positioned at the heart of a bank’s external narrative across mainstream media, press releases, social media, and investor relations. It further assesses where and how senior leadership is amplifying that message.
+
+ {% pdf "{{site.assets}}/e/evident_ai_leadership_report_20231101.pdf" %}
+
+ More at:
+  * [https://www.evidentinsights.com/insights/](https://www.evidentinsights.com/insights/)
+
+ See also [E], ...
+
+
+# Evident AI Outcomes Report
+
+ ~ A flagship publication by [Evident Insights]
+
+ As the race for AI adoption in banking intensifies, the Evident AI Outcomes Report examines how banks are setting themselves up to drive, and accelerate, value from AI.
+
+ It marks the first step towards benchmarking AI outcomes across the sector. Our ambition is to provide a common framework which will enable banks to evaluate and compare their AI outcomes vs peers.
+
+ {% pdf "{{site.assets}}/e/evident_ai_outcomes_report_20231101.pdf" %}
+
+ More at:
+  * [https://www.evidentinsights.com/insights/](https://www.evidentinsights.com/insights/)
+
+ See also [E], ...
+
+
+# Evident AI Talent Report
+
+ ~ A flagship publication by [Evident Insights]
+
+ Our biannual in-depth analysis of AI talent trends in the banking sector.
+
+ This report examines why talent is central to the coming AI transformation of the banking industry, what banks are doing to develop their talent, and where they stand in the race to recruit and retain the brightest minds working in AI today.
+
+ {% pdf "{{site.assets}}/e/evident_ai_talent_report_20231101.pdf" %}
+
+ More at:
+  * [https://www.evidentinsights.com/insights/](https://www.evidentinsights.com/insights/)
+
+ See also [E], ...
+
+
+# Evident Insights Company
+
+ Evident provides the most in-depth and up-to-date analysis of AI adoption across the banking sector. We map best practice and help banks to benchmark their progress against their peers.
+
+ Flagship publications:
+  * [Evident AI Index] - 
+  * [Evident AI Innovation Report] - research, patents, ventures, ecosystem
+  * [Evident AI Leadership Report] - coms, executive positioning, operating model, strategy
+  * [Evident AI Outcomes Report] - use cases, ROI, ideation, delivery
+  * [Evident AI Talent Report] - Acquisition, staffing, development, retention
+
+ More at:
+  * [https://www.evidentinsights.com/insights/](https://www.evidentinsights.com/insights/)
+  * twitter - [https://twitter.com/evident_hq](https://twitter.com/evident_hq)
+
+ See also [E], ...
+
+
 # Evolution Strategy
 # ES
 
@@ -738,6 +832,12 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
 
  More at:
   * ...
+
+ See also [E], ...
+
+
+# Evolutionary Artificial Intelligence
+# Evolutionary AI
 
  See also [E], ...
 
@@ -771,6 +871,43 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
 
  More at:
   * [https://en.wikipedia.org/wiki/Example-based_machine_translation](https://en.wikipedia.org/wiki/Example-based_machine_translation)
+
+ See also [E], ...
+
+
+# Executive Order on AI
+# EO on AI
+
+ Based on the [AI Bill Of Rights]
+
+ The Executive Order directs actions:
+  * New standards for AI safety
+  * Protecting Americans' privacy
+  * Advancing equity and civil rights
+  * Standing up for consumers, patients, and students
+  * Supporting workers
+  * Promoting innovation and competition
+  * Advancing American leadership abroad
+  * Ensuring responsible and effective government use of AI
+
+ ```
+Shape AI’s potential to transform education by creating resources to support educators deploying AI-enabled educational tools, such as personalized tutoring in schools.
+ ```
+
+ {% pdf "{{site.assets}}/e/executive_order_crs_report.pdf" %}
+
+ {% youtube "https://www.youtube.com/watch?v=Fj7jNoJo2Ho" %}
+
+ {% pdf "https://www.gov.ca.gov/wp-content/uploads/2023/09/AI-EO-No.12-_-GGN-Signed.pdf" %}
+
+ {% youtube "https://www.youtube.com/watch?v=YWGdof5e1Og" %}
+
+ More at:
+  * Sept 06 2023 - Office of Governor
+    * [https://www.gov.ca.gov/2023/09/06/governor-newsom-signs-executive-order-to-prepare-california-for-the-progress-of-artificial-intelligence/](https://www.gov.ca.gov/2023/09/06/governor-newsom-signs-executive-order-to-prepare-california-for-the-progress-of-artificial-intelligence/)
+  * Oct 30th 2023 - Federal Government
+    * Fact sheet - [https://www.whitehouse.gov/briefing-room/statements-releases/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence/](https://www.whitehouse.gov/briefing-room/statements-releases/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence/)
+    * EO - [https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/)
 
  See also [E], ...
 
@@ -832,7 +969,6 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
 
 # Experience Replay Buffer
 
-
  See also [E], ...
 
 
@@ -850,7 +986,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
 
 # Explainability
 
- How to explain the output of the AI
+ How to explain the output of the AI or the inner working of an AI model (Neural network)
 
  See also [E], ...
 
@@ -858,6 +994,9 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
 # Explainability Spectrum
 
  ![]( {{site.assets}}/e/explainability_spectrum.png ){: width="100%"}
+
+ More at:
+  * LLM can explain neurons - [https://openai.com/research/language-models-can-explain-neurons-in-language-models](https://openai.com/research/language-models-can-explain-neurons-in-language-models)
 
  See also [E], [Chain Of Thought Prompting]
 
@@ -946,7 +1085,6 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
 
 
 # Exploratory Data Analysis
-
 # EDA
 
  Exploratory Data Analysis (EDA) refers to the critical process of performing initial investigations on data to discover patterns, spot anomalies, test hypotheses and check assumptions. The key aspects of EDA include:
@@ -972,7 +1110,6 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
 
 
 # Exponential Linear Unit Activation Function
-
 # ELU Activation Function
 
  The ELU output for positive input is the input (identity). If the input is negative, the output curve is slightly smoothed towards the (minus) alpha constant (α). The higher the alpha constant, the more negative the output for negative inputs gets.
@@ -1054,6 +1191,62 @@ plt.show()
  More at:
   * [https://closeheat.com/blog/elu-activation-function](https://closeheat.com/blog/elu-activation-function)
   * pytorch docs - [https://pytorch.org/docs/master/generated/torch.nn.ELU.html](https://pytorch.org/docs/master/generated/torch.nn.ELU.html)
+
+ See also [E], ...
+
+
+# Exponential Technology
+
+ Includes
+  * Intelligence
+    * [Artificial General Intelligence]
+    * [Artificial Narrow Intelligence]
+    * [Artificial Super Intelligence]
+    * [Cognitive Computing]
+    * [Creative Machine]
+    * [Diffractive Neural Networks]
+    * [DNA Neural Networks]
+    * [Evolutionary Artificial Intelligence]
+    * [Explainable Artificial Intelligence]
+    * [Federated Artificial Intelligence]
+    * [Machine Vision]
+    * [Meta Artificial Intelligence]
+    * [Natural Language Processing]
+    * [Open Ended AI]
+    * [Quantum Artificial Intelligence]
+    * [Quantum Language Processing]
+    * [Shallow Neural Networks]
+    * [Simulation Engines]
+    * [Swarm Artificial Intelligence]
+  * Robotics
+    * [Androids]
+    * [Bio-Hybrid Robots]
+    * [Cyborgs]
+    * [DNA Robots]
+    * [Drones]
+    * [Evolutionary Robotics]
+    * [Exo-Suits]
+    * [General Purpose Robots]
+    * [Inflatable Robots]
+    * [Living Robots]
+    * [Molecular Robots]
+    * [Nano-Machines]
+    * [Neurobiotics]
+    * [Robots]
+    * [Shape Shifting Robots]
+    * [Soft Robots]
+    * [Swarm robots]
+    * [Syncell Robots]
+  * User Interfaces
+    * [AI Symbiosis]
+
+
+ {% youtube "https://www.youtube.com/watch?v=8UT2pha7HO8" %}
+
+ {% pdf "https://www.311institute.com/codexes/311%20Institute%20-%20The%20Future%20of%20Exponential%20Technology.pdf" %}
+
+ More at:
+  * [https://www.311institute.com/fanaticalfuturist-codex-of-the-future/](https://www.311institute.com/fanaticalfuturist-codex-of-the-future/)
 
  See also [E], ...
 

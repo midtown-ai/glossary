@@ -39,6 +39,10 @@ layout: page
  See also [A], ...
 
 
+# Ablation
+
+ * [https://developers.google.com/machine-learning/glossary#ablation](https://developers.google.com/machine-learning/glossary#ablation)
+
 # Accuracy
 
  A metric used for [model evaluation] that measures the number of correct predictions made by the model over all kinds of predictions. Useful for classification tasks like sentiment analysis.
@@ -460,7 +464,7 @@ One obvious way to mitigate that problem is to choose different learning rate fo
  See also [A], ...
 
 
-# Agent
+# AI Agent
 
  A person, an animal, or a program that is free to make a decision or take an action. An agent has a purpose and a goal.
 
@@ -468,6 +472,8 @@ One obvious way to mitigate that problem is to choose different learning rate fo
   * [Reinforcement Learning (RL) agent][RL Agent] whose goal is to maximize a total reward
   * LLM agent such as [SDLC Agent]
   * ...
+
+ ![]( {{site.assets}}/a/ai_agent.png){: width="100%" }
 
  More at:
   * ...
@@ -521,6 +527,11 @@ One obvious way to mitigate that problem is to choose different learning rate fo
  See also [A], [AI Movie]
 
 
+# AI Assistant
+
+ See also [A], [GAIA Benchmark]
+
+
 # AI Avatar
 
 Also developed by [Synthesia]
@@ -547,7 +558,7 @@ Also developed by [Synthesia]
 
 # AI Bill of Rights
 
- ~ American version of the [EU AI Act] ?
+ ~ American version of the [EU AI Act] ? Led to the [Executive Order on AI]
 
  In October, the White House released a 70-plus-page document called the “Blueprint for an A.I. Bill of Rights.” The document’s ambition was sweeping. It called for the right for individuals to “opt out” from automated systems in favor of human ones, the right to a clear explanation as to why a given A.I. system made the decision it did, and the right for the public to give input on how A.I. systems are developed and deployed.
 
@@ -778,6 +789,24 @@ A risk of [AGI]
  See also [A], [AI Bill Of Rights]
 
 
+# AI Quote
+
+ ```
+Let's be safe, responsible, and secure
+
+Data < Information and signal < Knowledge < Wisdom
+
+AI won’t replace you, a human using AI will.
+
+Bring the AI tool to the data
+Data is the currency of AI
+
+Better data beat the model always
+ ```
+
+ See also [A], ...
+
+
 # AI Research
 
  Publications
@@ -836,7 +865,7 @@ A risk of [AGI]
     * [https://arxiv.org/abs/2202.07785](https://arxiv.org/abs/2202.07785)
   * [https://www.linkedin.com/pulse/unpacking-ai-risks-closer-look-deepminds-evaluation-des-w-woodruff/](https://www.linkedin.com/pulse/unpacking-ai-risks-closer-look-deepminds-evaluation-des-w-woodruff/)
 
- See also [A], ...
+ See also [A], [Generative AI Risk]
 
 
 # AI Safety
@@ -1354,6 +1383,8 @@ print(predict(dataset, model, text='Knock knock. Whos there?'))
 # Artificial General Intelligence
 # AGI
 
+ ~ [Strong AI]
+
  AGI is the idealised solution many conceive when thinking about AI. While researchers work on the narrow and superficial, they talk about AGI, which represents the single story of AI, dating back to the 1950s, with a revival in the past decade. AGI implies two things about a solution that should not apply to business-centric problem-solving. First, a program has the general aptitude for human intelligence (perhaps all human intelligence). Second, an AGI is a general problem solver or a blank slate meaning any knowledge of a problem is rhetorical and independent of a strategy to solve that problem. Instead, the knowledge depends on some vague, ill-defined aptitude relating to the multidimensional structure of natural intelligence. If that sounds ostentatious, it’s because it is. Examples:
   * RL can solve arbitrary problems within these environments
 
@@ -1492,6 +1523,8 @@ First, we believe the clearest framing of general intelligence is a system that 
 # Artificial Narrow Intelligence
 # ANI
 
+ ~ [weak AI]
+
  ANI is often conflated with weak artificial intelligence. John Searle, philosopher and professor at the University of California, explained in his seminal 1980 paper, “Minds, Brains, and Programs,” that weak artificial intelligence would be any solution that is both narrow and a superficial look-alike to intelligence. Searle explains that such research would be helpful in testing hypotheses about segments of minds but would not be minds.[3] ANI reduces this by half and allows researchers to focus on the narrow and superficial and ignore hypotheses about minds. In other words, ANI purges intelligence and minds and makes artificial intelligence “possible” without doing anything. After all, everything is narrow, and if you squint hard enough, anything is a superficial look-alike to intelligence.
 
  {% pdf "{{site.assets}}/a/artificial_narrow_intelligence_paper.pdf" %}
@@ -1558,7 +1591,7 @@ First, we believe the clearest framing of general intelligence is a system that 
 # Artificial Super Intelligence
 # ASI
 
- ASI is a by-product of accomplishing the goal of AGI. A commonly held belief is that general intelligence will trigger an “intelligence explosion” that will rapidly trigger super-intelligence. It is thought that ASI is “possible” due to recursive self-improvement, the limits of which are bounded only by a program’s mindless imagination. ASI accelerates to meet and quickly surpass the collective intelligence of all humankind. The only problem for ASI is that there are no more problems. When ASI solves one problem, it also demands another with the momentum of Newton’s Cradle. An acceleration of this sort will ask itself what is next ad infinitum until the laws of physics or theoretical computation set in. The University of Oxford scholar Nick Bostrom claims we have achieved ASI when machines have more intelligent than the best humans in every field, including scientific creativity, general wisdom, and social skills. Bostrom’s depiction of ASI has religious significance. Like their religious counterparts, believers of ASI even predict specific dates when the Second Coming will reveal our savior. Oddly, Bostrom can’t explain how to create artificial intelligence. His argument is regressive and depends upon itself for its explanation. What will create ASI? Well, AGI. Who will create AGI? Someone else, of course. AI categories suggest a false continuum at the end of which is ASI, and no one seems particularly thwarted by their ignorance. However, fanaticism is a doubtful innovation process.
+ ASI is a by-product of accomplishing the goal of [AGI]. A commonly held belief is that general intelligence will trigger an “intelligence explosion” that will rapidly trigger super-intelligence. It is thought that ASI is “possible” due to recursive self-improvement, the limits of which are bounded only by a program’s mindless imagination. ASI accelerates to meet and quickly surpass the collective intelligence of all humankind. The only problem for ASI is that there are no more problems. When ASI solves one problem, it also demands another with the momentum of Newton’s Cradle. An acceleration of this sort will ask itself what is next ad infinitum until the laws of physics or theoretical computation set in. The University of Oxford scholar Nick Bostrom claims we have achieved ASI when machines have more intelligent than the best humans in every field, including scientific creativity, general wisdom, and social skills. Bostrom’s depiction of ASI has religious significance. Like their religious counterparts, believers of ASI even predict specific dates when the Second Coming will reveal our savior. Oddly, Bostrom can’t explain how to create artificial intelligence. His argument is regressive and depends upon itself for its explanation. What will create ASI? Well, AGI. Who will create AGI? Someone else, of course. AI categories suggest a false continuum at the end of which is ASI, and no one seems particularly thwarted by their ignorance. However, fanaticism is a doubtful innovation process.
 
  See also [A], [Artificial General Intelligence], [Artificial Narrow Intelligence]
 
@@ -1928,6 +1961,8 @@ ____ at the sign, you will get a ticket (backward prediction)
   * DeepRacer races and leagues are held at AWS events and summits as a fun way to showcase reinforcement learning applications.
 
  So in summary, it provides a hands-on platform for developers to learn reinforcement learning at scale using AWS services. The combination of virtual training and physical track racing makes it unique.
+
+ ![]( {{site.assets}}/a/aws_deepracer_secret_sauce.png){: width="100%"}
 
  ![]( {{site.assets}}/a/aws_deepracer_log_guru_track.png){: width="100%"}
 

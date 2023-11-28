@@ -14,14 +14,24 @@
 [Gaussian Naive Bayes Classifier]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-naive-bayes-classifier
 [Gaussian Process]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-process
 [Gen Model]: {{ site.baseurl }}{% link glossary/g.md %}#gen-model
+[General Artificial Intelligence Assistant Benchmark]: {{ site.baseurl }}{% link glossary/g.md %}#general-artificial-intelligence-assistant-benchmark
+[GAIA Benchmark]: {{ site.baseurl }}{% link glossary/g.md %}#general-artificial-intelligence-assistant-benchmark
+[GAIA]: {{ site.baseurl }}{% link glossary/g.md %}#general-artificial-intelligence-assistant-benchmark
 [General Language Understanding Evaluation Benchmark]: {{ site.baseurl }}{% link glossary/g.md %}#general-language-understanding-evaluation-benchmark
 [GLUE Benchmark]: {{ site.baseurl }}{% link glossary/g.md %}#general-language-understanding-evaluation-benchmark
+[GLUE]: {{ site.baseurl }}{% link glossary/g.md %}#general-language-understanding-evaluation-benchmark
 [Generalized Additive 2 Model]: {{ site.baseurl }}{% link glossary/g.md %}#generalized-additive-2-model
 [GA2M]: {{ site.baseurl }}{% link glossary/g.md %}#generalized-additive-2-model
 [Generalized Additive Model]: {{ site.baseurl }}{% link glossary/g.md %}#generalized-additive-model
 [GAM]: {{ site.baseurl }}{% link glossary/g.md %}#generalized-additive-model
 [Generative Adversarial Network]: {{ site.baseurl }}{% link glossary/g.md %}#generative-adversarial-network
 [GAN]: {{ site.baseurl }}{% link glossary/g.md %}#generative-adversarial-network
+[Generative Artificial Intelligence]: {{ site.baseurl }}{% link glossary/g.md %}#generative-artificial-intelligence
+[Generative AI]: {{ site.baseurl }}{% link glossary/g.md %}#generative-artificial-intelligence
+[GenAI]: {{ site.baseurl }}{% link glossary/g.md %}#generative-artificial-intelligence
+[Generative Artificial Intelligence Risk]: {{ site.baseurl }}{% link glossary/g.md %}#generative-artificial-intelligence-risk
+[Generative AI Risk]: {{ site.baseurl }}{% link glossary/g.md %}#generative-artificial-intelligence-risk
+[GenAI Risk]: {{ site.baseurl }}{% link glossary/g.md %}#generative-artificial-intelligence-risk
 [Generative Classifier]: {{ site.baseurl }}{% link glossary/g.md %}#generative-classifier
 [Generative Design]: {{ site.baseurl }}{% link glossary/g.md %}#generative-design
 [Generative Model]: {{ site.baseurl }}{% link glossary/g.md %}#generative-model
@@ -29,8 +39,10 @@
 [Generative Pre-Trained Transformer Model]: {{ site.baseurl }}{% link glossary/g.md %}#generative-pre-trained-transformer-model
 [GPT Model]: {{ site.baseurl }}{% link glossary/g.md %}#generative-pre-trained-transformer-model
 [GPT Models]: {{ site.baseurl }}{% link glossary/g.md %}#generative-pre-trained-transformer-model
-[GPT-3]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-3
-[GPT-4]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-4
+[GPT-3 Model]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-3-model
+[GPT-3]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-3-model
+[GPT-4 Model]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-4-model
+[GPT-4]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-4-model
 [Generator]: {{ site.baseurl }}{% link glossary/g.md %}#generator
 [Generator Loss]: {{ site.baseurl }}{% link glossary/g.md %}#generator-loss
 [Genetic Programming]: {{ site.baseurl }}{% link glossary/g.md %}#genetic-programming
@@ -41,7 +53,10 @@
 [GitHub]: {{ site.baseurl }}{% link glossary/g.md %}#github-company
 [GitHub Copilot]: {{ site.baseurl }}{% link glossary/g.md %}#github-copilot
 [GLIDE Model]: {{ site.baseurl }}{% link glossary/g.md %}#glide-model
-[GloVe]: {{ site.baseurl }}{% link glossary/g.md %}#glove
+[GLIDE]: {{ site.baseurl }}{% link glossary/g.md %}#glide-model
+[Global Vector Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#global-vector-algorithm
+[GloVe Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#global-vector-algorithm
+[GloVe]: {{ site.baseurl }}{% link glossary/g.md %}#global-vector-algorithm
 [Gluon]: {{ site.baseurl }}{% link glossary/g.md %}#gluon
 [Goal-Conditioned Reinforcement Learning]: {{ site.baseurl }}{% link glossary/g.md %}#goal-conditioned-reinforcement-learning
 [Goal-Conditioned RL]: {{ site.baseurl }}{% link glossary/g.md %}#goal-conditioned-reinforcement-learning
@@ -71,6 +86,8 @@
 [Gradient Perturbation]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-perturbation
 [Gradio Python Module]: {{ site.baseurl }}{% link glossary/g.md %}#gradio-python-module
 [Gradio]: {{ site.baseurl }}{% link glossary/g.md %}#gradio-python-module
+[Graph]: {{ site.baseurl }}{% link glossary/g.md %}#graph
+[Graph Classification]: {{ site.baseurl }}{% link glossary/g.md %}#graph-classification
 [Graph Convolutional Network]: {{ site.baseurl }}{% link glossary/g.md %}#graph-convolutinoal-network
 [Graph Convolutional Networks]: {{ site.baseurl }}{% link glossary/g.md %}#graph-convolutinoal-network
 [GCN]: {{ site.baseurl }}{% link glossary/g.md %}#graph-convolutinoal-network
@@ -97,5 +114,7 @@
 [Greg Brockman Person]: {{ site.baseurl }}{% link glossary/g.md %}#greg-brockman-person
 [Greg Brockman]: {{ site.baseurl }}{% link glossary/g.md %}#greg-brockman-person
 [Grid Search]: {{ site.baseurl }}{% link glossary/g.md %}#grid-search
+[Grok Model]: {{ site.baseurl }}{% link glossary/g.md %}#grok-model
+[Grok]: {{ site.baseurl }}{% link glossary/g.md %}#grok-model
 [Ground Truth]: {{ site.baseurl }}{% link glossary/g.md %}#ground-truth
 [Gshard Model]: {{ site.baseurl }}{% link glossary/g.md %}#gshard-model

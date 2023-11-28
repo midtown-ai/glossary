@@ -190,8 +190,12 @@ Loss = converged_Q-Value - optimum_Q-value          <== but do we know converged
  See also [Q], [Quantized Signal]
 
 
-# Question Answering
+# Quantum Artificial Intelligence
+# Quantum AI
 
+ See also [Q], ...
+
+# Question Answering
 # QA
 
  The Stanford Question Answering Dataset (SQuAD) v1.1 is a collection of 100k crowdsourced question/answer pairs. Given a question and a passage from Wikipedia containing the answer, the task is to predict that answer text span in the passage. SQuAD v2.0 extends SQuAD v1.1 prolem definition by allowing for the possibility that no short answer exists in the provided paragraph, making the problem more realistic.

@@ -275,7 +275,6 @@ vector(‘king’) + vector(‘woman’) — vector(‘man’) ~ vector(‘queen
 
 
 # Word Error Rate Metric
-
 # WER Metric
 
  ~ a common metric of the performance of an [automatic speech recognition] or [machine translation] system.
@@ -289,7 +288,7 @@ vector(‘king’) + vector(‘woman’) — vector(‘man’) ~ vector(‘queen
  More at:
   * wikipedia - [https://en.wikipedia.org/wiki/Word_error_rate](https://en.wikipedia.org/wiki/Word_error_rate)
 
- See also [W], [BLEU Metric], [ROUGE Metric]
+ See also [W], [BLEU Score], [ROUGE Score]
 
 
 # Word2Vec Model

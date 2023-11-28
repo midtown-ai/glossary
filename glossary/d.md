@@ -34,10 +34,13 @@ layout: page
  A play on words between WALL-E and Dali!
 
  More at :
-  * open-ai announcement - [https://openai.com/dall-e-2/](https://openai.com/dall-e-2/)
-  * site + paper - [https://openai.com/blog/dall-e/](https://openai.com/blog/dall-e/)
-  * how does DALL-E work? - [https://www.assemblyai.com/blog/how-dall-e-2-actually-works/](https://www.assemblyai.com/blog/how-dall-e-2-actually-works/)
-  * DALL-E 2 uses CLIP - [https://arxiv.org/abs/2204.06125](https://arxiv.org/abs/2204.06125)
+  * DALL-E 2
+    * open-ai announcement - [https://openai.com/dall-e-2/](https://openai.com/dall-e-2/)
+    * site + paper - [https://openai.com/blog/dall-e/](https://openai.com/blog/dall-e/)
+    * how does DALL-E work? - [https://www.assemblyai.com/blog/how-dall-e-2-actually-works/](https://www.assemblyai.com/blog/how-dall-e-2-actually-works/)
+    * DALL-E 2 uses CLIP - [https://arxiv.org/abs/2204.06125](https://arxiv.org/abs/2204.06125)
+  * DALL-E 3
+    * site - [https://openai.com/research/dall-e-3-system-card](https://openai.com/research/dall-e-3-system-card)
 
  See also [D], [CLIP Model], [GLIDE Model]
 
@@ -204,9 +207,38 @@ layout: page
  See also [D], ...
 
 
+# Data Development Lifecycle
+# DDLC
+
+ Develop the data first , but still protected
+
+ Currently data is the exhaust of other processes that are not concerned with sharing clean data.
+
+ See also [D], ...
+
+
+# Data Federation
+
+ The opposite of a centralized data management, data warehouse.
+
+ Pros:
+  * Autonomy leads to full control
+
+ Cons:
+  * difficult to have a firmwide initiative
+  * possibly not a single version of truth, duplication of data
+
+ See also [D], [Data Management]
+
+
 # Data Handling
 
  See also [D], [Hyperparameter]
+
+
+# Data Lake
+
+ See also [D], ...
 
 
 # Data Leakage
@@ -220,6 +252,23 @@ layout: page
 
  More at:
    * [https://docs.google.com/presentation/d/1WrkeJ9-CjuotTXoa4ZZlB3UPBXpxe4B3FMs9R9tn34I/edit#slide=id.g164b1bac824_0_2980](https://docs.google.com/presentation/d/1WrkeJ9-CjuotTXoa4ZZlB3UPBXpxe4B3FMs9R9tn34I/edit#slide=id.g164b1bac824_0_2980)
+
+ See also [D], [Model Threat Analysis]
+
+
+# Data Management
+
+ * [Data Federation]
+ * [Data Mesh]
+ * [Data Lake]
+ * [Data Warehouse]
+
+ See also [D], ...
+
+
+# Data Mesh
+
+ See also [D], ...
 
 
 # Data Point
@@ -307,7 +356,33 @@ layout: page
  See also [D], ...
 
 
-# Data2Vec
+# Data Warehouse
+
+ Used to centralize the data in an organization
+
+ See also [D], ...
+
+
+# Data-Centric AI
+
+ Data-centric AI is the discipline of systematically engineering the data used to build an AI system. The opposite of [model-centric AI]
+
+ {% youtube "https://www.youtube.com/watch?v=SjzruCZudJw" %}
+
+ {% youtube "https://www.youtube.com/watch?v=ayzOzZGHZy4" %}
+
+ Questions:
+  * How to find errors automatically?
+
+ More at:
+  * [https://datacentricai.org/](https://datacentricai.org/)
+  * CSAIL class - [https://dcai.csail.mit.edu/lectures/data-centric-model-centric/](https://dcai.csail.mit.edu/lectures/data-centric-model-centric/)
+  * errors in open-source datasets - [https://labelerrors.com/](https://labelerrors.com/)
+
+ See also [D], ...
+
+
+# Data2Vec Algorithm
 
  A General Framework for Self-supervised Learning in Speech, Vision and Language. While the general idea of self-supervised learning is identical across modalities, the actual algorithms and objectives differ widely because they were developed with a single modality in mind. To get us closer to general self-supervised learning, we present data2vec, a framework that uses the same learning method for either speech, NLP or computer vision. The core idea is to predict latent representations of the full input data based on a masked view of the input in a self-distillation setup using a standard Transformer architecture. Instead of predicting modality-specific targets such as words, visual tokens or units of human speech which are local in nature, data2vec predicts contextualized latent representations that contain information from the entire input. Experiments on the major benchmarks of speech recognition, image classification, and natural language understanding demonstrate a new state of the art or competitive performance to predominant approaches.
 
@@ -902,6 +977,27 @@ We need to do this for
  See also [D], [Gradient Perturbation], [Membership Inference Attack], [Output Perturbation]
 
 
+# Diffractive Neural Network
+# DNN
+
+ DIFFRACTIVE NEURAL NETWORKS, which are in the early Prototype Stage, is the field of research concerned with creating the world's first physical passive neural networks by 3D Printing them, rather than programming them, and using light waves, not electrons, to perform machine learning tasks, such as image analysis, feature detection and object classification, at the speed of light without the need to rely on any external compute or power source. Recently there have been a couple of interesting breakthroughs in the space, in the automated production of these types of neural networks, and their low cost, and ease of deployment, which makes them potentially a very interesting twist on a popular technology.
+
+ DEFINITION 
+ * Diffractive Neural Networks is a form of physical Artificial Intelligence that is printed and encoded into physical objects rather than being manifested in machine code.
+
+ EXAMPLE USE CASES
+ * Today the first prototype Diffractive Neural Networks are being used in image detection, image analysis, and object classification to test the theory and refine the technology. In the future the primary use case of the technology will be passive neural network applications where speed is useful or important.
+
+ FUTURE TRAJECTORY AND REPLACABILITY
+ * Over the next decade interest in the field will continue to
+accelerate, and interest and investment will continue to grow, albeit from a very low base, primarily led by university grants. In time the technology will continue to be refined and proven with researchers looking into new ways to produce and manufacture these kinds of networks automatically and at
+speed.
+
+ * While Diffractive Neural Networks are in the early Prototype Stage, over the long term it will be enhanced by advances in 3D Printing and Nano-Manufacturing, but at this point in time it is not clear what it will be replaced by.
+
+ See also [D], ...
+
+
 # Diffusion Model
 # DM
 
@@ -1119,6 +1215,11 @@ We need to do this for
 # Distributional RL
 
  In [RL], Learn value distribution rather than just mean. Improves extrapolation.
+
+ See also [D], ...
+
+
+# DNA Neural Network
 
  See also [D], ...
 

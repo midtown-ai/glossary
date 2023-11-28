@@ -29,6 +29,16 @@ layout: page
 {% include links/all.md %}
 
 
+# xAI Company
+
+ An AI [company] behind the [Grok] model and the [PromptIDE]
+
+ More at:
+  * site - [https://x.ai/](https://x.ai/)
+
+ See also [X], ...
+
+
 # Yann LeCun Person
 
  {% youtube "https://www.youtube.com/watch?v=bub58oYJTm0" %}
@@ -43,7 +53,6 @@ layout: page
 
 
 # You Only Look Once Model
-
 # YOLO  Model
 
  For [Image Detection], [Image Segmentation], [Object Detection], [Pose Estimation], ...
@@ -145,3 +154,12 @@ Neutral
  Zero-shot task transfer is a setting in which the model is presented with few to no examples and asked to understand the task based on the examples and an instruction. Few-, one-, and zero-shot settings are specialized cases of zero-shot task transfer. In a few-shot setting, the model is provided with a task description and as many examples as fit into the context window of the model. In a one-shot setting, the model is provided with exactly one example and, in a zero-shot setting, with no example.
 
  See also [Z], [Few-shot Learning], [One-Shot Learning], [Zero-Shot Learning]
+
+
+# Ziro Studio
+
+ More at:
+  * docs - [https://zeroui.gitbook.io/ziro-studio](https://zeroui.gitbook.io/ziro-studio)
+  * UI - [https://zirostudio.com/project-info?id=9UH5mwM6X3BdEdS](https://zirostudio.com/project-info?id=9UH5mwM6X3BdEdS)
+  * tutorials - [https://zirostudio.com/learn](https://zirostudio.com/learn)
+  * overview by Nidhi - [https://www.youtube.com/watch?v=yKTtGklyexQ&t=15335s](https://www.youtube.com/watch?v=yKTtGklyexQ&t=15335s)

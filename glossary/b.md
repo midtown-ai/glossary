@@ -318,6 +318,11 @@ P(A|B) = ----------------
  See also [B], [Hyperparameter Optimization]
 
 
+# Beam Search
+
+ See also [B], ...
+
+
 # Behavioural Cloning
 
  ~ Trying to duplicate the behavior of an expect. Early approaches to imitation learning seek to learn a policy as a machine learning model that maps environment observations to (optimal) actions taken by the expert using supervised learning. The method is called Behavioral Cloning (BC), but it has a drawback: BC has loose, or no, guarantees that the model will generalize to unseen environmental observations. A key issue is that when the agent ends up in an situation that is unlike any of the expert trajectories, BC is prone to failures.
@@ -426,7 +431,24 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
 # Benchmark
 
-  See also [B], [NLP Benchmark]
+
+
+  * [General AI Assitant (GAIA)][GAIA]
+
+ NLP Benchmarks:
+  * Coref :  Links pronouns to antecedents. Also capable to take the perspective of a speak, e.g. I, you, my sister, etc refers to different people function of who said it.
+  * [GLUE Benchmark] :
+  * [Named Entity Recognition (NER)][NER] - identify places, people, dates, etc
+  * Language Parser : Identitfy which group of words go together (as phrase) and which words are the subject or object of a verb.
+  * SNLI : relation between 2 statements (contradict, neutral, or entailment)
+  * [SQuAD Benchmark] : Question and answering
+  * [SuperGLUE Benchmark] :
+  * SRL : Semantic understanding (machine translation, information extraction, text summarization, question answering)
+  * SST-5 : Sentiment analysis - https://paperswithcode.com/sota/sentiment-analysis-on-sst-5-fine-grained
+
+  All of those are included in the [HELM Benchmark]
+
+ See also [N], [Coreference], [Entity Extraction], [Language Parsing], [Model Benchmark], [Question Answering], [Semantic Understanding], [Sentiment Analysis], [SNLI]
 
 
 # Berkeley University
@@ -588,9 +610,8 @@ Your belief has shifted towards more red marbles based on the observed data. The
  See also [B], [Deep Learning], [Machine Learning], [MapReduce Process]
 
 
-# Bilingual Evaluation Understudy Metric
-
-# BLEU Metric
+# Bilingual Evaluation Understudy Score
+# BLEU Score
 
  This is an algorithm for evaluating the quality of text which has been [machine-translated][machine translation] from one natural language to another. Quality is considered to be the correspondence between a machine's output and that of a human: "the closer a machine translation is to a professional human translation, the better it is" – this is the central idea behind BLEU.
 
@@ -600,14 +621,14 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
  In general:
   * BLEU focuses on precision: how much the words (and/or n-grams) in the candidate model outputs appear in the human reference.
-  * ROUGE focuses on recall: how much the words (and/or n-grams) in the human references appear in the candidate model outputs.
+  * [ROUGE] focuses on recall: how much the words (and/or n-grams) in the human references appear in the candidate model outputs.
 
  These results are complementing, as is often the case in the precision-recall tradeoff.
 
  More at:
   * [https://medium.com/nlplanet/two-minutes-nlp-learn-the-bleu-metric-by-examples-df015ca73a86](https://medium.com/nlplanet/two-minutes-nlp-learn-the-bleu-metric-by-examples-df015ca73a86)
 
- See also [B], [NLP Metric]
+ See also [B], [NLP Score]
 
 
 # Bill Gates Person
@@ -741,9 +762,14 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
 # Boston Dynamics Company
 
- Boston Dynamics is an American engineering and robotics design company founded in 1992 as a spin-off from the Massachusetts Institute of Technology. Headquartered in Waltham, Massachusetts, Boston Dynamics has been owned by the Hyundai Motor Group since December 2020, but having only completed the acquisition in June 2021.
+ Boston Dynamics is an American engineering and robotics design [company] founded in 1992 as a spin-off from the Massachusetts Institute of Technology. Headquartered in Waltham, Massachusetts, Boston Dynamics has been owned by the Hyundai Motor Group since December 2020, but having only completed the acquisition in June 2021.
 
  Boston Dynamics develops of a series of dynamic highly-mobile robots, including BigDog, Spot, Atlas, and Handle. Since 2019, Spot has been made commercially available, making it the first commercially available robot from Boston Dynamics, while the company has stated its intent to commercialize other robots as well, including Handle.
+
+ Robots:
+  * [Atlas]
+  * [Spot]
+  * [Stretch]
 
  {% youtube "https://www.youtube.com/watch?v=L9U3B8wnM7w" %}
 
@@ -752,7 +778,7 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
   * [https://www.youtube.com/@BostonDynamics](https://www.youtube.com/@BostonDynamics)
   * [https://en.wikipedia.org/wiki/Boston_Dynamics](https://en.wikipedia.org/wiki/Boston_Dynamics)
 
- See also [B], [Atlas Robot], [Company]
+ See also [B], ...
 
 
 # Box Cox Transformation

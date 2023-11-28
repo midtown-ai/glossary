@@ -13,8 +13,14 @@
 [Data Augmentation]: {{ site.baseurl }}{% link glossary/d.md %}#data-augmentation
 [Data Cleaning]: {{ site.baseurl }}{% link glossary/d.md %}#data-cleaning
 [Data Collection]: {{ site.baseurl }}{% link glossary/d.md %}#data-collection
+[Data Development Lifecycle]: {{ site.baseurl }}{% link glossary/d.md %}#data-development-lifecycle
+[DDLC]: {{ site.baseurl }}{% link glossary/d.md %}#data-development-lifecycle
+[Data Federation]: {{ site.baseurl }}{% link glossary/d.md %}#data-federation
 [Data Handling]: {{ site.baseurl }}{% link glossary/d.md %}#data-handling
+[Data Lake]: {{ site.baseurl }}{% link glossary/d.md %}#data-lake
 [Data Leakage]: {{ site.baseurl }}{% link glossary/d.md %}#data-leakage
+[Data Management]: {{ site.baseurl }}{% link glossary/d.md %}#data-management
+[Data Mesh]: {{ site.baseurl }}{% link glossary/d.md %}#data-mesh
 [Data Point]: {{ site.baseurl }}{% link glossary/d.md %}#data-point
 [Data Poisoning]: {{ site.baseurl }}{% link glossary/d.md %}#data-poisoning
 [Data Preparation]: {{ site.baseurl }}{% link glossary/d.md %}#data-preparation
@@ -23,7 +29,11 @@
 [Data Scientist]: {{ site.baseurl }}{% link glossary/d.md %}#data-scientist
 [Data Transformation]: {{ site.baseurl }}{% link glossary/d.md %}#data-transformation
 [Data Visualization]: {{ site.baseurl }}{% link glossary/d.md %}#data-visualization
-[Data2Vec]: {{ site.baseurl }}{% link glossary/d.md %}#data2vec
+[Data Warehouse]: {{ site.baseurl }}{% link glossary/d.md %}#data-warehouse
+[Data-Centric AI]: {{ site.baseurl }}{% link glossary/d.md %}#data-centric-ai
+[DCAI]: {{ site.baseurl }}{% link glossary/d.md %}#data-centric-ai
+[Data2Vec Algorithm]: {{ site.baseurl }}{% link glossary/d.md %}#data2vec-algorithm
+[Data2Vec]: {{ site.baseurl }}{% link glossary/d.md %}#data2vec-algorithm
 [Dataset]: {{ site.baseurl }}{% link glossary/d.md %}#dataset
 [Dataset Bias]: {{ site.baseurl }}{% link glossary/d.md %}#dataset-bias
 [David Luan Person]: {{ site.baseurl }}{% link glossary/d.md %}#david-luan-person
@@ -86,6 +96,9 @@
 [Development Subset]: {{ site.baseurl }}{% link glossary/d.md %}#development-subset
 [DevOPS]: {{ site.baseurl }}{% link glossary/d.md %}#devops
 [Differential Privacy]: {{ site.baseurl }}{% link glossary/d.md %}#differential-privacy
+[Diffractive Neural Network]: {{ site.baseurl }}{% link glossary/d.md %}#diffractive-neural-network
+[Diffractive Neural Networks]: {{ site.baseurl }}{% link glossary/d.md %}#diffractive-neural-network
+[DNN]: {{ site.baseurl }}{% link glossary/d.md %}#diffractive-neural-network
 [Diffusion Model]: {{ site.baseurl }}{% link glossary/d.md %}#diffusion-model
 [DM]: {{ site.baseurl }}{% link glossary/d.md %}#dm
 [Diffusion Process]: {{ site.baseurl }}{% link glossary/d.md %}#diffusion-process
@@ -110,6 +123,8 @@
 [Distribution]: {{ site.baseurl }}{% link glossary/d.md %}#distribution
 [Distributional Reinforcement Learning]: {{ site.baseurl }}{% link glossary/d.md %}#distributional-reinforcement-learning
 [Distributional RL]: {{ site.baseurl }}{% link glossary/d.md %}#distributional-reinforcement-learning
+[DNA Neural Network]: {{ site.baseurl }}{% link glossary/d.md %}#dna-neural-network
+[DNA Neural Networks]: {{ site.baseurl }}{% link glossary/d.md %}#dna-neural-network
 [Domain-Specific Model]: {{ site.baseurl }}{% link glossary/d.md %}#domain-specific-model
 [Dot Product]: {{ site.baseurl }}{% link glossary/d.md %}#dot-product
 [Dot Product Similarity]: {{ site.baseurl }}{% link glossary/d.md %}#dot-product-similarity

@@ -27,6 +27,7 @@
 [IndexGPT Model]: {{ site.baseurl }}{% link glossary/i.md %}#indexgpt-model
 [Inductive Reasoning]: {{ site.baseurl }}{% link glossary/i.md %}#inductive-reasoning
 [Inference]: {{ site.baseurl }}{% link glossary/i.md %}#inference
+[Inference Configuration Parameter]: {{ site.baseurl }}{% link glossary/i.md %}#inference-configuration-parameter
 [Inference Point]: {{ site.baseurl }}{% link glossary/i.md %}#inference-point
 [Inflection AI Company]: {{ site.baseurl }}{% link glossary/i.md %}#inflection-ai-company
 [Inflection AI]: {{ site.baseurl }}{% link glossary/i.md %}#inflection-ai-company
@@ -43,6 +44,8 @@
 [Instance Segmentation]: {{ site.baseurl }}{% link glossary/i.md %}#instance-segmentation
 [InstructGPT Model]: {{ site.baseurl }}{% link glossary/i.md %}#instructgpt-model
 [Insufficient Data Algorithm]: {{ site.baseurl }}{% link glossary/i.md %}#insufficient-data-algorithm
+[Intel Company]: {{ site.baseurl }}{% link glossary/i.md %}#intel-company
+[Intel]: {{ site.baseurl }}{% link glossary/i.md %}#intel-company
 [Intelligence]: {{ site.baseurl }}{% link glossary/i.md %}#intelligence
 [Intelligence Augmentation]: {{ site.baseurl }}{% link glossary/i.md %}#intelligence-augmentation
 [IA]: {{ site.baseurl }}{% link glossary/i.md %}#ia
@@ -62,6 +65,7 @@
 [Inverse Reinforcement Learning]: {{ site.baseurl }}{% link glossary/i.md %}#inverse-reinforcement-learning
 [Inverse RL]: {{ site.baseurl }}{% link glossary/i.md %}#inverse-reinforcement-learning
 [IRL]: {{ site.baseurl }}{% link glossary/i.md %}#irl
+[Inverted File Index]: {{ site.baseurl }}{% link glossary/i.md %}#inverted-file-index
 [IQ-Learn Model]: {{ site.baseurl }}{% link glossary/i.md %}#iq-learn-model
 [Isaac Gym Environment]: {{ site.baseurl }}{% link glossary/i.md %}#isaac-gym-environment
 [Isaac Gym]: {{ site.baseurl }}{% link glossary/i.md %}#isaac-gym

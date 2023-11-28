@@ -37,7 +37,6 @@ layout: page
 
 
 # Radial Basis Function
-
 # RBF
 
  See also [R], [Support Vector Classifier]
@@ -72,7 +71,6 @@ layout: page
  See also [R], [Attribute], [Bagging], [Ensemble Method], [Decision Tree], [Gaussian Process], [Supervised Learning], [Tree Parzen Estimators], [XGBoost]
 
 
-
 # Random Sample Consensus Algorithm
 # RANSAC Algorithm
 
@@ -99,6 +97,12 @@ layout: page
 
 # Random Sampling
 
+ During model inference, the model produces a probability distribution across all tokens in the model’s known vocabulary. The model chooses—or samples—a single token from this distribution as the next token to include in the response.
+
+ For each inference request, you can configure the model to choose the next token using either greedy or random sampling. For [greedy sampling], the token with the highest probability is selected. With random sampling, the model selects the next token using a random-weighted strategy across all predicted token probabilities. The different sampling methods are shown below for the phrase “the student learns from the professor and her lectures.”
+
+ ![]( {{site.assets}}/r/random_sampling.png ){: width="100%"}
+
  See also [R], [Passive Learning]
 
 
@@ -123,7 +127,9 @@ layout: page
  {% youtube "https://www.youtube.com/watch?v=YroewVVp7SM" %}
 
  More at:
-  * ...
+  * ranking algorithms - [https://towardsdatascience.com/how-to-convert-any-text-into-a-graph-of-concepts-110844f22a1a](https://towardsdatascience.com/how-to-convert-any-text-into-a-graph-of-concepts-110844f22a1a)
+  * overview - [https://medium.com/airbnb-engineering/learning-to-rank-diversely-add6b1929621](https://medium.com/airbnb-engineering/learning-to-rank-diversely-add6b1929621)
+  * ranking evaluation metrics - [https://towardsdatascience.com/comprehensive-guide-to-ranking-evaluation-metrics-7d10382c1025](https://towardsdatascience.com/comprehensive-guide-to-ranking-evaluation-metrics-7d10382c1025)
 
  See also [R], [ML Algorithm], [Reranking], [XGBoost]
 
@@ -207,8 +213,39 @@ Recall = % of positively identified
  See also [R], [Confusion Matrix]
 
 
-# Receiver Operating Characteristic Curve
+# Recall-Oriented Understudy for Gisting Evaluation Score
+# ROUGE Score
 
+ ROUGE score is a set of metrics commonly used for [text summarization] tasks, where the goal is to automatically generate a concise summary of a longer text. ROUGE was designed to evaluate the quality of machine-generated summaries by comparing them to reference summaries provided by humans.
+
+ ROUGE score measures the similarity between the machine-generated summary and the reference summaries using overlapping n-grams, word sequences that appear in both the machine-generated summary and the reference summaries. The most common n-grams used are unigrams, bigrams, and trigrams. ROUGE score calculates the recall of n-grams in the machine-generated summary by comparing them to the reference summaries.
+
+ ROUGE = ∑ (Recall of n-grams)
+
+ Where:
+  * Recall of n-grams is the number of n-grams that appear in both the machine-generated summary and the reference summaries divided by the total number of n-grams in the reference summaries.
+
+ ROUGE score ranges from 0 to 1, with higher values indicating better summary quality. Like BLEU score, a perfect summary would have a ROUGE score of 1, while a completely incorrect summary would have a ROUGE score of 0.
+
+ ROUGE scores are branched into ROUGE-N,ROUGE-L, and ROUGE-S.
+
+ In general:
+  * [BLEU] focuses on precision: how much the words (and/or n-grams) in the candidate model outputs appear in the human reference.
+  * ROUGE focuses on recall: how much the words (and/or n-grams) in the human references appear in the candidate model outputs.
+
+ These results are complementing, as is often the case in the precision-recall tradeoff.
+
+ {% pdf "https://aclanthology.org/W04-1013.pdf" %}
+
+ More at:
+  * paper - [https://aclanthology.org/W04-1013/](https://aclanthology.org/W04-1013/)
+  * [https://medium.com/@sthanikamsanthosh1994/understanding-bleu-and-rouge-score-for-nlp-evaluation-1ab334ecadcb](https://medium.com/@sthanikamsanthosh1994/understanding-bleu-and-rouge-score-for-nlp-evaluation-1ab334ecadcb)
+  * [https://www.freecodecamp.org/news/what-is-rouge-and-how-it-works-for-evaluation-of-summaries-e059fb8ac840/](https://www.freecodecamp.org/news/what-is-rouge-and-how-it-works-for-evaluation-of-summaries-e059fb8ac840/)
+
+ See also [R], [MS COCO Caption Dataset], [NLP Score]
+
+
+# Receiver Operating Characteristic Curve
 # ROC Curve
 
  `~ summarize all the confusion matrices of a logistic model, if the classification 'Probability-treshold' is changed. A confusion matrix is 1 point on the ROC curve!` Receiver Operating Characteristic (ROC) is a graphical representation of the performance of a binary classifier system as the discrimination threshold is varied. It plots the true positive rate (TPR) on the y-axis and the false positive rate (FPR) on the x-axis. The true positive rate (also known as sensitivity or recall) is the proportion of positive cases that are correctly identified by the classifier. The false positive rate (also known as the fall-out) is the proportion of negative cases that are incorrectly identified as positive. An ROC curve plots the TPR against the FPR at different threshold settings. A perfect classifier will have a TPR of 1 and a FPR of 0, resulting in a point in the top left corner of the ROC space. A random classifier will have a TPR and FPR of 0.5, resulting in a point along a diagonal line from the bottom left to the top right corner of the ROC space. The area under the ROC curve (AUC) is a measure of the classifier's overall performance, with a value of 1 indicating perfect performance and a value of 0.5 indicating a performance no better than random guessing.
@@ -231,7 +268,6 @@ Recall = % of positively identified
 
 
 # Rectified Linear Unit Activation Function
-
 # ReLU Activation Function
 
  `Everything that has a negative value, change it to zero` We can avoid this problem by using activation functions which don't have this property of 'squashing' the input space into a small region. A popular choice is Rectified Linear Unit which maps x to max(0,x). Benefits:
@@ -243,7 +279,6 @@ Recall = % of positively identified
 
 
 # Rectified Linear Unit Layer
-
 # ReLU Layer
 
  A stack of images (matrix of pixels) becomes a stack of images with no negative values.
@@ -252,7 +287,6 @@ Recall = % of positively identified
 
 
 # Recurrent Neural Network
-
 # RNN
 
  `When successive input have a relationship between each of them` Ex characters in a word. Output of a layer can feed the input of self or an upstream layer. AFAIK the input is taken into consideration at the next round/processing. The opposite of a Feedforward Neural Network. Example: Prediction of the next letter/word given the previous letter/word (useful when there is correlation between the sequence of objects/classification). Also useful for timeseries data. Became widespread thanks to Long Short Term Memory (LSTM) network a more multi-layer version of RNN.
@@ -577,6 +611,15 @@ Beware:
  See [Kullback-Liebler Divergence]
 
 
+# Relevancy
+
+ Relevancy --> approximate of neightbor ias used in [Similarity Functions]
+ Low relevancy = this hot dog looks like this ice cream.
+ High relevancy = this hot dog looks like this other hot dog.
+
+ See also [R], ...
+
+
 # Replaced Word Prediction
 
  See also [R], [Self-Supervised Learning]
@@ -794,6 +837,10 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 
  Now, retrieval-augmented generation combines these two approaches to overcome their individual limitations. In this framework, a retrieval model is used to retrieve relevant information from a knowledge base or a set of documents based on a given query or context. The retrieved information is then used as input or additional context for the generative model.
 
+ There are 2 components in RAGs:
+  * [Retrieval Reader]
+  * [Retrieval Writer]
+
  ![]( {{site.assets}}/r/retrieval_augmented_generation.webp ){: width="100%"}
 
  {% youtube "https://www.youtube.com/watch?v=T-D1OfcDW1M" %}
@@ -823,8 +870,21 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  See also [R], ...
 
 
-# Retriever
+# Retrieval Reader
 
+ A type of [RAG] that uses its augmented context to give an answer. The benefit is limited hallucinations.
+
+ See also [R], ...
+
+
+# Retrieval Writer
+
+ A type of [RAG] that uses its augmented context for additional information, but will also generate new info. Beware of hallucinations.
+
+ See also [R], ...
+
+
+# Retriever
 
  More at:
   * ...
@@ -1004,7 +1064,6 @@ def reward_function(params):
 
 
 # Robustly Optimized BERT Approach Model
-
 # RoBERTa Model
 
  An update on the [BERT model] optimized by [Meta]. The RoBERTa model also uses the [transformer architecture]
@@ -1043,7 +1102,6 @@ def reward_function(params):
 
 
 # Rocket League Gym
-
 # RL Gym
 
  More at:
@@ -1053,7 +1111,6 @@ def reward_function(params):
 
 
 # Root Mean Square Error
-
 # RMSE
 
  ```
@@ -1068,7 +1125,6 @@ def rmse(predictions, targets):
 
 
 # Root Mean Square Propagation Algorithm
-
 # RMSprop Algorithm
 
  An [optimization algorithm][optimizer] to compute parameters to minimize the loss function.
@@ -1086,7 +1142,6 @@ def rmse(predictions, targets):
 
 
 # RoseTTAFold Diffusion
-
 # RF Diffusion
 
  A diffusion model for protein design
@@ -1106,38 +1161,6 @@ def rmse(predictions, targets):
   * paper - [https://www.biorxiv.org/content/10.1101/2022.12.09.519842v1](https://www.biorxiv.org/content/10.1101/2022.12.09.519842v1) 
 
  See also [R], ...
-
-
-# ROUGE Metric
-
- ROUGE score is a set of metrics commonly used for [text summarization] tasks, where the goal is to automatically generate a concise summary of a longer text. ROUGE was designed to evaluate the quality of machine-generated summaries by comparing them to reference summaries provided by humans.
-
- ROUGE score measures the similarity between the machine-generated summary and the reference summaries using overlapping n-grams, word sequences that appear in both the machine-generated summary and the reference summaries. The most common n-grams used are unigrams, bigrams, and trigrams. ROUGE score calculates the recall of n-grams in the machine-generated summary by comparing them to the reference summaries.
-
- ROUGE = ∑ (Recall of n-grams)
-
- Where:
-
-  * Recall of n-grams is the number of n-grams that appear in both the machine-generated summary and the reference summaries divided by the total number of n-grams in the reference summaries.
-
- ROUGE score ranges from 0 to 1, with higher values indicating better summary quality. Like BLEU score, a perfect summary would have a ROUGE score of 1, while a completely incorrect summary would have a ROUGE score of 0.
-
- ROUGE scores are branched into ROUGE-N,ROUGE-L, and ROUGE-S.
-
- In general:
-  * [BLEU][BLEU Metric] focuses on precision: how much the words (and/or n-grams) in the candidate model outputs appear in the human reference.
-  * ROUGE focuses on recall: how much the words (and/or n-grams) in the human references appear in the candidate model outputs.
-
- These results are complementing, as is often the case in the precision-recall tradeoff.
-
- {% pdf "https://aclanthology.org/W04-1013.pdf" %}
-
- More at:
-  * paper - [https://aclanthology.org/W04-1013/](https://aclanthology.org/W04-1013/)
-  * [https://medium.com/@sthanikamsanthosh1994/understanding-bleu-and-rouge-score-for-nlp-evaluation-1ab334ecadcb](https://medium.com/@sthanikamsanthosh1994/understanding-bleu-and-rouge-score-for-nlp-evaluation-1ab334ecadcb)
-  * [https://www.freecodecamp.org/news/what-is-rouge-and-how-it-works-for-evaluation-of-summaries-e059fb8ac840/](https://www.freecodecamp.org/news/what-is-rouge-and-how-it-works-for-evaluation-of-summaries-e059fb8ac840/)
-
- See also [R], [MS COCO Caption Dataset], [NLP Metric]
 
 
 # Runway Company

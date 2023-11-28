@@ -15,6 +15,7 @@
 [TBL]: {{ site.baseurl }}{% link glossary/t.md %}#task-based-learning
 [Task-Driven Autonomous Agent]: {{ site.baseurl }}{% link glossary/t.md %}#task-driven-autonomous-agent
 [Taxonomy]: {{ site.baseurl }}{% link glossary/t.md %}#taxonomy
+[Temperature]: {{ site.baseurl }}{% link glossary/t.md %}#temperature
 [Tensor]: {{ site.baseurl }}{% link glossary/t.md %}#tensor
 [Tensor Processing Unit]: {{ site.baseurl }}{% link glossary/t.md %}#tensor-processing-unit
 [TPU]: {{ site.baseurl }}{% link glossary/t.md %}#tpu
@@ -44,11 +45,14 @@
 [Theano]: {{ site.baseurl }}{% link glossary/t.md %}#theano
 [Theory Of Mind]: {{ site.baseurl }}{% link glossary/t.md %}#theory-of-mind
 [TOM]: {{ site.baseurl }}{% link glossary/t.md %}#theory-of-mind
-[Threat Model]: {{ site.baseurl }}{% link glossary/t.md %}#threat-model
 [Thresholding]: {{ site.baseurl }}{% link glossary/t.md %}#thresholding
 [Time-Series Predictive Analysis]: {{ site.baseurl }}{% link glossary/t.md %}#time-series-predictive-analysis
 [Tokenization]: {{ site.baseurl }}{% link glossary/t.md %}#tokenization
 [Tokenizer]: {{ site.baseurl }}{% link glossary/t.md %}#tokenizer
+[Top-K Random Sampling]: {{ site.baseurl }}{% link glossary/t.md %}#top-k-random-sampling
+[Top-K]: {{ site.baseurl }}{% link glossary/t.md %}#top-k-random-sampling
+[Top-P Random Sampling]: {{ site.baseurl }}{% link glossary/t.md %}#top-p-random-sampling
+[Top-P]: {{ site.baseurl }}{% link glossary/t.md %}#top-p-random-sampling
 [Torch]: {{ site.baseurl }}{% link glossary/t.md %}#torch
 [TorchScript Format]: {{ site.baseurl }}{% link glossary/t.md %}#torchscript-format
 [Training Subset]: {{ site.baseurl }}{% link glossary/t.md %}#training-subset

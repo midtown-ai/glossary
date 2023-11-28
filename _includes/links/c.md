@@ -1,6 +1,7 @@
 [C]: {{ site.baseurl }}{% link glossary/c.md %}
 
 [Caffe]: {{ site.baseurl }}{% link glossary/c.md %}#caffe
+[Capcha]: {{ site.baseurl }}{% link glossary/c.md %}#capcha
 [Carnegie Mellon University]: {{ site.baseurl }}{% link glossary/c.md %}#carnegie-mellon-university
 [CMU]: {{ site.baseurl }}{% link glossary/c.md %}#cmu
 [Case-Based Reasoning]: {{ site.baseurl }}{% link glossary/c.md %}#case-based-reasoning
@@ -16,6 +17,8 @@
 [COT Prompting]: {{ site.baseurl }}{% link glossary/c.md %}#chain-of-thought-prompting
 [COT]: {{ site.baseurl }}{% link glossary/c.md %}#chain-of-thought-prompting
 [Chained Model]: {{ site.baseurl }}{% link glossary/c.md %}#chained-model
+[Character AI Company]: {{ site.baseurl }}{% link glossary/c.md %}#character-ai-company
+[Character AI]: {{ site.baseurl }}{% link glossary/c.md %}#character-ai-company
 [Chatbot]: {{ site.baseurl }}{% link glossary/c.md %}#chatbot
 [ChatGPT Model]: {{ site.baseurl }}{% link glossary/c.md %}#chatgpt-model
 [ChatGPT]: {{ site.baseurl }}{% link glossary/c.md %}#chatgpt-model
@@ -34,6 +37,7 @@
 [Classification]: {{ site.baseurl }}{% link glossary/c.md %}#classification
 [Claude Model]: {{ site.baseurl }}{% link glossary/c.md %}#claude-model
 [Claude]: {{ site.baseurl }}{% link glossary/c.md %}#claude-model
+[Clever Hans]: {{ site.baseurl }}{% link glossary/c.md %}#clever-hans
 [CLIP Image Encoder]: {{ site.baseurl }}{% link glossary/c.md %}#clip-image-encoder
 [CLIP Text Encoder]: {{ site.baseurl }}{% link glossary/c.md %}#clip-text-encoder
 [Clustering]: {{ site.baseurl }}{% link glossary/c.md %}#clustering
@@ -47,7 +51,9 @@
 [Cohere AI]: {{ site.baseurl }}{% link glossary/c.md %}#cohere-ai-company
 [Collaborative Filtering]: {{ site.baseurl }}{% link glossary/c.md %}#collaborative-filtering
 [Colossal Clean Crawled Corpus]: {{ site.baseurl }}{% link glossary/c.md %}#colossal-clean-crawled-corpus
-[C4 Dataset]: {{ site.baseurl }}{% link glossary/c.md %}#c4-dataset
+[C4]: {{ site.baseurl }}{% link glossary/c.md %}#colossal-clean-crawled-corpus
+[Common Crawl Corpus]: {{ site.baseurl }}{% link glossary/c.md %}#common-crawl-corpus
+[Common Crawl]: {{ site.baseurl }}{% link glossary/c.md %}#common-crawl-corpus
 [Common Sense]: {{ site.baseurl }}{% link glossary/c.md %}#common-sense
 [Company]: {{ site.baseurl }}{% link glossary/c.md %}#company
 [Complexity]: {{ site.baseurl }}{% link glossary/c.md %}#complexity
@@ -116,6 +122,7 @@
 [Cumulative Reward]: {{ site.baseurl }}{% link glossary/c.md %}#cumulative-reward
 [Curiosity-Driven Reinforcement Learning]: {{ site.baseurl }}{% link glossary/c.md %}#curiosity-driven-reinforcement-learning
 [Curiosity-Driven RL]: {{ site.baseurl }}{% link glossary/c.md %}#curiosity-driven-reinforcement-learning
+[Curriculum Learning]: {{ site.baseurl }}{% link glossary/c.md %}#curriculum-learning
 [Curse Of Dimensionality]: {{ site.baseurl }}{% link glossary/c.md %}#curse-of-dimensionality
 [Custom Churn Prediction]: {{ site.baseurl }}{% link glossary/c.md %}#custom-churn-prediction
 [Cybernetic Organism]: {{ site.baseurl }}{% link glossary/c.md %}#cybernetic-organism

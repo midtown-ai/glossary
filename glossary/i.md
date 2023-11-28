@@ -202,7 +202,6 @@ layout: page
 
 
 # ImageNet Large Scale Visual Recognition Challenge
-
 # ILSVRC
 
  The ImageNet Large Scale Visual Recognition Challenge (ILSVRC) is a benchmark in object category classification and detection on hundreds of object categories and millions of images. The challenge has been run annually from 2010 to present, attracting participation from more than fifty institutions.
@@ -215,7 +214,6 @@ layout: page
  See also [I], [AlexNet Model] 
 
 # Imitation Learning
-
 # IL
 
  In imitation learning (IL), an agent is given access to samples of expert behavior (e.g. videos of humans playing online games or cars driving on the road) and it tries to learn a policy that mimics this behavior. This objective is in contrast to reinforcement learning (RL), where the goal is to learn a policy that maximizes a specified reward function. A major advantage of imitation learning is that it does not require careful hand-design of a reward function because it relies solely on expert behavior data, making it easier to scale to real-world tasks where one is able to gather expert behavior (like video games or driving). This approach of enabling the development of AI systems by data-driven learning, rather than specification through code or heuristic rewards, is consistent with the key principles behind Software 2.0.
@@ -250,6 +248,7 @@ layout: page
 
  See also [I], ...
 
+
 # Inductive Reasoning
 
  Coming up with `rules to explain the current observation`. Sometimes the truth can be learned ;-)
@@ -262,6 +261,16 @@ layout: page
  An inference means running your machine learning model on new data). A prediction/action/complex plan that is devised/based on acquired knowledge. That is based on deductive reasoning (sherlock holmes!).
 
  See also [I], [Inference Point]
+
+
+# Inference Configuration Parameter
+
+ * Max New Token
+ * [Top-K Random Sampling]
+ * [Top-P Random Sampling]
+ * [Temperature]
+
+ See also [I], ...
 
 
 # Inference Point
@@ -414,6 +423,15 @@ Data < Information < Knowledge
  See also [I], [Data Augmentation], [Graph Neural Network], [Meta Learning], [Multi-Task Leaning], [One-Shot Learning], [Transfer Learning], [Zero-Shot Learning]
 
 
+# Intel Company
+
+ A [company] that builds CPU and is about to integrate GPU/tensor computing in it.
+
+ {% youtube "https://youtu.be/PKfJmi83VjA?si=L23msCC8FiMuMC0P" %}
+
+ See also [I], ...
+
+
 # Intelligence
 
  (Prompt) What is intelligence?
@@ -450,7 +468,6 @@ Data < Information < Knowledge
 
 
 # International Conference on Learning Representations Conference
-
 # ICLR Conference
 
  The International Conference on Learning Representations (ICLR) is a machine learning conference typically held in late April or early May each year. The conference includes invited talks as well as oral and poster presentations of refereed papers. Since its inception in 2013, ICLR has employed an open peer review process to referee paper submissions (based on models proposed by [Yann LeCun][Yann LeCun Person]). In 2019, there were 1591 paper submissions, of which 500 accepted with poster presentations (31%) and 24 with oral presentations (1.5%). In 2021, there were 2997 paper submissions, of which 860 were accepted (29%).
@@ -463,7 +480,6 @@ Data < Information < Knowledge
 
 
 # International Conference on Machine Learning Conference
-
 # ICML Conference
 
  The International Conference on Machine Learning (ICML) is the leading international academic [conference][AI Conference] in [machine learning]. Along with [NeurIPS][NeurIPS Conference] and [ICLR][ICLR Conference], it is one of the three primary conferences of high impact in machine learning and artificial intelligence research.
@@ -486,7 +502,6 @@ Data < Information < Knowledge
 
 
 # Inverse Document Frequency
-
 # IDF
 
  IDF measures how important a term is. While computing TF, all terms are considered equally important. However it is known that certain terms, such as "is", "of", and "that", may appear a lot of times but have little importance. Thus we need to weigh down the frequent terms while scale up the rare ones, by computing the following:
@@ -499,7 +514,6 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
 
 
 # Inverse Dynamics Model
-
 # IDM
 
  OpenAI gathered 2,000 hours of video labeled with mouse and keyboard actions and trained an inverse dynamics model (IDM) to predict actions given past and future frames – this is the PreTraining part.
@@ -522,6 +536,17 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
   * ...
 
  See also [I], [Behavioural Cloning], [Imitation Learning], [IQ-Learn Model], [Reinforcement Learning], [Reward Function]
+
+
+# Inverted File Index
+# IVD
+
+ ~ Used in [similarity search]
+
+ More at;
+  * [https://medium.com/towards-data-science/similarity-search-knn-inverted-file-index-7cab80cc0e79](https://medium.com/towards-data-science/similarity-search-knn-inverted-file-index-7cab80cc0e79)
+
+ See also [I], ...
 
 
 # IQ-Learn Model

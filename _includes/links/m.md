@@ -11,6 +11,7 @@
 [Magi Model]: {{ site.baseurl }}{% link glossary/m.md %}#magi-model
 [Magi]: {{ site.baseurl }}{% link glossary/m.md %}#magi-model
 [Majority Vote Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#majority-vote-algorithm
+[Manhattan Distance]: {{ site.baseurl }}{% link glossary/m.md %}#manhattan-distance
 [MapReduce Process]: {{ site.baseurl }}{% link glossary/m.md %}#mapreduce-process
 [Markov Chain]: {{ site.baseurl }}{% link glossary/m.md %}#markov-chain
 [Markov Decision Process]: {{ site.baseurl }}{% link glossary/m.md %}#markov-decision-process
@@ -84,16 +85,27 @@
 [Model Agnostic Meta Learning]: {{ site.baseurl }}{% link glossary/m.md %}#model-agnostic-meta-learning
 [MAML]: {{ site.baseurl }}{% link glossary/m.md %}#model-agnostic-meta-learning
 [Model Benchmark]: {{ site.baseurl }}{% link glossary/m.md %}#model-benchmark
+[Model Bill Of Materials]: {{ site.baseurl }}{% link glossary/m.md %}#model-bill-of-materials
+[Model BOM]: {{ site.baseurl }}{% link glossary/m.md %}#model-bill-of-materials
 [Model Card]: {{ site.baseurl }}{% link glossary/m.md %}#model-card
 [Model Checkpoint]: {{ site.baseurl }}{% link glossary/m.md %}#model-checkpoint
 [Model Compression]: {{ site.baseurl }}{% link glossary/m.md %}#model-compression
 [Model Data Sheet]: {{ site.baseurl }}{% link glossary/m.md %}#model-data-sheet
+[Model Denial Of Service]: {{ site.baseurl }}{% link glossary/m.md %}#model-denial-of-service
+[Model DoS]: {{ site.baseurl }}{% link glossary/m.md %}#model-denial-of-service
+[MDoS]: {{ site.baseurl }}{% link glossary/m.md %}#model-denial-of-service
+[Model Development Lifecycle]: {{ site.baseurl }}{% link glossary/m.md %}#model-development-lifecycle
+[MDLC]: {{ site.baseurl }}{% link glossary/m.md %}#model-development-lifecycle
 [Model Drift]: {{ site.baseurl }}{% link glossary/m.md %}#model-drift
 [Model Evaluation]: {{ site.baseurl }}{% link glossary/m.md %}#model-evaluation
+[Model Firewall]: {{ site.baseurl }}{% link glossary/m.md %}#model-firewall
 [Model Format]: {{ site.baseurl }}{% link glossary/m.md %}#model-format
+[Model Inversion]: {{ site.baseurl }}{% link glossary/m.md %}#model-inversion
 [Model Hub]: {{ site.baseurl }}{% link glossary/m.md %}#model-hub
 [Model Release Card]: {{ site.baseurl }}{% link glossary/m.md %}#model-release-card
 [Model Release Frontier]: {{ site.baseurl }}{% link glossary/m.md %}#model-release-frontier
+[Model Scanning]: {{ site.baseurl }}{% link glossary/m.md %}#model-scanning
+[Model Threat Analysis]: {{ site.baseurl }}{% link glossary/m.md %}#model-threat-analysis
 [Model Tuning]: {{ site.baseurl }}{% link glossary/m.md %}#model-tuning
 [Model Type]: {{ site.baseurl }}{% link glossary/m.md %}#model-type
 [Model Uplift]: {{ site.baseurl }}{% link glossary/m.md %}#model-uplift
@@ -101,6 +113,8 @@
 [Model-Based RL]: {{ site.baseurl }}{% link glossary/m.md %}#model-based-reinforcement-learning
 [Model-Based Reinforcement Learning Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#model-based-reinforcement-learning-algorithm
 [Model-Based RL Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#model-based-reinforcement-learning-algorithm
+[Model-Centric AI]: {{ site.baseurl }}{% link glossary/m.md %}#model-centric-ai
+[MCAI]: {{ site.baseurl }}{% link glossary/m.md %}#model-centric-ai
 [Model-Free Reinforcement Learning]: {{ site.baseurl }}{% link glossary/m.md %}#model-free-reinforcement-learning
 [Model-Free RL]: {{ site.baseurl }}{% link glossary/m.md %}#model-free-reinforcement-learning
 [Model-Free Reinforcement Learning Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#model-free-reinforcement-learning-algorithm

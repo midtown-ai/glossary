@@ -60,13 +60,28 @@
 [Euclidean Similarity]: {{site.baseurl }}{% link glossary/e.md %}#euclidean-similarity-function
 [European Union AI Act]: {{site.baseurl }}{% link glossary/e.md %}#european-union-ai-act
 [EU AI Act]: {{site.baseurl }}{% link glossary/e.md %}#european-union-ai-act
+[Evident AI Index]: {{site.baseurl }}{% link glossary/e.md %}#evident-ai-index
+[Evident AI Innovation Report]: {{site.baseurl }}{% link glossary/e.md %}#evident-ai-innovation-report
+[Evident AI Leadership Report]: {{site.baseurl }}{% link glossary/e.md %}#evident-ai-leadership-report
+[Evident AI Outcomes Report]: {{site.baseurl }}{% link glossary/e.md %}#evident-ai-outcomes-report
+[Evident AI Talent Report]: {{site.baseurl }}{% link glossary/e.md %}#evident-ai-talent-report
+[Evident Insights Company]: {{site.baseurl }}{% link glossary/e.md %}#evident-insights-company
+[Evident Insights]: {{site.baseurl }}{% link glossary/e.md %}#evident-insights-company
 [Evolution Strategy]: {{site.baseurl }}{% link glossary/e.md %}#evoluation-strategy
 [ES]: {{site.baseurl }}{% link glossary/e.md %}#evoluation-strategy
+[Evolutionary Artificial Intelligence]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-artificial-intelligence
+[Evolutionary AI]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-artificial-intelligence
 [Evolutionary Scale Modeling]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-modeling
 [ESM]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-modeling
 [Ex Machina Movie]: {{site.baseurl }}{% link glossary/e.md %}#ex-machina-movie
 [Example-Based Machine Translation]: {{site.baseurl }}{% link glossary/e.md %}#example-based-machine-translation
 [EBMT]: {{site.baseurl }}{% link glossary/e.md %}#ebmt
+[Executive Order on AI]: {{site.baseurl }}{% link glossary/e.md %}#executive-order-on-ai
+[Executive Orders on AI]: {{site.baseurl }}{% link glossary/e.md %}#executive-order-on-ai
+[Executive Order]: {{site.baseurl }}{% link glossary/e.md %}#executive-order-on-ai
+[Executive Orders]: {{site.baseurl }}{% link glossary/e.md %}#executive-order-on-ai
+[EO]: {{site.baseurl }}{% link glossary/e.md %}#executive-order-on-ai
+[EOs]: {{site.baseurl }}{% link glossary/e.md %}#executive-order-on-ai
 [Expected Value]: {{site.baseurl }}{% link glossary/e.md %}#expected-value
 [Experience]: {{site.baseurl }}{% link glossary/e.md %}#experience
 [Experiences]: {{site.baseurl }}{% link glossary/e.md %}#experience

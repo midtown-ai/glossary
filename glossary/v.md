@@ -301,7 +301,21 @@ z_q(x)=\text{argmin}_i ||z_e(x)-e_i||_2
 # Vector Search Plugin
 
  An increasing number of traditional databases and search systems, such as Clickhouse and Elasticsearch, include built-in vector search plugins. Elasticsearch 8.0, for example, includes vector insertion and ANN search functionality that can be called via restful API endpoints. The problem with vector search plugins should be clear as night and day - these solutions do not take a full-stack approach to embedding management and vector search. Instead, these plugins are meant to be enhancements on top of existing architectures, thereby making them limited and unoptimized. Developing an unstructured data application atop a traditional database would be like trying to fit lithium batteries and electric motors inside a frame of a gas-powered car - not a great idea! To illustrate why this is, let’s go back to the list of features that a vector database should implement (from the first section). Vector search plugins are missing two of these features - tunability and user-friendly APIs/SDKs.
+
  See also [V], [Vector], [Vector Database]
+
+
+# Vector Space Collision
+
+ Here is a brief overview of vector space collisions in machine learning:
+  * In machine learning models like [word embeddings] or [recommendation engines], items are often represented as vectors in a high-dimensional vector space.
+  * The vectors are positioned in the space such that similar items are close together based on certain metrics like cosine similarity. This allows detecting similarities between items by looking at the distance between their vector representations.
+  * A vector space collision happens when two very different items end up having very similar vector representations. Their embeddings collide and become indistinguishable in the vector space.
+  * This can happen when the vector space is too low-dimensional to capture all the nuanced differences between items. It can also happen when the training data is insufficient or biased.
+  * Collisions are problematic because they cause the model to think very different items are highly similar based on their vector locations. This leads to poor performance on similarity tasks.
+  * Techniques to mitigate collisions include using higher dimensionality, regularization, better sampling strategies, and contrastive training methods that explicitly optimize vectors to be distinct. Overall, collisions indicate limitations in the representational capacity of the vector space.
+
+ See also [V], ...
 
 
 # Viam 
@@ -323,7 +337,6 @@ More at:
 
 
 # Video Pre-Training Model
-
 # VPT Model
 
  {% youtube "https://www.youtube.com/watch?v=oz5yZc9ULAc" %}
@@ -367,7 +380,6 @@ More at:
 
 
 # Virtual Reality
-
 # VR
 
  VR is a simulated experience that employs pose tracking and 3D near-eye displays to give the user an immersive feel of a virtual world. Applications of virtual reality include entertainment (particularly video games), education (such as medical or military training) and business (such as virtual meetings). Other distinct types of VR-style technology include augmented reality and mixed reality, sometimes referred to as extended reality or XR, although definitions are currently changing due to the nascence of the industry.
@@ -383,11 +395,8 @@ Currently, standard virtual reality systems use either virtual reality headsets 
 
 
 # Visual Geometry Group Model
-
 # VGG-16 Model
-
 # VGG-19 Model
-
 # VGG Model
 
  A model developed by VGG in the Department of Engineering Science, University of Oxford. 
@@ -408,7 +417,6 @@ Currently, standard virtual reality systems use either virtual reality headsets 
 
 
 # Vision-Language Pre-Training
-
 # VLP
 
  {% pdf "{{site.assets}}/v/vision_language_pretraining_paper.pdf" %}
@@ -417,7 +425,6 @@ Currently, standard virtual reality systems use either virtual reality headsets 
 
 
 # Vision Transformer
-
 # ViT
 
  Used to caption images! Trained on imagNet. Instead of a tokenizer, uses a feature_extractor (image kernels? No, the whole image).

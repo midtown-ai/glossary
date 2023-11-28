@@ -40,6 +40,15 @@ layout: page
  See also [C], [Deep Learning Framework]
 
 
+# Capcha
+
+ More at:
+  * TRoCr
+    * code - [https://github.com/rsommerfeld/trocr](https://github.com/rsommerfeld/trocr)
+
+ See also [C], ...
+
+
 # Carnegie Mellon University
 # CMU
 
@@ -146,6 +155,18 @@ layout: page
  See also [C], [Model]
 
 
+# Character AI Company
+
+ Talk to a famous person or character! You can also create your own!
+
+ More at:
+  * site - [https://beta.character.ai/](https://beta.character.ai/)
+  * articles
+    * Google investment - [https://www.reuters.com/technology/google-talks-invest-ai-startup-characterai-sources-2023-11-10/](https://www.reuters.com/technology/google-talks-invest-ai-startup-characterai-sources-2023-11-10/)
+
+ See also [C], ...
+
+
 # Chatbot
 
  See [Virtual Assistant]
@@ -158,6 +179,8 @@ layout: page
  ![]( {{site.assets}}/c/chatgpt_to_1m_users.jpeg ){: width="100%"}
 
  ![]( {{site.assets}}/c/chatgpt_to_100m_users.png ){: width="100%"}
+
+ ![]( {{site.assets}}/c/chatgpt_cheat_sheet.png ){: width="100%"}
 
  {% youtube "https://www.youtube.com/watch?v=AsFgn8vU-tQ" %}
 
@@ -172,6 +195,8 @@ layout: page
   * [https://www.cnn.com/2022/12/05/tech/chatgpt-trnd/index.html](https://www.cnn.com/2022/12/05/tech/chatgpt-trnd/index.html)
   * [https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5](https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5)
   * [https://www.technologyreview.com/2023/01/26/1067299/chatgpt-workout-plans/](https://www.technologyreview.com/2023/01/26/1067299/chatgpt-workout-plans/)
+  * articles
+    * 1 year anniversary - [https://aimagazine.com/machine-learning/chatgpts-first-birthday-a-year-in-review](https://aimagazine.com/machine-learning/chatgpts-first-birthday-a-year-in-review)
 
  See also [C], [Chatbot], [Digital Watermark], [Feedback], [Plagiarism Checker], [Reward Model], [Reinforcement Learning], [Sparrow Model]
 
@@ -357,6 +382,26 @@ print(query_result)
  See also [C], ...
 
 
+# Clever Hans Effect
+
+ The Clever Hans effect refers to an incident in the early 1900s involving a horse named Hans that appeared to have remarkable mathematical abilities. Here are some key points about the Clever Hans effect:
+  * Hans was a horse owned by Wilhelm von Osten, a German mathematics teacher. Von Osten claimed Hans could solve math problems, tell time, read, spell, and understand German.
+  * Hans would tap his hoof to answer questions. For example, when asked to add 3 + 2, he would tap his hoof 5 times.
+  * Hans became a sensation in Germany, attracting crowds who marveled at his intelligence. However, after investigation, it was determined his abilities were an unintentional trick.
+  * The Clever Hans effect refers to an instance where it appears an animal (or person) has capabilities beyond expectations, but in reality is inadvertently receiving subtle cues from questioners that guide their behavior.
+  * With Hans, it was determined people were unintentionally cuing the horse by slightly leaning forward, making facial expressions, or tensing muscles when Hans reached the correct number of taps. This provided Hans the signal to stop tapping.
+  * The Clever Hans effect illustrates how easy it is for people to inadvertently guide behaviors through subtle, unconscious cues. It demonstrates the need for proper experimental controls when evaluating extraordinary claims of animal or human intelligence.
+
+ So in summary, the Clever Hans effect refers to situations where it appears an animal or person has remarkable abilities, but in reality is just responding to subtle behavioral cues from others. It's a fascinating case that revealed the need for scientific rigor in evaluating claims of high intelligence.
+
+ ![]( {{site.assets}}/c/clever_hans.jpeg ){: width="100%"}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Clever_Hans](https://en.wikipedia.org/wiki/Clever_Hans)
+
+ See also [C], ...
+
+
 # CLIP Image Encoder
 
  Encode an image into the embedding space.
@@ -431,17 +476,40 @@ print(query_result)
  See also  
 
 
-# Colossal Clean Crawled Corpus Dataset
-# C4 Dataset
+# Colossal Clean Crawled Corpus
+# C4
 
- To accurately measure the effect of scaling up the amount of pre-training, one needs a dataset that is not only high quality and diverse, but also massive. Existing pre-training datasets don’t meet all three of these criteria — for example, text from Wikipedia is high quality, but uniform in style and relatively small for our purposes, while the Common Crawl web scrapes are enormous and highly diverse, but fairly low quality.
+ To accurately measure the effect of scaling up the amount of pre-training, one needs a dataset that is not only high quality and diverse, but also massive. Existing pre-training datasets don’t meet all three of these criteria — for example, text from Wikipedia is high quality, but uniform in style and relatively small for our purposes, while the [Common Crawl] web scrapes are enormous and highly diverse, but fairly low quality.
 
- To satisfy these requirements, we developed the Colossal Clean Crawled Corpus (C4), a cleaned version of Common Crawl that is two orders of magnitude larger than Wikipedia. Our cleaning process involved deduplication, discarding incomplete sentences, and removing offensive or noisy content. This filtering led to better results on downstream tasks, while the additional size allowed the model size to increase without overfitting during pre-training. 
+ To satisfy these requirements, we developed the Colossal Clean Crawled Corpus (C4), a cleaned version of [Common Crawl] that is two orders of magnitude larger than Wikipedia. Our cleaning process involved deduplication, discarding incomplete sentences, and removing offensive or noisy content. This filtering led to better results on downstream tasks, while the additional size allowed the model size to increase without overfitting during pre-training. 
 
  More at:
   * [https://www.tensorflow.org/datasets/catalog/c4](https://www.tensorflow.org/datasets/catalog/c4)
 
  See also [C], [Corpus], [Dataset], [T5 Model]
+
+
+# Common Crawl Corpus
+
+ Common Crawl is a 501(c)(3) non–profit founded in 2007.
+ The Common Crawl corpus contains petabytes of data, regularly collected since 2008.
+
+ Common Crawl data is stored on Amazon Web Services’ Public Data Sets and on multiple academic cloud platforms across the world.
+
+ * Web Archive (WARC) - the ultimate data source
+ * Metadata (WAT) - contains just the metadata from each page, the request info, things from head of HTML, and links from the webpage
+ * web Text (WET) - contains just the webpage title, and plain text extracted from the HTML of each response.
+
+ ![]( {{site.assets}}/c/common_crawl_corpus.png ){: width="100%"}
+ 
+ More at:
+  * site - [https://commoncrawl.org/](https://commoncrawl.org/)
+  * blog - [https://commoncrawl.org/blog](https://commoncrawl.org/blog)
+  * ARC format - [https://archive.org/web/researcher/ArcFileFormat.php](https://archive.org/web/researcher/ArcFileFormat.php)
+  * articles
+    * [https://skeptric.com/text-meta-data-commoncrawl/](https://skeptric.com/text-meta-data-commoncrawl/)
+
+ See also [C], ...
 
 
 # Common Sense
@@ -469,7 +537,7 @@ print(query_result)
   * [Bayesian Health](https://www.bayesianhealth.com/) - Focus on patient risk detection ([Forbes](https://www.forbes.com/companies/bayesian-health/?list=ai50&sh=257bfdaa13ac))
   * [BHuman] - Focus on creating deepfake of yourself!
   * [Canvas](https://www.canvas.build/) - Focus on construction robots
-  * [Character AI](https://beta.character.ai/) - Chatbot application
+  * [Character AI] - Chatbot with a persona
   * [Clari](https://www.clari.com/) - Focus on sales software
   * [Coactive AI](https://coactive.ai/) - Data labelling software
   * [Cognosys AI] - Task driven autonomous agent, similar to [AutoGPT][AutoGPT Model]
@@ -515,8 +583,10 @@ print(query_result)
   * [RevComm](https://www.revcomm.co.jp/) - Voice analysis software ([Forbes](https://www.forbes.com/companies/revcomm/?sh=6c1080a7340c))
   * [Runway] - Focus on generative AI for images and now videos
   * [Sakana AI](https://sakana.ai/) - Foundation model based on nature-inspired intelligence !?!?
+  * [Seamless AI](https://seamless.ai/) - To get sales leads
   * [Scale AI] - Data labeling provider
   * [Shield AI](https://shield.ai/) - Autonomous defense software
+  * [Sima AI](https://sima.ai/) - AI at the edge (MLSoc)
   * [Slingshot Aerospace](https://slingshotaerospace.com/) - Space simulation software
   * [Snorkel AI](https://snorkel.ai/) - Data labeling software
   * [Stability AI] - Focus on [diffusion model] or image generation, adopted the open-source philosophy
@@ -531,12 +601,16 @@ print(query_result)
   * [Waabi](https://waabi.ai/) - Autonomous trucking technology
   * [Weights & Biases](https://wandb.ai/site) - Developer tools for AI
   * [Writer](https://writer.com/) - Copywriting software
+  * [xAI] - Backed by Elon Musk and builder of [Grok] LLM and [PromptIDE]
 
  Digital Humans and Meta-Humans
   * [Ravatar](https://ravatar.com/)
   * [SoulMachines](https://www.soulmachines.com/)
   * [UneeQ](https://www.digitalhumans.com/)
   * [Unreal Engine](https://www.unrealengine.com/en-US/metahuman)
+
+ Industry research:
+  * [Evident Insights] - currently focused on the banking industry
 
  Drug Discovery
   * ...
@@ -566,20 +640,34 @@ print(query_result)
   * [Chegg](https://www.chegg.com) - AI assistant called [CheegMate](https://www.chegg.com/cheggmate)
   * [Duolingo](https://www.duolingo.com) - Learn a language with role play with [Duolingo Max](https://blog.duolingo.com/duolingo-max/)
   * [Khan Academy](https://www.khanacademy.org) - AI assistant called [Khanmigo](https://www.khanacademy.org/khan-labs)
+  * [Magic School AI](https://app.magicschool.ai/) - help teachers create a lesson plan. Assistant is called Raina
   * [Pearson](https://www.pearson.com/en-us.html) - Not bot yet! Still in denial?
 
  Deployment:
   * [Netlify] -
 
+ Wearable Devices
+  * [Humane](https://hu.ma.ne/) - the AI pin likely to replace the cell phone
+
+ Infrastructure
+  * [Lambda Labs](https://lambdalabs.com/) - access to GPU for deeplearning
+
  Hardware
   * [AMD] - Another supplier of [GPUs]
   * [Cortical Labs] - Use biological [neurons] to use as AI 
+  * [Intel] - Build CPUs and now includes tensor processing in them
   * [Koniku](https://koniku.com/) - Use biological [neurons] to compete with regular computers
   * [Nvidia] - The leading supplier of [GPU]
 
  {% youtube "https://www.youtube.com/watch?v=62ptqfCcizQ" %}
 
+ {% pdf "https://mattturck.com/landscape/mad2023.pdf" %}
+
  More at:
+  * ML, AI, Data (MAD)
+    * interactive - [https://mad.firstmark.com/](https://mad.firstmark.com/)
+    * 2023 blog post - [https://mattturck.com/mad2023/](https://mattturck.com/mad2023/)
+    * 2021 blog post - [https://mattturck.com/mad2021/](https://mattturck.com/mad2021/)
   * Forbes AI top 50:
     * 2023 
       * [https://www.forbes.com/lists/ai50/?sh=1f9472b1290f](https://www.forbes.com/lists/ai50/?sh=1f9472b1290f)
@@ -643,6 +731,13 @@ print(query_result)
 
  See also [C], ...
 
+
+# Concurrency
+# Concurrency
+# Concurrency
+# Concurrency
+
+ Concurrency in the context of indexing refers to the ability of a database management system to handle multiple transactions simultaneouslyy without causing data inconsistency or corruption. In other words, it ensures that data remains consistent and accurate even when multiple users are accessing it at the same time.
 
 # Conditioning
 
@@ -892,7 +987,7 @@ print(query_result)
  More at:
    * [https://medium.com/huggingface/state-of-the-art-neural-coreference-resolution-for-chatbots-3302365dcf30](https://medium.com/huggingface/state-of-the-art-neural-coreference-resolution-for-chatbots-3302365dcf30)
 
- See also [C], [NLP Benchmark]
+ See also [C], [Benchmark]
 
 
 # CoreML Format
@@ -924,9 +1019,9 @@ print(query_result)
 
 # Corpus
 
- GPT-3 is pre-trained on a corpus of text from five datasets: Common Crawl, WebText2, Books1, Books2, and Wikipedia..
+ GPT-3 is pre-trained on a corpus of text from five datasets: [Common Crawl], WebText2, Books1, Books2, and Wikipedia..
   * Colossal Clean Crawled Corpus (C4) : Used by T5 model
-  * Common Crawl : The Common Crawl corpus (collection of texts) comprises petabytes of data including raw web page data, metadata, and text data collected over eight years of web crawling. OpenAI researchers use a curated, filtered version of this dataset.
+  * [Common Crawl] : The Common Crawl corpus (collection of texts) comprises petabytes of data including raw web page data, metadata, and text data collected over eight years of web crawling. OpenAI researchers use a curated, filtered version of this dataset.
   * Web2text : WebText2 is an expanded version of the WebText dataset, which is an internal OpenAI corpus created by scraping web pages of particularly high quality. To vet for quality, the authors scraped all outbound links from Reddit that received at least three karma (an indicator for whether other users found the link interesting, educational, or just funny). WebText2 contains 40 gigabytes of text from these 45 million links, over 8 million documents.
   * Book1 and Book2 : Books1 and Books2 are two corpora (plural of corpus) that contain the text of tens of thousands of books on various subjects.
   * Wikipedia : The Wikipedia corpus is a collection including all English-language articles from the crowdsourced online encyclopedia Wikipedia at the time of finalizing the GPT-3’s dataset in 2019. This dataset has roughly 5.8 million English articles.
@@ -1183,12 +1278,12 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
 # Cross-Validation Sampling Method
 
+ = to merge in [k-fold cross validation]?
+
  Cross-validation is a powerful preventative measure against overfitting. The idea is clever: Use your initial training data to generate multiple mini train-test splits. Use these splits to tune your model. In standard k-fold cross-validation, we partition the data into k subsets, called folds. Then, we iteratively train the algorithm on k-1 folds while using the remaining fold as the test set (called the “holdout fold”). Cross-validation allows you to tune hyperparameters with only your original training set. This allows you to keep your test set as a truly unseen dataset for selecting your final model.
 
- ![]( {{site.assets}}/c/kfold_cross_validation.png ){: width="100%"}
-
  More at:
-   * 
+   * ...
 
  See also [C], [Dataset], [Development Subset], [Holdout Fold], [Resampling Method], [Testing Subset], [Training Subset]
 
@@ -1240,6 +1335,23 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
  More at:
   * random distillation paper - [https://arxiv.org/abs/1810.12894](https://arxiv.org/abs/1810.12894)
+
+ See also [C], ...
+
+
+# Curriculum Learning
+
+ When you teach addition, do you start with a complex or simple example?
+
+ Curriculum learning is a training strategy in machine learning where models are trained on increasingly complex subsets of the full training data. The idea is to start with easier examples first and then gradually increase the difficulty as the model learns. Some key aspects of curriculum learning:
+  * Data is organized from simple to complex. For example, in image classification, the model may first be trained on images with solid backgrounds before moving to more varied images.
+  * The curriculum is designed thoughtfully based on some measure of "difficulty". This could be manually defined by a human or automated based on model performance.
+  * Models are able to master simpler concepts first, which provides a better initialization for learning more complex examples later.
+  * Curriculum learning can lead to faster convergence compared to training on all data from the start.
+  * It is most useful when the training data has an inherent meaningful order from simple to complex. Curriculum design is important.
+  * Curriculum learning has been shown to be beneficial for training deep neural networks in domains like computer vision and natural language processing.
+
+ So in summary, curriculum learning trains models incrementally on curated subsets of data ordered by increasing complexity, allowing for faster and more robust learning. The curriculum design and measures of difficulty are key aspects.
 
  See also [C], ...
 

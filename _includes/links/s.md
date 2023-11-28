@@ -52,6 +52,8 @@
 [Sequence To Sequence Transformer]: {{ site.baseurl}}{% link glossary/s.md %}#sequence-to-sequence-transformer
 [Seq2Seq Transformer]: {{ site.baseurl}}{% link glossary/s.md %}#seq2seq-transformer
 [Serialized Flat File]: {{ site.baseurl}}{% link glossary/s.md %}#serialized-flat-file
+[Shallow Neural Network]: {{ site.baseurl}}{% link glossary/s.md %}#shallow-neural-network
+[Shallow Neural Networks]: {{ site.baseurl}}{% link glossary/s.md %}#shallow-neural-network
 [Shapley Additive Explanations Value]: {{ site.baseurl}}{% link glossary/s.md %}#shapley-additive-explanations-value
 [SHAP Value]: {{ site.baseurl}}{% link glossary/s.md %}#shapley-additive-explanations-value
 [Shapley Value]: {{ site.baseurl}}{% link glossary/s.md %}#shaplet-value
@@ -62,7 +64,9 @@
 [Sigmoid Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-activation-function
 [Sigmoid Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-function
 [Similarity Function]: {{ site.baseurl}}{% link glossary/s.md %}#similarity-function
+[Similarity Functions]: {{ site.baseurl}}{% link glossary/s.md %}#similarity-function
 [Similarity]: {{ site.baseurl}}{% link glossary/s.md %}#similarity-function
+[Similarity Search]: {{ site.baseurl}}{% link glossary/s.md %}#similarity-search
 [Simulated Policy Learning Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-policy-learning-algorithm
 [SimPLe Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-policy-learning-algorithm
 [SimPLe]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-policy-learning-algorithm
@@ -85,6 +89,7 @@
 [Snorkel Program]: {{ site.baseurl}}{% link glossary/s.md %}#snorkel-program
 [Sobol Search]: {{ site.baseurl}}{% link glossary/s.md %}#sobol-search
 [Social Robot]: {{ site.baseurl}}{% link glossary/s.md %}#social-robot
+[Society Of Mind]: {{ site.baseurl}}{% link glossary/s.md %}#society-of-mind
 [Soft Actor-Critic Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#soft-actor-critic-algorithm
 [Soft Actor-Critic]: {{ site.baseurl}}{% link glossary/s.md %}#soft-actor-critic-algorithm
 [SAC Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#soft-actor-critic-algorithm
@@ -95,10 +100,14 @@
 [Softplus Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#softplus-activation-function
 [Software 1.0]: {{ site.baseurl}}{% link glossary/s.md %}#software-1-0
 [Software 2.0]: {{ site.baseurl}}{% link glossary/s.md %}#software-2-0
+[Software Development Life Cycle]: {{ site.baseurl}}{% link glossary/s.md %}#software-development-life-cycle
+[SDLC]: {{ site.baseurl}}{% link glossary/s.md %}#software-development-life-cycle
 [Software Development Life Cycle Agent]: {{ site.baseurl}}{% link glossary/s.md %}#software-development-life-cycle-agent
 [SDLC Agent]: {{ site.baseurl}}{% link glossary/s.md %}#software-development-lifecycle-agent
 [Sophia Robot]: {{ site.baseurl}}{% link glossary/s.md %}#sophia-robot
 [Sound Analysis]: {{ site.baseurl}}{% link glossary/s.md %}#sound-analysis
+[Soul Machine Company]: {{ site.baseurl}}{% link glossary/s.md %}#soul-machine-company
+[Soul Machine]: {{ site.baseurl}}{% link glossary/s.md %}#soul-machine-company
 [Source Knowledge]: {{ site.baseurl}}{% link glossary/s.md %}#source-knowledge
 [Spam Detection]: {{ site.baseurl}}{% link glossary/s.md %}#spam-detection
 [Space]: {{ site.baseurl}}{% link glossary/s.md %}#space
@@ -115,6 +124,8 @@
 [STT]: {{ site.baseurl}}{% link glossary/s.md %}#speech-to-text
 [Speechx Model]: {{ site.baseurl}}{% link glossary/s.md %}#speechx-model
 [Speechx]: {{ site.baseurl}}{% link glossary/s.md %}#speechx-model
+[Spot Robot]: {{ site.baseurl}}{% link glossary/s.md %}#spot-robot
+[Spot]: {{ site.baseurl}}{% link glossary/s.md %}#spot-robot
 [SQuAD Benchmark]: {{ site.baseurl}}{% link glossary/s.md %}#squad-benchmark
 [Stability AI Company]: {{ site.baseurl}}{% link glossary/s.md %}#stability-ai-company
 [Stability AI]: {{ site.baseurl}}{% link glossary/s.md %}#stability-ai-company
@@ -148,6 +159,7 @@
 [Statistical Model]: {{ site.baseurl}}{% link glossary/s.md %}#statistical-model
 [Statistics]: {{ site.baseurl}}{% link glossary/s.md %}#statistics
 [Step Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#step-activation-function
+[Step-Back Prompting]: {{ site.baseurl}}{% link glossary/s.md %}#step-back-prompting
 [Stereo Vision]: {{ site.baseurl}}{% link glossary/s.md %}#stereo-vision
 [Stochastic Gradient Descent Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-gradient-descent-algorithm
 [Stochastic Gradient Descent]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-gradient-descent-algorithm
@@ -155,6 +167,8 @@
 [SGD]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-gradient-descent-algorithm
 [Stochastic Node]: {{ site.baseurl}}{% link glossary/s.md %}#stochastic-node
 [Streamlit]: {{ site.baseurl}}{% link glossary/s.md %}#streamlit
+[Stretch Robot]: {{ site.baseurl}}{% link glossary/s.md %}#stretch-robot
+[Stretch]: {{ site.baseurl}}{% link glossary/s.md %}#stretch-robot
 [Strong Artificial Intelligence]: {{ site.baseurl}}{% link glossary/s.md %}#strong-artificial-intelligence
 [Strong AI]: {{ site.baseurl}}{% link glossary/s.md %}#strong-ai
 [Structured Data]: {{ site.baseurl}}{% link glossary/s.md %}#structured-data
@@ -172,12 +186,15 @@
 [SFT]: {{ site.baseurl}}{% link glossary/s.md %}#supervised-fine-tuning
 [Supervised Learning]: {{ site.baseurl}}{% link glossary/s.md %}#supervised-learning
 [Supervisor]: {{ site.baseurl}}{% link glossary/s.md %}#supervisor
+[Supply Chain Vulnerability]: {{ site.baseurl}}{% link glossary/s.md %}#supply-chain-vulnerability
+[Supply Chain Vulnerabilities]: {{ site.baseurl}}{% link glossary/s.md %}#supply-chain-vulnerabilities
 [Support Vector]: {{ site.baseurl}}{% link glossary/s.md %}#support-vector
 [Support Vector Classifier]: {{ site.baseurl}}{% link glossary/s.md %}#support-vector-classifier
 [SVC]: {{ site.baseurl}}{% link glossary/s.md %}#support-vector-classifier
 [Support Vector Machine]: {{ site.baseurl}}{% link glossary/s.md %}#support-vector-machine
 [SVM]: {{ site.baseurl}}{% link glossary/s.md %}#support-vector-machine
 [Surrogate Model]: {{ site.baseurl}}{% link glossary/s.md %}#surrogate-model
+[Swarm Artificial Intelligence]: {{ site.baseurl}}{% link glossary/s.md %}#swarm-artificial-intelligence
 [Switch Transformer]: {{ site.baseurl}}{% link glossary/s.md %}#switch-transformer
 [Synapse]: {{ site.baseurl}}{% link glossary/s.md %}#synapse
 [Synthesia Company]: {{ site.baseurl}}{% link glossary/s.md %}#synthesia-company

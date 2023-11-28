@@ -19,6 +19,10 @@
 [QLoRA]: {{ site.baseurl}}{% link glossary/q.md %}#quantized-and-low-rank-adapter
 [Quantized Signal]: {{ site.baseurl}}{% link glossary/q.md %}#quantized-signal
 [Quantizer]: {{ site.baseurl}}{% link glossary/q.md %}#quantizer
+[Quantum Artificial Intelligence]: {{ site.baseurl}}{% link glossary/q.md %}#quantum-artificial-intelligence
+[Quantum AI]: {{ site.baseurl}}{% link glossary/q.md %}#quantum-artificial-intelligence
+[Quantum Language Processing]: {{ site.baseurl}}{% link glossary/q.md %}#quantum-language-processing
+[QLP]: {{ site.baseurl}}{% link glossary/q.md %}#quantum-language-processing
 [Question Answering]: {{ site.baseurl}}{% link glossary/q.md %}#question-answering
 [QA]: {{ site.baseurl}}{% link glossary/q.md %}#qa
 [Question Answering Graph Neural Network]: {{ site.baseurl}}{% link glossary/q.md %}#question-answering-graph-neural-network

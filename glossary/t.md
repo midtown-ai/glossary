@@ -181,6 +181,23 @@ layout: page
  See also [T], ...
 
 
+# Temperature
+
+ This [inference configuration parameter] helps to control the randomness of the model output by modifying the shape of the next-token probability distribution. In general, the higher the temperature, the higher the randomness; the lower the temperature, the lower the randomness.
+
+ In contrast to [sample top-k] and [sample top-p], changing the temperature actually changes the next-token probability distribution, which ultimately affects the next-token prediction.
+
+ A low temperature, below 1 for example, results in stronger peaks where the probabilities are concentrated among a smaller subset of tokens. A higher temperature, above 1 for example, results in a flatter next-token probability distribution where the probabilities are more evenly spread across the tokens. Setting the temperature to 1 leaves the next-token probability distribution unaltered, which represents the distribution learned during model training and tuning.
+
+ ![]( {{site.assets}}/t/temperature.jpeg ){: width="100%"}
+
+ In both cases, the model selects the next token from the modified probability distribution using either [greedy sampling] or [random sampling], which is orthogonal to the temperature parameter.
+
+ Note that if the temperature value is too low, the model may generate more repetitions; if the temperature is too high, the model may generate nonsensical output. However, starting with a temperate value of 1 is usually a good strategy.
+
+ See also [T], ...
+
+
 # Tensor
 
  A matrix (not a vector) of inputs. Ex an image is converted to a tensor and fed to the input of a convolutional neural network.
@@ -189,7 +206,6 @@ layout: page
 
 
 # Tensor Processing Unit
-
 # TPU
 
  GPU-like hardware built by [Google] specifically to run AI/ML training and accelerate deployed model inferences
@@ -205,7 +221,6 @@ layout: page
 
 
 # TensorRT Software Development Kit
-
 # TensorRT SDK
 
  A SDK developed by [Nvidia]
@@ -231,7 +246,6 @@ layout: page
 
 
 # Term Frequency
-
 # TF
 
  measures how frequently a term occurs in a document. Since every document is different in length, it is possible that a term would appear much more times in long documents than shorter ones. Thus, the term frequency is often divided by the document length (aka. the total number of terms in the document) as a way of normalization:
@@ -293,6 +307,10 @@ layout: page
  Summarizing a text involves reducing its size while keeping key information and the essential meaning. Some everyday examples of text summarization are news headlines, movie previews, newsletter production, financial research, legal contract analysis, and email summaries, as well as applications delivering news feeds, reports, and emails.
 
  Summarization can be evaluated using the [ROUGE Score]
+
+ For documents that are very long, the recommended approach is to use a summary of summaries! This also helps navigating a long document.
+
+ ![]( {{site.assets}}/t/text_summarization_summary_of_summaries.png ){: width="100%"}
 
  See also [T], [Natural Language Processing]
 
@@ -380,11 +398,6 @@ layout: page
   * paper - [https://arxiv.org/abs/2302.02083](https://arxiv.org/abs/2302.02083)
 
  See also [T], [Emergent Ability], [GPT Model], [Large Language Model]
-
-
-# Threat Model
-
- See also [T], [Adversarial Attack], [Adversarial Policy]
 
 
 # Time-Series Predictive Analysis
@@ -482,6 +495,34 @@ vocab[2], vocab[13884], vocab[5], \
 
  More at:
   * [https://beta.tome.app/](https://beta.tome.app/)
+
+ See also [T], ...
+
+
+# Top-K Random Sampling
+
+ ~ an [inference configuration parameter] used to limit the number of tokens to select from. A variation on [top-p random sampling].
+
+ One of the most common [inference configuration parameters] when using [random sampling]. These parameters provide more fine-grained control for the random sample which, if used properly, should improve the model’s response yet allow it to be creative enough to fulfill the generative task.
+
+ Sample top-k limits the model to choose a token randomly from only the top-k tokens with the highest probability. For example, if k is set to 3, you are restricting the model to choose from only the top-3 tokens using the weighted random-sampling strategy. In this case, the model randomly chooses “from” as the next token, although it could have selected from one of the other two, as shown in
+
+ ![]( {{site.assets}}/t/top_k_random_sampling.png ){: width="100%"}
+
+ Note that setting top-k to a higher number can help reduce repetitiveness, while setting top k to 1 basically gives you [greedy sampling].
+
+ See also [T], ...
+
+
+# Top-P Random Sampling
+
+ ~ an [inference configuration parameter] used to limit the number of tokens to select from. A variation on [top-K random sampling].
+
+ Sample top-p limits the model to randomly sample from the set of tokens whose cumulative probabilities do not exceed p, starting from the highest probability working down to the lowest probability. To illustrate this, first sort the tokens in descending order based on the probability. Then select a subset of tokens whose cumulative probability scores do not exceed p.
+
+ For example, if p = 0.32, the options are “learns”, “from”, and “student” since their probabilities of 0.20, 0.10, and 0.02, respectively, add up to 0.32. The model then uses the weighted random-sampling strategy to choose the next token, “student” in this case, from this subset of tokens, as shown below
+
+ ![]( {{site.assets}}/t/top_p_random_sampling.png ){: width="100%"}
 
  See also [T], ...
 

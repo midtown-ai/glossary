@@ -17,10 +17,8 @@
 [Natural Language Generation]: {{ site.baseurl }}{% link glossary/n.md %}#natural-language-generation
 [Natural Language Processing]: {{ site.baseurl }}{% link glossary/n.md %}#natural-language-processing
 [NLP]: {{ site.baseurl }}{% link glossary/n.md %}#natural-language-processing
-[Natural Language Programming Benchmark]: {{ site.baseurl }}{% link glossary/n.md %}#natural-language-programming-benchmark
-[NLP Benchmark]: {{ site.baseurl }}{% link glossary/n.md %}#natural-language-programming-benchmark
-[Natural Language Programming Metric]: {{ site.baseurl }}{% link glossary/n.md %}#natural-language-programming-metric
-[NLP Metric]: {{ site.baseurl }}{% link glossary/n.md %}#natural-language-programming-metric
+[Natural Language Programming Score]: {{ site.baseurl }}{% link glossary/n.md %}#natural-language-programming-score
+[NLP Score]: {{ site.baseurl }}{% link glossary/n.md %}#natural-language-programming-metric
 [Natural Language ToolKit]: {{ site.baseurl }}{% link glossary/n.md %}#natural-language-toolkit
 [NLTK]: {{ site.baseurl }}{% link glossary/n.md %}#natural-language-toolkit
 [Natural Language Interpretation]: {{ site.baseurl }}{% link glossary/n.md %}#natural-language-interpretation
@@ -63,6 +61,7 @@
 [NSP]: {{ site.baseurl }}{% link glossary/n.md %}#next-sentence-prediction
 [Next Word Prediction]: {{ site.baseurl }}{% link glossary/n.md %}#next-word-prediction
 [Node]: {{ site.baseurl }}{% link glossary/n.md %}#node
+[Node Classification]: {{ site.baseurl }}{% link glossary/n.md %}#node-classification
 [Node2Vec Model]: {{ site.baseurl }}{% link glossary/n.md %}#node2vec-model
 [Node2Vec]: {{ site.baseurl }}{% link glossary/n.md %}#node2vec-model
 [Noise]: {{ site.baseurl }}{% link glossary/n.md %}#noise

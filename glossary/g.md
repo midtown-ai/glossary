@@ -30,7 +30,6 @@ layout: page
 
 
 # Galactica Large Language Model
-
 # Galactica LLM
 
  Galactica is “a [large language model] that can store, combine and reason about scientific knowledge,” according to a paper published by [Meta] AI. It is a transformer model that has been trained on a carefully curated dataset of 48 million papers, textbooks and lecture notes, millions of compounds and proteins, scientific websites, encyclopedias, and more. Galactica was supposed to help scientists navigate the ton of published scientific information. Its developers presented it as being able to find citations, summarize academic literature, solve math problems, and perform other tasks that help scientists in research and writing papers.
@@ -107,7 +106,6 @@ layout: page
 
 
 # Gaussian Error Linear Unit Activation Function
-
 # GELU Activation Function
 
  GELU activation functions are used in GPT-3, BERT, and most other [Transformer architecture] models.
@@ -172,8 +170,35 @@ output = m(input)
  See also [G], ...
 
 
-# General Language Understanding Evaluation Benchmark
+# General Artificial Intelligence Assistant Benchmark
+# GAIA Benchmark
 
+ ~ a [benchmark] for General [AI Assistants].
+
+ Created by researchers from [Meta], [Hugging Face], [AutoGPT] and [GenAI], the benchmark “proposes real-world questions that require a set of fundamental abilities such as reasoning, multi-modality handling, web browsing, and generally tool-use proficiency,”
+
+ The researchers said GAIA questions are “conceptually simple for humans yet challenging for most advanced AIs.” They tested the benchmark on human respondents and [GPT-4], finding that humans scored 92 percent while [GPT-4] with plugins scored only 15 percent.
+
+ ```
+# Example of questions
+ Question:
+ I’m researching species that became invasive after people who kept them as pets released them. There’s a certain species of fish that was popularized as a pet by being the main character of the movie Finding Nemo. According to the USGS, where was this fish found as a nonnative species, before the year 2020? I need the answer formatted as the five-digit zip codes of the places the species was found, separated by commas if there is more than one place.
+
+ Answer: 34689
+ ```
+  
+ {% pdf "https://arxiv.org/pdf/2311.12983.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2311.12983](https://arxiv.org/abs/2311.12983)
+  * site - [https://huggingface.co/gaia-benchmark](https://huggingface.co/gaia-benchmark)
+  * dataset - [https://huggingface.co/datasets/gaia-benchmark/GAIA](https://huggingface.co/datasets/gaia-benchmark/GAIA)
+  * leaderboard - [https://huggingface.co/spaces/gaia-benchmark/leaderboard](https://huggingface.co/spaces/gaia-benchmark/leaderboard)
+
+ See also [G], ...
+
+
+# General Language Understanding Evaluation Benchmark
 # GLUE Benchmark
 
  The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems. GLUE consists of:
@@ -192,7 +217,6 @@ output = m(input)
 
 
 # Generalized Additive 2 Model
-
 # GA2M
 
  Use GA2Ms if they are significantly more accurate than [GAMs][GAM], especially if you believe from your domain knowledge that there are real feature interactions, but they are not too complex. This also gives the advantages of a [White Box Model], with more effort to interpret.
@@ -204,7 +228,6 @@ output = m(input)
 
 
 # Generalized Additive Model
-
 # GAM
 
  Generalized Additive Models (GAMs) were developed in the 1990s by Hastie and Tibshirani. 
@@ -216,7 +239,6 @@ output = m(input)
 
 
 # Generative Adversarial Network
-
 # GAN
 
  So why do we want a generative model? Well, it’s in the name! We wish to generate something an image, music, something! But what do we wish to generate? `Typically, we wish to generate data` (I know, not very specific). More than that though, it is likely that we wish to generate data that is never before seen, yet still fits into some data distribution (i.e. some pre-defined dataset that we have already set aside and that was used to build a discriminator). GANs, a generative AI technique, pit 2 networks against each other to generate new content. The algorithm consists of two competing networks: a generator and a discriminator. A generator is a convolutional neural network (CNN) that learns to create new data resembling the source data it was trained on. The discriminator is another convolutional neural network (CNN) that is trained to differentiate between real and synthetic data. The generator and the discriminator are trained in alternating cycles such that the generator learns to produce more and more realistic data while the discriminator iteratively gets better at learning to differentiate real data from the newly created data.
@@ -241,8 +263,8 @@ output = m(input)
 
 
 # Generative Artificial Intelligence
-
 # Generative AI
+# GenAI
 
  Generative artificial intelligence (AI) describes algorithms (such as ChatGPT) that can be used to create new content, including audio, code, images, text, simulations, and videos. Recent new breakthroughs in the field have the potential to drastically change the way we approach content creation.
 
@@ -250,6 +272,20 @@ output = m(input)
   * https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-generative-ai
 
  See also [G], [DALL-E Model], [ChatGPT Model]
+
+
+# Generative Artificial Intelligence Risk
+# Generative AI Risk
+# GenAI Risk
+
+ Based on California's [executive order on AI]
+
+ {% pdf "https://www.govops.ca.gov/wp-content/uploads/sites/11/2023/11/GenAI-EO-1-Report_FINAL.pdf" %}
+
+ More at:
+  * [https://www.gov.ca.gov/2023/11/21/newsom-administration-releases-genai-report/](https://www.gov.ca.gov/2023/11/21/newsom-administration-releases-genai-report/)
+
+ See also [G], [AI Risk]
 
 
 # Generative Classifier
@@ -294,27 +330,26 @@ output = m(input)
  
 
 # Generative Pre-Trained Transformer Model
-
 # GPT Model
+# GPT-3 Model
+# GPT-4 Model
 
-# GPT-3
-
-# GPT-4
-
- Before GPT-3 there was no general language model that could perform well on an array of NLP tasks. Language models were designed to perform one specific NLP task, such as text generation, summarization, or classification, using existing algorithms and architectures. GPT-3 has extraordinary capabilities as a general language model. GPT-3 is pre-trained on a corpus of text from five datasets: Common Crawl, !WebText2, Books1, Books2, and Wikipedia. 
+ Before GPT-3 there was no general language model that could perform well on an array of [NLP] tasks. Language models were designed to perform one specific NLP task, such as text generation, summarization, or classification, using existing algorithms and architectures. GPT-3 has extraordinary capabilities as a general language model. GPT-3 is pre-trained on a corpus of text from five datasets: [Common Crawl] (Internet), WebText2, Books1, Books2, and Wikipedia. 
   * By default, GPT-2 remembers the last 1024 words. That the max? length of the left-side context?
-  * GPT-3 possesses 175 billion weights connecting the equivalent of 8.3 million [artificial neurons][Artificial Neuron] arranged 384 layers deep.
+  * GPT-3 possesses 175 billion weights connecting the equivalent of 8.3 million [artificial neurons] arranged 384 layers deep.
     * GPT-2 and GPT-3 have fundamentally the same architecture
     * But each generation of models ~ 10-100x increase in compute/size
     * The difference in using these models is qualitatively extremely different
 
- {% pdf "{{site.assets}}/g/gpt3_model_paper.pdf" %}
+ Here is the paper about GPT-3 in 2020
+
+ {% pdf "https://arxiv.org/pdf/2005.14165v4.pdf" %}
 
  GPT4 released on Tuesday 03/14/2023
 
  ![]( {{site.assets}}/g/gpt4_model_exams.png ){: width="100%"}
 
- {% pdf "{{site.assets}}/g/gpt4_model_paper.pdf" %}
+ {% pdf "https://cdn.openai.com/papers/gpt-4.pdf" %}
 
  Early experiment with GPT-4 have shown sparks of [Artificial General Intelligence]!
 
@@ -324,14 +359,18 @@ output = m(input)
 
  {% youtube "https://www.youtube.com/watch?v=6Hewb1wlOlo" %}
 
+ {% pdf "https://arxiv.org/pdf/2303.10130.pdf" %}
+
  More at:
    * GPT-1 paper - [https://paperswithcode.com/paper/improving-language-understanding-by](https://paperswithcode.com/paper/improving-language-understanding-by)
    * GPT-2 paper - [https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) (also attached)
-   * GPT-3 paper -
+   * GPT-3 paper - [https://arxiv.org/abs/2005.14165v4](https://arxiv.org/abs/2005.14165v4)
    * GPT-4 paper - [https://cdn.openai.com/papers/gpt-4.pdf](https://cdn.openai.com/papers/gpt-4.pdf)
    * GPT-4 site - [https://openai.com/research/gpt-4](https://openai.com/research/gpt-4)
    * GPT fine-tuning - [https://platform.openai.com/docs/guides/fine-tuning](https://platform.openai.com/docs/guides/fine-tuning)
    * gpt vs chatgpt vs instructgpt - [https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5](https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5)
+   * GPT-4V(ision) - [https://openai.com/research/gpt-4v-system-card](https://openai.com/research/gpt-4v-system-card)
+   * GPTs are GPTs papers - [https://arxiv.org/abs/2303.10130](https://arxiv.org/abs/2303.10130)
 
  See also [G], [ChatGPT Model], [Digital Watermark], [Fine-Tuning], [GPT Function Calling], [InstructGPT Model], [Natural Language Processing], [Pre-Trained Model], [RadioGPT], [WebGPT Model]
 
@@ -422,7 +461,19 @@ output = m(input)
  See also [G], [DALL-E Model]
 
 
-# GloVe
+# Global Vector Algorithm
+# GloVe Algorithm
+
+ Global Vectors for Word Representation developed by the Stanford NLP Team, deprecated by [Word2Vec] ?
+
+ GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space.
+
+ Released in 08/2014, updated in 2015
+
+ {% pdf "https://nlp.stanford.edu/pubs/glove.pdf" %}
+
+ More at:
+  * site - [https://nlp.stanford.edu/projects/glove/](https://nlp.stanford.edu/projects/glove/)
 
  See also [G], [Word Embedding Space]
 
@@ -558,7 +609,6 @@ output = m(input)
 
 
 # GPU Technology Conference
-
 # GTC
 
  Annual conference organized by [Nvidia]
@@ -740,6 +790,42 @@ output = m(input)
  See also [G], ...
 
 
+# Graph
+
+ ![]( {{site.assets}}/g/graph.png ){: width="100%"}
+
+ ![]( {{site.assets}}/g/graph_family_tree.png ){: width="100%"}
+
+ ![]( {{site.assets}}/g/graph_image.png ){: width="100%"}
+
+ Algorithms
+  * [Link prediction] for recommendation engine
+  * [Node classification] is for assigning labels to nodes
+  * [Graph classification] is for assigning labels to graph like coworkers, school friends, etc.
+
+ ![]( {{site.assets}}/g/graph_algorithms.png ){: width="100%"}
+
+ More at:
+  * [https://towardsdatascience.com/how-to-convert-any-text-into-a-graph-of-concepts-110844f22a1a](https://towardsdatascience.com/how-to-convert-any-text-into-a-graph-of-concepts-110844f22a1a)
+
+ See also [G], ...
+
+
+# Graph Classification
+
+ Graph classification refers to the task of assigning categories or labels to entire graphs. Some key points:
+  * In graph classification, the samples are entire graphs or networks. The goal is to categorize each graph into a class. This contrasts node-level and edge-level prediction tasks.
+  * For example, graph classification can categorize social networks into types (college friends, work colleagues etc), molecular graph structures into activity classes, or assign genres to graph representations of texts.
+  * A major application of graph classification is in predicting properties and characteristics of molecules based on their chemical compound graph structure.
+  * Typical pipeline involves extracting informative numeric graph-level representations from each graph (graph embeddings), then training a machine learning classifier model on the graph embeddings and graph labels.
+  * Common techniques for representing whole graphs as feature vectors/embeddings include graph kernels, graph neural networks, etc. These capture structural properties of the entire graph beyond individual nodes and edges.
+  * Classical machine learning models like random forests and neural networks can be used for the actual graph categorization once suitable embeddings are extracted.
+
+ In summary, graph classification focuses on categorizing entire graphs into certain classes, by extracting graph-level signatures and training classifiers over labeled graph datasets. This contrasts with node and edge level prediction tasks common in graphical machine learning.
+
+ See also [G], ...
+
+
 # Graph Convolutional Network
 # GCN
 
@@ -752,7 +838,7 @@ output = m(input)
 # Graph Data Science
 # GDS
 
- Language used by the open-source neo4j  graph database database
+ Language used by the open-source neo4j graph database.
 
  More at:
   * [https://neo4j.com/docs/graph-data-science/current/](https://neo4j.com/docs/graph-data-science/current/)
@@ -765,10 +851,6 @@ output = m(input)
  * [Neo4j] --> use [GDS] and [openCypher] language
  * AWS Neptune --> [DGL] and [Gremlin]
  * TigerGraph  --> [GSQL]
-
- Algorithms
-  * [Link Prediction] for recommendation engine
-  * ...
 
  See also [G], ...
 
@@ -859,6 +941,24 @@ output = m(input)
  See also [G], [CPU], [Cuda Core], [Hyperparameter Optimization], [TPU]
 
 
+# Greedy Decoding
+
+ See also [G], ...
+
+
+# Greedy Sampling
+
+ ~ an approach to select a sample among a sample distribution: always take the sample with the highest probability. An alternative to [random sampling].
+
+ During model inference, the model produces a probability distribution across all tokens in the model’s known vocabulary. The model chooses—or samples—a single token from this distribution as the next token to include in the response.
+
+ Most generative model-inference implementations default to greedy sampling, also called greedy decoding. This is the simplest form of next-token prediction, as the model always chooses the word with the highest probability. This method works well for very short generations but may result in repeated tokens or sequences of tokens.
+
+ ![]( {{site.assets}}/g/greedy_sampling.png){: width="100%"}
+
+ See also [G], ...
+
+
 # Greg Brockman Person
 
  {% youtube "https://www.youtube.com/watch?v=YtJEfTTD_Y4" %}
@@ -880,6 +980,27 @@ output = m(input)
   * [https://towardsdatascience.com/a-practical-introduction-to-grid-search-random-search-and-bayes-search-d5580b1d941d](https://towardsdatascience.com/a-practical-introduction-to-grid-search-random-search-and-bayes-search-d5580b1d941d)
 
  See also [G], [Hyperparameter Optimization], [Random Search]
+
+
+# Grok Model
+
+ An LLM build by [xAI]
+
+ ```
+Grok is an AI modeled after the Hitchhiker’s Guide to the Galaxy, so intended to answer almost anything and, far harder, even suggest what questions to ask!
+
+Grok is designed to answer questions with a bit of wit and has a rebellious streak, so please don’t use it if you hate humor!
+
+A unique and fundamental advantage of Grok is that it has real-time knowledge of the world via the 𝕏 platform. It will also answer spicy questions that are rejected by most other AI systems.
+
+Grok is still a very early beta product – the best we could do with 2 months of training – so expect it to improve rapidly with each passing week with your help.
+ ```
+
+ More at:
+  * GROK 1 announcement - [https://x.ai/](https://x.ai/)
+  * Elon Musk on Tweeter - [https://twitter.com/elonmusk/status/1720660977786433810](https://twitter.com/elonmusk/status/1720660977786433810)
+
+ See also [G], ...
 
 
 # Ground Truth

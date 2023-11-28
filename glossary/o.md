@@ -141,6 +141,20 @@ layout: page
  See also [O], ...
 
 
+# Olympus Model
+
+ A LLM developed by [AWS] to compete with [OpenAI]'s [GPT Models] and others.
+
+ Amazon is investing millions of dollars on training an AI codenamed “Olympus,” which is expected to have double the amount of “parameters,” or building blocks that make AI smarter than OpenAI’s GPT-4 model.
+
+ More at:
+  * [https://www.cnn.com/2023/11/11/tech/ai-announcements-big-week](https://www.cnn.com/2023/11/11/tech/ai-announcements-big-week)
+  * [https://www.reuters.com/technology/amazon-sets-new-team-trains-ambitious-ai-model-codenamed-olympus-sources-2023-11-08/](https://www.reuters.com/technology/amazon-sets-new-team-trains-ambitious-ai-model-codenamed-olympus-sources-2023-11-08/)
+  * [https://www.zdnet.com/article/amazon-is-working-on-its-own-chatgpt-competitor-meet-project-olympus/](https://www.zdnet.com/article/amazon-is-working-on-its-own-chatgpt-competitor-meet-project-olympus/)
+
+ See also [O], ...
+
+
 # Omniverse
 
  The metaverse by [Nvidia]

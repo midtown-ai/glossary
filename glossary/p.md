@@ -861,6 +861,23 @@ Prediction Error = actual_value - predicted_value
  See also [P], ...
 
 
+# Product Quantization
+# PQ
+
+ Product quantization is the process where each dataset vector is converted into a short memory-efficient representation (called PQ code). Instead of fully keeping all the vectors, their short representations are stored. At the same time, product quantization is a lossy-compression method which results in lower prediction accuracy but in practice, this algorithm works very well.
+
+ More at:
+  * [https://medium.com/@srivatssan/product-quantization-a2779ace565](https://medium.com/@srivatssan/product-quantization-a2779ace565)
+  * [https://medium.com/towards-data-science/similarity-search-product-quantization-b2a1a6397701](https://medium.com/towards-data-science/similarity-search-product-quantization-b2a1a6397701)
+
+ See also [P], ...
+
+
+# PQ Code
+
+ See also [P], [Product Quantization]
+
+
 # Prompt Engineering
 
  ~ Acquire new capabilities at inference time
@@ -878,13 +895,16 @@ Prediction Error = actual_value - predicted_value
   * [Chain Of Thought (CoT) Prompting][CoT]
   * [Reason-Act (ReAct) Prompting][ReAct]
   * [Self-Consistency (SC) Prompting][SC]
+  * [Step-Back Prompting] - ask a higher level question first, then answer the original question
 
  ![]( {{site.assets}}/p/prompt_engineering_techniques_comparison.png ){: width="100%"}
 
  ![]( {{site.assets}}/p/prompt_engineering_techniques_diagrams.png ){: width="100%"}
 
  More at:
-  * [https://www.promptingguide.ai/](https://www.promptingguide.ai/)
+  * Guide to prompt engineering - [https://www.promptingguide.ai/](https://www.promptingguide.ai/)
+  * Promptbase to buy or sell prompts - [https://promptbase.com/](https://promptbase.com/)
+  * Prompthub.us - [https://www.prompthub.us/](https://www.prompthub.us/)
 
  See also [P], [ChatGPT Model], [DALL-E Model]
 
@@ -900,6 +920,18 @@ Prediction Error = actual_value - predicted_value
 # Prompt Tuning
 
  See [Prompt Engineering]
+
+
+# PromptIDE Application
+
+ Integrated development environment (IDE) developed by [xAI] for prompt engineering and interpretability research
+
+ The [xAI] PromptIDE is an integrated development environment for prompt engineering and interpretability research. It accelerates prompt engineering through an SDK that allows implementing complex prompting techniques and rich analytics that visualize the network's outputs. Used heavily in the development of [Grok].
+
+ More at: 
+  * [https://x.ai/prompt-ide/](https://x.ai/prompt-ide/)
+
+ See also [P], ...
 
 
 # Proximal Policy Optimization Algorithm
@@ -960,6 +992,14 @@ Prediction Error = actual_value - predicted_value
  See also [P], [Isaac Gym], [OpenAI Gym], [RobotSchool]
 
 
+# Pycaret Python Module
+
+ More at:
+  * [https://pycaret.gitbook.io/docs/](https://pycaret.gitbook.io/docs/)
+
+ See also [P], ...
+
+
 # PyGame Python Module
 
  A [Python Module] that ...
@@ -971,7 +1011,6 @@ Prediction Error = actual_value - predicted_value
 
 # Python Module
 
-  * [Argparse] - take command line parameters
   * [Gradio] - to build a basic UI to interface with a model
   * [JAX] - 
   * [Joblib] - to save models in files
@@ -979,12 +1018,14 @@ Prediction Error = actual_value - predicted_value
   * [Matplotlib] - for visualization
   * [Numpy] -
   * [Pandas] - to work with tabular data
+  * [Pycaret] - A low-code machine learning library
   * [PyTorch] - A framework for deep learning
   * [PyTorch Geometric] - A framework for ML on graph
   * [Seaborn] - for visualization
   * [TensorFlow] - a framework for deep learning developed by [Google]
 
  Other modules
+  * [Argparse] - take command line parameters
   * [PyGame] -
 
  See also [P], ...

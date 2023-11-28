@@ -22,6 +22,7 @@
 [Vector Database]: {{ site.baseurl }}{% link glossary/v.md %}#vector-database
 [Vector Search Library]: {{ site.baseurl }}{% link glossary/v.md %}#vector-search-library
 [Vector Search Plugin]: {{ site.baseurl }}{% link glossary/v.md %}#vector-search-plugin
+[Vector Space Collision]: {{ site.baseurl }}{% link glossary/v.md %}#vector-space-collision
 [Viam]: {{ site.baseurl }}{% link glossary/v.md %}#viam
 [Vicuna Model]: {{ site.baseurl }}{% link glossary/v.md %}#vicuna-model
 [Vicuna]: {{ site.baseurl }}{% link glossary/v.md %}#vicuna-model

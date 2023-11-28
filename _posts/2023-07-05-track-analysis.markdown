@@ -196,6 +196,10 @@ ax.plot(x, y, color='cyan', alpha=0.7, linewidth=3, solid_capstyle='round', zord
 
   {% pdf "https://www.remi-coulom.fr/Publications/Thesis.pdf" %}
 
+## F1 and weird racing lines
+
+ {% youtube "https://youtu.be/uIbTPvHFf-w?si=AM2RSWHU8g3lSQ_G" %}
+
 ## Waypoint visualization
 
  {% youtube "https://www.youtube.com/watch?v=bv5VqjWId0o" %}

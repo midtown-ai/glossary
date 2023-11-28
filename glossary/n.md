@@ -92,7 +92,7 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  More at:
   * ...
 
- See also [N], [Entity Extraction], [NLP Benchmark]
+ See also [N], [Benchmark], [Entity Extraction]
 
 
 # Nash Equilibrium
@@ -158,31 +158,13 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], [BERT Model], [Chain Of Thought Prompting], [GPT Model], [Machine Translation], [NLTK], [Question Answering], [Sentiment Analysis], [Seq2Seq Model], [Spam Detection], [Sentiment Analysis], [Spam Filtering], [Text Summarization], [Virtual Assistant]
 
 
-# Natural Language Programming Benchmark
-# NLP Benchmark
-
-  * Coref :  Links pronouns to antecedents. Also capable to take the perspective of a speak, e.g. I, you, my sister, etc refers to different people function of who said it.
-  * [GLUE Benchmark] :
-  * NER : Named Entity Recognition (place, people, date, etc)
-  * Language Parser : Identitfy which group of words go together (as phrase) and which words are the subject or object of a verb.
-  * SNLI : relation between 2 statements (contradict, neutral, or entailment)
-  * [SQuAD Benchmark] : Question and answering
-  * [SuperGLUE Benchmark] :
-  * SRL : Semantic understanding (machine translation, information extraction, text summarization, question answering)
-  * SST-5 : Sentiment analysis - https://paperswithcode.com/sota/sentiment-analysis-on-sst-5-fine-grained
-
-  All of those can be summarize in the [HELM Benchmark]
-
- See also [N], [Benchmark], [Coreference], [Entity Extraction], [Language Parsing], [Model Benchmark], [Named Entity Recognition], [Question Answering], [Semantic Understanding], [Sentiment Analysis], [SNLI]
-
-
-# Natural Language Programming Metric
-# NLP Metric
+# Natural Language Processing Score
+# NLP Score
 
  A metric is applied to one input-output pair. The metric returns a score often evaluated against human output.
 
-  * [BLEU Metric] : for machine translation (and summarization)
-  * [ROUGE Metric] : for machine summarization (and translation)
+  * [BLEU Score] : for machine translation (and summarization)
+  * [ROUGE Score] : for machine summarization (and translation)
 
  See also [N], ...
 
@@ -455,6 +437,20 @@ B: I was just there
 # Node
 
  See [Artificial Neuron]
+
+
+# Node Classification
+
+ Node classification refers to the task of assigning labels or categories to nodes in a graph. Some key points about node classification on graphs:
+  * Graphs represent data as networks with nodes (vertices) and edges (connections between nodes). For example, a social network graph has people as nodes and their friend connections as edges.
+  * In node classification, we want to infer a label or category for nodes based on the graph structure and node attributes. Common node labels may correspond to demographic information, interests, roles, etc.
+It is a form of semi-supervised machine learning, where some nodes have labels and others do not. The labels propagate across graph connections to infer labels for the unlabeled nodes.
+  * Algorithms for node classification use techniques like embedding nodes based on graph structure, then training a classifier on the embeddings and available labels. Examples include label propagation, Graph Neural Networks (GNNs), etc.
+  * Node classification has applications in social network analysis, recommender systems, knowledge graphs, bioinformatics, and anywhere where graph-structured data is available but node attributes need to be inferred.
+
+ In summary, node classification involves using a graph structure to predict or infer the label or category of nodes, when only some nodes have known labels available for training. It allows predicting properties of nodes by learning over connections in the graph.
+
+ See also [N], [Graph]
 
 
 # Node2Vec Model

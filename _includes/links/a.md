@@ -56,9 +56,12 @@
 [Adversarial Model]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-model
 [Adversarial Policy]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-policy
 [Affective Computing]: {{ site.baseurl }}{% link glossary/a.md %}#affective-computing
-[Agent]: {{ site.baseurl }}{% link glossary/a.md %}#agent
+[AI Agent]: {{ site.baseurl }}{% link glossary/a.md %}#ai-agent
+[AI Agents]: {{ site.baseurl }}{% link glossary/a.md %}#ai-agent
 [AI Alignment]: {{ site.baseurl }}{% link glossary/a.md %}#ai-alignment
 [AI Artificial Intelligence Movie]: {{ site.baseurl }}{% link glossary/a.md %}#ai-artificial-intelligence-movie
+[AI Assitant]: {{ site.baseurl }}{% link glossary/a.md %}#ai-assistant
+[AI Assitants]: {{ site.baseurl }}{% link glossary/a.md %}#ai-assistant
 [AI Avatar]: {{ site.baseurl }}{% link glossary/a.md %}#ai-avatar
 [AI Award]: {{ site.baseurl }}{% link glossary/a.md %}#ai-award
 [AI Bias]: {{ site.baseurl }}{% link glossary/a.md %}#ai-bias
@@ -76,6 +79,7 @@
 [AI Movie]: {{ site.baseurl }}{% link glossary/a.md %}#ai-movie
 [AI Paper]: {{ site.baseurl }}{% link glossary/a.md %}#ai-paper
 [AI Principle]: {{ site.baseurl }}{% link glossary/a.md %}#ai-principle
+[AI Quote]: {{ site.baseurl }}{% link glossary/a.md %}#ai-quote
 [AI Research]: {{ site.baseurl }}{% link glossary/a.md %}#ai-research
 [AI Risk]: {{ site.baseurl }}{% link glossary/a.md %}#ai-risk
 [AI Safety]: {{ site.baseurl }}{% link glossary/a.md %}#ai-safety
