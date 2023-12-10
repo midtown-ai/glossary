@@ -10,6 +10,9 @@
 [Action-Value Function]: {{ site.baseurl }}{% link glossary/a.md %}#action-value-function
 [Activation Checkpointing]: {{ site.baseurl }}{% link glossary/a.md %}#activation-checkpointing
 [Activation Function]: {{ site.baseurl }}{% link glossary/a.md %}#activation-function
+[Activation Functions]: {{ site.baseurl }}{% link glossary/a.md %}#activation-function
+[Activation Layer]: {{ site.baseurl }}{% link glossary/a.md %}#activation-layer
+[Activation Layers]: {{ site.baseurl }}{% link glossary/a.md %}#activation-layer
 [Activation Step]: {{ site.baseurl }}{% link glossary/a.md %}#activation-step
 [Active Learning]: {{ site.baseurl }}{% link glossary/a.md %}#active-learning
 [Actor]: {{ site.baseurl }}{% link glossary/a.md %}#actor
@@ -114,6 +117,8 @@
 [AlphaZero]: {{ site.baseurl }}{% link glossary/a.md %}#alphazero-model
 [Amazon Company]: {{ site.baseurl }}{% link glossary/a.md %}#amazon-company
 [Amazon]: {{ site.baseurl }}{% link glossary/a.md %}#amazon-company
+[Amazon Q Chatbot]: {{ site.baseurl }}{% link glossary/a.md %}#amazon-a-chatbot
+[Amazon Q]: {{ site.baseurl }}{% link glossary/a.md %}#amazon-a-chatbot
 [Amazon Web Services]: {{ site.baseurl }}{% link glossary/a.md %}#amazon-web-services
 [AWS]: {{ site.baseurl }}{% link glossary/a.md %}#amazon-web-services
 [Ameca Robot]: {{ site.baseurl }}{% link glossary/a.md %}#ameca-robot
@@ -154,8 +159,8 @@
 [AI Complete]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-complete
 [Artificial Intelligence Hard]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-hard
 [AI Hard]: {{ site.baseurl }}{% link glossary/a.md %}#ai-hard
-[Artificial Intelligence Risk Managment Framework]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-risk-management-framework
-[AI Risk Managment Framework]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-risk-management-framework
+[Artificial Intelligence Risk Management Framework]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-risk-management-framework
+[AI Risk Management Framework]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-risk-management-framework
 [AI RMF]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intelligence-risk-management-framework
 [Artificial Intuition]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-intuition
 [Artificial Narrow Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-narrow-intelligence
@@ -202,6 +207,9 @@
 [AR-CNN]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive-convolutional-neural-network
 [Autoregressive Model]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive-model
 [AR Model]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive-model
+[Average Pooling Layer]: {{ site.baseurl }}{% link glossary/a.md %}#average-pooling-layer
+[Average Pooling Layers]: {{ site.baseurl }}{% link glossary/a.md %}#average-pooling-layer
+[Average Pooling]: {{ site.baseurl }}{% link glossary/a.md %}#average-pooling-layer
 [AWS Bedrock]: {{ site.baseurl }}{% link glossary/a.md %}#aws-bedrock
 [AWS Lex]: {{ site.baseurl }}{% link glossary/a.md %}#aws-lex
 [AWS Polly]: {{ site.baseurl }}{% link glossary/a.md %}#aws-polly

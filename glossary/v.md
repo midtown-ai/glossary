@@ -400,13 +400,15 @@ Currently, standard virtual reality systems use either virtual reality headsets 
 # VGG Model
 
  A model developed by VGG in the Department of Engineering Science, University of Oxford. 
-  * VGG-19 = The number 19 stands for the number of layers with trainable weights. 16 Convolutional layers and 3 Fully Connected layers. The VGG-19 was trained on the ImageNet challenge (ILSVRC) 1000-class classification task. The network takes a (224, 224, 3) RBG image as the input.
+  * VGG-19 = The number 19 stands for the number of layers with trainable weights. 16 [Convolutional layers] with [Max Pooling] and 3 Fully Connected layers. The VGG-19 was trained on the ImageNet challenge (ILSVRC) 1000-class classification task. The network takes a (224, 224, 3) RBG image as the input.
+
+ ![]( {{site.assets}}/v/visual_geometry_group_19_model.webp ){: width="100%"}
 
  More at
   * [https://medium.com/mlearning-ai/image-detection-using-convolutional-neural-networks-89c9e21fffa3](https://medium.com/mlearning-ai/image-detection-using-convolutional-neural-networks-89c9e21fffa3)
   * [https://www.image-net.org/challenges/LSVRC/](https://www.image-net.org/challenges/LSVRC/)
 
- See also [V], [Convoluted Neural Network]
+ See also [V], [Convolutional Neural Network]
 
 
 # Virtual Assistant

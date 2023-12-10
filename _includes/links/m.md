@@ -34,6 +34,8 @@
 [Matrix Rank]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-rank
 [Matrix Spectral Decomposition]: {{ site.baseurl }}{% link glossary/m.md %}#matrix-spectral-decomposition
 [Max Pooling Layer]: {{ site.baseurl }}{% link glossary/m.md %}#max-pooling-layer
+[Max Pooling Layers]: {{ site.baseurl }}{% link glossary/m.md %}#max-pooling-layer
+[Max Pooling]: {{ site.baseurl }}{% link glossary/m.md %}#max-pooling-layer
 [Mean Absolute Error Loss Function]: {{ site.baseurl }}{% link glossary/m.md %}#mean-absolute-error-loss-function
 [Mean Absolute Error]: {{ site.baseurl }}{% link glossary/m.md %}#mean-absolute-error-loss-function
 [MAE Loss Function]: {{ site.baseurl }}{% link glossary/m.md %}#mean-absolute-error-loss-function
@@ -74,6 +76,10 @@
 [Mini-Batch Gradient Descent Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-gradient-descent-algorithm
 [Mini-Batch Gradient Descent]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-gradient-descent-algorithm
 [Minimax Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#minimax-algorithm
+[Mistral AI Company]: {{ site.baseurl }}{% link glossary/m.md %}#mistral-ai-company
+[Mistral AI]: {{ site.baseurl }}{% link glossary/m.md %}#mistral-ai-company
+[Mistral Model]: {{ site.baseurl }}{% link glossary/m.md %}#mistral-model
+[Mistral Models]: {{ site.baseurl }}{% link glossary/m.md %}#mistral-model
 [Mixed Reality]: {{ site.baseurl }}{% link glossary/m.md %}#mixed-reality
 [MR]: {{ site.baseurl }}{% link glossary/m.md %}#mixed-reality
 [Mixture Of Local Experts]: {{ site.baseurl }}{% link glossary/m.md %}#mixture-of-local-exports
@@ -102,6 +108,10 @@
 [Model Format]: {{ site.baseurl }}{% link glossary/m.md %}#model-format
 [Model Inversion]: {{ site.baseurl }}{% link glossary/m.md %}#model-inversion
 [Model Hub]: {{ site.baseurl }}{% link glossary/m.md %}#model-hub
+[Model Predictive Control Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#model-predictive-control-algorithm
+[Model Predictive Control]: {{ site.baseurl }}{% link glossary/m.md %}#model-predictive-control-algorithm
+[MPC Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#model-predictive-control-algorithm
+[MPC]: {{ site.baseurl }}{% link glossary/m.md %}#model-predictive-control-algorithm
 [Model Release Card]: {{ site.baseurl }}{% link glossary/m.md %}#model-release-card
 [Model Release Frontier]: {{ site.baseurl }}{% link glossary/m.md %}#model-release-frontier
 [Model Scanning]: {{ site.baseurl }}{% link glossary/m.md %}#model-scanning
@@ -123,7 +133,12 @@
 [MNIST Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
 [Modular Reasoning Knowledge and Language]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language
 [MRKL]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language
+[Monte Carlo Tree Search Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#monte-carlo-tree-search-algorithm
+[Monte Carlo Tree Search]: {{ site.baseurl }}{% link glossary/m.md %}#monte-carlo-tree-search-algorithm
+[MCTS Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#monte-carlo-tree-search-algorithm
+[MCTS]: {{ site.baseurl }}{% link glossary/m.md %}#monte-carlo-tree-search-algorithm
 [MuLan Model]: {{ site.baseurl }}{% link glossary/m.md %}#mulan-model
+[Multi-Agent]: {{ site.baseurl }}{% link glossary/m.md %}#multi-agent
 [Multi-Agent Environment]: {{ site.baseurl }}{% link glossary/m.md %}#multi-agent-environment
 [Multi-Agent Reinforcement Learning]: {{ site.baseurl }}{% link glossary/m.md %}#multi-agent-reinforcement-learning
 [Multi-Agent RL]: {{ site.baseurl }}{% link glossary/m.md %}#multi-agent-reinforcement-learning
@@ -139,6 +154,10 @@
 [Multimodal Framework]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-framework
 [MMF]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-framework
 [Multimodal Fusion]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-fusion
+[Multimodal Large Language Model]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-large-language-model
+[Multimodal Large Language Models]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-large-language-model
+[MLLM]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-large-language-model
+[MLLMs]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-large-language-model
 [Multimodal Learning]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-learning
 [Multimodal Space]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-space
 [Multimodal Translation]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-translation

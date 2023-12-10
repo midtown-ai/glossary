@@ -121,6 +121,22 @@ layout: page
  See also [P], [Active Learning], [Random Sampling]
 
 
+# Pathways Autoregressive Text-To-Image Model
+# Parti Model
+
+ We introduce the Pathways Autoregressive Text-to-Image model (Parti), an autoregressive text-to-image generation model that achieves high-fidelity photorealistic image generation and supports content-rich synthesis involving complex compositions and world knowledge. Recent advances with diffusion models for text-to-image generation, such as Google’s Imagen, have also shown impressive capabilities and state-of-the-art performance on research benchmarks. Parti and Imagen are complementary in exploring two different families of generative models – autoregressive and diffusion, respectively – opening exciting opportunities for combinations of these two powerful models.
+
+ Parti treats text-to-image generation as a sequence-to-sequence modeling problem, analogous to machine translation – this allows it to benefit from advances in large language models, especially capabilities that are unlocked by scaling data and model sizes. In this case, the target outputs are sequences of image tokens instead of text tokens in another language. Parti uses the powerful image tokenizer, ViT-VQGAN, to encode images as sequences of discrete tokens, and takes advantage of its ability to reconstruct such image token sequences as high quality, visually diverse images.
+
+ ![]( {{site.assets}}/p/pathways_autoregressive_text_to_image_model.jpeg ){: width="100%"}
+
+ {% pdf "https://arxiv.org/pdf/2206.10789.pdf" %}
+
+ More at:
+  * site - [https://sites.research.google/parti/](https://sites.research.google/parti/)
+  * paper - [https://arxiv.org/abs/2206.10789](https://arxiv.org/abs/2206.10789)
+  * code - [https://github.com/google-research/parti](https://github.com/google-research/parti)
+
 # Pathways Language Model
 # PaLM Model
 
@@ -268,6 +284,16 @@ layout: page
  {% youtube "https://www.youtube.com/watch?v=NURcDHhYe98" %}
 
  See also [P], [Cross-Entropy], [Entropy], [Generative Model], 
+
+
+# Perplexity AI Company
+
+ More at:
+  * [https://www.perplexity.ai/](https://www.perplexity.ai/)
+  * articles
+    * [https://venturebeat.com/ai/perplexity-ai-unveils-online-llms-that-could-dethrone-google-search/](https://venturebeat.com/ai/perplexity-ai-unveils-online-llms-that-could-dethrone-google-search/)
+
+ See also [P], ...
 
 
 # Personal Assistant
@@ -536,6 +562,29 @@ That is: π(s) → a
   * code - [https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html#examples-using-sklearn-preprocessing-polynomialfeatures](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html#examples-using-sklearn-preprocessing-polynomialfeatures)
 
  See also [P], [Cubic Regression], [Quadratic Regression], [Regression]
+
+
+# Pooling Layer
+
+ The layer after [convolutional layer] is mostly pooling layer in [CNN] architecture. It partitions the input image into a set of non-overlapping rectangles and, for each such sub-region, outputs a value. The intuition is that the exact location of a feature is less important than its rough location relative to other features.
+
+ The two main pooling layers are max-pooling and average pooling.
+  * [Max Pooling] - It outputs the maximum value of the sub-region.
+  * [Average Pooling] - It outputs the average value of the sub-region.
+ another is:
+  * [Global Pooling] - It reduces each channel in the feature map to a single value.
+
+ The pooling layer is used to reduce spatial dimensions but not the depth. The main advantages of reducing spatial dimensions are:
+  * By having less spatial information you gain computation performance.
+  * By having less spatial informations means you have less parameters to train the model on thus reduce chances of over-fitting.
+  * You get some translation invariance.
+
+ ![]( {{site.assets}}/p/pooling_layer.gif ){: width="100%"}
+
+ More at:
+  * [https://becominghuman.ai/what-exactly-does-cnn-see-4d436d8e6e52](https://becominghuman.ai/what-exactly-does-cnn-see-4d436d8e6e52)
+
+ See also [P], ...
 
 
 # Pose Estimation
@@ -917,6 +966,16 @@ Prediction Error = actual_value - predicted_value
  See also [P], [ChatGPT Model], [GPT Model]
 
 
+# Prompt Leakage
+
+ similar to [data leakage], where users can trick a model into revealing how it was built through a series of strategic questions.
+
+ More at:
+  * GPT prompt leakage - [https://gizmodo.com/security-vulnerabilities-openai-chatgpt-custom-gpt-1851057912](https://gizmodo.com/security-vulnerabilities-openai-chatgpt-custom-gpt-1851057912)
+
+ See also [P], ...
+
+
 # Prompt Tuning
 
  See [Prompt Engineering]
@@ -1015,6 +1074,8 @@ Prediction Error = actual_value - predicted_value
   * [JAX] - 
   * [Joblib] - to save models in files
   * [LangChain] - LLMOps!
+    * [LangFlow] - 
+    * [LangSmith] - 
   * [Matplotlib] - for visualization
   * [Numpy] -
   * [Pandas] - to work with tabular data

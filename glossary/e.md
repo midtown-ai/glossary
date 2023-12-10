@@ -130,6 +130,8 @@ layout: page
 
  {% youtube "https://www.youtube.com/watch?v=6eb3e9lJ-7s" %}
 
+ {% youtube "https://www.youtube.com/watch?v=5htSGLCroc8" %}
+
  Alternatives
   * [play.ht](https://play.ht/)
   * [coqui.ai](https://coqui.ai/about)
@@ -140,6 +142,8 @@ layout: page
   * [https://www.theverge.com/2023/1/31/23579289/ai-voice-clone-deepfake-abuse-4chan-elevenlabs](https://www.theverge.com/2023/1/31/23579289/ai-voice-clone-deepfake-abuse-4chan-elevenlabs)
   * [https://twitter.com/ramsri_goutham/status/1619620737509396483](https://twitter.com/ramsri_goutham/status/1619620737509396483)
   * [https://ramsrigoutham.medium.com/create-ai-powered-personalized-meditation-videos-d2f76fee03a5](https://ramsrigoutham.medium.com/create-ai-powered-personalized-meditation-videos-d2f76fee03a5)
+  * articles
+    * AI girlfriend - [https://www.ai-jason.com/learning-ai/build-ai-companion](https://www.ai-jason.com/learning-ai/build-ai-companion)
 
  See also [E], ...
 
@@ -1242,6 +1246,8 @@ plt.show()
 
 
  {% youtube "https://www.youtube.com/watch?v=8UT2pha7HO8" %}
+
+ {% youtube "https://www.youtube.com/watch?v=z8Uf-cUSEYQ" %}
 
  {% pdf "https://www.311institute.com/codexes/311%20Institute%20-%20The%20Future%20of%20Exponential%20Technology.pdf" %}
 

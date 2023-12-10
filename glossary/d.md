@@ -29,9 +29,13 @@ layout: page
 {% include links/all.md %}
 
 
-# DALL-E Model
+# DALL-E Models
+# DALL-E2 Model
+# DALL-E3 Model
 
  A play on words between WALL-E and Dali!
+
+ {% pdf "https://cdn.openai.com/papers/DALL_E_3_System_Card.pdf" %}
 
  More at :
   * DALL-E 2
@@ -40,7 +44,9 @@ layout: page
     * how does DALL-E work? - [https://www.assemblyai.com/blog/how-dall-e-2-actually-works/](https://www.assemblyai.com/blog/how-dall-e-2-actually-works/)
     * DALL-E 2 uses CLIP - [https://arxiv.org/abs/2204.06125](https://arxiv.org/abs/2204.06125)
   * DALL-E 3
+    * site - [https://openai.com/dall-e-3](https://openai.com/dall-e-3)
     * site - [https://openai.com/research/dall-e-3-system-card](https://openai.com/research/dall-e-3-system-card)
+    * paper - [https://cdn.openai.com/papers/dall-e-3.pdf](https://cdn.openai.com/papers/dall-e-3.pdf)
 
  See also [D], [CLIP Model], [GLIDE Model]
 
@@ -1022,6 +1028,7 @@ speed.
   * Diffusion Models Beat GANs on Image Synthesis - [https://arxiv.org/pdf/2105.05233.pdf](https://arxiv.org/pdf/2105.05233.pdf)
   * Denoising Diffusion Probabilistic Models - [https://arxiv.org/pdf/2006.11239.pdf](https://arxiv.org/pdf/2006.11239.pdf)
   * Improved Denoising Diffusion Probabilistic Models - [https://arxiv.org/pdf/2102.09672.pdf](https://arxiv.org/pdf/2102.09672.pdf)
+  * Hugging face library - [https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/diffusers_intro.ipynb](https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/diffusers_intro.ipynb)
 
  See also [D], [Generative Model], [Latent Diffusion Model]
 

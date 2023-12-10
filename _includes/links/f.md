@@ -47,7 +47,9 @@
 [FP-Growth Algorithm]: {{site.baseurl }}{% link glossary/f.md %}#frequent-pattern-growth-algorithm
 [FP-Growth]: {{site.baseurl }}{% link glossary/f.md %}#frequent-pattern-growth-algorithm
 [Fully Connected Layer]: {{site.baseurl }}{% link glossary/f.md %}#fully-connected-layer
+[Fully Connected Layers]: {{site.baseurl }}{% link glossary/f.md %}#fully-connected-layer
 [FC Layer]: {{site.baseurl }}{% link glossary/f.md %}#fully-connected-layer
+[FC Layers]: {{site.baseurl }}{% link glossary/f.md %}#fully-connected-layer
 [Function Estimation]: {{site.baseurl }}{% link glossary/f.md %}#function-estimation
 [Fused Kernel]: {{site.baseurl }}{% link glossary/f.md %}#fused-kernel
 [Futuri Media Company]: {{site.baseurl }}{% link glossary/f.md %}#futuri-media-company

@@ -145,7 +145,7 @@ output = m(input)
 
 # Gemini Model
 
- Built by [Google] using [PaLM] to compete with multimodal GPT4
+ Built by [Google] using [PaLM] to compete with the multimodal [GPT-4V model]
 
  More at:
   * Articles
@@ -329,10 +329,27 @@ output = m(input)
  See also [G], [Decoder], [Flow-Based Model], [Masked Self-Attention]
  
 
+# Generative Pre-Trained Transformer Function Calling
+# GPT Function Calling
+
+ {% youtube "https://www.youtube.com/watch?v=JVdFB5hgcwQ" %}
+
+ {% youtube "https://www.youtube.com/watch?v=AetT0ZqwNqY&t=87s" %}
+
+ More at:
+  * articles 
+    * [https://www.ai-jason.com/learning-ai/gpt-functioning-calling-tutorial](https://www.ai-jason.com/learning-ai/gpt-functioning-calling-tutorial)
+    * code - [https://github.com/JayZeeDesign/gpt-function-calling-tutorial/blob/main/app.py](https://github.com/JayZeeDesign/gpt-function-calling-tutorial/blob/main/app.py)
+    * rapidapi hub - [https://rapidapi.com/hub](https://rapidapi.com/hub)
+
+ See also [G], ...
+
+
 # Generative Pre-Trained Transformer Model
 # GPT Model
 # GPT-3 Model
 # GPT-4 Model
+# GPT-4V Model
 
  Before GPT-3 there was no general language model that could perform well on an array of [NLP] tasks. Language models were designed to perform one specific NLP task, such as text generation, summarization, or classification, using existing algorithms and architectures. GPT-3 has extraordinary capabilities as a general language model. GPT-3 is pre-trained on a corpus of text from five datasets: [Common Crawl] (Internet), WebText2, Books1, Books2, and Wikipedia. 
   * By default, GPT-2 remembers the last 1024 words. That the max? length of the left-side context?
@@ -359,7 +376,15 @@ output = m(input)
 
  {% youtube "https://www.youtube.com/watch?v=6Hewb1wlOlo" %}
 
+ A closer look at the multimodal GPT-4V model
+
+ {% pdf "https://cdn.openai.com/papers/GPTV_System_Card.pdf" %}
+
+ Impact on the workforce and companies
+
  {% pdf "https://arxiv.org/pdf/2303.10130.pdf" %}
+
+ {% pdf "https://wp.technologyreview.com/wp-content/uploads/2023/10/MITTR-GenAI-Report-V15_10-6-23.pdf" %}
 
  More at:
    * GPT-1 paper - [https://paperswithcode.com/paper/improving-language-understanding-by](https://paperswithcode.com/paper/improving-language-understanding-by)
@@ -369,8 +394,10 @@ output = m(input)
    * GPT-4 site - [https://openai.com/research/gpt-4](https://openai.com/research/gpt-4)
    * GPT fine-tuning - [https://platform.openai.com/docs/guides/fine-tuning](https://platform.openai.com/docs/guides/fine-tuning)
    * gpt vs chatgpt vs instructgpt - [https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5](https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5)
-   * GPT-4V(ision) - [https://openai.com/research/gpt-4v-system-card](https://openai.com/research/gpt-4v-system-card)
+   * GPT-4V(ision) site + paper - [https://openai.com/research/gpt-4v-system-card](https://openai.com/research/gpt-4v-system-card)
    * GPTs are GPTs papers - [https://arxiv.org/abs/2303.10130](https://arxiv.org/abs/2303.10130)
+   * articles
+     * MIT TR deployment strategy - [https://www.technologyreview.com/2023/10/10/1081117/generative-ai-deployment-strategies-for-smooth-scaling/](https://www.technologyreview.com/2023/10/10/1081117/generative-ai-deployment-strategies-for-smooth-scaling/)
 
  See also [G], [ChatGPT Model], [Digital Watermark], [Fine-Tuning], [GPT Function Calling], [InstructGPT Model], [Natural Language Processing], [Pre-Trained Model], [RadioGPT], [WebGPT Model]
 
@@ -459,6 +486,52 @@ output = m(input)
   * colab notebooks - [https://github.com/openai/glide-text2im/tree/main/notebooks](https://github.com/openai/glide-text2im/tree/main/notebooks)
 
  See also [G], [DALL-E Model]
+
+
+# Global Pooling Layer
+
+ Global pooling reduces each channel in the feature map to a single value. Thus, an nh x nw x nc feature map is reduced to 1 x 1 x nc feature map. This is equivalent to using a filter of dimensions nh x nw i.e. the dimensions of the feature map. 
+ Further, it can be either global max pooling or global average pooling.
+
+ ```
+import numpy as np
+from keras.models import Sequential
+from keras.layers import GlobalMaxPooling2D
+from keras.layers import GlobalAveragePooling2D
+ 
+# define input image
+image = np.array([[2, 2, 7, 3],
+                  [9, 4, 6, 1],
+                  [8, 5, 2, 4],
+                  [3, 1, 2, 6]])
+image = image.reshape(1, 4, 4, 1)
+ 
+# define gm_model containing just a single global-max pooling layer
+gm_model = Sequential(
+    [GlobalMaxPooling2D()])
+ 
+# define ga_model containing just a single global-average pooling layer
+ga_model = Sequential(
+    [GlobalAveragePooling2D()])
+ 
+# generate pooled output
+gm_output = gm_model.predict(image)
+ga_output = ga_model.predict(image)
+ 
+# print output image
+gm_output = np.squeeze(gm_output)
+ga_output = np.squeeze(ga_output)
+print("gm_output: ", gm_output)
+print("ga_output: ", ga_output)
+
+# gm_output:  9.0
+# ga_output:  4.0625
+ ```
+
+ More at:
+  * [https://www.geeksforgeeks.org/cnn-introduction-to-pooling-layer/](https://www.geeksforgeeks.org/cnn-introduction-to-pooling-layer/)
+
+ See also [G], ...
 
 
 # Global Vector Algorithm
@@ -592,13 +665,18 @@ output = m(input)
  See also [G], ...
 
 
-# GPT Function Calling
+# GPT
 
- {% youtube "https://www.youtube.com/watch?v=JVdFB5hgcwQ" %}
+ You can now create custom versions of ChatGPT that combine instructions, extra knowledge, and any combination of skills.
 
- {% youtube "https://www.youtube.com/watch?v=AetT0ZqwNqY&t=87s" %}
+ More at:
+  * announcement - [https://openai.com/blog/introducing-gpts](https://openai.com/blog/introducing-gpts)
+  * create one - [chat.openai.com/create](chat.openai.com/create)
+  * ath mentor - [https://openai.com/chatgpt#do-more-with-gpts](https://openai.com/chatgpt#do-more-with-gpts)
+  * articles
+    * prompt leakage - [https://gizmodo.com/security-vulnerabilities-openai-chatgpt-custom-gpt-1851057912](https://gizmodo.com/security-vulnerabilities-openai-chatgpt-custom-gpt-1851057912)
 
- See also [G], [GPT Model]
+ See also [G], ...
 
 
 # GPU Instance
@@ -1011,6 +1089,35 @@ Grok is still a very early beta product – the best we could do with 2 months o
   * Training: During the training phase, a machine learning model learns from a dataset that includes input features and corresponding ground truth labels. The model adjusts its internal parameters to minimize the discrepancy between its predictions and the ground truth labels.
   * Validation: After training, the model's performance is assessed using a validation dataset that also contains ground truth labels. This helps determine how well the model generalizes to new, unseen data.
   * Testing and Evaluation: Once the model is trained and validated, it's tested on a separate testing dataset with ground truth labels. This final evaluation helps measure the model's real-world performance and its ability to make accurate predictions.
+
+ See also [G], ...
+
+
+# Grouped Query Attention
+# GQA
+
+ ~ a technique that helps getting faster inferences
+
+ Grouped query attention is a technique used in some neural network architectures, particularly in natural language processing models like transformers.
+
+ Used by:
+  * [Mistral Models]
+
+ The key ideas behind grouped query attention are:
+  * Attention mechanisms allow a model to learn what parts of an input to focus on by having later layers give different weights to earlier parts of the input. This helps the model learn complex relationships.
+  * In the standard transformer model, the attention is applied one word at a time across the whole input sequence. This can be inefficient for very long sequences.
+  * Grouped query attention divides the sequence into groups (chunks) and applies attention within each group separately. So each word attends only to other words in its group rather than across the whole sequence.
+  * This reduces the overall computation required for attention while still allowing important context to be incorporated within each group.
+  * The groups/chunks can either be pre-defined blocks or can be learned partitions where the model learns how to best divide the sequence.
+
+ So in summary, grouped query attention applies the power of attention models in a more focused, partitioned way, enabling attention mechanisms to be efficiently scaled to very long sequences. It's an optimization that retains modeling flexibility and enables transformers to handle tasks with longer inputs.
+
+ ![]( {{site.assets}}/g/grouped_query_attention.png ){: width="100%"}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2305.13245v2](https://arxiv.org/abs/2305.13245v2)
+  * code - [https://paperswithcode.com/method/grouped-query-attention](https://paperswithcode.com/method/grouped-query-attention)
+  * more code - [https://paperswithcode.com/paper/gqa-training-generalized-multi-query](https://paperswithcode.com/paper/gqa-training-generalized-multi-query)
 
  See also [G], ...
 

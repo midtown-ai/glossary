@@ -4,8 +4,13 @@
 [Labeling Function]: {{ site.baseurl }}{% link glossary/l.md %}#labeling-function
 [Labeling Service]: {{ site.baseurl }}{% link glossary/l.md %}#labeling-service
 [Labor Market Impact]: {{ site.baseurl }}{% link glossary/l.md %}#labor-market-impact
+[LangChain Hub]: {{ site.baseurl }}{% link glossary/l.md %}#langchain-hub
 [LangChain Python Module]: {{ site.baseurl }}{% link glossary/l.md %}#langchain-python-module
 [LangChain]: {{ site.baseurl }}{% link glossary/l.md %}#langchain-python-module
+[LangFlow Python Module]: {{ site.baseurl }}{% link glossary/l.md %}#langflow-python-module
+[LangFlow]: {{ site.baseurl }}{% link glossary/l.md %}#langflow-python-module
+[LangSmith Python Module]: {{ site.baseurl }}{% link glossary/l.md %}#langsmith-python-module
+[LangSmith]: {{ site.baseurl }}{% link glossary/l.md %}#langsmith-python-module
 [Language Model]: {{ site.baseurl }}{% link glossary/l.md %}#language-model
 [Language Model For Discussion Applications Model]: {{ site.baseurl }}{% link glossary/l.md %}#language-model-for-discussion-applications-model
 [Language Model For Discussion Applications]: {{ site.baseurl }}{% link glossary/l.md %}#language-model-for-discussion-applications-model
@@ -83,6 +88,7 @@
 [LSTM Networks]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-network
 [LSTM]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-network
 [LSTMs]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-network
+[Look-Ahead Planning]: {{ site.baseurl }}{% link glossary/l.md %}#look-ahead-planning
 [Loss Function]: {{ site.baseurl }}{% link glossary/l.md %}#loss-function
 [Loss Graph]: {{ site.baseurl }}{% link glossary/l.md %}#loss-graph
 [Low-Rank Adaptation Fine-Tuning]: {{ site.baseurl }}{% link glossary/l.md %}#low-rank-adaptation-fine-tuning

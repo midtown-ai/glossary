@@ -14,6 +14,8 @@
 [PSO Algorithm]: {{ site.baseurl }}{% link glossary/p.md %}#particule-swarm-optimization-algorithm
 [PSO]: {{ site.baseurl }}{% link glossary/p.md %}#particule-swarm-optimization-algorithm
 [Passive Learning]: {{ site.baseurl }}{% link glossary/p.md %}#passive-learning
+[Pathways Autoregressive Text-to-Image Model]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-autoregressive-text--to-image-model
+[Parti Model]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-autoregressive-text--to-image-model
 [Pathways Language Model]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-language-model
 [PaLM Model]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-language-model
 [Pathways Language Model Embodied]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-language-model-embodied-model
@@ -27,6 +29,8 @@
 [Perceptron]: {{ site.baseurl}}{% link glossary/p.md %}#perceptron
 [Perfect Information]: {{ site.baseurl}}{% link glossary/p.md %}#perfect-information
 [Perplexity]: {{ site.baseurl}}{% link glossary/p.md %}#perplexity
+[Perplexity AI Company]: {{ site.baseurl}}{% link glossary/p.md %}#perplexity-ai-company
+[Perplexity AI]: {{ site.baseurl}}{% link glossary/p.md %}#perplexity-ai-company
 [Personal Assistant]: {{ site.baseurl}}{% link glossary/p.md %}#personal-assistant
 [Phenaki Model]: {{ site.baseurl}}{% link glossary/p.md %}#phenaki-model
 [Piano Roll]: {{ site.baseurl}}{% link glossary/p.md %}#piano-roll
@@ -47,6 +51,8 @@
 [Policy Gradient Algorithms]: {{ site.baseurl}}{% link glossary/p.md %}#policy-gradient-algorithm
 [Policy Neural Network]: {{ site.baseurl}}{% link glossary/p.md %}#policy-neural-network
 [Polynomial Regression]: {{ site.baseurl}}{% link glossary/p.md %}#polynomial-regression
+[Pooling Layer]: {{ site.baseurl}}{% link glossary/p.md %}#pooling-layer
+[Pooling Layers]: {{ site.baseurl}}{% link glossary/p.md %}#pooling-layer
 [Pose Estimation]: {{ site.baseurl}}{% link glossary/p.md %}#pose-estimation
 [Positional Encoding]: {{ site.baseurl}}{% link glossary/p.md %}#positional-encoding
 [Positive And Negative Pairs]: {{ site.baseurl}}{% link glossary/p.md %}#positive-and-negative-pairs
@@ -78,6 +84,7 @@
 [Product Quantization]: {{ site.baseurl}}{% link glossary/p.md %}#product-quantization
 [Prompt Engineering]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-engineering
 [Prompt Injection]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-injection
+[Prompt Leakage]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-leakage
 [PromptIDE Application]: {{ site.baseurl}}{% link glossary/p.md %}#promptide-application
 [PromptIDE]: {{ site.baseurl}}{% link glossary/p.md %}#promptide-application
 [Proximal Policy Optimization Algorithm]: {{ site.baseurl}}{% link glossary/p.md %}#proximal-policy-optimization-algorithm

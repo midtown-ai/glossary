@@ -26,6 +26,8 @@
 [Whisper Model]: {{ site.baseurl }}{% link glossary/w.md %}#whisper-model
 [Whisper]: {{ site.baseurl }}{% link glossary/w.md %}#whisper-model
 [White Box Model]: {{ site.baseurl }}{% link glossary/w.md %}#white-box-model
+[Wonder Dynamics Company]: {{ site.baseurl }}{% link glossary/w.md %}#wonder-dynamics-company
+[Wonder Dynamics]: {{ site.baseurl }}{% link glossary/w.md %}#wonder-dynamics-company
 [Word Embedding]: {{ site.baseurl }}{% link glossary/w.md %}#word-embedding
 [Word Embeddings]: {{ site.baseurl }}{% link glossary/w.md %}#word-embedding
 [Word Embedding Space]: {{ site.baseurl }}{% link glossary/w.md %}#word-embedding-space

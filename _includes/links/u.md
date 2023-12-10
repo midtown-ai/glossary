@@ -7,6 +7,9 @@
 [Uniform Manifold Approximation and Projection]: {{ site.baseurl }}{% link glossary/u.md %}#uniform-manifold-approximation-and-projection
 [UMAP]: {{ site.baseurl }}{% link glossary/u.md %}#umap
 [Underfitting]: {{ site.baseurl }}{% link glossary/u.md %}#underfitting
+[United States AI Safety Institute]: {{ site.baseurl }}{% link glossary/u.md %}#united-states-ai-safety-institute
+[US AI Safety Institute]: {{ site.baseurl }}{% link glossary/u.md %}#united-states-ai-safety-institute
+[US AISI]: {{ site.baseurl }}{% link glossary/u.md %}#united-states-ai-safety-institute
 [Universal Function Approximator]: {{ site.baseurl }}{% link glossary/u.md %}#universal-function-approximation
 [Unlabeled Data Algorithm]: {{ site.baseurl }}{% link glossary/u.md %}#unlabeled-data-algorithm
 [Unstructured Data]: {{ site.baseurl }}{% link glossary/u.md %}#unstructured-data

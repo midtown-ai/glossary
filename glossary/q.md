@@ -56,6 +56,17 @@ layout: page
  See [Deep Q-Network]
 
 
+# Q-Star Model
+
+ A rumored model developed by [OpenAI] that has achieve [AGI]
+ 
+ This model is supposedly based on [Q-Learning] and [A-Star]
+
+ {% youtube "https://www.youtube.com/watch?v=Z6E41eXStsU" %}
+
+ See also [Q], ...
+
+
 # Q-Table
 
  The Q-Table is updated during the environment exploration. The Q-Table is used as is during the environment exploitation.

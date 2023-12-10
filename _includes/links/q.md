@@ -4,6 +4,8 @@
 [Q-Learning Algorithm]: {{ site.baseurl}}{% link glossary/q.md %}#q-learning-algorithm
 [Q-Learning]: {{ site.baseurl}}{% link glossary/q.md %}#q-learning-algorithm
 [Q-Network]: {{ site.baseurl}}{% link glossary/q.md %}#q-network
+[Q-Star Model]: {{ site.baseurl}}{% link glossary/q.md %}#q-star-model
+[Q-Star]: {{ site.baseurl}}{% link glossary/q.md %}#q-star-model
 [Q-Table]: {{ site.baseurl}}{% link glossary/q.md %}#q-table
 [Q-Value]: {{ site.baseurl}}{% link glossary/q.md %}#q-value
 [Q-Values]: {{ site.baseurl}}{% link glossary/q.md %}#q-value

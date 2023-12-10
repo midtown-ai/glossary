@@ -174,6 +174,29 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
  See also [A], [Batch Normalization], [Exploding Gradient Problem], [Gradient Descent Algorithm], [Loss Function]
 
 
+# Activation Layer
+
+ Activation layers are an important component in [convolutional neural networks (CNNs)][CNNs]. Here's an explanation of what they are and why they are used:
+
+ The purpose of activation layers in a CNN is to introduce nonlinearity. Most of the layers in a CNN perform linear operations - for example, convolution layers apply a dot product between the input and a filter, and pooling layers downsample using an algorithm like max or average.
+
+ These linear operations alone don't allow the CNN to learn complex patterns. Without nonlinearity, no matter how many layers you stack, the output would still be a linear function of the input.
+
+ Activation layers apply a nonlinear function to the output from the previous layer. This allows the CNN to learn and model complex nonlinear relationships between the inputs and outputs.
+
+ Some common [activation functions] used are:
+  * ReLU (Rectified Linear Unit): ReLU applies the function f(x) = max(0, x). It thresholds all negative values to 0.
+  * Leaky ReLU: A variant of ReLU that gives a small negative slope (e.g. 0.01) to negative values rather than thresholding at 0.
+  * Tanh: Applies the hyperbolic tangent function to squash values between -1 and 1.
+  * Sigmoid: Applies the logistic sigmoid function to squash values between 0 and 1.
+
+ In practice, ReLU is by far the most common activation function used in CNNs. The nonlinearity it provides enables CNNs to learn very complex features and patterns in image and video data.
+
+ The key takeaway is that activation layers introduce nonlinearity which allows CNNs to learn and model complex relationships between inputs and outputs. Choosing the right activation function is important for enabling efficient training and generalization.
+
+ See also [A], ...
+
+
 # Activation Step
 
  Last step in an [artificial neuron] before an output is generated.
@@ -1187,6 +1210,18 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
  See also [A], [Amazon Web Services]
 
 
+# Amazon Q Chatbot
+
+ A chatbot service offered by [AWS]
+
+ More at:
+  * docs - [https://aws.amazon.com/q/](https://aws.amazon.com/q/)
+  * articles
+    * [https://aws.amazon.com/blogs/aws/amazon-q-brings-generative-ai-powered-assistance-to-it-pros-and-developers-preview/](https://aws.amazon.com/blogs/aws/amazon-q-brings-generative-ai-powered-assistance-to-it-pros-and-developers-preview/)
+
+ See also [A], ...
+
+
 # Amazon Web Services
 # AWS
 
@@ -1497,14 +1532,20 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [AI Complete]
 
 
-# Artification Intelligence Risk Management Framework
+# Artificial Intelligence Risk Management Framework
+# AI Risk Management Framework
 # AI RMF
 
+ ~ The AI RMF is voluntary guidance to improve the ability to incorporate trustworthiness considerations into the design, development, use and evaluation of AI products, services and systems. Version 1.0 was released in January 2023.
+
  Written by [NIST]
+
+    ![]( {{site.assets}}/a/artificial_intelligence_risk_management_framework.png){: width="100%" }
 
  {% pdf "{{site.assets}}/a/artificial_intelligence_risk_management_framework.pdf" %}
 
  More at:
+  * site - [https://airc.nist.gov/home](https://airc.nist.gov/home)
   * [https://aibusiness.com/responsible-ai/microsoft-offers-support-on-responsible-ai-deployments](https://aibusiness.com/responsible-ai/microsoft-offers-support-on-responsible-ai-deployments)
 
  See also [A], ...
@@ -1938,6 +1979,13 @@ ____ at the sign, you will get a ticket (backward prediction)
  `~ analyze the past steps (or future but not both) to identify the next step = learn from the past iteration (or future but not both) ONLY`. Unlike the GANs approach described before, where music generation happened in one iteration, autoregressive models add notes over many iterations. The models used are called autoregressive (AR) models because the model generates music by predicting future music notes based on the notes that were played in the past. In the music composition process, unlike traditional time series data, one generally does more than compose from left to right in time. New chords are added, melodies are embellished with accompaniments throughout. Thus, instead of conditioning our model solely on the past notes in time like standard autoregressive models, we want to condition our model on all the notes that currently exist in the provided input melody. For example, the notes for the left hand in a piano might be conditioned on the notes that have already been written for the right hand.
 
  See also [A], [Autoregressive Convolutional Neural Network], [Generative Adversarial Network], [GPT Model], [Time-Series Predictive Analysis]
+
+
+# Average Pooling Layer
+
+ ~ a [pooling layer] often seen in [CNN] that extract the average of the values.
+
+ See also [A], ...
 
 
 # AWS Bedrock

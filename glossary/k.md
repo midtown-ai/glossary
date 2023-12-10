@@ -176,6 +176,12 @@ layout: page
 
 # Kernel Trick
 
+ Used in [support vector machine] for a clear separation of classes.
+
+ Ex: separate the green points from the red points with a line/plane. 
+  * We can separate the points with a 3rd dimension (z = xy). 
+  * We can separate the points with the hyperbola xy = 1 !
+
  ![]( {{site.assets}}/k/kernel_trick_table.png ){: width="100%"}
  ![]( {{site.assets}}/k/kernel_trick_curve.png ){: width="100%"}
 
@@ -183,7 +189,7 @@ layout: page
   * [https://medium.com/analytics-vidhya/introduction-to-svm-and-kernel-trick-part-1-theory-d990e2872ace](https://medium.com/analytics-vidhya/introduction-to-svm-and-kernel-trick-part-1-theory-d990e2872ace)
   * video - [https://www.youtube.com/watch?v=IpGxLWOIZy4](https://www.youtube.com/watch?v=IpGxLWOIZy4)
 
- See also [K], [Support Vector Machine]
+ See also [K], ...
 
 
 # Knowledge

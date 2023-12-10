@@ -61,6 +61,29 @@ layout: page
  See also [U], [Social Robot]
 
 
+# Underfitting
+
+ When you have low variance (clustered), but high bias (offset). To prevent under-fitting try hyper-parameter optimization.
+
+ ![]( {{site.assets}}/u/underfitting_overfitting_balanced.png ){: width="100%"}
+
+ See also [U], [Balanced Fitting], [Hyperparameter Optimization], [Overfitting]
+
+
+# Universal Function Approximator
+
+ A [neural network] can approximate almost any function. The number of inputs need to be finite and each input should be able to be turned into numbers. Same for outputs.
+
+ {% youtube "https://www.youtube.com/watch?v=0QczhVg5HaI" %}
+
+ {% youtube "https://www.youtube.com/watch?v=Ijqkc7OLenI" %}
+
+ More at:
+  * playground - [https://playground.tensorflow.org/](https://playground.tensorflow.org/)
+
+ See also [U], ...
+
+
 # Uniform Manifold Approximation and Projection
 # UMAP
 
@@ -88,28 +111,18 @@ layout: page
  See also [U], ... 
 
 
-# Underfitting
+# United States AI Safety Institute
+# US AISI
 
- When you have low variance (clustered), but high bias (offset). To prevent under-fitting try hyper-parameter optimization.
+ * formed inside [NIST]
+ * this institute aim to establish guidles, tools,and best practices to identify and mitigate AI risk.
 
- ![]( {{site.assets}}/u/underfitting_overfitting_balanced.png ){: width="100%"}
-
- See also [U], [Balanced Fitting], [Hyperparameter Optimization], [Overfitting]
-
-
-# Universal Function Approximator
-
- A [neural network] can approximate almost any function. The number of inputs need to be finite and each input should be able to be turned into numbers. Same for outputs.
-
- {% youtube "https://www.youtube.com/watch?v=0QczhVg5HaI" %}
-
- {% youtube "https://www.youtube.com/watch?v=Ijqkc7OLenI" %}
+ {% pdf "{{site.assets}}/u/united_states_ai_safety_institute_workshop_slides_20231120.pdf" %}
 
  More at:
-  * playground - [https://playground.tensorflow.org/](https://playground.tensorflow.org/)
-
- See also [U], ...
-
+  
+  * NIST workshop on 11/17/2023 - [https://www.nist.gov/news-events/events/2023/11/usaisi-workshop-collaboration-enable-safe-and-trustworthy-ai](https://www.nist.gov/news-events/events/2023/11/usaisi-workshop-collaboration-enable-safe-and-trustworthy-ai)
+  * department of commerce announcement on 11/1/2023 - [https://www.commerce.gov/news/press-releases/2023/11/direction-president-biden-department-commerce-establish-us-artificial](https://www.commerce.gov/news/press-releases/2023/11/direction-president-biden-department-commerce-establish-us-artificial)
 
 # Unlabeled Data Algorithm
 

@@ -35,6 +35,7 @@
 [Self-Organizing Map]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
 [SOM Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
 [SOM]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
+[Self-Play]: {{ site.baseurl}}{% link glossary/s.md %}#self-play
 [Self-Supervised Learning]: {{ site.baseurl}}{% link glossary/s.md %}#self-supervised-learning
 [Semantic Embedding]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-embedding
 [Semantic Search]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-search
@@ -57,6 +58,8 @@
 [Shapley Additive Explanations Value]: {{ site.baseurl}}{% link glossary/s.md %}#shapley-additive-explanations-value
 [SHAP Value]: {{ site.baseurl}}{% link glossary/s.md %}#shapley-additive-explanations-value
 [Shapley Value]: {{ site.baseurl}}{% link glossary/s.md %}#shaplet-value
+[Shifted Window Attention]: {{ site.baseurl}}{% link glossary/s.md %}#shifted-window-attention
+[SWA]: {{ site.baseurl}}{% link glossary/s.md %}#shifted-window-attention
 [Short Circuit Movie]: {{ site.baseurl}}{% link glossary/s.md %}#short-circuit-movie
 [Siamese Network]: {{ site.baseurl}}{% link glossary/s.md %}#siamese-network
 [SIGGRAPH Conference]: {{ site.baseurl}}{% link glossary/s.md %}#siggraph-conference
@@ -86,6 +89,8 @@
 [Skip Connections]: {{ site.baseurl}}{% link glossary/s.md %}#skip-connection
 [Skip-Gram Model]: {{ site.baseurl}}{% link glossary/s.md %}#skip-gram-model
 [Slicing Function]: {{ site.baseurl}}{% link glossary/s.md %}#slicing-function
+[Small Language Model]: {{ site.baseurl}}{% link glossary/s.md %}#small-language-model
+[SLM]: {{ site.baseurl}}{% link glossary/s.md %}#small-language-model
 [Snorkel Program]: {{ site.baseurl}}{% link glossary/s.md %}#snorkel-program
 [Sobol Search]: {{ site.baseurl}}{% link glossary/s.md %}#sobol-search
 [Social Robot]: {{ site.baseurl}}{% link glossary/s.md %}#social-robot

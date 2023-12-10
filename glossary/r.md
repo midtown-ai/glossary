@@ -278,12 +278,16 @@ Recall = % of positively identified
  See also [R], [Activation Function], [Exploding Gradient Problem], [LeakyReLU Activation Function], [ResNET Model], [Vanishing Gradient Problem]
 
 
-# Rectified Linear Unit Layer
-# ReLU Layer
+# Rectified Linear Unit Activation Layer
+# ReLU Activation Layer
+
+ ~ an [activation layer] that uses the [ReLU activation function]
 
  A stack of images (matrix of pixels) becomes a stack of images with no negative values.
 
- See also [R], [Convolution Layer], [Convolution Neural Network], [Max Pooling Layer]
+ Such layer is used in [CCNs] after each [convolutional layer] and before each [pooling layer]
+
+ See also [R], ...
 
 
 # Recurrent Neural Network

@@ -110,7 +110,12 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 # National Institute of Standards and Technology
 # NIST
 
- Author of the [AI Risk Management Framework]
+ * Author of the [AI Risk Management Framework] in 01/15/2023
+ * In the [US department of commerce](https://www.commerce.gov/)
+ * Entity that runs the [US AI Safety Institute] as specified in the landmark 11/1/2023 White House [executive order]
+
+ More at:
+  * site - [https://www.nist.gov/](https://www.nist.gov/)
 
  See also [N], ...
 

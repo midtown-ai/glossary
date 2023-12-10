@@ -13,8 +13,11 @@
 [Image Encoder]: {{ site.baseurl }}{% link glossary/i.md %}#image-encoder
 [Image Inpainting]: {{ site.baseurl }}{% link glossary/i.md %}#image-inpainting
 [Image Kernel]: {{ site.baseurl }}{% link glossary/i.md %}#image-kernel
+[Image Kernels]: {{ site.baseurl }}{% link glossary/i.md %}#image-kernel
 [Image Reconstruction]: {{ site.baseurl }}{% link glossary/i.md %}#image-reconstruction
 [Image Segmentation]: {{ site.baseurl }}{% link glossary/i.md %}#image-segmentation
+[Image-aware Decoder Enhanced a la Flamingo with Interleaved Cross-attentionS Model]: {{ site.baseurl }}{% link glossary/i.md %}#image-aware-decoder-enhanced-a-la-flamingo-with-interleaved-cross-attentions-model
+[IDEFICS Model]: {{ site.baseurl }}{% link glossary/i.md %}#image-aware-decoder-enhanced-a-la-flamingo-with-interleaved-cross-attentions-model
 [Imagen Model]: {{ site.baseurl }}{% link glossary/i.md %}#imagen-model
 [Imagen Video Model]: {{ site.baseurl }}{% link glossary/i.md %}#imagen-video-model
 [ImageNet Dataset]: {{ site.baseurl }}{% link glossary/i.md %}#imagenet-dataset

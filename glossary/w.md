@@ -235,6 +235,18 @@ curl https://api.openai.com/v1/audio/transcriptions \
 
  See also [W], ...
 
+
+# Wonder Dynamics Company
+
+ Creator of Wonder Studio, an AI tool that automatically animates, lights and composes CG characters into a live-action scene.
+
+ {% youtube "https://www.youtube.com/watch?v=nEHCBPGo-5M" %}
+
+ More at:
+  * site - [https://wonderdynamics.com/#product](https://wonderdynamics.com/#product)
+
+ See also [W], ...
+
  
 # Word Embedding
 

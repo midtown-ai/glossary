@@ -62,7 +62,6 @@ layout: page
 
  See also [I], [IBM]
 
-
 # Ilya Sutskever Person
 
  [OpenAI] Co-founder.
@@ -159,6 +158,19 @@ layout: page
  ![]( {{site.assets}}/i/image_segmentation_timeline.png ){: width="100%"}
 
  See also [I], [Object Detection]
+
+
+# Image-aware Decoder Enhanced a la Flamingo with Interleaved Cross-attentionS Model
+# IDEFICS Model
+
+ IDEFICS is based on [Flamingo], a state-of-the-art visual language model initially developed by [DeepMind], which has not been released publicly. Similarly to GPT-4, the model accepts arbitrary sequences of image and text inputs and produces text outputs. IDEFICS is built solely on publicly available data and models ([LLaMA] v1 and OpenCLIP) and comes in two variants—the base version and the instructed version. Each variant is available at the 9 billion and 80 billion parameter sizes.
+
+ More at:
+  * site - [https://huggingface.co/HuggingFaceM4/idefics-80b-instruct](https://huggingface.co/HuggingFaceM4/idefics-80b-instruct)
+  * articles
+    * [https://huggingface.co/blog/idefics](https://huggingface.co/blog/idefics)
+
+ See also [I], ...
 
 
 # Imagen Model

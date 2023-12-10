@@ -70,6 +70,21 @@ layout: page
  See also [L], ...
 
 
+# LangChain Hub
+
+ ```
+from langchain import hub
+obj = hub.pull("homanp/superagent")
+ ```
+
+ More at;
+  * [https://smith.langchain.com/hub](https://smith.langchain.com/hub)
+  * alternatives
+    * [https://docs.pezzo.ai/features/langchain](https://docs.pezzo.ai/features/langchain)
+
+ See also [L], ...
+
+
 # LangChain Python Module
 
  LangChain is a framework for developing applications powered by language models. We believe that the most powerful and differentiated applications will not only call out to a language model via an API, but will also:
@@ -111,8 +126,30 @@ completion = llm(prompt)
   * colabs
    * intro - [https://colab.research.google.com/github/pinecone-io/examples/blob/master/generation/langchain/handbook/00-langchain-intro.ipynb](https://colab.research.google.com/github/pinecone-io/examples/blob/master/generation/langchain/handbook/00-langchain-intro.ipynb)
 
- See also [L], [Vector Database]
+ See also [L], [LangFlow Python Module], [Vector Database]
 
+
+# LangFlow Python Module
+
+ LangFlow is an easy way to prototype [LangChain] flows. The drag-and-drop feature allows quick and effortless experimentation, while the built-in chat interface facilitates real-time interaction. It provides options to edit prompt parameters, create chains and agents, track thought processes, and export flows.
+
+ {% youtube "https://www.youtube.com/watch?v=sC9SV06gsDM" %}
+
+ {% youtube "https://www.youtube.com/watch?v=-D1EIbKVlz8" %}
+
+ More at:
+  * docs - [https://docs.langflow.org/](https://docs.langflow.org/)
+  * huggin face space - [https://huggingface.co/spaces/Logspace/Langflow](https://huggingface.co/spaces/Logspace/Langflow)
+
+ See also [L], ...
+
+
+# LangSmith Python Module
+
+ More at:
+  * 
+
+ See also [L], ...
 
 # Language Model
 
@@ -720,7 +757,6 @@ Aristotle is mortal!
 
 
 # Long Short-Term Memory Cell
-
 # LSTM Cell
 
  * overview
@@ -745,7 +781,6 @@ Aristotle is mortal!
 
 
 # Long Short-Term Memory Network
-
 # LSTM Network
 
  `A multi-layer Recurrent Neural Network, aka RNN, where a neuron is feeding its output to self, remembers its previous output. Good for sequences`. Used in speech recognition, Text to speech, handwriting recognition. Started becoming widespread in 2007. They are a type of Recurrent Neural Network that can efficiently learn via gradient descent. Using a gating mechanism, LSTMs are able to recognise and encode (short and very) long-term patterns (basic RNN can only remember a given length, i.e have short term memory because of vanishing gradient problem). LSTMs are extremely useful to solve problems where the network has to remember information for a long period of time as is the case in music and text generation.
@@ -806,6 +841,48 @@ class Model(nn.Module):
   * [http://colah.github.io/posts/2015-08-Understanding-LSTMs/](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
  See also [L], [Attention-Based Model], [Gated Recurrent Unit Cell], [Gradient Descent Algorithm], [Recurrent Neural Network], [Transformer Model], [Vanishing Gradient Problem]
+
+
+# Longformer Architecture
+
+ Models that have a long context window?
+ * Use [Sliding Window Attention]
+
+ Transformer-based models are unable to process long sequences due to their self-attention operation, which scales quadratically with the sequence length. To address this limitation, we introduce the Longformer with an attention mechanism that scales linearly with sequence length, making it easy to process documents of thousands of tokens or longer. Longformer's attention mechanism is a drop-in replacement for the standard self-attention and combines a local windowed attention with a task motivated global attention. Following prior work on long-sequence transformers, we evaluate Longformer on character-level language modeling and achieve state-of-the-art results on text8 and enwik8. In contrast to most prior work, we also pretrain Longformer and finetune it on a variety of downstream tasks. Our pretrained Longformer consistently outperforms RoBERTa on long document tasks and sets new state-of-the-art results on WikiHop and TriviaQA. We finally introduce the [Longformer-Encoder-Decoder (LED)][LED], a Longformer variant for supporting long document generative sequence-to-sequence tasks, and demonstrate its effectiveness on the arXiv summarization dataset.
+
+ {% pdf "https://arxiv.org/pdf/2004.05150v2.pdf" %}
+
+ More at:
+  * site - [https://paperswithcode.com/method/sliding-window-attention](https://paperswithcode.com/method/sliding-window-attention)
+  * paper - [https://arxiv.org/abs/2004.05150v2](https://arxiv.org/abs/2004.05150v2)
+  * code - [https://github.com/allenai/longformer/](https://github.com/allenai/longformer/)
+
+ See also [L], ...
+
+
+# Longformer-Encoder-Decoder
+# LED
+
+ A derivative component of the [Longformer Architecture]
+
+ See also [L], ...
+
+
+# Look-Ahead Planning
+
+ Understand the impact of a decision on the future
+
+ the idea of using a model of the world to reason into the future and produce better actions or outputs. 
+
+ There are 2 variants:
+   * [Model Predictive Control (MPC)][MPC] - used on continuous states
+   * [Monte-Carlo Tree Search (MCTS)][MCTS] - used with discrete actions and states
+
+ ```
+Ask a LLLM, how many character will your next response have?
+ ```
+
+ See also [L], ...
 
 
 # Loss Function

@@ -545,17 +545,22 @@ S = Q D Qt
 
   See [Matrix Composition]
 
-# Max Pooling Layer
+
+# Max-Pooling Layer
+
+ ~ A [pooling layer] often seen in [CNNs] where the maximum is extracted
 
  Downsample the feature map (take a thumbnail/smaller-size of the image with some feature still present). while a convoluted layer extract features. In the illustration below, we take a 2x2 kernel and pool the maximum value. Benefits with this approach are
   * discovered features in the previous convoluted Layer are preserved as we are keeping the max!
   * image is smaller <== A stack of images becomes a smaller stack of images
   * because of down sampling, the position of the exact match is not as important/sensitive
 
-
  ![]( {{site.assets}}/m/max_pooling_layer.png ){: width="100%"}
 
- See also [M], [Convoluted Layer], [Convoluted Neural Network], [Fully Connected Layer]
+ More at:
+  * ...
+
+ See also [M], [Convolutional Layer], [Convolutional Neural Network], [Fully Connected Layer]
 
 
 # Mean Absolute Error Loss Function
@@ -833,6 +838,38 @@ def mse_loss(y_pred, y_true):
  See also [M], ...
 
 
+# Mistral AI Company
+
+ A small creative team with high scientific standards. They make efficient, helpful and trustworthy AI models through ground-breaking innovations.
+
+ Models
+  * [Mistral Model]
+
+ More at:
+  * [https://mistral.ai/](https://mistral.ai/)
+
+ See also [M], ...
+
+
+# Mistral Model
+
+ Model developed by the [Mistral AI Company]
+
+ Mistral 7B is a 7.3B parameter model that:
+  * Outperforms Llama 2 13B on all benchmarks
+  * Outperforms Llama 1 34B on many benchmarks
+  * Approaches CodeLlama 7B performance on code, while remaining good at English tasks
+  * Uses [Grouped-Query Attention (GQA)][GQA] for faster inference
+  * Uses [Sliding Window Attention (SWA)][SWA] to handle longer sequences at smaller cost
+
+ {{% youtube "https://www.youtube.com/watch?v=teEf4OzQ1IY" %}}
+
+ More at:
+  * ...
+
+ See also [M], ...
+
+
 # Mixed Reality
 # MR
 
@@ -850,7 +887,6 @@ def mse_loss(y_pred, y_true):
 
 
 # Mixture Of Local Experts
-
 # MoE
 
  In 1991, MoE was first introduced by a research group that included deep-learning and Switch Transformer creator Geoff Hinton. In 2017, the Google Brain team and Hinton used MoE to create an NLP model based on recurrent neural networks (RNN) of 137 billion parameters, where it achieved state-of-the-art (SOTA) results on language modelling and machine translation benchmarks.
@@ -1194,6 +1230,14 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
  See also [M], ...
 
 
+# Model Predictive Control Algorithm
+# MPC Algorithm
+
+ Used in [Look-Ahead Planning] ?
+
+ See also [M], ...
+
+
 # Model Scanning
 
  A step required in [model threat analysis] when importing open-source models like [LlaMa] , [Falcon] , or others less popular models.
@@ -1361,7 +1405,6 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
 
 
 # Modular Reasoning Knowledge and Language
-
 # MRLK
 
  {% pdf "https://arxiv.org/pdf/2205.00445.pdf" %}
@@ -1377,6 +1420,26 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
  See [REINFORCE Algorithm]
 
 
+# Monte Carlo Tree Search Algorithm
+# MCTS Algorithm
+
+ To do [Look-Ahead Planning] ?
+
+ Monte Carlo Tree Search (MCTS) is an algorithm used to make optimal decisions in artificial intelligence systems, often for game playing. It works by constructing a tree of possible future states and then randomly sampling some paths through that tree to estimate which option has the best outcome.
+
+ Specifically, it works like this:
+  1. Starts with the current state as the root node of the tree.
+  1. From the root, uses a policy/heuristic to select some child nodes (possible next states) and evaluates them to expand the tree.
+  1. Then starts simulated playouts - it selects a leaf node and plays out a "simulated" game randomly till reaching an outcome.
+  1. The results of the playouts are backpropagated up the tree to inform node evaluations. Nodes with better outcomes from playouts get better evaluations.
+  1. Over many iterations, the algorithm balances exploring new nodes and exploiting better evaluations to pick the best moves. The most promising nodes are expanded deeper as the tree grows.
+  1. After enough samples, the decision is made by picking the best evaluated child node from the root.A
+
+ Some key advantages are that MCTS allows creating a search tree selectively, avoids brute force search of all possibilities, works well with stochastic environments, and is relatively simple to implement. Overall, it uses the power of random simulation to efficiently find optimal decisions.
+
+ See also [M], ...
+
+
 # MuLan Model
 
  Similar to the [CLIP model], but for music! Music to text model!
@@ -1386,6 +1449,32 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
  More at:
   * paper - [https://arxiv.org/abs/2208.12415](https://arxiv.org/abs/2208.12415)
   * code - [https://github.com/lucidrains/musiclm-pytorch](https://github.com/lucidrains/musiclm-pytorch)
+
+ See also [M], ...
+
+
+# Multi-Agent
+
+ Agents that interact with each other in a [multi-agent environment].
+ Each agent behaves in accordance with its policy.
+ The community of agent could benefit from learning from their interactions through [multi-agent reinforcement learning]
+
+ Framework
+  * MetaGPT - [https://github.com/geekan/MetaGPT](https://github.com/geekan/MetaGPT)
+  * ChatDEV - [https://github.com/OpenBMB/ChatDev/tree/main](https://github.com/OpenBMB/ChatDev/tree/main)
+  * Agentverse - [https://github.com/OpenBMB/AgentVerse](https://github.com/OpenBMB/AgentVerse)
+  * Camel - [https://github.com/camel-ai/camel](https://github.com/camel-ai/camel)
+  * Autogen - [https://github.com/JayZeeDesign/microsoft-autogen-experiments](https://github.com/JayZeeDesign/microsoft-autogen-experiments)
+
+ {% youtube "https://www.youtube.com/watch?v=pJwR5pv0_gs" %}
+
+ {% youtube "https://www.youtube.com/watch?v=Bq-0ClZttc8" %}
+
+ {% youtube "https://www.youtube.com/watch?v=5Zj_zstLLP4" %}
+
+ More at:
+  * articles
+    * [https://natural20.com/build-an-entire-ai-agent-workforce-chatdev-and-google-brain-society-of-mind-agi-user-interface/](https://natural20.com/build-an-entire-ai-agent-workforce-chatdev-and-google-brain-society-of-mind-agi-user-interface/)
 
  See also [M], ...
 
@@ -1525,6 +1614,12 @@ class MLP(nn.Module):
   * minimize the cosine loss between the 2 modalities
 
  See also [M], [Multimodal Learning]
+
+
+# Multimodal Large Language Layer
+# MLLM
+
+ See also [M], ...
 
 
 # Multimodal Learning

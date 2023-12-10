@@ -59,13 +59,13 @@ layout: page
 
  Backpropagation can find the
   1. weights + biases (?)
-  1. kernel filters in a CCN
+  1. [image kernel] filters in a [CNN]
  Beware:
   * If you only use 2 in training sample, you may have a model where all images are recognized as 2, which is not correct. ==> the weights need to be computed with all the samples (i,e, an epoch or a mini-batch)!
   * If your ANN is multi-layered, deep, and use activation functions, backpropagation may not be able to compute all the weights, an issue that is known as the vanishing gradient problem.
   * In a variational autoencoder, you cannot run backpropagation because of the sampling between the encoder and decoder. The solution here is to us the "VAE reparametrization trick"
 
- See also [B], [Activation Function], [Derivative Chain Rule], [Feedforward Neural Network], [Kernel Filter], [Loss Function], [Neural Network], [Vanishing Gradient Problem], [Variational Autoencoder Reparametrization Trick]
+ See also [B], [Activation Function], [Derivative Chain Rule], [Feedforward Neural Network], [Loss Function], [Neural Network], [Vanishing Gradient Problem], [Variational Autoencoder Reparametrization Trick]
 
 
 # Bag Of Words

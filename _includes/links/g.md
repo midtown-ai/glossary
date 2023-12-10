@@ -36,6 +36,8 @@
 [Generative Design]: {{ site.baseurl }}{% link glossary/g.md %}#generative-design
 [Generative Model]: {{ site.baseurl }}{% link glossary/g.md %}#generative-model
 [Generative Models]: {{ site.baseurl }}{% link glossary/g.md %}#generative-model
+[Generative Pre-Trained Transformer Function Calling]: {{ site.baseurl }}{% link glossary/g.md %}#generative-pre-trained-transformer-function-calling
+[GPT Function Calling]: {{ site.baseurl }}{% link glossary/g.md %}#generative-pre-trained-transformer-function-calling
 [Generative Pre-Trained Transformer Model]: {{ site.baseurl }}{% link glossary/g.md %}#generative-pre-trained-transformer-model
 [GPT Model]: {{ site.baseurl }}{% link glossary/g.md %}#generative-pre-trained-transformer-model
 [GPT Models]: {{ site.baseurl }}{% link glossary/g.md %}#generative-pre-trained-transformer-model
@@ -43,6 +45,8 @@
 [GPT-3]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-3-model
 [GPT-4 Model]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-4-model
 [GPT-4]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-4-model
+[GPT-4V Model]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-4v-model
+[GPT-4V]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-4v-model
 [Generator]: {{ site.baseurl }}{% link glossary/g.md %}#generator
 [Generator Loss]: {{ site.baseurl }}{% link glossary/g.md %}#generator-loss
 [Genetic Programming]: {{ site.baseurl }}{% link glossary/g.md %}#genetic-programming
@@ -54,6 +58,9 @@
 [GitHub Copilot]: {{ site.baseurl }}{% link glossary/g.md %}#github-copilot
 [GLIDE Model]: {{ site.baseurl }}{% link glossary/g.md %}#glide-model
 [GLIDE]: {{ site.baseurl }}{% link glossary/g.md %}#glide-model
+[Global Pooling Layer]: {{ site.baseurl }}{% link glossary/g.md %}#global-pooling-layer
+[Global Pooling Layers]: {{ site.baseurl }}{% link glossary/g.md %}#global-pooling-layer
+[Global Pooling]: {{ site.baseurl }}{% link glossary/g.md %}#global-pooling-layer
 [Global Vector Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#global-vector-algorithm
 [GloVe Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#global-vector-algorithm
 [GloVe]: {{ site.baseurl }}{% link glossary/g.md %}#global-vector-algorithm

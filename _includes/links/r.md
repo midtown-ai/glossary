@@ -29,8 +29,12 @@
 [Rectified Linear Unit Activation Function]: {{site.baseurl}}{% link glossary/r.md %}#rectified-linear-unit-activation-function
 [ReLU Activation Function]: {{site.baseurl}}{% link glossary/r.md %}#relu-activation-function
 [ReLU]: {{site.baseurl}}{% link glossary/r.md %}#relu-activation-function
-[Rectified Linear Unit Layer]: {{site.baseurl}}{% link glossary/r.md %}#rectified-linear-unit-layer
-[ReLU Layer]: {{site.baseurl}}{% link glossary/r.md %}#rectified-linear-unit-layer
+[Rectified Linear Unit Activation Layer]: {{site.baseurl}}{% link glossary/r.md %}#rectified-linear-unit-activation-layer
+[Rectified Linear Unit Activation Layers]: {{site.baseurl}}{% link glossary/r.md %}#rectified-linear-unit-activation-layer
+[ReLU Activation Layer]: {{site.baseurl}}{% link glossary/r.md %}#rectified-linear-unit-activation-layer
+[ReLU Activation Layers]: {{site.baseurl}}{% link glossary/r.md %}#rectified-linear-unit-activation-layer
+[ReLU Layer]: {{site.baseurl}}{% link glossary/r.md %}#rectified-linear-unit-activation-layer
+[ReLU Layers]: {{site.baseurl}}{% link glossary/r.md %}#rectified-linear-unit-activation-layer
 [Recurrent Neural Network]: {{site.baseurl}}{% link glossary/r.md %}#recurrent-neural-network
 [RNN]: {{site.baseurl}}{% link glossary/r.md %}#recurrent-neural-network
 [Red Teaming]: {{site.baseurl}}{% link glossary/r.md %}#red-teaming

@@ -197,6 +197,7 @@ layout: page
   * [https://www.technologyreview.com/2023/01/26/1067299/chatgpt-workout-plans/](https://www.technologyreview.com/2023/01/26/1067299/chatgpt-workout-plans/)
   * articles
     * 1 year anniversary - [https://aimagazine.com/machine-learning/chatgpts-first-birthday-a-year-in-review](https://aimagazine.com/machine-learning/chatgpts-first-birthday-a-year-in-review)
+    * how was built - [https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/)
 
  See also [C], [Chatbot], [Digital Watermark], [Feedback], [Plagiarism Checker], [Reward Model], [Reinforcement Learning], [Sparrow Model]
 
@@ -621,20 +622,8 @@ print(query_result)
   * others: [WeRide](https://www.weride.ai/en), [Momenta](https://www.momenta.cn/en/), [Didi](https://web.didiglobal.com/), [Pony AI](https://pony.ai)
   * defunct: [Argo AI](https://en.wikipedia.org/wiki/Argo_AI)
 
- Vector Databases:
-  * [Chroma][Chroma Database] - in memory database (good for development!)
-  * [Milvus][Milvus Database] - project supported by the [LFAI&Data]
-  * [Pinecone] - building the [Pinecone Database]
-
- Synthetic data
-  * [Datagen](https://datagen.tech/) - Synthetic data for faces/images
-  * [Mostly AI](https://mostly.ai/) - Generative AI for tabular data 
-
- Robotics
-  * [Boston Dynamics] - Focus on robotics
-  * [Engineered Arts] - Focus on social robots, such as [Ameca][Ameca Robot]
-  * [Hanson Robotics] - Build humanoid for consumer, entertainment, service, healthcare, and research applications. 
-  * [Softbank Robotics] - Focus on [social robots][Social Robot]
+ Deployment:
+  * [Netlify] -
 
  Education
   * [Chegg](https://www.chegg.com) - AI assistant called [CheegMate](https://www.chegg.com/cheggmate)
@@ -643,8 +632,24 @@ print(query_result)
   * [Magic School AI](https://app.magicschool.ai/) - help teachers create a lesson plan. Assistant is called Raina
   * [Pearson](https://www.pearson.com/en-us.html) - Not bot yet! Still in denial?
 
- Deployment:
-  * [Netlify] -
+ Robotics
+  * [Boston Dynamics] - Focus on robotics
+  * [Engineered Arts] - Focus on social robots, such as [Ameca][Ameca Robot]
+  * [Hanson Robotics] - Build humanoid for consumer, entertainment, service, healthcare, and research applications. 
+  * [Softbank Robotics] - Focus on [social robots][Social Robot]
+
+ Search
+  * [You](https://www.you.com)
+  * [Perplexity AI]
+
+ Synthetic data
+  * [Datagen](https://datagen.tech/) - Synthetic data for faces/images
+  * [Mostly AI](https://mostly.ai/) - Generative AI for tabular data 
+
+ Vector Databases:
+  * [Chroma][Chroma Database] - in memory database (good for development!)
+  * [Milvus][Milvus Database] - project supported by the [LFAI&Data]
+  * [Pinecone] - building the [Pinecone Database]
 
  Wearable Devices
   * [Humane](https://hu.ma.ne/) - the AI pin likely to replace the cell phone
@@ -658,6 +663,10 @@ print(query_result)
   * [Intel] - Build CPUs and now includes tensor processing in them
   * [Koniku](https://koniku.com/) - Use biological [neurons] to compete with regular computers
   * [Nvidia] - The leading supplier of [GPU]
+
+ Video
+  * [Wonder Dynamics] - VFX in a single click!
+
 
  {% youtube "https://www.youtube.com/watch?v=62ptqfCcizQ" %}
 
@@ -861,13 +870,15 @@ print(query_result)
  {% pdf "https://arxiv.org/pdf/2103.00020.pdf" %}
 
  More at:
-  * [https://openai.com/research/clip](https://openai.com/research/clip)
+  * site - [https://openai.com/research/clip](https://openai.com/research/clip)
   * code - [https://github.com/openai/CLIP](https://github.com/openai/CLIP)
   * paper - [https://arxiv.org/abs/2103.00020](https://arxiv.org/abs/2103.00020)
-  * [https://openai.com/blog/clip/](https://openai.com/blog/clip/)
-  * Hierarchical Text-Conditional Image Generation with CLIP Latents (paper) - [https://arxiv.org/abs/2204.06125](https://arxiv.org/abs/2204.06125)
+  * announcement - [https://openai.com/blog/clip/](https://openai.com/blog/clip/)
+  * Hugging Face docs - [https://huggingface.co/docs/transformers/model_doc/clip#transformers.CLIPTextModel](https://huggingface.co/docs/transformers/model_doc/clip#transformers.CLIPTextModel)
+  * more
+    * Hierarchical Text-Conditional Image Generation with CLIP Latents (paper) - [https://arxiv.org/abs/2204.06125](https://arxiv.org/abs/2204.06125)
   * articles
-   * [https://www.pinecone.io/learn/clip/](https://www.pinecone.io/learn/clip/)
+    * [https://www.pinecone.io/learn/clip/](https://www.pinecone.io/learn/clip/)
 
  See also [C], [CLIP Image Encoder], [CLIP Text Encoder], [Embedding Space], [Vision Transformer], [VQGAN]
 
@@ -924,7 +935,19 @@ print(query_result)
 
 # Convolutional Layer
 
- In a CNN, each layer tries to recognize a different pattern = extract features.
+ ~ A stack of convoluted images (one per kernel filter)
+
+ The output of a convolutional layer is a stack of convoluted images (stack of images convoluted with each [image kernel])
+
+ In a CNN, each layer tries to recognize different patterns (i.e. extract features).
+
+ Once executed, each resulting values is subject to an activation function (a.k.a processed by the [activation layer] i.e. [ReLu Layer] ) and then compressed using a [pooling layer]
+
+ ![]( {{site.assets}}/c/convolutional_layer.gif ){: width="100%"}
+
+ The output of a convolutional layer is a stack of [convolved features]
+
+ ![]( {{site.assets}}/c/convolutional_layer_output.png ){: width="100%"}
 
  See also [C], [Convolutional Neural Network], [Fully Connected Layer], [Image Kernel], [Max Pooling Layer]
 
@@ -932,7 +955,18 @@ print(query_result)
 # Convolutional Neural Network
 # CNN
 
- `Particularly useful for image analysis/processing` such as object recognition, image classification, semantic segmentation (object in image), artistic style transfer (filter on an image with the style of another image often a painting), meow generator (find cats in image?) . `The idea is that the pixel are not completely independent from the one surrounding them. CNN takes the surrounding pixel into consideration as well instead of just an independent pixel`. Use filter. Max Pooling layers (dimension reduction of outputs to downstream layers to convert a tensor into a vector). A succession of convolution-subsampling layers. Example: Does a pixel belongs to an object or not? .
+ `Particularly useful for image analysis/processing` such as object recognition, [image classification], semantic segmentation (object in image), artistic style transfer (filter on an image with the style of another image often a painting), meow generator (find cats in image?) . `The idea is that the pixel are not completely independent from the one surrounding them. CNN takes the surrounding pixel into consideration as well instead of just an independent pixel`. Use filter. Max Pooling layers (dimension reduction of outputs to downstream layers to convert a tensor into a vector). A succession of convolution-subsampling layers. Example: Does a pixel belongs to an object or not? .
+
+ A CNN consists of :
+  * [Convolutional Layers]
+  * [Activation Layers] such as [RELU Layers]
+  * [Pooling Layers] such as [Max Pooling Layers]
+  * and [Fully Connected Layers]
+
+ In a CNN, the [image kernels] are learned through [backpropagation]
+
+
+ {% youtube"https://www.youtube.com/watch?v=AgkfIQ4IGaM" %}
 
  {% youtube "https://www.youtube.com/watch?v=FmpDIaiMIeA" %}
 
@@ -948,8 +982,10 @@ print(query_result)
   * [https://setosa.io/ev/image-kernels/](https://setosa.io/ev/image-kernels/)
   * [https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b](https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b)
   * [https://medium.com/easyread/an-introduction-to-convolution-neural-network-cnn-for-a-beginner-88548e4b2a84](https://medium.com/easyread/an-introduction-to-convolution-neural-network-cnn-for-a-beginner-88548e4b2a84)
+  * [https://e2eml.school/how_convolutional_neural_networks_work.html](https://e2eml.school/how_convolutional_neural_networks_work.html)
+  * [https://yosinski.com/deepvis](https://yosinski.com/deepvis)
 
- See also [C], [Attention-Based Model], [Convolution], [Convolutional Layer], [Deconvolution Neural Network], [Fully Connected Layer], [Image Classification], [Image Kernel], [Instance Segmentation], [Latent Space], [Neural Network], [Object Detection], [Max Pooling Layer], [Rectified Linear Unit], [Region Based CNN], [Semantic Segmentation], [Subsampling]
+ See also [C], [Attention-Based Model], [Convolution], [Deconvolution Neural Network], [Instance Segmentation], [Latent Space], [Neural Network], [Object Detection], [Max Pooling Layer], [Region Based CNN], [Semantic Segmentation], [Subsampling]
 
 
 # Convolutional Neural Network Feature Extractor
@@ -964,6 +1000,15 @@ print(query_result)
   * [https://medium.com/birdie-ai/how-to-use-cnns-as-feature-extractors-54c69c1d4bdf](https://medium.com/birdie-ai/how-to-use-cnns-as-feature-extractors-54c69c1d4bdf)
 
  See also [C}, ...
+
+
+# Convolved Feature
+
+ The result of a convolution of an input image with a [image kernel]. The output of a [convolutional layer] is a stack of convolved features.
+
+ ![]( {{site.assets}}/c/convolved_feature.gif ){: width="100%"}
+
+ See also [C], ...
 
 
 # Coral Hardware

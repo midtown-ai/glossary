@@ -420,6 +420,24 @@ cheese =>                                   # Prompt
  See also [O], [Open Neural Network Exchange]
 
 
+# Optical Character Recognition
+# OCR
+
+ OCR is a technology that converts an image of text into a machine-readable text format. When you scan a form, receipt, or any printed document, your computer saves it as an image file. However, you cannot directly edit, search, or analyze the words within that image file using a text editor. That’s where OCR comes in.
+
+ Here’s how OCR works:
+  * Image Acquisition: A scanner reads the document and converts it to binary data. The OCR software then analyzes the scanned image, identifying light areas as background and dark areas as text.
+  * Preprocessing: The OCR software cleans the image by performing tasks like deskewing (fixing alignment issues), despeckling (removing digital image spots), and cleaning up boxes and lines.
+
+ Text Recognition: There are two main types of OCR algorithms:
+  * Pattern Matching: Isolates a character image (glyph) and compares it with a stored glyph. This works if the stored glyph has a similar font and scale to the input glyph.
+  * Feature Extraction: Extracts features from the image to recognize characters.
+
+ OCR is essential because it allows you to convert text images into text data that can be analyzed by other software. It’s used to process scanned documents, automate processes, and improve productivity. For example, OCR can transform scanned invoices, contracts, and forms into editable and searchable digital files. 
+
+ See also [o], [TrOCR Model]
+
+
 # Optimal Policy
 
  In [reinforcement learning], an optimal policy refers to the strategy that maximizes expected [cumulative reward] for an [RL agent].

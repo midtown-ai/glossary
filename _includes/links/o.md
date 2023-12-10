@@ -39,6 +39,8 @@
 [OpenFold]: {{ site.baseurl }}{% link glossary/o.md %}#openfold-model
 [OpenMMLab]: {{ site.baseurl }}{% link glossary/o.md %}#openmmlab
 [OpenVINO Toolkit]: {{ site.baseurl }}{% link glossary/o.md %}#openvino-toolkit
+[Optical Character Recognition]: {{ site.baseurl }}{% link glossary/o.md %}#optical-character-recognition
+[OCR]: {{ site.baseurl }}{% link glossary/o.md %}#optical-character-recognition
 [Optimal Policy]: {{ site.baseurl }}{% link glossary/o.md %}#optimal-policy
 [Optimal Q-Value]: {{ site.baseurl }}{% link glossary/o.md %}#optimal-q-value
 [Optimization]: {{ site.baseurl }}{% link glossary/o.md %}#optimization

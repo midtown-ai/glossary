@@ -86,8 +86,11 @@
 [Convolution]: {{ site.baseurl }}{% link glossary/c.md %}#covonlution
 [Convolution Autoencoder]: {{ site.baseurl }}{% link glossary/c.md %}#convolution-autoencoder
 [Convolutional Layer]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-layer
+[Convolutional Layers]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-layer
 [Convolutional Neural Network]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-neural-network
+[Convolutional Neural Networks]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-neural-network
 [CNN]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-neural-network
+[CNNs]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-neural-network
 [Convolutional Neural Network Feature Extractor]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-neural-network-feature-extractor
 [CNN Feature Extractor]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-neural-network-feature-extractor
 [Coral Hardware]: {{ site.baseurl }}{% link glossary/c.md %}#coral-hardware

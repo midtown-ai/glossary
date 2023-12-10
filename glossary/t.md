@@ -615,7 +615,6 @@ Desired Output --> |     Training     | --> Model
 
 
 # Transform Function
-
 # TF
 
  A function to transform the input dataset. For ex: rotate image in the right position.
@@ -756,7 +755,6 @@ Agreed. Based on the sequence of events and the details provided, the area aroun
 
 
 # Tree Parzen Estimators
-
 # TPE
 
  See also [T], [Gaussian Process], [Random Forest]
@@ -792,6 +790,19 @@ Agreed. Based on the sequence of events and the details provided, the area aroun
   * [https://nlp.cs.washington.edu/triviaqa/](https://nlp.cs.washington.edu/triviaqa/)
 
  See also [T], ...
+
+
+# TrOCR Model
+
+ A Transformer-based Optical Character Recognition with Pre-trained models
+
+ ![]( {{site.assets}}/t/trocr_model.jpeg ){: width="100%"}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2109.10282](https://arxiv.org/abs/2109.10282)
+  * code - [https://github.com/rsommerfeld/trocr](https://github.com/rsommerfeld/trocr)
+
+ See also [T], [Optical Character Recognition]
 
 
 # Trust Region Policy Optimization Algorithm

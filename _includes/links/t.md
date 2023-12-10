@@ -75,6 +75,8 @@
 [Triplet Loss Function]: {{ site.baseurl }}{% link glossary/t.md %}#triplet-loss-function
 [Triton]: {{ site.baseurl }}{% link glossary/t.md %}#triton
 [TriviaQA Dataset]: {{ site.baseurl }}{% link glossary/t.md %}#triviaqa-dataset
+[TrOCR Model]: {{ site.baseurl }}{% link glossary/t.md %}#trocr-model
+[TrOCR]: {{ site.baseurl }}{% link glossary/t.md %}#trocr-model
 [Trust Region Policy Optimization Algorithm]: {{ site.baseurl }}{% link glossary/t.md %}#trust-region-policy-optimization-algorithm
 [Trust Region Policy Optimization]: {{ site.baseurl }}{% link glossary/t.md %}#trust-region-policy-optimization-algorithm
 [TRPO Algorithm]: {{ site.baseurl }}{% link glossary/t.md %}#trust-region-policy-optimization-algorithm

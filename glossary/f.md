@@ -513,7 +513,7 @@ cheese =>
 
  {% pdf "{{site.assets}}/f/flamingo_model_paper.pdf" %}
 
- See also [F], ...
+ See also [F], [IDEFICS Model]
 
 
 # Flow-Based Model
@@ -596,15 +596,13 @@ cheese =>
 
 
 # Fully Connected Layer
-
 # FC Layer
 
  A List of feature values becomes a list of votes (which are weighted to following layers).
 
  ![]( {{site.assets}}/f/fully_connected_layer.png ){: width="100%}
- 
 
- See also [F], [Convoluted Layer], [Convoluted Neural Network], [Poll Layer], [ReLU Layer]
+ See also [F], [Convolutional Layer], [Convolutional Neural Network], [Polling Layer], [ReLU Layer]
 
 
 # Function Estimation

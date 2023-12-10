@@ -1,7 +1,9 @@
 [D]: {{ site.baseurl }}{% link glossary/d.md %}
 
 [Decision Boundary]: {{ site.baseurl }}{% link glossary/d.md %}#decision-boundary
-[DALL-E Model]: {{ site.baseurl }}{% link glossary/d.md %}#dall-e-model
+[DALL-E Models]: {{ site.baseurl }}{% link glossary/d.md %}#dall-e-models
+[DALL-E2 Model]: {{ site.baseurl }}{% link glossary/d.md %}#dall-e-models
+[DALL-E3 Model]: {{ site.baseurl }}{% link glossary/d.md %}#dall-e-models
 [DARPA]: {{ site.baseurl }}{% link glossary/d.md %}#darpa
 [DARPA Grand Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#darpa-grand-challenge
 [DARPA Robotics Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#darpa-robotics-challenge

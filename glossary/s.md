@@ -422,6 +422,15 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
  See also [S], ...
 
 
+# Self-Improvement
+
+ AlphaGo approach consists in 2 steps:
+ 1. Learn by imitation , but cannot surpass human
+ 1. to surpass human, you need another method ==> self-improvement
+
+ See also [S], ...
+
+
 # Self-Instruct Dataset
 
  The Self-Instruct process is an iterative bootstrapping algorithm that starts with a seed set of manually-written instructions and uses them to prompt the language model to generate new instructions and corresponding input-output instances. These generations are then filtered to remove low-quality or similar ones, and the resulting data is added back to the task pool. This process can be repeated multiple times, resulting in a large collection of instructional data that can be used to fine-tune the language model to follow instructions more effectively.
@@ -471,6 +480,15 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
   * [https://www.superdatascience.com/blogs/the-ultimate-guide-to-self-organizing-maps-soms](https://www.superdatascience.com/blogs/the-ultimate-guide-to-self-organizing-maps-soms)
 
  See also [S], [Unsupervised Deep Learning Model], [Unsupervised Learning]
+
+
+# Self-Play
+
+ The idea that an agent can improve its gameplay by playing against slightly different versions of itself because it'll progressively encounter more challenging situation s.
+
+ Used by [Alpha-Go]
+
+ See also [S], ...
 
 
 # Self-Supervised Learning
@@ -685,6 +703,31 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
  See also [S], [Shapley Additive Explanations]
 
 
+# Shifted Window Attention
+# SWA
+
+ ~ allow LLM to handle long sequences with reduced inference cost
+
+ SWA is an attention mechanism designed to enable efficient processing of longer input sequences in transformers and related neural network models.
+
+ Used by [Longformer Models] such as:
+  * [Mistral Models]
+
+ Here are the key points about Shifted Window Attention (SWA):
+  * Like grouped query attention, SWA divides the input sequence into chunks or windows to focus the attention.
+  * However, unlike grouped attention, the windows in SWA overlap with each other. For example, a sequence could be divided into windows 1-100, 51-150, 101-200 etc, with 50 tokens of overlap.
+  * This overlapping window approach allows each token to attend within its window as well as to tokens from adjacent windows. This provides wider contextual attention than isolated groups.
+  * Additionally, the windows are shifted systematically across the sequence. So window 1 covers tokens 1-100, window 2 then covers tokens 51-150, and so on. This shifting enables all tokens to be covered by overlapping windows.
+  * Mathematically, this shifting of systematic, overlapping windows enables efficient attention computation in transformers. It limits the complexity that comes from full global attention across extremely long sequences.
+
+ In summary, SWA reduces computational overhead while retaining modeling flexibility for longer sequences. The shifting windows provide efficiency while the overlap enables wider attention. This helps advanced transformers scale effectively to tasks with longer inputs while still utilizing the power and benefits of attention mechanisms.
+
+ More at:
+  * ...
+
+ See also [S], ...
+
+
 # Short Circuit Movie
 
  Short Circuit is a 1986 American science fiction comedy film directed by John Badham and written by S. S. Wilson and Brent Maddock. The film's plot centers upon an experimental military robot that is struck by lightning and gains a human-like intelligence, prompting it to escape its facility to learn more about the world.
@@ -864,6 +907,14 @@ Siri is a spin-off from a project developed by the SRI International Artificial 
 # Slicing Function
 
  See also [S], [Snorkel Program]
+
+
+# Small Language Model
+# SLM
+
+ A version of the language model
+
+ See also [S], ...
 
 
 # Snorkel Program
