@@ -7,6 +7,10 @@
 [Fake Art]: {{site.baseurl }}{% link glossary/f.md %}#fake-art
 [Fake News]: {{site.baseurl }}{% link glossary/f.md %}#fake-news
 [Falcon Model]: {{site.baseurl }}{% link glossary/f.md %}#falcon-model
+[False Negative]: {{site.baseurl }}{% link glossary/f.md %}#false-negative
+[False Negatives]: {{site.baseurl }}{% link glossary/f.md %}#false-negative
+[False Positive]: {{site.baseurl }}{% link glossary/f.md %}#false-positive
+[False Positives]: {{site.baseurl }}{% link glossary/f.md %}#false-positive
 [Fashion MNIST Dataset]: {{site.baseurl }}{% link glossary/f.md %}#fashion-mnist-dataset
 [Fast Random Projection]: {{site.baseurl }}{% link glossary/f.md %}#fast-random-projection
 [FastRP]: {{site.baseurl }}{% link glossary/f.md %}#fast-random-projection
@@ -18,10 +22,14 @@
 [Feature Extractor]: {{site.baseurl }}{% link glossary/f.md %}#feature-extractor
 [Feature Extraction]: {{site.baseurl }}{% link glossary/f.md %}#feature-extraction
 [Feature Learning]: {{site.baseurl }}{% link glossary/f.md %}#feature-learning
+[Feature Map]: {{site.baseurl }}{% link glossary/f.md %}#feature-map
+[Feature Maps]: {{site.baseurl }}{% link glossary/f.md %}#feature-map
 [Feature Normalization]: {{site.baseurl }}{% link glossary/f.md %}#feature-normalization
 [Feature Scaling]: {{site.baseurl }}{% link glossary/f.md %}#feature-scaling
 [Feature Selection]: {{site.baseurl }}{% link glossary/f.md %}#feature-selection
 [Feature Standardization]: {{site.baseurl }}{% link glossary/f.md %}#feature-standardization
+[Federated Averaging Algorithm]: {{site.baseurl }}{% link glossary/f.md %}#federated-averaging-algorithm
+[Federated Learning]: {{site.baseurl }}{% link glossary/f.md %}#federated-learning
 [Feedback]: {{site.baseurl }}{% link glossary/f.md %}#feedback
 [Feedback-Based Learning]: {{site.baseurl }}{% link glossary/f.md %}#feedback-based-learning
 [Feedforward Neural Network]: {{site.baseurl }}{% link glossary/f.md %}#feedforward-neural-network
@@ -37,8 +45,13 @@
 [FinGPT Model]: {{site.baseurl }}{% link glossary/f.md %}#fingpt-model
 [Flamingo Model]: {{site.baseurl }}{% link glossary/f.md %}#flamingo-model
 [Flamingo]: {{site.baseurl }}{% link glossary/f.md %}#flamingo-model
+[FlashAttention]: {{site.baseurl }}{% link glossary/f.md %}#flashattention
 [Flow-Based Model]: {{site.baseurl }}{% link glossary/f.md %}#flow-based-model
+[For Stress-Testing Machine Theory Of Mind Benchmark]: {{site.baseurl }}{% link glossary/f.md %}#for-stress-testing-machine-theory-of-mind-benchmark
+[FANToM Benchmark]: {{site.baseurl }}{% link glossary/f.md %}#for-stress-testing-machine-theory-of-mind-benchmark
+[FANToM]: {{site.baseurl }}{% link glossary/f.md %}#for-stress-testing-machine-theory-of-mind-benchmark
 [Forbidden Planet Movie]: {{site.baseurl }}{% link glossary/f.md %}#forbidden-planet-movie
+[Forbidden Planet]: {{site.baseurl }}{% link glossary/f.md %}#forbidden-planet-movie
 [Forest Of Stumps]: {{site.baseurl }}{% link glossary/f.md %}#forest-of-stumps
 [Formal Reasoning]: {{site.baseurl }}{% link glossary/f.md %}#formal-reasoning
 [Foundational Model]: {{site.baseurl }}{% link glossary/f.md %}#foundational-model

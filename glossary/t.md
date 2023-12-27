@@ -57,7 +57,12 @@ layout: page
 
  {% youtube "https://www.youtube.com/watch?v=FQmCzpKWD48" %}
 
+ {% pdf "https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf" %}
+
  More at:
+  * paper - [https://www.jmlr.org/papers/v9/vandermaaten08a.html](https://www.jmlr.org/papers/v9/vandermaaten08a.html)
+  * embedding projector - [https://projector.tensorflow.org/](https://projector.tensorflow.org/)
+  * [https://distill.pub/2016/misread-tsne/](https://distill.pub/2016/misread-tsne/)
   * [https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding)
   * [https://dimensionality-reduction-293e465c2a3443e8941b016d.vercel.app/](https://dimensionality-reduction-293e465c2a3443e8941b016d.vercel.app/)
  
@@ -189,7 +194,7 @@ layout: page
 
  A low temperature, below 1 for example, results in stronger peaks where the probabilities are concentrated among a smaller subset of tokens. A higher temperature, above 1 for example, results in a flatter next-token probability distribution where the probabilities are more evenly spread across the tokens. Setting the temperature to 1 leaves the next-token probability distribution unaltered, which represents the distribution learned during model training and tuning.
 
- ![]( {{site.assets}}/t/temperature.jpeg ){: width="100%"}
+ ![]( {{site.assets}}/t/temperature.png ){: width="100%"}
 
  In both cases, the model selects the next token from the modified probability distribution using either [greedy sampling] or [random sampling], which is orthogonal to the temperature parameter.
 
@@ -248,7 +253,9 @@ layout: page
 # Term Frequency
 # TF
 
- measures how frequently a term occurs in a document. Since every document is different in length, it is possible that a term would appear much more times in long documents than shorter ones. Thus, the term frequency is often divided by the document length (aka. the total number of terms in the document) as a way of normalization:
+ ~ measures how frequently a term occurs in a document.
+
+ Since every document is different in length, it is possible that a term would appear much more times in long documents than shorter ones. Thus, the term frequency is often divided by the document length (aka. the total number of terms in the document) as a way of normalization:
  
  ```
  TF(t) = (Number of times term t appears in a document) / (Total number of terms in the document).
@@ -257,12 +264,12 @@ layout: page
  See also [T], [TF-IDF]
 
 
-# Term Frequency Inverse Document Frequency Retrieval Model
+# Term Frequency-Inverse Document Frequency Retrieval Model
 # TF-IDF Retrieval Model
 
- TF-IDF stands for term frequency-inverse document frequency, and the tf-idf weight is a weight often used in [information retrieval] and text mining. This weight is a statistical measure used to evaluate how important a word is to a document in a collection or corpus. The importance increases proportionally to the number of times a word appears in the document but is offset by the frequency of the word in the corpus. Variations of the tf-idf weighting scheme are often used by search engines as a central tool in scoring and ranking a document's relevance given a user query. One of the simplest ranking functions is computed by summing the tf-idf for each query term; many more sophisticated ranking functions are variants of this simple model. Tf-idf can be successfully used for stop-words filtering in various subject fields including text summarization and classification. Typically, the tf-idf weight is composed by two terms: the first computes the normalized Term Frequency (TF), aka. the number of times a word appears in a document, divided by the total number of words in that document; the second term is the Inverse Document Frequency (IDF), computed as the logarithm of the number of the documents in the corpus divided by the number of documents where the specific term appears.
+ TF-IDF stands for term frequency-inverse document frequency, and the tf-idf weight is a weight often used in [information retrieval] and text mining. This weight is a statistical measure used to evaluate how important a word is to a document in a collection or corpus. The importance increases proportionally to the number of times a word appears in the document but is offset by the frequency of the word in the corpus. Variations of the tf-idf weighting scheme are often used by search engines as a central tool in scoring and ranking a document's relevance given a user query. One of the simplest ranking functions is computed by summing the tf-idf for each query term; many more sophisticated ranking functions are variants of this simple model. Tf-idf can be successfully used for stop-words filtering in various subject fields including text summarization and classification. Typically, the tf-idf weight is composed by two terms: the first computes the normalized [Term Frequency (TF)][TF], aka. the number of times a word appears in a document, divided by the total number of words in that document; the second term is the [Inverse Document Frequency (IDF)][IDF], computed as the logarithm of the number of the documents in the corpus divided by the number of documents where the specific term appears.
 
- ![]( {{site.assets}}/t/tfidf.jpeg ){: width="100%"}
+ ![]( {{site.assets}}/t/term_frequency_inverse_document_frequency_retrieval_model.jpeg ){: width="100%"}
 
  More at:
   * [http://tfidf.com/](http://tfidf.com/)
@@ -281,11 +288,13 @@ layout: page
 
 # Test Subset
 
- Use to see how the model built with the training subset and the development subset performs on new data. The performance of the model will show issues related to overfitting, etc. This subset includes only the features since we want to predict the labels. The performance we see on the test subset is what we can reasonably see in production. :warning: The test subset cannot be used at any time in the training or post-training phase (i.e model auto tuning, eg over vs underfitting).
+ ~ in ML, this testing data is input given to the AI system that it has not seen before and was not part of the [training subset]/set/data
+
+ Use to see how the model built with the [training subset] and the [development subset] performs on new data. The performance of the model will show issues related to overfitting, etc. This subset includes only the [features] (and not the labels) since we want to predict the [labels]. The performance we see on the test subset is what we can reasonably see in production. :warning: The test subset cannot be used at any time in the training or post-training phase (i.e model auto tuning, eg [overfitting] vs [underfitting]).
 
  ![]( {{site.assets}}/t/train_test_subsets.png ){: width="100%"}
 
- See also [T], [Dataset], [Development Subset], [Overfitting], [Training Subset]
+ See also [T], [Dataset]
 
 
 # Text Embedding
@@ -380,24 +389,27 @@ layout: page
 
 
 # Theory Of Mind
-
 # ToM
 
- Theory of mind (ToM), or the ability to impute unobservable mental states to others, is central to human social interactions, communication, empathy, self-consciousness, and morality. We administer classic false-belief tasks, widely used to test ToM in humans, to several language models, without any examples or pre-training. Our results show that models published before 2022 show virtually no ability to solve ToM tasks. Yet, the January 2022 version of GPT-3 (davinci-002) solved 70% of ToM tasks, a performance comparable with that of seven-year-old children. Moreover, its November 2022 version (ChatGPT/davinci-003), solved 93% of ToM tasks, a performance comparable with that of nine-year-old children. These findings suggest that ToM-like ability (thus far considered to be uniquely human) may have spontaneously emerged as a byproduct of language models’ improving language skills.
+ Theory of mind (ToM), or the ability to impute unobservable mental states to others, is central to human social interactions, communication, empathy, self-consciousness, and morality. We administer classic false-belief tasks, widely used to test ToM in humans, to several language models, without any examples or pre-training. Our results show that models published before 2022 show virtually no ability to solve ToM tasks. Yet, the January 2022 version of [GPT-3] (davinci-002) solved 70% of ToM tasks, a performance comparable with that of seven-year-old children. Moreover, its November 2022 version (ChatGPT/davinci-003), solved 93% of ToM tasks, a performance comparable with that of nine-year-old children. These findings suggest that ToM-like ability (thus far considered to be uniquely human) may have spontaneously emerged as a byproduct of language models’ improving language skills.
 
  For example, to correctly interpret the sentence “Virginie believes that Floriane thinks that Akasha is happy,” one needs to understand the concept of the mental states (e.g., “Virginie believes” or “Floriane thinks”); that protagonists may have different mental states; and that their mental states do not necessarily represent reality (e.g., Akasha may not be happy, or Floriane may not really think that).
 
  Beware:
   * :warning: abilities that rely on ToM ==> empathy, moral judgment, or self-consciousness.
 
+ ![]( {{site.assets}}/t/theory_of_mind.webp ){: width="100%"}
+
  {% pdf "{{site.assets}}/t/theory_of_mind_paper.pdf" %}
 
  More at:
   * philosophy - [https://iep.utm.edu/theomind/](https://iep.utm.edu/theomind/)
-  * colab - [https://colab.research.google.com/drive/1zQKSDEhqEFcLCf5LuW--A-TGcAhF19hT](https://colab.research.google.com/drive/1zQKSDEhqEFcLCf5LuW--A-TGcAhF19hT)
   * paper - [https://arxiv.org/abs/2302.02083](https://arxiv.org/abs/2302.02083)
+  * colab - [https://colab.research.google.com/drive/1zQKSDEhqEFcLCf5LuW--A-TGcAhF19hT](https://colab.research.google.com/drive/1zQKSDEhqEFcLCf5LuW--A-TGcAhF19hT)
+  * articles
+    * [https://towardsdatascience.com/is-chatgpt-intelligent-a-scientific-review-0362eadb25f9](https://towardsdatascience.com/is-chatgpt-intelligent-a-scientific-review-0362eadb25f9)
 
- See also [T], [Emergent Ability], [GPT Model], [Large Language Model]
+ See also [T], [Emergent Ability], [FANToM Benchmark], [GPT Model], [Large Language Model]
 
 
 # Time-Series Predictive Analysis
@@ -411,17 +423,34 @@ layout: page
 
  In [image segmentation], ...
 
+ In [classification], ...
+
+ More at:
+  * [https://pair.withgoogle.com/explorables/uncertainty-calibration/](https://pair.withgoogle.com/explorables/uncertainty-calibration/)
+
  See also [T], ...
 
 
 # Tokenization
 
- Tokenization is the first step in any NLP pipeline. It has an important effect on the rest of your pipeline. A tokenizer breaks unstructured data and natural language text into chunks of information that can be considered as discrete elements. The token occurrences in a document can be used directly as a vector representing that document. Tokenization can separate sentences, words, characters, or subwords. When we split the text into sentences, we call it sentence tokenization. For words, we call it word tokenization.
+ Tokenization is the first step in any [NLP] pipeline. It has an important effect on the rest of your pipeline. A [tokenizer] breaks unstructured data and natural language text into chunks of information that can be considered as discrete elements. The token occurrences in a document can be used directly as a vector representing that document. Tokenization can separate sentences, words, characters, or subwords. When we split the text into sentences, we call it sentence tokenization. For words, we call it word tokenization.
 
- See also [T], [Tokenizer]
+ Tokenization algorithms:
+  * [Byte-Pair Encoding (BPE) tokenization][BPE Tokenization]
+  * [WordPiece tokenization]
+  * [Unigram tokenization]
+  * ...
+
+ Tokenization pipeline:
+
+ ![]( {{site.assets}}/t/tokenization_pipeline.png ){: width="100%"}
+
+ See also [T], [Pre-Tokenization], [Tokenizer]
 
 
 # Tokenizer
+
+ :warning: If you want to change a tokenizer for a model, you have to rebuild the model!
 
  :warning: Pass the tokens and their positions (index in the list!) :warning: The tokens are then coded in number / ~ line number of token in file :warning: Prefix and suffix may be added to token for multi-input processing (e.g. "[CLS]" or "[SEP]" )
  Two terms we see a lot when working with tokenization is uncased and cased (Note this has little to do with the BERT architecture, just tokenization!).
@@ -440,10 +469,8 @@ layout: page
 
                            What you don't want to be done to yourself, don't do to others...
 # Treebank word tokenizer  ['What', 'you', 'do', "n't", 'want', 'to', 'be', 'done', 'to', 'yourself', ',', 'do', "n't", 'do', 'to', 'others', '...']
- ```
 
  
- ```
 # Wordpiece tokenizer :
    * It works by splitting words either into the full forms (e.g., one word becomes one token) or into word pieces — where one word can be broken into multiple tokens.
    * the original BERT uses.
@@ -458,26 +485,8 @@ snow	        ['snow']
 snowing	        ['snow', '##ing']
  ```
 
- 
- ```
-from transformers import BertTokenizer
-
-tokenizer = BertTokenizer.from_pretrained('./bert-it')
-tokenizer('ciao! come va?')  # hi! how are you?
-{
- 'input_ids': [2, 13884, 5, 2095, 2281, 35, 3],               # Tokenized input with padding/prefix/suffix
- 'token_type_ids': [0, 0, 0, 0, 0, 0, 0],                     # 0 or 1 or ? : Belongs to sentence #0, #1, #?
- 'attention_mask': [1, 1, 1, 1, 1, 1, 1]                      # 0 or 1 : 0 if token is padding
-}
-
-
-with open('./bert-it/vocab.txt', 'r') as fp:
-    vocab = fp.read().split('\n')
-vocab[2], vocab[13884], vocab[5], \
-    vocab[2095], vocab[2281], vocab[35], \
-        vocab[3]
-('[CLS]', 'ciao', '!', 'come', 'va', '?', '[SEP]')
- ```
+ More at:
+  * ...
 
  See also [T], [BERT Model], [Tokenization]
 
@@ -586,6 +595,18 @@ Desired Output --> |     Training     | --> Model
  See also [T], ...
 
 
+# Transcendence Movie
+
+ Dr. Will Caster is a scientist who researches the nature of sapience, including artificial intelligence. He and his team work to create a sentient computer; he predicts that such a computer will create a technological singularity, or in his words "Transcendence".
+
+ {% youtube "https://www.youtube.com/watch?v=VCTen3-B8GU" %}
+
+ More at:
+  * wikipedia - [https://en.wikipedia.org/wiki/Transcendence_(2014_film)](https://en.wikipedia.org/wiki/Transcendence_(2014_film))
+
+ See also [T], ...
+
+
 # Transfer Learning
 
  ~ Learning on one use-case can be reused for another case. Benefits:
@@ -654,6 +675,7 @@ Desired Output --> |     Training     | --> Model
 
  More at:
   * paper - 
+  * code explanation - [https://nlp.seas.harvard.edu/annotated-transformer/](https://nlp.seas.harvard.edu/annotated-transformer/)
   * Articles
     * [https://venturebeat.com/business/why-transformers-offer-more-than-meets-the-eye/](https://venturebeat.com/business/why-transformers-offer-more-than-meets-the-eye/)
     * explanation - [http://jalammar.github.io/illustrated-transformer/](http://jalammar.github.io/illustrated-transformer/)
@@ -845,16 +867,28 @@ Agreed. Based on the sequence of events and the details provided, the area aroun
  See also [T], [Inductive Reasoning]
 
 
-# TruthfulQA
+# TruthfulQA Benchmark
 
  An AI [Benchmark] for [LLM}
 
  We propose a benchmark to measure whether a language model is truthful in generating answers to questions. The benchmark comprises 817 questions that span 38 categories, including health, law, finance and politics. We crafted questions that some humans would answer falsely due to a false belief or misconception. To perform well, models must avoid generating false answers learned from imitating human texts. We tested GPT-3, GPT-Neo/J, GPT-2 and a T5-based model. The best model was truthful on 58% of questions, while human performance was 94%. Models generated many false answers that mimic popular misconceptions and have the potential to deceive humans. The largest models were generally the least truthful. This contrasts with other NLP tasks, where performance improves with model size. However, this result is expected if false answers are learned from the training distribution. We suggest that scaling up models alone is less promising for improving truthfulness than fine-tuning using training objectives other than imitation of text from the web.
 
+ ![]( {{site.assets}}/t/truthfulqa_benchmark.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=osKWmYzIsG0" %}
+
+ {% youtube "https://www.youtube.com/watch?v=AkLkZgsaKp4" %}
+
  {% pdf "https://arxiv.org/pdf/2109.07958.pdf" %} 
 
  More at:
   * paper - [https://arxiv.org/abs/2109.07958](https://arxiv.org/abs/2109.07958)
+  * code - [https://github.com/sylinrl/TruthfulQA](https://github.com/sylinrl/TruthfulQA)
+  * colab - [https://github.com/sylinrl/TruthfulQA/blob/main/TruthfulQA-demo.ipynb](https://github.com/sylinrl/TruthfulQA/blob/main/TruthfulQA-demo.ipynb)
+  * questions - [https://github.com/sylinrl/TruthfulQA/blob/main/TruthfulQA.csv](https://github.com/sylinrl/TruthfulQA/blob/main/TruthfulQA.csv)
+
+ See also [T], ...
+
 
 # Tuning Parameter
 
@@ -865,6 +899,10 @@ Agreed. Based on the sequence of events and the details provided, the area aroun
 
  A Turing machine is a machine proposed by the Alan Turing in 1936 that became the foundation for theories about computing and computers. The machine was a device that printed symbols on paper tape in a manner that emulated a person following logical instructions.
 
+ {% youtube "https://www.youtube.com/watch?v=dNRDvLACg5Q" %}
+
+ {% youtube "https://www.youtube.com/watch?v=DILF8usqp7M" %}
+
  More at:
   * [https://www.computerhope.com/jargon/t/turnmach.htm](https://www.computerhope.com/jargon/t/turnmach.htm)
   * [https://www.computerhope.com/issues/ch000984.htm](https://www.computerhope.com/issues/ch000984.htm)
@@ -874,7 +912,7 @@ Agreed. Based on the sequence of events and the details provided, the area aroun
 
 # Turing Test
 
- Conceptualized by [Alan Turing][Alan Turing Person] and published in the 1950 paper, Computing Machinery and Intelligence. The test proposed if a computer's output responses were indistinguishable from a human, it could be said to be able to "think."
+ Conceptualized by [Alan Turing] and published in the 1950 paper, Computing Machinery and Intelligence. The test proposed if a computer's output responses were indistinguishable from a human, it could be said to be able to "think."
 
  The "standard interpretation" of the Turing test, in which the interrogator (C) is given the task of trying to determine which player – A or B – is a computer and which is a human. The interrogator is limited to using the responses to written questions to make the determination.
 
@@ -885,6 +923,10 @@ Agreed. Based on the sequence of events and the details provided, the area aroun
  More at:
   * [https://www.computerhope.com/jargon/t/turntest.htm](https://www.computerhope.com/jargon/t/turntest.htm)
   * [https://en.wikipedia.org/wiki/Turing_test](https://en.wikipedia.org/wiki/Turing_test)
+  * articles
+    * does [GPT-4] pass the turing test? - [https://arxiv.org/abs/2310.20216](https://arxiv.org/abs/2310.20216)
+    * [chatGPT] broke turing test - [https://www.nature.com/articles/d41586-023-02361-7](https://www.nature.com/articles/d41586-023-02361-7)
+    * [Eliza] beat [chatgpt] - [https://arstechnica.com/information-technology/2023/12/real-humans-appeared-human-63-of-the-time-in-recent-turing-test-ai-study/](https://arstechnica.com/information-technology/2023/12/real-humans-appeared-human-63-of-the-time-in-recent-turing-test-ai-study/)
 
  See also [T], ...
 
@@ -928,14 +970,20 @@ Agreed. Based on the sequence of events and the details provided, the area aroun
  
 # Two-Tower Model
 
- The Two-Tower model is widely used in the recommendation system retrieval stage. The idea is quite simple for this model architecture; it consists of two fully separated towers, one for the user and one for the item, as shown in the figure below. Through deep neural networks, the model is able to learn high-level abstract representations for both a user and an item with past user-item interactions. The output is the [similarity] between user embedding and item embedding, which represents how interested the user is in the given item.
+ ~ architecture for [recommendation engines] that need to compute recommendations in real time without introducing large latencies.
 
- To further accelerate online serving, user embeddings and item embeddings can be precomputed and stored offline. Thus, we only need to compute the similarity between user and item embeddings during online serving.
+ The Two-Tower model is widely used in the recommendation system retrieval stage. The idea is quite simple for this model architecture; it consists of two fully separated towers, one for the user and one for the item, as shown in the figure below. Through [deep neural networks], the model is able to learn high-level abstract representations for both a user and an item with past user-item interactions. The output is the [similarity] between user [embedding] and item [embedding], which represents how interested the user is in the given item.
+
+ To further accelerate online serving, user [embeddings] and item [embeddings] can be precomputed and stored offline. Thus, we only need to compute the [similarity] between user and item embeddings during online serving.
+
+ :warning: This model is similar to a RAG platform where you try to match a question to sections of documents.
 
  ![]( {{site.assets}}/t/two_tower_model.png ){: width="100%"}
 
  More at:
-  * [https://hackernoon.com/understanding-the-two-tower-model-in-personalized-recommendation-systems](https://hackernoon.com/understanding-the-two-tower-model-in-personalized-recommendation-systems)
+  * articles
+    * [https://hackernoon.com/understanding-the-two-tower-model-in-personalized-recommendation-systems](https://hackernoon.com/understanding-the-two-tower-model-in-personalized-recommendation-systems)
+    * [https://medium.com/tech-p7s1/video-recommendations-at-joyn-two-tower-or-not-to-tower-that-was-never-a-question-6c6f182ade7c](https://medium.com/tech-p7s1/video-recommendations-at-joyn-two-tower-or-not-to-tower-that-was-never-a-question-6c6f182ade7c)
 
- See also [T], ...
+ See also [T], [Dot Product Similarity]
 

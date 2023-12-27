@@ -229,6 +229,28 @@ Predict what are the required agent skills based some input parameters
  See also [M], ...
 
 
+# Mamba Model
+
+ ~ does not use the transformer, but much cheaper to train and use than transformers. Scale to very long sequences.
+
+ A [LLM] that does not used a [Transformer Architecture], but a [Recurrent Neural Network] ! The [RNNs] fight back!
+
+ A new [state space model] architecture which shows promising performance on information-dense data such as language modeling, where previous subquadratic models couldn't match [Transformers]. Inspired by structured state space models, it combines a hardware-friendly design with an approach similar to [FlashAttention] for improved performance.
+
+ {% youtube "https://www.youtube.com/watch?v=wKNGU12z--o" %}
+
+ {% youtube "https://www.youtube.com/watch?v=9dSkvxS2EB0" %}
+
+ {% pdf "https://arxiv.org/pdf/2312.00752.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2312.00752](https://arxiv.org/abs/2312.00752)
+  * code - [https://github.com/state-spaces/mamba](https://github.com/state-spaces/mamba)
+  * colab - [https://colab.research.google.com/drive/1dUlEYnRbgJYg4_kofNpsCddLCh6vltNK?usp=sharing#scrollTo=4cMzClx-qN1x](https://colab.research.google.com/drive/1dUlEYnRbgJYg4_kofNpsCddLCh6vltNK?usp=sharing#scrollTo=4cMzClx-qN1x) 
+
+ See also [M], [State Space Model], ...
+
+
 # ManGPT Model
 
  More at:
@@ -240,6 +262,20 @@ Predict what are the required agent skills based some input parameters
 # Manhattan Distance
 
  The Euclidean distance is the length of the shortest path between 2 points. The Manhattan distance instead assumes there is a grid and the total distance is the sum of the delta for each of the dimensions. In other words, ManDist = (X2-X1) + (Y2-Y1)   etc 
+
+ See also [M], ...
+
+
+# ManyChat Company
+
+ OpenAI Assistant or custom GPT on whatsapp ?  
+
+ {% youtube "https://www.youtube.com/watch?v=icnPIXrLxv8" %}
+
+ {% youtube "https://www.youtube.com/watch?v=3YPeh-3AFmM" %}
+
+ More at: 
+  * site - [https://manychat.com/](https://manychat.com/)
 
  See also [M], ...
 
@@ -275,7 +311,6 @@ Predict what are the required agent skills based some input parameters
 
 
 # Markov Decision Process
-
 # MDP
 
  Markov Decision Process is a [Reinforcement Learning] algorithm that gives us a way to formalize sequential decision making. This formalization is the basis to the problems that are solved by Reinforcement Learning. The components involved in a Markov Decision Process (MDP) is a decision maker called an [agent] that interacts with the [environment] it is placed in. These interactions occur sequentially overtime. In each timestamp, the [agent] will get some representation of the environment state. Given this representation, the agent selects an [action] to make. The environment is then transitioned into some new state and the agent is given a reward as a consequence of its previous [action]. The process of selecting an [action] from a given state, transitioning to a new state and receiving a reward happens sequentially over and over again. This creates something called a trajectory that shows the sequence of [states], [actions] and [rewards]. Throughout the process, it is the responsibility of the reinforcement learning [agent] to maximize the total amount of [rewards] that it received from taking actions in given states of environments. `The agent not only wants to maximize the immediate rewards but the [cumulative reward] it receives in the whole process.`
@@ -294,7 +329,6 @@ Predict what are the required agent skills based some input parameters
 
 
 # Masked Language Modeling
-
 # MLM
 
  Methods: replace 15% of words in corpus with special [MASK] token and ask the NLP model (e.g. BERT) to fill in the blank
@@ -326,10 +360,47 @@ The training is identical -- we still predict each masked WordPiece token indepe
 
 
 # Masked Vision Modeling
-
 # MVM
 
  See also [M], [Masked Language Modeling], [Vision-Language Pre-Training]
+
+
+# Massive Multitask Language Understanding Benchmark
+# MMLU Benchmark
+
+ ~ a [benchmark] used to compare [large language models] on many [language understanding] tasks.
+
+ We propose a new test to measure a text model's multitask accuracy. The test covers 57 tasks including elementary mathematics, US history, computer science, law, and more. To attain high accuracy on this test, models must possess extensive world knowledge and problem solving ability. We find that while most recent models have near random-chance accuracy, the very largest [GPT-3 model] improves over random chance by almost 20 percentage points on average. However, on every one of the 57 tasks, the best models still need substantial improvements before they can reach expert-level accuracy. Models also have lopsided performance and frequently do not know when they are wrong. Worse, they still have near-random accuracy on some socially important subjects such as morality and law. By comprehensively evaluating the breadth and depth of a model's academic and professional understanding, our test can be used to analyze models across many tasks and to identify important shortcomings.
+
+ ```
+One of the reasons that the government discourages and regulates monopolies is that
+(A) producer surplus is lost and consumer surplus is gained.
+(B) monopoly prices ensure productive efficiency but cost society allocative efficiency.
+(C) monopoly firms do not engage in significant research and development.
+(D) consumer surplus is lost with higher prices and lower levels of output.
+
+When you drop a ball from rest it accelerates downward at 9.8 m/s². If you instead throw it
+downward assuming no air resistance its acceleration immediately after leaving your hand is
+(A) 9.8 m/s²
+(B) more than 9.8 m/s²
+(C) less than 9.8 m/s²
+(D) Cannot say unless the speed of throw is given.
+
+In the complex z-plane, the set of points satisfying the equation z² = |z|² is a
+(A) pair of points
+(B) circle
+(C) half-line
+(D) line
+ ```
+
+ ![]( {{site.assets}}/m/massive_multitask_language_understanding.png ){: width="100%"}
+
+ {% pdf "https://arxiv.org/pdf/2009.03300.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2009.03300](https://arxiv.org/abs/2009.03300)
+
+ See also [M], ...
 
 
 # Matplotlib Python Module
@@ -534,6 +605,7 @@ S = Q D Qt
 
  See also [M], ...
 
+
 # Matrix Determinant
 
  {% youtube "https://www.youtube.com/watch?v=Ip3X9LOh2dk" %}
@@ -564,7 +636,6 @@ S = Q D Qt
 
 
 # Mean Absolute Error Loss Function
-
 # MAE Loss Function
 
  The Mean Absolute Error (MAE) [loss function] is only slightly different in definition from the [MSE], but interestingly provides almost exactly opposite properties! To calculate the MAE, you take the difference between your model’s predictions and the [ground truth], apply the absolute value to that difference, and then average it out across the whole [dataset]. The MAE, like the [Mean Square Error (MSE)][MSE], will never be negative since in this case we are always taking the absolute value of the errors. The MAE is formally defined by the following equation:
@@ -659,20 +730,34 @@ def mse_loss(y_pred, y_true):
  See also [M], [Differential Privacy], [Overfitting]
 
 
+# Memory Hierarchy
+
+ * [CPU Memory]
+ * [GPU Memory]
+
+
+ ![]( {{site.assets}}/m/memory_1.png ){: width="100%"}
+ ![]( {{site.assets}}/m/memory_2.png ){: width="100%"}
+ ![]( {{site.assets}}/m/memory_3.png ){: width="100%"}
+
+ See also [M], ...
+
+
 # Meta Company
 
- A [company] previously known as [Facebook]
+ A [company] previously known as Facebook
 
  Models:
-  * [CICERO][CICERO Model]: Strategy game with multiplayer interaction
-  * [ESMFold][ESMFold Model]: Protein folding
-  * [LLaMA][LLaMA Model]: Large Language Model open-sourced
-  * [Make-A-Video][Make-A-Video Model]: Text to video model
-  * [Pluribus][Pluribus Model]: Plays poker better than humans
-  * [RoBERTa][RoBERTa Model]: Optimized version of BERT
-  * [Segment Anything][Segment Anything Model]: Instance segmentation in images
+  * [CICERO] - Strategy game with multiplayer interaction
+  * [ESMFold] - Protein folding
+  * [Imagine](https://imagine.meta.com/) - a diffusion model
+  * [LLaMA] - Large Language Model open-sourced
+  * [Make-A-Video] - Text to video model
+  * [Pluribus] - Plays poker better than humans
+  * [RoBERTa] - Optimized version of BERT
+  * [Segment Anything] - Instance segmentation in images
   * [Fairseq Toolkit] - Facebook AI Research Toolkit
-    * [Wav2Vec] - For [Automatic Speech Recognition (ASR)][ASR]
+    * [Wave2Vec] - For [Automatic Speech Recognition (ASR)][ASR]
   * [Voicebox] - edit, create, transfer styles between audio recordings
 
  More at:
@@ -685,14 +770,14 @@ def mse_loss(y_pred, y_true):
 
  A ML model to find the best hyperparameters. Ex: Gaussian process regression models object metric as a function of hyperparameters (beware assume smoothness, works with low data, confidence estimates) + bayesian optimization decides where to search next (explore and exploit and gradient free) .
 
- See also [M], [Hyperparameter Optimization], [Meta Learning]
+ See also [M], [Hyperparameter Optimization], [Meta-Learning]
 
 
 # Meta-Learning
 
  Learn how to quickly adapt to new tasks within similar domains.
 
- Is a [sample efficient RL algorithm]
+ Is a [sample efficient algorithm]
 
  Normally you take the x to predict the y and optimize parameters to get as close to y as possible. Here you take the x and y to generate a theta parameter to fit in another model... then use the loss of the aggregate model to
 
@@ -749,6 +834,7 @@ def mse_loss(y_pred, y_true):
  More at :
   * home - [https://cocodataset.org/#home](https://cocodataset.org/#home)
   * paper - [https://arxiv.org/abs/1405.0312](https://arxiv.org/abs/1405.0312)
+  * know your data - [https://knowyourdata-tfds.withgoogle.com/#dataset=coco_caption](https://knowyourdata-tfds.withgoogle.com/#dataset=coco_caption)
 
  See also [M], [BLEU Score], [CIDEr Score], [Dataset], [METEOR Score], [ROUGE Score]
 
@@ -766,6 +852,8 @@ def mse_loss(y_pred, y_true):
 
  {% youtube "https://www.youtube.com/watch?v=onjfu3Uh2vI" %}
 
+ {% youtube "https://www.youtube.com/watch?v=Zl_4V0ks7CE" %}
+
  More at:
   * [https://promptomania.com/midjourney-prompt-builder/](https://promptomania.com/midjourney-prompt-builder/)
 
@@ -777,6 +865,10 @@ def mse_loss(y_pred, y_true):
  An open-source [vector database] that is highly flexible, reliable, and blazing fast.
 
  ![]( {{site.assets}}/m/milvus_database.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=kVoRP2glJ8s" %}
+
+ {% youtube "https://www.youtube.com/watch?v=kVoRP2glJ8s" %}
 
  More at:
   * site - [https://milvus.io/](https://milvus.io/)
@@ -838,12 +930,20 @@ def mse_loss(y_pred, y_true):
  See also [M], ...
 
 
+# Mira Murali Person
+
+ ~ Interim CEO of [OpenAI] during [Sam Altman]'s ouster.
+
+ See also [M], ...
+
+
 # Mistral AI Company
 
  A small creative team with high scientific standards. They make efficient, helpful and trustworthy AI models through ground-breaking innovations.
 
  Models
-  * [Mistral Model]
+  * [Mistral Models]
+  * [Mixtral Models]
 
  More at:
   * [https://mistral.ai/](https://mistral.ai/)
@@ -855,14 +955,16 @@ def mse_loss(y_pred, y_true):
 
  Model developed by the [Mistral AI Company]
 
- Mistral 7B is a 7.3B parameter model that:
+ Mistral-7B is a 7.3B parameter model that:
   * Outperforms Llama 2 13B on all benchmarks
   * Outperforms Llama 1 34B on many benchmarks
   * Approaches CodeLlama 7B performance on code, while remaining good at English tasks
   * Uses [Grouped-Query Attention (GQA)][GQA] for faster inference
   * Uses [Sliding Window Attention (SWA)][SWA] to handle longer sequences at smaller cost
 
- {{% youtube "https://www.youtube.com/watch?v=teEf4OzQ1IY" %}}
+ Mistral-8x7B is using the [mixture of expert] architecture with 8 mistral-7b experts!
+
+ {% youtube "https://www.youtube.com/watch?v=teEf4OzQ1IY" %}
 
  More at:
   * ...
@@ -886,15 +988,37 @@ def mse_loss(y_pred, y_true):
  See also [M], ...
 
 
-# Mixture Of Local Experts
-# MoE
+# Mixtral Model
+
+ * <!> The 8x7B model is architected using a [mixture of experts] and therefore its size is 8 times bigger! 
+
+ More at:
+  * site - [https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1)
+  * announcement - [https://mistral.ai/news/mixtral-of-experts/](https://mistral.ai/news/mixtral-of-experts/)
+
+ See also [M], [Sparcity]
+
+
+# Mixture-Of-Experts Architecture
+# MoE Architecture
+
+ ~ like an [ensemble method] except that typically only one or a few expert models will be run rather than combining the results.
 
  In 1991, MoE was first introduced by a research group that included deep-learning and Switch Transformer creator Geoff Hinton. In 2017, the Google Brain team and Hinton used MoE to create an NLP model based on recurrent neural networks (RNN) of 137 billion parameters, where it achieved state-of-the-art (SOTA) results on language modelling and machine translation benchmarks.
 
+ What does an expert learn? The ST-MoE authors observed that encoder experts specialize in a group of tokens or shallow concepts. For example, we might end with a punctuation expert, a proper noun expert, etc. On the other hand, the decoder experts have less specialization. The authors also trained in a multilingual setup. Although one could imagine each expert specializing in a language, the opposite happens: due to token routing and load balancing, there is no single expert specialized in any given language.
+
+ ![]( {{site.assets}}/m/mixture_of_experts.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=RYZ0FMAKRFs" %}
+
  More at :
   * paper - [http://www.cs.toronto.edu/~fritz/absps/jjnh91.pdf](http://www.cs.toronto.edu/~fritz/absps/jjnh91.pdf)
+  * wikipedia - [https://en.wikipedia.org/wiki/Mixture_of_experts](https://en.wikipedia.org/wiki/Mixture_of_experts)
+  * iarticles
+    * in-depth - [https://github.com/huggingface/blog/blob/main/moe.md](https://github.com/huggingface/blog/blob/main/moe.md)
 
- See also [M], [Switch Transformer]
+ See also [M], [Sparsity], [Switch Transformer]
 
 
 # ML Algorithm Evaluation
@@ -908,12 +1032,26 @@ def mse_loss(y_pred, y_true):
  See also [M], [K-Nearest Neighbors Algorithm], [Random Forest]
 
 
-# ML Flow
+# ML Energy Initiative
+
+ ~ models such as the [RWKV] claims to be the most energy efficient. Is that true?
+
+ More at:
+  * site - [https://ml.energy/](https://ml.energy/)
+  * blog - [https://ml.energy/blog/](https://ml.energy/blog/)
+  * leaderboard - [https://ml.energy/leaderboard/](https://ml.energy/leaderboard/)
+
+ See also [M], ...
+
+
+# MLFlow
+
+ {% youtube "https://www.youtube.com/watch?v=dIamK2NA-G8" %}
  
   More at:
    * [https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145](https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145)
 
-  See also [M], ...
+  See also [M], [Kubeflow]
 
 
 # MLOps
@@ -922,7 +1060,19 @@ def mse_loss(y_pred, y_true):
 
  MLOps = People + Technology + Process
 
+ Tools
+  * [Kubeflow]
+  * [Sagemaker Pipeline]
+  * [ModelMesh]
+  * [Caikit]
+  * [MLFlow]
+  * [Katib] - autoML ?
+  * ...
+  * [Istio]
+
  ![]( {{site.assets}}/m/ml_mlops.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=VAM-FSz0oPg" %}
 
  See also [M], [DevOps]
 
@@ -946,7 +1096,7 @@ def mse_loss(y_pred, y_true):
 
  The result of a model evaluation against a set of reference [benchmarks]
 
- See also [M], ...
+ See also [M], [Model Leaderboard]
 
 
 # Model Build Of Material
@@ -1113,7 +1263,7 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
 
 # Model Firewall
 
- A proxy that front the LLM and inspect input and output of queries.
+ A proxy that front the LLM and inspect input and output of queries. Useful for guardrails.
 
  See also [M], ...
 
@@ -1127,6 +1277,8 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
  See also [M], ...
 
 # Model Hub
+
+ Where you can download models from.
 
  See also [M], ...
 
@@ -1157,6 +1309,13 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
  Overall, model inversion exploits the inherent fit between a model and its training data. Managing what models reveal through queries helps mitigate this emerging threat.
 
  See also [M], [Model Threat Analysis]
+
+
+# Model Leaderboard
+
+ Where you can compare different models based on several metrics/benchmarks such as perplexity, bias, loss, etc.
+
+ See also [M], [Model Benchmark]
 
 
 # Model Release Card
@@ -1381,6 +1540,15 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
  See also [M], ...
 
 
+# ModelMesh Framework
+
+ ~ a multi-model serving framework, recently open-sourced by [IBM]. It underpins many watson cloud services.
+
+ {% youtube "https://www.youtube.com/watch?v=FQYVDqwfoW4" %}
+
+ See also [M], ...
+
+
 # Modified National Institute of Standards and Technology
 # MNIST Dataset
 
@@ -1400,6 +1568,11 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
  The first part of the [CNN] is called [feature extraction], the second part is the [classification].
 
  ![]( {{site.assets}}/m/mnist_dataset.png ){: width="100%"}
+
+ More at:
+  * MNIST dataset - [https://knowyourdata-tfds.withgoogle.com/dataset=mnist](https://knowyourdata-tfds.withgoogle.com/dataset=mnist)
+  * EMNIST dataset - [https://knowyourdata-tfds.withgoogle.com/dataset=emnist](https://knowyourdata-tfds.withgoogle.com/dataset=emnist)
+  * [https://pair.withgoogle.com/explorables/private-and-fair/](https://pair.withgoogle.com/explorables/private-and-fair/)
 
  See also [M], [Dataset]
 
@@ -1497,7 +1670,7 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
  See also [M], ...
 
 
-# Multi-Head Self-Attention
+# Multi-Head Attention
 
  ~ the brains of the Transformer and responsible for performance through parallelism. Multi-Head Attention consists of several attention layers running in parallel. The Attention layer takes its input in the form of three parameters, known as the Query, Key, and Value (aka Q,K,V). All three parameters are similar in structure, with each word in the sequence represented by a vector. In transformers is used for encoder and decoder.
 
@@ -1506,6 +1679,9 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
  {% youtube "https://www.youtube.com/watch?v=g2BRIuln4uc" %}
 
  {% youtube "https://www.youtube.com/watch?v=PFczJ6NR5rY" %}
+
+ More at:
+  * code - [https://nlp.seas.harvard.edu/annotated-transformer/](https://nlp.seas.harvard.edu/annotated-transformer/)
 
  See also [M], [Attention Score], [Attention-Based Model], [Decoder], [Encoder], [Masked Self-Attention], [Self-Attention], [Transformer Model]
 
@@ -1521,6 +1697,25 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
   * How does that relate to transfer learning?
 
  See also [M], [Gato Model], [Insufficient Data Algorithm], [Transfer Learning]
+
+
+# Multi-Turn Question Set Benchmark
+# MT-Bench
+
+ Despite the base [LLaMA models] showing competitive performance on conventional [benchmarks], its answers to open-ended questions are often not preferred by humans. This misalignment of conventional benchmarks underscores the core problem driving this paper: the need for a robust and scalable automated method to evaluate LLM alignment with human preferences.
+
+ Evaluating [large language model (LLM)][LLM] based chat assistants is challenging due to their broad capabilities and the inadequacy of existing benchmarks in measuring human preferences. To address this, we explore using strong [LLMs as judges] (such as [GTP-4]) to evaluate these models on more open-ended questions. We examine the usage and limitations of LLM-as-a-judge, including position, verbosity, and self-enhancement biases, as well as limited reasoning ability, and propose solutions to mitigate some of them. We then verify the agreement between LLM judges and human preferences by introducing two benchmarks: MT-bench, a multi-turn question set; and [Chatbot Arena], a crowdsourced battle platform. Our results reveal that strong LLM judges like [GPT-4] can match both controlled and crowdsourced human preferences well, achieving over 80% agreement, the same level of agreement between humans. Hence, [LLM-as-a-judge] is a scalable and explainable way to approximate human preferences, which are otherwise very expensive to obtain. 
+
+ ![]( {{site.assets}}/m/multi_turn_question_set_benchmark.png ){: width="100%"}
+
+ {% pdf "https://arxiv.org/pdf/2306.05685.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2306.05685](https://arxiv.org/abs/2306.05685)
+  * code - [https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge)
+  * leaderboard - [https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard)
+
+ See also [M], ...
 
 
 # Multiattribute Objective

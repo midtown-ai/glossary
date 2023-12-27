@@ -51,6 +51,13 @@ layout: page
  See also [D], [CLIP Model], [GLIDE Model]
 
 
+# Dario Amodei Person
+
+ ~ CEO of [Anthropic]
+
+ See also [D], ...
+
+
 # DARPA
 
  * 2004 - 2005: [DARPA Grand Challenge]
@@ -257,6 +264,7 @@ layout: page
  Solution: Look at the feature importance to find out if one of them is 100% predictive!
 
  More at:
+   * explorable - [https://pair.withgoogle.com/explorables/data-leak/](https://pair.withgoogle.com/explorables/data-leak/)
    * [https://docs.google.com/presentation/d/1WrkeJ9-CjuotTXoa4ZZlB3UPBXpxe4B3FMs9R9tn34I/edit#slide=id.g164b1bac824_0_2980](https://docs.google.com/presentation/d/1WrkeJ9-CjuotTXoa4ZZlB3UPBXpxe4B3FMs9R9tn34I/edit#slide=id.g164b1bac824_0_2980)
 
  See also [D], [Model Threat Analysis]
@@ -407,6 +415,9 @@ layout: page
    * [MNIST Dataset] - Digits for zip codes
    * [CIFAR Dataset] - 10+ categories
    * [ImageNet Dataset] - ...
+   * others - [https://knowyourdata-tfds.withgoogle.com/](https://knowyourdata-tfds.withgoogle.com/)
+  * image to text
+   * [LAION Dataset] - 5B images paired with their caption, useful for CLIP models
   * audio sequences
    * [https://github.com/LAION-AI/audio-dataset](https://github.com/LAION-AI/audio-dataset)
   * text, aka [corpus]
@@ -429,13 +440,17 @@ layout: page
   * [https://www.kaggle.com/datasets](https://www.kaggle.com/datasets)
   * [https://paperswithcode.com/datasets](https://paperswithcode.com/datasets)
   * [https://scikit-learn.org/stable/datasets.html](https://scikit-learn.org/stable/datasets.html)
+  * tools
+    * know your data
+      * blog - [https://blog.research.google/2021/08/a-dataset-exploration-case-study-with.html](https://blog.research.google/2021/08/a-dataset-exploration-case-study-with.html)
+      * site - [https://knowyourdata.withgoogle.com/](https://knowyourdata.withgoogle.com/)
 
  See also [D], [Data Point], [Development Subset], [GINI Impurity Index], [Testing Subset], [Training Subset]
 
 
 # Dataset Bias
 
- ~ a form of [bias] that is introduced by [datasets] and that can lead to [AI bias]
+ ~ a form of [bias] that is introduced by [datasets] and that can lead to [AI bias]. An error (or errors) in the data a computer system uses that results in inaccurate, misleading, or unfair results.
 
  Dataset bias, also known as data bias, refers to the presence of systematic and unfair inaccuracies or imbalances in a dataset used for machine learning, statistical analysis, or data-driven decision-making. Dataset bias can result in models or algorithms that make inaccurate predictions or exhibit unfair behavior because the training data does not accurately represent the real-world population or scenario they are meant to address.
 
@@ -516,6 +531,8 @@ layout: page
 
 
 # Decision Tree
+
+ ~ a type of algorithm a computer follows to make a decision or prediction based on specific rules.
 
  Decision trees are [White Box Models][White Box Model] that Can be used for regression and classification.
   * classification:  Go from the root node to the leaf of the tree where is the classification.
@@ -649,6 +666,11 @@ layout: page
  More at:
   * paper - [https://arxiv.org/abs/1509.02971v6](https://arxiv.org/abs/1509.02971v6)
   * code - [https://paperswithcode.com/method/ddpg](https://paperswithcode.com/method/ddpg)
+
+ See also [D], ...
+
+
+# Deep Equilibrium Model
 
  See also [D], ...
 
@@ -953,6 +975,15 @@ We need to do this for
  See also [D], [Data Analyst], [Data Scientist]
 
 
+# Differential Optimization
+
+ An alternative to deep learning models to solve constrained optimization.
+
+ {% youtube "https://www.youtube.com/watch?v=MX1RJELWONc" %}
+
+ See also [D], ...
+
+
 # Differential Privacy
 
  Differential privacy is the technology that enables researchers and database analysts to avail a facility in obtaining the useful information from the databases, containing people's personal information, without divulging the personal identification about individuals. This can be achieved by introducing a minimum distraction in the information, given by the database.
@@ -1097,6 +1128,8 @@ speed.
  DPO replaces [RLHF] : In this technical and informative video, we explore a groundbreaking methodology called direct preference optimization (DPO) by Stanford Univ that has the potential to replace reinforcement learning in the training of GPT systems. 
 
  {% youtube "https://www.youtube.com/watch?v=pzh2oc6shic" %}
+
+ {% youtube "https://www.youtube.com/watch?v=HCFTXTn1PHA" %}
 
  {% pdf "https://arxiv.org/pdf/2305.18290.pdf" %}
 
@@ -1351,13 +1384,39 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
 
 # Dropout Layer
 
- Layer or layers where the [dropout function] is applied
+ Layer or layers where the [dropout function] is applied, normally after all Dense layers! The dropout rate for each dropout layer can be different.
 
  [Input layer] : This is the top-most layer of [artificial intelligence] and [machine learning] where the initial raw data is being ingested. [Dropout] can be applied to this layer of visible data based on which data is deemed to be irrelevant to the business problem being worked on.
 
  [Output layer] : This is the final, visible processing output from all neuron units. Dropout is NOT used on this layer (because the numbers of output has already been chosen carefully !)
 
  [Intermediate or hidden layers][Hidden Layer]: These are the layers of processing after data ingestion. These layers are hidden because we can't exactly see what they do. The layers, which could be one or many, process data and then pass along intermediate -- but not final -- results that they send to other neurons for additional processing. Because much of this intermediate processing will end up as noise, data scientists use dropout to exclude some of it.
+
+ {% youtube "https://www.youtube.com/watch?v=Fv8O4MvanJY" %}
+
+ {% youtube "https://www.youtube.com/watch?v=XmLYl17DbbA" %}
+
+ See also [D], ...
+
+
+# Dropout Ratio
+
+ Whenever a deep neural network is overfitting, this ratio should be a bit higher!
+
+ If p = 0.25 --> every neuron has 1/4th chance of being inactive during training time. During test time, we have the whole network!
+
+ :warning: when running with the whole layer (test time), you need to multiply the weights by the value of p ! (otherwise value is very different!)
+
+ :warning: the connections are activated or inactivated after each sample, batch, or epoch? Most likely batch!
+
+ See also [D], ...
+
+
+# Dropout Regularization
+
+ Used to reduce overfitting. Avoid bias in a specific neuron or feature. To execute a dropout regularization, add a [dropout layer] after each [dense layer]! The regularization decrease the accuracy during training, but increases it at test time as the model has been better at generalizing.
+
+ {% youtube "https://www.youtube.com/watch?v=lcI8ukTUEbo" %}
 
  See also [D], ...
 

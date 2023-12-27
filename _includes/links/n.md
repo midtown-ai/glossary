@@ -9,6 +9,8 @@
 [Named Entity Recognition]: {{ site.baseurl }}{% link glossary/n.md %}#named-entity-recognition
 [NER]: {{ site.baseurl }}{% link glossary/n.md %}#named-entity-recognition
 [Nash Equilibrium]: {{ site.baseurl }}{% link glossary/n.md %}#nash-equilibrium
+[National Artificial Intelligence Advisory Committee]: {{ site.baseurl }}{% link glossary/n.md %}#national-artificial-intelligence-advisory-committee
+[NAIAC]: {{ site.baseurl }}{% link glossary/n.md %}#national-artificial-intelligence-advisory-committee
 [National Institute of Standards and Technology]: {{ site.baseurl }}{% link glossary/n.md %}#national-institute-of-standards-and-technology
 [NIST]: {{ site.baseurl }}{% link glossary/n.md %}#national-institute-of-standards-and-technology
 [National Science Foundation]: {{ site.baseurl }}{% link glossary/n.md %}#national-science-foundation
@@ -30,6 +32,7 @@
 [Natural Language Understanding]: {{ site.baseurl }}{% link glossary/n.md %}#natural-language-understanding
 [NLU]: {{ site.baseurl }}{% link glossary/n.md %}#nlu
 [Negative Attribute]: {{ site.baseurl }}{% link glossary/n.md %}#negative-attribute
+[Nemo Toolkit]: {{ site.baseurl }}{% link glossary/n.md %}#nemo-toolkit
 [Neo4j Graph Database]: {{ site.baseurl }}{% link glossary/n.md %}#neo4j-graph-database
 [Neo4j]: {{ site.baseurl }}{% link glossary/n.md %}#neo4j-graph-database
 [Neocognitron]: {{ site.baseurl }}{% link glossary/n.md %}#neocognitron
@@ -49,6 +52,12 @@
 [NMT]: {{ site.baseurl }}{% link glossary/n.md %}#neural-machine-translation
 [Neural Network]: {{ site.baseurl }}{% link glossary/n.md %}#neural-network
 [Neural Network Interpretability]: {{ site.baseurl }}{% link glossary/n.md %}#neural-network-interpretability
+[Neural Ordinary Differential Equation]: {{ site.baseurl }}{% link glossary/n.md %}#neural-ordinary-differential-equation
+[Neural Ordinary Differential Equations]: {{ site.baseurl }}{% link glossary/n.md %}#neural-ordinary-differential-equation
+[Neural ODE]: {{ site.baseurl }}{% link glossary/n.md %}#neural-ordinary-differential-equation
+[Neural ODEs]: {{ site.baseurl }}{% link glossary/n.md %}#neural-ordinary-differential-equation
+[Neural Radiance Field]: {{ site.baseurl }}{% link glossary/n.md %}#neural-radiance-field
+[NeRF]: {{ site.baseurl }}{% link glossary/n.md %}#neural-radiance-field
 [Neural Retriever]: {{ site.baseurl }}{% link glossary/n.md %}#neural-retriever
 [Neural Style Transfer]: {{ site.baseurl }}{% link glossary/n.md %}#neural-style-transfer
 [NST]: {{ site.baseurl }}{% link glossary/n.md %}#neural-style-transfer

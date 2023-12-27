@@ -31,11 +31,11 @@ layout: page
 
 # F1 Score
 
- Harmonic mean of precision and recall. A metric used for [model evaluation]  in scenarios where both false positives and false negatives are crucial. For instance, in information retrieval or sumarization tasks.
+ Harmonic mean of precision and recall. A metric used for [model evaluation] in scenarios where both [false positives] and [false negatives] are crucial. For instance, in information retrieval or sumarization tasks.
 
- A Measure of accuracy of a model. Used to find [hyperparameter optimization].
+ A Measure of [accuracy] of a model. Used to find [hyperparameter optimization].
 
- When to use? F1-Score is used when the False Negatives and False Positives are important. F1-Score is a better metric for Imbalanced Data.
+ When to use? F1-Score is used when the [False Negatives] and [False Positives] are important. F1-Score is a better metric for [imbalanced data].
 
  More at:
   * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
@@ -142,13 +142,26 @@ print(llm_chain.run(question))
  See also [F], ...
 
 
+# False Negative
+
+ When a [binary classifier] says it is negative, when instead it was positive. Also called type II error!
+
+ See also [F], [Confusion Matrix], [F1 Score]
+
+
+# False Positive
+
+ When a [binary classifier] says it is positive, when instead it was negative. Also called type I error !
+
+ See also [F], [Confusion Matrix], [F1 Score]
+
+
 # Fashion MNIST Dataset
 
  See also [F], [MNIST Dataset]
 
 
 # Fast Random Projection
-
 # FastRP
 
  FastRP, a scalable and performant algorithm for learning distributed node representations in a graph. FastRP is over 4,000 times faster than state-of-the-art methods such as [DeepWalk] and [node2vec], while achieving comparable or even better performance as evaluated on several real-world networks on various downstream tasks. We observe that most network embedding methods consist of two components: construct a node similarity matrix and then apply dimension reduction techniques to this matrix. 
@@ -171,6 +184,8 @@ print(llm_chain.run(question))
 
  `Input parameter to the model`. Which features are important to make the right prediction? Beware that the dataset needs to be at least 10 times the number of features.
 
+ A feature is a characteristic of a piece of data that the computer needs to know about in order to learn about that kind of data. These characteristics, or features, are used by AI systems to come up with patterns about the data and then make predictions using those patterns. Theses features are often stored in variables so that the computer can use them later!
+
  See also [F], [Data Point], [Dataset], [Explanatory Variable], [Feature Engineering], [Feature Extraction], [Feature Vector], [Naive Bayes]
 
 
@@ -182,6 +197,7 @@ print(llm_chain.run(question))
 
  More at:
   * [https://cloud.google.com/blog/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble](https://cloud.google.com/blog/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble)
+
 
 # Feature Distribution
 
@@ -308,6 +324,69 @@ print("Accuracy:", accuracy)
  See also [F], ...
 
 
+# Feature Map
+
+ The result of the convolution of an [image filter] with the 'input' image or the [activation map] from the previous layer.
+
+ Below’s an example of a 3×3x1 filter (shown in blue) applied to a 5×5x1 input matrix to produce a 3×3x1 feature map. To compute the first element of the feature map, we place the filter over the top left corner of the input matrix (shown in pink) and compute the [dot product] (i.e. how similar is the [image filter] the processed image patch).
+
+ We slide the filter to the right by one pixel to compute the next element of the feature map, and so on, until we have computed all 9 elements of the feature map.
+
+ Note that the size of the feature map is function of the image filter size in relation to the input image. If the filter has the same size as the input image, the feature map is only 1x1! But if the filter is only 1x1, the feature map is the same size as the input image. The feature map size also depends on the stride of the convolution operation.
+
+ ```
+Assuming the input has dimensions of W x H x C (where W is the width, H is the height, and C is the number of channels),
+and we use a filter of size F x F x C (where F is the filter size),
+and a stride of S,
+the output feature map will have dimensions of:
+
+[ (W  -  F)   /  S   +   1]  x  [ (H  -  F)   /  S   +  1]
+ ```
+
+ Occasionally the feature map refers to the concatenation of all feature maps by each kernel on the same convolution layer.
+
+ ```
+In that case, 
+where K is the number of filters used in the layer.
+
+The output feature map size is therefore 
+
+[ (W  -  F)   /  S   +   1]  x  [ (H  -  F)   /  S   +  1]   x  K
+
+
+For example, let’s say we have an input image of size 28 x 28 x 3,
+and we use a filter of size 5 x 5 x 3
+with a stride of 1.
+In this case, the output feature map would have dimensions of 24 x 24 x K.
+If we use two filters, the output feature map would have dimensions of 24 x 24 x 2.
+ ```
+
+ Indeed, the size of the output feature map is determined by the size of the input, the size of the filter, and the stride of the convolution operation.
+
+ ![]( {{site.assets}}/f/feature_map_computation.jpeg ){: width="100%"}
+
+ ![]( {{site.assets}}/f/feature_map_size.png ){: width="100%"}
+
+ Here are some potential pros and cons of feature maps in CNNs.
+
+ Pros:
+  * Feature maps can help to extract and highlight important features in the input data, which can improve the accuracy of the CNN in tasks such as image recognition, object detection, and speech recognition
+  * Feature maps can help to reduce the dimensionality of the input data, making it easier and faster to process and analyze
+  * By using multiple layers of feature maps, a CNN can capture complex and hierarchical relationships between different features in the input data, leading to more accurate and robust predictions
+  * Feature maps learned from one task or dataset can often be transferred to another task or dataset, allowing the CNN to leverage knowledge gained from previous tasks or datasets. This can lead to faster training and improved performance on new tasks or datasets.
+
+ Cons:
+  * Feature maps can be computationally expensive to compute, especially when using large input images and multiple layers of feature maps
+  * CNNs typically have a large number of parameters and require a significant amount of memory to store and process data. The size of the feature maps can also become very large, which can be challenging to handle in terms of memory requirements
+  * Feature maps can sometimes be overfit to specific features in the training data, leading to poor generalization and performance on unseen data
+  * The quality and interpretability of feature maps can be affected by the choice of architecture, hyperparameters, and training method used in the CNN
+
+ More at:
+  * articles
+    * [https://www.baeldung.com/cs/cnn-feature-map](https://www.baeldung.com/cs/cnn-feature-map)
+
+ See also [F], [Activation Map]
+
 # Feature Normalization
 
  Cleaning the data in preparation of feeding it to a model.
@@ -378,6 +457,24 @@ Xnorm = ---------------
   * [https://distill.pub/2017/feature-visualization/](https://distill.pub/2017/feature-visualization/)
   * papers
    * Visualizing CNN - [https://arxiv.org/abs/1311.2901](https://arxiv.org/abs/1311.2901)
+
+ See also [F], ...
+
+
+# Federated Averaging Algorithm
+
+ More at:
+  * [https://blog.research.google/2017/04/federated-learning-collaborative.html](https://blog.research.google/2017/04/federated-learning-collaborative.html)
+
+ See also [F], ...
+
+
+# Federated Learning
+
+ More at:
+  * [https://pair.withgoogle.com/explorables/federated-learning/](https://pair.withgoogle.com/explorables/federated-learning/)
+  * articles
+    * [https://blog.research.google/2017/04/federated-learning-collaborative.html](https://blog.research.google/2017/04/federated-learning-collaborative.html)
 
  See also [F], ...
 
@@ -505,6 +602,12 @@ cheese =>
   See also [F], [IndexGPT Model], [LLaMa Model]
 
 
+# FLAN-T5 Model
+
+ Fist strategically aligned LLM
+
+ ![]( {{site.assets}}/f/flan_t5_model.png ){: width="100%}
+
 # Flamingo Model
 
  A [visual language model] developed at [DeepMind]
@@ -516,6 +619,33 @@ cheese =>
  See also [F], [IDEFICS Model]
 
 
+# FlashAttention
+
+ ~ does the exact computation, not an [approximate self-attention]! Speed up GPU processing by using tiling and recomputation to reduce GPU memory IOs.
+
+ [Transformers] are slow and memory-hungry on long sequences, since the time and memory complexity of [self-attention] are quadratic in sequence length. [Approximate self-attention] methods have attempted to address this problem by trading off model quality to reduce the compute complexity, but often do not achieve wall-clock speedup. We argue that a missing principle is making attention algorithms IO-aware -- accounting for reads and writes between levels of [GPU memory]. We propose FlashAttention, an IO-aware exact attention algorithm that uses tiling to reduce the number of memory reads/writes between [GPU high bandwidth memory (HBM)][GPU HBM] and [GPU on-chip SRAM][GPU SRAM]. We analyze the IO complexity of FlashAttention, showing that it requires fewer HBM accesses than standard attention, and is optimal for a range of SRAM sizes. We also extend FlashAttention to block-sparse attention, yielding an approximate attention algorithm that is faster than any existing approximate attention method. FlashAttention trains [Transformers] faster than existing baselines: 15% end-to-end wall-clock speedup on [BERT]-large (seq. length 512) compared to the MLPerf 1.1 training speed record, 3× speedup on [GPT-2] (seq. length 1K), and 2.4× speedup on long-range arena (seq. length 1K-4K). FlashAttention and block-sparse FlashAttention enable longer context in [Transformers], yielding higher quality models (0.7 better perplexity on [GPT-2] and 6.4 points of lift on long-document classification) and entirely new capabilities: the first [Transformers] to achieve better-than-chance performance on the Path-X challenge (seq. length 16K, 61.4% accuracy) and Path-256 (seq. length 64K, 63.1% accuracy).
+
+ {% youtube "https://www.youtube.com/watch?v=1RaIS98jj1Q" %}
+
+ {% youtube "https://www.youtube.com/watch?v=gMOAud7hZg4" %}
+
+ {% youtube "https://www.youtube.com/watch?v=IoMSGuiwV3g" %}
+
+ {% pdf "https://arxiv.org/pdf/2205.14135.pdf" %}
+
+ {% pdf "https://arxiv.org/pdf/2307.08691.pdf" %}
+
+ More at:
+  * FlashAttention
+    * paper - [https://arxiv.org/abs/2205.14135](https://arxiv.org/abs/2205.14135)
+  * FlashAttention 2
+    * paper - [https://arxiv.org/abs/2307.08691](https://arxiv.org/abs/2307.08691)
+    * articles
+      * [https://princeton-nlp.github.io/flash-atttention-2/](https://princeton-nlp.github.io/flash-atttention-2/)
+
+ See also [F], ...
+
+
 # Flow-Based Model
 
  More at :
@@ -523,6 +653,26 @@ cheese =>
   * Ahttps://en.wikipedia.org/wiki/Flow-based_generative_model](https://en.wikipedia.org/wiki/Flow-based_generative_model)
  
  See also [F], [Generative Model]
+
+
+# For Stress-Testing Machine Theory Of Mind Benchmark
+# FANToM Benchmark
+
+ ~ a [benchmark] to evaluate the [ToM] of a model
+
+ [Theory of mind (ToM)][ToM] evaluations currently focus on testing models using passive narratives that inherently lack interactivity. We introduce FANToM, a new benchmark designed to stress-test ToM within information-asymmetric conversational contexts via question answering. Our benchmark draws upon important theoretical requisites from psychology and necessary empirical considerations when evaluating [large language models (LLMs)][LLM]. In particular, we formulate multiple types of questions that demand the same underlying reasoning to identify illusory or false sense of ToM capabilities in LLMs. We show that FANToM is challenging for [state-of-the-art] LLMs, which perform significantly worse than humans even with [chain-of-thought] reasoning or [fine-tuning].
+
+ ![]( {{site.assets}}/f/for_stress_testing_machine_theory_of_mind_benchmark.webp ){: width="100%}
+
+ {% pdf "https://arxiv.org/pdf/2310.15421.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2310.15421](https://arxiv.org/abs/2310.15421)
+  * article
+    * [https://towardsdatascience.com/is-chatgpt-intelligent-a-scientific-review-0362eadb25f9](https://towardsdatascience.com/is-chatgpt-intelligent-a-scientific-review-0362eadb25f9)
+
+ See also [F], ...
+
 
 
 # Forbidden Planet Movie
@@ -570,8 +720,15 @@ cheese =>
  See also [F], ...
 
 
-# Frequent Pattern Growth Algorithm
+# Fourier Recurrent Unit
+# FRU
 
+ ~ a type of memory unit in [RNNs] ?
+
+ See also [F], ...
+
+
+# Frequent Pattern Growth Algorithm
 # FP-Growth Algorithm
 
  ~ a type of [unsupervised learning] that is used for [association rule]

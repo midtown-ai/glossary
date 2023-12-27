@@ -40,6 +40,20 @@ layout: page
  See also [C], [Deep Learning Framework]
 
 
+# Caikit Toolkit
+
+ Caikit is an AI toolkit that enables users to manage models through a set of developer friendly APIs. It provides a consistent format for creating and using AI models against a wide variety of data domains and tasks.
+
+ ![]( {{site.assets}}/c/caikit_toolkit.png ){:width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=FQYVDqwfoW4" %}
+
+ More at:
+  * [https://github.com/caikit/caikit](https://github.com/caikit/caikit)
+
+ See also [C], ...
+
+
 # Capcha
 
  More at:
@@ -69,6 +83,17 @@ layout: page
  In everyday life, an auto mechanic who fixes an engine by recalling another car that exhibited similar symptoms is using case-based [reasoning]. A lawyer who advocates a particular outcome in a trial based on legal precedents or a judge who creates case law is using case-based [reasoning]. So, too, an engineer copying working elements of nature (practicing biomimicry), is treating nature as a database of solutions to problems. Case-based reasoning is a prominent type of analogy solution making.
 
  It has been argued that case-based reasoning is not only a powerful method for computer reasoning, but also a pervasive behavior in everyday human problem solving; or, more radically, that all reasoning is based on past cases personally experienced.
+
+ See also [C], ...
+
+
+# Cassandra Database
+
+ ~ a column database that can be used for vector search.
+
+ More at:
+  * articles
+    * [https://thenewstack.io/5-hard-problems-in-vector-search-and-how-cassandra-solves-them/](https://thenewstack.io/5-hard-problems-in-vector-search-and-how-cassandra-solves-them/)
 
  See also [C], ...
 
@@ -125,12 +150,26 @@ layout: page
  See also [C], [Gaussian Distribution]
 
 
-# Chain Of Thought Prompting
+# Central Processing Unit
+# CPU
+
+ See also [C], [GPU], [Lambda], [Hyperparameter Optimization]
+
+
+# Central Processing Unit Memory
+# CPU Memory
+
+ ![]( {{site.assets}}/c/central_processing_unit_memory.png ){:width="100%"}
+
+ See also [C], ...
+
+
+# Chain-Of-Thought Prompting
 # COT Prompting
 
  ~ A [Prompt Engineering] technique
 
- A solution to get the explainability of a model OR RATHER ITS OUTPUT! Generating a chain of thought -- a series of intermediate reasoning steps -- significantly improves the ability of large language models to perform complex reasoning. In particular, we show how such reasoning abilities emerge naturally in sufficiently large language models via a simple method called chain of thought prompting, where a few chain of thought demonstrations are provided as exemplars in prompting. Experiments on three large language models show that chain of thought prompting improves performance on a range of arithmetic, commonsense, and symbolic reasoning tasks. The empirical gains can be striking. For instance, prompting a 540B-parameter language model with just eight chain of thought exemplars achieves state of the art accuracy on the GSM8K benchmark of math word problems, surpassing even fine-tuned GPT-3 with a verifier.
+ A solution to get the explainability of a model OR RATHER ITS OUTPUT! Generating a chain of thought -- a series of intermediate reasoning steps -- significantly improves the ability of [large language models] to perform complex reasoning. In particular, we show how such reasoning abilities emerge naturally in sufficiently [large language models] via a simple method called chain-of-thought prompting, where a few chain-of-thought demonstrations are provided as exemplars in prompting. Experiments on three large language models show that chain-of-thought prompting improves performance on a range of arithmetic, commonsense, and symbolic reasoning tasks. The empirical gains can be striking. For instance, prompting a 540B-parameter language model with just eight chain of thought exemplars achieves state of the art accuracy on the [GSM8K benchmark] of math word problems, surpassing even fine-tuned [GPT-3] with a verifier.
 
  Variations:
   * Zero-shot COT
@@ -169,7 +208,44 @@ layout: page
 
 # Chatbot
 
- See [Virtual Assistant]
+ ~ A computer application that uses machine learning to have a conversation with a human.
+
+ Can be a
+  * [virtual assistant]
+
+ See also [C], ...
+
+
+# Chatbot Arena
+
+ Chatbot Arena is new a tool that allows you to compare the output of over 25 LLMs directly from your browser. It supports a mix of closed and open-source LLMs, including well-known ones like OpenAI's [GPT-4Turbo] and [Mistral-8x7b].
+
+ It also lets users vote on which one provides better responses, and, this is where the magic is. Behind-the-scenes, you're creating the most robust LLM benchmark, one based on user experience. It’s like a real-world test lab where your votes shape the leaderboards. Think of it as crowdsourcing – the more you interact and vote, the clearer the picture we get of which models really deliver.
+
+ These votes feed into an [Elo rating system], which is the same method used in chess to rank player skill. Each model starts with a base score, and gains or loses points based on the user votes - a win against a higher-ranked model scores more points, while losing to a lower-ranked model costs more.
+
+ This offers three big innovations:
+  * It scales to many models without costly paired evaluations. The Elo system handles relative ranking even if models don't directly compete.
+  * New models can be quickly measured with a handful of matches. No need to wait for statistical significance across multiple comparisons.
+  * The leaderboard gives a clear view of state-of-the-art. As votes accumulate, model ratings converge.
+
+ The rankings already reveal some trends. Closed models like [GPT-4] lead, but Mistral's [mixture-of-experts architecture] is closing the gap. And previous leaders like [LLaMA] now trail unexpectedly.
+
+ Highlights
+ * [OpenAI] remains the king of LLMs
+ * [Claude] is second best performing closed model
+ * Closed models still outperform open models (but the gap is closing)
+ * [Mistral-8x7b] is the best open-source model right now
+ * [Yi-34B] is flying under the radar
+ 
+ ![]( {{site.assets}}/c/chatbot_arena.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=Ktby6XR3xII" %}
+
+ More at:
+  * [https://chat.lmsys.org/?arena](https://chat.lmsys.org/?arena)
+
+ See also [C], [Multi-Turn Question Set Benchmark]
 
 
 # ChatGPT Model
@@ -337,6 +413,8 @@ print(query_result)
  More at 
    * [https://www.geeksforgeeks.org/cifar-10-image-classification-in-tensorflow/](https://www.geeksforgeeks.org/cifar-10-image-classification-in-tensorflow/)
    * [https://maet3608.github.io/nuts-ml/tutorial/cifar10_example.html](https://maet3608.github.io/nuts-ml/tutorial/cifar10_example.html)
+   * CIFAR 10 - [https://knowyourdata-tfds.withgoogle.com/dataset=cifar10](https://knowyourdata-tfds.withgoogle.com/dataset=cifar10)
+   * CIFAR 100 - [https://knowyourdata-tfds.withgoogle.com/dataset=cifar100](https://knowyourdata-tfds.withgoogle.com/dataset=cifar100)
 
  See also [C], [Dataset]
 
@@ -366,6 +444,21 @@ print(query_result)
  ![]( {{site.assets}}/c/classification.png ){: width="100%"}
 
  See also [C], [Binary Classification], [Multiclass Classification], [Supervised Learning]
+
+
+# Classification Report
+
+ ~ a report as informative as the [confusion matrix] !
+
+ includes:
+  * [precision]
+  * [recall]
+  * [F1 score]
+  * ...
+
+ ![]( {{site.assets}}/c/classification_report.png ){: width="100%"}
+
+ See also [C], ...
 
 
 # Claude Model
@@ -595,7 +688,6 @@ print(query_result)
   * [Synthesia] - Focus on AI avatars
   * [Tome](https://beta.tome.app/) - Presentation creation software
   * [Trigo](https://www.trigoretail.com/) - Cashierless retail checkout
-  * [Unlearn.AI](https://www.unlearn.ai/) - Clinical trial forecasting
   * [Vannevar Labs](https://www.vannevarlabs.com/) - Defense intelligence software
   * [Vectra AI](https://www.vectra.ai/) - Cyberattack detection
   * [VIZ.AI](https://www.viz.ai/) - Disease detection
@@ -604,17 +696,15 @@ print(query_result)
   * [Writer](https://writer.com/) - Copywriting software
   * [xAI] - Backed by Elon Musk and builder of [Grok] LLM and [PromptIDE]
 
+ Deployment:
+  * [Netlify] -
+  * [Replit] -
+
  Digital Humans and Meta-Humans
   * [Ravatar](https://ravatar.com/)
   * [SoulMachines](https://www.soulmachines.com/)
   * [UneeQ](https://www.digitalhumans.com/)
   * [Unreal Engine](https://www.unrealengine.com/en-US/metahuman)
-
- Industry research:
-  * [Evident Insights] - currently focused on the banking industry
-
- Drug Discovery
-  * ...
 
  Driverless cars
   * [Cruise] - Self-driving, now robotaxis! 
@@ -622,8 +712,9 @@ print(query_result)
   * others: [WeRide](https://www.weride.ai/en), [Momenta](https://www.momenta.cn/en/), [Didi](https://web.didiglobal.com/), [Pony AI](https://pony.ai)
   * defunct: [Argo AI](https://en.wikipedia.org/wiki/Argo_AI)
 
- Deployment:
-  * [Netlify] -
+ Drug Discovery
+  * [Unlearn.AI](https://www.unlearn.ai/) - Clinical trial forecasting
+  * ...
 
  Education
   * [Chegg](https://www.chegg.com) - AI assistant called [CheegMate](https://www.chegg.com/cheggmate)
@@ -631,6 +722,19 @@ print(query_result)
   * [Khan Academy](https://www.khanacademy.org) - AI assistant called [Khanmigo](https://www.khanacademy.org/khan-labs)
   * [Magic School AI](https://app.magicschool.ai/) - help teachers create a lesson plan. Assistant is called Raina
   * [Pearson](https://www.pearson.com/en-us.html) - Not bot yet! Still in denial?
+
+ Hardware
+  * [AMD] - Another supplier of [GPUs]
+  * [Cortical Labs] - Use biological [neurons] to use as AI 
+  * [Intel] - Build CPUs and now includes tensor processing in them
+  * [Koniku](https://koniku.com/) - Use biological [neurons] to compete with regular computers
+  * [Nvidia] - The leading supplier of [GPU]
+
+ Industry research:
+  * [Evident Insights] - currently focused on the banking industry
+
+ Infrastructure
+  * [Lambda Labs](https://lambdalabs.com/) - access to GPU for deeplearning
 
  Robotics
   * [Boston Dynamics] - Focus on robotics
@@ -642,6 +746,9 @@ print(query_result)
   * [You](https://www.you.com)
   * [Perplexity AI]
 
+ Security
+  * [Lakera][https://www.lakera.ai/] - filter the output
+
  Synthetic data
   * [Datagen](https://datagen.tech/) - Synthetic data for faces/images
   * [Mostly AI](https://mostly.ai/) - Generative AI for tabular data 
@@ -651,21 +758,11 @@ print(query_result)
   * [Milvus][Milvus Database] - project supported by the [LFAI&Data]
   * [Pinecone] - building the [Pinecone Database]
 
- Wearable Devices
-  * [Humane](https://hu.ma.ne/) - the AI pin likely to replace the cell phone
-
- Infrastructure
-  * [Lambda Labs](https://lambdalabs.com/) - access to GPU for deeplearning
-
- Hardware
-  * [AMD] - Another supplier of [GPUs]
-  * [Cortical Labs] - Use biological [neurons] to use as AI 
-  * [Intel] - Build CPUs and now includes tensor processing in them
-  * [Koniku](https://koniku.com/) - Use biological [neurons] to compete with regular computers
-  * [Nvidia] - The leading supplier of [GPU]
-
  Video
   * [Wonder Dynamics] - VFX in a single click!
+
+ Wearable Devices
+  * [Humane](https://hu.ma.ne/) - the AI pin likely to replace the cell phone
 
 
  {% youtube "https://www.youtube.com/watch?v=62ptqfCcizQ" %}
@@ -673,6 +770,8 @@ print(query_result)
  {% pdf "https://mattturck.com/landscape/mad2023.pdf" %}
 
  More at:
+  * CBInsights
+    * startups of 2022 - [https://www.cbinsights.com/research/report/artificial-intelligence-top-startups-2022/](https://www.cbinsights.com/research/report/artificial-intelligence-top-startups-2022/)
   * ML, AI, Data (MAD)
     * interactive - [https://mad.firstmark.com/](https://mad.firstmark.com/)
     * 2023 blog post - [https://mattturck.com/mad2023/](https://mattturck.com/mad2023/)
@@ -779,6 +878,8 @@ print(query_result)
 
 # Confusion Matrix
 
+ ~ a report as informative as the [classification report] !
+
  A Confusion matrix is an N x N matrix used for evaluating the performance of a classification model, where N is the number of target classes. The matrix compares the actual target values with those predicted by the machine learning model. In the case where N=2 (true or false), it shows false and true positive as well as false and true negative.
 
  ![]( {{site.assets}}/c/confusion_matrix_binary_classifier.jpeg ){: width="100%"}
@@ -863,7 +964,7 @@ print(query_result)
   * large scale learning - bigger transformer models for image and text embeddings
   * trained on 400 million (image, text) pairs using ConVIRT model trained fro scratch
   * pre-training method: predicting only which text as a whole is paired with which image and not the exact words of that text (contrastive, i.e. binary-classification task/approach for matching text to image)
-  * Use vision transformer to reduce training time and required compute resources compared with ResNet model.
+  * Use vision transformer to reduce training time and required compute resources compared with [ResNet model].
 
  ![]( {{site.assets}}/c/clip_model.png ){: width="100%"}
 
@@ -923,7 +1024,7 @@ print(query_result)
  More at:
   * [https://en.wikipedia.org/wiki/Convolution](https://en.wikipedia.org/wiki/Convolution)
 
- See also [C], [Convolutional Neural Network], [Image Kernel]
+ See also [C], [Convolutional Neural Network], [Image Filter]
 
 
 # Convolution Autoencoder
@@ -937,7 +1038,7 @@ print(query_result)
 
  ~ A stack of convoluted images (one per kernel filter)
 
- The output of a convolutional layer is a stack of convoluted images (stack of images convoluted with each [image kernel])
+ The output of a convolutional layer is a stack of convoluted images (stack of images convoluted with each [image filter])
 
  In a CNN, each layer tries to recognize different patterns (i.e. extract features).
 
@@ -949,7 +1050,7 @@ print(query_result)
 
  ![]( {{site.assets}}/c/convolutional_layer_output.png ){: width="100%"}
 
- See also [C], [Convolutional Neural Network], [Fully Connected Layer], [Image Kernel], [Max Pooling Layer]
+ See also [C], [Convolutional Neural Network], [Fully Connected Layer], [Image Filter], [Max Pooling Layer]
 
 
 # Convolutional Neural Network
@@ -963,12 +1064,13 @@ print(query_result)
   * [Pooling Layers] such as [Max Pooling Layers]
   * and [Fully Connected Layers]
 
- In a CNN, the [image kernels] are learned through [backpropagation]
-
-
- {% youtube"https://www.youtube.com/watch?v=AgkfIQ4IGaM" %}
+ In a CNN, the [image filters] are learned through [backpropagation]
 
  {% youtube "https://www.youtube.com/watch?v=FmpDIaiMIeA" %}
+
+ {% youtube "https://www.youtube.com/watch?v=Gu0MkmynWkw" %}
+
+ {% youtube "https://www.youtube.com/watch?v=AgkfIQ4IGaM" %}
 
  ![]( {{site.assets}}/c/convolutional_neural_network.png ){: width="100%"}
 
@@ -979,32 +1081,33 @@ print(query_result)
  `When using kernel, we are implicitly saying that pixel outside of the kernel do not have an impact on ... This is where attention-based models may be better than CNN, where attention to other pixel in the image needs to be taken into consideration`
 
  More at:
+  * what CNN see - [https://experiments.withgoogle.com/what-neural-nets-see](https://experiments.withgoogle.com/what-neural-nets-see)
   * [https://setosa.io/ev/image-kernels/](https://setosa.io/ev/image-kernels/)
   * [https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b](https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b)
   * [https://medium.com/easyread/an-introduction-to-convolution-neural-network-cnn-for-a-beginner-88548e4b2a84](https://medium.com/easyread/an-introduction-to-convolution-neural-network-cnn-for-a-beginner-88548e4b2a84)
   * [https://e2eml.school/how_convolutional_neural_networks_work.html](https://e2eml.school/how_convolutional_neural_networks_work.html)
   * [https://yosinski.com/deepvis](https://yosinski.com/deepvis)
 
- See also [C], [Attention-Based Model], [Convolution], [Deconvolution Neural Network], [Instance Segmentation], [Latent Space], [Neural Network], [Object Detection], [Max Pooling Layer], [Region Based CNN], [Semantic Segmentation], [Subsampling]
+ See also [C], [Attention-Based Model], [Convolution], [Deconvolution Neural Network], [Instance Segmentation], [Latent Space], [Neural Network], [Object Detection], [Pooling Layer], [Region-Based CNN], [Semantic Segmentation], [Subsampling]
 
 
 # Convolutional Neural Network Feature Extractor
 # CNN Feature Extractor
 
 
- When using a [CNN], ... [ResNet50 Architecture]
+ When using a [CNN], ... [ResNet Model]
 
  {% pdf "{{site.assets}}/c/convolutional_neural_network_feature_extractor_paper.pdf" %}
 
  More at:
   * [https://medium.com/birdie-ai/how-to-use-cnns-as-feature-extractors-54c69c1d4bdf](https://medium.com/birdie-ai/how-to-use-cnns-as-feature-extractors-54c69c1d4bdf)
 
- See also [C}, ...
+ See also [C], ...
 
 
 # Convolved Feature
 
- The result of a convolution of an input image with a [image kernel]. The output of a [convolutional layer] is a stack of convolved features.
+ The result of a convolution of an input image with a [image filter]. The output of a [convolutional layer] is a stack of convolved features.
 
  ![]( {{site.assets}}/c/convolved_feature.gif ){: width="100%"}
 
@@ -1152,7 +1255,7 @@ pyplot.show()
 
  The biggest cost out of any data center or cloud provider is the energy that they pay for running the equipment and cooling the system. DishBrain is a system that consumes hardly any energy and outputs very little heat. The unit economics completely flips on its head, especially if you can start training it to do AI tasks.
 
- {% pdf "{{site.assets}}/+/papers/cortical_labs_neuron_paper.pdf" %}
+ {% pdf "{{site.assets}}/+/c/cortical_labs_neuron_paper.pdf" %}
 
  More at:
   * site - [https://corticallabs.com/](https://corticallabs.com/)
@@ -1189,7 +1292,7 @@ pyplot.show()
 
  Here is the formula for the cosine similarity for N words (N dimensions)
 
- ![]( {{site.assets}}/c/cosine_similarity_function2.png ){: width="100%"}
+ ![]( {{site.assets}}/c/cosine_similarity_function_2.png ){: width="100%"}
 
  {% youtube "https://www.youtube.com/watch?v=e9U0QAFbfLI" %}
 
@@ -1211,11 +1314,6 @@ pyplot.show()
 # Cost Function
 
  See [Loss Function]
-
-
-# CPU
-
- See also [C], [GPU], [Lambda], [Hyperparameter Optimization]
 
 
 # CreateML Application
@@ -1259,9 +1357,13 @@ pyplot.show()
 
 # Cross-Attention
 
+ ~ 2 sequences (input vs output, i.e. English to French translation) and 2nd one attends to elements/words in the first one.
+
  Allow the decoder to access information from encoders to make better predictions. In text-to-image generation, through the cross-attention mechanism, the information of the text is fused to the visual feature vectors.
 
- See also [C], [Attention], [Latent Diffusion Model], [Self-Attention], [Transformer Model]
+ ![]( {{site.assets}}/c/cross_attention.png ){: width="100%"}
+
+ See also [C], [Attention], [Latent Diffusion Model], [Self-Attention], [Transformer Architecture]
 
 
 # Cross-Entropy
@@ -1409,6 +1511,36 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 # Custom Churn Prediction
 
  See also [C], [Regression], [Supervised Learning]
+
+
+# Custom GPT
+
+ You can now create custom versions of [ChatGPT] or [GPT-4] that gives them personalities and combine instructions,extra knowledge, and any combination of skills.
+
+ Beware, Custom GPTs can be easily reverse engineered using different methods of [prompt injection]
+
+ {% youtube "https://www.youtube.com/watch?v=gEf0BPkqQSM" %}
+
+ {% youtube "https://www.youtube.com/watch?v=Kn6k6ocEaK4" %}
+
+ {% youtube "https://www.youtube.com/watch?v=WzDVS55YpMQ" %}
+
+ More at:
+  * announcement - [https://openai.com/blog/introducing-gpts](https://openai.com/blog/introducing-gpts)
+  * create one - [chat.openai.com/create](chat.openai.com/create)
+  * examples
+  * math mentor - [https://openai.com/chatgpt#do-more-with-gpts](https://openai.com/chatgpt#do-more-with-gpts)
+  * articles
+    * prompt leakage - [https://gizmodo.com/security-vulnerabilities-openai-chatgpt-custom-gpt-1851057912](https://gizmodo.com/security-vulnerabilities-openai-chatgpt-custom-gpt-1851057912)
+  * tools
+    * UI - [https://retool.com/use-case/gpt4-gui-frontend](https://retool.com/use-case/gpt4-gui-frontend)
+    * chatbot UI - [https://www.voiceflow.com/](https://www.voiceflow.com/)
+    * website into knowledge bases - [https://www.youtube.com/watch?v=CFMK_707xqg](https://www.youtube.com/watch?v=CFMK_707xqg)
+    * whatsapp UI - [https://manychat.com/](https://manychat.com/)
+  * GPT finders
+    * [https://www.gptshunter.com/](https://www.gptshunter.com/)
+
+ See also [C], [ManyChat Company], [Replit Company], [VoiceFlow Company]
 
 
 # Cybernetic Organism

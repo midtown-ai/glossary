@@ -82,7 +82,7 @@ TP + TN + FP + FN = all experiments/classifications/samples
 # Action Space
 
  In [Reinforcement Learning], represents a set of actions.
-  * [Discrete action space] - We can individually define each action. In the discrete action space setting, limiting an agent's choices to a finite number of predefined actions puts the onus on you to understand the impact of these actions and define them based on the environment (track, racing format) and your reward functions.
+  * [Discrete action space] - We can individually define each action. In the discrete action space setting, limiting an agent's choices to a finite number of predefined actions puts the onus on you to understand the impact of these actions and define them based on the [environment] (track, racing format) and your reward functions.
   * [Continuous action space] - 
 
  This lists out all of what the agent can actually do at each timestep virtually or physically.
@@ -193,6 +193,13 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
  In practice, ReLU is by far the most common activation function used in CNNs. The nonlinearity it provides enables CNNs to learn very complex features and patterns in image and video data.
 
  The key takeaway is that activation layers introduce nonlinearity which allows CNNs to learn and model complex relationships between inputs and outputs. Choosing the right activation function is important for enabling efficient training and generalization.
+
+ See also [A], ...
+
+
+# Activation Map
+
+ The activation map is the result of the application of the [activation function] on a [feature map] in a [CNN].
 
  See also [A], ...
 
@@ -506,11 +513,30 @@ One obvious way to mitigate that problem is to choose different learning rate fo
 
 # AI Alignment
 
+ ~ Alignment is training a model to produce outputs more in line with human preference and expectation.
+
  In the field of artificial intelligence (AI), AI alignment research aims to steer AI systems towards their designers’ intended goals and interests. An aligned AI system advances the intended objective; a misaligned AI system is competent at advancing some objective, but not the intended one.
+
+ Alignment types:
+  * Instructional alignment - answering questions learned from data during the pre-training phase
+  * Behavior alignment - helpfulness vs harmlessness
+  * Style alignment - more neutral / grammatically correct
+  * Value alignment - aligned to a set of values
+
+ Questions:
+  * Is pretraining the first step to alignment?
+  * Is [fine-tuning] a method for alignment?
+  * What about guardrails?
 
  Examples:
   * [https://openai.casa/alignment/](https://openai.casa/alignment/)
     * [https://openai.casa/blog/our-approach-to-alignment-research/index.html](https://openai.casa/blog/our-approach-to-alignment-research/index.html)
+
+ [Reinforcement Learning (RL)][RL] is a machine learning technique that uses sequential feedback to teach an [RL agent] how to behave in an [environment]. RL is the most talked about method of alignment but not the only option! [OpenAI] popularized the method in 2022 specifically using [RL from human feedback (RLHF)][RLHF]
+
+ Another method is [Supervised Fine-Tuning (SFT)][SFT] - letting an LLM read correct examples of alignment (standard deep learning/language modeling for the most part) = must cheaper than the previous method and much faster!
+
+ To be competitive, you need to use both of the methods!
 
  {% youtube "https://www.youtube.com/watch?v=EUjc1WuyPT8" %}
 
@@ -536,6 +562,23 @@ One obvious way to mitigate that problem is to choose different learning rate fo
  See also [A], [AI Ethics]
 
 
+# AI Alliance
+
+ The AI Alliance is focused on accelerating and disseminating open innovation across the AI technology landscape to improve foundational capabilities, safety, security and trust in AI, and to responsibly maximize benefits to people and society everywhere.
+
+ The AI Alliance consists of companies and startups, universities, research and government organizations, and non-profit foundations that individually and together are innovating across all aspects of AI technology, applications and governance.
+
+ ![]( {{site.assets}}/a/ai_alliance.png){: width="100%" }
+
+ {% youtube "https://www.youtube.com/watch?v=MTonKJaDM48" %}
+
+ More at:
+  * [https://thealliance.ai/](https://thealliance.ai/)
+  * AI Alliance at AI.dev - [https://youtu.be/tc86FW3W4Mo?list=RDCMUCfX55Sx5hEFjoC3cNs6mCUQ&t=2701](https://youtu.be/tc86FW3W4Mo?list=RDCMUCfX55Sx5hEFjoC3cNs6mCUQ&t=2701)
+
+ See also [A], ...
+
+
 # AI Artificial Intelligence Movie
 
  Released in 2001
@@ -557,7 +600,7 @@ One obvious way to mitigate that problem is to choose different learning rate fo
 
 # AI Avatar
 
-Also developed by [Synthesia]
+ Also developed by [Synthesia]
 
  See also [A], [Deep Fake], ...
 
@@ -655,6 +698,19 @@ A risk of [AGI]
  See also [A], ...
 
 
+# AI Film Festival
+# AIFF
+
+ Started by [RunwayML]
+
+ More at:
+  * site - [https://aiff.runwayml.com/](https://aiff.runwayml.com/)
+  * finalists
+    * 2023 - [https://aiff.runwayml.com/2023](https://aiff.runwayml.com/2023)
+
+ See also [A], ...
+
+  
 # AI For Content Creation Conference
 # AI4CC Conference
 
@@ -737,21 +793,22 @@ A risk of [AGI]
 
 # AI Movie
 
-  * 1927 - [Metropolis][Metropolis Movie]
-  * 1956 - [Forbidden Planet][Forbidden Planet Movie]
-  * 1968 - [2001 Space Odyssey][2001 Space Odyssey Movie]
-  * 1983 - [WarGames][WarGames Movie]
-  * 1984 - [Electric Dreams][Electric Dreams Movie]
-  * 1984 - [Terminator][Terminator Movie]
-  * 1986 - [Short Circuit][Short Circuit movie]
-  * 1999 - [The Matrix][The Matrix Movie]
-  * 1999 - [Bicentennial Man][Bicentennial Man Movie] - a [social robot] that wants to become human
-  * 2001 - [AI Artificial Intelligence][AI Artificial Intelligence Movie]
-  * 2004 - [I, Robot][I, Robot Movie]
-  * 2008 - [Wall-E][Wall-E Movie]
+  * 1927 - [Metropolis]
+  * 1956 - [Forbidden Planet]
+  * 1968 - [2001 Space Odyssey]
+  * 1983 - [WarGames]
+  * 1984 - [Electric Dreams]
+  * 1984 - [Terminator]
+  * 1986 - [Short Circuit]
+  * 1999 - [The Matrix]
+  * 1999 - [Bicentennial Man] - a [social robot] that wants to become human
+  * 2001 - [AI Artificial Intelligence]
+  * 2004 - [I, Robot]
+  * 2008 - [Wall-E]
   * 2013 - [Her][Her Movie]
-  * 2014 - [Ex Machina][Ex Machina Movie]
-  * 2022 - [M3GAN][M3GAN Movie]: the eponymous artificially intelligent doll who develops self-awareness and becomes hostile toward anyone who comes between her and her human companion
+  * 2014 - [Transcendence]
+  * 2014 - [Ex Machina]
+  * 2022 - [M3GAN]: the eponymous artificially intelligent doll who develops self-awareness and becomes hostile toward anyone who comes between her and her human companion
 
   Other of interest:
   * 2014 - [The Imitation Game][The Imitation Game Movie] - Movie based on the biography Alan Turing: The Enigma.
@@ -930,6 +987,19 @@ Better data beat the model always
   * Second - [https://en.wikipedia.org/wiki/History_of_artificial_intelligence#Bust:_the_second_AI_winter_1987%E2%80%931993](https://en.wikipedia.org/wiki/History_of_artificial_intelligence#Bust:_the_second_AI_winter_1987%E2%80%931993)
 
   See also [A], ...
+
+
+# AI21  Labs Company
+
+ ~ a Tel Aviv-based startup developing a range of text-generating AI tools
+
+ More at:
+  * site - [https://www.ai21.com/](https://www.ai21.com/)
+  * articles
+    * [https://techcrunch.com/2022/07/12/openai-rival-ai21-labs-raises-64m-to-ramp-up-its-ai-powered-language-services/](https://techcrunch.com/2022/07/12/openai-rival-ai21-labs-raises-64m-to-ramp-up-its-ai-powered-language-services/)
+    * [https://techcrunch.com/2023/08/30/generative-ai-startup-ai21-labs-lands-155m-at-a-1-4b-valuation/](https://techcrunch.com/2023/08/30/generative-ai-startup-ai21-labs-lands-155m-at-a-1-4b-valuation/)
+
+ See also [A], ...
 
 
 # AI4ALL
@@ -1296,6 +1366,15 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
  See also [A], [Stanford Autonomous Helicopter]
 
 
+# Approximate Self-Attention
+
+ ~ algorithm used to speed up computation in transformers but getting an approximation of the self-attention
+
+ {% youtube "https://www.youtube.com/watch?v=m-zrcmRd7E4" %}
+
+ See also [A], [FlashAttention]
+
+
 # Apriori Algorithm
 
  ~ a type of [unsupervised learning] in sub-class [association rule learning] used to ...
@@ -1395,6 +1474,14 @@ print(predict(dataset, model, text='Knock knock. Whos there?'))
 
  See also [A], [Dataset Bias]
 
+
+# Arthur Mensch Person
+
+ ~ CEO of [Mistral AI]
+
+ {% youtube "https://www.youtube.com/watch?v=EMOFRDOMIiU" %}
+
+ See also [A], ...
 
 # Artificial Emotion
 
@@ -1810,6 +1897,19 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], ...
 
 
+# Automated RAG Evaluation System
+# ARES
+
+ Evaluating [retrieval-augmented generation (RAG)][RAG] systems traditionally relies on hand annotations for input queries, passages to retrieve, and responses to generate. We introduce ARES, an Automated RAG Evaluation System, for evaluating RAG systems along the dimensions of context relevance, answer faithfulness, and answer relevance. Using synthetic training data, ARES finetunes lightweight LM judges to assess the quality of individual RAG components. To mitigate potential prediction errors, ARES utilizes a small set of human-annotated datapoints for [prediction-powered inference (PPI)][PPI]. Across six different knowledge-intensive tasks in [KILT] and [SuperGLUE], ARES accurately evaluates RAG systems while using a few hundred human annotations during evaluation. Furthermore, ARES judges remain effective across domain shifts, proving accurate even after changing the type of queries and/or documents used in the evaluated RAG systems.
+
+ {% pdf "https://arxiv.org/pdf/2311.09476.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2311.09476](https://arxiv.org/abs/2311.09476)
+
+ See also [A], ...
+
+
 # Automatic Speech Recognition
 # ASR
 
@@ -1931,6 +2031,24 @@ If you don't ___ at the sign, you will get a ticket
  See also [A], [BERT Model], [Natural Language Understanding]
 
 
+# Autogen Multi-Agent Framework
+
+ {% youtube "https://www.youtube.com/watch?v=MCYzYzaWChY" %}
+
+ {% youtube "https://www.youtube.com/watch?v=y7wMTwJN7rA" %}
+
+ More at:
+  * site - [https://microsoft.github.io/autogen/](https://microsoft.github.io/autogen/)
+  * code - [https://github.com/microsoft/autogen](https://github.com/microsoft/autogen)
+  * docs - [https://microsoft.github.io/autogen/docs/Getting-Started/](https://microsoft.github.io/autogen/docs/Getting-Started/)
+  * articles
+    * [https://www.microsoft.com/en-us/research/blog/autogen-enabling-next-generation-large-language-model-applications/](https://www.microsoft.com/en-us/research/blog/autogen-enabling-next-generation-large-language-model-applications/)
+    * [https://quickaitutorial.com/how-powerful-autogen-is-reshaping-llm/](https://quickaitutorial.com/how-powerful-autogen-is-reshaping-llm/)
+    * [https://quickaitutorial.com/autogen-langchian-rag-function-call-super-ai-chabot/](https://quickaitutorial.com/autogen-langchian-rag-function-call-super-ai-chabot/)
+
+ See also [A], ...
+
+
 # Automation
 
   * Low automation = human does the work
@@ -1988,15 +2106,16 @@ ____ at the sign, you will get a ticket (backward prediction)
  See also [A], ...
 
 
-# AWS Bedrock
+# AWS Bedrock Service
 
- A [ChatGPT][ChatGPT Model] and [DALL-E][DALL-E Model] rival offered by [Amazon Web Services]
+ A [ChatGPT] and [DALL-E] rival offered by [Amazon Web Services]
 
  More at:
   * [https://aws.amazon.com/bedrock/](https://aws.amazon.com/bedrock/)
   * [https://www.businessinsider.com/amazon-bedrock-aws-ai-chatgpt-dall-e-competitor-2023-4](https://www.businessinsider.com/amazon-bedrock-aws-ai-chatgpt-dall-e-competitor-2023-4)
 
  See also [A], ...
+
 
 # AWS DeepRacer
 
@@ -2027,22 +2146,99 @@ ____ at the sign, you will get a ticket (backward prediction)
  See also [A], ...
 
 
-# AWS Lex
+# AWS Lex Service
 
  Text or Speech conversation.
 
  See also [A], [Amazon Web Services]
 
 
-# AWS Polly
+# AWS Polly Service
 
  Lifelike speech. Text to speech.
 
  See also [A], [Amazon Web Services]
 
 
-# AWS Recognition
+# AWS Recognition Service
 
  Used for image analysis.
 
  See also [A], [Amazon Web Services]
+
+
+# AWS Sagemaker Canvas
+
+ {% youtube "https://www.youtube.com/watch?v=BMtmYHRijfk" %}
+
+ See also [A], ...
+
+
+# AWS SageMaker Ground Truth
+
+ Used for labelling the data by machines, internal employees, mechanical turk, or 3rd party partner.
+
+ See also [A], ...
+
+
+# AWS SageMaker Neo
+
+ ~ compiler of ML models before they are distributed to the endpoint. Compatible with TensorFlow, XGBoost, MxNET, PyTorch, ... Allow the model to run without any framework, this reduce the memory footprint on the device (at the edge) by 100x, while improving the performance by x2.
+
+ {% youtube "https://www.youtube.com/watch?v=RjhrugELYW8" %}
+
+ See also [A], ...
+
+
+# AWS Sagemaker Jumpstart
+
+ Amazon SageMaker JumpStart is a machine learning (ML) hub that can help you accelerate your ML journey. With SageMaker JumpStart, you can evaluate, compare, and select FMs quickly based on pre-defined quality and responsibility metrics to perform tasks like article summarization and image generation. Pretrained models are fully customizable for your use case with your data, and you can easily deploy them into production with the user interface or SDK. In addition, you can access prebuilt solutions to solve common use cases, and share ML artifacts, including ML models and notebooks, within your organization to accelerate ML model building and deployment.
+
+ More at:
+  * site - [https://aws.amazon.com/sagemaker/jumpstart/](https://aws.amazon.com/sagemaker/jumpstart/)
+  * articles
+    * [https://aws.amazon.com/blogs/machine-learning/use-stable-diffusion-xl-with-amazon-sagemaker-jumpstart-in-amazon-sagemaker-studio/](https://aws.amazon.com/blogs/machine-learning/use-stable-diffusion-xl-with-amazon-sagemaker-jumpstart-in-amazon-sagemaker-studio/)
+
+
+# AWS Sagemaker Notebook
+
+ * Authentication through AWS console
+ * you select the instance type
+ * run in your account
+ * no pluggins
+
+ See also [A}, ...
+
+
+# AWS Sagemaker Pipeline
+
+ ~ CICD for data !
+
+ See also [A], ...
+
+
+# AWS SageMaker Service
+
+ More at
+  * sagemaker studio - [https://studiolab.sagemaker.aws/](https://studiolab.sagemaker.aws/)
+
+ See also [A], ...
+
+
+# AWS Sagemaker Studio
+
+ ~ jupyterlab + AWS plugins developed by AWS
+
+ * Authenticated through SS0
+ * uses EFS for storage
+ * can have several instances running at once sharing files through EFS
+
+ {% youtube "https://www.youtube.com/watch?v=k2nVIvHB1dk" %}
+
+ {% youtube "https://www.youtube.com/watch?v=YcJAc-x8XLQ" %}
+
+ More at:
+  * articles
+    * [https://techcrunch.com/2021/12/01/aws-launches-sagemaker-studio-lab-a-free-tool-for-learning-machine-learning/](https://techcrunch.com/2021/12/01/aws-launches-sagemaker-studio-lab-a-free-tool-for-learning-machine-learning/)
+
+ See also [A], ...

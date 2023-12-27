@@ -45,8 +45,10 @@
 [GPT-3]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-3-model
 [GPT-4 Model]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-4-model
 [GPT-4]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-4-model
-[GPT-4V Model]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-4v-model
-[GPT-4V]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-4v-model
+[GPT-4Turbo Model]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-4-model
+[GPT-4Turbo]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-4-model
+[GPT-4V Model]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-4-model
+[GPT-4V]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-4-model
 [Generator]: {{ site.baseurl }}{% link glossary/g.md %}#generator
 [Generator Loss]: {{ site.baseurl }}{% link glossary/g.md %}#generator-loss
 [Genetic Programming]: {{ site.baseurl }}{% link glossary/g.md %}#genetic-programming
@@ -118,10 +120,24 @@
 [Graphical Processing Units]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit
 [GPU]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit
 [GPUs]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit
+[Graphical Processing Unit High Bandwidth Memory]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit-high-bandwidth-memory
+[GPU High Bandwidth Memory]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit-high-bandwidth-memory
+[GPU HBM]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit-high-bandwidth-memory
+[Graphical Processing Unit Kernel]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit-kernel
+[Graphical Processing Unit Kernels]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit-kernel
+[GPU Kernel]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit-kernel
+[GPU Kernels]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit-kernel
+[Graphical Processing Unit Memory]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit-memory
+[GPU Memory]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit-memory
+[Graphical Processing Unit Static Random Access Memory]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit-static-random-access-memory
+[GPU Static Random Access Memory]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit-static-random-access-memory
+[GPU SRAM]: {{ site.baseurl }}{% link glossary/g.md %}#graphical-processing-unit-static-random-access-memory
 [Greg Brockman Person]: {{ site.baseurl }}{% link glossary/g.md %}#greg-brockman-person
 [Greg Brockman]: {{ site.baseurl }}{% link glossary/g.md %}#greg-brockman-person
 [Grid Search]: {{ site.baseurl }}{% link glossary/g.md %}#grid-search
 [Grok Model]: {{ site.baseurl }}{% link glossary/g.md %}#grok-model
 [Grok]: {{ site.baseurl }}{% link glossary/g.md %}#grok-model
 [Ground Truth]: {{ site.baseurl }}{% link glossary/g.md %}#ground-truth
+[Group-Query Attention]: {{ site.baseurl }}{% link glossary/g.md %}#group-query-attention
+[GQA]: {{ site.baseurl }}{% link glossary/g.md %}#group-query-attention
 [Gshard Model]: {{ site.baseurl }}{% link glossary/g.md %}#gshard-model

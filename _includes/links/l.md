@@ -4,6 +4,8 @@
 [Labeling Function]: {{ site.baseurl }}{% link glossary/l.md %}#labeling-function
 [Labeling Service]: {{ site.baseurl }}{% link glossary/l.md %}#labeling-service
 [Labor Market Impact]: {{ site.baseurl }}{% link glossary/l.md %}#labor-market-impact
+[LangChain Expression Model]: {{ site.baseurl }}{% link glossary/l.md %}#langchain-expression-model
+[LCEM]: {{ site.baseurl }}{% link glossary/l.md %}#langchain-expression-model
 [LangChain Hub]: {{ site.baseurl }}{% link glossary/l.md %}#langchain-hub
 [LangChain Python Module]: {{ site.baseurl }}{% link glossary/l.md %}#langchain-python-module
 [LangChain]: {{ site.baseurl }}{% link glossary/l.md %}#langchain-python-module
@@ -26,6 +28,17 @@
 [LLMops]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-operations
 [Large Language Model Self-Correction Reasoning]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-self-correction-reasoning
 [LLM Self-Correction Reasoning]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-self-correction-reasoning
+[Large Language Model As A Judge]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-as-a-judge
+[Large Language Models As Judges]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-as-a-judge
+[LLM As A Judge]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-as-a-judge
+[LLMs As Judges]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-as-a-judge
+[LLM-As-A-Judge]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-as-a-judge
+[Large-Scale Artificial Intelligence Open Network Dataset]: {{ site.baseurl }}{% link glossary/l.md %}#large-scale-artificial-intelligence-open-network-dataset
+[LAION Dataset]: {{ site.baseurl }}{% link glossary/l.md %}#large-scale-artificial-intelligence-open-network-dataset
+[Large-Scale Artificial Intelligence Open Network Nonprofit]: {{ site.baseurl }}{% link glossary/l.md %}#large-scale-artificial-intelligence-open-network-nonprofit
+[Large-Scale Artificial Intelligence Open Network]: {{ site.baseurl }}{% link glossary/l.md %}#large-scale-artificial-intelligence-open-network-nonprofit
+[LAION Nonprofit]: {{ site.baseurl }}{% link glossary/l.md %}#large-scale-artificial-intelligence-open-network-nonprofit
+[LAION]: {{ site.baseurl }}{% link glossary/l.md %}#large-scale-artificial-intelligence-open-network-nonprofit
 [Lasso Regression]: {{ site.baseurl }}{% link glossary/l.md %}#lasso-regression
 [Latent Diffusion Model]: {{ site.baseurl }}{% link glossary/l.md %}#latent-diffusion-model
 [LDM]: {{ site.baseurl }}{% link glossary/l.md %}#latent-diffusion-model
@@ -51,6 +64,8 @@
 [Learning Velocity]: {{ site.baseurl }}{% link glossary/l.md %}#learning-velocity
 [Leave-One-Out Cross-Validation]: {{ site.baseurl }}{% link glossary/l.md %}#leave-one-out-cross-validation
 [LOOCV]: {{ site.baseurl }}{% link glossary/l.md %}#loocv
+[Legendre Memory Unit]: {{ site.baseurl }}{% link glossary/l.md %}#legendre-memory-unit
+[LMU]: {{ site.baseurl }}{% link glossary/l.md %}#legendre-memory-unit
 [Lexical Search]: {{ site.baseurl }}{% link glossary/l.md %}#lexical-search
 [LIDAR]: {{ site.baseurl }}{% link glossary/l.md %}#lidar
 [Light Gradient Boosting Machine]: {{ site.baseurl }}{% link glossary/l.md %}#light-gradient-boosting-machine
@@ -69,18 +84,24 @@
 [LFAI&Data]: {{ site.baseurl }}{% link glossary/l.md %}#linux-fundation-ai-and-data
 [Liquid Neural Network]: {{ site.baseurl }}{% link glossary/l.md %}#liquid-neural-network
 [LNN]: {{ site.baseurl }}{% link glossary/l.md %}#liquid-neural-network
-[LLaMa Model]: {{ site.baseurl }}{% link glossary/l.md %}#llama-model
-[LLaMa]: {{ site.baseurl }}{% link glossary/l.md %}#llama-model
-[LLaMa 2 Model]: {{ site.baseurl }}{% link glossary/l.md %}#llama-model
-[LLaMa 2]: {{ site.baseurl }}{% link glossary/l.md %}#llama-model
+[Large Language Model Meta AI]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
+[LLaMa Model]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
+[LLaMa Models]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
+[LLaMa]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
+[LLaMa 2 Model]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
+[LLaMa 2]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
 [LLaMa-Adapter Model]: {{ site.baseurl }}{% link glossary/l.md %}#llama-adapter-model
 [LLaMa-Adapter]: {{ site.baseurl }}{% link glossary/l.md %}#llama-adapter-model
+[Llamaindex Python Module]: {{ site.baseurl }}{% link glossary/l.md %}#llamaindex-python-module
+[Llamaindex]: {{ site.baseurl }}{% link glossary/l.md %}#llamaindex-python-module
+[LM Studio Application]: {{ site.baseurl }}{% link glossary/l.md %}#lm-studio-application
 [Local Sensitive Hashing]: {{ site.baseurl }}{% link glossary/l.md %}#local-sensitive-hashing
 [LSH]: {{ site.baseurl }}{% link glossary/l.md %}#local-sensitive-hashing
 [Log Loss Function]: {{ site.baseurl }}{% link glossary/l.md %}#log-loss-function
 [Log Transformation]: {{ site.baseurl }}{% link glossary/l.md %}#log-transformation
 [Logic Model]: {{ site.baseurl }}{% link glossary/l.md %}#logic-model
 [Logistic Regression]: {{ site.baseurl }}{% link glossary/l.md %}#logistic-regression
+[Logit]: {{ site.baseurl }}{% link glossary/l.md %}#logit
 [Long Short-Term Memory Cell]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-cell
 [LSTM Cell]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-cell
 [Long Short-Term Memory Network]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-network
@@ -89,6 +110,9 @@
 [LSTM]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-network
 [LSTMs]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-network
 [Look-Ahead Planning]: {{ site.baseurl }}{% link glossary/l.md %}#look-ahead-planning
+[Lora Exchange Serving]: {{ site.baseurl }}{% link glossary/l.md %}#lora-exchange-serving
+[Lorax Serving]: {{ site.baseurl }}{% link glossary/l.md %}#lora-exchange-serving
+[Lorax]: {{ site.baseurl }}{% link glossary/l.md %}#lora-exchange-serving
 [Loss Function]: {{ site.baseurl }}{% link glossary/l.md %}#loss-function
 [Loss Graph]: {{ site.baseurl }}{% link glossary/l.md %}#loss-graph
 [Low-Rank Adaptation Fine-Tuning]: {{ site.baseurl }}{% link glossary/l.md %}#low-rank-adaptation-fine-tuning
@@ -96,3 +120,5 @@
 [LoRA Fine-Tuning]: {{ site.baseurl }}{% link glossary/l.md %}#low-rank-adaptation-fine-tuning
 [LoRA]: {{ site.baseurl }}{% link glossary/l.md %}#low-rank-adaptation-fine-tuning
 [Low-Rank Approximation]: {{ site.baseurl }}{% link glossary/l.md %}#low-rank-approximation
+[Ludwig Framework]: {{ site.baseurl }}{% link glossary/l.md %}#ludwig-framework
+[Ludwig]: {{ site.baseurl }}{% link glossary/l.md %}#ludwig-framework

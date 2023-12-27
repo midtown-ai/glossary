@@ -154,9 +154,11 @@ layout: page
  {% pdf "https://arxiv.org/pdf/2210.03629.pdf" %}
 
  More at:
+  * site - [https://react-lm.github.io/](https://react-lm.github.io/)
   * [https://www.promptingguide.ai/techniques/react](https://www.promptingguide.ai/techniques/react)
   * paper - [https://arxiv.org/abs/2210.03629](https://arxiv.org/abs/2210.03629)
   * articles
+    * [https://blog.research.google/2022/11/react-synergizing-reasoning-and-acting.html](https://blog.research.google/2022/11/react-synergizing-reasoning-and-acting.html)
     * [https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/](https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/)
 
  See also [R], [Modular Reasoning Knowledge and Language]
@@ -235,6 +237,8 @@ Recall = % of positively identified
 
  These results are complementing, as is often the case in the precision-recall tradeoff.
 
+ {% youtube "https://www.youtube.com/watch?v=TMshhnrEXlg" %}
+
  {% pdf "https://aclanthology.org/W04-1013.pdf" %}
 
  More at:
@@ -242,7 +246,7 @@ Recall = % of positively identified
   * [https://medium.com/@sthanikamsanthosh1994/understanding-bleu-and-rouge-score-for-nlp-evaluation-1ab334ecadcb](https://medium.com/@sthanikamsanthosh1994/understanding-bleu-and-rouge-score-for-nlp-evaluation-1ab334ecadcb)
   * [https://www.freecodecamp.org/news/what-is-rouge-and-how-it-works-for-evaluation-of-summaries-e059fb8ac840/](https://www.freecodecamp.org/news/what-is-rouge-and-how-it-works-for-evaluation-of-summaries-e059fb8ac840/)
 
- See also [R], [MS COCO Caption Dataset], [NLP Score]
+ See also [R], [MS COCO Caption Dataset], [NLP Metrics]
 
 
 # Receiver Operating Characteristic Curve
@@ -258,11 +262,52 @@ Recall = % of positively identified
  See also [R], [Area Under The Curve]
 
 
+# Receptance Weighted Key Value Model
+# RWKV Model
+
+ ~ a [RNN] with GPT-level LLM performance, and can also be directly trained like a GPT transformer (parallelizable). <!> Pronounced RwaKuv <!>
+
+ <!> Is attention all you need? <!> This model and the [mamba model] disagree! The RNN fight back!
+
+ [Transformers] have revolutionized almost all [natural language processing (NLP)][NLP] tasks but suffer from memory and computational complexity that scales quadratically with sequence length. In contrast, [recurrent neural networks (RNNs)][RNN] exhibit linear scaling in memory and computational requirements but struggle to match the same performance as [Transformers] due to limitations in parallelization and scalability. We propose a novel model architecture, Receptance Weighted Key Value (RWKV), that combines the efficient parallelizable training of transformers with the efficient inference of RNNs.
+
+ Our approach leverages a linear attention mechanism and allows us to formulate the model as either a Transformer or an RNN, thus parallelizing computations during training and maintains constant computational and memory complexity during inference. We scale our models as large as 14 billion parameters, by far the largest dense [RNN] ever trained, and find RWKV performs on par with similarly sized [Transformers], suggesting future work can leverage this architecture to create more efficient models. This work presents a significant step towards reconciling trade-offs between computational efficiency and model performance in sequence processing tasks.
+
+ {% youtube "https://www.youtube.com/watch?v=I-HMKky7Qsw" %}
+
+ {% pdf "https://arxiv.org/pdf/2305.13048.pdf" %}
+
+ More at:
+  * site - [https://www.rwkv.com/](https://www.rwkv.com/)
+  * wiki - [https://wiki.rwkv.com/](https://wiki.rwkv.com/)
+  * paper - [https://arxiv.org/abs/2305.13048](https://arxiv.org/abs/2305.13048)
+  * code - [https://github.com/BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM)
+  * articles
+    * [https://johanwind.github.io/2023/03/23/rwkv_overview.html](https://johanwind.github.io/2023/03/23/rwkv_overview.html)
+    * [https://johanwind.github.io/2023/03/23/rwkv_details.html](https://johanwind.github.io/2023/03/23/rwkv_details.html)
+    * [https://ben.bolte.cc/rwkv-model](https://ben.bolte.cc/rwkv-model)
+
+ See also [R], ...
+
+
+# Receptance Weighted Key Value World Tokenizer
+# RWKV World Tokenizer
+
+ A tokenizer used by open-source [RWKV Models] that is taking ALL spoken languages in consideration. It solves limitations of the [BPE Tokenizer] by removing bias against non-english and non-spaced languages.
+ 
+ {% youtube "https://www.youtube.com/watch?v=I-HMKky7Qsw" %}
+
+ More at:
+  * ...
+
+ See also [R], ...
+
+
 # Recommendation Engine
 
  * [Apriori Algorithm]
  * [Link Prediction] in a graph database
- * [Two-Tower Model] uses cosine or euclidian similarity between [embeddings]
+ * [Two-Tower Model] uses cosine or euclidian similarity between [embeddings]. Used in [RAG] !
 
  See also [R], ...
 
@@ -464,15 +509,37 @@ Beware:
 
 # Regularization
 
- Force a 'simpler model' to avoid memorizing training data.
+ Force a 'simpler model' to avoid memorizing training data, aka [overfitting].
 
- There is an approach that prefers some [bias] over high [variance], this approach is called Regularization. It works well for most of the [classification] / [regression] problems.
+ There is an approach that prefers some [bias] over high [variance], this approach is called regularization. It works well for most of the [classification] / [regression] problems.
 
- * [Ridge Regression]
- * [Lasso Regression]
- * [Elastic Net]
+ * L1 regularization, aka [Lasso Regression]
+   * Adds the absolute values of the coefficients as a penalty term to the [loss function].
+   * Encourages [sparsity] in the model by driving some of the coefficients to exactly zero.
+   * Useful for [feature selection] as it tends to eliminate less important [features].
+ * L2 regularization, aka [Ridge Regression]
+   * Adds the squared values of the coefficients as a penalty term to the [loss function].
+   * Encourages the model to have smaller weights overall.
+   * Helps prevent multicollinearity (high correlation between features) and stabilizes the training process.
+ * [Elastic Net Regularization]
+   * Combines both L1 and L2 regularization terms.
+   * It has two [hyperparameters] (alpha and l1_ratio) that control the strength of L1 and L2 regularization.
+ * [Dropout regularization]
+   * Applied in neural networks, dropout involves randomly setting a fraction of input units to zero during each update of the model.
+   * Helps prevent co-adaptation of units by providing a form of ensemble learning within a single model.
+ * [Early stopping]
+   * Monitors the model's performance on a validation set during training and stops the training process when the performance starts to degrade.
+   * Prevents the model from overfitting by terminating training before it becomes too specialized to the training data.
+ * [Weight regularization] or weight decay
+   * Adds a penalty term proportional to the sum of the squared weights to the [loss function].
+   * Similar to L2 regularization and helps control the magnitude of the weights.
 
- See also [R], [Bias-Variance Trade-Off], [Hyperparameter]
+ These regularization techniques play a crucial role in preventing [overfitting], improving model generalization, and creating models that perform well on unseen data. The choice of regularization method and [hyperparameter] values depends on the specific characteristics of the dataset and the [machine learning] model being used.
+
+ More at:
+  * [https://machinelearningmastery.com/introduction-to-regularization-to-reduce-overfitting-and-improve-generalization-error/](https://machinelearningmastery.com/introduction-to-regularization-to-reduce-overfitting-and-improve-generalization-error/)
+
+ See also [R], [Bias-Variance Trade-Off]
 
 
 # Regularization Parameter
@@ -572,7 +639,15 @@ Beware:
  See also [R], ...
 
 
-# Reinforcement Learning Human Feedback
+# Reinforcement Learning From AI Feedback
+# RHAIF
+
+ ~ popularized by [Anthropic] as a play on word on [RLHF]. Similar to [constitutional AI]
+
+ See also [F], ...
+
+
+# Reinforcement Learning From Human Feedback
 # RLHF
 
  Reinforcement learning process using human feedback as a reward model. RLHF is use in InstructGPT model, a precursor to ChatGPT model. A way to prevent or make [Red Teaming] language models more difficult?
@@ -638,6 +713,14 @@ Beware:
  {% youtube "https://www.youtube.com/watch?v=Bcuj2fTH4_4" %}
 
  See also [R], ...
+
+
+# Replit Company
+
+ More at:
+  * site - [https://replit.com/](https://replit.com/)
+
+ See also [R], [Custom GPT]
 
 
 # Representation Space
@@ -719,7 +802,6 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
 
 
 # Residual Network Model
-
 # ResNET Model
 
  ResNET, short for Residual Networks is a classic neural network used as a backbone for many computer vision tasks = `a CNN image model` This model was the winner of ImageNET challenge in 2015. The fundamental breakthrough with ResNET was it allowed us to train extremely deep neural networks with 150+layers successfully. Prior to ResNET training very deep neural networks was difficult due to the [problem of vanishing gradients][Vanishing Gradient Problem].
@@ -842,8 +924,15 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  Now, retrieval-augmented generation combines these two approaches to overcome their individual limitations. In this framework, a retrieval model is used to retrieve relevant information from a knowledge base or a set of documents based on a given query or context. The retrieved information is then used as input or additional context for the generative model.
 
  There are 2 components in RAGs:
-  * [Retrieval Reader]
-  * [Retrieval Writer]
+  * [RAG Retriever] or reader component
+  * [RAG Generator] or writer component
+
+ Current evaluation frameworks:
+  * [RAG Triad Of Metrics]
+  * [ROUGE]
+  * [BLEU]
+  * [RAGAs]
+  * [Automated RAG Evaluation System (ARES)][ARES]
 
  ![]( {{site.assets}}/r/retrieval_augmented_generation.webp ){: width="100%"}
 
@@ -857,33 +946,63 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  See also [R], ...
 
 
-# Retrieval Model
+# Retrieval-Augmented Generation Assessment
+# RAG Assessment
+# RAGA
+
+ ~ A framework with metrics and LLM-generated data to evaluate the performance of your Retrieval-Augmented Generation pipeline
+
+ By now, we know that building a proof of concept for a Retrieval-Augmented Generation (RAG) application is easy, but making it production-ready is very difficult. Getting the RAG pipeline's performance to a satisfying state is especially difficult because of the different components in a RAG pipeline:
+  * Retriever component: retrieves additional context from an external database for the LLM to answer the query.
+  * Generator component: generates an answer based on a prompt augmented with the retrieved information.
+
+ When evaluating a RAG pipeline, you must evaluate both components separately and together to understand if and where the RAG pipeline still needs improvement. Additionally, to understand whether your RAG application’s performance is improving, you must evaluate it quantitatively. For this, you will need two ingredients: An evaluation metric and an evaluation dataset.
+
+ More at:
+  * articles
+    * [https://towardsdatascience.com/evaluating-rag-applications-with-ragas-81d67b0ee31a](https://towardsdatascience.com/evaluating-rag-applications-with-ragas-81d67b0ee31a)
+
+ See also [R], ...
+
+
+# Retrieval-Augmented Generation Generator
+# RAG Generator
+
+ A component in a [RAG] that uses its augmented context for additional information, but will also generate new info. Beware of hallucinations.
+
+ See also [R], ...
+
+
+# Retrieval-Augmented Generation Retriever
+# RAG Retriever
+
+ A component of a [RAG] that uses its augmented context to give an answer. Using it results in limited hallucinations.
+
+ See also [R], ...
+
+
+# Retrieval-Augmented Generation Triad Of Metrics
+# RAG Triad Of Metrics
+
+ More at:
+  * [https://learn.deeplearning.ai/building-evaluating-advanced-rag/lesson/3/rag-triad-of-metrics](https://learn.deeplearning.ai/building-evaluating-advanced-rag/lesson/3/rag-triad-of-metrics)
+
+ See also [R], ...
+
+
+# Retrieval-Based Model
 
  These models are designed to retrieve relevant information from a given set of documents or a knowledge base. They typically use techniques like [information retrieval] or [semantic search] techniques to identify the most relevant pieces of information based on a given query. Retrieval-based models excel at finding accurate and specific information but lack the ability to generate creative or novel content.
 
  Retrieval models:
   * Neural Network [Embeddings]
   * [Best Match 25]
-  * [TF-IDF]
-  * [LDA]
+  * [Term Frequency-Inverse Document Frequency (TF-IDF)][TF-IDF]
+  * [Linear Discriminant Analysis (LDA)][LDA]
   * Hybrid search = a combination of the above methodologies with different weightings.
 
  More at:
   * [https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79](https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79)
-
- See also [R], ...
-
-
-# Retrieval Reader
-
- A type of [RAG] that uses its augmented context to give an answer. The benefit is limited hallucinations.
-
- See also [R], ...
-
-
-# Retrieval Writer
-
- A type of [RAG] that uses its augmented context for additional information, but will also generate new info. Beware of hallucinations.
 
  See also [R], ...
 
@@ -972,6 +1091,13 @@ def reward_function(params):
 
  See also [R], ...
 
+
+# Reward Hacking
+
+ More at:
+  * ...
+
+ See also [R], ...
 
 # Reward Model
 
@@ -1111,7 +1237,7 @@ def reward_function(params):
  More at:
   * [https://rlgym.org/](https://rlgym.org/)
 
- See also [R], [[OpenAI Gym], 
+ See also [R], [OpenAI Gym], 
 
 
 # Root Mean Square Error

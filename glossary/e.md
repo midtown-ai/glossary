@@ -98,7 +98,7 @@ layout: page
  See also [E], [Eigenvalue], [Matrix], [Synthesized Variable]
 
 
-# Elastic Net
+# Elastic Net Regularization
 
  Used in [Regularization].
 
@@ -124,6 +124,7 @@ layout: page
 
  See also [E], [AI Movie]
 
+
 # Elevenlabs AI Company
 
  An AI startup that lets anyone clone a target’s voice in a matter of seconds.
@@ -144,6 +145,39 @@ layout: page
   * [https://ramsrigoutham.medium.com/create-ai-powered-personalized-meditation-videos-d2f76fee03a5](https://ramsrigoutham.medium.com/create-ai-powered-personalized-meditation-videos-d2f76fee03a5)
   * articles
     * AI girlfriend - [https://www.ai-jason.com/learning-ai/build-ai-companion](https://www.ai-jason.com/learning-ai/build-ai-companion)
+
+ See also [E], ...
+
+
+# ELIZA Chatbot
+
+ ~ the first bot at making significant strides in the [turing test]
+
+ ELIZA is an early natural language processing computer program created from 1964 to 1967 at MIT by Joseph Weizenbaum. Created to explore communication between humans and machines, ELIZA simulated conversation by using a pattern matching and substitution methodology that gave users an illusion of understanding on the part of the program, but had no representation that could be considered really understanding what was being said by either party.
+
+ ![]( {{site.assets}}/e/eliza_chatbot_conversation.png ){: width="100%"}
+
+ More at:
+  * wikipedia - [https://en.wikipedia.org/wiki/ELIZA](https://en.wikipedia.org/wiki/ELIZA)
+  * ELiza vs ChatGPT - [https://arstechnica.com/information-technology/2023/12/real-humans-appeared-human-63-of-the-time-in-recent-turing-test-ai-study/](https://arstechnica.com/information-technology/2023/12/real-humans-appeared-human-63-of-the-time-in-recent-turing-test-ai-study/)
+
+ See also [E], ...
+
+
+# Elo Rating System
+
+ The Elo rating system is a method for calculating the relative skill levels of players in zero-sum games such as chess. It is named after its creator Arpad Elo, a Hungarian-American physics professor.
+
+ The Elo system was invented as an improved chess-rating system over the previously used Harkness system, but is also used as a rating system in association football, American football, baseball, basketball, pool, table tennis, various board games and esports, and more recently [large language models] in the [chatbot arena].
+
+ The difference in the ratings between two players serves as a predictor of the outcome of a match. Two players with equal ratings who play against each other are expected to score an equal number of wins. A player whose rating is 100 points greater than their opponent's is expected to score 64%; if the difference is 200 points, then the expected score for the stronger player is 76%.
+
+ A player's Elo rating is represented by a number which may change depending on the outcome of rated games played. After every game, the winning player takes points from the losing one. The difference between the ratings of the winner and loser determines the total number of points gained or lost after a game. If the higher-rated player wins, then only a few rating points will be taken from the lower-rated player. However, if the lower-rated player scores an upset win, many rating points will be transferred. The lower-rated player will also gain a few points from the higher rated player in the event of a draw. This means that this rating system is self-correcting. Players whose ratings are too low or too high should, in the long run, do better or worse correspondingly than the rating system predicts and thus gain or lose rating points until the ratings reflect their true playing strength.
+
+ Elo ratings are comparative only, and are valid only within the rating pool in which they were calculated, rather than being an absolute measure of a player's strength.
+
+ More at:
+  * wikipedia - [https://en.wikipedia.org/wiki/Elo_rating_system](https://en.wikipedia.org/wiki/Elo_rating_system)
 
  See also [E], ...
 
@@ -171,7 +205,21 @@ layout: page
   * [https://www.uber.com/blog/innovative-recommendation-applications-using-two-tower-embeddings/](https://www.uber.com/blog/innovative-recommendation-applications-using-two-tower-embeddings/) 
   * [https://frankzliu.com/blog/a-gentle-introduction-to-vector-databases](https://frankzliu.com/blog/a-gentle-introduction-to-vector-databases)
 
- See [E], [Word Embedding]
+ See [E], [Embedding Projector], [Sentence Embedding], [Word Embedding]
+
+
+# Embedding Projector
+
+ 4D visualization of for ...
+  * [T-SNE]
+  * [PCA]
+  * [UMAP]
+  * custom
+
+ More at:
+  * [https://projector.tensorflow.org/](https://projector.tensorflow.org/)
+
+ See also [E], [Embedding]
 
 
 # Embedding Space
@@ -331,6 +379,9 @@ Research on emotion has increased over the past two decades with many fields con
 
  ![]( {{site.assets}}/e/ensemble_method.png ){: width=20%}
 
+ More at:
+  * explorable - [https://pair.withgoogle.com/explorables/uncertainty-ood/](https://pair.withgoogle.com/explorables/uncertainty-ood/)
+
  See also [E], [Gradient Bagging], [Gradient Boosting], [Isolation Forest], [Weak Learner]
 
 
@@ -398,12 +449,16 @@ H(X) = -∑(p(x) * log2 p(x))
   * fully observable = agent can directly observe the complete state of the environment at each time step
   * partially observable = agent cannot directly observe the full state, only partial observation. (Ex: a self-driving car has sensors that can only give it information about its immediate surroundings, not the full map/city/world) ==> agent needs memory to remember past observations and actions. Agents also use techniques like [Bayesian inference] to maintain a [belief distribution] over possible current states.
 
+  Examples of Environments:
+   * [Isaac Gym]
+   * [OpenAI Gym]
+
  ![]( {{site.assets}}/e/environment.png ){: width="100%"}
 
  More at:
   * ...
 
- See also [E], [Isaac Gym Environment], [OpenAI Gym Environment], [PyBullet], [RobotSchool]
+ See also [E], [PyBullet], [RobotSchool]
 
 
 # Episode
@@ -916,6 +971,15 @@ Shape AI’s potential to transform education by creating resources to support e
  See also [E], ...
 
 
+# ExecuTorch
+
+ ~ framework to run torch model on edge devices
+
+ {% youtube "https://www.youtube.com/watch?v=2yJvkeG-OWc" %}
+
+ See also [E], ...
+
+
 # Expected Value
 
  {% youtube "https://www.youtube.com/watch?v=KLs_7b7SKi4" %}
@@ -1002,7 +1066,7 @@ Shape AI’s potential to transform education by creating resources to support e
  More at:
   * LLM can explain neurons - [https://openai.com/research/language-models-can-explain-neurons-in-language-models](https://openai.com/research/language-models-can-explain-neurons-in-language-models)
 
- See also [E], [Chain Of Thought Prompting]
+ See also [E], [Chain-Of-Thought Prompting]
 
 
 # Explainable AI

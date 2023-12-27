@@ -185,12 +185,16 @@ layout: page
 
 # Vector
 
+ ~ a great way to represent unstructured data!
+
  A 1 column matrix (akak a list!) that represent all the inputs to a neural network or a summary of all the values of the features. Not a tensor (matrix).
 
  See also [V], [Dot Product], [Feature], [Tensor], [Sparse Vector], [Vector Database]
 
 
 # Vector Database
+
+ ~ a great way to store unstructured data
 
  A vector database indexes and stores vector embeddings for fast retrieval and similarity search.
 
@@ -201,7 +205,7 @@ layout: page
   * an intuitive user interface/administrative console.
 
  Databases
-  * [Chroma Database] - in-memory ?
+  * [Chroma Database] - in-memory ? can also use sqlite backend!
   * [Milvus Database]
   * [Pinecone Database]
   * [Qdrant Database]
@@ -395,18 +399,41 @@ Currently, standard virtual reality systems use either virtual reality headsets 
 
 
 # Visual Geometry Group Model
+# VGG Model
 # VGG-16 Model
 # VGG-19 Model
-# VGG Model
 
  A model developed by VGG in the Department of Engineering Science, University of Oxford. 
   * VGG-19 = The number 19 stands for the number of layers with trainable weights. 16 [Convolutional layers] with [Max Pooling] and 3 Fully Connected layers. The VGG-19 was trained on the ImageNet challenge (ILSVRC) 1000-class classification task. The network takes a (224, 224, 3) RBG image as the input.
 
  ![]( {{site.assets}}/v/visual_geometry_group_19_model.webp ){: width="100%"}
 
+ ```
+from keras.applications.vgg16 import VGG16
+# load the model
+model = VGG16()
+# summarize the model
+model.summary()
+
+# summarize filter shapes
+for layer in model.layers:
+   # check for convolutional layer
+   if 'conv' not in layer.name:
+   continue
+   # get filter weights
+   filters, biases = layer.get_weights()
+   print(layer.name, filters.shape)
+ ```
+
+ {% pdf "https://arxiv.org/pdf/1409.1556.pdf" %}
+
  More at
-  * [https://medium.com/mlearning-ai/image-detection-using-convolutional-neural-networks-89c9e21fffa3](https://medium.com/mlearning-ai/image-detection-using-convolutional-neural-networks-89c9e21fffa3)
-  * [https://www.image-net.org/challenges/LSVRC/](https://www.image-net.org/challenges/LSVRC/)
+  * vgg-16 (2015)
+    * paper - [https://arxiv.org/abs/1409.1556](https://arxiv.org/abs/1409.1556)
+    * keras - [https://machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-convolutional-neural-networks/](https://machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-convolutional-neural-networks/)
+  * articles
+    * [https://medium.com/mlearning-ai/image-detection-using-convolutional-neural-networks-89c9e21fffa3](https://medium.com/mlearning-ai/image-detection-using-convolutional-neural-networks-89c9e21fffa3)
+    * [https://www.image-net.org/challenges/LSVRC/](https://www.image-net.org/challenges/LSVRC/)
 
  See also [V], [Convolutional Neural Network]
 
@@ -484,3 +511,12 @@ Currently, standard virtual reality systems use either virtual reality headsets 
     * [https://ai.meta.com/blog/voicebox-generative-ai-model-speech/](https://ai.meta.com/blog/voicebox-generative-ai-model-speech/)
   * site - [https://voicebox.metademolab.com/](https://voicebox.metademolab.com/)
   *  
+
+# VoiceFlow Company
+
+ {% youtube "https://www.youtube.com/watch?v=2ZrQfZrpZQw" %}
+
+ More at:
+  * site - [https://www.voiceflow.com/](https://www.voiceflow.com/)
+
+ See also [V], [Custom GPT]

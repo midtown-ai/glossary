@@ -66,6 +66,8 @@ layout: page
 
  [OpenAI] Co-founder.
 
+ {% youtube "https://www.youtube.com/watch?v=9wG56MdgmlE" %}
+
  {% youtube "https://www.youtube.com/watch?v=UHSkjro-VbE" %}
 
  See also [I], [People]
@@ -105,26 +107,60 @@ layout: page
  See also [I], [Encoder], [Image Decoder]
 
 
-# Image inpainting
+# Image Filter
 
- Masking of an area of an image and having it reconstructed by going through an autoencoder.
+ ~ in a [Convolutional Neural Network (CNN)][CNN], this is a [feature] detector!
 
- See also [I], [Masked Language Learning Model]
+ Q: Is an image filter related to a [GPU kernel] ? Yes!
 
+ A small matrix which you can use to multiply to the pixel area of the same size. The filter is applied to or convoluted with the same image for every area possible. As represented below, we can use a 2x2x1 filter, but we recommend a 3x3x1 filter.
 
-# Image Kernel
+ ![]( {{site.assets}}/i/image_filter.gif ){: width="100%"}
 
- A small matrix which you can use to multiply to the pixel area of the same size. The Kernel is applied to the same image for every area possible. AS represented below, we can use a kernel of 2x2, but we recommend a 3x3 kernel.
+ Where is the pattern of each filter coming from? Just like weights in a neural network, it comes from Backpropagation !
+ 
+ Q:
+  * What are low, medium, and high frequency patterns? That seems to be referring to 'contrast' or difference in values of the pixel in the kernel
 
- ![]( {{site.assets}}/i/image_kernel.gif ){: width="100%"}
+ Q:  
+  * number of filters?
+    * that's a hyperparameter!
+    * the output of a convolution of one filter with the input is called a [feature map]
+    * applying an [activation function] on the [feature maps] result in an [activation map]
+  * filter size?
+    * 3x3 as chained 3x3 (2 Conv2D) gives you the same 5x5 receptive field (or patch) as a single 5x5 convolution! --> important because fewer weights/parameters = less/faster computation! ( 2 3x3 conv uses 72% of the param and computation of a 5x5 conv, 3 3x3 conv uses 55% of the params of a 7x7)
+    * very first input conv can be <> because input only has 3 channels ==> 5x5x3 or 7x7x3 on first layer
+    * 1x1 because it is the most easy way to change the number of features in the [feature map] (!?!?)
+    * filters have a height, width, and a number of channels. The number of channels must match the number of channels of the input to be processed. That is why the number of channels of the filter is never specified as an input!!!
 
- Where is the 'design' of the kernels coming from? Just like weights in a neural network, it comes from Backpropagation !
+ ```
+import keras
+
+from keras.layers import Conv2D     # <== 2D is how the filter moves!
+                                    # <!> 1D is used for time-series
+                                    # <!> 3D is used for videos or stacked images seen in medical imaging
+
+model = keras.models.Sequential()
+
+model.add(Conv2D(1, kernel_size=(3,3), input_shape = (128, 128, 3))) # <== filter is really 3x3x3!
+
+model.summary()
+ ```
+
+ {% youtube "https://www.youtube.com/watch?v=V9ZYDCnItr0" %}
 
  More at:
   * [https://setosa.io/ev/image-kernels/](https://setosa.io/ev/image-kernels/)
   * [https://medium.com/codex/kernels-filters-in-convolutional-neural-network-cnn-lets-talk-about-them-ee4e94f3319](https://medium.com/codex/kernels-filters-in-convolutional-neural-network-cnn-lets-talk-about-them-ee4e94f3319)
 
- See also [I], [Convolutional Layer], [Convolutional Neural Network]
+ See also [I], [Convolutional Layer]
+
+
+# Image Inpainting
+
+ Masking of an area of an image and having it reconstructed by going through an autoencoder.
+
+ See also [I], [Masked Language Learning Model]
 
 
 # Image Reconstruction
@@ -209,6 +245,7 @@ layout: page
  More at:
    * wikiepedia - [https://en.wikipedia.org/wiki/ImageNet](https://en.wikipedia.org/wiki/ImageNet)
    * [https://image-net.org/challenges/LSVRC/index.php](https://image-net.org/challenges/LSVRC/index.php)
+   * know-your-data - [https://knowyourdata-tfds.withgoogle.com/#tab=STATS&dataset=imagenet2012](https://knowyourdata-tfds.withgoogle.com/#tab=STATS&dataset=imagenet2012)
 
  See also [I], [AlexNet Model], [Fei-Fei Li Person], [Supervised Learning], [Transfer Learning], [WordNet Dataset]
 
@@ -235,6 +272,26 @@ layout: page
   * [https://www.technologyreview.com/2022/11/25/1063707/ai-minecraft-video-unlock-next-big-thing-openai-imitation-learning/](https://www.technologyreview.com/2022/11/25/1063707/ai-minecraft-video-unlock-next-big-thing-openai-imitation-learning/) (blocked?)
 
  See also [I], [Adversarial Imitation Learning], [Behavioral Cloning], [IQ-Learn Model], [Learning Method], [Reinforcement Learning], [Software 2.0]
+
+
+# Imbalanced Data
+
+ Imbalanced data refers to a situation in which the distribution of classes in a dataset is not equal. In a binary classification problem, where there are two classes (positive and negative), imbalanced data occurs when one class significantly outnumbers the other. This imbalance can lead to challenges when training machine learning models, as the model may become biased towards the majority class and perform poorly on the minority class.
+
+ For example, consider a medical diagnosis scenario where you are trying to predict whether a patient has a rare disease. If only a small percentage of the population has the disease, the dataset may be imbalanced, with the majority of examples belonging to the class of "non-disease" cases. In such cases, a model might achieve high [accuracy] by simply predicting the majority class for every instance, but it would fail to identify the minority class effectively.
+
+ Addressing imbalanced data is important because it can affect the performance of [machine learning] models. Various techniques can be employed to handle imbalanced datasets, including:
+  * Resampling: This involves either oversampling the minority class, undersampling the majority class, or a combination of both to create a more balanced dataset.
+  * Synthetic Data Generation: Techniques such as SMOTE (Synthetic Minority Over-sampling Technique) involve generating synthetic examples of the minority class to balance the dataset.
+  * Cost-sensitive learning: Assigning different misclassification costs to different classes to make the model more sensitive to errors on the minority class.
+  * [Ensemble Methods]: Using ensemble methods like Random Forests or boosting algorithms, which can be more robust to imbalanced data.
+  * Different Evaluation Metrics: Instead of relying solely on accuracy, using metrics such as precision, recall, F1 score, or area under the ROC curve (AUC-ROC) can provide a more comprehensive understanding of model performance on imbalanced datasets.
+
+ It's crucial to carefully choose and implement these techniques based on the specific characteristics of the dataset and the goals of the machine learning task.
+
+ {% youtube "https://www.youtube.com/watch?v=JnlM4yLFNuo" %}
+
+ See also [I], ...
 
 
 # Imputation
@@ -588,6 +645,13 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
  The Isolation Forest works a bit differently than a Random Forest. It also creates a bunch of decision trees, but then it calculates the path length necessary to isolate an observation in the tree. The idea being that isolated observations, or anomalies, are easier to isolate because there are fewer conditions necessary to distinguish them from the normal cases. Thus, the anomalies will have shorter paths than normal observations and reside closer to the root of the tree.
 
  See also [I], [Ensemble Method]
+
+
+# Istio
+ 
+ {% youtube "https://www.youtube.com/watch?v=ZF9rPkm20NY" %}
+
+ See also [I], [MLOps]
 
 
 # Iteration

@@ -5,12 +5,16 @@
 [Object Tracking]: {{ site.baseurl }}{% link glossary/o.md %}#object-tracking
 [Objective Function]: {{ site.baseurl }}{% link glossary/o.md %}#objective-function
 [Observation]: {{ site.baseurl }}{% link glossary/o.md %}#observation
+[Odds]: {{ site.baseurl }}{% link glossary/o.md %}#odds
+[Odds Ratio]: {{ site.baseurl }}{% link glossary/o.md %}#odds-ratio
 [Off-policy Learning]: {{ site.baseurl }}{% link glossary/o.md %}#off-policy-learning
 [Off-policy Learning Algorithm]: {{ site.baseurl }}{% link glossary/o.md %}#off-policy-learning-algorithm
 [Off-policy Learning Algorithms]: {{ site.baseurl }}{% link glossary/o.md %}#off-policy-learning-algorithm
 [Offline Learning]: {{ site.baseurl }}{% link glossary/o.md %}#offline-learning
 [Offline Learning Algorithm]: {{ site.baseurl }}{% link glossary/o.md %}#offline-learning-algorithm
 [Offline Learning Algorithms]: {{ site.baseurl }}{% link glossary/o.md %}#offline-learning-algorithm
+[Ollama Command Line]: {{ site.baseurl }}{% link glossary/o.md %}#ollama-command-line
+[Ollama]: {{ site.baseurl }}{% link glossary/o.md %}#ollama-command-line
 [Olympus Model]: {{ site.baseurl }}{% link glossary/o.md %}#olympus-model
 [Olympus]: {{ site.baseurl }}{% link glossary/o.md %}#olympus-model
 [Omniverse]: {{ site.baseurl }}{% link glossary/o.md %}#omniverse
@@ -27,6 +31,7 @@
 [Online Learning Algorithms]: {{ site.baseurl }}{% link glossary/o.md %}#online-learning-algorithm
 [Open Neural Network Exchange Format]: {{ site.baseurl }}{% link glossary/o.md %}#open-neural-network-exchange-format
 [ONNX Format]: {{ site.baseurl }}{% link glossary/o.md %}#open-neural-network-exchange-format
+[OpenAI Assitants API]: {{ site.baseurl }}{% link glossary/o.md %}#openai-assistants-api
 [OpenAI Company]: {{ site.baseurl }}{% link glossary/o.md %}#openai-company
 [OpenAI]: {{ site.baseurl }}{% link glossary/o.md %}#openai-company
 [OpenAI Five Model]: {{ site.baseurl }}{% link glossary/o.md %}#openai-five-model
@@ -34,6 +39,8 @@
 [OpenAI Function]: {{ site.baseurl }}{% link glossary/o.md %}#openai-function
 [OpenAI Gym Environment]: {{ site.baseurl }}{% link glossary/o.md %}#openai-gym-environment
 [OpenAI Gym]: {{ site.baseurl }}{% link glossary/o.md %}#openai-gym-environment
+[OpenCLIP Model]: {{ site.baseurl }}{% link glossary/o.md %}#openclip-model
+[OpenCLIP]: {{ site.baseurl }}{% link glossary/o.md %}#openclip-model
 [OpenCV Module]: {{ site.baseurl }}{% link glossary/o.md %}#opencv-module
 [OpenFold Model]: {{ site.baseurl }}{% link glossary/o.md %}#openfold-model
 [OpenFold]: {{ site.baseurl }}{% link glossary/o.md %}#openfold-model
@@ -45,6 +52,8 @@
 [Optimal Q-Value]: {{ site.baseurl }}{% link glossary/o.md %}#optimal-q-value
 [Optimization]: {{ site.baseurl }}{% link glossary/o.md %}#optimization
 [Optimizer]: {{ site.baseurl }}{% link glossary/o.md %}#optimizer
+[Optimus Robot]: {{ site.baseurl }}{% link glossary/o.md %}#optimus-robot
+[Optimus]: {{ site.baseurl }}{% link glossary/o.md %}#optimus-robot
 [Ordinal Encoding]: {{ site.baseurl }}{% link glossary/o.md %}#ordinal-encoding
 [Outlier]: {{ site.baseurl }}{% link glossary/o.md %}#outlier
 [Outliers]: {{ site.baseurl }}{% link glossary/o.md %}#outlier

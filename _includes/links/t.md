@@ -32,6 +32,7 @@
 [Term Frequency Matrix]: {{ site.baseurl }}{% link glossary/t.md %}#term-frequency-matrix
 [TFM]: {{ site.baseurl }}{% link glossary/t.md %}#term-frequency-matrix
 [Terminator Movie]: {{ site.baseurl }}{% link glossary/t.md %}#terminator-movie
+[Terminator]: {{ site.baseurl }}{% link glossary/t.md %}#terminator-movie
 [Test Subset]: {{ site.baseurl }}{% link glossary/t.md %}#test-subset
 [Text Embedding]: {{ site.baseurl }}{% link glossary/t.md %}#text-embedding
 [Text Reconstruction]: {{ site.baseurl }}{% link glossary/t.md %}#text-reconstruction
@@ -41,7 +42,9 @@
 [Text-To-Text Transfer Transformer Model]: {{ site.baseurl }}{% link glossary/t.md %}#text-to-text-transfer-transformer-model
 [T5 Model]: {{ site.baseurl }}{% link glossary/t.md %}#text-to-text-transfer-transformer-model
 [The Imitation Game Movie]: {{ site.baseurl }}{% link glossary/t.md %}#the-imitation-game-movie
+[The Imitation Game]: {{ site.baseurl }}{% link glossary/t.md %}#the-imitation-game-movie
 [The Matrix Movie]: {{ site.baseurl }}{% link glossary/t.md %}#the-matrix-movie
+[The Matrix]: {{ site.baseurl }}{% link glossary/t.md %}#the-matrix-movie
 [Theano]: {{ site.baseurl }}{% link glossary/t.md %}#theano
 [Theory Of Mind]: {{ site.baseurl }}{% link glossary/t.md %}#theory-of-mind
 [TOM]: {{ site.baseurl }}{% link glossary/t.md %}#theory-of-mind
@@ -57,6 +60,8 @@
 [TorchScript Format]: {{ site.baseurl }}{% link glossary/t.md %}#torchscript-format
 [Training Subset]: {{ site.baseurl }}{% link glossary/t.md %}#training-subset
 [Trajectory]: {{ site.baseurl }}{% link glossary/t.md %}#trajectory
+[Transcendence Movie]: {{ site.baseurl }}{% link glossary/t.md %}#transcendence-movie
+[Transcendence]: {{ site.baseurl }}{% link glossary/t.md %}#transcendence-movie
 [Transfer Learning]: {{ site.baseurl }}{% link glossary/t.md %}#transfer-learning
 [Transform Function]: {{ site.baseurl }}{% link glossary/t.md %}#transform-function
 [TF]: {{ site.baseurl }}{% link glossary/t.md %}#transform-function
@@ -66,8 +71,8 @@
 [Traveling Salesman Problem]: {{ site.baseurl }}{% link glossary/t.md %}#traveling-salesman-problem
 [Traveling Salesman]: {{ site.baseurl }}{% link glossary/t.md %}#traveling-salesman-problem
 [TSP]: {{ site.baseurl }}{% link glossary/t.md %}#traveling-salesman-problem
-[Tree Of Thoughts Prompting]: {{ site.baseurl }}{% link glossary/t.md %}#tree-of-thoughts-prompting
-[Tree Of Thoughts]: {{ site.baseurl }}{% link glossary/t.md %}#tree-of-thoughts-prompting
+[Tree-Of-Thoughts Prompting]: {{ site.baseurl }}{% link glossary/t.md %}#tree-of-thoughts-prompting
+[Tree-Of-Thoughts]: {{ site.baseurl }}{% link glossary/t.md %}#tree-of-thoughts-prompting
 [TOT Prompting]: {{ site.baseurl }}{% link glossary/t.md %}#tree-of-thoughts-prompting
 [TOT]: {{ site.baseurl }}{% link glossary/t.md %}#tree-of-thoughts-prompting
 [Tree Parzen Estimators]: {{ site.baseurl }}{% link glossary/t.md %}#tree-parzen-estimators

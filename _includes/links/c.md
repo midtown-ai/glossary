@@ -6,20 +6,27 @@
 [CMU]: {{ site.baseurl }}{% link glossary/c.md %}#cmu
 [Case-Based Reasoning]: {{ site.baseurl }}{% link glossary/c.md %}#case-based-reasoning
 [CBR]: {{ site.baseurl }}{% link glossary/c.md %}#cbr
+[Cassandra Database]: {{ site.baseurl }}{% link glossary/c.md %}#cassandra-database
 [Casual Language Modeling]: {{ site.baseurl }}{% link glossary/c.md %}#casual-language-modeling
 [CatBoost Library]: {{ site.baseurl }}{% link glossary/c.md %}#catboost-libary
 [Categorical Variable]: {{ site.baseurl }}{% link glossary/c.md %}#categorical-variable
 [Cell Block]: {{ site.baseurl }}{% link glossary/c.md %}#cell-block
 [Center Line]: {{ site.baseurl }}{% link glossary/c.md %}#center-line
 [Central Limit Theorem]: {{ site.baseurl }}{% link glossary/c.md %}#central-limit-theorem
-[Chain Of Thought Prompting]: {{ site.baseurl }}{% link glossary/c.md %}#chain-of-thought-prompting
-[Chain Of Thought]: {{ site.baseurl }}{% link glossary/c.md %}#chain-of-thought-prompting
+[Central Processing Unit]: {{ site.baseurl }}{% link glossary/c.md %}#central-processing-unit
+[CPU]: {{ site.baseurl }}{% link glossary/c.md %}#central-processing-unit
+[Central Processing Unit Memory]: {{ site.baseurl }}{% link glossary/c.md %}#central-processing-unit-memory
+[CPU Memory]: {{ site.baseurl }}{% link glossary/c.md %}#central-processing-unit-memory
+[Chain-Of-Thought Prompting]: {{ site.baseurl }}{% link glossary/c.md %}#chain-of-thought-prompting
+[Chain-Of-Thought]: {{ site.baseurl }}{% link glossary/c.md %}#chain-of-thought-prompting
 [COT Prompting]: {{ site.baseurl }}{% link glossary/c.md %}#chain-of-thought-prompting
 [COT]: {{ site.baseurl }}{% link glossary/c.md %}#chain-of-thought-prompting
 [Chained Model]: {{ site.baseurl }}{% link glossary/c.md %}#chained-model
 [Character AI Company]: {{ site.baseurl }}{% link glossary/c.md %}#character-ai-company
 [Character AI]: {{ site.baseurl }}{% link glossary/c.md %}#character-ai-company
 [Chatbot]: {{ site.baseurl }}{% link glossary/c.md %}#chatbot
+[Chatbots]: {{ site.baseurl }}{% link glossary/c.md %}#chatbot
+[Chatbot Arena]: {{ site.baseurl }}{% link glossary/c.md %}#chatbot-arena
 [ChatGPT Model]: {{ site.baseurl }}{% link glossary/c.md %}#chatgpt-model
 [ChatGPT]: {{ site.baseurl }}{% link glossary/c.md %}#chatgpt-model
 [Checkpoint Evaluation]: {{ site.baseurl }}{% link glossary/c.md %}#checkpoint-evaluation
@@ -35,6 +42,7 @@
 [CIFAR Datasets]: {{ site.baseurl }}{% link glossary/c.md %}#cifar-dataset
 [CIFAR]: {{ site.baseurl }}{% link glossary/c.md %}#cifar-dataset
 [Classification]: {{ site.baseurl }}{% link glossary/c.md %}#classification
+[Classification Report]: {{ site.baseurl }}{% link glossary/c.md %}#classification-report
 [Claude Model]: {{ site.baseurl }}{% link glossary/c.md %}#claude-model
 [Claude]: {{ site.baseurl }}{% link glossary/c.md %}#claude-model
 [Clever Hans]: {{ site.baseurl }}{% link glossary/c.md %}#clever-hans
@@ -67,7 +75,7 @@
 [CGAN]: {{ site.baseurl }}{% link glossary/c.md %}#conditioning-gan
 [Conditional Random Fields]: {{ site.baseurl }}{% link glossary/c.md %}#conditional-random-fields
 [Confidence Interval]: {{ site.baseurl }}{% link glossary/c.md %}#confidence-interval
-[Confusion Matrix]: {{ site.baseurl }}{% link glossary/c.md %}#confusion-matrixxxx
+[Confusion Matrix]: {{ site.baseurl }}{% link glossary/c.md %}#confusion-matrix
 [Constraint Satisfaction Problem]: {{ site.baseurl }}{% link glossary/c.md %}#constraint-satisfaction-problem
 [Consumer Electric Show]: {{ site.baseurl }}{% link glossary/c.md %}#consumer-electronic-show
 [CES]: {{ site.baseurl }}{% link glossary/c.md %}#consumer-electronic-show
@@ -105,7 +113,6 @@
 [Cosine Similarity]: {{ site.baseurl }}{% link glossary/c.md %}#cosine-similarity-function
 [Cost]: {{ site.baseurl }}{% link glossary/c.md %}#cost
 [Cost Function]: {{ site.baseurl }}{% link glossary/c.md %}#cost-function
-[CPU]: {{ site.baseurl }}{% link glossary/c.md %}#cpu
 [CreateML Application]: {{ site.baseurl }}{% link glossary/c.md %}#createml-application
 [Critic]: {{ site.baseurl }}{% link glossary/c.md %}#critic
 [Critics]: {{ site.baseurl }}{% link glossary/c.md %}#critic

@@ -4,6 +4,8 @@
 [DALL-E Models]: {{ site.baseurl }}{% link glossary/d.md %}#dall-e-models
 [DALL-E2 Model]: {{ site.baseurl }}{% link glossary/d.md %}#dall-e-models
 [DALL-E3 Model]: {{ site.baseurl }}{% link glossary/d.md %}#dall-e-models
+[Dario Amodei Person]: {{ site.baseurl }}{% link glossary/d.md %}#dario-amodei-person
+[Dario Amodei]: {{ site.baseurl }}{% link glossary/d.md %}#dario-amodei-person
 [DARPA]: {{ site.baseurl }}{% link glossary/d.md %}#darpa
 [DARPA Grand Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#darpa-grand-challenge
 [DARPA Robotics Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#darpa-robotics-challenge
@@ -53,16 +55,18 @@
 [Deductive Reasoning]: {{ site.baseurl }}{% link glossary/d.md %}#deductive-reasoning
 [Deep Belief Network]: {{ site.baseurl }}{% link glossary/d.md %}#deep-belief-network
 [DBN]: {{ site.baseurl }}{% link glossary/d.md %}#dbn
-[Deep Convolutional GAN]: {{ site.baseurl }}{% link glossary/d.md %}#deep-convolutional-gan
-[DCGAN]: {{ site.baseurl }}{% link glossary/d.md %}#dcgan
 [Deep Belief]: {{ site.baseurl }}{% link glossary/d.md %}#deep-belief
 [Deep Blue Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#deep-bleu-challenge
 [Deep Blue]: {{ site.baseurl }}{% link glossary/d.md %}#deep-bleu-challenge
 [Deep Brain]: {{ site.baseurl }}{% link glossary/d.md %}#deep-brain
+[Deep Convolutional GAN]: {{ site.baseurl }}{% link glossary/d.md %}#deep-convolutional-gan
+[DCGAN]: {{ site.baseurl }}{% link glossary/d.md %}#dcgan
 [Deep Deterministic Policy Gradient Algorithm]: {{ site.baseurl }}{% link glossary/d.md %}#deep-deterministic-policy-gradient-algorithm
 [Deep Deterministic Policy Gradient]: {{ site.baseurl }}{% link glossary/d.md %}#deep-deterministic-policy-gradient-algorithm
 [DDPG Algorithm]: {{ site.baseurl }}{% link glossary/d.md %}#deep-deterministic-policy-gradient-algorithm
 [DDPG]: {{ site.baseurl }}{% link glossary/d.md %}#deep-deterministic-policy-gradient-algorithm
+[Deep Equilibrium Model]: {{ site.baseurl }}{% link glossary/d.md %}#deep-equilibrium-model
+[Deep Equilibrium Models]: {{ site.baseurl }}{% link glossary/d.md %}#deep-equilibrium-model
 [Deep Learning]: {{ site.baseurl }}{% link glossary/d.md %}#deep-learning
 [DL]: {{ site.baseurl }}{% link glossary/d.md %}#deep-learning
 [Deep Learning Framework]: {{ site.baseurl }}{% link glossary/d.md %}#deep-learning-framework
@@ -139,6 +143,8 @@
 [Dropout]: {{ site.baseurl }}{% link glossary/d.md %}#dropout
 [Dropout Function]: {{ site.baseurl }}{% link glossary/d.md %}#dropout-function
 [Dropout Layer]: {{ site.baseurl }}{% link glossary/d.md %}#dropout-layer
+[Dropout Ratio]: {{ site.baseurl }}{% link glossary/d.md %}#dropout-ratio
+[Dropout Regularization]: {{ site.baseurl }}{% link glossary/d.md %}#dropout-regularization
 [Dual-Encoder Contrastive Model]: {{ site.baseurl }}{% link glossary/d.md %}#dual-encoder-contrastive-model
 [Dying Relu Problem]: {{ site.baseurl }}{% link glossary/d.md %}#dying-relu-problem
 [Dyna Model]: {{ site.baseurl }}{% link glossary/d.md %}#dyna-model

@@ -13,6 +13,8 @@
 [Activation Functions]: {{ site.baseurl }}{% link glossary/a.md %}#activation-function
 [Activation Layer]: {{ site.baseurl }}{% link glossary/a.md %}#activation-layer
 [Activation Layers]: {{ site.baseurl }}{% link glossary/a.md %}#activation-layer
+[Activation Map]: {{ site.baseurl }}{% link glossary/a.md %}#activation-map
+[Activation Maps]: {{ site.baseurl }}{% link glossary/a.md %}#activation-map
 [Activation Step]: {{ site.baseurl }}{% link glossary/a.md %}#activation-step
 [Active Learning]: {{ site.baseurl }}{% link glossary/a.md %}#active-learning
 [Actor]: {{ site.baseurl }}{% link glossary/a.md %}#actor
@@ -62,7 +64,9 @@
 [AI Agent]: {{ site.baseurl }}{% link glossary/a.md %}#ai-agent
 [AI Agents]: {{ site.baseurl }}{% link glossary/a.md %}#ai-agent
 [AI Alignment]: {{ site.baseurl }}{% link glossary/a.md %}#ai-alignment
+[AI Alliance]: {{ site.baseurl }}{% link glossary/a.md %}#ai-alliance
 [AI Artificial Intelligence Movie]: {{ site.baseurl }}{% link glossary/a.md %}#ai-artificial-intelligence-movie
+[AI Artificial Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#ai-artificial-intelligence-movie
 [AI Assitant]: {{ site.baseurl }}{% link glossary/a.md %}#ai-assistant
 [AI Assitants]: {{ site.baseurl }}{% link glossary/a.md %}#ai-assistant
 [AI Avatar]: {{ site.baseurl }}{% link glossary/a.md %}#ai-avatar
@@ -73,6 +77,8 @@
 [AI Control]: {{ site.baseurl }}{% link glossary/a.md %}#ai-control
 [AI Ethics]: {{ site.baseurl }}{% link glossary/a.md %}#ai-ethics
 [AI Explosion]: {{ site.baseurl }}{% link glossary/a.md %}#ai-explosion
+[AI Film Festival]: {{ site.baseurl }}{% link glossary/a.md %}#ai-film-festival
+[AIFF]: {{ site.baseurl }}{% link glossary/a.md %}#ai-film-festival
 [AI For Content Creation Conference]: {{ site.baseurl }}{% link glossary/a.md %}#ai-for-content-creation-conference
 [AI4CC Conference]: {{ site.baseurl }}{% link glossary/a.md %}#ai-for-content-creation-conference
 [AI Index]: {{ site.baseurl }}{% link glossary/a.md %}#ai-index
@@ -132,6 +138,7 @@
 [Apple Company]: {{ site.baseurl }}{% link glossary/a.md %}#apple-company
 [Apple]: {{ site.baseurl }}{% link glossary/a.md %}#apple-company
 [Apprentice Learning]: {{ site.baseurl }}{% link glossary/a.md %}#apprentice-learning
+[Approximate Self-Attention]: {{ site.baseurl }}{% link glossary/a.md %}#approximate-self-attention
 [Apriori Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#apriori-algorithm
 [Apriori]: {{ site.baseurl }}{% link glossary/a.md %}#apriori-algorithm
 [Arcade Learning Environment]: {{ site.baseurl }}{% link glossary/a.md %}#arcade-learning-environment
@@ -145,6 +152,8 @@
 [Argparse Module]: {{ site.baseurl }}{% link glossary/a.md %}#argparse-module
 [Argparse]: {{ site.baseurl }}{% link glossary/a.md %}#argparse-module
 [Artefact]: {{ site.baseurl }}{% link glossary/a.md %}#artefact
+[Arthur Mensch Person]: {{ site.baseurl }}{% link glossary/a.md %}#arthur-mensch-person
+[Arthur Mensch]: {{ site.baseurl }}{% link glossary/a.md %}#arthur-mensch-person
 [Artificial Emotion]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-emotion
 [Artificial Empathy]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-empathy
 [Artificial General Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-general-intelligence
@@ -197,6 +206,8 @@
 [Autoencoding Model]: {{ site.baseurl }}{% link glossary/a.md %}#autoencoding-model
 [AutoGPT Model]: {{ site.baseurl }}{% link glossary/a.md %}#autogpt-model
 [AutoGPT]: {{ site.baseurl }}{% link glossary/a.md %}#autogpt-model
+[Automatic RAG Evaluation System]: {{ site.baseurl }}{% link glossary/a.md %}#automatic-rag-evaluation-system
+[ARES]: {{ site.baseurl }}{% link glossary/a.md %}#automatic-rag-evaluation-system
 [Automatic Speech Recognition]: {{ site.baseurl }}{% link glossary/a.md %}#automatic-speech-recognition
 [ASR]: {{ site.baseurl }}{% link glossary/a.md %}#automatic-speech-recognition
 [Automation]: {{ site.baseurl }}{% link glossary/a.md %}#automation
@@ -210,7 +221,18 @@
 [Average Pooling Layer]: {{ site.baseurl }}{% link glossary/a.md %}#average-pooling-layer
 [Average Pooling Layers]: {{ site.baseurl }}{% link glossary/a.md %}#average-pooling-layer
 [Average Pooling]: {{ site.baseurl }}{% link glossary/a.md %}#average-pooling-layer
-[AWS Bedrock]: {{ site.baseurl }}{% link glossary/a.md %}#aws-bedrock
-[AWS Lex]: {{ site.baseurl }}{% link glossary/a.md %}#aws-lex
+[AWS Bedrock Service]: {{ site.baseurl }}{% link glossary/a.md %}#aws-bedrock-service
+[AWS Bedrock]: {{ site.baseurl }}{% link glossary/a.md %}#aws-bedrock-service
+[AWS Lex Service]: {{ site.baseurl }}{% link glossary/a.md %}#aws-lex-service
+[AWS Lex]: {{ site.baseurl }}{% link glossary/a.md %}#aws-lex-service
 [AWS Polly]: {{ site.baseurl }}{% link glossary/a.md %}#aws-polly
-[AWS Recognition]: {{ site.baseurl }}{% link glossary/a.md %}#aws-recognition
+[AWS Recognition Service]: {{ site.baseurl }}{% link glossary/a.md %}#aws-recognition-service
+[AWS Recognition]: {{ site.baseurl }}{% link glossary/a.md %}#aws-recognition-service
+[AWS Sagemaker Ground Truth]: {{ site.baseurl }}{% link glossary/a.md %}#aws-sagemaker-ground-truth
+[AWS Sagemaker Jumpstart]: {{ site.baseurl }}{% link glossary/a.md %}#aws-sagemaker-jumpstart
+[AWS Sagemaker Neo]: {{ site.baseurl }}{% link glossary/a.md %}#aws-sagemaker-neo
+[AWS Sagemaker Notebook]: {{ site.baseurl }}{% link glossary/a.md %}#aws-sagemaker-notebook
+[AWS Sagemaker Pipeline]: {{ site.baseurl }}{% link glossary/a.md %}#aws-sagemaker-pipeline
+[AWS Sagemaker Service]: {{ site.baseurl }}{% link glossary/a.md %}#aws-sagemaker-service
+[AWS Sagemaker]: {{ site.baseurl }}{% link glossary/a.md %}#aws-sagemaker-service
+[AWS Sagemaker Studio]: {{ site.baseurl }}{% link glossary/a.md %}#aws-sagemaker-studio

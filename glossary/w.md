@@ -178,6 +178,22 @@ layout: page
  See also [W], ...
 
 
+# Weight Decay
+
+ See [Weight Regularization]
+
+
+# Weight Regularization
+
+ The effect of weight decay is to encourage the model to prefer smaller weights, thus preventing the model from fitting the training data too closely and improving its ability to generalize to unseen data.
+
+ Weight decay is a regularization technique commonly used in machine learning, especially in the context of neural networks. It is also known as L2 [regularization] or weight regularization. The purpose of weight decay is to prevent [overfitting] by adding a penalty term to the [loss function] that the model minimizes during training.
+
+ In the context of neural networks, the loss function typically consists of two parts: the data-driven loss (such as [mean squared error] for regression or [cross-entropy] for classification) and a regularization term. The regularization term penalizes the complexity of the model by adding a term based on the weights.
+
+ See also [W], ...
+
+
 # Weighted Ensemble Model
 
  Used several models and weights their outputs based on their accuracy, or [BAU]
@@ -232,6 +248,18 @@ curl https://api.openai.com/v1/audio/transcriptions \
 # White Box Model
 
  A white box model is a model whose internals a person can see and reason about. This is subjective, but most people would agree that in a neural network, even if the weights were shown, they don’t give us information about how the model works in such a way as we could usefully describe it, or predict what the model is going to do in the future. So while a neural network is a [Black Box Model], a decision tree is a white box one! White and black box models are concept links to [Explainable AI]
+
+ See also [W], ...
+
+
+# Wikidata Knowledge Graph
+
+ ~ an open-source [Knowledge Graph] maintained by [Wikimedia]
+
+ {% youtube "https://www.youtube.com/watch?v=fx5K_FRQ2eg" %}
+
+ More at:
+  * ...
 
  See also [W], ...
 
@@ -324,6 +352,54 @@ vector(‘king’) + vector(‘woman’) — vector(‘man’) ~ vector(‘queen
   * [https://wordnet.princeton.edu/](https://wordnet.princeton.edu/)
 
  See also [W], [Dataset], [ImageNet Dataset], [Transfer Learning]
+
+
+# WordpPiece Tokenization
+
+ WordPiece is the tokenization algorithm [Google] developed to pretrain [BERT]. It has since been reused in quite a few [Transformer] models based on [BERT], such as [DistilBERT], MobileBERT, Funnel Transformers, and MPNET. It’s very similar to [BPE] in terms of the training, but the actual tokenization is done differently.
+
+  ```
+# Wordpiece tokenizer :
+   * It works by splitting words either into the full forms (e.g., one word becomes one token) or into word pieces — where one word can be broken into multiple tokens.
+   * the original BERT uses.
+Word            Token(s)
+surf            ['surf']
+surfing         ['surf', '##ing']
+surfboarding    ['surf', '##board', '##ing']
+surfboard   ['surf', '##board']
+snowboard   ['snow', '##board']
+snowboarding    ['snow', '##board', '##ing']
+snow            ['snow']
+snowing         ['snow', '##ing']
+ ```
+
+
+ ```
+from transformers import BertTokenizer
+
+tokenizer = BertTokenizer.from_pretrained('./bert-it')
+tokenizer('ciao! come va?')  # hi! how are you?
+{
+ 'input_ids': [2, 13884, 5, 2095, 2281, 35, 3],               # Tokenized input with padding/prefix/suffix
+ 'token_type_ids': [0, 0, 0, 0, 0, 0, 0],                     # 0 or 1 or ? : Belongs to sentence #0, #1, #?
+ 'attention_mask': [1, 1, 1, 1, 1, 1, 1]                      # 0 or 1 : 0 if token is padding
+}
+
+
+with open('./bert-it/vocab.txt', 'r') as fp:
+    vocab = fp.read().split('\n')
+vocab[2], vocab[13884], vocab[5], \
+    vocab[2095], vocab[2281], vocab[35], \
+        vocab[3]
+('[CLS]', 'ciao', '!', 'come', 'va', '?', '[SEP]')
+ ```
+
+ {% youtube "https://www.youtube.com/watch?v=qpv6ms_t_1A" %}
+
+ More at:
+  * huggingface course - [https://huggingface.co/learn/nlp-course/chapter6/6](https://huggingface.co/learn/nlp-course/chapter6/6)
+
+ See also [W], ...
 
 
 # World Artificial Intelligence Cannes Festival

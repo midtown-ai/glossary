@@ -33,6 +33,8 @@ layout: page
 
  ~ think of your label as your model teacher!
 
+ ~ the final prediction or decision the AI system makes
+
  Name of a prediction in a supervised models. Correspond to a target attribute in unsupervised learning. Example of label: the agent-skill needed to result the customer's call.
 
  See also [L], [Data Point], [Labeling Function], [Supervised Learning], [Target Attribute]
@@ -70,7 +72,34 @@ layout: page
  See also [L], ...
 
 
+# LangChain Expression Model
+# LCEM
+
+ How chains are built in [LangChain]. DEsigned to build sequence of calls (to LLMs or any other component)
+
+ LCEL is a declarative way to compose chains of components. What does that mean? Means its an easy way to put useful building blocks together. Here's quick summary of the LangChain Expression Language (LCEL) page: - LCEL Basics: Simplifies building complex chains from basic components using a unified interface and composition primitives. - Unified Interface: Every LCEL object implements the Runnable interface, supporting common invocation methods like invoke, batch, stream, ainvoke, and more. - Composition Primitives: LCEL provides tools for composing chains, parallelizing components, adding fallbacks, and dynamically configuring internal chain elements. - Model Flexibility: LCEL allows for easy switching between different models and providers (like OpenAI or Anthropic), and runtime configurability of chat models or LLMs. - Advanced Features: LCEL features things like logging intermediate results with LangSmith integration and adding fallback logic for enhanced reliability.
+
+ ```
+chain = prompt | model | output_parser
+
+stream = stream back chuncks of the response
+invoke = call the chain on an input
+batch = call the chain on a list of inputs
+
+runnable_protocol = standard interface to facilitate defining custom chains
+input_schema = description of the inputs accepted by a Runnable
+output_schema = description of the output produced by a Runnable
+ ```
+
+ More at:
+  * [https://python.langchain.com/docs/expression_language/](https://python.langchain.com/docs/expression_language/)
+
+ See also [L], ...
+
+
 # LangChain Hub
+
+ Taking inspiration from Hugging Face Hub, LangChainHub is collection of all artifacts useful for working with LangChain primitives such as prompts, chains and agents. The goal of this repository is to be a central resource for sharing and discovering high quality prompts, chains and agents that combine together to form complex LLM applications.
 
  ```
 from langchain import hub
@@ -78,7 +107,7 @@ obj = hub.pull("homanp/superagent")
  ```
 
  More at;
-  * [https://smith.langchain.com/hub](https://smith.langchain.com/hub)
+  * site - [https://smith.langchain.com/hub](https://smith.langchain.com/hub)
   * alternatives
     * [https://docs.pezzo.ai/features/langchain](https://docs.pezzo.ai/features/langchain)
 
@@ -86,6 +115,8 @@ obj = hub.pull("homanp/superagent")
 
 
 # LangChain Python Module
+
+ ~ an alternative to [Llamaindex]
 
  LangChain is a framework for developing applications powered by language models. We believe that the most powerful and differentiated applications will not only call out to a language model via an API, but will also:
   * Be data-aware: connect a language model to other sources of data
@@ -225,6 +256,43 @@ completion = llm(prompt)
  See also [L], [Language Modeling], [Model Compression], [Scaling Law]
 
 
+# Large Language Model As A Judge
+# LLM As A Judge
+
+ Use a language model to compare 2 other [LLMs]. This approach is used in the [MT-Bench] to model human preference.
+
+ ![]( {{site.assets}}/l/large_language_model_as_a_judge.png ){: width="100%"}
+
+ More at:
+  * code - [https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge)
+
+ See also [L], ...
+
+
+# Large Language Model Meta AI
+# LLaMA Model
+
+ Using the scaling method described in [Chinchilla][Chinchilla Model]
+ 65 Billion parameters.
+
+ {% youtube "https://www.youtube.com/watch?v=E5OnoYF2oAk" %}
+
+ {% pdf "{{site.assets}}/l/llama_model_paper.pdf" %}
+
+ More at:
+  * LLaMa 2 
+    * UI - [https://labs.perplexity.ai/](https://labs.perplexity.ai/)
+    * download - [https://ollama.ai/](https://ollama.ai/)
+  * LLaMa 1
+    * announcement - [https://ai.facebook.com/blog/large-language-model-llama-meta-ai/](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/)
+    * paper [https://arxiv.org/abs/2302.13971](https://arxiv.org/abs/2302.13971)
+    * model card - [https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md](https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md)
+    * model leak - [https://www.vice.com/en/article/xgwqgw/facebooks-powerful-large-language-model-leaks-online-4chan-llama](https://www.vice.com/en/article/xgwqgw/facebooks-powerful-large-language-model-leaks-online-4chan-llama)
+    * wikipedia - [https://en.wikipedia.org/wiki/LLaMA](https://en.wikipedia.org/wiki/LLaMA)
+
+ See also [L], ...
+
+
 # Large Language Model Operations
 # LLMOps
 
@@ -246,6 +314,44 @@ completion = llm(prompt)
   * [https://bdtechtalks.com/2023/10/09/llm-self-correction-reasoning-failures/](https://bdtechtalks.com/2023/10/09/llm-self-correction-reasoning-failures/)
 
  See also [L], ....
+
+
+# Large-Scale Artificial Intelligence Open Network Dataset
+# LAION Dataset
+
+ ~ datasets used to build CLIP models
+
+ Open datasets released by the [LAION Nonprofit]:
+ * LAION-400M - 400M English (image, text) pairs (2021)
+ * LAION-5B - 5,85 billion CLIP-filtered image-text pairs (2022)
+ * LAION-Aesthetics - several collections of subsets from LAION 5B with high visual quality
+
+ More at:
+  * sites
+    * 400M - [https://laion.ai/blog/laion-400-open-dataset/](https://laion.ai/blog/laion-400-open-dataset/)
+    * 5B - [https://laion.ai/blog/laion-5b/](https://laion.ai/blog/laion-5b/)
+    * aesthetics - [https://laion.ai/blog/laion-aesthetics/](https://laion.ai/blog/laion-aesthetics/)
+  * papers 
+    * 400M - [https://arxiv.org/abs/2111.02114](https://arxiv.org/abs/2111.02114)
+    * 5B - [https://arxiv.org/abs/2210.08402](https://arxiv.org/abs/2210.08402)
+  * tools
+    * source - [https://github.com/LAION-AI/laion-datasets/tree/main](https://github.com/LAION-AI/laion-datasets/tree/main)
+    * brosing - [https://rom1504.github.io/clip-retrieval/](https://rom1504.github.io/clip-retrieval/)
+
+ See also [L], ...
+
+# Large-Scale Artificial Intelligence Open Network Nonprofit
+# LAION Nonprofit
+
+ Open dataset and open models, such as [openclip]
+
+ More at:
+  * site - [https://laion.ai/](https://laion.ai/)
+  * wikipedia - [https://en.wikipedia.org/wiki/LAION](https://en.wikipedia.org/wiki/LAION) 
+  * articles
+    * [https://venturebeat.com/ai/a-free-ai-image-dataset-removed-for-child-sex-abuse-images-has-come-under-fire-before/](https://venturebeat.com/ai/a-free-ai-image-dataset-removed-for-child-sex-abuse-images-has-come-under-fire-before/)
+
+ See also [L], ...
 
 
 # Lasso Regression
@@ -378,6 +484,7 @@ completion = llm(prompt)
   * [contrastive learning] - learning based on similarities and differences
   * [adaptive learning] - learning adapted to the learner's level and what has not yet been understood
   * [curriculum learning] - learning from simple to complex in order to learn faster and more efficiently.
+  * [federated learning] - 
 
  See also [L], [Machine Learning Type]
 
@@ -460,6 +567,14 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
  More at:
   * [https://machinelearningmastery.com/k-fold-cross-validation/](https://machinelearningmastery.com/k-fold-cross-validation/)
+
+ See also [L], ...
+
+
+# Legendre Memory Unit
+# LMU
+
+ ~ a memory unit in [RNNs] ?
 
  See also [L], ...
 
@@ -552,12 +667,12 @@ f(x) = kx
 # Linear Discriminant Analysis
 # LDA
 
- Linear Discriminant Analysis(or LDA for short) was proposed by Ronald Fisher which is a Supervised Learning algorithm. It means that you must use both features and labels of data to reduce dimension while PCA only uses features. Another key point : the purpose of LDA is to find a new space in which reduced-dimension dataset is good for classification task. To meet this goal, LDA uses 2 metrics: Within-class variance and Between-class variance. The core idea is quite straightforward: finding vectors w which maximize the distance between mean vectors of 2 classes and minimize the variance within each class. A little bit explanation: within-class variance stands for scatter. The smaller this quantity, the lower data points scatter and vice versa. We want to classify classes, of course we have to maximize the distance between each class, that's why maximizing distance between mean vectors. However, we also need to take into account the scatter of data.The greater the within-class variance, the more data points of 2 classes overlap and it culminates in bad result for classification. Now you know why we need to minimize the scatter.
+ Linear Discriminant Analysis(or LDA for short) was proposed by Ronald Fisher which is a Supervised Learning algorithm. It means that you must use both features and labels of data to reduce dimension while [Principal Component Analysis (PCA)[PCA] only uses features. Another key point : the purpose of LDA is to find a new space in which reduced-dimension dataset is good for classification task. To meet this goal, LDA uses 2 metrics: Within-class variance and Between-class variance. The core idea is quite straightforward: finding vectors w which maximize the distance between mean vectors of 2 classes and minimize the variance within each class. A little bit explanation: within-class variance stands for scatter. The smaller this quantity, the lower data points scatter and vice versa. We want to classify classes, of course we have to maximize the distance between each class, that's why maximizing distance between mean vectors. However, we also need to take into account the scatter of data.The greater the within-class variance, the more data points of 2 classes overlap and it culminates in bad result for classification. Now you know why we need to minimize the scatter.
 
  More at:
-  * [https://iq.opengenus.org/pca-vs-lda/](https://iq.opengenus.org/pca-vs-lda/)
+  * PCA vs LDA - [https://iq.opengenus.org/pca-vs-lda/](https://iq.opengenus.org/pca-vs-lda/)
 
- See also [L], [Dimensionality Reduction], [Principal Component Analysis]
+ See also [L], [Dimensionality Reduction], [Retrieval Model]
 
 
 # Linear Programming
@@ -646,36 +761,28 @@ print regr.score(X_test, y_test)
  See also [L], ...
 
 
+# Liquid AI Company
+
+ an MIT spinoff led by robotics expert Daniela Rus, is developing a new type of AI dubbed [liquid neural networks]. These networks, smaller and less resource-intensive than traditional AI models, draw inspiration from the simple neural structures of roundworms. They excel in processing sequential data and adapting to new circumstances, making them suitable for tasks such as autonomous navigation and analyzing variable phenomena. Having raised $37.5 million in seed funding, Liquid AI intends to commercialize these networks by offering a platform for customers to create their own models and providing on-premises AI infrastructure.
+
+ More at:
+  * [https://www.liquid.ai/](https://www.liquid.ai/)
+
+ See also [L], ...
+
+
 # Liquid Neural Network
 # LNN
+
+ We introduce a new class of time-continuous recurrent neural network models. Instead of declaring a learning system's dynamics by implicit nonlinearities, we construct networks of linear first-order dynamical systems modulated via nonlinear interlinked gates. The resulting models represent dynamical systems with varying (i.e., liquid) time-constants coupled to their hidden state, with outputs being computed by numerical differential equation solvers. These neural networks exhibit stable and bounded behavior, yield superior expressivity within the family of neural ordinary differential equations, and give rise to improved performance on time-series prediction tasks. To demonstrate these properties, we first take a theoretical approach to find bounds over their dynamics and compute their expressive power by the trajectory length measure in latent trajectory space. We then conduct a series of time-series prediction experiments to manifest the approximation capability of Liquid Time-Constant Networks (LTCs) compared to classical and modern RNNs. 
 
  {% youtube "https://youtu.be/0FNkrjVIcuk?si=I35p6esxM83rYsLf" %}
 
  {% youtube "https://www.youtube.com/watch?v=ql3ETcRDMEM" %}
 
  More at:
-  * ...
-
- See also [L], ...
-
-
-# LLaMA Model
-
- Using the scaling method described in [Chinchilla][Chinchilla Model]
- 65 Billion parameters.
-
- {% youtube "https://www.youtube.com/watch?v=E5OnoYF2oAk" %}
-
- {% pdf "{{site.assets}}/l/llama_model_paper.pdf" %}
-
- More at:
-  * LLaMa 2 
-    * UI - [https://labs.perplexity.ai/](https://labs.perplexity.ai/)
-  * LLaMa 1
-    * announcement - [https://ai.facebook.com/blog/large-language-model-llama-meta-ai/](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/)
-    * paper [https://arxiv.org/abs/2302.13971](https://arxiv.org/abs/2302.13971)
-    * model card - [https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md](https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md)
-    * model leak - [https://www.vice.com/en/article/xgwqgw/facebooks-powerful-large-language-model-leaks-online-4chan-llama](https://www.vice.com/en/article/xgwqgw/facebooks-powerful-large-language-model-leaks-online-4chan-llama)
+  * paper - [https://arxiv.org/abs/2006.04439](https://arxiv.org/abs/2006.04439)
+  * code - [https://github.com/raminmh/liquid_time_constant_networks](https://github.com/raminmh/liquid_time_constant_networks)
 
  See also [L], ...
 
@@ -688,6 +795,25 @@ print regr.score(X_test, y_test)
 
  More at:
   * paper - [https://arxiv.org/abs/2303.16199](https://arxiv.org/abs/2303.16199)
+
+ See also [L], ...
+
+
+# Llamaindex Python Module
+
+ ~ an alternative to [LangChain]
+
+ {% youtube "https://www.youtube.com/watch?v=CDfpJp8IpV8" %}
+
+ See also [L], ...
+
+
+# LM Studio Application
+
+ Discover, download, and run local LLMs. An alternative to [Ollama]
+
+ More at:
+  * site - [https://lmstudio.ai/](https://lmstudio.ai/)
 
  See also [L], ...
 
@@ -754,6 +880,31 @@ Aristotle is mortal!
    * What about using a different P threshold? ==> multiple confusion matrix ==> ROC Curve
 
  See also [L], [ML Algorithm Evaluation], [Regression], [ROC Curve]
+
+
+# Logit
+
+ A "logit" typically refers to the log-odds ratio in statistics and logistic regression. In binary logistic regression, the logistic function is used to model the probability that a given instance belongs to a particular category. The logit function, denoted as "logit," is the natural logarithm of the [odds] that an event will occur, expressed as:
+
+```
+ logit(p) = log(p/(1-/p))     <-- log of the odds
+```
+
+ where  p is the probability of the event occurring. The logit function transforms the probability scale (which ranges from 0 to 1) to the log-odds scale (which ranges from negative infinity to positive infinity). This transformation is useful because it allows linear modeling of the relationship between predictor variables and the log-odds of the event.
+
+ The logistic regression model can be expressed as:
+
+```
+ logit(p)= β0 + β1.x1 + β 2.x2 + ... + β n.xn
+```
+
+ Here β0, β1, ..., βn are coefficients, and x1, x2, ..., xn are the predictor variables. The goal of logistic regression is to estimate the coefficients that maximize the likelihood of the observed data.
+
+ In summary, the logit is a mathematical function used in logistic regression to model the relationship between predictor variables and the log-odds of an event occurring.
+
+ {% youtube "https://www.youtube.com/watch?v=ARfXDSkQf1Y" %}
+
+ See also [L], ...
 
 
 # Long Short-Term Memory Cell
@@ -885,6 +1036,28 @@ Ask a LLLM, how many character will your next response have?
  See also [L], ...
 
 
+# LoRA Exchange Serving
+# LoRAX Serving
+
+ ~ used to run 100's of fine-tuned models efficiently. Developed by [Predibase]
+
+ [LoRA] achieves performances comparable to full [fine-tuning]. At serving time, both the original model parameters and the new adapter parameters can be loaded together as a single deployment. While a dedicated k8s deployment per fine-tuned model is operationally simple to implement, it’s far from optimal. Indeed the part of the deployment that is unique to the fine-tuned model – the adapter weights – accounts for less than 10% of the total parameters, far below the GPU memory capacity in most cases. This all raises the question: what if we could pack multiple fine-tuned models into a single deployment by reusing the common base model parameters?
+
+ LoRA Exchange (LoRAX) is a new approach to LLM serving infrastructure specifically designed for serving many fine-tuned models at once using a shared set of GPU resources. Compared with conventional dedicated LLM deployments, LoRAX consists of three novel components:
+  1. Dynamic Adapter Loading - LoRA adapters can be loaded dynamically in the same k8s deployment! Incoming requests are queued based on the desired model.
+  1. Tiered Weight Caching - Weights are loaded from the object store into the (1) GPU. Once the GPU share fills up, weights are offloaded to the CPU, and then to the local ephemeral disk.
+  1. Continuous Multi-Adapter Batching - request are submitted in batches instead of one at a time to avoid continuous swapping of adapter.
+
+ ![]( {{site.assets}}/l/lora_exchange_serving.webp ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=Za9HavaK9ks" %}
+
+ More at:
+  * blog - [https://predibase.com/blog/lora-exchange-lorax-serve-100s-of-fine-tuned-llms-for-the-cost-of-one](https://predibase.com/blog/lora-exchange-lorax-serve-100s-of-fine-tuned-llms-for-the-cost-of-one)
+
+ See also [L], [Ludwig Framework]
+
+
 # Loss Function
 
  Loss function is a way to encode a goal. That loss function is going to dictate the optimized path toward that goal? Optimization?
@@ -921,7 +1094,6 @@ Ask a LLLM, how many character will your next response have?
 
 
 # Low-Rank Adaptation Fine-Tuning
-
 # LoRA Fine-Tuning
 
  A method for [parameter-efficient fine-tuning (PEFT)][PEFT]
@@ -939,7 +1111,7 @@ Ask a LLLM, how many character will your next response have?
   * article(s)
     * [https://bdtechtalks.com/2023/05/22/what-is-lora/](https://bdtechtalks.com/2023/05/22/what-is-lora/)
 
- See also [L], [QLoRA Fine-Tuning]
+ See also [L], [LoRA Exchange], [QLoRA Fine-Tuning]
 
 
 # Low-Rank Approximation
@@ -960,3 +1132,21 @@ Ask a LLLM, how many character will your next response have?
  {% youtube "https://www.youtube.com/watch?v=12K5aydB9cQ" %}
 
  See also [L], ...
+
+
+# Ludwig Framework
+
+ Ludwig is a low-code framework for building custom AI models like [LLMs] and other [deep neural networks]. Initially developed at Uber.
+
+ {% youtube "https://www.youtube.com/watch?v=K7yLtB2yaPg" %}
+
+ {% youtube "https://www.youtube.com/watch?v=NAyKpcOdHLE" %}
+
+ More at:
+  * site - [https://ludwig.ai/latest/](https://ludwig.ai/latest/)
+  * code - [https://github.com/ludwig-ai/ludwig](https://github.com/ludwig-ai/ludwig)
+  * notebooks for mistral fine-tuning - [https://colab.research.google.com/drive/1i_8A1n__b7ljRWHzIsAdhO7u7r49vUm4](https://colab.research.google.com/drive/1i_8A1n__b7ljRWHzIsAdhO7u7r49vUm4)
+  * articles
+    * LF AI & DATA - [https://lfaidata.foundation/projects/ludwig/](https://lfaidata.foundation/projects/ludwig/)
+
+ See also [L], [LoRA Exchange Serving]

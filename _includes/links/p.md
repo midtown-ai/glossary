@@ -29,11 +29,13 @@
 [Perceptron]: {{ site.baseurl}}{% link glossary/p.md %}#perceptron
 [Perfect Information]: {{ site.baseurl}}{% link glossary/p.md %}#perfect-information
 [Perplexity]: {{ site.baseurl}}{% link glossary/p.md %}#perplexity
+[PPL]: {{ site.baseurl}}{% link glossary/p.md %}#perplexity
 [Perplexity AI Company]: {{ site.baseurl}}{% link glossary/p.md %}#perplexity-ai-company
 [Perplexity AI]: {{ site.baseurl}}{% link glossary/p.md %}#perplexity-ai-company
 [Personal Assistant]: {{ site.baseurl}}{% link glossary/p.md %}#personal-assistant
 [Phenaki Model]: {{ site.baseurl}}{% link glossary/p.md %}#phenaki-model
 [Piano Roll]: {{ site.baseurl}}{% link glossary/p.md %}#piano-roll
+[Pinecone Canopy]: {{ site.baseurl}}{% link glossary/p.md %}#pinecone-canopy
 [Pinecone Company]: {{ site.baseurl}}{% link glossary/p.md %}#pinecone-company
 [Pinecone]: {{ site.baseurl}}{% link glossary/p.md %}#pinecone-company
 [Pinecone Database]: {{ site.baseurl}}{% link glossary/p.md %}#pinecone-database
@@ -61,13 +63,17 @@
 [PTQ]: {{ site.baseurl}}{% link glossary/p.md %}#post-training-quantization
 [Posterior Belief]: {{ site.baseurl}}{% link glossary/p.md %}#posterior-belief
 [Posterior Beliefs]: {{ site.baseurl}}{% link glossary/p.md %}#posterior-belief
+[Pre-Tokenization]: {{ site.baseurl}}{% link glossary/p.md %}#pre-tokenization
 [Precision]: {{ site.baseurl}}{% link glossary/p.md %}#precision
 [Prediction]: {{ site.baseurl}}{% link glossary/p.md %}#prediction
 [Prediction Error]: {{ site.baseurl}}{% link glossary/p.md %}#prediction-error
+[Prediction-Powered Inference]: {{ site.baseurl}}{% link glossary/p.md %}#prediction-powered-inference
+[PPI]: {{ site.baseurl}}{% link glossary/p.md %}#prediction-powered-inference
 [Predictive Maintenance]: {{ site.baseurl}}{% link glossary/p.md %}#predictive-maintenance
 [Predictor Variable]: {{ site.baseurl}}{% link glossary/p.md %}#predictor-variable
 [Pretrained Model]: {{ site.baseurl}}{% link glossary/p.md %}#pretrained-model
 [Pretrained Objective]: {{ site.baseurl}}{% link glossary/p.md %}#pretrained-objective
+[Pretrained Objectives]: {{ site.baseurl}}{% link glossary/p.md %}#pretrained-objective
 [Principal Component Analysis]: {{ site.baseurl}}{% link glossary/p.md %}#principal-component-analysis
 [PCA]: {{ site.baseurl}}{% link glossary/p.md %}#principal-component-analysis
 [Prior]: {{ site.baseurl}}{% link glossary/p.md %}#prior
@@ -96,10 +102,13 @@
 [PyBullet]: {{ site.baseurl}}{% link glossary/p.md %}#pybullet
 [PyCaret Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pycaret-python-module
 [PyCaret]: {{ site.baseurl}}{% link glossary/p.md %}#pycaret-python-module
+[Pydantic Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pydantic-python-module
+[Pydantic]: {{ site.baseurl}}{% link glossary/p.md %}#pydantic-python-module
 [PyGame Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pygame-python-module
 [PyGame]: {{ site.baseurl}}{% link glossary/p.md %}#pygame-python-module
 [Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#python-module
 [PyTorch Geometric Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-geometric-python-module
+[PyTorch Geometric]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-geometric-python-module
 [PyG Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-geometric-python-module
 [PyG]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-geometric-python-module
 [PyTorch Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-python-module

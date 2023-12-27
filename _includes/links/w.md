@@ -20,12 +20,16 @@
 [WebGPT Model]: {{ site.baseurl }}{% link glossary/w.md %}#webgpt-model
 [WebGPT]: {{ site.baseurl }}{% link glossary/w.md %}#webgpt-model
 [Weight]: {{ site.baseurl }}{% link glossary/w.md %}#weight
+[Weight Regularization]: {{ site.baseurl }}{% link glossary/w.md %}#weight-regularization
 [Weighted Ensemble Model]: {{ site.baseurl }}{% link glossary/w.md %}#weighted-ensemble-model
 [Weighted Gini Impurity Index]: {{ site.baseurl }}{% link glossary/w.md %}#weighted-gini-impurity-index
 [Weighted Input]: {{ site.baseurl }}{% link glossary/w.md %}#weighted-input
 [Whisper Model]: {{ site.baseurl }}{% link glossary/w.md %}#whisper-model
 [Whisper]: {{ site.baseurl }}{% link glossary/w.md %}#whisper-model
 [White Box Model]: {{ site.baseurl }}{% link glossary/w.md %}#white-box-model
+[Wikidata Knowledge Graph]: {{ site.baseurl }}{% link glossary/w.md %}#wikidata-knowledge-graph
+[Wikidata KG]: {{ site.baseurl }}{% link glossary/w.md %}#wikidata-knowledge-graph
+[Wikidata]: {{ site.baseurl }}{% link glossary/w.md %}#wikidata-knowledge-graph
 [Wonder Dynamics Company]: {{ site.baseurl }}{% link glossary/w.md %}#wonder-dynamics-company
 [Wonder Dynamics]: {{ site.baseurl }}{% link glossary/w.md %}#wonder-dynamics-company
 [Word Embedding]: {{ site.baseurl }}{% link glossary/w.md %}#word-embedding
@@ -39,5 +43,6 @@
 [Word2Vec]: {{ site.baseurl }}{% link glossary/w.md %}#word2vec-model
 [WordNet Dataset]: {{ site.baseurl }}{% link glossary/w.md %}#wordnet-dataset
 [WordNet]: {{ site.baseurl }}{% link glossary/w.md %}#wordnet-dataset
+[WordPiece Tokenization]: {{ site.baseurl }}{% link glossary/w.md %}#wordpiece-tokenization
 [World Artificial Intelligence Cannes Festival]: {{ site.baseurl }}{% link glossary/w.md %}#world-artificial-intelligence-cannes-festival
 [WAICF]: {{ site.baseurl }}{% link glossary/w.md %}#world-artificial-intelligence-cannes-festival

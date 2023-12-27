@@ -107,6 +107,22 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], ...
 
 
+# National AI Advisory Committee
+# NAIAC
+
+ The National AI Advisory Committee (NAIAC) consists of experts with a broad and interdisciplinary range of AI-relevant experience from across the private sector, academia, non-profits, and civil society.
+
+ Example report or recommendation to enhance AI literacy in the USA::
+
+ {% pdf "https://ai.gov/wp-content/uploads/2023/12/Recommendations_Enhancing-Artificial-Intelligence-Literacy-for-the-United-States-of-America.pdf" %}
+
+ More at:
+  * site - [https://ai.gov/naiac/](https://ai.gov/naiac/)
+  * reports - [https://ai.gov/naiac/](https://ai.gov/naiac/)
+
+ See also [N], ...
+
+
 # National Institute of Standards and Technology
 # NIST
 
@@ -160,16 +176,16 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
   * A/B testing for the content of call to action on website
   * Spam filtering
 
- See also [N], [BERT Model], [Chain Of Thought Prompting], [GPT Model], [Machine Translation], [NLTK], [Question Answering], [Sentiment Analysis], [Seq2Seq Model], [Spam Detection], [Sentiment Analysis], [Spam Filtering], [Text Summarization], [Virtual Assistant]
+ See also [N], [BERT Model], [Chain-Of-Thought Prompting], [GPT Model], [Machine Translation], [NLTK], [Question Answering], [Sentiment Analysis], [Seq2Seq Model], [Spam Detection], [Sentiment Analysis], [Spam Filtering], [Text Summarization], [Virtual Assistant]
 
 
-# Natural Language Processing Score
-# NLP Score
+# Natural Language Processing Metric
+# NLP Metric
 
  A metric is applied to one input-output pair. The metric returns a score often evaluated against human output.
 
-  * [BLEU Score] : for machine translation (and summarization)
-  * [ROUGE Score] : for machine summarization (and translation)
+  * [BLEU] - for machine translation (and summarization)
+  * [ROUGE] - for machine summarization (and translation)
 
  See also [N], ...
 
@@ -260,6 +276,15 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
  More at:
   * ...
+
+ See also [N], ...
+
+
+# NeMo Toolkit
+
+ ~ a toolkit developed by [NVidia] for conversational AI
+
+ {% youtube "https://www.youtube.com/watch?v=yCqf_sZuVKs" %}
 
  See also [N], ...
 
@@ -378,6 +403,35 @@ There are various kinds of neocognitron. For example, some types of neocognitron
 # Neural Network Interpretability
 
  There is a growing sense that neural networks need to be interpretable to humans. The field of neural network interpretability has formed in response to these concerns. As it matures, two major threads of research have begun to coalesce: [feature visualization] and [attribution][Feature Attribution].
+
+ See also [N], ...
+
+
+# Neural Ordinary Differential Equations
+# Neural ODE
+
+ {% youtube "https://www.youtube.com/watch?v=V6nGT0Gakyg" %}
+ {% youtube "https://www.youtube.com/watch?v=YZ-_E7A3V2w" %}
+ {% youtube "https://www.youtube.com/watch?v=MX1RJELWONc" %}
+
+ {% pdf "https://arxiv.org/pdf/1806.07366.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/1806.07366](https://arxiv.org/abs/1806.07366)
+  * code - [https://github.com/rtqichen/torchdiffeq](https://github.com/rtqichen/torchdiffeq)
+  * people
+    * David Duvenaud - [https://www.cs.toronto.edu/~duvenaud/](https://www.cs.toronto.edu/~duvenaud/) 
+
+ See also [N], ...
+
+
+# Neural Radiance Field
+# NeRF
+
+ {% pdf "https://arxiv.org/pdf/2003.08934.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2003.08934](https://arxiv.org/abs/2003.08934)
 
  See also [N], ...
 
@@ -509,6 +563,20 @@ Some well-known NP-hard problems include the traveling salesman problem, the kna
  See also [N], [Linear Regression], [Polynomial Regression], [Regression]
 
 
+# Normalization
+
+ ~ remove accents, capital letters, special characters, character mapping, etc to make sure the number of unknown tokens is small before being fed to the [tokenization] model
+
+ :warning: even though the normalization step only change/remove characters, it has the potential to change the meaning of the sentence, by changing one word into another with a different meaning! ==> not all normalizations are suitable for all [corpus]
+
+ {% youtube "https://www.youtube.com/watch?v=4IIC2jI9CaU" %}
+
+ More at:
+  * Hugging Face course - [https://huggingface.co/learn/nlp-course/chapter6/4](https://huggingface.co/learn/nlp-course/chapter6/4)
+
+ See also [N], ...
+
+
 # Numerical Python Module
 # Numpy Python Module
 
@@ -623,6 +691,7 @@ plt.imshow(photo[:,:,0].T)       # Multiple transformation at once!
  Models
   * [Isaac Gym] - environment for RL
   * [Megatron Model] - NLP large language model
+  * [Nemo Toolkit] - Toolkit for conversational AI
   * [PIcasso Model] - image diffusion model
   * [RIVA Model] - text-to-speech model
   * [VIMA Model] - multi-modal ? model for robots?

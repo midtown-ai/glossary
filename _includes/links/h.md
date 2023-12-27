@@ -5,8 +5,10 @@
 [Hand Tracking]: {{site.baseurl }}{% link glossary/h.md %}#hand-tracking
 [Hanson Robotics Company]: {{site.baseurl }}{% link glossary/h.md %}#hanson-robotics-company
 [Hanson Robotics]: {{site.baseurl }}{% link glossary/h.md %}#hanson-robotics-company
+[Harvard University]: {{site.baseurl }}{% link glossary/h.md %}#harvard-university
 [Hebbian Learning]: {{site.baseurl }}{% link glossary/h.md %}#hebbian-learning
 [Her Movie]: {{site.baseurl }}{% link glossary/h.md %}#her-movie
+[Her]: {{site.baseurl }}{% link glossary/h.md %}#her-movie
 [Heuristics]: {{site.baseurl }}{% link glossary/h.md %}#heuristics
 [Hidden Layer]: {{site.baseurl }}{% link glossary/h.md %}#hidden-layer
 [Hidden Markov Model]: {{site.baseurl }}{% link glossary/h.md %}#hidden-markov-model
@@ -19,6 +21,9 @@
 [Hierarchical Reinforcement Learning]: {{site.baseurl }}{% link glossary/h.md %}#hierarchical-reinforcement-learning
 [Hierarchical RL]: {{site.baseurl }}{% link glossary/h.md %}#hierarchical-reinforcement-learning
 [Hinge Loss Function]: {{site.baseurl }}{% link glossary/h.md %}#hinge-loss-function
+[High-Order Polynomial Projection Operators Framework]: {{site.baseurl }}{% link glossary/h.md %}#high-order-polynomial-projection-operators-framework
+[HiPPO Framework]: {{site.baseurl }}{% link glossary/h.md %}#high-order-polynomial-projection-operators-framework
+[HiPPO]: {{site.baseurl }}{% link glossary/h.md %}#high-order-polynomial-projection-operators-framework
 [Holdout Fold]: {{site.baseurl }}{% link glossary/h.md %}#holdout-fold
 [Holistic Evaluation of Language Model Benchmark]: {{site.baseurl }}{% link glossary/h.md %}#holistic-evaluation-of-language-model-benchmark
 [HELM Benchmark]: {{site.baseurl }}{% link glossary/h.md %}#holistic-evaluation-of-language-model-benchmark

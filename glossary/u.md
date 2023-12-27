@@ -65,9 +65,24 @@ layout: page
 
  When you have low variance (clustered), but high bias (offset). To prevent under-fitting try hyper-parameter optimization.
 
+ Examples:
+  * when a neural network does not have enough layers --> underfitting
+
  ![]( {{site.assets}}/u/underfitting_overfitting_balanced.png ){: width="100%"}
 
  See also [U], [Balanced Fitting], [Hyperparameter Optimization], [Overfitting]
+
+
+# Unigram Tokenization
+
+ The Unigram algorithm is often used in SentencePiece, which is the tokenization algorithm used by models like AlBERT, T5, mBART, Big Bird, and XLNet.
+
+ {% youtube "https://www.youtube.com/watch?v=TGZfZVuF9Yc" %}
+
+ More at:
+  * Hugging Face course - [https://huggingface.co/learn/nlp-course/chapter6/7](https://huggingface.co/learn/nlp-course/chapter6/7)
+
+ See also [U], ...
 
 
 # Universal Function Approximator
@@ -105,7 +120,12 @@ layout: page
 
  {% youtube "https://www.youtube.com/watch?v=jth4kEvJ3P8" %}
 
+ {% pdf "https://arxiv.org/pdf/1802.03426.pdf" %}
+
  More at:
+  * paper - [https://arxiv.org/abs/1802.03426](https://arxiv.org/abs/1802.03426)
+  * docs - [https://umap-learn.readthedocs.io/en/latest/how_umap_works.html](https://umap-learn.readthedocs.io/en/latest/how_umap_works.html)
+  * embedding projector - [https://projector.tensorflow.org/(https://projector.tensorflow.org/)
   * [https://dimensionality-reduction-293e465c2a3443e8941b016d.vercel.app/](https://dimensionality-reduction-293e465c2a3443e8941b016d.vercel.app/)
 
  See also [U], ... 
@@ -220,3 +240,8 @@ layout: page
  The task executed in a pre-trained model.
 
  See also [U], [Pre-Trained Model], [Self-Supervised Learning]
+
+
+# User Prompt
+
+ See also [U], [System Prompt]

@@ -7,6 +7,7 @@
 [Uniform Manifold Approximation and Projection]: {{ site.baseurl }}{% link glossary/u.md %}#uniform-manifold-approximation-and-projection
 [UMAP]: {{ site.baseurl }}{% link glossary/u.md %}#umap
 [Underfitting]: {{ site.baseurl }}{% link glossary/u.md %}#underfitting
+[Unigram Tokenization]: {{ site.baseurl }}{% link glossary/u.md %}#unigram-tokenization
 [United States AI Safety Institute]: {{ site.baseurl }}{% link glossary/u.md %}#united-states-ai-safety-institute
 [US AI Safety Institute]: {{ site.baseurl }}{% link glossary/u.md %}#united-states-ai-safety-institute
 [US AISI]: {{ site.baseurl }}{% link glossary/u.md %}#united-states-ai-safety-institute
@@ -20,3 +21,4 @@
 [Unsupervised Sentiment Neuron]: {{ site.baseurl }}{% link glossary/u.md %}#unsupervised-sentiment-neuron
 [Update Ratio]: {{ site.baseurl }}{% link glossary/u.md %}#update-ratio
 [Upstream Task]: {{ site.baseurl }}{% link glossary/u.md %}#upstream-task
+[User Prompt]: {{ site.baseurl }}{% link glossary/u.md %}#user-prompt

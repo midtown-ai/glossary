@@ -75,6 +75,7 @@ layout: page
 
  More at:
   * [http://colah.github.io/posts/2015-08-Understanding-LSTMs/](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+  * paper - [https://arxiv.org/abs/1710.04110](https://arxiv.org/abs/1710.04110)
 
  See also [G], [Long Short-Term Memory Network], 
 
@@ -347,9 +348,9 @@ output = m(input)
 
 # Generative Pre-Trained Transformer Model
 # GPT Model
+# GPT-2 Model
 # GPT-3 Model
 # GPT-4 Model
-# GPT-4V Model
 
  Before GPT-3 there was no general language model that could perform well on an array of [NLP] tasks. Language models were designed to perform one specific NLP task, such as text generation, summarization, or classification, using existing algorithms and architectures. GPT-3 has extraordinary capabilities as a general language model. GPT-3 is pre-trained on a corpus of text from five datasets: [Common Crawl] (Internet), WebText2, Books1, Books2, and Wikipedia. 
   * By default, GPT-2 remembers the last 1024 words. That the max? length of the left-side context?
@@ -379,6 +380,8 @@ output = m(input)
  A closer look at the multimodal GPT-4V model
 
  {% pdf "https://cdn.openai.com/papers/GPTV_System_Card.pdf" %}
+
+ On 12/01/2023, during OpenAI dev day, GPT-4Turbo is announced
 
  Impact on the workforce and companies
 
@@ -661,20 +664,6 @@ print("ga_output: ", ga_output)
 
  More at :
   * [https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval](https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval)
-
- See also [G], ...
-
-
-# GPT
-
- You can now create custom versions of ChatGPT that combine instructions, extra knowledge, and any combination of skills.
-
- More at:
-  * announcement - [https://openai.com/blog/introducing-gpts](https://openai.com/blog/introducing-gpts)
-  * create one - [chat.openai.com/create](chat.openai.com/create)
-  * ath mentor - [https://openai.com/chatgpt#do-more-with-gpts](https://openai.com/chatgpt#do-more-with-gpts)
-  * articles
-    * prompt leakage - [https://gizmodo.com/security-vulnerabilities-openai-chatgpt-custom-gpt-1851057912](https://gizmodo.com/security-vulnerabilities-openai-chatgpt-custom-gpt-1851057912)
 
  See also [G], ...
 
@@ -1019,6 +1008,57 @@ print("ga_output: ", ga_output)
  See also [G], [CPU], [Cuda Core], [Hyperparameter Optimization], [TPU]
 
 
+# Graphical Processing Unit Kernel
+# GPU Kernel
+
+ A process running on a GPU is called a kernel!
+
+ A GPU kernel is a piece of code that is executed in parallel by multiple threads on an accelerator such as a GPU. These kernels are designed to handle highly parallelizable tasks that take advantage of the many cores present in modern GPUs.
+
+ Another way of looking at a GPU kernel is as a function that can be called from a host program to perform calculations or other operations on the GPU. These functions are optimized for execution efficiency on the GPU, usually by breaking large tasks down into smaller sub-tasks that can be executed in parallel by multiple threads.
+
+ GPU kernels are widely employed in graphics processing, scientific computing, machine learning, and other high-performance computing applications. By offloading computational tasks to the GPU, these programs can achieve significant performance gains compared to running identical code on a CPU.
+
+ They’re particularly beneficial when dealing with large data sets requiring lots of computation since they take advantage of the parallel processing power of GPUs to accelerate operations and reduce overall execution time.
+
+ More at:
+  * [https://www.wepc.com/gpu/faq/what-is-a-gpu-kernel/](https://www.wepc.com/gpu/faq/what-is-a-gpu-kernel/)
+
+ See also [G], ...
+
+
+# Graphical Processing Unit High Bandwidth Memory
+# GPU High Bandwidth Memory
+# GPU HBM
+
+ ~ the slower type of in-GPU memory (1.5 TB/s with 40GB size)
+
+ The other memory is [GPU Static Random Access Memory (SRAM)][GPU SRAM]
+
+ See also [G], ...
+
+
+# Graphical Processing Unit Memory
+# GPU Memory
+
+ 2 types:
+  * [GPU Static Random Access (SRAM)][GPU SRAM]
+  * [GPU High Bandwidth Memory (HBM)][GPU HBM]
+
+ See also [G], ...
+
+
+# Graphical Processing Unit Static Random Access Memory
+# GPU Static Random Access Memory
+# GPU SRAM
+
+ ~ the fastest type of in-GPU memory (19TB/s but 20 MB size)
+
+ The other GPU memory type is [GPU High Bandwidth Memory (HBM)][GPU HBM]
+
+ See also [G], ...
+
+
 # Greedy Decoding
 
  See also [G], ...
@@ -1081,6 +1121,19 @@ Grok is still a very early beta product – the best we could do with 2 months o
  See also [G], ...
 
 
+# Grokking
+
+ ~ changing regime from memorization to generalization
+
+ ![]( {{site.assets}}/g/grokking.png ){: width="100%"}
+
+ More at:
+  * [https://pair.withgoogle.com/explorables/grokking/](https://pair.withgoogle.com/explorables/grokking/)
+  * book - [https://www.manning.com/books/grokking-machine-learning](https://www.manning.com/books/grokking-machine-learning)
+
+ See also [G], ...
+
+
 # Ground Truth
 
  In machine learning, ground truth refers to the accurate and reliable information about the target values or outcomes of a dataset, which is used to train, validate, and assess the performance of machine learning models. Ground truth data provides a basis for comparison, allowing machine learning algorithms to learn patterns and make predictions.
@@ -1093,7 +1146,7 @@ Grok is still a very early beta product – the best we could do with 2 months o
  See also [G], ...
 
 
-# Grouped Query Attention
+# Grouped-Query Attention
 # GQA
 
  ~ a technique that helps getting faster inferences

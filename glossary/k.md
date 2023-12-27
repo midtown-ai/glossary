@@ -167,6 +167,16 @@ layout: page
  See also [K], ...
 
 
+# Katib
+
+ ~ [AutoML] tool in [Kubeflow] for [hyperparameter tuning], [early stopping], learning rate, [neural architecture search], etc.
+
+ More at:
+  * code - [https://github.com/kubeflow/katib](https://github.com/kubeflow/katib)
+
+ See also [K], [MLOps]
+
+
 # Keras
 
  A python module ...
@@ -232,6 +242,10 @@ layout: page
 
  A knowledge graph is a directed labeled graph in which we have associated domain specific meanings with nodes and edges. Anything can act as a node, for example, people, company, computer, etc. An edge label captures the relationship of interest between the nodes, for example, a friendship relationship between two people, a customer relationship between a company and person, or a network connection between two computers, etc. The directed labeled graph representation is used in a variety of ways depending on the needs of an application. A directed labeled graph such as the one in which the nodes are people, and the edges capture the parent relationship is also known as a data graph. A directed labeled graph in which the nodes are classes of objects (e.g., Book, Textbook, etc.), and the edges capture the subclass relationship, is also known as a taxonomy. In some data models, given a triple (A,B,C), we refer to A, B, C as the subject, the predicate, and the object of the triple respectively. A knowledge graph serves as a data structure in which an application stores information. The information could be added to the knowledge graph through a combination of human input, automated and semi-automated methods. Regardless of the method of knowledge entry, it is expected that the recorded information can be easily understood and verified by humans. Many interesting computations over a graph can be reduced to navigating it. For example, in a friendship KG, to calculate the friends of friends of a person A, we can navigate the graph from A to all nodes B connected to it by a relation labeled as friend, and then recursively to all nodes C connected by the friend relation to each B.
 
+ Examples of KGs:
+  * [Wikidata]
+  * ...
+
  More at:
   * [https://ai.stanford.edu/blog/introduction-to-knowledge-graphs/](https://ai.stanford.edu/blog/introduction-to-knowledge-graphs/)
 
@@ -255,6 +269,20 @@ layout: page
 
  More at:
   * [https://venturebeat.com/ai/whats-next-in-large-language-model-llm-research-heres-whats-coming-down-the-ml-pike/](https://venturebeat.com/ai/whats-next-in-large-language-model-llm-research-heres-whats-coming-down-the-ml-pike/)
+
+ See also [K], ...
+
+
+# Kubeflow
+
+ Can use
+  * Argo
+  * Tekton
+  * [MLFlow] - a scientific notebook
+
+ {% youtube "https://www.youtube.com/watch?v=w8a7Pu7n5Nc" %}
+
+ {% youtube "https://www.youtube.com/watch?v=ZhoIUMJke_w" %}
 
  See also [K], ...
 

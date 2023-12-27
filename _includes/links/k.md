@@ -15,15 +15,17 @@
 [Kaggle Competitions]: {{ site.baseurl }}{% link glossary/k.md %}#kaggle-competition
 [KaggleX Project]: {{ site.baseurl }}{% link glossary/k.md %}#kagglex-project
 [KaggleX]: {{ site.baseurl }}{% link glossary/k.md %}#kagglex-project
+[Katib]: {{ site.baseurl }}{% link glossary/k.md %}#katib
 [Keras]: {{ site.baseurl }}{% link glossary/k.md %}#keras
 [Kernel Trick]: {{ site.baseurl }}{% link glossary/k.md %}#kernel-trick
 [Knowledge]: {{ site.baseurl }}{% link glossary/k.md %}#knowledge
 [Knowledge Corpus]: {{ site.baseurl }}{% link glossary/k.md %}#knowledge-corpus
 [Knowledge Distillation]: {{ site.baseurl }}{% link glossary/k.md %}#knowledge-distillation
 [Knowledge Graph]: {{ site.baseurl }}{% link glossary/k.md %}#knowledge-graph
+[KG]: {{ site.baseurl }}{% link glossary/k.md %}#knowledge-graph
 [Knowledge Representation]: {{ site.baseurl }}{% link glossary/k.md %}#knowledge-representation
 [Knowledge Retrieval]: {{ site.baseurl }}{% link glossary/k.md %}#knowledge-retrieval
-[KG]: {{ site.baseurl }}{% link glossary/k.md %}#kg
+[Kubleflow]: {{ site.baseurl }}{% link glossary/k.md %}#kubeflow
 [Kullback-Leibler Distance]: {{ site.baseurl }}{% link glossary/k.md %}#kullback-leibler-distance
 [Kullback-Leibler Divergence]: {{ site.baseurl }}{% link glossary/k.md %}#kullback-leibler-divergence
 [KL Divergence]: {{ site.baseurl }}{% link glossary/k.md %}#kl-divergence

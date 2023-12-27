@@ -24,6 +24,12 @@
 [ROUGE]: {{site.baseurl}}{% link glossary/r.md %}#recall-oriented-understudy-for-gisting-evaluation-metric
 [Receiver Operating Characteristic Curve]: {{site.baseurl}}{% link glossary/r.md %}#receiver-operating-characteristic-curve
 [ROC Curve]: {{site.baseurl}}{% link glossary/r.md %}#receiver-operating-characteristic-curve
+[Receptance Weighted Key Value Model]: {{site.baseurl}}{% link glossary/r.md %}#receptance-weighted-key-value-model
+[Receptance Weighted Key Value]: {{site.baseurl}}{% link glossary/r.md %}#receptance-weighted-key-value-model
+[RWKV Model]: {{site.baseurl}}{% link glossary/r.md %}#receptance-weighted-key-value-model
+[RWKV]: {{site.baseurl}}{% link glossary/r.md %}#receptance-weighted-key-value-model
+[Receptance Weighted Key Value World Tokenizer]: {{site.baseurl}}{% link glossary/r.md %}#receptance-weighted-key-value-world-tokenizer
+[RWKV World Tokenizer]: {{site.baseurl}}{% link glossary/r.md %}#receptance-weighted-key-value-world-tokenizer
 [Recommendation Engine]: {{site.baseurl}}{% link glossary/r.md %}#recommendation-engine
 [Recommendation Engines]: {{site.baseurl}}{% link glossary/r.md %}#recommendation-engine
 [Rectified Linear Unit Activation Function]: {{site.baseurl}}{% link glossary/r.md %}#rectified-linear-unit-activation-function
@@ -36,7 +42,9 @@
 [ReLU Layer]: {{site.baseurl}}{% link glossary/r.md %}#rectified-linear-unit-activation-layer
 [ReLU Layers]: {{site.baseurl}}{% link glossary/r.md %}#rectified-linear-unit-activation-layer
 [Recurrent Neural Network]: {{site.baseurl}}{% link glossary/r.md %}#recurrent-neural-network
+[Recurrent Neural Networks]: {{site.baseurl}}{% link glossary/r.md %}#recurrent-neural-network
 [RNN]: {{site.baseurl}}{% link glossary/r.md %}#recurrent-neural-network
+[RNNs]: {{site.baseurl}}{% link glossary/r.md %}#recurrent-neural-network
 [Red Teaming]: {{site.baseurl}}{% link glossary/r.md %}#red-teaming
 [Reflex Model]: {{site.baseurl}}{% link glossary/r.md %}#reflex-model
 [Region-Based Convolutional Neural Network]: {{site.baseurl}}{% link glossary/r.md %}#region-based-convolutional-neural-network
@@ -60,8 +68,10 @@
 [Reinforcement Learning Algorithms]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-algorithm
 [RL Algorithm]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-algorithm
 [RL Algorithms]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-algorithm
-[Reinforcement Learning Human Feedback]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-human-feedback
-[RLHF]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-human-feedback
+[Reinforcement Learning From AI Feedback]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-from-ai-feedback
+[RLAIF]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-from-ai-feedback
+[Reinforcement Learning From Human Feedback]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-from-human-feedback
+[RLHF]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-from-human-feedback
 [Relation]: {{site.baseurl}}{% link glossary/r.md %}#relation
 [Relation Extraction]: {{site.baseurl}}{% link glossary/r.md %}#relation-extraction
 [Relative Approximation Error]: {{site.baseurl}}{% link glossary/r.md %}#relative-approximation-error
@@ -70,6 +80,7 @@
 [Relevancy]: {{site.baseurl}}{% link glossary/r.md %}#relevancy
 [Replaced Word Prediction]: {{site.baseurl}}{% link glossary/r.md %}#replaced-word-prediction
 [Replay Memory]: {{site.baseurl}}{% link glossary/r.md %}#replay-memory
+[Replit Company]: {{site.baseurl}}{% link glossary/r.md %}#replit-company
 [Representation Space]: {{site.baseurl}}{% link glossary/r.md %}#representation-space
 [Reptile]: {{site.baseurl}}{% link glossary/r.md %}#reptile
 [Reranking]: {{site.baseurl}}{% link glossary/r.md %}#reranking
@@ -87,10 +98,22 @@
 [RBM]: {{site.baseurl}}{% link glossary/r.md %}#restricted-boltzmann-machine
 [Retrieval-Augmented Generation]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation
 [RAG]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation
+[Retrieval-Augmented Generation Assessment]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-assessment
+[Retrieval-Augmented Generation Assessments]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-assessment
+[RAG Assessment]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-assessment
+[RAG Assessments]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-assessment
+[RAGA]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-assessment
+[RAGAs]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-assessment
+[Retrieval-Augmented Generation Generator]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-generator
+[RAG Generator]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-generator
+[Retrieval-Augmented Generation Retriever]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-retriever
+[RAG Retriever]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-retriever
+[Retrieval-Augmented Generation Triad Of Metrics]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-triad-of-metrics
+[RAG Triad Of Metrics]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-triad-of-metrics
 [Retrieval-Based Model]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-based-model
 [Retrieval-Based Models]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-based-model
-[Retrieval Reader]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-reader
-[Retrieval Writer]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-writer
+[Retrieval Model]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-based-model
+[Retrieval Models]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-based-model
 [Retriever]: {{site.baseurl}}{% link glossary/r.md %}#retriever
 [Reward]: {{site.baseurl}}{% link glossary/r.md %}#reward
 [Rewards]: {{site.baseurl}}{% link glossary/r.md %}#reward

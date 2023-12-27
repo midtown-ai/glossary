@@ -1,5 +1,6 @@
 [B]: {{ site.baseurl }}{% link glossary/b.md %}
 
+[Baby-X Digital Human]: {{ site.baseurl }}{% link glossary/b.md %}#baby-x-digital-human
 [BabyAGI Model]: {{ site.baseurl }}{% link glossary/b.md %}#babyagi-model
 [BabyAGI]: {{ site.baseurl }}{% link glossary/b.md %}#babyagi-model
 [Backpropagation]: {{ site.baseurl }}{% link glossary/b.md %}#backpropagation
@@ -34,13 +35,18 @@
 [BERT Classification]: {{ site.baseurl }}{% link glossary/b.md %}#bert-classification
 [Best Match 25 Retrieval Model]: {{ site.baseurl }}{% link glossary/b.md %}#best-match-25-retrieval-model
 [Best Match 25 Retrieval]: {{ site.baseurl }}{% link glossary/b.md %}#best-match-25-retrieval-model
+[Best Match 25]: {{ site.baseurl }}{% link glossary/b.md %}#best-match-25-retrieval-model
 [BM25 Retrieval Model]: {{ site.baseurl }}{% link glossary/b.md %}#best-match-25-retrieval-model
 [BM25 Retrieval]: {{ site.baseurl }}{% link glossary/b.md %}#best-match-25-retrieval-model
+[Beyond The Imitation Game Benchmark]: {{ site.baseurl }}{% link glossary/b.md %}#beyond-the-imitation-game-benchmark
+[Beyond The Imitation Game]: {{ site.baseurl }}{% link glossary/b.md %}#beyond-the-imitation-game-benchmark
+[BIG Bench]: {{ site.baseurl }}{% link glossary/b.md %}#beyond-the-imitation-game-benchmark
 [BHuman Company]: {{ site.baseurl }}{% link glossary/b.md %}#bhuman-company
 [BHuman]: {{ site.baseurl }}{% link glossary/b.md %}#bhuman-company
 [Bias]: {{ site.baseurl }}{% link glossary/b.md %}#bias
 [Bias-Variance Trade-Off]: {{ site.baseurl }}{% link glossary/b.md %}#bias-variance-trade-off
 [Bicentennial Man Movie]: {{ site.baseurl }}{% link glossary/b.md %}#bicentenial-man-movie
+[Bicentennial Man]: {{ site.baseurl }}{% link glossary/b.md %}#bicentenial-man-movie
 [Bidirectional Encoder Representation from Transformer Model]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model
 [Bidirectional Encoder Representation from Transformer]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model
 [BERT Model]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model
@@ -61,6 +67,7 @@
 [BLIP Model]: {{ site.baseurl }}{% link glossary/b.md %}#blip-model
 [BLIP]: {{ site.baseurl }}{% link glossary/b.md %}#blip-model
 [Black Box Model]: {{ site.baseurl }}{% link glossary/b.md %}#black-box-model
+[Block-Sparse Attention]: {{ site.baseurl }}{% link glossary/b.md %}#block-sparse-attention
 [BloombergGPT Model]: {{ site.baseurl }}{% link glossary/b.md %}#blombergGPT-model
 [Boltzmann Machine]: {{ site.baseurl }}{% link glossary/b.md %}#boltzmann-machine
 [Boosting]: {{ site.baseurl }}{% link glossary/b.md %}#boosting
@@ -73,3 +80,7 @@
 [Brain Computer Interface]: {{ site.baseurl }}{% link glossary/b.md %}#brain-computer-interface
 [BC Interface]: {{ site.baseurl }}{% link glossary/b.md %}#brain-computer-interface
 [Buffered Online Learning]: {{ site.baseurl }}{% link glossary/b.md %}#buffered-online-learning
+[Byte-Pair Encoding Tokenization]: {{ site.baseurl }}{% link glossary/b.md %}#byte-pair-encoding-tokenization
+[Byte-Pair Encoding]: {{ site.baseurl }}{% link glossary/b.md %}#byte-pair-encoding-tokenization
+[BPE Tokenization]: {{ site.baseurl }}{% link glossary/b.md %}#byte-pair-encoding-tokenization
+[BPE]: {{ site.baseurl }}{% link glossary/b.md %}#byte-pair-encoding-tokenization

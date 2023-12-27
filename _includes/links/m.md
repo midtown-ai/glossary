@@ -1,6 +1,7 @@
 [M]: {{ site.baseurl }}{% link glossary/m.md %}
 
 [M3GAN Movie]: {{ site.baseurl }}{% link glossary/m.md %}#m3gan-movie
+[M3GAN]: {{ site.baseurl }}{% link glossary/m.md %}#m3gan-movie
 [Machine Learning]: {{ site.baseurl }}{% link glossary/m.md %}#mchine-learning
 [Machine Learning Framework]: {{ site.baseurl }}{% link glossary/m.md %}#machine-learning-framework
 [Machine Learning Pipeline]: {{ site.baseurl }}{% link glossary/m.md %}#machine-learning-pipeline
@@ -11,7 +12,10 @@
 [Magi Model]: {{ site.baseurl }}{% link glossary/m.md %}#magi-model
 [Magi]: {{ site.baseurl }}{% link glossary/m.md %}#magi-model
 [Majority Vote Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#majority-vote-algorithm
+[Make-A-Video Model]: {{ site.baseurl }}{% link glossary/m.md %}#make-a-video-model
+[Make-A-Video]: {{ site.baseurl }}{% link glossary/m.md %}#make-a-video-model
 [Manhattan Distance]: {{ site.baseurl }}{% link glossary/m.md %}#manhattan-distance
+[ManyChat Company]: {{ site.baseurl }}{% link glossary/m.md %}#manychat-company
 [MapReduce Process]: {{ site.baseurl }}{% link glossary/m.md %}#mapreduce-process
 [Markov Chain]: {{ site.baseurl }}{% link glossary/m.md %}#markov-chain
 [Markov Decision Process]: {{ site.baseurl }}{% link glossary/m.md %}#markov-decision-process
@@ -21,6 +25,10 @@
 [Masked Self-Attention]: {{ site.baseurl }}{% link glossary/m.md %}#masked-self-attention
 [Masked Vision Modeling]: {{ site.baseurl }}{% link glossary/m.md %}#masked-vision-modeling
 [MVM]: {{ site.baseurl }}{% link glossary/m.md %}#masked-vision-modeling
+[Massive Multitask Language Understanding Benchmark]: {{ site.baseurl }}{% link glossary/m.md %}#massive-multitask-language-understanding-benchmark
+[Massive Multitask Language Understanding]: {{ site.baseurl }}{% link glossary/m.md %}#massive-multitask-language-understanding-benchmark
+[MMLU Benchmark]: {{ site.baseurl }}{% link glossary/m.md %}#massive-multitask-language-understanding
+[MMLU]: {{ site.baseurl }}{% link glossary/m.md %}#massive-multitask-language-understanding
 [Matplotlib Python Module]: {{ site.baseurl }}{% link glossary/m.md %}#matplotlib-python-module
 [Matplotlib]: {{ site.baseurl }}{% link glossary/m.md %}#matplotlib-python-module
 [Matrix]: {{ site.baseurl }}{% link glossary/m.md %}#matrix
@@ -50,6 +58,7 @@
 [Megatron Model]: {{ site.baseurl }}{% link glossary/m.md %}#megatron-model
 [Megatron]: {{ site.baseurl }}{% link glossary/m.md %}#megatron-model
 [Membership Inference Attack]: {{ site.baseurl }}{% link glossary/m.md %}#membership-inference-attack
+[Memory Hierarchy]: {{ site.baseurl }}{% link glossary/m.md %}#memory-hierarchy
 [Meta Company]: {{ site.baseurl }}{% link glossary/m.md %}#meta-company
 [Meta]: {{ site.baseurl }}{% link glossary/m.md %}#meta-company
 [Meta Model]: {{ site.baseurl }}{% link glossary/m.md %}#meta-model
@@ -58,6 +67,7 @@
 [Metaverse]: {{ site.baseurl }}{% link glossary/m.md %}#metaverse
 [METEOR Score]: {{ site.baseurl }}{% link glossary/m.md %}#meteor-score
 [Metropolis Movie]: {{ site.baseurl }}{% link glossary/m.md %}#metropolis-movie
+[Metropolis]: {{ site.baseurl }}{% link glossary/m.md %}#metropolis-movie
 [Microsoft Common Object In Context Caption Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#microsoft-common-object-in-context-caption-dataset
 [Microsoft COCO Caption Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#microsoft-coco-caption-dataset
 [MSFT COCO Caption Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#microsoft-coco-caption-dataset
@@ -76,15 +86,26 @@
 [Mini-Batch Gradient Descent Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-gradient-descent-algorithm
 [Mini-Batch Gradient Descent]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-gradient-descent-algorithm
 [Minimax Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#minimax-algorithm
+[Mira Murati Person]: {{ site.baseurl }}{% link glossary/m.md %}#mira-murati=person
+[Mira Murati]: {{ site.baseurl }}{% link glossary/m.md %}#mira-murati=person
 [Mistral AI Company]: {{ site.baseurl }}{% link glossary/m.md %}#mistral-ai-company
 [Mistral AI]: {{ site.baseurl }}{% link glossary/m.md %}#mistral-ai-company
 [Mistral Model]: {{ site.baseurl }}{% link glossary/m.md %}#mistral-model
 [Mistral Models]: {{ site.baseurl }}{% link glossary/m.md %}#mistral-model
+[Mistral-7B Model]: {{ site.baseurl }}{% link glossary/m.md %}#mistral-model
+[Mistral-7B]: {{ site.baseurl }}{% link glossary/m.md %}#mistral-model
+[Mistral-8x7B Model]: {{ site.baseurl }}{% link glossary/m.md %}#mistral-model
+[Mistral-8x7B]: {{ site.baseurl }}{% link glossary/m.md %}#mistral-model
 [Mixed Reality]: {{ site.baseurl }}{% link glossary/m.md %}#mixed-reality
 [MR]: {{ site.baseurl }}{% link glossary/m.md %}#mixed-reality
-[Mixture Of Local Experts]: {{ site.baseurl }}{% link glossary/m.md %}#mixture-of-local-exports
-[MoE]: {{ site.baseurl }}{% link glossary/m.md %}#mixture-of-local-exports
+[Mixtral Model]: {{ site.baseurl }}{% link glossary/m.md %}#mixtral-model
+[Mixtral Models]: {{ site.baseurl }}{% link glossary/m.md %}#mixtral-model
+[Mixture-Of-Experts Architecture]: {{ site.baseurl }}{% link glossary/m.md %}#mixture-of-experts-architecture
+[Mixture-Of-Experts]: {{ site.baseurl }}{% link glossary/m.md %}#mixture-of-experts-architecture
+[MoE Architecture]: {{ site.baseurl }}{% link glossary/m.md %}#mixture-of-experts-architecture
+[MoE]: {{ site.baseurl }}{% link glossary/m.md %}#mixture-of-experts-architecture
 [ML Algorithm Evaluation]: {{ site.baseurl }}{% link glossary/m.md %}#ml-algorithm-evaluation
+[ML Energy Initiative]: {{ site.baseurl }}{% link glossary/m.md %}#ml-energy-initiative
 [MLFlow]: {{ site.baseurl }}{% link glossary/m.md %}#mlflow
 [MLOps]: {{ site.baseurl }}{% link glossary/m.md %}#mlops
 [Model]: {{ site.baseurl }}{% link glossary/m.md %}#model
@@ -106,8 +127,9 @@
 [Model Evaluation]: {{ site.baseurl }}{% link glossary/m.md %}#model-evaluation
 [Model Firewall]: {{ site.baseurl }}{% link glossary/m.md %}#model-firewall
 [Model Format]: {{ site.baseurl }}{% link glossary/m.md %}#model-format
-[Model Inversion]: {{ site.baseurl }}{% link glossary/m.md %}#model-inversion
 [Model Hub]: {{ site.baseurl }}{% link glossary/m.md %}#model-hub
+[Model Inversion]: {{ site.baseurl }}{% link glossary/m.md %}#model-inversion
+[Model Leaderboard]: {{ site.baseurl }}{% link glossary/m.md %}#model-leaderboard
 [Model Predictive Control Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#model-predictive-control-algorithm
 [Model Predictive Control]: {{ site.baseurl }}{% link glossary/m.md %}#model-predictive-control-algorithm
 [MPC Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#model-predictive-control-algorithm
@@ -129,6 +151,8 @@
 [Model-Free RL]: {{ site.baseurl }}{% link glossary/m.md %}#model-free-reinforcement-learning
 [Model-Free Reinforcement Learning Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#model-free-reinforcement-learning-algorithm
 [Model-Free RL Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#model-free-reinforcement-learning-algorithm
+[ModelMesh Framework]: {{ site.baseurl }}{% link glossary/m.md %}#modelmesh-framework
+[ModelMesh]: {{ site.baseurl }}{% link glossary/m.md %}#modelmesh-framework
 [Modified National Institute Standards And Technology Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
 [MNIST Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
 [Modular Reasoning Knowledge and Language]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language
@@ -142,9 +166,13 @@
 [Multi-Agent Environment]: {{ site.baseurl }}{% link glossary/m.md %}#multi-agent-environment
 [Multi-Agent Reinforcement Learning]: {{ site.baseurl }}{% link glossary/m.md %}#multi-agent-reinforcement-learning
 [Multi-Agent RL]: {{ site.baseurl }}{% link glossary/m.md %}#multi-agent-reinforcement-learning
-[Multi-Head Self-Attention]: {{ site.baseurl }}{% link glossary/m.md %}#multi-head-self-attention
+[Multi-Head Attention]: {{ site.baseurl }}{% link glossary/m.md %}#multi-head-attention
 [Multi-Task Learning]: {{ site.baseurl }}{% link glossary/m.md %}#multi-task-learning
 [MTL]: {{ site.baseurl }}{% link glossary/m.md %}#multi-task-learning
+[Multi-Turn Question Set Benchmark]: {{ site.baseurl }}{% link glossary/m.md %}#multi-turn-question-set-benchmark
+[Multi-Turn Question Set]: {{ site.baseurl }}{% link glossary/m.md %}#multi-turn-question-set-benchmark
+[MT-Bench Benchmark]: {{ site.baseurl }}{% link glossary/m.md %}#multi-turn-question-set-benchmark
+[MT-Bench]: {{ site.baseurl }}{% link glossary/m.md %}#multi-turn-question-set-benchmark
 [Multiattribute Objective]: {{ site.baseurl }}{% link glossary/m.md %}#multiattribute-objective
 [Multiclass Classification]: {{ site.baseurl }}{% link glossary/m.md %}#multiclass-classification
 [Multilayer Perceptron]: {{ site.baseurl }}{% link glossary/m.md %}#multilayer-perceptron

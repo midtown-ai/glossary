@@ -38,7 +38,6 @@ layout: page
 
 
 # Hand Gesture Recognition
-
 # HGR
 
  Gesture recognition provides real-time data to a computer to make it fulfill the user’s commands. Motion sensors in a device can track and interpret gestures, using them as the primary source of data input. A majority of gesture recognition solutions feature a combination of 3D depth-sensing cameras and infrared cameras together with machine learning systems. Machine learning algorithms are trained based on labeled depth images of hands, allowing them to recognize hand and finger positions.
@@ -89,6 +88,15 @@ layout: page
   * [https://en.wikipedia.org/wiki/Hanson_Robotics](https://en.wikipedia.org/wiki/Hanson_Robotics)
 
  See also [H], [Company], [Sophia Robot]
+
+
+# Harvard University
+
+ More at:
+  * LIT or Learning, Innovation, and Tech Lab - [https://lit.gse.harvard.edu/](https://lit.gse.harvard.edu/)
+  * MMLA - [https://mmla.gse.harvard.edu/](https://mmla.gse.harvard.edu/)
+
+ See also [H], ...
 
 
 # Hebbian Learning
@@ -157,12 +165,13 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
 
 
 # Hidden Layer
+ 
+ A layer of neurons in an [artificial neural network] between the input and the final output or label.
 
- See also [H], [Artificial Neural Network], [Dropout Layer]
+ See also [H], [Dropout Layer]
 
 
 # Hidden Markov Model
-
 # HMM
 
  More at:
@@ -199,6 +208,7 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
  {% pdf "https://arxiv.org/pdf/1603.09320.pdf" %}
 
  More at:
+  * paper - [https://arxiv.org/abs/1603.09320](https://arxiv.org/abs/1603.09320)
   * [https://towardsdatascience.com/similarity-search-part-4-hierarchical-navigable-small-world-hnsw-2aad4fe87d37](https://towardsdatascience.com/similarity-search-part-4-hierarchical-navigable-small-world-hnsw-2aad4fe87d37)
   * small world network - [https://en.wikipedia.org/wiki/Small-world_network](https://en.wikipedia.org/wiki/Small-world_network)
   * vector search engine with HNSW - [https://esteininger.medium.com/building-a-vector-search-engine-using-hnsw-and-cosine-similarity-753fb5268839](https://esteininger.medium.com/building-a-vector-search-engine-using-hnsw-and-cosine-similarity-753fb5268839)
@@ -227,8 +237,23 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
  See also [H], [Loss Function]
 
 
-# Histogram Of Oriented Gradients
+# High-Order Polynomial Projection Operators Framework
+# HiPPO Framework
 
+ ~ a precursor of the [S4 Model]
+
+ {% pdf "https://arxiv.org/pdf/2008.07669.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2008.07669](https://arxiv.org/abs/2008.07669)
+  * code - [https://github.com/HazyResearch/hippo-code](https://github.com/HazyResearch/hippo-code)
+  * articles
+    * [https://hazyresearch.stanford.edu/blog/2020-12-05-hippo](https://hazyresearch.stanford.edu/blog/2020-12-05-hippo)
+
+ See also [H], ...
+
+
+# Histogram Of Oriented Gradients
 # HoG
 
  Inspired by the [Neocognitron]
@@ -319,6 +344,8 @@ Hugging Face API: This is a REST API that allows developers to quickly integrate
 
 Overall, Hugging Face's products and services are designed to make NLP more accessible and easier to use for developers and researchers.
 
+ {% youtube "https://www.youtube.com/watch?v=O7KbwmaK9Ck" $}
+
  More at:
   * [https://huggingface.co/](https://huggingface.co/)
 
@@ -337,6 +364,10 @@ Overall, Hugging Face's products and services are designed to make NLP more acce
   * Focused on what is good for humanity (health, environment)
   * Bridges to policy world, other academic disciplines, industry
   * Respects ethics (animal-centered AI? Earth-centered AI?) 
+
+ {% youtube "https://www.youtube.com/watch?v=YbeoS9Nsm34" %}
+
+ {% youtube "https://www.youtube.com/watch?v=4W2kXBBFDw4" %}
 
  More at:
   * stanford HAI - [https://hai.stanford.edu/](https://hai.stanford.edu/)

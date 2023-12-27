@@ -1,8 +1,5 @@
 [S]: {{ site.baseurl }}{% link glossary/s.md %}
 
-[SageMaker]: {{ site.baseurl}}{% link glossary/s.md %}#sagemaker
-[SageMaker Ground Truth]: {{ site.baseurl}}{% link glossary/s.md %}#sagemaker-ground-truth
-[SageMaker Neo]: {{ site.baseurl}}{% link glossary/s.md %}#sagemaker-neo
 [Sam Altman Person]: {{ site.baseurl}}{% link glossary/s.md %}#sam-altman-person
 [Sam Altman]: {{ site.baseurl}}{% link glossary/s.md %}#sam-altman-person
 [Sample]: {{ site.baseurl}}{% link glossary/s.md %}#sample
@@ -11,7 +8,10 @@
 [Sampling Method]: {{ site.baseurl}}{% link glossary/s.md %}#sampling-method
 [Scale AI Company]: {{ site.baseurl}}{% link glossary/s.md %}#scale-ai-company
 [Scale AI]: {{ site.baseurl}}{% link glossary/s.md %}#scale-ai-company
+[Scaled Dot-Product]: {{ site.baseurl}}{% link glossary/s.md %}#scaled-dot-product
+[SDP]: {{ site.baseurl}}{% link glossary/s.md %}#scaled-dot-product
 [Scaled Dot-Product Attention]: {{ site.baseurl}}{% link glossary/s.md %}#scaled-dot-product-attention
+[SDP Attention]: {{ site.baseurl}}{% link glossary/s.md %}#scaled-dot-product-attention
 [Scaler]: {{ site.baseurl}}{% link glossary/s.md %}#scaler
 [Scaling Law]: {{ site.baseurl}}{% link glossary/s.md %}#scaling-law
 [Search Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#search-algorithm
@@ -22,6 +22,8 @@
 [Scikit Learn]: {{ site.baseurl}}{% link glossary/s.md %}#scikit-learn
 [Seaborn Python Module]: {{ site.baseurl}}{% link glossary/s.md %}#seaborn-python-module
 [Seaborn]: {{ site.baseurl}}{% link glossary/s.md %}#seaborn-python-module
+[Secure AI Framework]: {{ site.baseurl}}{% link glossary/s.md %}#secure-ai-framework
+[SAIF]: {{ site.baseurl}}{% link glossary/s.md %}#secure-ai-framework
 [Segformer Model]: {{ site.baseurl}}{% link glossary/s.md %}#segformer-model
 [Segformer]: {{ site.baseurl}}{% link glossary/s.md %}#segformer-model
 [Segment Anything Model]: {{ site.baseurl}}{% link glossary/s.md %}#segment-anything-model
@@ -31,12 +33,15 @@
 [SC Prompting]: {{ site.baseurl}}{% link glossary/s.md %}#self-consistency-prompting
 [SC]: {{ site.baseurl}}{% link glossary/s.md %}#self-consistency-prompting
 [Self-Destructive Model]: {{ site.baseurl}}{% link glossary/s.md %}#self-destructive-model
+[Self-Driving Car]: {{ site.baseurl}}{% link glossary/s.md %}#self-driving-car
+[Self-Driving Cars]: {{ site.baseurl}}{% link glossary/s.md %}#self-driving-car
 [Self-Organizing Map Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
 [Self-Organizing Map]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
 [SOM Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
 [SOM]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
 [Self-Play]: {{ site.baseurl}}{% link glossary/s.md %}#self-play
 [Self-Supervised Learning]: {{ site.baseurl}}{% link glossary/s.md %}#self-supervised-learning
+[SSL]: {{ site.baseurl}}{% link glossary/s.md %}#self-supervised-learning
 [Semantic Embedding]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-embedding
 [Semantic Search]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-search
 [Semantic Segmentation]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-segmentation
@@ -48,10 +53,12 @@
 [Sentence Embeddings]: {{ site.baseurl}}{% link glossary/s.md %}#sentence-embedding
 [Sentient AI]: {{ site.baseurl}}{% link glossary/s.md %}#sentient-ai
 [Sentiment Analysis]: {{ site.baseurl}}{% link glossary/s.md %}#sentiment-analysis
+[Sequence Model]: {{ site.baseurl}}{% link glossary/s.md %}#sequence-model
 [Sequence To Sequence Model]: {{ site.baseurl}}{% link glossary/s.md %}#sequence-to-sequence-model
 [Seq2Seq Model]: {{ site.baseurl}}{% link glossary/s.md %}#seq2seq-model
 [Sequence To Sequence Transformer]: {{ site.baseurl}}{% link glossary/s.md %}#sequence-to-sequence-transformer
 [Seq2Seq Transformer]: {{ site.baseurl}}{% link glossary/s.md %}#seq2seq-transformer
+[Sequential Data]: {{ site.baseurl}}{% link glossary/s.md %}#sequential-data
 [Serialized Flat File]: {{ site.baseurl}}{% link glossary/s.md %}#serialized-flat-file
 [Shallow Neural Network]: {{ site.baseurl}}{% link glossary/s.md %}#shallow-neural-network
 [Shallow Neural Networks]: {{ site.baseurl}}{% link glossary/s.md %}#shallow-neural-network
@@ -61,6 +68,7 @@
 [Shifted Window Attention]: {{ site.baseurl}}{% link glossary/s.md %}#shifted-window-attention
 [SWA]: {{ site.baseurl}}{% link glossary/s.md %}#shifted-window-attention
 [Short Circuit Movie]: {{ site.baseurl}}{% link glossary/s.md %}#short-circuit-movie
+[Short Circuit]: {{ site.baseurl}}{% link glossary/s.md %}#short-circuit-movie
 [Siamese Network]: {{ site.baseurl}}{% link glossary/s.md %}#siamese-network
 [SIGGRAPH Conference]: {{ site.baseurl}}{% link glossary/s.md %}#siggraph-conference
 [SIGGRAPH]: {{ site.baseurl}}{% link glossary/s.md %}#siggraph-conference
@@ -89,6 +97,7 @@
 [Skip Connections]: {{ site.baseurl}}{% link glossary/s.md %}#skip-connection
 [Skip-Gram Model]: {{ site.baseurl}}{% link glossary/s.md %}#skip-gram-model
 [Slicing Function]: {{ site.baseurl}}{% link glossary/s.md %}#slicing-function
+[Sligesgo]: {{ site.baseurl}}{% link glossary/s.md %}#slidesgo
 [Small Language Model]: {{ site.baseurl}}{% link glossary/s.md %}#small-language-model
 [SLM]: {{ site.baseurl}}{% link glossary/s.md %}#small-language-model
 [Snorkel Program]: {{ site.baseurl}}{% link glossary/s.md %}#snorkel-program
@@ -116,6 +125,7 @@
 [Source Knowledge]: {{ site.baseurl}}{% link glossary/s.md %}#source-knowledge
 [Spam Detection]: {{ site.baseurl}}{% link glossary/s.md %}#spam-detection
 [Space]: {{ site.baseurl}}{% link glossary/s.md %}#space
+[Sparcity]: {{ site.baseurl}}{% link glossary/s.md %}#sparcity
 [Sparrow Model]: {{ site.baseurl}}{% link glossary/s.md %}#sparrow-model
 [Sparse Activation]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-activation
 [Sparse Matrix]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-matrix
@@ -146,9 +156,9 @@
 [State]: {{ site.baseurl}}{% link glossary/s.md %}#state
 [States]: {{ site.baseurl}}{% link glossary/s.md %}#state
 [State Model]: {{ site.baseurl}}{% link glossary/s.md %}#state-model
-[State Of The Art]: {{ site.baseurl}}{% link glossary/s.md %}#state-of-the-art
-[SOTA]: {{ site.baseurl}}{% link glossary/s.md %}#state-of-the-art
 [State Space]: {{ site.baseurl}}{% link glossary/s.md %}#state-space
+[State Space Model]: {{ site.baseurl}}{% link glossary/s.md %}#state-space-model
+[SSM]: {{ site.baseurl}}{% link glossary/s.md %}#state-space-model
 [State Transition]: {{ site.baseurl}}{% link glossary/s.md %}#state-transition
 [State Transitions]: {{ site.baseurl}}{% link glossary/s.md %}#state-transition
 [State-Action Pair]: {{ site.baseurl}}{% link glossary/s.md %}#state-action-pair
@@ -157,6 +167,8 @@
 [State-Action-Reward-State-Action]: {{ site.baseurl}}{% link glossary/s.md %}#state-action-reward-state-action-algorithm
 [SARSA Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#state-action-reward-state-action-algorithm
 [SARSA]: {{ site.baseurl}}{% link glossary/s.md %}#state-action-reward-state-action-algorithm
+[State-Of-The-Art]: {{ site.baseurl}}{% link glossary/s.md %}#state-of-the-art
+[SOTA]: {{ site.baseurl}}{% link glossary/s.md %}#state-of-the-art
 [State-Value Function]: {{ site.baseurl}}{% link glossary/s.md %}#state-value-function
 [Statistical Bias]: {{ site.baseurl}}{% link glossary/s.md %}#statistical-bias
 [Statistical Machine Translation]: {{ site.baseurl}}{% link glossary/s.md %}#statistical-machine-translation
@@ -178,6 +190,8 @@
 [Strong AI]: {{ site.baseurl}}{% link glossary/s.md %}#strong-ai
 [Structured Data]: {{ site.baseurl}}{% link glossary/s.md %}#structured-data
 [Structured Pruning]: {{ site.baseurl}}{% link glossary/s.md %}#structured-pruning
+[Structured State Space Sequence Model]: {{ site.baseurl}}{% link glossary/s.md %}#structured-state-space-sequence-model
+[S4 Model]: {{ site.baseurl}}{% link glossary/s.md %}#structured-state-space-sequence-model
 [Style GAN]: {{ site.baseurl}}{% link glossary/s.md %}#style-gan
 [Subsampling]: {{ site.baseurl}}{% link glossary/s.md %}#subsampling
 [Sundar Pichai Person]: {{ site.baseurl}}{% link glossary/s.md %}#sundar-pichai-person
@@ -207,3 +221,4 @@
 [Synthesized Variable]: {{ site.baseurl}}{% link glossary/s.md %}#synthesized-variable
 [Synthetic Data]: {{ site.baseurl}}{% link glossary/s.md %}#synthetic-data
 [Synthetic Data Privacy]: {{ site.baseurl}}{% link glossary/s.md %}#synthetic-data-privacy
+[System Prompt]: {{ site.baseurl}}{% link glossary/s.md %}#system-prompt

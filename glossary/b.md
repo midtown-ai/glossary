@@ -29,6 +29,32 @@ layout: page
 {% include links/all.md %}
 
 
+# Baby-X Digital Human
+
+ ~ a digital human developed by [Soul Machines]
+
+ Baby-X is based on and informed by significant research in key fields that have been integrated into a cohesive research and development effort. These include:
+  * Advanced CGI
+  * Biologically Inspired Cognitive Architectures
+  * Neuroscience
+  * Cognitive Science
+  * Developmental Psychology
+  * Cognitive Linguistics
+  * Affective Computing
+
+ Together they enable Baby-X to manifest and apply various models of the brain to enable scaled interactions and responses, creating a bridge to the human world.
+
+ ![]( {{site.assets}}/b/baby_x_digital_brain.webp ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=PHQhCiVLRpE" %}
+ {% youtube "https://www.youtube.com/watch?v=yzFW4-dvFDA" %}
+
+ More at:
+  * site - [https://www.soulmachines.com/resources/research/baby-x/](https://www.soulmachines.com/resources/research/baby-x/)
+
+ See also [B], ...
+
+
 # BabyAGI Model
 
  A task-driven autonomous agent
@@ -174,6 +200,20 @@ layout: page
  See also [B], [Batch]
 
 
+# Batch Training
+
+ The parameters of a machine learning model are usually updated multiple times during each [epoch]. In most cases, the training data is divided into batches, and the model is updated after processing each [batch] of data. This is known as batch training or mini-batch training.
+
+ For example, suppose we have a dataset with 1000 examples, and we choose a batch size of 100. During each epoch, the model will process 10 batches, with each batch consisting of 100 examples. After processing each batch, the model will update its parameters based on the error it made on that batch, using an optimization algorithm such as [stochastic gradient descent (SGD)][SGD] or [Adaptive Moment Estimation (Adam)][Adam].
+
+ Batch training has several advantages over updating the model after processing the entire [dataset] (known as batch training or full-batch training), including faster convergence, better memory efficiency, and the ability to handle large datasets that may not fit into memory. However, it also introduces some additional noise in the parameter updates due to the smaller sample size, which can be mitigated by adjusting the learning rate and other [hyperparameters].
+
+ More at:
+  * ...
+
+ See also [B], ...
+
+
 # Bayes' Theorem
 
  Bayes' theorem is used to find the reverse probabilities `p(A|B)` if we know the conditional probability of an event, i.e p(A) and p(B), and `p(B|A)`
@@ -252,17 +292,6 @@ So the probability you have the disease after getting a positive test is only ab
   * ...
 
  See also [B], [Belief Distribution], [Prior Belief]
-
-
-# Batch Training
-
- The parameters of a machine learning model are usually updated multiple times during each [epoch]. In most cases, the training data is divided into batches, and the model is updated after processing each [batch] of data. This is known as batch training or mini-batch training.
-
- For example, suppose we have a dataset with 1000 examples, and we choose a batch size of 100. During each epoch, the model will process 10 batches, with each batch consisting of 100 examples. After processing each batch, the model will update its parameters based on the error it made on that batch, using an optimization algorithm such as [stochastic gradient descent (SGD)][SGD] or [Adaptive Moment Estimation (Adam)][Adam].
-
- Batch training has several advantages over updating the model after processing the entire [dataset] (known as batch training or full-batch training), including faster convergence, better memory efficiency, and the ability to handle large datasets that may not fit into memory. However, it also introduces some additional noise in the parameter updates due to the smaller sample size, which can be mitigated by adjusting the learning rate and other [hyperparameters][Hyperparameter].
-
- See also [B], ...
 
 
 # Bayesian Inference
@@ -426,25 +455,31 @@ Your belief has shifted towards more red marbles based on the observed data. The
  More at:
   * loss - [https://deeplizard.com/learn/video/0bt0SjbS3xc](https://deeplizard.com/learn/video/0bt0SjbS3xc)
 
- See also [B], [Deep Q-Network], [State Space], [Value Function]
+ See also [B], [Deep Q-Network], [Q-Value Function], [State Space]
 
 
 # Benchmark
 
 
-
   * [General AI Assitant (GAIA)][GAIA]
 
  NLP Benchmarks:
+  * [Beyond The Imitation Game (BIG Bench)][BIG Bench]
   * Coref :  Links pronouns to antecedents. Also capable to take the perspective of a speak, e.g. I, you, my sister, etc refers to different people function of who said it.
   * [GLUE Benchmark] :
   * [Named Entity Recognition (NER)][NER] - identify places, people, dates, etc
   * Language Parser : Identitfy which group of words go together (as phrase) and which words are the subject or object of a verb.
+  * [Massive Multitask Language Understanding (MMLU)][MMLU] - Broad set of questions
+  * [Multi-Turn Question Set (MT-Bench)][MT-Bench] - Rate conversational AI using human preference modeled by a [LLM-as-a-judge]
   * SNLI : relation between 2 statements (contradict, neutral, or entailment)
   * [SQuAD Benchmark] : Question and answering
   * [SuperGLUE Benchmark] :
   * SRL : Semantic understanding (machine translation, information extraction, text summarization, question answering)
   * SST-5 : Sentiment analysis - https://paperswithcode.com/sota/sentiment-analysis-on-sst-5-fine-grained
+  * [TruthfulQA] - avoid generating false answers learned from imitating human texts (conspiracies, rumors, etc)
+
+ Psychoanalysis
+  * [FANToM] - stress-testing machine theory of mind in interactions
 
   All of those are included in the [HELM Benchmark]
 
@@ -477,17 +512,16 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
 # BERT Classification
 
-
  ![]( {{site.assets}}/b/bert_classification.png ){: width="100%"}
 
   * E = word embeddings ?     <=== Maybe wrong use of embedding, rather token, i.e. tokenized?
    * Embedding is an integer from a tokenizer? No!
-   * Sparse vector (of tokenised sentence) fed to word2vec (or similar) ? No!
+   * Sparse vector (of tokenised sentence) fed to [word2vec] (or similar) ? No!
   * R = representation ( token after transformation by encoder stack )
    * Representation is a matrix/tensor (of square dimension 768?)
    * "What is the cost?" and "Is it expensive?" have almost the same SEP_representation !
 
- See also [B], [Bidirectional Encoder Representations from Transformers]
+ See also [B], [Bidirectional Encoder Representations from Transformer Model]
 
 
 # Best Match 25 Retrieval Model
@@ -509,6 +543,8 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
 
 # Bias
+
+ ~ a predisposition in favor or against something that is often considered to be unfair
 
  * [Statistical Bias] = The gap between the prediction and the actual value. Where is bias coming from? Issues with the data sampling?
  * [Artificial Neuron Bias] = When using bias in the connect of activation function, it is an integer that represent a threshold the weighted input should exceed to trigger the neuron. There is a bias at each node of the ANN. The node weighted input is = sum(aL . wL) + bias
@@ -555,7 +591,6 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
 
 # Bidirectional Encoder Representation from Transformer Model
-
 # BERT Model
 
  A NLP model that was built by [Google] in 2017. It is an Open-Source project by Google AI researchers with a great power of understanding the context of sentence (language) showing high performance in various nlp tasks such as [classification][BERT classification] such as [sentiment analysis], [question answering], [named entity recognition], [machine Translation] and many more.
@@ -585,7 +620,6 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
 
 # Bidirectional Recurrent Neural Network
-
 # BRNN
 
  Bidirectional recurrent neural networks (BRNN) connect two hidden layers running in opposite directions to a single output, allowing them to receive information from both past and future states. This generative deep learning technique is more common in supervised learning approaches, rather than unsupervised or semi-supervised because how difficult it is to calculate a reliable probabilistic model.
@@ -593,6 +627,26 @@ Your belief has shifted towards more red marbles based on the observed data. The
  ![]( {{site.assets}}/b/bidirectional_recurrent_neural_network.png ){: width=30%}
 
  See also [B], [Recurrent Neural Network]
+
+
+# Beyond the Imitation Game Benchmark
+# BIG Bench
+
+ Focus on task that are not easy to solve
+
+ {% youtube "https://www.youtube.com/watch?v=ZpImxa0tK2Y" %}
+
+ {% youtube "https://www.youtube.com/watch?v=ydfJ16RWJL8" %}
+
+ {% pdf "https://arxiv.org/pdf/2206.04615.pdf" %}
+
+ {% pdf "https://arxiv.org/pdf/2210.09261.pdf" %}
+
+ More at:
+  * paper -
+  * task code - [https://github.com/google/BIG-bench](https://github.com/google/BIG-bench)
+
+ See also [B], ...
 
 
 # Big Data
@@ -625,10 +679,12 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
  These results are complementing, as is often the case in the precision-recall tradeoff.
 
+ {% youtube "https://www.youtube.com/watch?v=M05L1DhFqcw" %}
+
  More at:
   * [https://medium.com/nlplanet/two-minutes-nlp-learn-the-bleu-metric-by-examples-df015ca73a86](https://medium.com/nlplanet/two-minutes-nlp-learn-the-bleu-metric-by-examples-df015ca73a86)
 
- See also [B], [NLP Score]
+ See also [B], [NLP Metrics]
 
 
 # Bill Gates Person
@@ -692,6 +748,13 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  A neural network is a black box model as even if you saw the weights you would have difficulties understanding how it comes to a decision. In fact it may come to the right answer using the wrong reasons. The opposite of a [White Box Model] in relation to [Explainable AI]
 
  See also [B], ...
+
+
+# Block-Sparse Attention
+
+ ~ Computed attention is an [approximate attention]
+
+ See also [B], [FlashAttention]
 
 
 # BloombergGPT Model
@@ -819,3 +882,21 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
   * [https://ai.stackexchange.com/questions/10474/what-is-the-relation-between-online-or-offline-learning-and-on-policy-or-off](https://ai.stackexchange.com/questions/10474/what-is-the-relation-between-online-or-offline-learning-and-on-policy-or-off)
 
  See also [B], ...
+
+
+# Byte-Pair Encoding Tokenization
+# BPE Tokenization
+
+ ~ the [tokenization] algorithm used by [OpenAI]
+
+ :warning: Great tokenizer but heavy biased on English and space separated token (beware German, Chinese, etc.!) --> [RWKV World Tokenizer]
+
+ Byte-Pair Encoding (BPE) was initially developed as an algorithm to compress texts, and then used by [OpenAI] for [tokenization] when pretraining the [GPT model]. It’s used by a lot of [Transformer] models, including GPT, [GPT-2], RoBERTa, BART, and DeBERTa.
+
+ {% youtube "https://www.youtube.com/watch?v=HEikzVL-lZU" %}
+
+ More at:
+  * Hugging Face course - [https://huggingface.co/learn/nlp-course/chapter6/5](https://huggingface.co/learn/nlp-course/chapter6/5)
+
+ See also [B], ...
+

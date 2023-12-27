@@ -1,6 +1,7 @@
 [I]: {{ site.baseurl }}{% link glossary/i.md %}
 
 [I, Robot Movie]: {{ site.baseurl }}{% link glossary/i.md %}#i-robot-movie
+[I, Robot]: {{ site.baseurl }}{% link glossary/i.md %}#i-robot-movie
 [IBM Company]: {{ site.baseurl }}{% link glossary/i.md %}#ibm-company
 [IBM]: {{ site.baseurl }}{% link glossary/i.md %}#ibm-company
 [IBM Watson]: {{ site.baseurl }}{% link glossary/i.md %}#ibm-watson
@@ -11,9 +12,9 @@
 [Image Classification]: {{ site.baseurl }}{% link glossary/i.md %}#image-classification
 [Image Decoder]: {{ site.baseurl }}{% link glossary/i.md %}#image-decoder
 [Image Encoder]: {{ site.baseurl }}{% link glossary/i.md %}#image-encoder
+[Image Filter]: {{ site.baseurl }}{% link glossary/i.md %}#image-filter
+[Image Filters]: {{ site.baseurl }}{% link glossary/i.md %}#image-filter
 [Image Inpainting]: {{ site.baseurl }}{% link glossary/i.md %}#image-inpainting
-[Image Kernel]: {{ site.baseurl }}{% link glossary/i.md %}#image-kernel
-[Image Kernels]: {{ site.baseurl }}{% link glossary/i.md %}#image-kernel
 [Image Reconstruction]: {{ site.baseurl }}{% link glossary/i.md %}#image-reconstruction
 [Image Segmentation]: {{ site.baseurl }}{% link glossary/i.md %}#image-segmentation
 [Image-aware Decoder Enhanced a la Flamingo with Interleaved Cross-attentionS Model]: {{ site.baseurl }}{% link glossary/i.md %}#image-aware-decoder-enhanced-a-la-flamingo-with-interleaved-cross-attentions-model
@@ -23,6 +24,7 @@
 [ImageNet Dataset]: {{ site.baseurl }}{% link glossary/i.md %}#imagenet-dataset
 [ImageNet Large Scale Visual Recognition Challenge]: {{ site.baseurl }}{% link glossary/i.md %}#imageNet-large-scale-visual-recognition-challenge
 [ILSVRC]: {{ site.baseurl }}{% link glossary/i.md %}#ilsvrc
+[Imbalanced Data]: {{ site.baseurl }}{% link glossary/i.md %}#imbalanced-data
 [Imitation Learning]: {{ site.baseurl }}{% link glossary/i.md %}#imitation-learning
 [IL]: {{ site.baseurl }}{% link glossary/i.md %}#il
 [Imputation]: {{ site.baseurl }}{% link glossary/i.md %}#imputation
@@ -73,4 +75,5 @@
 [Isaac Gym Environment]: {{ site.baseurl }}{% link glossary/i.md %}#isaac-gym-environment
 [Isaac Gym]: {{ site.baseurl }}{% link glossary/i.md %}#isaac-gym
 [Isolation Forest]: {{ site.baseurl }}{% link glossary/i.md %}#isolation-forest
+[Istio]: {{ site.baseurl }}{% link glossary/i.md %}#istio
 [Iteration]: {{ site.baseurl }}{% link glossary/i.md %}#iteration

@@ -237,10 +237,14 @@ answer = ask_question({
  'answer': 'United Nations'}
  ```
 
+  {% youtube "https://www.youtube.com/watch?v=qgaM0weJHpA" %}
+
+  {% youtube "https://www.youtube.com/watch?v=BNy08iIWVJM" %}
+
   * Extractive Q&A = find the answer in the context (context is passed in the prompt!)
   * Abstractive Q&A = find the answer inside or outside of the context
 
- See also [Q], [BERT Model], [GPT Model], [Natural Language Processing]
+ See also [Q], [BERT Model], [GPT Model], [Logit], [Natural Language Processing]
 
 
 # Question Answering Graph Neural Network

@@ -7,11 +7,15 @@
 [Eigenvalues]: {{site.baseurl }}{% link glossary/e.md %}#eigenvalue
 [Eigenvector]: {{site.baseurl }}{% link glossary/e.md %}#eigenvector
 [Eigenvectors]: {{site.baseurl }}{% link glossary/e.md %}#eigenvector
-[Elastic Net]: {{site.baseurl }}{% link glossary/e.md %}#elastic-net
+[Elastic Net Regularization]: {{site.baseurl }}{% link glossary/e.md %}#elastic-net-regularization
 [Electric Dreams Movie]: {{site.baseurl }}{% link glossary/e.md %}#electric-dreams-movie
 [Electric Dreams]: {{site.baseurl }}{% link glossary/e.md %}#electric-dreams-movie
 [ElevenLabs AI Company]: {{site.baseurl }}{% link glossary/e.md %}#elevenlabs-ai-company
 [ElevenLabs AI]: {{site.baseurl }}{% link glossary/e.md %}#elevenlabs-ai-company
+[Eliza Chatbot]: {{site.baseurl }}{% link glossary/e.md %}#eliza-chatbot
+[Eliza]: {{site.baseurl }}{% link glossary/e.md %}#eliza-chatbot
+[Elo Rating System]: {{site.baseurl }}{% link glossary/e.md %}#elo-rating-system
+[Elo Rating]: {{site.baseurl }}{% link glossary/e.md %}#elo-rating-system
 [Elon Musk Person]: {{site.baseurl }}{% link glossary/e.md %}#elon-musk-person
 [Elon Musk]: {{site.baseurl }}{% link glossary/e.md %}#elon-musk-person
 [Embedding]: {{site.baseurl }}{% link glossary/e.md %}#embedding
@@ -53,6 +57,8 @@
 [Ernie Bot]: {{site.baseurl }}{% link glossary/e.md %}#ernie-bot
 [Error]: {{site.baseurl }}{% link glossary/e.md %}#error
 [ESM Metagenomic Atlas]: {{site.baseurl }}{% link glossary/e.md %}#esm-metagenomic-atlas
+[ESMFold Model]: {{site.baseurl }}{% link glossary/e.md %}#esmfold-model
+[ESMFold]: {{site.baseurl }}{% link glossary/e.md %}#esmfold-model
 [Estimator]: {{site.baseurl }}{% link glossary/e.md %}#estimator
 [Ethical AI]: {{site.baseurl }}{% link glossary/e.md %}#ethical-ai
 [Euclidean Geometry]: {{site.baseurl }}{% link glossary/e.md %}#euclidean-geometry
@@ -74,6 +80,7 @@
 [Evolutionary Scale Modeling]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-modeling
 [ESM]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-modeling
 [Ex Machina Movie]: {{site.baseurl }}{% link glossary/e.md %}#ex-machina-movie
+[Ex Machina]: {{site.baseurl }}{% link glossary/e.md %}#ex-machina-movie
 [Example-Based Machine Translation]: {{site.baseurl }}{% link glossary/e.md %}#example-based-machine-translation
 [EBMT]: {{site.baseurl }}{% link glossary/e.md %}#ebmt
 [Executive Order on AI]: {{site.baseurl }}{% link glossary/e.md %}#executive-order-on-ai
@@ -82,6 +89,7 @@
 [Executive Orders]: {{site.baseurl }}{% link glossary/e.md %}#executive-order-on-ai
 [EO]: {{site.baseurl }}{% link glossary/e.md %}#executive-order-on-ai
 [EOs]: {{site.baseurl }}{% link glossary/e.md %}#executive-order-on-ai
+[ExecuTorch]: {{site.baseurl }}{% link glossary/e.md %}#executorch
 [Expected Value]: {{site.baseurl }}{% link glossary/e.md %}#expected-value
 [Experience]: {{site.baseurl }}{% link glossary/e.md %}#experience
 [Experiences]: {{site.baseurl }}{% link glossary/e.md %}#experience

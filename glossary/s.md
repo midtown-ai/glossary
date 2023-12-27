@@ -29,11 +29,9 @@ layout: page
 {% include links/all.md %}
 
 
-# SageMaker
+# Sagemaker
 
- See also [S}, ...
-
-
+ See [AWS Sagemaker]
 # SageMaker Ground Truth
 
  Used for labelling the data by machines, internal employees, mechanical turk, or 3rd party partner.
@@ -41,7 +39,7 @@ layout: page
 
 # SageMaker Neo
 
- ~ compiler of ML models before they are distributed to the endpoint. Compatible with TensorFlow, XGBoost, MxNET, PyTorch, ... Allow the model to run without any frameworr, this reduce the memory footprint on the device (at the edge) by 100x, while improving the performance by x2.
+ ~ compiler of ML models before they are distributed to the endpoint. Compatible with TensorFlow, XGBoost, MxNET, PyTorch, ... Allow the model to run without any framework, this reduce the memory footprint on the device (at the edge) by 100x, while improving the performance by x2.
 
 
 # Sam Altman Person
@@ -171,10 +169,18 @@ layout: page
  See also [S], ...
 
 
-# Scaled Dot-Product Attention
+# Scaled Dot-Product
+# SDP
 
  * Scaled => kind of a normalization
  * Dot-product = kind of similarity measure (cosine similarity)
+
+ See also [S], ...
+
+
+# Scaled Dot-Product Attention
+# SDP Attention
+
  * attention = kind of a weighted sum, with attention weights (tensor)
 
  {% youtube "https://www.youtube.com/watch?v=PFczJ6NR5rY" %}
@@ -304,6 +310,32 @@ StandardScaler()
  See also [S], [Dataset]
 
 
+# Secure AI Framework
+# SAIF
+ 
+ ~ a security framework for AI models developed by [Google] 
+
+ The potential of AI, especially generative AI, is immense. As innovation moves forward, the industry needs security standards for building and deploying AI responsibly. That’s why we introduced the Secure AI Framework (SAIF), a conceptual framework to secure AI systems.
+
+ SAIF is designed to address top-of-mind concerns for security professionals, such as AI/ML model risk management, security, and privacy — helping to ensure that when AI models are implemented, they are secure-by-default.
+
+ * Expand strong security foundations to the AI ecosystem
+ * Extend detection and response to bring AI into an organization’s threat universe
+ * Automate defenses to keep pace with existing and new threats
+ * Harmonize platform level controls to ensure consistent security across the organization
+ * Adapt controls to adjust mitigations and create faster feedback loops for AI deployment
+ * Contextualize AI system risks in surrounding business processes
+
+ {% pdf "https://services.google.com/fh/files/blogs/google_secure_ai_framework_summary.pdf" %}
+ {% pdf "https://services.google.com/fh/files/blogs/google_secure_ai_framework_approach.pdf" %}
+
+ More at:
+  * site - [https://safety.google/cybersecurity-advancements/saif/](https://safety.google/cybersecurity-advancements/saif/)
+  * announcement - [https://blog.google/technology/safety-security/introducing-googles-secure-ai-framework/](https://blog.google/technology/safety-security/introducing-googles-secure-ai-framework/)
+
+ See also [S], ...
+
+
 # Segformer Model
 
  Semantic image segmentation with transformers. Developed by [Nvidia]
@@ -347,6 +379,7 @@ StandardScaler()
  {% youtube "https://www.youtube.com/watch?v=PFczJ6NR5rY" %}
 
  More at:
+  * code explanation - [https://nlp.seas.harvard.edu/annotated-transformer/](https://nlp.seas.harvard.edu/annotated-transformer/)
   * [https://towardsdatascience.com/self-attention-5b95ea164f61](https://towardsdatascience.com/self-attention-5b95ea164f61)
 
  See also [S], [Attention], [Attention-Based Model], [Masked Self-Attention], [Multi-Head Attention], [Scaled Dot-Product Attention]
@@ -354,9 +387,9 @@ StandardScaler()
 
 # Self-Consistency Prompting
 
- ~ a [prompt engineering technique] that improves over [Chain Of Thought (COT)][COT] prompting
+ ~ a [prompt engineering technique] that improves over [Chain-Of-Thought (COT) prompting][COT]
 
- Self-consistency aims "to replace the naive greedy decoding used in chain-of-thought prompting". The idea is to sample multiple, diverse reasoning paths through few-shot CoT, and use the generations to select the most consistent answer. This helps to boost the performance of CoT prompting on tasks involving arithmetic and commonsense reasoning.
+ Self-consistency aims "to replace the naive greedy decoding used in chain-of-thought prompting". The idea is to sample multiple, diverse reasoning paths through few-shot [CoT], and use the generations to select the most consistent answer. This helps to boost the performance of [CoT prompting] on tasks involving arithmetic and commonsense reasoning.
 
  ```
 Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done,
@@ -418,6 +451,11 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
  This is being researched now.
 
  For what I understand, the model is using "instabilities" ... whatever that means!
+
+ See also [S], ...
+
+
+# Self-Driving Car
 
  See also [S], ...
 
@@ -492,8 +530,11 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
 
 
 # Self-Supervised Learning
+# SSL
 
- `~ automatic generation of labels from the unlabelled input data.` A type of learning that does not need labels to be applied by humans. The training dataset is generated from the data. Examples:
+ ~ a form of unsupervised learning, where manually labeled data is not needed. Raw data is instead modified in an automated way to create artificial labels to learn from. An example of SSL is learning to complete text by masking random words in a sentence and trying to predict the missing ones.
+
+ ~ automatic generation of labels from the unlabelled input data.` A type of learning that does not need labels to be applied by humans. The training dataset is generated from the data. Examples:
    * [Next word prediction] - "she planned to visit the"
    * [Masked Language Modeling] - "Alice chased the ____ rabbit and fell down the ____ into a new world."
    * Replaced word detection : "The cat pounced on the carrot"
@@ -630,6 +671,15 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
  See also [S], [Benchmark], [Natural Language Processing]
 
 
+# Sequence Model
+
+ Map one sequence to a similar sequence
+
+ ![]( {{site.assets}}/s/sequence_model.png ){: width="100%}
+
+ See also [S], [Convolutional Neural Network], [Neural ODE], [Recurrent Neural Network], [Transformer Architecture]
+
+
 # Sequence To Sequence Model
 # Seq2Seq Model
 
@@ -660,6 +710,13 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
  ![]( {{site.assets}}/s/sequence_to_sequence_transformer.png ){: width="100%}
 
  See also [S], [Decoder], [Encoder], [Encoder-Decoder Model]
+
+
+# Sequential Data
+
+ ![]( {{site.assets}}/s/sequential_data.png ){: width="100%}
+
+ See also [S], ...
 
 
 # Serialized Flat File
@@ -909,6 +966,17 @@ Siri is a spin-off from a project developed by the SRI International Artificial 
  See also [S], [Snorkel Program]
 
 
+# Slidego
+
+ Free templates for Google Slides and PowerPoint
+
+ More at:
+  * site - [https://slidesgo.com/](https://slidesgo.com/)
+  * [https://slidesgo.com/slidesgo-school/google-slides-tutorials/how-to-add-or-change-themes-in-google-slides](https://slidesgo.com/slidesgo-school/google-slides-tutorials/how-to-add-or-change-themes-in-google-slides)
+
+ See also [S}, ...
+
+
 # Small Language Model
 # SLM
 
@@ -1126,6 +1194,16 @@ As a trader, I want to create an application that lets me customize and viualize
  Relates to how an object is represented. In pixel space, an image consist of pixels or pixel parameters (e.g RGB + position). In a latent space, images are encoded and represented by a different tensor. Each time an object is represented differently, that transition make be lossy or lossless.
 
  See also [S], [Latent Space], [Pixel Space]
+
+
+# Sparcity
+
+ Sparsity uses the idea of conditional computation. While in dense models all the parameters are used for all the inputs, sparsity allows us to only run some parts of the whole system.
+
+ More at:
+  * [https://github.com/huggingface/blog/blob/main/moe.md#what-is-sparsity](https://github.com/huggingface/blog/blob/main/moe.md#what-is-sparsity)
+
+ See also [S], [Mixture Of Experts]
 
 
 # Sparrow Model
@@ -1346,8 +1424,10 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
 
 # Stanford University
 
- * [AI in Medicine and Imaging](https://aimi.stanford.edu/) or AIMI
-   * blog - [https://aimi.stanford.edu/blog](https://aimi.stanford.edu/blog)
+ * Medical applications
+   * AIMI or [AI in Medicine and Imaging](https://aimi.stanford.edu/) or AIMI
+     * blog - [https://aimi.stanford.edu/blog](https://aimi.stanford.edu/blog)
+   * QIAI or [Quantitative Imaging and Artificial Intelligence](https://rubinlab.stanford.edu/) - Daniel L. Rubin, MD, MS
  * [Autonomous lab agent](https://www.autonomousagents.stanford.edu/)
  * CRFM or [Center for Research on Foundation Model](https://crfm.stanford.edu/)
  * [Neuroscience](https://neuroscience.stanford.edu/)
@@ -1359,11 +1439,16 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
 
  * Collaboration
    * [MedAI Group Exchange](https://stanford-medai.github.io/)
+     * mailing list - [https://mailman.stanford.edu/mailman/listinfo/medai_announce](https://mailman.stanford.edu/mailman/listinfo/medai_announce)
 
  * Assets
    * Algorithms
      * [GloVe] - vector representations for words
    * Models
+
+ {% youtube "https://www.youtube.com/watch?v=4W2kXBBFDw4" %}
+
+ {% youtube "https://www.youtube.com/watch?v=se4CQ5UZXaM" %}
 
  See also [S], ...
 
@@ -1398,6 +1483,20 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
   * ...
 
  See also [S], [Objective Function]
+
+
+# State Space Model
+# SSM
+
+ ![]( {{site.assets}}/s/state_space_model.png ){: width="100%}
+
+ More at:
+  * wikipedia - [https://en.wikipedia.org/wiki/State-space_representation](https://en.wikipedia.org/wiki/State-space_representation)
+  * articles
+    * SSM with S4 Model - [https://srush.github.io/annotated-s4/#part-1-state-space-models](https://srush.github.io/annotated-s4/#part-1-state-space-models)
+    * SSM - [https://hazyresearch.stanford.edu/blog/2022-01-14-s4-3](https://hazyresearch.stanford.edu/blog/2022-01-14-s4-3)
+
+ See also [S], ...
 
 
 # State Transition
@@ -1646,6 +1745,31 @@ II n summary, probability is focused on the theoretical study of random events, 
  See also [S], [Unstructured Pruning]
 
 
+# Structure State Space Sequence Model
+# S4 Model
+
+ ~ a new [sequence model] based on the state space model that is continuous-time in nature, excels at modeling long dependencies, and is very computationally efficient. Explicitly trained to work on long sequences
+
+ A central goal of sequence modeling is designing a single principled model that can address sequence data across a range of modalities and tasks, particularly on long-range dependencies. Although conventional models including [RNNs], [CNNs], and [Transformers] have specialized variants for capturing long dependencies, they still struggle to scale to very long sequences of 10000 or more steps. A promising recent approach proposed modeling sequences by simulating the fundamental [state space model (SSM)][SSM] \( x'(t) = Ax(t) + Bu(t), y(t) = Cx(t) + Du(t) \), and showed that for appropriate choices of the state matrix \( A \), this system could handle long-range dependencies mathematically and empirically. However, this method has prohibitive computation and memory requirements, rendering it infeasible as a general sequence modeling solution. We propose the Structured State Space sequence model (S4) based on a new parameterization for the [SSM], and show that it can be computed much more efficiently than prior approaches while preserving their theoretical strengths. Our technique involves conditioning \( A \) with a low-rank correction, allowing it to be diagonalized stably and reducing the [SSM] to the well-studied computation of a Cauchy kernel. S4 achieves strong empirical results across a diverse range of established benchmarks, including (i) 91\% accuracy on sequential [CIFAR-10] with no data augmentation or auxiliary losses, on par with a larger 2-D [ResNet], (ii) substantially closing the gap to Transformers on image and language modeling tasks, while performing generation 60× faster (iii) [SoTA] on every task from the Long Range Arena benchmark, including solving the challenging Path-X task of length 16k that all prior work fails on, while being as efficient as all competitors.
+
+ ![]( {{site.assets}}/s/structured_state_space_sequence_model.png ){: width="100%}
+
+ {% youtube "https://www.youtube.com/watch?v=luCBXCErkCs" %}
+
+ {% pdf "https://arxiv.org/pdf/2111.00396.pdf" %}
+
+ More at:
+  * explanation - [https://srush.github.io/annotated-s4/](https://srush.github.io/annotated-s4/)
+  * paper - [https://arxiv.org/abs/2111.00396](https://arxiv.org/abs/2111.00396)
+  * code - [https://github.com/state-spaces/s4](https://github.com/state-spaces/s4)
+  * articles
+    * [https://hazyresearch.stanford.edu/blog/2022-01-14-s4-1](https://hazyresearch.stanford.edu/blog/2022-01-14-s4-1)
+    * [https://hazyresearch.stanford.edu/blog/2022-01-14-s4-2](https://hazyresearch.stanford.edu/blog/2022-01-14-s4-2)
+    * [https://hazyresearch.stanford.edu/blog/2022-01-14-s4-3](https://hazyresearch.stanford.edu/blog/2022-01-14-s4-3)
+
+ See also [S], ...
+
+
 # Style GAN
 
  Other GANs focused on improving the discriminator in this case we improve the generator. This GAN generates by taking a reference picture.
@@ -1678,6 +1802,18 @@ II n summary, probability is focused on the theoretical study of random events, 
  As given in the above figure we observe that the Generator network and Discriminator both make use of Convolutional layers , the Generator make use of the Parametric Rectified Linear Unit (ReLU) as the activation function whereas the Discriminator uses the Leaky-ReLU.
 
  See also [S], [Generative Adversarial Network], [Rectified Linear Unit Activation Function]
+
+
+# Superalignment
+
+ We need scientific and technical breakthroughs to steer and control AI systems much smarter than us. To solve this problem within four years, we’re starting a new team, co-led by [Ilya Sutskever] and [Jan Leike], and dedicating 20% of the compute we’ve secured to date to this effort. We’re looking for excellent ML researchers and engineers to join us.
+
+ {% youtube "https://www.youtube.com/watch?v=Ft0gTO2K85A" %}
+
+ More at:
+  * [https://openai.com/blog/introducing-superalignment](https://openai.com/blog/introducing-superalignment)
+
+ See also [S], ...
 
 
 # SuperGLUE Benchmark
@@ -1907,5 +2043,23 @@ II n summary, probability is focused on the theoretical study of random events, 
 
  More at:
   * ...
+
+ See also [S], ...
+
+
+# System Prompt
+
+ A system prompt is always included in all new contexts/requests?
+
+ Includes
+  * name
+  * background
+  * experience
+  * behavior
+  * ...
+
+ {% youtube "https://www.youtube.com/watch?v=t94s5apFres" %}
+
+ {% youtube "https://www.youtube.com/watch?v=zNACfPuaqaI" %}
 
  See also [S], ...
