@@ -1327,6 +1327,26 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
  See also [D], ...
 
 
+# DreamBooth Model
+
+ ~ a fine-tuned model to incorporate an object or person in your image generation when using a diffusion model.
+
+ ~ It’s like a photo booth, but once the subject is captured, it can be synthesized wherever your dreams take you…
+
+ * developed at [Google]
+
+ {% youtube "https://www.youtube.com/watch?v=dVjMiJsuR5o" %}
+
+ {% pdf "https://arxiv.org/pdf/2208.12242.pdf" %}
+
+ More at:
+  * site - [https://dreambooth.github.io/](https://dreambooth.github.io/)
+  * paper - [https://arxiv.org/abs/2208.12242](https://arxiv.org/abs/2208.12242)
+  * wikipedia - [https://en.wikipedia.org/wiki/DreamBooth](https://en.wikipedia.org/wiki/DreamBooth)
+
+ See alsop [D], ...
+
+
 # DreamFusion Model
 
  Text-to-3D using 2D Diffusion built by [Google]
@@ -1435,6 +1455,32 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
   * MMV
 
  ![]( {{site.assets}}/d/dual_encoder_contrastive_model.png ){: width="100%"}
+
+ See also [D], ...
+
+
+# Dummy Variable
+
+ If a column is gender with 2 values (male, female), ==> introduce the dummy variable G with G=0 for male and G=1 for female.
+
+ Do not introduce 2 dummy variables, otherwise you will experience the [dummy variable trap] !
+
+ {% youtube "https://www.youtube.com/watch?v=IXWKAuNnisw" %}
+
+ See also [D], [Dummy Variable Trap], [One-Hot Encoding]
+
+
+# Dummy Variable Trap
+
+ ~ When regression cannot run because of multicollinearity
+
+ If M category, introduce (M-1) [dummy variables]
+
+ Ex: [One-hot encoding]
+
+ {% youtube "https://www.youtube.com/watch?v=qrWx3OjZL3o" %}
+
+ {% youtube "https://www.youtube.com/watch?v=VfW0SXiyzuA" %}
 
  See also [D], ...
 

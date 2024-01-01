@@ -41,6 +41,8 @@
 [CIFAR Dataset]: {{ site.baseurl }}{% link glossary/c.md %}#cifar-dataset
 [CIFAR Datasets]: {{ site.baseurl }}{% link glossary/c.md %}#cifar-dataset
 [CIFAR]: {{ site.baseurl }}{% link glossary/c.md %}#cifar-dataset
+[CIFAR-10]: {{ site.baseurl }}{% link glossary/c.md %}#cifar-dataset
+[CIFAR-100]: {{ site.baseurl }}{% link glossary/c.md %}#cifar-dataset
 [Classification]: {{ site.baseurl }}{% link glossary/c.md %}#classification
 [Classification Report]: {{ site.baseurl }}{% link glossary/c.md %}#classification-report
 [Claude Model]: {{ site.baseurl }}{% link glossary/c.md %}#claude-model
@@ -88,6 +90,8 @@
 [CLIP Model]: {{ site.baseurl }}{% link glossary/c.md %}#contrastive-language-image-pre-training-model
 [Contrastive Learning]: {{ site.baseurl }}{% link glossary/c.md %}#contrastive-learning
 [Contrastive Loss Function]: {{ site.baseurl }}{% link glossary/c.md %}#contrastive-loss-function
+[ControlNet External Network]: {{ site.baseurl }}{% link glossary/c.md %}#controlnet-external-network
+[ControlNet]: {{ site.baseurl }}{% link glossary/c.md %}#controlnet-external-network
 [Control System]: {{ site.baseurl }}{% link glossary/c.md %}#control-system
 [Control Systems]: {{ site.baseurl }}{% link glossary/c.md %}#control-system
 [Convergence]: {{ site.baseurl }}{% link glossary/c.md %}#convergence
@@ -124,6 +128,7 @@
 [Cross-Entropy]: {{ site.baseurl }}{% link glossary/c.md %}#cross-entropy
 [Cross-Entropy Loss Function]: {{ site.baseurl }}{% link glossary/c.md %}#cross-entropy-loss-function
 [Cross-Validation Sampling Method]: {{ site.baseurl }}{% link glossary/c.md %}#cross-validation-sampling-method
+[Cross-Validation]: {{ site.baseurl }}{% link glossary/c.md %}#cross-validation-sampling-method
 [Cruise Company]: {{ site.baseurl }}{% link glossary/c.md %}#cruise-company
 [Cruise]: {{ site.baseurl }}{% link glossary/c.md %}#cruise-company
 [Cubic Regression]: {{ site.baseurl }}{% link glossary/c.md %}#cubic-regression

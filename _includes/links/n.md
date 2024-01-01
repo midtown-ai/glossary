@@ -51,6 +51,7 @@
 [Neural Machine Translation]: {{ site.baseurl }}{% link glossary/n.md %}#neural-machine-translation
 [NMT]: {{ site.baseurl }}{% link glossary/n.md %}#neural-machine-translation
 [Neural Network]: {{ site.baseurl }}{% link glossary/n.md %}#neural-network
+[Neural Networks]: {{ site.baseurl }}{% link glossary/n.md %}#neural-network
 [Neural Network Interpretability]: {{ site.baseurl }}{% link glossary/n.md %}#neural-network-interpretability
 [Neural Ordinary Differential Equation]: {{ site.baseurl }}{% link glossary/n.md %}#neural-ordinary-differential-equation
 [Neural Ordinary Differential Equations]: {{ site.baseurl }}{% link glossary/n.md %}#neural-ordinary-differential-equation

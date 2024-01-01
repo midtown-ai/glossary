@@ -278,6 +278,31 @@ layout: page
  See also [C], [Chatbot], [Digital Watermark], [Feedback], [Plagiarism Checker], [Reward Model], [Reinforcement Learning], [Sparrow Model]
 
 
+# ChatGPT Plugin
+
+ Give external tools to [ChatGPT]
+
+ ```
+# CANVA
+Create 2 social media posts that educate my target audience, females ages 30-40 located in Canada, on how wearing sustainable fashion in the winter is better for the environment. Make sure to include an image template, text to go on the image post and text for the caption.
+ ```
+
+ ```
+# 2 linkReader + 1 Canva plugin calls
+Links
+* https://paloalto.midtown.ai/tracks/aws-deepracer-league
+* https://aws.amazon.com/deepracer/
+Create 2 social media posts that educate my target audience, male high-schoolers ages 15-18 located in Palo Alto, CA, on the best way to compete in the student AWS DeepRacer League is by joining the Midtown AI club. Make sure to include an image template, text to go on the image post and text for the caption.
+ ```
+
+ {% youtube "https://www.youtube.com/watch?v=_hD-x1ctWaw" %}
+
+ More at:
+  * ...
+
+ See also [C], ...
+
+
 # Child Development Milestone
 
  Skills such as taking a first step, smiling for the first time, and waving “bye bye” are called developmental milestones. Children reach milestones in how they play, learn, speak, act, and move.
@@ -608,8 +633,15 @@ print(query_result)
 
 # Common Sense
 
+ * Theory of Mind
+ * Social common sense 
+ * Physical common sense
+ * Visual common sense
+ * Norms and morals
+
  More at:
   * [https://bdtechtalks.com/2022/08/08/machines-like-us-review/](https://bdtechtalks.com/2022/08/08/machines-like-us-review/)
+  * TED talk - [https://www.ted.com/talks/yejin_choi_why_ai_is_incredibly_smart_and_shockingly_stupid](https://www.ted.com/talks/yejin_choi_why_ai_is_incredibly_smart_and_shockingly_stupid)
 
  See also [C], ...
 
@@ -668,7 +700,7 @@ print(query_result)
   * [Neeva](https://neeva.com/) - Personalized search engine
   * [Neptune AI] -
   * [Neuralink] - A company lead by [Elon Musk] that is focusing on human [Brain] Machine Interfaces
-  * [OpenAI] - Focus on democratizing AI. Known for releasing [ChatGPT][ChatGPT Model]
+  * [OpenAI] - Focus on democratizing AI. Known for releasing [ChatGPT]
   * [Pachama](https://pachama.com/) - Forestry satellite data analysis
   * [PathAI](https://www.pathai.com/) - Drug discovery and diagnosis
   * [PolyAI](https://poly.ai/) - Voice chatbots
@@ -720,6 +752,8 @@ print(query_result)
   * [Chegg](https://www.chegg.com) - AI assistant called [CheegMate](https://www.chegg.com/cheggmate)
   * [Duolingo](https://www.duolingo.com) - Learn a language with role play with [Duolingo Max](https://blog.duolingo.com/duolingo-max/)
   * [Khan Academy](https://www.khanacademy.org) - AI assistant called [Khanmigo](https://www.khanacademy.org/khan-labs)
+  * [Kuros AI](https://www.kyros.ai/) - College prep
+    * strategy planning + personal qualities + academic fitness/alignment + communication and organization + ExtraCurricular activities fitness/alignment + Applications
   * [Magic School AI](https://app.magicschool.ai/) - help teachers create a lesson plan. Assistant is called Raina
   * [Pearson](https://www.pearson.com/en-us.html) - Not bot yet! Still in denial?
 
@@ -1003,6 +1037,28 @@ print(query_result)
  Control systems are a set of devices, components, and algorithms designed to regulate and manipulate the behavior of dynamic systems. These systems can be mechanical, electrical, chemical, or biological in nature. Control systems aim to maintain desired outputs or states by continuously monitoring and adjusting inputs or control signals. They play a crucial role in [automation], [robotics], manufacturing, and various other fields.
 
  See also [C], ...
+
+
+# ControlNet External Network
+
+ ~ diffusion model + prompt + DEPTH MAP/CONDITIONAL INPUT ==> image ! (without retraining the diffusion model)
+
+ :warning: diffusion model is frozen
+
+ :warning: the external model takes the DEPTH MAP/CONDITIONAL INPUT
+
+ We present ControlNet, a neural network architecture to add spatial conditioning controls to large, pretrained text-to-image diffusion models. ControlNet locks the production-ready large diffusion models, and reuses their deep and robust encoding layers pretrained with billions of images as a strong backbone to learn a diverse set of conditional controls. The neural architecture is connected with "zero convolutions" (zero-initialized convolution layers) that progressively grow the parameters from zero and ensure that no harmful noise could affect the finetuning. We test various conditioning controls, eg, edges, depth, segmentation, human pose, etc, with Stable Diffusion, using single or multiple conditions, with or without prompts. We show that the training of ControlNets is robust with small (<50k) and large (>1m) datasets. Extensive results show that ControlNet may facilitate wider applications to control image diffusion models.
+
+ {% youtube "https://www.youtube.com/watch?v=G8UAMmZFsVI" %}
+
+ {% youtube "https://www.youtube.com/watch?v=fhIGt7QGg4w" %}
+
+ {% pdf "https://arxiv.org/pdf/2302.05543.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2302.05543](https://arxiv.org/abs/2302.05543)
+
+ See also [C], [Hypernetwork Architecture]
 
 
 # Convolution
@@ -1368,11 +1424,17 @@ pyplot.show()
 
 # Cross-Entropy
 
+ used as a loss function in a classifier
+
  ```
 Likelihood of sequence = P(X) = product_of ( P(i=0,t,x_i/x_<i)
 
 Cross_entropy = - log(P(X)) / t
  ```
+
+ {% youtube "https://www.youtube.com/watch?v=6ArSys5qHAU" %}
+
+ {% youtube "https://www.youtube.com/watch?v=ErfnhcEV1O8" %}
 
  See also [C], [Cross-Entropy Loss Function], [Entropy], [Perplexity]
 
@@ -1427,12 +1489,12 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
  = to merge in [k-fold cross validation]?
 
- Cross-validation is a powerful preventative measure against overfitting. The idea is clever: Use your initial training data to generate multiple mini train-test splits. Use these splits to tune your model. In standard k-fold cross-validation, we partition the data into k subsets, called folds. Then, we iteratively train the algorithm on k-1 folds while using the remaining fold as the test set (called the “holdout fold”). Cross-validation allows you to tune hyperparameters with only your original training set. This allows you to keep your test set as a truly unseen dataset for selecting your final model.
+ Cross-validation is a powerful preventative measure against [overfitting]. The idea is clever: Use your initial training data to generate multiple mini train-test splits. Use these splits to tune your model (eg complexity). In standard k-fold cross-validation, we partition the data into k subsets, called folds. Then, we iteratively train the algorithm on k-1 folds while using the remaining fold as the test set (called the “holdout fold”). Cross-validation allows you to tune [hyperparameters] with only your original training set. This allows you to keep your test set as a truly unseen dataset for selecting your final model.
 
  More at:
    * ...
 
- See also [C], [Dataset], [Development Subset], [Holdout Fold], [Resampling Method], [Testing Subset], [Training Subset]
+ See also [C], [Dataset], [Development Subset], [Holdout Fold], [Resampling Method], [Testing Subset], [Training Subset], [Validation Set]
 
 
 # Cruise Company

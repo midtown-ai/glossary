@@ -14,6 +14,7 @@
 [Waymo]: {{ site.baseurl }}{% link glossary/w.md %}#waymo-company
 [Weak AI]: {{ site.baseurl }}{% link glossary/w.md %}#weak-ai
 [Weak Learner]: {{ site.baseurl }}{% link glossary/w.md %}#weak-learner
+[Weak Learners]: {{ site.baseurl }}{% link glossary/w.md %}#weak-learner
 [Weak-Supervised Learning]: {{ site.baseurl }}{% link glossary/w.md %}#weak-supervised-learning
 [Weak Supervision Labeling Function]: {{ site.baseurl }}{% link glossary/w.md %}#weak-supervision-labeling-function
 [Web Scraping]: {{ site.baseurl }}{% link glossary/w.md %}#web-scraping
@@ -30,6 +31,8 @@
 [Wikidata Knowledge Graph]: {{ site.baseurl }}{% link glossary/w.md %}#wikidata-knowledge-graph
 [Wikidata KG]: {{ site.baseurl }}{% link glossary/w.md %}#wikidata-knowledge-graph
 [Wikidata]: {{ site.baseurl }}{% link glossary/w.md %}#wikidata-knowledge-graph
+[WizardLM Model]: {{ site.baseurl }}{% link glossary/w.md %}#wizardlm-model
+[WizardLM]: {{ site.baseurl }}{% link glossary/w.md %}#wizardlm-model
 [Wonder Dynamics Company]: {{ site.baseurl }}{% link glossary/w.md %}#wonder-dynamics-company
 [Wonder Dynamics]: {{ site.baseurl }}{% link glossary/w.md %}#wonder-dynamics-company
 [Word Embedding]: {{ site.baseurl }}{% link glossary/w.md %}#word-embedding

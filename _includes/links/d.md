@@ -125,6 +125,7 @@
 [Disentangled Variational Autoencoder]: {{ site.baseurl }}{% link glossary/d.md %}#disentangled-variational-autoencoder
 [Beta-VAE]: {{ site.baseurl }}{% link glossary/d.md %}#beta-vae
 [DistilBert Model]: {{ site.baseurl }}{% link glossary/d.md %}#distilbert-model
+[DistilBert]: {{ site.baseurl }}{% link glossary/d.md %}#distilbert-model
 [Distributed Training]: {{ site.baseurl }}{% link glossary/d.md %}#distributed-training
 [Distribution]: {{ site.baseurl }}{% link glossary/d.md %}#distribution
 [Distributional Reinforcement Learning]: {{ site.baseurl }}{% link glossary/d.md %}#distributional-reinforcement-learning
@@ -137,6 +138,7 @@
 [Double Q Network]: {{ site.baseurl }}{% link glossary/d.md %}#double-q-network
 [Downstream Task]: {{ site.baseurl }}{% link glossary/d.md %}#downstream-task
 [DragGAN Model]: {{ site.baseurl }}{% link glossary/d.md %}#draggan-model
+[DreamBooth Model]: {{ site.baseurl }}{% link glossary/d.md %}#dreambooth-model
 [DreamFusion Model]: {{ site.baseurl }}{% link glossary/d.md %}#dreamfusion-model
 [DreamIX Model]: {{ site.baseurl }}{% link glossary/d.md %}#dreamix-model
 [Dropout]: {{ site.baseurl }}{% link glossary/d.md %}#dropout
@@ -146,6 +148,8 @@
 [Dropout Ratio]: {{ site.baseurl }}{% link glossary/d.md %}#dropout-ratio
 [Dropout Regularization]: {{ site.baseurl }}{% link glossary/d.md %}#dropout-regularization
 [Dual-Encoder Contrastive Model]: {{ site.baseurl }}{% link glossary/d.md %}#dual-encoder-contrastive-model
+[Dummy Variable]: {{ site.baseurl }}{% link glossary/d.md %}#dummy-variable
+[Dummy Variable Trap]: {{ site.baseurl }}{% link glossary/d.md %}#dummy-variable-trap
 [Dying Relu Problem]: {{ site.baseurl }}{% link glossary/d.md %}#dying-relu-problem
 [Dyna Model]: {{ site.baseurl }}{% link glossary/d.md %}#dyna-model
 [Dyna]: {{ site.baseurl }}{% link glossary/d.md %}#dyna-model

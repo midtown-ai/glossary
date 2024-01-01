@@ -188,6 +188,8 @@
 [Stretch]: {{ site.baseurl}}{% link glossary/s.md %}#stretch-robot
 [Strong Artificial Intelligence]: {{ site.baseurl}}{% link glossary/s.md %}#strong-artificial-intelligence
 [Strong AI]: {{ site.baseurl}}{% link glossary/s.md %}#strong-ai
+[Strong Learner]: {{ site.baseurl}}{% link glossary/s.md %}#strong-learner
+[Strong Learners]: {{ site.baseurl}}{% link glossary/s.md %}#strong-learner
 [Structured Data]: {{ site.baseurl}}{% link glossary/s.md %}#structured-data
 [Structured Pruning]: {{ site.baseurl}}{% link glossary/s.md %}#structured-pruning
 [Structured State Space Sequence Model]: {{ site.baseurl}}{% link glossary/s.md %}#structured-state-space-sequence-model

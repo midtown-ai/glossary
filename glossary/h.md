@@ -415,6 +415,20 @@ Overall, Hugging Face's products and services are designed to make NLP more acce
  See also [H], ...
 
 
+# Hypernetwork Architecture
+
+ ~ an alternative to [supervised fine-tuning (SFT)][SFT] and [preft] with [lora] which consist of using an external model!
+
+ This architecture has been used by [ControlNet]
+
+ {% youtube "https://www.youtube.com/watch?v=dVjMiJsuR5o" %}
+
+ More at:
+   * ...
+
+ See also [H], [ControlNet External Network]
+
+
 # Hyperparameter
 
  * Parameters not directly learned by learning algorithm

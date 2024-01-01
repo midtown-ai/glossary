@@ -7,6 +7,7 @@
 [Random Cut Forest]: {{site.baseurl}}{% link glossary/r.md %}#random-cut-forest
 [RCF]: {{site.baseurl}}{% link glossary/r.md %}#random-cut-forest
 [Random Forest]: {{site.baseurl}}{% link glossary/r.md %}#random-forest
+[Random Forests]: {{site.baseurl}}{% link glossary/r.md %}#random-forest
 [Random Sample Consensus Algorithm]: {{site.baseurl}}{% link glossary/r.md %}#random-sample-consensus-algorithm
 [RANSAC Algorithm]: {{site.baseurl}}{% link glossary/r.md %}#random-sample-consensus-algorithm
 [RANSAC]: {{site.baseurl}}{% link glossary/r.md %}#random-sample-consensus-algorithm
@@ -86,6 +87,7 @@
 [Reranking]: {{site.baseurl}}{% link glossary/r.md %}#reranking
 [Resample]: {{site.baseurl}}{% link glossary/r.md %}#resample
 [Resampling Method]: {{site.baseurl}}{% link glossary/r.md %}#resampling-method
+[Reshaping]: {{site.baseurl}}{% link glossary/r.md %}#reshaping
 [Residual]: {{site.baseurl}}{% link glossary/r.md %}#residual
 [Residual Block]: {{site.baseurl}}{% link glossary/r.md %}#residual-block
 [Residual Network Model]: {{site.baseurl}}{% link glossary/r.md %}#residual-network-model
@@ -122,6 +124,7 @@
 [Reward Shaping]: {{site.baseurl}}{% link glossary/r.md %}#reward-shaping
 [Reward Trap]: {{site.baseurl}}{% link glossary/r.md %}#reward-trap
 [Ridge Regression]: {{site.baseurl}}{% link glossary/r.md %}#ridge-regression
+[Ridge Regression Penalty]: {{site.baseurl}}{% link glossary/r.md %}#ridge-regression-penalty
 [Riffusion Model]: {{site.baseurl}}{% link glossary/r.md %}#riffusion-model
 [Riva Model]: {{site.baseurl}}{% link glossary/r.md %}#riva-model
 [Robot]: {{site.baseurl}}{% link glossary/r.md %}#robot

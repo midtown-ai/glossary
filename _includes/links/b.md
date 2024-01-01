@@ -72,7 +72,9 @@
 [Boltzmann Machine]: {{ site.baseurl }}{% link glossary/b.md %}#boltzmann-machine
 [Boosting]: {{ site.baseurl }}{% link glossary/b.md %}#boosting
 [Boosting Step Size]: {{ site.baseurl }}{% link glossary/b.md %}#boosting-step-size
-[Boosting Sampling Method]: {{ site.baseurl }}{% link glossary/b.md %}#boosting-sampling-method
+[Bootstrap Sampling Method]: {{ site.baseurl }}{% link glossary/b.md %}#bootstrap-sampling-method
+[Bootstrap Sampling]: {{ site.baseurl }}{% link glossary/b.md %}#bootstrap-sampling-method
+[Bootstrap]: {{ site.baseurl }}{% link glossary/b.md %}#bootstrap-sampling-method
 [Boston Dynamics Company]: {{ site.baseurl }}{% link glossary/b.md %}#boston-dynamics-company
 [Boston Dynamics]: {{ site.baseurl }}{% link glossary/b.md %}#boston-dynamics-company
 [Box Cox Transformation]: {{ site.baseurl }}{% link glossary/b.md %}#box-cox-transformation

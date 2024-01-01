@@ -33,6 +33,19 @@ layout: page
 
  Aka score. In regression, indicates that a large proportion of the variance in the test instances' prices is explained by the model. Test is a new dataset not used in the model.
 
+ ```
+                     Var(mean) - Var(best-line-fit)              <== always positive
+R-square = R^2 = -------------------------------------
+                           Var(mean)                             <== make R^2 between and 1 (and a %)
+
+ ```
+
+ Interpretations:
+  * There is R^2 % less variation around the best-fit-line than the mean
+  * The weigth of this input parameter (size/weight relationship) accounts for R^2 % of the variation
+
+ {% youtube "https://www.youtube.com/watch?v=bMccdk8EdGo" %}
+
  See also [R], [Regression]
 
 
@@ -509,37 +522,53 @@ Beware:
 
 # Regularization
 
- Force a 'simpler model' to avoid memorizing training data, aka [overfitting].
+ Force a 'simpler model' to avoid memorizing training data, aka [overfitting] and encourage generalization!.
 
  There is an approach that prefers some [bias] over high [variance], this approach is called regularization. It works well for most of the [classification] / [regression] problems.
 
- * L1 regularization, aka [Lasso Regression]
-   * Adds the absolute values of the coefficients as a penalty term to the [loss function].
-   * Encourages [sparsity] in the model by driving some of the coefficients to exactly zero.
-   * Useful for [feature selection] as it tends to eliminate less important [features].
- * L2 regularization, aka [Ridge Regression]
-   * Adds the squared values of the coefficients as a penalty term to the [loss function].
-   * Encourages the model to have smaller weights overall.
-   * Helps prevent multicollinearity (high correlation between features) and stabilizes the training process.
- * [Elastic Net Regularization]
-   * Combines both L1 and L2 regularization terms.
-   * It has two [hyperparameters] (alpha and l1_ratio) that control the strength of L1 and L2 regularization.
- * [Dropout regularization]
-   * Applied in neural networks, dropout involves randomly setting a fraction of input units to zero during each update of the model.
-   * Helps prevent co-adaptation of units by providing a form of ensemble learning within a single model.
- * [Early stopping]
-   * Monitors the model's performance on a validation set during training and stops the training process when the performance starts to degrade.
-   * Prevents the model from overfitting by terminating training before it becomes too specialized to the training data.
- * [Weight regularization] or weight decay
-   * Adds a penalty term proportional to the sum of the squared weights to the [loss function].
-   * Similar to L2 regularization and helps control the magnitude of the weights.
+ The main ideas is 
+  1. to constrain the model to simplify it (fewer degrees of freedom)
+  2. to add information, aka [data augmentation]
+
+ Methods:
+  * [Lasso Regression], aka L1 regularization
+    * Adds the absolute values of the coefficients as a penalty term to the [loss function].
+    * Encourages [sparsity] in the model by driving some of the coefficients to exactly zero.
+    * Useful for [feature selection] as it tends to eliminate less important [features].
+  * [Ridge Regression], aka L2 regularization
+    * Adds the squared values of the coefficients as a penalty term to the [loss function].
+    * Encourages the model to have smaller weights overall.
+    * Helps prevent multicollinearity (high correlation between features) and stabilizes the training process.
+    * Compare to L1, this method exaggerates the impact of the higher value over smaller values
+  * [Elastic Net Regression]
+    * Combines both L1 and L2 regularization terms.
+    * It has two [hyperparameters] (alpha and l1_ratio) that control the strength of L1 and L2 regularization.
+  * [Dropout regularization] 
+    * Applied in neural networks, dropout involves randomly setting a fraction of input units to zero during each update of the model.
+    * Helps prevent co-adaptation of units by providing a form of ensemble learning within a single model.
+  * [Early stopping]
+    * Monitors the model's performance on a validation set during training and stops the training process when the performance starts to degrade.
+    * Prevents the model from overfitting by terminating training before it becomes too specialized to the training data.
+    * When validation loss increases --> overfitting
+  * [Weight regularization] or weight decay
+    * Adds a penalty term proportional to the sum of the squared weights to the [loss function].
+    * Similar to L2 regularization and helps control the magnitude of the weights.
+  * [Data Augmentation]
+    * Not always possible, but works well with images, etc.
 
  These regularization techniques play a crucial role in preventing [overfitting], improving model generalization, and creating models that perform well on unseen data. The choice of regularization method and [hyperparameter] values depends on the specific characteristics of the dataset and the [machine learning] model being used.
+
+ ![]( {{site.assets}}/r/regularization_l1.png ){: width="100%"}
+ ![]( {{site.assets}}/r/regularization_l2.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=VqKq78PVO9g" %}
+
+ {% youtube "https://www.youtube.com/watch?v=EehRcPo1M-Q" %}
 
  More at:
   * [https://machinelearningmastery.com/introduction-to-regularization-to-reduce-overfitting-and-improve-generalization-error/](https://machinelearningmastery.com/introduction-to-regularization-to-reduce-overfitting-and-improve-generalization-error/)
 
- See also [R], [Bias-Variance Trade-Off]
+ See also [R], [Bias-Variance Trade-Off], [Balanced Fit], [Overfitting], [Underfitting]
 
 
 # Regularization Parameter
@@ -780,6 +809,12 @@ Beware:
 
  See also [R], [Bootstrap Sampling Method], [Cross-Validation Sampling Method], [Jackknife Sampling Method], [Resample]
 
+
+# Reshaping
+
+ Before multiplying a [vector] by a [matrix], we need to reshape the [vector] to have 2 dimensions! Likewise if you want to multiply a [matrix] and a [tensor].
+
+ See also [R], ...
 
 # Residual
 
@@ -1133,10 +1168,35 @@ def reward_function(params):
 
 # Ridge Regression
 
- Used for [Regularization]!
+ ~ aka L2 [Regularization], use this regression when the [linear regression] is [overfitting] ? when you don't have enough training data? when number of training samples is smaller than the number of parameters for which we need to find a value.
+
+ ~ When the sample sizes are relatively small, then Ridge Regression can improve predictions made from new data (i.e. reduce [variance] ) by making the predictions less sensitive to the training data.
+
+ ==> we introduce [bias] (a penalty through the loss function) to get a lower [variance] (better predictions)
+
+ * This is done by reducing the weights or the steepness of the slopes (aka sensitivity to input)
+
+ * lambda = a positive number that define how big is the penalty
+   * lambda >= 0
+   * the higher the lambda the smaller the slope
+   * to find the correct lambda use [cross-validation]
+
+ * Weights cannot exclude useless variables in a model with useless variables (see [lasso regression] for this!)
+ * The ridge is better than the lasso regression in the case where all input variables are meaningful.
+
+ {% youtube "https://www.youtube.com/watch?v=Q81RR3yKn30" %}
+
+ {% youtube "https://www.youtube.com/watch?v=Xm2C_gTAl8c" %}
 
  More at:
   * [https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/](https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/)
+
+ See also [R], ...
+
+
+# Ridge Regression Penalty
+
+ ![]( {{site.assets}}/r/ridge_regression_penalty.png ){: width="100%"}
 
  See also [R], ...
 

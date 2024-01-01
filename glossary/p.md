@@ -33,6 +33,8 @@ layout: page
 
  A [Python module] for importing, transforming, and working with tabular data
 
+ {% youtube "https://www.youtube.com/watch?v=VqKq78PVO9g"  %}
+
  More at:
   * home - [https://pandas.pydata.org/](https://pandas.pydata.org/)
   * user guide - [https://pandas.pydata.org/docs/user_guide/index.html](https://pandas.pydata.org/docs/user_guide/index.html)
@@ -258,9 +260,11 @@ layout: page
  In machine learning, the perceptron (or McCulloch-Pitts neuron) is an algorithm for supervised learning of binary classifiers. A binary classifier is a function which can decide whether or not an input, represented by a vector of numbers, belongs to some specific class.[1] It is a type of linear classifier, i.e. a classification algorithm that makes its predictions based on a linear predictor function combining a set of weights with the feature vector.
 
  More at:
-  * [https://en.wikipedia.org/wiki/Perceptron](https://en.wikipedia.org/wiki/Perceptron)
+  * wikipedia - [https://en.wikipedia.org/wiki/Perceptron](https://en.wikipedia.org/wiki/Perceptron)
+  * book - [https://direct.mit.edu/books/book/3132/PerceptronsAn-Introduction-to-Computational](https://direct.mit.edu/books/book/3132/PerceptronsAn-Introduction-to-Computational)
   * inventor - [https://en.wikipedia.org/wiki/Frank_Rosenblatt](https://en.wikipedia.org/wiki/Frank_Rosenblatt)
-  * book ? - [https://direct.mit.edu/books/book/3132/PerceptronsAn-Introduction-to-Computational](https://direct.mit.edu/books/book/3132/PerceptronsAn-Introduction-to-Computational)
+  * projects
+    * code - [https://subhashhalder.com/posts/machine-learning-hello-world/](https://subhashhalder.com/posts/machine-learning-hello-world/)
 
  See also [P], ...
 
@@ -1229,6 +1233,36 @@ referenced_image_ids?: string[],
  See also [P], ...
 
 
+# Purpose
+
+ Purpose:
+  * what are your strengths 
+    * what are you good at?
+    * what do you want to be good at?
+  * what drives you
+    * what are my interests?
+    * what are my passions?
+  * what impact do you want to have?
+    * self-centered vs helping others?
+    * change me vs change the world!
+    * you are the future!
+
+ More at:
+  * [https://www.stanford2025.com/purpose-learning](https://www.stanford2025.com/purpose-learning)
+
+ See also [P], ...
+
+
+# Purpose Learning
+
+ The reason why you want to learn! What drives you to learn? --> [purpose]
+
+ More at:
+  * [https://www.stanford2025.com/purpose-learning](https://www.stanford2025.com/purpose-learning)
+
+ See also [P], ...
+
+
 # PyBullet
 
  {% youtube "https://www.youtube.com/watch?v=hmV4v_EnB0E" %}
@@ -1320,7 +1354,8 @@ print(user.model_dump())
   * [Pycaret] - A low-code machine learning library
   * [Pydantic] - Turn raw text into objects for validation and more.
   * [PyTorch] - A framework for deep learning
-  * [PyTorch Geometric] - A framework for ML on graph
+    * [PyTorch Geometric] - A framework for ML on graph
+    * [PyTorch Lightning] - An optimized version of PyTorch
   * [Seaborn] - for visualization
   * [TensorFlow] - a framework for deep learning developed by [Google]
 
@@ -1339,6 +1374,20 @@ print(user.model_dump())
 
  More at:
   * docs - [https://pytorch-geometric.readthedocs.io/en/latest/index.html](https://pytorch-geometric.readthedocs.io/en/latest/index.html)
+
+ See also [P], ...
+
+
+# PyTorch Lightning Module
+
+ * [https://www.youtube.com/watch?v=OMDn66kM9Qc](https://www.youtube.com/watch?v=OMDn66kM9Qc)
+
+ {% youtube "https://www.youtube.com/watch?v=OMDn66kM9Qc" %}
+
+ More at:
+  * site - [https://lightning.ai/](https://lightning.ai/)
+  * docs - [https://lightning.ai/docs/pytorch/stable/](https://lightning.ai/docs/pytorch/stable/)
+  * studios - [https://lightning.ai/studios](https://lightning.ai/studios)
 
  See also [P], ...
 

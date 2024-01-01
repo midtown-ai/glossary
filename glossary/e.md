@@ -98,9 +98,15 @@ layout: page
  See also [E], [Eigenvalue], [Matrix], [Synthesized Variable]
 
 
-# Elastic Net Regularization
+# Elastic Net Regression
 
- Used in [Regularization].
+ Used in [Regularization] when you have tons/millions of parameters and you don't know whether to choose the [ridge regression] or the [lasso regression]
+
+ Great when dealing with correlated parameters!
+
+ ![]( {{site.assets}}/e/elastic_net_regression.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=1dKRdX9bfIo" %}
 
  {% pdf "https://hastie.su.domains/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf" %}
 
@@ -108,6 +114,13 @@ layout: page
   * paper - [https://hastie.su.domains/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf](https://hastie.su.domains/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf)
   * [https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/](https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/)
  
+ See also [E], ...
+
+
+# Elastic Net Regression Penalty
+
+ ~ In an elastic net regression, is the term/bias added to the loss function that is equal to the sum of the [ridge regression penalty] and the [lasso regression penalty]
+
  See also [E], ...
 
 
@@ -243,9 +256,17 @@ layout: page
 
  Emergence is when quantitative changes in a system result in qualitative changes in behavior. An ability is emergent if it is not present in smaller models but is present in larger models. For example Theory of Mind would be an example of a spontaneous emergence of an ability in AI. As far as we know, OpenAI engineers did not deliberately implement ToM in GPT. Instead, ToM has emerged spontaneously as a byproduct of GPT being trained to achieve its task: Predict a next word in a sentence. This means that AI can develop surprising abilities without humans explicitly trying to design them. We should think about what abilities may come next! Finally, our study shows the usefulness of applying psychological methods to studying AI. AI models’ increasing complexity prevents us from understanding their functioning and deriving their capabilities directly from their design. This echoes the challenges faced by psychologists and neuroscientists in studying the original black box: the human brain. We hope that psychological science will help us to stay abreast of rapidly evolving AI.
 
- {% pdf "{{site.assets}}/e/emergent_abilities_of_large_language_models_paper.pdf" %}
-
  ![]( {{site.assets}}/e/emergent_abilities_of_large_language_models_table.png ){: width="100%"}
+
+ {% pdf "https://arxiv.org/pdf/2206.07682.pdf" %}
+
+ {% pdf "https://arxiv.org/pdf/2304.15004.pdf" %}
+
+ More at:
+  * emergent
+    * paper - [https://arxiv.org/abs/2206.07682](https://arxiv.org/abs/2206.07682)
+  * not emergent
+    * paper - [https://arxiv.org/abs/2304.15004](https://arxiv.org/abs/2304.15004)
 
  See also [E], [Emergent Ability Distillation], [GPT Model], [Large Language Model]
 
@@ -374,15 +395,20 @@ Research on emotion has increased over the past two decades with many fields con
 
 # Ensemble Method
 
- `Ensemble methods consist of joining several weak learners to build a strong learner.` ~ average the output of several models, such as decision trees?. Ex: aver Ensemble methods, meaning that they use a number of weak classifiers/learner to produce a strong classifier, which usually means better results. Imagine you’ve decided to build a bicycle because you are not feeling happy with the options available in stores and online. You might begin by finding the best of each part you need. Once you assemble all these great parts, the resulting bike will outshine all the other options.
- Ensemble methods use this same idea of combining several predictive models (supervised ML) to get higher quality predictions than each of the models could provide on its own. For example, the Random Forest algorithms is an ensemble method that combines many Decision Trees trained with different samples of the datasets. As a result, the quality of the predictions of a Random Forest is higher than the quality of the predictions estimated with a single Decision Tree. Think of ensemble methods as a way to reduce the variance and bias of a single machine learning model. That’s important because any given model may be accurate under certain conditions but inaccurate under other conditions. With another model, the relative accuracy might be reversed. By combining the two models, the quality of the predictions is balanced out. The great majority of top winners of Kaggle competitions use ensemble methods of some kind. The most popular ensemble algorithms are [Random Forest], [XGBoost] and [LightGBM]. 
+ ~ Ensemble methods consist of joining several [weak learners] to build a [strong learner]. 
+
+ ~ average the output of several models, such as decision trees?. Ex: aver Ensemble methods, meaning that they use a number of weak classifiers/learner to produce a strong classifier, which usually means better results. Imagine you’ve decided to build a bicycle because you are not feeling happy with the options available in stores and online. You might begin by finding the best of each part you need. Once you assemble all these great parts, the resulting bike will outshine all the other options.
+
+ Ensemble methods use this same idea of combining several predictive models (supervised ML) to get higher quality [predictions] than each of the models could provide on its own. For example, the [Random Forest] algorithms is an ensemble method that combines many [Decision Trees] trained with different samples of the [datasets]. As a result, the quality of the predictions of a [Random Forest] is higher than the quality of the predictions estimated with a single Decision Tree.
+
+ Think of ensemble methods as a way to reduce the [variance] and [bias] of a single [machine learning] model. That’s important because any given model may be accurate under certain conditions but inaccurate under other conditions. With another model, the relative [accuracy] might be reversed. By combining the two models, the quality of the predictions is balanced out. The great majority of top winners of [Kaggle competitions] use ensemble methods of some kind. The most popular ensemble algorithms are [Random Forest], [XGBoost] and [LightGBM]. 
 
  ![]( {{site.assets}}/e/ensemble_method.png ){: width=20%}
 
  More at:
   * explorable - [https://pair.withgoogle.com/explorables/uncertainty-ood/](https://pair.withgoogle.com/explorables/uncertainty-ood/)
 
- See also [E], [Gradient Bagging], [Gradient Boosting], [Isolation Forest], [Weak Learner]
+ See also [E], [Gradient Bagging], [Gradient Boosting], [Isolation Forest]
 
 
 # Entity
@@ -535,11 +561,11 @@ In the context of DeepRacer, an episode refers to a single complete race around 
   * Suboptimal metrics: Validation metrics like accuracy and loss will be worse than their optimum if training is stopped too early. The model has not had enough iterations to converge on better weights.
 
  Too Many Epochs:
-  * Overfitting: With too many epochs, the model may end up overfitting to the training data. This causes it to memorize noise and details instead of learning generalizable patterns.
-  * Long training time: Additional epochs extend training time significantly, especially for large datasets. The model may have already converged, so extra epochs are wasteful.
-  * Performance plateau: After a point, more epochs do not improve validation metrics like accuracy and loss. The model stops generalizing better.
+  * [Overfitting] - With too many epochs, the model may end up overfitting to the training data. This causes it to memorize noise and details instead of learning generalizable patterns.
+  * Long training time - Additional epochs extend training time significantly, especially for large datasets. The model may have already converged, so extra epochs are wasteful.
+  * Performance plateau - After a point, more epochs do not improve validation metrics like accuracy and loss. The model stops generalizing better.
 
- The ideal number of epochs involves stopping after the validation loss has plateaued - this indicates the model has fit the training data as well as possible without overfitting. The exact number depends on the size and complexity of the dataset and model. Setting up early stopping callbacks helps prevent both underfitting and overfitting.
+ The ideal number of epochs involves stopping after the validation loss has plateaued - this indicates the model has fit the training data as well as possible without overfitting. The exact number depends on the size and complexity of the dataset and model. Setting up early stopping callbacks helps prevent both [underfitting] and [overfitting].
 
  See also [E], [Gradient Descent Algorithm]
 

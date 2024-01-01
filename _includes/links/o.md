@@ -54,6 +54,11 @@
 [Optimizer]: {{ site.baseurl }}{% link glossary/o.md %}#optimizer
 [Optimus Robot]: {{ site.baseurl }}{% link glossary/o.md %}#optimus-robot
 [Optimus]: {{ site.baseurl }}{% link glossary/o.md %}#optimus-robot
+[Orca Model Family]: {{ site.baseurl }}{% link glossary/o.md %}#orca-model-family
+[Orca Model]: {{ site.baseurl }}{% link glossary/o.md %}#orca-model-family
+[Orca Models]: {{ site.baseurl }}{% link glossary/o.md %}#orca-model-family
+[Orca-1]: {{ site.baseurl }}{% link glossary/o.md %}#orca-model-family
+[Orca-2]: {{ site.baseurl }}{% link glossary/o.md %}#orca-model-family
 [Ordinal Encoding]: {{ site.baseurl }}{% link glossary/o.md %}#ordinal-encoding
 [Outlier]: {{ site.baseurl }}{% link glossary/o.md %}#outlier
 [Outliers]: {{ site.baseurl }}{% link glossary/o.md %}#outlier

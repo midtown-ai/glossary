@@ -63,10 +63,13 @@ layout: page
 
 # Underfitting
 
- When you have low variance (clustered), but high bias (offset). To prevent under-fitting try hyper-parameter optimization.
+ ~ model that is too simple (low bias) and that simplicity creates a ceiling for its potential [accuracy].
 
- Examples:
-  * when a neural network does not have enough layers --> underfitting
+ When you have low [variance] (clustered, same accuracy for different datasets), but high bias (offset, accuracy far from 100%). To prevent underfitting try hyper-parameter optimization.
+
+ Underfitting cases:
+  * when a neural network does not have enough layers
+  * when a linear regression is used to model a quadratic function/equation
 
  ![]( {{site.assets}}/u/underfitting_overfitting_balanced.png ){: width="100%"}
 

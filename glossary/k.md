@@ -295,7 +295,13 @@ layout: page
 # Kullback-Leibler Divergence
 # KL Divergence
 
+ ```
+ Cross-entropy = entropy + KL-divergence
+ ```
+
  calculates a score that measures the divergence of one probability distribution from another. The Kullback–Leibler divergence (KL divergence), aka relative entropy, is the difference between cross-entropy of two distributions and their own entropy. For everyone else, imagine drawing out the two distributions, and wherever they do not overlap will be an area proportional to the KL divergence. Appears in the loss function of a variational autoencoder! This term stay close to normal(mean=0,stdev=1) !!
+
+ {% youtube "https://www.youtube.com/watch?v=ErfnhcEV1O8" %}
 
  More at:
   * [https://www.youtube.com/watch?v=rZufA635dq4&t=1091s](https://www.youtube.com/watch?v=rZufA635dq4&t=1091s)

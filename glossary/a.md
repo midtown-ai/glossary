@@ -910,6 +910,7 @@ Better data beat the model always
     * Blog - [https://blog.google/technology/ai/](https://blog.google/technology/ai/)
    * Meta - [https://ai.facebook.com/blog/](https://ai.facebook.com/blog/)
   * Non-profit organizations
+    * [Arc Institute] - Arc operates in partnership with [Stanford University], UCSF, and UC Berkeley.
     * [Eleuther AI](https://blog.eleuther.ai/)
     * [AI Topics] managed by the [AAAI]
 
@@ -1401,6 +1402,14 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
  See also [A], [Recommendation Engine]
 
 
+# Arc Institute
+
+ More at:
+  * [https://arcinstitute.org/](https://arcinstitute.org/)
+
+ See also [A], ...
+
+
 # Arcade Learning Environment
 # ALE
 
@@ -1435,17 +1444,65 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
 # Argmax Function
 
+ * Math = means we are searching for ALL the values of x in interval that maximize f(x).
+ ```
+x_set = argmax(interval, f )
+ ```
+
+ * Numpy
+ ```
+import numpy as np
+
+#              0    1   2   3   4   5
+f = np.array([50, 500, 10, 14, 10, 500])
+max = np.max(f)                    # 500
+x = np.argmax(f)                   # 1           <-- FIRST index of MAXIMUM
+ ```
+
+ * Neural networks
  The output values obtained by a neural network from its various output nodes are not always in the range of 0 to 1, and can be greater than 1 or less than 0. These dynamic values can degrade our machine’s learning power and cause it to misbehave. The Argmax and SoftMax functions are used to obtain values between 0 and 1. The Argmax function interprets the largest positive output value as 1 and all other values as 0, making the model too concrete for a few values. This function is useful for testing because we only need to check the final prediction and not the relationship between different inputs and different outputs/labels.
  ```
-# Is this correct?
+# Network outputs
 likelyhood_outputs = [20.4, 3.6, 5.5]
-argmax(likely_outputs) = [1, 0, 0]
+argmax(likely_outputs) = [1, 0, 0]       <-- output is now easy to interprete!
+
+<!> argmax values cannot be used to optimize the network because derivative is 0
+<!> argmax cannot be used for backward propagation
+==> solution is to use the softmax function
  ```
+
+ {% youtube "https://www.youtube.com/watch?v=TMnK1zg3Me0" %}
+
+ {% youtube "https://www.youtube.com/watch?v=KpKog-L9veg" %}
 
  See also [A], [Argmin Function], [Softmax Function]
 
 
 # Argmin Function
+
+ * Neural networks
+ * Math = means we are searching for ALL the values of x in interval that minimize f(x).
+ ```
+x_set = argmin (interval, f )
+ ```
+
+ * Numpy
+
+ ```
+import numpy as np
+
+#              0    1   2   3   4   5
+f = np.array([50, 500, 10, 14, 10, 500])
+min = np.min(f)                    # 10
+x = np.argmin(f)                   # 2           <-- FIRST index of MINIMUM
+ ```
+
+ {% youtube "https://www.youtube.com/watch?v=66fJfvuMJw4" %}
+
+ {% youtube "https://www.youtube.com/watch?v=TMnK1zg3Me0" %}
+
+ More at:
+  * [
 
  See also [A], [Argmax Function], [Softmax Function]
 
@@ -1634,6 +1691,26 @@ First, we believe the clearest framing of general intelligence is a system that 
  More at:
   * site - [https://airc.nist.gov/home](https://airc.nist.gov/home)
   * [https://aibusiness.com/responsible-ai/microsoft-offers-support-on-responsible-ai-deployments](https://aibusiness.com/responsible-ai/microsoft-offers-support-on-responsible-ai-deployments)
+
+ See also [A], ...
+
+
+# Artificial Intelligence Hello World
+# AI Hello World
+
+ Evolution over time 
+  * 2013: [Random Forest] Classifier on Iris
+  * 2014: gensim word2vec on NLP problems || LDA (latent dirichlet allocation) for text
+  * 2015: [XGBoost] on Titanic
+  * 2017: MLPs || CNN on [MNIST Dataset]
+  * 2019: [AlexNet] || [ResNet] on [Cifar-10]
+  * 2021: [DistilBERT] on IMDb movie reviews
+  * 2022: mingpt on tiny shakespeare
+  * 2023: [Llama 2] on Alpaca 50k
+  * 2023: [Llama 2] QLora on Text2SQL
+
+ More at:
+  * source - [https://twitter.com/rasbt/status/1740006870096433509](https://twitter.com/rasbt/status/1740006870096433509)
 
  See also [A], ...
 
@@ -2036,6 +2113,8 @@ If you don't ___ at the sign, you will get a ticket
  {% youtube "https://www.youtube.com/watch?v=MCYzYzaWChY" %}
 
  {% youtube "https://www.youtube.com/watch?v=y7wMTwJN7rA" %}
+
+ {% youtube "https://www.youtube.com/watch?v=WMFKfZEM1Sw" %}
 
  More at:
   * site - [https://microsoft.github.io/autogen/](https://microsoft.github.io/autogen/)

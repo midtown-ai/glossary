@@ -7,7 +7,8 @@
 [Eigenvalues]: {{site.baseurl }}{% link glossary/e.md %}#eigenvalue
 [Eigenvector]: {{site.baseurl }}{% link glossary/e.md %}#eigenvector
 [Eigenvectors]: {{site.baseurl }}{% link glossary/e.md %}#eigenvector
-[Elastic Net Regularization]: {{site.baseurl }}{% link glossary/e.md %}#elastic-net-regularization
+[Elastic Net Regression]: {{site.baseurl }}{% link glossary/e.md %}#elastic-net-regression
+[Elastic Net Regression Penalty]: {{site.baseurl }}{% link glossary/e.md %}#elastic-net-regression-penalty
 [Electric Dreams Movie]: {{site.baseurl }}{% link glossary/e.md %}#electric-dreams-movie
 [Electric Dreams]: {{site.baseurl }}{% link glossary/e.md %}#electric-dreams-movie
 [ElevenLabs AI Company]: {{site.baseurl }}{% link glossary/e.md %}#elevenlabs-ai-company
@@ -41,6 +42,7 @@
 [Engineered Arts Company]: {{site.baseurl }}{% link glossary/e.md %}#engineered-arts-company
 [Engineered Arts]: {{site.baseurl }}{% link glossary/e.md %}#engineered-arts-company
 [Ensemble Method]: {{site.baseurl }}{% link glossary/e.md %}#ensemble-method
+[Ensemble Methods]: {{site.baseurl }}{% link glossary/e.md %}#ensemble-method
 [Entity]: {{site.baseurl }}{% link glossary/e.md %}#entity
 [Entities]: {{site.baseurl }}{% link glossary/e.md %}#entity
 [Entity Extraction]: {{site.baseurl }}{% link glossary/e.md %}#entity-extraction

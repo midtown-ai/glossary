@@ -395,14 +395,14 @@ There are various kinds of neocognitron. For example, some types of neocognitron
 # Neural Network
 
  * If your neural network consists of [Biological Neuron], see [Brain]
- * If your neural network consists of [Artificial Neuron], see [Artificial Neural Network]
+ * If your neural network consists of [Artificial Neuron], see [Artificial Neural Network] or [Convolutional Neural Network]
 
  See also [N], ...
 
 
 # Neural Network Interpretability
 
- There is a growing sense that neural networks need to be interpretable to humans. The field of neural network interpretability has formed in response to these concerns. As it matures, two major threads of research have begun to coalesce: [feature visualization] and [attribution][Feature Attribution].
+ There is a growing sense that neural networks need to be interpretable to humans. The field of neural network interpretability has formed in response to these concerns. As it matures, two major threads of research have begun to coalesce: [feature visualization] and [ feature attribution].
 
  See also [N], ...
 
@@ -422,7 +422,7 @@ There are various kinds of neocognitron. For example, some types of neocognitron
   * people
     * David Duvenaud - [https://www.cs.toronto.edu/~duvenaud/](https://www.cs.toronto.edu/~duvenaud/) 
 
- See also [N], ...
+ See also [N], [ResNet Model]
 
 
 # Neural Radiance Field

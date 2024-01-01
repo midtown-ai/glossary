@@ -33,6 +33,12 @@
 [LLM As A Judge]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-as-a-judge
 [LLMs As Judges]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-as-a-judge
 [LLM-As-A-Judge]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-as-a-judge
+[Large Language Model Meta AI]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
+[LLaMa Model]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
+[LLaMa Models]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
+[LLaMa]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
+[LLaMa 2 Model]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
+[LLaMa 2]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
 [Large-Scale Artificial Intelligence Open Network Dataset]: {{ site.baseurl }}{% link glossary/l.md %}#large-scale-artificial-intelligence-open-network-dataset
 [LAION Dataset]: {{ site.baseurl }}{% link glossary/l.md %}#large-scale-artificial-intelligence-open-network-dataset
 [Large-Scale Artificial Intelligence Open Network Nonprofit]: {{ site.baseurl }}{% link glossary/l.md %}#large-scale-artificial-intelligence-open-network-nonprofit
@@ -40,6 +46,7 @@
 [LAION Nonprofit]: {{ site.baseurl }}{% link glossary/l.md %}#large-scale-artificial-intelligence-open-network-nonprofit
 [LAION]: {{ site.baseurl }}{% link glossary/l.md %}#large-scale-artificial-intelligence-open-network-nonprofit
 [Lasso Regression]: {{ site.baseurl }}{% link glossary/l.md %}#lasso-regression
+[Lasso Regression Penalty]: {{ site.baseurl }}{% link glossary/l.md %}#lasso-regression-penalty
 [Latent Diffusion Model]: {{ site.baseurl }}{% link glossary/l.md %}#latent-diffusion-model
 [LDM]: {{ site.baseurl }}{% link glossary/l.md %}#latent-diffusion-model
 [Latent Dirichlet Allocation]: {{ site.baseurl }}{% link glossary/l.md %}#latent-dirichlet-allocation
@@ -84,12 +91,6 @@
 [LFAI&Data]: {{ site.baseurl }}{% link glossary/l.md %}#linux-fundation-ai-and-data
 [Liquid Neural Network]: {{ site.baseurl }}{% link glossary/l.md %}#liquid-neural-network
 [LNN]: {{ site.baseurl }}{% link glossary/l.md %}#liquid-neural-network
-[Large Language Model Meta AI]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
-[LLaMa Model]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
-[LLaMa Models]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
-[LLaMa]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
-[LLaMa 2 Model]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
-[LLaMa 2]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
 [LLaMa-Adapter Model]: {{ site.baseurl }}{% link glossary/l.md %}#llama-adapter-model
 [LLaMa-Adapter]: {{ site.baseurl }}{% link glossary/l.md %}#llama-adapter-model
 [Llamaindex Python Module]: {{ site.baseurl }}{% link glossary/l.md %}#llamaindex-python-module

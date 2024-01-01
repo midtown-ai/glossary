@@ -356,10 +356,29 @@ completion = llm(prompt)
 
 # Lasso Regression
 
- Used in [Regularization].
+  ~ aka L1 [Regularization]. Instead of a [linear regression] use this regression?
+
+ In lasso regression, weights can go to zero (not just close to 0 as in the [ridge regression]) and result in [feature selection] !
+
+ Lasso regression is better than the [ridge regression] with models that contain a lot of useless variables.
+
+ {% youtube "https://www.youtube.com/watch?v=VqKq78PVO9g" %}
+
+ {% youtube "https://www.youtube.com/watch?v=NGf0voTMlcs"  %}
+
+ {% youtube "https://www.youtube.com/watch?v=Xm2C_gTAl8c" %}
 
  More at:
   * [https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/](https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/)
+
+ See also [L], ...
+
+
+# Lasso Regression Penalty
+
+ In a [lasso regression], The term/bias added to the loss function to lower the [variance] (improve the prediction) due to the small number of samples in the training set.
+
+ ![]( {{site.assets}}/l/lasso_regression_penalty.png ){: width="100%"}
 
  See also [L], ...
 
@@ -485,6 +504,9 @@ completion = llm(prompt)
   * [adaptive learning] - learning adapted to the learner's level and what has not yet been understood
   * [curriculum learning] - learning from simple to complex in order to learn faster and more efficiently.
   * [federated learning] - 
+
+ Drive to learn
+  * [Purpose Learning] ~ human [Loss function] ?
 
  See also [L], [Machine Learning Type]
 
@@ -783,6 +805,16 @@ print regr.score(X_test, y_test)
  More at:
   * paper - [https://arxiv.org/abs/2006.04439](https://arxiv.org/abs/2006.04439)
   * code - [https://github.com/raminmh/liquid_time_constant_networks](https://github.com/raminmh/liquid_time_constant_networks)
+
+ See also [L], ...
+
+
+# LLaMa Guard
+
+ {% pdf "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/408725049_3688557441468029_8103913771964668529_n.pdf" %}
+
+ More at:
+  * site - [https://ai.meta.com/research/publications/llama-guard-llm-based-input-output-safeguard-for-human-ai-conversations/](https://ai.meta.com/research/publications/llama-guard-llm-based-input-output-safeguard-for-human-ai-conversations/)
 
  See also [L], ...
 

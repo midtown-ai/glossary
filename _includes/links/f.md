@@ -7,6 +7,7 @@
 [Fake Art]: {{site.baseurl }}{% link glossary/f.md %}#fake-art
 [Fake News]: {{site.baseurl }}{% link glossary/f.md %}#fake-news
 [Falcon Model]: {{site.baseurl }}{% link glossary/f.md %}#falcon-model
+[Falcon]: {{site.baseurl }}{% link glossary/f.md %}#falcon-model
 [False Negative]: {{site.baseurl }}{% link glossary/f.md %}#false-negative
 [False Negatives]: {{site.baseurl }}{% link glossary/f.md %}#false-negative
 [False Positive]: {{site.baseurl }}{% link glossary/f.md %}#false-positive

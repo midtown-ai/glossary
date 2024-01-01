@@ -293,7 +293,9 @@ print(df)
 # 5             0            0           0             1                <== Venus
  ```
 
- See also [O], [Encoding], [One-Cold Encoding], [Ordinal Encoding]
+ {% youtube "https://www.youtube.com/watch?v=6WDFfaYtN6s" %}
+
+ See also [O], [Dummy Variable], [Dummy Variable Trap], [Encoding], [One-Cold Encoding], [Ordinal Encoding]
 
 
 # One-Shot Learning
@@ -631,6 +633,25 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
  See also [O], ...
 
 
+# Orca Model Family
+# Orca-1
+# Orca-2
+
+ {% youtube "https://www.youtube.com/watch?v=bNcjccxStdo" %}
+
+ {% youtube "https://www.youtube.com/watch?v=wAAtvBtNUH4" %}
+
+ {% pdf "https://arxiv.org/pdf/2311.11045.pdf" %}
+
+ More at:
+  * orca
+    * paper - [https://arxiv.org/abs/2306.02707](https://arxiv.org/abs/2306.02707) 
+  * orca 2
+    * paper - [https://arxiv.org/abs/2311.11045](https://arxiv.org/abs/2311.11045)
+
+ See also [O], ...
+
+
 # Ordinal Encoding
 
  [Categorical features][Categorical Feature] often need to be converted to numeric values to facilitate processing by modeling algorithms.
@@ -666,6 +687,10 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
 
 # Overfitting
 
+ ~ when accuracy on training set is much higher than the one on the test set
+
+ ~ means the model has high [variance] (works well with training set, but not with the test set!)
+
  ~ a Model that is overly complex and leads to high [variance] and low [bias] = noise is memorized in model! . In contrast, a program that memorizes the training data by learning an overly-complex model could predict the values of the response variable for the training set accurately, but will fail to predict the value of the response variable for new examples.
 
  `A well functioning ML algorithm will separate the signal from the noise`.
@@ -682,7 +707,7 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
   * Overfitting is responsible for the [membership inference attack]
   * The opposite of overfitting is [underfitting]
 
- See also [O], [Balanced Fitting], [Bias], [Principal Component Analysis]
+ See also [O], [Balanced Fitting], [Bias], [Principal Component Analysis], [Validation Subset]
 
 
 # Overtraining

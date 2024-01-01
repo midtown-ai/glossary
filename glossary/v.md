@@ -43,14 +43,17 @@ layout: page
 
 # Validation Set
 
+ ~ Used to find the proper complexity of the model that is the balance between the bias and variance a.k.a. [bias-variance trade-off]
+
  Double training data split!
   * In python you train_test_plit twice !
   * At the end you have a [Training Set], [Validation Set], and a [Test Set]
 
  Why a validation set?
   * Used for validation during training
-  * Help avoid overfitting
+  * Help avoid [overfitting] (and [underfitting] ?)
   * ... 
+  * Used to find the proper balance for the [bias-variance trade-off]
 
  Ratios ?
   * 80 - 10 - 10
@@ -128,6 +131,11 @@ layout: page
  See also [V], [Categorical Variable], [Continuous Variable], [Discrete Variable]
 
 # Variance
+
+ ~ the amount that the [prediction] will change if you change the training data
+
+ :warning: a lot of flexibility in the model causes high variance.
+ :warning: models such as [random Forests] and [Neural Networks] tend to have high variance
 
  How dispersed your predicted values are. Low variance high bias = underfitting. High variance + low bias = overfitting.
 

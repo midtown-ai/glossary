@@ -20,6 +20,8 @@
 [General Language Understanding Evaluation Benchmark]: {{ site.baseurl }}{% link glossary/g.md %}#general-language-understanding-evaluation-benchmark
 [GLUE Benchmark]: {{ site.baseurl }}{% link glossary/g.md %}#general-language-understanding-evaluation-benchmark
 [GLUE]: {{ site.baseurl }}{% link glossary/g.md %}#general-language-understanding-evaluation-benchmark
+[General Purpose AI System]: {{ site.baseurl }}{% link glossary/g.md %}#general-purpose-ai-system
+[GPAIS]: {{ site.baseurl }}{% link glossary/g.md %}#general-purpose-ai-system
 [Generalized Additive 2 Model]: {{ site.baseurl }}{% link glossary/g.md %}#generalized-additive-2-model
 [GA2M]: {{ site.baseurl }}{% link glossary/g.md %}#generalized-additive-2-model
 [Generalized Additive Model]: {{ site.baseurl }}{% link glossary/g.md %}#generalized-additive-model

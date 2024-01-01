@@ -934,6 +934,8 @@ def mse_loss(y_pred, y_true):
 
  ~ Interim CEO of [OpenAI] during [Sam Altman]'s ouster.
 
+ {% youtube "https://www.youtube.com/watch?v=p9Q5a1Vn-Hk" %}
+
  See also [M], ...
 
 
@@ -991,6 +993,8 @@ def mse_loss(y_pred, y_true):
 # Mixtral Model
 
  * <!> The 8x7B model is architected using a [mixture of experts] and therefore its size is 8 times bigger! 
+
+ {% youtube "https://www.youtube.com/watch?v=UiX8K-xBUpE" %}
 
  More at:
   * site - [https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1)
@@ -1455,7 +1459,7 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
 
  Model validation is the process of assessing a machine learning model's performance during the training phase. It involves using a separate subset of the training data, called the validation dataset, to tune and optimize the model's hyperparameters. Hyperparameters are parameters that are not learned by the model during training but are set before training begins. Examples include learning rate, regularization strength, and the number of hidden units in a neural network.
 
- During validation, the model is trained on the training dataset and its performance is evaluated on the validation dataset. This evaluation helps in selecting the best hyperparameters and preventing overfitting. Overfitting occurs when a model learns to perform well on the training data but fails to generalize to new, unseen data.
+ During validation, the model is trained on the training dataset and its performance is evaluated on the validation dataset. This evaluation helps in selecting the best hyperparameters and preventing overfitting. [Overfitting] occurs when a model learns to perform well on the training data but fails to generalize to new, unseen data.
 
  Validation vs Evaluation:
   * Purpose - Model validation is used to fine-tune hyperparameters and prevent overfitting during the training phase, while model evaluation assesses the model's performance on completely new, unseen data.
@@ -1559,15 +1563,28 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
   * 2nd layer: 100
   * 3rd: 60
   * 4th: 30
-  * 5th: 10
+  * 5th: 10     # 0-9 digit
   * with [sigmoid activation function]
+
  The [artificial neural network] has a inverted tree like structure. Unfortunately the [accuracy] of 92% could be improved!
+
+ Q:
+  * weren't the image 28 x 28 or 784 pixels (matrix elements)?
+  * number of images were 60.000
+  * number of output neurons = 10 (from 0 to 9)
+  * labels are using [one-hot encoding] on those 10 values  <-- What about [dummy variable trap], shouldn't we have 9 values?
 
  A better model found later was the [Convoluted Neural Network (CNN)][CNN]
 
  The first part of the [CNN] is called [feature extraction], the second part is the [classification].
 
  ![]( {{site.assets}}/m/mnist_dataset.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=OMDn66kM9Qc" %}
+
+ {% youtube "https://www.youtube.com/watch?v=9RN2Wr8xvro" %}
+
+ {% youtube "https://www.youtube.com/watch?v=iqQgED9vV7k" %}
 
  More at:
   * MNIST dataset - [https://knowyourdata-tfds.withgoogle.com/dataset=mnist](https://knowyourdata-tfds.withgoogle.com/dataset=mnist)

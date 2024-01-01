@@ -103,15 +103,15 @@ layout: page
 
 # Bagging
 
- Bagging in regression = averaging
+ ~ [Bootstrap sampling] + aggregation
 
- Bagging in classification = voting
+ ~ Bagging is a way to create [weak learners]. If weak learners are classifiers, the [strong learner] is built with voting. If regressors, then averaging.
 
- 
+ Bagging, also known as Bootstrap Aggregating. Build random sets by drawing random points from the dataset (with replacement). Train a different model on each of the sets. These models are the [weak learners]. The [strong learner] is then formed as a combination of the weak models, and the [prediction] is done by voting (if it is a classification model) or averaging the predictions (if it is a regression model). It is used to improve [accuracy] and make the model more generalize by reducing the [variance], i.e., avoiding [overfitting]. In this, we take multiple subsets of the training dataset. For each subset, we take a model with the same learning algorithms like [Decision tree], [Logistic regression], etc., to predict the output for the same set of test data. Once we predict each model, we use a model averaging technique to get the final prediction output. One of the famous techniques used in Bagging is [Random Forest]. In the [Random forest], we use multiple [decision trees].
 
- Bagging, also known as Bootstrap Aggregating. Build random sets by drawing random points from the dataset (with replacement). Train a different model on each of the sets. These models are the weak learners. The strong learner is then formed as a combination of the weak models, and the prediction is done by voting (if it is a classification model) or averaging the predictions (if it is a regression model). It is used to improve accuracy and make the model more generalize by reducing the variance, i.e., avoiding overfitting. In this, we take multiple subsets of the training dataset. For each subset, we take a model with the same learning algorithms like Decision tree, Logistic regression, etc., to predict the output for the same set of test data. Once we predict each model, we use a model averaging technique to get the final prediction output. One of the famous techniques used in Bagging is Random Forest. In the Random forest, we use multiple decision trees.
+ {% youtube "https://www.youtube.com/watch?v=RtrBtAKwcxQ" %}
 
- See also [B], [Boosting], [Decision Tree], [Ensemble Method], [Random Forest], [Weak Learner]
+ See also [B], [Boosting], [Ensemble Method]
 
 
 # Baidu Company
@@ -559,7 +559,23 @@ Your belief has shifted towards more red marbles based on the observed data. The
  See also [B], [Activation Function], [Balanced Fitting], [Bias-Variance Trade-Off], [Fair AI], [Overfitting], [Underfitting], [Variance]
 
 
+# Bias Neuron
+
+ The value of a bias neuron is always equal to 1. The input and [hidden layers] always have a bias neuron (while the output layer does not, since not useful). What is different is the weight between the bias neuron and all the neurons in the following layer. The weight is the value of the bias (since bias = value * 1). 
+
+
+ In the case of the simplest neural network, with 1 input neuron + 1 input bias neuron --> single output neuron, the value of that output neuron is given by a line v = input * weight + weight_bias * 1, in other words, a line!
+
+ ![]( {{site.assets}}/b/bias_neuron_1.png ){: width="100%}
+
+ ![]( {{site.assets}}/b/bias_neuron_line.png ){: width="100%}
+
+
 # Bias-Variance Trade-Off
+
+ ~ bias means that the model has a systematic error that prevent it from reaching perfection regardless of input data (e.g. Accuracy cannot be higher than 70% when we use a linear regression, when the underlying distribution is  quadratic!)
+ 
+ ~ variance means the model performs differently between datasets (input data) (e.g. Accuracy is at 95% on training data, but 42% on test data <-- [overfitting] )
 
  Ideally, a model will have both low bias and variance, but efforts to decrease one will frequently increase the other. This is known as the bias-variance trade-off.
 
@@ -569,6 +585,8 @@ Your belief has shifted towards more red marbles based on the observed data. The
  ![]( {{site.assets}}/b/bias_variance_tradeoff.jpeg ){: width="100%}
 
  ![]( {{site.assets}}/b/bias_variance_tradeoff_model_complexity.jpeg ){: width="100%}
+
+ {% youtube "https://www.youtube.com/watch?v=EuBBz3bI-aA" %}
 
  More at:
   * [https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/](https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/)
@@ -607,14 +625,17 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
  ![]( {{site.assets}}/b/bert_embeddings.png ){: width=35%}
 
- {% pdf {{site.assets}}/b/bert_paper.pdf %}
+ {% pdf "https://arxiv.org/pdf/1810.04805.pdf" %}
 
  More at:
-  * embeddings (token + segment + position) - [https://medium.com/@_init_/why-bert-has-3-embedding-layers-and-their-implementation-details-9c261108e28a](https://medium.com/@_init_/why-bert-has-3-embedding-layers-and-their-implementation-details-9c261108e28a)
-  * [https://medium.com/@mromerocalvo/6dcf5360b07f](https://medium.com/@mromerocalvo/6dcf5360b07f)
-  * [https://medium.com/dissecting-bert/dissecting-bert-part2-335ff2ed9c73](https://medium.com/dissecting-bert/dissecting-bert-part2-335ff2ed9c73)
-  * [https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853](https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853)
-  * spanBERT - [https://skimai.com/roberta-language-model-for-spanish/](https://skimai.com/roberta-language-model-for-spanish/)
+  * paper - [https://arxiv.org/abs/1810.04805](https://arxiv.org/abs/1810.04805)
+  * derivative models
+    * spanBERT - [https://skimai.com/roberta-language-model-for-spanish/](https://skimai.com/roberta-language-model-for-spanish/)
+  * articles
+    * embeddings (token + segment + position) - [https://medium.com/@_init_/why-bert-has-3-embedding-layers-and-their-implementation-details-9c261108e28a](https://medium.com/@_init_/why-bert-has-3-embedding-layers-and-their-implementation-details-9c261108e28a)
+    * [https://medium.com/@mromerocalvo/6dcf5360b07f](https://medium.com/@mromerocalvo/6dcf5360b07f)
+    * [https://medium.com/dissecting-bert/dissecting-bert-part2-335ff2ed9c73](https://medium.com/dissecting-bert/dissecting-bert-part2-335ff2ed9c73)
+    * [https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853](https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853)
 
  See also [B], [Attention Score], [Attention-Based Model], [Tokenizer]
 
@@ -788,22 +809,21 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
 # Boosting
 
- Boosting = Bagging, but not with equal weights. Think of shareholder voting that is proportional to number of shares.
+ Boosting = [Bagging], but not with equal weights. Think of shareholder voting that is proportional to number of shares.
 
- Sequentially combine weak predictors (such as decision trees) to get a strong predictor! Start by training a random model, which is the first weak learner. Evaluate it on the entire dataset. Shrink the points that have good predictions, and enlarge the points that have poor predictions. Train a second weak learner on this modified dataset. We continue in this fashion until we build several models. The way to combine them into a strong learner is the same way as with bagging, namely, by voting or by averaging the predictions of the weak learner. More specifically, if the learners are classifiers, the strong learner predicts the most common class predicted by the weak learners (thus the term voting), and if there are ties, by choosing randomly among them. If the learners are regressors, the strong learner predicts the average of the predictions given by the weak learners. Boosting is primarily used to reduce the bias and variance in a supervised learning technique. It refers to the family of an algorithm that converts weak learners (base learner) to strong learners. The weak learner is the classifiers that are correct only up to a small extent with the actual classification, while the strong learners are the classifiers that are well correlated with the actual classification.
+ Sequentially combine weak predictors (such as [decision trees]) to get a strong predictor! Start by training a random model, which is the first [weak learner]. Evaluate it on the entire dataset. Shrink the points that have good predictions, and enlarge the points that have poor predictions. Train a second [weak learner] on this modified dataset. We continue in this fashion until we build several models. The way to combine them into a [strong learner] is the same way as with [bagging], namely, by voting or by averaging the predictions of the [weak learner]. More specifically, if the learners are classifiers, the [strong learner] predicts the most common class predicted by the [weak learners] (thus the term voting), and if there are ties, by choosing randomly among them. If the learners are regressors, the strong learner predicts the average of the predictions given by the [weak learners].
+
+ Boosting is primarily used to reduce the [bias] and [variance] in a [supervised learning] technique. It refers to the family of an algorithm that converts [weak learners] (base learner) to [strong learners]. The [weak learner] is the classifiers that are correct only up to a small extent with the actual classification, while the strong learners are the classifiers that are well correlated with the actual classification.
 
  Few famous techniques of Boosting are:
-  * !AdaBoost,
-  * Gradient boosting
-  * XgBOOST (Extreme Gradient Boosting).
+  * [AdaBoost]
+  * [Gradient boosting]
+  * [Extreme Gradient Boosting (XGBoost)][Xgboost].
 
- So now we know what bagging and boosting are and what are their roles in Machine Learning.
-
- See also [B], [AdaBoost], [Bagging], [Boosting Step Size], [Gradient Boosting], [Weak Learner], [XGBoost]
+ See also [B], [Boosting Step Size]
 
 
 # Boosting Step Size
-
 
  See also [B], [Boosting], [Hyperparameter]
 
@@ -815,12 +835,15 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
   * Estimating precision for an estimator θ,
   * Dealing with non-normally distributed data,
   * Calculating sample sizes for experiments.
+
  Bootstrapping has been shown to be an excellent method to estimate many distributions for statistics, sometimes giving better results than traditional normal approximation. It also works well with small samples. It doesn’t perform very well when the model isn’t smooth, is not a good choice for dependent data, missing data, censoring, or data with outliers.
+
+ Bootstrap + Aggregation = [Bagging]
 
  More at:
   * [https://www.datasciencecentral.com/resampling-methods-comparison/](https://www.datasciencecentral.com/resampling-methods-comparison/)
 
- See also [B], [Resampling Method]
+ See also [B], i[Resampling Method]
 
 
 # Boston Dynamics Company

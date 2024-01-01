@@ -141,6 +141,7 @@
 [Approximate Self-Attention]: {{ site.baseurl }}{% link glossary/a.md %}#approximate-self-attention
 [Apriori Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#apriori-algorithm
 [Apriori]: {{ site.baseurl }}{% link glossary/a.md %}#apriori-algorithm
+[Arc Institute]: {{ site.baseurl }}{% link glossary/a.md %}#arc-institute
 [Arcade Learning Environment]: {{ site.baseurl }}{% link glossary/a.md %}#arcade-learning-environment
 [ALE]: {{ site.baseurl }}{% link glossary/a.md %}#arcade-learning-environment
 [Area Under The Curve]: {{ site.baseurl }}{% link glossary/a.md %}#area-under-the-curve

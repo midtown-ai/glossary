@@ -20,6 +20,8 @@ categories: jekyll update
 
  * site - [https://tools-competition.org/](https://tools-competition.org/)
    * topparent - [https://tools-competition.org/user-engagement-with-top-parent/](https://tools-competition.org/user-engagement-with-top-parent/)
+   * 2020 - 2021 winners - [https://tools-competition.org/winner/multimodal-toolkit/](https://tools-competition.org/winner/multimodal-toolkit/)
+     * smart paper - i
  * phase II
    * 2023/12/14 webinar - [https://www.eventbrite.com/x/772267752637/](https://www.eventbrite.com/x/772267752637/)
    * tips for strengthening application - [https://tools-competition.org/tips-for-strengthening-phase-ii-proposals/](https://tools-competition.org/tips-for-strengthening-phase-ii-proposals/)
@@ -35,6 +37,9 @@ categories: jekyll update
      * page - [https://tools-competition.org/accelerating-and-assessing-learning/](https://tools-competition.org/accelerating-and-assessing-learning/)
    * preparing for the 21st century world
      * page - [https://tools-competition.org/21st-century-world/](https://tools-competition.org/21st-century-world/)
+     * examples of winning projects
+       * 2021 multimodal toolkit - [https://tools-competition.org/winner/multimodal-toolkit/](https://tools-competition.org/winner/multimodal-toolkit/)
+       * 2023 codekit - [https://tools-competition.org/winner/ocobox/](https://tools-competition.org/winner/ocobox/)
    * facilitating learning science research
      * page - [https://tools-competition.org/learning-science-research/](https://tools-competition.org/learning-science-research/)
    * instructional coaching in higher education 

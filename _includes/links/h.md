@@ -34,6 +34,9 @@
 [Human-Centered AI]: {{site.baseurl }}{% link glossary/h.md %}#human-centered-ai
 [Human-Centered Design]: {{site.baseurl }}{% link glossary/h.md %}#human-centered-design
 [Hype Cycle]: {{site.baseurl }}{% link glossary/h.md %}#hype-cycle
+[Hypernetwork Architecture]: {{site.baseurl }}{% link glossary/h.md %}#hypernetwork-architecture
+[Hypernetwork]: {{site.baseurl }}{% link glossary/h.md %}#hypernetwork-architecture
+[Hypernetworks]: {{site.baseurl }}{% link glossary/h.md %}#hypernetwork-architecture
 [Hyperparameter]: {{site.baseurl }}{% link glossary/h.md %}#hyperparameter
 [Hyperparameter Optimization]: {{site.baseurl }}{% link glossary/h.md %}#hyperparameter-optimization
 [HPO]: {{site.baseurl }}{% link glossary/h.md %}#hyperparameter-optimization

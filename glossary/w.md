@@ -124,13 +124,18 @@ layout: page
  
 # Weak Learner
 
- anything just better than random guessing! That is basically the only requirement for a weak learner. So long as you can consistently beat random guessing, any true boosting algorithm will be able to increase the accuracy of the final ensemble. What weak learner you should choose is then a trade off between 3 factors:
-  1. The bias of the model. A lower bias is almost always better, but you don't want to pick something that will overfit (yes, boosting can and does overfit)
+ ~ anything just better than random guessing!
+
+ Better than random is basically the only requirement for a weak learner. So long as you can consistently beat random guessing, any true [boosting] algorithm will be able to increase the [accuracy] of the final ensemble.
+
+ What weak learner you should choose is then a trade off between 3 factors:
+  1. The [bias] of the model. A lower bias is almost always better, but you don't want to pick something that will overfit (yes, boosting can and does overfit)
   1. The training time for the weak learner. Generally we want to be able to learn a weak learner quickly, as we are going to be building a few hundred (or thousand) of them.
   1. The prediction time for our weak learner. If we use a model that has a slow prediction rate, our ensemble of them is going to be a few hundred times slower!
- The classic weak learner is a decision tree. By changing the maximum depth of the tree, you can control all 3 factors. This makes them incredibly popular for boosting. What you should be using depends on your individual problem, but decision trees is a good starting point.
 
- See also [W], [Decision Tree], [Gradient Bagging], [Gradient Boosting]
+ The classic weak learner is a [decision tree]. By changing the maximum depth of the tree, you can control all 3 factors. This makes them incredibly popular for [boosting]. What you should be using depends on your individual problem, but [decision trees] is a good starting point.
+
+ See also [W], [Gradient Bagging], [Gradient Boosting]
 
  
 # Weak-Supervised Learning
@@ -260,6 +265,20 @@ curl https://api.openai.com/v1/audio/transcriptions \
 
  More at:
   * ...
+
+ See also [W], ...
+
+
+# WizardLM Model
+
+ {% youtube "https://www.youtube.com/watch?v=WdpiIXrO4_o" %}
+ {% youtube "https://www.youtube.com/watch?v=P0CDVRqS8iA" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2304.12244](https://arxiv.org/abs/2304.12244)
+  * code - [https://github.com/nlpxucan/WizardLM](https://github.com/nlpxucan/WizardLM)
+  * evol-instruct
+    * code - [https://github.com/nlpxucan/evol-instruct](https://github.com/nlpxucan/evol-instruct)
 
  See also [W], ...
 

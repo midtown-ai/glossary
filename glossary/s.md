@@ -1088,11 +1088,17 @@ Social robots also work as concierges in hotels and other settings like malls, w
 
 # Softmax Function
 
+ ~ fit output values in [0, 1] range and sum = 1 --> can be interpreted as probabilities, but not really accurate probabilities though!
+
  The softmax function is a function that turns a vector of K real values into a vector of K real values that sum to 1. The input values can be positive, negative, zero, or greater than one, but the softmax transforms them into values between 0 and 1, so that they can be interpreted as probabilities. If one of the inputs is small or negative, the softmax turns it into a small probability, and if an input is large, then it turns it into a large probability, but it will always remain between 0 and 1.
   * Make the resulting probabilities between 0 and 1.
   * Make the sum of the resulting probabilities equal to 1.
 
  ![]( {{site.assets}}/s/softmax_function.png ){: width="100%}
+
+ {% youtube "https://www.youtube.com/watch?v=KpKog-L9veg" %}
+
+ {% youtube "https://www.youtube.com/watch?v=M59JElEPgIg" %}
 
  See also [S], [Argmax Function], [Feedforward Neural Network]
 
@@ -1438,6 +1444,7 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
    * ai4all - [https://nidhiparthasarathy.medium.com/my-summer-at-ai4all-f06eea5cdc2e](https://nidhiparthasarathy.medium.com/my-summer-at-ai4all-f06eea5cdc2e)
 
  * Collaboration
+   * [Arc Institute] - 
    * [MedAI Group Exchange](https://stanford-medai.github.io/)
      * mailing list - [https://mailman.stanford.edu/mailman/listinfo/medai_announce](https://mailman.stanford.edu/mailman/listinfo/medai_announce)
 
@@ -1726,6 +1733,13 @@ II n summary, probability is focused on the theoretical study of random events, 
  See also [S], [Weak AI]
 
 
+# Strong Learner
+
+ ~ used in [ensemble methods] to reduce [variance] or [overfit]. If [weak learners] are weak regressors, their outputs  are averaged to get the strong learner's prediction. In the case of weak classifiers, the strong learner's prediction is computed through voting.
+
+ See also [S], ...
+
+
 # Structured Data
 
  See also [S], [Data]
@@ -1860,6 +1874,10 @@ II n summary, probability is focused on the theoretical study of random events, 
 # SFT
 
  `A way to turn a generalist [pre-trained model] into a "fine-tuned" expert model, aka domain-specific model` Normally done with [supervised learning] to minimize the number of samples required and be less compute intensive and be more compute friendly?
+
+ Alternatives:
+  * [PEFT] with [Lora]
+  * [Hypernetwork Architecture]
 
  See also [S], [Domain-Specific Model], [Red Teaming], [Transfer Learning]
 

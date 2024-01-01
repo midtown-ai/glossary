@@ -108,6 +108,7 @@ categories: jekyll update
 
 # The next 2 years
 
+ * Prediction for 2024 - [https://venturebeat.com/ai/ai-predictions-for-2024-what-top-vcs-think/](https://venturebeat.com/ai/ai-predictions-for-2024-what-top-vcs-think/)
  * [Responsible AI]
  * [AlphaFault] : Apparently [AlphaFold] does not know physics. 
  * Another [AI Winter] ?

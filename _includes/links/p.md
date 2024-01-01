@@ -99,6 +99,8 @@
 [Pruning]: {{ site.baseurl}}{% link glossary/p.md %}#pruning
 [Punishment]: {{ site.baseurl}}{% link glossary/p.md %}#punishment
 [Punishments]: {{ site.baseurl}}{% link glossary/p.md %}#punishment
+[Purpose]: {{ site.baseurl}}{% link glossary/p.md %}#purpose
+[Purpose Learning]: {{ site.baseurl}}{% link glossary/p.md %}#purpose-learning
 [PyBullet]: {{ site.baseurl}}{% link glossary/p.md %}#pybullet
 [PyCaret Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pycaret-python-module
 [PyCaret]: {{ site.baseurl}}{% link glossary/p.md %}#pycaret-python-module
@@ -109,6 +111,8 @@
 [Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#python-module
 [PyTorch Geometric Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-geometric-python-module
 [PyTorch Geometric]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-geometric-python-module
+[PyTorch Lightning Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-lightning-python-module
+[PyTorch Lightning]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-lightning-python-module
 [PyG Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-geometric-python-module
 [PyG]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-geometric-python-module
 [PyTorch Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-python-module

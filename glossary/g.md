@@ -217,6 +217,19 @@ output = m(input)
  See also [G], [Benchmark], [SuperGLUE Benchmark]
 
 
+# General Purpose AI System
+# GPAIS
+
+ A GPAIS (General Purpose AI System) is a category proposed by lawmakers to account for AI tools with more than one application, such as generative AI models like ChatGPT.
+
+ Lawmakers are currently debating whether all forms of GPAIS will be designated high risk, and what that would mean for technology companies looking to adopt AI into their products. 
+
+ More at:
+  * [https://www.reuters.com/technology/what-is-european-union-ai-act-2023-03-22/](https://www.reuters.com/technology/what-is-european-union-ai-act-2023-03-22/)
+
+ See also [G], ...
+
+
 # Generalized Additive 2 Model
 # GA2M
 
@@ -253,6 +266,10 @@ output = m(input)
   * Deep Convoluted GAN
   * Style GAN
   * Super Resolution GAN (SRGAN)
+
+ {% youtube "https://www.youtube.com/watch?v=_pIMdDWK5sc" %}
+
+ {% youtube "https://www.youtube.com/watch?v=3z8VSpBL6Vg" %}
 
  {% pdf "{{site.assets}}/g/generative_adversarial_networks_paper.pdf" %}
 
@@ -724,6 +741,8 @@ print("ga_output: ", ga_output)
 
 # Gradient Bagging
 
+ ~ [bagging] but where each weak learner is built to correct errors of the previous ones/ensemble
+
  [Gradient boosting] is an ensemble machine learning technique that combines multiple [weak learners] (typically [decision trees]) together to produce a strong predictive model. Bagging is another ensemble technique involving training [weak learners] on different randomized subsets of the data. Gradient bagging combines these two methods:
 
   * Like gradient boosting, it trains predictors sequentially, with each new tree correcting errors from the previous tree.
@@ -735,7 +754,7 @@ print("ga_output: ", ga_output)
 
  Some key advantages of gradient bagging include:
 
-  * Reduces overfitting compared to gradient boosting alone.
+  * Reduces [overfitting] compared to gradient boosting alone.
   * Computationally efficient for training weak learners.
   * Captures complex interactions like gradient boosting.
   * Maintains model interpretability.
@@ -750,12 +769,19 @@ print("ga_output: ", ga_output)
 
 # Gradient Boosting
 
- Use gradient descent to minimize the loss function.
+ ~ [boosting] but where each new weak learner is built to correct errors of the previous ones/ensemble.
+
+ Gradient boosting is one of the variants of [ensemble methods] where you create multiple weak models and combine them to get better performance as a whole.
+
+ Popular algorithms:
+  * [XGBoost]
+  * [LightGBM]
 
  More at:
   * wikipedia - [https://en.wikipedia.org/wiki/Gradient_boosting](https://en.wikipedia.org/wiki/Gradient_boosting)
   * articles
-    * [https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-1-regression-2520a34a502](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-1-regression-2520a34a502)
+    * regressions - [https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-1-regression-2520a34a502](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-1-regression-2520a34a502)
+    * classifications - [https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-2-classification-d3ed8f56541e](https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-2-classification-d3ed8f56541e)
 
  See also [G], [Boosting], [Ensemble Method], [Gradient Bagging], [Weak Learner]
 
