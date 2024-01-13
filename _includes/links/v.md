@@ -1,6 +1,8 @@
 [V]: {{ site.baseurl }}{% link glossary/v.md %}
 
 [Valence Aware Dictionary And Sentiment Reasoner]: {{ site.baseurl }}{% link glossary/v.md %}#valence-aware-dictionary-and-sentiment-reasoner-library
+[Validation Loss]: {{ site.baseurl }}{% link glossary/v.md %}#validation-loss
+[Validation Set]: {{ site.baseurl }}{% link glossary/v.md %}#validation-set
 [Value]: {{ site.baseurl }}{% link glossary/v.md %}#value
 [Value-Based Algorithm]: {{ site.baseurl }}{% link glossary/v.md %}#value-based-algorithm
 [Value-Based Algorithms]: {{ site.baseurl }}{% link glossary/v.md %}#value-based-algorithm
@@ -30,13 +32,6 @@
 [VPT Model]: {{ site.baseurl }}{% link glossary/v.md %}#video-pre-trained-model
 [Video Restauration]: {{ site.baseurl }}{% link glossary/v.md %}#video-restauration
 [VIMA Model]: {{ site.baseurl }}{% link glossary/v.md %}#vima-model
-[Visual Geometry Group Model]: {{ site.baseurl }}{% link glossary/v.md %}#visual-geometry-group-model
-[VGG Model]: {{ site.baseurl }}{% link glossary/v.md %}#visual-geometry-group-model
-[VGG]: {{ site.baseurl }}{% link glossary/v.md %}#visual-geometry-group-model
-[VGG-16 Model]: {{ site.baseurl }}{% link glossary/v.md %}#vgg-16-model
-[VGG-16]: {{ site.baseurl }}{% link glossary/v.md %}#vgg-16-model
-[VGG-19 Model]: {{ site.baseurl }}{% link glossary/v.md %}#vgg-19-model
-[VGG-19]: {{ site.baseurl }}{% link glossary/v.md %}#vgg-19-model
 [Virtual Assistant]: {{ site.baseurl }}{% link glossary/v.md %}#virtual-assistant
 [Virtual Continuum]: {{ site.baseurl }}{% link glossary/v.md %}#virtual-continuum
 [Virtual Reality]: {{ site.baseurl }}{% link glossary/v.md %}#virtual-reality
@@ -45,8 +40,21 @@
 [VLP]: {{ site.baseurl }}{% link glossary/v.md %}#vision-language-pre-training
 [Vision Transformer]: {{ site.baseurl }}{% link glossary/v.md %}#vision-transformer
 [ViT]: {{ site.baseurl }}{% link glossary/v.md %}#vision-transformer
+[Visual Geometry Group Model]: {{ site.baseurl }}{% link glossary/v.md %}#visual-geometry-group-model
+[VGG Model]: {{ site.baseurl }}{% link glossary/v.md %}#visual-geometry-group-model
+[VGG]: {{ site.baseurl }}{% link glossary/v.md %}#visual-geometry-group-model
+[VGG-16 Model]: {{ site.baseurl }}{% link glossary/v.md %}#vgg-16-model
+[VGG-16]: {{ site.baseurl }}{% link glossary/v.md %}#vgg-16-model
+[VGG-19 Model]: {{ site.baseurl }}{% link glossary/v.md %}#vgg-19-model
+[VGG-19]: {{ site.baseurl }}{% link glossary/v.md %}#vgg-19-model
 [Visual Grounding]: {{ site.baseurl }}{% link glossary/v.md %}#visual-grounding
 [Visual Language Model]: {{ site.baseurl }}{% link glossary/v.md %}#visual-language-model
+[Visual Simultaneous Localization And Mapping Algorithm]: {{ site.baseurl }}{% link glossary/v.md %}#visual-simultaneous-localization-and-mapping-algorithm
+[Visual Simultaneous Localization And Mapping]: {{ site.baseurl }}{% link glossary/v.md %}#visual-simultaneous-localization-and-mapping-algorithm
+[Visual SLAM Algorithm]: {{ site.baseurl }}{% link glossary/v.md %}#visual-simultaneous-localization-and-mapping-algorithm
+[Visual SLAM]: {{ site.baseurl }}{% link glossary/v.md %}#visual-simultaneous-localization-and-mapping-algorithm
+[VSLAM Algorithm]: {{ site.baseurl }}{% link glossary/v.md %}#visual-simultaneous-localization-and-mapping-algorithm
+[VSLAM]: {{ site.baseurl }}{% link glossary/v.md %}#visual-simultaneous-localization-and-mapping-algorithm
 [Voice Encoder]: {{ site.baseurl }}{% link glossary/v.md %}#voice-encoder
 [Vocoder]: {{ site.baseurl }}{% link glossary/v.md %}#voice-encoder
 [Voicebox Model]: {{ site.baseurl }}{% link glossary/v.md %}#voicebox-model

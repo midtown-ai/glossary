@@ -31,6 +31,7 @@
 [Huber Loss Function]: {{site.baseurl }}{% link glossary/h.md %}#huber-loss-function
 [Hugging Face Company]: {{site.baseurl }}{% link glossary/h.md %}#hugging-face-company
 [Hugging Face]: {{site.baseurl }}{% link glossary/h.md %}#hugging-face-company
+[Hugging Face Hub]: {{site.baseurl }}{% link glossary/h.md %}#hugging-face-hub
 [Human-Centered AI]: {{site.baseurl }}{% link glossary/h.md %}#human-centered-ai
 [Human-Centered Design]: {{site.baseurl }}{% link glossary/h.md %}#human-centered-design
 [Hype Cycle]: {{site.baseurl }}{% link glossary/h.md %}#hype-cycle

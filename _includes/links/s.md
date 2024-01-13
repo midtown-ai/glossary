@@ -19,6 +19,7 @@
 [Search Problem]: {{ site.baseurl}}{% link glossary/s.md %}#search-problem
 [Scene Graph]: {{ site.baseurl}}{% link glossary/s.md %}#scene-graph
 [ScienceQA Dataset]: {{ site.baseurl}}{% link glossary/s.md %}#scienceqa-dataset
+[ScienceQA]: {{ site.baseurl}}{% link glossary/s.md %}#scienceqa-dataset
 [Scikit Learn]: {{ site.baseurl}}{% link glossary/s.md %}#scikit-learn
 [Seaborn Python Module]: {{ site.baseurl}}{% link glossary/s.md %}#seaborn-python-module
 [Seaborn]: {{ site.baseurl}}{% link glossary/s.md %}#seaborn-python-module
@@ -35,6 +36,8 @@
 [Self-Destructive Model]: {{ site.baseurl}}{% link glossary/s.md %}#self-destructive-model
 [Self-Driving Car]: {{ site.baseurl}}{% link glossary/s.md %}#self-driving-car
 [Self-Driving Cars]: {{ site.baseurl}}{% link glossary/s.md %}#self-driving-car
+[Self-Instruct Dataset]: {{ site.baseurl}}{% link glossary/s.md %}#self-instruct-dataset
+[Self-Instruct]: {{ site.baseurl}}{% link glossary/s.md %}#self-instruct-dataset
 [Self-Organizing Map Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
 [Self-Organizing Map]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
 [SOM Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
@@ -43,12 +46,14 @@
 [Self-Supervised Learning]: {{ site.baseurl}}{% link glossary/s.md %}#self-supervised-learning
 [SSL]: {{ site.baseurl}}{% link glossary/s.md %}#self-supervised-learning
 [Semantic Embedding]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-embedding
+[Semantic Router]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-router
 [Semantic Search]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-search
 [Semantic Segmentation]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-segmentation
 [Semantic Space]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-space
 [Semantic Understanding]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-understanding
 [Semi-Supervised Learning]: {{ site.baseurl}}{% link glossary/s.md %}#semi-supervised-learning
 [Sensitivity]: {{ site.baseurl}}{% link glossary/s.md %}#sensitivity
+[Sensitivity-Specificity Trade-Off]: {{ site.baseurl}}{% link glossary/s.md %}#sensitivity-specificity-trade-off
 [Sentence Embedding]: {{ site.baseurl}}{% link glossary/s.md %}#sentence-embedding
 [Sentence Embeddings]: {{ site.baseurl}}{% link glossary/s.md %}#sentence-embedding
 [Sentient AI]: {{ site.baseurl}}{% link glossary/s.md %}#sentient-ai
@@ -62,6 +67,8 @@
 [Serialized Flat File]: {{ site.baseurl}}{% link glossary/s.md %}#serialized-flat-file
 [Shallow Neural Network]: {{ site.baseurl}}{% link glossary/s.md %}#shallow-neural-network
 [Shallow Neural Networks]: {{ site.baseurl}}{% link glossary/s.md %}#shallow-neural-network
+[Shane Legg Person]: {{ site.baseurl}}{% link glossary/s.md %}#shane-legg-person
+[Shane Legg]: {{ site.baseurl}}{% link glossary/s.md %}#shane-legg-person
 [Shapley Additive Explanations Value]: {{ site.baseurl}}{% link glossary/s.md %}#shapley-additive-explanations-value
 [SHAP Value]: {{ site.baseurl}}{% link glossary/s.md %}#shapley-additive-explanations-value
 [Shapley Value]: {{ site.baseurl}}{% link glossary/s.md %}#shaplet-value
@@ -87,6 +94,10 @@
 [Sim2Real Performance Gaps]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-to-real-performance-gap
 [Sim2Real Gap]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-to-real-performance-gap
 [Sim2Real Gaps]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-to-real-performance-gap
+[Simultaneous Localization And Mapping Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#simultaneous-localization-and-mapping-algorithm
+[Simultaneous Localization And Mapping]: {{ site.baseurl}}{% link glossary/s.md %}#simultaneous-localization-and-mapping-algorithm
+[SLAM Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#simultaneous-localization-and-mapping-algorithm
+[SLAM]: {{ site.baseurl}}{% link glossary/s.md %}#simultaneous-localization-and-mapping-algorithm
 [Single Life Reinforcement Learning]: {{ site.baseurl}}{% link glossary/s.md %}#single-life-reinforcement-learning
 [Single Life RL]: {{ site.baseurl}}{% link glossary/s.md %}#single-life-reinforcement-learning
 [SLRL]: {{ site.baseurl}}{% link glossary/s.md %}#single-life-reinforcement-learning
@@ -96,6 +107,8 @@
 [Skip Connection]: {{ site.baseurl}}{% link glossary/s.md %}#skip-connection
 [Skip Connections]: {{ site.baseurl}}{% link glossary/s.md %}#skip-connection
 [Skip-Gram Model]: {{ site.baseurl}}{% link glossary/s.md %}#skip-gram-model
+[Skorch Python Module]: {{ site.baseurl}}{% link glossary/s.md %}#skorch-python-module
+[Skorch]: {{ site.baseurl}}{% link glossary/s.md %}#skorch-python-module
 [Slicing Function]: {{ site.baseurl}}{% link glossary/s.md %}#slicing-function
 [Sligesgo]: {{ site.baseurl}}{% link glossary/s.md %}#slidesgo
 [Small Language Model]: {{ site.baseurl}}{% link glossary/s.md %}#small-language-model
@@ -111,7 +124,9 @@
 [Softbank Robotics Company]: {{ site.baseurl}}{% link glossary/s.md %}#softbank-robotics-company
 [Softbank Robotics]: {{ site.baseurl}}{% link glossary/s.md %}#softbank-robotics-company
 [Softmax Function]: {{ site.baseurl}}{% link glossary/s.md %}#softmax-function
+[Softmax]: {{ site.baseurl}}{% link glossary/s.md %}#softmax-function
 [Softplus Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#softplus-activation-function
+[Softplus]: {{ site.baseurl}}{% link glossary/s.md %}#softplus-activation-function
 [Software 1.0]: {{ site.baseurl}}{% link glossary/s.md %}#software-1-0
 [Software 2.0]: {{ site.baseurl}}{% link glossary/s.md %}#software-2-0
 [Software Development Life Cycle]: {{ site.baseurl}}{% link glossary/s.md %}#software-development-life-cycle
@@ -125,13 +140,19 @@
 [Source Knowledge]: {{ site.baseurl}}{% link glossary/s.md %}#source-knowledge
 [Spam Detection]: {{ site.baseurl}}{% link glossary/s.md %}#spam-detection
 [Space]: {{ site.baseurl}}{% link glossary/s.md %}#space
-[Sparcity]: {{ site.baseurl}}{% link glossary/s.md %}#sparcity
 [Sparrow Model]: {{ site.baseurl}}{% link glossary/s.md %}#sparrow-model
 [Sparse Activation]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-activation
 [Sparse Matrix]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-matrix
+[Sparse Mixture-Of-Experts Architecture]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-mixture-of-experts-architecture
+[Sparse Mixture-Of-Experts]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-mixture-of-experts-architecture
+[Sparse MOE Architecture]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-mixture-of-experts-architecture
+[Sparse MOE]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-mixture-of-experts-architecture
+[SMOE Architecture]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-mixture-of-experts-architecture
+[SMOE]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-mixture-of-experts-architecture
 [Sparse Model]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-model
 [Sparse Tensor]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-tensor
 [Sparse Vector]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-vector
+[Sparsity]: {{ site.baseurl}}{% link glossary/s.md %}#sparsity
 [Specificity]: {{ site.baseurl}}{% link glossary/s.md %}#specificity
 [Spectrogram Image]: {{ site.baseurl}}{% link glossary/s.md %}#spectrogram-image
 [Speech Recognition]: {{ site.baseurl}}{% link glossary/s.md %}#speech-recognition
@@ -149,6 +170,7 @@
 [StableDiffusion Model]: {{ site.baseurl}}{% link glossary/s.md %}#stablediffusion-model
 [StableDiffusion]: {{ site.baseurl}}{% link glossary/s.md %}#stablediffusion-model
 [Standard Knowledge Distillation]: {{ site.baseurl}}{% link glossary/s.md %}#standard-knowledge-distillation
+[Standardization]: {{ site.baseurl}}{% link glossary/s.md %}#standardization
 [Stanford Autonomous Helicopter]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-autonomous-helicopter
 [Stanford Natural Language Inference]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-natural-language-inference
 [Stanford University]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-university
@@ -223,4 +245,6 @@
 [Synthesized Variable]: {{ site.baseurl}}{% link glossary/s.md %}#synthesized-variable
 [Synthetic Data]: {{ site.baseurl}}{% link glossary/s.md %}#synthetic-data
 [Synthetic Data Privacy]: {{ site.baseurl}}{% link glossary/s.md %}#synthetic-data-privacy
+[Synthetic Feature]: {{ site.baseurl}}{% link glossary/s.md %}#synthetic-feature
+[Synthetic Features]: {{ site.baseurl}}{% link glossary/s.md %}#synthetic-feature
 [System Prompt]: {{ site.baseurl}}{% link glossary/s.md %}#system-prompt

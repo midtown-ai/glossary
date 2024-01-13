@@ -2,6 +2,8 @@
 
 [F1 Score]: {{site.baseurl }}{% link glossary/f.md %}#f1-score
 [Face Detection]: {{site.baseurl }}{% link glossary/f.md %}#face-detection
+[Facebook AI Similatiry Search]: {{site.baseurl }}{% link glossary/f.md %}#facebook-ai-similarity-search
+[FAISS]: {{site.baseurl }}{% link glossary/f.md %}#facebook-ai-similarity-search
 [Fair AI]: {{site.baseurl }}{% link glossary/f.md %}#fair-ai
 [Fairseq Toolkit]: {{site.baseurl }}{% link glossary/f.md %}#fairseq-toolkit
 [Fake Art]: {{site.baseurl }}{% link glossary/f.md %}#fake-art
@@ -10,13 +12,21 @@
 [Falcon]: {{site.baseurl }}{% link glossary/f.md %}#falcon-model
 [False Negative]: {{site.baseurl }}{% link glossary/f.md %}#false-negative
 [False Negatives]: {{site.baseurl }}{% link glossary/f.md %}#false-negative
+[FN]: {{site.baseurl }}{% link glossary/f.md %}#false-negative
+[False Negative Rate]: {{site.baseurl }}{% link glossary/f.md %}#false-negative-rate
+[FNR]: {{site.baseurl }}{% link glossary/f.md %}#false-negative-rate
 [False Positive]: {{site.baseurl }}{% link glossary/f.md %}#false-positive
 [False Positives]: {{site.baseurl }}{% link glossary/f.md %}#false-positive
+[FP]: {{site.baseurl }}{% link glossary/f.md %}#false-positive
+[False Positive Rate]: {{site.baseurl }}{% link glossary/f.md %}#false-positive-rate
+[FPR]: {{site.baseurl }}{% link glossary/f.md %}#false-positive-rate
 [Fashion MNIST Dataset]: {{site.baseurl }}{% link glossary/f.md %}#fashion-mnist-dataset
 [Fast Random Projection]: {{site.baseurl }}{% link glossary/f.md %}#fast-random-projection
 [FastRP]: {{site.baseurl }}{% link glossary/f.md %}#fast-random-projection
 [Feature]: {{site.baseurl }}{% link glossary/f.md %}#feture
 [Feature Attribution]: {{site.baseurl }}{% link glossary/f.md %}#feature-attribution
+[Feature Cross]: {{site.baseurl }}{% link glossary/f.md %}#feature-cross
+[Feature Crosses]: {{site.baseurl }}{% link glossary/f.md %}#feature-cross
 [Feature Distribution]: {{site.baseurl }}{% link glossary/f.md %}#feature-distribution
 [Feature Distribution Transformation]: {{site.baseurl }}{% link glossary/f.md %}#feature-distribution-transformation
 [Feature Engineering]: {{site.baseurl }}{% link glossary/f.md %}#feature-engineering
@@ -46,6 +56,8 @@
 [FinGPT Model]: {{site.baseurl }}{% link glossary/f.md %}#fingpt-model
 [Flamingo Model]: {{site.baseurl }}{% link glossary/f.md %}#flamingo-model
 [Flamingo]: {{site.baseurl }}{% link glossary/f.md %}#flamingo-model
+[Flask Python Module]: {{site.baseurl }}{% link glossary/f.md %}#flask-python-module
+[Flask]: {{site.baseurl }}{% link glossary/f.md %}#flask-python-module
 [FlashAttention]: {{site.baseurl }}{% link glossary/f.md %}#flashattention
 [Flow-Based Model]: {{site.baseurl }}{% link glossary/f.md %}#flow-based-model
 [For Stress-Testing Machine Theory Of Mind Benchmark]: {{site.baseurl }}{% link glossary/f.md %}#for-stress-testing-machine-theory-of-mind-benchmark

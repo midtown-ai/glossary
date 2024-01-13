@@ -14,6 +14,10 @@ categories: jekyll update
 
 ## Links
 
+ * shapely - [https://shapely.readthedocs.io/en/stable/reference/shapely.LineString.html#shapely.LineString](https://shapely.readthedocs.io/en/stable/reference/shapely.LineString.html#shapely.LineString)
+
+
+
  * track data 
    * [https://github.com/aws-deepracer-community/deepracer-race-data/tree/main/raw_data/tracks](https://github.com/aws-deepracer-community/deepracer-race-data/tree/main/raw_data/tracks)
  * physical track
@@ -177,6 +181,8 @@ ax.plot(x, y, color='cyan', alpha=0.7, linewidth=3, solid_capstyle='round', zord
   {% youtube "https://www.youtube.com/watch?v=aZlOkt1oU2k" %}
 
   {% youtube "https://www.youtube.com/watch?v=bOw9nMbHDIQ" %}
+
+  {% youtube "https://www.youtube.com/watch?v=AdHhyvh0Bco" %}
 
   {% pdf "https://www.paradigmshiftracing.com/uploads/4/8/2/6/48261497/the_perfect_corner_sample.pdf" %}
 

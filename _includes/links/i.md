@@ -22,6 +22,7 @@
 [Imagen Model]: {{ site.baseurl }}{% link glossary/i.md %}#imagen-model
 [Imagen Video Model]: {{ site.baseurl }}{% link glossary/i.md %}#imagen-video-model
 [ImageNet Dataset]: {{ site.baseurl }}{% link glossary/i.md %}#imagenet-dataset
+[ImageNet]: {{ site.baseurl }}{% link glossary/i.md %}#imagenet-dataset
 [ImageNet Large Scale Visual Recognition Challenge]: {{ site.baseurl }}{% link glossary/i.md %}#imageNet-large-scale-visual-recognition-challenge
 [ILSVRC]: {{ site.baseurl }}{% link glossary/i.md %}#ilsvrc
 [Imbalanced Data]: {{ site.baseurl }}{% link glossary/i.md %}#imbalanced-data
@@ -30,6 +31,7 @@
 [Imputation]: {{ site.baseurl }}{% link glossary/i.md %}#imputation
 [Incentive]: {{ site.baseurl }}{% link glossary/i.md %}#incentive
 [IndexGPT Model]: {{ site.baseurl }}{% link glossary/i.md %}#indexgpt-model
+[Inductive Bias]: {{ site.baseurl }}{% link glossary/i.md %}#inductive-bias
 [Inductive Reasoning]: {{ site.baseurl }}{% link glossary/i.md %}#inductive-reasoning
 [Inference]: {{ site.baseurl }}{% link glossary/i.md %}#inference
 [Inference Configuration Parameter]: {{ site.baseurl }}{% link glossary/i.md %}#inference-configuration-parameter
@@ -75,5 +77,7 @@
 [Isaac Gym Environment]: {{ site.baseurl }}{% link glossary/i.md %}#isaac-gym-environment
 [Isaac Gym]: {{ site.baseurl }}{% link glossary/i.md %}#isaac-gym
 [Isolation Forest]: {{ site.baseurl }}{% link glossary/i.md %}#isolation-forest
+[Isomorphic Labs Company]: {{ site.baseurl }}{% link glossary/i.md %}#isomorphic-labs-company
+[Isomorphic Labs]: {{ site.baseurl }}{% link glossary/i.md %}#isomorphic-labs-company
 [Istio]: {{ site.baseurl }}{% link glossary/i.md %}#istio
 [Iteration]: {{ site.baseurl }}{% link glossary/i.md %}#iteration

@@ -36,7 +36,11 @@ plugins:
   - jemoji                 # Displays emojis, such as :warning:
   # Others
   - jekyll-mermaid
-  - render_time
+  - render_time            # Tentative local plugin?
+  # - jekyll-paginate
+  # - jekyll-scholar
+  # - jekyll
+  # - github-pages         # Are all plugins support on github? I thik not!
 
 # Exclude from processing.
 # The following items will not be processed, by default.

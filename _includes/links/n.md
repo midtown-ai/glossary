@@ -6,6 +6,7 @@
 [Naive Bayes Classifier]: {{ site.baseurl }}{% link glossary/n.md %}#naive-bayes-classifier
 [Naive Bayes Classifiers]: {{ site.baseurl }}{% link glossary/n.md %}#naive-bayes-classifier
 [Naive Bayes Theorem]: {{ site.baseurl }}{% link glossary/n.md %}#naive-bayes-theorem
+[Naive Classifier]: {{ site.baseurl }}{% link glossary/n.md %}#naive-classifier
 [Named Entity Recognition]: {{ site.baseurl }}{% link glossary/n.md %}#named-entity-recognition
 [NER]: {{ site.baseurl }}{% link glossary/n.md %}#named-entity-recognition
 [Nash Equilibrium]: {{ site.baseurl }}{% link glossary/n.md %}#nash-equilibrium
@@ -79,6 +80,8 @@
 [Non-Deterministic Polynomial-Time Hard]: {{ site.baseurl }}{% link glossary/n.md %}#non-deterministic-polynomial-time-hard
 [NP-Hard]: {{ site.baseurl }}{% link glossary/n.md %}#non-deterministic-polynomial-time-hard
 [Non-Linear Regression]: {{ site.baseurl }}{% link glossary/n.md %}#non-linear-regression
+[Normalization]: {{ site.baseurl }}{% link glossary/n.md %}#normalization
+[Normalizing]: {{ site.baseurl }}{% link glossary/n.md %}#normalizing
 [Numerical Python Module]: {{ site.baseurl }}{% link glossary/n.md %}#numerical-python-module
 [Numpy Python Module]: {{ site.baseurl }}{% link glossary/n.md %}#numerical-python-module
 [Numpy]: {{ site.baseurl }}{% link glossary/n.md %}#numerical-python-module

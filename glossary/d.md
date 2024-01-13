@@ -212,6 +212,11 @@ layout: page
  See also [D], ...
 
 
+# Data Collator
+
+ See [Data Loader]
+
+
 # Data Collection
 
  More at:
@@ -226,6 +231,27 @@ layout: page
  Develop the data first , but still protected
 
  Currently data is the exhaust of other processes that are not concerned with sharing clean data.
+
+ See also [D], ...
+
+
+# Data Drift
+
+ ~ when the data used during inference times does not have the same distribution as the data used on training. Greatly impact the [model stability]
+
+ ~ aka Population drift
+
+ In dynamic systems analysis, we can define a stable system as one that remains unchanged (or only slightly changed) in the presence of perturbations. Simply put, a stable system is robust to external changes.
+
+ One way to measure the stability of our models is by checking the population or data drift, by evaluating how the population or the features have changed in the context of the model.
+
+ There are several probable sources of population drift. Some examples can include
+  * A change in the socio-economic relations, such as inflation, diseases, or political changes;
+  * Unaccounted events, such as holidays, world cups, or even natural disasters;
+  * The entrance of a new competitor in the market, and/or the shift of customers;
+  * Changes in the offered product, or the marketing campaign.
+
+ One less commented source of data and population drift is the use of the model itself. If you develop a model to solve a business problem and the solution is effective, the circumstances are changed and the model might not have the same performance!
 
  See also [D], ...
 
@@ -268,6 +294,18 @@ layout: page
    * [https://docs.google.com/presentation/d/1WrkeJ9-CjuotTXoa4ZZlB3UPBXpxe4B3FMs9R9tn34I/edit#slide=id.g164b1bac824_0_2980](https://docs.google.com/presentation/d/1WrkeJ9-CjuotTXoa4ZZlB3UPBXpxe4B3FMs9R9tn34I/edit#slide=id.g164b1bac824_0_2980)
 
  See also [D], [Model Threat Analysis]
+
+
+# Data Loader
+
+ Data loader turns input dataset into mini-batches that can be used for model training.
+
+ {% youtube "https://www.youtube.com/watch?v=JDy58DtZC_g" %}
+
+ More at:
+  * pytorch code - [https://fabridamicelli.github.io/posts/2023-09-13-pytorch-dataloader-collate.html](https://fabridamicelli.github.io/posts/2023-09-13-pytorch-dataloader-collate.html)
+
+ See also [D], ...
 
 
 # Data Management
@@ -378,6 +416,7 @@ layout: page
 
 
 # Data-Centric AI
+# DCAI
 
  Data-centric AI is the discipline of systematically engineering the data used to build an AI system. The opposite of [model-centric AI]
 
@@ -390,7 +429,9 @@ layout: page
 
  More at:
   * [https://datacentricai.org/](https://datacentricai.org/)
-  * CSAIL class - [https://dcai.csail.mit.edu/lectures/data-centric-model-centric/](https://dcai.csail.mit.edu/lectures/data-centric-model-centric/)
+  * MIT CSAIL
+    * syllabus - [https://dcai.csail.mit.edu/](https://dcai.csail.mit.edu/)
+    * class - [https://dcai.csail.mit.edu/lectures/data-centric-model-centric/](https://dcai.csail.mit.edu/lectures/data-centric-model-centric/)
   * errors in open-source datasets - [https://labelerrors.com/](https://labelerrors.com/)
 
  See also [D], ...
@@ -410,30 +451,33 @@ layout: page
 
 # Dataset
 
- A group of several observations. Good data must contain a signal of what you are trying to measure. Beware that data-set may be incomplete. For example, if you are trying to forecast inventory, you can look at sale's number, but the data needs to includes the times when the sale did not happen because we run out of inventory! Dataset needs to be at least 10 times the number of features. The dataset is split in 3 subsets called the training subset, the development subset, and the test subset. If you have a lot of data 70% goes to the training, 15% to the dev, and 15% to the test. If not much data, 80% goes to training, 10% and 10%. A dataset is based on either one of those:
+ A group of several observations. Good data must contain a signal of what you are trying to measure. Beware that data-set may be incomplete. For example, if you are trying to forecast inventory, you can look at sale's number, but the data needs to includes the times when the sale did not happen because we run out of inventory! Dataset needs to be at least 10 times the number of features. The dataset is split in 3 subsets called the training subset, the development subset, and the test subset. If you have a lot of data 70% goes to the training, 15% to the dev, and 15% to the test. If not much data, 80% goes to training, 10% and 10%. 
+
+
+ A dataset is based on either one of those:
   * images
-   * [MNIST Dataset] - Digits for zip codes
-   * [CIFAR Dataset] - 10+ categories
-   * [ImageNet Dataset] - ...
-   * others - [https://knowyourdata-tfds.withgoogle.com/](https://knowyourdata-tfds.withgoogle.com/)
+    * [MNIST] - Digits for zip codes
+    * [CIFAR] - 10+ categories
+    * [ImageNet] - ...
+    * others - [https://knowyourdata-tfds.withgoogle.com/](https://knowyourdata-tfds.withgoogle.com/)
   * image to text
-   * [LAION Dataset] - 5B images paired with their caption, useful for CLIP models
+    * [LAION] - 5 billion images paired with their caption, useful for CLIP models
   * audio sequences
-   * [https://github.com/LAION-AI/audio-dataset](https://github.com/LAION-AI/audio-dataset)
+    * [https://github.com/LAION-AI/audio-dataset](https://github.com/LAION-AI/audio-dataset)
   * text, aka [corpus]
-   * [C4 Dataset]
+    * [C4]
   * books
-   * [TriviaQA Dataset] - QA to test reading comprehension
+    * [TriviaQA] - QA to test reading comprehension
   * sentences
   * words
-   * [WordNet Dataset]
-   * [GSM Dataset] - math word problems for math reasoning
+    * [WordNet]
+    * [GSM8K] - Grade school math word problems for math reasoning
   * science
-   * [ScienceQA Dataset] - covers natural science, language science, social science
+    * [ScienceQA] - covers natural science, language science, social science
 
  Other
   * Instruction following
-   * [Self-Instruct Dataset]
+    * [Self-Instruct] -
 
  More at
   * [https://huggingface.co/datasets](https://huggingface.co/datasets)
@@ -481,7 +525,7 @@ layout: page
 
 # David Luan Person
 
- CEO of [Adept]
+ CEO of [Adept AI]
 
  See also [D], ...
 
@@ -523,18 +567,25 @@ layout: page
  See also [D], [Activation Function], [Classification], [Decision Tree], [Hyperplane], [Logistic Regression]
 
 
+# Decision Forest
+
+ An [ensemble] of [decision trees].
+
+ See also [E], ...
+
+
 # Decision Stump
 
- A decision tree with only one split.
+ A [decision tree] with only one split.
 
- See also [D], [AdaBoost], [Decision Tree]
+ See also [D], [AdaBoost]
 
 
 # Decision Tree
 
  ~ a type of algorithm a computer follows to make a decision or prediction based on specific rules.
 
- Decision trees are [White Box Models][White Box Model] that Can be used for regression and classification.
+ Decision trees are [White Box Models] that Can be used for regression and classification.
   * classification:  Go from the root node to the leaf of the tree where is the classification.
   * regression: use the mean square error (MSE)
 
@@ -714,7 +765,9 @@ layout: page
  {% youtube "https://www.youtube.com/watch?v=wrBUkpiRvCA" %}
 
  More at:
-  * ...
+  * code - [https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/Q%20learning](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/Q%20learning)
+  * articles
+    * [https://www.v7labs.com/blog/deep-reinforcement-learning-guide](https://www.v7labs.com/blog/deep-reinforcement-learning-guide)
 
  See also [D], ...
 
@@ -755,11 +808,14 @@ layout: page
 
  Beware: weights are calculated using the [stochastic gradient descent] AND [backpropagation] (as other neural networks)
 
+ {% youtube "https://www.youtube.com/watch?v=0bt0SjbS3xc" %}
+
  {% pdf "https://arxiv.org/pdf/1312.5602.pdf" %}
 
  More at:
   * [https://deeplizard.com/learn/video/0bt0SjbS3xc](https://deeplizard.com/learn/video/0bt0SjbS3xc)
   * [https://towardsdatascience.com/deep-q-networks-theory-and-implementation-37543f60dd67](https://towardsdatascience.com/deep-q-networks-theory-and-implementation-37543f60dd67)
+  * [https://towardsdatascience.com/welcome-to-deep-reinforcement-learning-part-1-dqn-c3cab4d41b6b](https://towardsdatascience.com/welcome-to-deep-reinforcement-learning-part-1-dqn-c3cab4d41b6b)
 
  See also [D], ...
 
@@ -801,6 +857,11 @@ layout: page
 
 
 # DeepMind Company
+
+ People:
+  * [Demis Hassabis]
+  * [Mustafa Suleyman]
+  * [Shane Legg]
 
  Models:
   * [AlphaCode][AlphaCode Model]: LLM for code generation
@@ -868,6 +929,17 @@ layout: page
  See also [D], [Addiction], [Reinforcement Learning], [Reward Shaping]
 
 
+# Demis Hassabis Person
+
+ One of the 3 founders of [DeepMind]
+
+ {% youtube "https://www.youtube.com/watch?v=Gfr50f6ZBvo" %}
+
+ {% youtube "https://www.youtube.com/watch?v=2s4D-8MpreE" %}
+
+ See also [D], ...
+
+
 # Dendrocentric AI
 
  Computing based on [Dendrites][Dendrite]
@@ -896,12 +968,33 @@ with loss function computed from (output - input)
  See also [D], [Autoencoder], [Loss Function]
 
 
+# Denoising Diffusion Policy Optimization
+# DDPO
+
+ ~ PPO for diffusion models?
+
+ ~ Each denoising step is an action. Reward on the final generated image.
+
+ We train diffusion models directly on downstream objectives using [reinforcement learning (RL)][RL]. We do this by posing denoising diffusion as a multi-step decision-making problem, enabling a class of policy gradient algorithms that we call denoising diffusion policy optimization (DDPO). We use DDPO to finetune [Stable Diffusion] on objectives that are difficult to express via prompting, such as image compressibility, and those derived from human feedback, such as aesthetic quality. We also show that DDPO can be used to improve prompt-image alignment without any human annotations using feedback from a vision-language model.
+
+ ![]( {{site.assets}}/d/denoising_diffusion_policy_optimization.jpeg ){: width="100%"}
+
+ More at:
+  * site - [https://rl-diffusion.github.io/](https://rl-diffusion.github.io/)
+
+ See also [D], ...
+
+
 # Denoising Diffusion Probabilistic Model
 
  See [Diffusion Model]
 
 
 # Dense Layer
+
+ ~ each input neuron/layer is connected to each output neuron/layer + nonlinear activation function
+
+ ~ aka Fully Connected or FC layer
 
  In any neural network, a dense layer is a layer that is deeply connected with its preceding layer which means the neurons of the layer are connected to every neuron of its preceding layer. This layer is the most commonly used layer in artificial neural network networks. As discussed before, results from every neuron of the preceding layers go to every single neuron of the dense layer. So we can say that if the preceding layer outputs a (M x N) matrix by combining results from every neuron, this output goes through the dense layer where the count of neurons in a dense layer should be N.
 
@@ -1125,7 +1218,7 @@ speed.
 # Direct Preference Optimization
 # DPO
 
- DPO replaces [RLHF] : In this technical and informative video, we explore a groundbreaking methodology called direct preference optimization (DPO) by Stanford Univ that has the potential to replace reinforcement learning in the training of GPT systems. 
+ DPO replaces [RLHF] in LLM training: In this technical and informative video, we explore a groundbreaking methodology called direct preference optimization (DPO) by [Stanford University] that has the potential to replace [reinforcement learning (RL)][RL ]in the training of [GPT models]. 
 
  {% youtube "https://www.youtube.com/watch?v=pzh2oc6shic" %}
 
@@ -1329,11 +1422,15 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
 
 # DreamBooth Model
 
+ ~ USED TO CREATE IMAGES OF A SPECIFIC SUBJECT (eg main character)
+
  ~ a fine-tuned model to incorporate an object or person in your image generation when using a diffusion model.
 
  ~ It’s like a photo booth, but once the subject is captured, it can be synthesized wherever your dreams take you…
 
  * developed at [Google]
+
+ {% youtube "https://www.youtube.com/watch?v=D641lhioXMc" %}
 
  {% youtube "https://www.youtube.com/watch?v=dVjMiJsuR5o" %}
 
@@ -1376,14 +1473,18 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
  {% pdf "https://arxiv.org/pdf/2302.01329.pdf" %}
 
  More at:
-  * [https://dreamix-video-editing.github.io/]](https://dreamix-video-editing.github.io/)
+  * site - [https://dreamix-video-editing.github.io/]](https://dreamix-video-editing.github.io/)
   * paper - [https://arxiv.org/abs/2302.01329](https://arxiv.org/abs/2302.01329)
+
+ See also [D], ...
 
 # Dropout
 
- ~ pruning ? More like intentionally filtering!
+ ~ Used for regulation to prevent [overfitting]
+
+ ~ Like pruning? No, because temporary! More like intentionally filtering at training time for each batch!
   * filtering signal from input that we know won't be relevant (ex: finding the beat, when listening to the entire music!)
-  * nowing something about the output and hence reducing processing leading to the possibility of non compliant outputs
+  * knowing something about the output and hence reducing processing leading to the possibility of non compliant outputs
   * etc
 
  Dropout refers to data, or noise, that's intentionally dropped from a neural network to improve processing and time to results.
@@ -1399,10 +1500,14 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
 
  Function used to remove nodes from the Neural Network to prevent over-fitting.
 
+ Q: Is the function run for each neuron/connection in the [dropout layer] ?
+
  See also [D], [Hyperparameter]
 
 
 # Dropout Layer
+
+ ~ Used for regulation to prevent [overfitting]
 
  Layer or layers where the [dropout function] is applied, normally after all Dense layers! The dropout rate for each dropout layer can be different.
 

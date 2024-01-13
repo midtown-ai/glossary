@@ -274,7 +274,7 @@ model.summary()
  See also [I], [Adversarial Imitation Learning], [Behavioral Cloning], [IQ-Learn Model], [Learning Method], [Reinforcement Learning], [Software 2.0]
 
 
-# Imbalanced Data
+# Imbalanced Dataset
 
  Imbalanced data refers to a situation in which the distribution of classes in a dataset is not equal. In a binary classification problem, where there are two classes (positive and negative), imbalanced data occurs when one class significantly outnumbers the other. This imbalance can lead to challenges when training machine learning models, as the model may become biased towards the majority class and perform poorly on the minority class.
 
@@ -318,11 +318,37 @@ model.summary()
  See also [I], ...
 
 
+# Inductive Bias
+
+ ~ bias coming from the assumptions made during [inductive reasoning]
+
+ Inductive bias is fundamentally related to the [bias-variance tradeoff] because it influences the learning algorithm's tendency to [underfit] or [overfit] the data. A well-chosen inductive bias will help the model generalize well from the training data to unseen data by finding a good balance between [bias] and [variance].
+
+ Examples:
+  * [Linear regression] - The inductive bias is that the target variable can be expressed as a linear combination of the input features. This is a strong assumption about the nature of the relationship between inputs and outputs.
+  * [Decision tree] - The inductive bias is that the data can be segmented into smaller and smaller subsets based on feature values, often assuming that the data has a hierarchical structure.
+  * [Artificial neural networks] - These have a more complex inductive bias, often assuming that real-world phenomena can be captured through layers of abstraction and representation.
+
+ See also [I], ...
+
+
 # Inductive Reasoning
 
  Coming up with `rules to explain the current observation`. Sometimes the truth can be learned ;-)
 
+ Type of inductive reasoning:
+  * Generalized induction: From observation, you infer a general rule.
+  * Statistical induction: Based on the frequency of an occurrence in sampled instances, you infer the probability of that occurrence in general. For example, if 9 out of 10 sampled apples are red, you might infer a high probability that the next apple you see will be red.
+  * Causal inference: Observing a consistent association between two events and inferring a causal relationship. For example, noticing that the ground is wet every time it rains and inferring that rain causes the ground to become wet.
+  * Predictive induction: Observing a pattern or trend and predicting that it will continue. For example, observing that a company's stock has risen in the past few hours and predicting that it will keep rising in the next hour.
+
  See also [I], [Deductive Reasoning], [Truth]
+
+
+# Inertial Measurement Unit
+# IMU
+
+ See also [I], [SLAM Algorithm]
 
 
 # Inference
@@ -645,6 +671,16 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
  The Isolation Forest works a bit differently than a Random Forest. It also creates a bunch of decision trees, but then it calculates the path length necessary to isolate an observation in the tree. The idea being that isolated observations, or anomalies, are easier to isolate because there are fewer conditions necessary to distinguish them from the normal cases. Thus, the anomalies will have shorter paths than normal observations and reside closer to the root of the tree.
 
  See also [I], [Ensemble Method]
+
+
+# Isomorphic Labs Company
+
+ Spin off from [Deepmind] also founded by [Demis Hassabis] to continue working on [AlphaFold] extensions
+
+ More at:
+  * [https://www.isomorphiclabs.com/](https://www.isomorphiclabs.com/)
+
+ See also [I], ...
 
 
 # Istio

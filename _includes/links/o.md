@@ -46,11 +46,16 @@
 [OpenFold]: {{ site.baseurl }}{% link glossary/o.md %}#openfold-model
 [OpenMMLab]: {{ site.baseurl }}{% link glossary/o.md %}#openmmlab
 [OpenVINO Toolkit]: {{ site.baseurl }}{% link glossary/o.md %}#openvino-toolkit
+[OpenVINO]: {{ site.baseurl }}{% link glossary/o.md %}#openvino-toolkit
+[OpenVoice Model]: {{ site.baseurl }}{% link glossary/o.md %}#openvoice-model
+[OpenVoice]: {{ site.baseurl }}{% link glossary/o.md %}#openvoice-model
 [Optical Character Recognition]: {{ site.baseurl }}{% link glossary/o.md %}#optical-character-recognition
 [OCR]: {{ site.baseurl }}{% link glossary/o.md %}#optical-character-recognition
 [Optimal Policy]: {{ site.baseurl }}{% link glossary/o.md %}#optimal-policy
 [Optimal Q-Value]: {{ site.baseurl }}{% link glossary/o.md %}#optimal-q-value
 [Optimization]: {{ site.baseurl }}{% link glossary/o.md %}#optimization
+[Optimization By Prompting]: {{ site.baseurl }}{% link glossary/o.md %}#optimization-by-prompting
+[OPRO]: {{ site.baseurl }}{% link glossary/o.md %}#optimization-by-prompting
 [Optimizer]: {{ site.baseurl }}{% link glossary/o.md %}#optimizer
 [Optimus Robot]: {{ site.baseurl }}{% link glossary/o.md %}#optimus-robot
 [Optimus]: {{ site.baseurl }}{% link glossary/o.md %}#optimus-robot

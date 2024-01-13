@@ -16,12 +16,21 @@ categories: jekyll update
  * OpenAI - [https://techcrunch.com/2023/12/13/openai-launches-second-converge-startup-cohort/](https://techcrunch.com/2023/12/13/openai-launches-second-converge-startup-cohort/)
  * ED gov - [https://ies.ed.gov/funding/pdf/2024_84305C.pdf](https://ies.ed.gov/funding/pdf/2024_84305C.pdf)
 
+## Glossary
+ 
+ Institutional Review Board (IRB) - 
+
 ## Links
 
  * site - [https://tools-competition.org/](https://tools-competition.org/)
+ * blog - [https://tools-competition.org/blog/](https://tools-competition.org/blog/)
+ * competition
+   * official rules - [https://tools-competition.org/official-rules/](https://tools-competition.org/official-rules/)
    * topparent - [https://tools-competition.org/user-engagement-with-top-parent/](https://tools-competition.org/user-engagement-with-top-parent/)
-   * 2020 - 2021 winners - [https://tools-competition.org/winner/multimodal-toolkit/](https://tools-competition.org/winner/multimodal-toolkit/)
-     * smart paper - i
+   * 2020 - 2021 winners 
+     * multimodal-toolkit - [https://tools-competition.org/winner/multimodal-toolkit/](https://tools-competition.org/winner/multimodal-toolkit/)
+     * upchieve - [https://tools-competition.org/winner/on-demand-math-tutoring/](https://tools-competition.org/winner/on-demand-math-tutoring/)
+     * smart paper - 
  * phase II
    * 2023/12/14 webinar - [https://www.eventbrite.com/x/772267752637/](https://www.eventbrite.com/x/772267752637/)
    * tips for strengthening application - [https://tools-competition.org/tips-for-strengthening-phase-ii-proposals/](https://tools-competition.org/tips-for-strengthening-phase-ii-proposals/)
@@ -32,6 +41,14 @@ categories: jekyll update
    * 2020 - 2023 winners - [https://tools-competition.org/winners/](https://tools-competition.org/winners/)
      * Examples
        * evidenceB - [https://tools-competition.org/winner/adaptivmath/](https://tools-competition.org/winner/adaptivmath/)
+   * FAQ
+     * Eligibility - [https://tools-competition.org/faq/#tab-278131](https://tools-competition.org/faq/#tab-278131)
+     * Successful proposal - [https://tools-competition.org/faq/#tab-278132](https://tools-competition.org/faq/#tab-278132)
+     * Award level and budget - [https://tools-competition.org/faq/#tab-278133](https://tools-competition.org/faq/#tab-278133)
+     * Feedback and evaluation - [https://tools-competition.org/faq/#tab-278134](https://tools-competition.org/faq/#tab-278134)
+     * deleveloping a learning engineering plan - [https://tools-competition.org/faq/#tab-278135](https://tools-competition.org/faq/#tab-278135)
+     * after the competition - [https://tools-competition.org/faq/#tab-278136](https://tools-competition.org/faq/#tab-278136)
+
  * tracks
    * accelerating and assessing learning
      * page - [https://tools-competition.org/accelerating-and-assessing-learning/](https://tools-competition.org/accelerating-and-assessing-learning/)

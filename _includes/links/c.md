@@ -9,6 +9,8 @@
 [Cassandra Database]: {{ site.baseurl }}{% link glossary/c.md %}#cassandra-database
 [Casual Language Modeling]: {{ site.baseurl }}{% link glossary/c.md %}#casual-language-modeling
 [CatBoost Library]: {{ site.baseurl }}{% link glossary/c.md %}#catboost-libary
+[Catastrophic Forgetting]: {{ site.baseurl }}{% link glossary/c.md %}#catastrophic-forgetting
+[CF]: {{ site.baseurl }}{% link glossary/c.md %}#catastrophic-forgetting
 [Categorical Variable]: {{ site.baseurl }}{% link glossary/c.md %}#categorical-variable
 [Cell Block]: {{ site.baseurl }}{% link glossary/c.md %}#cell-block
 [Center Line]: {{ site.baseurl }}{% link glossary/c.md %}#center-line
@@ -24,12 +26,13 @@
 [Chained Model]: {{ site.baseurl }}{% link glossary/c.md %}#chained-model
 [Character AI Company]: {{ site.baseurl }}{% link glossary/c.md %}#character-ai-company
 [Character AI]: {{ site.baseurl }}{% link glossary/c.md %}#character-ai-company
+[Characteristic Stability Index]: {{ site.baseurl }}{% link glossary/c.md %}#characteristic-stability-index
+[CSI]: {{ site.baseurl }}{% link glossary/c.md %}#characteristic-stability-index
 [Chatbot]: {{ site.baseurl }}{% link glossary/c.md %}#chatbot
 [Chatbots]: {{ site.baseurl }}{% link glossary/c.md %}#chatbot
 [Chatbot Arena]: {{ site.baseurl }}{% link glossary/c.md %}#chatbot-arena
 [ChatGPT Model]: {{ site.baseurl }}{% link glossary/c.md %}#chatgpt-model
 [ChatGPT]: {{ site.baseurl }}{% link glossary/c.md %}#chatgpt-model
-[Checkpoint Evaluation]: {{ site.baseurl }}{% link glossary/c.md %}#checkpoint-evaluation
 [Child Development Milestone]: {{ site.baseurl }}{% link glossary/c.md %}#child-development-milestone
 [Chinchilla Model]: {{ site.baseurl }}{% link glossary/c.md %}#chinchilla-model
 [Chinchilla]: {{ site.baseurl }}{% link glossary/c.md %}#chinchilla-model
@@ -43,7 +46,10 @@
 [CIFAR]: {{ site.baseurl }}{% link glossary/c.md %}#cifar-dataset
 [CIFAR-10]: {{ site.baseurl }}{% link glossary/c.md %}#cifar-dataset
 [CIFAR-100]: {{ site.baseurl }}{% link glossary/c.md %}#cifar-dataset
-[Classification]: {{ site.baseurl }}{% link glossary/c.md %}#classification
+[Classification Task]: {{ site.baseurl }}{% link glossary/c.md %}#classification-task
+[Classification Tasks]: {{ site.baseurl }}{% link glossary/c.md %}#classification-task
+[Classification]: {{ site.baseurl }}{% link glossary/c.md %}#classification-task
+[Classifications]: {{ site.baseurl }}{% link glossary/c.md %}#classification-task
 [Classification Report]: {{ site.baseurl }}{% link glossary/c.md %}#classification-report
 [Claude Model]: {{ site.baseurl }}{% link glossary/c.md %}#claude-model
 [Claude]: {{ site.baseurl }}{% link glossary/c.md %}#claude-model
@@ -51,6 +57,8 @@
 [CLIP Image Encoder]: {{ site.baseurl }}{% link glossary/c.md %}#clip-image-encoder
 [CLIP Text Encoder]: {{ site.baseurl }}{% link glossary/c.md %}#clip-text-encoder
 [Clustering]: {{ site.baseurl }}{% link glossary/c.md %}#clustering
+[CM3leon Model]: {{ site.baseurl }}{% link glossary/c.md %}#cm3leaon-model
+[CM3leon]: {{ site.baseurl }}{% link glossary/c.md %}#cm3leaon-model
 [CNTK]: {{ site.baseurl }}{% link glossary/c.md %}#cntk
 [Codex Model]: {{ site.baseurl }}{% link glossary/c.md %}#codex-model
 [Codex]: {{ site.baseurl }}{% link glossary/c.md %}#codex-model
@@ -72,12 +80,15 @@
 [Computer Vision and Pattern Recognition Conference]: {{ site.baseurl }}{% link glossary/c.md %}#computer-vision-and-pattern-recognition-conference
 [CVPR Conference]: {{ site.baseurl }}{% link glossary/c.md %}#cvpr-conference
 [Concept Video]: {{ site.baseurl }}{% link glossary/c.md %}#concept-video
+[Conda CLI]: {{ site.baseurl }}{% link glossary/c.md %}#conda-cli
+[Conda]: {{ site.baseurl }}{% link glossary/c.md %}#conda-cli
 [Conditioning]: {{ site.baseurl }}{% link glossary/c.md %}#conditioning
 [Conditioning GAN]: {{ site.baseurl }}{% link glossary/c.md %}#conditioning-gan
 [CGAN]: {{ site.baseurl }}{% link glossary/c.md %}#conditioning-gan
 [Conditional Random Fields]: {{ site.baseurl }}{% link glossary/c.md %}#conditional-random-fields
 [Confidence Interval]: {{ site.baseurl }}{% link glossary/c.md %}#confidence-interval
 [Confusion Matrix]: {{ site.baseurl }}{% link glossary/c.md %}#confusion-matrix
+[Confusion Matrices]: {{ site.baseurl }}{% link glossary/c.md %}#confusion-matrix
 [Constraint Satisfaction Problem]: {{ site.baseurl }}{% link glossary/c.md %}#constraint-satisfaction-problem
 [Consumer Electric Show]: {{ site.baseurl }}{% link glossary/c.md %}#consumer-electronic-show
 [CES]: {{ site.baseurl }}{% link glossary/c.md %}#consumer-electronic-show
@@ -101,6 +112,8 @@
 [Convolutional Layers]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-layer
 [Convolutional Neural Network]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-neural-network
 [Convolutional Neural Networks]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-neural-network
+[ConvNet]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-neural-network
+[ConvNets]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-neural-network
 [CNN]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-neural-network
 [CNNs]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-neural-network
 [Convolutional Neural Network Feature Extractor]: {{ site.baseurl }}{% link glossary/c.md %}#convolutional-neural-network-feature-extractor

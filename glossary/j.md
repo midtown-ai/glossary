@@ -142,6 +142,16 @@ f(x,y) = P(X = x, Y = y)
 
  See also [J], ...
 
+
 # Jupyter Server
 
  See also [J], ...
+
+
+# JupyterLab
+
+ {% youtube "https://www.youtube.com/watch?v=zai2pLUD9FA" %}
+
+ {% youtube "https://www.youtube.com/watch?v=SIEr0DeHgGE" %}
+
+ See also [J], [Jupyter Notebook]

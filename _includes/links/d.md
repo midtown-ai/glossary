@@ -1,6 +1,5 @@
 [D]: {{ site.baseurl }}{% link glossary/d.md %}
 
-[Decision Boundary]: {{ site.baseurl }}{% link glossary/d.md %}#decision-boundary
 [DALL-E Models]: {{ site.baseurl }}{% link glossary/d.md %}#dall-e-models
 [DALL-E2 Model]: {{ site.baseurl }}{% link glossary/d.md %}#dall-e-models
 [DALL-E3 Model]: {{ site.baseurl }}{% link glossary/d.md %}#dall-e-models
@@ -19,10 +18,12 @@
 [Data Collection]: {{ site.baseurl }}{% link glossary/d.md %}#data-collection
 [Data Development Lifecycle]: {{ site.baseurl }}{% link glossary/d.md %}#data-development-lifecycle
 [DDLC]: {{ site.baseurl }}{% link glossary/d.md %}#data-development-lifecycle
+[Data Drift]: {{ site.baseurl }}{% link glossary/d.md %}#data-drift
 [Data Federation]: {{ site.baseurl }}{% link glossary/d.md %}#data-federation
 [Data Handling]: {{ site.baseurl }}{% link glossary/d.md %}#data-handling
 [Data Lake]: {{ site.baseurl }}{% link glossary/d.md %}#data-lake
 [Data Leakage]: {{ site.baseurl }}{% link glossary/d.md %}#data-leakage
+[Data Loader]: {{ site.baseurl }}{% link glossary/d.md %}#data-loader
 [Data Management]: {{ site.baseurl }}{% link glossary/d.md %}#data-management
 [Data Mesh]: {{ site.baseurl }}{% link glossary/d.md %}#data-mesh
 [Data Point]: {{ site.baseurl }}{% link glossary/d.md %}#data-point
@@ -36,6 +37,7 @@
 [Data Warehouse]: {{ site.baseurl }}{% link glossary/d.md %}#data-warehouse
 [Data-Centric AI]: {{ site.baseurl }}{% link glossary/d.md %}#data-centric-ai
 [DCAI]: {{ site.baseurl }}{% link glossary/d.md %}#data-centric-ai
+[DCAI]: {{ site.baseurl }}{% link glossary/d.md %}#data-centric-ai
 [Data2Vec Algorithm]: {{ site.baseurl }}{% link glossary/d.md %}#data2vec-algorithm
 [Data2Vec]: {{ site.baseurl }}{% link glossary/d.md %}#data2vec-algorithm
 [Dataset]: {{ site.baseurl }}{% link glossary/d.md %}#dataset
@@ -46,8 +48,11 @@
 [DBSCAN Algorithm]: {{ site.baseurl }}{% link glossary/d.md %}#dbscan-algorithm
 [Decision Boundary]: {{ site.baseurl }}{% link glossary/d.md %}#decision-boundary
 [Decision Stump]: {{ site.baseurl }}{% link glossary/d.md %}#decision-stump
+[Decision Stumps]: {{ site.baseurl }}{% link glossary/d.md %}#decision-stump
 [Decision Tree]: {{ site.baseurl }}{% link glossary/d.md %}#decision-tree
+[Decision Trees]: {{ site.baseurl }}{% link glossary/d.md %}#decision-tree
 [Decoder]: {{ site.baseurl }}{% link glossary/d.md %}#decoder
+[Decoders]: {{ site.baseurl }}{% link glossary/d.md %}#decoder
 [Decoder Representation]: {{ site.baseurl }}{% link glossary/d.md %}#decoder-representation
 [Decoder Representation Space]: {{ site.baseurl }}{% link glossary/d.md %}#decoder-representation-space
 [Decoder Stack]: {{ site.baseurl }}{% link glossary/d.md %}#decoder-stack
@@ -92,8 +97,11 @@
 [DeepSpeed Project]: {{ site.baseurl }}{% link glossary/d.md %}#deepspeed-project
 [DeepWalk]: {{ site.baseurl }}{% link glossary/d.md %}#deepwalk
 [Delayed Reward]: {{ site.baseurl }}{% link glossary/d.md %}#delayed-reward
+[Demis Hassabis Person]: {{ site.baseurl }}{% link glossary/d.md %}#demis-hassabis-person
+[Demis Hassabis]: {{ site.baseurl }}{% link glossary/d.md %}#demis-hassabis-person
 [Dendrite]: {{ site.baseurl }}{% link glossary/d.md %}#dendrite
 [Denoising Autoencoder]: {{ site.baseurl }}{% link glossary/d.md %}#denoising-autoencoder
+[Denoising Diffusion Policy Optimization]: {{ site.baseurl }}{% link glossary/d.md %}#denoising-diffusion-policy-optimization
 [Denoising Diffusion Probabilistic Model]: {{ site.baseurl }}{% link glossary/d.md %}#denoising-diffusion-probabilistic-model
 [Dense Layer]: {{ site.baseurl }}{% link glossary/d.md %}#dense-layer
 [Dense Model]: {{ site.baseurl }}{% link glossary/d.md %}#dense-model

@@ -513,6 +513,22 @@ cheese =>                                   # Prompt
  See also [O], [Open Neural Network Exchange]
 
 
+# OpenVoice Model
+
+ ~ a versatile voice cloning approach that requires only a short audio clip from the reference speaker to replicate their voice and generate speech in multiple languages.
+
+ {% pdf "https://arxiv.org/pdf/2312.01479.pdf" %}
+
+ More at:
+  * site - [https://research.myshell.ai/open-voice](https://research.myshell.ai/open-voice)
+  * code - [https://github.com/myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice)
+  * paper - [https://arxiv.org/abs/2312.01479](https://arxiv.org/abs/2312.01479)
+  * articles
+    * [https://venturebeat.com/ai/open-source-ai-voice-cloning-arrives-with-myshells-new-openvoice-model/](https://venturebeat.com/ai/open-source-ai-voice-cloning-arrives-with-myshells-new-openvoice-model/)
+
+ See also [O], ...
+
+
 # Optical Character Recognition
 # OCR
 
@@ -576,6 +592,26 @@ cheese =>                                   # Prompt
  See also [O], [Dynamic Programming], [Loss Function], [Optimizer]
 
 
+# Optimization by Prompting
+# OPRO
+
+ Optimization is ubiquitous. While derivative-based algorithms have been powerful tools for various problems, the absence of gradient imposes challenges on many real-world applications. In this work, we propose Optimization by PROmpting (OPRO), a simple and effective approach to leverage large language models (LLMs) as optimizers, where the optimization task is described in natural language. In each optimization step, the LLM generates new solutions from the prompt that contains previously generated solutions with their values, then the new solutions are evaluated and added to the prompt for the next optimization step. We first showcase OPRO on linear regression and traveling salesman problems, then move on to prompt optimization where the goal is to find instructions that maximize the task accuracy. With a variety of LLMs, we demonstrate that the best prompts optimized by OPRO outperform human-designed prompts by up to 8% on GSM8K, and by up to 50% on Big-Bench Hard tasks.
+
+ ![]( {{site.assets}}/o/optimization_by_prompting.png )
+
+ {% pdf "https://arxiv.org/pdf/2309.03409.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2309.03409](https://arxiv.org/abs/2309.03409)
+  * code - [https://github.com/google-deepmind/opro](https://github.com/google-deepmind/opro)
+  * articles
+    * with code - [https://www.linkedin.com/pulse/optimization-prompting-using-llms-improve-george-davis/](https://www.linkedin.com/pulse/optimization-prompting-using-llms-improve-george-davis/)
+    * [https://bdtechtalks.com/2023/11/20/deepmind-opro-llm-optimization/](https://bdtechtalks.com/2023/11/20/deepmind-opro-llm-optimization/)
+    * [https://arstechnica.com/information-technology/2023/09/telling-ai-model-to-take-a-deep-breath-causes-math-scores-to-soar-in-study/](https://arstechnica.com/information-technology/2023/09/telling-ai-model-to-take-a-deep-breath-causes-math-scores-to-soar-in-study/)
+
+ See also [O], ...
+
+
 # Optimizer
 
  Optimizer = How you are going to minimize the [Loss Function].
@@ -584,23 +620,27 @@ cheese =>                                   # Prompt
 
  Optimization algorithm
   * The first algorithms
-   * [Gradient Descent (GD)][GD Algorithm]
-   * [Stochastic Gradient Descent (SGD)][SGD Algorithm] - faster convergence than GD
+    * [Gradient Descent (GD)][GD]
+    * [Stochastic Gradient Descent (SGD)][SGD] - faster convergence than GD
   * Adaptive learning algorithms
-   * [Resilient Backpropagation (Rrop)][Rprop Algorithm] (1992)
-   * [Adaptive Gradient Algorithm][AdaGrad Algorithm] 
-   * [Root Mean Square Propagation (RMSprop)][RMSProp Algorithm] 
+    * [Resilient Backpropagation (Rprop)][Rprop] (1992)
+    * [Adaptive Gradient Algorithm (AdaGrad)][AdaGrad] 
+    * [Root Mean Square Propagation (RMSprop)][RMSProp] 
   * Momentum algorithms
-   * [Gradient Descent with Momentum][GD with Momentum algorithm]
+    * [Gradient Descent with Momentum (GDwM)][GDwM]
   * Adaptive learning with Momentum algorithms
-   * [Adaptive Delta Algorithm][AdaDelta Algorithm] 
-   * [Adaptive Momentum Estimation (Adam)][Adam Algorithm]
+    * [Adaptive Delta Algorithm (AdaDelta)][AdaDelta] 
+    * [Adaptive Momentum Estimation (Adam)][Adam]
   * Others
-   * Nesterov-accelerated Adaptive Momentum Estimation (Nadam)
-   * Nadamax
-   * Nesterov
-   * MaxaProp
+    * Nesterov-accelerated Adaptive Momentum Estimation (Nadam)
+    * Nadamax
+    * Nesterov --> almost same as classical momentum
+    * MaxaProp
 
+ :warning: In GD, you look at the position and the gradient (acceleration).
+
+ :warning: with momentum, you take the speed in consideration!
+   * smooth out the trajectory
  
  ```
 from tensorflow import keras
@@ -613,6 +653,8 @@ model.add(layers.Activation('softmax'))
 opt = keras.optimizers.Adam(learning_rate=0.01)
 model.compile(loss='categorical_crossentropy', optimizer=opt)
  ```
+
+ {% youtube "https://www.youtube.com/watch?v=NE88eqLngkg" %}
 
  More at:
   * [https://keras.io/api/optimizers/](https://keras.io/api/optimizers/)
@@ -687,7 +729,7 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
 
 # Overfitting
 
- ~ when accuracy on training set is much higher than the one on the test set
+ ~ when accuracy on training set is much higher (good performance) than the one on the test set (or other input sets)
 
  ~ means the model has high [variance] (works well with training set, but not with the test set!)
 
@@ -698,7 +740,7 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
  If the algorithm is too complex or flexible (e.g. it has too many input features or it’s not properly regularized), it can end up “memorizing the noise” instead of finding the signal. This overfit model will then make predictions based on that noise. It will perform unusually well on its training data… yet very poorly on new, unseen data. `A key challenge with overfitting, and with machine learning in general, is that we can’t know how well our model will perform on new data until we actually test it`. To address this, we can split our initial [dataset] into separate [training][Training Subset] and [test subsets][Test Subset]. To avoid over-fitting, try [hyperparameter optimization].
 
  Reasons for overfitting:
-  * too few training examples
+  * too few training examples (connect samples when in fact the connection is not a simple straight line!)
   * running the training process for too many epochs. Consider [early stopping] ?
 
  ![]( {{site.assets}}/o/overfitting_fitting_comparison.png ){: width="100%"}

@@ -7,8 +7,6 @@
 [Tabular Prior-Data Fitted Network]: {{ site.baseurl }}{% link glossary/t.md %}#tabular-prior-data-fitted-network
 [TabPFN]: {{ site.baseurl }}{% link glossary/t.md %}#tabular-prior-data-fitted-network
 [Tanh Activation Function]: {{ site.baseurl }}{% link glossary/t.md %}#tanh-activation-function
-[T5 Model]: {{ site.baseurl }}{% link glossary/t.md %}#t5-model
-[T5 Models]: {{ site.baseurl }}{% link glossary/t.md %}#t5-model
 [Target Attribute]: {{ site.baseurl }}{% link glossary/t.md %}#target-attribute
 [Task]: {{ site.baseurl }}{% link glossary/t.md %}#task
 [Task-Based Learning]: {{ site.baseurl }}{% link glossary/t.md %}#task-based-learning
@@ -18,7 +16,8 @@
 [Temperature]: {{ site.baseurl }}{% link glossary/t.md %}#temperature
 [Tensor]: {{ site.baseurl }}{% link glossary/t.md %}#tensor
 [Tensor Processing Unit]: {{ site.baseurl }}{% link glossary/t.md %}#tensor-processing-unit
-[TPU]: {{ site.baseurl }}{% link glossary/t.md %}#tpu
+[TPU]: {{ site.baseurl }}{% link glossary/t.md %}#tensor-processing-unit
+[TensorFlow Hub]: {{ site.baseurl }}{% link glossary/t.md %}#tensorflow-hub
 [TensorFlow Python Module]: {{ site.baseurl }}{% link glossary/t.md %}#tensorflow-python-module
 [TensorFlow]: {{ site.baseurl }}{% link glossary/t.md %}#tensorflow-python-module
 [TensorRT Software Development Kit]: {{ site.baseurl }}{% link glossary/t.md %}#tensorrt-software-development-kit
@@ -33,14 +32,17 @@
 [TFM]: {{ site.baseurl }}{% link glossary/t.md %}#term-frequency-matrix
 [Terminator Movie]: {{ site.baseurl }}{% link glossary/t.md %}#terminator-movie
 [Terminator]: {{ site.baseurl }}{% link glossary/t.md %}#terminator-movie
-[Test Subset]: {{ site.baseurl }}{% link glossary/t.md %}#test-subset
+[Test Set]: {{ site.baseurl }}{% link glossary/t.md %}#test-set
 [Text Embedding]: {{ site.baseurl }}{% link glossary/t.md %}#text-embedding
 [Text Reconstruction]: {{ site.baseurl }}{% link glossary/t.md %}#text-reconstruction
 [Text Summarization]: {{ site.baseurl }}{% link glossary/t.md %}#text-summarization
 [Text-To-Speech Model]: {{ site.baseurl }}{% link glossary/t.md %}#text-to-speech-model
 [TTS Model]: {{ site.baseurl }}{% link glossary/t.md %}#text-to-speech-model
 [Text-To-Text Transfer Transformer Model]: {{ site.baseurl }}{% link glossary/t.md %}#text-to-text-transfer-transformer-model
+[Text-To-Text Transfer Transformer Models]: {{ site.baseurl }}{% link glossary/t.md %}#text-to-text-transfer-transformer-model
 [T5 Model]: {{ site.baseurl }}{% link glossary/t.md %}#text-to-text-transfer-transformer-model
+[T5 Models]: {{ site.baseurl }}{% link glossary/t.md %}#text-to-text-transfer-transformer-model
+[Textual Inversion]: {{ site.baseurl }}{% link glossary/t.md %}#textual-inversion
 [The Imitation Game Movie]: {{ site.baseurl }}{% link glossary/t.md %}#the-imitation-game-movie
 [The Imitation Game]: {{ site.baseurl }}{% link glossary/t.md %}#the-imitation-game-movie
 [The Matrix Movie]: {{ site.baseurl }}{% link glossary/t.md %}#the-matrix-movie
@@ -58,7 +60,8 @@
 [Top-P]: {{ site.baseurl }}{% link glossary/t.md %}#top-p-random-sampling
 [Torch]: {{ site.baseurl }}{% link glossary/t.md %}#torch
 [TorchScript Format]: {{ site.baseurl }}{% link glossary/t.md %}#torchscript-format
-[Training Subset]: {{ site.baseurl }}{% link glossary/t.md %}#training-subset
+[Training Loss]: {{ site.baseurl }}{% link glossary/t.md %}#training-loss
+[Training Set]: {{ site.baseurl }}{% link glossary/t.md %}#training-set
 [Trajectory]: {{ site.baseurl }}{% link glossary/t.md %}#trajectory
 [Transcendence Movie]: {{ site.baseurl }}{% link glossary/t.md %}#transcendence-movie
 [Transcendence]: {{ site.baseurl }}{% link glossary/t.md %}#transcendence-movie
@@ -80,8 +83,19 @@
 [Triplet Loss Function]: {{ site.baseurl }}{% link glossary/t.md %}#triplet-loss-function
 [Triton]: {{ site.baseurl }}{% link glossary/t.md %}#triton
 [TriviaQA Dataset]: {{ site.baseurl }}{% link glossary/t.md %}#triviaqa-dataset
+[TriviaQA]: {{ site.baseurl }}{% link glossary/t.md %}#triviaqa-dataset
 [TrOCR Model]: {{ site.baseurl }}{% link glossary/t.md %}#trocr-model
 [TrOCR]: {{ site.baseurl }}{% link glossary/t.md %}#trocr-model
+[True Negative]: {{ site.baseurl }}{% link glossary/t.md %}#true-negative
+[True Negatives]: {{ site.baseurl }}{% link glossary/t.md %}#true-negative
+[TN]: {{ site.baseurl }}{% link glossary/t.md %}#true-negative
+[True Negative Rate]: {{ site.baseurl }}{% link glossary/t.md %}#true-negative-rate
+[TNR]: {{ site.baseurl }}{% link glossary/t.md %}#true-negative-rate
+[True Positive]: {{ site.baseurl }}{% link glossary/t.md %}#true-positive
+[True Positives]: {{ site.baseurl }}{% link glossary/t.md %}#true-positive
+[TP]: {{ site.baseurl }}{% link glossary/t.md %}#true-positive
+[True Positive Rate]: {{ site.baseurl }}{% link glossary/t.md %}#true-positive-rate
+[TPR]: {{ site.baseurl }}{% link glossary/t.md %}#true-positive-rate
 [Trust Region Policy Optimization Algorithm]: {{ site.baseurl }}{% link glossary/t.md %}#trust-region-policy-optimization-algorithm
 [Trust Region Policy Optimization]: {{ site.baseurl }}{% link glossary/t.md %}#trust-region-policy-optimization-algorithm
 [TRPO Algorithm]: {{ site.baseurl }}{% link glossary/t.md %}#trust-region-policy-optimization-algorithm

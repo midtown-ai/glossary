@@ -600,6 +600,7 @@ print("ga_output: ", ga_output)
   * [DreamIX][DreamIX Model] - text-to-video and image-to-video diffusion model
   * [Gameface](https://blog.google/technology/ai/google-project-gameface/) - use your face in place of a mouse!
   * [Gemini] - multimodal to enable future innovations like memory and planning
+  * [Gnome] -  Graph Network for materials exploration
   * [Google Lens][Google Lens] - search what you see, uses cellphone cameras and [computer vision]
   * [Google Translate][Google Translate Model] - Translate one language into another, [machine translation]
   * [Gshard Model] -
@@ -786,6 +787,11 @@ print("ga_output: ", ga_output)
  See also [G], [Boosting], [Ensemble Method], [Gradient Bagging], [Weak Learner]
 
 
+# Gradient Checkpoint
+ 
+  See [Activation Checkpoint]
+
+
 # Gradient Clipping
 
  A technique to prevent exploding gradients in very deep networks, usually in recurrent neural networks. Gradient Clipping is a method where the error derivative is changed or clipped to a threshold during backward propagation through the network, and using the clipped gradients to update the weights.
@@ -810,14 +816,14 @@ print("ga_output: ", ga_output)
 
  {% youtube "https://www.youtube.com/watch?v=OkmNXy7er84" %}
 
- Gradient descent algorithms nad derivatives
-  * [stochastic gradient descent][SGD Algorithm]
-  * [Gradient descent with momentum][GD with Momentum Algorithm]
+ Gradient descent algorithms and derivatives
+  * [stochastic gradient descent (SGD)][SGD]
+  * [Gradient descent with momentum (GDwM)][GDwM]
   * nesterov accelerated gradient
-  * [adaptive gradient][AdaGrad Algorithm]
-  * [adadelta gradient][AdaDelta Algorithm]
-  * [Adaptive momentum estimation (Adam)][Adam Algorithm]
-  * [RMSprop][RMSprop Algorithm]
+  * [adaptive gradient (AdaGrad)][AdaGrad]
+  * [adadelta gradient (AdaDelta)][AdaDelta]
+  * [Adaptive momentum estimation (Adam)][Adam]
+  * [Root Mean Square Propagation (RMSprop)][RMSprop]
   * nag ?
 
  {% youtube "https://www.youtube.com/watch?v=nhqo0u1a6fw" %}
@@ -840,15 +846,17 @@ print("ga_output: ", ga_output)
 
 
 # Gradient Descent with Momentum Algorithm
-# GD with Momentum Algorithm
+# GDwM Algorithm
 
- In the context of [gradient descent][GD Algorithm], momentum is a technique that helps the algorithm to converge faster and more consistently by reducing the oscillation of the updates to the model parameters.
+ In the context of [gradient descent (GD)][GD], momentum is a technique that helps the algorithm to converge faster and more consistently by reducing the oscillation of the updates to the model parameters.
 
  The momentum technique introduces a new parameter called momentum coefficient, which determines the contribution of the previous updates to the current update. Instead of computing the update at each iteration solely based on the gradient, the momentum technique calculates an exponentially weighted average of the past gradients and uses it to update the model parameters.
 
  This helps to smooth out the updates and prevent the model from getting stuck in local optima. It also helps to accelerate the convergence in directions where the gradient changes sign frequently, by preserving the momentum of the gradient in the previous iterations.
 
- The momentum technique is particularly useful in deep learning where the optimization problem is complex and high-dimensional, and the gradient can be noisy or sparse. It is often used in combination with other optimization techniques such as [Adam][Adam Algorithm], [Adagrad][Adagrad Algorithm], and [RMSProp][RMSprop algorithm] to further improve the performance of the gradient descent algorithm.
+ The momentum technique is particularly useful in deep learning where the optimization problem is complex and high-dimensional, and the gradient can be noisy or sparse. It is often used in combination with other optimization techniques such as [Adam], [Adagrad], and [Root Mean Square Propagation (RMSProp)][RMSprop] to further improve the performance of the gradient descent algorithm.
+
+ {% youtube "https://www.youtube.com/watch?v=k8fTYJPd3_I" %}
 
  More at:
   * [https://towardsdatascience.com/gradient-descent-with-momentum-59420f626c8f](https://towardsdatascience.com/gradient-descent-with-momentum-59420f626c8f)
@@ -959,6 +967,25 @@ print("ga_output: ", ga_output)
  More at:
   * [https://towardsdatascience.com/getting-started-with-graph-embeddings-2f06030e97ae](https://towardsdatascience.com/getting-started-with-graph-embeddings-2f06030e97ae)
   * visualization with t-SNE - [https://towardsdatascience.com/visualizing-graph-embeddings-with-t-sne-in-python-10227e7876aa](https://towardsdatascience.com/visualizing-graph-embeddings-with-t-sne-in-python-10227e7876aa)
+
+
+# Graph Network For Materials Exploration Model
+# GNoME Model
+
+
+ ![]( {{site.assets}}/g/graph_network_for_materials_exploration_model.webp ){: width="100%"}
+
+ More at;
+  * papers
+    * Nature - [https://www.nature.com/articles/s41586-023-06735-9](https://www.nature.com/articles/s41586-023-06735-9)
+    * Berkeley - [https://www.nature.com/articles/s41586-023-06734-w](https://www.nature.com/articles/s41586-023-06734-w)
+  * dataset - [https://github.com/google-deepmind/materials_discovery](https://github.com/google-deepmind/materials_discovery)
+  * data 
+    * the materials project - [https://next-gen.materialsproject.org/](https://next-gen.materialsproject.org/)
+  * articles
+    * announcement - [https://deepmind.google/discover/blog/millions-of-new-materials-discovered-with-deep-learning/](https://deepmind.google/discover/blog/millions-of-new-materials-discovered-with-deep-learning/)
+
+ See also [G], [Matbench Discovery Benchmark]
 
 
 # Graph Neural Network

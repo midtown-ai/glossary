@@ -354,7 +354,6 @@ StandardScaler()
 
 
 # Segment Anything Model
-
 # SAM
 
  [Meta] has launched Segment Anything, a project that introduces the Segment Anything Model (SAM), a promptable model for [image segmentation][INstance Segmentation] in [computer vision]. SAM can generate masks for any object in any image or video and learn a generalized notion of objects, making it a powerful tool for various applications, such as AR/VR, content creation, and scientific domains. SAM's promptable design allows for flexible integration with other systems, eliminating the need for task-specific modeling expertise, training compute, and custom data annotation. SAM is a single model that can perform both interactive and automatic segmentation, making it a unique and innovative tool in the field of computer vision.
@@ -554,6 +553,26 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
  See also [S], [Semantic Space], [Zero-Shot Learning]
 
 
+# Semantic Router
+
+ An alternative to [React Prompting] iwhen working with [AI Agents], where a query is semantically mapped to an embedded space where tool queries are mapped.
+
+ :warning: can also be used for safeguards !
+
+ :warning: Can be used for RAG !
+
+ Q: That probably works well for 1 tools, but what about several tools?
+
+ {% youtube "https://www.youtube.com/watch?v=ro312jDqAh0" %}
+
+ More at:
+  * notebooks 
+    * get started - [https://github.com/aurelio-labs/semantic-router/blob/main/docs/00-introduction.ipynb](https://github.com/aurelio-labs/semantic-router/blob/main/docs/00-introduction.ipynb)
+    * langchain - [https://github.com/aurelio-labs/semantic-router/blob/main/docs/03-basic-langchain-agent.ipynb](https://github.com/aurelio-labs/semantic-router/blob/main/docs/03-basic-langchain-agent.ipynb)
+
+ See also [S], ...
+
+
 # Semantic Search
 
  = embedding + similarity + reranking
@@ -612,15 +631,50 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
 
 # Sensitivity
 
- = recall ?
+ ~ a term more commonly used in fields like medicine or epidemiology. It describes a test's ability to correctly identify patients with a disease (true positives).
 
- ~ true positive rate. = probability of a positive test given the patient has the disease.  Sensitivity refers to the probability of a positive test, conditioned on truly being positive. Examples:
+ ~ High sensitivity = test is effective at detecting positive cases without missing many 
+
+ ~ aka [recall] in the field of [ML] and information retrieval. It describes the ability of a model to find all the relevant cases within a dataset.
+
+ ~ aka [True Positive Rate (TPR)][TPR] in the context of a classifier. = probability of a positive test given the patient has the disease.  Sensitivity refers to the probability of a positive test, conditioned on truly being positive. Examples:
   * how many sick people were CORRECTLY identified as having the condition.
+
+ ```
+# P(Pos) = Probability of getting a positive test result
+# P(D) = The probability of a person having diabetes
+# P(~D) = The probabilitiy of a person NOT having diabetes
+# Sensitivity = 
+# Specificity =
+P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
+ ```
 
  More at:
   * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
+  * [https://medium.com/becoming-human/naive-bayes-theorem-d8854a41ea08](https://medium.com/becoming-human/naive-bayes-theorem-d8854a41ea08)
 
- See also [S], [Confusion Matrix], [Specificity]
+ See also [S], [Confusion Matrix], [Sensitivity-Specificity Trade-Off], [Specificity]
+
+
+# Sensitivity-Specificity Trade-Off
+
+ The sensitivity-specificity trade-off in a classifier refers to the balance between two key metrics:
+  * [Sensitivity] (or [Recall]): The ability of the classifier to correctly identify positive instances. It is calculated as the proportion of true positives out of the total actual positives.
+  * [Specificity]: The ability of the classifier to correctly identify negative instances. It is calculated as the proportion of true negatives out of the total actual negatives.
+
+ The trade-off between sensitivity and specificity arises because improving one of these metrics often comes at the expense of the other. This is particularly evident in classifiers that output a probability or score, where a threshold is set to determine the class labels (positive or negative). Adjusting this threshold will typically increase one metric but decrease the other.
+
+ Here's how:
+  * Lowering the Threshold: If you lower the threshold for classifying an instance as positive, you will likely identify more true positives (increasing sensitivity), but you will also likely misclassify more negatives as positives (decreasing specificity).
+  * Raising the Threshold: Conversely, if you raise the threshold, you'll classify fewer instances as positive. This can lead to fewer false positives (increasing specificity), but also more false negatives (decreasing sensitivity).
+
+ This trade-off is crucial in many real-world applications. For example, in medical diagnostics, a high sensitivity is often desired for initial screenings to ensure that as many cases of a disease as possible are identified. However, this might come at the cost of higher false positives, leading to more follow-up tests. On the other hand, in a different context, one might prefer high specificity to ensure that only the most likely cases are pursued further.
+
+ The [Receiver Operating Characteristic (ROC) curve][ROC Curve] is a common tool used to visualize this trade-off. It plots the [True Positive Rate] ( or [Sensitivity]) against the [False Positive Rate] or  (1 - [Specificity]) at various threshold settings. The [area under this curve (AUC)][AUC] can give a sense of the overall ability of the [binary classifier] to discriminate between the two classes, independent of any particular threshold.
+
+ In summary, the sensitivity-specificity trade-off highlights the balancing act in setting the threshold for [classification], where the goal is to achieve an optimal balance that suits the specific needs and consequences of the classification task at hand.
+
+ See also [S], ...
 
 
 # Sentence Embedding
@@ -725,6 +779,15 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
 
 
 # Shallow Neural Network
+
+ See also [S], ...
+
+
+# Shane Legg Person
+
+ One of the 3 founders of [DeepMind]
+
+ {% youtube "https://www.youtube.com/watch?v=Kc1atfJkiJU" %}
 
  See also [S], ...
 
@@ -891,6 +954,17 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
  See also [S], ...
 
 
+# Simultaneous Localisation And Mapping Algorithm
+# SLAM Algorithm
+
+ {% youtube "https://www.youtube.com/watch?v=-XU54IsG8Vo" %}
+
+ More at:
+  * ...
+
+ See also [S], [Inertial Measurement Unit], [Lidar], [Visual SLAM Algorithm]
+
+
 # Single Life Reinforcement Learning
 # SLRL
 
@@ -961,6 +1035,42 @@ Siri is a spin-off from a project developed by the SRI International Artificial 
  See also [S], [Node2Vec Model], [Word2Vec Model]
 
 
+# Skorch Python Module
+
+ ~ scikit learn that wrap s pytorch.
+
+ Pytorch objects can be passed as parameters to scikit!
+
+ {% highlight python %}
+from skorch import NeuralNetRegressor
+from sklearn.model_selection import GridSearchCV
+...
+
+net = NeuralNetRegressor(
+    LinearRegressionTorch,
+    max_epochs=10,
+    lr=0.1,
+    # Shuffle training data on each epoch
+    iterator_train__shuffle=True,
+)
+net.set_params(train_split=False, verbose=0)
+params = {
+    'lr': [0.02, 0.05, 0.08],
+    'max_epochs': [10, 200, 500],
+}
+gs = GridSearchCV(net, params, refit=False, cv=3, scoring='r2', verbose=2)
+
+gs.fit(X, y_true)
+print(f"best score: {gs.best_score_:.3f}, best params: {gs.best_params_}")
+ {% endhighlight %}
+
+ More at:
+  * docs - [https://skorch.readthedocs.io/en/stable/](https://skorch.readthedocs.io/en/stable/)
+  * code - [https://github.com/midtown-ai/PyTorch-Ultimate-2023---From-Basics-to-Cutting-Edge/blob/main/030_ModelingIntroduction/50_LinReg_HyperparameterTuning_end.py](https://github.com/midtown-ai/PyTorch-Ultimate-2023---From-Basics-to-Cutting-Edge/blob/main/030_ModelingIntroduction/50_LinReg_HyperparameterTuning_end.py)
+
+ See also [S], ...
+
+
 # Slicing Function
 
  See also [S], [Snorkel Program]
@@ -987,13 +1097,17 @@ Siri is a spin-off from a project developed by the SRI International Artificial 
 
 # Snorkel Program
 
- ~ `Unlabelled data --> a weak supervision labeling function` Snorkel is a system for programmatically building and managing training datasets without manual labeling. In Snorkel, users can develop large training datasets in hours or days rather than hand-labeling them over weeks or months. Snorkel currently exposes three key programmatic operations: (1) Labeling data, e.g., using heuristic rules or distant supervision techniques (2) Transforming data, e.g., rotating or stretching images to perform data augmentation (3) Slicing data into different critical subsets for monitoring or targeted improvement.
+ ~ `Unlabelled data --> a weak supervision labeling function`
+
+ Snorkel is a system for programmatically building and managing training [datasets] without manual labeling. In Snorkel, users can develop large training datasets in hours or days rather than hand-labeling them over weeks or months. Snorkel currently exposes three key programmatic operations: (1) Labeling data, e.g., using heuristic rules or distant supervision techniques (2) Transforming data, e.g., rotating or stretching images to perform data augmentation (3) Slicing data into different critical subsets for monitoring or targeted improvement.
  
  ![]( {{site.assets}}/s/snorkel_program.png ){: width="100%}
 
  More at:
-  * [https://www.snorkel.org/blog/](https://www.snorkel.org/blog/)
-  * new snorkel - [https://www.snorkel.org/blog/hello-world-v-0-9](https://www.snorkel.org/blog/hello-world-v-0-9)
+  * site - [https://www.snorkel.org/](https://www.snorkel.org/)
+  * blog - [https://www.snorkel.org/blog/](https://www.snorkel.org/blog/)
+  * articles:
+    * new snorkel - [https://www.snorkel.org/blog/hello-world-v-0-9](https://www.snorkel.org/blog/hello-world-v-0-9)
 
  See also [S], [Data Augmentation], [Labeling Function], [Slicing Function], [Transform Function], [Unlabelled Data Algorithm]
 
@@ -1066,8 +1180,11 @@ Social robots also work as concierges in hotels and other settings like malls, w
 
  {% pdf "https://arxiv.org/pdf/1801.01290v2.pdf" %}
 
+ {% pdf "https://arxiv.org/pdf/1812.05905.pdf" %}
+
  More at:
   * paper - [https://arxiv.org/abs/1812.05905](https://arxiv.org/abs/1812.05905)
+    * SAC and applications - [https://arxiv.org/abs/1812.05905](https://arxiv.org/abs/1812.05905)
   * code - [https://paperswithcode.com/paper/soft-actor-critic-off-policy-maximum-entropy#code](https://paperswithcode.com/paper/soft-actor-critic-off-policy-maximum-entropy#code)
   * ICML 2018 - [https://icml.cc/Conferences/2018/Schedule?showEvent=1986](https://icml.cc/Conferences/2018/Schedule?showEvent=1986)
   * Articles
@@ -1202,14 +1319,40 @@ As a trader, I want to create an application that lets me customize and viualize
  See also [S], [Latent Space], [Pixel Space]
 
 
-# Sparcity
+# Sparse Mixture-Of-Experts Architecture
+# SMoE Architecture
+
+ ~ like an [ensemble method] except that typically only one or a few expert models will be run rather than combining the results.
+
+ In 1991, MoE was first introduced by a research group that included deep-learning and Switch Transformer creator Geoff Hinton. In 2017, the Google Brain team and Hinton used MoE to create an NLP model based on recurrent neural networks (RNN) of 137 billion parameters, where it achieved state-of-the-art (SOTA) results on language modelling and machine translation benchmarks.
+
+ What does an expert learn? The ST-MoE authors observed that encoder experts specialize in a group of tokens or shallow concepts. For example, we might end with a punctuation expert, a proper noun expert, etc. On the other hand, the decoder experts have less specialization. The authors also trained in a multilingual setup. Although one could imagine each expert specializing in a language, the opposite happens: due to token routing and load balancing, there is no single expert specialized in any given language.
+
+ ![]( {{site.assets}}/s/sparse_mixture_of_experts.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=RYZ0FMAKRFs" %}
+
+ More at :
+  * paper - [http://www.cs.toronto.edu/~fritz/absps/jjnh91.pdf](http://www.cs.toronto.edu/~fritz/absps/jjnh91.pdf)
+  * wikipedia - [https://en.wikipedia.org/wiki/Mixture_of_experts](https://en.wikipedia.org/wiki/Mixture_of_experts)
+  * iarticles
+    * in-depth - [https://github.com/huggingface/blog/blob/main/moe.md](https://github.com/huggingface/blog/blob/main/moe.md)
+
+ See also [M], [Sparsity], [Switch Transformer]
+
+
+# Sparsity
 
  Sparsity uses the idea of conditional computation. While in dense models all the parameters are used for all the inputs, sparsity allows us to only run some parts of the whole system.
+
+ There are several ways to do this:
+  * In the same model, you turn of some neurons
+  * When using a [Model-Of-Experts architecture], you can select one model instead of all of them. This leaders to the [sparse model-of-experts architecture]
 
  More at:
   * [https://github.com/huggingface/blog/blob/main/moe.md#what-is-sparsity](https://github.com/huggingface/blog/blob/main/moe.md#what-is-sparsity)
 
- See also [S], [Mixture Of Experts]
+ See also [S], ...
 
 
 # Sparrow Model
@@ -1258,6 +1401,15 @@ As a trader, I want to create an application that lets me customize and viualize
 
  ~ true negative rate. = probability of a negative test given the patient is doing well. Specificity refers to the probability of a negative test, conditioned on truly being negative. Examples:
   * How many healthy people were CORRECTLY identified as not having the condition.
+
+ ```
+# P(Pos) = Probability of getting a positive test result
+# P(D) = The probability of a person having diabetes
+# P(~D) = The probabilitiy of a person NOT having diabetes
+# Sensitivity = 
+# Specificity =
+P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
+ ```
 
  More at:
   * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
@@ -1392,6 +1544,13 @@ As a trader, I want to create an application that lets me customize and viualize
   * [https://bdtechtalks.com/2023/09/18/what-is-llm-compression/](https://bdtechtalks.com/2023/09/18/what-is-llm-compression/)
 
  See also [S], [Emergent Ability Distillation], [Model Compression]
+
+
+# Standardization
+
+ Make mean 0 and variance 1
+
+ See also [S], ...
 
 
 # Stanford Autonomous Helicopter
@@ -1586,6 +1745,9 @@ In reinforcement learning, state transitions refer to how the environment change
 
 # Statistical Bias
 
+ Difference between an estimator's expected value (take average because randomness) and the true value
+  * if systematically overshooting or undershooting = statistical bias
+
  See also [S], [Bias]
 
 
@@ -1674,13 +1836,15 @@ II n summary, probability is focused on the theoretical study of random events, 
 # Stochastic Gradient Descent Algorithm
 # SGD Algorithm
 
- An [optimization algorithm][optimizer] for the model parameters used to minimize the loss function.
+ An algorithm used by an optimizer to minimize the loss function and find the correct values of the parameters.
 
- There are a few downsides of the gradient descent algorithm. We need to take a closer look at the amount of computation we make for each iteration of the algorithm. Say we have 10,000 data points and 10 features. The sum of squared residuals consists of as many terms as there are data points, so 10000 terms in our case. We need to compute the derivative of this function with respect to each of the features, so in effect we will be doing 10000 * 10 = 100,000 computations per iteration. It is common to take 1000 iterations, in effect we have 100,000 * 1000 = 100000000 computations to complete the algorithm. That is pretty much an overhead and hence gradient descent is slow on huge data. Stochastic gradient descent comes to our rescue! “Stochastic”, in plain terms means “random”. SGD randomly picks ONE data point (if more than one = mini-batch or batch Gradient Descent!) from the whole data set at each iteration/step to reduce the computations enormously.
+ There are a few downsides of the gradient descent algorithm. We need to take a closer look at the amount of computation we make for each iteration of the algorithm. Say we have 10,000 data points and 10 features. The sum of squared residuals consists of as many terms as there are data points, so 10000 terms in our case. We need to compute the derivative of this function with respect to each of the features, so in effect we will be doing 10000 * 10 = 100,000 computations per iteration. It is common to take 1000 iterations, in effect we have 100,000 * 1000 = 100000000 computations to complete the algorithm. That is pretty much an overhead and hence gradient descent is slow on huge data. Stochastic gradient descent comes to our rescue! “Stochastic”, in plain terms means “random”. SGD randomly picks ONE data point (if more than one = [mini-batch gradient descent] or [batch Gradient Descent] !) from the whole data set at each iteration/step to reduce the computations enormously.
 
  ![]( {{site.assets}}/s/stochastic_gradient_descent.png ){: width="100%}
 
- See also [S], [Batch Gradient Descent Algorithm], [Gradient Descent Algorithm], [Mini-Batch Gradient Descent Algorithm]
+ ![]( {{site.assets}}/s/stochastic_gradient_descent_comparison.png ){: width="100%}
+
+ See also [S], [Gradient Descent Algorithm]
 
 
 # Stochastic Node
@@ -2061,6 +2225,28 @@ II n summary, probability is focused on the theoretical study of random events, 
 
  More at:
   * ...
+
+ See also [S], ...
+
+
+# Synthetic Feature
+
+ A [feature] not present among the input features, but assembled from one or more of them. Methods for creating synthetic features include the following:
+  * [Bucketing] a continuous feature into range bins.
+  * Creating a [feature cross].
+  * Multiplying (or dividing) one feature value by other feature value(s) or by itself. For example, if a and b are input features, then the following are examples of synthetic features:
+  ```
+ab
+a2
+  ```
+  * Applying a transcendental function to a feature value. For example, if c is an input feature, then the following are examples of synthetic features:
+  ```
+sin(c)
+ln(c)
+  ```
+
+ Features created by normalizing or scaling alone are not considered synthetic features.
+ 
 
  See also [S], ...
 

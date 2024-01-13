@@ -105,6 +105,37 @@ layout: page
  See also [C], [Autoregressive Model], [Decoder], [GPT Model], [Natural Language Generation]
 
 
+# Catastrophic Forgetting
+# CF
+
+ Catastrophic forgetting, also known as catastrophic interference, is a phenomenon primarily observed in artificial neural networks, particularly in the context of machine learning and deep learning. It refers to the tendency of a neural network to completely forget previously learned information upon learning new information. This issue is especially prominent in scenarios involving sequential or continual learning, where a model is trained on a series of tasks one after the other.
+
+ Here are some key points about catastrophic forgetting:
+  * Description: When a neural network is trained on a new task or dataset, it tends to adjust its weights significantly to accommodate the new information. If the new task is significantly different from the previous tasks, the network might lose the ability to perform well on the old tasks, as the weights that were important for those tasks are overwritten.
+  * Example: Consider a neural network trained to recognize cats. If the same network is subsequently trained to recognize dogs without revisiting the cat images, it might lose the ability to recognize cats, even if it was proficient at this task before the dog training.
+  * Causes: Catastrophic forgetting occurs because traditional neural networks lack a mechanism to retain old knowledge while acquiring new information. The weight updates during the training of new tasks can disrupt the knowledge acquired from previous tasks.
+  * Impact in AI: This phenomenon is a significant challenge in the field of artificial intelligence, especially for systems that require continual learning or learning from a stream of data (like autonomous vehicles or personalized AI assistants)
+  * Solutions and Research: Various techniques are being researched and developed to mitigate catastrophic forgetting. These include:
+    * [Elastic Weight Consolidation (EWC)][EWC] - A method that slows down learning on certain weights based on their importance to previous tasks.
+    * [Experience Replay] - Storing a subset of old data and mixing it with new data during training.
+    * [Progressive Neural Networks] - Networks that retain a pool of models or layers for each task and combine them in ways that can leverage old knowledge without overwriting it.
+    * Continual Learning Approaches: Architectures and training strategies specifically designed to allow models to learn continuously over time without forgetting.
+
+ Catastrophic forgetting remains an area of active research, as overcoming this challenge is crucial for developing more versatile and robust AI systems capable of learning and adapting over time without losing their previous capabilities.
+
+ More at:
+  * paper 
+    * main - [https://www.sciencedirect.com/science/article/abs/pii/S0079742108605368?via%3Dihub](https://www.sciencedirect.com/science/article/abs/pii/S0079742108605368?via%3Dihub)
+    * CF in LLM during SFT - [https://arxiv.org/abs/2308.08747](https://arxiv.org/abs/2308.08747)
+
+ See also [C], ...
+
+
+# Catastrophic Inference
+
+ See [Catastrophic Forgetting]
+
+
 # CatBoost Library
 
  CatBoost is a machine learning method based on [gradient boosting] over [decision trees].
@@ -159,7 +190,7 @@ layout: page
 # Central Processing Unit Memory
 # CPU Memory
 
- ![]( {{site.assets}}/c/central_processing_unit_memory.png ){:width="100%"}
+ ![]( {{site.assets}}/c/central_processing_unit_memory.jpeg ){:width="100%"}
 
  See also [C], ...
 
@@ -204,6 +235,24 @@ layout: page
     * Google investment - [https://www.reuters.com/technology/google-talks-invest-ai-startup-characterai-sources-2023-11-10/](https://www.reuters.com/technology/google-talks-invest-ai-startup-characterai-sources-2023-11-10/)
 
  See also [C], ...
+
+
+# Characteristic Stability Index
+# CSI
+
+ When our model’s [Population Stability Index(PSI)][PSI] was in the “warning” zone between 0.1 a 0.2. We now need to understand which features may have caused the drift. Enter CSI.
+
+ The Characteristic Stability Index (CSI) is used to evaluate the stability or drift of each feature so that we can find the problematic one. As PSI is concerned with the effects of the population drift on the model’s predictions, the CSI is concerned with understanding how the feature distributions have changed.
+
+Using it is really simple: we just apply the same formula we used for PSI, but instead of binning the data by using the predicted variable, we use each feature to create the bins.
+
+
+ More at:
+  * articles
+    * [https://towardsdatascience.com/checking-model-stability-and-population-shift-with-psi-and-csi-6d12af008783](https://towardsdatascience.com/checking-model-stability-and-population-shift-with-psi-and-csi-6d12af008783)
+  * code - [https://github.com/vinyluis/Articles/tree/main/Model%20Stability](https://github.com/vinyluis/Articles/tree/main/Model%20Stability)
+
+ See also [C], [Data Drift], [Model Stability], [Population Stability Index]
 
 
 # Chatbot
@@ -301,6 +350,11 @@ Create 2 social media posts that educate my target audience, male high-schoolers
   * ...
 
  See also [C], ...
+
+
+# Checkpointing
+
+ See [Activation Checkpointing]
 
 
 # Child Development Milestone
@@ -444,9 +498,14 @@ print(query_result)
  See also [C], [Dataset]
 
 
-# Classification
+# Classification Task
 
  A type of supervised learning algorithm. The goal in classification is to take input values and organize them into two or more categories. The categories are normally mutually exclusive (ex is this shape a circle, a rectangle or a triangle? Beware of 3-d shape projections, i.e. perspectives!). An example classification use case is fraud detection. In fraud detection, the goal is to take information about the transaction and use it to determine if the transaction is either fraudulent or not fraudulent. When XGBoost is given a dataset of past transactions and whether or not they were fraudulent, it can learn a function that maps input transaction data to the probability that transaction was fraudulent.
+
+ Classification Types:
+  * [Binary Classifier]
+  * [Multiclass Classifier]
+  * [Multilabel Classifier]
 
  Classification algorithms:
   * Supervised
@@ -544,6 +603,17 @@ print(query_result)
   * [K-Means Clustering] - Semi-supervised
 
  See also [C], [Initialization], [Unsupervised Learning]
+
+
+# CM3leon Model
+
+ ~ text to image by [Meta]
+
+ More at:
+  * paper - [https://ai.meta.com/research/publications/scaling-autoregressive-multi-modal-models-pretraining-and-instruction-tuning/](https://ai.meta.com/research/publications/scaling-autoregressive-multi-modal-models-pretraining-and-instruction-tuning/)
+  * announcement - [https://ai.meta.com/blog/generative-ai-text-images-cm3leon/](https://ai.meta.com/blog/generative-ai-text-images-cm3leon/)
+
+ See also [C], ...
 
 
 # CNTK
@@ -728,6 +798,10 @@ print(query_result)
   * [Writer](https://writer.com/) - Copywriting software
   * [xAI] - Backed by Elon Musk and builder of [Grok] LLM and [PromptIDE]
 
+ Human-Machine Interface
+  * [Humane](https://hu.ma.ne/) - the AI pin likely to replace the cell phone
+  * [Rabbit] - With the R1 device
+
  Deployment:
   * [Netlify] -
   * [Replit] -
@@ -745,8 +819,8 @@ print(query_result)
   * defunct: [Argo AI](https://en.wikipedia.org/wiki/Argo_AI)
 
  Drug Discovery
+  * [Isomorphic Labs] - Spin off from [DeepMind] and building on [AlphaFold]
   * [Unlearn.AI](https://www.unlearn.ai/) - Clinical trial forecasting
-  * ...
 
  Education
   * [Chegg](https://www.chegg.com) - AI assistant called [CheegMate](https://www.chegg.com/cheggmate)
@@ -756,6 +830,16 @@ print(query_result)
     * strategy planning + personal qualities + academic fitness/alignment + communication and organization + ExtraCurricular activities fitness/alignment + Applications
   * [Magic School AI](https://app.magicschool.ai/) - help teachers create a lesson plan. Assistant is called Raina
   * [Pearson](https://www.pearson.com/en-us.html) - Not bot yet! Still in denial?
+
+ Music
+  * [Audialab](https://audialab.com/) - drum sound only
+  * [Aiva AI](https://www.aiva.ai/) -
+  * [Boomy](https://boomy.com/) -
+  * [Harmonai](https://www.harmonai.org/) -
+  * [MelodyStudio](https://melodystudio.net) -
+  * [Mubert](https://mubert.com/) -
+  * [Suno AI](https://app.suno.ai/) - generate music for your lyrics!
+  * [TuneFlow](https://www.tuneflow.com/) 
 
  Hardware
   * [AMD] - Another supplier of [GPUs]
@@ -775,6 +859,7 @@ print(query_result)
   * [Engineered Arts] - Focus on social robots, such as [Ameca][Ameca Robot]
   * [Hanson Robotics] - Build humanoid for consumer, entertainment, service, healthcare, and research applications. 
   * [Softbank Robotics] - Focus on [social robots][Social Robot]
+  * [Trossen Robotics] - Build research robots
 
  Search
   * [You](https://www.you.com)
@@ -795,8 +880,6 @@ print(query_result)
  Video
   * [Wonder Dynamics] - VFX in a single click!
 
- Wearable Devices
-  * [Humane](https://hu.ma.ne/) - the AI pin likely to replace the cell phone
 
 
  {% youtube "https://www.youtube.com/watch?v=62ptqfCcizQ" %}
@@ -820,6 +903,14 @@ print(query_result)
     * 2023 - [https://www.cnbc.com/2023/05/09/these-are-the-2023-cnbc-disruptor-50-companies.html](https://www.cnbc.com/2023/05/09/these-are-the-2023-cnbc-disruptor-50-companies.html)
     * 2022 - [https://www.cnbc.com/disruptor-50-2022/](https://www.cnbc.com/disruptor-50-2022/)
     * 2021 - [https://www.cnbc.com/disruptor-50-2021/](https://www.cnbc.com/disruptor-50-2021/)
+
+ See also [C], ...
+
+
+# Compas Model
+
+ More at:
+  * [https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-risk-assessment-algorithm/](https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-risk-assessment-algorithm/)
 
  See also [C], ...
 
@@ -875,11 +966,50 @@ print(query_result)
 
 
 # Concurrency
-# Concurrency
-# Concurrency
-# Concurrency
 
  Concurrency in the context of indexing refers to the ability of a database management system to handle multiple transactions simultaneouslyy without causing data inconsistency or corruption. In other words, it ensures that data remains consistent and accurate even when multiple users are accessing it at the same time.
+
+ See also [C], ...
+
+
+# Conda CLI
+
+ Command line interface to create a python environment
+
+ ```
+conda update conda
+
+conda info --env                             # List existing environments
+
+ ```
+
+ ```
+# Create environment
+conda search "^python$" | tail
+conda create -n pytorch_env python=3.10      # Create environment pytorch with a specific version of python     
+conda activate pytorch_env
+
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
+conda install ipykernel                               # <-- VScode interactive
+conda install seaborn -c anaconda
+conda install scikit-learn                   # Use default channel "defaults" for installation
+conda install detecto -c conda-forge         # A channel for all packages to be installed
+conda install conda-force::numpy             # A channel per package
+
+conda env export pytorch > pytorch_env.yml
+
+# With Export
+
+ ```
+
+ {% pdf "https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf" %}
+
+ More at:
+  * docs - [https://docs.conda.io/projects/conda/en/latest/index.html](https://docs.conda.io/projects/conda/en/latest/index.html)
+  * cheatsheet - [https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html)
+
+ See also [C], ...
+
 
 # Conditioning
 
@@ -1057,6 +1187,9 @@ print(query_result)
 
  More at:
   * paper - [https://arxiv.org/abs/2302.05543](https://arxiv.org/abs/2302.05543)
+  * code - [https://github.com/lllyasviel/ControlNet-v1-1-nightly](https://github.com/lllyasviel/ControlNet-v1-1-nightly)
+  * articles
+    * [https://bootcamp.uxdesign.cc/controlnet-and-stable-diffusion-a-game-changer-for-ai-image-generation-83555cb942fc](https://bootcamp.uxdesign.cc/controlnet-and-stable-diffusion-a-game-changer-for-ai-image-generation-83555cb942fc)
 
  See also [C], [Hypernetwork Architecture]
 
@@ -1094,6 +1227,8 @@ print(query_result)
 
  ~ A stack of convoluted images (one per kernel filter)
 
+ The goal of a convolutional layer is filtering!
+
  The output of a convolutional layer is a stack of convoluted images (stack of images convoluted with each [image filter])
 
  In a CNN, each layer tries to recognize different patterns (i.e. extract features).
@@ -1110,6 +1245,7 @@ print(query_result)
 
 
 # Convolutional Neural Network
+# ConvNet
 # CNN
 
  `Particularly useful for image analysis/processing` such as object recognition, [image classification], semantic segmentation (object in image), artistic style transfer (filter on an image with the style of another image often a painting), meow generator (find cats in image?) . `The idea is that the pixel are not completely independent from the one surrounding them. CNN takes the surrounding pixel into consideration as well instead of just an independent pixel`. Use filter. Max Pooling layers (dimension reduction of outputs to downstream layers to convert a tensor into a vector). A succession of convolution-subsampling layers. Example: Does a pixel belongs to an object or not? .
@@ -1121,6 +1257,108 @@ print(query_result)
   * and [Fully Connected Layers]
 
  In a CNN, the [image filters] are learned through [backpropagation]
+
+ {% highlight python %}
+import torchvision
+from torch.utils.data import DataLoader
+import torch
+from torch import nn
+from torch import optim
+from torch.utils.tensorboard import SummaryWriter
+
+import numpy as np
+
+import os
+
+transform_train = torchvision.transforms.Compose([
+    torchvision.transforms.RandomHorizontalFlip(),
+    torchvision.transforms.ToTensor(),
+    torchvision.transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010))
+])
+transform_test = torchvision.transforms.Compose([
+    torchvision.transforms.ToTensor(),
+    torchvision.transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),    
+])
+
+train_dataset = torchvision.datasets.CIFAR10("/mnt/cifar10/", train=True, transform=transform_train, download=True)
+train_dataloader = DataLoader(train_dataset, batch_size=32, shuffle=False)
+test_dataset = torchvision.datasets.CIFAR10("/mnt/cifar10/", train=False, transform=transform_test, download=True)
+test_dataloader = torch.utils.data.DataLoader(test_dataset, batch_size=32, shuffle=False)
+
+class CIFAR10Model(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.cnn_block_1 = nn.Sequential(*[
+            nn.Conv2d(3, 32, 3, padding=1),
+            nn.ReLU(),
+            nn.Conv2d(32, 64, 3, padding=1),
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=2),
+            nn.Dropout(0.25)
+        ])
+        self.cnn_block_2 = nn.Sequential(*[
+            nn.Conv2d(64, 64, 3, padding=1),
+            nn.ReLU(),
+            nn.Conv2d(64, 64, 3, padding=1),
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=2),
+            nn.Dropout(0.25)
+        ])
+        self.flatten = lambda inp: torch.flatten(inp, 1)
+        self.head = nn.Sequential(*[
+            nn.Linear(64 * 8 * 8, 512),
+            nn.ReLU(),
+            nn.Dropout(0.5),
+            nn.Linear(512, 10)
+        ])
+    
+    def forward(self, X):
+        X = self.cnn_block_1(X)
+        X = self.cnn_block_2(X)
+        X = self.flatten(X)
+        X = self.head(X)
+        return X
+
+clf = CIFAR10Model()
+
+start_epoch = 1
+
+clf.cuda()
+criterion = nn.CrossEntropyLoss()
+optimizer = optim.RMSprop(clf.parameters(), lr=0.0001, weight_decay=1e-6)
+
+def train():
+    clf.train()
+    NUM_EPOCHS = 10
+    
+    for epoch in range(start_epoch, NUM_EPOCHS + 1):
+        losses = []
+
+        for i, (X_batch, y_cls) in enumerate(train_dataloader):
+            optimizer.zero_grad()
+
+            y = y_cls.cuda()
+            X_batch = X_batch.cuda()
+
+            y_pred = clf(X_batch)
+            loss = criterion(y_pred, y)
+            loss.backward()
+            optimizer.step()
+
+            train_loss = loss.item()
+            if i % 200 == 0:
+                print(
+                    f'Finished epoch {epoch}/{NUM_EPOCHS}, batch {i}. loss: {train_loss:.3f}.'
+                )
+            losses.append(train_loss)
+
+        print(
+            f'Finished epoch {epoch}. '
+            f'avg loss: {np.mean(losses)}; median loss: {np.median(losses)}'
+        )
+
+train()
+ {% endhighlight %}
 
  {% youtube "https://www.youtube.com/watch?v=FmpDIaiMIeA" %}
 
@@ -1137,14 +1375,16 @@ print(query_result)
  `When using kernel, we are implicitly saying that pixel outside of the kernel do not have an impact on ... This is where attention-based models may be better than CNN, where attention to other pixel in the image needs to be taken into consideration`
 
  More at:
-  * what CNN see - [https://experiments.withgoogle.com/what-neural-nets-see](https://experiments.withgoogle.com/what-neural-nets-see)
+  * what CNN see 
+    * [https://experiments.withgoogle.com/what-neural-nets-see](https://experiments.withgoogle.com/what-neural-nets-see)
+    * [https://becominghuman.ai/what-exactly-does-cnn-see-4d436d8e6e52](https://becominghuman.ai/what-exactly-does-cnn-see-4d436d8e6e52)
   * [https://setosa.io/ev/image-kernels/](https://setosa.io/ev/image-kernels/)
   * [https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b](https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b)
   * [https://medium.com/easyread/an-introduction-to-convolution-neural-network-cnn-for-a-beginner-88548e4b2a84](https://medium.com/easyread/an-introduction-to-convolution-neural-network-cnn-for-a-beginner-88548e4b2a84)
   * [https://e2eml.school/how_convolutional_neural_networks_work.html](https://e2eml.school/how_convolutional_neural_networks_work.html)
   * [https://yosinski.com/deepvis](https://yosinski.com/deepvis)
 
- See also [C], [Attention-Based Model], [Convolution], [Deconvolution Neural Network], [Instance Segmentation], [Latent Space], [Neural Network], [Object Detection], [Pooling Layer], [Region-Based CNN], [Semantic Segmentation], [Subsampling]
+ See also [C], [Attention-Based Model], [Convolution], [Deconvolution Neural Network], [Instance Segmentation], [Latent Space], [Neural Network], [Object Detection], [Picasso Visualizer], [Pooling Layer], [Region-Based CNN], [Semantic Segmentation], [Subsampling]
 
 
 # Convolutional Neural Network Feature Extractor
@@ -1166,6 +1406,9 @@ print(query_result)
  The result of a convolution of an input image with a [image filter]. The output of a [convolutional layer] is a stack of convolved features.
 
  ![]( {{site.assets}}/c/convolved_feature.gif ){: width="100%"}
+
+ More at:
+  * [https://becominghuman.ai/what-exactly-does-cnn-see-4d436d8e6e52](https://becominghuman.ai/what-exactly-does-cnn-see-4d436d8e6e52)
 
  See also [C], ...
 

@@ -124,6 +124,16 @@ layout: page
  See also [E], ...
 
 
+# Elastic Weight Consolidation
+# EWC
+
+ A method that slows down learning on certain weights based on their importance to previous tasks.
+
+ Useful to prevent [catastrophic forgetting]
+
+ See also [E], ...
+
+
 # Electric Dreams Movie
 
  Electric Dreams is a 1984 science fiction romantic comedy film directed by Steve Barron (in his feature film directorial debut) and written by Rusty Lemorande. The film is set in San Francisco and depicts a love triangle among a man, a woman, and a personal computer. It stars Lenny Von Dohlen, Virginia Madsen, Maxwell Caulfield, and the voice of Bud Cort.
@@ -244,9 +254,20 @@ layout: page
 
 # Emergent Ability
 
+> Emergence is what happens when a simple change in input triggers a major output change. Ex: Temperature of water going from -1 to 1 deg Celsius
+
 > An ability is emergent if it is not present in smaller models but is present in larger models
 
- Emerging abilities include
+
+ Initially (11 billion parameters)
+  * Arithmetic
+  * Language Understanding
+  * Question answering
+
+ Emerging abilities (62+ billion parameters) include
+  * Code completion
+  * Common sense reasoning
+  * Summarization
   * [Theory Of Mind]
   * [Translation]
   * Word unscramble
@@ -254,7 +275,22 @@ layout: page
   * Basic math operations
   * Instruction following
 
+ Emerging abilities (517+ billion parameters) include
+  * Physics QA
+  * Joke explanations
+  * Semantic parsing
+  * Dialogue
+  * Pattern recognition
+  * Logical inference chains
+  * proverbs
+  * general knowledge
+  * reading comprehension
+
  Emergence is when quantitative changes in a system result in qualitative changes in behavior. An ability is emergent if it is not present in smaller models but is present in larger models. For example Theory of Mind would be an example of a spontaneous emergence of an ability in AI. As far as we know, OpenAI engineers did not deliberately implement ToM in GPT. Instead, ToM has emerged spontaneously as a byproduct of GPT being trained to achieve its task: Predict a next word in a sentence. This means that AI can develop surprising abilities without humans explicitly trying to design them. We should think about what abilities may come next! Finally, our study shows the usefulness of applying psychological methods to studying AI. AI models’ increasing complexity prevents us from understanding their functioning and deriving their capabilities directly from their design. This echoes the challenges faced by psychologists and neuroscientists in studying the original black box: the human brain. We hope that psychological science will help us to stay abreast of rapidly evolving AI.
+
+ Are not read?
+  * Multi-step reasoning can explain why the sudden emergence because last step of many can be executed
+  * ...?
 
  ![]( {{site.assets}}/e/emergent_abilities_of_large_language_models_table.png ){: width="100%"}
 
@@ -262,13 +298,15 @@ layout: page
 
  {% pdf "https://arxiv.org/pdf/2304.15004.pdf" %}
 
+ {% youtube "https://www.youtube.com/watch?v=bQuVLKn10do" %}
+
  More at:
   * emergent
     * paper - [https://arxiv.org/abs/2206.07682](https://arxiv.org/abs/2206.07682)
   * not emergent
     * paper - [https://arxiv.org/abs/2304.15004](https://arxiv.org/abs/2304.15004)
 
- See also [E], [Emergent Ability Distillation], [GPT Model], [Large Language Model]
+ See also [E], [BIG Bench], [Emergent Ability Distillation], [GPT Model], [Large Language Model]
 
 
 # Emergent Ability Distillation
@@ -389,6 +427,13 @@ Research on emotion has increased over the past two decades with many fields con
 
  More at:
   * [https://en.wikipedia.org/wiki/Engineered_Arts](https://en.wikipedia.org/wiki/Engineered_Arts)
+
+ See also [E], ...
+
+
+# Ensemble
+
+ Ensembles are a software analog of [wisdom of the crowd]. Even if individual models make wildly inaccurate predictions, averaging the predictions of many models often generates surprisingly good predictions. For example, although an individual [decision tree] might make poor predictions, a [decision forest] often makes very good predictions.
 
  See also [E], ...
 
@@ -949,6 +994,25 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
  See also [E], [AI Movie]
 
 
+# Example
+
+ The values of one row of features and possibly a label. Examples in supervised learning fall into two general categories:
+  * A labeled example consists of one or more features and a label. Labeled examples are used during training.
+  * An unlabeled example consists of one or more features but no label. Unlabeled examples are used during inference.
+
+ For instance, suppose you are training a model to determine the influence of weather conditions on student test scores. Here are three labeled examples:
+
+ ![]( {{site.assets}}/e/example_labeled.png ){: width="100%"}
+
+  Here are three unlabeled examples:
+
+ ![]( {{site.assets}}/e/example_unlabeled.png ){: width="100%"}
+
+ The row of a [dataset] is typically the raw source for an example. That is, an example typically consists of a subset of the columns in the dataset. Furthermore, the features in an example can also include [synthetic features], such as [feature crosses].
+
+ See also [E], ...
+
+
 # Example-Based Machine Translation
 # EBMT
 
@@ -1043,6 +1107,8 @@ Shape AI’s potential to transform education by creating resources to support e
 
 
 # Experience Replay
+
+ ~ In [reinforcement learning], a [DQN] technique used to reduce temporal correlations in training data. The [RL agent] stores state transitions in a [replay buffer], and then samples transitions from the replay buffer to create training data.
 
  Experience replay, a common RL technique, used in [Deep Q-Networks] amongst others, is another in-between approach ([Offline learning] vs [Online Learning]). Although you could store all the [experience] necessary to fully train an [agent] in theory, typically you store a rolling history and sample from it. It's possible to argue semantics about this, but I view the approach as being a kind of "[buffered online learning]", as it requires low-level components that can work online (e.g. neural networks for [DQN]).
 
@@ -1181,12 +1247,14 @@ Shape AI’s potential to transform education by creating resources to support e
 # Exploratory Data Analysis
 # EDA
 
- Exploratory Data Analysis (EDA) refers to the critical process of performing initial investigations on data to discover patterns, spot anomalies, test hypotheses and check assumptions. The key aspects of EDA include:
+ Exploratory Data Analysis (EDA) refers to the critical process of performing initial investigations on data to discover patterns, spot anomalies, test hypotheses and check assumptions.
 
+ The key aspects of EDA include:
   * It is an open-ended data analysis approach aimed at finding the key characteristics and relationships in a [dataset] without any preconceived notions.
   * It relies heavily on [data visualization], i.e. visual methods like histograms, scatter plots, and other graphical techniques to provide overviews of data.
-  * Summary statistics such as means, variances, correlations are used to spotlight distribution characteristics.
+  * Summary statistics such as means, [variances], correlations are used to spotlight distribution characteristics.
   * It may employ methods like [clustering], [dimensionality reduction], [segmentation], and [outlier detection] to identify structure.
+  * It explores whether the dataset is an imbalanced  or a [balanced dataset]
   * The goal is to learn what the data can tell us and extract important variables, identify underlying assumptions, and develop models/hypotheses for further analysis.
   * It is ultimately about developing an intuitive understanding of the dataset, the relations between variables, and informing next steps in formal modeling or hypothesis testing.
   * EDA is an iterative cycle as new insights and questions emerge throughout the analysis process.
@@ -1200,7 +1268,7 @@ Shape AI’s potential to transform education by creating resources to support e
  More at:
   * ...
 
- See also [E], ...
+ See also [E], [AI Alignment]
 
 
 # Exponential Linear Unit Activation Function

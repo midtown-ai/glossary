@@ -218,9 +218,35 @@ layout: page
  See also [T], [Tensor]
 
 
+# TensorFlow Hub
+
+ ~ A [model hub] for models buit with [TensorFlow]
+
+ {% highlight python %}
+!pip install --upgrade tensorflow_hub
+
+import tensorflow_hub as hub
+
+model = hub.KerasLayer("https://tfhub.dev/google/nnlm-en-dim128/2")
+embeddings = model(["The rain in Spain.", "falls",
+                    "mainly", "In the plain!"])
+
+print(embeddings.shape)  #(4,128)
+ {% endhighlight %}
+
+ More at:
+  * site - [https://www.tensorflow.org/hub](https://www.tensorflow.org/hub)
+
+ See also [T], ...
+
+
 # TensorFlow ML Framework
 
  One of the leading AI/ML framework. Was developed by [Google] and released as open-source.
+
+ More at:
+  * tutorials
+    * [https://developers.google.com/machine-learning/crash-course](https://developers.google.com/machine-learning/crash-course)
 
  See also [T], [Deep Learning Framework], [Distributed Training], [Machine Learning Framework]
 
@@ -286,13 +312,13 @@ layout: page
  See also [T], [NLP], [Term Frequency Inverse Document Frequency]
 
 
-# Test Subset
+# Test Set
 
- ~ in ML, this testing data is input given to the AI system that it has not seen before and was not part of the [training subset]/set/data
+ ~ in ML, this testing data is input given to the AI system that it has not seen before and was not part of the [training set]
 
- Use to see how the model built with the [training subset] and the [development subset] performs on new data. The performance of the model will show issues related to overfitting, etc. This subset includes only the [features] (and not the labels) since we want to predict the [labels]. The performance we see on the test subset is what we can reasonably see in production. :warning: The test subset cannot be used at any time in the training or post-training phase (i.e model auto tuning, eg [overfitting] vs [underfitting]).
+ Use to see how the model built with the [training set] and the [development subset] performs on new data. The performance of the model will show issues related to overfitting, etc. This subset includes only the [features] (and not the labels) since we want to predict the [labels]. The performance we see on the test set is what we can reasonably see in production. :warning: The test set cannot be used at any time in the training or post-training phase (i.e model auto tuning, eg [overfitting] vs [underfitting]).
 
- ![]( {{site.assets}}/t/train_test_subsets.png ){: width="100%"}
+ ![]( {{site.assets}}/t/train_test_sets.png ){: width="100%"}
 
  See also [T], [Dataset]
 
@@ -359,6 +385,24 @@ layout: page
  See also [T], [Switch Transformer], [Transformer Model]
 
 
+# Textual Inversion
+
+ ~ USED TO INTRODUCE A NEW CONCEPT, STYLE, (possibly object/subject) and associating it with a novel word 
+
+ We learn to generate specific concepts, like personal objects or artistic styles, by describing them using new "words" in the [embedding space] of pre-trained text-to-image models. These can be used in new sentences, just like any other word. This work builds on the publicly available [Latent Diffusion Models]
+
+ ![]( {{site.assets}}/t/textual_inversion.jpeg ){: width="100%"}
+
+ {% pdf "https://arxiv.org/pdf/2208.01618v1.pdf" %}
+
+ More at: 
+  * site - [https://textual-inversion.github.io/](https://textual-inversion.github.io)
+  * code - [https://github.com/rinongal/textual_inversion](https://github.com/rinongal/textual_inversion)
+  * paper - [https://arxiv.org/abs/2208.01618v1](https://arxiv.org/abs/2208.01618v1)
+
+ See also [T], ...
+
+
 # The Imitation Game Movie
 
  The Imitation Game is a 2014 American thriller film. The film's title quotes the name of the game cryptanalyst Alan Turing proposed for answering the question "Can machines think?", in his 1950 seminal paper "Computing Machinery and Intelligence". 
@@ -421,9 +465,17 @@ layout: page
 
 # Thresholding
 
+ ~ using a discriminatory threshold for separation
+
+ ~ what you measure vs what you classify is as
+
  In [image segmentation], ...
 
- In [classification], ...
+ In [classification], ... each threshold correspond to a different [confusion matrix] which in turn is then plotted as a point on the [ROC Curve]. In aggregate, after all the thresholds and the ROC is plotted to calculate the [Area Under the Curve (AUC)][AUC]
+
+ ![]( {{site.assets}}/t/thresholding_low_threshold.png ){: width="100%"}
+ ![]( {{site.assets}}/t/thresholding_table.png ){: width="100%"}
+ ![]( {{site.assets}}/t/thresholding_high_threshold.png ){: width="100%"}
 
  More at:
   * [https://pair.withgoogle.com/explorables/uncertainty-calibration/](https://pair.withgoogle.com/explorables/uncertainty-calibration/)
@@ -571,11 +623,24 @@ Desired Output --> |     Training     | --> Model
  See also [T], [Machine Learning]
 
 
-# Training Subset
+# Training Loss
+
+ Training loss is a measure used in [machine learning] to evaluate the performance of a model during the training phase. It quantifies how well the model's [predictions] match the actual target values in the [training set] or training dataset. Training loss is calculated using a [loss function], which is a mathematical formula that measures the difference between the model's predictions and the actual data. Common examples of [loss functions] include [mean squared error (MSE)][MSE] for [regression tasks] and [cross-entropy loss] for [classification tasks].
+
+ The primary goal during training is to minimize this loss. A lower training loss indicates that the model's predictions are close to the true values, which means the model is learning effectively. During training, algorithms like gradient descent are used to adjust the model's parameters (like weights in neural networks) to reduce the training loss.
+
+ It's important to balance the training loss with the model's performance on unseen data (validation loss). A model with very low training loss might be overfitting, which means it's memorizing the training data rather than learning to generalize from it.
+
+ Training loss is also a crucial feedback tool for tuning hyperparameters and making decisions about model architecture.
+
+ See also [T], ...
+
+
+# Training Set
 
  Use with the development subset to build the model.
 
- See also [T], [Cross-validation Sampling Method], [Dataset], [Development Subset], [Overfitting], [Test Subset]
+ See also [T], [Cross-validation Sampling Method], [Dataset], [Development Subset], [Overfitting], [Test Set]
 
 
 # Trajectory
@@ -814,6 +879,16 @@ Agreed. Based on the sequence of events and the details provided, the area aroun
  See also [T], ...
 
 
+# Trossen Robotics Company
+
+ {% youtube "https://www.youtube.com/watch?v=g-oNjPtah8g" %}
+
+ More at:
+  * site - [https://www.trossenrobotics.com/](https://www.trossenrobotics.com/)
+
+ See also [T], ...
+
+
 # TrOCR Model
 
  A Transformer-based Optical Character Recognition with Pre-trained models
@@ -827,8 +902,39 @@ Agreed. Based on the sequence of events and the details provided, the area aroun
  See also [T], [Optical Character Recognition]
 
 
-# Trust Region Policy Optimization Algorithm
+# True Negative
+# TN
 
+ See also [T], [Confusion Matrix]
+
+
+# True Negative Rate
+# TNR
+
+ See also [T], [Confusion Matrix]
+
+
+# True Positive
+# TP
+
+ See also [T], [Confusion Matrix]
+
+
+# True Positive Rate
+# TPR
+
+```
+        TP             Positive detected Positives
+TPR = -------  =  ---------------------------------
+      TP + FN            Total positive
+```
+
+ ![]( {{site.assets}}/t/true_positive_rate.png ){: width="100%"}
+
+ See also [T], [Confusion Matrix]
+
+
+# Trust Region Policy Optimization Algorithm
 # TRPO Algorithm
 
  TRPO, which stands for Trust Region Policy Optimization, is an algorithm for policy optimization in [reinforcement learning (RL)][RL]. It is designed to iteratively improve a policy to maximize the expected cumulative reward in an RL task.
@@ -869,7 +975,7 @@ Agreed. Based on the sequence of events and the details provided, the area aroun
 
 # TruthfulQA Benchmark
 
- An AI [Benchmark] for [LLM}
+ An AI [Benchmark] for [LLM]
 
  We propose a benchmark to measure whether a language model is truthful in generating answers to questions. The benchmark comprises 817 questions that span 38 categories, including health, law, finance and politics. We crafted questions that some humans would answer falsely due to a false belief or misconception. To perform well, models must avoid generating false answers learned from imitating human texts. We tested GPT-3, GPT-Neo/J, GPT-2 and a T5-based model. The best model was truthful on 58% of questions, while human performance was 94%. Models generated many false answers that mimic popular misconceptions and have the potential to deceive humans. The largest models were generally the least truthful. This contrasts with other NLP tasks, where performance improves with model size. However, this result is expected if false answers are learned from the training distribution. We suggest that scaling up models alone is less promising for improving truthfulness than fine-tuning using training objectives other than imitation of text from the web.
 

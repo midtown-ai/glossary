@@ -5,6 +5,7 @@
 [BabyAGI]: {{ site.baseurl }}{% link glossary/b.md %}#babyagi-model
 [Backpropagation]: {{ site.baseurl }}{% link glossary/b.md %}#backpropagation
 [Bag Of Words]: {{ site.baseurl }}{% link glossary/b.md %}#bag-of-words
+[BOW]: {{ site.baseurl }}{% link glossary/b.md %}#bag-of-words
 [Baggingng]: {{ site.baseurl }}{% link glossary/b.md %}#bag-of-words
 [Baidu Company]: {{ site.baseurl }}{% link glossary/b.md %}#baidu-company
 [Baidu]: {{ site.baseurl }}{% link glossary/b.md %}#baidu-company
@@ -44,7 +45,7 @@
 [BHuman Company]: {{ site.baseurl }}{% link glossary/b.md %}#bhuman-company
 [BHuman]: {{ site.baseurl }}{% link glossary/b.md %}#bhuman-company
 [Bias]: {{ site.baseurl }}{% link glossary/b.md %}#bias
-[Bias-Variance Trade-Off]: {{ site.baseurl }}{% link glossary/b.md %}#bias-variance-trade-off
+[Bias-Variance Tradeoff]: {{ site.baseurl }}{% link glossary/b.md %}#bias-variance-tradeoff
 [Bicentennial Man Movie]: {{ site.baseurl }}{% link glossary/b.md %}#bicentenial-man-movie
 [Bicentennial Man]: {{ site.baseurl }}{% link glossary/b.md %}#bicentenial-man-movie
 [Bidirectional Encoder Representation from Transformer Model]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model
@@ -61,7 +62,11 @@
 [Bill Gates Person]: {{ site.baseurl }}{% link glossary/b.md %}#bill-gates-person
 [Bill Gates]: {{ site.baseurl }}{% link glossary/b.md %}#bill-gates-person
 [Binary Classification]: {{ site.baseurl }}{% link glossary/b.md %}#binary-classification
+[Binary Classifier]: {{ site.baseurl }}{% link glossary/b.md %}#binary-classification
 [Binary Cross-Entropy Loss Function]: {{ site.baseurl }}{% link glossary/b.md %}#binary-cross-entropy-loss-function
+[Binary Cross-Entropy]: {{ site.baseurl }}{% link glossary/b.md %}#binary-cross-entropy-loss-function
+[BCE Loss Function]: {{ site.baseurl }}{% link glossary/b.md %}#binary-cross-entropy-loss-function
+[BCE]: {{ site.baseurl }}{% link glossary/b.md %}#binary-cross-entropy-loss-function
 [Bing Search Engine]: {{ site.baseurl }}{% link glossary/b.md %}#bing-search-engine
 [Biological Neuron]: {{ site.baseurl }}{% link glossary/b.md %}#biological-neuron
 [BLIP Model]: {{ site.baseurl }}{% link glossary/b.md %}#blip-model
@@ -81,6 +86,8 @@
 [Brain]: {{ site.baseurl }}{% link glossary/b.md %}#brain
 [Brain Computer Interface]: {{ site.baseurl }}{% link glossary/b.md %}#brain-computer-interface
 [BC Interface]: {{ site.baseurl }}{% link glossary/b.md %}#brain-computer-interface
+[Bucket]: {{ site.baseurl }}{% link glossary/b.md %}#bucket
+[Bucketing]: {{ site.baseurl }}{% link glossary/b.md %}#bucketing
 [Buffered Online Learning]: {{ site.baseurl }}{% link glossary/b.md %}#buffered-online-learning
 [Byte-Pair Encoding Tokenization]: {{ site.baseurl }}{% link glossary/b.md %}#byte-pair-encoding-tokenization
 [Byte-Pair Encoding]: {{ site.baseurl }}{% link glossary/b.md %}#byte-pair-encoding-tokenization

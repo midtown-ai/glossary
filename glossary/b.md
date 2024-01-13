@@ -75,7 +75,9 @@ layout: page
 
 # Backpropagation
 
- The way for machine to learn from their mistakes!
+ ~ The way for machine to learn from their mistakes! (or to get better!)
+
+ = imagine you are given all the ingredients to prepare an apple pie, but you are not given the recipe. You goal is to try to bake one. So, you try and fail! Then you adjust the recipe and try again! Until you get an apple pie. Then you try again to improve it.... you try and try again, until it cannot be improved with the ingredient you were given anymore. The final recipe is the model. The ingredients are the input features. The learning process is backpropagation (look at the results and update upstream operations as a result!)
 
  = a brute force approach, where you pick random weight and you iterate on them until they arrive at a stable solution. This is a `widely used algorithm for training feedforward neural networks and other ANN`. Approach discovered in 1986 that re-stimulated AI. Help a model learn from its mistakes by leveraging the chain rule of derivatives. The backpropagation algorithm consists in modifying the weight and bias of each cell in each layer based on their impact on the estimated output, or loss function (diff between estimated output and real output).
 
@@ -95,10 +97,16 @@ layout: page
 
 
 # Bag Of Words
+# BoW
 
- A technique for natural language processing that extracts the words (features) used in a sentence, document, website, etc. and classifies them by frequency of use. This technique can also be applied to image processing. In NLP deprecated by RNN, which take into consideration the word order.
+ The basic idea of BoW is to take a piece of text and count the frequency of the words in that text. It is important to note that the BoW concept treats each word individually and the order in which the words occur does not matter.
 
- See also [B], [Natural Language Processing], [Recurrent Neural Network], [Word2Vec]
+ A technique for [natural language processing] that extracts the words (features) used in a sentence, document, website, etc. and classifies them by frequency of use. This technique can also be applied to [image processing]. In NLP deprecated was by [Recurrent Neural Network (RNN)][RNN], which take into consideration the word order.
+
+ More at:
+  * spam detector - [https://medium.com/coinmonks/spam-detector-using-naive-bayes-c22cc740e257](https://medium.com/coinmonks/spam-detector-using-naive-bayes-c22cc740e257)
+
+ See also [B], [Naive Bayes], [Word2Vec]
 
 
 # Bagging
@@ -157,20 +165,63 @@ layout: page
 
 # Batch Gradient Descent Algorithm
 
+ ~ Use all the training samples for one forward pass and then adjust weights ==> good for small training set. If too much computation --> [SGD] or [Mini-Batch gradient Descent]
+
  ~ standard gradient descent. In Batch Gradient Descent, all the training data is taken into consideration to take a single step. We take the average of the gradients of all the training examples and then use that mean gradient to update our parameters. So that’s just one step of gradient descent in one epoch. Batch Gradient Descent is great for convex or relatively smooth error manifolds. In this case, we move somewhat directly towards an optimum solution.
 
  ![]( {{site.assets}}/b/batch_gradient_descent.png ){: width=20%}
+
+ ![]( {{site.assets}}/b/batch_gradient_descent_comparison.png ){: width=20%}
 
  See also [B], [Gradient Descent Algorithm], [Mini-Batch Gradient Descent Algorithm]
 
 
 # Batch Normalization
 
- Batch normalization layers can potentially resolve the vanishing gradient problem. Indeed, this problem arises when a large input space is mapped to a small one, causing the derivatives to disappear. In Image 1, this is most clearly seen at when |x| is big. Batch normalization reduces this problem by simply normalizing the input so |x| doesn’t reach the outer edges of the sigmoid function. As seen in diagram, it normalizes the input so that most of it falls in the green region, where the derivative isn’t too small.
+ ~ collapse inputs to be between 0 and 1
+
+ 1. Speeds up training (use same learning rate for all features/dimensions)
+ 1. Decrease the importance of weight initialization (allows sub-optimal starts)
+ 1. Acts (a little) as a regularizer (the mean and variance for every neuron activations is function of the randomized batch)
+    * Dropout layer ==> randomness, batch normalization ==> some randomness
+
+ Batch normalization layers can potentially resolve the vanishing gradient problem. Indeed, this problem arises when a large input space is mapped to a small one, causing the derivatives to disappear. In Image 1, this is most clearly seen at when `|x|` is big. Batch normalization reduces this problem by simply normalizing the input so `|x|` doesn’t reach the outer edges of the sigmoid function. As seen in diagram, it normalizes the input so that most of it falls in the green region, where the derivative isn’t too small.
 
  ![]( {{site.assets}}/b/batch_normalization.png ){: width=30%}
 
- See also [B], [Exploding Gradient Problem], [Sigmoid Activation Function], [Vanishing Gradient Problem]
+ {% youtube "https://www.youtube.com/watch?v=DtEq44FTPM4" %}
+
+ {% pdf "https://arxiv.org/pdf/1502.03167.pdf" %}
+
+ {% pdf "https://arxiv.org/pdf/1805.11604.pdf" %}
+
+ {% pdf "https://arxiv.org/pdf/1905.05928.pdf" %} 
+
+ More at:
+  * wikipedia - [https://en.wikipedia.org/wiki/Batch_normalization](https://en.wikipedia.org/wiki/Batch_normalization)
+  * covariance shift (2015)
+    * paper - [https://arxiv.org/abs/1502.03167](https://arxiv.org/abs/1502.03167)
+  * help optimization? (2018) 
+    * paper - [https://arxiv.org/abs/1805.11604](https://arxiv.org/abs/1805.11604)
+  * BN and dropout layer 
+    * paper - [https://arxiv.org/abs/1905.05928](https://arxiv.org/abs/1905.05928)
+  * articles
+    * [https://medium.com/analytics-vidhya/internal-covariate-shift-an-overview-of-how-to-speed-up-neural-network-training-3e2a3dcdd5cc(https://medium.com/analytics-vidhya/internal-covariate-shift-an-overview-of-how-to-speed-up-neural-network-training-3e2a3dcdd5cc)
+
+ See also [B], [Dropout layer], [Exploding Gradient Problem], [Sigmoid Activation Function], [Vanishing Gradient Problem]
+
+
+# Batch Normalization Layer
+
+ ~ A layer where the normalization function takes effect.
+
+ This layer is normally before the [activation layer]
+
+ Although normalization requires more calculation per epoch, to achieve the same performance, you will need fewer epochs!
+
+ {% youtube "https://www.youtube.com/watch?v=yXOMHOpbon8" %}
+
+ See also [B], ...
 
 
 # Batch Of Experience
@@ -481,7 +532,10 @@ Your belief has shifted towards more red marbles based on the observed data. The
  Psychoanalysis
   * [FANToM] - stress-testing machine theory of mind in interactions
 
-  All of those are included in the [HELM Benchmark]
+ All of those are included in the [HELM Benchmark]
+
+ Scientific
+  * [Matbench Discovery] - 
 
  See also [N], [Coreference], [Entity Extraction], [Language Parsing], [Model Benchmark], [Question Answering], [Semantic Understanding], [Sentiment Analysis], [SNLI]
 
@@ -550,13 +604,16 @@ Your belief has shifted towards more red marbles based on the observed data. The
  * [Artificial Neuron Bias] = When using bias in the connect of activation function, it is an integer that represent a threshold the weighted input should exceed to trigger the neuron. There is a bias at each node of the ANN. The node weighted input is = sum(aL . wL) + bias
  * [Dataset Bias] and
  * [Algorithmic Bias] which can lead to [AI Bias]
+ * [Inductive Bias] or Learning bias related to the assumption we make in our model
 
   1. statistics ==> The gap between the prediction and the actual value. Where is bias coming from? Issues with the data sampling?
   1. data sample ==> data that is used for learning is biased, ex: all nurse are female ==> implies unwanted correlation in data
   1. algorithmic bias ==> algorithm is trained using biased data
   1. neural network learning ==> When using bias in the connect of activation function, it is an integer that represent a threshold the weighted input should exceed to trigger the neuron. There is a bias at each node of the ANN. The node weighted input is = sum(aL . wL) + bias.
 
- See also [B], [Activation Function], [Balanced Fitting], [Bias-Variance Trade-Off], [Fair AI], [Overfitting], [Underfitting], [Variance]
+  {% youtube "https://www.youtube.com/watch?v=mG-cTS3fnnw" %}
+
+ See also [B], [Activation Function], [Balanced Fitting], [Bias-Variance Tradeoff], [Fair AI], [Overfitting], [Underfitting], [Variance]
 
 
 # Bias Neuron
@@ -571,7 +628,7 @@ Your belief has shifted towards more red marbles based on the observed data. The
  ![]( {{site.assets}}/b/bias_neuron_line.png ){: width="100%}
 
 
-# Bias-Variance Trade-Off
+# Bias-Variance Tradeoff
 
  ~ bias means that the model has a systematic error that prevent it from reaching perfection regardless of input data (e.g. Accuracy cannot be higher than 70% when we use a linear regression, when the underlying distribution is  quadratic!)
  
@@ -581,6 +638,8 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
  Let us consider that we have a very accurate model, this model has a low error in predictions and it’s not from the target (which is represented by bull’s eye). This model has low bias and variance. Now, if the predictions are scattered here and there then that is the symbol of high variance, also if the predictions are far from the target then that is the symbol of high bias.
  Sometimes we need to choose between low [variance] and low [bias]. There is an approach that prefers some [bias] over high [variance], this approach is called [Regularization]. It works well for most of the [classification] / [regression] problems.
+
+ Note that the bias-variance tradeoff is closely related to the concept of [inductive bias]
 
  ![]( {{site.assets}}/b/bias_variance_tradeoff.jpeg ){: width="100%}
 
@@ -631,6 +690,8 @@ Your belief has shifted towards more red marbles based on the observed data. The
   * paper - [https://arxiv.org/abs/1810.04805](https://arxiv.org/abs/1810.04805)
   * derivative models
     * spanBERT - [https://skimai.com/roberta-language-model-for-spanish/](https://skimai.com/roberta-language-model-for-spanish/)
+      * [https://arxiv.org/abs/1907.10529](https://arxiv.org/abs/1907.10529)
+    * RoBERTa - [https://arxiv.org/abs/1907.11692](https://arxiv.org/abs/1907.11692)
   * articles
     * embeddings (token + segment + position) - [https://medium.com/@_init_/why-bert-has-3-embedding-layers-and-their-implementation-details-9c261108e28a](https://medium.com/@_init_/why-bert-has-3-embedding-layers-and-their-implementation-details-9c261108e28a)
     * [https://medium.com/@mromerocalvo/6dcf5360b07f](https://medium.com/@mromerocalvo/6dcf5360b07f)
@@ -718,7 +779,14 @@ Your belief has shifted towards more red marbles based on the observed data. The
  See also [B], ...
 
 
+# Bin
+
+ See [Bucket]
+
+
 # Binary Classification
+
+ ~ answer Yes or No, This or That, Boy or Girl
 
  `Answer a question with Yes or No with a confidence level`. Ex: is this shape a square? The simplest case of classification algorithm. In the case of the support-vector-machine, binary classification can be done with the creation of a hyperplane as a decision boundary in a real, transformed, or latent space.
 
@@ -726,8 +794,9 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
 
 # Binary Cross-Entropy Loss Function
+# BCE Loss Function
 
- If you are training a binary classifier, chances are you are using binary cross-entropy / log loss as your loss function.
+ If you are training a [binary classifier], a [multi-label classification, or a [regression], chances are you are using binary cross-entropy / log loss as your [loss function].
  ```
 cross-entropy loss = c = sum(0, n, Pi * log (1/Qi)
 
@@ -735,10 +804,14 @@ cross-entropy loss = c = sum(0, n, Pi * log (1/Qi)
 binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-Po) * log(1/Q1)
  ```
 
+ {% youtube "https://www.youtube.com/watch?v=DPSXVJF5jIs" %}
+
+ {% youtube "https://www.youtube.com/watch?v=i78buAHKXpI" %}
+
  More at :
   * [https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a](https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a)
 
- See also [B], [Binary Classifier], [Cross-Entropy Loss Function], [Entropy], [Loss Function]
+ See also [B], [Cross-Entropy Loss Function], [Entropy]
 
 
 # Bing Search Engine
@@ -893,6 +966,35 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  Used by [Neuralink]
 
  See also [B], [Deep Brain], ...
+
+
+# Bucket
+
+ ~ aka bin
+
+ See also [B], ...
+
+
+# Bucketing
+
+ ~ aka binning
+
+ Converting a single [feature] into multiple binary features called [buckets] or bins, typically based on a value range. The chopped feature is typically a continuous feature.
+
+ For example, instead of representing temperature as a single continuous floating-point feature, you could chop ranges of temperatures into discrete buckets, such as:
+  * <= 10 degrees Celsius would be the "cold" bucket.
+  * 11 - 24 degrees Celsius would be the "temperate" bucket.
+  * \>= 25 degrees Celsius would be the "warm" bucket.
+
+ The model will treat every value in the same bucket identically. For example, the values 13 and 22 are both in the temperate bucket, so the model treats the two values identically.
+
+ If you represent temperature as a continuous feature, then the model treats temperature as a single feature. If you represent temperature as three buckets, then the model treats each bucket as a separate feature. That is, a model can learn separate relationships of each bucket to the [label]. For example, a [linear regression] model can learn separate [weights] for each bucket.
+
+ Increasing the number of buckets makes your model more complicated by increasing the number of relationships that your model must learn. For example, the cold, temperate, and warm buckets are essentially three separate features for your model to train on. If you decide to add two more buckets--for example, freezing and hot--your model would now have to train on five separate features.
+
+ How do you know how many buckets to create, or what the ranges for each bucket should be? The answers typically require a fair amount of experimentation.
+
+ See also [B], [Synthetic Feature]
 
 
 # Buffered Online Learning

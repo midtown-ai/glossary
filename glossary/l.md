@@ -29,6 +29,31 @@ layout: page
 {% include links/all.md %}
 
 
+# L1 Regularization
+
+ A type of [regularization] that penalizes [weights] in proportion to the sum of the absolute value of the weights. L1 regularization helps drive the weights of irrelevant or barely relevant [features] to exactly 0. A [feature] with a weight of 0 is effectively removed from the model.
+
+ Contrast with [L2 regularization].
+
+ See also [L], ...
+
+
+# L2 Loss
+
+ See also [L], ...
+
+
+# L2 Regularization
+
+ A type of [regularization] that penalizes weights in proportion to the sum of the squares of the [weights]. L2 regularization helps drive [outlier] weights (those with high positive or low negative values) closer to 0 but not quite to 0. Features with values very close to 0 remain in the model but don't influence the model's [prediction] very much.
+
+ L2 regularization always improves generalization in linear models.
+
+ Contrast with [L1 regularization].
+
+ See also [L], ...
+
+
 # Label
 
  ~ think of your label as your model teacher!
@@ -36,6 +61,10 @@ layout: page
  ~ the final prediction or decision the AI system makes
 
  Name of a prediction in a supervised models. Correspond to a target attribute in unsupervised learning. Example of label: the agent-skill needed to result the customer's call.
+
+ In [supervised machine learning], the "answer" or "result" portion of an [example].
+
+ Each labeled example consists of one or more [features] and a label. For instance, in a spam detection dataset, the label would probably be either "spam" or "not spam." In a rainfall dataset, the label might be the amount of rain that fell during a certain period.
 
  See also [L], [Data Point], [Labeling Function], [Supervised Learning], [Target Attribute]
 
@@ -253,6 +282,11 @@ completion = llm(prompt)
 
  {% youtube "https://www.youtube.com/watch?v=StLtMcsbQes" %}
 
+ {% pdf "https://arxiv.org/pdf/2303.18223.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2303.18223](https://arxiv.org/abs/2303.18223)
+
  See also [L], [Language Modeling], [Model Compression], [Scaling Law]
 
 
@@ -291,6 +325,16 @@ completion = llm(prompt)
     * wikipedia - [https://en.wikipedia.org/wiki/LLaMA](https://en.wikipedia.org/wiki/LLaMA)
 
  See also [L], ...
+
+
+# Large Language Model Operating System
+# LLM OS
+
+ More at:
+  * articles
+    * [https://medium.com/@ronaldmannak/goodbye-windows-hello-llms-the-future-of-operating-systems-7ba61ea03e8d](https://medium.com/@ronaldmannak/goodbye-windows-hello-llms-the-future-of-operating-systems-7ba61ea03e8d)
+
+ See also [L], [MemGPT Model]
 
 
 # Large Language Model Operations
@@ -481,8 +525,14 @@ completion = llm(prompt)
 
 
 # LeakyReLU Activation Function
+# LReLU Activation Function
 
  See also [L], [Activation Function], [Exploding Gradient Problem], [ReLU Activation Function], [Vanishing Gradient Problem]
+
+
+# Learning Bias
+
+ See [Inductive Bias]
 
 
 # Learning Method
@@ -900,21 +950,24 @@ Aristotle is mortal!
 
 
 # Logistic Regression
+# LogReg
 
- Not how long it will take for my car to stop given my speed (linear regression), but whether I am going to hit the tree or not (logistic regression). used to model the probability of a certain class or event existing such as pass/fail, win/lose, alive/dead or healthy/sick. This can be extended to model several classes of events such as determining whether an image contains a cat, dog, lion, etc... Each object being detected in the image would be assigned a probability between 0 and 1 and the sum adding to one.
+ Not how long it will take for my car to stop given my speed ([linear regression]), but whether I am going to hit the tree or not (logistic regression). used to model the probability of a certain class or event existing such as pass/fail, win/lose, alive/dead or healthy/sick. This can be extended to model several classes of events such as determining whether an image contains a cat, dog, lion, etc... Each object being detected in the image would be assigned a probability between 0 and 1 and the sum adding to one.
 
  ![]( {{site.assets}}/l/logistic_regression_data.png ){: width="100%"}
 
  ![]( {{site.assets}}/l/logistic_regression_fitting.png ){: width="100%"}
 
  Beware:
-  * To turn a probability into a classification, we need to use a threshold (P>0.5 or P<0.5)!
-   * What about using a different P threshold? ==> multiple confusion matrix ==> ROC Curve
+  * To turn a probability into a [classification], we need to use a threshold (if P>0.3 or P<0.3 then ...)!
+   * What about using a different P threshold? ==> multiple confusion matrix ==> [ROC Curve]
 
- See also [L], [ML Algorithm Evaluation], [Regression], [ROC Curve]
+ See also [L], [ML Algorithm Evaluation], [Regression]
 
 
 # Logit
+
+ ~ value before the activation function? Logit is unbounded, it can take any value
 
  A "logit" typically refers to the log-odds ratio in statistics and logistic regression. In binary logistic regression, the logistic function is used to model the probability that a given instance belongs to a particular category. The logit function, denoted as "logit," is the natural logarithm of the [odds] that an event will occur, expressed as:
 
@@ -1029,7 +1082,7 @@ class Model(nn.Module):
 # Longformer Architecture
 
  Models that have a long context window?
- * Use [Sliding Window Attention]
+ * Use [Shifted Window Attention (SWA)][SWA]
 
  Transformer-based models are unable to process long sequences due to their self-attention operation, which scales quadratically with the sequence length. To address this limitation, we introduce the Longformer with an attention mechanism that scales linearly with sequence length, making it easy to process documents of thousands of tokens or longer. Longformer's attention mechanism is a drop-in replacement for the standard self-attention and combines a local windowed attention with a task motivated global attention. Following prior work on long-sequence transformers, we evaluate Longformer on character-level language modeling and achieve state-of-the-art results on text8 and enwik8. In contrast to most prior work, we also pretrain Longformer and finetune it on a variety of downstream tasks. Our pretrained Longformer consistently outperforms RoBERTa on long document tasks and sets new state-of-the-art results on WikiHop and TriviaQA. We finally introduce the [Longformer-Encoder-Decoder (LED)][LED], a Longformer variant for supporting long document generative sequence-to-sequence tasks, and demonstrate its effectiveness on the arXiv summarization dataset.
 
@@ -1136,6 +1189,8 @@ Ask a LLLM, how many character will your next response have?
 
  {% youtube "https://www.youtube.com/watch?v=iYr1xZn26R8" %}
 
+ {% youtube "https://www.youtube.com/watch?v=t509sv5MT0w" %}
+
  {% pdf "https://arxiv.org/pdf/2106.09685.pdf" %}
 
  More at:
@@ -1143,7 +1198,7 @@ Ask a LLLM, how many character will your next response have?
   * article(s)
     * [https://bdtechtalks.com/2023/05/22/what-is-lora/](https://bdtechtalks.com/2023/05/22/what-is-lora/)
 
- See also [L], [LoRA Exchange], [QLoRA Fine-Tuning]
+ See also [L], [LoRA Exchange Serving], [QLoRA Fine-Tuning]
 
 
 # Low-Rank Approximation

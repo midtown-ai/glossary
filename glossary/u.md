@@ -63,7 +63,7 @@ layout: page
 
 # Underfitting
 
- ~ model that is too simple (low bias) and that simplicity creates a ceiling for its potential [accuracy].
+ ~ model that is too simple (low bias) and that simplicity creates a ceiling for its potential [accuracy]. It does not even fit the training set well!
 
  When you have low [variance] (clustered, same accuracy for different datasets), but high bias (offset, accuracy far from 100%). To prevent underfitting try hyper-parameter optimization.
 

@@ -128,6 +128,10 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
 
 # Activation Checkpointing
 
+ ~ one of the classic tradeoffs in computer science—between memory and compute.
+
+ ~ active only during training?
+
  Activation checkpointing is a technique used in deep learning models to reduce memory consumption during the backpropagation process, particularly in recurrent neural networks (RNNs) and transformers. It allows for training models with longer sequences or larger batch sizes without running into memory limitations.
 
  During the forward pass of a deep learning model, activations (intermediate outputs) are computed and stored for each layer. These activations are required for computing gradients during the backward pass or backpropagation, which is necessary for updating the model parameters.
@@ -137,6 +141,10 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
  The process of activation checkpointing involves dividing the computational graph into segments or checkpoints. During the forward pass, the model computes and stores the activations at the checkpoints. During the backward pass, the gradients are calculated using the stored activations, and the remaining activations are recomputed as necessary, using the saved memory from recomputed activations.
 
  Activation checkpointing is an effective technique for mitigating memory limitations in deep learning models, particularly in scenarios where memory constraints are a bottleneck for training large-scale models with long sequences or large batch sizes. It helps strike a balance between memory consumption and computational efficiency, enabling the training of more memory-intensive models.
+
+ ```
+
+ ```
 
  More at:
   * [https://towardsdatascience.com/how-to-increase-training-performance-through-memory-optimization-1000d30351c8](https://towardsdatascience.com/how-to-increase-training-performance-through-memory-optimization-1000d30351c8)
@@ -242,7 +250,7 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
  ![]( {{site.assets}}/a/actor_critic_algorithm.png){: width="100%" }
 
  More at:
-  * [https://pylessons.com/A2C-reinforcement-learning](https://pylessons.com/A2C-reinforcement-learning)
+  * ...
 
  See also [A], [Model-Free Learning Algorithm]
 
@@ -268,6 +276,22 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
  A sample-efficient policy gradient algorithm. ACER makes use of a replay buffer, enabling it to perform more than one gradient update using each piece of sampled experience, as well as a [Q-Function] approximate trained with the Retrace algorithm.
 
  See also [A], [PPO Algorithm], [Reinforcement Learning], [SAC Algorithm]
+
+
+# Adapter Layer
+
+ Add new intermediate module
+
+ {% youtube "https://www.youtube.com/watch?v=KoOlcX3XLd4" %}
+
+ {% pdf "https://arxiv.org/pdf/1902.00751.pdf" %}
+
+ More at:
+  * site - [https://research.google/pubs/parameter-efficient-transfer-learning-for-nlp/](https://research.google/pubs/parameter-efficient-transfer-learning-for-nlp/)
+  * code - [https://github.com/google-research/adapter-bert](https://github.com/google-research/adapter-bert)
+  * paper - [https://arxiv.org/abs/1902.00751](https://arxiv.org/abs/1902.00751)
+
+ See also [A], ...
 
 
 # Adaptive Boosting
@@ -326,10 +350,10 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
  With adaptive learning algorithm, the learning rate is not constant and changes based on the feature and the location
 
  Algorithm with adaptive learning rates are:
-  * [Adam][Adam Algorithm]
-  * [AdaGrad][AdaGrad Algorithm]
-  * [RMSprop][RMSprop Algorithm]
-  * [AdaDelta][AdaDelta Algorithm]
+  * [Adam]
+  * [AdaGrad]
+  * [Root Mean Square Propagation (RMSprop)][RMSprop]
+  * [AdaDelta]
   * and more ...
 
  More at:
@@ -341,11 +365,14 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
 # Adaptive Gradient Algorithm
 # AdaGrad Algorithm
 
+ ~ optimization algorithm that use different learning rate for each parameter/weight/feature
+   * great when input variables are dense features and sparse features (lots of 0)
+
  Unfortunately, this hyper-parameter could be very difficult to set because if we set it too small, then the parameter update will be very slow and it will take very long time to achieve an acceptable loss. Otherwise, if we set it too large, then the parameter will move all over the function and may never achieve acceptable loss at all. To make things worse, the high-dimensional non-convex nature of neural networks optimization could lead to different sensitivity on each dimension. The learning rate could be too small in some dimension and could be too large in another dimension.
 
 One obvious way to mitigate that problem is to choose different learning rate for each dimension, but imagine if we have thousands or millions of dimensions, which is normal for deep neural networks, that would not be practical. So, in practice, one of the earlier algorithms that have been used to mitigate this problem for deep neural networks is the AdaGrad algorithm (Duchi et al., 2011). This algorithm adaptively scaled the learning rate for each dimension. 
 
- Adagrads most significant benefit is that it eliminates the need to tune the [learning rate] manually, but it still isn't perfect. Its main weakness is that it accumulates the squared gradients in the denominator. Since all the squared terms are positive, the accumulated sum keeps on growing during training. Therefore the learning rate keeps shrinking as the training continues, and it eventually becomes infinitely small. Other algorithms like [Adadelta][Adadelta Algorithm], [RMSprop][RMSprop Algorithm], and [Adam][Adam Algorithm] try to resolve this flaw.
+ Adagrads most significant benefit is that it eliminates the need to tune the [learning rate] manually, but it still isn't perfect. Its main weakness is that it accumulates the squared gradients in the denominator. Since all the squared terms are positive, the accumulated sum keeps on growing during training. Therefore the learning rate keeps shrinking as the training continues, and it eventually becomes infinitely small. Other algorithms like [Adadelta], [RMSprop], and [Adam] try to resolve this flaw.
 
  ![]( {{site.assets}}/a/adaptive_gradient_algorithm.gif){: width="100%" }
 
@@ -364,11 +391,13 @@ One obvious way to mitigate that problem is to choose different learning rate fo
 # Adaptive Moment Estimation Algorithm
 # Adam Algorithm
 
- Adam (Adaptive Moment Estimation) is an [optimization algorithm][Optimizer] used in machine learning to update the weights of a neural network during training. It is an extension of [stochastic gradient descent (SGD)][SGD Algorithm] that incorporates ideas from both momentum-based methods and adaptive learning rate methods.
+ Adam (Adaptive Moment Estimation) is an [optimization algorithm][Optimizer] used in machine learning to update the weights of a neural network during training. It is an extension of [stochastic gradient descent (SGD)][SGD] that incorporates ideas from both momentum-based methods and adaptive learning rate methods.
 
  The main idea behind Adam is to adjust the learning rate for each weight based on the gradient's estimated first and second moments. The first moment is the mean of the gradient, and the second moment is the variance of the gradient. Adam maintains an exponentially decaying average of the past gradients, similar to the momentum method, and also an exponentially decaying average of the past squared gradients, similar to the adaptive learning rate methods. These two estimates are used to update the weights of the network during training.
 
- Compared to [Stochastic Gradient Descent (SGD)][SGD Algorithm], Adam can converge faster and requires less [hyperparameter tuning]. It adapts the [learning rate] on a per-parameter basis, which helps it to converge faster and avoid getting stuck in local minima. It also uses momentum to accelerate the convergence process, which helps the algorithm to smooth out the gradient updates, resulting in a more stable convergence process. Furthermore, Adam uses an adaptive learning rate, which can lead to better convergence on complex, high-dimensional problems.
+ Compared to [Stochastic Gradient Descent (SGD)][SGD], Adam can converge faster and requires less [hyperparameter tuning]. It adapts the [learning rate] on a per-parameter basis, which helps it to converge faster and avoid getting stuck in local minima. It also uses momentum to accelerate the convergence process, which helps the algorithm to smooth out the gradient updates, resulting in a more stable convergence process. Furthermore, Adam uses an adaptive learning rate, which can lead to better convergence on complex, high-dimensional problems.
+
+ {% youtube "https://www.youtube.com/watch?v=JXQT_vxqwIs" %}
 
  More at:
   * [https://medium.com/geekculture/a-2021-guide-to-improving-cnns-optimizers-adam-vs-sgd-495848ac6008](https://medium.com/geekculture/a-2021-guide-to-improving-cnns-optimizers-adam-vs-sgd-495848ac6008)
@@ -394,8 +423,10 @@ One obvious way to mitigate that problem is to choose different learning rate fo
  The company is claiming to be building an [action transformer] model
 
  More at:
-  * [https://www.adept.ai/](https://www.adept.ai/)
-  * [https://www.crunchbase.com/organization/adept-48e7](https://www.crunchbase.com/organization/adept-48e7)
+  * site - [https://www.adept.ai/](https://www.adept.ai/)
+  * crunchbase - [https://www.crunchbase.com/organization/adept-48e7](https://www.crunchbase.com/organization/adept-48e7)
+  * articles
+    * [https://www.forbes.com/sites/kenrickcai/2023/03/14/adept-ai-startup-raises-350-million-series-b/?sh=76d628062cc3](https://www.forbes.com/sites/kenrickcai/2023/03/14/adept-ai-startup-raises-350-million-series-b/?sh=76d628062cc3)
 
  See also [A], ...
 
@@ -426,6 +457,8 @@ One obvious way to mitigate that problem is to choose different learning rate fo
 # A2C Algorithm
 
  A2C, or Advantage [Actor-Critic], is a synchronous version of the A3C policy gradient method. As an alternative to the asynchronous implementation of A3C, A2C is a synchronous, deterministic implementation that waits for each [actor] to finish its segment of experience before updating, averaging over all of the [actors]. This more effectively uses [GPUs] due to larger [batch sizes].
+
+ {% youtube "https://www.youtube.com/watch?v=asBFJACi698" %}
 
  {% pdf "https://arxiv.org/pdf/1602.01783v2.pdf" %}
 
@@ -494,11 +527,41 @@ One obvious way to mitigate that problem is to choose different learning rate fo
  See also [A], ...
 
 
-# AI Agent
+# Agency
+
+ Agency refers to the capacity for human beings to make choices and take actions that affect the world. It is closely related to the concept of free will - the ability to make decisions and choices independently. Some key aspects of agency include:
+
+  * Autonomy - Being able to act according to one's own motivations and values, independently of outside influence or control. This involves having the freedom and capacity to make one's own choices.
+  * Self-efficacy - Having the belief in one's own ability to accomplish goals and bring about desired outcomes through one's actions. This contributes to a sense of control over one's life.
+  * Intentionality - Acting with intention and purpose rather than just reacting instinctively. Agency involves making deliberate choices to act in certain ways.
+  * Self-determination - Being able to shape one's own life circumstances rather than being completely shaped by external factors. Exercising agency is about asserting control within the possibilities available to each individual.
+  * Moral accountability - Being responsible for and willing to accept the consequences of one's actions. Agency implies being answerable for the ethical and social impacts of one's choices.
+
+ So in summary, agency is the ability people have to make free choices and take purposeful action that directs the course of their lives and the world around them. It is central to human experience and identity.
+
+ More at:
+  * wikipedia - [https://en.wikipedia.org/wiki/Agency_(sociology)](https://en.wikipedia.org/wiki/Agency_(sociology))
+
+ See also [A], [Agent]
+
+
+# Agent
+
+ ~ As agency and autonomy
 
  A person, an animal, or a program that is free to make a decision or take an action. An agent has a purpose and a goal.
 
- There are different types of agents, function of how their goal is coded. That includes:
+ Type of agents:
+  * Humans
+  * Animals
+  * [AI Agents]
+  * ...
+
+ See also [A], ...
+
+# AI Agent
+
+ There are different types of AI agents, function of how their goal is coded. That includes:
   * [Reinforcement Learning (RL) agent][RL Agent] whose goal is to maximize a total reward
   * LLM agent such as [SDLC Agent]
   * ...
@@ -559,7 +622,7 @@ One obvious way to mitigate that problem is to choose different learning rate fo
   * more videos
     * [https://www.youtube.com/watch?v=k6M_ScSBF6A](https://www.youtube.com/watch?v=k6M_ScSBF6A)
 
- See also [A], [AI Ethics]
+ See also [A], [AI Ethics], [Exploratory Data Analysis]
 
 
 # AI Alliance
@@ -1207,6 +1270,8 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
  But recently [AlphaFault] !
 
+ This model is at the foundation of the [Isomorphic Labs Company]
+
  {% pdf "{{site.assets}}/a/alphafold_model_paper.pdf" %}
 
  More at:
@@ -1351,7 +1416,7 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
 # Apache Spark
 
- (with spark Sagemaker estimator interface?)
+ (with spark SageMaker estimator interface?)
 
 
 # Apple Company
@@ -1431,13 +1496,27 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 # Area Under The Curve
 # AUC
 
- `~ helpful measurement to compare the classification performance of various models. The bigger the AUC, the better the model!"`.
+ ~ helpful measurement to compare one ROC curve to another, i.e the classification performance of various models ([SVM], [Random Forest], [LogReg]).
 
- The curve is the Receiver Operating Characteristic (ROC) Curve][ROC Curve]! The area under the ROC curve (AUC) is a measure of the classifier's overall performance, with a value of 1 indicating perfect performance and a value of 0.5 indicating a performance no better than random guessing (ROC curve is diagonal ==> ...) .
+ ~ each point on the ROC curve is a decision matrix calculated at a different discriminatory threshold ([thresholding])
+
+ :warning: The bigger the AUC value, the better the model!
+
+ The curve is the [Receiver Operating Characteristic (ROC) Curve][ROC Curve]! The area under the ROC curve (AUC) is a measure of the classifier's overall performance, with a value of 1 indicating perfect performance and a value of 0.5 indicating a performance no better than random guessing (ROC curve is diagonal ==> random guess) .
+
+ Note that:
+  * X axis on ROC is [False Positive Rate (FPR)][FPR] = 1 - [Specificity]
+  * Y axis on ROC is [True Positive Rate (TPR)][TPR] = [Sensitivity]
+
+ ![]( {{site.assets}}/a/area_under_the_curve_discrete.png){: width="100%" }
 
  ![]( {{site.assets}}/a/area_under_the_curve.png){: width="100%" }
 
  ![]( {{site.assets}}/a/area_under_the_curve_code.png){: width="100%" }
+
+ More at:
+  * articles
+    * [https://blog.revolutionanalytics.com/2016/11/calculating-auc.html](https://blog.revolutionanalytics.com/2016/11/calculating-auc.html)
 
  See also [A], ...
 
@@ -1445,11 +1524,13 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 # Argmax Function
 
  * Math = means we are searching for ALL the values of x in interval that maximize f(x).
+
  ```
 x_set = argmax(interval, f )
  ```
 
  * Numpy
+
  ```
 import numpy as np
 
@@ -1461,6 +1542,7 @@ x = np.argmax(f)                   # 1           <-- FIRST index of MAXIMUM
 
  * Neural networks
  The output values obtained by a neural network from its various output nodes are not always in the range of 0 to 1, and can be greater than 1 or less than 0. These dynamic values can degrade our machine’s learning power and cause it to misbehave. The Argmax and SoftMax functions are used to obtain values between 0 and 1. The Argmax function interprets the largest positive output value as 1 and all other values as 0, making the model too concrete for a few values. This function is useful for testing because we only need to check the final prediction and not the relationship between different inputs and different outputs/labels.
+
  ```
 # Network outputs
 likelyhood_outputs = [20.4, 3.6, 5.5]
@@ -2246,7 +2328,7 @@ ____ at the sign, you will get a ticket (backward prediction)
  See also [A], [Amazon Web Services]
 
 
-# AWS Sagemaker Canvas
+# AWS SageMaker Canvas
 
  {% youtube "https://www.youtube.com/watch?v=BMtmYHRijfk" %}
 
@@ -2269,7 +2351,7 @@ ____ at the sign, you will get a ticket (backward prediction)
  See also [A], ...
 
 
-# AWS Sagemaker Jumpstart
+# AWS SageMaker Jumpstart
 
  Amazon SageMaker JumpStart is a machine learning (ML) hub that can help you accelerate your ML journey. With SageMaker JumpStart, you can evaluate, compare, and select FMs quickly based on pre-defined quality and responsibility metrics to perform tasks like article summarization and image generation. Pretrained models are fully customizable for your use case with your data, and you can easily deploy them into production with the user interface or SDK. In addition, you can access prebuilt solutions to solve common use cases, and share ML artifacts, including ML models and notebooks, within your organization to accelerate ML model building and deployment.
 
@@ -2279,7 +2361,7 @@ ____ at the sign, you will get a ticket (backward prediction)
     * [https://aws.amazon.com/blogs/machine-learning/use-stable-diffusion-xl-with-amazon-sagemaker-jumpstart-in-amazon-sagemaker-studio/](https://aws.amazon.com/blogs/machine-learning/use-stable-diffusion-xl-with-amazon-sagemaker-jumpstart-in-amazon-sagemaker-studio/)
 
 
-# AWS Sagemaker Notebook
+# AWS SageMaker Notebook
 
  * Authentication through AWS console
  * you select the instance type
@@ -2289,7 +2371,7 @@ ____ at the sign, you will get a ticket (backward prediction)
  See also [A}, ...
 
 
-# AWS Sagemaker Pipeline
+# AWS SageMaker Pipeline
 
  ~ CICD for data !
 
@@ -2304,7 +2386,7 @@ ____ at the sign, you will get a ticket (backward prediction)
  See also [A], ...
 
 
-# AWS Sagemaker Studio
+# AWS SageMaker Studio
 
  ~ jupyterlab + AWS plugins developed by AWS
 

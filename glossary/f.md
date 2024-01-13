@@ -35,7 +35,7 @@ layout: page
 
  A Measure of [accuracy] of a model. Used to find [hyperparameter optimization].
 
- When to use? F1-Score is used when the [False Negatives] and [False Positives] are important. F1-Score is a better metric for [imbalanced data].
+ When to use? F1-Score is used when the [False Negatives] and [False Positives] are important. F1-Score is a better metric for [imbalanced datasets].
 
  More at:
   * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
@@ -47,6 +47,49 @@ layout: page
 
  See also [F], ...
 
+
+# Facebook AI Similarity Search
+# FAISS
+
+ Faiss is a library for efficient similarity search and clustering of dense vectors. It contains algorithms that search in sets of vectors of any size, up to ones that possibly do not fit in RAM. It also contains supporting code for evaluation and parameter tuning. Faiss is written in C++ with complete wrappers for Python/numpy. Some of the most useful algorithms are implemented on the GPU. It is developed primarily at [Meta]'s Fundamental AI Research group.
+
+ {% highlight python %}
+# Getting some data
+
+import numpy as np
+d = 64                           # dimension
+nb = 100000                      # database size
+nq = 10000                       # nb of queries
+np.random.seed(1234)             # make reproducible
+xb = np.random.random((nb, d)).astype('float32')
+xb[:, 0] += np.arange(nb) / 1000.
+xq = np.random.random((nq, d)).astype('float32')
+xq[:, 0] += np.arange(nq) / 1000.
+
+# Building an index and adding the vectors to it
+
+import faiss                   # make faiss available
+index = faiss.IndexFlatL2(d)   # build the index
+print(index.is_trained)
+index.add(xb)                  # add vectors to the index
+print(index.ntotal)
+
+# Searching
+
+k = 4                          # we want to see 4 nearest neighbors
+D, I = index.search(xb[:5], k) # sanity check
+print(I)
+print(D)
+D, I = index.search(xq, k)     # actual search
+print(I[:5])                   # neighbors of the 5 first queries
+print(I[-5:])                  # neighbors of the 5 last queries
+ {% endhighlight %}
+
+ More at:
+  * site - [https://ai.meta.com/tools/faiss/](https://ai.meta.com/tools/faiss/)
+  * code - [https://github.com/facebookresearch/faiss](https://github.com/facebookresearch/faiss)
+  * docs - [https://github.com/facebookresearch/faiss/wiki](https://github.com/facebookresearch/faiss/wiki)
+  * tutorials - [https://github.com/facebookresearch/faiss/wiki/Getting-started](https://github.com/facebookresearch/faiss/wiki/Getting-started)
 
 # Facebook Company
 
@@ -72,6 +115,8 @@ layout: page
   * ...
 
  {% youtube "https://www.youtube.com/watch?v=t6JjlNVuBUQ" %}
+
+ {% youtube "https://www.youtube.com/watch?v=jIXIuYdnyyk" %}
 
  More at:
   * code - [https://github.com/facebookresearch/fairseq](https://github.com/facebookresearch/fairseq)
@@ -156,6 +201,22 @@ print(llm_chain.run(question))
  See also [F], [Confusion Matrix], [F1 Score]
 
 
+# False Positive Rate
+# FPR
+
+ ~ (1 - [Specificity] )
+
+ ```
+     FP            negatives detected as positives
+ ---------  =   ------------------------------------
+  FP + TN                 total negatives
+ ```
+
+ ![]( {{site.assets}}/f/false_positive_rate.png ){: width="100%"}
+
+ See also [F], [True Positive Rate]
+
+
 # Fashion MNIST Dataset
 
  See also [F], [MNIST Dataset]
@@ -186,7 +247,7 @@ print(llm_chain.run(question))
 
  A feature is a characteristic of a piece of data that the computer needs to know about in order to learn about that kind of data. These characteristics, or features, are used by AI systems to come up with patterns about the data and then make predictions using those patterns. Theses features are often stored in variables so that the computer can use them later!
 
- See also [F], [Data Point], [Dataset], [Explanatory Variable], [Feature Engineering], [Feature Extraction], [Feature Vector], [Naive Bayes]
+ See also [F], [Data Point], [Dataset], [Explanatory Variable], [Feature Engineering], [Feature Extraction], [Feature Vector], [Naive Bayes], [Synthetic Feature]
 
 
 # Feature Attribution
@@ -197,6 +258,56 @@ print(llm_chain.run(question))
 
  More at:
   * [https://cloud.google.com/blog/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble](https://cloud.google.com/blog/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble)
+
+
+# Feature Cross
+
+ A synthetic feature formed by "crossing" categorical or bucketed features.
+
+ For example, consider a "mood forecasting" model that represents temperature in one of the following four [buckets]:
+ ```
+freezing
+chilly
+temperate
+warm
+ ```
+
+ And represents wind speed in one of the following three buckets:
+
+ ```
+still
+light
+windy
+ ```
+
+ Without feature crosses, the linear model trains independently on each of the preceding seven various [buckets]. So, the model trains on, for instance, freezing independently of the training on, for instance, windy.
+
+ Alternatively, you could create a feature cross of temperature and wind speed. This [synthetic feature] would have the following 12 possible values:
+
+ ```
+freezing-still
+freezing-light
+freezing-windy
+chilly-still
+chilly-light
+chilly-windy
+temperate-still
+temperate-light
+temperate-windy
+warm-still
+warm-light
+warm-windy
+ ```
+
+ Thanks to feature crosses, the model can learn mood differences between a freezing-windy day and a freezing-still day.
+
+ If you create a [synthetic feature] from two features that each have a lot of different [buckets], the resulting feature cross will have a huge number of possible combinations. For example, if one feature has 1,000 [buckets] and the other feature has 2,000 [buckets], the resulting feature cross has 2,000,000 [buckets].
+
+ Formally, a cross is a Cartesian product.
+
+ Feature crosses are mostly used with linear models and are rarely used with [artificial neural networks].
+
+ See also [F], ...
 
 
 # Feature Distribution
@@ -497,12 +608,12 @@ Xnorm = ---------------
   * How is this different from a reward in reinforcement learning? ==> selection bias ! I use the feedback I want! The goal is not to get the maximum reward, but to get to your destination which the reward model does not know about!.
 
  Example:
-  * Ask people what they want, not a faster carriage, but a car
+  * Before the invention of the car, if you asked people what they wanted, they would have asked for a faster horse! Not a faster carriage or a car!
 
  More at:
   * RLHF is flawed? - [https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the](https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the)
  
- See also [F], [Feedback], [Reinforcement Learning], [Reinforcement Learning Human Feedback]
+ See also [F], [Feedback], [Reinforcement Learning], [Reinforcement Learning AI Feedback], [Reinforcement Learning Human Feedback]
 
 
 # Feedforward Neural Network
@@ -646,6 +757,86 @@ cheese =>
  See also [F], ...
 
 
+# Flask Python Module
+
+ {% highlight python %}
+#%% package
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Hello world"
+
+
+if __name__ == '__main__':
+    app.run()
+ {% endhighlight %}
+
+ {% highlight python %}
+# model_class.py
+import torch
+import torch.nn as nn
+
+class MultiClassNet(nn.Module):
+    def __init__(self, NUM_FEATURES, NUM_CLASSES, HIDDEN_FEATURES):
+        super().__init__()
+        self.lin1 = nn.Linear(NUM_FEATURES, HIDDEN_FEATURES)
+        self.lin2 = nn.Linear(HIDDEN_FEATURES, NUM_CLASSES)
+        self.log_softmax = nn.LogSoftmax(dim=1)
+
+    def forward(self, x):
+        x = self.lin1(x)
+        x = torch.sigmoid(x)
+        x = self.lin2(x)
+        x = self.log_softmax(x)
+        return x
+ {% endhighlight %}
+
+ {% highlight python %}
+# main.py
+
+#%% package
+from flask import Flask, request
+from model_class import MultiClassNet
+import torch
+import json
+#%% model instance
+model = MultiClassNet(HIDDEN_FEATURES=6, NUM_CLASSES=3, NUM_FEATURES=4)
+local_file_path = 'model_iris.pt'
+model.load_state_dict(torch.load(local_file_path))
+
+#%%
+app = Flask(__name__)
+
+@app.route('/predict', methods = ['GET', 'POST'])
+def predict():
+    if request.method == 'GET':
+        return 'Please use POST method'
+    if request.method == 'POST':
+        data = request.data.decode('utf-8')
+        dict_data = json.loads(data.replace("'", "\""))
+        X = torch.tensor([dict_data["data"]])
+        y_test_hat_softmax = model(X)
+        y_test_hat = torch.max(y_test_hat_softmax, 1)
+        y_test_cls = y_test_hat.indices.cpu().detach().numpy()[0]
+        cls_dict = {
+            0: 'setosa', 
+            1: 'versicolor', 
+            2: 'virginica'
+        }
+        return f"Your flower belongs to class {cls_dict[y_test_cls]}"
+
+
+if __name__ == '__main__':
+    app.run()
+# %%
+ {% endhighlight %}
+
+ More at:
+  * code - [https://github.com/PacktPublishing/PyTorch-Ultimate-2023---From-Basics-to-Cutting-Edge](https://github.com/PacktPublishing/PyTorch-Ultimate-2023---From-Basics-to-Cutting-Edge)
+
 # Flow-Based Model
 
  More at :
@@ -754,6 +945,8 @@ cheese =>
 
 # Fully Connected Layer
 # FC Layer
+
+ ~ aka [Dense Layer] but with or without the activation layer
 
  A List of feature values becomes a list of votes (which are weighted to following layers).
 

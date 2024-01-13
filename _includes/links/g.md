@@ -69,6 +69,9 @@
 [GloVe Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#global-vector-algorithm
 [GloVe]: {{ site.baseurl }}{% link glossary/g.md %}#global-vector-algorithm
 [Gluon]: {{ site.baseurl }}{% link glossary/g.md %}#gluon
+[Graph Network For Materials Exploration Model]: {{ site.baseurl }}{% link glossary/g.md %}#graph-network-for-materials-exploration-model
+[Gnome Model]: {{ site.baseurl }}{% link glossary/g.md %}#graph-network-for-materials-exploration-model
+[Gnome]: {{ site.baseurl }}{% link glossary/g.md %}#graph-network-for-materials-exploration-model
 [Goal-Conditioned Reinforcement Learning]: {{ site.baseurl }}{% link glossary/g.md %}#goal-conditioned-reinforcement-learning
 [Goal-Conditioned RL]: {{ site.baseurl }}{% link glossary/g.md %}#goal-conditioned-reinforcement-learning
 [Google Company]: {{ site.baseurl }}{% link glossary/g.md %}#google-company
@@ -82,6 +85,7 @@
 [GTC]: {{ site.baseurl }}{% link glossary/g.md %}#gtc
 [Grade School Math Dataset]: {{ site.baseurl }}{% link glossary/g.md %}#grade-school-math-dataset
 [GSM8K Dataset]: {{ site.baseurl }}{% link glossary/g.md %}#grade-school-math-dataset
+[GSM8K]: {{ site.baseurl }}{% link glossary/g.md %}#grade-school-math-dataset
 [Gradient]: {{ site.baseurl }}{% link glossary/g.md %}#grandient
 [Gradient Ascent Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-ascent-algorithm
 [Gradient Bagging]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-bagging
@@ -94,6 +98,9 @@
 [Gradient Descent with Momentum Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descent-with-momentum-algorithm
 [Gradient Descent with Momentum]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descent-with-momentum-algorithm
 [GD with Momentum Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descent-with-momentum-algorithm
+[GD with Momentum]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descent-with-momentum-algorithm
+[GDwM Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descent-with-momentum-algorithm
+[GDwM]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-descent-with-momentum-algorithm
 [Gradient Perturbation]: {{ site.baseurl }}{% link glossary/g.md %}#gradient-perturbation
 [Gradio Python Module]: {{ site.baseurl }}{% link glossary/g.md %}#gradio-python-module
 [Gradio]: {{ site.baseurl }}{% link glossary/g.md %}#gradio-python-module

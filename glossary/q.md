@@ -40,15 +40,18 @@ layout: page
 
  In Q-learning, the agent learns by iteratively updating a value function called the Q-function, which represents the expected cumulative reward for taking a particular action in a given state. The [Q-function] is represented as a table or a function that maps state-action pairs to their corresponding [Q-values].
 
- During the learning process, the [agent] interacts with the environment by taking [actions] based on its current [policy]. After each [action], it receives a [reward] and transitions to a new [state]. The [agent] updates the [Q-value] of the previous state-action pair using the [reward] received and the estimated maximum [Q-value] of the possible [actions] in the next [state].
+ During the learning process, the [RL agent] interacts with the environment by taking [actions] based on its current [policy]. After each [action], it receives a [reward] and transitions to a new [state]. The [RL agent] updates the [Q-value] of the previous state-action pair using the [reward] received and the estimated maximum [Q-value] of the possible [actions] in the next [state].
 
- The Q-learning algorithm uses a form of temporal difference learning known as the [Bellman equation] to update [Q-values]. By repeatedly updating the [Q-values] over multiple iterations, the [agent] gradually converges towards the [optimal Q-values], which lead to the best possible [policy] for maximizing long-term rewards.
+ The Q-learning algorithm uses a form of temporal difference learning known as the [Bellman equation] to update [Q-values]. By repeatedly updating the [Q-values] over multiple iterations, the [RL agent] gradually converges towards the [optimal Q-values], which lead to the best possible [policy] for maximizing long-term rewards.
 
- Once the [Q-values] have converged or reached a satisfactory level of performance, the [agent] can use the learned [Q-function] to determine the best [action] to take in any given state. This allows the [agent] to make optimal decisions and solve the [reinforcement learning] problem in the [environment].
+ Once the [Q-values] have converged or reached a satisfactory level of performance, the [RL agent] can use the learned [Q-function] to determine the best [action] to take in any given state. This allows the [RL agent] to make optimal decisions and solve the [reinforcement learning] problem in the [environment].
 
- Q-learning has been successfully applied in various domains, including game playing, robotics, and [control systems], where an [agent] needs to learn from trial-and-error interactions to achieve a specific goal.
+ Q-learning has been successfully applied in various domains, including game playing, robotics, and [control systems], where an [RL agent] needs to learn from trial-and-error interactions to achieve a specific goal.
 
- See also [Q], ...
+ More at:
+  * code - [https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/Q%20learning](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/Q%20learning)
+
+ See also [Q], [Deep Q-Learning]
 
 
 # Q-Network

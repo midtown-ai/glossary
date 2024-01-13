@@ -1,6 +1,8 @@
 [R]: {{site.baseurl}}{% link glossary/r.md %}
 
 [R-Square]: {{site.baseurl}}{% link glossary/r.md %}#r-square
+[Rabbit Company]: {{site.baseurl}}{% link glossary/r.md %}#rabbit-company
+[Rabbit]: {{site.baseurl}}{% link glossary/r.md %}#rabbit-company
 [Radial Basis Function]: {{site.baseurl}}{% link glossary/r.md %}#radial-basis-function
 [RBF]: {{site.baseurl}}{% link glossary/r.md %}#radial-basis-function
 [RadioGPT]: {{site.baseurl}}{% link glossary/r.md %}#radiogpt
@@ -53,7 +55,10 @@
 [R-CNN]: {{site.baseurl}}{% link glossary/r.md %}#region-based-convolutional-neural-network
 [Region-Of-Interest Pooling]: {{site.baseurl}}{% link glossary/r.md %}#region-of-interest-pooling
 [ROI Pooling]: {{site.baseurl}}{% link glossary/r.md %}#region-of-interest-pooling
-[Regression]: {{site.baseurl}}{% link glossary/r.md %}#regression
+[Regression Task]: {{site.baseurl}}{% link glossary/r.md %}#regression-task
+[Regression Tasks]: {{site.baseurl}}{% link glossary/r.md %}#regression-task
+[Regression]: {{site.baseurl}}{% link glossary/r.md %}#regression-task
+[Regressions]: {{site.baseurl}}{% link glossary/r.md %}#regression-task
 [Regression Tree]: {{site.baseurl}}{% link glossary/r.md %}#regression-tree
 [Regularization]: {{site.baseurl}}{% link glossary/r.md %}#regularization
 [Regularization Parameter]: {{site.baseurl}}{% link glossary/r.md %}#regularization-parameter
@@ -82,6 +87,8 @@
 [Replaced Word Prediction]: {{site.baseurl}}{% link glossary/r.md %}#replaced-word-prediction
 [Replay Memory]: {{site.baseurl}}{% link glossary/r.md %}#replay-memory
 [Replit Company]: {{site.baseurl}}{% link glossary/r.md %}#replit-company
+[Replit]: {{site.baseurl}}{% link glossary/r.md %}#replit-company
+[Representation]: {{site.baseurl}}{% link glossary/r.md %}#representation
 [Representation Space]: {{site.baseurl}}{% link glossary/r.md %}#representation-space
 [Reptile]: {{site.baseurl}}{% link glossary/r.md %}#reptile
 [Reranking]: {{site.baseurl}}{% link glossary/r.md %}#reranking
@@ -93,7 +100,8 @@
 [Residual Network Model]: {{site.baseurl}}{% link glossary/r.md %}#residual-network-model
 [ResNET Model]: {{site.baseurl}}{% link glossary/r.md %}#residual-network-model
 [Resilient Backpropagation Algorithm]: {{site.baseurl}}{% link glossary/r.md %}#resilient-backpropagation-algorithm
-[Rprop Algoritmh]: {{site.baseurl}}{% link glossary/r.md %}#resilient-backpropagation-algorithm
+[Rprop Algorithm]: {{site.baseurl}}{% link glossary/r.md %}#resilient-backpropagation-algorithm
+[Rprop]: {{site.baseurl}}{% link glossary/r.md %}#resilient-backpropagation-algorithm
 [Response Variable]: {{site.baseurl}}{% link glossary/r.md %}#response-variable
 [Responsible AI]: {{site.baseurl}}{% link glossary/r.md %}#responsible-ai
 [Restricted Boltzmann Machine]: {{site.baseurl}}{% link glossary/r.md %}#restricted-boltzmann-machine
@@ -137,6 +145,7 @@
 [RMSE]: {{site.baseurl}}{% link glossary/r.md %}#root-mean-square-error
 [Root Mean Square Propagation Algorithm]: {{site.baseurl}}{% link glossary/r.md %}#root-mean-square-propagation-algorithm
 [RMSprop Algorithm]: {{site.baseurl}}{% link glossary/r.md %}#root-mean-square-propagation-algorithm
+[RMSprop]: {{site.baseurl}}{% link glossary/r.md %}#root-mean-square-propagation-algorithm
 [RoseTTAFold Diffusion]: {{site.baseurl}}{% link glossary/r.md %}#rosettafold-diffusion
 [RF Diffusion]: {{site.baseurl}}{% link glossary/r.md %}#rosettafold-diffusion
 [Runway Company]: {{site.baseurl}}{% link glossary/r.md %}#runway-company

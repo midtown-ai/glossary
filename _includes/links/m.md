@@ -3,6 +3,7 @@
 [M3GAN Movie]: {{ site.baseurl }}{% link glossary/m.md %}#m3gan-movie
 [M3GAN]: {{ site.baseurl }}{% link glossary/m.md %}#m3gan-movie
 [Machine Learning]: {{ site.baseurl }}{% link glossary/m.md %}#mchine-learning
+[ML]: {{ site.baseurl }}{% link glossary/m.md %}#mchine-learning
 [Machine Learning Framework]: {{ site.baseurl }}{% link glossary/m.md %}#machine-learning-framework
 [Machine Learning Pipeline]: {{ site.baseurl }}{% link glossary/m.md %}#machine-learning-pipeline
 [Machine Learning Type]: {{ site.baseurl }}{% link glossary/m.md %}#machine-learning-type
@@ -17,7 +18,13 @@
 [Manhattan Distance]: {{ site.baseurl }}{% link glossary/m.md %}#manhattan-distance
 [ManyChat Company]: {{ site.baseurl }}{% link glossary/m.md %}#manychat-company
 [MapReduce Process]: {{ site.baseurl }}{% link glossary/m.md %}#mapreduce-process
+[Mark Zuckerberg Person]: {{ site.baseurl }}{% link glossary/m.md %}#mark-zuckerberg-person
+[Mark Zuckerberg]: {{ site.baseurl }}{% link glossary/m.md %}#mark-zuckerberg-person
 [Markov Chain]: {{ site.baseurl }}{% link glossary/m.md %}#markov-chain
+[Markov Chain Monte Carlo Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#markov-chain-monte-carlo-algorithm
+[Markov Chain Monte Carlo]: {{ site.baseurl }}{% link glossary/m.md %}#markov-chain-monte-carlo-algorithm
+[MCMC Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#markov-chain-monte-carlo-algorithm
+[MCMC]: {{ site.baseurl }}{% link glossary/m.md %}#markov-chain-monte-carlo-algorithm
 [Markov Decision Process]: {{ site.baseurl }}{% link glossary/m.md %}#markov-decision-process
 [Markov Random Field]: {{ site.baseurl }}{% link glossary/m.md %}#markov-random-field
 [Masked Language Modeling]: {{ site.baseurl }}{% link glossary/m.md %}#masked-language-modeling
@@ -29,6 +36,8 @@
 [Massive Multitask Language Understanding]: {{ site.baseurl }}{% link glossary/m.md %}#massive-multitask-language-understanding-benchmark
 [MMLU Benchmark]: {{ site.baseurl }}{% link glossary/m.md %}#massive-multitask-language-understanding
 [MMLU]: {{ site.baseurl }}{% link glossary/m.md %}#massive-multitask-language-understanding
+[Matbench Discovery Benchmark]: {{ site.baseurl }}{% link glossary/m.md %}#matbench-discovery-benchmark
+[Matbench Discovery]: {{ site.baseurl }}{% link glossary/m.md %}#matbench-discovery-benchmark
 [Matplotlib Python Module]: {{ site.baseurl }}{% link glossary/m.md %}#matplotlib-python-module
 [Matplotlib]: {{ site.baseurl }}{% link glossary/m.md %}#matplotlib-python-module
 [Matrix]: {{ site.baseurl }}{% link glossary/m.md %}#matrix
@@ -58,6 +67,8 @@
 [Megatron Model]: {{ site.baseurl }}{% link glossary/m.md %}#megatron-model
 [Megatron]: {{ site.baseurl }}{% link glossary/m.md %}#megatron-model
 [Membership Inference Attack]: {{ site.baseurl }}{% link glossary/m.md %}#membership-inference-attack
+[MemGPT Model]: {{ site.baseurl }}{% link glossary/m.md %}#memgpt-model
+[MemGPT]: {{ site.baseurl }}{% link glossary/m.md %}#memgpt-model
 [Memory Hierarchy]: {{ site.baseurl }}{% link glossary/m.md %}#memory-hierarchy
 [Meta Company]: {{ site.baseurl }}{% link glossary/m.md %}#meta-company
 [Meta]: {{ site.baseurl }}{% link glossary/m.md %}#meta-company
@@ -137,6 +148,7 @@
 [Model Release Card]: {{ site.baseurl }}{% link glossary/m.md %}#model-release-card
 [Model Release Frontier]: {{ site.baseurl }}{% link glossary/m.md %}#model-release-frontier
 [Model Scanning]: {{ site.baseurl }}{% link glossary/m.md %}#model-scanning
+[Model Stability]: {{ site.baseurl }}{% link glossary/m.md %}#model-stability
 [Model Threat Analysis]: {{ site.baseurl }}{% link glossary/m.md %}#model-threat-analysis
 [Model Tuning]: {{ site.baseurl }}{% link glossary/m.md %}#model-tuning
 [Model Type]: {{ site.baseurl }}{% link glossary/m.md %}#model-type
@@ -155,8 +167,12 @@
 [ModelMesh]: {{ site.baseurl }}{% link glossary/m.md %}#modelmesh-framework
 [Modified National Institute Standards And Technology Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
 [MNIST Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
+[MNIST]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
 [Modular Reasoning Knowledge and Language]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language
 [MRKL]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language
+[Monte Carlo Control]: {{ site.baseurl }}{% link glossary/m.md %}#monte-carlo-control
+[Monte Carlo Method]: {{ site.baseurl }}{% link glossary/m.md %}#monte-carlo-method
+[Monte Carlo Methods]: {{ site.baseurl }}{% link glossary/m.md %}#monte-carlo-method
 [Monte Carlo Tree Search Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#monte-carlo-tree-search-algorithm
 [Monte Carlo Tree Search]: {{ site.baseurl }}{% link glossary/m.md %}#monte-carlo-tree-search-algorithm
 [MCTS Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#monte-carlo-tree-search-algorithm
@@ -197,5 +213,7 @@
 [Music ABC Notation]: {{ site.baseurl }}{% link glossary/m.md %}#music-abc-notation
 [Music Generator]: {{ site.baseurl }}{% link glossary/m.md %}#music-generator
 [MusicLM Model]: {{ site.baseurl }}{% link glossary/m.md %}#musiclm-model
+[Mustafa Suleymani Person]: {{ site.baseurl }}{% link glossary/m.md %}#mustafa-suleyman-person
+[Mustafa Suleymani]: {{ site.baseurl }}{% link glossary/m.md %}#mustafa-suleyman-person
 [MuZero Model]: {{ site.baseurl }}{% link glossary/m.md %}#muzero-model
 [MXNET]: {{ site.baseurl }}{% link glossary/m.md %}#mxnet

@@ -8,13 +8,21 @@ categories: jekyll update
 
 {% include links/all.md %}
 
+# Links
+ 
+  * [https://github.com/guipsamora/pandas_exercises/](https://github.com/guipsamora/pandas_exercises/)
+  * docs - [https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_sql.html](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_sql.html)
+
 # Panda
+
+ ```
+df['Lag_1'] = df['Hardcover']            # Create a new column based on an existing one
+df['Lag_1'] = df['Hardcover'].shift(1)   # Same, but shift column-rows down by one (Lag Feature)
+ ```
 
  * [https://lab.rtscloud.in/#/](https://lab.rtscloud.in/#/)
 
  ```
-
-
 import panda as pd
 
 

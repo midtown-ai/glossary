@@ -9,6 +9,8 @@
 [Eigenvectors]: {{site.baseurl }}{% link glossary/e.md %}#eigenvector
 [Elastic Net Regression]: {{site.baseurl }}{% link glossary/e.md %}#elastic-net-regression
 [Elastic Net Regression Penalty]: {{site.baseurl }}{% link glossary/e.md %}#elastic-net-regression-penalty
+[Elastic Weight Consolidation]: {{site.baseurl }}{% link glossary/e.md %}#elastic-weight-consolidation
+[EWC]: {{site.baseurl }}{% link glossary/e.md %}#elastic-weight-consolidation
 [Electric Dreams Movie]: {{site.baseurl }}{% link glossary/e.md %}#electric-dreams-movie
 [Electric Dreams]: {{site.baseurl }}{% link glossary/e.md %}#electric-dreams-movie
 [ElevenLabs AI Company]: {{site.baseurl }}{% link glossary/e.md %}#elevenlabs-ai-company
@@ -41,6 +43,8 @@
 [Endpoints]: {{site.baseurl }}{% link glossary/e.md %}#endpoint
 [Engineered Arts Company]: {{site.baseurl }}{% link glossary/e.md %}#engineered-arts-company
 [Engineered Arts]: {{site.baseurl }}{% link glossary/e.md %}#engineered-arts-company
+[Ensemble]: {{site.baseurl }}{% link glossary/e.md %}#ensemble
+[Ensembles]: {{site.baseurl }}{% link glossary/e.md %}#ensemble
 [Ensemble Method]: {{site.baseurl }}{% link glossary/e.md %}#ensemble-method
 [Ensemble Methods]: {{site.baseurl }}{% link glossary/e.md %}#ensemble-method
 [Entity]: {{site.baseurl }}{% link glossary/e.md %}#entity
@@ -83,6 +87,7 @@
 [ESM]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-modeling
 [Ex Machina Movie]: {{site.baseurl }}{% link glossary/e.md %}#ex-machina-movie
 [Ex Machina]: {{site.baseurl }}{% link glossary/e.md %}#ex-machina-movie
+[Example]: {{site.baseurl }}{% link glossary/e.md %}#example
 [Example-Based Machine Translation]: {{site.baseurl }}{% link glossary/e.md %}#example-based-machine-translation
 [EBMT]: {{site.baseurl }}{% link glossary/e.md %}#ebmt
 [Executive Order on AI]: {{site.baseurl }}{% link glossary/e.md %}#executive-order-on-ai

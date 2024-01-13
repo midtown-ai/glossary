@@ -334,20 +334,31 @@ def huber_loss(y_pred, y, delta=1.0):
 
  Hugging Face is a company that offers a range of products and services related to natural language processing (NLP). Some of their main offerings include:
 
-Transformers: Hugging Face has developed a popular open-source library called Transformers, which provides a wide range of pre-trained models for various NLP tasks, such as language translation, sentiment analysis, and question answering. This library is widely used in industry and academia and has helped make NLP more accessible to developers.
+  * Transformers: Hugging Face has developed a popular open-source library called Transformers, which provides a wide range of pre-trained models for various NLP tasks, such as language translation, sentiment analysis, and question answering. This library is widely used in industry and academia and has helped make NLP more accessible to developers.
+  * Hugging Face Hub: This is a cloud-based platform for sharing and collaborating on NLP models and datasets. It allows developers to easily upload, download, and fine-tune models, as well as access a range of pre-trained models contributed by the community.
+  * Hugging Face Spaces: This is a new product from Hugging Face that allows users to create and share virtual meeting spaces for remote collaboration. Spaces is designed to be a more immersive and interactive alternative to traditional video conferencing tools.
+  * Hugging Face API (50K models): This is a REST API that allows developers to quickly integrate NLP models into their applications. The API supports a range of tasks, including sentiment analysis, text classification, and entity recognition.
+  * Endpoints (Pay per hour with SLA?)
 
-Hugging Face Hub: This is a cloud-based platform for sharing and collaborating on NLP models and datasets. It allows developers to easily upload, download, and fine-tune models, as well as access a range of pre-trained models contributed by the community.
-
-Hugging Face Spaces: This is a new product from Hugging Face that allows users to create and share virtual meeting spaces for remote collaboration. Spaces is designed to be a more immersive and interactive alternative to traditional video conferencing tools.
-
-Hugging Face API: This is a REST API that allows developers to quickly integrate NLP models into their applications. The API supports a range of tasks, including sentiment analysis, text classification, and entity recognition.
-
-Overall, Hugging Face's products and services are designed to make NLP more accessible and easier to use for developers and researchers.
+ Overall, Hugging Face's products and services are designed to make NLP more accessible and easier to use for developers and researchers.
 
  {% youtube "https://www.youtube.com/watch?v=O7KbwmaK9Ck" $}
 
  More at:
-  * [https://huggingface.co/](https://huggingface.co/)
+  * site - [https://huggingface.co/](https://huggingface.co/)
+  * docs - [https://huggingface.co/docs](https://huggingface.co/docs)
+  * services
+    * inference API - [https://huggingface.co/inference-api](https://huggingface.co/inference-api)
+    * endpoints - [https://ui.endpoints.huggingface.co/](https://ui.endpoints.huggingface.co/)
+    * spaces - [https://huggingface.co/spaces](https://huggingface.co/spaces)
+  * repositories/registries
+    * datasets - [https://huggingface.co/datasets](https://huggingface.co/datasets)
+    * model hub - [https://huggingface.co/models](https://huggingface.co/models)
+
+ See also [H], ...
+
+
+# Hugging Face Hub
 
  See also [H], ...
 

@@ -19,6 +19,7 @@ categories: jekyll update
 
  * Sample reward functions
    * [https://www.mytechmint.com/advanced-guide-to-aws-deepracer-with-all-tips-and-hacks-to-win-the-race/](https://www.mytechmint.com/advanced-guide-to-aws-deepracer-with-all-tips-and-hacks-to-win-the-race/)
+   * [https://github.com/dgnzlz/Capstone_AWS_DeepRacer/blob/master/Reward_Function/reward_function.py](https://github.com/dgnzlz/Capstone_AWS_DeepRacer/blob/master/Reward_Function/reward_function.py)
 
 ## Function inputs
 

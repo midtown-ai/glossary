@@ -43,7 +43,7 @@ layout: page
 
 # Validation Set
 
- ~ Used to find the proper complexity of the model that is the balance between the bias and variance a.k.a. [bias-variance trade-off]
+ ~ Used to find the proper complexity of the model that is the balance between the bias and variance a.k.a. [bias-variance tradeoff]
 
  Double training data split!
   * In python you train_test_plit twice !
@@ -53,7 +53,7 @@ layout: page
   * Used for validation during training
   * Help avoid [overfitting] (and [underfitting] ?)
   * ... 
-  * Used to find the proper balance for the [bias-variance trade-off]
+  * Used to find the proper balance for the [bias-variance tradeoff]
 
  Ratios ?
   * 80 - 10 - 10
@@ -195,9 +195,9 @@ layout: page
 
  ~ a great way to represent unstructured data!
 
- A 1 column matrix (akak a list!) that represent all the inputs to a neural network or a summary of all the values of the features. Not a tensor (matrix).
+ A 1 column matrix (akak a list!) that represent all the inputs to a neural network or a summary of all the values of the features. Not a [tensor] (matrix).
 
- See also [V], [Dot Product], [Feature], [Tensor], [Sparse Vector], [Vector Database]
+ See also [V], [Dot Product], [Feature], [Sparse Vector], [Vector Database]
 
 
 # Vector Database
@@ -382,6 +382,13 @@ More at:
  See also [V], ...
 
 
+# Virtual Assistant
+
+ All the Alexas, Siris, Google Assistants, and customer support chatbots of the world fall into this category. They use NLP to understand, analyze, and prioritize user questions and requests, and respond to them quickly and correctly.
+
+ See also [V], [Natural Language Processing]
+
+
 # Virtual Continuum
 
  Mixed reality blends both physical and digital worlds. These two realities mark the polar ends of a spectrum known as the virtuality continuum. We refer to this spectrum of realities as the mixed reality spectrum. On one end of the spectrum, we have the physical reality that we as humans exist. On the other end of the spectrum, we have the corresponding digital reality.
@@ -442,15 +449,9 @@ for layer in model.layers:
   * articles
     * [https://medium.com/mlearning-ai/image-detection-using-convolutional-neural-networks-89c9e21fffa3](https://medium.com/mlearning-ai/image-detection-using-convolutional-neural-networks-89c9e21fffa3)
     * [https://www.image-net.org/challenges/LSVRC/](https://www.image-net.org/challenges/LSVRC/)
+    * [https://becominghuman.ai/what-exactly-does-cnn-see-4d436d8e6e52](https://becominghuman.ai/what-exactly-does-cnn-see-4d436d8e6e52)
 
  See also [V], [Convolutional Neural Network]
-
-
-# Virtual Assistant
-
- All the Alexas, Siris, Google Assistants, and customer support chatbots of the world fall into this category. They use NLP to understand, analyze, and prioritize user questions and requests, and respond to them quickly and correctly.
-
- See also [V], [Natural Language Processing]
 
 
 # Vision-Language Pre-Training
@@ -487,6 +488,23 @@ for layer in model.layers:
 
  See also [V], [Flamingo Model]
 
+
+# Visual Simultaneous Localization And Mapping Algorithm
+# Visual SLAM Algorithm
+# VSLAM Algorithm
+
+ Doing [SLAM] but instead of using a [LIDAR] only using video cameras?
+
+ {% youtube "https://www.youtube.com/watch?v=5O8VmDiab3w" %}
+
+ See also [V], ...
+
+
+# Voice Cloning
+
+ Models
+  * [OpenVoice]
+  * [ElevenLabs]
 
 # Voice Encoder
 # Vocoder

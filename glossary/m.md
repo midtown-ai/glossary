@@ -296,6 +296,15 @@ Predict what are the required agent skills based some input parameters
  See also [M], [Big Data]
 
 
+# Mark Zuckerberg Person
+
+ CEO of Facebook, later renamed [Meta]
+
+ {% youtube "https://www.youtube.com/watch?v=3xIVCRoNCXg" %}
+
+ See also [M], ...
+
+
 # Markov Chain
 
  * stochastic model
@@ -306,6 +315,12 @@ Predict what are the required agent skills based some input parameters
 
  More at:
   * [https://setosa.io/ev/markov-chains/](https://setosa.io/ev/markov-chains/)
+
+ See also [M], ...
+
+
+# Markov Chain Monte Carlo Algorithm
+# MCMC Algorithm
 
  See also [M], ...
 
@@ -403,11 +418,36 @@ In the complex z-plane, the set of points satisfying the equation z² = |z|² is
  See also [M], ...
 
 
+# Matbench Discovery Benchmark
+
+ More at:
+  * site - [https://matbench-discovery.materialsproject.org/](https://matbench-discovery.materialsproject.org/)
+  * leaderboard - [https://matbench-discovery.materialsproject.org/models](https://matbench-discovery.materialsproject.org/models)
+
+ See also [M], [Benchmark], [GNoME Model]
+
+
 # Matplotlib Python Module
 
  A [python module] used for visualization
 
- ```
+ Simple X,Y plot
+ {% highlight python %}
+import matplotlib.pyplot as plt
+import pandas
+
+df = pandas.read_csv('../data/atlantis.csv')
+x = df['year']
+y = df['population']
+
+plt.plot(x,y)
+plt.title("Population of AAtlantis")
+plt.xlabel('Year')
+plt.ylabel('Population')
+plt.show()
+ {% endhighlight %}
+
+ {% highlight python %}
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -430,7 +470,7 @@ ax.set(xlim=(0, 8), xticks=np.arange(1, 8),
        ylim=(0, 8), yticks=np.arange(1, 8))
 
 plt.show()
- ```
+ {% endhighlight %}
 
  More at:
   * [https://matplotlib.org/](https://matplotlib.org/)
@@ -730,6 +770,34 @@ def mse_loss(y_pred, y_true):
  See also [M], [Differential Privacy], [Overfitting]
 
 
+# MemGPT Model
+
+ ~ An agent that knows how to use Memory Management Tools ==> [LLM OS]
+
+ Personalized AI with
+  * self-editing memory
+  * infinite context window
+  * access to unlimited data
+  * customizable tools
+  * long-term memory
+
+ ![]( {{site.assets}}/m/memgpt_model_architecture.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=nQmZmFERmrg" %}
+
+ {% pdf "https://arxiv.org/pdf/2310.08560.pdf" %}
+
+ More at:
+  * site - [https://memgpt.ai/](https://memgpt.ai/)
+  * site - [https://research.memgpt.ai/](https://research.memgpt.ai/)
+  * code - [https://github.com/cpacker/MemGPT](https://github.com/cpacker/MemGPT)
+  * paper - [https://arxiv.org/abs/2310.08560](https://arxiv.org/abs/2310.08560)
+  * articles
+    * [https://medium.com/@ronaldmannak/goodbye-windows-hello-llms-the-future-of-operating-systems-7ba61ea03e8d](https://medium.com/@ronaldmannak/goodbye-windows-hello-llms-the-future-of-operating-systems-7ba61ea03e8d) 
+
+ See also [M], [Retrieval-Augmented Generation]
+
+
 # Memory Hierarchy
 
  * [CPU Memory]
@@ -747,8 +815,15 @@ def mse_loss(y_pred, y_true):
 
  A [company] previously known as Facebook
 
+ People
+  * [Mark Zuckerberg]
+
+ Groups:
+  * [https://ai.meta.com/](https://ai.meta.com/)
+
  Models:
   * [CICERO] - Strategy game with multiplayer interaction
+  * [CM3lean] - text-to-image diffusion model
   * [ESMFold] - Protein folding
   * [Imagine](https://imagine.meta.com/) - a diffusion model
   * [LLaMA] - Large Language Model open-sourced
@@ -901,12 +976,16 @@ def mse_loss(y_pred, y_true):
 
  Take your training samples. Randomized the samples. Take the first 100 of them (the mini-batch).
 
+ :warning: sampling with replacement or without replacement?
+
  See also [M], [Mini-Batch Gradient Descent]
 
 
 # Mini-Batch Gradient Descent Algorithm
 
- ~ [stochastic gradient descent][SGD Algorithm] with more than 1 sample that use matrix optimization in computation. A compromise between computing the true gradient (all samples) and the gradient at a single example (aka stochastic gradient descent), is to compute the gradient against more than one training example (called a "mini-batch") at each step. This can perform significantly better than true stochastic gradient descent because the code can make use of vectorization libraries rather than computing each step separately. It may also result in smoother convergence, as the gradient computed at each step uses more training examples.
+ ~ Use a batch of (randomly picked) samples for a forward pass and then adjust weights
+
+ ~ [stochastic gradient descent (SGD)][SGD] with more than 1 sample that use matrix optimization in computation. A compromise between computing the true gradient (all samples) and the gradient at a single example (aka stochastic gradient descent), is to compute the gradient against more than one training example (called a "mini-batch") at each step. This can perform significantly better than true stochastic gradient descent because the code can make use of vectorization libraries rather than computing each step separately. It may also result in smoother convergence, as the gradient computed at each step uses more training examples.
 
  ![]( {{site.assets}}/m/mini_batch_gradient_descent.png ){: width="100%"}
 
@@ -918,6 +997,8 @@ def mse_loss(y_pred, y_true):
   * Repeat steps 1–4 for the mini-batches we created
 
  Just like SGD, the average cost over the [epochs] in mini-batch gradient descent fluctuates because we are averaging a small number of examples at a time. But the mini-batch gradient descent is a good (the best) approximation. Also note that the path is less optimized than the "complete" gradient descent where you take all sample into consideration for one step, but it is a good approximation and the destination/convergence is the same = the local minima is not changed by the path taken to reach it.
+
+ ![]( {{site.assets}}/m/mini_batch_gradient_descent_comparison.png ){: width="100%"}
 
  See also [M], [Batch Gradient Descent Algorithm], [Gradient Descent Algorithm], [Mini-Batch]
 
@@ -992,13 +1073,17 @@ def mse_loss(y_pred, y_true):
 
 # Mixtral Model
 
- * <!> The 8x7B model is architected using a [mixture of experts] and therefore its size is 8 times bigger! 
+ * <!> The 8x7B model is architected using a [sparse mixture-of-experts architecture] and therefore its size is 8 times bigger! 
 
  {% youtube "https://www.youtube.com/watch?v=UiX8K-xBUpE" %}
 
+ {% pdf "https://arxiv.org/abs/2401.04088.pdf" %}
+
  More at:
+  * paper - [https://arxiv.org/abs/2401.04088](https://arxiv.org/abs/2401.04088)
   * site - [https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1)
   * announcement - [https://mistral.ai/news/mixtral-of-experts/](https://mistral.ai/news/mixtral-of-experts/)
+  * demo - [https://deepinfra.com/chat](https://deepinfra.com/chat)
 
  See also [M], [Sparcity]
 
@@ -1006,23 +1091,23 @@ def mse_loss(y_pred, y_true):
 # Mixture-Of-Experts Architecture
 # MoE Architecture
 
- ~ like an [ensemble method] except that typically only one or a few expert models will be run rather than combining the results.
+ ~ like an [ensemble method] where all the expert models are run and combine their results. The output is selected by another artificial neural network.
 
  In 1991, MoE was first introduced by a research group that included deep-learning and Switch Transformer creator Geoff Hinton. In 2017, the Google Brain team and Hinton used MoE to create an NLP model based on recurrent neural networks (RNN) of 137 billion parameters, where it achieved state-of-the-art (SOTA) results on language modelling and machine translation benchmarks.
 
- What does an expert learn? The ST-MoE authors observed that encoder experts specialize in a group of tokens or shallow concepts. For example, we might end with a punctuation expert, a proper noun expert, etc. On the other hand, the decoder experts have less specialization. The authors also trained in a multilingual setup. Although one could imagine each expert specializing in a language, the opposite happens: due to token routing and load balancing, there is no single expert specialized in any given language.
+ A system of experts and gating network: Each expert is a feedforward network and all the expert receive the same input and have the same number of outputs. The gating network is also a feedforward, and typically receives the same input as the expert networks.
 
  ![]( {{site.assets}}/m/mixture_of_experts.png ){: width="100%"}
 
- {% youtube "https://www.youtube.com/watch?v=RYZ0FMAKRFs" %}
+ {% pdf "https://www.cs.toronto.edu/~fritz/absps/jjnh91.pdf" %}
 
  More at :
   * paper - [http://www.cs.toronto.edu/~fritz/absps/jjnh91.pdf](http://www.cs.toronto.edu/~fritz/absps/jjnh91.pdf)
   * wikipedia - [https://en.wikipedia.org/wiki/Mixture_of_experts](https://en.wikipedia.org/wiki/Mixture_of_experts)
-  * iarticles
+  * articles
     * in-depth - [https://github.com/huggingface/blog/blob/main/moe.md](https://github.com/huggingface/blog/blob/main/moe.md)
 
- See also [M], [Sparsity], [Switch Transformer]
+ See also [M], [Sparse Mixture-Of-experts Architecture]
 
 
 # ML Algorithm Evaluation
@@ -1079,6 +1164,20 @@ def mse_loss(y_pred, y_true):
  {% youtube "https://www.youtube.com/watch?v=VAM-FSz0oPg" %}
 
  See also [M], [DevOps]
+
+
+# Mobile Aloha Model
+
+ [Imitation learning] from human demonstrations has shown impressive performance in robotics. However, most results focus on table-top manipulation, lacking the mobility and dexterity necessary for generally useful tasks. In this work, we develop a system for imitating mobile manipulation tasks that are bimanual and require whole-body control. We first present Mobile ALOHA, a low-cost and whole-body teleoperation system for data collection. It augments the ALOHA system with a mobile base, and a whole-body teleoperation interface. Using data collected with Mobile ALOHA, we then perform supervised behavior cloning and find that co-training with existing static ALOHA datasets boosts performance on mobile manipulation tasks. With 50 demonstrations for each task, co-training can increase success rates by up to 90%, allowing Mobile ALOHA to autonomously complete complex mobile manipulation tasks such as sauteing and serving a piece of shrimp, opening a two-door wall cabinet to store heavy cooking pots, calling and entering an elevator, and lightly rinsing a used pan using a kitchen faucet.
+
+ Use 2 arms from [Trossen Robotics]
+
+ {% youtube "https://www.youtube.com/watch?v=T0g66FbVaow" %}
+
+ More at:
+  * site - [https://mobile-aloha.github.io/](https://mobile-aloha.github.io/)
+
+ See also [M], ...
 
 
 # Model
@@ -1143,9 +1242,15 @@ def mse_loss(y_pred, y_true):
 
 # Model Complexity
 
+ ~ how many layers should I use in my [artificial neural network] ? Should I use a single variable or a multi-variable regression? Should I use a linear or a quadratic regression? Etc.
+
+ The complexity of the model is optimum when the model generalizes well. If the model is too simple, it will not even fit the training set correctly. If the model is too complex, the training set will fit, but the performance on other input data will not be at par. This is the [bias-variance tradeoff] !
+
+ Again the model complexity is optimum when the [bias] and [variance] are small.
+
  ![]( {{site.assets}}/m/model_complexity.jpeg ){: width="100%"}
 
- See also [M], [Bias], [Variance]
+ See also [M], ...
 
 
 # Model Compression
@@ -1161,8 +1266,11 @@ def mse_loss(y_pred, y_true):
   * [Quantization]
   * [Knowledge Distillation]
 
+ {% pdf "https://arxiv.org/pdf/2307.02973.pdf" %}
+
  More at:
   * [https://bdtechtalks.com/2023/09/18/what-is-llm-compression/](https://bdtechtalks.com/2023/09/18/what-is-llm-compression/)
+  * paper - [https://arxiv.org/abs/2307.02973](https://arxiv.org/abs/2307.02973)
 
  See also [M], ...
 
@@ -1284,6 +1392,11 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
 
  Where you can download models from.
 
+  * [AWS SageMaker JumpStart]
+  * [Hugging Face Hub]
+  * [PyTorch Hub]
+  * [TensorFlow Hub]
+
  See also [M], ...
 
 
@@ -1401,6 +1514,36 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
  See also [M], ...
 
 
+# Model Robustness
+
+ See [Model Stability]
+
+
+# Model Stability
+
+ ~ model is robust to external changes
+
+ How to make sure that your Machine Learning model is still performing as trained overtime.
+
+ The Machine Learning models we build are based on a simple premise: the data which we will use during inference times should have the same distribution as the data used on training.
+
+ This premise is simple but rather strong because it means we can infer new observations based on previously known ones.
+
+ Sometimes, however, some real-life effects can cause the observations to shift. One example is the Covid-19 pandemic. A financial model trained before the spread of the virus might not work well for the population after the pandemic. Families might have had reduced income, and even those that didn’t probably gave a second thought before spending their money.
+
+ These effects can be silent, and to avoid them we need to evaluate the stability of the models, or in other words, if the model is still effective after the changes in the real-life scenario.
+
+ There are 2 metrics that can do that:
+  * [Population Stability Index (PSI)][PSI]
+  * [Characteristic Stability Index (CSI)][CSI]
+
+ More at:
+  * articles
+    * PSI and CSI - [https://towardsdatascience.com/checking-model-stability-and-population-shift-with-psi-and-csi-6d12af008783](https://towardsdatascience.com/checking-model-stability-and-population-shift-with-psi-and-csi-6d12af008783)
+
+ See also [M], ...
+
+
 # Model Scanning
 
  A step required in [model threat analysis] when importing open-source models like [LlaMa] , [Falcon] , or others less popular models.
@@ -1474,6 +1617,8 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
 # Model-Based Reinforcement Learning
 # Model-Based RL
 
+ ~ If, after learning, the agent can make predictions about what the next state and reward will be before it takes each action, it's a model-based RL algorithm.
+
  Model-based RL approaches explicitly learn a model of [state transitions]. [Model-free RL] methods like [Q-learning] learn without modeling transitions.
 
  In [Reinforcement Learning], you learns model of [environment] transitions & [rewards], then optimizes [policy] through planning. e.g. [Dyna], [AlphaGo].
@@ -1487,7 +1632,7 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
  {% youtube "https://www.youtube.com/watch?v=vfpZu0R1s1Y" %}
 
  More at:
-  * ...
+  * [https://ai.stackexchange.com/questions/4456/whats-the-difference-between-model-free-and-model-based-reinforcement-learning](https://ai.stackexchange.com/questions/4456/whats-the-difference-between-model-free-and-model-based-reinforcement-learning)
 
  See also [M], ...
 
@@ -1495,14 +1640,19 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
 # Model-Based Reinforcement Learning Algorithm
 # Model-Based RL Algorithm
 
+ ~ If, after learning, the agent can make predictions about what the next state and reward will be before it takes each action, it's a model-based RL algorithm.
+
  More at:
-  * ...
+  * [https://ai.stackexchange.com/questions/4456/whats-the-difference-between-model-free-and-model-based-reinforcement-learning](https://ai.stackexchange.com/questions/4456/whats-the-difference-between-model-free-and-model-based-reinforcement-learning)
+
 
  See also [M], ...
 
 
 # Model-Free Reinforcement Learning
 # Model-Free RL
+
+ ~ If, after learning, the agent can make predictions about what the next state and reward will be before it takes each action, it's a model-based RL algorithm.
 
  [Model-based RL] approaches explicitly learn a model of [state transitions]. Model-free RL methods like [Q-learning] learn without modeling transitions.
  The agents here are explicitly trial-and-error learners. (?)
@@ -1513,7 +1663,7 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
 
  * Policy: The policy determines the agent's behavior by mapping states or state-action pairs to actions. The policy can be deterministic (selecting a single action) or stochastic (selecting actions based on probabilities). Model-free learning algorithms aim to find an optimal policy that maximizes the expected cumulative reward over time.
 
- * Value Function: The value function estimates the expected long-term return or cumulative reward associated with being in a particular state or taking a specific action in a given state. It represents the desirability or utility of states or actions. Value functions can be estimated through various techniques such as Monte Carlo methods, temporal difference learning, or function approximation.
+ * Value Function: The value function estimates the expected long-term return or cumulative reward associated with being in a particular state or taking a specific action in a given state. It represents the desirability or utility of states or actions. Value functions can be estimated through various techniques such as [Monte Carlo methods], temporal difference learning, or function approximation.
 
  * Model-free learning algorithms learn by iteratively updating the value function or policy based on the observed [rewards] and [states] during interactions with the environment. These updates are typically driven by optimization principles, such as maximizing cumulative rewards or minimizing the difference between estimated and observed values.
 
@@ -1523,7 +1673,7 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
   * If, after learning, the agent can make predictions about what the next state and reward will be before it takes each action, it's a model-based RL algorithm.
   * If it can't, then it’s a model-free algorithm.
 
- Algorithms that purely sample from experience such as Monte Carlo Control, [SARSA], [Q-learning], Actor-Critic are "model free" RL algorithms. They rely on real samples from the [environment] and never use generated predictions of next [state] and next [reward] to alter behaviour (although they might sample from experience memory, which is close to being a model).
+ Algorithms that purely sample from experience such as [Monte Carlo Control], [SARSA], [Q-learning], [Actor-Critic] are "model free" RL algorithms. They rely on real samples from the [environment] and never use generated predictions of next [state] and next [reward] to alter behaviour (although they might sample from experience memory, which is close to being a model).
 
  More at:
    * ...
@@ -1534,12 +1684,17 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
 # Model-Free Reinforcement Learning Algorithm
 # Model-Free RL Algorithm
 
+ ~ If, after learning, the agent can make predictions about what the next state and reward will be before it takes each action, it's a model-based RL algorithm.
+
  Examples of model-free learning algorithms include:
   * [Q-learning], 
   * [State-Action-Reward-State-Action (SARSA)][SARSA],
   * and [REINFORCE].
 
  ![]( {{site.assets}}/m/model_free_learning_algorithm.png ){: width="100%"}
+
+ More at:
+  * [https://ai.stackexchange.com/questions/4456/whats-the-difference-between-model-free-and-model-based-reinforcement-learning](https://ai.stackexchange.com/questions/4456/whats-the-difference-between-model-free-and-model-based-reinforcement-learning)
 
  See also [M], ...
 
@@ -1603,6 +1758,60 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
   * paper - [https://arxiv.org/abs/2205.00445](https://arxiv.org/abs/2205.00445)
 
  See also [M], [ReACT Prompting]
+
+
+# Monte Carlo Control
+
+ Monte Carlo control methods are a set of techniques used in the field of [reinforcement learning], a branch of [machine learning]. These methods are used to find optimal policies for decision-making problems, particularly in [environments] where the model (i.e., the complete knowledge of the environment's dynamics) is not known. They rely on the Monte Carlo approach, which involves learning from complete [episodes] of experience without requiring a model of the environment's dynamics.
+
+ Key Concepts:
+  1. Episodic Tasks: Monte Carlo methods are applied to episodic tasks, where the interaction is broken down into episodes, and each episode eventually ends in a terminal state.
+  1. Experience Sampling: The agent learns from episodes of experience. Each episode consists of states, actions, and rewards, and the agent's task is to learn a policy that maximizes the total reward.
+  1. Exploration vs. Exploitation: Monte Carlo control methods must balance exploration (trying new actions to discover their effects) with exploitation (choosing known actions that yield high rewards).
+
+ How Monte Carlo Control Works:
+  * Policy Evaluation: The value of each state is estimated based on the average returns (total rewards) received after visiting that state. This is done by sampling episodes and calculating the return for each state-action pair.
+  * Policy Improvement: The policy is then improved by choosing actions that lead to higher-value states. This is typically done using a greedy approach, where the action with the highest estimated value is chosen.
+
+ Types of Monte Carlo Control Methods:
+  * On-Policy Methods: These methods, like Monte Carlo with Exploring Starts or Monte Carlo On-Policy Control (e.g., ε-greedy policies), improve the policy that is used to make decisions.
+  * Off-Policy Methods: These methods, such as Importance Sampling, learn the value of the optimal policy independently of the agent's actions (i.e., they can learn from data generated by a different policy).
+
+ Advantages and Challenges:
+  * Model-Free: Monte Carlo methods do not require a model of the environment and learn directly from experience.
+  * Simplicity: These methods are conceptually simple and easy to implement.
+  * High Variance: Returns can have high variance, which might slow down learning or require many episodes to converge.
+  * Episode Dependency: They are only applicable to episodic tasks and require complete episodes to update the policy.
+
+ Monte Carlo control methods are particularly useful in situations where the environment is complex or unknown, and the agent must learn entirely from its interaction with the environment. They form a fundamental part of the reinforcement learning toolkit and are used in various applications, from game playing to robotics.
+
+ See also [M], ...
+
+
+# Monte Carlo Method
+
+ Monte Carlo methods are a broad class of computational algorithms that rely on repeated random sampling to obtain numerical results. The underlying concept is to use randomness to solve problems that might be deterministic in principle. They are particularly useful in three main areas:
+  * Mathematical Integration: Monte Carlo methods are used to approximate the value of integrals, especially when dealing with high-dimensional spaces where traditional integration techniques become infeasible.
+  * Optimization: These methods are useful in finding optimal solutions in various fields, such as finance and logistics, where the solution space is large and complex.
+  * Simulation: Monte Carlo simulations are widely used in various fields like physics, engineering, finance, and biology to model complex systems and processes. For example, in finance, they are used to model the behavior of markets or to assess risks.
+
+ The name "Monte Carlo" was coined during the 1940s by scientists working on nuclear weapon projects in the Los Alamos National Laboratory. It refers to the Monte Carlo Casino in Monaco since chance and randomness are central to the casino games, much like the methods themselves.
+
+ Monte Carlo methods are powerful because they allow for the modeling of complex phenomena and systems that are analytically intractable or difficult to model with deterministic methods. However, they typically require a large number of samples to produce accurate results and are computationally intensive.
+
+ Monte Carlo methods encompass a variety of techniques, each tailored to specific types of problems or simulations. Here are some notable examples:
+  * Simple Monte Carlo Integration: This is used for estimating the value of integrals. It involves randomly sampling points in the domain and averaging the function values at these points.
+  * [Markov Chain Monte Carlo (MCMC)][MCMC]: These methods, including the Metropolis-Hastings algorithm and the Gibbs sampling, are used for generating samples from a probability distribution. They are particularly useful in Bayesian statistics and machine learning for tasks like parameter estimation and model selection.
+  * Monte Carlo Localization: Used in robotics, this method helps in estimating the position of a robot by generating a set of sample points (hypotheses) about its position and updating these points as the robot moves.
+  * Bootstrap Methods: These are used for statistical inference. They involve repeatedly resampling a dataset with replacement and calculating a statistic (like the mean) for each sample. This helps in understanding the variability and confidence of the estimate.
+  * [Monte Carlo Tree Search (MCTS)][MCTS]: This method is used in decision processes, notably in AI for board games like Go and chess. It involves building a search tree and using random simulations to estimate the long-term potential of each move.
+  * Monte Carlo Ray Tracing: In computer graphics, this method is used for generating photorealistic images by simulating the path of light as pixels in an image plane, producing a very high degree of visual realism.
+  * Monte Carlo Methods in Finance: Used for option pricing and risk assessment. These methods simulate various economic scenarios to estimate the price of financial instruments or the risk in investment portfolios.
+  * Particle Filters: Used in signal processing and Bayesian inference, these methods involve representing the required probability distribution by a set of random samples (particles) and updating these samples over time.
+
+ Each of these methods applies the core principle of Monte Carlo — using randomness and statistical sampling to solve problems that might be deterministic but are too complex for analytical solutions.
+
+ See also [M], ...
 
 
 # Monte Carlo Policy Gradient Algorithm
@@ -1687,6 +1896,13 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
  See also [M], ...
 
 
+# Multi-Class Classification
+
+ ML for classification with more than 2 categories. :warning: Categories are mutually exclusive.
+
+ See also [M], [Binary Classification], [Classification Task], [Multi-Label Classification]
+
+
 # Multi-Head Attention
 
  ~ the brains of the Transformer and responsible for performance through parallelism. Multi-Head Attention consists of several attention layers running in parallel. The Attention layer takes its input in the form of three parameters, known as the Query, Key, and Value (aka Q,K,V). All three parameters are similar in structure, with each word in the sequence represented by a vector. In transformers is used for encoder and decoder.
@@ -1701,6 +1917,22 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
   * code - [https://nlp.seas.harvard.edu/annotated-transformer/](https://nlp.seas.harvard.edu/annotated-transformer/)
 
  See also [M], [Attention Score], [Attention-Based Model], [Decoder], [Encoder], [Masked Self-Attention], [Self-Attention], [Transformer Model]
+
+
+# Multi-Label Classification
+
+ ~ an input is mapped to one or more labels. Labels are not mutually exclusive (otherwise [multi-class classification]) !!
+
+ While training the [Binary cross-entropy loss function] is used
+
+ ![]( {{site.assets}}/m/multi_label_classification.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=wLtV3y-sQ8U" %}
+
+ More at:
+  * ...
+
+ See also [M], [Classification Task]
 
 
 # Multi-Task Learning
@@ -1746,13 +1978,6 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
   * do not trigger road rage of other driver
 
  See also [M], [Reinforcement Learning]
-
-
-# Multiclass Classification
-
- ML for classification in more than 2 categories.
-
- See also [M], [Binary Classification], [Classification]
 
 
 # Multilayer Perceptron
@@ -1966,6 +2191,19 @@ The T5 text-to-text process includes more in-depth machine translation, document
   * techcrunch article - [https://techcrunch.com/2023/01/27/google-created-an-ai-that-can-generate-music-from-text-descriptions-but-wont-release-it/](https://techcrunch.com/2023/01/27/google-created-an-ai-that-can-generate-music-from-text-descriptions-but-wont-release-it/)
 
  See also [M], [Jukebox Model], [Riffusion Model]
+
+
+# Mustafa Suleyman Person
+
+ One of the 3 founders of [DeepMind] and founder of [Inflection AI]
+
+ {% youtube "https://www.youtube.com/watch?v=eJf6QPN9yic" %}
+
+ {% youtube "https://www.youtube.com/watch?v=2r6UL3cuCGs" %}
+
+ {% youtube "https://www.youtube.com/watch?v=z3hmfSVmyqg" %}
+
+ See also [M], ...
 
 
 # MuZero Model

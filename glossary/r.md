@@ -49,6 +49,16 @@ R-square = R^2 = -------------------------------------
  See also [R], [Regression]
 
 
+# Rabbit Company
+
+ {% youtube "https://www.youtube.com/watch?v=22wlLy7hKP4" %}
+
+ More at:
+  * site - [https://www.rabbit.tech/](https://www.rabbit.tech/)
+
+ See also [R], ...
+
+
 # Radial Basis Function
 # RBF
 
@@ -166,6 +176,9 @@ R-square = R^2 = -------------------------------------
 
  {% pdf "https://arxiv.org/pdf/2210.03629.pdf" %}
 
+ Alternative:
+  * [Semantic Router]
+
  More at:
   * site - [https://react-lm.github.io/](https://react-lm.github.io/)
   * [https://www.promptingguide.ai/techniques/react](https://www.promptingguide.ai/techniques/react)
@@ -198,7 +211,11 @@ R-square = R^2 = -------------------------------------
 
 # Recall
 
- Metric used for [model evaluation] when the cost of false negatives is high. For example, in disease prediction, it is critical not to miss any positive cases.
+ ~ same as [sensitivity] or [TPR]
+
+ ~ High recall = test is effective at detecting positive cases without missing many / describe the ability of a model to find all the relevant cases within a dataset
+
+ Metric used for [model evaluation] when the cost of [false negatives] is high. For example, in disease prediction, it is critical not to miss any positive cases.
 
  Recall is the fraction of malignant tumors (of one class) that the system identified (correctly). Recall measures the fraction of truly malignant tumors that were detected. Recall is important in medical cases where it doesn’t matter whether we raise a false alarm but the actual positive cases should not go undetected!
  
@@ -220,7 +237,7 @@ Recall = % of positively identified
          % of cat identified as cat
  ```
 
- Recall would be a better metric because we don’t want to accidentally discharge an infected person and let them mix with the healthy population thereby spreading contagious virus. Now you can understand why accuracy is NOT always thebest metric for a model.
+ Recall would be a better metric because we don’t want to accidentally discharge an infected person and let them mix with the healthy population thereby spreading contagious virus. Now you can understand why accuracy is NOT always the best metric for a model.
 
  More at:
   * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
@@ -265,12 +282,25 @@ Recall = % of positively identified
 # Receiver Operating Characteristic Curve
 # ROC Curve
 
- `~ summarize all the confusion matrices of a logistic model, if the classification 'Probability-treshold' is changed. A confusion matrix is 1 point on the ROC curve!` Receiver Operating Characteristic (ROC) is a graphical representation of the performance of a binary classifier system as the discrimination threshold is varied. It plots the true positive rate (TPR) on the y-axis and the false positive rate (FPR) on the x-axis. The true positive rate (also known as sensitivity or recall) is the proportion of positive cases that are correctly identified by the classifier. The false positive rate (also known as the fall-out) is the proportion of negative cases that are incorrectly identified as positive. An ROC curve plots the TPR against the FPR at different threshold settings. A perfect classifier will have a TPR of 1 and a FPR of 0, resulting in a point in the top left corner of the ROC space. A random classifier will have a TPR and FPR of 0.5, resulting in a point along a diagonal line from the bottom left to the top right corner of the ROC space. The area under the ROC curve (AUC) is a measure of the classifier's overall performance, with a value of 1 indicating perfect performance and a value of 0.5 indicating a performance no better than random guessing.
+ ~ summarize all the [confusion matrices] of a logistic model, if the classification 'Probability-threshold' is changed. ([thresholding])
+
+ ~ A [confusion matrix] is 1 point on the ROC curve!
+
+ ~ The diagonal is where FPR = TPR or random guess model (?). The top-right point is when the threshold is the lowest (all samples are predicted in positive class). The bottom-left point is when the threshold is the highest (all samples are predicted in negative class).
+
+ ~ The best threshold is for a desired TPR to get the lowest FPR.
+
+ Receiver Operating Characteristic (ROC) is a graphical representation of the performance of a binary classifier system as the discrimination threshold is varied. It plots the [true positive rate (TPR)][TPR] on the y-axis and the [false positive rate (FPR)][FPR] on the x-axis. The [true positive rate] (also known as [sensitivity] or [recall] ) is the proportion of positive cases that are correctly identified by the classifier. The false positive rate (also known as the fall-out) is the proportion of negative cases that are incorrectly identified as positive. An ROC curve plots the [TPR] against the [FPR] at different threshold settings. A perfect classifier will have a [TPR] of 1 and a [FPR] of 0, resulting in a point in the top left corner of the ROC space. A random classifier will have a [TPR] and [FPR] of 0.5, resulting in a point along a diagonal line from the bottom left to the top right corner of the ROC space. The [area under the ROC curve (AUC)][AUC] is a measure of the classifier's overall performance, with a value of 1 indicating perfect performance and a value of 0.5 indicating a performance no better than random guessing.
+
+ ![]( {{site.assets}}/r/receiver_operating_characteristic_curve_thresholding_table.png ){: width="100%"}
+
+ ![]( {{site.assets}}/r/receiver_operating_characteristic_curve.png ){: width="100%"}
 
  {% youtube "https://www.youtube.com/watch?v=4jRBRDbJemM" %}
 
  More at :
-  * 
+  * articles
+    * [https://blog.revolutionanalytics.com/2016/11/calculating-auc.html](https://blog.revolutionanalytics.com/2016/11/calculating-auc.html)
 
  See also [R], [Area Under The Curve]
 
@@ -488,7 +518,7 @@ Beware:
  See also [R], ...
 
 
-# Regression
+# Regression Task
 
  A type of [supervised learning] algorithm used for forecasting and prediction.
 
@@ -605,6 +635,8 @@ Beware:
 
  On April, 2019, the [OpenAI Five] team was the first AI to beat a world champion team of e-sport Dota 2, a very complex video game that the [OpenAI Five] team chose because there were no RL algorithms that were able to win it at the time. The same AI team that beat Dota 2’s champion human team also developed a robotic hand that can reorient a block. 
 
+ {% youtube "https://www.youtube.com/watch?v=mqma6GpM7vM" %}
+
  More at:
   * [https://neptune.ai/blog/category/reinforcement-learning](https://neptune.ai/blog/category/reinforcement-learning)
   * [http://karpathy.github.io/2016/05/31/rl/](http://karpathy.github.io/2016/05/31/rl/)
@@ -681,10 +713,18 @@ Beware:
 
  Reinforcement learning process using human feedback as a reward model. RLHF is use in InstructGPT model, a precursor to ChatGPT model. A way to prevent or make [Red Teaming] language models more difficult?
 
+ {% pdf "https://arxiv.org/pdf/2203.02155.pdf" %}
+
+ {% pdf "https://arxiv.org/pdf/1706.03741.pdf" %}
+
  More at:
+  * paper 
+    * [https://arxiv.org/abs/2203.02155](https://arxiv.org/abs/2203.02155)
+    * [https://arxiv.org/abs/1706.03741](https://arxiv.org/abs/1706.03741)
   * [https://huggingface.co/blog/rlhf](https://huggingface.co/blog/rlhf)
   * RLHF is flawed? - [https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the](https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the)
   * challenges - [https://bdtechtalks.com/2023/09/04/rlhf-limitations/](https://bdtechtalks.com/2023/09/04/rlhf-limitations/)
+  * instructGPT - [https://tmmtt.medium.com/the-instructgpt-e25797d8f4df](https://tmmtt.medium.com/the-instructgpt-e25797d8f4df)
 
  See also [R], [ChatGPT Model], [Feedback-Based Learning], [InstructGPT Model], [Reinforcement Learning], 
 
@@ -733,7 +773,15 @@ Beware:
  See also [R], [Self-Supervised Learning]
 
 
+# Replay Buffer
+
+ See [Replay Memory]
+
+ 
+
 # Replay Memory
+
+ In DQN-like algorithms, the memory used by the [RL agent] to store state transitions for use in [experience replay].
  
  Used for [experience replay]
 
@@ -741,15 +789,43 @@ Beware:
 
  {% youtube "https://www.youtube.com/watch?v=Bcuj2fTH4_4" %}
 
+ More at:
+  * ...
+
  See also [R], ...
 
 
 # Replit Company
 
+ {% youtube "https://www.youtube.com/watch?v=D4f7_lPwXtE" %}
+
+ {% youtube "https://www.youtube.com/watch?v=JI2rmCII4fg" %}
+
+
  More at:
   * site - [https://replit.com/](https://replit.com/)
 
  See also [R], [Custom GPT]
+
+
+# Repls
+
+ Repl with
+  * Tutorial + video
+  * GIT integration
+
+ {% youtube "https://www.youtube.com/watch?v=l650luzyQGs" %}
+
+ {% youtube "https://www.youtube.com/watch?v=3uiOuIZlx_U" %}
+
+ See also [R], ...
+
+
+# Representation
+
+ The process of mapping data to useful features.
+
+ See also [R], ...
 
 
 # Representation Space
@@ -850,7 +926,6 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
 
 
 # Resilient Backpropagation Algorithm
-
 # Rprop Algorithm
 
  Rprop, short for resilient [backpropagation], is a type of [optimization algorithm] commonly used in [machine learning] and [neural networks][ANN] to minimize the [cost function] or error function.
@@ -867,7 +942,7 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
   * [https://en.wikipedia.org/wiki/Rprop](https://en.wikipedia.org/wiki/Rprop)
   * [https://towardsdatascience.com/understanding-rmsprop-faster-neural-network-learning-62e116fcf29a](https://towardsdatascience.com/understanding-rmsprop-faster-neural-network-learning-62e116fcf29a)
 
- See also [R], [RMSprop Algorithm]
+ See also [R], [Root Mean Square Propagation Algorithm]
 
 
 # Response Variable
@@ -1317,18 +1392,20 @@ def rmse(predictions, targets):
 # Root Mean Square Propagation Algorithm
 # RMSprop Algorithm
 
- An [optimization algorithm][optimizer] to compute parameters to minimize the loss function.
+ An [optimization algorithm] used by [optimizer] to compute parameters to minimize the loss function.
 
- RMSprop (Root Mean Square Propagation) is an optimization algorithm used in machine learning to update the weights of a neural network during training. It is similar to the adaptive learning rate methods, such as [AdaGrad][AdaGrad Algorithm] and [Adam][Adam Algorithm], in that it adjusts the learning rate for each weight based on the estimated variance of the gradients.
+ RMSprop (Root Mean Square Propagation) is an optimization algorithm used in machine learning to update the weights of a neural network during training. It is similar to the adaptive learning rate methods, such as [AdaGrad] and [Adam], in that it adjusts the learning rate for each weight based on the estimated variance of the gradients.
 
- It is an unpublished algorithm first proposed in the Coursera course. "Neural Network for Machine Learning" lecture six by Geoff Hinton. RMSProp lies in the realm of [adaptive learning] rate methods, which have been growing in popularity in recent years because it is the extension of [Stochastic Gradient Descent (SGD)][SGD Algorithm] algorithm, momentum method, and the foundation of [Adam][Adam Algorithm] algorithm. One of the applications of RMSProp is the stochastic technology for [mini-batch gradient descent].
+ It is an unpublished algorithm first proposed in the Coursera course. "Neural Network for Machine Learning" lecture six by Geoff Hinton. RMSProp lies in the realm of [adaptive learning] rate methods, which have been growing in popularity in recent years because it is the extension of [Stochastic Gradient Descent (SGD)][SGD] algorithm, momentum method, and the foundation of [Adam algorithm]. One of the applications of RMSProp is the stochastic technology for [mini-batch gradient descent].
+
+ {% youtube "https://www.youtube.com/watch?v=_e-LFe_igno" %}
 
  More at:
   * [https://towardsdatascience.com/understanding-rmsprop-faster-neural-network-learning-62e116fcf29a](https://towardsdatascience.com/understanding-rmsprop-faster-neural-network-learning-62e116fcf29a)
   * [https://optimization.cbe.cornell.edu/index.php?title=RMSProp](https://optimization.cbe.cornell.edu/index.php?title=RMSProp)
   * from scratch - [https://machinelearningmastery.com/gradient-descent-with-rmsprop-from-scratch/](https://machinelearningmastery.com/gradient-descent-with-rmsprop-from-scratch/)
 
- See also [R], [Rprop Algorithm]
+ See also [R], [Resilient Backpropagation Algorithm]
 
 
 # RoseTTAFold Diffusion

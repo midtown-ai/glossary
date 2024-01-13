@@ -35,6 +35,8 @@
 [Personal Assistant]: {{ site.baseurl}}{% link glossary/p.md %}#personal-assistant
 [Phenaki Model]: {{ site.baseurl}}{% link glossary/p.md %}#phenaki-model
 [Piano Roll]: {{ site.baseurl}}{% link glossary/p.md %}#piano-roll
+[Picasso Model]: {{ site.baseurl}}{% link glossary/p.md %}#picasso-model
+[Picasso Visualizer]: {{ site.baseurl}}{% link glossary/p.md %}#picasso-visualizer
 [Pinecone Canopy]: {{ site.baseurl}}{% link glossary/p.md %}#pinecone-canopy
 [Pinecone Company]: {{ site.baseurl}}{% link glossary/p.md %}#pinecone-company
 [Pinecone]: {{ site.baseurl}}{% link glossary/p.md %}#pinecone-company
@@ -55,6 +57,8 @@
 [Polynomial Regression]: {{ site.baseurl}}{% link glossary/p.md %}#polynomial-regression
 [Pooling Layer]: {{ site.baseurl}}{% link glossary/p.md %}#pooling-layer
 [Pooling Layers]: {{ site.baseurl}}{% link glossary/p.md %}#pooling-layer
+[Population Stability Index]: {{ site.baseurl}}{% link glossary/p.md %}#population-stability-index
+[PSI]: {{ site.baseurl}}{% link glossary/p.md %}#population-stability-index
 [Pose Estimation]: {{ site.baseurl}}{% link glossary/p.md %}#pose-estimation
 [Positional Encoding]: {{ site.baseurl}}{% link glossary/p.md %}#positional-encoding
 [Positive And Negative Pairs]: {{ site.baseurl}}{% link glossary/p.md %}#positive-and-negative-pairs
@@ -88,6 +92,10 @@
 [PILCO]: {{ site.baseurl}}{% link glossary/p.md %}#probabilistic-inference-for-learning-control-model
 [Procedural Reasoning System]: {{ site.baseurl}}{% link glossary/p.md %}#procedural-reasoning-system
 [Product Quantization]: {{ site.baseurl}}{% link glossary/p.md %}#product-quantization
+[Product Quantization Code]: {{ site.baseurl}}{% link glossary/p.md %}#product-quantization-code
+[PQ Code]: {{ site.baseurl}}{% link glossary/p.md %}#product-quantization-code
+[Progressive Neural Network]: {{ site.baseurl}}{% link glossary/p.md %}#progressive-neural-network
+[Progressive Neural Networks]: {{ site.baseurl}}{% link glossary/p.md %}#progressive-neural-network
 [Prompt Engineering]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-engineering
 [Prompt Injection]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-injection
 [Prompt Leakage]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-leakage
@@ -117,3 +125,4 @@
 [PyG]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-geometric-python-module
 [PyTorch Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-python-module
 [PyTorch]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-python-module
+[PyTorch Hub]: {{ site.baseurl}}{% link glossary/p.md %}#pytorch-hub

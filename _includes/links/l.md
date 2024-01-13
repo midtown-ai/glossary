@@ -1,5 +1,8 @@
 [L]: {{ site.baseurl }}{% link glossary/l.md %}
 
+[L1 Regularization]: {{ site.baseurl }}{% link glossary/l.md %}#l1-regularization
+[L2 Loss]: {{ site.baseurl }}{% link glossary/l.md %}#l2-loss
+[L2 Regularization]: {{ site.baseurl }}{% link glossary/l.md %}#l2-regularization
 [Label]: {{ site.baseurl }}{% link glossary/l.md %}#label
 [Labeling Function]: {{ site.baseurl }}{% link glossary/l.md %}#labeling-function
 [Labeling Service]: {{ site.baseurl }}{% link glossary/l.md %}#labeling-service
@@ -24,6 +27,9 @@
 [Large Language Models]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model
 [LLM]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model
 [LLMs]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model
+[Large Language Model Operating System]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-operating-system
+[LLM Operating System]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-operating-system
+[LLM OS]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-operating-system
 [Large Language Model Operations]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-operations
 [LLMops]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-operations
 [Large Language Model Self-Correction Reasoning]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-self-correction-reasoning
@@ -59,6 +65,7 @@
 [Latent Vector]: {{ site.baseurl }}{% link glossary/l.md %}#latent-vector
 [Layer]: {{ site.baseurl }}{% link glossary/l.md %}#layer
 [LeakyReLU Activation Function]: {{ site.baseurl }}{% link glossary/l.md %}#leakyrelu-activation-function
+[LReLU Activation Function]: {{ site.baseurl }}{% link glossary/l.md %}#leakyrelu-activation-function
 [LeakyReLU]: {{ site.baseurl }}{% link glossary/l.md %}#leakyrelu-activation-function
 [Learning Method]: {{ site.baseurl }}{% link glossary/l.md %}#learning-method
 [Learning Process]: {{ site.baseurl }}{% link glossary/l.md %}#learning-process
@@ -102,6 +109,8 @@
 [Log Transformation]: {{ site.baseurl }}{% link glossary/l.md %}#log-transformation
 [Logic Model]: {{ site.baseurl }}{% link glossary/l.md %}#logic-model
 [Logistic Regression]: {{ site.baseurl }}{% link glossary/l.md %}#logistic-regression
+[Logistic Regressions]: {{ site.baseurl }}{% link glossary/l.md %}#logistic-regression
+[LogReg]: {{ site.baseurl }}{% link glossary/l.md %}#logistic-regression
 [Logit]: {{ site.baseurl }}{% link glossary/l.md %}#logit
 [Long Short-Term Memory Cell]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-cell
 [LSTM Cell]: {{ site.baseurl }}{% link glossary/l.md %}#long-short-term-memory-cell

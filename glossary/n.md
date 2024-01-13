@@ -76,7 +76,21 @@ If we generalize
 p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  ```
 
+ More at: 
+  * [https://medium.com/becoming-human/naive-bayes-theorem-d8854a41ea08](https://medium.com/becoming-human/naive-bayes-theorem-d8854a41ea08)
+
  See also [N], [Naive Bayes Classifier]
+
+
+# Naive Classifier
+
+ A "naive classifier" in machine learning is a simple [classification] algorithm that makes predictions based on the most frequent class in the training dataset. This type of classifier is considered "naive" because it ignores all other attributes in the data and assumes that the best prediction is simply the class that has appeared most often in the past.
+
+ For example, if you're trying to classify emails into "spam" and "not spam", and 80% of your training emails are "not spam", then the naive classifier will predict every new email as "not spam" regardless of its content. This approach is obviously oversimplified and often not very effective in practice, but it can serve as a baseline to compare more complex models against.
+
+ The term "naive classifier" is different from "[Naive Bayes classifier]", which is a more sophisticated probabilistic classifier based on applying Bayes' theorem with strong (naive) independence assumptions between the features.
+
+ See also [C], ...
 
 
 # Named Entity Recognition
@@ -565,6 +579,12 @@ Some well-known NP-hard problems include the traveling salesman problem, the kna
 
 # Normalization
 
+ * NUMBER NORMALIZATION
+
+  Collapse inputs to be between 0 and 1
+
+ * TEXT NORMALIZATION
+
  ~ remove accents, capital letters, special characters, character mapping, etc to make sure the number of unknown tokens is small before being fed to the [tokenization] model
 
  :warning: even though the normalization step only change/remove characters, it has the potential to change the meaning of the sentence, by changing one word into another with a different meaning! ==> not all normalizations are suitable for all [corpus]
@@ -573,6 +593,11 @@ Some well-known NP-hard problems include the traveling salesman problem, the kna
 
  More at:
   * Hugging Face course - [https://huggingface.co/learn/nlp-course/chapter6/4](https://huggingface.co/learn/nlp-course/chapter6/4)
+
+ See also [N], ...
+
+
+# Normalizing
 
  See also [N], ...
 

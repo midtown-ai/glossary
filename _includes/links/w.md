@@ -21,6 +21,7 @@
 [WebGPT Model]: {{ site.baseurl }}{% link glossary/w.md %}#webgpt-model
 [WebGPT]: {{ site.baseurl }}{% link glossary/w.md %}#webgpt-model
 [Weight]: {{ site.baseurl }}{% link glossary/w.md %}#weight
+[Weights]: {{ site.baseurl }}{% link glossary/w.md %}#weight
 [Weight Regularization]: {{ site.baseurl }}{% link glossary/w.md %}#weight-regularization
 [Weighted Ensemble Model]: {{ site.baseurl }}{% link glossary/w.md %}#weighted-ensemble-model
 [Weighted Gini Impurity Index]: {{ site.baseurl }}{% link glossary/w.md %}#weighted-gini-impurity-index
@@ -28,9 +29,11 @@
 [Whisper Model]: {{ site.baseurl }}{% link glossary/w.md %}#whisper-model
 [Whisper]: {{ site.baseurl }}{% link glossary/w.md %}#whisper-model
 [White Box Model]: {{ site.baseurl }}{% link glossary/w.md %}#white-box-model
+[White Box Models]: {{ site.baseurl }}{% link glossary/w.md %}#white-box-model
 [Wikidata Knowledge Graph]: {{ site.baseurl }}{% link glossary/w.md %}#wikidata-knowledge-graph
 [Wikidata KG]: {{ site.baseurl }}{% link glossary/w.md %}#wikidata-knowledge-graph
 [Wikidata]: {{ site.baseurl }}{% link glossary/w.md %}#wikidata-knowledge-graph
+[Wisdom Of The Crowd]: {{ site.baseurl }}{% link glossary/w.md %}#wisdom-of-the-crowd
 [WizardLM Model]: {{ site.baseurl }}{% link glossary/w.md %}#wizardlm-model
 [WizardLM]: {{ site.baseurl }}{% link glossary/w.md %}#wizardlm-model
 [Wonder Dynamics Company]: {{ site.baseurl }}{% link glossary/w.md %}#wonder-dynamics-company

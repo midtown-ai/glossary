@@ -25,14 +25,18 @@
 [Actor-Critic Architecture]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-architecture
 [Actor-Critic With Experience Replay Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-with-experience-replay-algorithm
 [ACER Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-with-experience-replay-algorithm
-[Adapter]: {{ site.baseurl }}{% link glossary/a.md %}#adapter
-[Adapters]: {{ site.baseurl }}{% link glossary/a.md %}#adapter
+[Adapter Layer]: {{ site.baseurl }}{% link glossary/a.md %}#adapter-layer
+[Adapter Layers]: {{ site.baseurl }}{% link glossary/a.md %}#adapter-layer
+[Adapter]: {{ site.baseurl }}{% link glossary/a.md %}#adapter-layer
+[Adapters]: {{ site.baseurl }}{% link glossary/a.md %}#adapter-layer
 [Adaptive Boosting]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-boosting
 [AdaBoost]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-boosting
 [Adaptive Delta Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-delta-algorithm
 [AdaDelta Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-delta-algorithm
+[AdaDelta]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-delta-algorithm
 [Adaptive Gradient Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-gradient-algorithm
 [AdaGrad Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-gradient-algorithm
+[AdaGrad]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-gradient-algorithm
 [Adaptive Learning]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-learning
 [Adaptive Learning Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-learning-algorithm
 [Adaptive Moment Estimation Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#adaptive-moment-estimation-algorithm
@@ -61,6 +65,8 @@
 [Adversarial Model]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-model
 [Adversarial Policy]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-policy
 [Affective Computing]: {{ site.baseurl }}{% link glossary/a.md %}#affective-computing
+[Agency]: {{ site.baseurl }}{% link glossary/a.md %}#agency
+[Agent]: {{ site.baseurl }}{% link glossary/a.md %}#agent
 [AI Agent]: {{ site.baseurl }}{% link glossary/a.md %}#ai-agent
 [AI Agents]: {{ site.baseurl }}{% link glossary/a.md %}#ai-agent
 [AI Alignment]: {{ site.baseurl }}{% link glossary/a.md %}#ai-alignment
@@ -176,7 +182,9 @@
 [Artificial Narrow Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-narrow-intelligence
 [ANI]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-narrow-intelligence
 [Artificial Neural Network]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neural-network
+[Artificial Neural Networks]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neural-network
 [ANN]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neural-network
+[ANNs]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neural-network
 [Artificial Neuron]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neuron
 [Artificial Neurons]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neuron
 [Artificial Neuron Bias]: {{ site.baseurl }}{% link glossary/a.md %}#artificial-neuron-bias

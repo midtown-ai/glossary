@@ -37,8 +37,10 @@ layout: page
 
  More at:
   * home - [https://pandas.pydata.org/](https://pandas.pydata.org/)
-  * user guide - [https://pandas.pydata.org/docs/user_guide/index.html](https://pandas.pydata.org/docs/user_guide/index.html)
+  * docs & user guide - [https://pandas.pydata.org/docs/user_guide/index.html](https://pandas.pydata.org/docs/user_guide/index.html)
   * API reference - [https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
+  * tutorials
+    * panda exercises - [https://github.com/guipsamora/pandas_exercises/](https://github.com/guipsamora/pandas_exercises/)
 
  See also [P], ...
 
@@ -80,6 +82,8 @@ layout: page
   * with [model compression]
     * [Parameter-Efficiient and Quantization-Aware Adaptation][PEQA]
     * [QLoRA]
+
+ What about [Adapter layers] ?
 
  More at:
   * [https://github.com/huggingface/peft](https://github.com/huggingface/peft)
@@ -145,6 +149,7 @@ layout: page
  {% pdf "{{site.assets}}/p/palm_model_paper.pdf" %}
 
  More at :
+  * PaLM 2 announcement - [https://ai.google/discover/palm2](https://ai.google/discover/palm2)
   * [https://medium.com/@tech_optimist/palm-on-my-forehead-not-another-large-language-model-6dddd641211b](https://medium.com/@tech_optimist/palm-on-my-forehead-not-another-large-language-model-6dddd641211b)
 
  See also [P], [Chain-Of-Thought Prompting], [Pathways Model Architecture]
@@ -196,14 +201,18 @@ layout: page
   * [Bill Gates] - Founder and now chairman at [Microsoft]
   * [Dario Amodei] - CEO of [Anthropic]
   * [David Luan] - CEO of [Adept]
+  * [Demis Hassabis] - Founder and CEO of [DeepMind]
   * [Elon Musk] - CEO of Tesla
   * [Eric Schmidt] - Chairman of Alphabet / [Google]
   * [Fei-Fei Li] - Creator of the [ImageNet dataset], focus on the data, not the algorithm!
   * [Geoffrey Hinton] - Lead his student with [AlexNet], a godfather of AI and [Deep Learning]. Turing award in 2018.
   * [Greg Brockman] - Co-founder of [OpenAI]
   * [Ilya Sutskever] - Co-founder of [OpenAI]
+  * [Mark Zuckerberg] - Founder and CEO of [Meta]
   * [Mira Murati] - Interim CEO of [OpenAI] during Sam's ouster!
+  * [Mustafa Suleyman] - co-founder of [DeepMind] and founder of [Inflection AI]
   * [Sam Altman] - CEO of [OpenAI]
+  * [Shane Legg] - co-founder of [DeepMind]
   * [Sundar Pichai] - CEO of Alphabet/[Google]
   * [Yann LeCun] - Turing award in 2018 for work on [Deep Learning]
   * [Yoshua Bengio] - Professor at the Department of Computer Science at the Université de Montréal. Turing award in 2018 for work on [Deep Learning]
@@ -357,6 +366,21 @@ layout: page
  See also [N], ...
 
 
+# Picasso Visualizer
+
+ An application/utility used to find out what [Convolutional Neural Network] see by obstructing part of the image.
+
+ More at:
+  * announcement - [https://medium.com/merantix/picasso-a-free-open-source-visualizer-for-cnns-d8ed3a35cfc5](https://medium.com/merantix/picasso-a-free-open-source-visualizer-for-cnns-d8ed3a35cfc5)
+  * code - [https://github.com/merantix/picasso](https://github.com/merantix/picasso)
+  * docs - [https://picasso.readthedocs.io/en/latest/](https://picasso.readthedocs.io/en/latest/)
+  * paper - [https://openresearchsoftware.metajnl.com/articles/10.5334/jors.178](https://openresearchsoftware.metajnl.com/articles/10.5334/jors.178)
+  * articles
+    * [https://becominghuman.ai/what-exactly-does-cnn-see-4d436d8e6e52](https://becominghuman.ai/what-exactly-does-cnn-see-4d436d8e6e52)
+
+ See also [P], ...
+
+
 # Pinecone Canopy
 
  ~ RAG framework that works with [Pinecone] SaaS
@@ -413,8 +437,11 @@ layout: page
 # Plagiarism Checker
 
  More at:
-  * [https://quillbot.com/plagiarism-checker](https://quillbot.com/plagiarism-checker)
-  * [https://www.grammarly.com/plagiarism-checker](https://www.grammarly.com/plagiarism-checker)
+  * tools
+    * [https://quillbot.com/plagiarism-checker](https://quillbot.com/plagiarism-checker)
+    * [https://www.grammarly.com/plagiarism-checker](https://www.grammarly.com/plagiarism-checker)
+  * articles
+    * [https://www.msn.com/en-us/money/other/bill-ackman-suggests-ai-powered-plagiarism-checks-will-cause-incredible-embarrassment-in-academia/ar-AA1mBbct](https://www.msn.com/en-us/money/other/bill-ackman-suggests-ai-powered-plagiarism-checks-will-cause-incredible-embarrassment-in-academia/ar-AA1mBbct)
 
  See also [P], [ChatGPT Model]
 
@@ -606,6 +633,55 @@ That is: π(s) → a
  See also [P], ...
 
 
+# Population Distribution
+
+ The Machine Learning models we build are based on a simple premise: the data which we will use during inference times should have the same distribution as the data used on training. This premise is simple but rather strong because it means we can infer new observations based on previously known ones.
+
+ ![]( {{site.assets}}/p/population_distribution.webp ){: width="100%"}
+
+ See also [P], ...
+
+
+# Population Stability Index
+# PSI
+
+ ~ a key metrics to keep track of to ascertain the [model stability]
+
+ The Population Stability Index (PSI), as the name suggests, is a measurement of how much the population has changed in two different moments.
+
+ Our objective is to see how the population distribution changed in terms of the model’s predicted (independent) variable. If it is a regression model, we can use the predicted value directly, but if it is a binary classification model, we need to use the probabilities.
+
+ The Population Stability Index (PSI) is a statistical measure used to determine the stability of a population, especially in the context of credit risk modeling and other predictive models. It's used to compare the distribution of scores of a predictive model for two different populations: typically, a development or training sample and a validation or production sample.
+
+ Here's how you can calculate the PSI:
+  1. Score the Data: Apply your predictive model to the datasets for which you want to calculate the PSI (e.g., a development dataset and a validation dataset).
+  1. Create Score Bins: Divide the range of scores into several bins or intervals. The number of bins can vary, but they should be consistent across both datasets. Common practice is to use 10 or 20 bins.
+ ![]( {{site.assets}}/p/population_stability_index__population_distribution.webp ){: width="100%"}
+  1. Calculate the Distribution in Each Bin: For each bin, calculate the percentage of observations in that bin for both datasets. This gives you the distribution of scores in each bin for both datasets.
+  1. Calculate the PSI for Each Bin: For each bin, calculate the PSI using the following formula:
+ ```
+PSI for a bin = ( Percentage in Validation Bin − Percentage in Development Bin) × ln( Percentage in Validation Bi n Percentage in Development Bin)
+# "ln" refers to the natural logarithm.
+ ```
+  1. Sum Up the PSI Values: Add up the PSI values for all bins to get the total PSI.
+  1. Interpret the Results: The total PSI can be interpreted as follows:
+ ```
+PSI < 0.1: Indicates no significant change in population stability.
+0.1 ≤ PSI < 0.2: Suggests a slight change in population stability, which may need investigation.
+0.2 ≤ PSI < 0.25: Indicates a significant change, requiring immediate attention.
+PSI ≥ 0.25: Suggests a major shift in the population, indicating that the model may no longer be valid.
+ ```
+
+ Remember, the choice of bins and the interpretation of PSI values can vary depending on the specific context and industry standards.
+
+ More at:
+  * articles
+    * [https://towardsdatascience.com/checking-model-stability-and-population-shift-with-psi-and-csi-6d12af008783](https://towardsdatascience.com/checking-model-stability-and-population-shift-with-psi-and-csi-6d12af008783)
+  * code - [https://github.com/vinyluis/Articles/tree/main/Model%20Stability](https://github.com/vinyluis/Articles/tree/main/Model%20Stability)
+
+ See also [P], [Characteristic Stability Index], [Data Drift]
+
+
 # Pose Estimation
 
  Can be estimated by [YOLO models][YOLO Model]
@@ -777,9 +853,34 @@ Prediction Error = actual_value - predicted_value
 
 # Predictor Variable
 
- Input X / independent variable to estimate the dependent variable in regression.
+ Input X or  independent variable to estimate the dependent variable in a regression.
+
+ Predictors are used to create a model based on an existing relationship between independent and dependent variables.
 
  See also [P], [Regression], [Response Variable]
+
+
+# Prefix Tuning
+
+ 
+ Prefix tuning is a technique used in the field of [natural language processing (NLP)][NLP] and [machine learning], particularly in the context of [fine-tuning] large pre-trained language models like [GPT-3], [BERT], or [T5]. It's a [parameter-efficient tuning approach (PEFT)][PEFT] to adapt these large models to specific tasks or [datasets] without modifying the entire model.
+
+ Prefix tuning involves adding a small, task-specific set of parameters (the "prefix") to the input of the model. This prefix is designed to steer the pre-trained model towards generating outputs that are more suitable for the target task. The original parameters of the pre-trained model remain frozen, and only the parameters in the prefix are updated during the training process.
+
+ The prefix is a sequence of continuous vectors added to the beginning of the input sequence. During training, the model learns these vectors in such a way that they adjust the model's internal activations and attention patterns to better suit the target task. Essentially, the prefix acts as a form of "soft prompt" that guides the model.
+
+ {% youtube "https://www.youtube.com/watch?v=gJlp6CuUN9U" %}
+
+ {% pdf "https://arxiv.org/pdf/2101.00190.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2101.00190](https://arxiv.org/abs/2101.00190)
+  * articles
+    * [https://huggingface.co/docs/peft/task_guides/seq2seq-prefix-tuning](https://huggingface.co/docs/peft/task_guides/seq2seq-prefix-tuning)
+    * [https://medium.com/@musicalchemist/prefix-tuning-lightweight-adaptation-of-large-language-models-for-customized-natural-language-a8a93165c132](https://medium.com/@musicalchemist/prefix-tuning-lightweight-adaptation-of-large-language-models-for-customized-natural-language-a8a93165c132)
+
+
+ See also [P], ...
 
 
 # Pretrained Model
@@ -842,6 +943,8 @@ Prediction Error = actual_value - predicted_value
 
 
 # Prior Belief
+
+ ~ What you believe about the data before you begin training on it. For example, [L2 regularization] relies on a prior belief that [weights] should be small and normally distributed around zero.
 
  A prior belief refers to the initial degree of belief in a hypothesis or claim before accounting for observed data or evidence. It is the probability assigned to a hypothesis before new evidence is considered.
 
@@ -987,6 +1090,15 @@ Prediction Error = actual_value - predicted_value
 # PQ Code
 
  See also [P], [Product Quantization]
+
+
+# Progressive Neural Network
+
+ ~ an approach to solve [catastrophic forgetting]
+
+ Networks that retain a pool of models or layers for each task and combine them in ways that can leverage old knowledge without overwriting it.
+
+ See also [P], ...
 
 
 # Prompt Engineering
@@ -1341,6 +1453,7 @@ print(user.model_dump())
 
 # Python Module
 
+  * [Flask] - to create API containers of webapp
   * [Gradio] - to build a basic UI to interface with a model
   * [JAX] - 
   * [Joblib] - to save models in files
@@ -1356,6 +1469,7 @@ print(user.model_dump())
   * [PyTorch] - A framework for deep learning
     * [PyTorch Geometric] - A framework for ML on graph
     * [PyTorch Lightning] - An optimized version of PyTorch
+  * [Skorch] - A scikit learn that wraps PyTorch
   * [Seaborn] - for visualization
   * [TensorFlow] - a framework for deep learning developed by [Google]
 
@@ -1394,7 +1508,25 @@ print(user.model_dump())
 
 # PyTorch Python Module
 
+ ![]( {{site.assets}}/p/pytorch_python_module.png ){: width="100%"}
+
+ {% pdf "https://arxiv.org/pdf/1912.01703.pdf" %}
+
  More at:
+  * paper - [https://arxiv.org/abs/1912.01703](https://arxiv.org/abs/1912.01703)
   * tutorials - [https://pytorch.org/tutorials/](https://pytorch.org/tutorials/)
 
  See also [P], [Deep Learning Framework], [Machine Learning Framework]
+
+
+# PyTorch Hub
+
+ {% highlight python %}
+# load the resnet18 entrypoint from the pytorch/vision repo.
+model = torch.hub.load('pytorch/vision', 'resnet18', pretrained=True)
+ {% endhighlight %}
+
+ More at:
+  * site - [https://pytorch.org/hub/](https://pytorch.org/hub/)
+
+ See also [P], ...
