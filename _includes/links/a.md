@@ -111,12 +111,15 @@
 [AlexNet Model]: {{ site.baseurl }}{% link glossary/a.md %}#alexnet-model
 [AlexNet]: {{ site.baseurl }}{% link glossary/a.md %}#alexnet-model
 [Algorithmic]: {{ site.baseurl }}{% link glossary/a.md %}#algorithmic
+[Algorithmic Amplification]: {{ site.baseurl }}{% link glossary/a.md %}#algorithmic-amplification
 [Alpaca Model]: {{ site.baseurl }}{% link glossary/a.md %}#alpaca-model
 [Alpaca]: {{ site.baseurl }}{% link glossary/a.md %}#alpaca-model
 [Alpha Learning Rate]: {{ site.baseurl }}{% link glossary/a.md %}#alpha-learning-rate
 [AlphaCode Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphacode-model
 [AlphaCode]: {{ site.baseurl }}{% link glossary/a.md %}#alphacode-model
 [AlphaFault]: {{ site.baseurl }}{% link glossary/a.md %}#alphafault
+[AlphaGeometry Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphageometry-model
+[AlphaGeometry]: {{ site.baseurl }}{% link glossary/a.md %}#alphageometry-model
 [AlphaGO Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphago-model
 [AlphaGO]: {{ site.baseurl }}{% link glossary/a.md %}#alphago-model
 [AlphaFold Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphafold-model
@@ -227,6 +230,8 @@
 [AR-CNN]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive-convolutional-neural-network
 [Autoregressive Model]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive-model
 [AR Model]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive-model
+[Autoregressive Moving Average Model]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive-moving-average-model
+[ARMA Model]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive-moving-average-model
 [Average Pooling Layer]: {{ site.baseurl }}{% link glossary/a.md %}#average-pooling-layer
 [Average Pooling Layers]: {{ site.baseurl }}{% link glossary/a.md %}#average-pooling-layer
 [Average Pooling]: {{ site.baseurl }}{% link glossary/a.md %}#average-pooling-layer

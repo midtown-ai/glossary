@@ -75,7 +75,7 @@
 [Inverted File Index]: {{ site.baseurl }}{% link glossary/i.md %}#inverted-file-index
 [IQ-Learn Model]: {{ site.baseurl }}{% link glossary/i.md %}#iq-learn-model
 [Isaac Gym Environment]: {{ site.baseurl }}{% link glossary/i.md %}#isaac-gym-environment
-[Isaac Gym]: {{ site.baseurl }}{% link glossary/i.md %}#isaac-gym
+[Isaac Gym]: {{ site.baseurl }}{% link glossary/i.md %}#isaac-gym-environment
 [Isolation Forest]: {{ site.baseurl }}{% link glossary/i.md %}#isolation-forest
 [Isomorphic Labs Company]: {{ site.baseurl }}{% link glossary/i.md %}#isomorphic-labs-company
 [Isomorphic Labs]: {{ site.baseurl }}{% link glossary/i.md %}#isomorphic-labs-company

@@ -7,6 +7,7 @@
 [Value-Based Algorithm]: {{ site.baseurl }}{% link glossary/v.md %}#value-based-algorithm
 [Value-Based Algorithms]: {{ site.baseurl }}{% link glossary/v.md %}#value-based-algorithm
 [VADER Library]: {{ site.baseurl }}{% link glossary/v.md %}#vader-library
+[Vanilla]: {{ site.baseurl }}{% link glossary/v.md %}#vanilla
 [Vanilla GAN]: {{ site.baseurl }}{% link glossary/v.md %}#vanilla-gan
 [Vanishing Gradient Problem]: {{ site.baseurl }}{% link glossary/v.md %}#vanishing-gradient-problem
 [Variable]: {{ site.baseurl }}{% link glossary/v.md %}#variable

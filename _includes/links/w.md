@@ -26,6 +26,8 @@
 [Weighted Ensemble Model]: {{ site.baseurl }}{% link glossary/w.md %}#weighted-ensemble-model
 [Weighted Gini Impurity Index]: {{ site.baseurl }}{% link glossary/w.md %}#weighted-gini-impurity-index
 [Weighted Input]: {{ site.baseurl }}{% link glossary/w.md %}#weighted-input
+[Weights & Biases Company]: {{ site.baseurl }}{% link glossary/w.md %}#weights--biases-company
+[Weights & Biases]: {{ site.baseurl }}{% link glossary/w.md %}#weights--biases-company
 [Whisper Model]: {{ site.baseurl }}{% link glossary/w.md %}#whisper-model
 [Whisper]: {{ site.baseurl }}{% link glossary/w.md %}#whisper-model
 [White Box Model]: {{ site.baseurl }}{% link glossary/w.md %}#white-box-model

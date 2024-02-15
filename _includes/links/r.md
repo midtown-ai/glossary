@@ -106,8 +106,10 @@
 [Responsible AI]: {{site.baseurl}}{% link glossary/r.md %}#responsible-ai
 [Restricted Boltzmann Machine]: {{site.baseurl}}{% link glossary/r.md %}#restricted-boltzmann-machine
 [RBM]: {{site.baseurl}}{% link glossary/r.md %}#restricted-boltzmann-machine
-[Retrieval-Augmented Generation]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation
-[RAG]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation
+[Retrieval-Augmented Generation Architecture]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-architecture
+[Retrieval-Augmented Generation]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-architecture
+[RAG Architecture]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-architecture
+[RAG]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-architecture
 [Retrieval-Augmented Generation Assessment]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-assessment
 [Retrieval-Augmented Generation Assessments]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-assessment
 [RAG Assessment]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-assessment
@@ -139,6 +141,7 @@
 [RobotSchool]: {{site.baseurl}}{% link glossary/r.md %}#robotschool
 [Robustly Optimized BERT Approach Model]: {{site.baseurl}}{% link glossary/r.md %}#robustly-optimized-bert-approach-model
 [RoBERTa Model]: {{site.baseurl}}{% link glossary/r.md %}#robustly-optimized-bert-approach-model
+[RoBERTa]: {{site.baseurl}}{% link glossary/r.md %}#robustly-optimized-bert-approach-model
 [Rocket League Gym]: {{site.baseurl}}{% link glossary/r.md %}#rocket-league-gym
 [RL Gym]: {{site.baseurl}}{% link glossary/r.md %}#rocket-league-gym
 [Root Mean Square Error]: {{site.baseurl}}{% link glossary/r.md %}#root-mean-square-error

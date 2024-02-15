@@ -415,6 +415,14 @@ layout: page
  See also [D], ...
 
 
+# Data Wrangling
+
+ The process of converting raw data into a usable form. It may also be called data munging or data remediation.
+ You typically go through the data wrangling process prior to conducting any data analysis in order to ensure your data is reliable and complete.
+
+ See also [D], ...
+
+
 # Data-Centric AI
 # DCAI
 
@@ -489,7 +497,7 @@ layout: page
       * blog - [https://blog.research.google/2021/08/a-dataset-exploration-case-study-with.html](https://blog.research.google/2021/08/a-dataset-exploration-case-study-with.html)
       * site - [https://knowyourdata.withgoogle.com/](https://knowyourdata.withgoogle.com/)
 
- See also [D], [Data Point], [Development Subset], [GINI Impurity Index], [Testing Subset], [Training Subset]
+ See also [D], [Data Point], [Development Subset], [GINI Impurity Index], [Testing Set], [Training Set]
 
 
 # Dataset Bias
@@ -634,7 +642,7 @@ layout: page
 
  The decoder part of a convolutional autoencoder.
 
- See also [D], [Convolution Autoencoder], [Convolution Neural Network]
+ See also [D], [Convolution Autoencoder], [Convolutional Neural Network]
 
 
 # Deductive Reasoning
@@ -652,7 +660,6 @@ layout: page
 
 
 # Deep Belief Network
-
 # DBN
 
  See also [D], [Boltzmann Machine]
@@ -856,6 +863,14 @@ layout: page
  See also [D], [AI Avatar]
 
 
+# Deepfold Model
+
+ More at:
+  * code - [https://github.com/lulab/Deepfold](https://github.com/lulab/Deepfold)
+
+ See also [D], [AlphaFold Model]
+
+
 # DeepMind Company
 
  People:
@@ -864,18 +879,19 @@ layout: page
   * [Shane Legg]
 
  Models:
-  * [AlphaCode][AlphaCode Model]: LLM for code generation
-  * [AlphaFold][AlphaFold Model]: Protein folding
-  * [AlphaGo][AlphaGo Model]: Agent to play Go
-  * [AlphaStar][AlphaStar Model]: Agents to play StarCraft 2
-  * [AlphaTensor][AlphaTensor Model]: Matrix multiplication algorithm optimization
-  * [AlphaZero][AlphaZero Model]
-  * [Chinchilla][Chinchilla Model]: Optimized version of the [Gopher Model]
-  * [DeepNash][DeepNash Model]: Mastering Stratego, the classic game of imperfect information
-  * [Flamingo][Flamingo Model]: A [visual language model]
-  * [Gato][Gato Model]: Multi-task generalist agent
-  * [Gopher][Gopher Model]: A LLM with same (or better) performance than [GPT-3]
-  * [Sparrow][Sparrow Model]: A ChatGPT alternative
+  * [AlphaCode] - LLM for code generation
+  * [AlphaFold] - Protein folding
+  * [AlphaGeometry] - Agent to play Go
+  * [AlphaGo] - Agent to play Go
+  * [AlphaStar] - Agents to play StarCraft 2
+  * [AlphaTensor] - Matrix multiplication algorithm optimization
+  * [AlphaZero]
+  * [Chinchilla] - Optimized version of the [Gopher Model]
+  * [DeepNash] - Mastering Stratego, the classic game of imperfect information
+  * [Flamingo] - A [visual language model]
+  * [Gato] - Multi-task generalist agent
+  * [Gopher] - A LLM with same (or better) performance than [GPT-3]
+  * [Sparrow] - A ChatGPT alternative
 
  {% youtube "https://www.youtube.com/watch?v=kFlLzFuslfQ" %}
 
@@ -1058,9 +1074,9 @@ We need to do this for
 
 # Development Subset
 
- Use to test the model built with the training set before it is run on the test subset.
+ Use to test the model built with the [training set] before it is run on the test subset.
 
- See also [D], [Dataset], [Test Subset], [Training Subset]
+ See also [D], [Dataset], [Test Set]
 
 
 # DevOPS
@@ -1201,16 +1217,34 @@ speed.
  As the name suggests, we use dimensionality reduction to remove the least important information (sometime redundant columns) from a [dataset]. In practice, I often see [datasets] with hundreds or even thousands of columns (also called [features]), so reducing the total number is vital. For instance, images can include thousands of pixels, not all of which matter to your analysis. Or when testing microchips within the manufacturing process, you might have thousands of measurements and tests applied to every chip, many of which provide redundant information. In these cases, you need dimensionality reduction algorithms to make the [dataset] manageable.
 
  Dimensionality reduction algorithms:
-  * [Principal Component Analysis (PCA)][PCA] - The most popular (and simple to understand and implement)
-  * [Linear Discriminant Analysis (LDA)][LDA] -
-  * [T-Distributed Stochastic Neighborhood Embedding (t-SNE)][t-SNE] - for visualization (modern and a bit more complex to understand/implement)
-  * [Uniform Manifold Approximation and Projection (UMAP)][UMAP] -
-  * [Self-Organizing Map (SOM)][SOM] -
+  * Linear Reduction
+    * [Principal Component Analysis (PCA)][PCA] - The most popular (and simple to understand and implement)
+    * [Linear Discriminant Analysis (LDA)][LDA] -
+    * Metric [Multidimensional Scaling (MDS)][MDS]
+    * LDA
+    * ICA
+    * ...
+  * Nonlinear reduction / Manifold learning
+    * Local (consider the neighborhood)
+      * [T-Distributed Stochastic Neighborhood Embedding (t-SNE)][t-SNE] - for visualization (modern and a bit more complex to understand/implement)
+      * LLE
+      * LTSA
+    * Somewhere been local and global approaches!
+      * [Uniform Manifold Approximation and Projection (UMAP)][UMAP] -
+    * Global (consider entire dataset)
+      * Non-Metric [Multidimensional Scaling (MDS)][MDS]
+      * Autoencoder - Neural network based technique
+      * Isomap
+      * Kernel PCA
+  * Others
+    * [Self-Organizing Map (SOM)][SOM] -
 
  Use-cases:
   * Image compression
   * Feature reduction/selection
   * ...
+
+ {% youtube "https://www.youtube.com/watch?v=jc1_yPYmspk" %}
 
  See also [D], [Autoencoder], [Decoder], [Encoder]
 
@@ -1220,6 +1254,8 @@ speed.
 
  DPO replaces [RLHF] in LLM training: In this technical and informative video, we explore a groundbreaking methodology called direct preference optimization (DPO) by [Stanford University] that has the potential to replace [reinforcement learning (RL)][RL ]in the training of [GPT models]. 
 
+ DPO now completely owns top-of-leaderboard medium-sized neural language models!
+
  {% youtube "https://www.youtube.com/watch?v=pzh2oc6shic" %}
 
  {% youtube "https://www.youtube.com/watch?v=HCFTXTn1PHA" %}
@@ -1228,6 +1264,7 @@ speed.
 
  More at:
   * paper - [https://arxiv.org/abs/2305.18290](https://arxiv.org/abs/2305.18290)
+  * LLM leaderboard - [https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 
  See also [D], ...
 
@@ -1340,6 +1377,18 @@ speed.
 
 
 # Distribution
+
+ * [Beta Distribution]
+ * [Binomial Distribution]
+ * Cuachy distribution - no mean !?!?
+ * Exponential distribution
+ * [Gamma distribution]
+ * Gaussian distribution
+ * Log normal distribution
+ * [Normal Distribution] and Standard normal distribution (mean 0 and std of 1)
+ * [Poisson distribution] - number of events in a specified period (events must be independent)
+
+ {% youtube "https://www.youtube.com/watch?v=bOlEUWMKDek" %}
 
  See also [D], [Cumulative Distribution Function], [Sample]
 

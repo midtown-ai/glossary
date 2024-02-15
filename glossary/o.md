@@ -47,10 +47,12 @@ layout: page
 
 # Object Tracking
 
+ Track an object in a video (image per image)
+
  More at:
   * [https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b](https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b)
 
- See also [O], [Computer Vision]
+ See also [O], [Computer Vision], [YOLO Model]
 
 
 # Objective Function
@@ -138,7 +140,7 @@ layout: page
 
 # Offline Learning
 
- ~ learning from stored and aging data!
+ ~ learning from stored and aging data! (also no use of a human, no interaction with the world)
 
  Offline and [online learning] concepts are not specific to [reinforcement learning] and different from [Off-policy learning] / [on-policy learning], many learning systems can be categorised as online or offline (or somewhere in-between).
 
@@ -422,6 +424,8 @@ cheese =>                                   # Prompt
   * home - [http://www.openai.com](http://www.openai.com)
   * principles - [https://openai.com/policies/usage-policies](https://openai.com/policies/usage-policies)
   * safety - [https://openai.com/safety-standards](https://openai.com/safety-standards)
+  * code
+    * cookbook - [https://github.com/openai/openai-cookbook/tree/main/examples](https://github.com/openai/openai-cookbook/tree/main/examples)
   * articles
     * [https://www.wired.com/story/what-openai-really-wants/](https://www.wired.com/story/what-openai-really-wants/)
 

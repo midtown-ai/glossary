@@ -178,6 +178,8 @@ layout: page
 
  In probability theory, the central limit theorem (CLT) establishes that, in many situations, when independent random variables are summed up, their properly normalized sum tends toward a normal distribution even if the original variables themselves are not normally distributed.
 
+ {% youtube "https://www.youtube.com/watch?v=YAlJCEDH2uY" %}
+
  See also [C], [Gaussian Distribution]
 
 
@@ -448,6 +450,8 @@ print(query_result)
   * colab 
     * [https://colab.research.google.com/drive/1QEzFyqnoFxq7LUGyP1vzR4iLt9PpCDXv](https://colab.research.google.com/drive/1QEzFyqnoFxq7LUGyP1vzR4iLt9PpCDXv)
     * [https://github.com/hwchase17/chroma-langchain](https://github.com/hwchase17/chroma-langchain)
+  * notebooks
+    * [https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases/chroma](https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases/chroma)
   * Articles
     * [https://blog.langchain.dev/langchain-chroma/](https://blog.langchain.dev/langchain-chroma/)
 
@@ -592,6 +596,26 @@ print(query_result)
  Encode a text prompt into the embedding space.
 
  See also [C], [CLIP Model], [Embedding Space], [Encoder]
+
+
+# Clipping
+
+ ~ Used to keep values within a range.
+
+ It works as follow:
+  * If the value is too high, it is replaced by the max clipping value.
+  * If the value is too low, it is replace by the min clipping value.
+  * If the value is within the clipping range, the value is not changed.
+
+ Clipping is required in algorithms that use momentum/impulse.
+
+ Used in algorithm such as:
+  * [Proximal Policy Optimization (PPO)][PPO]
+  * ...
+
+ ![]( {{site.assets}}/c/clipping.png ){: width="100%"}
+
+ See also [C], ...
 
 
 # Clustering
@@ -794,7 +818,7 @@ print(query_result)
   * [Vectra AI](https://www.vectra.ai/) - Cyberattack detection
   * [VIZ.AI](https://www.viz.ai/) - Disease detection
   * [Waabi](https://waabi.ai/) - Autonomous trucking technology
-  * [Weights & Biases](https://wandb.ai/site) - Developer tools for AI
+  * [Weights & Biases] - Developer tools for AI + MLOps and LLMOps
   * [Writer](https://writer.com/) - Copywriting software
   * [xAI] - Backed by Elon Musk and builder of [Grok] LLM and [PromptIDE]
 
@@ -819,6 +843,7 @@ print(query_result)
   * defunct: [Argo AI](https://en.wikipedia.org/wiki/Argo_AI)
 
  Drug Discovery
+  * [BigHat Biosciences](https://www.bighatbio.com/) - Better biologics faster through ML-guided design
   * [Isomorphic Labs] - Spin off from [DeepMind] and building on [AlphaFold]
   * [Unlearn.AI](https://www.unlearn.ai/) - Clinical trial forecasting
 
@@ -907,7 +932,9 @@ print(query_result)
  See also [C], ...
 
 
-# Compas Model
+# COMPAS Model
+
+ One of several different "risk assessment" tools used in the US criminal legal system.
 
  More at:
   * [https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-risk-assessment-algorithm/](https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-risk-assessment-algorithm/)
@@ -1615,6 +1642,19 @@ pyplot.show()
  See [Loss Function]
 
 
+# Covector
+
+ A linear "machine" that eats a vector and output a number (a measurement)
+
+ Linear means:
+  * V1 + V2 --> transformation of V1 + transformation of V2
+  * a * V1 --> a * transformation of V1
+
+ ![]( {{site.assets}}/c/covector.png ){: width="100%"}
+
+ See also [C], ...
+
+
 # CreateML Application
 
  An application to easily create ML models
@@ -1684,6 +1724,8 @@ Cross_entropy = - log(P(X)) / t
 
 # Cross-Entropy Loss Function
 
+ ~ classic loss function for classification
+
  Frequently used as a loss function for neural networks. To understand it, you need to understand the following (and in that order!): Surprisal, Entropy, Cross-Entropy, Cross-Entropy Loss.
   * Surprisal:  “Degree to which you are surprised to see the result”. Now it's easy to digest my word when I say that I will be more surprised to see an outcome with low probability in comparison to an outcome with high probability. Now, if Pi is the probability of ith outcome then we could represent surprisal (s) as:
 
@@ -1720,12 +1762,20 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  ![]( {{site.assets}}/c/cross_entropy_loss_function_graph2.png ){: width="100%"}
  
  This plot helps you visualize the cross-entropy between two distributions. The Red function represents a desired probability distribution, for simplicity a gaussian distribution is shown here. While the Orange function represents estimated probability distribution. The purple bar shows cross-entropy between these two distributions which is in simple words the area under the blue curve.
+
+ {% youtube "https://www.youtube.com/watch?v=Pwgpl9mKars"  %}
+
  More at
    * plot - [https://www.desmos.com/calculator/zytm2sf56e](https://www.desmos.com/calculator/zytm2sf56e)
    * [https://medium.com/@vijendra1125/understanding-entropy-cross-entropy-and-softmax-3b79d9b23c8a](https://medium.com/@vijendra1125/understanding-entropy-cross-entropy-and-softmax-3b79d9b23c8a)
    * [https://machinelearningmastery.com/cross-entropy-for-machine-learning/](https://machinelearningmastery.com/cross-entropy-for-machine-learning/)
 
  See also [C], [Binary Cross-Entropy Loss Function], [Cross-Entropy], [Entropy], [Loss Function]
+
+
+# Cross-Validation on Historical Data
+
+ See [#Backtesting]
 
 
 # Cross-Validation Sampling Method

@@ -34,6 +34,10 @@
 [Hugging Face Hub]: {{site.baseurl }}{% link glossary/h.md %}#hugging-face-hub
 [Human-Centered AI]: {{site.baseurl }}{% link glossary/h.md %}#human-centered-ai
 [Human-Centered Design]: {{site.baseurl }}{% link glossary/h.md %}#human-centered-design
+[Hybrid Artificial Intelligence]: {{site.baseurl }}{% link glossary/h.md %}#hybrid-artificial-intelligence
+[Hybrid AI]: {{site.baseurl }}{% link glossary/h.md %}#hybrid-artificial-intelligence
+[Hybrid Artificial Intelligence System]: {{site.baseurl }}{% link glossary/h.md %}#hybrid-artificial-intelligence-system
+[Hybrid AI System]: {{site.baseurl }}{% link glossary/h.md %}#hybrid-ai-system
 [Hype Cycle]: {{site.baseurl }}{% link glossary/h.md %}#hype-cycle
 [Hypernetwork Architecture]: {{site.baseurl }}{% link glossary/h.md %}#hypernetwork-architecture
 [Hypernetwork]: {{site.baseurl }}{% link glossary/h.md %}#hypernetwork-architecture

@@ -1,6 +1,7 @@
 [N]: {{ site.baseurl }}{% link glossary/n.md %}
 
 [N-Gram]: {{ site.baseurl }}{% link glossary/n.md %}#n-gram
+[N-Grams]: {{ site.baseurl }}{% link glossary/n.md %}#n-gram
 [N-Gram Model]: {{ site.baseurl }}{% link glossary/n.md %}#n-gram-model
 [N-Step Lookahead]: {{ site.baseurl }}{% link glossary/n.md %}#n-step-lookahead
 [Naive Bayes Classifier]: {{ site.baseurl }}{% link glossary/n.md %}#naive-bayes-classifier

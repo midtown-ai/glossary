@@ -167,6 +167,16 @@ layout: page
  See also [K], ...
 
 
+# Kai-Fu Lee Person
+
+ Founder of [01 AI] and behind the [Yi Models]
+
+ More at:
+  * wikipedia - [https://en.wikipedia.org/wiki/Kai-Fu_Lee](https://en.wikipedia.org/wiki/Kai-Fu_Lee)
+
+ See also [K], [People]
+
+
 # Katib
 
  ~ [AutoML] tool in [Kubeflow] for [hyperparameter tuning], [early stopping], learning rate, [neural architecture search], etc.
@@ -295,13 +305,26 @@ layout: page
 # Kullback-Leibler Divergence
 # KL Divergence
 
+ ~ measure the difference between 2 distributions. The smaller the KL Divergence, the better the fit.
+
+ Great to find the best distribution to simulate observations
+
  ```
  Cross-entropy = entropy + KL-divergence
  ```
 
  calculates a score that measures the divergence of one probability distribution from another. The Kullback–Leibler divergence (KL divergence), aka relative entropy, is the difference between cross-entropy of two distributions and their own entropy. For everyone else, imagine drawing out the two distributions, and wherever they do not overlap will be an area proportional to the KL divergence. Appears in the loss function of a variational autoencoder! This term stay close to normal(mean=0,stdev=1) !!
 
+ Distributions:
+  * [Beta Distribution]
+  * [Normal Distribution]
+  * ...
+
+ {% youtube "https://www.youtube.com/watch?v=q0AkK8aYbLY" %}
+
  {% youtube "https://www.youtube.com/watch?v=ErfnhcEV1O8" %}
+
+ {% youtube "https://www.youtube.com/watch?v=SxGYPqCgJWM" %}
 
  More at:
   * [https://www.youtube.com/watch?v=rZufA635dq4&t=1091s](https://www.youtube.com/watch?v=rZufA635dq4&t=1091s)

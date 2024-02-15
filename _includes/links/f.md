@@ -60,6 +60,8 @@
 [Flask]: {{site.baseurl }}{% link glossary/f.md %}#flask-python-module
 [FlashAttention]: {{site.baseurl }}{% link glossary/f.md %}#flashattention
 [Flow-Based Model]: {{site.baseurl }}{% link glossary/f.md %}#flow-based-model
+[Folded Recurrent Neural Network]: {{site.baseurl }}{% link glossary/f.md %}#folded-recurrent-neural-network
+[Folded RNN]: {{site.baseurl }}{% link glossary/f.md %}#folded-recurrent-neural-network
 [For Stress-Testing Machine Theory Of Mind Benchmark]: {{site.baseurl }}{% link glossary/f.md %}#for-stress-testing-machine-theory-of-mind-benchmark
 [FANToM Benchmark]: {{site.baseurl }}{% link glossary/f.md %}#for-stress-testing-machine-theory-of-mind-benchmark
 [FANToM]: {{site.baseurl }}{% link glossary/f.md %}#for-stress-testing-machine-theory-of-mind-benchmark

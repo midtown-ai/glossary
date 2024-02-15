@@ -52,12 +52,26 @@ layout: page
  See also [Y], [People]
 
 
+# Yi Model
+
+ A [LLM] developed at [01 AI]
+
+ ![]( {{site.assets}}/y/yi_model.png ){: width="100%"}
+
+ More at:
+  * site - [https://01.ai/](https://01.ai/)
+
+ See also [Y], ...
+
+
 # You Only Look Once Model
 # YOLO  Model
 
- For [Image Detection], [Image Segmentation], [Object Detection], [Pose Estimation], ...
+ For [Image Classification], [Image Segmentation], [Object Detection], [Object Tracking], [Pose Estimation], ...
 
  {% youtube "https://www.youtube.com/watch?v=UYLp0-iOvFc" %}
+
+ {% youtube "https://www.youtube.com/watch?v=QtsI0TnwDZs" %}
 
  More at:
   * home - [https://docs.ultralytics.com/](https://docs.ultralytics.com/)

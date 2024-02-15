@@ -4,6 +4,8 @@
 [BabyAGI Model]: {{ site.baseurl }}{% link glossary/b.md %}#babyagi-model
 [BabyAGI]: {{ site.baseurl }}{% link glossary/b.md %}#babyagi-model
 [Backpropagation]: {{ site.baseurl }}{% link glossary/b.md %}#backpropagation
+[Backpropagation Through Time]: {{ site.baseurl }}{% link glossary/b.md %}#backpropagation-through-time
+[Backtesting]: {{ site.baseurl }}{% link glossary/b.md %}#backtesting
 [Bag Of Words]: {{ site.baseurl }}{% link glossary/b.md %}#bag-of-words
 [BOW]: {{ site.baseurl }}{% link glossary/b.md %}#bag-of-words
 [Baggingng]: {{ site.baseurl }}{% link glossary/b.md %}#bag-of-words
@@ -39,6 +41,7 @@
 [Best Match 25]: {{ site.baseurl }}{% link glossary/b.md %}#best-match-25-retrieval-model
 [BM25 Retrieval Model]: {{ site.baseurl }}{% link glossary/b.md %}#best-match-25-retrieval-model
 [BM25 Retrieval]: {{ site.baseurl }}{% link glossary/b.md %}#best-match-25-retrieval-model
+[Beta Distribution]: {{ site.baseurl }}{% link glossary/b.md %}#beta-distribution
 [Beyond The Imitation Game Benchmark]: {{ site.baseurl }}{% link glossary/b.md %}#beyond-the-imitation-game-benchmark
 [Beyond The Imitation Game]: {{ site.baseurl }}{% link glossary/b.md %}#beyond-the-imitation-game-benchmark
 [BIG Bench]: {{ site.baseurl }}{% link glossary/b.md %}#beyond-the-imitation-game-benchmark
@@ -56,6 +59,7 @@
 [Bidirectional Recurrent Neural Network]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-recurrent-neural-network
 [BRNN]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-recurrent-neural-network
 [Big Data]: {{ site.baseurl }}{% link glossary/b.md %}#big-data
+[Bigram]: {{ site.baseurl }}{% link glossary/b.md %}#bigram
 [Bilingual Evaluation Understudy Score]: {{ site.baseurl }}{% link glossary/b.md %}#bilingual-evaluation-understudy-score
 [BLEU Score]: {{ site.baseurl }}{% link glossary/b.md %}#bilingual-evaluation-understudy-score
 [BLEU]: {{ site.baseurl }}{% link glossary/b.md %}#bilingual-evaluation-understudy-score
@@ -68,6 +72,7 @@
 [BCE Loss Function]: {{ site.baseurl }}{% link glossary/b.md %}#binary-cross-entropy-loss-function
 [BCE]: {{ site.baseurl }}{% link glossary/b.md %}#binary-cross-entropy-loss-function
 [Bing Search Engine]: {{ site.baseurl }}{% link glossary/b.md %}#bing-search-engine
+[Binomial Distribution]: {{ site.baseurl }}{% link glossary/b.md %}#binomial-distribution
 [Biological Neuron]: {{ site.baseurl }}{% link glossary/b.md %}#biological-neuron
 [BLIP Model]: {{ site.baseurl }}{% link glossary/b.md %}#blip-model
 [BLIP]: {{ site.baseurl }}{% link glossary/b.md %}#blip-model

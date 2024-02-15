@@ -31,18 +31,22 @@ layout: page
 
 # N-Gram
 
+ ~ used to predict the next word based on the last (N-1) words
+
  An N-Gram is a connected string of N items from a sample of text or speech. The N-Gram could be comprised of large blocks of words, or smaller sets of syllables. N-Grams are used as the basis for functioning N-Gram models, which are instrumental in natural language processing as a way of predicting upcoming text or speech.
 
  ![]( {{site.assets}}/n/ngram.png ){: width="100%"}
 
  N-Gram models are uses in natural language processing as a tool for modeling probable upcoming sequences of characters, also known as trigrams or 3-grams. An example is the phrase, "Good Afternoon," which breaks down to the trigrams "Goo","d A", "fte", etc. In machine translation models, however, N-Gram models are usually used in conjunction with Bayesian inference, leading to a more accurate prediction.
 
- See also [N], [N-Gram Model], [Natural Language Programming]
+ See also [N], [Bigram], [Natural Language Programming]
 
 
-# N-Gram Model
+# N-Gram
 
- See also [N], [N-Gram]
+ A model that uses [N-grams] to predict the probability for the next word.
+
+ See also [N], ...
 
 
 # N-Step Lookahead

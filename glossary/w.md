@@ -69,7 +69,7 @@ layout: page
 
  As presented in the picture below, the model is trained in two phases. The first phase is in a self-supervised mode, which is done using unlabeled data and it aims to achieve the best speech representation possible. You can think about that in a similar way as you think of word embeddings. Word embeddings also aim to achieve the best representation of natural language. The main difference is that Wav2Vec 2.0 processes audio instead of text. The second phase of training is [supervised fine-tuning (SFT)][SFT], during which labeled data is used to teach the model to predict particular words or phonemes. If you are not familiar with the word ‘phoneme’, you can think about it as the smallest possible unit of sound in a particular language, usually represented by one or two letters.
 
- ![]( {{site.assets}}/w/wave2vec_model.png ){: width="100%"}
+ ![]( {{site.assets}}/w/wave2vec_model.webp ){: width="100%"}
 
  {% youtube "https://www.youtube.com/watch?v=B5A1bMi4dJI" %}
 
@@ -217,6 +217,35 @@ layout: page
 # Weighted Input
 
  The input signal that is multiplied by its [weight]. Is comparable to a stimulus of an [Artificial Neuron].
+
+ See also [W], ...
+
+
+# Weights & Biases Company
+
+ ```
+import wandb
+import os
+
+# 1. Set environment variables for the W&B project and tracing.
+os.environ["LANGCHAIN_WANDB_TRACING"] = "true" os.environ["WANDB_PROJECT"] = "langchain-tracing"
+
+# 2. Load llms, tools, and agents/chains
+
+llm = OpenAI(temperature=0)
+tools = load_tools(["llm-math"], llm=llm)
+agent = initialize_agent(
+     tools, llm,      agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,      verbose=True
+)
+
+# 3. Serve the chain/agent with all underlying complex llm interactions automatically traced and tracked
+
+agent.run("What is 2 raised to .123243 power?")
+ ```
+
+ More at:
+  * site - [https://www.wandb.courses/pages/w-b-courses](https://www.wandb.courses/pages/w-b-courses)
+  * course - [https://www.wandb.courses/pages/w-b-courses](https://www.wandb.courses/pages/w-b-courses)
 
  See also [W], ...
 

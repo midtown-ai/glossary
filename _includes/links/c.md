@@ -130,6 +130,7 @@
 [Cosine Similarity]: {{ site.baseurl }}{% link glossary/c.md %}#cosine-similarity-function
 [Cost]: {{ site.baseurl }}{% link glossary/c.md %}#cost
 [Cost Function]: {{ site.baseurl }}{% link glossary/c.md %}#cost-function
+[Covector]: {{ site.baseurl }}{% link glossary/c.md %}#covector
 [CreateML Application]: {{ site.baseurl }}{% link glossary/c.md %}#createml-application
 [Critic]: {{ site.baseurl }}{% link glossary/c.md %}#critic
 [Critics]: {{ site.baseurl }}{% link glossary/c.md %}#critic

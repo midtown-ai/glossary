@@ -87,12 +87,24 @@ layout: page
 
 # Image Classification
 
- Convolutional Neural Network (resNet). Supervised algorithm.
+ [Convolutional Neural Network] such as [ResNet]. Supervised algorithm.
+
+ ```
+ # Load YOLOv8n-cls, train it on mnist160 for 3 epochs and predict an image with it
+from ultralytics import YOLO
+
+model = YOLO('yolov8n-cls.pt')  # load a pretrained YOLOv8n classification model
+model.train(data='mnist160', epochs=3)  # train the model
+model('https://ultralytics.com/images/bus.jpg')  # predict on an image
+ ```
+
+ {% youtube "https://www.youtube.com/watch?v=NAs-cfq9BDw" %}
 
  More at:
    * [https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b](https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b)
+   * colab - [https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb](https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb)
 
- See also [I], [Convolutional Neural Network], [ResNET Model]
+ See also [I], ...
 
 
 # Image Decoder
@@ -192,6 +204,9 @@ model.summary()
   * [Segment Anything Model]
 
  ![]( {{site.assets}}/i/image_segmentation_timeline.png ){: width="100%"}
+
+ More at:
+  * colab - [https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb](https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb)
 
  See also [I], [Object Detection]
 

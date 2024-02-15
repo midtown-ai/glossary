@@ -562,8 +562,9 @@ One obvious way to mitigate that problem is to choose different learning rate fo
 # AI Agent
 
  There are different types of AI agents, function of how their goal is coded. That includes:
-  * [Reinforcement Learning (RL) agent][RL Agent] whose goal is to maximize a total reward
-  * LLM agent such as [SDLC Agent]
+  * LLM agents such as [SDLC Agents] who simply interact with one another during a predefined workflow
+  * [Reinforcement Learning (RL) agents][RL Agent] whose goal is to maximize a total reward
+  * [Modular Reasoning Knowledge and Language (MRKL) Agents][MRKL Agent] whom can reason through a LLM and use external tools
   * ...
 
  ![]( {{site.assets}}/a/ai_agent.png){: width="100%" }
@@ -1175,6 +1176,44 @@ Better data beat the model always
  See also [A], ...
 
 
+# Algorithmic Amplification
+
+ ~ happens whenever there is a ranking
+
+ The extent to which the algorithm gives
+
+ 1. can spread armful content (want no amplification at all)
+ 1. unfair allocation of expose of <> groups (want balanced amplification instead)
+
+ Amplification occurs as the result of the interaction between many models, people, and policies in a complex system.
+
+ Algorithm on twitter:
+  * search function
+  * alerts/notifications
+  * account recommendations
+  * main feed
+  * exploration space
+  * peripheral models
+    * ...
+  * auxiliary models
+    * content moderation models
+    * toxicity model
+    * popular backfill (recommend popular connection if not enough friends)
+
+ Measuring algorithmic amplification
+  * compared to the default (reverse) chronological feed/ordering with only accounts you follow
+  * compared to the default randomization
+
+ Reduce amplification
+  * :warning: in the case of armful content what we care about is how quickly we can remove it
+  * bottom up approach to reduce amplification ... use the variance over different groups (var = 0 if all the groups are exposed the same way)
+
+ More at:
+  * ...
+
+ See also [A], ...
+
+
 # Algorithmic Bias
 
  refers to the presence of unfair or discriminatory outcomes in algorithms, which can occur when the data used to train these algorithms is biased in some way. Here's an example of algorithmic bias:
@@ -1274,12 +1313,16 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
  {% pdf "{{site.assets}}/a/alphafold_model_paper.pdf" %}
 
+ {% youtube "https://www.youtube.com/watch?v=B9PL__gVxLI" %}
+
  More at:
   * nature paper - [https://www.nature.com/articles/s41586-021-03819-2](https://www.nature.com/articles/s41586-021-03819-2)
   * [https://en.wikipedia.org/wiki/AlphaFold](https://en.wikipedia.org/wiki/AlphaFold)
   * [https://alphafold.com/](https://alphafold.com/)
   * online database - [https://alphafold.ebi.ac.uk/faq](https://alphafold.ebi.ac.uk/faq)
   * colab - [https://colab.research.google.com/github/deepmind/alphafold/blob/main/notebooks/AlphaFold.ipynb](https://colab.research.google.com/github/deepmind/alphafold/blob/main/notebooks/AlphaFold.ipynb)
+  * articles
+    * blog - [https://deepmind.google/discover/blog/putting-the-power-of-alphafold-into-the-worlds-hands/](https://deepmind.google/discover/blog/putting-the-power-of-alphafold-into-the-worlds-hands/)
 
  See also [A], [AlphaGo Model], [AlphaZero Model]
 
@@ -1292,6 +1335,23 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
   * [https://alphafold.com/](https://alphafold.com/)
 
  See also [A}, ...
+
+
+# AlphaGeometry Model
+
+ Model by [DeepMind]
+
+ ![]( {{site.assets}}/a/alphageometry_model.webp){: width="100%" }
+
+ {% youtube "https://www.youtube.com/watch?v=WKF0QgxmGKs" %}
+
+ More at:
+  * announcement - [https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/](https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/)
+  * code - [https://github.com/google-deepmind/alphageometry](https://github.com/google-deepmind/alphageometry)
+  * articles
+    * nature - [https://www.nature.com/articles/s41586-023-06747-5](https://www.nature.com/articles/s41586-023-06747-5)
+
+ See also [A], ...
 
 
 # AlphaGo Model
@@ -2230,20 +2290,6 @@ If you don't ___ at the sign, you will get a ticket
  See also [A], [Hyperparameter Tuning], [Early Stopping], [Neural Architecture Search]
 
 
-# Autoregressive Model
-
- Goal is to predict a future token (word) given either the past tokens or the future tokens but not both. (If both --> auto-encoding). Autoregressive models such as decoders are iterative and reused their temporary, incomplete output to generate the next, more complete output. Iterations stop when encoder input is exhausted (?). Well-known autoregressive models/use-cases are:
-  * Predicting next work in a sentence (auto-complete)
-  * Natural language generation
-  * [GPT Models][GPT Model]
- ```
-If you don't ____ (forward prediction)
-____ at the sign, you will get a ticket (backward prediction)
- ```
-
- See also [A], [Autoencoding], [Casual Language Modeling], [Decoder]
-
-
 # Autoregressive Convolutional Neural Network
 # AR-CNN
 
@@ -2255,9 +2301,35 @@ ____ at the sign, you will get a ticket (backward prediction)
 # Autoregressive Model
 # AR Model
 
+ Goal is to predict a future token (word) given either the past tokens or the future tokens but not both. (If both --> auto-encoding). Autoregressive models such as [decoders] are iterative and reused their temporary, incomplete output to generate the next, more complete output. Iterations stop when encoder input is exhausted (?). Well-known autoregressive models/use-cases are:
+  * Predicting next work in a sentence (auto-complete)
+  * Natural language generation
+  * [GPT Models]
+ ```
+If you don't ____ (forward prediction)
+____ at the sign, you will get a ticket (backward prediction)
+ ```
+
  `~ analyze the past steps (or future but not both) to identify the next step = learn from the past iteration (or future but not both) ONLY`. Unlike the GANs approach described before, where music generation happened in one iteration, autoregressive models add notes over many iterations. The models used are called autoregressive (AR) models because the model generates music by predicting future music notes based on the notes that were played in the past. In the music composition process, unlike traditional time series data, one generally does more than compose from left to right in time. New chords are added, melodies are embellished with accompaniments throughout. Thus, instead of conditioning our model solely on the past notes in time like standard autoregressive models, we want to condition our model on all the notes that currently exist in the provided input melody. For example, the notes for the left hand in a piano might be conditioned on the notes that have already been written for the right hand.
 
- See also [A], [Autoregressive Convolutional Neural Network], [Generative Adversarial Network], [GPT Model], [Time-Series Predictive Analysis]
+ See also [A], [Autoencoding], [Autoregressive Convolutional Neural Network], [Casual Language Modeling], [Generative Adversarial Network], [Time-Series Predictive Analysis]
+
+
+# Autoregressive Moving Average Model
+# ARMA Model
+
+ Note as good as a [LSTM model] because no memory
+
+ {% youtube "https://www.youtube.com/watch?v=-uqNYTUTqdc" %}
+
+ {% youtube "https://www.youtube.com/watch?v=-4F-9bzzg50" %}
+
+ {% youtube "https://www.youtube.com/watch?v=8jY675fjUWo" %}
+
+ More at:
+  * ...
+
+ See also [A], ...
 
 
 # Average Pooling Layer

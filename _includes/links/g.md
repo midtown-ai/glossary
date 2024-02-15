@@ -4,9 +4,11 @@
 [Galactica LLM]: {{ site.baseurl }}{% link glossary/g.md %}#galactica-large-language-model
 [Game Theory]: {{ site.baseurl }}{% link glossary/g.md %}#game-theory
 [Game Tree]: {{ site.baseurl }}{% link glossary/g.md %}#game-tree
+[Gamma Distribution]: {{ site.baseurl }}{% link glossary/g.md %}#gamma-distribution
 [Gated Recurrent Unit Cell]: {{ site.baseurl }}{% link glossary/g.md %}#gated-recurrent-unit-cell
 [GRU Cell]: {{ site.baseurl }}{% link glossary/g.md %}#gated-recurrent-unit-cell
 [Gato Model]: {{ site.baseurl }}{% link glossary/g.md %}#gato-model
+[Gato]: {{ site.baseurl }}{% link glossary/g.md %}#gato-model
 [Gaussian Distribution]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-distribution
 [Gaussian Error Linear Unit Activation Function]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-error-linear-unit-activation-function
 [GELU Activation Function]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-error-linear-unit-activation-function
@@ -79,6 +81,7 @@
 [Google Lens]: {{ site.baseurl }}{% link glossary/g.md %}#google-lens
 [Google Translate Model]: {{ site.baseurl }}{% link glossary/g.md %}#google-translate-model
 [Gopher Model]: {{ site.baseurl }}{% link glossary/g.md %}#gopher-model
+[Gopher]: {{ site.baseurl }}{% link glossary/g.md %}#gopher-model
 [GPT Function Calling]: {{ site.baseurl }}{% link glossary/g.md %}#gpt-function-calling
 [GPU Instance]: {{ site.baseurl }}{% link glossary/g.md %}#gpu-instance
 [GPU Technology Conference]: {{ site.baseurl }}{% link glossary/g.md %}#gpu-technology-conference

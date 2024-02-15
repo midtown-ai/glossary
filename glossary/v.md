@@ -82,6 +82,13 @@ layout: page
  See also [V], ...
 
 
+# Vanilla
+
+ The most basic version of a model
+
+ See also [V], ...
+
+
 # Vanilla GAN
 
  The Vanilla GAN is the simplest type of GAN made up of the generator and discriminator , where the classification and generation of images is done by the generator and discriminator internally with the use of multi layer perceptrons. The generator captures the data distribution meanwhile , the discriminator tries to find the probability of the input belonging to a certain class, finally the feedback is sent to both the generator and discriminator after calculating the loss function , and hence the effort to minimize the loss comes into picture.
@@ -206,6 +213,10 @@ layout: page
 
  A vector database indexes and stores vector embeddings for fast retrieval and similarity search.
 
+ 2 types:
+  * bolt-on means you have a traditional DB (eg postgresql) and then the company added on a vector index (eg pgvector)
+  * purpose-built = a vector DB that is built oly for vectors
+
  Being able to search across images, video, text, audio, and other forms of unstructured data via their content rather than human-generated labels or tags is exactly what vector databases were meant to solve. When combined with powerful machine learning models, vector databases such as Milvus have the ability to revolutionize e-commerce solutions, recommendation systems, computer security, pharmaceuticals, and many other industries. A vector database is a fully managed, no-frills solution for storing, indexing, and searching across a massive dataset of unstructured data that leverages the power of embeddings from machine learning models. A vector database should have the following features:
   * scalability and tunability,
   * multi-tenancy and data isolation,
@@ -237,7 +248,10 @@ layout: page
 
  {% youtube "https://www.youtube.com/watch?v=dN0lsF2cvm4" %}
 
+ {% pdf "https://arxiv.org/pdf/2401.09350.pdf" %}
+
  More at:
+  * vector retrieval paper - [https://arxiv.org/abs/2401.09350](https://arxiv.org/abs/2401.09350)
   * [https://www.pinecone.io/learn/vector-database/](https://www.pinecone.io/learn/vector-database/)
   * article(s)A
     * [https://frankzliu.com/blog/a-gentle-introduction-to-vector-databases](https://frankzliu.com/blog/a-gentle-introduction-to-vector-databases)

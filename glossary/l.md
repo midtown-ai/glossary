@@ -191,15 +191,46 @@ completion = llm(prompt)
 
 # LangFlow Python Module
 
+ ~ used to build no-code LangChain applications
+
  LangFlow is an easy way to prototype [LangChain] flows. The drag-and-drop feature allows quick and effortless experimentation, while the built-in chat interface facilitates real-time interaction. It provides options to edit prompt parameters, create chains and agents, track thought processes, and export flows.
 
  {% youtube "https://www.youtube.com/watch?v=sC9SV06gsDM" %}
 
  {% youtube "https://www.youtube.com/watch?v=-D1EIbKVlz8" %}
 
+ Alternatives
+  * Flowise - JS based
+
  More at:
   * docs - [https://docs.langflow.org/](https://docs.langflow.org/)
   * huggin face space - [https://huggingface.co/spaces/Logspace/Langflow](https://huggingface.co/spaces/Logspace/Langflow)
+
+ See also [L], ...
+
+
+# LangGraph Python Module
+
+ The new way to run agent with [LangChain]
+
+ To build custom agents and more than just simple chains
+  * state graph
+  * nodes = chains or runnables/tools
+  * edges = wire everything together
+    * conditional edges = [LLM] decides which node to go to next (tools)
+  * compile the graph so you can then run the graph!
+
+ {% youtube "https://www.youtube.com/watch?v=PqS1kib7RTw" %}
+
+ More at:
+  * docs - [https://python.langchain.com/docs/langgraph](https://python.langchain.com/docs/langgraph)
+
+ See also [L], ...
+
+
+# LangServe Python Module
+
+ For one-click deployments of LangChain applications
 
  See also [L], ...
 

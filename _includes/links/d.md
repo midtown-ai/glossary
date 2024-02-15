@@ -35,12 +35,14 @@
 [Data Transformation]: {{ site.baseurl }}{% link glossary/d.md %}#data-transformation
 [Data Visualization]: {{ site.baseurl }}{% link glossary/d.md %}#data-visualization
 [Data Warehouse]: {{ site.baseurl }}{% link glossary/d.md %}#data-warehouse
+[Data Wrangling]: {{ site.baseurl }}{% link glossary/d.md %}#data-wrangling
 [Data-Centric AI]: {{ site.baseurl }}{% link glossary/d.md %}#data-centric-ai
 [DCAI]: {{ site.baseurl }}{% link glossary/d.md %}#data-centric-ai
 [DCAI]: {{ site.baseurl }}{% link glossary/d.md %}#data-centric-ai
 [Data2Vec Algorithm]: {{ site.baseurl }}{% link glossary/d.md %}#data2vec-algorithm
 [Data2Vec]: {{ site.baseurl }}{% link glossary/d.md %}#data2vec-algorithm
 [Dataset]: {{ site.baseurl }}{% link glossary/d.md %}#dataset
+[Datasets]: {{ site.baseurl }}{% link glossary/d.md %}#dataset
 [Dataset Bias]: {{ site.baseurl }}{% link glossary/d.md %}#dataset-bias
 [David Luan Person]: {{ site.baseurl }}{% link glossary/d.md %}#david-luan-person
 [David Luan]: {{ site.baseurl }}{% link glossary/d.md %}#david-luan-person
@@ -91,9 +93,12 @@
 [Deep Reinforcement Learning]: {{ site.baseurl }}{% link glossary/d.md %}#deep-reinforcement-learning
 [Deep RL]: {{ site.baseurl }}{% link glossary/d.md %}#deep-reinforcement-learning
 [DeepAR Forecasting]: {{ site.baseurl }}{% link glossary/d.md %}#deepar-forecasting
+[Deepfake]: {{ site.baseurl }}{% link glossary/d.md %}#deepfake
+[Deepfold Model]: {{ site.baseurl }}{% link glossary/d.md %}#deepfold-model
 [DeepMind Company]: {{ site.baseurl }}{% link glossary/d.md %}#deepmind-company
 [DeepMind]: {{ site.baseurl }}{% link glossary/d.md %}#deepmind-company
 [DeepNash Model]: {{ site.baseurl }}{% link glossary/d.md %}#deepnash-model
+[DeepNash]: {{ site.baseurl }}{% link glossary/d.md %}#deepnash-model
 [DeepSpeed Project]: {{ site.baseurl }}{% link glossary/d.md %}#deepspeed-project
 [DeepWalk]: {{ site.baseurl }}{% link glossary/d.md %}#deepwalk
 [Delayed Reward]: {{ site.baseurl }}{% link glossary/d.md %}#delayed-reward

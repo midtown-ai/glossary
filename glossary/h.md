@@ -174,6 +174,10 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
 # Hidden Markov Model
 # HMM
 
+ {% youtube "https://www.youtube.com/watch?v=kqSzLo9fenk" %}
+
+ {% youtube "https://www.youtube.com/watch?v=fX5bYmnHqqE" %}
+
  More at:
   * [https://en.wikipedia.org/wiki/Hidden_Markov_model ](https://en.wikipedia.org/wiki/Hidden_Markov_model )
 
@@ -401,6 +405,25 @@ def huber_loss(y_pred, y, delta=1.0):
  A robot that is meant to resemble a human.
 
  See also [H], [Robot]
+
+
+# Hybrid Artificial Intelligence
+# Hybrid AI
+
+ More at:
+  * [https://www.mckinsey.com/about-us/new-at-mckinsey-blog/hybrid-intelligence-the-future-of-artificial-intelligence](https://www.mckinsey.com/about-us/new-at-mckinsey-blog/hybrid-intelligence-the-future-of-artificial-intelligence)
+
+ See also [H], ...
+
+
+# Hybrid Artificial Intelligence System
+# Hybrid AI System
+
+ More at:
+  * articles
+    * [https://www.solulab.com/hybrid-ai/](https://www.solulab.com/hybrid-ai/)
+
+ See also [H], ...
 
 
 # Hype Cycle

@@ -31,6 +31,9 @@
 [Emotion]: {{site.baseurl }}{% link glossary/e.md %}#emotion
 [Emotions]: {{site.baseurl }}{% link glossary/e.md %}#emotion
 [Emotional Intelligence]: {{site.baseurl }}{% link glossary/e.md %}#emotional-intelligence
+[EI]: {{site.baseurl }}{% link glossary/e.md %}#emotional-intelligence
+[Emotional Intelligence Benchmark]: {{site.baseurl }}{% link glossary/e.md %}#emotional-intelligence-benchmark
+[EQ-Bench]: {{site.baseurl }}{% link glossary/e.md %}#emotional-intelligence-benchmark
 [Encoder]: {{site.baseurl }}{% link glossary/e.md %}#encoder
 [Encoders]: {{site.baseurl }}{% link glossary/e.md %}#encoder
 [Encoder Representation]: {{site.baseurl }}{% link glossary/e.md %}#encoder-representation

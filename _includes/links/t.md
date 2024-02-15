@@ -71,6 +71,8 @@
 [Transformer Architecture]: {{ site.baseurl }}{% link glossary/t.md %}#transformer-architecture
 [Transformer]: {{ site.baseurl }}{% link glossary/t.md %}#transformer-architecture
 [Translation]: {{ site.baseurl }}{% link glossary/t.md %}#translation
+[Transpose MAtrix]: {{ site.baseurl }}{% link glossary/t.md %}#transpose-matrix
+[Transpose]: {{ site.baseurl }}{% link glossary/t.md %}#transpose-matrix
 [Traveling Salesman Problem]: {{ site.baseurl }}{% link glossary/t.md %}#traveling-salesman-problem
 [Traveling Salesman]: {{ site.baseurl }}{% link glossary/t.md %}#traveling-salesman-problem
 [TSP]: {{ site.baseurl }}{% link glossary/t.md %}#traveling-salesman-problem

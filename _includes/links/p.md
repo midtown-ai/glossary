@@ -1,5 +1,6 @@
 [P]: {{ site.baseurl }}{% link glossary/p.md %}
 
+[Padding]: {{ site.baseurl}}{% link glossary/p.md %}#padding
 [Pandas Python Module]: {{ site.baseurl}}{% link glossary/p.md %}#pandas-python-module
 [Pandas]: {{ site.baseurl}}{% link glossary/p.md %}#pandas-python-module
 [Parameter]: {{ site.baseurl}}{% link glossary/p.md %}#parameter
@@ -27,6 +28,8 @@
 [Perceiver IO Model]: {{ site.baseurl}}{% link glossary/p.md %}#perceiver-io-model
 [Perceiver Model]: {{ site.baseurl}}{% link glossary/p.md %}#perceiver-model
 [Perceptron]: {{ site.baseurl}}{% link glossary/p.md %}#perceptron
+[Percy Lang Person]: {{ site.baseurl}}{% link glossary/p.md %}#percy-lang-person
+[Percy Lang]: {{ site.baseurl}}{% link glossary/p.md %}#percy-lang-person
 [Perfect Information]: {{ site.baseurl}}{% link glossary/p.md %}#perfect-information
 [Perplexity]: {{ site.baseurl}}{% link glossary/p.md %}#perplexity
 [PPL]: {{ site.baseurl}}{% link glossary/p.md %}#perplexity
@@ -46,8 +49,10 @@
 [Pixel Space]: {{ site.baseurl}}{% link glossary/p.md %}#pixel-space
 [Plagiarism Checker]: {{ site.baseurl}}{% link glossary/p.md %}#plagiarism-checker
 [Pluribus Model]: {{ site.baseurl}}{% link glossary/p.md %}#pluribus-model
+[Pluribus]: {{ site.baseurl}}{% link glossary/p.md %}#pluribus-model
 [Point Estimator]: {{ site.baseurl}}{% link glossary/p.md %}#point-estimator
 [Point-E Model]: {{ site.baseurl}}{% link glossary/p.md %}#point-e-model
+[Poisson Distribution]: {{ site.baseurl}}{% link glossary/p.md %}#poisson-distribution
 [Policy]: {{ site.baseurl}}{% link glossary/p.md %}#policy
 [Policy Evaluation]: {{ site.baseurl}}{% link glossary/p.md %}#policy-evaluation
 [Policy Function]: {{ site.baseurl}}{% link glossary/p.md %}#policy-function
@@ -94,6 +99,9 @@
 [Product Quantization]: {{ site.baseurl}}{% link glossary/p.md %}#product-quantization
 [Product Quantization Code]: {{ site.baseurl}}{% link glossary/p.md %}#product-quantization-code
 [PQ Code]: {{ site.baseurl}}{% link glossary/p.md %}#product-quantization-code
+[Program-Aided Language Model]: {{ site.baseurl}}{% link glossary/p.md %}#program-aided-language-model
+[PAL Model]: {{ site.baseurl}}{% link glossary/p.md %}#program-aided-language-model
+[PAL]: {{ site.baseurl}}{% link glossary/p.md %}#program-aided-language-model
 [Progressive Neural Network]: {{ site.baseurl}}{% link glossary/p.md %}#progressive-neural-network
 [Progressive Neural Networks]: {{ site.baseurl}}{% link glossary/p.md %}#progressive-neural-network
 [Prompt Engineering]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-engineering

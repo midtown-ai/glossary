@@ -322,7 +322,25 @@ Predict what are the required agent skills based some input parameters
 # Markov Chain Monte Carlo Algorithm
 # MCMC Algorithm
 
+ Bring [Markov Chain] and [Monte Carlo Methods] together!
+
+ * Markov Chain => Look at the previous sample and pick the next sample based on it
+ * Monte Carlo => simulate the Markov chain
+
+ {% youtube "https://www.youtube.com/watch?v=yApmR-c_hKU" %}
+
+ {% youtube "https://www.youtube.com/watch?v=CU_cudBDpLk" %}
+
+ {% youtube "https://www.youtube.com/watch?v=KmqTrm-bn8k" %}
+
  See also [M], ...
+
+
+# Markov Chain Stationary Distribution
+
+ {% youtube "https://www.youtube.com/watch?v=4sXiCxZDrTU" %}
+
+ See also [M], [Markov Chain]
 
 
 # Markov Decision Process
@@ -382,6 +400,8 @@ The training is identical -- we still predict each masked WordPiece token indepe
 
 # Massive Multitask Language Understanding Benchmark
 # MMLU Benchmark
+
+ ~ a measure of intelligence
 
  ~ a [benchmark] used to compare [large language models] on many [language understanding] tasks.
 
@@ -519,7 +539,6 @@ plt.show()
                                                      | 0 1 |
 			                             | 0 0 |
  ```
-  
 
  Special vectors:
   * [Eigenvectors][Eigenvector]: While every other vector deviates from their initial direction, the eigne vectors stay on their original lines despite the distortion from the matrix.
@@ -527,7 +546,13 @@ plt.show()
  Special values:
   * [Eigenvalues][Eigenvalue]: By how much the eigenvector is transformed on its original direction by the transformation
 
- See also [M], [Linear Transformation]
+  {% youtube "https://www.youtube.com/watch?v=hEQ6j0eRDtg" %}
+
+  {% youtube "https://www.youtube.com/watch?v=P8jRlZtGbYo" %}
+
+  {% youtube "https://www.youtube.com/watch?v=4csuTO7UTMo" %}
+
+ See also [M], [Linear Transformation], [Tensor], [Vector]
 
 
 # Matrix Composition
@@ -823,7 +848,7 @@ def mse_loss(y_pred, y_true):
 
  Models:
   * [CICERO] - Strategy game with multiplayer interaction
-  * [CM3lean] - text-to-image diffusion model
+  * [CM3leon] - text-to-image diffusion model
   * [ESMFold] - Protein folding
   * [Imagine](https://imagine.meta.com/) - a diffusion model
   * [LLaMA] - Large Language Model open-sourced
@@ -1129,6 +1154,14 @@ def mse_loss(y_pred, y_true):
   * site - [https://ml.energy/](https://ml.energy/)
   * blog - [https://ml.energy/blog/](https://ml.energy/blog/)
   * leaderboard - [https://ml.energy/leaderboard/](https://ml.energy/leaderboard/)
+
+ See also [M], ...
+
+
+# MLCommons
+
+ More at:
+  * [https://mlcommons.org/](https://mlcommons.org/)
 
  See also [M], ...
 
@@ -1749,15 +1782,38 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
  See also [M], [Dataset]
 
 
-# Modular Reasoning Knowledge and Language
-# MRLK
+# Modular Reasoning Knowledge and Language Agent
+# MRKL Agent
+
+ Several types:
+  * LLM embedded code or SQL queries in the returned response
+  * [ReAct Agent]
+  * [Program-aided Language Models (PAL)][PAL] 
+
+ More at:
+  * articles
+    * [https://learnprompting.org/docs/advanced_applications/mrkl](https://learnprompting.org/docs/advanced_applications/mrkl)
+    * [https://cobusgreyling.medium.com/create-a-mrkl-autonomous-agent-using-langchain-openai-serpapi-39664a514459](https://cobusgreyling.medium.com/create-a-mrkl-autonomous-agent-using-langchain-openai-serpapi-39664a514459)
+    * [https://python.langchain.com/docs/modules/agents/how_to/custom_agent](https://python.langchain.com/docs/modules/agents/how_to/custom_agent)
+
+ See also [M], [Modular Reasoning Knowledge and Language Architecture]
+
+
+# Modular Reasoning Knowledge and Language Architecture
+# MRKL Architecture
+
+ This architecture focuses on combining LLMs with external tools and reasoning processes. It's modular, meaning different components can be added or removed as needed. MRKL agents can use tools like search engines or databases to gather current or specialized information, and then apply reasoning to this information within the context of a language model's response.
+
+ While both MRKL and [Retrieval Augmented Generation (RAG)][RAG] aim to augment the capabilities of [LLMs] with external information, MRKL emphasizes a more modular approach that includes discrete reasoning and the use of various tools, whereas [RAG] focuses on integrating real-time retrieval of information into the generation process.
 
  {% pdf "https://arxiv.org/pdf/2205.00445.pdf" %}
 
  More at:
   * paper - [https://arxiv.org/abs/2205.00445](https://arxiv.org/abs/2205.00445)
+  * articles
+    * [https://cobusgreyling.medium.com/create-a-mrkl-autonomous-agent-using-langchain-openai-serpapi-39664a514459](https://cobusgreyling.medium.com/create-a-mrkl-autonomous-agent-using-langchain-openai-serpapi-39664a514459)
 
- See also [M], [ReACT Prompting]
+ See also [M], [MRKL Autonomous Agent], [ReACT Prompting]
 
 
 # Monte Carlo Control
@@ -1790,6 +1846,14 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
 
 # Monte Carlo Method
 
+ ~ simulate 1 million experiments to get statistics!
+
+ :warning: Not always fast!
+
+ :warning: not interpretable, but find a numerical result!
+
+ :warning: not generalizable, if you change the input parameters, you need to rerun the simulation to get the result. From one result, you cannot deduce the others from one previous result.
+
  Monte Carlo methods are a broad class of computational algorithms that rely on repeated random sampling to obtain numerical results. The underlying concept is to use randomness to solve problems that might be deterministic in principle. They are particularly useful in three main areas:
   * Mathematical Integration: Monte Carlo methods are used to approximate the value of integrals, especially when dealing with high-dimensional spaces where traditional integration techniques become infeasible.
   * Optimization: These methods are useful in finding optimal solutions in various fields, such as finance and logistics, where the solution space is large and complex.
@@ -1810,6 +1874,8 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
   * Particle Filters: Used in signal processing and Bayesian inference, these methods involve representing the required probability distribution by a set of random samples (particles) and updating these samples over time.
 
  Each of these methods applies the core principle of Monte Carlo — using randomness and statistical sampling to solve problems that might be deterministic but are too complex for analytical solutions.
+
+ {% youtube "https://www.youtube.com/watch?v=EaR3C4e600k" %}
 
  See also [M], ...
 
@@ -1978,6 +2044,16 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
   * do not trigger road rage of other driver
 
  See also [M], [Reinforcement Learning]
+
+
+# Multidimensional Scaling
+# MDS
+
+ ~ a dimensionality reduction technique
+
+ {% youtube "https://www.youtube.com/watch?v=VKSJayDi_lQ" %}
+
+ See alse [M], ...
 
 
 # Multilayer Perceptron

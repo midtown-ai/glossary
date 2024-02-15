@@ -29,6 +29,11 @@ layout: page
 {% include links/all.md %}
 
 
+# Padding
+
+ See also [P], [Convolutional Neural Network], [U-Net Architecture]
+
+
 # Pandas Python Module
 
  A [Python module] for importing, transforming, and working with tabular data
@@ -208,9 +213,11 @@ layout: page
   * [Geoffrey Hinton] - Lead his student with [AlexNet], a godfather of AI and [Deep Learning]. Turing award in 2018.
   * [Greg Brockman] - Co-founder of [OpenAI]
   * [Ilya Sutskever] - Co-founder of [OpenAI]
+  * [Kai-Fu Lee] - Microsoft, Google, [01 AI]
   * [Mark Zuckerberg] - Founder and CEO of [Meta]
   * [Mira Murati] - Interim CEO of [OpenAI] during Sam's ouster!
   * [Mustafa Suleyman] - co-founder of [DeepMind] and founder of [Inflection AI]
+  * [Percy Liang] - director of LLM research at Stanford
   * [Sam Altman] - CEO of [OpenAI]
   * [Shane Legg] - co-founder of [DeepMind]
   * [Sundar Pichai] - CEO of Alphabet/[Google]
@@ -274,6 +281,13 @@ layout: page
   * inventor - [https://en.wikipedia.org/wiki/Frank_Rosenblatt](https://en.wikipedia.org/wiki/Frank_Rosenblatt)
   * projects
     * code - [https://subhashhalder.com/posts/machine-learning-hello-world/](https://subhashhalder.com/posts/machine-learning-hello-world/)
+
+ See also [P], ...
+
+
+# Percy Liang Person
+
+ {% youtube "https://www.youtube.com/watch?v=DzIPBGRhOMQ" %}
 
  See also [P], ...
 
@@ -492,6 +506,17 @@ layout: page
  See also [P], [CLIP Model], [DALL-E Model], [DreamFusion Model]
 
 
+# Poisson Distribution
+
+ * number of calls in a 1h period
+ * number of events in a specified period
+ * events must be dependent
+
+ {% youtube "https://www.youtube.com/watch?v=67PgnWrOxss" %}
+
+ See also [P], [Distribution]
+
+
 # Policy
 
  Policy refers to the strategy the agent follows to determine the next action based on current state. The policy may look like a lookup table, a simple function, or it may involve extensive computation such as a search process. Also, the policy alone is sufficient to determine the agent’s behavior.
@@ -685,6 +710,8 @@ PSI ≥ 0.25: Suggests a major shift in the population, indicating that the mode
 # Pose Estimation
 
  Can be estimated by [YOLO models][YOLO Model]
+
+ {% youtube "https://www.youtube.com/watch?v=Y28xXQmju64" %}
 
  More at:
   * [https://docs.ultralytics.com/tasks/pose/](https://docs.ultralytics.com/tasks/pose/)
@@ -1092,6 +1119,27 @@ Prediction Error = actual_value - predicted_value
  See also [P], [Product Quantization]
 
 
+# Program-Aided Language Model
+# PAL Model
+
+ Program-aided Language Models (PAL)1 are another example of a MRKL system. When given a question, PALs are able to write code that solves this question. They send the code to a programmatic runtime to get the result. PAL works in contrast to CoT; PAL's intermediate reasoning is code, while CoT's is natural language.
+
+ Large language models (LLMs) have recently demonstrated an impressive ability to perform arithmetic and symbolic reasoning tasks, when provided with a few examples at test time ("few-shot prompting"). Much of this success can be attributed to prompting methods such as "chain-of-thought'', which employ LLMs for both understanding the problem description by decomposing it into steps, as well as solving each step of the problem. While LLMs seem to be adept at this sort of step-by-step decomposition, LLMs often make logical and arithmetic mistakes in the solution part, even when the problem is decomposed correctly. In this paper, we present Program-Aided Language models (PAL): a novel approach that uses the LLM to read natural language problems and generate programs as the intermediate reasoning steps, but offloads the solution step to a runtime such as a Python interpreter. With PAL, decomposing the natural language problem into runnable steps remains the only learning task for the LLM, while solving is delegated to the interpreter. We demonstrate this synergy between a neural LLM and a symbolic interpreter across 13 mathematical, symbolic, and algorithmic reasoning tasks from BIG-Bench Hard and other benchmarks. In all these natural language reasoning tasks, generating code using an LLM and reasoning using a Python interpreter leads to more accurate results than much larger models. For example, PAL using Codex achieves state-of-the-art few-shot accuracy on the GSM8K benchmark of math word problems, surpassing PaLM-540B which uses chain-of-thought by absolute 15% top-1.
+
+ ![]( {{site.assets}}/p/program_aided_language_model.png ){: width="100%"}
+
+ {% pdf "https://arxiv.org/pdf/2211.10435.pdf" %}
+
+ More at:
+  * site - [https://reasonwithpal.com/(https://reasonwithpal.com/)
+  * paper - [https://arxiv.org/abs/2211.10435](https://arxiv.org/abs/2211.10435)
+  * code - [https://github.com/reasoning-machines/pal](https://github.com/reasoning-machines/pal)
+  * articles
+    * [https://learnprompting.org/docs/advanced_applications/pal](https://learnprompting.org/docs/advanced_applications/pal)
+
+ See also [P], [MRKL Agent]
+
+
 # Progressive Neural Network
 
  ~ an approach to solve [catastrophic forgetting]
@@ -1128,6 +1176,7 @@ Prediction Error = actual_value - predicted_value
   * Guide to prompt engineering - [https://www.promptingguide.ai/](https://www.promptingguide.ai/)
   * Promptbase to buy or sell prompts - [https://promptbase.com/](https://promptbase.com/)
   * Prompthub.us - [https://www.prompthub.us/](https://www.prompthub.us/)
+  * lean prompting - [https://learnprompting.org/docs/advanced_applications/mrkl](https://learnprompting.org/docs/advanced_applications/mrkl)
 
  See also [P], [ChatGPT Model], [DALL-E Model]
 
@@ -1301,7 +1350,11 @@ referenced_image_ids?: string[],
 # Proximal Policy Optimization Algorithm
 # PPO Algorithm
 
+ ~ momentum ... with [clipping]
+
  We propose a new family of policy gradient methods for [reinforcement learning], which alternate between sampling data through interaction with the environment, and optimizing a "surrogate" objective function using stochastic gradient ascent. Whereas standard policy gradient methods perform one gradient update per data sample, we propose a novel objective function that enables multiple epochs of minibatch updates. The new methods, which we call proximal policy optimization (PPO), have some of the benefits of trust region policy optimization (TRPO), but they are much simpler to implement, more general, and have better sample complexity (empirically). Our experiments test PPO on a collection of benchmark tasks, including simulated robotic locomotion and Atari game playing, and we show that PPO outperforms other online policy gradient methods, and overall strikes a favorable balance between sample complexity, simplicity, and wall-time.
+
+ {% youtube "https://www.youtube.com/watch?v=TjHH_--7l8g" %}
 
  {% youtube "https://www.youtube.com/watch?v=HrapVFNBN64" %}
 
@@ -1458,8 +1511,10 @@ print(user.model_dump())
   * [JAX] - 
   * [Joblib] - to save models in files
   * [LangChain] - LLMOps!
-    * [LangFlow] - 
-    * [LangSmith] - 
+    * [LangFlow] - A UI for LangChain
+    * [LangGraph] - State machine for agents
+    * [LangServe] - One-click deployment of LangChain apps
+    * [LangSmith] - Trace and evaluate your language model applications and intelligent agents  
   * [Llamaindex] - 
   * [Matplotlib] - for visualization
   * [Numpy] -
@@ -1515,6 +1570,10 @@ print(user.model_dump())
  More at:
   * paper - [https://arxiv.org/abs/1912.01703](https://arxiv.org/abs/1912.01703)
   * tutorials - [https://pytorch.org/tutorials/](https://pytorch.org/tutorials/)
+  * colab - [https://colab.research.google.com/drive/1aES8-a557WU6XkHqjEtVkeDm1Ww8ZWFT](https://colab.research.google.com/drive/1aES8-a557WU6XkHqjEtVkeDm1Ww8ZWFT)
+  * articles
+    * transformer with PyT - [https://www.datacamp.com/tutorial/building-a-transformer-with-py-torch](https://www.datacamp.com/tutorial/building-a-transformer-with-py-torch)
+    * same - [https://hyugen-ai.medium.com/transformers-in-pytorch-from-scratch-for-nlp-beginners-ff3b3d922ef7](https://hyugen-ai.medium.com/transformers-in-pytorch-from-scratch-for-nlp-beginners-ff3b3d922ef7)
 
  See also [P], [Deep Learning Framework], [Machine Learning Framework]
 

@@ -102,7 +102,7 @@ print(I[-5:])                  # neighbors of the 5 last queries
   * [https://mostly.ai/blog/we-want-fair-ai-algorithms-but-how-to-define-fairness](https://mostly.ai/blog/we-want-fair-ai-algorithms-but-how-to-define-fairness)
   * Fair synthetic data generation - [https://mostly.ai/blog/diving-deep-into-fair-synthetic-data-generation-fairness-series-part-5](https://mostly.ai/blog/diving-deep-into-fair-synthetic-data-generation-fairness-series-part-5)
 
- See also [F], ...
+ See also [F], [Algorithmic Amplification]
 
 
 # FAIRSEQ Toolkit
@@ -844,6 +844,18 @@ if __name__ == '__main__':
   * Ahttps://en.wikipedia.org/wiki/Flow-based_generative_model](https://en.wikipedia.org/wiki/Flow-based_generative_model)
  
  See also [F], [Generative Model]
+
+
+# Folded Recurrent Neural Network
+# Folded RNN
+
+ A realistic but difficult to understand representation of the [RNN] architecture.
+ Another representation easier to understand is called the [unfolded RNN]
+
+ More at:
+  * ...
+
+ See also [F], ...
 
 
 # For Stress-Testing Machine Theory Of Mind Benchmark

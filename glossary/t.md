@@ -738,9 +738,13 @@ Desired Output --> |     Training     | --> Model
 
  {% youtube "https://www.youtube.com/watch?v=g2BRIuln4uc" %}
 
+ {% pdf "https://arxiv.org/pdf/2302.07730.pdf" %}
+
  More at:
   * paper - 
+    * transformer catalog - [https://arxiv.org/abs/2302.07730](https://arxiv.org/abs/2302.07730)
   * code explanation - [https://nlp.seas.harvard.edu/annotated-transformer/](https://nlp.seas.harvard.edu/annotated-transformer/)
+  * transformer in pytorch - [https://www.datacamp.com/tutorial/building-a-transformer-with-py-torch](https://www.datacamp.com/tutorial/building-a-transformer-with-py-torch)
   * Articles
     * [https://venturebeat.com/business/why-transformers-offer-more-than-meets-the-eye/](https://venturebeat.com/business/why-transformers-offer-more-than-meets-the-eye/)
     * explanation - [http://jalammar.github.io/illustrated-transformer/](http://jalammar.github.io/illustrated-transformer/)
@@ -755,6 +759,15 @@ Desired Output --> |     Training     | --> Model
 # Translation
 
  See also [T], [Emergent Ability]
+
+
+# Transpose Matrix
+
+ A matrix that represent a reverse linear transformation (?) (no, because would be A^-1 ?)
+
+ {% youtube "https://www.youtube.com/watch?v=g4ecBFmvAYU" %}
+
+ See also [T], ...
 
 
 # Traveling Salesman Problem

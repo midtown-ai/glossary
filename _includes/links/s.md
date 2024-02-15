@@ -4,6 +4,9 @@
 [Sam Altman]: {{ site.baseurl}}{% link glossary/s.md %}#sam-altman-person
 [Sample]: {{ site.baseurl}}{% link glossary/s.md %}#sample
 [Sample Efficiency]: {{ site.baseurl}}{% link glossary/s.md %}#sample-efficiency
+[Sample Efficient Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#sample-efficiency-algorithm
+[Sample Efficient Reinforcement Learning Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#sample-efficient-reinforcement-learning-algorithm
+[Sample Efficient RL Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#sample-efficient-reinforcement-learning-algorithm
 [Sampling Error]: {{ site.baseurl}}{% link glossary/s.md %}#sampling-error
 [Sampling Method]: {{ site.baseurl}}{% link glossary/s.md %}#sampling-method
 [Scale AI Company]: {{ site.baseurl}}{% link glossary/s.md %}#scale-ai-company
@@ -28,6 +31,7 @@
 [Segformer Model]: {{ site.baseurl}}{% link glossary/s.md %}#segformer-model
 [Segformer]: {{ site.baseurl}}{% link glossary/s.md %}#segformer-model
 [Segment Anything Model]: {{ site.baseurl}}{% link glossary/s.md %}#segment-anything-model
+[Segment Anything]: {{ site.baseurl}}{% link glossary/s.md %}#segment-anything-model
 [SAM]: {{ site.baseurl}}{% link glossary/s.md %}#segment-anything-model
 [Self-Attention]: {{ site.baseurl}}{% link glossary/s.md %}#self-attention
 [Self-Consistency Prompting]: {{ site.baseurl}}{% link glossary/s.md %}#self-consistency-prompting
@@ -132,7 +136,9 @@
 [Software Development Life Cycle]: {{ site.baseurl}}{% link glossary/s.md %}#software-development-life-cycle
 [SDLC]: {{ site.baseurl}}{% link glossary/s.md %}#software-development-life-cycle
 [Software Development Life Cycle Agent]: {{ site.baseurl}}{% link glossary/s.md %}#software-development-life-cycle-agent
+[Software Development Life Cycle Agents]: {{ site.baseurl}}{% link glossary/s.md %}#software-development-life-cycle-agent
 [SDLC Agent]: {{ site.baseurl}}{% link glossary/s.md %}#software-development-lifecycle-agent
+[SDLC Agents]: {{ site.baseurl}}{% link glossary/s.md %}#software-development-lifecycle-agent
 [Sophia Robot]: {{ site.baseurl}}{% link glossary/s.md %}#sophia-robot
 [Sound Analysis]: {{ site.baseurl}}{% link glossary/s.md %}#sound-analysis
 [Soul Machine Company]: {{ site.baseurl}}{% link glossary/s.md %}#soul-machine-company
@@ -141,6 +147,7 @@
 [Spam Detection]: {{ site.baseurl}}{% link glossary/s.md %}#spam-detection
 [Space]: {{ site.baseurl}}{% link glossary/s.md %}#space
 [Sparrow Model]: {{ site.baseurl}}{% link glossary/s.md %}#sparrow-model
+[Sparrow]: {{ site.baseurl}}{% link glossary/s.md %}#sparrow-model
 [Sparse Activation]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-activation
 [Sparse Matrix]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-matrix
 [Sparse Mixture-Of-Experts Architecture]: {{ site.baseurl}}{% link glossary/s.md %}#sparse-mixture-of-experts-architecture

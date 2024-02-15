@@ -181,9 +181,10 @@ R-square = R^2 = -------------------------------------
 
  More at:
   * site - [https://react-lm.github.io/](https://react-lm.github.io/)
-  * [https://www.promptingguide.ai/techniques/react](https://www.promptingguide.ai/techniques/react)
   * paper - [https://arxiv.org/abs/2210.03629](https://arxiv.org/abs/2210.03629)
   * articles
+    * [https://www.promptingguide.ai/techniques/react](https://www.promptingguide.ai/techniques/react)
+    * [https://learnprompting.org/docs/advanced_applications/react](https://learnprompting.org/docs/advanced_applications/react)
     * [https://blog.research.google/2022/11/react-synergizing-reasoning-and-acting.html](https://blog.research.google/2022/11/react-synergizing-reasoning-and-acting.html)
     * [https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/](https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/)
 
@@ -391,9 +392,9 @@ Recall = % of positively identified
 
  ![]( {{site.assets}}/r/recurrent_neural_network_repeating_module.png ){: width="100%"}
 
- [Neural networks][Neural Network] will "loops" that are optimized for speech recognition, language modeling, translation. Essential to these successes is the use of “LSTMs,” a very special kind of recurrent neural network which works, for many tasks, much much better than the standard version. Almost all exciting results based on recurrent neural networks are achieved with them.
+ [Neural networks] will "loops" that are optimized for speech recognition, language modeling, translation. Essential to these successes is the use of “LSTMs,” a very special kind of recurrent neural network which works, for many tasks, much much better than the standard version. Almost all exciting results based on recurrent neural networks are achieved with them.
 
- :warning: Can or cannot use [backpropagation]? Yes, can !
+ :warning: Can or cannot use [backpropagation]? Yes, can use [backpropagation through time] !
 
  ![]( {{site.assets}}/r/recurrent_neural_network_cells.png ){: width="100%"}
 
@@ -408,17 +409,22 @@ Recall = % of positively identified
   * The most modern RNN uses [Long-Short Term Memory (LSTM)][LSTM Cell] or [Gated Recurrent Unit (GRU)][GRU Cell] cells
   * Memory = hidden state (output of previous stage) ?
 
-Beware:
+ Beware:
   * RNN are now deprecated by attention-based models such as those based on the [transformer architecture]
   * deprecated previous approach using [bag of words] and [word2vec]
   * deprecated by [attention-based models]
+  * RNN use [backpropagation though time] instead of 'normal' [backpropagation]
+
+ {% youtube "https://www.youtube.com/watch?v=DFZ1UA7-fxY" %}
+
+ {% youtube "https://www.youtube.com/watch?v=DFZ1UA7-fxY" %}
 
  {% youtube "https://www.youtube.com/watch?v=AsNTP8Kwu80" %}
 
  More at:
   * keras and RNN - [https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177](https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177)
 
- See also [R], [Bidirectional Recurrent Neural Network], [Feedforward Neural Network], [Hidden State], [Long Short-Term Memory Network], [Pixel RNN]
+ See also [R], [Bidirectional RNN], [Folded RNN], [Feedforward Neural Network], [Hidden State], [Long Short-Term Memory Network], [Pixel RNN], [Unfolded RNN], [Vanishing Gradient]
 
 
 # Red Teaming
@@ -701,9 +707,15 @@ Beware:
 
 
 # Reinforcement Learning From AI Feedback
-# RHAIF
+# RLAIF
 
  ~ popularized by [Anthropic] as a play on word on [RLHF]. Similar to [constitutional AI]
+
+ {% pdf "https://arxiv.org/pdf/2212.08073.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2212.08073](https://arxiv.org/abs/2212.08073)
+  * constitutional AI - [https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback](https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback)
 
  See also [F], ...
 
@@ -722,9 +734,11 @@ Beware:
     * [https://arxiv.org/abs/2203.02155](https://arxiv.org/abs/2203.02155)
     * [https://arxiv.org/abs/1706.03741](https://arxiv.org/abs/1706.03741)
   * [https://huggingface.co/blog/rlhf](https://huggingface.co/blog/rlhf)
-  * RLHF is flawed? - [https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the](https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the)
-  * challenges - [https://bdtechtalks.com/2023/09/04/rlhf-limitations/](https://bdtechtalks.com/2023/09/04/rlhf-limitations/)
-  * instructGPT - [https://tmmtt.medium.com/the-instructgpt-e25797d8f4df](https://tmmtt.medium.com/the-instructgpt-e25797d8f4df)
+  * articles
+    * RLHF is flawed? - [https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the](https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the)
+    * challenges - [https://bdtechtalks.com/2023/09/04/rlhf-limitations/](https://bdtechtalks.com/2023/09/04/rlhf-limitations/)
+    * instructGPT - [https://tmmtt.medium.com/the-instructgpt-e25797d8f4df](https://tmmtt.medium.com/the-instructgpt-e25797d8f4df)
+    * what is RLHF - [https://bdtechtalks.com/2023/01/16/what-is-rlhf/](https://bdtechtalks.com/2023/01/16/what-is-rlhf/)
 
  See also [R], [ChatGPT Model], [Feedback-Based Learning], [InstructGPT Model], [Reinforcement Learning], 
 
@@ -995,6 +1009,9 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
 # Restricted Boltzmann Machine
 # RBM
 
+ * Visible layer = what we observe
+ * hidden layer = what we cannot see
+
  In a full Boltzmann machine, each node is connected to every other node and hence the connections grow exponentially. This is the reason we use RBMs. The restrictions in the node connections in RBMs are as follows:
    * Hidden nodes cannot be connected to one another.
    * Visible nodes connected to one another.
@@ -1021,20 +1038,29 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 
  ![]( {{site.assets}}/r/restricted_boltzmann_machine.jpeg ){: width="100%"}
 
+ {% youtube "https://www.youtube.com/watch?v=Fkw0_aAtwIw" %}
+
  See also [R], [Boltzmann Machine]
 
 
-# Retrieval-Augmented Generation
-# RAG
+# Retrieval-Augmented Generation Architecture
+# RAG Architecture
 
  ~ A LLM that works with a [retriever]
+
+ Fields:
+  * Document ID (DOI)   <== used for deletion, not for query
+  * Chunk ID (chunk id)
+  * metadata <== delete on metadata not available in pinecone serverless
+  * vector ID (ID)
+    * prefix = field constructed for filtering (a bit like metadata) ex: <DOI>#<chunk-ID># ...
 
  Retrieval-augmented generation is a technique used in [natural language processing] that combines the power of both [retrieval models] and [generative models] to enhance the quality and relevance of generated text.
 
  Now, retrieval-augmented generation combines these two approaches to overcome their individual limitations. In this framework, a retrieval model is used to retrieve relevant information from a knowledge base or a set of documents based on a given query or context. The retrieved information is then used as input or additional context for the generative model.
 
  There are 2 components in RAGs:
-  * [RAG Retriever] or reader component
+  * [RAG Retriever] or reader componentbased on [vector retrieval]
   * [RAG Generator] or writer component
 
  Current evaluation frameworks:
@@ -1053,7 +1079,7 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  More at:
   * [https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79](https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79)
 
- See also [R], ...
+ See also [R], [Modular Reasoning Knowledge and Language Architecture]
 
 
 # Retrieval-Augmented Generation Assessment
@@ -1068,9 +1094,36 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 
  When evaluating a RAG pipeline, you must evaluate both components separately and together to understand if and where the RAG pipeline still needs improvement. Additionally, to understand whether your RAG application’s performance is improving, you must evaluate it quantitatively. For this, you will need two ingredients: An evaluation metric and an evaluation dataset.
 
+ Test for:
+ * Retrieval Quality
+   * Relevance
+   * Diversity
+ * Test hallucinations
+   * noise robustness - which useful info to extract from documents to provide useful response
+   * Negative rejection - when the LLM/RAG does not know the answer
+   * Information integration - the answer is in multiple documents
+   * Counterfactual robustness - when documents contain errors
+   * Unclear queries - query is sequence of words that does not make any sense!
+ * Privacy breaches
+ * Malicious use
+   * Illegal activities
+   * create harmful content
+   * Inquiry about harmful activities
+ * Security breaches
+   * Emotional manipulation
+   * Prefix injection
+   * Refusal suppression
+   * Mismatched generation
+ * Out-of-domain questions
+ * Test for completeness
+ * Test for brand damage
+
+
+
  More at:
   * articles
     * [https://towardsdatascience.com/evaluating-rag-applications-with-ragas-81d67b0ee31a](https://towardsdatascience.com/evaluating-rag-applications-with-ragas-81d67b0ee31a)
+    * [https://www.rungalileo.io/blog/mastering-rag-8-scenarios-to-test-before-going-to-production](https://www.rungalileo.io/blog/mastering-rag-8-scenarios-to-test-before-going-to-production)
 
  See also [R], ...
 

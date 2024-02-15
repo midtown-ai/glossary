@@ -64,6 +64,15 @@ layout: page
  See also [G], ...
 
 
+# Gamma Distribution
+
+ Continuous distribution based on a Poisson process (independent events)
+
+ {% youtube "https://www.youtube.com/watch?v=cpW40zPdAQ8" %}
+
+ See also [G], [Distribution]
+
+
 # Gated Recurrent Unit Cell
 # GRU Cell
 
@@ -149,6 +158,7 @@ output = m(input)
  Built by [Google] using [PaLM] to compete with the multimodal [GPT-4V model]
 
  More at:
+  * announcement - [https://deepmind.google/technologies/gemini/#introduction](https://deepmind.google/technologies/gemini/#introduction)
   * Articles
     * [https://aibusiness.com/companies/google-doubles-down-on-ai-launches-new-language-model-and-ai-tools](https://aibusiness.com/companies/google-doubles-down-on-ai-launches-new-language-model-and-ai-tools)
     * [https://www.wired.com/story/google-deepmind-demis-hassabis-chatgpt/](https://www.wired.com/story/google-deepmind-demis-hassabis-chatgpt/)
@@ -640,6 +650,7 @@ print("ga_output: ", ga_output)
  {% youtube "https://www.youtube.com/watch?v=X5iLF-cszu0&t=611s" %}
 
  More at:
+  * research blog - [https://blog.research.google/](https://blog.research.google/)
   * Google IO 2023 - [https://blog.google/technology/developers/google-io-2023-100-announcements/](https://blog.google/technology/developers/google-io-2023-100-announcements/)
 
  See also [G], [Company]
@@ -716,6 +727,8 @@ print("ga_output: ", ga_output)
 # GSM8K Dataset
 
  GSM8K is a dataset of 8.5K high quality linguistically diverse grade school math word problems created by human problem writers and financed by [OpenAI]. The dataset is segmented into 7.5K training problems and 1K test problems. These problems take between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations (+ − ×÷) to reach the final answer. A bright middle school student should be able to solve every problem. It can be used for multi-step mathematical reasoning.
+
+ {% pdf "https://arxiv.org/pdf/2110.14168.pdf" %}
 
  More at
   * research and samples - [https://openai.com/research/solving-math-word-problems](https://openai.com/research/solving-math-word-problems)

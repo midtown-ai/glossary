@@ -301,10 +301,12 @@ layout: page
  {% youtube "https://www.youtube.com/watch?v=bQuVLKn10do" %}
 
  More at:
-  * emergent
-    * paper - [https://arxiv.org/abs/2206.07682](https://arxiv.org/abs/2206.07682)
-  * not emergent
-    * paper - [https://arxiv.org/abs/2304.15004](https://arxiv.org/abs/2304.15004)
+  * paper 
+    * emergent paper - [https://arxiv.org/abs/2206.07682](https://arxiv.org/abs/2206.07682)
+    * not emergent paper - [https://arxiv.org/abs/2304.15004](https://arxiv.org/abs/2304.15004)
+  * openreview - [https://openreview.net/forum?id=yzkSU5zdwD](https://openreview.net/forum?id=yzkSU5zdwD)
+  * articles
+    * [https://www.jasonwei.net/blog/emergence](https://www.jasonwei.net/blog/emergence)
 
  See also [E], [BIG Bench], [Emergent Ability Distillation], [GPT Model], [Large Language Model]
 
@@ -333,7 +335,6 @@ Research on emotion has increased over the past two decades with many fields con
  See also [E], [Emotional Intelligence], [Feeling]
 
 # Emotional Intelligence
-
 # EI
 
  Emotional intelligence (EI) is most often defined as the ability to perceive, use, understand, manage, and handle [emotions][Emotion]. People with high emotional intelligence can recognize their own emotions and those of others, use emotional information to guide thinking and behavior, discern between different feelings and label them appropriately, and adjust emotions to adapt to environments. Although the term first appeared in 1964, it gained popularity in the 1995 best-selling book Emotional Intelligence, written by science journalist Daniel Goleman.
@@ -341,10 +342,24 @@ Research on emotion has increased over the past two decades with many fields con
  More at:
   * Book - [https://www.amazon.com/Emotional-Intelligence-Matter-More-Than/dp/055338371X](https://www.amazon.com/Emotional-Intelligence-Matter-More-Than/dp/055338371X)
 
- 
+ See also [E], [Affective Computing], [Emotional Intelligence Benchmark]
 
 
- See also [E], [Affective Computing]
+# Emotional Intelligence Benchmark
+# EQ-Bench
+
+ A [benchmark] to measure LLM's [emotional intelligence]
+
+ {% pdf "https://arxiv.org/pdf/2312.06281.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2312.06281](https://arxiv.org/abs/2312.06281)
+  * code - [https://github.com/EQ-bench/EQ-Bench](https://github.com/EQ-bench/EQ-Bench)
+  * leaderboard - [https://eqbench.com/](https://eqbench.com/)
+  * articles
+    * source - [https://twitter.com/N8Programs/status/1752441060133892503](https://twitter.com/N8Programs/status/1752441060133892503)
+
+ See also [E], ...
 
 
 # Encoder
@@ -612,7 +627,9 @@ In the context of DeepRacer, an episode refers to a single complete race around 
 
  The ideal number of epochs involves stopping after the validation loss has plateaued - this indicates the model has fit the training data as well as possible without overfitting. The exact number depends on the size and complexity of the dataset and model. Setting up early stopping callbacks helps prevent both [underfitting] and [overfitting].
 
- See also [E], [Gradient Descent Algorithm]
+ {% youtube "https://www.youtube.com/watch?v=BvqerWSp1_s" %}
+
+ See also [E], [Batch], [Gradient Descent Algorithm], [Mini-Batch]
 
 
 # Epsilon-Greedy Exploration Strategy
@@ -655,7 +672,6 @@ In the context of DeepRacer, an episode refers to a single complete race around 
 
 
 # Equivalence Class Clustering And Bottom-Up Lattice Traversal Algorithm
-
 # ECLAT Algorithm
 
  ~ an [unsupervised learning] method that is classified as a [association rule learning] ...

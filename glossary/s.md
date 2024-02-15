@@ -73,6 +73,13 @@ layout: page
  See also [S], [Learning Velocity], [Scaling Law]
 
 
+# Sample Efficient Algorithm
+
+ * [Sample Efficient RL Algorithms]
+
+ See also [S], ...
+
+
 # Sample Efficient Reinforcement Learning Algorithm
 # Sample Efficient RL Algorithm
 
@@ -1213,6 +1220,8 @@ Social robots also work as concierges in hotels and other settings like malls, w
 
  ![]( {{site.assets}}/s/softmax_function.png ){: width="100%}
 
+ {% youtube "https://www.youtube.com/watch?v=8ps_JEW42xs" %}
+
  {% youtube "https://www.youtube.com/watch?v=KpKog-L9veg" %}
 
  {% youtube "https://www.youtube.com/watch?v=M59JElEPgIg" %}
@@ -1856,11 +1865,13 @@ II n summary, probability is focused on the theoretical study of random events, 
 
 # Streamlit
 
- Morea t:
-  * [https://streamlit.io/gallery](https://streamlit.io/gallery)
-  * [https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145](https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145)
+ More at:
+  * site - [https://streamlit.io/](https://streamlit.io/)
+  * gallery - [https://streamlit.io/gallery](https://streamlit.io/gallery)
+  * articles
+    * [https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145](https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145)
 
- SEe also [S], ...
+ See also [S], ...
 
 
 # Stretch Robot

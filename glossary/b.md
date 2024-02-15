@@ -96,6 +96,32 @@ layout: page
  See also [B], [Activation Function], [Derivative Chain Rule], [Feedforward Neural Network], [Loss Function], [Neural Network], [Vanishing Gradient Problem], [Variational Autoencoder Reparametrization Trick]
 
 
+# Backpropagation Through Time
+
+ [Backpropagation] is also used with [Recurrent Neural Netowkr (RNN)][RNN]
+
+ {% youtube "https://www.youtube.com/watch?v=0XdPIqi0qpg" %}
+
+ More at:
+  * ...
+
+ See also [B], ...
+
+
+# Backtesting
+
+ ~ [cross-validation] on historical data
+
+ Try a strategy on a past period to see what would have been the output of my model. For example, to be used in finance applications.
+
+ {% youtube "https://www.youtube.com/watch?v=V2qAHYmDqpY" %}
+
+ More at:
+  * ...
+
+ See also [B], ...
+
+
 # Bag Of Words
 # BoW
 
@@ -156,7 +182,7 @@ layout: page
 
 # Batch 
 
- When the training dataset is large, it needs to be broken into chunks called batch. Each batch is then used to build the model.
+ A batch represents all the samples in a dataset. When the training dataset is large, it needs to be broken into chunks called [mini-batches].
 
  ![]( {{site.assets}}/b/epoch_batch_iteration.png ){: width="100%"}
 
@@ -531,6 +557,7 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
  Psychoanalysis
   * [FANToM] - stress-testing machine theory of mind in interactions
+  * [EQ-Bench] - emotional intelligence benchmark
 
  All of those are included in the [HELM Benchmark]
 
@@ -578,6 +605,30 @@ Your belief has shifted towards more red marbles based on the observed data. The
  See also [B], [Bidirectional Encoder Representations from Transformer Model]
 
 
+# Beta Distribution
+
+ A popular [distribution] that models a probability of a probability
+
+ * value is between 0 and 1
+ * mean is close to sample proportion
+ * std to be ...
+
+ 2 parameters
+  * alpha - number of successes/wins/true
+  * beta - number of failures/losses/false
+
+ ![]( {{site.assets}}/b/beta_distribution.png ){: width=30%}
+
+ {% youtube "https://www.youtube.com/watch?v=juF3r12nM5A" %}
+
+ {% youtube "https://www.youtube.com/watch?v=1k8lF3BriXM" %}
+
+ More at:
+  * ...
+
+ See also [B], ...
+
+
 # Best Match 25 Retrieval Model
 # BM25 Retrieval Model
 
@@ -594,6 +645,26 @@ Your belief has shifted towards more red marbles based on the observed data. The
   * [https://www.bhuman.ai/](https://www.bhuman.ai/)
 
  See also [B], [Company]
+
+
+# Beyond the Imitation Game Benchmark
+# BIG Bench
+
+ Focus on task that are not easy to solve
+
+ {% youtube "https://www.youtube.com/watch?v=ZpImxa0tK2Y" %}
+
+ {% youtube "https://www.youtube.com/watch?v=ydfJ16RWJL8" %}
+
+ {% pdf "https://arxiv.org/pdf/2206.04615.pdf" %}
+
+ {% pdf "https://arxiv.org/pdf/2210.09261.pdf" %}
+
+ More at:
+  * paper -
+  * task code - [https://github.com/google/BIG-bench](https://github.com/google/BIG-bench)
+
+ See also [B], ...
 
 
 # Bias
@@ -711,26 +782,6 @@ Your belief has shifted towards more red marbles based on the observed data. The
  See also [B], [Recurrent Neural Network]
 
 
-# Beyond the Imitation Game Benchmark
-# BIG Bench
-
- Focus on task that are not easy to solve
-
- {% youtube "https://www.youtube.com/watch?v=ZpImxa0tK2Y" %}
-
- {% youtube "https://www.youtube.com/watch?v=ydfJ16RWJL8" %}
-
- {% pdf "https://arxiv.org/pdf/2206.04615.pdf" %}
-
- {% pdf "https://arxiv.org/pdf/2210.09261.pdf" %}
-
- More at:
-  * paper -
-  * task code - [https://github.com/google/BIG-bench](https://github.com/google/BIG-bench)
-
- See also [B], ...
-
-
 # Big Data
 
 > "Move the processing where the data is!"
@@ -744,6 +795,15 @@ Your belief has shifted towards more red marbles based on the observed data. The
   * [https://en.wikipedia.org/wiki/Big_data](https://en.wikipedia.org/wiki/Big_data)
 
  See also [B], [Deep Learning], [Machine Learning], [MapReduce Process]
+
+
+# Bigram
+
+ In a bigram model, each word is predicted based on the word directly preceding it. So, the model looks at pairs of words that frequently occur together in the training data. For instance, if the previous word is "sunny," the model might predict that words like "day" or "weather" are likely to follow, based on its learned bigrams like "sunny day" or "sunny weather."
+
+ The essence of a bigram model is this: it uses the immediate past word to predict the next one. It's a simple yet effective way to capture the context in language processing.
+
+ See also [B], [N-Gram]
 
 
 # Bilingual Evaluation Understudy Score
@@ -819,6 +879,13 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  Search engine developed by [Microsoft] that integrates with [ChatGPT][ChatGPT Model[
 
  See also [B], ...
+
+
+# Binomial Distribution
+
+ {% youtube "https://www.youtube.com/watch?v=sVBOSwT5K8I" %}
+
+ See also [B], [Distribution]
 
 
 # Biological Neuron

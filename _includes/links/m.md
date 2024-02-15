@@ -25,6 +25,7 @@
 [Markov Chain Monte Carlo]: {{ site.baseurl }}{% link glossary/m.md %}#markov-chain-monte-carlo-algorithm
 [MCMC Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#markov-chain-monte-carlo-algorithm
 [MCMC]: {{ site.baseurl }}{% link glossary/m.md %}#markov-chain-monte-carlo-algorithm
+[Markov Chain Stationary Distribution]: {{ site.baseurl }}{% link glossary/m.md %}#markov-chain-stationary-distribution
 [Markov Decision Process]: {{ site.baseurl }}{% link glossary/m.md %}#markov-decision-process
 [Markov Random Field]: {{ site.baseurl }}{% link glossary/m.md %}#markov-random-field
 [Masked Language Modeling]: {{ site.baseurl }}{% link glossary/m.md %}#masked-language-modeling
@@ -92,7 +93,7 @@
 [Milvus]: {{ site.baseurl }}{% link glossary/m.md %}#milvus-vector-database
 [Minerva Model]: {{ site.baseurl }}{% link glossary/m.md %}#minerva-model
 [Mini-Batch]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch
-[Mini-Batchs]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch
+[Mini-Batches]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch
 [Mini-Batch Training]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-training
 [Mini-Batch Gradient Descent Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-gradient-descent-algorithm
 [Mini-Batch Gradient Descent]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-gradient-descent-algorithm
@@ -117,6 +118,7 @@
 [MoE]: {{ site.baseurl }}{% link glossary/m.md %}#mixture-of-experts-architecture
 [ML Algorithm Evaluation]: {{ site.baseurl }}{% link glossary/m.md %}#ml-algorithm-evaluation
 [ML Energy Initiative]: {{ site.baseurl }}{% link glossary/m.md %}#ml-energy-initiative
+[MLCommons]: {{ site.baseurl }}{% link glossary/m.md %}#mlcommons
 [MLFlow]: {{ site.baseurl }}{% link glossary/m.md %}#mlflow
 [MLOps]: {{ site.baseurl }}{% link glossary/m.md %}#mlops
 [Model]: {{ site.baseurl }}{% link glossary/m.md %}#model
@@ -168,8 +170,14 @@
 [Modified National Institute Standards And Technology Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
 [MNIST Dataset]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
 [MNIST]: {{ site.baseurl }}{% link glossary/m.md %}#modified-national-institute-standards-and-technology-dataset
-[Modular Reasoning Knowledge and Language]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language
-[MRKL]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language
+[Modular Reasoning Knowledge and Language Agent]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-agent
+[Modular Reasoning Knowledge and Language Agents]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-agent
+[MRKL Agent]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-agent
+[MRKL Agents]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-agent
+[Modular Reasoning Knowledge and Language Architecture]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-architecture
+[Modular Reasoning Knowledge and Language]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-architecture
+[MRKL Architecture]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-architecture
+[MRKL]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-architecture
 [Monte Carlo Control]: {{ site.baseurl }}{% link glossary/m.md %}#monte-carlo-control
 [Monte Carlo Method]: {{ site.baseurl }}{% link glossary/m.md %}#monte-carlo-method
 [Monte Carlo Methods]: {{ site.baseurl }}{% link glossary/m.md %}#monte-carlo-method
@@ -191,6 +199,8 @@
 [MT-Bench]: {{ site.baseurl }}{% link glossary/m.md %}#multi-turn-question-set-benchmark
 [Multiattribute Objective]: {{ site.baseurl }}{% link glossary/m.md %}#multiattribute-objective
 [Multiclass Classification]: {{ site.baseurl }}{% link glossary/m.md %}#multiclass-classification
+[Multidimensional Scaling]: {{ site.baseurl }}{% link glossary/m.md %}#multidimensional-scaling
+[MDS]: {{ site.baseurl }}{% link glossary/m.md %}#multidimensional-scaling
 [Multilayer Perceptron]: {{ site.baseurl }}{% link glossary/m.md %}#multilayer-perceptron
 [Multimodal Alignment]: {{ site.baseurl }}{% link glossary/m.md %}#multimodel-alignment
 [Multimodal Co-learning]: {{ site.baseurl }}{% link glossary/m.md %}#multimodal-co-learning
@@ -213,7 +223,7 @@
 [Music ABC Notation]: {{ site.baseurl }}{% link glossary/m.md %}#music-abc-notation
 [Music Generator]: {{ site.baseurl }}{% link glossary/m.md %}#music-generator
 [MusicLM Model]: {{ site.baseurl }}{% link glossary/m.md %}#musiclm-model
-[Mustafa Suleymani Person]: {{ site.baseurl }}{% link glossary/m.md %}#mustafa-suleyman-person
-[Mustafa Suleymani]: {{ site.baseurl }}{% link glossary/m.md %}#mustafa-suleyman-person
+[Mustafa Suleyman Person]: {{ site.baseurl }}{% link glossary/m.md %}#mustafa-suleyman-person
+[Mustafa Suleyman]: {{ site.baseurl }}{% link glossary/m.md %}#mustafa-suleyman-person
 [MuZero Model]: {{ site.baseurl }}{% link glossary/m.md %}#muzero-model
 [MXNET]: {{ site.baseurl }}{% link glossary/m.md %}#mxnet
