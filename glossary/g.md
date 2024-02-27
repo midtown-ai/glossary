@@ -157,8 +157,13 @@ output = m(input)
 
  Built by [Google] using [PaLM] to compete with the multimodal [GPT-4V model]
 
+ {% youtube "https://www.youtube.com/watch?v=myEv780rfRU" %}
+
  More at:
-  * announcement - [https://deepmind.google/technologies/gemini/#introduction](https://deepmind.google/technologies/gemini/#introduction)
+  * announcement 
+    * 2024/02 - [https://developers.googleblog.com/2024/02/gemini-15-available-for-private-preview-in-google-ai-studio.html](https://developers.googleblog.com/2024/02/gemini-15-available-for-private-preview-in-google-ai-studio.html)
+    * - [https://deepmind.google/technologies/gemini/#introduction](https://deepmind.google/technologies/gemini/#introduction)
+  * gemini - [https://gemini.google.com/](https://gemini.google.com/)
   * Articles
     * [https://aibusiness.com/companies/google-doubles-down-on-ai-launches-new-language-model-and-ai-tools](https://aibusiness.com/companies/google-doubles-down-on-ai-launches-new-language-model-and-ai-tools)
     * [https://www.wired.com/story/google-deepmind-demis-hassabis-chatgpt/](https://www.wired.com/story/google-deepmind-demis-hassabis-chatgpt/)
@@ -626,6 +631,8 @@ print("ga_output: ", ga_output)
   * [Switch Transformer] -
   * [T5 Model] -
 
+ Utilities
+  * [NotebookLM] - a notebook for research integrated with a LLM
 
  Superseded models
   * 2010: [Helping computers understand language](https://googleblog.blogspot.com/2010/01/helping-computers-understand-language.html)
@@ -1200,6 +1207,19 @@ Grok is still a very early beta product – the best we could do with 2 months o
  See also [G], ...
 
 
+# Groq Company
+
+ First company to develop [Language Processing Unit (LPU)][LPU]
+
+ More at:
+  * LLM UI -  [https://wow.groq.com/](https://wow.groq.com/)
+  * articles
+    * [https://www.forbes.com/sites/amyfeldman/2021/04/14/ai-chip-startup-groq-founded-by-ex-googlers-raises-300-million-to-power-autonomous-vehicles-and-data-centers/](https://www.forbes.com/sites/amyfeldman/2021/04/14/ai-chip-startup-groq-founded-by-ex-googlers-raises-300-million-to-power-autonomous-vehicles-and-data-centers/)
+    * [https://futurumgroup.com/insights/groq-ushers-in-a-new-ai-compute-paradigm-the-language-processing-unit/](https://futurumgroup.com/insights/groq-ushers-in-a-new-ai-compute-paradigm-the-language-processing-unit/)
+
+ See also [G], ...
+
+
 # Ground Truth
 
  In machine learning, ground truth refers to the accurate and reliable information about the target values or outcomes of a dataset, which is used to train, validate, and assess the performance of machine learning models. Ground truth data provides a basis for comparison, allowing machine learning algorithms to learn patterns and make predictions.
@@ -1249,3 +1269,10 @@ Grok is still a very early beta product – the best we could do with 2 months o
   * paper - [https://arxiv.org/abs/2006.16668](https://arxiv.org/abs/2006.16668)
 
  See also [G], [Sparse Activation]
+
+
+# Guardrails Python Module
+
+ More at:
+  * site - [https://www.guardrailsai.com/](https://www.guardrailsai.com/)
+  * code - [https://github.com/guardrails-ai/guardrails](https://github.com/guardrails-ai/guardrails)

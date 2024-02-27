@@ -174,6 +174,10 @@ training-20230802041103-DgEzMxvIS2aah465hkQlmQ-robomaker.log
 
 ## Videos
 
+ {% youtube "https://www.youtube.com/watch?v=39aY6URdjb8" %}
+
+ {% youtube "https://www.youtube.com/watch?v=IAy9pjfUTKM" %}
+
 ## Files
 
 ### robomaker.log.meta.json

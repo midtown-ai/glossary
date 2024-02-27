@@ -142,6 +142,8 @@
 [Anomally Detection]: {{ site.baseurl }}{% link glossary/a.md %}#anomally-detection
 [Anthropic Company]: {{ site.baseurl }}{% link glossary/a.md %}#anthropic-company
 [Anthropic]: {{ site.baseurl }}{% link glossary/a.md %}#anthropic-company
+[Anyscale Company]: {{ site.baseurl }}{% link glossary/a.md %}#anyscale-company
+[Anyscale]: {{ site.baseurl }}{% link glossary/a.md %}#anyscale-company
 [Apache MXNet]: {{ site.baseurl }}{% link glossary/a.md %}#apache-mxnet
 [Apache Spark]: {{ site.baseurl }}{% link glossary/a.md %}#apache-spark
 [Apple Company]: {{ site.baseurl }}{% link glossary/a.md %}#apple-company
@@ -224,6 +226,8 @@
 [ASR]: {{ site.baseurl }}{% link glossary/a.md %}#automatic-speech-recognition
 [Automation]: {{ site.baseurl }}{% link glossary/a.md %}#automation
 [AutoML]: {{ site.baseurl }}{% link glossary/a.md %}#automl
+[Autonomous AI Agent]: {{ site.baseurl }}{% link glossary/a.md %}#autonomous-ai-agent
+[Autonomous AI Agents]: {{ site.baseurl }}{% link glossary/a.md %}#autonomous-ai-agent
 [Autonomous Vehicle]: {{ site.baseurl }}{% link glossary/a.md %}#autonomous-vehicle
 [Autoregressive Model]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive-model
 [Autoregressive Convolutional Neural Network]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive-convolutional-neural-network

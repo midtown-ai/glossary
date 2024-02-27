@@ -7,6 +7,8 @@
 [Joblib Python Module]: {{ site.baseurl }}{% link glossary/j.md %}#joblib-python-module
 [Joblib]: {{ site.baseurl }}{% link glossary/j.md %}#joblib-python-module
 [Join Distribution]: {{ site.baseurl }}{% link glossary/j.md %}#join-distribution
+[Join Embedding Predictive Architecture]: {{ site.baseurl }}{% link glossary/j.md %}#join-embedding-predictive-architecture
+[JEPA]: {{ site.baseurl }}{% link glossary/j.md %}#join-embedding-predictive-architecture
 [Jukebox Model]: {{ site.baseurl }}{% link glossary/j.md %}#jukebox-model
 [Jupyter Notebook]: {{ site.baseurl }}{% link glossary/j.md %}#jupyter-notebook
 [jupyter Server]: {{ site.baseurl }}{% link glossary/j.md %}#jupyter-server

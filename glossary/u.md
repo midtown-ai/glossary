@@ -288,3 +288,9 @@ layout: page
 # User Prompt
 
  See also [U], [System Prompt]
+
+
+# Utility
+
+ Utilities
+  * [NotebookLM] - developed by google for research

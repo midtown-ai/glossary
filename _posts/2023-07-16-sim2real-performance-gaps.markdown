@@ -15,3 +15,9 @@ categories: jekyll update
 ## Links
 
 ## Terminology
+
+## Videos
+
+### EVO + LIDAR
+
+ {% youtube "https://www.youtube.com/watch?v=AIb8qOqRxRs" %}

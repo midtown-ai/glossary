@@ -292,8 +292,28 @@ curl https://api.openai.com/v1/audio/transcriptions \
 
  {% youtube "https://www.youtube.com/watch?v=fx5K_FRQ2eg" %}
 
+ {% youtube "https://www.youtube.com/watch?v=WqYBx2gB6vA" %}
+
  More at:
   * ...
+
+ See also [W], ...
+
+
+# Wikifunction
+
+ A function turns input into output. A function is knowledge and knowledge is power!
+
+  * Allow implementing without English
+  * create a new community, bring new people
+  * natural language generation library for 300+ languages
+  * democratize access to functions
+
+ {% youtube "https://www.youtube.com/watch?v=bHy63VOp0RQ" %}
+
+ More at: 
+  * [https://www.wikifunctions.org](https://www.wikifunctions.org)
+  * [https://wikifunctions.beta.wmflabs.org/wiki/Wikifunctions:Main_Page](https://wikifunctions.beta.wmflabs.org/wiki/Wikifunctions:Main_Page)
 
  See also [W], ...
 

@@ -17,6 +17,9 @@
 [Random Search]: {{site.baseurl}}{% link glossary/r.md %}#random-search
 [Ranking]: {{site.baseurl}}{% link glossary/r.md %}#ranking
 [Raspberry Pi Computer]: {{site.baseurl}}{% link glossary/r.md %}#raspberry-pi-computer
+[Ray Framework]: {{site.baseurl}}{% link glossary/r.md %}#ray-framework
+[Ray]: {{site.baseurl}}{% link glossary/r.md %}#ray-framework
+[Ray Python Module]: {{site.baseurl}}{% link glossary/r.md %}#ray-python-module
 [Reason-Act Prompting]: {{site.baseurl}}{% link glossary/r.md %}#reason-act-prompting
 [ReAct Prompting]: {{site.baseurl}}{% link glossary/r.md %}#reason-act-prompting
 [ReAct]: {{site.baseurl}}{% link glossary/r.md %}#reason-act-prompting
@@ -86,6 +89,8 @@
 [Relevancy]: {{site.baseurl}}{% link glossary/r.md %}#relevancy
 [Replaced Word Prediction]: {{site.baseurl}}{% link glossary/r.md %}#replaced-word-prediction
 [Replay Memory]: {{site.baseurl}}{% link glossary/r.md %}#replay-memory
+[Replicate Company]: {{site.baseurl}}{% link glossary/r.md %}#replicate-company
+[Replicate]: {{site.baseurl}}{% link glossary/r.md %}#replicate-company
 [Replit Company]: {{site.baseurl}}{% link glossary/r.md %}#replit-company
 [Replit]: {{site.baseurl}}{% link glossary/r.md %}#replit-company
 [Representation]: {{site.baseurl}}{% link glossary/r.md %}#representation
@@ -106,10 +111,10 @@
 [Responsible AI]: {{site.baseurl}}{% link glossary/r.md %}#responsible-ai
 [Restricted Boltzmann Machine]: {{site.baseurl}}{% link glossary/r.md %}#restricted-boltzmann-machine
 [RBM]: {{site.baseurl}}{% link glossary/r.md %}#restricted-boltzmann-machine
-[Retrieval-Augmented Generation Architecture]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-architecture
-[Retrieval-Augmented Generation]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-architecture
-[RAG Architecture]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-architecture
-[RAG]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-architecture
+[Retrieval-Augmented Generation System]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-system
+[Retrieval-Augmented Generation]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-system
+[RAG System]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-system
+[RAG]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-system
 [Retrieval-Augmented Generation Assessment]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-assessment
 [Retrieval-Augmented Generation Assessments]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-assessment
 [RAG Assessment]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-assessment

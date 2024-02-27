@@ -308,13 +308,24 @@ z_q(x)=\text{argmin}_i ||z_e(x)-e_i||_2
  This argmin operation is a bit concerning, since it is non-differentiable with respect to the encoder. But in practice everything seems to work fine if you just pass the decoder gradient directly through this operation to the encoder (i.e. set its gradient to 1 wrt the encoder and the quantized codebook vector; and to 0 wrt all other codebook vectors). The decoder is then tasked with reconstructing the input from this quantized vector as in the standard autoencoder formulation.
 
  More at :
-  * home - [https://paperswithcode.com/method/vq-vae](https://paperswithcode.com/method/vq-vae]
+  * home - [https://paperswithcode.com/method/vq-vae](https://paperswithcode.com/method/vq-vae)
   * paper -  
   * code - [https://github.com/deepmind/sonnet/blob/v2/sonnet/src/nets/vqvae.py](https://github.com/deepmind/sonnet/blob/v2/sonnet/src/nets/vqvae.py)
   * sample - [https://sites.google.com/view/videogen](https://sites.google.com/view/videogen)
   * [https://ml.berkeley.edu/blog/posts/vq-vae/](https://ml.berkeley.edu/blog/posts/vq-vae/)
 
  See also [V], [Codebook], [Variational Autoencoder]
+
+
+# Vector Retrieval
+
+ * [Multi-Vector Retrieval]
+ * [Parent Document Retrieval]
+
+ More at:
+  * [https://arxiv.org/abs/2401.09350](https://arxiv.org/abs/2401.09350)
+
+ See also [V], ...
 
 
 # Vector Search Library
@@ -358,6 +369,18 @@ z_q(x)=\text{argmin}_i ||z_e(x)-e_i||_2
 
 More at:
  * [https://lmsys.org/blog/2023-03-30-vicuna/](https://lmsys.org/blog/2023-03-30-vicuna/)
+
+ See also [V], ...
+
+
+# Video Joint Embedding Predictive Architecture
+# V-JEPA
+
+ A method for [Join Embedding Predictive Architecture (JEPA)][JEPA] in 02/2024
+
+ More at:
+  * [https://ai.meta.com/blog/v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture/](https://ai.meta.com/blog/v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture/)
+  * code - [https://github.com/facebookresearch/jepa](https://github.com/facebookresearch/jepa)
 
  See also [V], ...
 

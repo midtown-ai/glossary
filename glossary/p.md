@@ -46,6 +46,8 @@ layout: page
   * API reference - [https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
   * tutorials
     * panda exercises - [https://github.com/guipsamora/pandas_exercises/](https://github.com/guipsamora/pandas_exercises/)
+  * projects
+    * databall - [https://klane.github.io/databall/model/features/](https://klane.github.io/databall/model/features/)
 
  See also [P], ...
 
@@ -101,6 +103,26 @@ layout: page
  ~ knowledge stored in the parameters of the model. Frozen in time.
 
  See also [P], [Parameter]
+
+
+# Parent Document Retrieval
+
+ A method of [vector retrieval].
+
+ Parent Document Retriever is a form of [multi-vector retrieval], a class of retrieval methods  by which the builder embeds alternative representations of their original documents. These alternative embeddings will be then used in the similarity process to compare with the query the user or application gives.
+
+In the case of the parent document retriever, the original large chunks will be further split into 'child' chunks.
+
+ Instead of returning the child chunks as context, the Parent Document Retriever will return the parents documents (red boxes below) of those child docs (blue boxes below).
+
+ ![]( {{site.assets}}/p/parent_document_retrieval.gif ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=cmqsTJZdNSQ" %}
+
+ More at:
+  * [https://community.fullstackretrieval.com/index/parent-document-retriever](https://community.fullstackretrieval.com/index/parent-document-retriever)
+
+ See also [P], ...
 
 
 # Particule Swarm Optimization Algorithm
@@ -399,7 +421,16 @@ layout: page
 
  ~ RAG framework that works with [Pinecone] SaaS
 
+ Canopy is an open-source [Retrieval Augmented Generation (RAG)][RAG] framework and context engine built on top of the [Pinecone vector database]. Canopy enables you to quickly and easily experiment with and build applications using RAG. Start chatting with your documents or text data with a few simple commands.
+
+ Canopy takes on the heavy lifting for building RAG applications: from chunking and embedding your text data to chat history management, query optimization, context retrieval (including prompt engineering), and augmented generation.
+
+ ![]( {{site.assets}}/p/pinecone_canopy.png ){: width="100%}
+
  {% youtube "https://www.youtube.com/watch?v=pLSDTTMhWhk" %}
+
+ More at:
+  * code - [https://github.com/pinecone-io/canopy](https://github.com/pinecone-io/canopy)
 
  See also [P], ...
 
@@ -420,6 +451,11 @@ layout: page
 
  More at:
   * docs - [https://docs.pinecone.io/docs/overview](https://docs.pinecone.io/docs/overview)
+  * forums - [https://community.pinecone.io/](https://community.pinecone.io/)
+  * tutorials
+    * [https://www.pinecone.io/learn/](https://www.pinecone.io/learn/)
+  * code
+    * serverless - [https://colab.research.google.com/drive/1mvdNtjnxyLtigPwebTS8Bi2fFBhwfFTR?usp=sharing](https://colab.research.google.com/drive/1mvdNtjnxyLtigPwebTS8Bi2fFBhwfFTR?usp=sharing)
 
  See also [P], ...
 
@@ -1119,12 +1155,12 @@ Prediction Error = actual_value - predicted_value
  See also [P], [Product Quantization]
 
 
-# Program-Aided Language Model
-# PAL Model
+# Program-Aided Language System
+# PAL System
 
- Program-aided Language Models (PAL)1 are another example of a MRKL system. When given a question, PALs are able to write code that solves this question. They send the code to a programmatic runtime to get the result. PAL works in contrast to CoT; PAL's intermediate reasoning is code, while CoT's is natural language.
+ Program-aided Language Systems (PAL) are another example of a [MRKL system]. When given a question, PALs are able to write code that solves this question. They send the code to a programmatic runtime to get the result. PAL works in contrast to [CoT]; PAL's intermediate reasoning is code, while CoT's is natural language.
 
- Large language models (LLMs) have recently demonstrated an impressive ability to perform arithmetic and symbolic reasoning tasks, when provided with a few examples at test time ("few-shot prompting"). Much of this success can be attributed to prompting methods such as "chain-of-thought'', which employ LLMs for both understanding the problem description by decomposing it into steps, as well as solving each step of the problem. While LLMs seem to be adept at this sort of step-by-step decomposition, LLMs often make logical and arithmetic mistakes in the solution part, even when the problem is decomposed correctly. In this paper, we present Program-Aided Language models (PAL): a novel approach that uses the LLM to read natural language problems and generate programs as the intermediate reasoning steps, but offloads the solution step to a runtime such as a Python interpreter. With PAL, decomposing the natural language problem into runnable steps remains the only learning task for the LLM, while solving is delegated to the interpreter. We demonstrate this synergy between a neural LLM and a symbolic interpreter across 13 mathematical, symbolic, and algorithmic reasoning tasks from BIG-Bench Hard and other benchmarks. In all these natural language reasoning tasks, generating code using an LLM and reasoning using a Python interpreter leads to more accurate results than much larger models. For example, PAL using Codex achieves state-of-the-art few-shot accuracy on the GSM8K benchmark of math word problems, surpassing PaLM-540B which uses chain-of-thought by absolute 15% top-1.
+ [Large language models (LLMs)][LLM] have recently demonstrated an impressive ability to perform arithmetic and symbolic reasoning tasks, when provided with a few examples at test time ("few-shot prompting"). Much of this success can be attributed to prompting methods such as "chain-of-thought'', which employ LLMs for both understanding the problem description by decomposing it into steps, as well as solving each step of the problem. While LLMs seem to be adept at this sort of step-by-step decomposition, LLMs often make logical and arithmetic mistakes in the solution part, even when the problem is decomposed correctly. In this paper, we present Program-Aided Language models (PAL): a novel approach that uses the LLM to read natural language problems and generate programs as the intermediate reasoning steps, but offloads the solution step to a runtime such as a Python interpreter. With PAL, decomposing the natural language problem into runnable steps remains the only learning task for the LLM, while solving is delegated to the interpreter. We demonstrate this synergy between a neural LLM and a symbolic interpreter across 13 mathematical, symbolic, and algorithmic reasoning tasks from BIG-Bench Hard and other benchmarks. In all these natural language reasoning tasks, generating code using an LLM and reasoning using a Python interpreter leads to more accurate results than much larger models. For example, PAL using Codex achieves state-of-the-art few-shot accuracy on the [GSM8K benchmark] of math word problems, surpassing PaLM-540B which uses chain-of-thought by absolute 15% top-1.
 
  ![]( {{site.assets}}/p/program_aided_language_model.png ){: width="100%"}
 
@@ -1508,6 +1544,7 @@ print(user.model_dump())
 
   * [Flask] - to create API containers of webapp
   * [Gradio] - to build a basic UI to interface with a model
+  * [Guardrails] - to filter the output of a LLM
   * [JAX] - 
   * [Joblib] - to save models in files
   * [LangChain] - LLMOps!

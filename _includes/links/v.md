@@ -17,18 +17,22 @@
 [Variational Autoencoder]: {{ site.baseurl }}{% link glossary/v.md %}#variational-autoencoder
 [VAE]: {{ site.baseurl }}{% link glossary/v.md %}#variational-autoencoder
 [Variational Autoencoder Reparameterization Trick]: {{ site.baseurl }}{% link glossary/v.md %}#variational-autoencoder-reparameterization-trick
+[Vector]: {{ site.baseurl }}{% link glossary/v.md %}#vector
+[Vector Database]: {{ site.baseurl }}{% link glossary/v.md %}#vector-database
 [Vector Quantized Generative Adversarial Network]: {{ site.baseurl }}{% link glossary/v.md %}#vector-quantized-generative-adversarial-network
 [VQGAN]: {{ site.baseurl }}{% link glossary/v.md %}#vector-quantized-generative-adversarial-network
 [Vector Quantized Variational Autoencoder]: {{ site.baseurl }}{% link glossary/v.md %}#vector-quantized-variational-autoencoder
 [VQVAE]: {{ site.baseurl }}{% link glossary/v.md %}#vector-quantized-variational-autoencoder
-[Vector]: {{ site.baseurl }}{% link glossary/v.md %}#vector
-[Vector Database]: {{ site.baseurl }}{% link glossary/v.md %}#vector-database
+[Vector Retrieval]: {{ site.baseurl }}{% link glossary/v.md %}#vector-retrieval
 [Vector Search Library]: {{ site.baseurl }}{% link glossary/v.md %}#vector-search-library
 [Vector Search Plugin]: {{ site.baseurl }}{% link glossary/v.md %}#vector-search-plugin
 [Vector Space Collision]: {{ site.baseurl }}{% link glossary/v.md %}#vector-space-collision
 [Viam]: {{ site.baseurl }}{% link glossary/v.md %}#viam
 [Vicuna Model]: {{ site.baseurl }}{% link glossary/v.md %}#vicuna-model
 [Vicuna]: {{ site.baseurl }}{% link glossary/v.md %}#vicuna-model
+[Video Join Embedding Predictive Architecture]: {{ site.baseurl }}{% link glossary/v.md %}#video-join-embedding-predictive-architecture
+[Video JEPA]: {{ site.baseurl }}{% link glossary/v.md %}#video-join-embedding-predictive-architecture
+[V-JEPA]: {{ site.baseurl }}{% link glossary/v.md %}#video-join-embedding-predictive-architecture
 [Video Pre-Training Model]: {{ site.baseurl }}{% link glossary/v.md %}#video-pre-trained-model
 [VPT Model]: {{ site.baseurl }}{% link glossary/v.md %}#video-pre-trained-model
 [Video Restauration]: {{ site.baseurl }}{% link glossary/v.md %}#video-restauration

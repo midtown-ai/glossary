@@ -256,6 +256,8 @@ layout: page
   * [Wikidata]
   * ...
 
+ {% youtube "https://www.youtube.com/watch?v=WqYBx2gB6vA" %}
+
  More at:
   * [https://ai.stanford.edu/blog/introduction-to-knowledge-graphs/](https://ai.stanford.edu/blog/introduction-to-knowledge-graphs/)
 

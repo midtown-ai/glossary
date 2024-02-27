@@ -33,6 +33,9 @@
 [NLS]: {{ site.baseurl }}{% link glossary/n.md %}#natural-language-supervision
 [Natural Language Understanding]: {{ site.baseurl }}{% link glossary/n.md %}#natural-language-understanding
 [NLU]: {{ site.baseurl }}{% link glossary/n.md %}#nlu
+[Needle In The Haystack Benchmark]: {{ site.baseurl }}{% link glossary/n.md %}#needle-in-a-haystack-benchmark
+[NITH Benchmark]: {{ site.baseurl }}{% link glossary/n.md %}#needle-in-a-haystack-benchmark
+[NITH]: {{ site.baseurl }}{% link glossary/n.md %}#needle-in-a-haystack-benchmark
 [Negative Attribute]: {{ site.baseurl }}{% link glossary/n.md %}#negative-attribute
 [Nemo Toolkit]: {{ site.baseurl }}{% link glossary/n.md %}#nemo-toolkit
 [Neo4j Graph Database]: {{ site.baseurl }}{% link glossary/n.md %}#neo4j-graph-database
@@ -83,6 +86,8 @@
 [Non-Linear Regression]: {{ site.baseurl }}{% link glossary/n.md %}#non-linear-regression
 [Normalization]: {{ site.baseurl }}{% link glossary/n.md %}#normalization
 [Normalizing]: {{ site.baseurl }}{% link glossary/n.md %}#normalizing
+[NotebookLM Utility]: {{ site.baseurl }}{% link glossary/n.md %}#notebooklm-utility
+[NotebookLM]: {{ site.baseurl }}{% link glossary/n.md %}#notebooklm-utility
 [Numerical Python Module]: {{ site.baseurl }}{% link glossary/n.md %}#numerical-python-module
 [Numpy Python Module]: {{ site.baseurl }}{% link glossary/n.md %}#numerical-python-module
 [Numpy]: {{ site.baseurl }}{% link glossary/n.md %}#numerical-python-module

@@ -14,6 +14,9 @@
 [Image Encoder]: {{ site.baseurl }}{% link glossary/i.md %}#image-encoder
 [Image Filter]: {{ site.baseurl }}{% link glossary/i.md %}#image-filter
 [Image Filters]: {{ site.baseurl }}{% link glossary/i.md %}#image-filter
+[Image Joint Embedding Predictive Architecture]: {{ site.baseurl }}{% link glossary/i.md %}#image-join-embedding-predictive-architecture
+[Image JEPA]: {{ site.baseurl }}{% link glossary/i.md %}#image-join-embedding-predictive-architecture
+[I-JEPA]: {{ site.baseurl }}{% link glossary/i.md %}#image-join-embedding-predictive-architecture
 [Image Inpainting]: {{ site.baseurl }}{% link glossary/i.md %}#image-inpainting
 [Image Reconstruction]: {{ site.baseurl }}{% link glossary/i.md %}#image-reconstruction
 [Image Segmentation]: {{ site.baseurl }}{% link glossary/i.md %}#image-segmentation

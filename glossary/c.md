@@ -778,6 +778,7 @@ print(query_result)
   * [Gong](https://www.gong.io/) - Sales software
   * [Got It AI](https://www.app.got-it.ai/) - ELMAR LLM for the enterprise with truth checker!
   * [Gretel AI](https://gretel.ai/) - 
+  * [Groq] - Superfast LLM inference because baked by custom hardware?
   * [Harvey](ihttps://techcrunch.com/2022/11/23/harvey-which-uses-ai-to-answer-legal-questions-lands-cash-from-openai/) - Digital assistant for lawyers
   * [Hugging Face] - Open-source AI library, a model hub, with datasets, and space/UI with [Gradio][Gradio Module]
   * [Inflection AI] - A chatbot that listens and talks
@@ -799,6 +800,7 @@ print(query_result)
   * [PathAI](https://www.pathai.com/) - Drug discovery and diagnosis
   * [PolyAI](https://poly.ai/) - Voice chatbots
   * [Quora] - A static Q&A internet site that is not offering an interface to chatbots though its interface, poe.
+  * [Replicate] - Run and fine-tune open-source models. Deploy custom models at scale. All with one line of code.
   * [Replika](https://replika.com/) - Build AI companion who cares!
   * [RevComm](https://www.revcomm.co.jp/) - Voice analysis software ([Forbes](https://www.forbes.com/companies/revcomm/?sh=6c1080a7340c))
   * [Runway] - Focus on generative AI for images and now videos
@@ -877,6 +879,7 @@ print(query_result)
   * [Evident Insights] - currently focused on the banking industry
 
  Infrastructure
+  * [Anyscale] - Buildup on the [Ray Framework]
   * [Lambda Labs](https://lambdalabs.com/) - access to GPU for deeplearning
 
  Robotics
@@ -953,6 +956,18 @@ print(query_result)
 # Compliance Analysis
 
  This is ...
+
+ See also [C], ...
+
+
+# Compound AI System
+
+ We define a Compound AI System as a system that tackles AI tasks using multiple interacting components, including multiple calls to models, retrievers, or external tools. In contrast, an AI Model is simply a statistical model, e.g., a Transformer that predicts the next token in text.
+
+ More at:
+  * [https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/)
+
+ See also [C], [Retrieval Augmented Generation System]
 
 
 # Computer Vision
@@ -1100,6 +1115,13 @@ conda env export pytorch > pytorch_env.yml
 # CES
 
  {% youtube "https://www.youtube.com/watch?v=CnwGrI6T7X0" %}
+
+ See also [C], ...
+
+
+# Context Window
+
+ ~ short term memory of a [LLM]
 
  See also [C], ...
 

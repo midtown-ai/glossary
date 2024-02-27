@@ -35,6 +35,8 @@
 [Wikidata Knowledge Graph]: {{ site.baseurl }}{% link glossary/w.md %}#wikidata-knowledge-graph
 [Wikidata KG]: {{ site.baseurl }}{% link glossary/w.md %}#wikidata-knowledge-graph
 [Wikidata]: {{ site.baseurl }}{% link glossary/w.md %}#wikidata-knowledge-graph
+[Wikifunction]: {{ site.baseurl }}{% link glossary/w.md %}#wikifunction
+[Wikifunctions]: {{ site.baseurl }}{% link glossary/w.md %}#wikifunction
 [Wisdom Of The Crowd]: {{ site.baseurl }}{% link glossary/w.md %}#wisdom-of-the-crowd
 [WizardLM Model]: {{ site.baseurl }}{% link glossary/w.md %}#wizardlm-model
 [WizardLM]: {{ site.baseurl }}{% link glossary/w.md %}#wizardlm-model

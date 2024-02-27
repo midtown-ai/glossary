@@ -76,6 +76,8 @@
 [Company]: {{ site.baseurl }}{% link glossary/c.md %}#company
 [Complexity]: {{ site.baseurl }}{% link glossary/c.md %}#complexity
 [Compliance Analysis]: {{ site.baseurl }}{% link glossary/c.md %}#compliance-analysis
+[Compound AI System]: {{ site.baseurl }}{% link glossary/c.md %}#compound-ai-system
+[Compound AI Systems]: {{ site.baseurl }}{% link glossary/c.md %}#compound-ai-system
 [Computer Vision]: {{ site.baseurl }}{% link glossary/c.md %}#computer-vision
 [Computer Vision and Pattern Recognition Conference]: {{ site.baseurl }}{% link glossary/c.md %}#computer-vision-and-pattern-recognition-conference
 [CVPR Conference]: {{ site.baseurl }}{% link glossary/c.md %}#cvpr-conference
@@ -92,6 +94,8 @@
 [Constraint Satisfaction Problem]: {{ site.baseurl }}{% link glossary/c.md %}#constraint-satisfaction-problem
 [Consumer Electric Show]: {{ site.baseurl }}{% link glossary/c.md %}#consumer-electronic-show
 [CES]: {{ site.baseurl }}{% link glossary/c.md %}#consumer-electronic-show
+[Context Window]: {{ site.baseurl }}{% link glossary/c.md %}#context-window
+[Context]: {{ site.baseurl }}{% link glossary/c.md %}#context-window
 [Continual Reinforcement Learning]: {{ site.baseurl }}{% link glossary/c.md %}#continual-reinforcement-learning
 [CRL]: {{ site.baseurl }}{% link glossary/c.md %}#continual-reinforcement-learning
 [Continuous Action Space]: {{ site.baseurl }}{% link glossary/c.md %}#continuous-action-space

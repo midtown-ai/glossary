@@ -566,6 +566,7 @@ One obvious way to mitigate that problem is to choose different learning rate fo
   * [Reinforcement Learning (RL) agents][RL Agent] whose goal is to maximize a total reward
   * [Modular Reasoning Knowledge and Language (MRKL) Agents][MRKL Agent] whom can reason through a LLM and use external tools
   * ...
+  * [Autonomous AI Agents] forming a [society of mind]
 
  ![]( {{site.assets}}/a/ai_agent.png){: width="100%" }
 
@@ -1341,6 +1342,35 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
  Model by [DeepMind]
 
+ * premise = what you know given the description of the problem (a set of facts)
+ * deduction step
+
+
+ 
+ * DD+AR = deduction database, based on existing construct, create all the rules to deduce facts
+   * algebraic reasoning
+   * deductive reasoning --> from existing rules extract facts (no hallucination)
+   * :warning: cannot add auxiliary constructions
+ * LLM required to add an auxiliary construction (ex: new point created)
+
+ ```
+ g1 = on_tline g1 a a b     --> g1 is such that g1 is perpenduclar in a to line (a,b)
+
+ coll(A,C,B) == coll(A,B,C)
+ para(A,B,rER,F) == perp(A,B,C,D),perp(C,D,E,F)
+ cyclic(A,B,C,D) == cyclic(
+ cong
+ eqangle(     - equilateral triangle
+ eqratio
+ simtri
+ circle(O,A,B,C) == cong(O, A, O, B), cong(O,A,O,C)
+
+ ```
+
+ * ratio chasing
+ * distance chasing
+ * angle chasing
+
  ![]( {{site.assets}}/a/alphageometry_model.webp){: width="100%" }
 
  {% youtube "https://www.youtube.com/watch?v=WKF0QgxmGKs" %}
@@ -1465,6 +1495,16 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
  More at:
   * home - [https://anthropic.ai/](https://anthropic.ai/)
+
+ See also [A], ...
+
+
+# Anyscale Company
+
+ Anyscale offers a cloud service based on the [Ray framework]. It simplifies the process of deploying, scaling, and managing Ray applications in the cloud. Anyscale's platform enables users to seamlessly scale their Ray applications from a laptop to the cloud without needing to manage the underlying infrastructure, making distributed computing more accessible and efficient.
+
+ More at:
+  * site - [https://www.anyscale.com/](https://www.anyscale.com/)
 
  See also [A], ...
 
@@ -2064,6 +2104,40 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [Attention Score], [Attention-Based Model], [Cross-Attention], [Encoder-Decoder Attention], [Long Short Term Memory Network], [Masked Self-Attention], [Multi-Head Attention], [Recurrent Neural Network], [Self-Attention], [Transformer Model]
 
 
+# Attention Score
+
+ `~ how much to pay attention to a particular word`
+  * Q, K, V matrix for the encoder <-- needs to be computed for the encoder (?) like weights/bias of an ANN
+  * For each words, Q, K, V are computed by multiplying the word embedding with the corresponding Q, K, V matrix of the encoder !??!?!
+ The Query word (Q) can be interpreted as the word for which we are calculating Attention. The Key and Value word (K and V) is the word to which we are paying attention ie. how relevant is that word to the Query word.
+
+ ```
+The query key and value concept come from retrieval systems.
+For example, when you type a query to search for some video on Youtube.
+The search engine will map your query against a set of keys (video title, description etc.) associated with candidate videos in the database
+Then you are presented with the best matched videos (values).                        <== STRENGTH OF THE ATTENTION ? No!
+ ```
+ An attention function can be described as mapping a query and a set of key-value pairs to an output, where the query, keys, values, and output are all vectors. The output is computed as a weighted sum of the values, where the weight assigned to each value is computed by a compatibility function of the query with the corresponding key.
+
+ ![]( {{site.assets}}/a/attention_score.png ){: width="100%"}
+
+ Multi-Head Attention consists of several attention layers running in parallel. The Attention layer takes its input in the form of three parameters, known as the Query, Key, and Value (aka Q,K,V). All three parameters are similar in structure, with each word in the sequence represented by a vector. In transformers is used for encoder and decoder.
+
+ ![]( {{site.assets}}/m/multi_head_attention.png ){:width="100%"}
+
+ ![]( {{site.assets}}/a/attention_score_formula.png ){:width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=_UVfwBqcnbM" %}
+
+ {% youtube "https://www.youtube.com/watch?v=4Bdc55j80l8" %}
+
+ More at :
+  * [https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0](https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0)
+  * [https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853](https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853)
+
+ See also [A], [Attention], [Attention-Based Model], [Multi-Head Attention], [Positional Encoding], [Transformer Model]
+
+
 # Attention-Based Model
 
  In a language modeling task, a model is trained to predict a missing workd in a sequence of words. In general, there are 2 types of language modesl:
@@ -2080,6 +2154,34 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [Negative Attribute], [Positive Attribute]]
 
 
+# Augmented Language Model
+# ALM
+
+ A language model that can use external tools.
+
+ LLM reasons to call an external tool, gets halted to fetch the tool’s response as observation, and then decides the next action based on all preceding responses. This technique is also sometimes referred as Augmented Language Models (ALMs).
+
+ More at:
+  * [https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/](https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/)
+
+ See also [A], [ReACT Prompting]
+
+
+# Augmented Reality
+# AR
+
+ Augmented reality (AR) is an interactive experience that combines the real world and computer-generated content. The content can span multiple sensory modalities, including visual, auditory, haptic, somatosensory and olfactory. AR can be defined as a system that incorporates three basic features: a combination of real and virtual worlds, real-time interaction, and accurate 3D registration of virtual and real objects. The overlaid sensory information can be constructive (i.e. additive to the natural environment), or destructive (i.e. masking of the natural environment). This experience is seamlessly interwoven with the physical world such that it is perceived as an immersive aspect of the real environment. In this way, augmented reality alters one's ongoing perception of a real-world environment, whereas virtual reality completely replaces the user's real-world environment with a simulated one.
+
+ Augmented reality is largely synonymous with [Mixed Reality].
+
+ {% youtube "https://www.youtube.com/watch?v=Zu1p99GJuTo" %}
+
+ More at:
+  * [https://en.wikipedia.org/wiki/Augmented_reality](https://en.wikipedia.org/wiki/Augmented_reality)
+
+ See also [A], [Virtual Continuum]
+
+
 # Autoencoder
 
  Let’s now discuss autoencoders and see how we can use neural networks for dimensionality reduction. The general idea of autoencoders is pretty simple and consists in setting an encoder and a decoder as neural networks and to learn the best encoding-decoding scheme using an iterative optimisation process. So, at each iteration we feed the autoencoder architecture (the encoder followed by the decoder) with some data, we compare the encoded-decoded output with the initial data and backpropagate the error through the architecture to update the weights of the networks. Thus, intuitively, the overall autoencoder architecture (encoder+decoder) creates a bottleneck for data that ensures only the main structured part of the information can go through and be reconstructed. Looking at our general framework, the family E of considered encoders is defined by the encoder network architecture, the family D of considered decoders is defined by the decoder network architecture and the search of encoder and decoder that minimise the reconstruction error is done by gradient descent over the parameters of these networks.
@@ -2087,6 +2189,72 @@ First, we believe the clearest framing of general intelligence is a system that 
  ![]( {{site.assets}}/a/autoencoder.png ){: width="100%"}
 
  See also [A], [Autoencoding], [Backpropagation], [Decoder], [Denoising Autoencoder], [Dimensionality Reduction], [Disentangled Variational Autoencoder], [Encoder], [Encoder-Decoder Model], [Hidden State], [Linear Autoencoder], [Unsupervised Deep Learning Model], [Unsupervised Learning], [Variational Autoencoder]
+
+
+# Autoencoder Bottleneck
+
+ This is the name of the hidden layer with the least neuron in an autoencoder architecture. This is where the information is compressed, encoded in the latent space!
+
+ ![]( {{site.assets}}/a/autoencoder_bottleneck.png ){:width="100%"}
+
+ See also [A], [Autoencoder], [Latent Space]
+
+
+# Autoencoder Type
+
+ There are 2 types of autoencoders:
+  * input X --> Latent representation
+  * input X --> Latent distribution
+
+ ![]( {{site.assets}}/a/autoencoder_type.png){: width="100%"}
+
+ See also [A], [Autoencoder], [Variational Autoencoder]
+
+
+# Autoencoding
+
+ ~ auto-complete of a sentence on a phone. Goal is to learn representations of the entire sequence by predicting tokens given both the past and future tokens. If only past or future ==> autoregressive.
+ ```
+If you don't ___ at the sign, you will get a ticket
+ ```
+
+ See also [A], [Autoencoder], [Autoregressive]
+
+
+# Autoencoding Model
+
+  * Comprehensive understanding and encoding of entire sequences of tokens
+  * Natural Language Understanding (NLU)
+  * BERT Models
+
+ See also [A], [BERT Model], [Natural Language Understanding]
+
+
+# Autogen Multi-Agent Framework
+
+ ~ define [Multi-Agent] models
+
+ {% youtube "https://www.youtube.com/watch?v=MCYzYzaWChY" %}
+
+ {% youtube "https://www.youtube.com/watch?v=y7wMTwJN7rA" %}
+
+ {% youtube "https://www.youtube.com/watch?v=WMFKfZEM1Sw" %}
+
+ Alternatives:
+  * langraph
+  * chatdev
+  * ...
+
+ More at:
+  * site - [https://microsoft.github.io/autogen/](https://microsoft.github.io/autogen/)
+  * code - [https://github.com/microsoft/autogen](https://github.com/microsoft/autogen)
+  * docs - [https://microsoft.github.io/autogen/docs/Getting-Started/](https://microsoft.github.io/autogen/docs/Getting-Started/)
+  * articles
+    * [https://www.microsoft.com/en-us/research/blog/autogen-enabling-next-generation-large-language-model-applications/](https://www.microsoft.com/en-us/research/blog/autogen-enabling-next-generation-large-language-model-applications/)
+    * [https://quickaitutorial.com/how-powerful-autogen-is-reshaping-llm/](https://quickaitutorial.com/how-powerful-autogen-is-reshaping-llm/)
+    * [https://quickaitutorial.com/autogen-langchian-rag-function-call-super-ai-chabot/](https://quickaitutorial.com/autogen-langchian-rag-function-call-super-ai-chabot/)
+
+ See also [A], ...
 
 
 # AutoGPT  Model
@@ -2141,137 +2309,6 @@ First, we believe the clearest framing of general intelligence is a system that 
 
  Automation refers to the use of technology, machinery, or systems to perform tasks or processes with minimal human intervention. It involves the implementation of control systems, sensors, and algorithms to carry out repetitive or complex actions automatically, reducing the need for manual effort. Automation aims to improve efficiency, productivity, accuracy, and reliability by streamlining operations and reducing human error. It can be applied in various domains, including manufacturing, transportation, agriculture, healthcare, and information technology. Examples of automation include robotic assembly lines, automated customer service systems, self-driving cars, and smart home devices.
 
- See also [A], ...
-
-
-# Autonomous Vehicle
-
- See also [DARPA Grant Challenge], [DARPA Urban Challenge]
-
-
-# Attention Score
-
- `~ how much to pay attention to a particular word`
-  * Q, K, V matrix for the encoder <-- needs to be computed for the encoder (?) like weights/bias of an ANN
-  * For each words, Q, K, V are computed by multiplying the word embedding with the corresponding Q, K, V matrix of the encoder !??!?!
- The Query word (Q) can be interpreted as the word for which we are calculating Attention. The Key and Value word (K and V) is the word to which we are paying attention ie. how relevant is that word to the Query word.
-
- ```
-The query key and value concept come from retrieval systems.
-For example, when you type a query to search for some video on Youtube.
-The search engine will map your query against a set of keys (video title, description etc.) associated with candidate videos in the database
-Then you are presented with the best matched videos (values).                        <== STRENGTH OF THE ATTENTION ? No!
- ```
- An attention function can be described as mapping a query and a set of key-value pairs to an output, where the query, keys, values, and output are all vectors. The output is computed as a weighted sum of the values, where the weight assigned to each value is computed by a compatibility function of the query with the corresponding key.
-
- ![]( {{site.assets}}/a/attention_score.png ){: width="100%"}
-
- Multi-Head Attention consists of several attention layers running in parallel. The Attention layer takes its input in the form of three parameters, known as the Query, Key, and Value (aka Q,K,V). All three parameters are similar in structure, with each word in the sequence represented by a vector. In transformers is used for encoder and decoder.
-
- ![]( {{site.assets}}/m/multi_head_attention.png ){:width="100%"}
-
- ![]( {{site.assets}}/a/attention_score_formula.png ){:width="100%"}
-
- {% youtube "https://www.youtube.com/watch?v=_UVfwBqcnbM" %}
-
- {% youtube "https://www.youtube.com/watch?v=4Bdc55j80l8" %}
-
- More at :
-  * [https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0](https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0)
-  * [https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853](https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853)
-
- See also [A], [Attention], [Attention-Based Model], [Multi-Head Attention], [Positional Encoding], [Transformer Model]
-
-
-# Augmented Language Model
-# ALM
-
- A language model that can use external tools.
-
- LLM reasons to call an external tool, gets halted to fetch the tool’s response as observation, and then decides the next action based on all preceding responses. This technique is also sometimes referred as Augmented Language Models (ALMs).
-
- More at:
-  * [https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/](https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/)
-
- See also [A], [ReACT Prompting]
-
-
-# Augmented Reality
-# AR
-
- Augmented reality (AR) is an interactive experience that combines the real world and computer-generated content. The content can span multiple sensory modalities, including visual, auditory, haptic, somatosensory and olfactory. AR can be defined as a system that incorporates three basic features: a combination of real and virtual worlds, real-time interaction, and accurate 3D registration of virtual and real objects. The overlaid sensory information can be constructive (i.e. additive to the natural environment), or destructive (i.e. masking of the natural environment). This experience is seamlessly interwoven with the physical world such that it is perceived as an immersive aspect of the real environment. In this way, augmented reality alters one's ongoing perception of a real-world environment, whereas virtual reality completely replaces the user's real-world environment with a simulated one.
-
- Augmented reality is largely synonymous with [Mixed Reality].
-
- {% youtube "https://www.youtube.com/watch?v=Zu1p99GJuTo" %}
-
- More at:
-  * [https://en.wikipedia.org/wiki/Augmented_reality](https://en.wikipedia.org/wiki/Augmented_reality)
-
- See also [A], [Virtual Continuum]
-
-
-# Autoencoder Bottleneck
-
- This is the name of the hidden layer with the least neuron in an autoencoder architecture. This is where the information is compressed, encoded in the latent space!
-
- ![]( {{site.assets}}/a/autoencoder_bottleneck.png ){:width="100%"}
-
- See also [A], [Autoencoder], [Latent Space]
-
-
-# Autoencoder Type
-
- There are 2 types of autoencoders:
-  * input X --> Latent representation
-  * input X --> Latent distribution
-
- ![]( {{site.assets}}/a/autoencoder_type.png){: width="100%"}
-
- See also [A], [Autoencoder], [Variational Autoencoder]
-
-
-# Autoencoding
-
- ~ auto-complete of a sentence on a phone. Goal is to learn representations of the entire sequence by predicting tokens given both the past and future tokens. If only past or future ==> autoregressive.
- ```
-If you don't ___ at the sign, you will get a ticket
- ```
-
- See also [A], [Autoencoder], [Autoregressive]
-
-
-# Autoencoding Model
-
-  * Comprehensive understanding and encoding of entire sequences of tokens
-  * Natural Language Understanding (NLU)
-  * BERT Models
-
- See also [A], [BERT Model], [Natural Language Understanding]
-
-
-# Autogen Multi-Agent Framework
-
- {% youtube "https://www.youtube.com/watch?v=MCYzYzaWChY" %}
-
- {% youtube "https://www.youtube.com/watch?v=y7wMTwJN7rA" %}
-
- {% youtube "https://www.youtube.com/watch?v=WMFKfZEM1Sw" %}
-
- More at:
-  * site - [https://microsoft.github.io/autogen/](https://microsoft.github.io/autogen/)
-  * code - [https://github.com/microsoft/autogen](https://github.com/microsoft/autogen)
-  * docs - [https://microsoft.github.io/autogen/docs/Getting-Started/](https://microsoft.github.io/autogen/docs/Getting-Started/)
-  * articles
-    * [https://www.microsoft.com/en-us/research/blog/autogen-enabling-next-generation-large-language-model-applications/](https://www.microsoft.com/en-us/research/blog/autogen-enabling-next-generation-large-language-model-applications/)
-    * [https://quickaitutorial.com/how-powerful-autogen-is-reshaping-llm/](https://quickaitutorial.com/how-powerful-autogen-is-reshaping-llm/)
-    * [https://quickaitutorial.com/autogen-langchian-rag-function-call-super-ai-chabot/](https://quickaitutorial.com/autogen-langchian-rag-function-call-super-ai-chabot/)
-
- See also [A], ...
-
-
-# Automation
-
   * Low automation = human does the work
   * High automation = AI does the work!
 
@@ -2280,7 +2317,7 @@ If you don't ___ at the sign, you will get a ticket
  More at:
   * [https://www.sae.org/news/2019/01/sae-updates-j3016-automated-driving-graphic](https://www.sae.org/news/2019/01/sae-updates-j3016-automated-driving-graphic)
 
- See also
+ See also [A], ...
 
 
 # AutoML
@@ -2288,6 +2325,27 @@ If you don't ___ at the sign, you will get a ticket
  significant advances in automated machine learning that can “automatically discover complete machine learning algorithms just using basic mathematical operations as building blocks.”
 
  See also [A], [Hyperparameter Tuning], [Early Stopping], [Neural Architecture Search]
+
+
+# Autonomous AI Agent
+
+ ~ several of them form a [society of mind]
+
+ ![]( {{site.assets}}/a/autonomous_ai_agent.png ){:width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=rDljQuwM2o8" %}
+
+ {% pdf "https://arxiv.org/pdf/2308.11432v1.pdf" %}
+
+ More at:
+  * paper - [https://www.youtube.com/watch?v=rDljQuwM2o8](https://www.youtube.com/watch?v=rDljQuwM2o8)
+
+ See also [A], ...
+
+
+# Autonomous Vehicle
+
+ See also [DARPA Grand Challenge], [DARPA Urban Challenge]
 
 
 # Autoregressive Convolutional Neural Network

@@ -1,6 +1,8 @@
 [D]: {{ site.baseurl }}{% link glossary/d.md %}
 
 [DALL-E Models]: {{ site.baseurl }}{% link glossary/d.md %}#dall-e-models
+[DALL-E Model]: {{ site.baseurl }}{% link glossary/d.md %}#dall-e-models
+[DALL-E]: {{ site.baseurl }}{% link glossary/d.md %}#dall-e-models
 [DALL-E2 Model]: {{ site.baseurl }}{% link glossary/d.md %}#dall-e-models
 [DALL-E3 Model]: {{ site.baseurl }}{% link glossary/d.md %}#dall-e-models
 [Dario Amodei Person]: {{ site.baseurl }}{% link glossary/d.md %}#dario-amodei-person

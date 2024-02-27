@@ -444,11 +444,15 @@ print(embeddings.shape)  #(4,128)
 
  ![]( {{site.assets}}/t/theory_of_mind.webp ){: width="100%"}
 
- {% pdf "{{site.assets}}/t/theory_of_mind_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2302.02083.pdf" %}
+
+ {% pdf "https://arxiv.org/pdf/2402.06044.pdf" %}
 
  More at:
   * philosophy - [https://iep.utm.edu/theomind/](https://iep.utm.edu/theomind/)
-  * paper - [https://arxiv.org/abs/2302.02083](https://arxiv.org/abs/2302.02083)
+  * paper 
+    * Tom tasks - [https://arxiv.org/abs/2302.02083](https://arxiv.org/abs/2302.02083)
+    * OpenToM - [https://arxiv.org/abs/2402.06044](https://arxiv.org/abs/2402.060440
   * colab - [https://colab.research.google.com/drive/1zQKSDEhqEFcLCf5LuW--A-TGcAhF19hT](https://colab.research.google.com/drive/1zQKSDEhqEFcLCf5LuW--A-TGcAhF19hT)
   * articles
     * [https://towardsdatascience.com/is-chatgpt-intelligent-a-scientific-review-0362eadb25f9](https://towardsdatascience.com/is-chatgpt-intelligent-a-scientific-review-0362eadb25f9)
@@ -575,6 +579,18 @@ snowing	        ['snow', '##ing']
  See also [T], ...
 
 
+# Top-K Similarity Search
+
+ ![]( {{site.assets}}/t/top_k_similary_search.gif ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=8YtfmOqj28c" %}
+
+ More at:
+  * [https://community.fullstackretrieval.com/retrieval-methods/top-k-similarity-search](https://community.fullstackretrieval.com/retrieval-methods/top-k-similarity-search)
+
+ See also [T], ...
+
+particle_swarm_optimization
 # Top-P Random Sampling
 
  ~ an [inference configuration parameter] used to limit the number of tokens to select from. A variation on [top-K random sampling].
@@ -746,6 +762,7 @@ Desired Output --> |     Training     | --> Model
   * code explanation - [https://nlp.seas.harvard.edu/annotated-transformer/](https://nlp.seas.harvard.edu/annotated-transformer/)
   * transformer in pytorch - [https://www.datacamp.com/tutorial/building-a-transformer-with-py-torch](https://www.datacamp.com/tutorial/building-a-transformer-with-py-torch)
   * Articles
+    * [https://towardsdatascience.com/breakthroughs-in-speech-recognition-achieved-with-the-use-of-transformers-6aa7c5f8cb02](https://towardsdatascience.com/breakthroughs-in-speech-recognition-achieved-with-the-use-of-transformers-6aa7c5f8cb02)
     * [https://venturebeat.com/business/why-transformers-offer-more-than-meets-the-eye/](https://venturebeat.com/business/why-transformers-offer-more-than-meets-the-eye/)
     * explanation - [http://jalammar.github.io/illustrated-transformer/](http://jalammar.github.io/illustrated-transformer/)
     * [https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0](https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0)

@@ -168,6 +168,20 @@ model.summary()
  See also [I], [Convolutional Layer]
 
 
+# Image Join Embedding Predictive ARchitecture
+# I-JEPA
+
+ A method for [Joint Embedding Predictive Architecture (JEPA)][JEPA] based on image
+
+ {% pdf "https://arxiv.org/pdf/2301.08243.pdf" %}
+
+ More at:
+  * [https://ai.meta.com/blog/yann-lecun-ai-model-i-jepa/](https://ai.meta.com/blog/yann-lecun-ai-model-i-jepa/)
+  * paper - [https://arxiv.org/abs/2301.08243](https://arxiv.org/abs/2301.08243)
+
+ See also [I], ...
+
+
 # Image Inpainting
 
  Masking of an area of an image and having it reconstructed by going through an autoencoder.

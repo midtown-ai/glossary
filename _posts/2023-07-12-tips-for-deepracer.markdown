@@ -24,3 +24,5 @@ categories: jekyll update
 ## Tips
 
  {% youtube "https://www.youtube.com/watch?v=p4uGaT8Ga8s" %}
+
+ {% youtube "https://www.youtube.com/watch?v=PlobpYs3mzQ" %}

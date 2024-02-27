@@ -405,6 +405,7 @@ cheese =>                                   # Prompt
   * [Jukebox] - Generative model for music
   * [OpenAI Five]: An agent that isnow world champion at the Dota2 game!
   * [OpenAI Gym Environment] - Environments for development of [Reinforcement Learning] algorithms.
+  * [Sora Model] - Diffusion model for video generation (02/2024)
   * [Unsupervised Sentiment Neuron] - A single character language model, with a sentiment neuron! 
   * [Whisper] - A speech-to-text model
 

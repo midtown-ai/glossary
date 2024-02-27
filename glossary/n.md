@@ -278,6 +278,25 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], [Autoencoding Model], [Entity Extraction]
 
 
+# Needle In A Haystack Benchmark
+# NIAH Benchmark
+
+ A way to evaluate the performance of a language model based on its [context window].
+
+ ![]( {{site.assets}}/n/needle_in_a_haystack_benchmark.jpeg ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=KwRRuiCCdmc" %}
+
+ {% pdf "https://arxiv.org/pdf/2307.03172.pdf" %}
+
+ More at:
+  * announcement - [https://twitter.com/GregKamradt/status/1722386725635580292](https://twitter.com/GregKamradt/status/1722386725635580292)
+  * papers
+    * lost in the middle - [https://arxiv.org/abs/2307.03172](https://arxiv.org/abs/2307.03172)
+
+ See also [N], ...
+
+
 # Negative Attribute
 
  Attribute to which the object needs to be the furthest away. Ex if you are trying to find a cat in a set of images, use a white noise image to describe negative attributes.
@@ -606,6 +625,16 @@ Some well-known NP-hard problems include the traveling salesman problem, the kna
  See also [N], ...
 
 
+# NotebookLM Utility
+
+ More at:
+  * site - [https://notebooklm.google/](https://notebooklm.google/)
+  * articles
+    * [https://www.wired.com/story/googles-notebooklm-ai-ultimate-writing-assistant/](https://www.wired.com/story/googles-notebooklm-ai-ultimate-writing-assistant/)
+
+ See also [N], ...
+
+
 # Numerical Python Module
 # Numpy Python Module
 
@@ -718,6 +747,7 @@ plt.imshow(photo[:,:,0].T)       # Multiple transformation at once!
   * [SegFormer] - Image segmentation using the [transformer architecture]
 
  Models
+  * [Chat with RTX](https://www.nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/) - Your Personalized AI Chatbot
   * [Isaac Gym] - environment for RL
   * [Megatron Model] - NLP large language model
   * [Nemo Toolkit] - Toolkit for conversational AI

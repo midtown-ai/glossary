@@ -1297,6 +1297,21 @@ As a trader, I want to create an application that lets me customize and viualize
  See also [S], [Robot]
 
 
+# Sora Model
+
+ Diffusion model built by [OpenAI] used to generate 60 sec videos
+
+ Release data: 02/2024
+
+ More at:
+  * site - [https://openai.com/sora](https://openai.com/sora)
+  * annuncement - [https://openai.com/research/video-generation-models-as-world-simulators](https://openai.com/research/video-generation-models-as-world-simulators)
+  * articles
+    * [https://www.cnn.com/2024/02/15/tech/openai-text-to-video-sora/index.html](https://www.cnn.com/2024/02/15/tech/openai-text-to-video-sora/index.html)
+
+ See also [S], ...
+
+
 # Soul Machine Company
 
  See also [S], ...

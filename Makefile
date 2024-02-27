@@ -32,7 +32,9 @@ clean_site: distclean_site
 distclean_site:
 	rm -rf ./_site
 
-serve_site: distclean_site
+serve_clean_site: distclean_site serve_site
+
+serve_site:
 	bundle exec jekyll serve
 	# bundle exec jekyll --help
 

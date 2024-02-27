@@ -54,6 +54,8 @@
 [Max Pooling Layer]: {{ site.baseurl }}{% link glossary/m.md %}#max-pooling-layer
 [Max Pooling Layers]: {{ site.baseurl }}{% link glossary/m.md %}#max-pooling-layer
 [Max Pooling]: {{ site.baseurl }}{% link glossary/m.md %}#max-pooling-layer
+[Maximum Marginal Relevance]: {{ site.baseurl }}{% link glossary/m.md %}#maximum-marginal-relevance
+[MMR]: {{ site.baseurl }}{% link glossary/m.md %}#maximum-marginal-relevance
 [Mean Absolute Error Loss Function]: {{ site.baseurl }}{% link glossary/m.md %}#mean-absolute-error-loss-function
 [Mean Absolute Error]: {{ site.baseurl }}{% link glossary/m.md %}#mean-absolute-error-loss-function
 [MAE Loss Function]: {{ site.baseurl }}{% link glossary/m.md %}#mean-absolute-error-loss-function
@@ -174,9 +176,11 @@
 [Modular Reasoning Knowledge and Language Agents]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-agent
 [MRKL Agent]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-agent
 [MRKL Agents]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-agent
-[Modular Reasoning Knowledge and Language Architecture]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-architecture
-[Modular Reasoning Knowledge and Language]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-architecture
-[MRKL Architecture]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-architecture
+[Modular Reasoning Knowledge and Language System]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-system
+[Modular Reasoning Knowledge and Language Systems]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-system
+[Modular Reasoning Knowledge and Language]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-system
+[MRKL System]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-system
+[MRKL Systems]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-system
 [MRKL]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-architecture
 [Monte Carlo Control]: {{ site.baseurl }}{% link glossary/m.md %}#monte-carlo-control
 [Monte Carlo Method]: {{ site.baseurl }}{% link glossary/m.md %}#monte-carlo-method
@@ -197,6 +201,7 @@
 [Multi-Turn Question Set]: {{ site.baseurl }}{% link glossary/m.md %}#multi-turn-question-set-benchmark
 [MT-Bench Benchmark]: {{ site.baseurl }}{% link glossary/m.md %}#multi-turn-question-set-benchmark
 [MT-Bench]: {{ site.baseurl }}{% link glossary/m.md %}#multi-turn-question-set-benchmark
+[Multi-Vector Retrieval]: {{ site.baseurl }}{% link glossary/m.md %}#multi-vector-retrieval
 [Multiattribute Objective]: {{ site.baseurl }}{% link glossary/m.md %}#multiattribute-objective
 [Multiclass Classification]: {{ site.baseurl }}{% link glossary/m.md %}#multiclass-classification
 [Multidimensional Scaling]: {{ site.baseurl }}{% link glossary/m.md %}#multidimensional-scaling

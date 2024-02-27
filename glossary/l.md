@@ -180,6 +180,7 @@ completion = llm(prompt)
   * JS docs - [https://js.langchain.com/docs/](https://js.langchain.com/docs/)
   * tutorials
    * book - [https://www.pinecone.io/learn/langchain/](https://www.pinecone.io/learn/langchain/)
+   * tuts - [https://www.pinecone.io/learn/series/langchain/](https://www.pinecone.io/learn/series/langchain/)
    * notebooks - [https://github.com/pinecone-io/examples/tree/master/generation/langchain/handbook](https://github.com/pinecone-io/examples/tree/master/generation/langchain/handbook)
   * articles
    * [https://towardsdatascience.com/getting-started-with-langchain-a-beginners-guide-to-building-llm-powered-applications-95fc8898732c](https://towardsdatascience.com/getting-started-with-langchain-a-beginners-guide-to-building-llm-powered-applications-95fc8898732c)
@@ -278,6 +279,32 @@ completion = llm(prompt)
  See also [L], [Benchmark]
 
 
+# Language Processing Unit
+# LPU
+
+ Developed by the founder of [Groq] to accelerate the token output of [LLM]
+
+ Remember that game of Go in 2016 when [AlphaGo] played against the world champion Lee Sedol and won? Well, about a month before the competition, there was a test game which AlphaGo lost. The researchers from [DeepMind] ported AlphaGo to [Tensor Processing Unit (TPU)][TPU] and then the computer program was able to win by a wide margin.
+
+ The realization that computational power was a bottleneck for AI's potential led to the inception of Groq and the creation of the LPU. This realization came to Jonathan Ross who initially began what became TPU project in [Google]. He started Groq in 2016.
+
+ The LPU is a special kind of computer brain designed to handle language tasks very quickly. Unlike other computer chips that do many things at once (parallel processing), the LPU works on tasks one after the other (sequential processing), which is perfect for understanding and generating language. Imagine it like a relay race where each runner (chip) passes the baton (data) to the next, making everything run super fast. The LPU is designed to overcome the two LLM bottlenecks: compute density and memory bandwidth.
+
+ Groq took a novel approach right from the start, focusing on software and compiler development before even thinking about the hardware. They made sure the software could guide how the chips talk to each other, ensuring they work together seamlessly like a team in a factory. This makes the LPU really good at processing language efficiently and at high speed, ideal for AI tasks that involve understanding or creating text.
+
+ This led to a highly optimized system that not only runs circles around traditional setups in terms of speed but does so with greater cost efficiency and lower energy consumption. This is big news for industries like finance, government, and tech, where quick and accurate data processing is key.
+
+ Now, don't go tossing out your [GPUs] just yet! While the LPU is a beast when it comes to inference, making light work of applying trained models to new data, GPUs still reign supreme in the training arena. The LPU and GPU might become the dynamic duo of AI hardware, each excelling in their respective roles.
+
+ To better understand architecture, Groq offers two papers: from 2020 (Think Fast: A Tensor Streaming Processor (TSP) for Accelerating Deep Learning Workloads) and 2022 (A So ware-defined Tensor Streaming Multiprocessor for Large-scale Machine Learning). The term “LPU” must be a recent addition to Groq’s narrative, since it’s never mentioned in the papers.
+
+ More at:
+  * [https://wow.groq.com/groq-isca-paper-2020/](https://wow.groq.com/groq-isca-paper-2020/)
+  * [https://wow.groq.com/isca-2022-paper/](https://wow.groq.com/isca-2022-paper/)
+
+ See also [L], ...
+
+
 # Large Language and Vision Assistant Model
 # LLaVa Model
 
@@ -372,6 +399,37 @@ completion = llm(prompt)
 # LLMOps
 
   * where you validate improvements over baseline
+
+ See also [L], ...
+
+
+# Large Language Model Performance
+# LLMPerf
+
+ Utilizing the LLMPerf, we have benchmarked a selection of LLM inference providers. Our analysis focuses on evaluating their performance, reliability, and efficiency under the following key metrics:
+
+  * Output tokens throughput, which represents the average number of output tokens returned per second. This metric is important for applications that require high throughput, such as summarization and translation, and easy to compare across different models and providers.
+  * Time to first token (TTFT), which represents the duration of time that LLM returns the first token. TTFT is especially important for streaming applications, such as chatbots.
+
+ The LLMPerf Leaderboard displays results in a clear, transparent manner. Our aim is to provide users and developers with vital insights into the capabilities and limitations of each provider, informing decisions for future integrations and deployments.
+
+ ```
+   python token_benchmark_ray.py \
+    --model <MODEL_NAME> \
+    --mean-input-tokens 550 \
+    --stddev-input-tokens 0 \
+    --mean-output-tokens 150 \
+    --stddev-output-tokens 0 \
+    --max-num-completed-requests 150 \
+    --num-concurrent-requests 5 \
+    --llm-api <litellm/openai> 
+ ```
+
+ ![]( {{site.assets}}/l/large_language_model_performance.png ){: width="100%"}
+
+ More at:
+  * leaderboard - [https://github.com/ray-project/llmperf-leaderboard](https://github.com/ray-project/llmperf-leaderboard)
+  * tool - [https://github.com/ray-project/llmperf](https://github.com/ray-project/llmperf)
 
  See also [L], ...
 

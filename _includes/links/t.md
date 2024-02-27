@@ -56,6 +56,7 @@
 [Tokenizer]: {{ site.baseurl }}{% link glossary/t.md %}#tokenizer
 [Top-K Random Sampling]: {{ site.baseurl }}{% link glossary/t.md %}#top-k-random-sampling
 [Top-K]: {{ site.baseurl }}{% link glossary/t.md %}#top-k-random-sampling
+[Top-K Similary Search]: {{ site.baseurl }}{% link glossary/t.md %}#top-k-similarity-search
 [Top-P Random Sampling]: {{ site.baseurl }}{% link glossary/t.md %}#top-p-random-sampling
 [Top-P]: {{ site.baseurl }}{% link glossary/t.md %}#top-p-random-sampling
 [Torch]: {{ site.baseurl }}{% link glossary/t.md %}#torch

@@ -10,6 +10,7 @@
 [Parameter-Efficient Fine-Tuning]: {{ site.baseurl}}{% link glossary/p.md %}#parameter-efficient-fine-tuning
 [PEFT]: {{ site.baseurl}}{% link glossary/p.md %}#parameter-efficient-fine-tuning
 [Parametric Knowledge]: {{ site.baseurl}}{% link glossary/p.md %}#parametric-knowledge
+[Parent Document Retrieval]: {{ site.baseurl}}{% link glossary/p.md %}#parent-document-retrieval
 [Particule Swarm Optimization ALgorithm]: {{ site.baseurl }}{% link glossary/p.md %}#particule-swarm-optimization-algorithm
 [Particule Swarm Optimization]: {{ site.baseurl }}{% link glossary/p.md %}#particule-swarm-optimization-algorithm
 [PSO Algorithm]: {{ site.baseurl }}{% link glossary/p.md %}#particule-swarm-optimization-algorithm
@@ -99,9 +100,9 @@
 [Product Quantization]: {{ site.baseurl}}{% link glossary/p.md %}#product-quantization
 [Product Quantization Code]: {{ site.baseurl}}{% link glossary/p.md %}#product-quantization-code
 [PQ Code]: {{ site.baseurl}}{% link glossary/p.md %}#product-quantization-code
-[Program-Aided Language Model]: {{ site.baseurl}}{% link glossary/p.md %}#program-aided-language-model
-[PAL Model]: {{ site.baseurl}}{% link glossary/p.md %}#program-aided-language-model
-[PAL]: {{ site.baseurl}}{% link glossary/p.md %}#program-aided-language-model
+[Program-Aided Language System]: {{ site.baseurl}}{% link glossary/p.md %}#program-aided-language-system
+[PAL System]: {{ site.baseurl}}{% link glossary/p.md %}#program-aided-language-system
+[PAL]: {{ site.baseurl}}{% link glossary/p.md %}#program-aided-language-system
 [Progressive Neural Network]: {{ site.baseurl}}{% link glossary/p.md %}#progressive-neural-network
 [Progressive Neural Networks]: {{ site.baseurl}}{% link glossary/p.md %}#progressive-neural-network
 [Prompt Engineering]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-engineering

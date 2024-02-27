@@ -24,3 +24,4 @@
 [Update Ratio]: {{ site.baseurl }}{% link glossary/u.md %}#update-ratio
 [Upstream Task]: {{ site.baseurl }}{% link glossary/u.md %}#upstream-task
 [User Prompt]: {{ site.baseurl }}{% link glossary/u.md %}#user-prompt
+[Utility]: {{ site.baseurl }}{% link glossary/u.md %}#utility

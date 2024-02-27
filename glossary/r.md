@@ -165,6 +165,18 @@ R-square = R^2 = -------------------------------------
  See also [R], ...
 
 
+# Ray Framework
+
+ 
+
+ See also [R], ...
+
+
+# Ray Python Module
+
+ See also [R], ...
+
+
 # Reason-Act Prompting
 # ReAct Prompting
 
@@ -809,6 +821,14 @@ Recall = % of positively identified
  See also [R], ...
 
 
+# Replicate Company
+
+ More at:
+  * site - [https://replicate.com/](https://replicate.com/)
+
+ See also [R], ...
+
+
 # Replit Company
 
  {% youtube "https://www.youtube.com/watch?v=D4f7_lPwXtE" %}
@@ -1043,10 +1063,10 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  See also [R], [Boltzmann Machine]
 
 
-# Retrieval-Augmented Generation Architecture
-# RAG Architecture
+# Retrieval-Augmented Generation System
+# RAG System
 
- ~ A LLM that works with a [retriever]
+ ~ A [compound AI system] that consists of an LLM that works with a [retriever]
 
  Fields:
   * Document ID (DOI)   <== used for deletion, not for query
@@ -1070,6 +1090,8 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
   * [RAGAs]
   * [Automated RAG Evaluation System (ARES)][ARES]
 
+ ![]( {{site.assets}}/r/retrieval_augmented_generation_emergence.png ){: width="100%"}
+
  ![]( {{site.assets}}/r/retrieval_augmented_generation.webp ){: width="100%"}
 
  {% youtube "https://www.youtube.com/watch?v=T-D1OfcDW1M" %}
@@ -1077,9 +1099,10 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  {% youtube "https://www.youtube.com/watch?v=ypzmPwLH_Q4" %}
 
  More at:
+  * [https://community.fullstackretrieval.com/](https://community.fullstackretrieval.com/)
   * [https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79](https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79)
 
- See also [R], [Modular Reasoning Knowledge and Language Architecture]
+ See also [R], [Modular Reasoning Knowledge and Language System], [Vector Retrieval]
 
 
 # Retrieval-Augmented Generation Assessment

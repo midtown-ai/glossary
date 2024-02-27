@@ -86,6 +86,8 @@ layout: page
 
  {% youtube "https://www.youtube.com/watch?v=ZHYXp3gJCaI" %}
 
+ {% youtube "https://www.youtube.com/watch?v=uawLjkSI7Mo" %}
+
  More at:
   * [https://en.wikipedia.org/wiki/Yoshua_Bengio](https://en.wikipedia.org/wiki/Yoshua_Bengio)
 

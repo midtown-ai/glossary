@@ -121,6 +121,21 @@ f(x,y) = P(X = x, Y = y)
  See also [J], ...
 
 
+# Join Embedding Predictive Architecture
+# JEPA
+
+ Our goal is to build advanced machine intelligence that can learn more like humans do, forming internal models of the world around them to learn, adapt, and forge plans efficiently in the service of completing complex tasks.
+
+ * [Image JEPA (I-JEPA)][I-JEPA]
+ * [Video JEPA (V-JEPA)][V-JEPA]
+
+
+ More at:
+  * [https://ai.meta.com/blog/v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture/](https://ai.meta.com/blog/v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture/)
+
+ See also [J], ...
+
+
 # Jukebox Model
 
  Generative model for music built by [OpenAI]

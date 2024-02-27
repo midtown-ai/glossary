@@ -140,6 +140,8 @@
 [SDLC Agent]: {{ site.baseurl}}{% link glossary/s.md %}#software-development-lifecycle-agent
 [SDLC Agents]: {{ site.baseurl}}{% link glossary/s.md %}#software-development-lifecycle-agent
 [Sophia Robot]: {{ site.baseurl}}{% link glossary/s.md %}#sophia-robot
+[Sora Model]: {{ site.baseurl}}{% link glossary/s.md %}#sora-model
+[Sora]: {{ site.baseurl}}{% link glossary/s.md %}#sora-model
 [Sound Analysis]: {{ site.baseurl}}{% link glossary/s.md %}#sound-analysis
 [Soul Machine Company]: {{ site.baseurl}}{% link glossary/s.md %}#soul-machine-company
 [Soul Machine]: {{ site.baseurl}}{% link glossary/s.md %}#soul-machine-company

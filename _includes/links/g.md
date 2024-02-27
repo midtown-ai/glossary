@@ -149,7 +149,11 @@
 [Grid Search]: {{ site.baseurl }}{% link glossary/g.md %}#grid-search
 [Grok Model]: {{ site.baseurl }}{% link glossary/g.md %}#grok-model
 [Grok]: {{ site.baseurl }}{% link glossary/g.md %}#grok-model
+[Groq Company]: {{ site.baseurl }}{% link glossary/g.md %}#groq-company
+[Groq]: {{ site.baseurl }}{% link glossary/g.md %}#groq-company
 [Ground Truth]: {{ site.baseurl }}{% link glossary/g.md %}#ground-truth
 [Group-Query Attention]: {{ site.baseurl }}{% link glossary/g.md %}#group-query-attention
 [GQA]: {{ site.baseurl }}{% link glossary/g.md %}#group-query-attention
 [Gshard Model]: {{ site.baseurl }}{% link glossary/g.md %}#gshard-model
+[Guardrails Python Module]: {{ site.baseurl }}{% link glossary/g.md %}#guardrails-python-module
+[Guardrails]: {{ site.baseurl }}{% link glossary/g.md %}#guardrails-python-module

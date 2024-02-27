@@ -23,6 +23,8 @@
 [LaMDA]: {{ site.baseurl }}{% link glossary/l.md %}#language-model-for-discussion-applications-model
 [Language Modeling]: {{ site.baseurl }}{% link glossary/l.md %}#language-modeling
 [Language Parsing]: {{ site.baseurl }}{% link glossary/l.md %}#language-parsing
+[Language Processing Unit]: {{ site.baseurl }}{% link glossary/l.md %}#language-processing-unit
+[LPU]: {{ site.baseurl }}{% link glossary/l.md %}#language-processing-unit
 [Large Language Model]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model
 [Large Language Models]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model
 [LLM]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model
@@ -32,6 +34,8 @@
 [LLM OS]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-operating-system
 [Large Language Model Operations]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-operations
 [LLMops]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-operations
+[Large Language Model Performance]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-performance
+[LLMPerf]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-performance
 [Large Language Model Self-Correction Reasoning]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-self-correction-reasoning
 [LLM Self-Correction Reasoning]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-self-correction-reasoning
 [Large Language Model As A Judge]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-as-a-judge

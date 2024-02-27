@@ -700,6 +700,17 @@ S = Q D Qt
  See also [M], [Convolutional Layer], [Convolutional Neural Network], [Fully Connected Layer]
 
 
+# Maximum Marginal Relevance
+# MMR
+
+ {% youtube "https://www.youtube.com/watch?v=eaZu5_dLKNk" %}
+
+ More at:
+  * [https://community.fullstackretrieval.com/retrieval-methods/maximum-marginal-relevance-mmr](https://community.fullstackretrieval.com/retrieval-methods/maximum-marginal-relevance-mmr)
+
+ See also [M], [RAG]
+
+
 # Mean Absolute Error Loss Function
 # MAE Loss Function
 
@@ -2029,6 +2040,21 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
   * paper - [https://arxiv.org/abs/2306.05685](https://arxiv.org/abs/2306.05685)
   * code - [https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge)
   * leaderboard - [https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard)
+
+ See also [M], ...
+
+
+# Multi-Vector Retrieval
+
+ Ex:
+  * retrieval based on document summaries
+
+ ![]( {{site.assets}}/m/multi_vector_retrieval.gif ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=6NFtydQnUio" %}
+
+ More at:
+  * [https://community.fullstackretrieval.com/index/multi-vector](https://community.fullstackretrieval.com/index/multi-vector)
 
  See also [M], ...
 

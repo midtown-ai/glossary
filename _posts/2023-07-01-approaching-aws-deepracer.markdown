@@ -33,6 +33,7 @@ categories: jekyll update
      * [https://www.twitch.tv/aws](https://www.twitch.tv/aws)
      * [https://www.twitch.tv/awsdeepracer](https://www.twitch.tv/awsdeepracer)
  * community
+   * [https://zacks.one/aws-deepracer-lab/](https://zacks.one/aws-deepracer-lab/)
    * [https://blog.gofynd.com/how-we-broke-into-the-top-1-of-the-aws-deepracer-virtual-circuit-c39a241979f5](https://blog.gofynd.com/how-we-broke-into-the-top-1-of-the-aws-deepracer-virtual-circuit-c39a241979f5)
    * [https://blog.gofynd.com/how-we-broke-into-the-top-1-of-the-aws-deepracer-virtual-circuit-573ba46c275](https://blog.gofynd.com/how-we-broke-into-the-top-1-of-the-aws-deepracer-virtual-circuit-573ba46c275)
  * tips - [https://aws.amazon.com/deepracer/racing-tips/](https://aws.amazon.com/deepracer/racing-tips/)
