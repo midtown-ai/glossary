@@ -81,6 +81,7 @@
 [AI Bill Of Rights]: {{ site.baseurl }}{% link glossary/a.md %}#ai-bill-of-rights
 [AI Conference]: {{ site.baseurl }}{% link glossary/a.md %}#ai-conference
 [AI Control]: {{ site.baseurl }}{% link glossary/a.md %}#ai-control
+[AI Documentary]: {{ site.baseurl }}{% link glossary/a.md %}#ai-documentary
 [AI Ethics]: {{ site.baseurl }}{% link glossary/a.md %}#ai-ethics
 [AI Explosion]: {{ site.baseurl }}{% link glossary/a.md %}#ai-explosion
 [AI Film Festival]: {{ site.baseurl }}{% link glossary/a.md %}#ai-film-festival
@@ -113,6 +114,8 @@
 [Algorithmic]: {{ site.baseurl }}{% link glossary/a.md %}#algorithmic
 [Algorithmic Amplification]: {{ site.baseurl }}{% link glossary/a.md %}#algorithmic-amplification
 [Alpaca Model]: {{ site.baseurl }}{% link glossary/a.md %}#alpaca-model
+[Alibaba Company]: {{ site.baseurl }}{% link glossary/a.md %}#alibaba-company
+[Alibaba]: {{ site.baseurl }}{% link glossary/a.md %}#alibaba-company
 [Alpaca]: {{ site.baseurl }}{% link glossary/a.md %}#alpaca-model
 [Alpha Learning Rate]: {{ site.baseurl }}{% link glossary/a.md %}#alpha-learning-rate
 [AlphaCode Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphacode-model

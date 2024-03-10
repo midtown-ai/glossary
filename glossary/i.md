@@ -411,7 +411,9 @@ model.summary()
  More at:
   * home - [https://inflection.ai/](https://inflection.ai/)
   * hey pi - [https://heypi.com/talk](https://heypi.com/talk)
-  * [https://www.forbes.com/sites/alexkonrad/2023/05/02/inflection-ai-ex-deepmind-launches-pi-chatbot/?sh=a14f4343d6dd](https://www.forbes.com/sites/alexkonrad/2023/05/02/inflection-ai-ex-deepmind-launches-pi-chatbot/?sh=a14f4343d6dd)
+  * articles
+    * v1 - [https://www.forbes.com/sites/alexkonrad/2023/05/02/inflection-ai-ex-deepmind-launches-pi-chatbot/?sh=a14f4343d6dd](https://www.forbes.com/sites/alexkonrad/2023/05/02/inflection-ai-ex-deepmind-launches-pi-chatbot/?sh=a14f4343d6dd)
+    * v2.5 - [https://venturebeat.com/ai/inflection-ai-launches-new-model-for-pi-chatbot-nearly-matches-gpt-4/](https://venturebeat.com/ai/inflection-ai-launches-new-model-for-pi-chatbot-nearly-matches-gpt-4/)
 
  See also [I], ...
 

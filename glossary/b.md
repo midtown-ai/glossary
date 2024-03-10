@@ -542,6 +542,7 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
  NLP Benchmarks:
   * [Beyond The Imitation Game (BIG Bench)][BIG Bench]
+  * [Bias Benchmark for Question Answering (BBQ)][BBQ] - Measure learn social biases of a NLP model
   * Coref :  Links pronouns to antecedents. Also capable to take the perspective of a speak, e.g. I, you, my sister, etc refers to different people function of who said it.
   * [GLUE Benchmark] :
   * [Named Entity Recognition (NER)][NER] - identify places, people, dates, etc
@@ -676,6 +677,7 @@ Your belief has shifted towards more red marbles based on the observed data. The
  * [Dataset Bias] and
  * [Algorithmic Bias] which can lead to [AI Bias]
  * [Inductive Bias] or Learning bias related to the assumption we make in our model
+ * [Social Bias] = when a model knowledge is extracted from humans, such as from the internet (Stereotypes)
 
   1. statistics ==> The gap between the prediction and the actual value. Where is bias coming from? Issues with the data sampling?
   1. data sample ==> data that is used for learning is biased, ex: all nurse are female ==> implies unwanted correlation in data
@@ -684,7 +686,22 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
   {% youtube "https://www.youtube.com/watch?v=mG-cTS3fnnw" %}
 
- See also [B], [Activation Function], [Balanced Fitting], [Bias-Variance Tradeoff], [Fair AI], [Overfitting], [Underfitting], [Variance]
+ See also [B], [Activation Function], [Balanced Fitting], [Bias Benchmark For Question Answering], [Bias-Variance Tradeoff], [Fair AI], [Overfitting], [Underfitting], [Variance]
+
+
+# Bias Benchmark For Question Answering
+# BBQ
+
+ It is well documented that NLP models learn social biases, but little work has been done on how these biases manifest in model outputs for applied tasks like question answering (QA). We introduce the Bias Benchmark for QA (BBQ), a dataset of question-sets constructed by the authors that highlight attested social biases against people belonging to protected classes along nine social dimensions relevant for U.S. English-speaking contexts. Our task evaluate model responses at two levels: (i) given an under-informative context, we test how strongly responses reflect social biases, and (ii) given an adequately informative context, we test whether the model’s biases override a correct answer choice. We find that models often rely on stereotypes when the context is under-informative, meaning the model’s outputs consistently reproduce harmful biases in this setting. Though models are more accurate when the context provides an informative answer, they still rely on stereotypes and average up to 3.4 percentage points higher accuracy when the correct answer aligns with a social bias than when it conflicts, with this difference widening to over 5 points on examples targeting gender for most models tested.
+
+ ![]( {{site.assets}}/b/bias_benchmark_for_question_answering.png ){: width="100%"}
+
+ {% pdf "https://aclanthology.org/2022.findings-acl.165.pdf" %}
+
+ More at:
+  * site - [https://aclanthology.org/2022.findings-acl.165/](https://aclanthology.org/2022.findings-acl.165/)
+
+ See also [B], ...
 
 
 # Bias Neuron

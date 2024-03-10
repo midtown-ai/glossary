@@ -234,6 +234,7 @@ In the case of the parent document retriever, the original large chunks will be 
   * [Fei-Fei Li] - Creator of the [ImageNet dataset], focus on the data, not the algorithm!
   * [Geoffrey Hinton] - Lead his student with [AlexNet], a godfather of AI and [Deep Learning]. Turing award in 2018.
   * [Greg Brockman] - Co-founder of [OpenAI]
+  * [Jensen Huang] - Founder and CEO of [NVidia]
   * [Ilya Sutskever] - Co-founder of [OpenAI]
   * [Kai-Fu Lee] - Microsoft, Google, [01 AI]
   * [Mark Zuckerberg] - Founder and CEO of [Meta]
@@ -494,6 +495,16 @@ In the case of the parent document retriever, the original large chunks will be 
     * [https://www.msn.com/en-us/money/other/bill-ackman-suggests-ai-powered-plagiarism-checks-will-cause-incredible-embarrassment-in-academia/ar-AA1mBbct](https://www.msn.com/en-us/money/other/bill-ackman-suggests-ai-powered-plagiarism-checks-will-cause-incredible-embarrassment-in-academia/ar-AA1mBbct)
 
  See also [P], [ChatGPT Model]
+
+
+# PlayHT Company
+
+ A [company] that build AI voice generators a.k.a. [TTS]
+
+ More at:
+  * site - [https://play.ht/](https://play.ht/)
+
+ See also [P], ...
 
 
 # Pluribus Model
@@ -905,6 +916,14 @@ Prediction Error = actual_value - predicted_value
   * [https://www.science.org/doi/10.1126/science.adi6000](https://www.science.org/doi/10.1126/science.adi6000)
 
  See also [P], ...
+
+
+# Predictive Artificial Intelligence
+# Predictive AI
+ 
+ Tools to analyze historical data and experiences to predict future events or behaviors (e..g Netflix, crdit-scoring systems)
+
+ See also [P], [Artificial Intelligence]
 
 
 # Predictive Maintenance

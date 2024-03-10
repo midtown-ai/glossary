@@ -91,6 +91,7 @@
 [Confidence Interval]: {{ site.baseurl }}{% link glossary/c.md %}#confidence-interval
 [Confusion Matrix]: {{ site.baseurl }}{% link glossary/c.md %}#confusion-matrix
 [Confusion Matrices]: {{ site.baseurl }}{% link glossary/c.md %}#confusion-matrix
+[Constitutional AI]: {{ site.baseurl }}{% link glossary/c.md %}#constitutional-ai
 [Constraint Satisfaction Problem]: {{ site.baseurl }}{% link glossary/c.md %}#constraint-satisfaction-problem
 [Consumer Electric Show]: {{ site.baseurl }}{% link glossary/c.md %}#consumer-electronic-show
 [CES]: {{ site.baseurl }}{% link glossary/c.md %}#consumer-electronic-show

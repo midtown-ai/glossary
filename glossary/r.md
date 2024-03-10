@@ -177,6 +177,14 @@ R-square = R^2 = -------------------------------------
  See also [R], ...
 
 
+# Reactive Artificial Intelligence
+# Reactive AI
+
+ Tools that respond to specific inputs or situations without learning from past experiences (e.e. Alexa, Roomba, chess -playing computer)
+
+ See also [R], [Artificial Intelligence]
+
+
 # Reason-Act Prompting
 # ReAct Prompting
 

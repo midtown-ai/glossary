@@ -1128,6 +1128,27 @@ print(f"best score: {gs.best_score_:.3f}, best params: {gs.best_params_}")
  See also [S], [Random Search]
 
 
+# Social Bias
+
+ Social biases are represented by language models, but it is not clear how systematically these biases manifest in applied tasks like QA
+
+ Examples of biases
+  * girls are bad at math
+  * older people are in cognitive decline
+  * gay people are more likely to have HIV
+
+ Risks:
+  * stereotype reinforcement
+  * stereotype attribution
+
+ {% youtube "https://www.youtube.com/watch?v=JKPQ9cqBJWE" %}
+
+ More at:
+  * ...
+
+ See also [S], [Bias Benchmark For Question Answering]
+
+
 # Social Robot
 
  Social [robots][Robot] are [artificial intelligence] platforms, paired with sensors, cameras, microphones and other technology, like computer vision, so they can better interact and engage with humans or other robots.
@@ -1382,6 +1403,8 @@ As a trader, I want to create an application that lets me customize and viualize
 # Sparrow Model
 
  [Google]'s answer to chatGPT. To be released in mid 2023.
+
+ {% pdf "https://storage.googleapis.com/deepmind-media/DeepMind.com/Authors-Notes/sparrow/sparrow-final.pdf" %}
 
  More at:
   * [https://medium.com/@tokamalpathak/chatgpt-and-google-sparrow-the-future-of-ai-powered-communication-5febb200f5ab](https://medium.com/@tokamalpathak/chatgpt-and-google-sparrow-the-future-of-ai-powered-communication-5febb200f5ab)
@@ -1992,6 +2015,25 @@ II n summary, probability is focused on the theoretical study of random events, 
 
  More at:
   * [https://en.wikipedia.org/wiki/Sundar_Pichai](https://en.wikipedia.org/wiki/Sundar_Pichai)
+
+ See also [S], ...
+
+
+# Suno AI Company
+
+ Suno is building a future where anyone can make great music. Whether you're a shower singer or a charting artist, we break barriers between you and the song you dream of making. No instrument needed, just imagination. From your mind to music.
+
+ More at:
+  * site - [https://www.suno.ai/](https://www.suno.ai/)
+
+ See also [S], ...
+
+
+# Suno AI Model
+
+ A model to generate the music and lyrics based on a prompt
+
+ {% youtube "https://www.youtube.com/watch?v=XEMPea4y9IU" %}
 
  See also [S], ...
 

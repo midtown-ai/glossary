@@ -119,6 +119,7 @@
 [SLM]: {{ site.baseurl}}{% link glossary/s.md %}#small-language-model
 [Snorkel Program]: {{ site.baseurl}}{% link glossary/s.md %}#snorkel-program
 [Sobol Search]: {{ site.baseurl}}{% link glossary/s.md %}#sobol-search
+[Social Bias]: {{ site.baseurl}}{% link glossary/s.md %}#social-bias
 [Social Robot]: {{ site.baseurl}}{% link glossary/s.md %}#social-robot
 [Society Of Mind]: {{ site.baseurl}}{% link glossary/s.md %}#society-of-mind
 [Soft Actor-Critic Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#soft-actor-critic-algorithm
@@ -229,6 +230,8 @@
 [Subsampling]: {{ site.baseurl}}{% link glossary/s.md %}#subsampling
 [Sundar Pichai Person]: {{ site.baseurl}}{% link glossary/s.md %}#sundar-pichai-person
 [Sundar Pichai]: {{ site.baseurl}}{% link glossary/s.md %}#sundar-pichai-person
+[Suno AI Company]: {{ site.baseurl}}{% link glossary/s.md %}#suno-ai-company
+[Suno AI Model]: {{ site.baseurl}}{% link glossary/s.md %}#suno-ai-model
 [Super Resolution GAN]: {{ site.baseurl}}{% link glossary/s.md %}#super-resolution-gan
 [SRGAN]: {{ site.baseurl}}{% link glossary/s.md %}#super-resolution-gan
 [SuperGLUE Benchmark]: {{ site.baseurl}}{% link glossary/s.md %}#superglue-benchmark

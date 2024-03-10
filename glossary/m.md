@@ -1047,6 +1047,18 @@ def mse_loss(y_pred, y_true):
  See also [M], ...
 
 
+# Minority Report Movie
+
+ Minority Report is a 2002 American science fiction action film[6] directed by Steven Spielberg, loosely based on the 1956 novella "The Minority Report" by Philip K. Dick. The film takes place in Washington, D.C., and Northern Virginia in the year 2054, where Precrime, a specialized police department, apprehends criminals by use of foreknowledge provided by three psychics called "precogs". 
+ 
+ {% youtube "https://www.youtube.com/watch?v=3JNsNp2DVSE" %}
+
+ More at:
+  * wikipedia - [https://en.wikipedia.org/wiki/Minority_Report_(film)](https://en.wikipedia.org/wiki/Minority_Report_(film))
+
+ See also [M], ...
+
+
 # Mira Murali Person
 
  ~ Interim CEO of [OpenAI] during [Sam Altman]'s ouster.

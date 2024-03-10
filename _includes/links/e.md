@@ -28,6 +28,9 @@
 [Emergent Abilities]: {{site.baseurl }}{% link glossary/e.md %}#emergent-ability
 [Emergent Ability Distillation]: {{site.baseurl }}{% link glossary/e.md %}#emergent-ability-distillation
 [EA Distillation]: {{site.baseurl }}{% link glossary/e.md %}#emergent-ability-distillation
+[Emote Portrait Alive Model]: {{site.baseurl }}{% link glossary/e.md %}#emote-portrait-alive-model
+[EMO Model]: {{site.baseurl }}{% link glossary/e.md %}#emote-portrait-alive-model
+[EMO]: {{site.baseurl }}{% link glossary/e.md %}#emote-portrait-alive-model
 [Emotion]: {{site.baseurl }}{% link glossary/e.md %}#emotion
 [Emotions]: {{site.baseurl }}{% link glossary/e.md %}#emotion
 [Emotional Intelligence]: {{site.baseurl }}{% link glossary/e.md %}#emotional-intelligence
@@ -58,6 +61,8 @@
 [Environments]: {{site.baseurl }}{% link glossary/e.md %}#environment
 [Episode]: {{site.baseurl }}{% link glossary/e.md %}#episode
 [Episodes]: {{site.baseurl }}{% link glossary/e.md %}#episode
+[Episodic Task]: {{site.baseurl }}{% link glossary/e.md %}#episodic-task
+[Episodic Tasks]: {{site.baseurl }}{% link glossary/e.md %}#episodic-task
 [Epoch]: {{site.baseurl }}{% link glossary/e.md %}#epoch
 [Epochs]: {{site.baseurl }}{% link glossary/e.md %}#epoch
 [Epsilon-Greedy Exploration Strategy]: {{site.baseurl }}{% link glossary/e.md %}#epsilon-greedy-exploration-strategy

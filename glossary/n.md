@@ -736,12 +736,8 @@ plt.imshow(photo[:,:,0].T)       # Multiple transformation at once!
 
 # Nvidia Company
 
- {% youtube "https://www.youtube.com/watch?w=Gn_IMIPrX9s" %}
-
- {% youtube "https://www.youtube.com/watch?w=erL77suOVPg" %}
-
- {% youtube "https://www.youtube.com/watch?w=GuV-HyslPxk" %}
-
+ People:
+  * [Jensen Huang] - Founder and CEO
 
  Research:
   * [SegFormer] - Image segmentation using the [transformer architecture]
@@ -749,17 +745,23 @@ plt.imshow(photo[:,:,0].T)       # Multiple transformation at once!
  Models
   * [Chat with RTX](https://www.nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/) - Your Personalized AI Chatbot
   * [Isaac Gym] - environment for RL
-  * [Megatron Model] - NLP large language model
+  * [Megatron] - NLP large language model
   * [Nemo Toolkit] - Toolkit for conversational AI
-  * [PIcasso Model] - image diffusion model
-  * [RIVA Model] - text-to-speech model
-  * [VIMA Model] - multi-modal ? model for robots?
+  * [Picasso] - image diffusion model
+  * [RIVA] - text-to-speech model
+  * [VIMA] - multi-modal ? model for robots?
 
  SDK
   * [TensorRT SDK]
 
  Metaverse
   * [Omniverse] : The metaverse by Nvidia!
+
+ {% youtube "https://www.youtube.com/watch?w=Gn_IMIPrX9s" %}
+
+ {% youtube "https://www.youtube.com/watch?w=erL77suOVPg" %}
+
+ {% youtube "https://www.youtube.com/watch?w=GuV-HyslPxk" %}
 
  More at :
   * [https://blogs.nvidia.com/blog/2022/12/16/top-five-nvidia-ai-videos/](https://blogs.nvidia.com/blog/2022/12/16/top-five-nvidia-ai-videos/)

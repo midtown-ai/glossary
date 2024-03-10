@@ -21,8 +21,11 @@
 [QLoRA]: {{ site.baseurl}}{% link glossary/q.md %}#quantized-and-low-rank-adapter
 [Quantized Signal]: {{ site.baseurl}}{% link glossary/q.md %}#quantized-signal
 [Quantizer]: {{ site.baseurl}}{% link glossary/q.md %}#quantizer
+[Quantum Advantage]: {{ site.baseurl}}{% link glossary/q.md %}#quantum-advantage
 [Quantum Artificial Intelligence]: {{ site.baseurl}}{% link glossary/q.md %}#quantum-artificial-intelligence
 [Quantum AI]: {{ site.baseurl}}{% link glossary/q.md %}#quantum-artificial-intelligence
+[Quantum Computer]: {{ site.baseurl}}{% link glossary/q.md %}#quantum-computer
+[Quantum Computers]: {{ site.baseurl}}{% link glossary/q.md %}#quantum-computer
 [Quantum Language Processing]: {{ site.baseurl}}{% link glossary/q.md %}#quantum-language-processing
 [QLP]: {{ site.baseurl}}{% link glossary/q.md %}#quantum-language-processing
 [Question Answering]: {{ site.baseurl}}{% link glossary/q.md %}#question-answering

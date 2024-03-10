@@ -20,6 +20,8 @@
 [Ray Framework]: {{site.baseurl}}{% link glossary/r.md %}#ray-framework
 [Ray]: {{site.baseurl}}{% link glossary/r.md %}#ray-framework
 [Ray Python Module]: {{site.baseurl}}{% link glossary/r.md %}#ray-python-module
+[Reactive Artificial Intelligence]: {{site.baseurl}}{% link glossary/r.md %}#reactive-artificial-intelligence
+[Reactive AI]: {{site.baseurl}}{% link glossary/r.md %}#reactive-artificial-intelligence
 [Reason-Act Prompting]: {{site.baseurl}}{% link glossary/r.md %}#reason-act-prompting
 [ReAct Prompting]: {{site.baseurl}}{% link glossary/r.md %}#reason-act-prompting
 [ReAct]: {{site.baseurl}}{% link glossary/r.md %}#reason-act-prompting
@@ -142,6 +144,7 @@
 [Ridge Regression Penalty]: {{site.baseurl}}{% link glossary/r.md %}#ridge-regression-penalty
 [Riffusion Model]: {{site.baseurl}}{% link glossary/r.md %}#riffusion-model
 [Riva Model]: {{site.baseurl}}{% link glossary/r.md %}#riva-model
+[Riva]: {{site.baseurl}}{% link glossary/r.md %}#riva-model
 [Robot]: {{site.baseurl}}{% link glossary/r.md %}#robot
 [RobotSchool]: {{site.baseurl}}{% link glossary/r.md %}#robotschool
 [Robustly Optimized BERT Approach Model]: {{site.baseurl}}{% link glossary/r.md %}#robustly-optimized-bert-approach-model

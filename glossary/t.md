@@ -501,6 +501,9 @@ print(embeddings.shape)  #(4,128)
 
  ![]( {{site.assets}}/t/tokenization_pipeline.png ){: width="100%"}
 
+ More at:
+  * tiktokenizer app - [https://tiktokenizer.vercel.app/](https://tiktokenizer.vercel.app/)
+
  See also [T], [Pre-Tokenization], [Tokenizer]
 
 
@@ -542,7 +545,7 @@ snowing	        ['snow', '##ing']
  ```
 
  More at:
-  * ...
+  * tiktokenizer app - [https://tiktokenizer.vercel.app/](https://tiktokenizer.vercel.app/)
 
  See also [T], [BERT Model], [Tokenization]
 

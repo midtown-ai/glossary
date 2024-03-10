@@ -204,10 +204,25 @@ Loss = converged_Q-Value - optimum_Q-value          <== but do we know converged
  See also [Q], [Quantized Signal]
 
 
+# Quantum Advantage
+
+ See also [Q], ...
+
+
 # Quantum Artificial Intelligence
 # Quantum AI
 
  See also [Q], ...
+
+
+# Quantum Computer
+
+ * 1994 - Shor's algorithm and cryptography standards
+
+ {% youtube "https://www.youtube.com/watch?v=PGrQs7Mch-E" %}
+
+ See also [Q], [Quantum Artificial Intelligence]
+
 
 # Question Answering
 # QA

@@ -551,15 +551,27 @@ print(query_result)
 
 # Claude Model
 
- An [LLM] built by [Anthropic]
+ An [LLM] built by [Anthropic] that uses a [constitutional AI]
 
- {% youtube "https://www.youtube.com/watch?v=KB5r9xmrQBY" %}
+ {% youtube "https://www.youtube.com/watch?v=GBOE9fVVVSM" %}
 
- {% pdf "{{site.assets}}/c/claude_model_paper.pdf" %}
+ {% youtube "https://www.youtube.com/watch?v=sjL6Gl6ZIqs" %}
+
+ {% youtube "https://www.youtube.com/watch?v=JTLLe6_6opk" %}
+
+ {% youtube "https://www.youtube.com/watch?v=hqfjvkYt2YA" %}
+
+ {% pdf "https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf" %}
 
  More at:
   * cost estimate - [https://orenleung.com/anthropic-claude-next-cost](https://orenleung.com/anthropic-claude-next-cost)
   * UI - [https://console.anthropic.com/chat/a38ac87b-b229-455a-b742-58b4639cf995](https://console.anthropic.com/chat/a38ac87b-b229-455a-b742-58b4639cf995)
+  * papers 
+    * claude 3 model card - 
+
+  * articles
+    * [https://www.vox.com/future-perfect/23794855/anthropic-ai-openai-claude-2](https://www.vox.com/future-perfect/23794855/anthropic-ai-openai-claude-2)
+    * [https://www.computerworld.com/article/3707410/amazon-set-to-invest-4b-in-constitutional-ai-advocate-anthropic.html](https://www.computerworld.com/article/3707410/amazon-set-to-invest-4b-in-constitutional-ai-advocate-anthropic.html)
 
  See also [C], ...
 
@@ -748,6 +760,7 @@ print(query_result)
   * [Adept AI] - AI model developer. Focus on [AGI] through automation of tasks on desktops ([Forbes](https://www.forbes.com/companies/adept/?list=ai50&sh=7eb9ebdf4ebb))
   * [Adobe] - Offer a midjourey alternative called [Firefly]
   * [AlphaSense](https://www.alpha-sense.com/) - Focus on market intelligence search ([Forbes](https://www.forbes.com/companies/alphasense/?list=ai50&sh=298a91255f19))
+  * [Alibaba] - A copycat of Amazon but in China
   * [Amazon] - Focus on public cloud and partnership with 3rd parties
   * [Anduril Industries](https://www.anduril.com/) - Focus on defense software with AI ([Forbes](https://www.forbes.com/companies/anduril-industries/?list=ai50&sh=3edae6e7e083))
   * [Anthropic] - Focus on LLM, building an alternative to [GPT models][GPT Model] ([Forbes](https://www.forbes.com/companies/anthropic/?list=ai50&sh=2cdb4d2fb94e))
@@ -865,7 +878,7 @@ print(query_result)
   * [Harmonai](https://www.harmonai.org/) -
   * [MelodyStudio](https://melodystudio.net) -
   * [Mubert](https://mubert.com/) -
-  * [Suno AI](https://app.suno.ai/) - generate music for your lyrics!
+  * [Suno AI] - generate music for your lyrics!
   * [TuneFlow](https://www.tuneflow.com/) 
 
  Hardware
@@ -899,6 +912,9 @@ print(query_result)
  Synthetic data
   * [Datagen](https://datagen.tech/) - Synthetic data for faces/images
   * [Mostly AI](https://mostly.ai/) - Generative AI for tabular data 
+
+ Text-To-Speech
+  * [PlayHT] - Convert words to audio/voice
 
  Vector Databases:
   * [Chroma][Chroma Database] - in memory database (good for development!)
@@ -1101,6 +1117,28 @@ conda env export pytorch > pytorch_env.yml
   * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
 
  See also [C], [Accuracy], [Classification], [Model Drift], [Prediction Error]
+
+
+# Constitutional AI
+
+ ~ based on [Sparrow]'s rule?
+
+ How does a language model decide which questions it will engage with and which it deems inappropriate? Why will it encourage some actions and discourage others? What “values” might a language model have?
+
+ These are all questions people grapple with. Our recently published research on “Constitutional AI” provides one answer by giving language models explicit values determined by a constitution, rather than values determined implicitly via large-scale human feedback. This isn’t a perfect approach, but it does make the values of the AI system easier to understand and easier to adjust as needed.
+
+ {% youtube "https://www.youtube.com/watch?v=KB5r9xmrQBY" %}
+
+ {% pdf "https://arxiv.org/pdf/2212.08073.pdf" %}
+
+ More at:
+  * paper - ["https://arxiv.org/abs/2212.08073" ](https://arxiv.org/abs/2212.08073)
+  * announcements - [https://www.anthropic.com/news/claudes-constitution](https://www.anthropic.com/news/claudes-constitution)
+  * site - [https://www.constitutional.ai/](https://www.constitutional.ai/)
+  * articles
+    * [https://www.businesstoday.in/technology/news/story/ai-with-morals-google-backed-anthropic-reveals-the-set-of-values-that-guide-its-ai-380756-2023-05-10](https://www.businesstoday.in/technology/news/story/ai-with-morals-google-backed-anthropic-reveals-the-set-of-values-that-guide-its-ai-380756-2023-05-10)
+
+ See also [C], ...
 
 
 # Constraint Satisfaction Problem

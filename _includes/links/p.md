@@ -40,6 +40,7 @@
 [Phenaki Model]: {{ site.baseurl}}{% link glossary/p.md %}#phenaki-model
 [Piano Roll]: {{ site.baseurl}}{% link glossary/p.md %}#piano-roll
 [Picasso Model]: {{ site.baseurl}}{% link glossary/p.md %}#picasso-model
+[Picasso]: {{ site.baseurl}}{% link glossary/p.md %}#picasso-model
 [Picasso Visualizer]: {{ site.baseurl}}{% link glossary/p.md %}#picasso-visualizer
 [Pinecone Canopy]: {{ site.baseurl}}{% link glossary/p.md %}#pinecone-canopy
 [Pinecone Company]: {{ site.baseurl}}{% link glossary/p.md %}#pinecone-company
@@ -49,6 +50,8 @@
 [Pixel RNN]: {{ site.baseurl}}{% link glossary/p.md %}#pixel-rnn
 [Pixel Space]: {{ site.baseurl}}{% link glossary/p.md %}#pixel-space
 [Plagiarism Checker]: {{ site.baseurl}}{% link glossary/p.md %}#plagiarism-checker
+[PlayHT Company]: {{ site.baseurl}}{% link glossary/p.md %}#playht-company
+[PlagHT]: {{ site.baseurl}}{% link glossary/p.md %}#playht-company
 [Pluribus Model]: {{ site.baseurl}}{% link glossary/p.md %}#pluribus-model
 [Pluribus]: {{ site.baseurl}}{% link glossary/p.md %}#pluribus-model
 [Point Estimator]: {{ site.baseurl}}{% link glossary/p.md %}#point-estimator
@@ -79,6 +82,8 @@
 [Prediction Error]: {{ site.baseurl}}{% link glossary/p.md %}#prediction-error
 [Prediction-Powered Inference]: {{ site.baseurl}}{% link glossary/p.md %}#prediction-powered-inference
 [PPI]: {{ site.baseurl}}{% link glossary/p.md %}#prediction-powered-inference
+[Predictive Artificial Intelligence]: {{ site.baseurl}}{% link glossary/p.md %}#predictive-artificial-intelligence
+[Predictive AI]: {{ site.baseurl}}{% link glossary/p.md %}#predictive-artificial-intelligence
 [Predictive Maintenance]: {{ site.baseurl}}{% link glossary/p.md %}#predictive-maintenance
 [Predictor Variable]: {{ site.baseurl}}{% link glossary/p.md %}#predictor-variable
 [Pretrained Model]: {{ site.baseurl}}{% link glossary/p.md %}#pretrained-model

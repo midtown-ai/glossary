@@ -39,12 +39,23 @@ layout: page
 
  Similar to [Red Teaming], but also encompass every method to bypass controls for the model's generated output.
 
+ {% youtube "https://youtu.be/5cEvNO9rZgI?si=GgcYCFBKSmHqSn1n" %}
+
  See [J], [Red Teaming]
 
 
 # JAX Python Module
 
  A [python module] that
+
+ See also [J], ...
+
+
+# Jensen Huang Person
+
+ Founder and CEO of [NVidia]
+
+ {% youtube "https://www.youtube.com/watch?v=lXLBTBBil2U" %}
 
  See also [J], ...
 

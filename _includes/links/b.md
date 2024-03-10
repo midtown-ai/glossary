@@ -49,6 +49,9 @@
 [BHuman]: {{ site.baseurl }}{% link glossary/b.md %}#bhuman-company
 [Bias]: {{ site.baseurl }}{% link glossary/b.md %}#bias
 [Bias-Variance Tradeoff]: {{ site.baseurl }}{% link glossary/b.md %}#bias-variance-tradeoff
+[Bias Benchmark For Question Answering]: {{ site.baseurl }}{% link glossary/b.md %}#bias-benchmark-for-question-answering
+[BBQ Benchmark]: {{ site.baseurl }}{% link glossary/b.md %}#bias-benchmark-for-question-answering
+[BBQ]: {{ site.baseurl }}{% link glossary/b.md %}#bias-benchmark-for-question-answering
 [Bicentennial Man Movie]: {{ site.baseurl }}{% link glossary/b.md %}#bicentenial-man-movie
 [Bicentennial Man]: {{ site.baseurl }}{% link glossary/b.md %}#bicentenial-man-movie
 [Bidirectional Encoder Representation from Transformer Model]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model

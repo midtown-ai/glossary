@@ -100,8 +100,10 @@
 [Mini-Batch Gradient Descent Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-gradient-descent-algorithm
 [Mini-Batch Gradient Descent]: {{ site.baseurl }}{% link glossary/m.md %}#mini-batch-gradient-descent-algorithm
 [Minimax Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#minimax-algorithm
-[Mira Murati Person]: {{ site.baseurl }}{% link glossary/m.md %}#mira-murati=person
-[Mira Murati]: {{ site.baseurl }}{% link glossary/m.md %}#mira-murati=person
+[Minority Report Movie]: {{ site.baseurl }}{% link glossary/m.md %}#minority-report-movie
+[Minority Report]: {{ site.baseurl }}{% link glossary/m.md %}#minority-report-movie
+[Mira Murati Person]: {{ site.baseurl }}{% link glossary/m.md %}#mira-murati-person
+[Mira Murati]: {{ site.baseurl }}{% link glossary/m.md %}#mira-murati-person
 [Mistral AI Company]: {{ site.baseurl }}{% link glossary/m.md %}#mistral-ai-company
 [Mistral AI]: {{ site.baseurl }}{% link glossary/m.md %}#mistral-ai-company
 [Mistral Model]: {{ site.baseurl }}{% link glossary/m.md %}#mistral-model

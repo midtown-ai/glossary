@@ -37,6 +37,7 @@
 [VPT Model]: {{ site.baseurl }}{% link glossary/v.md %}#video-pre-trained-model
 [Video Restauration]: {{ site.baseurl }}{% link glossary/v.md %}#video-restauration
 [VIMA Model]: {{ site.baseurl }}{% link glossary/v.md %}#vima-model
+[VIMA]: {{ site.baseurl }}{% link glossary/v.md %}#vima-model
 [Virtual Assistant]: {{ site.baseurl }}{% link glossary/v.md %}#virtual-assistant
 [Virtual Continuum]: {{ site.baseurl }}{% link glossary/v.md %}#virtual-continuum
 [Virtual Reality]: {{ site.baseurl }}{% link glossary/v.md %}#virtual-reality

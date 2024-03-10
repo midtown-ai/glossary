@@ -321,6 +321,25 @@ layout: page
  See also [E], [Model Compression], [Standard Knowledge Distillation]
 
 
+# Emote Portrait Alive Model
+# EMO Model
+
+ Researchers at [Alibaba]‘s Institute for Intelligent Computing have developed a new artificial intelligence system called “EMO,” short for Emote Portrait Alive, that can animate a single portrait photo and generate videos of the person talking or singing in a remarkably lifelike fashion.
+
+ The system, described in a research paper published on arXiv, is able to create fluid and expressive facial movements and head poses that closely match the nuances of a provided audio track. This represents a major advance in audio-driven talking head video generation, an area that has challenged AI researchers for years.
+
+ {% youtube "https://www.youtube.com/watch?v=VlJ71kzcn9Y" %}
+
+ More at:
+  * site - [https://humanaigc.github.io/emote-portrait-alive/](https://humanaigc.github.io/emote-portrait-alive/)
+  * paper - [https://arxiv.org/abs/2402.17485](https://arxiv.org/abs/2402.17485)
+  * code - [https://github.com/HumanAIGC/EMO](https://github.com/HumanAIGC/EMO)
+  * articles
+    * [https://venturebeat.com/ai/alibabas-new-ai-system-emo-creates-realistic-talking-and-singing-videos-from-photos/](https://venturebeat.com/ai/alibabas-new-ai-system-emo-creates-realistic-talking-and-singing-videos-from-photos/)
+
+ See also [E], ...
+
+
 # Emotion
 
  Emotions are mental states brought on by neurophysiological changes, variously associated with thoughts, feelings, behavioral responses, and a degree of pleasure or displeasure. There is currently no scientific consensus on a definition. Emotions are often intertwined with mood, temperament, personality, disposition, or creativity.
@@ -598,6 +617,13 @@ In the context of DeepRacer, an episode refers to a single complete race around 
  See also [E], ...
 
 
+# Episodic Task
+
+ Task that have an end state. When end state is reached, you then have completed the [episode]. There are non-episodic tasks!
+
+ See also [E], ...
+
+
 # Epoch
 
  Epoch = Number of passes on the training dataset
@@ -855,9 +881,13 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
  * doc 1 - [https://eur-lex.europa.eu/resource.html?uri=cellar:e0649735-a372-11eb-9585-01aa75ed71a1.0001.02/DOC_1&format=PDF](https://eur-lex.europa.eu/resource.html?uri=cellar:e0649735-a372-11eb-9585-01aa75ed71a1.0001.02/DOC_1&format=PDF)
  * doc 2 - [https://eur-lex.europa.eu/resource.html?uri=cellar:e0649735-a372-11eb-9585-01aa75ed71a1.0001.02/DOC_2&format=PDF](https://eur-lex.europa.eu/resource.html?uri=cellar:e0649735-a372-11eb-9585-01aa75ed71a1.0001.02/DOC_2&format=PDF)
 
+ {% youtube "https://www.youtube.com/watch?v=iO0nfxxeYjE" %}
+
+ {% youtube "https://www.youtube.com/watch?v=za5YYUIQIaM" %}
 
  More at:
   * [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021PC0206](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021PC0206)
+  * decoding - [https://hai.stanford.edu/news/analyzing-european-union-ai-act-what-works-what-needs-improvement](https://hai.stanford.edu/news/analyzing-european-union-ai-act-what-works-what-needs-improvement)
 
  See also [E], [AI Bill Of Rights]
 
