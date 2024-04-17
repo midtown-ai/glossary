@@ -51,10 +51,14 @@ R-square = R^2 = -------------------------------------
 
 # Rabbit Company
 
+ Price: $200
+
  {% youtube "https://www.youtube.com/watch?v=22wlLy7hKP4" %}
 
  More at:
   * site - [https://www.rabbit.tech/](https://www.rabbit.tech/)
+  * alternative
+    * [Humane] - with the AI pin
 
  See also [R], ...
 
@@ -1091,12 +1095,19 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
   * [RAG Retriever] or reader componentbased on [vector retrieval]
   * [RAG Generator] or writer component
 
+ RAG paradigm
+  * [Naive RAG]
+  * [Advanced RAG]
+  * [Modular RAG]
+
  Current evaluation frameworks:
   * [RAG Triad Of Metrics]
   * [ROUGE]
   * [BLEU]
   * [RAGAs]
   * [Automated RAG Evaluation System (ARES)][ARES]
+
+ Large Language Models (LLMs) demonstrate significant capabilities but face challenges such as hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by incorporating knowledge from external databases. This enhances the accuracy and credibility of the models, particularly for knowledge-intensive tasks, and allows for continuous knowledge updates and integration of domain-specific information. RAG synergistically merges LLMs' intrinsic knowledge with the vast, dynamic repositories of external databases. This comprehensive review paper offers a detailed examination of the progression of RAG paradigms, encompassing the Naive RAG, the Advanced RAG, and the Modular RAG. It meticulously scrutinizes the tripartite foundation of RAG frameworks, which includes the retrieval , the generation and the augmentation techniques. The paper highlights the state-of-the-art technologies embedded in each of these critical components, providing a profound understanding of the advancements in RAG systems. Furthermore, this paper introduces the metrics and benchmarks for assessing RAG models, along with the most up-to-date evaluation framework.
 
  ![]( {{site.assets}}/r/retrieval_augmented_generation_emergence.png ){: width="100%"}
 
@@ -1106,9 +1117,14 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 
  {% youtube "https://www.youtube.com/watch?v=ypzmPwLH_Q4" %}
 
+ {% pdf "https://arxiv.org/pdf/2312.10997.pdf" %}
+
  More at:
-  * [https://community.fullstackretrieval.com/](https://community.fullstackretrieval.com/)
-  * [https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79](https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79)
+  * paper - [https://arxiv.org/abs/2312.10997](https://arxiv.org/abs/2312.10997)
+  * code - [https://github.com/Tongji-KGLLM/RAG-Survey](https://github.com/Tongji-KGLLM/RAG-Survey)
+  * articles
+    * [https://community.fullstackretrieval.com/](https://community.fullstackretrieval.com/)
+    * [https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79](https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79)
 
  See also [R], [Modular Reasoning Knowledge and Language System], [Vector Retrieval]
 
@@ -1397,6 +1413,27 @@ def reward_function(params):
 
  More at:
   * stuntronic robot [https://www.youtube.com/watch?v=oyXl3IhonRM](https://www.youtube.com/watch?v=oyXl3IhonRM)
+
+ See also [R], ...
+
+
+# Robotic Foundation Model
+# RFM-1 Model
+# RFM Model
+
+ In 2024/03/11, [Covariant AI] launched RFM-1, a foundation model designed to bring AI’s learning capabilities directly into the physical realm of robotics. This isn't just about programming a robot to do a job; it's about teaching a robot how to learn to do any job.
+
+ RFM is basically an LLM for robot language. It’s trained on internet data as well as massive datasets of robot camera feeds, sensor data, and language.
+  * RFM-1’s advanced AI algorithms enable robots to understand, interact with, and learn the physics of their environment by themselves. 
+  * For example, users can tell a robot running RFM-1 to “pick up an apple”. After identifying the apple by relying on learned characteristics (like shape and color), RFM-1 simulates the best action through video predictions based on its training. 
+  * This process is like the human method of planning actions mentally before executing them.
+
+ RFM-1 is already being deployed in the logistics sector, where it's proving to be a game-changer in warehousing and order fulfillment processes. Covariant believes RFM-1 addresses the growing shortage of workers willing to perform highly repetitive and dangerous tasks (particularly at assembly lines). 
+ 
+ RFM-1 hints at a future where machines can learn, adapt, and evolve without needing a programmer. This opens up a new world of possibilities: from manufacturing lines that adjust in real-time to customer demands, to service robots in healthcare that improve their assistance strategies as they interact with people.
+
+ More at:
+  * announcement - [https://covariant.ai/insights/introducing-rfm-1-giving-robots-human-like-reasoning-capabilities/](https://covariant.ai/insights/introducing-rfm-1-giving-robots-human-like-reasoning-capabilities/)
 
  See also [R], ...
 

@@ -31,8 +31,12 @@ layout: page
 
 # Hallucination
 
+ To reduce hallucination, look at [RAG]
+
  More at:
-  * [https://venturebeat.com/ai/whats-next-in-large-language-model-llm-research-heres-whats-coming-down-the-ml-pike/](https://venturebeat.com/ai/whats-next-in-large-language-model-llm-research-heres-whats-coming-down-the-ml-pike/)
+  * articles
+    * Air Canada - [https://arstechnica.com/tech-policy/2024/02/air-canada-must-honor-refund-policy-invented-by-airlines-chatbot/](https://arstechnica.com/tech-policy/2024/02/air-canada-must-honor-refund-policy-invented-by-airlines-chatbot/)
+    * [https://venturebeat.com/ai/whats-next-in-large-language-model-llm-research-heres-whats-coming-down-the-ml-pike/](https://venturebeat.com/ai/whats-next-in-large-language-model-llm-research-heres-whats-coming-down-the-ml-pike/)
 
  See also [H], [Large Language Model]
 
@@ -400,9 +404,27 @@ def huber_loss(y_pred, y, delta=1.0):
 
  See also [H], ...
 
+
+# Humane Company
+
+ ~ $700 with $25/month subscription
+
+ {% youtube "https://www.youtube.com/watch?v=9lNIwOOMVHk" %}
+
+ {% youtube "https://www.youtube.com/watch?v=1H4SNFtEzys" %}
+
+ More:
+  * site - [https://humane.com/](https://humane.com/)
+
+ See also [H], ...
+
+
 # Humanoid
 
- A robot that is meant to resemble a human.
+ A robot that is meant to resemble a human. 
+
+ Examples:
+  * [Figure-01]
 
  See also [H], [Robot]
 

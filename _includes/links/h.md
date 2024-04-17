@@ -34,6 +34,10 @@
 [Hugging Face Hub]: {{site.baseurl }}{% link glossary/h.md %}#hugging-face-hub
 [Human-Centered AI]: {{site.baseurl }}{% link glossary/h.md %}#human-centered-ai
 [Human-Centered Design]: {{site.baseurl }}{% link glossary/h.md %}#human-centered-design
+[Humane Company]: {{site.baseurl }}{% link glossary/h.md %}#humane-company
+[Humane]: {{site.baseurl }}{% link glossary/h.md %}#humane-company
+[Humanoid]: {{site.baseurl }}{% link glossary/h.md %}#humanoid
+[Humanoids]: {{site.baseurl }}{% link glossary/h.md %}#humanoid
 [Hybrid Artificial Intelligence]: {{site.baseurl }}{% link glossary/h.md %}#hybrid-artificial-intelligence
 [Hybrid AI]: {{site.baseurl }}{% link glossary/h.md %}#hybrid-artificial-intelligence
 [Hybrid Artificial Intelligence System]: {{site.baseurl }}{% link glossary/h.md %}#hybrid-artificial-intelligence-system

@@ -28,6 +28,7 @@
 [Data Loader]: {{ site.baseurl }}{% link glossary/d.md %}#data-loader
 [Data Management]: {{ site.baseurl }}{% link glossary/d.md %}#data-management
 [Data Mesh]: {{ site.baseurl }}{% link glossary/d.md %}#data-mesh
+[Data Pipeline]: {{ site.baseurl }}{% link glossary/d.md %}#data-pipeline
 [Data Point]: {{ site.baseurl }}{% link glossary/d.md %}#data-point
 [Data Poisoning]: {{ site.baseurl }}{% link glossary/d.md %}#data-poisoning
 [Data Preparation]: {{ site.baseurl }}{% link glossary/d.md %}#data-preparation
@@ -116,6 +117,8 @@
 [Deterministic Node]: {{ site.baseurl }}{% link glossary/d.md %}#deterministic-node
 [Development Subset]: {{ site.baseurl }}{% link glossary/d.md %}#development-subset
 [DevOPS]: {{ site.baseurl }}{% link glossary/d.md %}#devops
+[DGX Cloud]: {{ site.baseurl }}{% link glossary/d.md %}#dgx-cloud
+[DGX-1 system]: {{ site.baseurl }}{% link glossary/d.md %}#dgx-1-system
 [Differential Privacy]: {{ site.baseurl }}{% link glossary/d.md %}#differential-privacy
 [Diffractive Neural Network]: {{ site.baseurl }}{% link glossary/d.md %}#diffractive-neural-network
 [Diffractive Neural Networks]: {{ site.baseurl }}{% link glossary/d.md %}#diffractive-neural-network

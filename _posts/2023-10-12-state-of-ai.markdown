@@ -40,6 +40,10 @@ categories: jekyll update
  <!-- Google embed ends -->
  </div>
 
+ {% comment %}
+ {% pdf "{{site.assets}}/+/s/state_of_ai_report_20231012.pdf" %}
+ {% endcomment %}
+
  For much of the last year, it’s felt like Large Language Models (LLMs) have been the only game in town. While the State of AI Report predicted that [transformers] were emerging as a general purpose system back in 2021, significant advances in capabilities caught both the AI community and wider world by surprise, with implications for research, industry dynamics, and geopolitics.
 
  Last year’s State of AI report outlined the rise of decentralization in AI research, but OpenAI’s [GPT-4] stunned observers as big tech returned with a vengeance. Amid the scrabble for ever more compute power, challengers have found themselves increasingly reliant on its war chest. At the same time, the open source community continues to thrive, as the number of releases continues to rocket.
@@ -74,6 +78,10 @@ categories: jekyll update
  <!-- Google embed ends -->
  </div>
 
+ {% comment %}
+ {% pdf "{{site.assets}}/+/s/state_of_ai_report_20221011.pdf" %}
+ {% endcomment %}
+
  This year, new research collectives have open sourced breakthrough AI models developed by large centralized labs at a never before seen pace. By contrast, the large-scale AI compute infrastructure that has enabled this acceleration, however, remains firmly concentrated in the hands of [NVIDIA] despite investments by [Google], [Amazon], [Microsoft] and a range of startups.
 
  Produced in collaboration with my friend Ian Hogarth, this year’s State of AI Report also points to an increase in awareness among the AI community of the importance of AI safety research, with an estimated 300 safety researchers now working at large AI labs, compared to under 100 identified in last year's report.
@@ -92,11 +100,16 @@ categories: jekyll update
 
 # 2021
 
+ {% comment %}
  <div class="responsive-wrap">
  <!-- this is the embed code provided by Google -->
  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTHUWZ5w1TgCvUYIrawQbFNnEnEi0Cz9alxmW_0czhppDg-ewkPmpOySmxFPkuTuF2vVxLV6eA3TEne/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
  <!-- Google embed ends -->
  </div>
+ {% endcomment %}
+
+
+ {% pdf "{{site.assets}}/+/s/state_of_ai_report_20211012.pdf" %}
 
  This year, we have seen AI become increasingly pivotal to breakthroughs in everything from drug discovery to mission critical infrastructure like electricity grids.
 
@@ -119,18 +132,26 @@ categories: jekyll update
 
  {% youtube "https://www.youtube.com/watch?v=o2fYsrV-YlQ" %}
 
+ {% comment %}
  <div class="responsive-wrap">
  <!-- this is the embed code provided by Google -->
  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQbqF3dtROMsK2ayRV4VFas3F2F0SDJ-gTQxqE0luNpIDx-XI3Ee6CLaF7m76LXcgTKp52oh-w0RUbv/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
  <!-- Google embed ends -->
  </div>
+ {% endcomment %}
+
+ {% pdf "{{site.assets}}/+/s/state_of_ai_report_20201001.pdf" %}
 
  Source - [https://www.stateof.ai/2020](https://www.stateof.ai/2020)
 
 # 2019
 
+ {% pdf "{{site.assets}}/+/s/state_of_ai_report_20190628.pdf" %}
+
  Source - [https://www.stateof.ai/2019](https://www.stateof.ai/2019)
 
 # 2018
+
+ {% pdf "{{site.assets}}/+/s/state_of_ai_report_20180629.pdf" %}
 
  Source - [https://www.stateof.ai/2018](https://www.stateof.ai/2018)

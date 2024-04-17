@@ -61,12 +61,14 @@
 [A2C]: {{ site.baseurl }}{% link glossary/a.md %}#advantage-actor-critic-algorithm
 [Advantage Estimation]: {{ site.baseurl }}{% link glossary/a.md %}#advantage-estimation
 [Adversarial Attack]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-attack
+[Adversarial Example]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-example
 [Adversarial Imitation Learning]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-imitation-learning
 [Adversarial Model]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-model
 [Adversarial Policy]: {{ site.baseurl }}{% link glossary/a.md %}#adversarial-policy
 [Affective Computing]: {{ site.baseurl }}{% link glossary/a.md %}#affective-computing
 [Agency]: {{ site.baseurl }}{% link glossary/a.md %}#agency
 [Agent]: {{ site.baseurl }}{% link glossary/a.md %}#agent
+[Agent-Based Modeling]: {{ site.baseurl }}{% link glossary/a.md %}#agent-based-modeling
 [AI Agent]: {{ site.baseurl }}{% link glossary/a.md %}#ai-agent
 [AI Agents]: {{ site.baseurl }}{% link glossary/a.md %}#ai-agent
 [AI Alignment]: {{ site.baseurl }}{% link glossary/a.md %}#ai-alignment
@@ -93,15 +95,19 @@
 [AI Magazine]: {{ site.baseurl }}{% link glossary/a.md %}#ai-magazine
 [AI Moratorium]: {{ site.baseurl }}{% link glossary/a.md %}#ai-moratorium
 [AI Movie]: {{ site.baseurl }}{% link glossary/a.md %}#ai-movie
+[AI Music]: {{ site.baseurl }}{% link glossary/a.md %}#ai-music
 [AI Paper]: {{ site.baseurl }}{% link glossary/a.md %}#ai-paper
+[AI Policy]: {{ site.baseurl }}{% link glossary/a.md %}#ai-policy
 [AI Principle]: {{ site.baseurl }}{% link glossary/a.md %}#ai-principle
 [AI Quote]: {{ site.baseurl }}{% link glossary/a.md %}#ai-quote
+[AI Regulation]: {{ site.baseurl }}{% link glossary/a.md %}#ai-regulation
 [AI Research]: {{ site.baseurl }}{% link glossary/a.md %}#ai-research
 [AI Risk]: {{ site.baseurl }}{% link glossary/a.md %}#ai-risk
 [AI Safety]: {{ site.baseurl }}{% link glossary/a.md %}#ai-safety
 [AI Stack]: {{ site.baseurl }}{% link glossary/a.md %}#ai-stack
 [AI Topics]: {{ site.baseurl }}{% link glossary/a.md %}#ai-topics
 [AI Winter]: {{ site.baseurl }}{% link glossary/a.md %}#ai-winter
+[AI Writer]: {{ site.baseurl }}{% link glossary/a.md %}#ai-writer
 [AI4ALL]: {{ site.baseurl }}{% link glossary/a.md %}#ai4all
 [Alan Turing Person]: {{ site.baseurl }}{% link glossary/a.md %}#alan-turing-person
 [Alan Turing]: {{ site.baseurl }}{% link glossary/a.md %}#alan-turing-person
@@ -212,6 +218,7 @@
 [Attention-Based Model]: {{ site.baseurl }}{% link glossary/a.md %}#attention-based-model
 [Attention Score]: {{ site.baseurl }}{% link glossary/a.md %}#attention-score
 [Attribute]: {{ site.baseurl }}{% link glossary/a.md %}#attribute
+[Audio Generation]: {{ site.baseurl }}{% link glossary/a.md %}#audio-generation
 [Augmented Language Model]: {{ site.baseurl }}{% link glossary/a.md %}#augmented-language-model
 [ALM]: {{ site.baseurl }}{% link glossary/a.md %}#augmented-language-model
 [Augmented Reality]: {{ site.baseurl }}{% link glossary/a.md %}#augmented-reality

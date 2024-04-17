@@ -169,6 +169,8 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
   * [Exponential Linear Unit (ELU)][ELU] function
   * [Linear function][Linear Activation Function]
 
+ A crucial element within [artificial neural networks], responsible for modifying input signals. This function adjusts the output magnitude based on the input magnitude: Inputs over a predetermined threshold result in larger outputs. It acts like a gate that selectively permits values over a certain point.
+
  ![]( {{site.assets}}/a/activation_function.png){: width="100%" }
 
  ![]( {{site.assets}}/a/activation_function_table.png){: width="100%" }
@@ -221,7 +223,9 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
 
 # Active Learning
 
- `Pick the sample from which you will learn the most and have them labelled`. How to select those samples? But a model with a seed sample set, run data to the model, label the ones that have the most uncertainty.
+ ~ Pick the sample from which you will learn the most and have them labelled. How to select those samples? But a model with a seed sample set, run data to the model, label the ones that have the most uncertainty.
+
+ A form of [reinforcement learning from human feedback (RLHF)][RLHF] where an algorithm actively engages with a user to obtain labels for data. It refines its performance by getting labels for desired outputs.
 
  More at:
   * [https://www.datacamp.com/community/tutorials/active-learning](https://www.datacamp.com/community/tutorials/active-learning)
@@ -244,6 +248,11 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
 # Actor-Critic Algorithm
 
  When you put [actor] and [critic] together!
+
+ A two-part algorithmic structure employed in [reinforcement learning (RL)][RL]. Within this model, the “[Actor]” determines optimal actions based on the state of its environment. At the same time, the “[Critic]” evaluates the quality of state-action pairs, improving them over time.
+
+ Variations:
+  * [Advantage Actor Critic (A2C)][A2C]
 
  {% youtube "https://www.youtube.com/watch?v=w_3mmm0P0j8" %}
 
@@ -458,6 +467,8 @@ One obvious way to mitigate that problem is to choose different learning rate fo
 
  A2C, or Advantage [Actor-Critic], is a synchronous version of the A3C policy gradient method. As an alternative to the asynchronous implementation of A3C, A2C is a synchronous, deterministic implementation that waits for each [actor] to finish its segment of experience before updating, averaging over all of the [actors]. This more effectively uses [GPUs] due to larger [batch sizes].
 
+ An advanced fusion of [policy gradient] and learned value function within [reinforcement learning (RL)][RL]. This hybrid algorithm is characterized by two interdependent components the “Actor,” which learns a parameterized [policy], and the “Critic,” which assimilates a value function for the evaluation of state-action pairs. These components collectively contribute to a refined learning process.
+
  {% youtube "https://www.youtube.com/watch?v=asBFJACi698" %}
 
  {% pdf "https://arxiv.org/pdf/1602.01783v2.pdf" %}
@@ -491,11 +502,20 @@ One obvious way to mitigate that problem is to choose different learning rate fo
 
 # Adversarial Attack
 
- In the last few years researchers have found many ways to break AIs trained using labeled data, known as supervised learning. Tiny tweaks to an AI’s input—such as changing a few pixels in an image—can completely flummox it, making it identify a picture of a sloth as a race car, for example. These so-called adversarial attacks have no sure fix.
+ In the last few years researchers have found many ways to break AIs trained using labeled data, known as [supervised learning]. Tiny tweaks to an AI’s input (a.k.a. [Adversarial Example]) — such as changing a few pixels in an image—can completely flummox it, making it identify a picture of a sloth as a race car, for example. These so-called adversarial attacks have no sure fix.
 
- In 2017, Sandy Huang, who is now at DeepMind, and her colleagues looked at an AI trained via reinforcement learning to play the classic video game Pong. They showed that adding a single rogue pixel to frames of video input would reliably make it lose. Now Adam Gleave at the University of California, Berkeley, has taken adversarial attacks to another level.
+ In 2017, Sandy Huang, who is now at [DeepMind], and her colleagues looked at an AI trained via [reinforcement learning] to play the classic video game Pong. They showed that adding a single rogue pixel to frames of video input would reliably make it lose. Now Adam Gleave at the University of California, Berkeley, has taken adversarial attacks to another level.
 
- See also [Adversarial Policy], [Threat Model]
+ An attempt to damage a [machine learning] model by giving it misleading or deceptive data during its training phase, or later exposing it to maliciously-engineered data, with the intent to induce degrade or manipulate the model’s output.
+
+ See also [A], [Adversarial Policy], [Threat Model]
+
+
+# Adversarial Example
+
+ The building blocks of an [adversarial attack]: Inputs deliberately constructed to provoke errors in machine learning models. These are typically deviations from valid inputs included in the data set that involve subtle alterations that an attacker introduces to exploit vulnerabilities in the model.
+
+ See also [A], ...
 
 
 # Adversarial Imitation Learning
@@ -558,6 +578,14 @@ One obvious way to mitigate that problem is to choose different learning rate fo
   * ...
 
  See also [A], ...
+
+
+# Agent-Based Modeling
+
+ A method employed for simulating intricate systems, focusing on interactions between individual [agents] to glean insights into emergent system behaviors.
+
+ See also [A], ...
+
 
 # AI Agent
 
@@ -804,6 +832,8 @@ A risk of [AGI]
 
  The AI Index collaborates with many different organizations to track progress in artificial intelligence. These organizations include: the Center for Security and Emerging Technology at Georgetown University, LinkedIn, NetBase Quid, Lightcast, and McKinsey. The 2023 report also features more self-collected data and original analysis than ever before. This year’s report included new analysis on foundation models, including their geopolitics and training costs, the environmental impact of AI systems, K-12 AI education, and public opinion trends in AI. The AI Index also broadened its tracking of global AI legislation from 25 countries in 2022 to 127 in 2023.
 
+ {% pdf "https://aiindex.stanford.edu/wp-content/uploads/2024/04/HAI_AI-Index-Report_2024.pdf" %}
+
  {% youtube "https://www.youtube.com/watch?v=-0dk3CK5qSQ" %}
 
  {% pdf "https://aiindex.stanford.edu/wp-content/uploads/2023/04/HAI_AI-Index-Report_2023.pdf" %}
@@ -889,9 +919,28 @@ A risk of [AGI]
  See also [A]
 
 
+# AI Music
+
+ A musical composition made by or with AI-based [audio generation].
+
+ See also [A], ...
+
+
 # AI Paper
 
- See [AI Research]
+ Types of AI research papers:
+  * Surveys = look for trends and patters
+  * Benchmarks & datasets
+  * Breakthroughs
+
+ {% youtube "https://www.youtube.com/watch?v=K6Wui3mn-uI" %}
+
+ See [A], [AI Research]
+
+
+# AI Policy
+
+ See [AI Regulation]
 
 
 # AI Principle
@@ -958,6 +1007,13 @@ Better data beat the model always
  ```
 
  See also [A], ...
+
+
+# AI Regulation
+
+ The formulation of public sector frameworks and legal measures aimed at steering and overseeing artificial intelligence technologies. This facet of regulation extends into the broader realm of algorithmic governance.
+
+ See also [A}, ...
 
 
 # AI Research
@@ -1061,6 +1117,13 @@ Better data beat the model always
   * Second - [https://en.wikipedia.org/wiki/History_of_artificial_intelligence#Bust:_the_second_AI_winter_1987%E2%80%931993](https://en.wikipedia.org/wiki/History_of_artificial_intelligence#Bust:_the_second_AI_winter_1987%E2%80%931993)
 
   See also [A], ...
+
+
+# AI Writer
+
+ A software application that uses [artificial intelligence] to produce written content, mimicking human-like text generation. AI writing tools can be invaluable for businesses engaged in content marketing.
+
+ See also [A], ...
 
 
 # AI21  Labs Company
@@ -2194,6 +2257,13 @@ Then you are presented with the best matched videos (values).                   
  See also [A], [Negative Attribute], [Positive Attribute]]
 
 
+# Audio  Generation
+
+ The process of generating raw audio content such as speech or [AI music] by using [artificial intelligence].
+
+ See also [A], ...
+
+
 # Augmented Language Model
 # ALM
 
@@ -2223,6 +2293,8 @@ Then you are presented with the best matched videos (values).                   
 
 
 # Autoencoder
+
+ A specialized variant of [artificial neural networks] employed for [unsupervised learning]. Autoencoders master the dual functions of data encoding and decoding, facilitating efficient data representation and reconstruction.
 
  Let’s now discuss autoencoders and see how we can use neural networks for dimensionality reduction. The general idea of autoencoders is pretty simple and consists in setting an encoder and a decoder as neural networks and to learn the best encoding-decoding scheme using an iterative optimisation process. So, at each iteration we feed the autoencoder architecture (the encoder followed by the decoder) with some data, we compare the encoded-decoded output with the initial data and backpropagate the error through the architecture to update the weights of the networks. Thus, intuitively, the overall autoencoder architecture (encoder+decoder) creates a bottleneck for data that ensures only the main structured part of the information can go through and be reconstructed. Looking at our general framework, the family E of considered encoders is defined by the encoder network architecture, the family D of considered decoders is defined by the decoder network architecture and the search of encoder and decoder that minimise the reconstruction error is done by gradient descent over the parameters of these networks.
 

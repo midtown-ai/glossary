@@ -626,9 +626,20 @@ In the context of DeepRacer, an episode refers to a single complete race around 
 
 # Epoch
 
- Epoch = Number of passes on the training dataset
+ Number of Epochs = Number of passes on the training dataset
 
  :warning: The parameters of the model are usually updated many times during each epoch. The model is updated after each batch of data. This is known as [batch training] or mini-batch training.
+
+ An epoch is complete whenever every point in the training set (N) has already been used in all steps: forward pass, computing loss, computing gradients, and updating parameters.
+
+ During one epoch, we perform at least one update, but no more than N updates.
+
+ The number of updates (N/n) will depend on the type of gradient descent being used:
+  * For batch (n = N) gradient descent, this is trivial, as it uses all points for computing the loss. One epoch is the same as one update.
+  * For stochastic (n = 1) gradient descent, one epoch means N updates since every individual data point is used to perform an update.
+  * For mini-batch (of size n), one epoch has N/n updates since a mini-batch of n data points is used to perform an update.
+
+ 
 
  One epoch means that every training sample has been fed through the model at least once. If your epochs are set to 50, for example, it means that the model you are training will work through the entire training dataset 50 times.
 

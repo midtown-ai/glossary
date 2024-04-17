@@ -161,8 +161,10 @@ Predict what are the required agent skills based some input parameters
 
  More at:
   * paper - [https://arxiv.org/abs/1912.03817](https://arxiv.org/abs/1912.03817)
-  * [https://blog.research.google/2023/06/announcing-first-machine-unlearning.html](https://blog.research.google/2023/06/announcing-first-machine-unlearning.tml)
-  * [https://deepgram.com/learn/what-is-machine-unlearning-and-why-does-it-matter](https://deepgram.com/learn/what-is-machine-unlearning-and-why-does-it-matter)
+  * kaggle - [https://www.kaggle.com/competitions/neurips-2023-machine-unlearning](https://www.kaggle.com/competitions/neurips-2023-machine-unlearning)
+  * articles
+    * [https://blog.research.google/2023/06/announcing-first-machine-unlearning.html](https://blog.research.google/2023/06/announcing-first-machine-unlearning.tml)
+    * [https://deepgram.com/learn/what-is-machine-unlearning-and-why-does-it-matter](https://deepgram.com/learn/what-is-machine-unlearning-and-why-does-it-matter)
 
  See also [M], ...
 
@@ -1145,7 +1147,7 @@ def mse_loss(y_pred, y_true):
 
  A system of experts and gating network: Each expert is a feedforward network and all the expert receive the same input and have the same number of outputs. The gating network is also a feedforward, and typically receives the same input as the expert networks.
 
- ![]( {{site.assets}}/m/mixture_of_experts.png ){: width="100%"}
+ ![]( {{site.assets}}/m/mixture_of_experts_architecture.png ){: width="100%"}
 
  {% pdf "https://www.cs.toronto.edu/~fritz/absps/jjnh91.pdf" %}
 
@@ -1279,13 +1281,6 @@ def mse_loss(y_pred, y_true):
   * facebook LLaMa model card - [https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md](https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md)
 
  See also [M], [Model Data Sheet]
-
-
-# Model-Centric AI
-
- Focus on the algorithm, assume the data is static! (like a kaggle dataset). The opposite of [data-centric AI]
-
- See also [M], ...
 
 
 # Model Checkpoint
@@ -1456,6 +1451,11 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
  See also [M], ...
 
 
+# Model Fusion
+
+ See [Model Merging]
+
+
 # Model Inversion
 
  Model inversion is a type of attack against machine learning models, particularly in privacy-sensitive applications. The goal of model inversion is to extract private or sensitive attributes used as inputs to train the model.
@@ -1489,6 +1489,18 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
  Where you can compare different models based on several metrics/benchmarks such as perplexity, bias, loss, etc.
 
  See also [M], [Model Benchmark]
+
+
+# Model Merging
+
+ We present a novel application of evolutionary algorithms to automate the creation of powerful foundation models. While model merging has emerged as a promising approach for [LLM] development due to its cost-effectiveness, it currently relies on human intuition and domain knowledge, limiting its potential. Here, we propose an evolutionary approach that overcomes this limitation by automatically discovering effective combinations of diverse open-source models, harnessing their collective intelligence without requiring extensive additional training data or compute. Our approach operates in both [parameter space] and [data flow space], allowing for optimization beyond just the weights of the individual models. This approach even facilitates cross-domain merging, generating models like a Japanese LLM with Math reasoning capabilities. Surprisingly, our Japanese Math LLM achieved state-of-the-art performance on a variety of established Japanese LLM benchmarks, even surpassing models with significantly more parameters, despite not being explicitly trained for such tasks. Furthermore, a culturally-aware Japanese [VLM] generated through our approach demonstrates its effectiveness in describing Japanese culture-specific content, outperforming previous Japanese VLMs. This work not only contributes new state-of-the-art models back to the open-source community, but also introduces a new paradigm for automated model composition, paving the way for exploring alternative, efficient approaches to foundation model development.
+
+ {% pdf "https://arxiv.org/pdf/2403.13187.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2403.13187](https://arxiv.org/abs/2403.13187)
+
+ See also [M], ...
 
 
 # Model Release Card
@@ -1705,6 +1717,13 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
  See also [M], ...
 
 
+# Model-Centric AI
+
+ Focus on the algorithm, assume the data is static! (like a kaggle dataset). The opposite of [data-centric AI]
+
+ See also [M], ...
+
+
 # Model-Free Reinforcement Learning
 # Model-Free RL
 
@@ -1837,6 +1856,14 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
     * [https://cobusgreyling.medium.com/create-a-mrkl-autonomous-agent-using-langchain-openai-serpapi-39664a514459](https://cobusgreyling.medium.com/create-a-mrkl-autonomous-agent-using-langchain-openai-serpapi-39664a514459)
 
  See also [M], [MRKL Autonomous Agent], [ReACT Prompting]
+
+
+# Modular Retrieval Augmented Generation System
+# Modular RAG System
+
+ ![]( {{site.assets}}/m/modular_retrieval_augmented_generation_system.jpeg ){: width="100%"}
+
+ See also [M], ...
 
 
 # Monte Carlo Control
@@ -1996,6 +2023,9 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
 
  ~ the brains of the Transformer and responsible for performance through parallelism. Multi-Head Attention consists of several attention layers running in parallel. The Attention layer takes its input in the form of three parameters, known as the Query, Key, and Value (aka Q,K,V). All three parameters are similar in structure, with each word in the sequence represented by a vector. In transformers is used for encoder and decoder.
 
+ Q:
+  * independent multi-layer perceptron (?) that takes a vector as input (?) and return an output ~ a bit like asking questions on the input vector (queen --(attention)--> vector --(feedforward network)--> is it a noun? = output-1, is it english = output-2, does it refer to a person = o-3, is it an mount? = o-4, is the tone ascertive = o-5, is it a piece of a bigger word? = o-6, iis it part of a quote? = o-7, ...)
+
  ![]( {{site.assets}}/m/multi_head_attention.png ){: width="100%"}
 
  {% youtube "https://www.youtube.com/watch?v=g2BRIuln4uc" %}
@@ -2005,7 +2035,7 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
  More at:
   * code - [https://nlp.seas.harvard.edu/annotated-transformer/](https://nlp.seas.harvard.edu/annotated-transformer/)
 
- See also [M], [Attention Score], [Attention-Based Model], [Decoder], [Encoder], [Masked Self-Attention], [Self-Attention], [Transformer Model]
+ See also [M], [Attention Score], [Attention-Based Model], [Decoder], [Encoder], [Masked Self-Attention], [Self-Attention], [Transformer Architecture]
 
 
 # Multi-Label Classification

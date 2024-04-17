@@ -251,6 +251,11 @@ In the case of the parent document retriever, the original large chunks will be 
   Others
    * Manuela Veloso - Carnegie Mellon University and Head of research at JPMC
 
+ ![]( {{site.assets}}/p/people_twitter_influencers.webp ){: width="100%"}
+
+ More at:
+  * [https://www.aiprm.com/ai-statistics/#ai-sources-and-methodology](https://www.aiprm.com/ai-statistics/#ai-sources-and-methodology)
+
  See also [P], [AI Movie], [Company]
 
 

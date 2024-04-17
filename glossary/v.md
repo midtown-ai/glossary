@@ -373,6 +373,21 @@ More at:
  See also [V], ...
 
 
+# Video Generator
+
+ Generate a video from
+  * a text prompt
+  * a website
+  * ....
+
+ More at:
+  * videogen.app - [https://app.videogen.io/](https://app.videogen.io/)
+  * runway Gen 2 - [https://research.runwayml.com/gen2](https://research.runwayml.com/gen2)
+  * SORA - 
+
+ See also [V], ...
+
+
 # Video Joint Embedding Predictive Architecture
 # V-JEPA
 
@@ -400,12 +415,23 @@ More at:
  See also [V], [Inverse Dynamics Model], [Reinforcement Learning]
 
 
-# Video Restauration
+# Video Restoration
 
  {% youtube "https://www.youtube.com/watch?v=sHkc83XA2dY" %}
 
  More at:
   * [https://www.youtube.com/@NASS_0/videos](https://www.youtube.com/@NASS_0/videos)
+
+ See also [V], ...
+
+
+# Video Summarization
+
+ More at:
+  * with claude 3 - [https://github.com/hundredblocks/transcription_demo](https://github.com/hundredblocks/transcription_demo)
+    * twitter challenge - [https://twitter.com/karpathy/status/1760740503614836917](https://twitter.com/karpathy/status/1760740503614836917)
+    * input - [https://www.youtube.com/watch?v=zduSFxRajkE](https://www.youtube.com/watch?v=zduSFxRajkE)
+    * output - [https://hundredblocks.github.io/transcription_demo/](https://hundredblocks.github.io/transcription_demo/)
 
  See also [V], ...
 

@@ -33,6 +33,7 @@ categories: jekyll update
 
  {% youtube "https://www.youtube.com/watch?v=K4pmOWD_8Gc" %}
 
+ * 900 BCE --> [https://www.aiprm.com/education/timeline-of-artificial-intelligence/](https://www.aiprm.com/education/timeline-of-artificial-intelligence/)
  * 1800, 1930 - Computer = mechanical machines for computation
  * 1927       - [Metropolis]
  * 1943       - [Perceptron] invented by McCulloch and Pitts: Boolean circuit model of brain

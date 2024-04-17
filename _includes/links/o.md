@@ -44,6 +44,8 @@
 [OpenCV Module]: {{ site.baseurl }}{% link glossary/o.md %}#opencv-module
 [OpenFold Model]: {{ site.baseurl }}{% link glossary/o.md %}#openfold-model
 [OpenFold]: {{ site.baseurl }}{% link glossary/o.md %}#openfold-model
+[Open Interpreter Company]: {{ site.baseurl }}{% link glossary/o.md %}#open-interpreter-company
+[Open Interpreter]: {{ site.baseurl }}{% link glossary/o.md %}#open-interpreter-company
 [OpenMMLab]: {{ site.baseurl }}{% link glossary/o.md %}#openmmlab
 [OpenVINO Toolkit]: {{ site.baseurl }}{% link glossary/o.md %}#openvino-toolkit
 [OpenVINO]: {{ site.baseurl }}{% link glossary/o.md %}#openvino-toolkit

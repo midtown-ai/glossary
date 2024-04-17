@@ -97,6 +97,17 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [C], ...
 
 
+# Naive Retrieval Augmented Generation
+# Naive RAG
+
+ ![]( {{site.assets}}/n/naive_retrieval_augmented_generation.png ){: width="100%"}
+
+ More at:
+  * [https://github.com/Tongji-KGLLM/RAG-Survey](https://github.com/Tongji-KGLLM/RAG-Survey)
+
+ See also [N], ...
+
+
 # Named Entity Recognition
 # NER
 
@@ -756,6 +767,9 @@ plt.imshow(photo[:,:,0].T)       # Multiple transformation at once!
 
  Metaverse
   * [Omniverse] : The metaverse by Nvidia!
+
+ Hardware:
+  * [DGX-1] : First system built for machine learning processing
 
  {% youtube "https://www.youtube.com/watch?w=Gn_IMIPrX9s" %}
 

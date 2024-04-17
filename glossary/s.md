@@ -1083,6 +1083,16 @@ print(f"best score: {gs.best_score_:.3f}, best params: {gs.best_params_}")
  See also [S], [Snorkel Program]
 
 
+# Slide Deck Generator
+
+ More at:
+  * beautiful AI - [https://www.beautiful.ai/](https://www.beautiful.ai/)
+  * gamma.app - [https://gamma.app/](https://gamma.app/)
+  * tome.app - [https://tome.app/](https://tome.app/)
+
+ See also [S], ...
+
+
 # Slidego
 
  Free templates for Google Slides and PowerPoint
@@ -2052,12 +2062,15 @@ II n summary, probability is focused on the theoretical study of random events, 
 
 # Superalignment
 
- We need scientific and technical breakthroughs to steer and control AI systems much smarter than us. To solve this problem within four years, we’re starting a new team, co-led by [Ilya Sutskever] and [Jan Leike], and dedicating 20% of the compute we’ve secured to date to this effort. We’re looking for excellent ML researchers and engineers to join us.
+ A core challenge for aligning future superhuman AI systems (superalignment) is that humans will need to supervise AI systems much smarter than them.
+
+ We believe superintelligence—AI vastly smarter than humans—could be developed within the next ten years. However, we still do not know how to reliably steer and control superhuman AI systems. Solving this problem is essential for ensuring that even the most advanced AI systems in the future remain safe and beneficial to humanity.
 
  {% youtube "https://www.youtube.com/watch?v=Ft0gTO2K85A" %}
 
  More at:
   * [https://openai.com/blog/introducing-superalignment](https://openai.com/blog/introducing-superalignment)
+  * research - [https://openai.com/research/weak-to-strong-generalization](https://openai.com/research/weak-to-strong-generalization)
 
  See also [S], ...
 
@@ -2319,6 +2332,17 @@ ln(c)
  See also [S], ...
 
 
+# Synthetic Users Company
+
+ Test your idea or product with AI participants and take decisions with confidence.
+
+ More at:
+  * site - [https://www.syntheticusers.com/](https://www.syntheticusers.com/)
+  * blog - [https://www.syntheticusers.com/journal](https://www.syntheticusers.com/journal)
+  * articles
+    * deviation - [https://www.syntheticusers.com/post/comparison-studies-the-opportunity-lies-in-the-deviation](https://www.syntheticusers.com/post/comparison-studies-the-opportunity-lies-in-the-deviation)
+
+
 # System Prompt
 
  A system prompt is always included in all new contexts/requests?
@@ -2329,6 +2353,8 @@ ln(c)
   * experience
   * behavior
   * ...
+
+ ![]( {{site.assets}}/s/system_prompt.png ){: width="100%}
 
  {% youtube "https://www.youtube.com/watch?v=t94s5apFres" %}
 

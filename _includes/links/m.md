@@ -147,6 +147,7 @@
 [Model Hub]: {{ site.baseurl }}{% link glossary/m.md %}#model-hub
 [Model Inversion]: {{ site.baseurl }}{% link glossary/m.md %}#model-inversion
 [Model Leaderboard]: {{ site.baseurl }}{% link glossary/m.md %}#model-leaderboard
+[Model Merging]: {{ site.baseurl }}{% link glossary/m.md %}#model-merging
 [Model Predictive Control Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#model-predictive-control-algorithm
 [Model Predictive Control]: {{ site.baseurl }}{% link glossary/m.md %}#model-predictive-control-algorithm
 [MPC Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#model-predictive-control-algorithm
@@ -184,6 +185,10 @@
 [MRKL System]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-system
 [MRKL Systems]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-system
 [MRKL]: {{ site.baseurl }}{% link glossary/m.md %}#modular-reasoning-knowledge-and-language-architecture
+[Modular Retrieval Augmented Generation Architecture]: {{ site.baseurl }}{% link glossary/m.md %}#modular-retrieval-augmented-generation-architecture
+[Modular Retrieval Augmented Generation]: {{ site.baseurl }}{% link glossary/m.md %}#modular-retrieval-augmented-generation-architecture
+[Modular RAG Architecture]: {{ site.baseurl }}{% link glossary/m.md %}#modular-retrieval-augmented-generation-architecture
+[Modular RAG]: {{ site.baseurl }}{% link glossary/m.md %}#modular-retrieval-augmented-generation-architecture
 [Monte Carlo Control]: {{ site.baseurl }}{% link glossary/m.md %}#monte-carlo-control
 [Monte Carlo Method]: {{ site.baseurl }}{% link glossary/m.md %}#monte-carlo-method
 [Monte Carlo Methods]: {{ site.baseurl }}{% link glossary/m.md %}#monte-carlo-method

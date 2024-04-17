@@ -323,6 +323,13 @@ layout: page
  See also [D], ...
 
 
+# Data Pipeline
+
+ {% youtube "https://www.youtube.com/watch?v=VtzvF17ysbc" %}
+
+ See also [D], ...
+
+
 # Data Point
 
  ~ an observation. Together the features and the label make a single data point. Imputation is a way to deal with missing data in data points.
@@ -1082,6 +1089,25 @@ We need to do this for
 # DevOPS
 
  See also [D], [Data Analyst], [Data Scientist]
+
+
+# DGX Cloud
+
+ The cloud platform offered by [Nvidia]
+
+  * site - [https://www.nvidia.com/en-in/data-center/get-dgx/](https://www.nvidia.com/en-in/data-center/get-dgx/)
+
+ See also [D], ...
+
+
+# DGX-1 System
+
+ The first system developed by [Nvidia] to do Deep Learning
+
+ More at:
+  * site - [https://www.nvidia.com/en-in/data-center/dgx-1/](https://www.nvidia.com/en-in/data-center/dgx-1/)
+
+ See also [D], ...
 
 
 # Differential Optimization

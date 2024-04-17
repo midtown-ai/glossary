@@ -1190,6 +1190,9 @@ Grok is still a very early beta product – the best we could do with 2 months o
  More at:
   * GROK 1 announcement - [https://x.ai/](https://x.ai/)
   * Elon Musk on Tweeter - [https://twitter.com/elonmusk/status/1720660977786433810](https://twitter.com/elonmusk/status/1720660977786433810)
+  * code - [https://github.com/xai-org/grok-1](https://github.com/xai-org/grok-1)
+  * articles
+    * open release - [https://www.theverge.com/2024/3/17/24097810/xai-open-source-grok-musk-generative-ai-llm](https://www.theverge.com/2024/3/17/24097810/xai-open-source-grok-musk-generative-ai-llm)
 
  See also [G], ...
 
@@ -1200,7 +1203,10 @@ Grok is still a very early beta product – the best we could do with 2 months o
 
  ![]( {{site.assets}}/g/grokking.png ){: width="100%"}
 
+ {% pdf "https://arxiv.org/pdf/2201.02177.pdf" %}
+
  More at:
+  * paper - [https://arxiv.org/abs/2201.02177](https://arxiv.org/abs/2201.02177)
   * [https://pair.withgoogle.com/explorables/grokking/](https://pair.withgoogle.com/explorables/grokking/)
   * book - [https://www.manning.com/books/grokking-machine-learning](https://www.manning.com/books/grokking-machine-learning)
 

@@ -30,12 +30,14 @@
 [Viam]: {{ site.baseurl }}{% link glossary/v.md %}#viam
 [Vicuna Model]: {{ site.baseurl }}{% link glossary/v.md %}#vicuna-model
 [Vicuna]: {{ site.baseurl }}{% link glossary/v.md %}#vicuna-model
+[Video Generator]: {{ site.baseurl }}{% link glossary/v.md %}#video-generator
 [Video Join Embedding Predictive Architecture]: {{ site.baseurl }}{% link glossary/v.md %}#video-join-embedding-predictive-architecture
 [Video JEPA]: {{ site.baseurl }}{% link glossary/v.md %}#video-join-embedding-predictive-architecture
 [V-JEPA]: {{ site.baseurl }}{% link glossary/v.md %}#video-join-embedding-predictive-architecture
 [Video Pre-Training Model]: {{ site.baseurl }}{% link glossary/v.md %}#video-pre-trained-model
 [VPT Model]: {{ site.baseurl }}{% link glossary/v.md %}#video-pre-trained-model
 [Video Restauration]: {{ site.baseurl }}{% link glossary/v.md %}#video-restauration
+[Video Summarization]: {{ site.baseurl }}{% link glossary/v.md %}#video-summarization
 [VIMA Model]: {{ site.baseurl }}{% link glossary/v.md %}#vima-model
 [VIMA]: {{ site.baseurl }}{% link glossary/v.md %}#vima-model
 [Virtual Assistant]: {{ site.baseurl }}{% link glossary/v.md %}#virtual-assistant
@@ -55,6 +57,7 @@
 [VGG-19]: {{ site.baseurl }}{% link glossary/v.md %}#vgg-19-model
 [Visual Grounding]: {{ site.baseurl }}{% link glossary/v.md %}#visual-grounding
 [Visual Language Model]: {{ site.baseurl }}{% link glossary/v.md %}#visual-language-model
+[VLM]: {{ site.baseurl }}{% link glossary/v.md %}#visual-language-model
 [Visual Simultaneous Localization And Mapping Algorithm]: {{ site.baseurl }}{% link glossary/v.md %}#visual-simultaneous-localization-and-mapping-algorithm
 [Visual Simultaneous Localization And Mapping]: {{ site.baseurl }}{% link glossary/v.md %}#visual-simultaneous-localization-and-mapping-algorithm
 [Visual SLAM Algorithm]: {{ site.baseurl }}{% link glossary/v.md %}#visual-simultaneous-localization-and-mapping-algorithm

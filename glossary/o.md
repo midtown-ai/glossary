@@ -354,6 +354,19 @@ cheese =>                                   # Prompt
  See also [O], ....
 
 
+# Open Interpreter Company
+
+ {% youtube "https://www.youtube.com/watch?v=nzznxPeWDO4" %}
+
+ More at:
+  * site - [https://www.openinterpreter.com/](https://www.openinterpreter.com/)
+  * devices
+    * announcement - [https://twitter.com/OpenInterpreter/status/1770821439458840846](https://twitter.com/OpenInterpreter/status/1770821439458840846)
+    * 01 light - [https://www.openinterpreter.com/01](https://www.openinterpreter.com/01)
+
+ See also [O], ...
+
+
 # Open Neural Network Exchange
 # ONNX
 

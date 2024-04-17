@@ -197,6 +197,17 @@ layout: page
  See also [C], ...
 
 
+# Chain-Of-Table
+
+ {% pdf "https://arxiv.org/pdf/2401.04398.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2401.04398](https://arxiv.org/abs/2401.04398)
+  * blog - [https://blog.research.google/2024/03/chain-of-table-evolving-tables-in.html](https://blog.research.google/2024/03/chain-of-table-evolving-tables-in.html)
+
+ See also [C], [Chain-Of-Throught]
+
+
 # Chain-Of-Thought Prompting
 # COT Prompting
 
@@ -217,7 +228,7 @@ layout: page
   * variations - [https://www.promptingguide.ai/techniques/cot](https://www.promptingguide.ai/techniques/cot)
   * paper - [https://arxiv.org/abs/2201.11903](https://arxiv.org/abs/2201.11903)
 
- See also [C], [Explanability]
+ See also [C], [Chain-Of-Table], [Explanability]
 
 
 # Chained Model
@@ -325,6 +336,7 @@ Using it is really simple: we just apply the same formula we used for PSI, but i
   * articles
     * 1 year anniversary - [https://aimagazine.com/machine-learning/chatgpts-first-birthday-a-year-in-review](https://aimagazine.com/machine-learning/chatgpts-first-birthday-a-year-in-review)
     * how was built - [https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/)
+    * college essay is dead - [https://www.theatlantic.com/technology/archive/2022/12/chatgpt-ai-writing-college-student-essays/672371/](https://www.theatlantic.com/technology/archive/2022/12/chatgpt-ai-writing-college-student-essays/672371/)
 
  See also [C], [Chatbot], [Digital Watermark], [Feedback], [Plagiarism Checker], [Reward Model], [Reinforcement Learning], [Sparrow Model]
 
@@ -483,11 +495,11 @@ print(query_result)
 
 # CIFAR Dataset
 
- Datasets created by [Alex Krizhevsky][ALex Krizhevsky: Person] for [AlexNet][AlexNet Model]
+ Datasets created by [Alex Krizhevsky] for the [AlexNet Model]
 
  Datasets
-  * CIFAR-10
-  * CIFAR-100
+  * CIFAR-10 = 10 different categories
+  * CIFAR-100i = 100 different categories
 
  The CIFAR-10 dataset (Canadian Institute For Advanced Research) is a collection of images that are commonly used to train machine learning and computer vision algorithms. It is one of the most widely used datasets for machine learning research. The CIFAR-10 dataset contains 60,000 32x32 color images in 10 different classes/categories. The 10 different classes represent airplanes, cars, birds, cats, deer, dogs, frogs, horses, ships, and trucks. There are 6,000 images of each class. Computer algorithms for recognizing objects in photos often learn by example. CIFAR-10 is a set of images that can be used to teach a computer how to recognize objects. Since the images in CIFAR-10 are low-resolution (32x32), this dataset can allow researchers to quickly try different algorithms to see what works. CIFAR-10 is a labeled subset of the 80 million tiny images dataset. When the dataset was created, students were paid to label all of the images.
 
@@ -570,8 +582,12 @@ print(query_result)
     * claude 3 model card - 
 
   * articles
-    * [https://www.vox.com/future-perfect/23794855/anthropic-ai-openai-claude-2](https://www.vox.com/future-perfect/23794855/anthropic-ai-openai-claude-2)
-    * [https://www.computerworld.com/article/3707410/amazon-set-to-invest-4b-in-constitutional-ai-advocate-anthropic.html](https://www.computerworld.com/article/3707410/amazon-set-to-invest-4b-in-constitutional-ai-advocate-anthropic.html)
+    * claude 3
+      * video summarization - [https://github.com/hundredblocks/transcription_demo](https://github.com/hundredblocks/transcription_demo)
+    * claude 2
+      * annoucement - [https://www.vox.com/future-perfect/23794855/anthropic-ai-openai-claude-2](https://www.vox.com/future-perfect/23794855/anthropic-ai-openai-claude-2)
+    * constitutional AI
+      * [https://www.computerworld.com/article/3707410/amazon-set-to-invest-4b-in-constitutional-ai-advocate-anthropic.html](https://www.computerworld.com/article/3707410/amazon-set-to-invest-4b-in-constitutional-ai-advocate-anthropic.html)
 
  See also [C], ...
 
@@ -763,7 +779,6 @@ print(query_result)
   * [Alibaba] - A copycat of Amazon but in China
   * [Amazon] - Focus on public cloud and partnership with 3rd parties
   * [Anduril Industries](https://www.anduril.com/) - Focus on defense software with AI ([Forbes](https://www.forbes.com/companies/anduril-industries/?list=ai50&sh=3edae6e7e083))
-  * [Anthropic] - Focus on LLM, building an alternative to [GPT models][GPT Model] ([Forbes](https://www.forbes.com/companies/anthropic/?list=ai50&sh=2cdb4d2fb94e))
   * [Apple] - Large company in the world, strangely not so influential in the AI industry. At least not yet!
   * [Arize AI](https://arize.com/) - Focus on data issue detection ([Forbes](https://www.forbes.com/companies/arize-ai/?list=ai50&sh=72ba67871f36))
   * [Baidu] - Chinese search engine
@@ -778,7 +793,6 @@ print(query_result)
   * [Copy AI] - 
     * valentine AI - [https://www.valentinesday.ai/](https://www.valentinesday.ai/)
   * [Databricks](https://www.databricks.com/) - Data storage and analytics
-  * [DeepMind] - Focus on AI applications in science
   * [Descript](https://www.descript.com/) - Video and podcast editing
   * [Eightfold AI](https://eightfold.ai/) - Recruiting software
   * [ElevenLabs AI] - Focus on Text-to-speech rendition
@@ -787,7 +801,6 @@ print(query_result)
   * [Futuri Media] - Content selection for media, such as tv and radio. Includes [RadioGPT]!
   * [GitHub] - Code repositories with advanced features including  AI pair programming with Codex
   * [Glean](https://glean.co/) - Internal workplace search
-  * [Google] - Known for its search engine and ad-placement business model. Challenged by Microsoft
   * [Gong](https://www.gong.io/) - Sales software
   * [Got It AI](https://www.app.got-it.ai/) - ELMAR LLM for the enterprise with truth checker!
   * [Gretel AI](https://gretel.ai/) - 
@@ -800,7 +813,6 @@ print(query_result)
   * [Jasper](https://www.jasper.ai/) - Copywriting software
   * [Kasisto](https://kasisto.com) - Build an [intelligent digital assistant] for finance projects
   * [Kumo AI] - Pytorch Geometric
-  * [Meta] - Formerly known as Facebook with a strong focus on the multiverse and more recently on AI
   * [Microsoft] - One of the largest company in the world, leading changes with AI 
   * [Midjourney AI](https://www.midjourney.com/) - AI image generator
   * [MosaicML](https://www.mosaicml.com/) - AI model training tools
@@ -808,7 +820,6 @@ print(query_result)
   * [Neeva](https://neeva.com/) - Personalized search engine
   * [Neptune AI] -
   * [Neuralink] - A company lead by [Elon Musk] that is focusing on human [Brain] Machine Interfaces
-  * [OpenAI] - Focus on democratizing AI. Known for releasing [ChatGPT]
   * [Pachama](https://pachama.com/) - Forestry satellite data analysis
   * [PathAI](https://www.pathai.com/) - Drug discovery and diagnosis
   * [PolyAI](https://poly.ai/) - Voice chatbots
@@ -824,7 +835,6 @@ print(query_result)
   * [Sima AI](https://sima.ai/) - AI at the edge (MLSoc)
   * [Slingshot Aerospace](https://slingshotaerospace.com/) - Space simulation software
   * [Snorkel AI](https://snorkel.ai/) - Data labeling software
-  * [Stability AI] - Focus on [diffusion model] or image generation, adopted the open-source philosophy
   * [Supertranslate AI] - Focus on generating proper subtitles to videos
   * [Synthesia] - Focus on AI avatars
   * [Tome](https://beta.tome.app/) - Presentation creation software
@@ -835,11 +845,6 @@ print(query_result)
   * [Waabi](https://waabi.ai/) - Autonomous trucking technology
   * [Weights & Biases] - Developer tools for AI + MLOps and LLMOps
   * [Writer](https://writer.com/) - Copywriting software
-  * [xAI] - Backed by Elon Musk and builder of [Grok] LLM and [PromptIDE]
-
- Human-Machine Interface
-  * [Humane](https://hu.ma.ne/) - the AI pin likely to replace the cell phone
-  * [Rabbit] - With the R1 device
 
  Deployment:
   * [Netlify] -
@@ -871,6 +876,34 @@ print(query_result)
   * [Magic School AI](https://app.magicschool.ai/) - help teachers create a lesson plan. Assistant is called Raina
   * [Pearson](https://www.pearson.com/en-us.html) - Not bot yet! Still in denial?
 
+ Foundation Model
+  * [Anthropic] - Focus on LLM, building an alternative to [GPT models][GPT Model] ([Forbes](https://www.forbes.com/companies/anthropic/?list=ai50&sh=2cdb4d2fb94e))
+  * [DeepMind] - Focus on AI applications in science
+  * [Google] - Known for its search engine and ad-placement business model. Challenged by Microsoft
+  * [Meta] - Formerly known as Facebook with a strong focus on the multiverse and more recently on AI
+  * [OpenAI] - Focus on democratizing AI. Known for releasing [ChatGPT]
+  * [Stability AI] - Focus on [diffusion model] or image generation, adopted the open-source philosophy
+  * [xAI] - Backed by Elon Musk and builder of [Grok] LLM and [PromptIDE]
+
+ Hardware
+  * [AMD] - Another supplier of [GPUs]
+  * [Cortical Labs] - Use biological [neurons] to use as AI 
+  * [Intel] - Build CPUs and now includes tensor processing in them
+  * [Koniku](https://koniku.com/) - Use biological [neurons] to compete with regular computers
+  * [Nvidia] - The leading supplier of [GPU]
+
+ Human-Machine Interface
+  * [Open Interpreter] - voice interface to your home computer
+  * [Humane] - The AI pin likely to replace the cell phone? Works as a microphone?
+  * [Rabbit] - With the R1 device
+
+ Industry research:
+  * [Evident Insights] - currently focused on the banking industry
+
+ Infrastructure
+  * [Anyscale] - Buildup on the [Ray Framework]
+  * [Lambda Labs](https://lambdalabs.com/) - access to GPU for deeplearning
+
  Music
   * [Audialab](https://audialab.com/) - drum sound only
   * [Aiva AI](https://www.aiva.ai/) -
@@ -880,31 +913,22 @@ print(query_result)
   * [Mubert](https://mubert.com/) -
   * [Suno AI] - generate music for your lyrics!
   * [TuneFlow](https://www.tuneflow.com/) 
-
- Hardware
-  * [AMD] - Another supplier of [GPUs]
-  * [Cortical Labs] - Use biological [neurons] to use as AI 
-  * [Intel] - Build CPUs and now includes tensor processing in them
-  * [Koniku](https://koniku.com/) - Use biological [neurons] to compete with regular computers
-  * [Nvidia] - The leading supplier of [GPU]
-
- Industry research:
-  * [Evident Insights] - currently focused on the banking industry
-
- Infrastructure
-  * [Anyscale] - Buildup on the [Ray Framework]
-  * [Lambda Labs](https://lambdalabs.com/) - access to GPU for deeplearning
+  * [Udio](https://www.udio.com/) - An alternative to [Suno AI]
 
  Robotics
   * [Boston Dynamics] - Focus on robotics
+  * [Covariant AI] - Created the [Robotics Foundation Model]
   * [Engineered Arts] - Focus on social robots, such as [Ameca][Ameca Robot]
+  * [Figure AI] - Focus on creating [humanoids] such as [Figure-01]
   * [Hanson Robotics] - Build humanoid for consumer, entertainment, service, healthcare, and research applications. 
   * [Softbank Robotics] - Focus on [social robots][Social Robot]
   * [Trossen Robotics] - Build research robots
 
  Search
-  * [You](https://www.you.com)
+  * [AndiSearch](https://andisearch.com/) -
+  * [Exa AI](https://exa.ai/) - search through a UI or API
   * [Perplexity AI]
+  * [You](https://www.you.com)
 
  Security
   * [Lakera][https://www.lakera.ai/] - filter the output
@@ -912,6 +936,7 @@ print(query_result)
  Synthetic data
   * [Datagen](https://datagen.tech/) - Synthetic data for faces/images
   * [Mostly AI](https://mostly.ai/) - Generative AI for tabular data 
+  * [Synthetic Users] - Use AI users and study the deviation!
 
  Text-To-Speech
   * [PlayHT] - Convert words to audio/voice
@@ -1700,6 +1725,17 @@ pyplot.show()
 # Cost Function
 
  See [Loss Function]
+
+
+# Covariant AI Company
+
+ Models
+  * [Robot Foundational Model]
+
+ More at:
+  * site - [https://covariant.ai/](https://covariant.ai/)
+
+ See also [C], ...
 
 
 # Covector

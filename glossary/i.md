@@ -168,6 +168,15 @@ model.summary()
  See also [I], [Convolutional Layer]
 
 
+# Image Generator
+
+ More at:
+  * DALL-E - 
+  * Ideogram -
+  * midjourney -
+  * unstability.ai - [https://www.unstability.ai/history](https://www.unstability.ai/history)
+  * Stable diffusion - 
+
 # Image Join Embedding Predictive ARchitecture
 # I-JEPA
 

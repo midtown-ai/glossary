@@ -774,6 +774,8 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
  {% pdf "https://arxiv.org/pdf/1810.04805.pdf" %}
 
+ {% youtube "https://www.youtube.com/watch?v=wjZofJX0v4M" %}
+
  More at:
   * paper - [https://arxiv.org/abs/1810.04805](https://arxiv.org/abs/1810.04805)
   * derivative models

@@ -85,7 +85,7 @@ layout: page
 
 # Labor Market Impact
 
- We investigate the potential implications of [large language models (LLMs)][Large Language Model], such as [Generative Pre-trained Transformers (GPTs)][GPT Model], on the U.S. labor market, focusing on the increased capabilities arising from LLM-powered software compared to LLMs on their own. Using a new rubric, we assess occupations based on their alignment with LLM capabilities, integrating both human expertise and GPT-4 classifications. 
+ We investigate the potential implications of [large language models (LLMs)][LLM], such as [Generative Pre-trained Transformers (GPTs)][GPT Model], on the U.S. labor market, focusing on the increased capabilities arising from LLM-powered software compared to LLMs on their own. Using a new rubric, we assess occupations based on their alignment with LLM capabilities, integrating both human expertise and GPT-4 classifications. 
 
  **Our findings reveal that around 80% of the U.S. workforce could have at least 10% of their work tasks affected by the introduction of LLMs, while approximately 19% of workers may see at least 50% of their tasks impacted**.
 
@@ -96,7 +96,11 @@ layout: page
  {% pdf "https://arxiv.org/pdf/2303.10130.pdf" %}
 
  More at:
-  * [https://openai.com/research/gpts-are-gpts](https://openai.com/research/gpts-are-gpts)
+  * 2024/03/04 - GenAI and NYC - [https://www.mckinsey.com/industries/public-sector/our-insights/generative-ai-and-the-future-of-new-york](https://www.mckinsey.com/industries/public-sector/our-insights/generative-ai-and-the-future-of-new-york)
+  * 2023/09/05 - [https://www.cnn.com/2023/09/05/opinions/artificial-intelligence-jobs-labor-market](https://www.cnn.com/2023/09/05/opinions/artificial-intelligence-jobs-labor-market)
+  * 2023/07/26 - GenAI and future of work - [https://www.mckinsey.com/mgi/our-research/generative-ai-and-the-future-of-work-in-america](https://www.mckinsey.com/mgi/our-research/generative-ai-and-the-future-of-work-in-america)
+  * 2023/06/21 - productivity frontier - [https://www.mckinsey.com/featured-insights/mckinsey-live/webinars/the-economic-potential-of-generative-ai-the-next-productivity-frontier](https://www.mckinsey.com/featured-insights/mckinsey-live/webinars/the-economic-potential-of-generative-ai-the-next-productivity-frontier)
+  * 2023/03/17 - Early look at impact - [https://openai.com/research/gpts-are-gpts](https://openai.com/research/gpts-are-gpts)
 
  See also [L], ...
 

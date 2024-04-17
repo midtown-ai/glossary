@@ -96,6 +96,26 @@ print(I[-5:])                  # neighbors of the 5 last queries
  See [Meta Company]
 
 
+# Facial Recognition
+
+ Models:
+  * 1996 - FERET
+  * 2014 - DeepFace
+
+ Datasets:
+  * 2007 - Labeled Faces in the Wild (LFW) data set
+
+ ![]( {{site.assets}}/f/facial_recognition_evolution.png ){: width="100%"}
+
+ ![]( {{site.assets}}/f/facial_recognition_data_sources.png ){: width="100%"}
+
+ More at:
+  * articles
+    * [https://www.technologyreview.com/2021/02/05/1017388/ai-deep-learning-facial-recognition-data-history](https://www.technologyreview.com/2021/02/05/1017388/ai-deep-learning-facial-recognition-data-history)
+
+ See also [F], ...
+
+
 # Fair AI
 
  More at:
@@ -679,6 +699,28 @@ cheese =>
   * ...
 
  See also [F], ...
+
+
+# Figure AI Company
+
+ More at:
+  * site - [https://www.figure.ai/](https://www.figure.ai/)
+
+ See also [F], ...
+
+
+# Figure Humanoids
+# Figure-01
+
+ {% youtube "https://www.youtube.com/watch?v=Q5MKo7Idsok" %}
+
+ {% youtube "https://www.youtube.com/watch?v=8pRKYkWbkkA" %}
+
+ More at:
+  * announcement - [https://www.figure.ai/master-plan](https://www.figure.ai/master-plan)
+
+ See also [F], ...
+
 
 # File Mode
 

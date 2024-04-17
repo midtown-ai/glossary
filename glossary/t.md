@@ -753,6 +753,8 @@ Desired Output --> |     Training     | --> Model
    * [GPT models] - use the decoder side of the transformer
    * [T5 models] - use the encode-decoder, the whole transformer !
 
+ {% youtube "https://www.youtube.com/watch?v=wjZofJX0v4M" %}
+
  {% youtube "https://www.youtube.com/watch?v=zxQyTK8quyY" %}
 
  {% youtube "https://www.youtube.com/watch?v=g2BRIuln4uc" %}

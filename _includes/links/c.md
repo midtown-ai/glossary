@@ -19,6 +19,7 @@
 [CPU]: {{ site.baseurl }}{% link glossary/c.md %}#central-processing-unit
 [Central Processing Unit Memory]: {{ site.baseurl }}{% link glossary/c.md %}#central-processing-unit-memory
 [CPU Memory]: {{ site.baseurl }}{% link glossary/c.md %}#central-processing-unit-memory
+[Chain-Of-Table]: {{ site.baseurl }}{% link glossary/c.md %}#chain-of-table
 [Chain-Of-Thought Prompting]: {{ site.baseurl }}{% link glossary/c.md %}#chain-of-thought-prompting
 [Chain-Of-Thought]: {{ site.baseurl }}{% link glossary/c.md %}#chain-of-thought-prompting
 [COT Prompting]: {{ site.baseurl }}{% link glossary/c.md %}#chain-of-thought-prompting
@@ -135,6 +136,8 @@
 [Cosine Similarity]: {{ site.baseurl }}{% link glossary/c.md %}#cosine-similarity-function
 [Cost]: {{ site.baseurl }}{% link glossary/c.md %}#cost
 [Cost Function]: {{ site.baseurl }}{% link glossary/c.md %}#cost-function
+[Covariant AI Company]: {{ site.baseurl }}{% link glossary/c.md %}#covariant-ai-company
+[Covariant AI]: {{ site.baseurl }}{% link glossary/c.md %}#covariant-ai-company
 [Covector]: {{ site.baseurl }}{% link glossary/c.md %}#covector
 [CreateML Application]: {{ site.baseurl }}{% link glossary/c.md %}#createml-application
 [Critic]: {{ site.baseurl }}{% link glossary/c.md %}#critic

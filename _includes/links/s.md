@@ -114,6 +114,7 @@
 [Skorch Python Module]: {{ site.baseurl}}{% link glossary/s.md %}#skorch-python-module
 [Skorch]: {{ site.baseurl}}{% link glossary/s.md %}#skorch-python-module
 [Slicing Function]: {{ site.baseurl}}{% link glossary/s.md %}#slicing-function
+[Slide Deck Generator]: {{ site.baseurl}}{% link glossary/s.md %}#slide-deck-generator
 [Sligesgo]: {{ site.baseurl}}{% link glossary/s.md %}#slidesgo
 [Small Language Model]: {{ site.baseurl}}{% link glossary/s.md %}#small-language-model
 [SLM]: {{ site.baseurl}}{% link glossary/s.md %}#small-language-model
@@ -259,4 +260,6 @@
 [Synthetic Data Privacy]: {{ site.baseurl}}{% link glossary/s.md %}#synthetic-data-privacy
 [Synthetic Feature]: {{ site.baseurl}}{% link glossary/s.md %}#synthetic-feature
 [Synthetic Features]: {{ site.baseurl}}{% link glossary/s.md %}#synthetic-feature
+[Synthetic Users Company]: {{ site.baseurl}}{% link glossary/s.md %}#synthetic-users-company
+[Synthetic Users]: {{ site.baseurl}}{% link glossary/s.md %}#synthetic-users-company
 [System Prompt]: {{ site.baseurl}}{% link glossary/s.md %}#system-prompt

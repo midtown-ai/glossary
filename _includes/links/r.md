@@ -146,6 +146,10 @@
 [Riva Model]: {{site.baseurl}}{% link glossary/r.md %}#riva-model
 [Riva]: {{site.baseurl}}{% link glossary/r.md %}#riva-model
 [Robot]: {{site.baseurl}}{% link glossary/r.md %}#robot
+[Robotics Foundation Model]: {{site.baseurl}}{% link glossary/r.md %}#robotics-foundation-model
+[RFM-1 Model]: {{site.baseurl}}{% link glossary/r.md %}#robotics-foundation-model
+[RFM Model]: {{site.baseurl}}{% link glossary/r.md %}#robotics-foundation-model
+[RFM]: {{site.baseurl}}{% link glossary/r.md %}#robotics-foundation-model
 [RobotSchool]: {{site.baseurl}}{% link glossary/r.md %}#robotschool
 [Robustly Optimized BERT Approach Model]: {{site.baseurl}}{% link glossary/r.md %}#robustly-optimized-bert-approach-model
 [RoBERTa Model]: {{site.baseurl}}{% link glossary/r.md %}#robustly-optimized-bert-approach-model
