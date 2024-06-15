@@ -1,5 +1,6 @@
 [B]: {{ site.baseurl }}{% link glossary/b.md %}
 
+[B-Spline]: {{ site.baseurl }}{% link glossary/b.md %}#b-spline
 [Baby-X Digital Human]: {{ site.baseurl }}{% link glossary/b.md %}#baby-x-digital-human
 [BabyAGI Model]: {{ site.baseurl }}{% link glossary/b.md %}#babyagi-model
 [BabyAGI]: {{ site.baseurl }}{% link glossary/b.md %}#babyagi-model

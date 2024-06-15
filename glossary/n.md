@@ -136,7 +136,7 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], ...
 
 
-# National AI Advisory Committee
+# National Artificial Intelligence Advisory Committee
 # NAIAC
 
  The National AI Advisory Committee (NAIAC) consists of experts with a broad and interdisciplinary range of AI-relevant experience from across the private sector, academia, non-profits, and civil society.
@@ -148,6 +148,17 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  More at:
   * site - [https://ai.gov/naiac/](https://ai.gov/naiac/)
   * reports - [https://ai.gov/naiac/](https://ai.gov/naiac/)
+
+ See also [N], ...
+
+
+# National Artificial Intelligence Research Resource
+# NAIRR
+
+ The NAIRR Pilot aims to connect U.S. researchers and educators to computational, data, and training resources needed to advance AI research and research that employs AI. Federal agencies are collaborating with government-supported and non-governmental partners to implement the Pilot as a preparatory step toward an eventual full NAIRR implementation.
+
+ More at:
+  * site - [https://nairrpilot.org/]
 
  See also [N], ...
 
@@ -403,11 +414,25 @@ There are various kinds of neocognitron. For example, some types of neocognitron
 # Neural Information Processing Systems Conference
 # NeurIPS Conference
 
- The most important [AI Conference] related to [Deep Learning]
+ The most important [AI Conference] related to [Deep Learning].
+ This conference is help in December.
+
+
 
  More at:
-  * [https://neurips.cc/](https://neurips.cc/)
-  * [https://en.wikipedia.org/wiki/Conference_on_Neural_Information_Processing_Systems](https://en.wikipedia.org/wiki/Conference_on_Neural_Information_Processing_Systems)
+  * site - [https://neurips.cc/](https://neurips.cc/)
+  * wikipedia - [https://en.wikipedia.org/wiki/Conference_on_Neural_Information_Processing_Systems](https://en.wikipedia.org/wiki/Conference_on_Neural_Information_Processing_Systems)
+  * Reference
+    * paper checklist - [https://neurips.cc/public/guides/PaperChecklist](https://neurips.cc/public/guides/PaperChecklist)
+  * 2024
+    * call for papers - [https://neurips.cc/Conferences/2024/CallForPapers](https://neurips.cc/Conferences/2024/CallForPapers)
+    * call for high school projects - [https://neurips.cc/Conferences/2024/CallforHighSchoolProjects](https://neurips.cc/Conferences/2024/CallforHighSchoolProjects)
+    * call for competitions - [https://neurips.cc/Conferences/2024/CallForCompetitions](https://neurips.cc/Conferences/2024/CallForCompetitions)
+    * call for tutorials - [https://neurips.cc/Conferences/2024/CallForTutorials](https://neurips.cc/Conferences/2024/CallForTutorials)
+    * call for datasets - [https://neurips.cc/Conferences/2024/CallForDatasetsBenchmarks](https://neurips.cc/Conferences/2024/CallForDatasetsBenchmarks)
+    * call for workshop - [https://neurips.cc/Conferences/2024/CallForWorkshops](https://neurips.cc/Conferences/2024/CallForWorkshops)
+    * call for socials - [https://neurips.cc/Conferences/2024/CallforSocials](https://neurips.cc/Conferences/2024/CallforSocials)
+    * call for creative AI - [https://neurips.cc/Conferences/2024/CallForCreativeAI](https://neurips.cc/Conferences/2024/CallForCreativeAI)
 
  See also [N], ...
 
@@ -609,6 +634,22 @@ Some well-known NP-hard problems include the traveling salesman problem, the kna
   * [https://medium.com/@toprak.mhmt/non-linear-regression-4de80afca347](https://medium.com/@toprak.mhmt/non-linear-regression-4de80afca347)
 
  See also [N], [Linear Regression], [Polynomial Regression], [Regression]
+
+
+# Non-Symbolic AI
+ 
+ = LLM
+
+ What is my father favorit color?
+
+ * statistical based
+ * no logic
+ * no understanding
+ * only connection between words
+
+ This is opposite to [symbolic AI] where system works with rules.
+
+ See also [N], ...
 
 
 # Normalization

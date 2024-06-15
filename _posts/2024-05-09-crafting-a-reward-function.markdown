@@ -2,7 +2,7 @@
 layout: post
 # layout: single
 title:  "Crafting a reward function"
-date:   2023-07-09 12:51:28 -0800
+date:   2024-05-09 12:51:28 -0800
 categories: jekyll update
 ---
 
@@ -20,6 +20,16 @@ categories: jekyll update
  * Sample reward functions
    * [https://www.mytechmint.com/advanced-guide-to-aws-deepracer-with-all-tips-and-hacks-to-win-the-race/](https://www.mytechmint.com/advanced-guide-to-aws-deepracer-with-all-tips-and-hacks-to-win-the-race/)
    * [https://github.com/dgnzlz/Capstone_AWS_DeepRacer/blob/master/Reward_Function/reward_function.py](https://github.com/dgnzlz/Capstone_AWS_DeepRacer/blob/master/Reward_Function/reward_function.py)
+
+## Glossary
+
+ State = one image
+
+ CNN feature extractor = The first half of the CNN who extract the parameters from the image.
+
+ CNN classifier = In the case of a discrete state, the second part of the CNN can be thought of as a classifier with as many outputs as there are defined actions. :warning: The classifier takes inputs from other sources than the image, such as the LIDAR, GPS, etc.
+
+ Waypoints = can be used to change the strategy when arriving in a specific section of the track
 
 ## Function inputs
 

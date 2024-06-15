@@ -697,6 +697,13 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
 # Orca-1
 # Orca-2
 
+ In this project, we develop technologies for creating, improving, and specializing small LMs (~10B parameters or less). Our research involves self-improvement strategies, feedback-driven teaching methods between large and small models and utilizing domain specific data to specialize LMs. We focus on using richer training signals for teaching small LMs to do more with less capacity with emphasis on creating tailored and high-quality synthetic data for post-training and alignment of LMs.
+
+ Orca focuses on:
+  * Synthetic data creation: create tailored and high-quality synthetic data for small model training
+  * Better reasoning capabilities: give smaller LMs enhanced reasoning abilities, typically found only in much larger models
+  * Model specialization: create specialized models that gives the model specialized capabilities or custom behaviors
+
  {% youtube "https://www.youtube.com/watch?v=bNcjccxStdo" %}
 
  {% youtube "https://www.youtube.com/watch?v=wAAtvBtNUH4" %}
@@ -704,7 +711,8 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
  {% pdf "https://arxiv.org/pdf/2311.11045.pdf" %}
 
  More at:
-  * orca
+  * site - [https://www.microsoft.com/en-us/research/project/orca/](https://www.microsoft.com/en-us/research/project/orca/)
+  * orca 1
     * paper - [https://arxiv.org/abs/2306.02707](https://arxiv.org/abs/2306.02707) 
   * orca 2
     * paper - [https://arxiv.org/abs/2311.11045](https://arxiv.org/abs/2311.11045)

@@ -150,7 +150,6 @@ layout: page
 
 
 # Variational Autoencoder
-
 # VAE
 
  VAEs are autoencoders (encoder + latent space + decoder) that encode inputs as distributions instead of points and whose latent space “organisation” is regularised by constraining distributions returned by the encoder to be close to a standard Gaussian. :warning: In the Autoencoder bottleneck, you have 2 vectors: (1) the mean vector, (2) the variance vector of the distributions. The input of the decoder is a sample of the distributions.
@@ -196,6 +195,23 @@ layout: page
   * [https://towardsdatascience.com/reparameterization-trick-126062cfd3c3](https://towardsdatascience.com/reparameterization-trick-126062cfd3c3)
 
  See also [V], [Backpropagation], [Deterministic Node], [Stochastic Node], [Variational Autoencoder]
+
+
+# VASA Model Family
+# VASA-1 Model
+
+ Lifelike Audio-Driven Talking Faces Generated in Real Time developed by [Microsoft]
+
+ {% youtube "https://www.youtube.com/watch?v=nQ1EuRF5x30" %}
+
+ {% pdf "https://arxiv.org/pdf/2404.10667.pdf" %}
+
+ More at:
+  * VASA-1 
+    * site - [https://www.microsoft.com/en-us/research/project/vasa-1/](https://www.microsoft.com/en-us/research/project/vasa-1/)
+    * paper - [https://arxiv.org/abs/2404.10667](https://arxiv.org/abs/2404.10667)
+
+ See also [V], ...
 
 
 # Vector
@@ -432,6 +448,14 @@ More at:
     * twitter challenge - [https://twitter.com/karpathy/status/1760740503614836917](https://twitter.com/karpathy/status/1760740503614836917)
     * input - [https://www.youtube.com/watch?v=zduSFxRajkE](https://www.youtube.com/watch?v=zduSFxRajkE)
     * output - [https://hundredblocks.github.io/transcription_demo/](https://hundredblocks.github.io/transcription_demo/)
+
+ See also [V], ...
+
+
+# Video-To-Video
+# VTV
+
+ {% youtube "https://www.youtube.com/watch?v=a2yGs8bEeQg" %}
 
  See also [V], ...
 

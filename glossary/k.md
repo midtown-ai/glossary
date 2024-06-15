@@ -285,6 +285,45 @@ layout: page
  See also [K], ...
 
 
+# Kolmogorov-Arnold Network
+# KAN
+
+ Kolmogorov-Arnold Networks (KANs) are a new type of neural network (NN) which focus on the [Kolmogorov-Arnold representation theorem] instead of the typical universal approximation theorem found in NNs. Simply, NNs have static activation function on their nodes. But KANs have learnable activation functions on their edges between nodes.
+
+ ![]( {{site.assets}}/k/kolmogorov_arnold_network_architecture.png ){: width="100%"}
+
+ ![]( {{site.assets}}/k/kolmogorov_arnold_network.gif ){: width="100%"}
+
+ {% pdf "https://arxiv.org/pdf/2404.19756v1.pdf" %}
+
+ More at:
+  * [https://daniel-bethell.co.uk/posts/kan/](https://daniel-bethell.co.uk/posts/kan/)
+  * code - [https://github.com/team-daniel/KAN](https://github.com/team-daniel/KAN)
+
+ See also [K], [B-Spline]
+
+
+# Kolmogorov-Arnold Representation Theorem
+# KAR Theorem
+
+ According to this theorem, any multivariate function f() can be expressed as a finite composition of continuous functions of a single variable, combined with the binary operation of addition. But let’s step away from the math for a moment. What does this really mean if you’re not a mathematician?
+
+ Let’s imagine I asked you to make me some Baklava, a dessert with multiple ingredients and steps. At first glance, making Baklava might seem complex. However, the Kolmogorov-Arnold representation theorem suggests that any complex ‘recipe’ can be simplified into basic, one-ingredient recipes that are then combined in specific ways. Below is a visual breakdown of this process:
+
+ ![]( {{site.assets}}/k/kolmogorov_arnold_representation_theorem.png ){: width="100%"}
+
+ This image shows how the complex process of making Baklava can be broken down into simpler tasks like ‘chop the nuts’ or ’layer the pastry’. Each of these tasks handles one aspect of the recipe, akin to handling one variable at a time in a mathematical function. Bringing this back to the math, the theorem can be expressed as follows:
+
+ ```
+  ...
+ ```
+
+ More at:
+  * [https://daniel-bethell.co.uk/posts/kan/](https://daniel-bethell.co.uk/posts/kan/)
+
+ See also [K], ...
+
+
 # Kubeflow
 
  Can use

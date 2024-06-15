@@ -38,6 +38,7 @@
 [Perplexity AI]: {{ site.baseurl}}{% link glossary/p.md %}#perplexity-ai-company
 [Personal Assistant]: {{ site.baseurl}}{% link glossary/p.md %}#personal-assistant
 [Phenaki Model]: {{ site.baseurl}}{% link glossary/p.md %}#phenaki-model
+[Phi Model Family]: {{ site.baseurl}}{% link glossary/p.md %}#phi-model-family
 [Piano Roll]: {{ site.baseurl}}{% link glossary/p.md %}#piano-roll
 [Picasso Model]: {{ site.baseurl}}{% link glossary/p.md %}#picasso-model
 [Picasso]: {{ site.baseurl}}{% link glossary/p.md %}#picasso-model

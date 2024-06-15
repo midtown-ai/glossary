@@ -2,7 +2,7 @@
 layout: post
 # layout: single
 title:  "Tips for deepracer"
-date:   2023-07-12 12:51:28 -0800
+date:   2024-05-12 12:51:28 -0800
 categories: jekyll update
 ---
 

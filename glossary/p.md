@@ -376,6 +376,20 @@ In the case of the parent document retriever, the original large chunks will be 
   * paper - [https://openreview.net/forum?id=vOEXS39nOF](https://openreview.net/forum?id=vOEXS39nOF)
 
 
+# Phi Model Family
+
+ [SLM] developed by [Microsoft]
+
+ Phi-3 Mini is as capable as LLMs like GPT-3.5 “just in a smaller form factor.” 
+
+ While Phi-1 focused on coding and Phi-2 began to learn to reason, Phi-3 is better at coding and reasoning.
+
+ More at:
+ * phi-3 mini - [https://www.theverge.com/2024/4/23/24137534/microsoft-phi-3-launch-small-ai-language-modelA](https://www.theverge.com/2024/4/23/24137534/microsoft-phi-3-launch-small-ai-language-model)
+
+ See also [P], ...
+
+
 # Photonic Chip
 
  {%  youtube "https://www.youtube.com/watch?v=IwzguEPIddU" %}

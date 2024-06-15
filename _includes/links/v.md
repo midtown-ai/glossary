@@ -17,6 +17,9 @@
 [Variational Autoencoder]: {{ site.baseurl }}{% link glossary/v.md %}#variational-autoencoder
 [VAE]: {{ site.baseurl }}{% link glossary/v.md %}#variational-autoencoder
 [Variational Autoencoder Reparameterization Trick]: {{ site.baseurl }}{% link glossary/v.md %}#variational-autoencoder-reparameterization-trick
+[VASA Model Family]: {{ site.baseurl }}{% link glossary/v.md %}#vasa-model-family
+[VASA-1 Model]: {{ site.baseurl }}{% link glossary/v.md %}#vasa-model-family
+[VASA-1]: {{ site.baseurl }}{% link glossary/v.md %}#vasa-model-family
 [Vector]: {{ site.baseurl }}{% link glossary/v.md %}#vector
 [Vector Database]: {{ site.baseurl }}{% link glossary/v.md %}#vector-database
 [Vector Quantized Generative Adversarial Network]: {{ site.baseurl }}{% link glossary/v.md %}#vector-quantized-generative-adversarial-network
@@ -38,6 +41,8 @@
 [VPT Model]: {{ site.baseurl }}{% link glossary/v.md %}#video-pre-trained-model
 [Video Restauration]: {{ site.baseurl }}{% link glossary/v.md %}#video-restauration
 [Video Summarization]: {{ site.baseurl }}{% link glossary/v.md %}#video-summarization
+[Video-To-Video]: {{ site.baseurl }}{% link glossary/v.md %}#video-to-video
+[VTV]: {{ site.baseurl }}{% link glossary/v.md %}#video-to-video
 [VIMA Model]: {{ site.baseurl }}{% link glossary/v.md %}#vima-model
 [VIMA]: {{ site.baseurl }}{% link glossary/v.md %}#vima-model
 [Virtual Assistant]: {{ site.baseurl }}{% link glossary/v.md %}#virtual-assistant

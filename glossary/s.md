@@ -1650,12 +1650,16 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
    * AIMI or [AI in Medicine and Imaging](https://aimi.stanford.edu/) or AIMI
      * blog - [https://aimi.stanford.edu/blog](https://aimi.stanford.edu/blog)
    * QIAI or [Quantitative Imaging and Artificial Intelligence](https://rubinlab.stanford.edu/) - Daniel L. Rubin, MD, MS
- * [Autonomous lab agent](https://www.autonomousagents.stanford.edu/)
+   * CERC or [Clinical Excellence Research Center](https://med.stanford.edu/cerc.html) - [Arnold Milstein](https://profiles.stanford.edu/arnold-milstein)
+     * blog - [https://med.stanford.edu/cerc/research/computer-vision.html](https://med.stanford.edu/cerc/research/computer-vision.html)
+ * Robotics
+   * ILIAD or [Intelligent and Interactive Autonomous Systems Group](https://iliad.stanford.edu/) led by [Dorsa Sadigh](https://dorsa.fyi/)
+   * [Autonomous lab agent](https://www.autonomousagents.stanford.edu/)
  * CRFM or [Center for Research on Foundation Model](https://crfm.stanford.edu/)
  * [Neuroscience](https://neuroscience.stanford.edu/)
  * SAIL or [Stanford AI Lab](https://ai.stanford.edu/)
    * blog - [https://ai.stanford.edu/blog/](https://ai.stanford.edu/blog/)
- * HAI or [Human Centered Artificial Intelligence](https://hai.stanford.edu/)
+ * HAI or [Human Centered Artificial Intelligence](https://hai.stanford.edu/) led by [John Etchmendy](https://philosophy.stanford.edu/people/john-w-etchemendy) and [Fei-Fei Li](https://profiles.stanford.edu/fei-fei-li)
    * blog - [https://hai.stanford.edu/news/what-dall-e-reveals-about-human-creativity](https://hai.stanford.edu/news/what-dall-e-reveals-about-human-creativity)
    * ai4all - [https://nidhiparthasarathy.medium.com/my-summer-at-ai4all-f06eea5cdc2e](https://nidhiparthasarathy.medium.com/my-summer-at-ai4all-f06eea5cdc2e)
 
@@ -1663,6 +1667,7 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
    * [Arc Institute] - 
    * [MedAI Group Exchange](https://stanford-medai.github.io/)
      * mailing list - [https://mailman.stanford.edu/mailman/listinfo/medai_announce](https://mailman.stanford.edu/mailman/listinfo/medai_announce)
+   * [National Artificial Intelligence Research Resource (NAIRR)][NAIRR] - connect U.S. researchers and educators to computational, data, and training resources needed to advance AI research and research that employs AI.
 
  * Assets
    * Algorithms
@@ -2202,6 +2207,48 @@ II n summary, probability is focused on the theoretical study of random events, 
   * paper - [https://arxiv.org/pdf/2101.03961.pdf](https://arxiv.org/pdf/2101.03961.pdf)
 
  See also [S], [Mixture Of Local Expect], [Sparse Activation], [T5 Model]
+
+
+# Symbolic AI
+
+ You teach rules of work, where rules = logic
+
+ * A cat is an animal
+ * this is right and this is wrong
+ * turn text into words and find "intent, utterance, and slots"
+
+ The opposite is [non-symbolic AI] where the system finds the patterns itself by parsing tons data
+
+ Ex: Siri 2024, Alexa 2024
+
+ For example, for an intent to plan a trip (PlanMyTrip), you might write the following utterances:
+
+ ```
+i am going on a trip on friday
+i want to visit portland
+i want to travel from seattle to portland next friday
+i'm driving from seattle to portland
+i'm driving to portland to go hiking
+...(several more)
+ ```
+
+ Then identify the slots of the intent
+
+ ```
+i am going on a trip on *friday*
+i want to visit *portland*
+i want to travel from *seattle* to *portland*  *next friday*
+i'm *driving* from *seattle* to *portland*
+i'm *driving* to *portland* to go *hiking*
+
+i am going on a trip on {travelDate}
+i want to visit {toCity}
+I want to travel from {fromCity} to {toCity} {travelDate}
+I'm {travelMode} from {fromCity} to {toCity}
+i'm {travelMode} to {toCity} to go {activity}
+ ```
+
+ Se also [S], ...
 
 
 # Synapse

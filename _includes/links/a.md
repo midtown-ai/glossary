@@ -46,6 +46,7 @@
 [Addiction]: {{ site.baseurl }}{% link glossary/a.md %}#addiction
 [Adept AI Company]: {{ site.baseurl }}{% link glossary/a.md %}#adept-ai-company
 [Adept AI]: {{ site.baseurl }}{% link glossary/a.md %}#adept-ai-company
+[Adjusted R-Square]: {{ site.baseurl }}{% link glossary/a.md %}#adjusted-r-square
 [Adobe Company]: {{ site.baseurl }}{% link glossary/a.md %}#adobe-company
 [Adobe]: {{ site.baseurl }}{% link glossary/a.md %}#adobe-company
 [Adobe Firefly Product]: {{ site.baseurl }}{% link glossary/a.md %}#adobe-firefly-product
@@ -69,6 +70,7 @@
 [Agency]: {{ site.baseurl }}{% link glossary/a.md %}#agency
 [Agent]: {{ site.baseurl }}{% link glossary/a.md %}#agent
 [Agent-Based Modeling]: {{ site.baseurl }}{% link glossary/a.md %}#agent-based-modeling
+[Agentic]: {{ site.baseurl }}{% link glossary/a.md %}#agentic
 [AI Agent]: {{ site.baseurl }}{% link glossary/a.md %}#ai-agent
 [AI Agents]: {{ site.baseurl }}{% link glossary/a.md %}#ai-agent
 [AI Alignment]: {{ site.baseurl }}{% link glossary/a.md %}#ai-alignment

@@ -13,6 +13,8 @@
 [Nash Equilibrium]: {{ site.baseurl }}{% link glossary/n.md %}#nash-equilibrium
 [National Artificial Intelligence Advisory Committee]: {{ site.baseurl }}{% link glossary/n.md %}#national-artificial-intelligence-advisory-committee
 [NAIAC]: {{ site.baseurl }}{% link glossary/n.md %}#national-artificial-intelligence-advisory-committee
+[National Artificial Intelligence Research Resource]: {{ site.baseurl }}{% link glossary/n.md %}#national-artificial-intelligence-research-resource
+[NAIRR]: {{ site.baseurl }}{% link glossary/n.md %}#national-artificial-intelligence-research-resource
 [National Institute of Standards and Technology]: {{ site.baseurl }}{% link glossary/n.md %}#national-institute-of-standards-and-technology
 [NIST]: {{ site.baseurl }}{% link glossary/n.md %}#national-institute-of-standards-and-technology
 [National Science Foundation]: {{ site.baseurl }}{% link glossary/n.md %}#national-science-foundation
@@ -84,6 +86,7 @@
 [Non-Deterministic Polynomial-Time Hard]: {{ site.baseurl }}{% link glossary/n.md %}#non-deterministic-polynomial-time-hard
 [NP-Hard]: {{ site.baseurl }}{% link glossary/n.md %}#non-deterministic-polynomial-time-hard
 [Non-Linear Regression]: {{ site.baseurl }}{% link glossary/n.md %}#non-linear-regression
+[Non-Symbolic AI]: {{ site.baseurl }}{% link glossary/n.md %}#non-symbolic-ai
 [Normalization]: {{ site.baseurl }}{% link glossary/n.md %}#normalization
 [Normalizing]: {{ site.baseurl }}{% link glossary/n.md %}#normalizing
 [NotebookLM Utility]: {{ site.baseurl }}{% link glossary/n.md %}#notebooklm-utility

@@ -440,6 +440,33 @@ One obvious way to mitigate that problem is to choose different learning rate fo
  See also [A], ...
 
 
+# Adjusted R-Square
+
+ The adjusted R-squared (R̅^2) is a modified version of the [R-squared] that has been adjusted for the number of [predictors] in the model. The adjusted R-squared increases only if the new term improves the model more than would be expected by chance.
+
+ It is calculated as:
+ ```
+R̅^2 = 1 - (1 - R^2)*(n-1)/(n-k-1)
+Where:
+n is the sample size
+k is the number of predictors (not counting the intercept)
+ ```
+
+ The adjusted R-squared:
+
+  1. Allows for the degrees of freedom associated with the sums of the squares.
+  1. Decreases when an insignificant predictor variable is added to the model.
+  1. Helps choose the better model in a [regression] with many [predictor] variables.
+
+ Unlike R^2, the adjusted R̅^2 will not artificially inflate as more variables are included. It only increases if the new variable improves the model's ability to explain the response variable.
+
+ The adjusted R-squared can be negative, and will be lower than the regular R-squared. Negative values indicate that the regression model is a poor fit, worse than just using the mean of the dependent variable.
+
+ Overall, the adjusted R-squared attempts to make a fair comparison between models with different numbers of predictor variables. It is generally preferred over R^2 when evaluating regression models.
+
+ See also [A], ...
+
+
 # Adobe Company
 
  * [Firefly] - text to image generator
@@ -583,6 +610,13 @@ One obvious way to mitigate that problem is to choose different learning rate fo
 # Agent-Based Modeling
 
  A method employed for simulating intricate systems, focusing on interactions between individual [agents] to glean insights into emergent system behaviors.
+
+ See also [A], ...
+
+
+# Agentic
+
+ Function calls that work
 
  See also [A], ...
 
@@ -2025,7 +2059,12 @@ First, we believe the clearest framing of general intelligence is a system that 
 # Artificial Neural Network
 # ANN
 
- ~ `Can discover and approximate a(ny?) function given fixed(-count?) inputs and fixed(-count?) outputs! = universal function approximator` A multi-layer perceptron. Also known as Artificial Neural Network (ANN). Can be used in supervised or unsupervised learning.
+ ~ `Can discover and approximate a(ny?) function given fixed(-count?) inputs and fixed(-count?) outputs! = universal function approximator` Also known as Artificial Neural Network (ANN). Can be used in supervised or unsupervised learning.
+
+ There are different architectures:
+  * [Multilayer perceptron (MLP)][MLP] - static weights and fixed [activation functions]
+  * [Kolmogorov-Arnold Networks (KANs)][KAN] - learnable activation function
+  * ...
 
  ![]( {{site.assets}}/a/artificial_neural_network_example.png ){: width="100%"}
 
@@ -2186,6 +2225,12 @@ First, we believe the clearest framing of general intelligence is a system that 
  Atlas is a bipedal humanoid [robot] primarily developed by the American robotics company [Boston Dynamics] with funding and oversight from the [U.S. Defense Advanced Research Projects Agency (DARPA)][DARPA]. The robot was initially designed for a variety of search and rescue tasks, and was unveiled to the public on July 11, 2013.
 
  {% youtube "https://www.youtube.com/watch?v=rVlhMGQgDkY" %}
+
+ {% youtube "https://www.youtube.com/watch?v=-9EM5_VFlt8" %}
+
+ 2024/04/15
+
+ {% youtube "https://www.youtube.com/watch?v=29ECwExc-_M" %}
 
  More at:
   * [https://www.bostondynamics.com/atlas](https://www.bostondynamics.com/atlas)

@@ -85,6 +85,10 @@
 [RLHF]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-from-human-feedback
 [Relation]: {{site.baseurl}}{% link glossary/r.md %}#relation
 [Relation Extraction]: {{site.baseurl}}{% link glossary/r.md %}#relation-extraction
+[Relational Deep Learning]: {{site.baseurl}}{% link glossary/r.md %}#relational-deep-learning
+[RDL]: {{site.baseurl}}{% link glossary/r.md %}#relational-deep-learning
+[Relational Deep Learning Benchmark]: {{site.baseurl}}{% link glossary/r.md %}#relational-deep-learning-benchmark
+[RelBench]: {{site.baseurl}}{% link glossary/r.md %}#relational-deep-learning-benchmark
 [Relative Approximation Error]: {{site.baseurl}}{% link glossary/r.md %}#relative-approximation-error
 [RAE]: {{site.baseurl}}{% link glossary/r.md %}#relative-approximation-error
 [Relative Entropy]: {{site.baseurl}}{% link glossary/r.md %}#relative-entropy

@@ -2,7 +2,7 @@
 layout: post
 # layout: single
 title:  "AWS DeepRacer On The Spot"
-date:   2023-07-02 12:51:28 -0800
+date:   2024-05-02 12:51:28 -0800
 categories: jekyll update
 ---
 

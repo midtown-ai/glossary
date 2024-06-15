@@ -2,7 +2,7 @@
 layout: post
 # layout: single
 title:  "Approaching AWS DeepRacer"
-date:   2023-07-01 12:51:28 -0800
+date:   2024-05-01 12:51:28 -0800
 categories: jekyll update
 ---
 
@@ -11,6 +11,46 @@ categories: jekyll update
 * toc
 {:toc}
 
+humanistic AI -- provide linkedin URL and find approach
+
+PROMPT COMMUNITY
+
+Click up
+brand24 
+ give sentiment on company
+ tell you where your brand is online
+appolo
+jasper.ai
+copy.ai   -- create a content matrix to personalize how segmenting audience
+ ICP score
+ persona mapping
+ tweeter - entrepreneurs --> I created a business in 10 days ...
+ podcast + ...
+notion.ai
+riverside
+capcut + descrypt (eye)
+canvas create magic
+
+Model names:
+
+ ```
+Model naming convention
+-----------------------
+re2018ccw-ppo-5x2actions-max30deg-max1ms-centerline-60min
+re2018ccw-time-ppo-64gdbs-10ep-0.0003lr-001ent-099df-huber-20ebpu-5x2actions-max30deg-max1ms-centerline-60min
+
+Evaluation naming convention
+re2018ccw-time-3tr-eval
+
+GREEN = (reward) - follow the best trajectory based on the reward function
+RED = evaluation
+
+BEST MODEL = (1) highest track completion during evaluation and then (2) highest percentage during training
+
+EVALUATION = always starts from the beginngin (unlike training)
+TRAINING = start from failed position
+ENTROPY =
+ ```
 
 ## AWS AMER Summit 2021 - AIM203 - Get rolling with ML on AWS DeepRacer
 
@@ -32,17 +72,19 @@ categories: jekyll update
    * twitch 
      * [https://www.twitch.tv/aws](https://www.twitch.tv/aws)
      * [https://www.twitch.tv/awsdeepracer](https://www.twitch.tv/awsdeepracer)
+
  * community
    * [https://zacks.one/aws-deepracer-lab/](https://zacks.one/aws-deepracer-lab/)
    * [https://blog.gofynd.com/how-we-broke-into-the-top-1-of-the-aws-deepracer-virtual-circuit-c39a241979f5](https://blog.gofynd.com/how-we-broke-into-the-top-1-of-the-aws-deepracer-virtual-circuit-c39a241979f5)
    * [https://blog.gofynd.com/how-we-broke-into-the-top-1-of-the-aws-deepracer-virtual-circuit-573ba46c275](https://blog.gofynd.com/how-we-broke-into-the-top-1-of-the-aws-deepracer-virtual-circuit-573ba46c275)
+
  * tips - [https://aws.amazon.com/deepracer/racing-tips/](https://aws.amazon.com/deepracer/racing-tips/)
    * docs - [https://docs.aws.amazon.com/deepracer/latest/developerguide/what-is-deepracer.html](https://docs.aws.amazon.com/deepracer/latest/developerguide/what-is-deepracer.html)
-
    * build a physical tract - [https://thecattlecrew.net/2019/02/12/how-to-build-a-deepracer-track/](https://thecattlecrew.net/2019/02/12/how-to-build-a-deepracer-track/)
    * skill-builder tutorial - [https://explore.skillbuilder.aws/learn/course/87/play/487/aws-deepracer-driven-by-reinforcement-learning](https://explore.skillbuilder.aws/learn/course/87/play/487/aws-deepracer-driven-by-reinforcement-learning)
    * Labs
-     * 200L - [https://catalog.workshops.aws/deepracer-200l/en-US](https://catalog.workshops.aws/deepracer-200l/en-US)
+     * 200L - Get started - [https://catalog.workshops.aws/deepracer-200l/en-US](https://catalog.workshops.aws/deepracer-200l/en-US)
+       * JPMC free credits - [https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop](https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop) + event ID = f6d7-0399ff-5f
      * 300L - [https://catalog.us-east-1.prod.workshops.aws/workshops/6fc80a18-8c5b-4a59-8d0e-6fda7c02acda/en-US](https://catalog.us-east-1.prod.workshops.aws/workshops/6fc80a18-8c5b-4a59-8d0e-6fda7c02acda/en-US)
        * code - [https://github.com/aws-deepracer/aws-deepracer-workshops](https://github.com/aws-deepracer/aws-deepracer-workshops)
      * 400

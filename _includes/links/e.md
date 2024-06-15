@@ -65,6 +65,8 @@
 [Episodic Tasks]: {{site.baseurl }}{% link glossary/e.md %}#episodic-task
 [Epoch]: {{site.baseurl }}{% link glossary/e.md %}#epoch
 [Epochs]: {{site.baseurl }}{% link glossary/e.md %}#epoch
+[Epsilon]: {{site.baseurl }}{% link glossary/e.md %}#epsilon
+[Epsilon Decay]: {{site.baseurl }}{% link glossary/e.md %}#epsilon-decay
 [Epsilon-Greedy Exploration Strategy]: {{site.baseurl }}{% link glossary/e.md %}#epsilon-greedy-exploration-strategy
 [Eric Schmidt Person]: {{site.baseurl }}{% link glossary/e.md %}#eric-schmidt-person
 [Eric Schmidt]: {{site.baseurl }}{% link glossary/e.md %}#eric-schmidt-person

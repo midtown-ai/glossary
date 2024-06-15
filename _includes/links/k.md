@@ -27,6 +27,12 @@
 [KG]: {{ site.baseurl }}{% link glossary/k.md %}#knowledge-graph
 [Knowledge Representation]: {{ site.baseurl }}{% link glossary/k.md %}#knowledge-representation
 [Knowledge Retrieval]: {{ site.baseurl }}{% link glossary/k.md %}#knowledge-retrieval
+[Kolmogorov-Arnold Network]: {{ site.baseurl }}{% link glossary/k.md %}#kolmogorov-arnold-network
+[Kolmogorov-Arnold Networks]: {{ site.baseurl }}{% link glossary/k.md %}#kolmogorov-arnold-network
+[KAN]: {{ site.baseurl }}{% link glossary/k.md %}#kolmogorov-arnold-network
+[KANs]: {{ site.baseurl }}{% link glossary/k.md %}#kolmogorov-arnold-network
+[Kolmogorov-Arnold Representation Theorem]: {{ site.baseurl }}{% link glossary/k.md %}#kolmogorov-arnold-representation-theorem
+[KAR Theorem]: {{ site.baseurl }}{% link glossary/k.md %}#kolmogorov-arnold-representation-theorem
 [Kubeflow]: {{ site.baseurl }}{% link glossary/k.md %}#kubeflow
 [Kullback-Leibler Distance]: {{ site.baseurl }}{% link glossary/k.md %}#kullback-leibler-distance
 [Kullback-Leibler Divergence]: {{ site.baseurl }}{% link glossary/k.md %}#kullback-leibler-divergence

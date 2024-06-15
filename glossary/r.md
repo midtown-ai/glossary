@@ -33,6 +33,15 @@ layout: page
 
  Aka score. In regression, indicates that a large proportion of the variance in the test instances' prices is explained by the model. Test is a new dataset not used in the model.
 
+ Notes:
+  * It ranges from 0 to 1. An R^2 of 1 indicates that the regression line perfectly fits the data.
+  * Higher values indicate that the model fits the data better. Values closer to 1 are preferred.
+  * R^2 increases as you add more variables to the model, even if the additional variables are insignificant.
+  * It does not indicate whether the coefficient estimates and predictions are biased or not.
+  * It is a good measure of the predictive power of the whole model, not of individual variables.
+
+ R-squared is widely used to assess the goodness of fit in linear regression models. However, it should be interpreted cautiously and in conjunction with other model evaluation metrics like residual plots, F-tests, etc. In some cases, an [adjusted R-squared] value is preferred over the regular R-squared.
+
  ```
                      Var(mean) - Var(best-line-fit)              <== always positive
 R-square = R^2 = -------------------------------------
@@ -42,7 +51,7 @@ R-square = R^2 = -------------------------------------
 
  Interpretations:
   * There is R^2 % less variation around the best-fit-line than the mean
-  * The weigth of this input parameter (size/weight relationship) accounts for R^2 % of the variation
+  * The weight of this input parameter (size/weight relationship) accounts for R^2 % of the variation
 
  {% youtube "https://www.youtube.com/watch?v=bMccdk8EdGo" %}
 
@@ -57,6 +66,8 @@ R-square = R^2 = -------------------------------------
 
  More at:
   * site - [https://www.rabbit.tech/](https://www.rabbit.tech/)
+  * devices 
+    * R1 - [https://www.theverge.com/24138746/rabbit-r1-hands-on-ai-gadget-chatgpt](https://www.theverge.com/24138746/rabbit-r1-hands-on-ai-gadget-chatgpt)
   * alternative
     * [Humane] - with the AI pin
 
@@ -786,6 +797,32 @@ Recall = % of positively identified
  See also [R], [Entity Extraction], [Relation], [Scene Graph]
 
 
+# Relational Deep Learning
+# RDL
+
+ Data mining using [GNN] to learn embedding without [feature engineering]
+
+ {% pdf "https://arxiv.org/pdf/2312.04615.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2312.04615](https://arxiv.org/abs/2312.04615)
+
+ See also [R], [RelBench]
+
+
+# Relational Deep Learning Benchmark
+# RelBench
+
+ The Relational Deep Learning Benchmark (RelBench) is a collection of realistic, large-scale, and diverse benchmark datasets for machine learning on relational databases. RelBench datasets are automatically downloaded, processed, and split using the Data Loader. The model performance can be evaluated using the Evaluator in a unified manner. RelBench is a community-driven initiative in active development. We expect the benchmark datasets to evolve.
+
+ {% pdf "https://relbench.stanford.edu/paper.pdf" %}
+
+ More at:
+  * Site - [https://relbench.stanford.edu/](https://relbench.stanford.edu/)
+  * paper - [
+
+ See also [R], ...
+
 # Relative Approximation Error
 # RAE
 
@@ -1226,6 +1263,8 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 
 
 # Reward
+
+ :warning: The delta of the reward can reward negative behavior!
 
  In [Reinforcement Learning (RL)][RL], a reward is a form of feedback from a real or simulated [environment], a program, or a human.
 

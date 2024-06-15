@@ -514,7 +514,9 @@ Research on emotion has increased over the past two decades with many fields con
 
 # Entropy
 
- . :warning: When a loss function hit the Shannon entropy, the model has learned everything there is to know, the model is predict everything as well as possible. So perfect algorithm and the model knows everything there is to know.
+ :warning: Entropy in RL (DeepRacer) is not a probability unlike [Epsilon]. An entropy of 1 => uniform distribution. An entropy of 0 => peak distribution (clear value, not randomness)
+
+ :warning: When a loss function hit the Shannon entropy, the model has learned everything there is to know, the model is predict everything as well as possible. So perfect algorithm and the model knows everything there is to know.
 
  Shannon entropy is a measure of the amount of uncertainty or randomness in a system. It was introduced by Claude Shannon in 1948 as a way to quantify the amount of information in a message or signal.
 
@@ -522,9 +524,13 @@ The entropy of a system is defined as the negative sum of the probabilities of e
  ```
 H(X) = -∑(p(x) * log2 p(x))
 
-# H(X) is the entropy of the system,
-# p(x) is the probability of a particular outcome x,
+# H(X) is the entropy of the system (given the observed state),
+# sum for all x ( or actions | state)
+# p(x) is the probability of a particular outcome x, (ex: Proba(action | state)  )
 # and log2 is the base-2 logarithm.
+
+<!> If proba(action|state) are all equal, then entry is 1
+<!> If probab(action|state) are all 0, but 1, then the entropy is 0!!!
 ```
 
  The entropy is measured in bits, and it represents the minimum number of bits required to encode the information in the system. A system with high entropy has more uncertainty and randomness, and therefore requires more bits to encode the information. Conversely, a system with low entropy has less uncertainty and randomness, and requires fewer bits to encode the information.
@@ -536,7 +542,7 @@ H(X) = -∑(p(x) * log2 p(x))
  More at:
   * [https://en.wikipedia.org/wiki/Entropy_(information_theory)](https://en.wikipedia.org/wiki/Entropy_(information_theory))
 
- See also [E], [Cross-Entropy], [Kullback-Liebler Divergence]
+ See also [E], [Cross-Entropy], [Kullback-Leibler Divergence]
 
 
 # Environment
@@ -567,6 +573,10 @@ H(X) = -∑(p(x) * log2 p(x))
 
 
 # Episode
+
+ Terminal stat, in DeepRacer:
+  * finish the track - trial and success
+  * exit the track (crash) - trial and error
 
  In [reinforcement learning], an episode refers to a single complete run of the [agent] interacting with the [environment]. Here are some key points:
 
@@ -669,24 +679,20 @@ In the context of DeepRacer, an episode refers to a single complete race around 
  See also [E], [Batch], [Gradient Descent Algorithm], [Mini-Batch]
 
 
-# Epsilon-Greedy Exploration Strategy
+# Epsilon
 
- The epsilon-greedy exploration strategy is a commonly used approach in [reinforcement learning] for balancing [exploration] and [exploitation] during training. Here's an overview:
-
+ Overview:
   * [Exploration] refers to the agent trying new actions to gather more information about the environment. [Exploitation] refers to the agent leveraging knowledge gained so far to obtain the maximum reward.
-  * In epsilon-greedy strategy, the agent chooses the greedy or exploitative [action] most of the time - i.e. the action with the highest expected [reward] based on past [experience].
   * But the [agent] also takes a random exploratory [action] with some probability epsilon. This ensures the [agent] continues to explore new [actions].
   * The epsilon value controls the chance of taking a random action instead of the greedy action. It is typically decays over time from a higher starting value like 1 or 0.5 to a small value like 0.01.
   * With higher epsilon initially, the agent explores more. As epsilon decays, the [agent] shifts focus to [exploitation] by taking actions with the highest observed rewards.
   * The schedule for decaying epsilon balances short-term and long-term returns - explore more initially to find good [policies], exploit more later to maximize [cumulative reward].
   * Setting epsilon scheduling requires tuning - faster decay for simple [environments], slower for complex ones.
-  * Epsilon-greedy strikes a good balance between simple random [exploration] and pure greedy [exploitation].
 
- So in summary, epsilon-greedy exploration defines how often an agent should choose random exploratory actions instead of exploitative actions to balance discovering new information with maximizing rewards through past knowledge.
+ See also [E], [Epsilon Decay], [Epsilon-Greedy Exploration Strategy]
 
- The [exploration rate] (epsilon) and epsilon-greedy strategy are closely related, but refer to slightly different aspects of the reinforcement learning process:
-  * Exploration rate (epsilon): This is a hyperparameter that determines the probability of choosing a random action instead of the greedy action during training. It controls the degree of exploration.
-  * Epsilon-greedy strategy: This is the overall exploration strategy that makes use of the epsilon parameter to balance exploration and exploitation. It chooses greedy actions with probability (1 - epsilon) and random actions with probability epsilon.
+
+# Epsilon Decay
 
  Epsilon's decay factor is another important hyperparameter that controls how quickly the exploration rate epsilon decays over time in epsilon-greedy reinforcement learning. Here are some key points:
 
@@ -696,12 +702,29 @@ In the context of DeepRacer, an episode refers to a single complete race around 
     * Linear decay: et = et-1 - decay_factor
     * Exponential decay: et = e^(-decay_factor * t)
     * Inverse sigmoid decay: et = 1 / (1 + decay_factor * t)
-  * The decay factor is a tunable scalar hyperparameter typically in the range of 0.001 to 1.0.
+  * The decay factor is a tunable scalar hyperparameter typically in the range of 0.001 to 1.0.   <-- learning rate in [AWS DeepRacer] ?
   * Lower decay values cause epsilon to decrease slowly, enabling more thorough exploration over many episodes.
   * Higher decay leads to faster decrease in epsilon and quicker shift to exploitation. Better for simple environments.
   * The optimal decay factor balances initial exploration to find optimal actions with subsequent exploitation to maximize cumulative reward.
   * Setting the decay factor requires empirical tuning over multiple training runs and evaluating the impact on metrics like cumulative rewards, losses, and training stability.
   * It interacts closely with other hyperparameters like initial epsilon and number of episodes.
+
+ See also [E], [Epsilon], [Epsilon-Greedy Exploration Strategy]
+
+
+# Epsilon-Greedy Exploration Strategy
+
+ The epsilon-greedy exploration strategy is a commonly used approach in [reinforcement learning] for balancing [exploration] and [exploitation] during training. Here's an overview:
+
+  * In epsilon-greedy strategy, the agent chooses the greedy or exploitative [action] most of the time - i.e. the action with the highest expected [reward] based on past [experience].
+  * Epsilon-greedy strikes a good balance between simple random [exploration] and pure greedy [exploitation].
+
+ So in summary, epsilon-greedy exploration defines how often an agent should choose random exploratory actions instead of exploitative actions to balance discovering new information with maximizing rewards through past knowledge.
+
+ The [exploration rate] (epsilon) and epsilon-greedy strategy are closely related, but refer to slightly different aspects of the reinforcement learning process:
+  * Exploration rate (epsilon): This is a hyperparameter that determines the probability of choosing a random action instead of the greedy action during training. It controls the degree of exploration.
+  * Epsilon-greedy strategy: This is the overall exploration strategy that makes use of the epsilon parameter to balance exploration and exploitation. It chooses greedy actions with probability (1 - epsilon) and random actions with probability epsilon.
+
 
  So in summary, the decay factor controls the epsilon decay rate in an epsilon-greedy strategy. Tuning this hyperparameter is key to achieving the right exploration-exploitation trade-off.
 

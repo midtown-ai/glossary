@@ -873,6 +873,8 @@ def mse_loss(y_pred, y_true):
     * [Wave2Vec] - For [Automatic Speech Recognition (ASR)][ASR]
   * [Voicebox] - edit, create, transfer styles between audio recordings
 
+ {% youtube "https://www.youtube.com/watch?v=bc6uFV9CJGg" %}
+
  More at:
   * research on github - [https://github.com/facebookresearch](https://github.com/facebookresearch)
 
@@ -956,7 +958,10 @@ def mse_loss(y_pred, y_true):
 # MSFT Company
 
  Models
+  * [ORCA Model Family] -
+  * [Phi Model Family] - Model to run on devices
   * [Speechx]
+  * [VASA Model Family] - lip sync and face latent model in real time
 
  See also [M], [Company], [DeepSpeed Project], [OpenAI]
 
@@ -2125,8 +2130,9 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
 
 
 # Multilayer Perceptron
+# MLP
 
- A fully connected multi-layer neural network is called a Multilayer Perceptron.
+ A fully connected multi-layer neural network with static [weights] and fixed [activation function] is called a Multilayer Perceptron.
 
  ![]( {{site.assets}}/m/multilayer_perceptron.png ){: width="100%"}
 
@@ -2150,7 +2156,7 @@ class MLP(nn.Module):
         return x
  ```
 
- See also [M], [Neural Network], [Vision Transformer]
+ See also [M], [Artificial Neural Network], [Kolmogorov-Arnold Network], [Vision Transformer]
 
 
 # Multimodal Alignment
@@ -2316,7 +2322,7 @@ The T5 text-to-text process includes more in-depth machine translation, document
   * with transformer - [https://towardsdatascience.com/creating-a-pop-music-generator-with-the-transformer-5867511b382a](https://towardsdatascience.com/creating-a-pop-music-generator-with-the-transformer-5867511b382a)
   * with LSTM - [https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177](https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177)
   * with RNN - [https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177](https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177)
-  * with transformer -
+  * with transformer - [https://crfm.stanford.edu/2023/06/16/anticipatory-music-transformer.html](https://crfm.stanford.edu/2023/06/16/anticipatory-music-transformer.html)
 
  See also [M], ...
 

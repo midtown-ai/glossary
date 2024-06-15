@@ -29,6 +29,35 @@ layout: page
 {% include links/all.md %}
 
 
+# B-Spline
+
+ Formally, b-splines [3] are a sophisticated curve-fitting method and a specific type of spline [4] - a mathematical term for a flexible, piecewise-polynomial function that defines a smooth curve through a series of points. Informally, imagine you’ve plotted dots on a graph to represent how your spending has fluctuated over the past 10 months, and now you want a smooth line that best shows trends over those months. To do so we could use a polynomial fit, so let’s see how that might look.
+
+ ![]( {{site.assets}}/b/b_spline_polynomial.png ){: width="100%"}
+
+ It works! We have a smooth line that shows my wild spending habits over the last 10 months. But if we look closer, specifically after the first data point, why does the line drop so drastically instead of just curving upwards towards the second data point? This issue with polynomial fitting is due to their tendency to exhibit wild oscillations, a problem known as [Runge’s phenomenon].
+
+ How can we fit this line better…let’s try splines! A spline divides the data into segments and fits individual polynomials to each. Let’s see what a spline fit looks like.
+
+ ![]( {{site.assets}}/b/b_spline_spline.png ){: width="100%"}
+
+ This fit is much smoother, but perhaps it’s a bit too gentle and underfits the data. This is where B-splines can step in to fix things. B-splines, a type of spline that uses control points to pull the curve and guide the polynomials to fit better, offer a more precise solution. Let’s take a look at a B-spline fit on the data.
+
+ ![]( {{site.assets}}/b/b_spline.png ){: width="100%"}
+
+ Perfect! The B-spline doesn’t oscillate wildly or underfit; instead, it captures the data perfectly. B-splines provide superior smoothness and crucial accuracy for modeling complex functions. They can adapt easily to changes in data patterns without requiring a complete overhaul of the model, making them a versatile and robust tool for data fitting.
+
+ Mathematically, we can define a b-spline as:
+ ```
+ ...
+ ```
+
+ More at:
+  * [https://daniel-bethell.co.uk/posts/kan/](https://daniel-bethell.co.uk/posts/kan/)
+
+ See also [B], [Kolmogorov-Arnold Network]
+
+
 # Baby-X Digital Human
 
  ~ a digital human developed by [Soul Machines]
@@ -555,6 +584,9 @@ Your belief has shifted towards more red marbles based on the observed data. The
   * SRL : Semantic understanding (machine translation, information extraction, text summarization, question answering)
   * SST-5 : Sentiment analysis - https://paperswithcode.com/sota/sentiment-analysis-on-sst-5-fine-grained
   * [TruthfulQA] - avoid generating false answers learned from imitating human texts (conspiracies, rumors, etc)
+
+ Graph Neural Network (GNN) Benchmarks:
+  * [Relational Deep Learning Benchmark (RelBench)][RelBench] - GNN on relational databases
 
  Psychoanalysis
   * [FANToM] - stress-testing machine theory of mind in interactions
