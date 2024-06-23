@@ -17,25 +17,138 @@ categories: jekyll update
  * Latex classes - [https://www.ctan.org/topic/class](https://www.ctan.org/topic/class)
  * packages
    * natbib - bibliography - [https://www.ctan.org/pkg/natbib](https://www.ctan.org/pkg/natbib)
+     * doc - [https://ctan.mirrors.hoobly.com/macros/latex/contrib/natbib/natnotes.pdf](https://ctan.mirrors.hoobly.com/macros/latex/contrib/natbib/natnotes.pdf)
    * tables - [https://www.ctan.org/pkg/booktabs](https://www.ctan.org/pkg/booktabs)
  * Tutorials
    * overleaf - [https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
- * reformating of latex
-   * to pdf with pdflatex - [https://www.wavewalkerdsp.com/2022/01/05/install-and-run-latex-on-macos/](https://www.wavewalkerdsp.com/2022/01/05/install-and-run-latex-on-macos/)
-   * to html with jekyll - [https://github.com/mhartl/jekyll-latex](https://github.com/mhartl/jekyll-latex)
+ * Edit Latex
+   * online - [https://www.overleaf.com/project](https://www.overleaf.com/project)
+   * IDE for MacOs 
+     * [https://tex.stackexchange.com/questions/339/latex-editors-ides](https://tex.stackexchange.com/questions/339/latex-editors-ides)
+     * macText - [https://tug.org/mactex/](https://tug.org/mactex/)
+       * brew install --cask mactex
+ * reformating from (raw) latex to ...
+   * pdf 
+     * pdflatex - [https://www.wavewalkerdsp.com/2022/01/05/install-and-run-latex-on-macos/](https://www.wavewalkerdsp.com/2022/01/05/install-and-run-latex-on-macos/)
+       * pdflatex main.tex && open main.pdf
+   * html
+     * jekyll - [https://github.com/mhartl/jekyll-latex](https://github.com/mhartl/jekyll-latex)
+
+ * Other utilities
+   * Diff
+     * p4merge - to diff files between those on downloaded on MacOs and those hosted on overleaf
+       * [https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge](https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge)
+
+## Terminology
+
+ Double-Bind review: Reviews
+
+ Single-blind review: Only the reviewers are anonymized
+
+ STY files: style files to be used by main.tex files
+
+ TEX file: the file with content to be stylized
 
 ## Documentation
 
- {% pdf "https://www.overleaf.com/latex/templates/neurips-2024/tpsbbrdqcmsh.pdf" %}
+
+ * Overleaf templates
+   * NeurIPS 2024 - [https://www.overleaf.com/latex/templates/neurips-2024/tpsbbrdqcmsh](https://www.overleaf.com/latex/templates/neurips-2024/tpsbbrdqcmsh)
+     * doc - [https://www.overleaf.com/latex/templates/neurips-2024/tpsbbrdqcmsh.pdf](https://www.overleaf.com/latex/templates/neurips-2024/tpsbbrdqcmsh.pdf)
 
 ## Command
 
 
  :warning: You can set the auto-recompile on
 
+ :warning: Auto-recompile can be turned off to see the difference between 2 changes (e.g. template options)
+
 ```
 Cmd + Enter                          - recompile
 ```
+
+## FAQ
+
+### How to use a figure/drawing
+
+ ```
+
+\usepackage{graphicx}
+
+% show sized/formatted blocks filenames instead of images
+% \usepackage[draft]{graphicx}
+
+\begin{figure}
+  \centering
+  %% empty box
+  \fbox{\rule[-.5cm]{0cm}{4cm} \rule[-.5cm]{4cm}{0cm}}
+  %% image as-is (may trigger warning as image may be too large for paper)!
+  \includegraphics{filename.png}
+  %% image formatted for document
+  \includegraphics[width=0.7\textwidth]{filename.png}
+  \caption{Sample figure caption.}
+\end{figure}
+
+```
+
+### How to use a template?
+
+ * You latex file is 'main.tex'
+ * put the file in the same folder (ex: neurips_2024.sty )
+ * add the following statement
+
+ ```
+\documentclass{article}
+
+% if you need to pass options to natbib, use, e.g.:
+%     \PassOptionsToPackage{numbers, compress}{natbib}
+% before loading neurips_2024
+
+
+% ready for submission (Anonymous author and line number)
+% \usepackage{neurips_2024}
+
+% to compile a preprint version, e.g., for submission to arXiv, add add the
+% [preprint] option:
+\usepackage[preprint]{neurips_2024}
+
+% to compile a camera-ready version, add the [final] option, e.g.:
+%     \usepackage[final]{neurips_2024}
+
+% to avoid loading the natbib package, add option nonatbib:
+%    \usepackage[nonatbib]{neurips_2024}
+ ```
+
+### What are template formats, e.g. preprint/final?
+
+In LaTeX, the main differences between a preprint and a final template format typically relate to layout, style, and document structure. Here's a brief overview:
+
+ No-option format (for unbiased aka double-blind review):
+  * Anonymizes author
+  * Adds line numbers
+  * Removes acknowledgments
+
+ Preprint format:
+  * Nonanonymized version, include author's name
+  * “Preprint. Work in progress.” in footer
+  * Simpler layout, often single-column
+  * Less formatting requirements
+  * May include author information on the first page
+  * Often uses a more generic document class (e.g., article)
+  * May allow for comments or notes in the margins
+
+ Final template format (For reviewed papers who have been accepted):
+  * More structured layout, often double-column for journals
+  * Specific formatting requirements set by the publisher
+  * May anonymize author information for peer review
+  * Uses a journal-specific document class or style file
+  * Typically includes publication-ready elements like headers, footers, and page numbers
+
+ The final template is usually provided by the publisher and adheres to their specific requirements for publication. The preprint format is more flexible and is often used for sharing research before formal publication.
+
+
+
+
 
 ## References
 
@@ -49,7 +162,7 @@ Cmd + Enter                          - recompile
                                      % default font size = 10pt
                                      % default paper size = a4paper
 
-\usepackage{graphicx}                % Package required for inserting images
+\usepackage{graphicx}                % Package required for inserting images, such as PNG, etc.
 
 \title{tests}                        % Metadata used to generate title
 \author{Emmanuel Mayssat}
@@ -58,6 +171,8 @@ Cmd + Enter                          - recompile
                                      % END OF PREAMPLE
 
 \begin{document}                     % _begin_document = begin the body of the document
+                                     % \begin{ENVIRONMENT} is followed by an \end{ENVIRONMENT}
+                                     % Between \begin and \end, only commands for the given environment should be used
 
 \maketitle                           % Generate Title using provided metadata
 
@@ -129,3 +244,7 @@ Used to typeset Table~\ref{sample-table}.
 
 \end{document}                       % _end_document
 ```
+
+## NeurIPS doc
+
+ {% pdf "{{site.assets}}/+/n/neurips_hs_2024.pdf" %}

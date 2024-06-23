@@ -913,6 +913,17 @@ print("ga_output: ", ga_output)
 
 # Graph
 
+ A representation of items or nodes, linked by relations or edges
+
+ Good representation for
+  * molecule
+  * social network
+  * knowledge graph
+  * 3D meshes
+  * the internet
+  * the brain
+  * ...
+
  ![]( {{site.assets}}/g/graph.png ){: width="100%"}
 
  ![]( {{site.assets}}/g/graph_family_tree.png ){: width="100%"}
@@ -989,6 +1000,15 @@ print("ga_output: ", ga_output)
   * visualization with t-SNE - [https://towardsdatascience.com/visualizing-graph-embeddings-with-t-sne-in-python-10227e7876aa](https://towardsdatascience.com/visualizing-graph-embeddings-with-t-sne-in-python-10227e7876aa)
 
 
+# Graph Machine Learning
+# GML
+
+ More at:
+  * [https://www.uber.com/blog/uber-eats-graph-learning/](https://www.uber.com/blog/uber-eats-graph-learning/)
+
+ See also [G], ...
+
+
 # Graph Network For Materials Exploration Model
 # GNoME Model
 
@@ -1019,6 +1039,8 @@ print("ga_output: ", ga_output)
   * And more!
 
  Ex: Most of the time, these datasets are extremely large and only partially labeled. Consider a fraud detection scenario where we would try to predict the likelihood that an individual is a fraudulent actor by analyzing his connections to known fraudsters. This problem could be defined as a semi-supervised learning task, where only a fraction of graph nodes would be labeled (‘fraudster’ or ‘legitimate’). This should be a better solution than trying to build a large hand-labeled dataset, and “linearizing” it to apply traditional machine learning algorithms.
+
+ {% youtube "https://www.youtube.com/watch?v=9QH6jnwqrAk" %}
 
  More at:
   * [https://distill.pub/2021/gnn-intro/](https://distill.pub/2021/gnn-intro/)

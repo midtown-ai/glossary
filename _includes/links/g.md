@@ -71,9 +71,6 @@
 [GloVe Algorithm]: {{ site.baseurl }}{% link glossary/g.md %}#global-vector-algorithm
 [GloVe]: {{ site.baseurl }}{% link glossary/g.md %}#global-vector-algorithm
 [Gluon]: {{ site.baseurl }}{% link glossary/g.md %}#gluon
-[Graph Network For Materials Exploration Model]: {{ site.baseurl }}{% link glossary/g.md %}#graph-network-for-materials-exploration-model
-[Gnome Model]: {{ site.baseurl }}{% link glossary/g.md %}#graph-network-for-materials-exploration-model
-[Gnome]: {{ site.baseurl }}{% link glossary/g.md %}#graph-network-for-materials-exploration-model
 [Goal-Conditioned Reinforcement Learning]: {{ site.baseurl }}{% link glossary/g.md %}#goal-conditioned-reinforcement-learning
 [Goal-Conditioned RL]: {{ site.baseurl }}{% link glossary/g.md %}#goal-conditioned-reinforcement-learning
 [Google Company]: {{ site.baseurl }}{% link glossary/g.md %}#google-company
@@ -118,6 +115,11 @@
 [Graph Database]: {{ site.baseurl }}{% link glossary/g.md %}#graph-database
 [Graph Embedding]: {{ site.baseurl }}{% link glossary/g.md %}#graph-embedding
 [Graph Embeddings]: {{ site.baseurl }}{% link glossary/g.md %}#graph-embedding
+[Graph Machine Learning]: {{ site.baseurl }}{% link glossary/g.md %}#graph-machine-learning
+[GML]: {{ site.baseurl }}{% link glossary/g.md %}#graph-machine-learning
+[Graph Network For Materials Exploration Model]: {{ site.baseurl }}{% link glossary/g.md %}#graph-network-for-materials-exploration-model
+[Gnome Model]: {{ site.baseurl }}{% link glossary/g.md %}#graph-network-for-materials-exploration-model
+[Gnome]: {{ site.baseurl }}{% link glossary/g.md %}#graph-network-for-materials-exploration-model
 [Graph Neural Network]: {{ site.baseurl }}{% link glossary/g.md %}#graph-neural-network
 [Graph Neural Networks]: {{ site.baseurl }}{% link glossary/g.md %}#graph-neural-network
 [GNN]: {{ site.baseurl }}{% link glossary/g.md %}#gnn

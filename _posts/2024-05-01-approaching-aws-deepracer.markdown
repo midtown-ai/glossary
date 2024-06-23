@@ -84,7 +84,7 @@ ENTROPY =
    * skill-builder tutorial - [https://explore.skillbuilder.aws/learn/course/87/play/487/aws-deepracer-driven-by-reinforcement-learning](https://explore.skillbuilder.aws/learn/course/87/play/487/aws-deepracer-driven-by-reinforcement-learning)
    * Labs
      * 200L - Get started - [https://catalog.workshops.aws/deepracer-200l/en-US](https://catalog.workshops.aws/deepracer-200l/en-US)
-       * JPMC free credits - [https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop](https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop) + event ID = f6d7-0399ff-5f
+       * JPMC free credits - [https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop](https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop) + event ID = f6d7-0399ff-5f | 184d-06fcdb-f1
      * 300L - [https://catalog.us-east-1.prod.workshops.aws/workshops/6fc80a18-8c5b-4a59-8d0e-6fda7c02acda/en-US](https://catalog.us-east-1.prod.workshops.aws/workshops/6fc80a18-8c5b-4a59-8d0e-6fda7c02acda/en-US)
        * code - [https://github.com/aws-deepracer/aws-deepracer-workshops](https://github.com/aws-deepracer/aws-deepracer-workshops)
      * 400
