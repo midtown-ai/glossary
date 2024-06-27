@@ -52,7 +52,10 @@
 [Netlify]: {{ site.baseurl }}{% link glossary/n.md %}#netlify-company
 [Neural Architecture Search]: {{ site.baseurl }}{% link glossary/n.md %}#neural-architecture-search
 [Neural Information Processing Systems Conference]: {{ site.baseurl }}{% link glossary/n.md %}#neural-information-processing-systems-conference
-[NeurIPS Conference]: {{ site.baseurl }}{% link glossary/n.md %}#neurips-conference
+[NeurIPS Conference]: {{ site.baseurl }}{% link glossary/n.md %}#neural-information-processing-systems-conference
+[NeurIPS]: {{ site.baseurl }}{% link glossary/n.md %}#neural-information-processing-systems-conference
+[NIPS Conference]: {{ site.baseurl }}{% link glossary/n.md %}#neural-information-processing-systems-conference
+[NIPS]: {{ site.baseurl }}{% link glossary/n.md %}#neural-information-processing-systems-conference
 [Neural Information Retrieval Model]: {{ site.baseurl }}{% link glossary/n.md %}#neural-information-retrieval-model
 [Neural IR Model]: {{ site.baseurl }}{% link glossary/n.md %}#neural-information-retrieval-model
 [Neural Machine Translation]: {{ site.baseurl }}{% link glossary/n.md %}#neural-machine-translation

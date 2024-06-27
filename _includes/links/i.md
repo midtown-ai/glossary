@@ -32,6 +32,7 @@
 [Imbalanced Data]: {{ site.baseurl }}{% link glossary/i.md %}#imbalanced-data
 [Imitation Learning]: {{ site.baseurl }}{% link glossary/i.md %}#imitation-learning
 [IL]: {{ site.baseurl }}{% link glossary/i.md %}#il
+[Impact Factor]: {{ site.baseurl }}{% link glossary/i.md %}#impact-factor
 [Imputation]: {{ site.baseurl }}{% link glossary/i.md %}#imputation
 [Incentive]: {{ site.baseurl }}{% link glossary/i.md %}#incentive
 [IndexGPT Model]: {{ site.baseurl }}{% link glossary/i.md %}#indexgpt-model

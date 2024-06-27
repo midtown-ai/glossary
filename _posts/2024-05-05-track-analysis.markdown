@@ -105,7 +105,7 @@ categories: jekyll update
 
   the circuit requires more pronounced left than right turning = counter clockwise race !
 
-  ![]( {{site.assets}}/_/d/directional_change_plot.png ){: width="100%"}
+  ![]( {{site.assets}}/+/d/directional_change_plot.png ){: width="100%"}
 
 
 ## Notebook to process track data
@@ -171,7 +171,7 @@ ax.plot(x, y, color='cyan', alpha=0.7, linewidth=3, solid_capstyle='round', zord
 
  Beyond these broad guidelines, defining an ideal line is more art than science; and racing it effectively, depends on everything from the load balancing of the car, to the nature of the circuit, to the reaction time and state of mind of the driver.
 
-  ![]( {{site.assets}}/_/i/ideal_racing_line.png ){: width="100%"}
+  ![]( {{site.assets}}/+/i/ideal_racing_line.png ){: width="100%"}
 
   Articles
    * [https://medium.com/adventures-in-autonomous-vehicles/genetic-programming-for-racing-line-optimization-part-1-e563c606e502](https://medium.com/adventures-in-autonomous-vehicles/genetic-programming-for-racing-line-optimization-part-1-e563c606e502)
@@ -192,7 +192,7 @@ ax.plot(x, y, color='cyan', alpha=0.7, linewidth=3, solid_capstyle='round', zord
 
   {% pdf "https://arxiv.org/pdf/2002.04794.pdf" %}
 
-  {% pdf "{{site.assets}}/_/r/racing_line_optimization_paper.pdf" %}
+  {% pdf "{{site.assets}}/+/r/racing_line_optimization_paper.pdf" %}
 
   {% pdf "https://arxiv.org/pdf/2104.11106.pdf" %}
 

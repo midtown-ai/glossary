@@ -218,6 +218,25 @@ In the case of the parent document retriever, the original large chunks will be 
  See also [P], [Hand Gesture Recognition]
 
 
+# Peer Review
+
+ Author --> Reviewers
+
+ {% youtube "https://www.youtube.com/watch?v=19Q-vMd9bYg" %}
+
+ {% youtube "https://www.youtube.com/watch?v=DEh1GR0t29k" %}
+
+ {% youtube "https://www.youtube.com/watch?v=361h6lHZGDg" %}
+
+ {% pdf "https://arxiv.org/pdf/2109.09774.pdf" %}
+
+ More at:
+  * 2021 paper - [https://arxiv.org/abs/2109.09774#:~:text=In%20this%20paper%20we%20revisit%20the%202014%20NeurIPS,in%20reviewer%20quality%20scores%20was%20subjective%20in%20origin.](https://arxiv.org/abs/2109.09774#:~:text=In%20this%20paper%20we%20revisit%20the%202014%20NeurIPS,in%20reviewer%20quality%20scores%20was%20subjective%20in%20origin.)
+  * 2014 paper -
+
+ See also [P], ...
+
+
 # People
 
  People
@@ -850,6 +869,14 @@ PSI ≥ 0.25: Suggests a major shift in the population, indicating that the mode
 
  See also [P], [Model Compression]
 
+
+# Poster
+
+ For presentations in [AI conference]
+
+ {% youtube "https://www.youtube.com/watch?v=oUqnvQm_k9M&list=PL1v8zpldgH3oSAgfPxj0T-N25n3quozCb" %}
+
+ See also [P], ...
 
 # Posterior Belief
 

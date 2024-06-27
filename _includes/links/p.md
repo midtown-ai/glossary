@@ -24,6 +24,7 @@
 [PaLM-E Model]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-language-model-embodied-model
 [Pathways Model Architecture]: {{ site.baseurl}}{% link glossary/p.md %}#pathways-model-architecture
 [Pattern Recognition]: {{ site.baseurl}}{% link glossary/p.md %}#pattern-recognition
+[Peer Review]: {{ site.baseurl}}{% link glossary/p.md %}#peer-review
 [People]: {{ site.baseurl}}{% link glossary/p.md %}#people
 [Pepper Robot]: {{ site.baseurl}}{% link glossary/p.md %}#pepper-robot
 [Perceiver IO Model]: {{ site.baseurl}}{% link glossary/p.md %}#perceiver-io-model
@@ -75,6 +76,7 @@
 [Positive Attribute]: {{ site.baseurl}}{% link glossary/p.md %}#positive-attribute
 [Post-Training Quantization]: {{ site.baseurl}}{% link glossary/p.md %}#post-training-quantization
 [PTQ]: {{ site.baseurl}}{% link glossary/p.md %}#post-training-quantization
+[Poster]: {{ site.baseurl}}{% link glossary/p.md %}#poster
 [Posterior Belief]: {{ site.baseurl}}{% link glossary/p.md %}#posterior-belief
 [Posterior Beliefs]: {{ site.baseurl}}{% link glossary/p.md %}#posterior-belief
 [Pre-Tokenization]: {{ site.baseurl}}{% link glossary/p.md %}#pre-tokenization

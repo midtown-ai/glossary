@@ -332,6 +332,13 @@ model.summary()
  See also [I], ...
 
 
+# Impact Factor
+
+ * of an [AI conference]
+ * of an [AI publication]
+
+ See also [I], ...
+
 # Imputation
 
  A way to deal with missing/incomplete data. Instead of eliminating the data point, insert the average or another value to use the other attributes of the samples.
@@ -734,14 +741,13 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
 
  Each time a batch is processed is called an iteration. Note that the processing of the entire dataset, called an epoch, may require several iterations. This is particularly the case in the case of a large / very-large dataset.
 
- In DeepRacer, an iteration refers to one full pass through the training data to update the [reinforcement learning] model. Each iteration consists of multiple [episodes]:
-
+ In DeepRacer, an iteration refers to one full pass through the training data to update the [reinforcement learning] (policy) model. Each iteration consists of multiple [episodes] (1 episode = car crash or complite an entire track) :
   * One iteration involves running a specified number of [episodes] on the track.
   * For example, 10 episodes per iteration.
   * During each episode, the agent races around the track, gathering experience about taking actions in different states.
-  * After completing the specified number of episodes, the reinforcement learning model is updated once based on the experience gathered.
+  * After completing the specified number of episodes, the reinforcement learning (policy) model is updated once based on the experience gathered.
   * This completes one full iteration. The episodes are reset and the process repeats for the next iteration.
-  * Multiple iterations are run consecutively to train the model over time with more and more experience from the track.
+  * Multiple iterations are run consecutively to train the (policy) model over time with more and more experience from the track.
   * The number of episodes per iteration and number of total iterations are key hyperparameters to configure the training.
   * More episodes per iteration gather more diverse experience for each update but reduce update frequency.
   * Running many iterations is needed for the agent to converge to a good policy. Hundreds of iterations are common.

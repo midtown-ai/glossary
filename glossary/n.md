@@ -413,11 +413,32 @@ There are various kinds of neocognitron. For example, some types of neocognitron
 
 # Neural Information Processing Systems Conference
 # NeurIPS Conference
+# NIPS Conference
 
  The most important [AI Conference] related to [Deep Learning].
  This conference is help in December.
 
+ Normal 2 tracks:
+  * deadlines
+    * for abstract submission is 5/5
+    * for full  submission is 5/12
+  * reviewed by 3-5 researchers
+  * written discussion between reviewers and authors
+  * papers judged on correctness, originality, and usefulness
+  * submissions are anonymous
 
+ High-school track:
+  * deadline for submission is 6/27
+  * ML for social impact
+  * Work done entirely and only by high school students
+  * Non-anonymous submission
+  * No discussion with the authors, no feedback provided
+  * Winners invited at an award ceremony at NeurIPS
+  * Accepted papers will NOT be in the proceedings of NeurIPS
+
+ Spotlight = A video/webinar should accompany your paper
+
+ {% youtube "https://www.youtube.com/watch?v=s5-NMqUELMA" %}
 
  More at:
   * site - [https://neurips.cc/](https://neurips.cc/)
@@ -433,6 +454,12 @@ There are various kinds of neocognitron. For example, some types of neocognitron
     * call for workshop - [https://neurips.cc/Conferences/2024/CallForWorkshops](https://neurips.cc/Conferences/2024/CallForWorkshops)
     * call for socials - [https://neurips.cc/Conferences/2024/CallforSocials](https://neurips.cc/Conferences/2024/CallforSocials)
     * call for creative AI - [https://neurips.cc/Conferences/2024/CallForCreativeAI](https://neurips.cc/Conferences/2024/CallForCreativeAI)
+  * 2023
+    * [https://www.youtube.com/watch?v=-DVxfa9U5ZI](https://www.youtube.com/watch?v=-DVxfa9U5ZI)
+    * [https://www.youtube.com/watch?v=oUqnvQm_k9M&list=PL1v8zpldgH3oSAgfPxj0T-N25n3quozCb](https://www.youtube.com/watch?v=oUqnvQm_k9M&list=PL1v8zpldgH3oSAgfPxj0T-N25n3quozCb)
+  * 2022
+    * [https://www.youtube.com/watch?v=RezLE5WzKuY](https://www.youtube.com/watch?v=RezLE5WzKuY)
+  * yearly proceeding 
 
  See also [N], ...
 

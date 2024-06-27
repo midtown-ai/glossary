@@ -792,7 +792,7 @@ k is the number of predictors (not counting the intercept)
 
  1. [ICLR Conference] - International Conference on Learning Representations since 2013
  1. [NeurIPS Conference] - Neural networks since 1986
- 1. [ICML Conference] - International conference on Machine learning since 1980
+ 1. [ICML Conference] - International conference on Machine learning since 1980 (strong focus on engineering)
  1. [AAAI Conference](https://aaai-23.aaai.org/)
    * [AAAI] and [ACM Conference](https://www.aies-conference.com/) on AI ethics and society
  1.  [Computer Vision and Pattern Recognition][Computer Vision and Pattern Recognition Conference]
@@ -800,10 +800,12 @@ k is the number of predictors (not counting the intercept)
  1. [SIGGRAPH] - computer graphics and interactive techniques
  1. All other conferences
 
+ {% youtube "https://www.youtube.com/watch?v=E_qYa0OKFok" %}
+
  More at:
   * [https://scholar.google.es/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence](https://scholar.google.es/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence)
 
- See also [A], ...
+ See also [A], [Impact Factor], [Peer Review], [Poster]
 
 
 # AI Control

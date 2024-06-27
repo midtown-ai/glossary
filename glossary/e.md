@@ -574,9 +574,9 @@ H(X) = -∑(p(x) * log2 p(x))
 
 # Episode
 
- Terminal stat, in DeepRacer:
-  * finish the track - trial and success
-  * exit the track (crash) - trial and error
+ In DeepRacer, an episode terminal state is reached when the car:
+  * exits the track (or crash) - trial and error
+  * finishes the track - trial and success (but tries to optimize speed)
 
  In [reinforcement learning], an episode refers to a single complete run of the [agent] interacting with the [environment]. Here are some key points:
 

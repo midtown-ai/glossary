@@ -14,13 +14,31 @@ categories: jekyll update
 
 ## Links
 
- * Latex classes - [https://www.ctan.org/topic/class](https://www.ctan.org/topic/class)
- * packages
-   * natbib - bibliography - [https://www.ctan.org/pkg/natbib](https://www.ctan.org/pkg/natbib)
-     * doc - [https://ctan.mirrors.hoobly.com/macros/latex/contrib/natbib/natnotes.pdf](https://ctan.mirrors.hoobly.com/macros/latex/contrib/natbib/natnotes.pdf)
-   * tables - [https://www.ctan.org/pkg/booktabs](https://www.ctan.org/pkg/booktabs)
  * Tutorials
    * overleaf - [https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
+   * latex cookbook - [https://latex-cookbook.net/](https://latex-cookbook.net/)
+ * Latex classes - [https://www.ctan.org/topic/class](https://www.ctan.org/topic/class)
+ * packages
+   * graphicx
+     * ctan - [https://ctan.org/pkg/graphicx](https://ctan.org/pkg/graphicx)
+     * doc - [https://mirrors.rit.edu/CTAN/macros/latex/required/graphics/grfguide.pdf](https://mirrors.rit.edu/CTAN/macros/latex/required/graphics/grfguide.pdf)
+     * tutorial - [https://www.overleaf.com/learn/latex/Inserting_Images](https://www.overleaf.com/learn/latex/Inserting_Images)
+   * natbib - bibliography 
+     * ctan - [https://www.ctan.org/pkg/natbib](https://www.ctan.org/pkg/natbib)
+     * doc - [https://ctan.mirrors.hoobly.com/macros/latex/contrib/natbib/natnotes.pdf](https://ctan.mirrors.hoobly.com/macros/latex/contrib/natbib/natnotes.pdf)
+     * tutorial - [https://www.overleaf.com/learn/latex/Bibliography_management_with_natbib](https://www.overleaf.com/learn/latex/Bibliography_management_with_natbib)
+   * pgfplots
+     *
+     * doc - [https://pgfplots.net/](https://pgfplots.net/)
+     * tutorial - [https://www.overleaf.com/learn/latex/Pgfplots_package](https://www.overleaf.com/learn/latex/Pgfplots_package)
+   * tables
+     * ctan - [https://www.ctan.org/pkg/booktabs](https://www.ctan.org/pkg/booktabs)
+     * doc -
+     * tutorial - [https://www.overleaf.com/learn/latex/Tables](https://www.overleaf.com/learn/latex/Tables)
+   * tikz
+     * ctan -
+     * doc - [https://tikz.dev/](https://tikz.dev/)
+     * tutorial - [https://www.overleaf.com/learn/latex/TikZ_package](https://www.overleaf.com/learn/latex/TikZ_package)
  * Edit Latex
    * online - [https://www.overleaf.com/project](https://www.overleaf.com/project)
    * IDE for MacOs 
@@ -42,6 +60,8 @@ categories: jekyll update
 ## Terminology
 
  Double-Bind review: Reviews
+
+ Preamble: Headers before the beginning of the document. Contains metadata, package, configuration settings.
 
  Single-blind review: Only the reviewers are anonymized
 
@@ -69,6 +89,76 @@ Cmd + Enter                          - recompile
 
 ## FAQ
 
+### How to use references using natbib ?
+
+ :warning: inline references are linked to the \bibliography section
+
+ :warning: only used inline references are inserted in the \bibliography section
+
+ * styles - [https://www.overleaf.com/learn/latex/Natbib_bibliography_styles](https://www.overleaf.com/learn/latex/Natbib_bibliography_styles)
+
+ ```
+% main.tex
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{natbib}
+\bibliographystyle{unsrtnat}
+
+\title{Bibliography management: \texttt{natbib} package}
+\author{Overleaf}
+\date {April 2021}
+
+\begin{document}
+
+\maketitle
+
+This document is an example of \texttt{natbib} package using in bibliography
+management. Three items are cited: \textit{The \LaTeX\ Companion} book 
+\cite{latexcompanion}, the Einstein journal paper \cite{einstein}, and the 
+Donald Knuth's website \cite{knuthwebsite}. The \LaTeX\ related items are 
+\cite{latexcompanion,knuthwebsite}. 
+
+\medskip                      % Insert medium vertical space
+
+\bibliography{sample}         % Insert 'References' section using content from 'sample.bib' file
+                              % Require a reference style: \bibliographystyle
+                              % Only add the references that are used in the text
+
+\end{document}
+ ```
+ with file
+ ```
+% sample.bib
+@article{einstein,
+  author =       "Albert Einstein",
+  title =        "{Zur Elektrodynamik bewegter K{\"o}rper}. ({German})
+                 [{On} the electrodynamics of moving bodies]",
+  journal =      "Annalen der Physik",
+  volume =       "322",
+  number =       "10",
+  pages =        "891--921",
+  year =         "1905",
+  DOI =          "http://dx.doi.org/10.1002/andp.19053221004"
+}
+
+@book{latexcompanion,
+    author    = "Michel Goossens and Frank Mittelbach and Alexander Samarin",
+    title     = "The \LaTeX\ Companion",
+    year      = "1993",
+    publisher = "Addison-Wesley",
+    address   = "Reading, Massachusetts"
+}
+
+@misc{knuthwebsite,
+    author    = "Donald Knuth",
+    title     = "Knuth: Computers and Typesetting",
+    year      = "1993",
+    url       = "http://www-cs-faculty.stanford.edu/\~{}uno/abcde.html"
+}
+```
+
+ ![]( {{site.assets}}/+/n/natbib_tex_output.png ){: width="100%"}
+
 ### How to use a figure/drawing
 
  ```
@@ -77,6 +167,9 @@ Cmd + Enter                          - recompile
 
 % show sized/formatted blocks filenames instead of images
 % \usepackage[draft]{graphicx}
+
+% where images are located relative to tex file. Default path is ./
+% \graphicspath{ {./images/} }
 
 \begin{figure}
   \centering
@@ -90,6 +183,27 @@ Cmd + Enter                          - recompile
 \end{figure}
 
 ```
+
+### How to use http lnks?
+
+ If text and link are the same:
+ ```
+\usepackage{url}                   % Package: simple URL typesetting
+
+\url{http://www.neurips.cc/}         % Create a link
+
+\begin{center}                       % centered section
+  \url{http://mirrors.ctan.org/macros/latex/contrib/natbib/natnotes.pdf}  % clickable URL
+\end{center}
+ ```
+
+ For more advanced links
+
+ ```
+ \usepackage{hyperref}
+
+ Visit \href{https://www.latex-project.org/}{the LaTeX Project website} for more information.
+ ```
 
 ### How to use a template?
 
@@ -150,7 +264,7 @@ In LaTeX, the main differences between a preprint and a final template format ty
 
 
 
-## References
+## Macros
 
 ```
                                      % BEGINNING OF PREAMPLE
@@ -162,6 +276,7 @@ In LaTeX, the main differences between a preprint and a final template format ty
                                      % default font size = 10pt
                                      % default paper size = a4paper
 
+\usepackage[french,english]{babel}   % Use english language. Default: english
 \usepackage{graphicx}                % Package required for inserting images, such as PNG, etc.
 
 \title{tests}                        % Metadata used to generate title
@@ -174,7 +289,7 @@ In LaTeX, the main differences between a preprint and a final template format ty
                                      % \begin{ENVIRONMENT} is followed by an \end{ENVIRONMENT}
                                      % Between \begin and \end, only commands for the given environment should be used
 
-\maketitle                           % Generate Title using provided metadata
+\maketitle                           % Generate Title using provided metadata: \title{} \author{} \date{}
 
 \section{Heading; 1st level}         % Header-1
 
@@ -202,32 +317,28 @@ reference \ref{anchor_1}             % Reference => jump to a labeled achor in t
 
 Inline raw \verb+\paragraph+ command % inline raw text
 
-\begin{verbatim}                     % raw text
+\begin{verbatim}                     % verbatim block
    \citet{hasselmo} investigated\dots
 \end{verbatim}
 
+\verb|LaTeX command: \textbf{bold}|  % verbatim text
+\verb+http://www.example.com+        % verbatim text
 
-
-% \usepackage{url}                   % Package: simple URL typesetting
-\begin{center}                       % centered section
-
-  \url{http://mirrors.ctan.org/macros/latex/contrib/natbib/natnotes.pdf}  % clickable URL
-\end{center}
 
 
 \begin{figure}                       % declare a floating figure
   \centering
-  \fbox{\rule[-.5cm]{0cm}{4cm} \rule[-.5cm]{4cm}{0cm}} % in a box
+  \fbox{\rule[-.5cm]{0cm}{4cm} \rule[-.5cm]{4cm}{0cm}} %  just a box
   \caption{Sample figure caption.}
 \end{figure}
 
 
 % \usepackage{booktabs}              % professional-quality tables
-Used to typeset Table~\ref{sample-table}.
+Check Table~\ref{sample-table}.      % Link to referenced floating table
 
 \begin{table}
   \caption{Sample table title}       % Table caption
-  \label{sample-table}
+  \label{sample-table}               % Anchor   
   \centering
   \begin{tabular}{lll}
     \toprule
@@ -242,9 +353,56 @@ Used to typeset Table~\ref{sample-table}.
   \end{tabular}
 \end{table}
 
+% create a list
+% \begin{description}                % Glossary list
+% \begin{enumerate}                  % Indexed list
+\begin{itemize}                      % Bullet list
+  \item manage the project.
+  \item support users and programmers.
+    \begin{itemize}
+      \item answer the phone.
+      \item answer mail messages.
+      \item soothe those having a nervous breakdown.
+    \end{itemize}
+  \item maintain contact with other astronomical groups.
+\end{itemize}
+
+\begin{terminalv}                    % Simulate terminal display
+user> ls /var/temp
+user> rm -rf *
+\end{terminalv}
+
+
+\emph{EMPHASIZED TEXT}               % Emphasize nline text(by default italic)
+\textbf{BOLD TEXT}                   % bold inline text
+\textit{ITALIC TEXT}                 % italic inline text
+\textrm{ROM TEXT}                    % rom? inline text
+\textsc{CAPS TEXT}                   % rom? inline text
+\texttt{MONOSPACED TEXT}             % Monospaced inline type
+
+\tiny                                % reduce font size by ? point
+\scriptsize                          %
+\footnotesize                        %
+\small                               % reduce font size by 1 point
+\normalize                           % normal
+\large                               %
+\huge                                %
+
+\medskip                             % Inserts a medium-sized vertical space
+\vspace{10mm}
+
 \end{document}                       % _end_document
 ```
 
-## NeurIPS doc
+## Latex docs
+
+### NeurIPS doc
 
  {% pdf "{{site.assets}}/+/n/neurips_hs_2024.pdf" %}
+
+
+### Cookbook
+
+ {% pdf "https://starlink.eao.hawaii.edu/devdocs/sc9.pdf" %}
+
+

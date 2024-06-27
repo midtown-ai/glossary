@@ -12,7 +12,7 @@ categories: jekyll update
  {% pdf "https://people.engr.tamu.edu/guni/csce421/files/AI_Russell_Norvig.pdf" %}
 
  {% comment %}
- {% pdf "{{site.assets}}/_/a/artificial_intelligence_a_modern_approach_book.pdf" %}
+ {% pdf "{{site.assets}}/+/a/artificial_intelligence_a_modern_approach_book.pdf" %}
  {% endcomment %}
 
  More at:
