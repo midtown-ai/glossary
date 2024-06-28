@@ -672,6 +672,15 @@ print(query_result)
 
  CNTK is ...
 
+ See also [C], ...
+
+
+# Code Synthesis
+
+ Generation of code by machines
+
+ See also [C], ...
+
 
 # Codex Model
 

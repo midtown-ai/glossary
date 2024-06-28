@@ -1052,11 +1052,33 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
  See also [E], ...
 
 
-# Evolutionary Scale Modeling
-# ESM
+# Evolutionary Scale AI Company
+
+ A spin-off from Facebook focusing on life-science
+
+ Models:
+  * [Evolutionary Scale Models]
 
  More at:
   * [https://github.com/facebookresearch/esm](https://github.com/facebookresearch/esm)
+
+ See also [E], ...
+
+
+# Evolutionary Scale Model
+# ESM
+# ESM-1 Model
+# ESM-2 Model
+# ESM-3 Model
+
+ {% youtube "https://www.youtube.com/watch?v=BNmOI826-_4" %}
+
+ {% pdf "https://evolutionaryscale-public.s3.us-east-2.amazonaws.com/research/esm3.pdf" %}
+
+ More at:
+  * ESM3 
+    * site - [https://www.evolutionaryscale.ai/blog/esm3-release](https://www.evolutionaryscale.ai/blog/esm3-release)
+    * paper - [https://www.openread.academy/en/paper/reading?corpusId=504814170](https://www.openread.academy/en/paper/reading?corpusId=504814170)
 
  See also [E], ...
 

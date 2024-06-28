@@ -415,6 +415,17 @@ layout: page
  See also [D], ...
 
 
+# Data Wall
+
+ The fact that all humans generated data will soon be used in AI.
+
+ The 2 solutions to bypath/alleviate this problem:
+  * [Reinforcement learning (RL)][RL]
+  * [Synthetic Data] generation
+
+ See also [D], ...
+
+
 # Data Warehouse
 
  Used to centralize the data in an organization

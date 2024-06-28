@@ -37,6 +37,7 @@
 [Data Scientist]: {{ site.baseurl }}{% link glossary/d.md %}#data-scientist
 [Data Transformation]: {{ site.baseurl }}{% link glossary/d.md %}#data-transformation
 [Data Visualization]: {{ site.baseurl }}{% link glossary/d.md %}#data-visualization
+[Data Wall]: {{ site.baseurl }}{% link glossary/d.md %}#data-wall
 [Data Warehouse]: {{ site.baseurl }}{% link glossary/d.md %}#data-warehouse
 [Data Wrangling]: {{ site.baseurl }}{% link glossary/d.md %}#data-wrangling
 [Data-Centric AI]: {{ site.baseurl }}{% link glossary/d.md %}#data-centric-ai

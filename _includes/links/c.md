@@ -61,6 +61,7 @@
 [CM3leon Model]: {{ site.baseurl }}{% link glossary/c.md %}#cm3leaon-model
 [CM3leon]: {{ site.baseurl }}{% link glossary/c.md %}#cm3leaon-model
 [CNTK]: {{ site.baseurl }}{% link glossary/c.md %}#cntk
+[Code Synthesis]: {{ site.baseurl }}{% link glossary/c.md %}#code-synthesis
 [Codex Model]: {{ site.baseurl }}{% link glossary/c.md %}#codex-model
 [Codex]: {{ site.baseurl }}{% link glossary/c.md %}#codex-model
 [Cognitron]: {{ site.baseurl }}{% link glossary/c.md %}#cognitron

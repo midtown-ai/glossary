@@ -2301,6 +2301,8 @@ i'm {travelMode} to {toCity} to go {activity}
 
  Synthetic data is a tool that addresses many data challenges, particularly artificial intelligence and analytics issues such as privacy protection, regulatory compliance, accessibility, data scarcity, and bias, as well as data sharing and time to data (and therefore time to market).
 
+ Synthetic data has the potential of solving the [data wall] .
+
  {% pdf "{{site.assets}}/s/synthetic_data_mostly_ai.pdf" %}
 
  {% pdf "{{site.assets}}/s/synthetic_data_datagen.pdf" %}

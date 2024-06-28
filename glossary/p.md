@@ -1667,6 +1667,8 @@ print(user.model_dump())
 
  ![]( {{site.assets}}/p/pytorch_python_module.png ){: width="100%"}
 
+ {% youtube "https://www.youtube.com/watch?v=EjgTv6aSeqk" %}
+
  {% pdf "https://arxiv.org/pdf/1912.01703.pdf" %}
 
  More at:

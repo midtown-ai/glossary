@@ -93,8 +93,16 @@
 [ES]: {{site.baseurl }}{% link glossary/e.md %}#evoluation-strategy
 [Evolutionary Artificial Intelligence]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-artificial-intelligence
 [Evolutionary AI]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-artificial-intelligence
-[Evolutionary Scale Modeling]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-modeling
-[ESM]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-modeling
+[Evolutionary Scale AI Company]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-ai-company
+[Evolutionary Scale AI]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-ai-company
+[Evolutionary Scale Model]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-model
+[ESM]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-model
+[ESM-1 Model]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-model
+[ESM-1]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-model
+[ESM-2 Model]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-model
+[ESM-2]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-model
+[ESM-3 Model]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-model
+[ESM-3]: {{site.baseurl }}{% link glossary/e.md %}#evoluationary-scale-model
 [Ex Machina Movie]: {{site.baseurl }}{% link glossary/e.md %}#ex-machina-movie
 [Ex Machina]: {{site.baseurl }}{% link glossary/e.md %}#ex-machina-movie
 [Example]: {{site.baseurl }}{% link glossary/e.md %}#example

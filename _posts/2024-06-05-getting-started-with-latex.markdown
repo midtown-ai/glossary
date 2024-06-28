@@ -120,7 +120,7 @@ Donald Knuth's website \cite{knuthwebsite}. The \LaTeX\ related items are
 
 \medskip                      % Insert medium vertical space
 
-\bibliography{sample}         % Insert 'References' section using content from 'sample.bib' file
+\bibliography{sample}         % Insert the 'References' UNUMBERED section using content from 'sample.bib' file
                               % Require a reference style: \bibliographystyle
                               % Only add the references that are used in the text
 
@@ -291,11 +291,11 @@ In LaTeX, the main differences between a preprint and a final template format ty
 
 \maketitle                           % Generate Title using provided metadata: \title{} \author{} \date{}
 
-\section{Heading; 1st level}         % Header-1
+\section{Heading; 1st level}         % Header-1 (A section is numbered)
 
-\subsection{Heading: 2nd level}      % Header-2
+\subsection{Heading: 2nd level}      % Header-2 (A subsection is numbered)
 
-\subsubsection{Heading: 3rd level}   % Header-3
+\subsubsection{Heading: 3rd level}   % Header-3 (A subsubsection is numbered)
 
 Non-indented Normal text             % Normal text
 This is a simple example.
