@@ -31,16 +31,30 @@ categories: jekyll update
 
  Compute layer - top layer of the DeepRacer car that includes an onboard computer and its compute battery
 
- Compute Battery - Dell battery to power the compute module
+ Compute Powerbank - External battery to power the compute module (ZenPower Pro Asus Power Bank model)
+  * model - [https://www.asus.com/accessories/power-banks/asus-power-bank/zenpower-pro-pd/](https://www.asus.com/accessories/power-banks/asus-power-bank/zenpower-pro-pd/)
   * Cables / connectors
     * USB cable in USB connector
+    * USB-A - output port
+    * USB-C - input (charging) or output port, port used for charging the battery
   * Light indicators
-    * 4 blinking LEDs = 
-    * All LEDs are on = fully charged
+    * Big LED flashlight (left) - 
+    * Status 4-LEDs
+      * Can be on, blinking, rapid-blinking, or off
+      * 4-LED rapid- blinking - there is a problem
+      * 1-2-3-4-LED solid + 1 blink - show charging level
+      * 4-LED solid - fully charged
+      * 1-2-3-4-LED blinking - shows discharge level when powering an external device
+      * <!> when error is detected, replug the cable from the Power Bank
   * Button
     * turn on/off - to power the battery/power bank
+    * if on - can power an external device (like the compute module)
   * Other
     * Silicon wrap - to control excess cable you might need for cable between battery and compute car itself.
+
+ Compute Battery - see Compute Powerbank
+
+ Compute Module Battery - see Compute Powerbank
 
  Compute module - onboard LINUX computer
   * Cables
@@ -58,16 +72,18 @@ categories: jekyll update
   * Light indicators
     * status LED
       * power indicator (front)
-        * blank - no power
-        * red -
-        * flashing green - booting in progress
-        * solid green - stuck in booting?
         * blue - successful power on
-      * wifi indicator (middle)
-        * solid blue - car properly connected to wifi
-        * flashing blue - attempting to connect to wifi
-        * red - connection to wifi failed
-        * blinking blue --> red --> off -
+        * blank - no power
+        * flashing blue - updating software OR loading model files
+        * yellow - device booted to OS
+        * flashing yellow - loading bios and OS
+        * red - error in system when rebooting or starting application
+        * Check status of tail light
+      * WiFi indicator (middle)
+        * solid blue - connected to WiFi
+        * flashing blue - attempting to connect to WiFi
+        * red - connection to WiFi failed
+        * blinking blue --> red --> off - failure cycle?
       * ??
     * Tail light - to identify DeepRacer cars when many are around (light can be changed/customized in the web UI)
   * Button
@@ -76,12 +92,12 @@ categories: jekyll update
       * if on - long push turns it off
     * reset indicator (back)
 
- Compute battery bed - where the compute battery gets velcro'd into!
+ Compute powerbank bed - where the compute powerbank (battery) gets velcro'd into!
 
- Balance charger - Drive battery charger
+ Balance charger - The vehicle/drive battery charger
   * Cables / connectors
     * Has a transformer wall connector
-    * White connector used to connect to the Drive battery for charging
+    * White connector used to connect to the vehicle/drive battery for charging
   * Light indicators
     * Green - Full charge, ready to go
     * Red light + green light = not fully charged
@@ -93,20 +109,20 @@ categories: jekyll update
   * Connected to top layer using pins when car is properly assembled
   * Components
     * Drive motor (cable and with heat sink)
-    * Bed with port (red connector) where drive battery is plugged in
+    * Bed with port (red connector) where vehicle/drive battery is plugged in
     * steering, suspension, and wheels
 
- Drive Battery - A lithium battery  pack used to drive the vehicle around the track
+ Vehicle Battery - A lithium battery  pack used to drive the vehicle around the track
   * Cables / connectors
     * White 3-pin connector to charge with (by connecting to balance charger)
     * Red 2-pin connector to run the car with
 
- Vehicle battery - See Drive battery
+ Drive Battery - see vehicle battery
 
  Lockout state - to preserve the battery health, the battery goes into lockout state
   * when this happens, the battery won't power the drive train even if still charged
   * this happens if
-    * the drive battery is not turned off after usage
+    * the vehicle/drive battery is not turned off after usage
     * the battery power is low and it needs to be recharged
     * the car is not used for a while
   * to prevent this from happening
@@ -114,7 +130,7 @@ categories: jekyll update
     * fully charge battery
   * to Get out of locked state, use the 'unlock' cable
 
- Unlock cable - used to unlock drive battery when in a lockout state
+ Unlock cable - used to unlock vehicle/drive battery when in a lockout state
   * Cables / connectors
     * White 3-pin JST female connector
     * Red 2-pin JST connector
@@ -124,7 +140,7 @@ categories: jekyll update
  Ackerman steering - front wheels are not perfectly aligned by design 
   * Used to add velocity and grip in corners!
 
- Camera port
+ Camera port - 4 MP camera with MJPEG
   * 3 ports available,
   * by default, only one/single front-facing/front-lens camera
   * for stereoscopic vision, use 2 camera at a time
@@ -143,9 +159,9 @@ categories: jekyll update
 ### Assembly
 
  * car assembly - [https://aws.amazon.com/deepracer/getting-started/](https://aws.amazon.com/deepracer/getting-started/)
-   1. charge drive battery
-   2. install the drive battery by connect the RED connector to RED input
-   3. use velcro hook to secure the drive battery
+   1. charge the vehicle/drive battery
+   2. install the vehicle/drive battery by connect the RED connector to RED input
+   3. use velcro hook to secure the vehicle/drive battery
    4. power on the drive train using the switch on the drive train next to the  front left wheel
       * on position = bring button to left
       * off position = bring button to right
@@ -164,16 +180,66 @@ categories: jekyll update
 
  * calibrating AWS deepracer - [https://aws.amazon.com/deepracer/getting-started/](https://aws.amazon.com/deepracer/getting-started/)
 
-### Troubleshooting
+## Troubleshooting
+
+### Power Bank does not chage/work?
+
+ * Asus model - ZenPower pro
+   * [https://www.asus.com/accessories/power-banks/asus-power-bank/zenpower-pro-pd/](https://www.asus.com/accessories/power-banks/asus-power-bank/zenpower-pro-pd/)
+   * manaua - [https://www.asus.com/accessories/power-banks/asus-power-bank/zenpower-pro-pd/helpdesk_manual?model2Name=ZenPower-Pro-PD](https://www.asus.com/accessories/power-banks/asus-power-bank/zenpower-pro-pd/helpdesk_manual?model2Name=ZenPower-Pro-PD)
+
+### Setup Wi-Fi configuratoin?
+
+ * Ascertain the deepracer car boots properly
+ * Use micro-USB to USB-A cable
+ * stop wi-fi on the desktop side
+ * cehck deepracer.aws is not hardcoded in /etc/hosts local file
+ * connect to new DeepRacer wi-fi network
+ * go to https://deepracerr.aws 
+
+ More at:
+  * [https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-troubleshooting-connect-to-deepracer.aws.html](https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-troubleshooting-connect-to-deepracer.aws.html)
+
+### cannot connect to Wi-Fi?
+
+ * check your wi-fi password is correct
+ * check wi-fi does not require a captcha 
+
+### GUI access?
+
+ * connect the HDMI cable on the compute module
+
+### Console access?
 
  * console acces
    * connect desktop to car using USB-A to USB-micro cable
    * turn off wifi on desktop
    * https://hostname.local where hostname is AMSS-1234 (found on sticker under the car)
 
+ More at:
+  * [https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-troubleshooting-maintain-vehicle-connection.html](https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-troubleshooting-maintain-vehicle-connection.html)
+
+### Reset password to default passwords ?
+
+ ```
+ sudo python /opt/aws/deepracer/nginx/reset_default_password.py
+ ```
+
+### More
+
+ * [https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-troubleshooting.html](https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-troubleshooting.html)
+
 ## More
 
-### outdate doc
+### Getting started
+
+ {% pdf "https://d1.awsstatic.com/deepracer/getstarted.pdf" %}
+
+### Power Bank manual 
+
+ {% pdf "https://dlcdnets.asus.com/pub/ASUS/Phone_Accessory/PowerBank/Q14102_ABTU016_Power_Bank_UM_WW_final.pdf" %}
+
+### (outdated) getting started
 
  {% pdf "https://d1.awsstatic.com/deepracer/AWS-DeepRacer-Getting-Started-Guide.pdf" %}
 
