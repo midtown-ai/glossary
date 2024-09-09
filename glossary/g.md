@@ -88,7 +88,7 @@ layout: page
 
  At scale this could mean AI will be able to create games on the fly, personalized to each player
 
- {% pdf "https://arxiv.org/pdf/2408.14837" %}
+ {% pdf "https://arxiv.org/pdf/2408.14837.pdf" %}
 
  More at:
   * paper - [https://arxiv.org/abs/2408.14837](https://arxiv.org/abs/2408.14837)

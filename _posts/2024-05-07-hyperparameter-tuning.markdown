@@ -1,7 +1,7 @@
 ---
 layout: post
 # layout: single
-title:  "Optimal system configuration"
+title:  "Hyper parameter tuning"
 date:   2024-05-07 12:51:28 -0800
 categories: jekyll update
 ---
