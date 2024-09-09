@@ -58,3 +58,7 @@ TT(a|s) = Proba(a|s)
  * number of epoch = 3 (default)
  * 8 workers   <=== how ? DeepRacer for cloud
    * https://www.youtube.com/watch?v=lTg4yCaKEr4
+
+# Hyperparameter tuning
+
+ {% youtube "https://www.youtube.com/watch?v=7NUdvqRhRtM" %}

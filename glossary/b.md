@@ -576,7 +576,6 @@ Your belief has shifted towards more red marbles based on the observed data. The
   * [GLUE Benchmark] :
   * [Named Entity Recognition (NER)][NER] - identify places, people, dates, etc
   * Language Parser : Identitfy which group of words go together (as phrase) and which words are the subject or object of a verb.
-  * [Massive Multitask Language Understanding (MMLU)][MMLU] - Broad set of questions
   * [Multi-Turn Question Set (MT-Bench)][MT-Bench] - Rate conversational AI using human preference modeled by a [LLM-as-a-judge]
   * SNLI : relation between 2 statements (contradict, neutral, or entailment)
   * [SQuAD Benchmark] : Question and answering
@@ -584,6 +583,10 @@ Your belief has shifted towards more red marbles based on the observed data. The
   * SRL : Semantic understanding (machine translation, information extraction, text summarization, question answering)
   * SST-5 : Sentiment analysis - https://paperswithcode.com/sota/sentiment-analysis-on-sst-5-fine-grained
   * [TruthfulQA] - avoid generating false answers learned from imitating human texts (conspiracies, rumors, etc)
+
+ Knowledge:
+  * [Massive Multitask Language Understanding (MMLU)][MMLU] - Broad set of questions testing undergraduate-level knowledge
+  * [Google-Proof Questions And Answers (GPQA)][GPQA] - PhD level questions
 
  Graph Neural Network (GNN) Benchmarks:
   * [Relational Deep Learning Benchmark (RelBench)][RelBench] - GNN on relational databases

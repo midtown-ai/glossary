@@ -172,6 +172,23 @@ layout: page
  See also [W], [GPT Model]
 
 
+# WebSim Desktop
+
+ A way to create a desktop application in [WebSim]
+
+ See also [W], ...
+
+
+# WebSim Tool
+
+ {% youtube "https://youtu.be/a4nXGnumD1U?si=xdyDe1Q0U7x8Nt60" %}
+
+ More at:
+  * site [https://websim.ai/](https://websim.ai/)
+
+ See also [W], ...
+
+
 # Weight
 
  The stronger the relative weight (compared to the weights of other inputs), the stronger the relationship/bond/connection (the more important the feature is)
@@ -328,6 +345,8 @@ curl https://api.openai.com/v1/audio/transcriptions \
 
 
 # WizardLM Model
+
+ ~ cost per token is extremely low
 
  {% youtube "https://www.youtube.com/watch?v=WdpiIXrO4_o" %}
  {% youtube "https://www.youtube.com/watch?v=P0CDVRqS8iA" %}

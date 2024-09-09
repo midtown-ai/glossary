@@ -71,6 +71,8 @@
 [TF]: {{ site.baseurl }}{% link glossary/t.md %}#transform-function
 [Transformer Architecture]: {{ site.baseurl }}{% link glossary/t.md %}#transformer-architecture
 [Transformer]: {{ site.baseurl }}{% link glossary/t.md %}#transformer-architecture
+[Transfusion Architecture]: {{ site.baseurl }}{% link glossary/t.md %}#transfusion-architecture
+[Transfusion]: {{ site.baseurl }}{% link glossary/t.md %}#transfusion-architecture
 [Translation]: {{ site.baseurl }}{% link glossary/t.md %}#translation
 [Transpose MAtrix]: {{ site.baseurl }}{% link glossary/t.md %}#transpose-matrix
 [Transpose]: {{ site.baseurl }}{% link glossary/t.md %}#transpose-matrix

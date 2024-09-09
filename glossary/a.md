@@ -614,7 +614,9 @@ k is the number of predictors (not counting the intercept)
  See also [A], ...
 
 
-# Agentic
+# Agentic Workflow
+
+ ~ Smart workflow with AI
 
  Function calls that work
 
@@ -1460,6 +1462,8 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
 
 # AlphaGeometry Model
+# AlphaGeometry 2
+# AlphaGeometry 1
 
  Model by [DeepMind]
 
@@ -1505,13 +1509,16 @@ XY is the line passing tough X and Y unless stated to be a segment (with stateme
  {% youtube "https://www.youtube.com/watch?v=WKF0QgxmGKs" %}
 
  More at:
-  * announcement - [https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/](https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/)
-  * code - [https://github.com/google-deepmind/alphageometry](https://github.com/google-deepmind/alphageometry)
-  * presentation - [https://github.com/jekyllstein/Alpha-Geometry-Presentation/blob/main/presentation_notebook.jl](https://github.com/jekyllstein/Alpha-Geometry-Presentation/blob/main/presentation_notebook.jl)
-  * articles
-    * nature - [https://www.nature.com/articles/s41586-023-06747-5](https://www.nature.com/articles/s41586-023-06747-5)
-    * with supplementary materials - [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10794143/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10794143/)
-    * [https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-023-06747-5/MediaObjects/41586_2023_6747_MOESM1_ESM.pdf](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-023-06747-5/MediaObjects/41586_2023_6747_MOESM1_ESM.pdf)
+  * AlphaGeometry 2
+    * annoucement - [https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/](https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/)
+  * AlphaGeometry 1
+    * announcement - [https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/](https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/)
+    * code - [https://github.com/google-deepmind/alphageometry](https://github.com/google-deepmind/alphageometry)
+    * presentation - [https://github.com/jekyllstein/Alpha-Geometry-Presentation/blob/main/presentation_notebook.jl](https://github.com/jekyllstein/Alpha-Geometry-Presentation/blob/main/presentation_notebook.jl)
+    * articles
+      * nature - [https://www.nature.com/articles/s41586-023-06747-5](https://www.nature.com/articles/s41586-023-06747-5)
+      * with supplementary materials - [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10794143/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10794143/)
+      * [https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-023-06747-5/MediaObjects/41586_2023_6747_MOESM1_ESM.pdf](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-023-06747-5/MediaObjects/41586_2023_6747_MOESM1_ESM.pdf)
 
  See also [A], ...
 
@@ -1526,6 +1533,19 @@ XY is the line passing tough X and Y unless stated to be a segment (with stateme
   * ...
 
  See also [A], [AlphaFold Model], [AlphaZero Model], [Reinforcement Learning]
+
+
+# AlphaProof
+
+ Built by [DeepMind] and announced on 07/25/2024 to solve International Mathematical Olympiad problems
+ * a new reinforcement-learning based system for formal math reasoning
+
+ Realized at the same time as [AlphaGeometry 2]
+
+ More at:
+  * [https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/](https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/)
+
+ See also [A], [AlphaGeometry]
 
 
 # AlphaStar Model

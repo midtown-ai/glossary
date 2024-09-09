@@ -813,7 +813,6 @@ print(query_result)
   * [Gong](https://www.gong.io/) - Sales software
   * [Got It AI](https://www.app.got-it.ai/) - ELMAR LLM for the enterprise with truth checker!
   * [Gretel AI](https://gretel.ai/) - 
-  * [Groq] - Superfast LLM inference because baked by custom hardware?
   * [Harvey](ihttps://techcrunch.com/2022/11/23/harvey-which-uses-ai-to-answer-legal-questions-lands-cash-from-openai/) - Digital assistant for lawyers
   * [Hugging Face] - Open-source AI library, a model hub, with datasets, and space/UI with [Gradio][Gradio Module]
   * [Inflection AI] - A chatbot that listens and talks
@@ -909,6 +908,11 @@ print(query_result)
  Industry research:
   * [Evident Insights] - currently focused on the banking industry
 
+ Inference Accelerator
+  * [Cerebras](https://cerebras.ai/) - 20x faster than NVIDIA GPU or 450 TK/S
+  * [Groq] - Superfast LLM inference because baked by custom hardware? or 250 TK/S
+  * [Together AI](https://www.together.ai/) -
+
  Infrastructure
   * [Anyscale] - Buildup on the [Ray Framework]
   * [Lambda Labs](https://lambdalabs.com/) - access to GPU for deeplearning
@@ -918,6 +922,7 @@ print(query_result)
   * [Aiva AI](https://www.aiva.ai/) -
   * [Boomy](https://boomy.com/) -
   * [Harmonai](https://www.harmonai.org/) -
+  * [LoudMe AI](https://loudme.ai/ai-music-generator) -
   * [MelodyStudio](https://melodystudio.net) -
   * [Mubert](https://mubert.com/) -
   * [Suno AI] - generate music for your lyrics!

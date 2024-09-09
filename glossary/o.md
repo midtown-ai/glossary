@@ -523,6 +523,24 @@ cheese =>                                   # Prompt
  See also [O], ...
 
 
+# OpenRouter AI Tool
+
+ ~ interface to be able to switch from one model to the other with minimum code change
+
+ The future will bring us hundreds of language models and dozens of providers for each. How will you choose the best?
+
+Prioritize price or performance. OpenRouter scouts for the lowest prices and best latencies/throughputs across dozens of providers, and lets you choose how to prioritize them.
+
+Standardized API. No need to change your code when switching between models or providers. You can even let users your choose and pay for their own.
+
+The best models will be used the most. Evals are flawed. Instead, compare models by how often they're used for different purposes. Chat with multiple at once in the Chatroom.
+
+ More at:
+  * site - [https://openrouter.ai/](https://openrouter.ai/)
+
+ See also [O], ...
+
+
 # OpenVINO Toolkit
  
  More at:

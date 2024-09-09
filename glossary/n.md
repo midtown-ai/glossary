@@ -155,12 +155,17 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 # National Artificial Intelligence Research Resource
 # NAIRR
 
+ ~ output of the CREATE AI Act of 2023 bill
+
  The NAIRR Pilot aims to connect U.S. researchers and educators to computational, data, and training resources needed to advance AI research and research that employs AI. Federal agencies are collaborating with government-supported and non-governmental partners to implement the Pilot as a preparatory step toward an eventual full NAIRR implementation.
+
+ {% pdf "https://www.heinrich.senate.gov/imo/media/doc/create_ai_act_fact_sheet1.pdf" %}
 
  More at:
   * site - [https://nairrpilot.org/]
+  * S.2714 bill - [https://www.congress.gov/bill/118th-congress/senate-bill/2714/text](https://www.congress.gov/bill/118th-congress/senate-bill/2714/text)
 
- See also [N], ...
+ See also [N], [NSF AI Education Act]
 
 
 # National Institute of Standards and Technology
@@ -183,6 +188,16 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
    * D Research Learning - [https://www.nsf.gov/div/index.jsp?div=DRL](https://www.nsf.gov/div/index.jsp?div=DRL)
 
  See also [N], [AI4K12]
+
+
+# National Science Foundation AI Education Act
+# NSF AI Education Act
+
+ More at:
+  * articles
+    * [https://seattlemedium.com/cantwell-introduces-bipartisan-ai-legislation-the-ai-education-act-of-2024/](https://seattlemedium.com/cantwell-introduces-bipartisan-ai-legislation-the-ai-education-act-of-2024/)
+
+ See also [N], [National Artificial Intelligence Research Resource]
 
 
 # Natural Intelligence

@@ -305,6 +305,8 @@ model.summary()
 
  In imitation learning (IL), an agent is given access to samples of expert behavior (e.g. videos of humans playing online games or cars driving on the road) and it tries to learn a policy that mimics this behavior. This objective is in contrast to reinforcement learning (RL), where the goal is to learn a policy that maximizes a specified reward function. A major advantage of imitation learning is that it does not require careful hand-design of a reward function because it relies solely on expert behavior data, making it easier to scale to real-world tasks where one is able to gather expert behavior (like video games or driving). This approach of enabling the development of AI systems by data-driven learning, rather than specification through code or heuristic rewards, is consistent with the key principles behind Software 2.0.
 
+ {% youtube "https://www.youtube.com/watch?v=gzpe60OtC_E" %}
+
  More at:
   * [https://ai.stanford.edu/blog/learning-to-imitate/](https://ai.stanford.edu/blog/learning-to-imitate/)
   * [https://www.technologyreview.com/2022/11/25/1063707/ai-minecraft-video-unlock-next-big-thing-openai-imitation-learning/](https://www.technologyreview.com/2022/11/25/1063707/ai-minecraft-video-unlock-next-big-thing-openai-imitation-learning/) (blocked?)
@@ -378,6 +380,8 @@ model.summary()
 
 
 # Inductive Reasoning
+
+ ~ figuring out patterns
 
  Coming up with `rules to explain the current observation`. Sometimes the truth can be learned ;-)
 

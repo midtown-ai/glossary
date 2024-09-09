@@ -1107,9 +1107,10 @@ print(f"best score: {gs.best_score_:.3f}, best params: {gs.best_params_}")
 # Small Language Model
 # SLM
 
- A version of the language model
+ A version of the language model that can be deployed on devices (such as cellphones or computer desktops).
+ They often have less than a 10 billion parameters.
 
- See also [S], ...
+ See also [S], [Large Language Model]
 
 
 # Snorkel Program
@@ -1853,6 +1854,13 @@ II n summary, probability is focused on the theoretical study of random events, 
 
  See also [S], [Big Data]
 
+
+# Steerability
+
+ A property of large language models, where you can use a system prompt to tell them to behave a certain way.
+ This started being possible with the [GPT-4] model, where you could specify it needs to behave like a Socratic tutor, ask questions, and never give the answer, and it would do it! Using earlier model, such as [GPT-3] and derivative, regardless of the direction you were putting in the prompt, the [LLM] would not follow the direction.
+
+ See also [S], ...
 
 # Step Activation Function
 

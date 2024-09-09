@@ -103,6 +103,8 @@
 [DeepMind]: {{ site.baseurl }}{% link glossary/d.md %}#deepmind-company
 [DeepNash Model]: {{ site.baseurl }}{% link glossary/d.md %}#deepnash-model
 [DeepNash]: {{ site.baseurl }}{% link glossary/d.md %}#deepnash-model
+[DeepSeek Model]: {{ site.baseurl }}{% link glossary/d.md %}#deepseek-model
+[DeepSeek]: {{ site.baseurl }}{% link glossary/d.md %}#deepseek-model
 [DeepSpeed Project]: {{ site.baseurl }}{% link glossary/d.md %}#deepspeed-project
 [DeepWalk]: {{ site.baseurl }}{% link glossary/d.md %}#deepwalk
 [Delayed Reward]: {{ site.baseurl }}{% link glossary/d.md %}#delayed-reward
@@ -129,6 +131,8 @@
 [Diffusion Process]: {{ site.baseurl }}{% link glossary/d.md %}#diffusion-process
 [Digital Immortality]: {{ site.baseurl }}{% link glossary/d.md %}#digital-immortality
 [Digital Human]: {{ site.baseurl }}{% link glossary/d.md %}#digital-human
+[Digital Object Identifier]: {{ site.baseurl }}{% link glossary/d.md %}#digital-object-identifier
+[DOI]: {{ site.baseurl }}{% link glossary/d.md %}#digital-object-identifier
 [Digital Watermark]: {{ site.baseurl }}{% link glossary/d.md %}#digital-watermark
 [Dimensionality Reduction]: {{ site.baseurl }}{% link glossary/d.md %}#dimensionality-reduction
 [Direct Preference Optimization]: {{ site.baseurl }}{% link glossary/d.md %}#direct-preference-optimization

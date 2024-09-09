@@ -70,7 +70,7 @@
 [Agency]: {{ site.baseurl }}{% link glossary/a.md %}#agency
 [Agent]: {{ site.baseurl }}{% link glossary/a.md %}#agent
 [Agent-Based Modeling]: {{ site.baseurl }}{% link glossary/a.md %}#agent-based-modeling
-[Agentic]: {{ site.baseurl }}{% link glossary/a.md %}#agentic
+[Agentic Workflow]: {{ site.baseurl }}{% link glossary/a.md %}#agentic-workflow
 [AI Agent]: {{ site.baseurl }}{% link glossary/a.md %}#ai-agent
 [AI Agents]: {{ site.baseurl }}{% link glossary/a.md %}#ai-agent
 [AI Alignment]: {{ site.baseurl }}{% link glossary/a.md %}#ai-alignment
@@ -129,12 +129,16 @@
 [AlphaCode Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphacode-model
 [AlphaCode]: {{ site.baseurl }}{% link glossary/a.md %}#alphacode-model
 [AlphaFault]: {{ site.baseurl }}{% link glossary/a.md %}#alphafault
-[AlphaGeometry Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphageometry-model
-[AlphaGeometry]: {{ site.baseurl }}{% link glossary/a.md %}#alphageometry-model
-[AlphaGO Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphago-model
-[AlphaGO]: {{ site.baseurl }}{% link glossary/a.md %}#alphago-model
 [AlphaFold Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphafold-model
 [AlphaFold]: {{ site.baseurl }}{% link glossary/a.md %}#alphafold-model
+[AlphaGeometry Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphageometry-model
+[AlphaGeometry]: {{ site.baseurl }}{% link glossary/a.md %}#alphageometry-model
+[AlphaGeometry 1]: {{ site.baseurl }}{% link glossary/a.md %}#alphageometry-model
+[AlphaGeometry 2]: {{ site.baseurl }}{% link glossary/a.md %}#alphageometry-model
+[AlphaGO Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphago-model
+[AlphaGO]: {{ site.baseurl }}{% link glossary/a.md %}#alphago-model
+[AlphaProof Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphaproof-model
+[AlphaProof]: {{ site.baseurl }}{% link glossary/a.md %}#alphaproof-model
 [AlphaStar Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphastar-model
 [AlphaStar]: {{ site.baseurl }}{% link glossary/a.md %}#alphastar-model
 [AlphaTensor Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphatensor-model

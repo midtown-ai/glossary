@@ -229,8 +229,8 @@ R-square = R^2 = -------------------------------------
 # Reasoning
 
  There are 5 types of reasoning:
-  * [Inductive reasoning] - a conclusion is drawn based on observations or evidence.
-  * [Deductive reasoning] - a conclusion is drawn based on the truth of the premises.
+  * [Inductive reasoning] - a conclusion is drawn based on observations or evidence. ( = figuring out patterns)
+  * [Deductive reasoning] - a conclusion is drawn based on the truth of the premises. ( = applying rules)
   * [Abductive reasoning] - a conclusion is drawn based on the best explanation for a given set of observations.
   * [Formal reasoning] - a systematic and logical process that follows a set of rules and principles.
   * [Informal reasoning] - a less structured approach to reasoning that relies on intuition, experience, and common sense.
@@ -1334,6 +1334,8 @@ def reward_function(params):
 
     return reward
  ```
+
+ {% youtube "https://www.youtube.com/watch?v=u647osOlrHQ" %}
 
  More at:
   * deepracer reward functions - [https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-reward-function-examples.html](https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-reward-function-examples.html)

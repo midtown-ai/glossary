@@ -159,7 +159,46 @@ Donald Knuth's website \cite{knuthwebsite}. The \LaTeX\ related items are
 
  ![]( {{site.assets}}/+/n/natbib_tex_output.png ){: width="100%"}
 
-### How to use a figure/drawing
+
+### How to cite a paper on arXiv?
+
+ ```
+@misc{wang2024mmlupro,
+      title={MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark}, 
+      author={Yubo Wang and Xueguang Ma and Ge Zhang and Yuansheng Ni and Abhranil Chandra and Shiguang Guo and Weiming Ren and Aaran Arulraj and Xuan He and Ziyan Jiang and Tianle Li and Max Ku and Kai Wang and Alex Zhuang and Rongqi Fan and Xiang Yue and Wenhu Chen},
+      year={2024},
+      eprint={2406.01574},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+ ```
+ and more
+ ```
+@online{knuthwebsite,
+    author = "Donald Knuth",
+    title = "Knuth: Computers and Typesetting",
+    url  = "http://www-cs-faculty.stanford.edu/~uno/abcde.html",
+    addendum = "(accessed: 01.09.2016)",
+    keywords = "latex,knuth"
+}
+
+@inbook{knuth-fa,
+    author = "Donald E. Knuth",
+    title = "Fundamental Algorithms",
+    publisher = "Addison-Wesley",
+    year = "1973",
+    chapter = "1.2",
+    keywords  = "knuth,programming"
+}
+ ```
+
+ More at:
+  * arXiv example - [https://github.com/TIGER-AI-Lab/MMLU-Pro/](https://github.com/TIGER-AI-Lab/MMLU-Pro/)
+  * examples from tutorial - [https://www.overleaf.com/learn/latex/Bibliography_management_in_LaTeX](https://www.overleaf.com/learn/latex/Bibliography_management_in_LaTeX)
+  * 14 entry types - [https://www.bibtex.com/e/entry-types/](https://www.bibtex.com/e/entry-types/)
+  * docs + all types - [https://linorg.usp.br/CTAN/macros/latex/contrib/biblatex/doc/biblatex.pdf](https://linorg.usp.br/CTAN/macros/latex/contrib/biblatex/doc/biblatex.pdf)
+
+### How to use a figure/drawing?
 
  ```
 

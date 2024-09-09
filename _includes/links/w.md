@@ -20,6 +20,8 @@
 [Web Scraping]: {{ site.baseurl }}{% link glossary/w.md %}#web-scraping
 [WebGPT Model]: {{ site.baseurl }}{% link glossary/w.md %}#webgpt-model
 [WebGPT]: {{ site.baseurl }}{% link glossary/w.md %}#webgpt-model
+[WebSim Desktop]: {{ site.baseurl }}{% link glossary/w.md %}#websim-desktop
+[WebSim Tool]: {{ site.baseurl }}{% link glossary/w.md %}#websim-tool
 [Weight]: {{ site.baseurl }}{% link glossary/w.md %}#weight
 [Weights]: {{ site.baseurl }}{% link glossary/w.md %}#weight
 [Weight Regularization]: {{ site.baseurl }}{% link glossary/w.md %}#weight-regularization

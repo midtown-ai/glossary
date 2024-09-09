@@ -778,6 +778,19 @@ Desired Output --> |     Training     | --> Model
  See also [T], [Action Transformer], [Attention Score], [Attention-Based Model], [Autoregressive Model], [Generative Model], [Masked Self-Attention], [Multi-Head Attention], [Self-Attention]
 
 
+# Transfusion Architecture
+
+ Architecture based on transformer and diffusion
+
+ {% pdf "https://www.arxiv.org/pdf/2408.11039.pdf" %}
+
+ More at:
+  * paper - [https://www.arxiv.org/abs/2408.11039](https://www.arxiv.org/abs/2408.11039)
+  * announcement - [https://x.com/BensenHsu/status/1828837369778450447](https://x.com/BensenHsu/status/1828837369778450447)
+
+ See also [T], ...
+
+
 # Translation
 
  See also [T], [Emergent Ability]

@@ -415,6 +415,8 @@ def huber_loss(y_pred, y, delta=1.0):
 
  More:
   * site - [https://humane.com/](https://humane.com/)
+  * articles
+    * sales vs daily returns - [https://www.theverge.com/2024/8/7/24211339/humane-ai-pin-more-daily-returns-than-sales](https://www.theverge.com/2024/8/7/24211339/humane-ai-pin-more-daily-returns-than-sales)
 
  See also [H], ...
 

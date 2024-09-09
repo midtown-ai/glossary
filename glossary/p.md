@@ -967,9 +967,15 @@ Prediction Error = actual_value - predicted_value
 # Predictive Artificial Intelligence
 # Predictive AI
  
- Tools to analyze historical data and experiences to predict future events or behaviors (e..g Netflix, crdit-scoring systems)
+ Tools to analyze historical data and experiences to predict future events or behaviors (e.g. Netflix recommendation, credit-scoring systems)
 
- See also [P], [Artificial Intelligence]
+ ![]( {{site.assets}}/p/predictive_artificial_intelligence.png ){: width="100%"}
+
+ More at:
+  * articles
+    * michelangelo - [https://www.uber.com/en-JP/blog/from-predictive-to-generative-ai/](https://www.uber.com/en-JP/blog/from-predictive-to-generative-ai/)
+
+ See also [P], [Artificial Intelligence], [Generative Artificial Intelligence]
 
 
 # Predictive Maintenance

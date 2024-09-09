@@ -64,6 +64,38 @@ layout: page
  See also [G], ...
 
 
+# GameNGen Model
+
+ 9/1/2024 - [Google] develops GameNGen: World first AI model that predicts next frame of a live shooter game, playable at 20 fps
+
+ Google's GameNGen: AI-Powered Real-Time Game Engine works by predicting each frame in real time with a diffusion model
+
+ Key Points
+  * GameNGen is a neural network-based game engine that uses diffusion models to simulate complex games in real-time.
+  * It can run the classic first-person shooter game like DOOM at over 20 frames per second on a single TPU.
+  * The system employed a two-phase training process. An RL agent first plays the game, generating training data from its actions and observations.
+  * This data then trains a diffusion model to predict subsequent frames based on past frames and actions.
+  * The model achieves a Peak Signal-to-Noise Ratio (PSNR) of 29.4 for next frame prediction, comparable to lossy JPEG compression.
+
+ GameNGen's Architecture 
+  * It is based on a modified version of Stable Diffusion
+  * Key changes include: Removal of text conditioning, Addition of action embedding for input, Concatenation of encoded past frames in latent space and Implementation of noise augmentation for stability.
+  * The noise augmentation technique is crucial for maintaining quality over long gameplay sessions. During training, varying amounts of Gaussian noise are added to encoded frames, with the noise level provided as input to the model. This allows the network to correct information from previous frames and prevents quality degradation in auto-regressive generation.
+  * The model uses 4 DDIM sampling steps during inference, which surprisingly yields no degradation in simulation quality compared to 20 or more steps.
+  * To improve image quality, particularly for small details and the HUD, the researchers fine-tuned the latent decoder of the auto-encoder using an MSE loss against target frame pixels.
+
+ Despite operating with only about 3 seconds of game history, GameNGen maintains accurate game state, including health, ammo, and enemy positions. 
+
+ At scale this could mean AI will be able to create games on the fly, personalized to each player
+
+ {% pdf "https://arxiv.org/pdf/2408.14837" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2408.14837](https://arxiv.org/abs/2408.14837)
+
+ See also [G], ...
+
+
 # Gamma Distribution
 
  Continuous distribution based on a Poisson process (independent events)
@@ -167,6 +199,17 @@ output = m(input)
   * Articles
     * [https://aibusiness.com/companies/google-doubles-down-on-ai-launches-new-language-model-and-ai-tools](https://aibusiness.com/companies/google-doubles-down-on-ai-launches-new-language-model-and-ai-tools)
     * [https://www.wired.com/story/google-deepmind-demis-hassabis-chatgpt/](https://www.wired.com/story/google-deepmind-demis-hassabis-chatgpt/)
+
+ See also [G], ...
+
+
+# Gemma Model
+
+ A [Small Language Model (SLM)][SLM] developed by [Google] to be used in desktop/phone applications.
+
+ More at:
+  * docs - [https://github.com/google/generative-ai-docs/blob/main/site/en/gemma/docs/lora_tuning.ipynb](https://github.com/google/generative-ai-docs/blob/main/site/en/gemma/docs/lora_tuning.ipynb)
+  * kaggle - [https://www.kaggle.com/code/nilaychauhan/fine-tune-gemma-models-in-keras-using-lora](https://www.kaggle.com/code/nilaychauhan/fine-tune-gemma-models-in-keras-using-lora)
 
  See also [G], ...
 
@@ -614,6 +657,7 @@ print("ga_output: ", ga_output)
   * [Bard] - A lightweight version of Lambda meant to compete against Bing + [ChatGPT Model]
   * [DreamIX][DreamIX Model] - text-to-video and image-to-video diffusion model
   * [Gameface](https://blog.google/technology/ai/google-project-gameface/) - use your face in place of a mouse!
+  * [GameNGen] - 9/1/2024 - World first AI model that predicts next frame of a live shooter game, playable at 20 fps
   * [Gemini] - multimodal to enable future innovations like memory and planning
   * [Gnome] -  Graph Network for materials exploration
   * [Google Lens][Google Lens] - search what you see, uses cellphone cameras and [computer vision]
@@ -668,6 +712,20 @@ print("ga_output: ", ga_output)
  Developed by [Google], ...
 
  See also [G], ...
+
+
+# Google-Proof Questions And Answers Benchmark
+# GPQA Benchmark
+
+ We present GPQA, a challenging dataset of 448 multiple-choice questions written by domain experts in biology, physics, and chemistry. We ensure that the questions are high-quality and extremely difficult: experts who have or are pursuing PhDs in the corresponding domains reach 65% accuracy (74% when discounting clear mistakes the experts identified in retrospect), while highly skilled non-expert validators only reach 34% accuracy, despite spending on average over 30 minutes with unrestricted access to the web (i.e., the questions are "Google-proof"). The questions are also difficult for state-of-the-art AI systems, with our strongest GPT-4 based baseline achieving 39% accuracy. If we are to use future AI systems to help us answer very hard questions, for example, when developing new scientific knowledge, we need to develop scalable oversight methods that enable humans to supervise their outputs, which may be difficult even if the supervisors are themselves skilled and knowledgeable. The difficulty of GPQA both for skilled non-experts and frontier AI systems should enable realistic scalable oversight experiments, which we hope can help devise ways for human experts to reliably get truthful information from AI systems that surpass human capabilities.
+
+ {% pdf "https://arxiv.org/pdf/2311.12022.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2311.12022](https://arxiv.org/abs/2311.12022)
+  * github - [https://github.com/idavidrein/gpqa](https://github.com/idavidrein/gpqa)
+
+ See also [G], [Benchmark]
 
 
 # Google Translate Model
@@ -1011,7 +1069,6 @@ print("ga_output: ", ga_output)
 
 # Graph Network For Materials Exploration Model
 # GNoME Model
-
 
  ![]( {{site.assets}}/g/graph_network_for_materials_exploration_model.webp ){: width="100%"}
 

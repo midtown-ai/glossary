@@ -665,6 +665,8 @@ layout: page
 
 # Deductive Reasoning
 
+ ~ applying rules
+
  Sherlock Holmes!
 
  See also [D], [Inductive Reasoning]
@@ -929,6 +931,14 @@ layout: page
  More at:
   * Paper in science - [https://www.science.org/stoken/author-tokens/ST-887/full](https://www.science.org/stoken/author-tokens/ST-887/full)
   * announcment - [https://www.deepmind.com/blog/mastering-stratego-the-classic-game-of-imperfect-information](https://www.deepmind.com/blog/mastering-stratego-the-classic-game-of-imperfect-information)
+
+ See also [D], ...
+
+
+# DeepSeek Model
+
+ More at:
+  * site - [https://www.deepseek.com/](https://www.deepseek.com/)
 
  See also [D], ...
 
@@ -1229,6 +1239,28 @@ speed.
  More at:
   * [https://www.soulmachines.com/](https://www.soulmachines.com/)
   * [https://www.digitalhumans.com/](https://www.digitalhumans.com/)
+
+ See also [D], ...
+
+
+# Digital Object Identifier
+# DOI
+
+ A DOI (Digital Object Identifier) is a unique and never-changing string assigned to online (journal) articles, books, and other works. DOIs make it easier to retrieve works, which is why citation styles, like APA and MLA Style, recommend including them in citations.
+
+ DOIs are important in academic citation because they are more permanent than URLs, ensuring that your reader can reliably locate the source. Journal articles and ebooks can often be found on multiple different websites and databases. The URL of the page where an article is hosted can be changed or removed over time, but a DOI is linked to the specific document and never changes.
+
+ You may find DOIs formatted in various ways:
+
+ ```
+doi:10.1080/02626667.2018.1560449
+https://doi.org/10.1111/hex.12487
+https://dx.doi.org/10.1080/02626667.2018.1560449
+https://doi.org/10.1016/j.jpsychires.2017.11.014
+ ```
+
+ More at:
+  * [https://www.scribbr.com/citing-sources/what-is-a-doi/](https://www.scribbr.com/citing-sources/what-is-a-doi/)
 
  See also [D], ...
 

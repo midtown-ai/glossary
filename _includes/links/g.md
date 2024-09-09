@@ -4,6 +4,8 @@
 [Galactica LLM]: {{ site.baseurl }}{% link glossary/g.md %}#galactica-large-language-model
 [Game Theory]: {{ site.baseurl }}{% link glossary/g.md %}#game-theory
 [Game Tree]: {{ site.baseurl }}{% link glossary/g.md %}#game-tree
+[GameNGen Model]: {{ site.baseurl }}{% link glossary/g.md %}#gamengen-model
+[GameNGen]: {{ site.baseurl }}{% link glossary/g.md %}#gamengen-model
 [Gamma Distribution]: {{ site.baseurl }}{% link glossary/g.md %}#gamma-distribution
 [Gated Recurrent Unit Cell]: {{ site.baseurl }}{% link glossary/g.md %}#gated-recurrent-unit-cell
 [GRU Cell]: {{ site.baseurl }}{% link glossary/g.md %}#gated-recurrent-unit-cell
@@ -15,6 +17,10 @@
 [GELU]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-error-linear-unit-activation-function
 [Gaussian Naive Bayes Classifier]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-naive-bayes-classifier
 [Gaussian Process]: {{ site.baseurl }}{% link glossary/g.md %}#gaussian-process
+[Gemini Model]: {{ site.baseurl }}{% link glossary/g.md %}#gemini-model
+[Gemini]: {{ site.baseurl }}{% link glossary/g.md %}#gemini-model
+[Gemma Model]: {{ site.baseurl }}{% link glossary/g.md %}#gemma-model
+[Gemma]: {{ site.baseurl }}{% link glossary/g.md %}#gemma-model
 [Gen Model]: {{ site.baseurl }}{% link glossary/g.md %}#gen-model
 [General Artificial Intelligence Assistant Benchmark]: {{ site.baseurl }}{% link glossary/g.md %}#general-artificial-intelligence-assistant-benchmark
 [GAIA Benchmark]: {{ site.baseurl }}{% link glossary/g.md %}#general-artificial-intelligence-assistant-benchmark
@@ -76,6 +82,8 @@
 [Google Company]: {{ site.baseurl }}{% link glossary/g.md %}#google-company
 [Google]: {{ site.baseurl }}{% link glossary/g.md %}#google-company
 [Google Lens]: {{ site.baseurl }}{% link glossary/g.md %}#google-lens
+[Google-Proof Questions And Answers Benchmark]: {{ site.baseurl }}{% link glossary/g.md %}#google-proof-questions-and-answers-benchmark
+[GPQA Benchmark]: {{ site.baseurl }}{% link glossary/g.md %}#google-proof-questions-and-answers-benchmark
 [Google Translate Model]: {{ site.baseurl }}{% link glossary/g.md %}#google-translate-model
 [Gopher Model]: {{ site.baseurl }}{% link glossary/g.md %}#gopher-model
 [Gopher]: {{ site.baseurl }}{% link glossary/g.md %}#gopher-model

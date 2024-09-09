@@ -34,3 +34,5 @@
 [QAGNN]: {{ site.baseurl}}{% link glossary/q.md %}#qagnn
 [Quora Company]: {{ site.baseurl}}{% link glossary/q.md %}#quora-company
 [Quora]: {{ site.baseurl}}{% link glossary/q.md %}#quora-company
+[Qwen Model]: {{ site.baseurl}}{% link glossary/q.md %}#qwen-model
+[Qwen]: {{ site.baseurl}}{% link glossary/q.md %}#qwen-model

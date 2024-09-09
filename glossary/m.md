@@ -401,11 +401,14 @@ The training is identical -- we still predict each masked WordPiece token indepe
 
 
 # Massive Multitask Language Understanding Benchmark
+# MMLU-Pro Benchmark
 # MMLU Benchmark
 
- ~ a measure of intelligence
+ ~ a measure of intelligence and knowledge at the undergraduate level.
 
  ~ a [benchmark] used to compare [large language models] on many [language understanding] tasks.
+
+ :warning: Over the year, this benchmark has linked into the training data. The questions are now considered too easy. In addition, only 4 choices are given. For all those reasons, MMLU-Pro benchmark was created
 
  We propose a new test to measure a text model's multitask accuracy. The test covers 57 tasks including elementary mathematics, US history, computer science, law, and more. To attain high accuracy on this test, models must possess extensive world knowledge and problem solving ability. We find that while most recent models have near random-chance accuracy, the very largest [GPT-3 model] improves over random chance by almost 20 percentage points on average. However, on every one of the 57 tasks, the best models still need substantial improvements before they can reach expert-level accuracy. Models also have lopsided performance and frequently do not know when they are wrong. Worse, they still have near-random accuracy on some socially important subjects such as morality and law. By comprehensively evaluating the breadth and depth of a model's academic and professional understanding, our test can be used to analyze models across many tasks and to identify important shortcomings.
 
@@ -434,8 +437,16 @@ In the complex z-plane, the set of points satisfying the equation z² = |z|² is
 
  {% pdf "https://arxiv.org/pdf/2009.03300.pdf" %}
 
+ {% pdf "https://arxiv.org/pdf/2406.01574.pdf" %}
+
  More at:
-  * paper - [https://arxiv.org/abs/2009.03300](https://arxiv.org/abs/2009.03300)
+  * MMLU
+    * paper - [https://arxiv.org/abs/2009.03300](https://arxiv.org/abs/2009.03300)
+  * MMLU-Pro
+    * paper - [https://arxiv.org/abs/2406.01574](https://arxiv.org/abs/2406.01574)
+    * site - [https://github.com/TIGER-AI-Lab/MMLU-Pro](https://github.com/TIGER-AI-Lab/MMLU-Pro)
+    * articles
+      * [https://www.marktechpost.com/2024/05/16/tiger-lab-introduces-mmlu-pro-dataset-for-comprehensive-benchmarking-of-large-language-models-capabilities-and-performance/](https://www.marktechpost.com/2024/05/16/tiger-lab-introduces-mmlu-pro-dataset-for-comprehensive-benchmarking-of-large-language-models-capabilities-and-performance/)
 
  See also [M], ...
 

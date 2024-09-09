@@ -47,6 +47,8 @@
 [Open Interpreter Company]: {{ site.baseurl }}{% link glossary/o.md %}#open-interpreter-company
 [Open Interpreter]: {{ site.baseurl }}{% link glossary/o.md %}#open-interpreter-company
 [OpenMMLab]: {{ site.baseurl }}{% link glossary/o.md %}#openmmlab
+[OpenRouter AI Tool]: {{ site.baseurl }}{% link glossary/o.md %}#openrouter-ai-tool
+[OpenRouter]: {{ site.baseurl }}{% link glossary/o.md %}#openrouter-ai-tool
 [OpenVINO Toolkit]: {{ site.baseurl }}{% link glossary/o.md %}#openvino-toolkit
 [OpenVINO]: {{ site.baseurl }}{% link glossary/o.md %}#openvino-toolkit
 [OpenVoice Model]: {{ site.baseurl }}{% link glossary/o.md %}#openvoice-model
