@@ -451,7 +451,7 @@ model.summary()
 # Information
 
 ```
-Data < Information < Knowledge
+Data < Information < Knowledge < Use knowledge < Mastery
 ```
 
  See also [I], [Data], [Knowledge]
@@ -593,6 +593,12 @@ Data < Information < Knowledge
 
 
 # Intelligence Augmentation
+
+ See also [I], ...
+
+
+# Intelligence Explosion
+
 
  See also [I], ...
 

@@ -1154,6 +1154,8 @@ print("ga_output: ", ga_output)
 
  ![]( {{site.assets}}/g/graphical_processing_unit_scaling.webp ){: width="100%"}
 
+ {% youtube "https://youtu.be/Axd50ew4pco?si=xCAag1Lx43z0SsIz" %}
+
  More at:
   * [https://www.nature.com/articles/s41586-021-04362-w](https://www.nature.com/articles/s41586-021-04362-w)
 

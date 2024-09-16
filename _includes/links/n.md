@@ -70,6 +70,8 @@
 [Neural Radiance Field]: {{ site.baseurl }}{% link glossary/n.md %}#neural-radiance-field
 [NeRF]: {{ site.baseurl }}{% link glossary/n.md %}#neural-radiance-field
 [Neural Retriever]: {{ site.baseurl }}{% link glossary/n.md %}#neural-retriever
+[Neural Scaling Law]: {{ site.baseurl }}{% link glossary/n.md %}#neural-scaling-law
+[Neural Scaling Laws]: {{ site.baseurl }}{% link glossary/n.md %}#neural-scaling-law
 [Neural Style Transfer]: {{ site.baseurl }}{% link glossary/n.md %}#neural-style-transfer
 [NST]: {{ site.baseurl }}{% link glossary/n.md %}#neural-style-transfer
 [Neural Topic Modeling]: {{ site.baseurl }}{% link glossary/n.md %}#neural-topic-modeling

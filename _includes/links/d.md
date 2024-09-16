@@ -48,6 +48,7 @@
 [Dataset]: {{ site.baseurl }}{% link glossary/d.md %}#dataset
 [Datasets]: {{ site.baseurl }}{% link glossary/d.md %}#dataset
 [Dataset Bias]: {{ site.baseurl }}{% link glossary/d.md %}#dataset-bias
+[Dataset Size Efficient Frontier]: {{ site.baseurl }}{% link glossary/d.md %}#dataset-size-efficient-frontier
 [David Luan Person]: {{ site.baseurl }}{% link glossary/d.md %}#david-luan-person
 [David Luan]: {{ site.baseurl }}{% link glossary/d.md %}#david-luan-person
 [Dawid-Skene Algorithm]: {{ site.baseurl }}{% link glossary/d.md %}#dawid-skene-algorithm
@@ -116,6 +117,8 @@
 [Denoising Diffusion Probabilistic Model]: {{ site.baseurl }}{% link glossary/d.md %}#denoising-diffusion-probabilistic-model
 [Dense Layer]: {{ site.baseurl }}{% link glossary/d.md %}#dense-layer
 [Dense Model]: {{ site.baseurl }}{% link glossary/d.md %}#dense-model
+[Depth Map]: {{ site.baseurl }}{% link glossary/d.md %}#depth-map
+[Depth Maps]: {{ site.baseurl }}{% link glossary/d.md %}#depth-map
 [Derivative Chain Rule]: {{ site.baseurl }}{% link glossary/d.md %}#derivative-chain-rule
 [Deterministic Node]: {{ site.baseurl }}{% link glossary/d.md %}#deterministic-node
 [Development Subset]: {{ site.baseurl }}{% link glossary/d.md %}#development-subset

@@ -549,6 +549,13 @@ layout: page
  See also [D], [Artefact]
 
 
+# Dataset Size Efficient Frontier
+
+ One of the 3 [Neural Scaling Laws]
+
+ See also [D], ...
+
+
 # David Luan Person
 
  CEO of [Adept AI]
@@ -1050,6 +1057,15 @@ with loss function computed from (output - input)
  Most of today’s models are “dense,” which means the whole neural network activates to accomplish a task, regardless of whether it’s very simple or really complicated.
 
  See also [D], [Dense Layer]
+
+
+# Depth Map
+
+ Can be built with
+  * [Neural Radiance Field] model
+  * ...
+
+ See also [D], ...
 
 
 # Derivative Chain Rule

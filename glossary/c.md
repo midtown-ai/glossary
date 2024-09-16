@@ -963,6 +963,9 @@ print(query_result)
  Video
   * [Wonder Dynamics] - VFX in a single click!
 
+ World model
+  * [World Lab] - RL on Environments + NeRF
+
 
 
  {% youtube "https://www.youtube.com/watch?v=62ptqfCcizQ" %}
@@ -1023,6 +1026,15 @@ print(query_result)
   * [https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/)
 
  See also [C], [Retrieval Augmented Generation System]
+
+
+# Compute Efficient Frontier
+
+ One of the 3 [Neural Scaling Law]
+
+ ![]( {{site.assets}}/c/compute_efficient_frontier.png ){: width="100%"}
+
+ See also [C], ...
 
 
 # Computer Vision

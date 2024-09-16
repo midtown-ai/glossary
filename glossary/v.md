@@ -633,3 +633,10 @@ for layer in model.layers:
   * site - [https://www.voiceflow.com/](https://www.voiceflow.com/)
 
  See also [V], [Custom GPT]
+
+
+# Voxel
+
+ A pixel in 3-D
+
+ See also [V], [Neural Radiance Field]

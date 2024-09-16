@@ -428,7 +428,6 @@ vector(‘king’) + vector(‘woman’) — vector(‘man’) ~ vector(‘queen
 
  See also [W], [BLEU Score], [ROUGE Score]
 
-
 # Word2Vec Model
 
  Context-free models such as word2vec or GloVe generate a single "word embedding" representation for each word in the vocabulary, so bank would have the same representation in bank deposit and river bank. Do not take into consideration the context on the right or on the left of the word. ~ Bag of Words. Deprecated by RNN?
@@ -507,3 +506,20 @@ vocab[2], vocab[13884], vocab[5], \
   * site - [https://www.worldaicannes.com/festival](https://www.worldaicannes.com/festival)
   * articles
     * [https://aibusiness.com/meta/ai-luminary-yann-lecunn-sets-us-straight-on-generative-ai](https://aibusiness.com/meta/ai-luminary-yann-lecunn-sets-us-straight-on-generative-ai)
+
+
+# World Labs Company
+
+ An AI [company] started by [Fei Fei Li] and building [World Models]
+
+ {% youtube "https://youtu.be/qQy5QhSwu58?si=U0WzjaRzt4S81EOP" %}
+
+ More at:
+  * site - [https://www.worldlabs.ai/](https://www.worldlabs.ai/)
+
+ See also [W], ...
+
+
+# World Model
+
+ See also [W], ...

@@ -84,6 +84,8 @@
 [LOOCV]: {{ site.baseurl }}{% link glossary/l.md %}#loocv
 [Legendre Memory Unit]: {{ site.baseurl }}{% link glossary/l.md %}#legendre-memory-unit
 [LMU]: {{ site.baseurl }}{% link glossary/l.md %}#legendre-memory-unit
+[Leopold Aschenbrenner Person]: {{ site.baseurl }}{% link glossary/l.md %}#leopold-aschenbrenner-person
+[Leopold Aschenbrenner]: {{ site.baseurl }}{% link glossary/l.md %}#leopold-aschenbrenner-person
 [Lexical Search]: {{ site.baseurl }}{% link glossary/l.md %}#lexical-search
 [LIDAR]: {{ site.baseurl }}{% link glossary/l.md %}#lidar
 [Light Gradient Boosting Machine]: {{ site.baseurl }}{% link glossary/l.md %}#light-gradient-boosting-machine

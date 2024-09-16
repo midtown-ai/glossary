@@ -648,6 +648,7 @@ Xnorm = ---------------
  * Studied at caltech
  * Launched the image project [ImageNet] in 2007
  * Led the computer vision lab at Stanford
+ * 2024 - CEO of [World Labs]
 
  {% youtube "https://www.youtube.com/watch?v=40riCqvRoMs" %}
 

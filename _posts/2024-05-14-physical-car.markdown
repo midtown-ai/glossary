@@ -32,7 +32,9 @@ categories: jekyll update
  Compute layer - top layer of the DeepRacer car that includes an onboard computer and its compute battery
 
  Compute Powerbank - External battery to power the compute module (ZenPower Pro Asus Power Bank model)
-  * model - [https://www.asus.com/accessories/power-banks/asus-power-bank/zenpower-pro-pd/](https://www.asus.com/accessories/power-banks/asus-power-bank/zenpower-pro-pd/)
+  * model
+    * ORIGINAL - [https://www.asus.com/accessories/power-banks/asus-power-bank/zenpower-pro-pd/](https://www.asus.com/accessories/power-banks/asus-power-bank/zenpower-pro-pd/)
+    * REPLACEMENT - [https://www.amazon.com/gp/product/B093TYQ65Z/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1](https://www.amazon.com/gp/product/B093TYQ65Z/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) 
   * Cables / connectors
     * USB cable in USB connector
     * USB-A - output port
@@ -41,7 +43,7 @@ categories: jekyll update
     * Big LED flashlight (left) - 
     * Status 4-LEDs
       * Can be on, blinking, rapid-blinking, or off
-      * 4-LED rapid- blinking - there is a problem
+      * 4-LED rapid- blinking - there is a problem <== possibly input power voltage is out of range and input elect is fried!
       * 1-2-3-4-LED solid + 1 blink - show charging level
       * 4-LED solid - fully charged
       * 1-2-3-4-LED blinking - shows discharge level when powering an external device
@@ -111,6 +113,8 @@ categories: jekyll update
     * Drive motor (cable and with heat sink)
     * Bed with port (red connector) where vehicle/drive battery is plugged in
     * steering, suspension, and wheels
+  * Button
+    * next to front/left wheel - when on drive module shown beep indicating it is powered by the drive battery
 
  Vehicle Battery - A lithium battery  pack used to drive the vehicle around the track
   * Cables / connectors
@@ -162,10 +166,11 @@ categories: jekyll update
    1. charge the vehicle/drive battery
    2. install the vehicle/drive battery by connect the RED connector to RED input
    3. use velcro hook to secure the vehicle/drive battery
-   4. power on the drive train using the switch on the drive train next to the  front left wheel
+   4. power on the drive train using the switch on the drive train next to the front left wheel
       * on position = bring button to left
       * off position = bring button to right
       * 2 beep emitted if drive train receive power
+      * <!> drive train emit 2 beeps EACH TIME it is powered on
    5. attach the compute layer using the pins (loop away from tire)
    6. connect the compute module to a power adapter (not the laptop battery yet)
    7. power the compute module by (long) pushing the power button

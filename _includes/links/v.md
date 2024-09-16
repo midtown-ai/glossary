@@ -74,3 +74,4 @@
 [Voicebox Model]: {{ site.baseurl }}{% link glossary/v.md %}#voicebox-model
 [Voicebox]: {{ site.baseurl }}{% link glossary/v.md %}#voicebox-model
 [VoiceFlow Company]: {{ site.baseurl }}{% link glossary/v.md %}#voicebox-company
+[Voxel]: {{ site.baseurl }}{% link glossary/v.md %}#voxel

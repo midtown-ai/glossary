@@ -431,8 +431,9 @@ cheese =>                                   # Prompt
   * [Greg Brockman] - Co-founder
   * [Ilya Sutskever] - Co-founder
   * [Mira Murati] - Interim CEO during Sam Altman's ouster
-  * [Elon Mustk] - Early investor
+  * [Elon Musk] - Early investor
   * [Bill Gates] - Early/Late investor
+  * [Leopold Aschenbrenner] - Superalignment team and write the 'situational awareness' essay
 
  More at:
   * home - [http://www.openai.com](http://www.openai.com)

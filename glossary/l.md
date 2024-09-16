@@ -349,7 +349,7 @@ completion = llm(prompt)
  More at:
   * paper - [https://arxiv.org/abs/2303.18223](https://arxiv.org/abs/2303.18223)
 
- See also [L], [Language Modeling], [Model Compression], [Scaling Law], [Steerability]
+ See also [L], [Language Modeling], [Model Compression], [Neural Scaling Law], [Steerability]
 
 
 # Large Language Model As A Judge
@@ -740,6 +740,22 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 # LMU
 
  ~ a memory unit in [RNNs] ?
+
+ See also [L], ...
+
+
+# Leopold Aschenbrenner Person
+
+ Wrote an essay called situational awareness which compare the future of AI to the Manhattan project and competition with China
+
+ {% youtube "https://www.youtube.com/watch?v=zdbVtZIn9IM" %}
+
+ {% youtube "https://www.youtube.com/watch?v=xm1B3Y3ypoE" %}
+
+ {% pdf "https://situational-awareness.ai/wp-content/uploads/2024/06/situationalawareness.pdf" %}
+
+ More at:
+  * paper - [https://situational-awareness.ai/](https://situational-awareness.ai/)
 
  See also [L], ...
 

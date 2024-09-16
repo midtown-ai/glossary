@@ -1548,6 +1548,18 @@ XY is the line passing tough X and Y unless stated to be a segment (with stateme
  See also [A], [AlphaGeometry]
 
 
+# AlphaProteo Model
+
+ A model in the family of [AlphaFold] which is is to find binding sites and binding proteins/ligand
+
+ {% youtube "https://youtu.be/lI3EoCjWC2E?si=0LPyeOYqq8fGv6aM" %}
+
+ More at:
+  * paper - 
+
+ See also [A], ...
+
+
 # AlphaStar Model
 
  AlphaStar was built by [DeepMind]. Plays StarCraft II
@@ -2537,6 +2549,10 @@ If you don't ___ at the sign, you will get a ticket
 
 # Autoregressive Model
 # AR Model
+
+ ~ a stream of token (and prediction based on the stream)
+
+ ~ language = stream of token but DNA and (protein and non-protein / organic and non-organic) molecules are also stream of token
 
  Goal is to predict a future token (word) given either the past tokens or the future tokens but not both. (If both --> auto-encoding). Autoregressive models such as [decoders] are iterative and reused their temporary, incomplete output to generate the next, more complete output. Iterations stop when encoder input is exhausted (?). Well-known autoregressive models/use-cases are:
   * Predicting next work in a sentence (auto-complete)

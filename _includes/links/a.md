@@ -139,6 +139,8 @@
 [AlphaGO]: {{ site.baseurl }}{% link glossary/a.md %}#alphago-model
 [AlphaProof Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphaproof-model
 [AlphaProof]: {{ site.baseurl }}{% link glossary/a.md %}#alphaproof-model
+[AlphaProteo Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphaproteo-model
+[AlphaProteo]: {{ site.baseurl }}{% link glossary/a.md %}#alphaproteo-model
 [AlphaStar Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphastar-model
 [AlphaStar]: {{ site.baseurl }}{% link glossary/a.md %}#alphastar-model
 [AlphaTensor Model]: {{ site.baseurl }}{% link glossary/a.md %}#alphatensor-model

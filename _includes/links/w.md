@@ -58,3 +58,7 @@
 [WordPiece Tokenization]: {{ site.baseurl }}{% link glossary/w.md %}#wordpiece-tokenization
 [World Artificial Intelligence Cannes Festival]: {{ site.baseurl }}{% link glossary/w.md %}#world-artificial-intelligence-cannes-festival
 [WAICF]: {{ site.baseurl }}{% link glossary/w.md %}#world-artificial-intelligence-cannes-festival
+[World Labs Company]: {{ site.baseurl }}{% link glossary/w.md %}#world-labs-company
+[World Labs]: {{ site.baseurl }}{% link glossary/w.md %}#world-labs-company
+[World Model]: {{ site.baseurl }}{% link glossary/w.md %}#world-model
+[World Models]: {{ site.baseurl }}{% link glossary/w.md %}#world-model

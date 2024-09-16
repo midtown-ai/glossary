@@ -5,6 +5,7 @@
 [Pandas]: {{ site.baseurl}}{% link glossary/p.md %}#pandas-python-module
 [Parameter]: {{ site.baseurl}}{% link glossary/p.md %}#parameter
 [Parameters]: {{ site.baseurl}}{% link glossary/p.md %}#parameter
+[Parameter Count Efficient Frontier]: {{ site.baseurl}}{% link glossary/p.md %}#parameter-count-efficient-frontier
 [Parameter-Efficient and Quantization-Aware Adaptation]: {{ site.baseurl}}{% link glossary/p.md %}#parameter-efficient-and-quantization-aware-adaptation
 [PEQA]: {{ site.baseurl}}{% link glossary/p.md %}#parameter-efficient-and-quantization-aware-adaptation
 [Parameter-Efficient Fine-Tuning]: {{ site.baseurl}}{% link glossary/p.md %}#parameter-efficient-fine-tuning

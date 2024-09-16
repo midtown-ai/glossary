@@ -543,12 +543,21 @@ There are various kinds of neocognitron. For example, some types of neocognitron
 # Neural Radiance Field
 # NeRF
 
+ Execute a view synthesis based on several pictures/images 
+   * Can help to build [Depth Maps]
+
+
+ Overfit a neural network to a complete scene.
+  * The scene is in the weights
+
+ {% youtube "https://www.youtube.com/watch?v=CRlN-cYFxTk" %}
+
  {% pdf "https://arxiv.org/pdf/2003.08934.pdf" %}
 
  More at:
   * paper - [https://arxiv.org/abs/2003.08934](https://arxiv.org/abs/2003.08934)
 
- See also [N], ...
+ See also [N], [Voxel]
 
 
 # Neural Retriever
@@ -561,8 +570,64 @@ There are various kinds of neocognitron. For example, some types of neocognitron
  See also [N], ...
 
 
-# Neural Style Transfer
+# Neural Scaling Law
 
+ Here is the empirical observation: "Bigger model with more data and more compute keeps getting better!"
+  * Better = Validation loss has a lower error rate
+
+
+ Lines
+  * [Compute Efficient Frontier]
+  * [Dataset Size Efficient Frontier]
+  * [Parameter Count Efficient Frontier] or model size
+
+ ![]( {{site.assets}}/n/neural_scaling_law_compute_dataset_parameters.png ){: width="100%"}
+
+ As a result:
+
+ ![]( {{site.assets}}/n/neural_scaling_law_meme.png ){: width="100%"}
+
+ Also opportunity cost for GPU compute (what is the best way to spend that compute to achieve lower loss?)
+ With more compute, you can 3 Possibilities:
+  1. Train with more data
+  2. Train on the same data multiple times
+  3. or Make model larger   <<====== SURPRISING WINNER! (won't ANN with too many layers overfit data?)
+
+ As model gets bigger, the model becomes more sample efficient (more learning is done by sample)
+
+ ![]( {{site.assets}}/n/neural_scaling_law_data_batch_size.png ){: width="100%"}
+
+ **The thing about [GPT-3] that makes it so important is that it provides evidence that as long as we keep increasing the model size, we can keep driving down the loss, possibly right up until it hits the [Shannon entropy][Entropy] of text. No need for clever architectures or complex handcrafted [heuristics]. Just by scaling it up we can get a better language model, and a better language model entails a better world model**
+
+ {% youtube "https://www.youtube.com/watch?v=5eqRuVp65eY" %}
+
+
+ We study empirical scaling laws for language model performance on the [cross-entropy loss]. The loss scales as a power-law with model size, dataset size, and the amount of compute used for training, with some trends spanning more than seven orders of magnitude. Other architectural details such as network width or depth have minimal effects within a wide range. Simple equations govern the dependence of overfitting on model/dataset size and the dependence of training speed on model size. These relationships allow us to determine the optimal allocation of a fixed compute budget. Larger models are significantly more [sample-efficient][Sample Efficiency], such that optimally compute-efficient training involves training very large models on a relatively modest amount of data and stopping significantly before convergence.
+
+ {% pdf "https://arxiv.org/pdf/2001.08361.pdf" %}
+
+ {% pdf "https://arxiv.org/pdf/2010.14701.pdf" %}
+
+ We investigate the optimal model size and number of tokens for training a transformer language model under a given compute budget. We find that current large language models are significantly undertrained, a consequence of the recent focus on scaling language models whilst keeping the amount of training data constant. By training over 400 language models ranging from 70 million to over 16 billion parameters on 5 to 500 billion tokens, we find that for compute-optimal training, the model size and the number of training tokens should be scaled equally: for every doubling of model size the number of training tokens should also be doubled. We test this hypothesis by training a predicted compute-optimal model, Chinchilla, that uses the same compute budget as Gopher but with 70B parameters and 4× more more data. Chinchilla uniformly and significantly outperforms Gopher (280B), GPT-3 (175B), Jurassic-1 (178B), and Megatron-Turing NLG (530B) on a large range of downstream evaluation tasks. This also means that Chinchilla uses substantially less compute for fine-tuning and inference, greatly facilitating downstream usage. As a highlight, Chinchilla reaches a state-of-the-art average accuracy of 67.5% on the MMLU benchmark, greater than a 7% improvement over Gopher.
+
+ {% pdf "https://arxiv.org/pdf/2203.15556.pdf" %}
+
+
+ More at:
+  * 2022/03/29 
+    * paper - [https://arxiv.org/abs/2203.15556](https://arxiv.org/abs/2203.15556)
+  * 2020/10/28
+    * paper - [https://arxiv.org/abs/2010.14701](https://arxiv.org/abs/2010.14701)
+  * 2020/01/23
+    * announcement - [https://openai.com/index/scaling-laws-for-neural-language-models/](https://openai.com/index/scaling-laws-for-neural-language-models/)
+    * paper - [https://arxiv.org/abs/2001.08361](https://arxiv.org/abs/2001.08361)
+  * articles
+    * evolution of scaling law for LLM - [https://medium.com/@lmpo/the-evolution-of-scaling-laws-for-llms-aeb6ae64f6f1](https://medium.com/@lmpo/the-evolution-of-scaling-laws-for-llms-aeb6ae64f6f1)
+
+ See also [N], [Artificial Neural Network], [Statistical Model]
+
+
+# Neural Style Transfer
 # NST
 
  Use for generating images. * Only 2 images, the base and the style image, with pre-trained VGG. * Perform back-propagation base image pixels, updating transfer style. * 3 loss functions: content, style, total variance.

@@ -60,6 +60,13 @@ layout: page
  See also [P], [Hyperparameter], [Parametric Knowledge]
 
 
+# Parameter Count Efficient Frontier
+
+ One of the 3 [Neural Scaling Laws]
+
+ See also [P], ...
+
+
 # Parameter-Efficient and Quantization-Aware Adaption
 # PEQA
 

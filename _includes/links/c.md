@@ -80,6 +80,7 @@
 [Compliance Analysis]: {{ site.baseurl }}{% link glossary/c.md %}#compliance-analysis
 [Compound AI System]: {{ site.baseurl }}{% link glossary/c.md %}#compound-ai-system
 [Compound AI Systems]: {{ site.baseurl }}{% link glossary/c.md %}#compound-ai-system
+[Compute Efficient Frontier]: {{ site.baseurl }}{% link glossary/c.md %}#compute-efficient-frontier
 [Computer Vision]: {{ site.baseurl }}{% link glossary/c.md %}#computer-vision
 [Computer Vision and Pattern Recognition Conference]: {{ site.baseurl }}{% link glossary/c.md %}#computer-vision-and-pattern-recognition-conference
 [CVPR Conference]: {{ site.baseurl }}{% link glossary/c.md %}#cvpr-conference
