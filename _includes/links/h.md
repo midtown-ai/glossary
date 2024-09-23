@@ -28,6 +28,8 @@
 [Holistic Evaluation of Language Model Benchmark]: {{site.baseurl }}{% link glossary/h.md %}#holistic-evaluation-of-language-model-benchmark
 [HELM Benchmark]: {{site.baseurl }}{% link glossary/h.md %}#holistic-evaluation-of-language-model-benchmark
 [Homography]: {{site.baseurl }}{% link glossary/h.md %}#homography
+[Hopfield Network]: {{site.baseurl }}{% link glossary/h.md %}#hopfield-network
+[Hopfield Networks]: {{site.baseurl }}{% link glossary/h.md %}#hopfield-network
 [Huber Loss Function]: {{site.baseurl }}{% link glossary/h.md %}#huber-loss-function
 [Hugging Face Company]: {{site.baseurl }}{% link glossary/h.md %}#hugging-face-company
 [Hugging Face]: {{site.baseurl }}{% link glossary/h.md %}#hugging-face-company

@@ -514,6 +514,11 @@ print(query_result)
  See also [C], [Dataset]
 
 
+# Classical AI
+
+ See [Symbolic AI]
+
+
 # Classification Task
 
  A type of supervised learning algorithm. The goal in classification is to take input values and organize them into two or more categories. The categories are normally mutually exclusive (ex is this shape a circle, a rectangle or a triangle? Beware of 3-d shape projections, i.e. perspectives!). An example classification use case is fraud detection. In fraud detection, the goal is to take information about the transaction and use it to determine if the transaction is either fraudulent or not fraudulent. When XGBoost is given a dataset of past transactions and whether or not they were fraudulent, it can learn a function that maps input transaction data to the probability that transaction was fraudulent.
@@ -536,7 +541,7 @@ print(query_result)
     * [Logistic regression]
     * [Support Vector Machine (SVM)][SVM] - [boundary zone] is an [hyperplane]
     * [Random Forest]
-    * [Boosted Trees] with [XGBoost] or LightBoost
+    * [Boosted Trees] with [XGBoost] or [LightGBM]
     * [Naive Bayes Classifier]
       * [Gaussian Naive Bayes Classifier]
       * [Multinomial Naive Bayes Classifier]
@@ -774,7 +779,7 @@ print(query_result)
   * [https://bdtechtalks.com/2022/08/08/machines-like-us-review/](https://bdtechtalks.com/2022/08/08/machines-like-us-review/)
   * TED talk - [https://www.ted.com/talks/yejin_choi_why_ai_is_incredibly_smart_and_shockingly_stupid](https://www.ted.com/talks/yejin_choi_why_ai_is_incredibly_smart_and_shockingly_stupid)
 
- See also [C], ...
+ See also [C], [Cyc Expert System]
 
 
 # Company
@@ -1009,6 +1014,22 @@ print(query_result)
   * Attention-based model: for input sequence of length N, each layer's output is NxN (all to all comparison) and therefore each layer is o(N^2) for sequence of length N
 
  See also [C], [Hyperparameter], [Attention-Based Model]
+
+
+# Complexity Ceiling
+
+ The concept of a "complexity ceiling" in [expert systems] refers to the practical limits on the complexity and scale of knowledge that can be effectively represented and utilized within these systems. This limitation arises from several factors:
+
+ 1. Knowledge acquisition bottleneck: As the domain becomes more complex, it becomes increasingly difficult and time-consuming to gather, formalize, and encode all the relevant expert knowledge.
+ 2. [Rule interaction]: In large rule-based systems, the interactions between rules can become extremely complex and difficult to manage, leading to unexpected behaviors or conflicts.
+ 3. Maintenance challenges: As the knowledge base grows, maintaining and updating the system becomes progressively more difficult and error-prone.
+ 4. Performance issues: Very large knowledge bases can lead to decreased system performance, as the inference engine must search through a vast number of rules and facts.
+ 5. Brittleness: Expert systems often struggle with handling situations outside their specific domain of expertise, becoming less reliable as the problem space expands.
+ 6. Lack of common sense reasoning: Traditional expert systems typically lack the ability to reason about general knowledge and common sense, which limits their adaptability to new or unusual situations.
+
+ These limitations often mean that expert systems are most effective when applied to well-defined, narrow domains rather than broad, open-ended problem spaces. More recent approaches in AI, such as machine learning and deep learning, have been developed in part to address some of these limitations.
+
+ See also [C], [Cyc Export System]
 
 
 # Compliance Analysis
@@ -1887,6 +1908,8 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
  {% youtube "https://www.youtube.com/watch?v=Pwgpl9mKars"  %}
 
+ {% youtube "https://www.youtube.com/watch?v=KHVR587oW8I" %}
+
  More at
    * plot - [https://www.desmos.com/calculator/zytm2sf56e](https://www.desmos.com/calculator/zytm2sf56e)
    * [https://medium.com/@vijendra1125/understanding-entropy-cross-entropy-and-softmax-3b79d9b23c8a](https://medium.com/@vijendra1125/understanding-entropy-cross-entropy-and-softmax-3b79d9b23c8a)
@@ -2043,6 +2066,17 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
  More at:
   * [https://www.scientificamerican.com/article/cyborg-beetles/](https://www.scientificamerican.com/article/cyborg-beetles/)
+
+ See also [C], ...
+
+
+# Cyc Expert System
+
+ Probably the longest-running [expert system] project, called Cyc (from the world encyclopedic) created by Douglas Lenat and his colleagues at Cycorp.
+ Initiated in 1984, Cyc has the goal of encoding all of "commonsense knowledge" - broadly known as facts like 'a dropped egg will break' or 'A child running through the kitchen with muddy shoes will annoy parents'. These millions of small ideas are not clearly written down in one place. They are unspoken assumption s underlying human behavior and reasoning that are necessary for understanding what the average person knows in a variety of domains. Yet, because the Cyc system also represents this knowledge with symbolic rules, it too has to face the [complexity ceiling].
+
+ More at:
+  * site - [https://cyc.com/](https://cyc.com/)
 
  See also [C], ...
 

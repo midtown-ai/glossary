@@ -589,6 +589,18 @@ completion = llm(prompt)
  See also [L], [Encoder], [Latent Space]
 
 
+# Latent Space Visualisation
+
+ Project a [latent space] or multi-dimensional space on 2D space
+  * [Principal Component Analysis (PCA)][PCA]
+  * [t-SNE]
+  * [UMAP]
+
+ {% youtube "https://www.youtube.com/watch?v=o_cAOa5fMhE" %}
+
+ See also [L], ...
+
+
 # Latent Variable
 
  Myth of the cave = where observation are only a projection of other objects. Latent variables are not directly observable, but are the true explanatory factors (that are casting the shadows that we see !)
@@ -800,7 +812,7 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
   * code - [https://github.com/microsoft/LightGBM](https://github.com/microsoft/LightGBM)
   * wikipedia - [https://en.wikipedia.org/wiki/LightGBM](https://en.wikipedia.org/wiki/LightGBM)
 
- See also [L], [Ensemble Method]
+ See also [L], ...
 
 
 # Likelihood

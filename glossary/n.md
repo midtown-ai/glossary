@@ -744,17 +744,28 @@ Some well-known NP-hard problems include the traveling salesman problem, the kna
 
 
 # Non-Symbolic AI
+
+ ~ Focuses on learning patterns from data ( as [Neural Networks] or [LLM] do)
  
- = LLM
+ This is opposite to [symbolic AI] where system works with [rules].
 
- What is my father favorit color?
 
- * statistical based
- * no logic
- * no understanding
- * only connection between words
+ Key characteristics:
 
- This is opposite to [symbolic AI] where system works with rules.
+  * Implicit representation of knowledge in network weights or parameters - only connection between <words> for LLM
+  * Learning from data rather than explicit programming - no logic
+  * Often uses neural networks, deep learning, or statistical methods - statistical based
+  * Generally less interpretable ("black box" systems) - no understanding
+  * Examples include deep learning models, [convolutional neural networks], and many [machine learning algorithms]
+
+ Main differences with symbolic AI:
+
+  * Knowledge representation: Symbolic AI uses explicit symbols and [rules], while non-symbolic AI uses distributed representations.
+  * Learning: Symbolic AI often requires manual knowledge engineering, while non-symbolic AI learns from data.
+  * Interpretability: Symbolic AI systems are generally more interpretable, while non-symbolic AI systems can be more opaque.
+  * Flexibility: non-symbolic AI tends to be more flexible and better at handling uncertainty and noisy data.
+
+ It's worth noting that modern AI research often combines elements of both approaches, leading to hybrid systems that aim to leverage the strengths of both symbolic and non-symbolic methods.
 
  See also [N], ...
 

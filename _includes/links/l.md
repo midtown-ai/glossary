@@ -64,6 +64,7 @@
 [Latent Perturbation]: {{ site.baseurl }}{% link glossary/l.md %}#latent-perturbation
 [Latent Space]: {{ site.baseurl }}{% link glossary/l.md %}#latent-space
 [Latent Space Compression]: {{ site.baseurl }}{% link glossary/l.md %}#latent-space-compression
+[Latent Space Visualisation]: {{ site.baseurl }}{% link glossary/l.md %}#latent-space-visualisation
 [Latent Variable]: {{ site.baseurl }}{% link glossary/l.md %}#latent-variable
 [Latent Variable Model]: {{ site.baseurl }}{% link glossary/l.md %}#latent-variable-model
 [Latent Vector]: {{ site.baseurl }}{% link glossary/l.md %}#latent-vector

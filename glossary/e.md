@@ -1240,6 +1240,8 @@ Shape AI’s potential to transform education by creating resources to support e
 
  ![]( {{site.assets}}/e/expert_system_comparison.png ){: width="100%"}
 
+
+
  More at:
   * [https://en.wikipedia.org/wiki/Expert_system](https://en.wikipedia.org/wiki/Expert_system)
 
@@ -1249,6 +1251,8 @@ Shape AI’s potential to transform education by creating resources to support e
 # Explainability
 
  How to explain the output of the AI or the inner working of an AI model (Neural network)
+
+ {% youtube "https://www.youtube.com/watch?v=UZDiGooFs54" %}
 
  See also [E], ...
 

@@ -77,6 +77,7 @@
 [Common Sense]: {{ site.baseurl }}{% link glossary/c.md %}#common-sense
 [Company]: {{ site.baseurl }}{% link glossary/c.md %}#company
 [Complexity]: {{ site.baseurl }}{% link glossary/c.md %}#complexity
+[Complexity Ceiling]: {{ site.baseurl }}{% link glossary/c.md %}#complexity-ceiling
 [Compliance Analysis]: {{ site.baseurl }}{% link glossary/c.md %}#compliance-analysis
 [Compound AI System]: {{ site.baseurl }}{% link glossary/c.md %}#compound-ai-system
 [Compound AI Systems]: {{ site.baseurl }}{% link glossary/c.md %}#compound-ai-system
@@ -167,5 +168,6 @@
 [Cybernetic Organism]: {{ site.baseurl }}{% link glossary/c.md %}#cybernetic-organism
 [Cyborg]: {{ site.baseurl }}{% link glossary/c.md %}#cybernetic-organism
 [Cyborg Beetle]: {{ site.baseurl }}{% link glossary/c.md %}#cyborg-bettle
+[Cyc Expert System]: {{ site.baseurl }}{% link glossary/c.md %}#cyc-expert-system
 [Cycle Generative Adversarial Network]: {{ site.baseurl }}{% link glossary/c.md %}#cycle-generative-adversarial-network
 [Cycle GAN]: {{ site.baseurl }}{% link glossary/c.md %}#cycle-generative-adversarial-network

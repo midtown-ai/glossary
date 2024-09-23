@@ -219,6 +219,7 @@
 [Asynchronous Advantage Actor-Critic]: {{ site.baseurl }}{% link glossary/a.md %}#asynchronous-advantage-actor-critic-algorithm
 [A3C Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#asynchronous-advantage-actor-critic-algorithm
 [A3C]: {{ site.baseurl }}{% link glossary/a.md %}#asynchronous-advantage-actor-critic-algorithm
+[Asynchronous Neural Network]: {{ site.baseurl }}{% link glossary/a.md %}#asynchronous-neural-network
 [Atari Learning Environment]: {{ site.baseurl }}{% link glossary/a.md %}#atari-learning-environment
 [ALE]: {{ site.baseurl }}{% link glossary/a.md %}#atari-learning-environment
 [Atlas Robot]: {{ site.baseurl }}{% link glossary/a.md %}#atlas-robot

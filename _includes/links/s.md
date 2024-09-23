@@ -254,6 +254,8 @@
 [Switch Transformer]: {{ site.baseurl}}{% link glossary/s.md %}#switch-transformer
 [Symbolic AI]: {{ site.baseurl}}{% link glossary/s.md %}#symbolic-ai
 [Synapse]: {{ site.baseurl}}{% link glossary/s.md %}#synapse
+[Synaptic Strength]: {{ site.baseurl}}{% link glossary/s.md %}#synaptic-strength
+[Synchronous Neural Network]: {{ site.baseurl}}{% link glossary/s.md %}#synchronous-neural-network
 [Synthesia Company]: {{ site.baseurl}}{% link glossary/s.md %}#synthesia-company
 [Synthesia]: {{ site.baseurl}}{% link glossary/s.md %}#synthesia-company
 [Synthesized Variable]: {{ site.baseurl}}{% link glossary/s.md %}#synthesized-variable

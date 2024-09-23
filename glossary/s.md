@@ -1629,7 +1629,11 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
      * blog - [https://aimi.stanford.edu/blog](https://aimi.stanford.edu/blog)
    * QIAI or [Quantitative Imaging and Artificial Intelligence](https://rubinlab.stanford.edu/) - Daniel L. Rubin, MD, MS
    * CERC or [Clinical Excellence Research Center](https://med.stanford.edu/cerc.html) - [Arnold Milstein](https://profiles.stanford.edu/arnold-milstein)
-     * blog - [https://med.stanford.edu/cerc/research/computer-vision.html](https://med.stanford.edu/cerc/research/computer-vision.html)
+     * blog - [https://med.stanford.edu/cerc/research/computer-vision.html](https://med.stanford.edu/cerc/research/computer-vision.html)  
+ * Agentic
+   * Stanford OVAL or [Open Virtual Assistant Lab](https://newoval.netlify.app/) - Monica Lam. 
+     * Synthesis of Topic Outlines through Retrieval and Multi-perspective Question Asking or [STORM](https://storm.genie.stanford.edu/)
+       * paper - [https://arxiv.org/abs/2402.14207](https://arxiv.org/abs/2402.14207)
  * Robotics
    * ILIAD or [Intelligent and Interactive Autonomous Systems Group](https://iliad.stanford.edu/) led by [Dorsa Sadigh](https://dorsa.fyi/)
    * [Autonomous lab agent](https://www.autonomousagents.stanford.edu/)
@@ -2006,6 +2010,11 @@ II n summary, probability is focused on the theoretical study of random events, 
  See also [S], [Generative Adversarial Network]
 
 
+# Sub-Symbolic AI
+
+ See [Non-Symbolic AI]
+
+
 # Subsampling
 
  See also [S], [Convolutional Neural Network]
@@ -2196,7 +2205,7 @@ II n summary, probability is focused on the theoretical study of random events, 
 
 # Symbolic AI
 
- You teach rules of work, where rules = logic
+ You teach rules of work, where [rules] = logic
 
  * A cat is an animal
  * this is right and this is wrong
@@ -2233,7 +2242,7 @@ I'm {travelMode} from {fromCity} to {toCity}
 i'm {travelMode} to {toCity} to go {activity}
  ```
 
- Se also [S], ...
+ Se also [S], [Complexity Ceiling], [Expert System], [Rule Interaction]
 
 
 # Synapse
@@ -2242,7 +2251,23 @@ i'm {travelMode} to {toCity} to go {activity}
 
  ![]( {{site.assets}}/s/synapse.png ){: width="100%}
 
- See also [S], [Artificial Neuron], [Artificial Neural Network], [Biological Neuron], [Brain]
+ See also [S], [Artificial Neuron], [Artificial Neural Network], [Biological Neuron], [Brain], [Synaptic Strength]
+
+
+# Synaptic Strength
+
+ Analogous to the absolute value of a weight
+
+ See [S], ...
+
+
+# Synchronous Neural Network
+
+ In each output generation (classification) trial proceeds by computing the outputs of each layer, starting with layer 0 through layer M.
+
+ Neurons are operating dependently (wait for the input for upstream layers)
+
+ See also [S], [Asynchronous Neural Network]
 
 
 # Synthesia Company

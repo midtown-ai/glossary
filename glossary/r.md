@@ -1592,6 +1592,70 @@ def rmse(predictions, targets):
  See also [R], ...
 
 
+# Rule
+
+ Rules are used in [expert systems]
+
+ The increased number of rules leads to the [complexity ceiling] due in part to [rule interactions]
+
+ ```
+A typical MYCIN rule read:
+
+IF 1) The infection requires therapy is meningitis, and
+   2) THe type of infection is fungal and
+   3) Organisms were not seen on the stain of the culture, and
+   4) The patient is not a compromised host, and
+   5) The patient has been to an area that is endemic for coccidiomycoses, and
+   6) The race of the patient is one of [B]lack [A]sian [I]ndian, and
+   7) The cryptococcal antigen in the csf was positive
+
+THEN
+   There is a suggestive evidence (.5)
+   that cryptococcus is not one of the organisms (other than those seen on cultures or smears)i
+   which might be causing the infection
+ ```
+
+ See also [R], ...
+
+
+# Rule Interaction
+
+ Rule interaction in [expert systems] refers to how different rules in the knowledge base can affect each other, sometimes in unexpected ways. Here's an example to illustrate this concept:
+
+ ```
+Let's consider a simple medical diagnosis expert system with the following rules:
+
+IF patient has fever AND cough THEN consider flu
+IF patient has fever AND sore throat THEN consider strep throat
+IF patient has flu THEN recommend rest and fluids
+IF patient has strep throat THEN recommend antibiotics
+IF patient is allergic to penicillin AND strep throat is suspected THEN use alternative antibiotic
+ ```
+
+ Now, let's say we have a patient with the following symptoms:
+ ```
+Fever
+Cough
+Sore throat
+Allergic to penicillin
+ ```
+
+ Here's how rule interaction can create complexity:
+  * Rules 1 and 2 both fire because the patient has fever with both cough and sore throat. The system now has to decide between flu and strep throat, or consider both.
+  * Depending on which diagnosis is prioritized, either rule 3 or 4 will fire, leading to different treatment recommendations.
+  * If strep throat is considered, rule 5 also becomes relevant due to the penicillin allergy.
+
+ This simple example demonstrates several types of rule interactions:
+
+  * Conflict: Rules 1 and 2 lead to different diagnoses based on overlapping symptoms.
+  * Chaining: The outcome of rules 1 and 2 affects which of rules 3 and 4 will fire.
+  * Interdependence: Rule 5 depends on both the outcome of rule 2 and additional patient information.
+
+ In a real-world [expert system] with hundreds or thousands of rules, these interactions can become extremely complex. The system might need to employ sophisticated conflict resolution strategies, certainty factors, or other mechanisms to handle these interactions effectively. As the number of rules grows, ensuring that all possible interactions are accounted for and lead to correct outcomes becomes increasingly challenging, contributing to the [complexity ceiling] of [expert systems].
+
+ See also [R], ...
+
+
 # Runway Company
 
  An AI company focusing on the generative AI for images and videos.

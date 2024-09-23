@@ -268,6 +268,16 @@ Predict what are the required agent skills based some input parameters
  See also [M], ...
 
 
+# Manifold
+
+ A lower dimension space
+
+ * has dimensions
+ * has a shape
+
+ See also [M], ...
+
+
 # ManyChat Company
 
  OpenAI Assistant or custom GPT on whatsapp ?  
@@ -1601,6 +1611,18 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
 # Model Robustness
 
  See [Model Stability]
+
+
+# Model Size
+
+ For a neural network it is the number of parameters
+
+ See also [M], ...
+
+
+# Model Size Efficient Frontier
+
+ See [Parameter Count Efficient Frontier]
 
 
 # Model Stability

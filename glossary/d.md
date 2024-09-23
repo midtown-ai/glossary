@@ -1225,6 +1225,8 @@ speed.
 
  {% youtube "https://www.youtube.com/watch?v=W-O7AZNzbzQ" %}
 
+ {% youtube "https://www.youtube.com/watch?v=zc5NTeJbk-k" %}
+
  More at:
   * what are diffusion models - [https://lilianweng.github.io/posts/2021-07-11-diffusion-models/](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
   * diffusion thermo model - [https://arxiv.org/pdf/1503.03585.pdf](https://arxiv.org/pdf/1503.03585.pdf)

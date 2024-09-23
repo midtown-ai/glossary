@@ -644,6 +644,12 @@ print("ga_output: ", ga_output)
  See also [G], ...
 
 
+# Good Old-Fashioned AI
+# GOFAI
+
+ See [Symbolic AI]
+
+
 # Google Company
 
  Model architecture developed by company

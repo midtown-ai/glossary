@@ -126,6 +126,19 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
  See also [A], [Bellman Equation], [Timestep]
 
 
+# Activation Atlas
+
+ Image used to walk through the [embedding space] of the model
+
+ ![]( {{site.assets}}/a/activation_atlas.webp){: width="100%" }
+
+ More at:
+  * article - [https://openai.com/index/introducing-activation-atlases/](https://openai.com/index/introducing-activation-atlases/)
+  * simulation + paper - [https://distill.pub/2019/activation-atlas/](https://distill.pub/2019/activation-atlas/)
+
+ See also [A], ...
+
+
 # Activation Checkpointing
 
  ~ one of the classic tradeoffs in computer science—between memory and compute.
@@ -1270,6 +1283,8 @@ Better data beat the model always
 
  {% youtube "https://www.youtube.com/watch?v=Nq3auVtvd9Q" %}
 
+ {% youtube "https://www.youtube.com/watch?v=UZDiGooFs54" %}
+
  {% pdf "{{site.assets}}/a/alexnet_model_paper.pdf" %}
 
  More at:
@@ -2236,6 +2251,15 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], ...
 
 
+# Asynchronous Neural Network
+
+ In a true parallel system, in which each neuron is operating independently of the others.
+
+ In an asynchronous approach, each neuron is constantly scanning its inputs and fires whenever the sum of its weight inputss exceed its threshold (or whatever its output function specifies)
+
+ See also [A], [Synchronous Neural Network]
+
+
 # Atari Learning Environment
 
  The Atari Learning Environment (ALE) is an open-source software platform developed for research in reinforcement learning (RL). It is built upon the popular Atari 2600 video game console, which provides a diverse set of game environments for RL agents to interact with. ALE allows researchers to develop and evaluate RL algorithms by providing a standardized interface and a collection of Atari 2600 games as benchmark tasks.
@@ -2564,6 +2588,8 @@ ____ at the sign, you will get a ticket (backward prediction)
  ```
 
  `~ analyze the past steps (or future but not both) to identify the next step = learn from the past iteration (or future but not both) ONLY`. Unlike the GANs approach described before, where music generation happened in one iteration, autoregressive models add notes over many iterations. The models used are called autoregressive (AR) models because the model generates music by predicting future music notes based on the notes that were played in the past. In the music composition process, unlike traditional time series data, one generally does more than compose from left to right in time. New chords are added, melodies are embellished with accompaniments throughout. Thus, instead of conditioning our model solely on the past notes in time like standard autoregressive models, we want to condition our model on all the notes that currently exist in the provided input melody. For example, the notes for the left hand in a piano might be conditioned on the notes that have already been written for the right hand.
+
+ {% youtube "https://www.youtube.com/watch?v=UZDiGooFs54" %}
 
  See also [A], [Autoencoding], [Autoregressive Convolutional Neural Network], [Casual Language Modeling], [Generative Adversarial Network], [Time-Series Predictive Analysis]
 

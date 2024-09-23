@@ -522,4 +522,8 @@ vocab[2], vocab[13884], vocab[5], \
 
 # World Model
 
+ More at:
+  * articles
+    * LLM to LWM - [https://www.forbes.com/councils/forbestechcouncil/2024/01/23/the-next-leap-in-ai-from-large-language-models-to-large-world-models/](https://www.forbes.com/councils/forbestechcouncil/2024/01/23/the-next-leap-in-ai-from-large-language-models-to-large-world-models/)
+
  See also [W], ...

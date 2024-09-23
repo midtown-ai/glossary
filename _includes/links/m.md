@@ -155,6 +155,8 @@
 [Model Release Card]: {{ site.baseurl }}{% link glossary/m.md %}#model-release-card
 [Model Release Frontier]: {{ site.baseurl }}{% link glossary/m.md %}#model-release-frontier
 [Model Scanning]: {{ site.baseurl }}{% link glossary/m.md %}#model-scanning
+[Model Size]: {{ site.baseurl }}{% link glossary/m.md %}#model-size
+[Model Size Efficient Frontier]: {{ site.baseurl }}{% link glossary/m.md %}#model-size-efficient-frontier
 [Model Stability]: {{ site.baseurl }}{% link glossary/m.md %}#model-stability
 [Model Threat Analysis]: {{ site.baseurl }}{% link glossary/m.md %}#model-threat-analysis
 [Model Tuning]: {{ site.baseurl }}{% link glossary/m.md %}#model-tuning
