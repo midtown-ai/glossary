@@ -1,7 +1,7 @@
 ---
 layout: post
 # layout: single
-title:  "Production readiness framework
+title:  "Production readiness framework"
 date:   2017-01-01 12:51:28 -0800
 categories: jekyll update
 ---
@@ -9,19 +9,8 @@ categories: jekyll update
 {% include links/all.md %}
 
 
-## page was renamed from TopPage/VmWare/VmwareAllspack/VmwareReadinessAssessmentPlan/PraQuestionaire
-= Pra Questionnaire =
-
- <<TableOfContents>>
-
-== Attachment(s) ==
- <<AttachList>>
-
-== Overview ==
-
-
-== Dump ==
- {{{
+# Dump ==
+ ```
 PRA Day Recording
 Audio
 Audio + Video
@@ -379,11 +368,11 @@ Number of P0 security incidents
 
 Tracking KPI
 
- }}}
+ ```
 
-== Sample reports ==
-=== Telemetry ===
- {{{
+# Sample reports ==
+## Telemetry ===
+ ```
 We can measure a few items today through logs, surveys, ticketing of P0/P1.  A few measurements we could
 measure includes:
 On-boarding time - The amount of time it takes a customer to onboard the service to when they can use the service.
@@ -400,8 +389,8 @@ Recurring Revenue
 Attrition Rate (churn)
 Average Recurring Revenue (avg. sales price)
 Customer Acquisition Cost (per customer)
- }}}
- {{{
+ ```
+ ```
 Area
 Metric
 
@@ -460,5 +449,5 @@ Average Recurring Revenue (avg. sales price)
 Customer Acquisition Cost (per customer)
 
 Customer Lifetime Value
- }}}
+ ```
 
