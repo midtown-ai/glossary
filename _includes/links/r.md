@@ -101,6 +101,7 @@
 [Replit]: {{site.baseurl}}{% link glossary/r.md %}#replit-company
 [Representation]: {{site.baseurl}}{% link glossary/r.md %}#representation
 [Representation Space]: {{site.baseurl}}{% link glossary/r.md %}#representation-space
+[Reproducibility]: {{site.baseurl}}{% link glossary/r.md %}#reproducibility
 [Reptile]: {{site.baseurl}}{% link glossary/r.md %}#reptile
 [Reranking]: {{site.baseurl}}{% link glossary/r.md %}#reranking
 [Resample]: {{site.baseurl}}{% link glossary/r.md %}#resample

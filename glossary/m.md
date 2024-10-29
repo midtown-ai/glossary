@@ -1217,14 +1217,33 @@ def mse_loss(y_pred, y_true):
  See also [M], ...
 
 
-# MLFlow
+# MLflow Tool
+# MLflow Python Module
+# MLflow
+
+ MLflow is an open-source MLOps platform. With MLflow, you can track experiments and manage multiple models.
+
+ If you’d like to learn more about the end-to-end machine learning cycle, you can try using MLflow. You can contribute to a range of functionalities—artifact stores, model registry APIs, and more. Getting Started: Visit MLflow’s GitHub repository to find issues and learn how to contribute.
+
+ Purpose:
+  * [Experiment tracking]
+  * [Model evaluation]
+  * [Model deployment]
+  * [Model registry]
+  * [MLOps]
+  * ... with a UI !
 
  {% youtube "https://www.youtube.com/watch?v=dIamK2NA-G8" %}
  
   More at:
-   * [https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145](https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145)
+   * site - [https://mlflow.org/](https://mlflow.org/)
+   * docs - [https://mlflow.org/docs/latest/index.html](https://mlflow.org/docs/latest/index.html)
+   * github - [https://github.com/mlflow/mlflow](https://github.com/mlflow/mlflow)
+   * articles
+     * [https://machinelearningmastery.com/7-open-source-machine-learning-projects-contribute-today/](https://machinelearningmastery.com/7-open-source-machine-learning-projects-contribute-today/)
+     * [https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145](https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145)
 
-  See also [M], [Kubeflow]
+  See also [M], [Kubeflow], [Python Module]
 
 
 # MLOps
@@ -1382,10 +1401,12 @@ def mse_loss(y_pred, y_true):
   * estimates for claude model - [https://orenleung.com/anthropic-claude-next-cost](https://orenleung.com/anthropic-claude-next-cost)
 
 
-# Model Development Lifecycle
+# Model Development Life Cycle
 # MDLC
 
- See also [M], [DDLC], [SDLC]
+ ![]( {{site.assets}}/m/model_development_life_cycle.png ){: width="100%"}
+
+ See also [M], [Life Cycle]
 
 
 # Model Drift
@@ -1442,6 +1463,12 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
 
  ![]( {{site.assets}}/m/model_evaluation_reinforcement_learning.png ){: width="100%"}
 
+ In the case of an LLM, an evaluation in prompt engineering refers to the process of evaluating an LLM's performance on a given dataset after it has been trained. You then use evals to:
+  * assess a model's knowledge of a specific domain or capability on a given task
+  * measure progress or change when shifting between model generations
+
+ ![]( {{site.assets}}/m/model_evaluation_llm.png ){: width="100%"}
+
  Q: What is the difference with a [model validation] ?
 
  More at:
@@ -1464,6 +1491,18 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
  * [TorchScript Format] - A PyTorch format with no dependency on Python
 
  See also [M], ...
+
+
+# Model Governance
+
+ For 2 aspects:
+  * [Explainability]
+  * [Reproducibility]
+
+ ![]( {{site.assets}}/m/model_governance.png ){: width="100%"}
+
+ See also [M], [Data Development Life Cycle], [Regulatory Landscape], [Software Development Life Cycle]
+
 
 # Model Hub
 

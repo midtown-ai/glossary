@@ -63,6 +63,8 @@
 [Optimizer]: {{ site.baseurl }}{% link glossary/o.md %}#optimizer
 [Optimus Robot]: {{ site.baseurl }}{% link glossary/o.md %}#optimus-robot
 [Optimus]: {{ site.baseurl }}{% link glossary/o.md %}#optimus-robot
+[Optuna Python Module]: {{ site.baseurl }}{% link glossary/o.md %}#optuna-python-module
+[Optuna]: {{ site.baseurl }}{% link glossary/o.md %}#optuna-python-module
 [Orca Model Family]: {{ site.baseurl }}{% link glossary/o.md %}#orca-model-family
 [Orca Model]: {{ site.baseurl }}{% link glossary/o.md %}#orca-model-family
 [Orca Models]: {{ site.baseurl }}{% link glossary/o.md %}#orca-model-family

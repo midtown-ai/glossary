@@ -39,6 +39,11 @@ layout: page
  See also [X], ...
 
 
+# XGBoost
+
+ See [Extreme Gradient Boosting]
+
+
 # Yann LeCun Person
 
  {% youtube "https://www.youtube.com/watch?v=bub58oYJTm0" %}

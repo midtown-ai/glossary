@@ -796,6 +796,16 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
  See also [L], [Autonomous Vehicle]
 
 
+# Life Cycle
+
+ * [Product Development Life Cycle (PDLC)][PDLC]
+ * [Software Development Life Cycle (SDLC)][SDLC]
+ * [Model Development Life Cycle (MDLC)][MDLC]
+ * [Data Development Life Cycle (DDLC)][DDLC]
+
+ See also [L], ...
+
+
 # Light Gradient Boosting Machine
 # LightGBM
 

@@ -923,7 +923,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
   * [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021PC0206](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021PC0206)
   * decoding - [https://hai.stanford.edu/news/analyzing-european-union-ai-act-what-works-what-needs-improvement](https://hai.stanford.edu/news/analyzing-european-union-ai-act-what-works-what-needs-improvement)
 
- See also [E], [AI Bill Of Rights]
+ See also [E], [AI Bill Of Rights], [Regulatory Landscape]
 
 
 # Evident AI Index
@@ -1234,6 +1234,26 @@ Shape AI’s potential to transform education by creating resources to support e
  See also [E], ...
 
 
+# Experiment
+
+ In AI/ML, an experiment refers to a structured process of testing and evaluating different models, algorithms, or configurations to achieve a particular goal, like maximizing accuracy or minimizing loss. Each experiment typically involves a unique combination of data preprocessing steps, model architectures, hyperparameters, training techniques, and other configurations. By running experiments, data scientists and machine learning engineers test hypotheses about how changes to these components affect performance on specific tasks.
+
+ See also [E], [Experiment Tracking]
+
+
+# Experiment Tracking
+
+ Experiment tracking is the practice of systematically recording and organizing the details of each experiment. This includes tracking parameters, code versions, datasets, metrics (e.g., accuracy, loss), and even environment details (like software and hardware specifications) used in the experiment. Effective experiment tracking allows for:
+  * Reproducibility: So results can be verified or re-created.
+  * Comparability: Allowing researchers to evaluate which configurations yield the best results.
+  * Collaboration: Making it easier for team members to understand past experiments and build on each other's work.
+  * Optimization: By maintaining a detailed history, researchers can observe trends and make informed decisions on improving models over time.
+
+ Tools like [MLflow], [Weights & Biases], and [Neptune] are commonly used for experiment tracking in ML workflows.
+
+ See also [E], ...
+
+
 # Expert System
 
  In [artificial intelligence], an expert system is a computer system emulating the decision-making ability of a human expert. Expert systems are designed to solve complex problems by reasoning through bodies of knowledge, represented mainly as if–then rules rather than through conventional procedural code. The first expert systems were created in the 1970s and then proliferated in the 1980s. Expert systems were among the first truly successful forms of artificial intelligence (AI) software. An expert system is divided into two subsystems: the inference engine and the knowledge base. The knowledge base represents facts and rules. The inference engine applies the rules to the known facts to deduce new facts. Inference engines can also include explanation and debugging abilities.
@@ -1527,12 +1547,54 @@ plt.show()
 
 
 # Extreme Gradient Boosting
-
 # XGBoost
 
- An ensemble method, XGBoost (extreme gradient boosting) is a popular and efficient open-source implementation of the gradient-boosted trees algorithm. Gradient boosting is a machine learning algorithm that attempts to accurately predict target variables by combining the estimates of a set of simpler, weaker models (several decision trees?). By applying gradient boosting to decision tree models in a highly scalable manner, XGBoost does remarkably well in machine learning competitions. It also robustly handles a variety of data types, relationships, and distributions. It provides a large number of hyperparameters—variables that can be tuned to improve model performance. This flexibility makes XGBoost a solid choice for various machine learning problems such as classifications and regressions. Example image recognition of a car: Before you recognize the car, does the thing have wheels, are they door, etc... if it has all of those features then it must be a car.
+ An ensemble method, XGBoost (extreme gradient boosting) is a popular and efficient open-source implementation of the gradient-boosted trees algorithm. Gradient boosting is a machine learning algorithm that attempts to accurately predict target variables by combining the estimates of a set of simpler, weaker models (several decision trees?). By applying gradient boosting to decision tree models in a highly scalable manner, XGBoost does remarkably well in machine learning competitions. It also robustly handles a variety of data types, relationships, and distributions. It provides a large number of hyperparameters—variables that can be tuned to improve model performance. This flexibility makes XGBoost a solid choice for various [supervised machine learning] tasks/problems such as [classifications] and [regressions].
+
+ Example image recognition of a car: Before you recognize the car, does the thing have wheels, are they door, etc... if it has all of those features then it must be a car.
+
+ Here's why XGBoost stands out:
+  * Efficiency and Speed: XGBoost is highly optimized for speed and performance. It uses efficient memory usage and parallel processing, making it suitable for large datasets and often faster than many other algorithms.
+  * Regularization: XGBoost has built-in regularization terms (L1 and L2) that help prevent overfitting, giving it an advantage over other gradient-boosting frameworks by enhancing generalization.
+  * Handling Missing Data: XGBoost can automatically learn best values for missing data, which makes it more flexible for real-world data with incomplete entries.
+  * Tree Pruning: It uses a "maximum depth" parameter to prevent trees from growing too complex and overfitting, as well as a "min_child_weight" parameter to ensure each leaf node has a minimum amount of data, improving overall robustness.
+  * Cross-Validation Support: XGBoost has built-in support for cross-validation, helping optimize model parameters during training.
+  * Wide Application: Due to its effectiveness, XGBoost is widely used in machine learning competitions and is a go-to model for structured/tabular data, where its performance often outshines simpler algorithms.
+
+XGBoost has been applied in various fields, from finance to healthcare, and is especially popular in competitions like Kaggle due to its high accuracy and flexibility.
 
  ![]( {{site.assets}}/e/extreme_gradient_boosting.png ){: width="100%"}
+
+ ```
+# Import necessary libraries
+import xgboost as xgb
+from sklearn.model_selection import train_test_split
+from sklearn.datasets import load_iris
+from sklearn.metrics import accuracy_score
+
+# Load the Iris dataset
+data = load_iris()
+X = data.data
+y = data.target
+
+# Split the data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Create the XGBoost model
+# XGBClassifier is the classification model from the XGBoost library.
+# We specify parameters, such as objective='multi:softmax' for multi-class classification and eval_metric='mlogloss' to track log-loss during training.
+model = xgb.XGBClassifier(objective='multi:softmax', num_class=3, eval_metric='mlogloss', use_label_encoder=False)
+
+# Train the model
+model.fit(X_train, y_train)
+
+# Make predictions on the test set
+y_pred = model.predict(X_test)
+
+# Evaluate the model
+accuracy = accuracy_score(y_test, y_pred)
+print(f"Accuracy: {accuracy * 100:.2f}%")
+ ```
 
  {% youtube "https://www.youtube.com/watch?v=XXHhrlL-FWc" %}
 

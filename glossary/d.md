@@ -225,14 +225,14 @@ layout: page
  See also [D], ...
 
 
-# Data Development Lifecycle
+# Data Development Life Cycle
 # DDLC
 
  Develop the data first , but still protected
 
  Currently data is the exhaust of other processes that are not concerned with sharing clean data.
 
- See also [D], ...
+ See also [D], [Life Cycle]
 
 
 # Data Drift

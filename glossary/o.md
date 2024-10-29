@@ -495,8 +495,14 @@ cheese =>                                   # Prompt
 
 
 # OpenCV Python Module
+# OpenCV
+
+ OpenCV is a popular open-source Python library for computer vision. You can use it for almost all image processing and computer vision tasks. Besides basic image processing tasks, you can use it for object detection, real-time image and video processing, and more.
+
+ If you’re interested in computer vision, OpenCV is a must-know library. So once you’re comfortable, you can try to go deeper and contribute to the library if you have strong C++ skills. Else, you can also choose to improve the docs.
 
  More at:
+  * github - [https://github.com/opencv/opencv](https://github.com/opencv/opencv)
   * Sample project - [https://github.com/ecemay/open_cv_studies](https://github.com/ecemay/open_cv_studies)
 
  See also [O], [Computer Vision]
@@ -710,6 +716,29 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
   * wikipedia - [https://en.wikipedia.org/wiki/Optimus_(robot)](https://en.wikipedia.org/wiki/Optimus_(robot))
 
  See also [O], ...
+
+
+# Optuna Python Module
+# Optuna
+
+ Finding the best hyperparameters for machine learning models is important to ensure good model performance. But hyperparameter search can be quite expensive computationally. Optuna is an automated framework for hyperparameter search.
+
+ You can use Optuna with common frameworks like PyTorch, TensorFlow, and Scikit-Learn. You can contribute to integrations, bug fixes, and improvements.
+
+ Getting Started: Explore the Optuna GitHub repository to go over the list of available issues and get started.
+
+ {% youtube "https://www.youtube.com/watch?v=J_aymk4YXhg" %}
+
+ {% youtube "https://www.youtube.com/watch?v=-UeC4MR3PHM" %}
+
+ More at:
+  * site - [https://optuna.org/](https://optuna.org/)
+  * github - [https://github.com/optuna/optuna](https://github.com/optuna/optuna)
+  * paper - [https://arxiv.org/abs/1907.10902](https://arxiv.org/abs/1907.10902)
+  * articles
+    * [https://machinelearningmastery.com/7-open-source-machine-learning-projects-contribute-today/](https://machinelearningmastery.com/7-open-source-machine-learning-projects-contribute-today/)
+
+ See also [O], [Python Module]
 
 
 # Orca Model Family

@@ -1216,6 +1216,27 @@ Prediction Error = actual_value - predicted_value
  See also [P], ...
 
 
+# Product Development Life Cycle
+# PDLC
+
+ Go to the Aha moment!
+ What is your Aha moment? When you experience the value of the product 
+ * What does awesome looks like?
+ * What do the users do before the Aha moment?
+
+ * Remove friction to the Aha moment
+ * Better customer experience
+
+ * As a user vs as a PM
+
+ * Reduce number of step to ...
+ * Predict user churn and campaign to stay back
+ * Cross-sell and upsell different products
+ * Personalize to the user and behavior to ..
+
+ See also [P], [Life Cycle]
+
+
 # Product Quantization
 # PQ
 
@@ -1632,7 +1653,9 @@ print(user.model_dump())
     * [LangSmith] - Trace and evaluate your language model applications and intelligent agents  
   * [Llamaindex] - 
   * [Matplotlib] - for visualization
+  * [MLflow] - to keep track of experiment for [model reproducibility] and [model evaluation]
   * [Numpy] -
+  * [Optuna] - Hyperparameter optimization
   * [Pandas] - to work with tabular data
   * [Pycaret] - A low-code machine learning library
   * [Pydantic] - Turn raw text into objects for validation and more.

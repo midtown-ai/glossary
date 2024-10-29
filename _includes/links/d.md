@@ -18,8 +18,8 @@
 [Data Augmentation]: {{ site.baseurl }}{% link glossary/d.md %}#data-augmentation
 [Data Cleaning]: {{ site.baseurl }}{% link glossary/d.md %}#data-cleaning
 [Data Collection]: {{ site.baseurl }}{% link glossary/d.md %}#data-collection
-[Data Development Lifecycle]: {{ site.baseurl }}{% link glossary/d.md %}#data-development-lifecycle
-[DDLC]: {{ site.baseurl }}{% link glossary/d.md %}#data-development-lifecycle
+[Data Development Life Cycle]: {{ site.baseurl }}{% link glossary/d.md %}#data-development-life-cycle
+[DDLC]: {{ site.baseurl }}{% link glossary/d.md %}#data-development-life-cycle
 [Data Drift]: {{ site.baseurl }}{% link glossary/d.md %}#data-drift
 [Data Federation]: {{ site.baseurl }}{% link glossary/d.md %}#data-federation
 [Data Handling]: {{ site.baseurl }}{% link glossary/d.md %}#data-handling

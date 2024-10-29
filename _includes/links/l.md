@@ -89,6 +89,7 @@
 [Leopold Aschenbrenner]: {{ site.baseurl }}{% link glossary/l.md %}#leopold-aschenbrenner-person
 [Lexical Search]: {{ site.baseurl }}{% link glossary/l.md %}#lexical-search
 [LIDAR]: {{ site.baseurl }}{% link glossary/l.md %}#lidar
+[Life Cycle]: {{ site.baseurl }}{% link glossary/l.md %}#life-cycle
 [Light Gradient Boosting Machine]: {{ site.baseurl }}{% link glossary/l.md %}#light-gradient-boosting-machine
 [LightGBM]: {{ site.baseurl }}{% link glossary/l.md %}#light-gradient-boosting-machine
 [Likelihood]: {{ site.baseurl }}{% link glossary/l.md %}#likelihood

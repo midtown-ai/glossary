@@ -647,6 +647,21 @@ Recall = % of positively identified
  See also [R], [Support Vector Classifier]
 
 
+# Regulatory Landscape
+
+ Regulatory landscape refers to the complete framework of laws, rules, and regulations that govern an industry or business activity. This includes:
+  * All applicable laws and regulations
+  * Government agencies and regulatory bodies
+  * Current and upcoming regulatory requirements
+  * Policy directions and regulatory trends
+
+ ![]( {{site.assets}}/r/regulatory_landscape.png ){: width="100%"}
+
+ Q: How are regulation difference from AI principles?
+
+ See also [R], [AI Bill Of Rights], [AI Principles], [European Union AI Act]
+
+
 # REINFORCE Algorithm
 
  REINFORCE is a Monte-Carlo variant of policy gradients (Monte-Carlo: taking random samples). The agent collects a [trajectory] τ of one [episode] using its current [policy], and uses it to update the policy parameter. Since one full trajectory must be completed to construct a sample space, REINFORCE is updated in an [off-policy] way.
@@ -918,6 +933,11 @@ Recall = % of positively identified
  See also [R], [Backpropagation], [Decoder Representation Space], [Encoder Representation Space], [Ground Truth], [Label], [Loss Function]
 
 
+# Reproducibility
+
+ See also [R], [Model Governance]
+
+
 # Reptile
 
  Use the direction of theta (parameter?) to change phy (hyper parameter).
@@ -1052,7 +1072,7 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
   * People and planet
 
  What are we responsible for?
-  * Promoting ethical development, implementation, and monitoring throughout the AI lifecycle
+  * Promoting ethical development, implementation, and monitoring throughout the AI life cycle
   * Centering well-being, human and civil rights, professional ethics, and people in our technology.
 
  What processes, tools, and norms can achieve these goals?

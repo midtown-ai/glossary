@@ -123,7 +123,9 @@
 [ML Algorithm Evaluation]: {{ site.baseurl }}{% link glossary/m.md %}#ml-algorithm-evaluation
 [ML Energy Initiative]: {{ site.baseurl }}{% link glossary/m.md %}#ml-energy-initiative
 [MLCommons]: {{ site.baseurl }}{% link glossary/m.md %}#mlcommons
-[MLFlow]: {{ site.baseurl }}{% link glossary/m.md %}#mlflow
+[MLflow Tool]: {{ site.baseurl }}{% link glossary/m.md %}#mlflow-tool
+[MLflow Python Module]: {{ site.baseurl }}{% link glossary/m.md %}#mlflow-tool
+[MLflow]: {{ site.baseurl }}{% link glossary/m.md %}#mlflow-tool
 [MLOps]: {{ site.baseurl }}{% link glossary/m.md %}#mlops
 [Model]: {{ site.baseurl }}{% link glossary/m.md %}#model
 [Model Agnostic Meta Learning]: {{ site.baseurl }}{% link glossary/m.md %}#model-agnostic-meta-learning
@@ -138,8 +140,8 @@
 [Model Denial Of Service]: {{ site.baseurl }}{% link glossary/m.md %}#model-denial-of-service
 [Model DoS]: {{ site.baseurl }}{% link glossary/m.md %}#model-denial-of-service
 [MDoS]: {{ site.baseurl }}{% link glossary/m.md %}#model-denial-of-service
-[Model Development Lifecycle]: {{ site.baseurl }}{% link glossary/m.md %}#model-development-lifecycle
-[MDLC]: {{ site.baseurl }}{% link glossary/m.md %}#model-development-lifecycle
+[Model Development Life Cycle]: {{ site.baseurl }}{% link glossary/m.md %}#model-development-life-cycle
+[MDLC]: {{ site.baseurl }}{% link glossary/m.md %}#model-development-life-cycle
 [Model Drift]: {{ site.baseurl }}{% link glossary/m.md %}#model-drift
 [Model Evaluation]: {{ site.baseurl }}{% link glossary/m.md %}#model-evaluation
 [Model Firewall]: {{ site.baseurl }}{% link glossary/m.md %}#model-firewall

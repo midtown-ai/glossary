@@ -121,6 +121,8 @@
 [Experience Batch]: {{site.baseurl }}{% link glossary/e.md %}#experience-batch
 [Experience Replay]: {{site.baseurl }}{% link glossary/e.md %}#experience-replay
 [Experience Replay Buffer]: {{site.baseurl }}{% link glossary/e.md %}#experience-replay-buffer
+[Experiment]: {{site.baseurl }}{% link glossary/e.md %}#experiment
+[Experiment Tracking]: {{site.baseurl }}{% link glossary/e.md %}#experiment-tracking
 [Expert System]: {{site.baseurl }}{% link glossary/e.md %}#expert-system
 [Expert Systems]: {{site.baseurl }}{% link glossary/e.md %}#expert-system
 [Explainability]: {{site.baseurl }}{% link glossary/e.md %}#explainability
@@ -138,4 +140,4 @@
 [ELU]: {{site.baseurl }}{% link glossary/e.md %}#exponential-linear-unit-activation-function
 [Expressiveness]: {{site.baseurl }}{% link glossary/e.md %}#expressiveness
 [Extreme Gradient Boosting]: {{site.baseurl }}{% link glossary/e.md %}#extreme-gradient=boosting
-[XGBoost]: {{site.baseurl }}{% link glossary/e.md %}#xgboost
+[XGBoost]: {{site.baseurl }}{% link glossary/e.md %}#extreme-gradient=boosting

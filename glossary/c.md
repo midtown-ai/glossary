@@ -334,6 +334,7 @@ Using it is really simple: we just apply the same formula we used for PSI, but i
   * [https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5](https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5)
   * [https://www.technologyreview.com/2023/01/26/1067299/chatgpt-workout-plans/](https://www.technologyreview.com/2023/01/26/1067299/chatgpt-workout-plans/)
   * articles
+    * 2024/10/03 - canvas introduction - [https://openai.com/index/introducing-canvas/](https://openai.com/index/introducing-canvas/)
     * 1 year anniversary - [https://aimagazine.com/machine-learning/chatgpts-first-birthday-a-year-in-review](https://aimagazine.com/machine-learning/chatgpts-first-birthday-a-year-in-review)
     * how was built - [https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/)
     * college essay is dead - [https://www.theatlantic.com/technology/archive/2022/12/chatgpt-ai-writing-college-student-essays/672371/](https://www.theatlantic.com/technology/archive/2022/12/chatgpt-ai-writing-college-student-essays/672371/)
@@ -1030,6 +1031,27 @@ print(query_result)
  These limitations often mean that expert systems are most effective when applied to well-defined, narrow domains rather than broad, open-ended problem spaces. More recent approaches in AI, such as machine learning and deep learning, have been developed in part to address some of these limitations.
 
  See also [C], [Cyc Export System]
+
+
+
+# Compliance
+
+ [Regulatory landscape] refers to the complete framework of laws, rules, and regulations that govern an industry or business activity. This includes:
+  * All applicable laws and regulations
+  * Government agencies and regulatory bodies
+  * Current and upcoming regulatory requirements
+  * Policy directions and regulatory trends
+
+ Compliance focuses specifically on what organizations need to do to meet those regulatory requirements, including:
+  * Internal policies and procedures
+  * Systems and controls needed for adherence
+  * Monitoring and reporting mechanisms
+  * Staff training and awareness programs
+  * Documentation requirements
+
+ Think of it this way: The regulatory landscape is "what the rules are," while the compliance is "how organizations follow those rules."
+
+ See also [C], ...
 
 
 # Compliance Analysis

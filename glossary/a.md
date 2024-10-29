@@ -589,6 +589,8 @@ k is the number of predictors (not counting the intercept)
 
 # Agency
 
+ ~  having control over your action (free will)
+
  Agency refers to the capacity for human beings to make choices and take actions that affect the world. It is closely related to the concept of free will - the ability to make decisions and choices independently. Some key aspects of agency include:
 
   * Autonomy - Being able to act according to one's own motivations and values, independently of outside influence or control. This involves having the freedom and capacity to make one's own choices.
@@ -756,12 +758,14 @@ k is the number of predictors (not counting the intercept)
 
  A form of [Bias]
 
+ The bias is coming from the selection of the training data.
+
  More at:
   * [https://mostly.ai/blog/why-bias-in-ai-is-a-problem](https://mostly.ai/blog/why-bias-in-ai-is-a-problem)
   * [https://mostly.ai/blog/10-reasons-for-bias-in-ai-and-what-to-do-about-it-fairness-series-part-2](https://mostly.ai/blog/10-reasons-for-bias-in-ai-and-what-to-do-about-it-fairness-series-part-2)
   * [https://mostly.ai/blog/tackling-ai-bias-at-its-source-with-fair-synthetic-data-fairness-series-part-4](https://mostly.ai/blog/tackling-ai-bias-at-its-source-with-fair-synthetic-data-fairness-series-part-4)
 
- See also [A], [#Fair AI]
+ See also [A], [Fair AI]
 
 
 # AI Bill of Rights
@@ -778,7 +782,7 @@ k is the number of predictors (not counting the intercept)
   * [https://www.whitehouse.gov/ostp/ai-bill-of-rights/](https://www.whitehouse.gov/ostp/ai-bill-of-rights/)
   * podcast - [https://www.nytimes.com/2023/04/11/opinion/ezra-klein-podcast-alondra-nelson.html](https://www.nytimes.com/2023/04/11/opinion/ezra-klein-podcast-alondra-nelson.html)
 
- See also [A], [AI Principle]
+ See also [A], [AI Principle], [Regulatory Landscape]
 
 
 # AI Book

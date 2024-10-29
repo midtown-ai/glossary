@@ -1271,7 +1271,7 @@ Social robots also work as concierges in hotels and other settings like malls, w
 # Software Development Life Cycle
 # SDLC
 
- See also [S], [DDLC], [MDLC]
+ See also [S], [Life Cycle]
 
 
 # Software Development Life Cycle Agent

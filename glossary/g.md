@@ -476,6 +476,7 @@ output = m(input)
    * GPTs are GPTs papers - [https://arxiv.org/abs/2303.10130](https://arxiv.org/abs/2303.10130)
    * articles
      * MIT TR deployment strategy - [https://www.technologyreview.com/2023/10/10/1081117/generative-ai-deployment-strategies-for-smooth-scaling/](https://www.technologyreview.com/2023/10/10/1081117/generative-ai-deployment-strategies-for-smooth-scaling/)
+     * OpenAI Function Calling - [https://cobusgreyling.medium.com/emergence-of-large-action-models-lams-and-their-impact-on-ai-agents-424d3df5df28](https://cobusgreyling.medium.com/emergence-of-large-action-models-lams-and-their-impact-on-ai-agents-424d3df5df28)
 
  See also [G], [ChatGPT Model], [Digital Watermark], [Fine-Tuning], [GPT Function Calling], [InstructGPT Model], [Natural Language Processing], [Pre-Trained Model], [RadioGPT], [WebGPT Model]
 
