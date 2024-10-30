@@ -47,6 +47,8 @@
 [SOM Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
 [SOM]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
 [Self-Play]: {{ site.baseurl}}{% link glossary/s.md %}#self-play
+[Self-Reflective Retrieval Augmented Generation System]: {{ site.baseurl}}{% link glossary/s.md %}#self-reflective-retrieval-augmented-generation-system
+[Self-Reflective RAG]: {{ site.baseurl}}{% link glossary/s.md %}#self-reflective-retrieval-augmented-generation-system
 [Self-Supervised Learning]: {{ site.baseurl}}{% link glossary/s.md %}#self-supervised-learning
 [SSL]: {{ site.baseurl}}{% link glossary/s.md %}#self-supervised-learning
 [Semantic Embedding]: {{ site.baseurl}}{% link glossary/s.md %}#semantic-embedding

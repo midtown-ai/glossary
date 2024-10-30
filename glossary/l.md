@@ -216,7 +216,7 @@ completion = llm(prompt)
 
 # LangGraph Python Module
 
- The new way to run agent with [LangChain]
+ A state machine way to run agent with [LangChain]
 
  To build custom agents and more than just simple chains
   * state graph
@@ -224,11 +224,83 @@ completion = llm(prompt)
   * edges = wire everything together
     * conditional edges = [LLM] decides which node to go to next (tools)
   * compile the graph so you can then run the graph!
+  * <!> With memory, you can restart a graph from a particular state (instead of from the start)
+
+ ```
+ Invoke = Get the response from the LLM all at once
+  * You cn also invoke a graph!!! where you pass parameters to a GraphState
+
+ Stream = Get the response from the LLM in a streaming fashion (display or process as you receive characters)
+  * 2 modes = value and updates
+    * value = full list every time
+    * update = only get the updates
+
+ GraphState = Key value store
+  * an object with attributes in python
+
+ Node = Take a GraphState as input
+  * Implemented as a python function
+  * An execution in python
+  * Get inputs from the state
+  * Write outputs to the state or exteranl call (simple print)
+  * can update the state (unlike edges)
+  * Examples:
+    * Generate a response node
+    * Use external tools such as accesssing an external database
+    * Hallucination checker
+
+ Edge =
+  * can be passed a state (which is immutable at the edge level?)
+
+ GraphBuilder = The object used to build the execution graph
+  * Add node
+  * add edge (start and end node + link added nodes)
+  * add conditional edge (if true, do that , otherwise does this other thing)
+  * Not sure you can add nodes to existing graphs
+
+ BinaryScore = output "yes" or "no" equivalent for branching conditions?
+
+ Structured Output = formatted output
+
+ Schema Override = reformat the output coming from the LangChain library or LLM (include input, output, document, number of iteration, etc)
+
+ Human in the loop garantee <-- a person must sign-off on an given action before execution
+
+ Parallelisation = parallel execution
+
+ CustomState reducer = provide a function on how to update a state (maybe by adding the new value to a list instead of overriding a parameter's value)
+  * Used to handle state updates
+  * Frequently used in parallelization
+
+ Agent vs Subagent = Top agent is router and subagent is responsible for execution and report to top agent at the end
+
+ Graph Execution Pause = when a node fails
+
+ Memory = used for multi-turn conversation (entire set of messages instead of just the last one)
+  * Can be done in in-memory, or externally with SQLite PostgreSQL, and other connectors to other databases
+
+ Thread = how we separate users who are using the same application
+  * are identified with a Thread ID
+  * Used to find the proper memory in the memory store
+  * Id thread ID does not exist, Cstart with a new
+
+ Long Term memory store = what is learned from the user and is available in every threads
+  * Used to profile users
+ ```
 
  {% youtube "https://www.youtube.com/watch?v=PqS1kib7RTw" %}
 
  More at:
   * docs - [https://python.langchain.com/docs/langgraph](https://python.langchain.com/docs/langgraph)
+  * articles
+    * CRAG - [https://www.datacamp.com/tutorial/corrective-rag-crag](https://www.datacamp.com/tutorial/corrective-rag-crag)
+
+ See also [L], ...
+
+
+# LangGraph Studio
+
+ A visual debugger for [LangGraph] ==> nicer UI to [LangSmith]
 
  See also [L], ...
 
@@ -242,10 +314,20 @@ completion = llm(prompt)
 
 # LangSmith Python Module
 
+ Observability stack from LangChain 
+
+ 3 areas:
+  * Tracing (input, state, retrieved documents, latency, final output) + tokens per LLM call + request costs
+  * Prompt Engineering
+  * ...
+
+ ![]( {{site.assets}}/l/langsmith.png ){: width="100%"}
+
  More at:
   * 
 
  See also [L], ...
+
 
 # Language Model
 
@@ -794,16 +876,6 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 # LIDAR 
 
  See also [L], [Autonomous Vehicle]
-
-
-# Life Cycle
-
- * [Product Development Life Cycle (PDLC)][PDLC]
- * [Software Development Life Cycle (SDLC)][SDLC]
- * [Model Development Life Cycle (MDLC)][MDLC]
- * [Data Development Life Cycle (DDLC)][DDLC]
-
- See also [L], ...
 
 
 # Light Gradient Boosting Machine

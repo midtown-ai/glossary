@@ -1406,7 +1406,7 @@ def mse_loss(y_pred, y_true):
 
  ![]( {{site.assets}}/m/model_development_life_cycle.png ){: width="100%"}
 
- See also [M], [Life Cycle]
+ See also [M], [Development Life Cycle]
 
 
 # Model Drift
@@ -1501,7 +1501,7 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
 
  ![]( {{site.assets}}/m/model_governance.png ){: width="100%"}
 
- See also [M], [Data Development Life Cycle], [Regulatory Landscape], [Software Development Life Cycle]
+ See also [M], [Data Development Life Cycle], [Development Life Cycle], [Model Development Life Cycle], [Regulatory Landscape], [Software Development Life Cycle]
 
 
 # Model Hub

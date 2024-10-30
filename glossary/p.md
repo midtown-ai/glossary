@@ -1234,7 +1234,7 @@ Prediction Error = actual_value - predicted_value
  * Cross-sell and upsell different products
  * Personalize to the user and behavior to ..
 
- See also [P], [Life Cycle]
+ See also [P], [Development Life Cycle]
 
 
 # Product Quantization

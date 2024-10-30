@@ -169,6 +169,17 @@ layout: page
  See also [D], [Data Augmentation], [Data Normalisation], [Information], [Knowledge], [Structured Data], [Unstructured Data]
 
 
+# Data Access
+
+ * [Data Provider]
+ * [Data Consumer]
+ * [Data Controller]
+
+ ![]( {{site.assets}}/d/data_access.jpeg ){: width="100%"}
+
+ See also [D], [Data Control]
+
+
 # Data Analyst
 
  Focused on the tools.
@@ -225,6 +236,28 @@ layout: page
  See also [D], ...
 
 
+# Data Consumer
+
+ See also [D], [Data Access]
+
+
+# Data Control
+
+ The 3 dimensions of data control
+  * [Data Access] - data portability rights
+  * [Data Governance] - participatory schemes
+  * [Data Usage Control] - consent mechanisms
+
+ ![]( {{site.assets}}/d/data_control.jpeg ){: width="100%"}
+
+ See also [D], ...
+
+
+# Data Controller
+
+ See also [D], [Data Access], [Data Control]
+
+
 # Data Development Life Cycle
 # DDLC
 
@@ -232,7 +265,7 @@ layout: page
 
  Currently data is the exhaust of other processes that are not concerned with sharing clean data.
 
- See also [D], [Life Cycle]
+ See also [D], [Development Life Cycle], [Model Governance]
 
 
 # Data Drift
@@ -268,6 +301,11 @@ layout: page
   * possibly not a single version of truth, duplication of data
 
  See also [D], [Data Management]
+
+
+# Data Governance
+
+ See also [D], [Data Control]
 
 
 # Data Handling
@@ -403,6 +441,29 @@ layout: page
   * ...
 
  See also [D], ...
+
+
+# Data Usage Control
+# DUC
+
+ It refers to a set of policies, mechanisms, and technologies that govern how data can be used after it has been shared or accessed. DUC systems help organizations:
+  * Monitor data usage
+  * Enforce usage restrictions
+  * Track data flow
+  * Ensure compliance with data protection policies
+  * Control data access and distribution
+
+ DUC is particularly important in enterprise environments, cloud computing, and scenarios where sensitive data needs to be shared while maintaining control over how it's used by recipients.
+
+ ![]( {{site.assets}}/d/data_usage_control_overview.png ){: width="100%"}
+
+ ![]( {{site.assets}}/d/data_usage_control_diagram.jpeg ){: width="100%"}
+
+ More at:
+  * articles
+    * [https://guidehouse.com/insights/advanced-solutions/2022/mapping-exploding-data-terrain](https://guidehouse.com/insights/advanced-solutions/2022/mapping-exploding-data-terrain)
+
+ See also [D], [Data Control], [Data Development Life Cycle], [Model Governance]
 
 
 # Data Visualization
@@ -1114,6 +1175,16 @@ We need to do this for
  A node whose output is the same given a set of inputs. Works unlike a stochastic node! 
 
  See also [D], [Stochastic Node], [Variational Autoencoder Reparametrization Trick]
+
+
+# Development Life Cycle
+
+ * [Product Development Life Cycle (PDLC)][PDLC]
+ * [Software Development Life Cycle (SDLC)][SDLC]
+ * [Model Development Life Cycle (MDLC)][MDLC]
+ * [Data Development Life Cycle (DDLC)][DDLC]
+
+ See also [D], [Model Governance]
 
 
 # Development Subset

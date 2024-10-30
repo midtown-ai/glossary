@@ -1657,6 +1657,38 @@ train()
  See also [C], [Dataset], [GPT], [Natural Language Processing]
 
 
+# Corrective Retrieval Augmented Generation
+# Corrective RAG
+# CRAG
+
+ ~ an improved version of [RAG] that aims to make language models more accurate
+
+ While traditional RAG simply uses retrieved documents to help generate text, CRAG takes it a step further by actively checking and refining these documents to ensure they are relevant and accurate. This helps reduce errors or hallucinations where the model might produce incorrect or misleading information.
+
+ In CRAG, the retrieval evaluator is a fine-tuned T5-large model. The evaluator assigns a confidence score to each document, categorizing them into three levels of confidence:
+  * Correct: If at least one document scores above the upper threshold, it is considered correct. The system then applies a knowledge refinement process, using a decompose-then-recompose algorithm to extract the most important and relevant knowledge strips while filtering out any irrelevant or noisy data within the documents. This ensures that only the most accurate and relevant information is retained for the generation process.
+  * Incorrect: If all documents fall below a lower threshold, they are marked as incorrect. In this case, CRAG discards all the retrieved documents and instead performs a web search to gather new, potentially more accurate external knowledge. This step extends the retrieval process beyond static or limited knowledge base by leveraging the vast and dynamic information available on the web, increasing the likelihood of retrieving relevant and accurate data.
+  * Ambiguous: When the retrieved documents contain mixed results, it will be considered ambiguous. In this case, CRAG combines both strategies: it refines information from the initially retrieved documents and incorporates additional knowledge obtained from web searches.
+
+ After one of these actions is taken, the refined knowledge is used to generate the final response.
+
+ CRAG makes several key improvements over traditional RAG. One of its biggest advantages is its ability to fix errors in the information it retrieves. The retrieval evaluator in CRAG helps spot when information is wrong or irrelevant, so it can be corrected before it affects the final output. This means CRAG provides more accurate and reliable information, cutting down on errors and misinformation.
+
+ CRAG also excels in making sure the information is both relevant and accurate. While traditional RAG might only check relevance scores, CRAG goes further by refining the documents to ensure they are not just relevant but also precise. It filters out irrelevant details and focuses on the most important points, so the generated text is based on accurate information.
+
+
+ ![]( {{site.assets}}/c/corrective_retrieval_augmented_generation.png ){: width="100%"}
+
+ {% pdf "https://arxiv.org/pdf/2401.15884.pdf" %}
+
+ More at:
+  * paper -
+  * articles
+    * [https://www.datacamp.com/tutorial/corrective-rag-crag](https://www.datacamp.com/tutorial/corrective-rag-crag)
+
+ See also [C], ...
+
+
 # Correlation
 
  :warning: Correlation is not causation!

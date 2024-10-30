@@ -67,6 +67,7 @@
 [Regression Tree]: {{site.baseurl}}{% link glossary/r.md %}#regression-tree
 [Regularization]: {{site.baseurl}}{% link glossary/r.md %}#regularization
 [Regularization Parameter]: {{site.baseurl}}{% link glossary/r.md %}#regularization-parameter
+[Regulatory Landscape]: {{site.baseurl}}{% link glossary/r.md %}#regulatory-landscape
 [REINFORCE Algorithm]: {{site.baseurl}}{% link glossary/r.md %}#reinforce-algorithm
 [REINFORCE]: {{site.baseurl}}{% link glossary/r.md %}#reinforce-algorithm
 [Reinforcement Learning]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning

@@ -133,6 +133,9 @@
 [CoreML Framework]: {{ site.baseurl }}{% link glossary/c.md %}#coreml-framework
 [CoreML Tool]: {{ site.baseurl }}{% link glossary/c.md %}#coreml-tool
 [Corpus]: {{ site.baseurl }}{% link glossary/c.md %}#corpus
+[Corrective Retrieval Augmented Generation System]: {{ site.baseurl }}{% link glossary/c.md %}#corrective-retrieval-augmented-generation-system
+[Corrective RAG]: {{ site.baseurl }}{% link glossary/c.md %}#corrective-retrieval-augmented-generation-system
+[CRAG]: {{ site.baseurl }}{% link glossary/c.md %}#corrective-retrieval-augmented-generation
 [Cortical Labs Company]: {{ site.baseurl }}{% link glossary/c.md %}#cortical-labs-company
 [Cortical Labs]: {{ site.baseurl }}{% link glossary/c.md %}#cortical-labs-company
 [Cosine Similarity Function]: {{ site.baseurl }}{% link glossary/c.md %}#cosine-similarity-function

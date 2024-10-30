@@ -1274,7 +1274,7 @@ Shape AI’s potential to transform education by creating resources to support e
 
  {% youtube "https://www.youtube.com/watch?v=UZDiGooFs54" %}
 
- See also [E], ...
+ See also [E], [Model Governance]
 
 
 # Explainability Spectrum

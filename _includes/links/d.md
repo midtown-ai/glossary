@@ -14,14 +14,19 @@
 [DARPA Urban Challenge]: {{ site.baseurl }}{% link glossary/d.md %}#darpa-urban-challenge
 [Dartmouth Workshop]: {{ site.baseurl }}{% link glossary/d.md %}#dartmouth-workshop
 [Data]: {{ site.baseurl }}{% link glossary/d.md %}#data
+[Data Access]: {{ site.baseurl }}{% link glossary/d.md %}#data-access
 [Data Analyst]: {{ site.baseurl }}{% link glossary/d.md %}#data-analyst
 [Data Augmentation]: {{ site.baseurl }}{% link glossary/d.md %}#data-augmentation
 [Data Cleaning]: {{ site.baseurl }}{% link glossary/d.md %}#data-cleaning
 [Data Collection]: {{ site.baseurl }}{% link glossary/d.md %}#data-collection
+[Data Consumer]: {{ site.baseurl }}{% link glossary/d.md %}#data-consumer
+[Data Control]: {{ site.baseurl }}{% link glossary/d.md %}#data-control
+[Data Controller]: {{ site.baseurl }}{% link glossary/d.md %}#data-controller
 [Data Development Life Cycle]: {{ site.baseurl }}{% link glossary/d.md %}#data-development-life-cycle
 [DDLC]: {{ site.baseurl }}{% link glossary/d.md %}#data-development-life-cycle
 [Data Drift]: {{ site.baseurl }}{% link glossary/d.md %}#data-drift
 [Data Federation]: {{ site.baseurl }}{% link glossary/d.md %}#data-federation
+[Data Governance]: {{ site.baseurl }}{% link glossary/d.md %}#data-governance
 [Data Handling]: {{ site.baseurl }}{% link glossary/d.md %}#data-handling
 [Data Lake]: {{ site.baseurl }}{% link glossary/d.md %}#data-lake
 [Data Leakage]: {{ site.baseurl }}{% link glossary/d.md %}#data-leakage
@@ -32,10 +37,13 @@
 [Data Point]: {{ site.baseurl }}{% link glossary/d.md %}#data-point
 [Data Poisoning]: {{ site.baseurl }}{% link glossary/d.md %}#data-poisoning
 [Data Preparation]: {{ site.baseurl }}{% link glossary/d.md %}#data-preparation
+[Data Provider]: {{ site.baseurl }}{% link glossary/d.md %}#data-provider
 [Data Reduction]: {{ site.baseurl }}{% link glossary/d.md %}#data-reduction
 [Data Science]: {{ site.baseurl }}{% link glossary/d.md %}#data-science
 [Data Scientist]: {{ site.baseurl }}{% link glossary/d.md %}#data-scientist
 [Data Transformation]: {{ site.baseurl }}{% link glossary/d.md %}#data-transformation
+[Data Usage Control]: {{ site.baseurl }}{% link glossary/d.md %}#data-usage-control
+[DUC]: {{ site.baseurl }}{% link glossary/d.md %}#data-usage-control
 [Data Visualization]: {{ site.baseurl }}{% link glossary/d.md %}#data-visualization
 [Data Wall]: {{ site.baseurl }}{% link glossary/d.md %}#data-wall
 [Data Warehouse]: {{ site.baseurl }}{% link glossary/d.md %}#data-warehouse
@@ -121,6 +129,7 @@
 [Depth Maps]: {{ site.baseurl }}{% link glossary/d.md %}#depth-map
 [Derivative Chain Rule]: {{ site.baseurl }}{% link glossary/d.md %}#derivative-chain-rule
 [Deterministic Node]: {{ site.baseurl }}{% link glossary/d.md %}#deterministic-node
+[Development Life Cycle]: {{ site.baseurl }}{% link glossary/d.md %}#development-life-cycle
 [Development Subset]: {{ site.baseurl }}{% link glossary/d.md %}#development-subset
 [DevOPS]: {{ site.baseurl }}{% link glossary/d.md %}#devops
 [DGX Cloud]: {{ site.baseurl }}{% link glossary/d.md %}#dgx-cloud

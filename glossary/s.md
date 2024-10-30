@@ -512,6 +512,22 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
  See also [S], ...
 
 
+# Self-Reflective Retrieval Augmented Generation System
+# Self-Reflective RAG
+
+ ~ a more advanced version of a traditional [RAG system]
+
+ Self-Reflective RAG, closely related to [CRAG], incorporates feedback loops such as re-generating questions or re-retrieving documents based on the relevance and accuracy of the initially retrieved information. This approach necessitates the use of state machines, where a series of steps and transitions are defined to enhance the relevance and quality of the generated content.
+
+ ![]( {{site.assets}}/s/self_reflective_retrieval_augmented_generation_workflow.png ){: width="100%}
+
+ More at:
+  * articles
+    * [https://blog.langchain.dev/agentic-rag-with-langgraph/](https://blog.langchain.dev/agentic-rag-with-langgraph/)
+
+ See also [S], ...
+
+
 # Self-Supervised Learning
 # SSL
 
@@ -1271,7 +1287,7 @@ Social robots also work as concierges in hotels and other settings like malls, w
 # Software Development Life Cycle
 # SDLC
 
- See also [S], [Life Cycle]
+ See also [S], [Development Life Cycle]
 
 
 # Software Development Life Cycle Agent
@@ -1838,10 +1854,15 @@ II n summary, probability is focused on the theoretical study of random events, 
 
 # Steerability
 
+ ~ Set the behavior of the LLM in a [system prompt]
+
  A property of large language models, where you can use a system prompt to tell them to behave a certain way.
- This started being possible with the [GPT-4] model, where you could specify it needs to behave like a Socratic tutor, ask questions, and never give the answer, and it would do it! Using earlier model, such as [GPT-3] and derivative, regardless of the direction you were putting in the prompt, the [LLM] would not follow the direction.
+ This started being possible with the [GPT-4] model, where you could specify it needs to behave like a Socratic tutor, ask questions, and never give the answer, and it would do it! 
+
+ Using earlier model, such as [GPT-3] and derivative, regardless of the direction you were putting in the prompt, the [LLM] would not follow the direction.
 
  See also [S], ...
+
 
 # Step Activation Function
 
@@ -2404,7 +2425,7 @@ ln(c)
 
 # System Prompt
 
- A system prompt is always included in all new contexts/requests?
+ A system prompt is always included in all new contexts/requests? Only if the model is steerable!
 
  Includes
   * name
@@ -2419,4 +2440,4 @@ ln(c)
 
  {% youtube "https://www.youtube.com/watch?v=zNACfPuaqaI" %}
 
- See also [S], ...
+ See also [S], [Steerability]

@@ -543,9 +543,8 @@ There are various kinds of neocognitron. For example, some types of neocognitron
 # Neural Radiance Field
 # NeRF
 
- Execute a view synthesis based on several pictures/images 
+ Execute a 3D-view synthesis based on several 2D pictures/images 
    * Can help to build [Depth Maps]
-
 
  Overfit a neural network to a complete scene.
   * The scene is in the weights
@@ -565,7 +564,7 @@ There are various kinds of neocognitron. For example, some types of neocognitron
  {% pdf "https://arxiv.org/pdf/2205.16005.pdf" %}
 
  More at:
-  * paper - [https://arxiv.org/abs/2205.16005]
+  * paper - [https://arxiv.org/abs/2205.16005](https://arxiv.org/abs/2205.16005)
 
  See also [N], ...
 
@@ -574,7 +573,6 @@ There are various kinds of neocognitron. For example, some types of neocognitron
 
  Here is the empirical observation: "Bigger model with more data and more compute keeps getting better!"
   * Better = Validation loss has a lower error rate
-
 
  Lines
   * [Compute Efficient Frontier]

@@ -1132,60 +1132,6 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  See also [R], [Boltzmann Machine]
 
 
-# Retrieval-Augmented Generation System
-# RAG System
-
- ~ A [compound AI system] that consists of an LLM that works with a [retriever]
-
- Fields:
-  * Document ID (DOI)   <== used for deletion, not for query
-  * Chunk ID (chunk id)
-  * metadata <== delete on metadata not available in pinecone serverless
-  * vector ID (ID)
-    * prefix = field constructed for filtering (a bit like metadata) ex: <DOI>#<chunk-ID># ...
-
- Retrieval-augmented generation is a technique used in [natural language processing] that combines the power of both [retrieval models] and [generative models] to enhance the quality and relevance of generated text.
-
- Now, retrieval-augmented generation combines these two approaches to overcome their individual limitations. In this framework, a retrieval model is used to retrieve relevant information from a knowledge base or a set of documents based on a given query or context. The retrieved information is then used as input or additional context for the generative model.
-
- There are 2 components in RAGs:
-  * [RAG Retriever] or reader componentbased on [vector retrieval]
-  * [RAG Generator] or writer component
-
- RAG paradigm
-  * [Naive RAG]
-  * [Advanced RAG]
-  * [Modular RAG]
-
- Current evaluation frameworks:
-  * [RAG Triad Of Metrics]
-  * [ROUGE]
-  * [BLEU]
-  * [RAGAs]
-  * [Automated RAG Evaluation System (ARES)][ARES]
-
- Large Language Models (LLMs) demonstrate significant capabilities but face challenges such as hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by incorporating knowledge from external databases. This enhances the accuracy and credibility of the models, particularly for knowledge-intensive tasks, and allows for continuous knowledge updates and integration of domain-specific information. RAG synergistically merges LLMs' intrinsic knowledge with the vast, dynamic repositories of external databases. This comprehensive review paper offers a detailed examination of the progression of RAG paradigms, encompassing the Naive RAG, the Advanced RAG, and the Modular RAG. It meticulously scrutinizes the tripartite foundation of RAG frameworks, which includes the retrieval , the generation and the augmentation techniques. The paper highlights the state-of-the-art technologies embedded in each of these critical components, providing a profound understanding of the advancements in RAG systems. Furthermore, this paper introduces the metrics and benchmarks for assessing RAG models, along with the most up-to-date evaluation framework.
-
- ![]( {{site.assets}}/r/retrieval_augmented_generation_emergence.png ){: width="100%"}
-
- ![]( {{site.assets}}/r/retrieval_augmented_generation.webp ){: width="100%"}
-
- {% youtube "https://www.youtube.com/watch?v=T-D1OfcDW1M" %}
-
- {% youtube "https://www.youtube.com/watch?v=ypzmPwLH_Q4" %}
-
- {% pdf "https://arxiv.org/pdf/2312.10997.pdf" %}
-
- More at:
-  * paper - [https://arxiv.org/abs/2312.10997](https://arxiv.org/abs/2312.10997)
-  * code - [https://github.com/Tongji-KGLLM/RAG-Survey](https://github.com/Tongji-KGLLM/RAG-Survey)
-  * articles
-    * [https://community.fullstackretrieval.com/](https://community.fullstackretrieval.com/)
-    * [https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79](https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79)
-
- See also [R], [Modular Reasoning Knowledge and Language System], [Vector Retrieval]
-
-
 # Retrieval-Augmented Generation Assessment
 # RAG Assessment
 # RAGA
@@ -1222,14 +1168,12 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  * Test for completeness
  * Test for brand damage
 
-
-
  More at:
   * articles
     * [https://towardsdatascience.com/evaluating-rag-applications-with-ragas-81d67b0ee31a](https://towardsdatascience.com/evaluating-rag-applications-with-ragas-81d67b0ee31a)
     * [https://www.rungalileo.io/blog/mastering-rag-8-scenarios-to-test-before-going-to-production](https://www.rungalileo.io/blog/mastering-rag-8-scenarios-to-test-before-going-to-production)
 
- See also [R], ...
+ See also [R], [LangSmith]
 
 
 # Retrieval-Augmented Generation Generator
@@ -1246,6 +1190,65 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  A component of a [RAG] that uses its augmented context to give an answer. Using it results in limited hallucinations.
 
  See also [R], ...
+
+
+# Retrieval-Augmented Generation System
+# RAG System
+
+ ~ A [compound AI system] that consists of an LLM that works with a [retriever]
+
+ Fields:
+  * Document ID (DOI)   <== used for deletion, not for query
+  * Chunk ID (chunk id)
+  * metadata <== delete on metadata not available in pinecone serverless
+  * vector ID (ID)
+    * prefix = field constructed for filtering (a bit like metadata) ex: <DOI>#<chunk-ID># ...
+
+ Retrieval-augmented generation is a technique used in [natural language processing] that combines the power of both [retrieval models] and [generative models] to enhance the quality and relevance of generated text.
+
+ Now, retrieval-augmented generation combines these two approaches to overcome their individual limitations. In this framework, a retrieval model is used to retrieve relevant information from a knowledge base or a set of documents based on a given query or context. The retrieved information is then used as input or additional context for the generative model.
+
+ There are 2 components in RAGs:
+  * [RAG Retriever] or reader componentbased on [vector retrieval]
+  * [RAG Generator] or writer component
+
+ RAG paradigm
+  * Naive RAG
+  * Advanced RAG
+    * [Corrective RAG] - advanced retriever
+    * [Self-Reflective RAG] - RAG as a state machine
+  * [Modular RAG]
+
+ Current evaluation frameworks:
+  * [RAG Triad Of Metrics]
+  * [ROUGE]
+  * [BLEU]
+  * [RAGAs]
+  * [Automated RAG Evaluation System (ARES)][ARES]
+
+ Large Language Models (LLMs) demonstrate significant capabilities but face challenges such as hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by incorporating knowledge from external databases. This enhances the accuracy and credibility of the models, particularly for knowledge-intensive tasks, and allows for continuous knowledge updates and integration of domain-specific information. RAG synergistically merges LLMs' intrinsic knowledge with the vast, dynamic repositories of external databases. This comprehensive review paper offers a detailed examination of the progression of RAG paradigms, encompassing the Naive RAG, the Advanced RAG, and the Modular RAG. It meticulously scrutinizes the tripartite foundation of RAG frameworks, which includes the retrieval , the generation and the augmentation techniques. The paper highlights the state-of-the-art technologies embedded in each of these critical components, providing a profound understanding of the advancements in RAG systems. Furthermore, this paper introduces the metrics and benchmarks for assessing RAG models, along with the most up-to-date evaluation framework.
+
+ ![]( {{site.assets}}/r/retrieval_augmented_generation_emergence.png ){: width="100%"}
+
+ ![]( {{site.assets}}/r/retrieval_augmented_generation.webp ){: width="100%"}
+
+ ![]( {{site.assets}}/r/retrieval_augmented_generation_troubleshooting.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=T-D1OfcDW1M" %}
+
+ {% youtube "https://www.youtube.com/watch?v=ypzmPwLH_Q4" %}
+
+ {% pdf "https://arxiv.org/pdf/2312.10997.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2312.10997](https://arxiv.org/abs/2312.10997)
+  * code - [https://github.com/Tongji-KGLLM/RAG-Survey](https://github.com/Tongji-KGLLM/RAG-Survey)
+  * articles
+    * [https://www.datacamp.com/tutorial/corrective-rag-crag](https://www.datacamp.com/tutorial/corrective-rag-crag)
+    * [https://community.fullstackretrieval.com/](https://community.fullstackretrieval.com/)
+    * [https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79](https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79)
+
+ See also [R], [Modular Reasoning Knowledge and Language System], [Vector Retrieval]
 
 
 # Retrieval-Augmented Generation Triad Of Metrics

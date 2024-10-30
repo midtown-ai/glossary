@@ -14,6 +14,9 @@
 [LangChain]: {{ site.baseurl }}{% link glossary/l.md %}#langchain-python-module
 [LangFlow Python Module]: {{ site.baseurl }}{% link glossary/l.md %}#langflow-python-module
 [LangFlow]: {{ site.baseurl }}{% link glossary/l.md %}#langflow-python-module
+[LangGraph Python Module]: {{ site.baseurl }}{% link glossary/l.md %}#langgraph-python-module
+[LangGraph]: {{ site.baseurl }}{% link glossary/l.md %}#langgraph-python-module
+[LangGraph Studio]: {{ site.baseurl }}{% link glossary/l.md %}#langgraph-studio
 [LangSmith Python Module]: {{ site.baseurl }}{% link glossary/l.md %}#langsmith-python-module
 [LangSmith]: {{ site.baseurl }}{% link glossary/l.md %}#langsmith-python-module
 [Language Model]: {{ site.baseurl }}{% link glossary/l.md %}#language-model
@@ -89,7 +92,6 @@
 [Leopold Aschenbrenner]: {{ site.baseurl }}{% link glossary/l.md %}#leopold-aschenbrenner-person
 [Lexical Search]: {{ site.baseurl }}{% link glossary/l.md %}#lexical-search
 [LIDAR]: {{ site.baseurl }}{% link glossary/l.md %}#lidar
-[Life Cycle]: {{ site.baseurl }}{% link glossary/l.md %}#life-cycle
 [Light Gradient Boosting Machine]: {{ site.baseurl }}{% link glossary/l.md %}#light-gradient-boosting-machine
 [LightGBM]: {{ site.baseurl }}{% link glossary/l.md %}#light-gradient-boosting-machine
 [Likelihood]: {{ site.baseurl }}{% link glossary/l.md %}#likelihood
@@ -116,6 +118,7 @@
 [Log Loss Function]: {{ site.baseurl }}{% link glossary/l.md %}#log-loss-function
 [Log Transformation]: {{ site.baseurl }}{% link glossary/l.md %}#log-transformation
 [Logic Model]: {{ site.baseurl }}{% link glossary/l.md %}#logic-model
+[Logical Reasoning]: {{ site.baseurl }}{% link glossary/l.md %}#logical-reasoning
 [Logistic Regression]: {{ site.baseurl }}{% link glossary/l.md %}#logistic-regression
 [Logistic Regressions]: {{ site.baseurl }}{% link glossary/l.md %}#logistic-regression
 [LogReg]: {{ site.baseurl }}{% link glossary/l.md %}#logistic-regression
