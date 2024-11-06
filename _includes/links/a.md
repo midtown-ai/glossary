@@ -24,7 +24,9 @@
 [Actor-Critic]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-algorithm
 [Actor-Critic Architecture]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-architecture
 [Actor-Critic With Experience Replay Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-with-experience-replay-algorithm
+[Actor-Critic With Experience Replay]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-with-experience-replay-algorithm
 [ACER Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-with-experience-replay-algorithm
+[ACER]: {{ site.baseurl }}{% link glossary/a.md %}#actor-critic-with-experience-replay-algorithm
 [Adapter Layer]: {{ site.baseurl }}{% link glossary/a.md %}#adapter-layer
 [Adapter Layers]: {{ site.baseurl }}{% link glossary/a.md %}#adapter-layer
 [Adapter]: {{ site.baseurl }}{% link glossary/a.md %}#adapter-layer
@@ -101,6 +103,7 @@
 [AI Paper]: {{ site.baseurl }}{% link glossary/a.md %}#ai-paper
 [AI Policy]: {{ site.baseurl }}{% link glossary/a.md %}#ai-policy
 [AI Principle]: {{ site.baseurl }}{% link glossary/a.md %}#ai-principle
+[AI Principles]: {{ site.baseurl }}{% link glossary/a.md %}#ai-principle
 [AI Quote]: {{ site.baseurl }}{% link glossary/a.md %}#ai-quote
 [AI Regulation]: {{ site.baseurl }}{% link glossary/a.md %}#ai-regulation
 [AI Research]: {{ site.baseurl }}{% link glossary/a.md %}#ai-research
@@ -245,8 +248,8 @@
 [ASR]: {{ site.baseurl }}{% link glossary/a.md %}#automatic-speech-recognition
 [Automation]: {{ site.baseurl }}{% link glossary/a.md %}#automation
 [AutoML]: {{ site.baseurl }}{% link glossary/a.md %}#automl
-[Autonomous AI Agent]: {{ site.baseurl }}{% link glossary/a.md %}#autonomous-ai-agent
-[Autonomous AI Agents]: {{ site.baseurl }}{% link glossary/a.md %}#autonomous-ai-agent
+[Autonomous Agent]: {{ site.baseurl }}{% link glossary/a.md %}#autonomous-agent
+[Autonomous Agents]: {{ site.baseurl }}{% link glossary/a.md %}#autonomous-agent
 [Autonomous Vehicle]: {{ site.baseurl }}{% link glossary/a.md %}#autonomous-vehicle
 [Autoregressive Model]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive-model
 [Autoregressive Convolutional Neural Network]: {{ site.baseurl }}{% link glossary/a.md %}#autoregressive-convolutional-neural-network

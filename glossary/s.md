@@ -1543,8 +1543,8 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
 # Stability AI Company
 
  The [company] that created 
-   * [StableCode]
-   * [StableDiffusion]
+   * [Stable Code]
+   * [Stable Diffusion]
 
  More at:
   * [https://stability.ai/](https://stability.ai/)
@@ -1552,9 +1552,9 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  See also [S], ...
 
 
-# StableCode Model
+# Stable Code Model
 
- StableCode offers a unique way for developers to become more efficient by using three different models to help in their coding. The base model was first trained on a diverse set of programming languages from the stack-dataset (v1.2) from BigCode and then trained further with popular languages like Python, Go, Java, Javascript, C, markdown and C++.  In total, we trained our models on 560B tokens of code on our HPC cluster. 
+ Stable Code offers a unique way for developers to become more efficient by using three different models to help in their coding. The base model was first trained on a diverse set of programming languages from the stack-dataset (v1.2) from BigCode and then trained further with popular languages like Python, Go, Java, Javascript, C, markdown and C++.  In total, we trained our models on 560B tokens of code on our HPC cluster. 
 
  After the base model had been established, the instruction model was then tuned for specific use cases to help solve complex programming tasks. ~120,000 code instruction/response pairs in Alpaca format were trained on the base model to achieve this result. 
 
@@ -1571,7 +1571,7 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  See also [S], ...
 
 
-# StableDiffusion Model
+# Stable Diffusion Model
 
  [Denoising Diffusion Probabilistic Model] by [Stability AI]
 

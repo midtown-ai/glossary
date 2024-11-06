@@ -145,7 +145,10 @@ layout: page
 # Uniform Manifold Approximation and Projection
 # UMAP
 
- ~ an algorithm used for [Dimensionality Reduction]
+ ~ an algorithm used for [Dimensionality Reduction] 
+
+ Example applications:
+  * 2D or 3D visualizing the generated [vector space] representations of movies from the movies [dataset]
 
  Pros:
   * Non-linear reduction that is computationally faster than [t-SNE]
@@ -170,6 +173,8 @@ layout: page
   * docs - [https://umap-learn.readthedocs.io/en/latest/how_umap_works.html](https://umap-learn.readthedocs.io/en/latest/how_umap_works.html)
   * embedding projector - [https://projector.tensorflow.org/(https://projector.tensorflow.org/)
   * [https://dimensionality-reduction-293e465c2a3443e8941b016d.vercel.app/](https://dimensionality-reduction-293e465c2a3443e8941b016d.vercel.app/)
+  * notebooks
+    * [https://github.com/togethercomputer/together-cookbook/blob/main/Embedding_Visualization.ipynb](https://github.com/togethercomputer/together-cookbook/blob/main/Embedding_Visualization.ipynb)
 
  See also [U], ... 
 

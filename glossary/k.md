@@ -259,7 +259,10 @@ layout: page
  {% youtube "https://www.youtube.com/watch?v=WqYBx2gB6vA" %}
 
  More at:
-  * [https://ai.stanford.edu/blog/introduction-to-knowledge-graphs/](https://ai.stanford.edu/blog/introduction-to-knowledge-graphs/)
+  * notebooks
+    * [https://github.com/togethercomputer/together-cookbook/blob/main/Knowledge_Graphs_with_Structured_Outputs.ipynb](https://github.com/togethercomputer/together-cookbook/blob/main/Knowledge_Graphs_with_Structured_Outputs.ipynb)
+  * articles
+    * [https://ai.stanford.edu/blog/introduction-to-knowledge-graphs/](https://ai.stanford.edu/blog/introduction-to-knowledge-graphs/)
 
  See also [K], [Graph Neural Network]
 

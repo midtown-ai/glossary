@@ -645,7 +645,9 @@ k is the number of predictors (not counting the intercept)
   * [Reinforcement Learning (RL) agents][RL Agent] whose goal is to maximize a total reward
   * [Modular Reasoning Knowledge and Language (MRKL) Agents][MRKL Agent] whom can reason through a LLM and use external tools
   * ...
-  * [Autonomous AI Agents] forming a [society of mind]
+  * [Autonomous Agents] forming a [society of mind]
+    * [Intelligent Agents] - incorporate learning
+    * [Rational Agents] - make decision to achieve the best outcome based on the info available to them
 
  ![]( {{site.assets}}/a/ai_agent.png){: width="100%" }
 
@@ -2546,11 +2548,11 @@ If you don't ___ at the sign, you will get a ticket
  See also [A], [Hyperparameter Tuning], [Early Stopping], [Neural Architecture Search]
 
 
-# Autonomous AI Agent
+# Autonomous Agent
 
  ~ several of them form a [society of mind]
 
- ![]( {{site.assets}}/a/autonomous_ai_agent.png ){:width="100%"}
+ ![]( {{site.assets}}/a/autonomous_agent.png ){:width="100%"}
 
  {% youtube "https://www.youtube.com/watch?v=rDljQuwM2o8" %}
 

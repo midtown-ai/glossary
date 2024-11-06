@@ -178,10 +178,10 @@
 [SQuAD Benchmark]: {{ site.baseurl}}{% link glossary/s.md %}#squad-benchmark
 [Stability AI Company]: {{ site.baseurl}}{% link glossary/s.md %}#stability-ai-company
 [Stability AI]: {{ site.baseurl}}{% link glossary/s.md %}#stability-ai-company
-[StableCode Model]: {{ site.baseurl}}{% link glossary/s.md %}#stablecode-model
-[StableCode]: {{ site.baseurl}}{% link glossary/s.md %}#stablecode-model
-[StableDiffusion Model]: {{ site.baseurl}}{% link glossary/s.md %}#stablediffusion-model
-[StableDiffusion]: {{ site.baseurl}}{% link glossary/s.md %}#stablediffusion-model
+[Stable Code Model]: {{ site.baseurl}}{% link glossary/s.md %}#stable-code-model
+[Stable Code]: {{ site.baseurl}}{% link glossary/s.md %}#stable-code-model
+[Stable Diffusion Model]: {{ site.baseurl}}{% link glossary/s.md %}#stable-diffusion-model
+[Stable Diffusion]: {{ site.baseurl}}{% link glossary/s.md %}#stable-diffusion-model
 [Standard Knowledge Distillation]: {{ site.baseurl}}{% link glossary/s.md %}#standard-knowledge-distillation
 [Standardization]: {{ site.baseurl}}{% link glossary/s.md %}#standardization
 [Stanford Autonomous Helicopter]: {{ site.baseurl}}{% link glossary/s.md %}#stanford-autonomous-helicopter

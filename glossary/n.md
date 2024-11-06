@@ -799,6 +799,8 @@ Some well-known NP-hard problems include the traveling salesman problem, the kna
   * site - [https://notebooklm.google/](https://notebooklm.google/)
   * articles
     * [https://www.wired.com/story/googles-notebooklm-ai-ultimate-writing-assistant/](https://www.wired.com/story/googles-notebooklm-ai-ultimate-writing-assistant/)
+  * notebooks
+    * [https://github.com/togethercomputer/together-cookbook/blob/main/PDF_to_Podcast.ipynb](https://github.com/togethercomputer/together-cookbook/blob/main/PDF_to_Podcast.ipynb)
 
  See also [N], ...
 

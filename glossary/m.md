@@ -2314,6 +2314,17 @@ AI that can understand the relationships between images, text and more
  See also [M], [Naive Bayes Theorem]
 
 
+# Multimodal Retrieval Augmented Generation 
+# Multimodal RAG
+
+ How to use Multimodal [RAG] to chat with Nvidia's investor slide deck from last year? The slide deck is 39 pages with a combination of text, visuals, tables, charts and annotations. The document structure and templates vary from page to page and is quite difficult to RAG over using traditional methods.
+
+ More at:
+  * [https://github.com/togethercomputer/together-cookbook/blob/main/MultiModal_RAG_with_Nvidia_Investor_Slide_Deck.ipynb](https://github.com/togethercomputer/together-cookbook/blob/main/MultiModal_RAG_with_Nvidia_Investor_Slide_Deck.ipynb)
+
+ See also [M], ...
+
+
 # Multimodal Space
 
  A latent/embedded space where both modality have the same representation.

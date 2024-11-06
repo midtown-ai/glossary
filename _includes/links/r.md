@@ -17,6 +17,8 @@
 [Random Search]: {{site.baseurl}}{% link glossary/r.md %}#random-search
 [Ranking]: {{site.baseurl}}{% link glossary/r.md %}#ranking
 [Raspberry Pi Computer]: {{site.baseurl}}{% link glossary/r.md %}#raspberry-pi-computer
+[Rational Agent]: {{site.baseurl}}{% link glossary/r.md %}#rational-agent
+[Rational Agents]: {{site.baseurl}}{% link glossary/r.md %}#rational-agent
 [Ray Framework]: {{site.baseurl}}{% link glossary/r.md %}#ray-framework
 [Ray]: {{site.baseurl}}{% link glossary/r.md %}#ray-framework
 [Ray Python Module]: {{site.baseurl}}{% link glossary/r.md %}#ray-python-module
@@ -80,10 +82,14 @@
 [Reinforcement Learning Algorithms]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-algorithm
 [RL Algorithm]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-algorithm
 [RL Algorithms]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-algorithm
+[Reinforcement Learning Coordinated Feedback]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-coordinated-feedback
+[RLCF]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-coordinated-feedback
 [Reinforcement Learning From AI Feedback]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-from-ai-feedback
 [RLAIF]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-from-ai-feedback
 [Reinforcement Learning From Human Feedback]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-from-human-feedback
 [RLHF]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-from-human-feedback
+[Reinforcement Learning with Executive Feedback]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-with-executive-feedback
+[RLEF]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-with-executive-feedback
 [Relation]: {{site.baseurl}}{% link glossary/r.md %}#relation
 [Relation Extraction]: {{site.baseurl}}{% link glossary/r.md %}#relation-extraction
 [Relational Deep Learning]: {{site.baseurl}}{% link glossary/r.md %}#relational-deep-learning

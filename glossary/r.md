@@ -180,6 +180,19 @@ R-square = R^2 = -------------------------------------
  See also [R], ...
 
 
+# Rational Agent
+
+ Rational agents take decision-making a step further by aiming to maximize utility –making decisions designed to achieve the best possible outcome based on the information available to them. These agents are not just autonomous or intelligent; they are focused on optimizing their decisions in a given environment, often under conditions of uncertainty. Rational agents are frequently used in simulations, economic models, or high-stakes scenarios where consistently optimal decision-making is critical.
+
+ BEWARE not all [intelligent agents] are rational – an agent may learn and adapt but still not make the most optimal decisions due to imperfect information or computational constraints. Rational agents strive to make the best decisions within the limits of their knowledge and capabilities.
+
+ More at:
+  * articles
+    * [https://www.turingpost.com/p/agentsvocabulary](https://www.turingpost.com/p/agentsvocabulary)
+
+ See also [R], ...
+
+
 # Ray Framework
 
  
@@ -536,17 +549,16 @@ Recall = % of positively identified
 
  ~ algorithm used for [image segmentation]
 
- 1. Object detection --> bounding boxes for 2K proposed region-of-interest, aka ROI pooling
+ 1. [Object detection] --> [bounding boxes] for 2K proposed region-of-interest, aka ROI pooling
  1. Warped image regions
- 1. pass image in CNN
-
+ 1. pass image in [Convolutional Neural Network (CNN)][CNN]
 
  {% youtube "https://www.youtube.com/watch?v=PlXE1_FVtMQ" %}
 
  More at:
   * [https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b](https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b)
 
- See also [R], [CNN]
+ See also [R], ...
 
 
 # Region-Of-Interest Pooling
@@ -639,7 +651,7 @@ Recall = % of positively identified
  More at:
   * [https://machinelearningmastery.com/introduction-to-regularization-to-reduce-overfitting-and-improve-generalization-error/](https://machinelearningmastery.com/introduction-to-regularization-to-reduce-overfitting-and-improve-generalization-error/)
 
- See also [R], [Bias-Variance Trade-Off], [Balanced Fit], [Overfitting], [Underfitting]
+ See also [R], [Bias-Variance Trade-Off], [Balanced Fitting], [Overfitting], [Underfitting]
 
 
 # Regularization Parameter
@@ -700,7 +712,7 @@ Recall = % of positively identified
     * [https://rl-lab.com/](https://rl-lab.com/)
     * [https://huggingface.co/learn/deep-rl-course/unit0/introduction](https://huggingface.co/learn/deep-rl-course/unit0/introduction)
 
- See also [R], [Action], [Action Space], [Continual Reinforcement Learning], [Delayed Reward], [Environment], [Exploitation], [Exploration], [Learning Method], [Machine Learning], [Machine Learning Algorithm], [Markov Decision Process], [Meta Learning], [Observation], [Reward Shaping], [State]
+ See also [R], [Action], [Action Space], [Continual Reinforcement Learning], [Delayed Reward], [Environment], [Exploitation], [Exploration], [Learning Method], [Machine Learning], [Machine Learning Algorithm], [Markov Decision Process], [Meta-Learning], [Observation], [Reward Shaping], [State]
 
 
 # Reinforcement Learning Agent
@@ -744,33 +756,61 @@ Recall = % of positively identified
   * [State-Action-Reward-State-Action (SARSA)][SARSA]
 
 
- * [Evolutionary Algorithms] = Generate policies through ab evolutionary process of selection, mutation, and fitness evaluation. Ex: [Genetic Programming], [Evolution Strategy]
- * [Model-Based RL] = Learn model of environment transistions and rewards, then optimizes policy through planning. Ex: [Dyna Model], [AlphaGo]
- * [Inverse RL] = learn reward function from expert demonstrations. Allows mimicking behavior without rewards.
- * [Hierarchical RL] = Decomposes problem into hierarchy of sub-policies over different timescales
- * [Transfer Learning] = Leverage knowledge fro previous tasks to accelerate learning on new tasks.
+ RL with Targeted feedback
+  * [Reinforcement Learning From Human Feedback] - human, slow and expensive
+  * [Reinforcement Learning From AI Feedback] - AI, fast and low cost, but feedback on final results
+  * [Reinforcement Learning With Executive Feedback] - AI, fast, low cost, on intermediate results
+  * [Reinforcement Learning Coordinated Feedback] - 2 <> teachers, on is LLM, the other is tool/validation based. Used with coding.
+
+ Others:
+  * [Evolutionary Algorithms] = Generate policies through ab evolutionary process of selection, mutation, and fitness evaluation. Ex: [Genetic Programming], [Evolution Strategy]
+  * [Model-Based RL] = Learn model of environment transistions and rewards, then optimizes policy through planning. Ex: [Dyna Model], [AlphaGo]
+  * [Inverse RL] = learn reward function from expert demonstrations. Allows mimicking behavior without rewards.
+  * [Hierarchical RL] = Decomposes problem into hierarchy of sub-policies over different timescales
+  * [Transfer Learning] = Leverage knowledge fro previous tasks to accelerate learning on new tasks.
+
+ ![]( {{site.assets}}/r/reinforcement_learning_with_targeted_feeback.png ){: width="100%"}
 
  More at:
-  * ...
+  * articles
+    * [https://www.turingpost.com/p/rl-f](https://www.turingpost.com/p/rl-f)
 
  See also [R], ...
 
 
-# Reinforcement Learning From AI Feedback
+# Reinforcement Learning Coordinated Feedback
+# RLCF
+
+ RLCF leverages compiler and LLM feedback to reinforce code quality, guiding models to generate syntactically correct, semantically sound code. It's ideal for tuning code models without human input. This training happens after traditional pre-training but before task-specific fine-tuning.
+
+ ![]( {{site.assets}}/r/reinforcement_learning_coordinated_feeback.avif ){: width="100%"}
+
+ More at:
+  * articles
+    * [https://www.turingpost.com/p/rl-f](https://www.turingpost.com/p/rl-f)
+
+ See also [R], ...
+
+
+# Reinforcement Learning from AI Feedback
 # RLAIF
 
  ~ popularized by [Anthropic] as a play on word on [RLHF]. Similar to [constitutional AI]
+
+ It is expensive to collect accurate labels to implement traditional [RLHF] model, RLAIF uses another off-the-shelf model (AI) to evaluate the results of your primary model. Using AI for evaluation saves time, is more efficient, and gives comparable performance to [RLHF] in many use cases.
 
  {% pdf "https://arxiv.org/pdf/2212.08073.pdf" %}
 
  More at:
   * paper - [https://arxiv.org/abs/2212.08073](https://arxiv.org/abs/2212.08073)
   * constitutional AI - [https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback](https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback)
+  * articles
+    * [https://www.turingpost.com/p/rl-f](https://www.turingpost.com/p/rl-f)
 
  See also [F], ...
 
 
-# Reinforcement Learning From Human Feedback
+# Reinforcement Learning from Human Feedback
 # RLHF
 
  Reinforcement learning process using human feedback as a reward model. RLHF is use in InstructGPT model, a precursor to ChatGPT model. A way to prevent or make [Red Teaming] language models more difficult?
@@ -785,12 +825,33 @@ Recall = % of positively identified
     * [https://arxiv.org/abs/1706.03741](https://arxiv.org/abs/1706.03741)
   * [https://huggingface.co/blog/rlhf](https://huggingface.co/blog/rlhf)
   * articles
+    * RLHF vs - [https://www.turingpost.com/p/rl-f](https://www.turingpost.com/p/rl-f)
     * RLHF is flawed? - [https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the](https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the)
     * challenges - [https://bdtechtalks.com/2023/09/04/rlhf-limitations/](https://bdtechtalks.com/2023/09/04/rlhf-limitations/)
     * instructGPT - [https://tmmtt.medium.com/the-instructgpt-e25797d8f4df](https://tmmtt.medium.com/the-instructgpt-e25797d8f4df)
     * what is RLHF - [https://bdtechtalks.com/2023/01/16/what-is-rlhf/](https://bdtechtalks.com/2023/01/16/what-is-rlhf/)
 
  See also [R], [ChatGPT Model], [Feedback-Based Learning], [InstructGPT Model], [Reinforcement Learning], 
+
+
+# Reinforcement Learning with Executive Feedback
+# RLEF
+
+ RLEF provides feedback to the model while it generates intermediate results. Instead of relying solely on external evaluations (like rewards or penalties based on results), RLEF provides feedback throughout the steps of an action sequence, allowing the model to adjust in real-time.
+
+ ```
+Imagine you are builiding a tower with blocks.
+As you place each block, a teacher says if you are doing it right or wrong right away, not just at the end.
+So you can fix mistakes right away, making sure the tower stands strong!
+```
+
+ ![]( {{site.assets}}/r/reinforcement_learning_with_executive_feeback.avif ){: width="100%"}
+
+ More at:
+  * articles
+    * RLEF vs - [https://www.turingpost.com/p/rl-f](https://www.turingpost.com/p/rl-f)
+
+ See also [R], ...
 
 
 # Relation
@@ -834,7 +895,7 @@ Recall = % of positively identified
 
  More at:
   * Site - [https://relbench.stanford.edu/](https://relbench.stanford.edu/)
-  * paper - [
+  * paper - 
 
  See also [R], ...
 
@@ -846,7 +907,7 @@ Recall = % of positively identified
 
 # Relative Entropy
 
- See [Kullback-Liebler Divergence]
+ See [Kullback-Leibler Divergence]
 
 
 # Relevancy
@@ -944,7 +1005,7 @@ Recall = % of positively identified
 
  ![]( {{site.assets}}/r/maml_reptile.png ){: width="100%"}
 
- See also [R], [MAML], [Meta Learning]
+ See also [R], [MAML], [Meta-Learning]
 
 
 # Reranking
@@ -959,15 +1020,19 @@ Recall = % of positively identified
 
  Example of applications:
   * Implementing societal objective function in ranking of social posts
-  * ...
+  * [RAG] implementing document semantic search with reranking
 
  ![]( {{site.assets}}/r/reranking_social_objective_functions.png ){: width="100%"}
+
+ ![]( {{site.assets}}/r/reranking_with_semantic_search.png ){: width="100%"}
 
  {% youtube "https://www.youtube.com/watch?v=GSixIsI1eZE" %}
 
  More at:
   * applications
     * social objective functions - [https://youtu.be/IzK55L26FgA?t=8579](https://youtu.be/IzK55L26FgA?t=8579)
+  * notebooks
+    * [https://github.com/togethercomputer/together-cookbook/blob/main/Search_with_Reranking.ipynb](https://github.com/togethercomputer/together-cookbook/blob/main/Search_with_Reranking.ipynb)
 
  See also [R], ...
 
@@ -1025,7 +1090,7 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
  More at:
   * [https://www.geeksforgeeks.org/residual-networks-resnet-deep-learning/](https://www.geeksforgeeks.org/residual-networks-resnet-deep-learning/)
 
- See also [R], [Convoluted Neural Network], [Computer Vision], [Rectified Linear Unit], [Residual Block], [Vanishing Gradient Problem]
+ See also [R], [Convoluted Neural Network], [Computer Vision], [Rectified Linear Unit Activation Function], [Residual Block], [Vanishing Gradient Problem]
 
 
 # Resilient Backpropagation Algorithm
@@ -1217,6 +1282,7 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
   * Advanced RAG
     * [Corrective RAG] - advanced retriever
     * [Self-Reflective RAG] - RAG as a state machine
+    * [Multimodal RAG] - Extract information from slide deck and other images
   * [Modular RAG]
 
  Current evaluation frameworks:

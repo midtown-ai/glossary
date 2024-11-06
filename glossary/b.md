@@ -161,7 +161,7 @@ layout: page
  More at:
   * spam detector - [https://medium.com/coinmonks/spam-detector-using-naive-bayes-c22cc740e257](https://medium.com/coinmonks/spam-detector-using-naive-bayes-c22cc740e257)
 
- See also [B], [Naive Bayes], [Word2Vec]
+ See also [B], [Naive Bayes Classifier], [Word2Vec]
 
 
 # Bagging
@@ -721,7 +721,7 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
   {% youtube "https://www.youtube.com/watch?v=mG-cTS3fnnw" %}
 
- See also [B], [Activation Function], [Balanced Fitting], [Bias Benchmark For Question Answering], [Bias-Variance Tradeoff], [Fair AI], [Overfitting], [Underfitting], [Variance]
+ See also [B], [Activation Function], [Balanced Fitting], [Bias Benchmark For Question Answering], [Bias-Variance Trade-off], [Fair AI], [Overfitting], [Underfitting], [Variance]
 
 
 # Bias Benchmark For Question Answering
@@ -751,7 +751,7 @@ Your belief has shifted towards more red marbles based on the observed data. The
  ![]( {{site.assets}}/b/bias_neuron_line.png ){: width="100%}
 
 
-# Bias-Variance Tradeoff
+# Bias-Variance Trade-off
 
  ~ bias means that the model has a systematic error that prevent it from reaching perfection regardless of input data (e.g. Accuracy cannot be higher than 70% when we use a linear regression, when the underlying distribution is  quadratic!)
  
@@ -1059,6 +1059,11 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
   * [https://en.wikipedia.org/wiki/Boston_Dynamics](https://en.wikipedia.org/wiki/Boston_Dynamics)
 
  See also [B], ...
+
+
+# Bounding Box
+
+ See also [B], [Object Detection]
 
 
 # Box Cox Transformation

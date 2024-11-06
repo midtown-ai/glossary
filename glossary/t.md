@@ -186,6 +186,15 @@ layout: page
  See also [T], ...
 
 
+# Techno Optimism
+
+ See also [T], ...
+
+# Techno Pessimism
+
+ See also [T], ...
+
+
 # Temperature
 
  This [inference configuration parameter] helps to control the randomness of the model output by modifying the shape of the next-token probability distribution. In general, the higher the temperature, the higher the randomness; the lower the temperature, the lower the randomness.
@@ -326,6 +335,49 @@ print(embeddings.shape)  #(4,128)
 # Text Embedding
 
  See [Word Embedding]
+
+
+# Text Extraction
+
+ ~ Optical Character Recognition 
+
+ Text extraction from an image (also known as OCR - Optical Character Recognition) is the process of detecting and converting text content within images into machine-readable, editable text.
+
+ ```
+from together import Together
+
+getDescriptionPrompt = "Extract out the details from each line item on the receipt image. Identify the name, price and quantity of each item. Also specify the total."
+
+imageUrl = "https://ocr.space/Content/Images/receipt-ocr-original.webp"
+
+client = Together(api_key=TOGETHER_API_KEY)
+
+response = client.chat.completions.create(
+    model="meta-llama/Llama-3.2-90B-Vision-Instruct-Turbo",
+    messages=[
+        {
+            "role": "user",
+            "content": [
+                {"type": "text", "text": getDescriptionPrompt},
+                {
+                    "type": "image_url",
+                    "image_url": {
+                        "url": imageUrl,
+                    },
+                },
+            ],
+        }
+    ],
+)
+
+info = response.choices[0].message.content
+ ```
+
+ More at:
+  * notebooks
+    * [https://github.com/togethercomputer/together-cookbook/blob/main/Structured_Text_Extraction_from_Images.ipynb](https://github.com/togethercomputer/together-cookbook/blob/main/Structured_Text_Extraction_from_Images.ipynb)
+
+ See also [T], ...
 
 
 # Text Reconstruction

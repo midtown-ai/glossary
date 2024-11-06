@@ -1086,7 +1086,7 @@ print(query_result)
  * [Object Recognition]
  * [Object Tracking]
  
- See also [C], [Convoluted Neural Network], [OpenCV Library], [ResNET Model]
+ See also [C], [Convolutional Neural Network], [OpenCV Library], [ResNET Model]
 
 
 # Computer Vision and Pattern Recognition Conference

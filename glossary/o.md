@@ -31,23 +31,27 @@ layout: page
 
 # Object Detection
 
+ Object detection is a [computer vision] technique that identifies and locates objects within an image or video. Unlike [image classification], which only labels an object without providing information on its location, object detection goes a step further by both recognizing the object type and marking its position using [bounding boxes].
+
  ![]( {{site.assets}}/o/object_detection.png ){: width="100%"}
 
  More at:
   * [https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b](https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b)
   * [https://docs.ultralytics.com/tasks/detect/](https://docs.ultralytics.com/tasks/detect/)
 
- See also [O], [Computer Vision], [Convolutional Neural Network], [Image Segmentation]
+ See also [O], [Convolutional Neural Network], [Image Processing], [Image Segmentation]
 
 
 # Object Recognition
+
+ Object recognition is a [computer vision] technique that identifies and classifies objects within an image or video based on learned patterns or features. The primary goal of object recognition is to understand "what" objects are present in an image, rather than locating them precisely (which is the focus of [object detection]). However, object recognition is often used in conjunction with [object detection] to identify the objects within [bounding boxes].
 
  See also [O], [Computer Vision]
 
 
 # Object Tracking
 
- Track an object in a video (image per image)
+ ~ Track an object in a video (image per image)
 
  More at:
   * [https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b](https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b)

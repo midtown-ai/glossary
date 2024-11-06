@@ -13,6 +13,8 @@
 [TBL]: {{ site.baseurl }}{% link glossary/t.md %}#task-based-learning
 [Task-Driven Autonomous Agent]: {{ site.baseurl }}{% link glossary/t.md %}#task-driven-autonomous-agent
 [Taxonomy]: {{ site.baseurl }}{% link glossary/t.md %}#taxonomy
+[Techno-Optimism]: {{ site.baseurl }}{% link glossary/t.md %}#techno-optimism
+[Techno-Pessimism]: {{ site.baseurl }}{% link glossary/t.md %}#techno-pessimism
 [Temperature]: {{ site.baseurl }}{% link glossary/t.md %}#temperature
 [Tensor]: {{ site.baseurl }}{% link glossary/t.md %}#tensor
 [Tensor Processing Unit]: {{ site.baseurl }}{% link glossary/t.md %}#tensor-processing-unit

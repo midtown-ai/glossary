@@ -10,8 +10,10 @@
 [Image Analysis]: {{ site.baseurl }}{% link glossary/i.md %}#image-analysis
 [Image Classifier]: {{ site.baseurl }}{% link glossary/i.md %}#image-classifier
 [Image Classification]: {{ site.baseurl }}{% link glossary/i.md %}#image-classification
+[Image Compression]: {{ site.baseurl }}{% link glossary/i.md %}#image-icompression
 [Image Decoder]: {{ site.baseurl }}{% link glossary/i.md %}#image-decoder
 [Image Encoder]: {{ site.baseurl }}{% link glossary/i.md %}#image-encoder
+[Image Enhancement]: {{ site.baseurl }}{% link glossary/i.md %}#image-enhancement
 [Image Filter]: {{ site.baseurl }}{% link glossary/i.md %}#image-filter
 [Image Filters]: {{ site.baseurl }}{% link glossary/i.md %}#image-filter
 [Image Generator]: {{ site.baseurl }}{% link glossary/i.md %}#image-generator
@@ -19,7 +21,9 @@
 [Image JEPA]: {{ site.baseurl }}{% link glossary/i.md %}#image-join-embedding-predictive-architecture
 [I-JEPA]: {{ site.baseurl }}{% link glossary/i.md %}#image-join-embedding-predictive-architecture
 [Image Inpainting]: {{ site.baseurl }}{% link glossary/i.md %}#image-inpainting
+[Image Processing]: {{ site.baseurl }}{% link glossary/i.md %}#image-processing
 [Image Reconstruction]: {{ site.baseurl }}{% link glossary/i.md %}#image-reconstruction
+[Image Restoration]: {{ site.baseurl }}{% link glossary/i.md %}#image-restoration
 [Image Segmentation]: {{ site.baseurl }}{% link glossary/i.md %}#image-segmentation
 [Image-aware Decoder Enhanced a la Flamingo with Interleaved Cross-attentionS Model]: {{ site.baseurl }}{% link glossary/i.md %}#image-aware-decoder-enhanced-a-la-flamingo-with-interleaved-cross-attentions-model
 [IDEFICS Model]: {{ site.baseurl }}{% link glossary/i.md %}#image-aware-decoder-enhanced-a-la-flamingo-with-interleaved-cross-attentions-model
@@ -61,7 +65,9 @@
 [Intelligence]: {{ site.baseurl }}{% link glossary/i.md %}#intelligence
 [Intelligence Augmentation]: {{ site.baseurl }}{% link glossary/i.md %}#intelligence-augmentation
 [IA]: {{ site.baseurl }}{% link glossary/i.md %}#ia
-[Intelligent Digital Assistant]: {{ site.baseurl }}{% link glossary/i.md %}#intelligence-digital- assistant
+[Intelligent Agent]: {{ site.baseurl }}{% link glossary/i.md %}#intelligent-agent
+[Intelligent Agents]: {{ site.baseurl }}{% link glossary/i.md %}#intelligent-agent
+[Intelligent Digital Assistant]: {{ site.baseurl }}{% link glossary/i.md %}#intelligent-digital- assistant
 [IDA]: {{ site.baseurl }}{% link glossary/i.md %}#intelligence-digital- assistant
 [Intent Analysis]: {{ site.baseurl }}{% link glossary/i.md %}#intent-analysis
 [International Conference on Learning Representations Conference]: {{ site.baseurl }}{% link glossary/i.md %}#international-conference-on-learning-representations-conference

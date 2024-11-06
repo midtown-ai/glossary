@@ -547,7 +547,7 @@ H(X) = -∑(p(x) * log2 p(x))
 
 # Environment
 
- In [reinforcement learning], the environment provides [states] or observations of current [state], and [rewards] ([supervised feedback]).
+ In [reinforcement learning], the space in which the [RL agent] operates such as the physical worl (for robots and drones) or a digital space (for trading algorithms and game AI agents). The environment provides [states] or observations of current [state], and [rewards] ([supervised feedback]).
 
  In a RL environment,
   * you cannot use [backpropagation] through an environment (Reward <-- Action <-- State) because too complicated and we cannot compute the derivative!

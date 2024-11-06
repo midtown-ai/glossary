@@ -168,6 +168,7 @@
 [Curriculum Learning]: {{ site.baseurl }}{% link glossary/c.md %}#curriculum-learning
 [Curse Of Dimensionality]: {{ site.baseurl }}{% link glossary/c.md %}#curse-of-dimensionality
 [Custom Churn Prediction]: {{ site.baseurl }}{% link glossary/c.md %}#custom-churn-prediction
+[Custom GPT]: {{ site.baseurl }}{% link glossary/c.md %}#custom-gpt
 [Cybernetic Organism]: {{ site.baseurl }}{% link glossary/c.md %}#cybernetic-organism
 [Cyborg]: {{ site.baseurl }}{% link glossary/c.md %}#cybernetic-organism
 [Cyborg Beetle]: {{ site.baseurl }}{% link glossary/c.md %}#cyborg-bettle

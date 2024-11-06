@@ -107,6 +107,13 @@ model('https://ultralytics.com/images/bus.jpg')  # predict on an image
  See also [I], ...
 
 
+# Image Compression
+
+ A type of [image processing] used to improve the appearance of an image by adjusting brightness, contrast, or reducing noise.
+
+ See also [I], ...
+
+
 # Image Decoder
 
  See also [I], [Decoder], [Image Encoder]
@@ -117,6 +124,13 @@ model('https://ultralytics.com/images/bus.jpg')  # predict on an image
  ~ data compression where the encoder compress the data (not always) Ex: 2 images of lions. Instead of a comparing pixel to pixel, first encode the image to extract similarities and then compare the similarities. The translation from pixels to similarities is done by an encoder. First, let’s call encoder the process that produce the “new features” representation from the “old features” representation (by selection or by extraction) and decoder the reverse process. Dimensionality reduction can then be interpreted as data compression where the encoder compress the data (from the initial space to the encoded space, also called latent space) whereas the decoder decompress them. Of course, depending on the initial data distribution, the latent space dimension and the encoder definition, this compression/representation can be lossy, meaning that a part of the information is lost during the encoding process and cannot be recovered when decoding.
 
  See also [I], [Encoder], [Image Decoder]
+
+
+# Image Enhancement
+
+ A type of [image processing] used to improve the appearance of an image by adjusting brightness, contrast, or reducing noise.
+
+ See also [I], ...
 
 
 # Image Filter
@@ -170,14 +184,23 @@ model.summary()
 
 # Image Generator
 
- More at:
-  * DALL-E - 
-  * Ideogram -
-  * midjourney -
-  * unstability.ai - [https://www.unstability.ai/history](https://www.unstability.ai/history)
-  * Stable diffusion - 
+ AI image generators leverage advanced machine learning algorithms to transform text descriptions into images. These tools are trained on extensive datasets, allowing them to interpret prompts and create anything from simple illustrations to highly detailed, photorealistic scenes. The technology powering these generators often includes neural networks like [Generative Adversarial Networks (GANs)][GAN] or [Diffusion Models].
 
-# Image Join Embedding Predictive ARchitecture
+ More at:
+  * DALL-E - [https://openai.com/index/dall-e-3/](https://openai.com/index/dall-e-3/) 
+  * Flux - [https://aitubo.ai/flux-image-generator/](https://aitubo.ai/flux-image-generator/) 
+  * Ideogram - [https://ideogram.ai/](https://ideogram.ai/)
+  * midjourney - [https://www.midjourney.com/home](https://www.midjourney.com/home)
+  * openArt - [https://openart.ai/home](https://openart.ai/home)
+  * unstability.ai - [https://www.unstability.ai/history](https://www.unstability.ai/history)
+  * Stable diffusion - [https://www.diffus.me/](https://www.diffus.me/ )
+  * articles
+    * [https://anakin.ai/blog/flux-midjourney-dalle-stable-diffusion-comparison/](https://anakin.ai/blog/flux-midjourney-dalle-stable-diffusion-comparison/)
+
+ See also [I], ...
+
+
+# Image Join Embedding Predictive Architecture
 # I-JEPA
 
  A method for [Joint Embedding Predictive Architecture (JEPA)][JEPA] based on image
@@ -198,6 +221,23 @@ model.summary()
  See also [I], [Masked Language Learning Model]
 
 
+# Image Processing
+
+ Image processing involves various techniques to manipulate and analyze images to enhance their quality, extract useful information, or prepare them for further analysis or computer vision tasks. This field is widely used in applications like medical imaging, facial recognition, computer graphics, and digital photography.
+
+ The primary goals in image processing include:
+
+  1. [Image Enhancement] - Improving the appearance of an image by adjusting brightness, contrast, or reducing noise.
+  2. [Image Restoration] - Removing distortions or artifacts (like blurring) that may have occurred during the image capture process.
+  3. [Image Segmentation] - Dividing an image into distinct regions or objects (at the pixel level) to make it easier to analyze specific areas.
+  4. [Object Detection] and [Object Recognition] - Identifying specific objects, patterns, or features within an image.
+  5. [Image Compression] - Reducing the file size for storage and transmission without compromising image quality significantly.
+
+ Techniques in image processing range from basic filters and transformations to complex algorithms involving machine learning and deep learning, especially for tasks like recognition and classification.
+
+ See also [I], ...
+
+
 # Image Reconstruction
 
  ![]( {{site.assets}}/i/image_reconstruction.png ){: width="100%"}
@@ -207,9 +247,18 @@ model.summary()
  See also [I], [BLIP Model], [CLIP Image Encoder], [Text Reconstruction]
 
 
+# Image Restoration
+
+ A type of [image processing] used to remove distortions or artifacts (like blurring) that may have occurred during the image capture process.
+
+ See also [I], ...
+
+
 # Image Segmentation
 
- Image segmentation is a process of dividing an image into multiple segments or regions, each of which corresponds to a different object or part of the image. The goal of image segmentation is to simplify or change the representation of an image into something that is more meaningful and easier to analyze. It is a fundamental task in computer vision and is used in various applications, such as object recognition, tracking, and image editing.
+ ~ Dividing an image into distinct regions or objects (at the pixel level) to make it easier to analyze specific areas.
+
+ Image segmentation is a process of dividing an image into multiple segments or regions, each of which corresponds to a different object or part of the image. The goal of image segmentation is to simplify or change the representation of an image into something that is more meaningful and easier to analyze. It is a fundamental task in computer vision and is used in various applications, such as [object recognition], [object tracking], and image editing.
 
  Image segmentation can be performed using a variety of methods, including [thresholding], clustering, [edge detection], and machine learning algorithms. These methods typically involve grouping pixels or regions of pixels in an image based on similarities in color, texture, or other visual features.
 
@@ -599,6 +648,18 @@ Data < Information < Knowledge < Use knowledge < Mastery
 
 # Intelligence Explosion
 
+
+ See also [I], ...
+
+
+# Intelligent Agent
+
+ Intelligent agents are a specialized subset of autonomous agents. They differentiate themselves by incorporating learning and adaptation into their decision-making processes, enabling them to improve performance over time. Intelligent agents use data to refine their actions, allowing them to solve novel or complex problems that require more than rigid, rule-based approaches.
+
+ While all intelligent agents are autonomous, not all autonomous agents are intelligent. Some operate based on pre-defined, rigid rules without learning or adapting. Similarly, not all intelligent agents are rational – an agent may learn and adapt but still not make the most optimal decisions due to imperfect information or computational constraints. Rational agents strive to make the best decisions within the limits of their knowledge and capabilities.
+
+ More at:
+  * [https://www.turingpost.com/p/agentsvocabulary](https://www.turingpost.com/p/agentsvocabulary)
 
  See also [I], ...
 

@@ -146,6 +146,7 @@
 [Model Evaluation]: {{ site.baseurl }}{% link glossary/m.md %}#model-evaluation
 [Model Firewall]: {{ site.baseurl }}{% link glossary/m.md %}#model-firewall
 [Model Format]: {{ site.baseurl }}{% link glossary/m.md %}#model-format
+[Model Governance]: {{ site.baseurl }}{% link glossary/m.md %}#model-governance
 [Model Hub]: {{ site.baseurl }}{% link glossary/m.md %}#model-hub
 [Model Inversion]: {{ site.baseurl }}{% link glossary/m.md %}#model-inversion
 [Model Leaderboard]: {{ site.baseurl }}{% link glossary/m.md %}#model-leaderboard

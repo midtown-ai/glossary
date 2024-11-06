@@ -49,7 +49,7 @@
 [BHuman Company]: {{ site.baseurl }}{% link glossary/b.md %}#bhuman-company
 [BHuman]: {{ site.baseurl }}{% link glossary/b.md %}#bhuman-company
 [Bias]: {{ site.baseurl }}{% link glossary/b.md %}#bias
-[Bias-Variance Tradeoff]: {{ site.baseurl }}{% link glossary/b.md %}#bias-variance-tradeoff
+[Bias-Variance Trade-off]: {{ site.baseurl }}{% link glossary/b.md %}#bias-variance-trade-off
 [Bias Benchmark For Question Answering]: {{ site.baseurl }}{% link glossary/b.md %}#bias-benchmark-for-question-answering
 [BBQ Benchmark]: {{ site.baseurl }}{% link glossary/b.md %}#bias-benchmark-for-question-answering
 [BBQ]: {{ site.baseurl }}{% link glossary/b.md %}#bias-benchmark-for-question-answering
@@ -91,6 +91,8 @@
 [Bootstrap]: {{ site.baseurl }}{% link glossary/b.md %}#bootstrap-sampling-method
 [Boston Dynamics Company]: {{ site.baseurl }}{% link glossary/b.md %}#boston-dynamics-company
 [Boston Dynamics]: {{ site.baseurl }}{% link glossary/b.md %}#boston-dynamics-company
+[Bounding Box]: {{ site.baseurl }}{% link glossary/b.md %}#bounding-box
+[Bounding Boxes]: {{ site.baseurl }}{% link glossary/b.md %}#bounding-box
 [Box Cox Transformation]: {{ site.baseurl }}{% link glossary/b.md %}#box-cox-transformation
 [Brain]: {{ site.baseurl }}{% link glossary/b.md %}#brain
 [Brain Computer Interface]: {{ site.baseurl }}{% link glossary/b.md %}#brain-computer-interface

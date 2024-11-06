@@ -139,7 +139,9 @@
 [Diffractive Neural Networks]: {{ site.baseurl }}{% link glossary/d.md %}#diffractive-neural-network
 [DNN]: {{ site.baseurl }}{% link glossary/d.md %}#diffractive-neural-network
 [Diffusion Model]: {{ site.baseurl }}{% link glossary/d.md %}#diffusion-model
-[DM]: {{ site.baseurl }}{% link glossary/d.md %}#dm
+[Diffusion Models]: {{ site.baseurl }}{% link glossary/d.md %}#diffusion-model
+[DM]: {{ site.baseurl }}{% link glossary/d.md %}#diffusion-model
+[DMs]: {{ site.baseurl }}{% link glossary/d.md %}#diffusion-model
 [Diffusion Process]: {{ site.baseurl }}{% link glossary/d.md %}#diffusion-process
 [Digital Immortality]: {{ site.baseurl }}{% link glossary/d.md %}#digital-immortality
 [Digital Human]: {{ site.baseurl }}{% link glossary/d.md %}#digital-human
