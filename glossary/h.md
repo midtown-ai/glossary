@@ -317,6 +317,21 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
  See also [H], ...
 
 
+# HourVideo Dataset
+
+ The recent introduction of the HourVideo dataset heralds a transformative step in the development of AI technologies, particularly in the realm of understanding long-duration videos in conjunction with language processing. Created by a team at Stanford University led by renowned AI researcher Fei-Fei Li, this dataset promises to challenge existing models and expand the frontiers of multimodal AI.
+
+ HourVideo is a specialized dataset designed for assessing video-language understanding, comprising 500 egocentric videos ranging from 20 to 120 minutes, along with nearly 13,000 multiple-choice questions. The dataset includes tasks such as summarization, perception, visual reasoning, and navigation, each testing different aspects of how AI can comprehend and interact with video content. Initial evaluations reveal that current leading models like GPT-4 and Gemini Pro 1.5 perform significantly below human experts, indicating a pressing need for advancements in AI capabilities regarding long-context video understanding.
+
+ {% pdf "https://arxiv.org/pdf/2411.04998.pdf" %}
+
+ More at:
+  * site - [https://hourvideo.stanford.edu/](https://hourvideo.stanford.edu/)
+  * paper - [https://arxiv.org/abs/2411.04998](https://arxiv.org/abs/2411.04998)
+
+ See also [H], ...
+
+
 # Huber Loss Function
 
  Now we know that the [Mean Square Error (MSE)][MSE] is great for learning [outliers] while the [Mean Absolute Error (MAE)] is great for ignoring them. But what about something in the middle? Consider an example where we have a [dataset] of 100 values we would like our model to be trained to predict. Out of all that data, 25% of the expected values are 5 while the other 75% are 10. An MSE loss wouldn’t quite do the trick, since we don’t really have “[outliers]”; 25% is by no means a small fraction. On the other hand we don’t necessarily want to weight that 25% too low with an MAE. Those values of 5 aren’t close to the median (10 — since 75% of the points have a value of 10), but they’re also not really [outliers]. Our solution? The Huber Loss Function. The Huber Loss offers the best of both worlds by balancing the [MSE] and [MAE] together. We can define it using the following piecewise function:

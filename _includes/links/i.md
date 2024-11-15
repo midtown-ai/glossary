@@ -70,6 +70,7 @@
 [Intelligent Digital Assistant]: {{ site.baseurl }}{% link glossary/i.md %}#intelligent-digital- assistant
 [IDA]: {{ site.baseurl }}{% link glossary/i.md %}#intelligence-digital- assistant
 [Intent Analysis]: {{ site.baseurl }}{% link glossary/i.md %}#intent-analysis
+[Interactive Planning]: {{ site.baseurl }}{% link glossary/i.md %}#interactive-planning
 [International Conference on Learning Representations Conference]: {{ site.baseurl }}{% link glossary/i.md %}#international-conference-on-learning-representations-conference
 [ICLR Conference]: {{ site.baseurl }}{% link glossary/i.md %}#iclr-conference
 [International Conference on Machine Learning Conference]: {{ site.baseurl }}{% link glossary/i.md %}#international-conference-on-machine-learning-conference

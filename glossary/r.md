@@ -260,13 +260,19 @@ R-square = R^2 = -------------------------------------
 
 # Recall
 
- ~ same as [sensitivity] or [TPR]
+ ~ of all the actual positives, how many did we correctly identify?
+
+ ~ same [True Positive Rate (TPR)][TPR] or [sensitivity]
+
+ ~ a recall of 1 means that we correctly identified all the positive cases
+
+ ~ a recall of 0 means we identified none of the positive cases
 
  ~ High recall = test is effective at detecting positive cases without missing many / describe the ability of a model to find all the relevant cases within a dataset
 
- Metric used for [model evaluation] when the cost of [false negatives] is high. For example, in disease prediction, it is critical not to miss any positive cases.
+ Metric used for [model evaluation] when the cost of [false negatives] (missed positive) is high. For example, in disease prediction, it is critical not to miss any positive cases.
 
- Recall is the fraction of malignant tumors (of one class) that the system identified (correctly). Recall measures the fraction of truly malignant tumors that were detected. Recall is important in medical cases where it doesn’t matter whether we raise a false alarm but the actual positive cases should not go undetected!
+ Recall is the fraction of malignant tumors (of one class) that the system identified (correctly, in the class). Recall measures the fraction of truly malignant tumors that were detected. Recall is important in medical cases where it doesn’t matter whether we raise a false alarm but the actual positive cases should not go undetected!
  
  ```
 # TP : The predicted value is positive and it is positive

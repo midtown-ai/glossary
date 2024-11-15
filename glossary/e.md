@@ -1129,7 +1129,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
 # Executive Order on AI
 # EO on AI
 
- Based on the [AI Bill Of Rights]
+ EO 14110 based on the [AI Bill Of Rights]
 
  The Executive Order directs actions:
   * New standards for AI safety
@@ -1154,11 +1154,12 @@ Shape AI’s potential to transform education by creating resources to support e
  {% youtube "https://www.youtube.com/watch?v=YWGdof5e1Og" %}
 
  More at:
-  * Sept 06 2023 - Office of Governor
-    * [https://www.gov.ca.gov/2023/09/06/governor-newsom-signs-executive-order-to-prepare-california-for-the-progress-of-artificial-intelligence/](https://www.gov.ca.gov/2023/09/06/governor-newsom-signs-executive-order-to-prepare-california-for-the-progress-of-artificial-intelligence/)
   * Oct 30th 2023 - Federal Government
     * Fact sheet - [https://www.whitehouse.gov/briefing-room/statements-releases/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence/](https://www.whitehouse.gov/briefing-room/statements-releases/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence/)
     * EO - [https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/)
+    * wikipedia - [https://en.wikipedia.org/wiki/Executive_Order_14110](https://en.wikipedia.org/wiki/Executive_Order_14110)
+  * Sept 06 2023 - Office of Governor
+    * [https://www.gov.ca.gov/2023/09/06/governor-newsom-signs-executive-order-to-prepare-california-for-the-progress-of-artificial-intelligence/](https://www.gov.ca.gov/2023/09/06/governor-newsom-signs-executive-order-to-prepare-california-for-the-progress-of-artificial-intelligence/)
 
  See also [E], ...
 

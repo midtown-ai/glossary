@@ -541,7 +541,8 @@ layout: page
  A group of several observations. Good data must contain a signal of what you are trying to measure. Beware that data-set may be incomplete. For example, if you are trying to forecast inventory, you can look at sale's number, but the data needs to includes the times when the sale did not happen because we run out of inventory! Dataset needs to be at least 10 times the number of features. The dataset is split in 3 subsets called the training subset, the development subset, and the test subset. If you have a lot of data 70% goes to the training, 15% to the dev, and 15% to the test. If not much data, 80% goes to training, 10% and 10%. 
 
 
- A dataset is based on either one of those:
+
+ Training datasets
   * images
     * [MNIST] - Digits for zip codes
     * [CIFAR] - 10+ categories
@@ -553,11 +554,16 @@ layout: page
     * [https://github.com/LAION-AI/audio-dataset](https://github.com/LAION-AI/audio-dataset)
   * text, aka [corpus]
     * [C4]
-  * books
-    * [TriviaQA] - QA to test reading comprehension
   * sentences
   * words
     * [WordNet]
+
+ Benchmark datasets
+  * books
+    * [TriviaQA] - QA to test reading comprehension 
+  * video
+    * [HourVideo] - QA to test video summarization, perception, and visual reasoning
+  * math
     * [GSM8K] - Grade school math word problems for math reasoning
   * science
     * [ScienceQA] - covers natural science, language science, social science
@@ -1166,6 +1172,24 @@ We need to do this for
  ```
 
  {% youtube "https://www.youtube.com/watch?v=wl1myxrtQHQ" %}
+
+ See also [D], ...
+
+
+# Describe Explain Plan Select Prompting
+# DEPS Prompting
+
+ A [prompt engineering] technique
+
+ We investigate the challenge of task planning for multi-task embodied agents in open-world environments. Two main difficulties are identified: 1) executing plans in an open-world environment (e.g., Minecraft) necessitates accurate and multi-step reasoning due to the long-term nature of tasks, and 2) as vanilla planners do not consider how easy the current agent can achieve a given sub-task when ordering parallel sub-goals within a complicated plan, the resulting plan could be inefficient or even infeasible. To this end, we propose "D⎯⎯⎯escribe, E⎯⎯⎯xplain, P⎯⎯⎯lan and S⎯⎯elect" (DEPS), an interactive planning approach based on Large Language Models (LLMs). DEPS facilitates better error correction on initial LLM-generated plan by integrating description of the plan execution process and providing self-explanation of feedback when encountering failures during the extended planning phases. Furthermore, it includes a goal selector, which is a trainable module that ranks parallel candidate sub-goals based on the estimated steps of completion, consequently refining the initial plan. Our experiments mark the milestone of the first zero-shot multi-task agent that can robustly accomplish 70+ Minecraft tasks and nearly double the overall performances. Further testing reveals our method's general effectiveness in popularly adopted non-open-ended domains as well (i.e., ALFWorld and tabletop manipulation). The ablation and exploratory studies detail how our design beats the counterparts and provide a promising update on the 𝙾𝚋𝚝𝚊𝚒𝚗𝙳𝚒𝚊𝚖𝚘𝚗𝚍 grand challenge with our approach.
+
+ {% pdf "https://arxiv.org/pdf/2302.01560.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2302.01560](https://arxiv.org/abs/2302.01560)
+  * code - [https://github.com/CraftJarvis/MC-Planner](https://github.com/CraftJarvis/MC-Planner)
+  * team - [https://github.com/CraftJarvis](https://github.com/CraftJarvis)
+  * site - [https://craftjarvis.github.io/](https://craftjarvis.github.io/)
 
  See also [D], ...
 

@@ -358,6 +358,13 @@ cheese =>                                   # Prompt
  See also [O], ....
 
 
+# Open-World Environment
+
+ An environment in which agents can evolve and act such as Minecraft!
+
+ See also [O], ...
+
+
 # Open Interpreter Company
 
  {% youtube "https://www.youtube.com/watch?v=nzznxPeWDO4" %}

@@ -680,6 +680,16 @@ Data < Information < Knowledge < Use knowledge < Mastery
  See also [I], [AWS Lex]
 
 
+# Interactive Planning
+
+ Used for the completion of an agent's task in an environment , such as [Open-World]
+
+ Decision
+  * [DEPS]
+
+ See also [I], ...
+
+
 # International Conference on Learning Representations Conference
 # ICLR Conference
 

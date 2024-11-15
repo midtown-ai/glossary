@@ -29,6 +29,10 @@
 [Online Learning]: {{ site.baseurl }}{% link glossary/o.md %}#online-learning
 [Online Learning Algorithm]: {{ site.baseurl }}{% link glossary/o.md %}#online-learning-algorithm
 [Online Learning Algorithms]: {{ site.baseurl }}{% link glossary/o.md %}#online-learning-algorithm
+[Open-World Environment]: {{ site.baseurl }}{% link glossary/o.md %}#open-world-environment
+[Open-World Environments]: {{ site.baseurl }}{% link glossary/o.md %}#open-world-environment
+[Open-World]: {{ site.baseurl }}{% link glossary/o.md %}#open-world-environment
+[Open-Worlds]: {{ site.baseurl }}{% link glossary/o.md %}#open-world-environment
 [Open Neural Network Exchange Format]: {{ site.baseurl }}{% link glossary/o.md %}#open-neural-network-exchange-format
 [ONNX Format]: {{ site.baseurl }}{% link glossary/o.md %}#open-neural-network-exchange-format
 [OpenAI Assitants API]: {{ site.baseurl }}{% link glossary/o.md %}#openai-assistants-api

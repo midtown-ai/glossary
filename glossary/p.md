@@ -912,13 +912,17 @@ PSI ≥ 0.25: Suggests a major shift in the population, indicating that the mode
  
 # Precision
 
+ ~ of all the instances the model predicted as positive, how many were actually positive?
+
+ ~ how many of the predicted positive cases were truly positive
+
  Metric used for [model evaluation] when the cost of false positives is high. An example task could be spam detection, when we don't want to incorrectly classify legitimate emails as spam.
 
  Precision is the fraction of the tumors that were predicted to be malignant (of one call) that are actually malignant (of that class).
  
  ```
 # TP : a cat is recognized as a cat
-# FP : a cat is recognized as a dog
+# FP : a dog is recognized as a cat
 
                TP               # samples in class that are correctly identified       
 Precision = --------- =    --------------------------------------------------------
@@ -1294,14 +1298,16 @@ Prediction Error = actual_value - predicted_value
 
  ![]( {{site.assets}}/p/prompt_engineering_impact.png ){: width="100%"}
 
- Techniques:
-  * [Zero-Shot Prompting]
-  * [Few-Shot Prompting]
-  * [Tree-Of-Thoughts (ToT) Prompting][ToT]
-  * [Chain-Of-Thought (CoT) Prompting][CoT]
-  * [Reason-Act (ReAct) Prompting][ReAct]
-  * [Self-Consistency (SC) Prompting][SC]
+ Prompting Techniques:
+  * [Zero-Shot] - just ask
+  * [Few-Shot] - ask and provide sample answers
+  * [Tree-Of-Thoughts (ToT)][ToT]
+  * [Chain-Of-Thought (CoT)][CoT] - let's think step-by-step!
+  * [Reason-Act (ReAct)][ReAct] - think, act, and observe
+  * [Self-Consistency (SC)][SC]
   * [Step-Back Prompting] - ask a higher level question first, then answer the original question
+  * [Self-Reflection][SR]
+  * [DEPS] - Describe, explain, plan, and select
 
  ![]( {{site.assets}}/p/prompt_engineering_techniques_comparison.png ){: width="100%"}
 

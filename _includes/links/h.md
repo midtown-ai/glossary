@@ -30,6 +30,8 @@
 [Homography]: {{site.baseurl }}{% link glossary/h.md %}#homography
 [Hopfield Network]: {{site.baseurl }}{% link glossary/h.md %}#hopfield-network
 [Hopfield Networks]: {{site.baseurl }}{% link glossary/h.md %}#hopfield-network
+[HourVideo Dataset]: {{site.baseurl }}{% link glossary/h.md %}#hourvideo-dataset
+[HourVideo]: {{site.baseurl }}{% link glossary/h.md %}#hourvideo-dataset
 [Huber Loss Function]: {{site.baseurl }}{% link glossary/h.md %}#huber-loss-function
 [Hugging Face Company]: {{site.baseurl }}{% link glossary/h.md %}#hugging-face-company
 [Hugging Face]: {{site.baseurl }}{% link glossary/h.md %}#hugging-face-company

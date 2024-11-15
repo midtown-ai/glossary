@@ -32,6 +32,7 @@ categories: jekyll update
 # 2024
 
  Link - [https://press.airstreet.com/p/state-of-ai-report-2024](https://press.airstreet.com/p/state-of-ai-report-2024)
+  * Ai isn't the dotcom bubble - [https://press.airstreet.com/p/ai-isnt-the-dotcom-bubble](https://press.airstreet.com/p/ai-isnt-the-dotcom-bubble)
 
  {% pdf "{{site.assets}}/+/s/state_of_ai_report_20241012.pdf" %}
 

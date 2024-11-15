@@ -128,6 +128,9 @@
 [Depth Map]: {{ site.baseurl }}{% link glossary/d.md %}#depth-map
 [Depth Maps]: {{ site.baseurl }}{% link glossary/d.md %}#depth-map
 [Derivative Chain Rule]: {{ site.baseurl }}{% link glossary/d.md %}#derivative-chain-rule
+[Describe Explain Plan Select Prompting]: {{ site.baseurl }}{% link glossary/d.md %}#describe-explain-plan-select-prompting
+[DEPS Prompting]: {{ site.baseurl }}{% link glossary/d.md %}#describe-explain-plan-select-prompting
+[DEPS]: {{ site.baseurl }}{% link glossary/d.md %}#describe-explain-plan-select-prompting
 [Deterministic Node]: {{ site.baseurl }}{% link glossary/d.md %}#deterministic-node
 [Development Life Cycle]: {{ site.baseurl }}{% link glossary/d.md %}#development-life-cycle
 [Development Subset]: {{ site.baseurl }}{% link glossary/d.md %}#development-subset
