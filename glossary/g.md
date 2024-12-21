@@ -207,9 +207,24 @@ output = m(input)
 
  A [Small Language Model (SLM)][SLM] developed by [Google] to be used in desktop/phone applications.
 
+ Variant:
+  * Gemma 1 and Gemma 2 - open-source [SLM]
+  * CodeGemma - for code generation?
+  * PaliGemma - [video-language model]
+  * RecurrentGemma - not using transformer architecture 
+  * ShieldGemma - instruction tuned models for evaluating the safety of text prompt input and text output responses against a set of defined safety policies.
+  * DataGemma - Model trained on [Data Commons] using [Retrieval-Interleaved Generation (RIG)][RIG]
+
+ {% youtube "https://www.youtube.com/watch?v=IY5XZPrV03A" %}
+
  More at:
   * docs - [https://github.com/google/generative-ai-docs/blob/main/site/en/gemma/docs/lora_tuning.ipynb](https://github.com/google/generative-ai-docs/blob/main/site/en/gemma/docs/lora_tuning.ipynb)
   * kaggle - [https://www.kaggle.com/code/nilaychauhan/fine-tune-gemma-models-in-keras-using-lora](https://www.kaggle.com/code/nilaychauhan/fine-tune-gemma-models-in-keras-using-lora)
+  * papers
+    * RecurrentGemma - [https://arxiv.org/abs/2404.07839v1](https://arxiv.org/abs/2404.07839v1) 
+    * DataGemma - [https://arxiv.org/abs/2409.13741](https://arxiv.org/abs/2409.13741)
+  * articles
+    * RecurrentGemma - [https://developers.googleblog.com/en/gemma-explained-recurrentgemma-architecture/](https://developers.googleblog.com/en/gemma-explained-recurrentgemma-architecture/)
 
  See also [G], ...
 
@@ -225,6 +240,24 @@ output = m(input)
  More at:
   * [https://research.runwayml.com/gen2](https://research.runwayml.com/gen2)
   * [https://arxiv.org/abs/2302.03011](https://arxiv.org/abs/2302.03011)
+
+ See also [G], ...
+
+
+# GenCast Model
+
+ New AI model created by [DeepMind] that advances the prediction of weather uncertainties and risks, delivering faster, more accurate forecasts up to 15 days ahead
+
+ GenCast is a diffusion model, the type of generative AI model that underpins the recent, rapid advances in image, video and music generation. However, GenCast differs from these, in that it’s adapted to the spherical geometry of the Earth, and learns to accurately generate the complex probability distribution of future weather scenarios when given the most recent state of the weather as input.
+
+ To train GenCast, we provided it with four decades of historical weather data from ECMWF’s ERA5 archive. This data includes variables such as temperature, wind speed, and pressure at various altitudes. The model learned global weather patterns, at 0.25° resolution, directly from this processed weather data.
+
+ More at:
+  * paper - [https://www.nature.com/articles/s41586-024-08252-9](https://www.nature.com/articles/s41586-024-08252-9)
+  * announcement - [https://deepmind.google/discover/blog/gencast-predicts-weather-and-the-risks-of-extreme-conditions-with-sota-accuracy/](https://deepmind.google/discover/blog/gencast-predicts-weather-and-the-risks-of-extreme-conditions-with-sota-accuracy/)
+  * GraphCast model (Previous model) - [https://deepmind.google/discover/blog/graphcast-ai-model-for-faster-and-more-accurate-global-weather-forecasting/](https://deepmind.google/discover/blog/graphcast-ai-model-for-faster-and-more-accurate-global-weather-forecasting/)
+  * articles
+    * nature - [https://www.nature.com/articles/d41586-024-03957-3](https://www.nature.com/articles/d41586-024-03957-3)
 
  See also [G], ...
 
@@ -504,6 +537,19 @@ output = m(input)
  Genetic programming is a technique to create algorithms that can program themselves by simulating biological breeding and Darwinian evolution. Instead of programming a model that can solve a particular problem, genetic programming only provides a general objective and lets the model figure out the details itself. The basic approach is to let the machine automatically test various simple evolutionary algorithms and then “breed” the most successful programs in new generations.
 
 
+# Genie Model
+
+ ~ the [world model] developed by [google]
+
+ More at:
+  * co-lead ? - [https://x.com/jparkerholder](https://x.com/jparkerholder)
+  * papers
+    * genie 1 - [https://deepmind.google/research/publications/60474/](https://deepmind.google/research/publications/60474/)
+    * genie 2 - [https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/](https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/)
+
+ See also [G], ...
+
+
 # Geoffrey Hinton Person
 
  Since 2013, he has divided his time working for Google (Google Brain) and the University of Toronto. In 2017, he co-founded and became the Chief Scientific Advisor of the Vector Institute in Toronto.
@@ -661,12 +707,15 @@ print("ga_output: ", ga_output)
   * [Tensor Processing Unit (TPU)][TPU] - custom hardware for tensor arithmetic
 
  Models developed by the company
+  * [Astra] - A model that has ears, eyes, and a voice and that comes with you everywhere you go
   * [Bard] - A lightweight version of Lambda meant to compete against Bing + [ChatGPT Model]
   * [DreamIX][DreamIX Model] - text-to-video and image-to-video diffusion model
   * [Gameface](https://blog.google/technology/ai/google-project-gameface/) - use your face in place of a mouse!
   * [GameNGen] - 9/1/2024 - World first AI model that predicts next frame of a live shooter game, playable at 20 fps
   * [Gemini] - multimodal to enable future innovations like memory and planning
-  * [Gnome] -  Graph Network for materials exploration
+  * [Gemma] - Small Language Modeli deployable on desktops
+  * [Genie] - 12/1/2024 - world model for embodied agents 
+  * [Gnome] - Graph Network for materials exploration
   * [Google Lens][Google Lens] - search what you see, uses cellphone cameras and [computer vision]
   * [Google Translate][Google Translate Model] - Translate one language into another, [machine translation]
   * [Gshard Model] -
@@ -681,6 +730,7 @@ print("ga_output: ", ga_output)
   * [Phenaki Model] - realistic video synthesis, given a sequence of textual prompts
   * [Switch Transformer] -
   * [T5 Model] -
+  * [Veo] - Video generation model
 
  Utilities
   * [NotebookLM] - a notebook for research integrated with a LLM
@@ -693,7 +743,7 @@ print("ga_output: ", ga_output)
   * 2023: [LaMDA] - A large language model built for discussion applications, deprecated by PaLM
 
  Companies
-  * [DeepMind] which built models such as [Chinchilla][Chinchilla Model], [Sparrow][Sparrow Model], [AlphaiFold][AlphaFold Model], and more ... 
+  * [DeepMind] which built models such as [Chinchilla], [Sparrow], [AlphaiFold], [GenCast] and more ... 
   * [Kaggle] which also runs [KaggleX]
 
  Projects
@@ -1218,6 +1268,29 @@ print("ga_output: ", ga_output)
  The other GPU memory type is [GPU High Bandwidth Memory (HBM)][GPU HBM]
 
  See also [G], ...
+
+
+# GraphRAG
+
+ ~ a type of [Retrieval-Augmented Generation] that retrieves the most relevant information from the knowledge graph and uses it to condition the LLM’s response, improving accuracy and reducing hallucinations.
+
+ GraphRAG uses knowledge graphs to provide substantial improvements in question-and-answer performance when reasoning about complex information. RAG techniques have shown promise in helping [LLMs] to reason about private [datasets] - data that the LLM is not trained on and has never seen before, such as an enterprise’s proprietary research, business documents, or communications.
+
+ {% youtube "https://www.youtube.com/watch?v=f6pUqDeMiG0" %}
+
+ {% pdf "https://arxiv.org/pdf/2404.16130.pdf" %}
+
+ More at:
+  * code - [https://github.com/microsoft/graphrag](https://github.com/microsoft/graphrag)
+  * docs - [https://microsoft.github.io/graphrag/](https://microsoft.github.io/graphrag/)
+  * paper - [https://arxiv.org/abs/2404.16130](https://arxiv.org/abs/2404.16130)
+  * articles
+    * annoucement - [https://www.microsoft.com/en-us/research/blog/graphrag-new-tool-for-complex-data-discovery-now-on-github/](https://www.microsoft.com/en-us/research/blog/graphrag-new-tool-for-complex-data-discovery-now-on-github/)
+    * GraphRAG vs baseline RAG - [https://microsoft.github.io/graphrag/#graphrag-vs-baseline-rag](https://microsoft.github.io/graphrag/#graphrag-vs-baseline-rag)
+    * Narrative private data - [https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/)
+    * How GraphRAG works - [https://medium.com/data-science-in-your-pocket/what-is-graphrag-1ee1cc9027a4](https://medium.com/data-science-in-your-pocket/what-is-graphrag-1ee1cc9027a4)
+
+ See also [G], [Knowledge Graph]
 
 
 # Greedy Decoding

@@ -213,6 +213,21 @@ layout: page
  See [Dataset Bias]
 
 
+# Data Center
+
+ The rapid proliferation of data centers in the US - driven partly by the adoption of artificial intelligence - has set off alarm bells about the industry's environmental impact. We compiled detailed information on 2,132 US data centers operating between September 2023 and August 2024 and determined their electricity consumption, electricity sources, and attributable CO2e emissions. Our findings reveal that data centers accounted for more than 4% of total US electricity consumption - with 56% derived from fossil fuels - generating more than 105 million tons of CO2e (2.18% of US emissions in 2023). Data centers' carbon intensity - the amount of CO2e emitted per unit of electricity consumed - exceeded the US average by 48%. Our data pipeline and visualization tools can be used to assess current and future environmental impacts of data centers.
+
+ {% pdf "https://arxiv.org/pdf/2411.09786v1.pdf" %}
+
+ More at:
+  * papers
+    * power consumption (2024) - [https://arxiv.org/abs/2411.09786v1](https://arxiv.org/abs/2411.09786v1)
+  * articles
+    * [https://www.technologyreview.com/2024/12/13/1108719/ais-emissions-are-about-to-skyrocket-even-further/](https://www.technologyreview.com/2024/12/13/1108719/ais-emissions-are-about-to-skyrocket-even-further/)
+
+ See also [D], ...
+
+
 # Data Cleaning
 
  ~ an aspect of [data preparation]
@@ -236,6 +251,23 @@ layout: page
  See also [D], ...
 
 
+# Data Commons Dataset
+
+ In keeping with Google’s mission to organize the world’s information and make it universally accessible and useful, Data Commons offers a unified view of large-scale, public, statistical data, created by organizations across the world. Data Commons enables researchers, consumers, journalists, students, public policy and other key decision-makers to get high-level analytical answers to data questions, at the click of a button, and in your own words.
+
+ Data Commons is not a repository of public datasets (such as Kaggle or Google Cloud BiqQuery Public Datasets). Instead, it is a single unified data source created by normalizing and aligning schemas and references to the same entities (such as cities, counties, organizations, etc.) across different datasets. Behind the scenes, Data Commons does the tedious work of finding data, understanding the data collection methodologies, cleaning the data, reconciling different formats and schemas, figuring out how to merge data about the same entity from different sources, and so on – saving organizations months of tedious, costly and error-prone work.
+
+ For example, if you wanted to get population stats, poverty and unemployment rates of a specific county, you don’t need to go to three different datasets; instead, you can get the data from a single data source, using one schema, and one API. Data Commons is also used by Google Search whenever it can provide the most relevant statistical results to a query. 
+
+ More at:
+  * site - [https://datacommons.org/](https://datacommons.org/)
+  * docs - [https://docs.datacommons.org/](https://docs.datacommons.org/)
+  * tutorials - [https://docs.datacommons.org/api/python/tutorials.html](https://docs.datacommons.org/api/python/tutorials.html)
+  * data sources - [https://docs.datacommons.org/datasets/](https://docs.datacommons.org/datasets/)
+
+ See also [D], [DataGemma Model][Gemma Model], [Retrieval-Interleaved Generation]
+
+ 
 # Data Consumer
 
  See also [D], [Data Access]
@@ -419,6 +451,10 @@ layout: page
 
  ![]( {{site.assets}}/d/data_science.png ){: width="100%"}
 
+ ![]( {{site.assets}}/d/data_science_spectrum.jpeg ){: width="100%"}
+
+ Agree the potential for exponential value follows this graphic but each one of the bubbles can add tremendous value as a stand alone, i.e. should should not just focus on AI only because it is up and to the right. I agree with the summary in that the sweet spot is Low Effort / High Value.
+
  See also [D], ...
 
 
@@ -543,6 +579,8 @@ layout: page
 
 
  Training datasets
+  * statistics
+    * [Data Commons] - brings together the world's public data, harmonized for your exploration
   * images
     * [MNIST] - Digits for zip codes
     * [CIFAR] - 10+ categories
@@ -743,7 +781,7 @@ layout: page
 
  Sherlock Holmes!
 
- See also [D], [Inductive Reasoning]
+ See also [D], [Abductive Reasoning], [Inductive Reasoning]
 
 
 # Deep Belief
@@ -939,6 +977,39 @@ layout: page
  Based on neural network. `Time series forecasting` (ex number of units sold). Model needs to be trained, i.e. supervised. Integrated with Sagemaker. Lots of hyperparameters. Tuning is very important.
 
  See also [D], ...
+
+
+# Deepchecks Company
+
+ Evaluate [LLM] and [RAG systems] based on
+  * Relevancy
+  * Toxicity
+  * Hallucination
+  * Sentiment
+  * Correctness
+  * Reading ease
+  * grounded in context
+  * Subjectivity
+  * Relevance
+  * Completeness
+  * Correctness
+  * Retrieval relevance
+
+ Can also do penetration testing
+  * DAN
+  * DAN Jailbreak
+  * ...
+
+ {% youtube "https://www.youtube.com/watch?v=wKstZHtKRbY" %}
+
+ {% youtube "https://www.youtube.com/watch?v=WNg2vqMrRB8" %}
+
+
+ More at:
+  * site - [https://www.deepchecks.com/](https://www.deepchecks.com/)
+
+ See also [D], ...
+
 
 
 # Deepfake
@@ -1209,6 +1280,13 @@ We need to do this for
  * [Data Development Life Cycle (DDLC)][DDLC]
 
  See also [D], [Model Governance]
+
+
+# Detokenier
+
+ 
+
+ See also [D], [SentencePiece Tokenizer]
 
 
 # Development Subset
@@ -1588,6 +1666,18 @@ https://doi.org/10.1016/j.jpsychires.2017.11.014
  See also [D], ...
 
 
+# Document Embedding
+
+ * Doc2Vec – Extends Word2Vec to generate embeddings for larger chunks of text, like paragraphs or documents. For example, it can represent an entire news article about a recent election as a single vector, enabling efficient comparison and grouping of similar articles.
+ * InferSentt – Developed by Facebook, InferSent is a sentence embedding method that uses supervised learning. It employs a bidirectional LSTM with max-pooling trained on natural language inference (NLI) data to produce general-purpose sentence representations. For instance, InferSent can create embeddings for customer reviews, allowing a company to analyze and compare feedback across different products.
+ * Universal Sentence Encoder (USE) – Created by Google, USE provides embeddings for sentences and paragraphs. It utilizes a transformer architecture or Deep Averaging Network (DAN) and is trained on a variety of tasks to capture semantic meanings. For example, it can generate embeddings for full research papers to help in tasks like academic paper recommendations.
+
+ More at:
+  * [https://www.iguazio.com/glossary/llm-embeddings/](https://www.iguazio.com/glossary/llm-embeddings/)
+
+ See also [D], ...
+
+
 # Domain-Specific Model
 
  See also [D], [Supervised Fine-Tuning], [Model]
@@ -1624,7 +1714,7 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
 
 # Dot Product Similarity
 
- An alternative to other similarity functions
+ An alternative to other [similarity metrics]
 
  {% youtube "https://www.youtube.com/watch?v=TBpDMLCC2uY" %}
 

@@ -711,6 +711,17 @@ print(query_result)
  See also [C], ...
 
 
+# Cohen's Kappa Metric
+
+ is excellent for measuring agreement between the validator and human judgments, especially for subjective tasks. It accounts for the possibility of agreement by chance, providing a more robust measure than simple agreement percentages.
+
+ More at:
+  * articles
+    * [https://www.galileo.ai/blog/best-practices-for-creating-your-llm-as-a-judge](https://www.galileo.ai/blog/best-practices-for-creating-your-llm-as-a-judge)
+
+ See also [C], ...
+
+
 # Cohere AI Company
 
  Cohere (stylized as co:here) is a Canadian startup that provides [Natural Language Processing] models that help companies improve human-machine interactions. Cohere was founded in 2019 by Aidan Gomez, Ivan Zhang, and Nick Frosst.
@@ -794,8 +805,9 @@ print(query_result)
   * [Alibaba] - A copycat of Amazon but in China
   * [Amazon] - Focus on public cloud and partnership with 3rd parties
   * [Anduril Industries](https://www.anduril.com/) - Focus on defense software with AI ([Forbes](https://www.forbes.com/companies/anduril-industries/?list=ai50&sh=3edae6e7e083))
+  * [Anyscale] - Compute engine Buildup on the [Ray Framework]
   * [Apple] - Large company in the world, strangely not so influential in the AI industry. At least not yet!
-  * [Arize AI](https://arize.com/) - Focus on data issue detection ([Forbes](https://www.forbes.com/companies/arize-ai/?list=ai50&sh=72ba67871f36))
+  * [Arize](https://arize.com/) - Focus on data issue detection ([Forbes](https://www.forbes.com/companies/arize-ai/?list=ai50&sh=72ba67871f36))
   * [Baidu] - Chinese search engine
   * [Bayesian Health](https://www.bayesianhealth.com/) - Focus on patient risk detection ([Forbes](https://www.forbes.com/companies/bayesian-health/?list=ai50&sh=257bfdaa13ac))
   * [BHuman] - Focus on creating deepfake of yourself!
@@ -851,8 +863,8 @@ print(query_result)
   * [Snorkel AI](https://snorkel.ai/) - Data labeling software
   * [Supertranslate AI] - Focus on generating proper subtitles to videos
   * [Synthesia] - Focus on AI avatars
-  * [Tome](https://beta.tome.app/) - Presentation creation software
   * [Trigo](https://www.trigoretail.com/) - Cashierless retail checkout
+  * [Turnitin](https://www.turnitin.com/) - AI writing detector
   * [Vannevar Labs](https://www.vannevarlabs.com/) - Defense intelligence software
   * [Vectra AI](https://www.vectra.ai/) - Cyberattack detection
   * [VIZ.AI](https://www.viz.ai/) - Disease detection
@@ -861,8 +873,12 @@ print(query_result)
   * [Writer](https://writer.com/) - Copywriting software
 
  Deployment:
+  * [Cursor](https://www.cursor.com/) - Looks like a VScode fork!
+  * [Bolt](https://bolt.new/) -
   * [Netlify] -
   * [Replit] -
+  * [V0](https://v0.dev/) -
+  * [WebSim] -
 
  Digital Humans and Meta-Humans
   * [Ravatar](https://ravatar.com/)
@@ -870,11 +886,16 @@ print(query_result)
   * [UneeQ](https://www.digitalhumans.com/)
   * [Unreal Engine](https://www.unrealengine.com/en-US/metahuman)
 
- Driverless cars
-  * [Cruise] - Self-driving, now robotaxis! 
-  * [Waymo] - Focus on self-driving car 
-  * others: [WeRide](https://www.weride.ai/en), [Momenta](https://www.momenta.cn/en/), [Didi](https://web.didiglobal.com/), [Pony AI](https://pony.ai)
-  * defunct: [Argo AI](https://en.wikipedia.org/wiki/Argo_AI)
+ Driverless cars / Robotaxi
+  * Google's [Waymo]
+  * others: 
+    * [WeRide](https://www.weride.ai/en)
+    * [Momenta](https://www.momenta.cn/en/)
+    * [Didi](https://web.didiglobal.com/)
+    * [Pony AI](https://pony.ai)
+  * defunct: 
+    * Volkswagen [Argo AI](https://en.wikipedia.org/wiki/Argo_AI)
+    * Ford's [Cruise](https://en.wikipedia.org/wiki/Cruise_(autonomous_vehicle))
 
  Drug Discovery
   * [BigHat Biosciences](https://www.bighatbio.com/) - Better biologics faster through ML-guided design
@@ -888,7 +909,10 @@ print(query_result)
   * [Kuros AI](https://www.kyros.ai/) - College prep
     * strategy planning + personal qualities + academic fitness/alignment + communication and organization + ExtraCurricular activities fitness/alignment + Applications
   * [Magic School AI](https://app.magicschool.ai/) - help teachers create a lesson plan. Assistant is called Raina
-  * [Pearson](https://www.pearson.com/en-us.html) - Not bot yet! Still in denial?
+  * [Pearson](https://www.pearson.com/en-us.html) - No bot yet! Still in denial?
+
+ Evaluation
+  * [Deepchecks] - SaaS platform for RAG metrics and penetration testing
 
  Foundation Model
   * [Anthropic] - Focus on LLM, building an alternative to [GPT models][GPT Model] ([Forbes](https://www.forbes.com/companies/anthropic/?list=ai50&sh=2cdb4d2fb94e))
@@ -919,9 +943,14 @@ print(query_result)
   * [Groq] - Superfast LLM inference because baked by custom hardware? or 250 TK/S
   * [Together AI](https://www.together.ai/) -
 
- Infrastructure
-  * [Anyscale] - Buildup on the [Ray Framework]
-  * [Lambda Labs](https://lambdalabs.com/) - access to GPU for deeplearning
+ AI Cloud Services
+  * Cloud AI Security
+    * [Sysdig](https://sysdig.com/) - Augment defense with a team of AI experts. Accelerate response with a conversation.
+    * [Wiz](https://www.wiz.io/) - WizCode, WizCloud, WizDefend 
+  * Cloud GPUs
+    * [CoreWave](https://www.coreweave.com/) - Kubernetes native cloud that’s purpose-built for large scale, GPU-accelerated workloads.
+    * [Curoe](https://www.crusoe.ai/) - Reliable high-performance GPUs, CPUs, networking, and storage for AI exploration, model training and scalable-inference.
+    * [Lambda Labs](https://lambdalabs.com/) - access to GPU for deeplearning
 
  Music
   * [Audialab](https://audialab.com/) - drum sound only
@@ -934,6 +963,11 @@ print(query_result)
   * [Suno AI] - generate music for your lyrics!
   * [TuneFlow](https://www.tuneflow.com/) 
   * [Udio](https://www.udio.com/) - An alternative to [Suno AI]
+
+ Powerpoint
+  * [Beautiful AI](https://www.beautiful.ai/) -
+  * [Gammas](https://gamma.app/) - 
+  * [Tome](https://tomw.app) -
 
  Robotics
   * [Boston Dynamics] - Focus on robotics
@@ -972,6 +1006,7 @@ print(query_result)
  World model
   * [World Lab] - RL on Environments + NeRF
 
+ ![]( {{site.assets}}/c/company_value_chain.png ){: width="100%"}
 
 
  {% youtube "https://www.youtube.com/watch?v=62ptqfCcizQ" %}
@@ -1780,7 +1815,9 @@ pyplot.show()
 
 # Cosine Similarity Function
 
- A [similarity function] that can tell us how similar or different 2 [embeddings] are
+ A [similarity metric] that can tell us how similar or different 2 [embeddings] are
+
+ In data analysis, cosine similarity is a measure of similarity between two non-zero vectors defined in an inner product space. Cosine similarity is the cosine of the angle between the vectors; that is, it is the dot product of the vectors divided by the product of their lengths. It follows that the cosine similarity does not depend on the magnitudes of the vectors, but only on their angle. The cosine similarity always belongs to the interval [ −1, 1]. For example, two proportional vectors have a cosine similarity of 1, two orthogonal vectors have a similarity of 0, and two opposite vectors have a similarity of -1.
 
  Can tell us how similar or different 2 phrases are.
   * 2 same sentences, are the exact same, then the cosine similarity is cos(0) = 1
@@ -1794,7 +1831,7 @@ pyplot.show()
   1. Calculate the Cosine of the angle
 
  Beware:
-  * Use angles only!
+  * Use angles only! Not the magnitudes of the vectors unlike the [Euclidean distance].
   * The number of times a word appears does not change the cosine similarity, e.g. "hello hello world" is exactly same as "hello world"
   * Each word adds a new dimension. So for more than 2 words, use the cosine similarity formula (but assume the math-context is the same)
 
@@ -1987,16 +2024,6 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
    * ...
 
  See also [C], [Dataset], [Development Subset], [Holdout Fold], [Resampling Method], [Testing Subset], [Training Subset], [Validation Set]
-
-
-# Cruise Company
-
- A robotaxi company
-
- More at:
-  * [https://getcruise.com/](https://getcruise.com/)
-
- See also [C], ...
 
 
 # Cubic Regression

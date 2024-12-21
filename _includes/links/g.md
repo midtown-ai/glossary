@@ -22,6 +22,8 @@
 [Gemma Model]: {{ site.baseurl }}{% link glossary/g.md %}#gemma-model
 [Gemma]: {{ site.baseurl }}{% link glossary/g.md %}#gemma-model
 [Gen Model]: {{ site.baseurl }}{% link glossary/g.md %}#gen-model
+[GenCast Model]: {{ site.baseurl }}{% link glossary/g.md %}#gencast-model
+[GenCast]: {{ site.baseurl }}{% link glossary/g.md %}#gencast-model
 [General Artificial Intelligence Assistant Benchmark]: {{ site.baseurl }}{% link glossary/g.md %}#general-artificial-intelligence-assistant-benchmark
 [GAIA Benchmark]: {{ site.baseurl }}{% link glossary/g.md %}#general-artificial-intelligence-assistant-benchmark
 [GAIA]: {{ site.baseurl }}{% link glossary/g.md %}#general-artificial-intelligence-assistant-benchmark
@@ -62,6 +64,8 @@
 [Generator]: {{ site.baseurl }}{% link glossary/g.md %}#generator
 [Generator Loss]: {{ site.baseurl }}{% link glossary/g.md %}#generator-loss
 [Genetic Programming]: {{ site.baseurl }}{% link glossary/g.md %}#genetic-programming
+[Genie Model]: {{ site.baseurl }}{% link glossary/g.md %}#genie-model
+[Genie]: {{ site.baseurl }}{% link glossary/g.md %}#genie-model
 [Geoffrey Hinton Person]: {{ site.baseurl }}{% link glossary/g.md %}#geoffrey-hinton-person
 [Geoffrey Hinton]: {{ site.baseurl }}{% link glossary/g.md %}#geoffrey-hinton-person
 [GINI Impurity Index]: {{ site.baseurl }}{% link glossary/g.md %}#gini-impurity-index
@@ -126,6 +130,8 @@
 [Graph Machine Learning]: {{ site.baseurl }}{% link glossary/g.md %}#graph-machine-learning
 [GML]: {{ site.baseurl }}{% link glossary/g.md %}#graph-machine-learning
 [Graph Network For Materials Exploration Model]: {{ site.baseurl }}{% link glossary/g.md %}#graph-network-for-materials-exploration-model
+[GraphRAG System]: {{ site.baseurl }}{% link glossary/g.md %}#graphrag-system
+[GraphRAG]: {{ site.baseurl }}{% link glossary/g.md %}#graphrag-system
 [Gnome Model]: {{ site.baseurl }}{% link glossary/g.md %}#graph-network-for-materials-exploration-model
 [Gnome]: {{ site.baseurl }}{% link glossary/g.md %}#graph-network-for-materials-exploration-model
 [Graph Neural Network]: {{ site.baseurl }}{% link glossary/g.md %}#graph-neural-network

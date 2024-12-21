@@ -998,6 +998,21 @@ if __name__ == '__main__':
  See also [F], ...
 
 
+# Fugatto Model
+
+ [Nvidia] has introduced a groundbreaking model known as Fugatto, or the Foundational Generative Audio Transformer Opus 1. This innovative AI model is designed to transform text prompts into audio, making it a versatile tool for sound synthesis and transformation. Described as a "Swiss Army knife for sound," Fugatto aims to revolutionize how audio is generated and manipulated, offering unprecedented flexibility and creativity to users across various domains.
+
+ With Fugatto, [Nvidia] aims to take on today’s top AI music models, including [Suno], [Udio] and many more.
+
+ {% youtube "https://www.youtube.com/watch?v=qj1Sp8He6e4" %}
+
+ More at:
+  * articles
+    * [https://blogs.nvidia.com/blog/fugatto-gen-ai-sound-model/](https://blogs.nvidia.com/blog/fugatto-gen-ai-sound-model/)
+
+ See also [F], ...
+
+
 # Fully Connected Layer
 # FC Layer
 

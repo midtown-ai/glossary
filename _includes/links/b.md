@@ -61,6 +61,7 @@
 [BERT Models]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model
 [BERT]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-encoder-representation-from-transformer-model
 [Bidirectional Recurrent Neural Network]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-recurrent-neural-network
+[Bidirectional RNN]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-recurrent-neural-network
 [BRNN]: {{ site.baseurl }}{% link glossary/b.md %}#bidirectional-recurrent-neural-network
 [Big Data]: {{ site.baseurl }}{% link glossary/b.md %}#big-data
 [Bigram]: {{ site.baseurl }}{% link glossary/b.md %}#bigram

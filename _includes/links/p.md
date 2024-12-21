@@ -91,6 +91,10 @@
 [Predictive Maintenance]: {{ site.baseurl}}{% link glossary/p.md %}#predictive-maintenance
 [Predictor Variable]: {{ site.baseurl}}{% link glossary/p.md %}#predictor-variable
 [Pretrained Model]: {{ site.baseurl}}{% link glossary/p.md %}#pretrained-model
+[Pretrained Models]: {{ site.baseurl}}{% link glossary/p.md %}#pretrained-model
+[PT Model]: {{ site.baseurl}}{% link glossary/p.md %}#pretrained-model
+[PT Models]: {{ site.baseurl}}{% link glossary/p.md %}#pretrained-model
+[PT]: {{ site.baseurl}}{% link glossary/p.md %}#pretrained-model
 [Pretrained Objective]: {{ site.baseurl}}{% link glossary/p.md %}#pretrained-objective
 [Pretrained Objectives]: {{ site.baseurl}}{% link glossary/p.md %}#pretrained-objective
 [Principal Component Analysis]: {{ site.baseurl}}{% link glossary/p.md %}#principal-component-analysis
@@ -114,6 +118,8 @@
 [PAL]: {{ site.baseurl}}{% link glossary/p.md %}#program-aided-language-system
 [Progressive Neural Network]: {{ site.baseurl}}{% link glossary/p.md %}#progressive-neural-network
 [Progressive Neural Networks]: {{ site.baseurl}}{% link glossary/p.md %}#progressive-neural-network
+[Prompt Adaptation]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-adaptation
+[Prompt Adherence]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-adherence
 [Prompt Engineering]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-engineering
 [Prompt Injection]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-injection
 [Prompt Leakage]: {{ site.baseurl}}{% link glossary/p.md %}#prompt-leakage

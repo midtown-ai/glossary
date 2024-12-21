@@ -28,6 +28,9 @@
 [Quantum Computers]: {{ site.baseurl}}{% link glossary/q.md %}#quantum-computer
 [Quantum Language Processing]: {{ site.baseurl}}{% link glossary/q.md %}#quantum-language-processing
 [QLP]: {{ site.baseurl}}{% link glossary/q.md %}#quantum-language-processing
+[Quantum Machine Learning]: {{ site.baseurl}}{% link glossary/q.md %}#quantum-machine-learning
+[QML]: {{ site.baseurl}}{% link glossary/q.md %}#quantum-machine-learning
+[Quantum Supremacy]: {{ site.baseurl}}{% link glossary/q.md %}#quantum-supremacy
 [Question Answering]: {{ site.baseurl}}{% link glossary/q.md %}#question-answering
 [QA]: {{ site.baseurl}}{% link glossary/q.md %}#qa
 [Question Answering Graph Neural Network]: {{ site.baseurl}}{% link glossary/q.md %}#question-answering-graph-neural-network

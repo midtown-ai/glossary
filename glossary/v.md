@@ -386,6 +386,23 @@ z_q(x)=\text{argmin}_i ||z_e(x)-e_i||_2
  See also [V], ...
 
 
+# Veo Model
+
+ ~ Sora but built by [Google]
+
+ Veo creates videos with realistic motion and high quality output, up to 4K.
+
+ {% youtube "https://www.youtube.com/watch?v=J5VtYdakanM" %}
+
+ {% youtube "https://www.youtube.com/watch?v=-XFTnQBNz50" %}
+
+ More at:
+  * veo 2 - [https://deepmind.google/technologies/veo/veo-2/](https://deepmind.google/technologies/veo/veo-2/)
+  * co-lead - [https://x.com/shlomifruchter](https://x.com/shlomifruchter)
+
+ See also [V], ...
+
+
 # Viam 
 
  Developed by [Nvidia], ...
@@ -554,6 +571,32 @@ for layer in model.layers:
     * [https://becominghuman.ai/what-exactly-does-cnn-see-4d436d8e6e52](https://becominghuman.ai/what-exactly-does-cnn-see-4d436d8e6e52)
 
  See also [V], [Convolutional Neural Network]
+
+
+# Vision Arena
+
+ Used for benchmarking multimodal model LLMs in the wild!
+
+ More at: 
+  * site - [https://huggingface.co/spaces/WildVision/vision-arena](https://huggingface.co/spaces/WildVision/vision-arena)
+
+ See also [V], ...
+
+
+# Vision-Language Model
+# VLM
+
+ ~ Vision language models are models that can learn simultaneously from images and texts to tackle many tasks, from visual question answering to image captioning.
+
+ Vision language models are broadly defined as multimodal models that can learn from images and text. They are a type of generative models that take image and text inputs, and generate text outputs. Large vision language models have good zero-shot capabilities, generalize well, and can work with many types of images, including documents, web pages, and more. The use cases include chatting about images, image recognition via instructions, visual question answering, document understanding, image captioning, and others. Some vision language models can also capture spatial properties in an image. These models can output bounding boxes or segmentation masks when prompted to detect or segment a particular subject, or they can localize different entities or answer questions about their relative or absolute positions. There’s a lot of diversity within the existing set of large vision language models, the data they were trained on, how they encode images, and, thus, their capabilities.
+
+ ![]( {{site.assets}}/v/vision_language_model.jpg ){: width="100%"}
+
+ More at:
+  * [https://huggingface.co/blog/vlms](https://huggingface.co/blog/vlms)
+  * [https://huggingface.co/blog/vision_language_pretraining](https://huggingface.co/blog/vision_language_pretraining)
+
+ See also [V], ...
 
 
 # Vision-Language Pre-Training

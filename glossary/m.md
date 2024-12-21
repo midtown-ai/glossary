@@ -231,7 +231,7 @@ Predict what are the required agent skills based some input parameters
  See also [M], ...
 
 
-# Mamba Model
+# Mamba Mechanism
 
  ~ does not use the transformer, but much cheaper to train and use than transformers. Scale to very long sequences.
 
@@ -249,8 +249,10 @@ Predict what are the required agent skills based some input parameters
   * paper - [https://arxiv.org/abs/2312.00752](https://arxiv.org/abs/2312.00752)
   * code - [https://github.com/state-spaces/mamba](https://github.com/state-spaces/mamba)
   * colab - [https://colab.research.google.com/drive/1dUlEYnRbgJYg4_kofNpsCddLCh6vltNK?usp=sharing#scrollTo=4cMzClx-qN1x](https://colab.research.google.com/drive/1dUlEYnRbgJYg4_kofNpsCddLCh6vltNK?usp=sharing#scrollTo=4cMzClx-qN1x) 
+  * articles
+    * Mamba vs attention - [https://medium.com/data-science-in-your-pocket/mamba-vs-attention-which-mechanism-is-better-for-llm-bbf7699947dc](https://medium.com/data-science-in-your-pocket/mamba-vs-attention-which-mechanism-is-better-for-llm-bbf7699947dc)
 
- See also [M], [State Space Model], ...
+ See also [M], [Attention Mechanism], [State Space Model]
 
 
 # ManGPT Model
@@ -396,6 +398,8 @@ The training is identical -- we still predict each masked WordPiece token indepe
 
 
 # Masked Self-Attention
+
+ ~ Used in the decoder of [transformers]
 
  Attention can only be done to words to the left of the current word. The computation of the attention score is the same for self-attention but for later words, attention score is 0. Used in Decoders of transformers (not encoder!), used by GPT models.
 
@@ -726,10 +730,13 @@ S = Q D Qt
 # Maximum Marginal Relevance
 # MMR
 
+ The Maximal Marginal Relevance (MMR) criterion strives to reduce redundancy while maintaining query relevance in re-ranking retrieved documents. When it comes to retrieving documents (like in a [RAG]), the majority of methods will do a [similarity metric] like [cosine similarity], [euclidean distance], or [dot product]. All of these will return documents that are most similar to your query/question. However, what if you want similar documents which are also diverse from each other? That is where Maximum Marginal Relevance (MMR) steps in.
+
  {% youtube "https://www.youtube.com/watch?v=eaZu5_dLKNk" %}
 
  More at:
   * [https://community.fullstackretrieval.com/retrieval-methods/maximum-marginal-relevance-mmr](https://community.fullstackretrieval.com/retrieval-methods/maximum-marginal-relevance-mmr)
+  * code - [https://github.com/gkamradt/langchain-tutorials/blob/main/data_generation/Retrieval_With_MMR.ipynb](https://github.com/gkamradt/langchain-tutorials/blob/main/data_generation/Retrieval_With_MMR.ipynb)
 
  See also [M], [RAG]
 
@@ -1371,6 +1378,31 @@ def mse_loss(y_pred, y_true):
  See also [M], ...
 
 
+# Model Context Protocol
+# MCP
+
+ The Model Context Protocol (MCP) is an open protocol that enables seamless integration between LLM applications and external data sources and tools. Whether you’re building an AI-powered IDE, enhancing a chat interface, or creating custom AI workflows, MCP provides a standardized way to connect LLMs with the context they need.
+
+ Integrates with
+  * databases
+  * file systems
+  * ...
+  * github (pull requests, create repos, etc!!!)
+
+ {% youtube "https://www.youtube.com/watch?v=KiNyvT02HJM" %}
+
+ More at:
+  * site - [https://modelcontextprotocol.io/introduction](https://modelcontextprotocol.io/introduction)
+  * code - [https://github.com/modelcontextprotocol/](https://github.com/modelcontextprotocol/)
+  * sdks
+    * python - [https://github.com/modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk)
+  * articles
+    * announcement - [https://www.anthropic.com/news/model-context-protocol](https://www.anthropic.com/news/model-context-protocol)
+
+
+ See also [M], ...
+
+
 # Model Convergence
 
  When we say a machine learning model has converged, it generally means that the model has stabilized during training and additional training is not producing significant changes or improvements in its parameters or performance on the training set. Here are some key points about model convergence:
@@ -1628,11 +1660,11 @@ Model denial of service (MDoS) is a potential attack vector against machine lear
 # Model Performance Metric
 
  Examples:
-  * percentage of correct predictions
-  * sensitivity, recall, hit rate or TPR
-  * precision
-  * F1 score = weigthed harmonic mean of precision and recall = ( 2 X precision * recall ) / (Precision + recall)
-  * FPR, FNR
+  * [accuracy] or percentage of correct predictions
+  * [sensitivity], [recall], hit rate or [TPR]
+  * [precision]
+  * [F1 score] = weigthed harmonic mean of precision and recall = ( 2 X precision * recall ) / (Precision + recall)
+  * [FPR], [FNR]
 
   [Hyperparameter Tuning]
 

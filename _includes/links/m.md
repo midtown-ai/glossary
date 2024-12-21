@@ -15,6 +15,8 @@
 [Majority Vote Algorithm]: {{ site.baseurl }}{% link glossary/m.md %}#majority-vote-algorithm
 [Make-A-Video Model]: {{ site.baseurl }}{% link glossary/m.md %}#make-a-video-model
 [Make-A-Video]: {{ site.baseurl }}{% link glossary/m.md %}#make-a-video-model
+[Mamba Mechanism]: {{ site.baseurl }}{% link glossary/m.md %}#mamba-mechanism
+[Mamba]: {{ site.baseurl }}{% link glossary/m.md %}#mamba-mechanism
 [Manhattan Distance]: {{ site.baseurl }}{% link glossary/m.md %}#manhattan-distance
 [ManyChat Company]: {{ site.baseurl }}{% link glossary/m.md %}#manychat-company
 [MapReduce Process]: {{ site.baseurl }}{% link glossary/m.md %}#mapreduce-process
@@ -136,6 +138,8 @@
 [Model Card]: {{ site.baseurl }}{% link glossary/m.md %}#model-card
 [Model Checkpoint]: {{ site.baseurl }}{% link glossary/m.md %}#model-checkpoint
 [Model Compression]: {{ site.baseurl }}{% link glossary/m.md %}#model-compression
+[Model Context Protocol]: {{ site.baseurl }}{% link glossary/m.md %}#model-context-protocol
+[MCP]: {{ site.baseurl }}{% link glossary/m.md %}#model-context-protocol
 [Model Data Sheet]: {{ site.baseurl }}{% link glossary/m.md %}#model-data-sheet
 [Model Denial Of Service]: {{ site.baseurl }}{% link glossary/m.md %}#model-denial-of-service
 [Model DoS]: {{ site.baseurl }}{% link glossary/m.md %}#model-denial-of-service

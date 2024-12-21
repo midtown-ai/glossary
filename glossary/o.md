@@ -358,6 +358,22 @@ cheese =>                                   # Prompt
  See also [O], ....
 
 
+# Ontology
+
+ ~ Ontology + Data = [Knowledge Graph]
+
+ * Classes (or Concepts) : Categories or types of entities within the domain. For example, in a KG about healthcare, classes might include 'Disease', 'Symptom', 'Medication' and 'Patient'
+ * Instances (or Individuals): Specific entities that belong to a class. For example, 'Diabetes' might be an instance of the class 'Disease' and 'Aspirin' an instance of the class 'Medication'
+ * Properties (or Attributes): Characteristics or attributes of the classes or instances. For example, the 'hasDosage' property might describe the dosage of a medication
+ * Relations: Defined connections or associations between classes or instances. These might include hierarchical relationships (e.g. 'is a' relationships like 'Aspirin is a Medication') or more specific associations (e.g. 'treats' relationships like 'Aspirin treats Headache')
+ * Rule/Constraints: Logical rules or constraints that govern the relationships and properties within the ontology. For example, a rule might state that 'Every medication must have a dosage'
+
+ More at:
+  * ...
+
+ See also [O], [LLMGraphTransformer]
+
+
 # Open-World Environment
 
  An environment in which agents can evolve and act such as Minecraft!
@@ -788,6 +804,14 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
  ![]( {{site.assets}}/o/ordinal_encoding.png )
 
  See also [O], [On-Cold Encoding], [One-Hot Encoding]
+
+
+# Out Of Vocabulary Word
+# OOV Word
+
+ When a word is classified as unknown because it cannot be tokenized as none of the token used by the [tokenizer] match the word..
+
+ See also [O], ...
 
 
 # Outlier

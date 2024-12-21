@@ -9,12 +9,16 @@
 [Sample Efficient RL Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#sample-efficient-reinforcement-learning-algorithm
 [Sampling Error]: {{ site.baseurl}}{% link glossary/s.md %}#sampling-error
 [Sampling Method]: {{ site.baseurl}}{% link glossary/s.md %}#sampling-method
+[Satya Nadella Person]: {{ site.baseurl}}{% link glossary/s.md %}#satya-nadella-person
+[Satya Nadella]: {{ site.baseurl}}{% link glossary/s.md %}#satya-nadella-person
 [Scale AI Company]: {{ site.baseurl}}{% link glossary/s.md %}#scale-ai-company
 [Scale AI]: {{ site.baseurl}}{% link glossary/s.md %}#scale-ai-company
 [Scaled Dot-Product]: {{ site.baseurl}}{% link glossary/s.md %}#scaled-dot-product
 [SDP]: {{ site.baseurl}}{% link glossary/s.md %}#scaled-dot-product
 [Scaled Dot-Product Attention]: {{ site.baseurl}}{% link glossary/s.md %}#scaled-dot-product-attention
 [SDP Attention]: {{ site.baseurl}}{% link glossary/s.md %}#scaled-dot-product-attention
+[Scale-Invariant Feature Transform]: {{ site.baseurl}}{% link glossary/s.md %}#scale-invariant-feature-transform
+[SIFT]: {{ site.baseurl}}{% link glossary/s.md %}#scale-invariant-feature-transform
 [Scaler]: {{ site.baseurl}}{% link glossary/s.md %}#scaler
 [Scaling Law]: {{ site.baseurl}}{% link glossary/s.md %}#scaling-law
 [Search Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#search-algorithm
@@ -47,6 +51,10 @@
 [SOM Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
 [SOM]: {{ site.baseurl}}{% link glossary/s.md %}#self-organizing-map-algorithm
 [Self-Play]: {{ site.baseurl}}{% link glossary/s.md %}#self-play
+[Self-Reflection Prompting]: {{ site.baseurl}}{% link glossary/s.md %}#self-reflection-prompting
+[Self-Reflection]: {{ site.baseurl}}{% link glossary/s.md %}#self-reflection-prompting
+[SR Prompting]: {{ site.baseurl}}{% link glossary/s.md %}#self-reflection-prompting
+[SR]: {{ site.baseurl}}{% link glossary/s.md %}#self-reflection-prompting
 [Self-Reflective Retrieval Augmented Generation System]: {{ site.baseurl}}{% link glossary/s.md %}#self-reflective-retrieval-augmented-generation-system
 [Self-Reflective RAG]: {{ site.baseurl}}{% link glossary/s.md %}#self-reflective-retrieval-augmented-generation-system
 [Self-Supervised Learning]: {{ site.baseurl}}{% link glossary/s.md %}#self-supervised-learning
@@ -62,6 +70,7 @@
 [Sensitivity-Specificity Trade-Off]: {{ site.baseurl}}{% link glossary/s.md %}#sensitivity-specificity-trade-off
 [Sentence Embedding]: {{ site.baseurl}}{% link glossary/s.md %}#sentence-embedding
 [Sentence Embeddings]: {{ site.baseurl}}{% link glossary/s.md %}#sentence-embedding
+[SentencePiece Tokenizer]: {{ site.baseurl}}{% link glossary/s.md %}#sentencepiece-tokenizer
 [Sentient AI]: {{ site.baseurl}}{% link glossary/s.md %}#sentient-ai
 [Sentiment Analysis]: {{ site.baseurl}}{% link glossary/s.md %}#sentiment-analysis
 [Sequence Model]: {{ site.baseurl}}{% link glossary/s.md %}#sequence-model
@@ -87,8 +96,8 @@
 [SIGGRAPH]: {{ site.baseurl}}{% link glossary/s.md %}#siggraph-conference
 [Sigmoid Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-activation-function
 [Sigmoid Function]: {{ site.baseurl}}{% link glossary/s.md %}#sigmoid-function
-[Similarity Function]: {{ site.baseurl}}{% link glossary/s.md %}#similarity-function
-[Similarity Functions]: {{ site.baseurl}}{% link glossary/s.md %}#similarity-function
+[Similarity Metric]: {{ site.baseurl}}{% link glossary/s.md %}#similarity-metric
+[Similarity Metrics]: {{ site.baseurl}}{% link glossary/s.md %}#similarity-metric
 [Similarity]: {{ site.baseurl}}{% link glossary/s.md %}#similarity-function
 [Similarity Search]: {{ site.baseurl}}{% link glossary/s.md %}#similarity-search
 [Simulated Policy Learning Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#similumated-policy-learning-algorithm
@@ -125,6 +134,8 @@
 [Social Bias]: {{ site.baseurl}}{% link glossary/s.md %}#social-bias
 [Social Robot]: {{ site.baseurl}}{% link glossary/s.md %}#social-robot
 [Society Of Mind]: {{ site.baseurl}}{% link glossary/s.md %}#society-of-mind
+[Socratic Method]: {{ site.baseurl}}{% link glossary/s.md %}#socratic-method
+[Socratic Method Prompting]: {{ site.baseurl}}{% link glossary/s.md %}#socratic-method-prompting
 [Soft Actor-Critic Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#soft-actor-critic-algorithm
 [Soft Actor-Critic]: {{ site.baseurl}}{% link glossary/s.md %}#soft-actor-critic-algorithm
 [SAC Algorithm]: {{ site.baseurl}}{% link glossary/s.md %}#soft-actor-critic-algorithm
@@ -210,6 +221,7 @@
 [SMT]: {{ site.baseurl}}{% link glossary/s.md %}#statistical-machine-translation
 [Statistical Model]: {{ site.baseurl}}{% link glossary/s.md %}#statistical-model
 [Statistics]: {{ site.baseurl}}{% link glossary/s.md %}#statistics
+[Steerability]: {{ site.baseurl}}{% link glossary/s.md %}#steerability
 [Step Activation Function]: {{ site.baseurl}}{% link glossary/s.md %}#step-activation-function
 [Step-Back Prompting]: {{ site.baseurl}}{% link glossary/s.md %}#step-back-prompting
 [Stereo Vision]: {{ site.baseurl}}{% link glossary/s.md %}#stereo-vision
@@ -267,4 +279,5 @@
 [Synthetic Features]: {{ site.baseurl}}{% link glossary/s.md %}#synthetic-feature
 [Synthetic Users Company]: {{ site.baseurl}}{% link glossary/s.md %}#synthetic-users-company
 [Synthetic Users]: {{ site.baseurl}}{% link glossary/s.md %}#synthetic-users-company
+[Synthid]: {{ site.baseurl}}{% link glossary/s.md %}#synthid
 [System Prompt]: {{ site.baseurl}}{% link glossary/s.md %}#system-prompt

@@ -337,6 +337,8 @@ Recall = % of positively identified
 # Receiver Operating Characteristic Curve
 # ROC Curve
 
+ ~ provides a more holistic view of the validator's performance across different threshold settings. It's particularly useful when you need to balance [sensitivity] and [specificity] in your evaluations.
+
  ~ summarize all the [confusion matrices] of a logistic model, if the classification 'Probability-threshold' is changed. ([thresholding])
 
  ~ A [confusion matrix] is 1 point on the ROC curve!
@@ -345,7 +347,7 @@ Recall = % of positively identified
 
  ~ The best threshold is for a desired TPR to get the lowest FPR.
 
- Receiver Operating Characteristic (ROC) is a graphical representation of the performance of a binary classifier system as the discrimination threshold is varied. It plots the [true positive rate (TPR)][TPR] on the y-axis and the [false positive rate (FPR)][FPR] on the x-axis. The [true positive rate] (also known as [sensitivity] or [recall] ) is the proportion of positive cases that are correctly identified by the classifier. The false positive rate (also known as the fall-out) is the proportion of negative cases that are incorrectly identified as positive. An ROC curve plots the [TPR] against the [FPR] at different threshold settings. A perfect classifier will have a [TPR] of 1 and a [FPR] of 0, resulting in a point in the top left corner of the ROC space. A random classifier will have a [TPR] and [FPR] of 0.5, resulting in a point along a diagonal line from the bottom left to the top right corner of the ROC space. The [area under the ROC curve (AUC)][AUC] is a measure of the classifier's overall performance, with a value of 1 indicating perfect performance and a value of 0.5 indicating a performance no better than random guessing.
+ Receiver Operating Characteristic (ROC) is a graphical representation of the performance of a binary classifier system as the discrimination threshold is varied. It plots the [true positive rate (TPR)][TPR] on the y-axis and the [false positive rate (FPR)][FPR] on the x-axis. The [true positive rate] (also known as [sensitivity] or [recall] ) is the proportion of positive cases that are correctly identified by the classifier. The false positive rate (also known as the fall-out) is the proportion of negative cases that are incorrectly identified as positive. An ROC curve plots the [TPR] against the [FPR] at different threshold settings. A perfect classifier will have a [TPR] of 1 and a [FPR] of 0, resulting in a point in the top left corner of the ROC space. A random classifier will have a [TPR] and [FPR] of 0.5, resulting in a point along a diagonal line from the bottom left to the top right corner of the ROC space. The [Area Under the ROC (AUROC) curve][AUROC Curve] is a measure of the classifier's overall performance, with a value of 1 indicating perfect performance and a value of 0.5 indicating a performance no better than random guessing.
 
  ![]( {{site.assets}}/r/receiver_operating_characteristic_curve_thresholding_table.png ){: width="100%"}
 
@@ -428,7 +430,7 @@ Recall = % of positively identified
 
  A stack of images (matrix of pixels) becomes a stack of images with no negative values.
 
- Such layer is used in [CCNs] after each [convolutional layer] and before each [pooling layer]
+ Such layer is used in [CNNs] after each [convolutional layer] and before each [pooling layer]
 
  See also [R], ...
 
@@ -467,9 +469,7 @@ Recall = % of positively identified
   * RNN are now deprecated by attention-based models such as those based on the [transformer architecture]
   * deprecated previous approach using [bag of words] and [word2vec]
   * deprecated by [attention-based models]
-  * RNN use [backpropagation though time] instead of 'normal' [backpropagation]
-
- {% youtube "https://www.youtube.com/watch?v=DFZ1UA7-fxY" %}
+  * RNN use [backpropagation through time] instead of 'normal' [backpropagation]
 
  {% youtube "https://www.youtube.com/watch?v=DFZ1UA7-fxY" %}
 
@@ -478,7 +478,7 @@ Recall = % of positively identified
  More at:
   * keras and RNN - [https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177](https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177)
 
- See also [R], [Bidirectional RNN], [Folded RNN], [Feedforward Neural Network], [Hidden State], [Long Short-Term Memory Network], [Pixel RNN], [Unfolded RNN], [Vanishing Gradient]
+ See also [R], [Bidirectional RNN], [Folded RNN], [Feedforward Neural Network], [Hidden State], [Long Short-Term Memory Network], [Pixel RNN], [Unfolded RNN], [Vanishing Gradient Problem]
 
 
 # Red Teaming
@@ -692,6 +692,17 @@ Recall = % of positively identified
  See also [R], ...
 
 
+# Reinforcement Fine-Tuning
+# RFT
+
+ ~ allows users to create custom models using the same process [OpenAI] uses internally.
+
+ More at:
+  * ...
+
+ See also [R], [Supervised Fine-Tuning]
+
+
 # Reinforcement Learning
 # RL
 
@@ -775,7 +786,7 @@ Recall = % of positively identified
   * [Hierarchical RL] = Decomposes problem into hierarchy of sub-policies over different timescales
   * [Transfer Learning] = Leverage knowledge fro previous tasks to accelerate learning on new tasks.
 
- ![]( {{site.assets}}/r/reinforcement_learning_with_targeted_feeback.png ){: width="100%"}
+ ![]( {{site.assets}}/r/reinforcement_learning_with_targeted_feedback.png ){: width="100%"}
 
  More at:
   * articles
@@ -789,7 +800,7 @@ Recall = % of positively identified
 
  RLCF leverages compiler and LLM feedback to reinforce code quality, guiding models to generate syntactically correct, semantically sound code. It's ideal for tuning code models without human input. This training happens after traditional pre-training but before task-specific fine-tuning.
 
- ![]( {{site.assets}}/r/reinforcement_learning_coordinated_feeback.avif ){: width="100%"}
+ ![]( {{site.assets}}/r/reinforcement_learning_coordinated_feedback.avif ){: width="100%"}
 
  More at:
   * articles
@@ -851,7 +862,7 @@ As you place each block, a teacher says if you are doing it right or wrong right
 So you can fix mistakes right away, making sure the tower stands strong!
 ```
 
- ![]( {{site.assets}}/r/reinforcement_learning_with_executive_feeback.avif ){: width="100%"}
+ ![]( {{site.assets}}/r/reinforcement_learning_with_executive_feedback.avif ){: width="100%"}
 
  More at:
   * articles
@@ -918,7 +929,7 @@ So you can fix mistakes right away, making sure the tower stands strong!
 
 # Relevancy
 
- Relevancy --> approximate of neightbor ias used in [Similarity Functions]
+ Relevancy --> approximate of neightbor bias used in [similarity metrics]
  Low relevancy = this hot dog looks like this ice cream.
  High relevancy = this hot dog looks like this other hot dog.
 
@@ -1347,6 +1358,39 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
   * [https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79](https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79)
 
  See also [R], ...
+
+
+# Retrieval-Interleaved Generation
+# RIG
+
+ Retrieval-Interleaved Generation (RIG) is a technique that combines retrieval and generation to enhance the quality and factuality of AI model outputs. Here's how it works:
+  * During generation, the model periodically pauses to retrieve relevant information from a knowledge base
+  * The retrieved information is then integrated into the ongoing generation process, helping guide and inform the output
+
+ The key benefits are:
+  * Improved factual accuracy since the model can reference external knowledge
+  * Better grounding of responses in verified information
+  * Reduced hallucination as the model isn't purely relying on its learned parameters
+
+ A simple example:
+ If asked about Barack Obama's presidency, a RIG system might:
+  * Start generating about Obama
+  * Pause to retrieve specific dates and events from a knowledge base
+  * Continue generating while incorporating the retrieved facts
+  * Repeat this process throughout the response
+
+ This is different from pure retrieval (which just looks up answers) or pure generation (which creates text from learned parameters). RIG tries to get the best of both approaches.
+
+ ![]( {{site.assets}}/r/retrieval_interleaved_generation.webp ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=XclqphX9VAM" %}
+
+ More at:
+  * articles
+    * [https://medium.com/@sahin.samia/retrieval-interleaved-generation-rig-using-llm-what-is-it-and-how-it-works-aa8be0e27bbc](https://medium.com/@sahin.samia/retrieval-interleaved-generation-rig-using-llm-what-is-it-and-how-it-works-aa8be0e27bbc)
+    * RIG vs RAG - [https://research.google/blog/grounding-ai-in-reality-with-a-little-help-from-data-commons/](https://research.google/blog/grounding-ai-in-reality-with-a-little-help-from-data-commons/)
+
+ See also [R], [Data Commons Dataset]
 
 
 # Retriever

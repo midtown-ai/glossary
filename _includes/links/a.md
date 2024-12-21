@@ -101,6 +101,7 @@
 [AI Movie]: {{ site.baseurl }}{% link glossary/a.md %}#ai-movie
 [AI Music]: {{ site.baseurl }}{% link glossary/a.md %}#ai-music
 [AI Paper]: {{ site.baseurl }}{% link glossary/a.md %}#ai-paper
+[AI Paraphrasing]: {{ site.baseurl }}{% link glossary/a.md %}#ai-paraphrasing
 [AI Policy]: {{ site.baseurl }}{% link glossary/a.md %}#ai-policy
 [AI Principle]: {{ site.baseurl }}{% link glossary/a.md %}#ai-principle
 [AI Principles]: {{ site.baseurl }}{% link glossary/a.md %}#ai-principle
@@ -113,7 +114,9 @@
 [AI Topics]: {{ site.baseurl }}{% link glossary/a.md %}#ai-topics
 [AI Winter]: {{ site.baseurl }}{% link glossary/a.md %}#ai-winter
 [AI Writer]: {{ site.baseurl }}{% link glossary/a.md %}#ai-writer
+[AI Writing Detection]: {{ site.baseurl }}{% link glossary/a.md %}#ai-writing-detection
 [AI4ALL]: {{ site.baseurl }}{% link glossary/a.md %}#ai4all
+[AI4K12]: {{ site.baseurl }}{% link glossary/a.md %}#ai4k12
 [Alan Turing Person]: {{ site.baseurl }}{% link glossary/a.md %}#alan-turing-person
 [Alan Turing]: {{ site.baseurl }}{% link glossary/a.md %}#alan-turing-person
 [Alex Krizhevsky Person]: {{ site.baseurl }}{% link glossary/a.md %}#alex-krizhevsky-person
@@ -175,8 +178,9 @@
 [Arc Institute]: {{ site.baseurl }}{% link glossary/a.md %}#arc-institute
 [Arcade Learning Environment]: {{ site.baseurl }}{% link glossary/a.md %}#arcade-learning-environment
 [ALE]: {{ site.baseurl }}{% link glossary/a.md %}#arcade-learning-environment
-[Area Under The Curve]: {{ site.baseurl }}{% link glossary/a.md %}#area-under-the-curve
-[AUC]: {{ site.baseurl }}{% link glossary/a.md %}#area-under-the-curve
+[Area Under The Receiver Operating Characteristic Curve]: {{ site.baseurl }}{% link glossary/a.md %}#area-under-the-receiver-operating-characteristic-curve
+[AUROC Curve]: {{ site.baseurl }}{% link glossary/a.md %}#area-under-the-receiver-operating-characteristic-curve
+[AUC]: {{ site.baseurl }}{% link glossary/a.md %}#area-under-the-receiver-operating-characteristic-curve
 [Argmax Function]: {{ site.baseurl }}{% link glossary/a.md %}#argmax-function
 [Argmax]: {{ site.baseurl }}{% link glossary/a.md %}#argmax-function
 [Argmin Function]: {{ site.baseurl }}{% link glossary/a.md %}#argmin-function
@@ -218,6 +222,8 @@
 [Association for the Advancement of Artificial Intelligence]: {{ site.baseurl }}{% link glossary/a.md %}#association-for-the-advancement-of-artificial-intelligence
 [AAAI]: {{ site.baseurl }}{% link glossary/a.md %}#association-for-the-advancement-of-artificial-intelligence
 [Association Rule Learning]: {{ site.baseurl }}{% link glossary/a.md %}#association-rule-learning
+[Astra Model]: {{ site.baseurl }}{% link glossary/a.md %}#astra-model
+[Astra]: {{ site.baseurl }}{% link glossary/a.md %}#astra-model
 [Asynchronous Advantage Actor-Critic Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#asynchronous-advantage-actor-critic-algorithm
 [Asynchronous Advantage Actor-Critic]: {{ site.baseurl }}{% link glossary/a.md %}#asynchronous-advantage-actor-critic-algorithm
 [A3C Algorithm]: {{ site.baseurl }}{% link glossary/a.md %}#asynchronous-advantage-actor-critic-algorithm
@@ -226,11 +232,15 @@
 [Atari Learning Environment]: {{ site.baseurl }}{% link glossary/a.md %}#atari-learning-environment
 [ALE]: {{ site.baseurl }}{% link glossary/a.md %}#atari-learning-environment
 [Atlas Robot]: {{ site.baseurl }}{% link glossary/a.md %}#atlas-robot
-[Attention]: {{ site.baseurl }}{% link glossary/a.md %}#attention
+[Attention Mechanism]: {{ site.baseurl }}{% link glossary/a.md %}#attention-mechanism
+[Attention]: {{ site.baseurl }}{% link glossary/a.md %}#attention-mechanism
 [Attention-Based Model]: {{ site.baseurl }}{% link glossary/a.md %}#attention-based-model
+[Attention-Based Models]: {{ site.baseurl }}{% link glossary/a.md %}#attention-based-model
 [Attention Score]: {{ site.baseurl }}{% link glossary/a.md %}#attention-score
 [Attribute]: {{ site.baseurl }}{% link glossary/a.md %}#attribute
 [Audio Generation]: {{ site.baseurl }}{% link glossary/a.md %}#audio-generation
+[Audio2Face Model]: {{ site.baseurl }}{% link glossary/a.md %}#audio2face-model
+[Audio2Face]: {{ site.baseurl }}{% link glossary/a.md %}#audio2face-model
 [Augmented Language Model]: {{ site.baseurl }}{% link glossary/a.md %}#augmented-language-model
 [ALM]: {{ site.baseurl }}{% link glossary/a.md %}#augmented-language-model
 [Augmented Reality]: {{ site.baseurl }}{% link glossary/a.md %}#augmented-reality
@@ -265,6 +275,9 @@
 [AWS Bedrock]: {{ site.baseurl }}{% link glossary/a.md %}#aws-bedrock-service
 [AWS Lex Service]: {{ site.baseurl }}{% link glossary/a.md %}#aws-lex-service
 [AWS Lex]: {{ site.baseurl }}{% link glossary/a.md %}#aws-lex-service
+[AWS Nova Model]: {{ site.baseurl }}{% link glossary/a.md %}#aws-nova-model
+[AWS Nova Models]: {{ site.baseurl }}{% link glossary/a.md %}#aws-nova-model
+[AWS Nova]: {{ site.baseurl }}{% link glossary/a.md %}#aws-nova-model
 [AWS Polly]: {{ site.baseurl }}{% link glossary/a.md %}#aws-polly
 [AWS Recognition Service]: {{ site.baseurl }}{% link glossary/a.md %}#aws-recognition-service
 [AWS Recognition]: {{ site.baseurl }}{% link glossary/a.md %}#aws-recognition-service
@@ -276,3 +289,6 @@
 [AWS Sagemaker Service]: {{ site.baseurl }}{% link glossary/a.md %}#aws-sagemaker-service
 [AWS Sagemaker]: {{ site.baseurl }}{% link glossary/a.md %}#aws-sagemaker-service
 [AWS Sagemaker Studio]: {{ site.baseurl }}{% link glossary/a.md %}#aws-sagemaker-studio
+[AWS Titan Model]: {{ site.baseurl }}{% link glossary/a.md %}#aws-titan-model
+[AWS Titan Models]: {{ site.baseurl }}{% link glossary/a.md %}#aws-titan-model
+[AWS Titan]: {{ site.baseurl }}{% link glossary/a.md %}#aws-titan-model

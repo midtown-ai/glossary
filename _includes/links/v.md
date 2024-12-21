@@ -31,6 +31,8 @@
 [Vector Search Plugin]: {{ site.baseurl }}{% link glossary/v.md %}#vector-search-plugin
 [Vector Space]: {{ site.baseurl }}{% link glossary/v.md %}#vector-space
 [Vector Space Collision]: {{ site.baseurl }}{% link glossary/v.md %}#vector-space-collision
+[Veo Model]: {{ site.baseurl }}{% link glossary/v.md %}#veo-model
+[Veo]: {{ site.baseurl }}{% link glossary/v.md %}#veo-model
 [Viam]: {{ site.baseurl }}{% link glossary/v.md %}#viam
 [Vicuna Model]: {{ site.baseurl }}{% link glossary/v.md %}#vicuna-model
 [Vicuna]: {{ site.baseurl }}{% link glossary/v.md %}#vicuna-model
@@ -50,6 +52,11 @@
 [Virtual Continuum]: {{ site.baseurl }}{% link glossary/v.md %}#virtual-continuum
 [Virtual Reality]: {{ site.baseurl }}{% link glossary/v.md %}#virtual-reality
 [VR]: {{ site.baseurl }}{% link glossary/v.md %}#virtual-reality
+[Vision Arena]: {{ site.baseurl }}{% link glossary/v.md %}#vision-arena
+[Vision-Language Model]: {{ site.baseurl }}{% link glossary/v.md %}#vision-language-model
+[Vision-Language Models]: {{ site.baseurl }}{% link glossary/v.md %}#vision-language-model
+[VLM]: {{ site.baseurl }}{% link glossary/v.md %}#vision-language-model
+[VLMs]: {{ site.baseurl }}{% link glossary/v.md %}#vision-language-model
 [Vision-Language Pre-Training]: {{ site.baseurl }}{% link glossary/v.md %}#vision-language-pre-training
 [VLP]: {{ site.baseurl }}{% link glossary/v.md %}#vision-language-pre-training
 [Vision Transformer]: {{ site.baseurl }}{% link glossary/v.md %}#vision-transformer

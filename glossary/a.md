@@ -618,6 +618,7 @@ k is the number of predictors (not counting the intercept)
   * Animals
   * [AI Agents]
   * ...
+  * [Embodied Agents]
 
  See also [A], ...
 
@@ -651,10 +652,12 @@ k is the number of predictors (not counting the intercept)
 
  ![]( {{site.assets}}/a/ai_agent.png){: width="100%" }
 
+ {% youtube "https://www.youtube.com/watch?v=kHPXbo2OkzA" %}
+
  More at:
   * ...
 
- See also [A], ...
+ See also [A], [Embodied Agent]
 
 
 # AI Alignment
@@ -883,6 +886,11 @@ A risk of [AGI]
  See also [A], ...
 
 
+# AI Governance
+
+ See [Model Governance]
+
+
 # AI Index
 
  The AI Index is an independent initiative at the [Stanford] Institute for Human-Centered Artificial Intelligence (HAI), led by the AI Index Steering Committee, an interdisciplinary group of experts from across academia and industry. The annual report tracks, collates, distills, and visualizes data relating to artificial intelligence, enabling decision-makers to take meaningful action to advance AI responsibly and ethically with humans in mind.
@@ -993,6 +1001,21 @@ A risk of [AGI]
  {% youtube "https://www.youtube.com/watch?v=K6Wui3mn-uI" %}
 
  See [A], [AI Research]
+
+
+# AI Paraphrasing
+
+ Paraphrasing is the practice of rephrasing or restating someone else's ideas or information using your own words and sentence structures. It is a common technique used in academic writing to present information in a more concise or understandable way while still attributing the original source. Paraphrasing requires a deep understanding of the content and the ability to express it in a new form without changing the original meaning.
+
+ On the other hand, AI paraphrasing refers to the process of using AI technology to rewrite text while retaining the original meaning. These AI-powered tools, also known as text spinners, analyze the input text and generate alternative versions that convey the same information using different words or sentence structures.
+
+ The ease of access to these tools has raised concerns about academic integrity. Students and researchers may use AI paraphrasing to modify AI-generated content, such as that produced by language models like ChatGPT, in an attempt to evade detection by AI detection software.
+
+ More at:
+  * articles
+    * [https://www.turnitin.com/blog/ai-paraphrasing-detection-strengthening-the-integrity-of-academic-writing](https://www.turnitin.com/blog/ai-paraphrasing-detection-strengthening-the-integrity-of-academic-writing)
+
+ See also [A], [AI Writing Detection]
 
 
 # AI Policy
@@ -1179,6 +1202,18 @@ Better data beat the model always
 # AI Writer
 
  A software application that uses [artificial intelligence] to produce written content, mimicking human-like text generation. AI writing tools can be invaluable for businesses engaged in content marketing.
+
+ See also [A], ...
+
+
+# AI Writing Detection
+
+ Identify when AI writing tools such as ChatGPT or [AI paraphrasing] tools (text spinners) may have been used in submitted work.
+
+ {% youtube "https://www.youtube.com/watch?v=bjc7j-U2cuI" %}
+
+ More at:
+  * ...
 
  See also [A], ...
 
@@ -1780,26 +1815,27 @@ XY is the line passing tough X and Y unless stated to be a segment (with stateme
  See also [A], ...
 
 
-# Area Under The Curve
+# Area Under The Receiver Operating Characteristic Curve
+# AUROC Curve
 # AUC
 
- ~ helpful measurement to compare one ROC curve to another, i.e the classification performance of various models ([SVM], [Random Forest], [LogReg]).
+ ~ helpful measurement to compare one [ROC curve] to another of a different model/approach, i.e the classification performance of various models ([SVM], [Random Forest], [LogReg]).
 
  ~ each point on the ROC curve is a decision matrix calculated at a different discriminatory threshold ([thresholding])
 
- :warning: The bigger the AUC value, the better the model!
+ :warning: The bigger the AUROC value, the better the model!
 
- The curve is the [Receiver Operating Characteristic (ROC) Curve][ROC Curve]! The area under the ROC curve (AUC) is a measure of the classifier's overall performance, with a value of 1 indicating perfect performance and a value of 0.5 indicating a performance no better than random guessing (ROC curve is diagonal ==> random guess) .
+ The curve is the [Receiver Operating Characteristic (ROC) Curve][ROC Curve]! The area under the ROC curve (AUROC) is a measure of the classifier's overall performance, with a value of 1 indicating perfect performance and a value of 0.5 indicating a performance no better than random guessing (ROC curve is diagonal ==> random guess) .
 
  Note that:
   * X axis on ROC is [False Positive Rate (FPR)][FPR] = 1 - [Specificity]
   * Y axis on ROC is [True Positive Rate (TPR)][TPR] = [Sensitivity]
 
- ![]( {{site.assets}}/a/area_under_the_curve_discrete.png){: width="100%" }
+ ![]( {{site.assets}}/a/area_under_the_receiver_operating_characteristic_curve_discrete.png){: width="100%" }
 
- ![]( {{site.assets}}/a/area_under_the_curve.png){: width="100%" }
+ ![]( {{site.assets}}/a/area_under_the_receiver_operating_characteristic_curve.png){: width="100%" }
 
- ![]( {{site.assets}}/a/area_under_the_curve_code.png){: width="100%" }
+ ![]( {{site.assets}}/a/area_under_the_receiver_operating_characteristic_curve_code.png){: width="100%" }
 
  More at:
   * articles
@@ -2050,25 +2086,6 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [AI Complete]
 
 
-# Artificial Intelligence Risk Management Framework
-# AI Risk Management Framework
-# AI RMF
-
- ~ The AI RMF is voluntary guidance to improve the ability to incorporate trustworthiness considerations into the design, development, use and evaluation of AI products, services and systems. Version 1.0 was released in January 2023.
-
- Written by [NIST]
-
-    ![]( {{site.assets}}/a/artificial_intelligence_risk_management_framework.png){: width="100%" }
-
- {% pdf "{{site.assets}}/a/artificial_intelligence_risk_management_framework.pdf" %}
-
- More at:
-  * site - [https://airc.nist.gov/home](https://airc.nist.gov/home)
-  * [https://aibusiness.com/responsible-ai/microsoft-offers-support-on-responsible-ai-deployments](https://aibusiness.com/responsible-ai/microsoft-offers-support-on-responsible-ai-deployments)
-
- See also [A], ...
-
-
 # Artificial Intelligence Hello World
 # AI Hello World
 
@@ -2241,6 +2258,17 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], ...
 
 
+# Astra Model
+
+ “The pitch to my mum is that we’re building an AI that has eyes, ears, and a voice. It can be anywhere with you, and it can help you with anything you’re doing” says Greg Wayne, co-lead of the Astra team. “It’s not there yet, but that’s the kind of vision.” 
+
+ More at:
+  * articles
+    * [https://www.technologyreview.com/2024/12/11/1108493/googles-new-project-astra-could-be-generative-ais-killer-app/](https://www.technologyreview.com/2024/12/11/1108493/googles-new-project-astra-could-be-generative-ais-killer-app/)
+
+ See also [A], ...
+
+
 # Asynchronous Advantage Actor-Critic Algorithm
 # A3C Algorithm
 
@@ -2303,17 +2331,23 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], ...
 
 
-# Attention
+# Attention Mechanism
 
- To work with transformer models, you need to understand one more technical concept: attention. An attention mechanism is a technique that mimics cognitive attention: it looks at an input sequence, piece by piece and, on the basis of probabilities, decides at each step which other parts of the sequence are important. For example, look at the sentence “The cat sat on the mat once it ate the mouse.” Does “it” in this sentence refer to “the cat” or “the mat”? The transformer model can strongly connect “it” with “the cat.” That’s attention.
+ To work with models that use a [transformer architecture], you need to understand one more technical concept: attention. An attention mechanism is a technique that mimics cognitive attention: it looks at an input sequence, piece by piece and, on the basis of probabilities, decides at each step which other parts of the sequence are important. For example, look at the sentence “The cat sat on the mat once it ate the mouse.” Does “it” in this sentence refer to “the cat” or “the mat”? The transformer model can strongly connect “it” with “the cat.” That’s attention.
  
  The transformer model has two types of attention: self-attention (connection of words within a sentence) and encoder-decoder attention (connection between words from the source sentence to words from the target sentence).
 
- {% pdf "{{site.assets}}/a/attention_paper.pdf" %}
+ The attention mechanism helps the transformer filter out noise and focus on what’s relevant: connecting two words in a semantic relationship to each other, when the words in themselves do not carry any obvious markers pointing to one another. AN improvement over [Recurrent Neural Network], such as [Long Short Term memory (LSTM) Networks][LSTM].
 
- The attention mechanism helps the transformer filter out noise and focus on what’s relevant: connecting two words in a semantic relationship to each other, when the words in themselves do not carry any obvious markers pointing to one another. AN improvement over Recurrent Neural Network, such as Long Short Term memory (LSTM) Networks.
+ There are different types of attention used in [attention-based models]:
+  * [Self-Attention]
+  * [Cross-Attention]
+  * [Masked Self-Attention]
+  * [Multi-head Attention]
 
- See also [A], [Attention Score], [Attention-Based Model], [Cross-Attention], [Encoder-Decoder Attention], [Long Short Term Memory Network], [Masked Self-Attention], [Multi-Head Attention], [Recurrent Neural Network], [Self-Attention], [Transformer Model]
+ {% pdf "{{site.assets}}/a/attention_mechanism.pdf" %}
+
+ See also [A], [Attention Score], [Encoder-Decoder Attention]
 
 
 # Attention Score
@@ -2369,6 +2403,17 @@ Then you are presented with the best matched videos (values).                   
 # Audio  Generation
 
  The process of generating raw audio content such as speech or [AI music] by using [artificial intelligence].
+
+ See also [A], ...
+
+
+# Audio2Face Model
+
+ Move the lips/face of a virtual avatar based on audio
+  * Developed by [Nvidia]
+
+ More at:
+  * ...
 
  See also [A], ...
 
@@ -2671,6 +2716,20 @@ ____ at the sign, you will get a ticket (backward prediction)
  See also [A], [Amazon Web Services]
 
 
+# AWS Nova Model
+
+ Amazon Nova is a new generation of state-of-the-art (SOTA) foundation models (FMs) that deliver frontier intelligence and industry leading price-performance, available exclusively on Amazon Bedrock.
+
+ {% youtube "https://www.youtube.com/watch?v=pIy_FkKe7bc" %}
+
+ More at:
+  * site - [https://aws.amazon.com/ai/generative-ai/nova/](https://aws.amazon.com/ai/generative-ai/nova/)
+  * docs - [https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html](https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html)
+  * announcement - [https://aws.amazon.com/blogs/aws/introducing-amazon-nova-frontier-intelligence-and-industry-leading-price-performance/](https://aws.amazon.com/blogs/aws/introducing-amazon-nova-frontier-intelligence-and-industry-leading-price-performance/)
+
+ See also [A], [Amazon Web Services]
+
+
 # AWS Polly Service
 
  Lifelike speech. Text to speech.
@@ -2759,4 +2818,23 @@ ____ at the sign, you will get a ticket (backward prediction)
   * articles
     * [https://techcrunch.com/2021/12/01/aws-launches-sagemaker-studio-lab-a-free-tool-for-learning-machine-learning/](https://techcrunch.com/2021/12/01/aws-launches-sagemaker-studio-lab-a-free-tool-for-learning-machine-learning/)
 
- See also [A], ...
+ See also [A], [Amazno Web Services]
+
+
+# AWS Titan Model
+
+ {% youtube "https://www.youtube.com/watch?v=SdbfLgqc7is" %}
+
+ Use cases:
+  * Text generation
+  * Summarization
+  * Semantic search
+  * Image generation
+  * [Retrieval Augmented Generationm (RAG][RAG]
+
+ More at:
+  * site - [https://aws.amazon.com/bedrock/amazon-models/titan/](https://aws.amazon.com/bedrock/amazon-models/titan/)
+  * articles
+    * [https://aws.amazon.com/blogs/aws/build-rag-and-agent-based-generative-ai-applications-with-new-amazon-titan-text-premier-model-available-in-amazon-bedrock/](https://aws.amazon.com/blogs/aws/build-rag-and-agent-based-generative-ai-applications-with-new-amazon-titan-text-premier-model-available-in-amazon-bedrock/)
+
+ See also [A], [Amazno Web Services]

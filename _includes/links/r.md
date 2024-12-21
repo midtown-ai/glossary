@@ -56,6 +56,7 @@
 [RNN]: {{site.baseurl}}{% link glossary/r.md %}#recurrent-neural-network
 [RNNs]: {{site.baseurl}}{% link glossary/r.md %}#recurrent-neural-network
 [Red Teaming]: {{site.baseurl}}{% link glossary/r.md %}#red-teaming
+[Reducible Error]: {{site.baseurl}}{% link glossary/r.md %}#reducible-error
 [Reflex Model]: {{site.baseurl}}{% link glossary/r.md %}#reflex-model
 [Region-Based Convolutional Neural Network]: {{site.baseurl}}{% link glossary/r.md %}#region-based-convolutional-neural-network
 [Region-Based CNN]: {{site.baseurl}}{% link glossary/r.md %}#region-based-convolutional-neural-network
@@ -72,6 +73,8 @@
 [Regulatory Landscape]: {{site.baseurl}}{% link glossary/r.md %}#regulatory-landscape
 [REINFORCE Algorithm]: {{site.baseurl}}{% link glossary/r.md %}#reinforce-algorithm
 [REINFORCE]: {{site.baseurl}}{% link glossary/r.md %}#reinforce-algorithm
+[Reinforcement Fine-Tuning]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-fine-tuning
+[RFT]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-fine-tuning
 [Reinforcement Learning]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning
 [RL]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning
 [Reinforcement Learning Agent]: {{site.baseurl}}{% link glossary/r.md %}#reinforcement-learning-agent
@@ -143,6 +146,10 @@
 [RAG Triad Of Metrics]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-augmented-generation-triad-of-metrics
 [Retrieval-Based Model]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-based-model
 [Retrieval-Based Models]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-based-model
+[Retrieval-Interleaved Generation System]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-interleaved-generation-system
+[Retrieval-Interleaved Generation]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-interleaved-generation-system
+[RIG System]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-interleaved-generation-system
+[RIG]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-interleaved-generation-system
 [Retrieval Model]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-based-model
 [Retrieval Models]: {{site.baseurl}}{% link glossary/r.md %}#retrieval-based-model
 [Retriever]: {{site.baseurl}}{% link glossary/r.md %}#retriever

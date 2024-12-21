@@ -112,7 +112,7 @@ layout: page
   * [https://www.analyticsvidhya.com/blog/2018/03/introduction-k-neighbours-algorithm-clustering/](https://www.analyticsvidhya.com/blog/2018/03/introduction-k-neighbours-algorithm-clustering/)
   * KNN in similarity search - [https://medium.com/towards-data-science/similarity-search-knn-inverted-file-index-7cab80cc0e79](https://medium.com/towards-data-science/similarity-search-knn-inverted-file-index-7cab80cc0e79)
 
- See also [K], [Model Evaluation], [Semisupervised Learning], [Similarity Function]
+ See also [K], [Model Evaluation], [Semisupervised Learning], [Similarity Metric]
 
 
 # Kaggle Company

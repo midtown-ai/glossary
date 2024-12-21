@@ -374,9 +374,9 @@ curl https://api.openai.com/v1/audio/transcriptions \
  
 # Word Embedding
 
- ~ [Represention] of each word in a word set within an embedding vector; that is, representing each word as a vector of floating-point values between 0.0 and 1.0. Words with similar meanings have more-similar representations than words with different meanings. For example, carrots, celery, and cucumbers would all have relatively similar representations, which would be very different from the representations of airplane, sunglasses, and toothpaste.
-
  ~ a type of [embeddings] for words
+
+ ~ [Represention] of each word in a word set within an embedding vector; that is, representing each word as a vector of floating-point values between 0.0 and 1.0. Words with similar meanings have more-similar representations than words with different meanings. For example, carrots, celery, and cucumbers would all have relatively similar representations, which would be very different from the representations of airplane, sunglasses, and toothpaste.
 
  ~ `Take a sparse vector as input to a word2vec process and turn into a point in the embedding space, where 2 close related words (in meaning) are close (at a small euclidian distance)`. [TFM] and [TFIDF] are numerical representations of text documents that only consider frequency and weighted frequencies to represent text documents. By contrast, word embeddings can capture the context of a word in a document (e.g. "bank" in bank account and river bank have different embeddings). With the word context, embeddings can quantify the similarity between words, which in turn allows us to do arithmetic with words. [Word2Vec] is a method based on neural nets that maps words in a [corpus] to a numerical vector. We can then use these vectors to find synonyms, perform arithmetic operations with words, or to represent text documents (by taking the mean of all the word vectors in a document). For example, let’s assume that we use a sufficiently big corpus of text documents to estimate word embeddings. Let’s also assume that the words king, queen, man and woman are part of the corpus. Let say that vector(‘word’) is the numerical vector that represents the word ‘word’. To estimate vector(‘woman’), we can perform the arithmetic operation with vectors:
  
@@ -384,7 +384,16 @@ curl https://api.openai.com/v1/audio/transcriptions \
 vector(‘king’) + vector(‘woman’) — vector(‘man’) ~ vector(‘queen’)
  ```
 
- Word representations allow finding similarities between words by computing the cosine similarity between the vector representation of two words. The cosine similarity measures the angle between two vectors. We compute word embeddings using machine learning methods, but that’s often a pre-step to applying a machine learning algorithm on top. For instance, suppose we have access to the tweets of several thousand Twitter users. Also suppose that we know which of these Twitter users bought a house. To predict the probability of a new Twitter user buying a house, we can combine [Word2Vec] with a [logistic regression]. You can train word embeddings yourself or get a pre-trained (transfer learning) set of word vectors. To download pre-trained word vectors in 157 different languages, take a look at !FastText.
+ Word representations allow finding similarities between words by computing the cosine similarity between the vector representation of two words. The cosine similarity measures the angle between two vectors. We compute word embeddings using machine learning methods, but that’s often a pre-step to applying a machine learning algorithm on top. For instance, suppose we have access to the tweets of several thousand Twitter users. Also suppose that we know which of these Twitter users bought a house. To predict the probability of a new Twitter user buying a house, we can combine [Word2Vec] with a [logistic regression]. You can train word embeddings yourself or get a pre-trained (transfer learning) set of word vectors. To download pre-trained word vectors in 157 different languages, take a look at FastText.
+
+ Context-free examples:
+  * Word2Vec – Predicts a word given its context (CBOW) or predicts the context given a word (Skip-gram). For example, in the phrase “The bird sat in the tree,” Word2Vec can learn that “bird” and “tree” often appear in similar contexts, capturing their relationship. This is useful for tasks like word similarity and analogy detection.
+  * GloVe (Global Vectors for Word Representation) – Uses matrix factorization techniques on the word co-occurrence matrix to find word embeddings. For instance, GloVe can learn that “cheese” and “mayo” are related to “sandwich” by analyzing the co-occurrence patterns across a large corpus. This approach is great for applications like semantic search and clustering that need to understand broader relationships among words.
+  * FastText – An extension of Word2Vec by Facebook, FastText considers subword information, making it effective for morphologically rich languages. It represents words as bags of character n-grams, which helps in understanding rare words and misspellings. For example, it can recognize that “running” and “runner” share a common subword structure.
+
+ Context-full examples:
+  * ELMo (Embeddings from Language Models) – Generates word representations that are functions of the entire input sentence, capturing context-sensitive meanings. For example, the word “bark” will have different embeddings in “The dog began to bark loudly” versus “The tree’s bark was rough,” depending on the surrounding words.
+  * BERT ([Bidirectional Encoder Representations from Transformers]) – Pre-trains deep bidirectional representations by jointly conditioning on both left and right context in all layers. For example, in the sentence “She went to the bank to deposit money,” BERT uses the preceding words “She went to the” and the following words “to deposit money” to determine that “bank” refers to a financial institution, not a riverbank.
 
  {% youtube "https://www.youtube.com/watch?v=viZrOnJclY0" %}
 
@@ -392,19 +401,21 @@ vector(‘king’) + vector(‘woman’) — vector(‘man’) ~ vector(‘queen
 
  More at:
   * tutorial - [https://txt.cohere.com/sentence-word-embeddings/](https://txt.cohere.com/sentence-word-embeddings/)
-  * [https://www.louisbouchard.ai/text-embedding/](https://www.louisbouchard.ai/text-embedding/)
-  * [https://towardsdatascience.com/introduction-to-word-embeddings-4cf857b12edc](https://towardsdatascience.com/introduction-to-word-embeddings-4cf857b12edc)
+  * articles
+    * LLM embedding - [https://www.iguazio.com/glossary/llm-embeddings/](https://www.iguazio.com/glossary/llm-embeddings/)
+    * [https://www.louisbouchard.ai/text-embedding/](https://www.louisbouchard.ai/text-embedding/)
+    * [https://towardsdatascience.com/introduction-to-word-embeddings-4cf857b12edc](https://towardsdatascience.com/introduction-to-word-embeddings-4cf857b12edc)
 
  See also [W], [NLP], ...
 
  
 # Word Embedding Space
 
- In natural language processing, word embeddings are numerical representations of words so that similar words have close representations. So, word embeddings lie in a latent space where every word is encoded into a low-dimensional semantic vector. There are many algorithms for learning word embeddings like [Word2Vec] or GloVe (which are both context-free). Other more advanced models are Contextual models, which  instead generate a representation of each word that is based on the other words in the sentence (e.g. "bank" in bank account and river bank have different embeddings) . In the image below, we can see an illustration of the topology of the word embeddings in the latent space:
+ In natural language processing, [word embeddings] are numerical representations of words so that similar words have close representations. So, [word embeddings] lie in a latent space where every word is encoded into a low-dimensional semantic vector. There are many algorithms for learning word embeddings like [Word2Vec] or GloVe (which are both context-free). Other more advanced models are Contextual models, which  instead generate a representation of each word that is based on the other words in the sentence (e.g. "bank" in bank account and river bank have different embeddings) . In the image below, we can see an illustration of the topology of the word embeddings in the latent space:
 
  ![]( {{site.assets}}/w/word_embedding_space.png ){: width="100%"}
 
- As expected, semantically similar words like the word ‘toilet’ and the word ‘bathroom’ have close word embeddings in the latent space.
+ As expected, semantically similar words like the word ‘toilet’ and the word ‘bathroom’ have close [word embeddings] in the latent space.
 
  More at:
   * [https://towardsdatascience.com/introduction-to-word-embeddings-4cf857b12edc](https://towardsdatascience.com/introduction-to-word-embeddings-4cf857b12edc)
@@ -451,9 +462,9 @@ vector(‘king’) + vector(‘woman’) — vector(‘man’) ~ vector(‘queen
  See also [W], [Dataset], [ImageNet Dataset], [Transfer Learning]
 
 
-# WordpPiece Tokenization
+# WordPiece Tokenization
 
- WordPiece is the tokenization algorithm [Google] developed to pretrain [BERT]. It has since been reused in quite a few [Transformer] models based on [BERT], such as [DistilBERT], MobileBERT, Funnel Transformers, and MPNET. It’s very similar to [BPE] in terms of the training, but the actual tokenization is done differently.
+ WordPiece is the tokenization algorithm [Google] developed to pretrain [BERT]. It has since been reused in quite a few [Transformer] models based on [BERT], such as [DistilBERT], MobileBERT, Funnel Transformers, and MPNET. It’s very similar to [BPE] in terms of the training, but the actual tokenization is done differently (Pair scores are computed differently!).
 
   ```
 # Wordpiece tokenizer :
@@ -495,6 +506,7 @@ vocab[2], vocab[13884], vocab[5], \
 
  More at:
   * huggingface course - [https://huggingface.co/learn/nlp-course/chapter6/6](https://huggingface.co/learn/nlp-course/chapter6/6)
+  * BPE vs WordPiece - [https://medium.com/@atharv6f_47401/wordpiece-tokenization-a-bpe-variant-73cc48865cbf](https://medium.com/@atharv6f_47401/wordpiece-tokenization-a-bpe-variant-73cc48865cbf)
 
  See also [W], ...
 
@@ -514,13 +526,38 @@ vocab[2], vocab[13884], vocab[5], \
 
  {% youtube "https://youtu.be/qQy5QhSwu58?si=U0WzjaRzt4S81EOP" %}
 
+ {% youtube "https://www.youtube.com/watch?v=k8v7WvuvUXo" %}
+
  More at:
   * site - [https://www.worldlabs.ai/](https://www.worldlabs.ai/)
+  * articles
+    * [https://www.geeky-gadgets.com/interactive-3d-worlds-from-2d-images/](https://www.geeky-gadgets.com/interactive-3d-worlds-from-2d-images/)
 
  See also [W], ...
 
 
 # World Model
+
+ ~ a simulator that predicts how the (3d) environment change in response to actions. 
+
+ A world model is used by an algorithm to make decision.
+
+ Useful to train [embodied agents]
+
+ Examples:
+  * chess world model = rules of chess (possible actions + scoring) + description of the board. 
+    * inputs:
+      * a board state (position of all the pieces)
+      * a next proposed move
+    * output
+      * a new board state
+      * points earned or lost by each player (value of the board)
+    * algorithm tells you how to make moves by picking the action with the best next board value!
+
+ Known models:
+  * [Genie] by [Google]
+  * ??? by [World Labs]
+  * [OASIS](https://www.decart.ai/) by [Decart](https://x.com/DecartAI)
 
  More at:
   * articles

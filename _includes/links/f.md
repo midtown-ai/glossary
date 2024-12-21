@@ -23,7 +23,8 @@
 [Fashion MNIST Dataset]: {{site.baseurl }}{% link glossary/f.md %}#fashion-mnist-dataset
 [Fast Random Projection]: {{site.baseurl }}{% link glossary/f.md %}#fast-random-projection
 [FastRP]: {{site.baseurl }}{% link glossary/f.md %}#fast-random-projection
-[Feature]: {{site.baseurl }}{% link glossary/f.md %}#feture
+[Feature]: {{site.baseurl }}{% link glossary/f.md %}#feature
+[Features]: {{site.baseurl }}{% link glossary/f.md %}#feature
 [Feature Attribution]: {{site.baseurl }}{% link glossary/f.md %}#feature-attribution
 [Feature Cross]: {{site.baseurl }}{% link glossary/f.md %}#feature-cross
 [Feature Crosses]: {{site.baseurl }}{% link glossary/f.md %}#feature-cross
@@ -78,6 +79,8 @@
 [Frequent Pattern Growth]: {{site.baseurl }}{% link glossary/f.md %}#frequent-pattern-growth-algorithm
 [FP-Growth Algorithm]: {{site.baseurl }}{% link glossary/f.md %}#frequent-pattern-growth-algorithm
 [FP-Growth]: {{site.baseurl }}{% link glossary/f.md %}#frequent-pattern-growth-algorithm
+[Fugatto Model]: {{site.baseurl }}{% link glossary/f.md %}#fugatto-model
+[Fugatto]: {{site.baseurl }}{% link glossary/f.md %}#fugatto-model
 [Fully Connected Layer]: {{site.baseurl }}{% link glossary/f.md %}#fully-connected-layer
 [Fully Connected Layers]: {{site.baseurl }}{% link glossary/f.md %}#fully-connected-layer
 [FC Layer]: {{site.baseurl }}{% link glossary/f.md %}#fully-connected-layer

@@ -38,6 +38,7 @@
 [Text Embedding]: {{ site.baseurl }}{% link glossary/t.md %}#text-embedding
 [Text Reconstruction]: {{ site.baseurl }}{% link glossary/t.md %}#text-reconstruction
 [Text Summarization]: {{ site.baseurl }}{% link glossary/t.md %}#text-summarization
+[Text-To-Graph Utility]: {{ site.baseurl }}{% link glossary/t.md %}#text-to-graph-utility
 [Text-To-Speech Model]: {{ site.baseurl }}{% link glossary/t.md %}#text-to-speech-model
 [TTS Model]: {{ site.baseurl }}{% link glossary/t.md %}#text-to-speech-model
 [Text-To-Text Transfer Transformer Model]: {{ site.baseurl }}{% link glossary/t.md %}#text-to-text-transfer-transformer-model
@@ -54,8 +55,13 @@
 [TOM]: {{ site.baseurl }}{% link glossary/t.md %}#theory-of-mind
 [Thresholding]: {{ site.baseurl }}{% link glossary/t.md %}#thresholding
 [Time-Series Predictive Analysis]: {{ site.baseurl }}{% link glossary/t.md %}#time-series-predictive-analysis
+[Token Embedding]: {{ site.baseurl }}{% link glossary/t.md %}#token-embedding
+[Token Embeddings]: {{ site.baseurl }}{% link glossary/t.md %}#token-embedding
+[Token Identifier]: {{ site.baseurl }}{% link glossary/t.md %}#token-identifier
+[Token Id]: {{ site.baseurl }}{% link glossary/t.md %}#token-identifier
 [Tokenization]: {{ site.baseurl }}{% link glossary/t.md %}#tokenization
 [Tokenizer]: {{ site.baseurl }}{% link glossary/t.md %}#tokenizer
+[Tokenizer Tax]: {{ site.baseurl }}{% link glossary/t.md %}#tokenizer-tax
 [Top-K Random Sampling]: {{ site.baseurl }}{% link glossary/t.md %}#top-k-random-sampling
 [Top-K]: {{ site.baseurl }}{% link glossary/t.md %}#top-k-random-sampling
 [Top-K Similary Search]: {{ site.baseurl }}{% link glossary/t.md %}#top-k-similarity-search

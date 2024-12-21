@@ -1030,6 +1030,8 @@ Prediction Error = actual_value - predicted_value
 
 # Pretrained Model
 
+ ~ These versions of the model are not trained on any specific tasks or instructions beyond the core data training set. You should not deploy these models in applications without performing some tuning, as is the case for [instruction tuned models].
+
  ~ a base model that support transfer learning. A pre-trained model, keeping with Gladwell’s 10,000 hours theory, is the first skill you develop that can help you acquire another one faster. For example, mastering the skill of solving math problems can help you more quickly acquire the skill of solving engineering problems. A pre-trained model is trained (by you or someone else) for a more general task and is then available to be fine-tuned for different tasks. Instead of building a model from scratch to solve your problem, you use the model trained on a more general problem as a starting point and give it more specific training in the area of your choice using a specially curated dataset. A pre-trained model may not be 100% accurate, but it saves you from reinventing the wheel, thus saving time and improving performance.
 
  Useful if 
@@ -1038,9 +1040,9 @@ Prediction Error = actual_value - predicted_value
   . :warning: as far as I can tell, this is only possible today with transformer models (?)
 
  Examples of pretrained models are:
-  * [BERT][BERT Model] whose [pretraining objectives] include [MLM] and [NSP] 
-  * [RoBERTa][RoBERTa Model]
-  * [GPT models][GPT Model]
+  * [BERT] whose [pretraining objectives] include [MLM] and [NSP] 
+  * [RoBERTa]
+  * [GPT models]
   * ...
 
  See also [P], [Supervised Fine-Tuning], [Transfer Learning], [Transformer Architecture], [Upstream Task]
@@ -1288,6 +1290,36 @@ Prediction Error = actual_value - predicted_value
  See also [P], ...
 
 
+# Prompt Adaptation
+
+ When changing [LLM], you often have to adjust your prompt. Each LLM may have unique quirks or preferences in how it interprets instructions, so be prepared to fine-tune your prompt to align with the chosen model's characteristics.
+
+ More at:
+  * [https://www.galileo.ai/blog/best-practices-for-creating-your-llm-as-a-judge](https://www.galileo.ai/blog/best-practices-for-creating-your-llm-as-a-judge)
+
+ See also [P], ...
+
+
+# Prompt Adherence
+
+ Prompt adherence refers to how closely an AI follows the specific instructions or guidelines provided in a user's prompt. In the context of AI language models like myself, it means accurately understanding and implementing the user's requested task, style, format, or specific requirements.
+
+ Key aspects of prompt adherence include:
+  * Comprehension: Carefully understanding the nuanced details of the user's request.
+  * Precision: Executing the task exactly as specified, without unnecessary deviation.
+  * Contextual Interpretation: Correctly interpreting the intent behind the prompt and applying it appropriately.
+  * Detail Retention: Maintaining the specific instructions throughout the entire response.
+
+ For example, if a user asks for a summary written in a casual tone with exactly 3 paragraphs, prompt adherence would mean delivering precisely that - a casual-toned summary structured in exactly 3 paragraphs, without adding extra sections or changing the tone.
+
+ In AI development, prompt adherence is crucial because it demonstrates the model's ability to follow complex, multi-part instructions accurately, which is essential for tasks ranging from creative writing to technical analysis.
+
+ More at:
+  * ...
+
+ See also [P], ...
+
+
 # Prompt Engineering
 
  ~ Acquire new capabilities at inference time
@@ -1299,15 +1331,18 @@ Prediction Error = actual_value - predicted_value
  ![]( {{site.assets}}/p/prompt_engineering_impact.png ){: width="100%"}
 
  Prompting Techniques:
-  * [Zero-Shot] - just ask
-  * [Few-Shot] - ask and provide sample answers
-  * [Tree-Of-Thoughts (ToT)][ToT]
-  * [Chain-Of-Thought (CoT)][CoT] - let's think step-by-step!
-  * [Reason-Act (ReAct)][ReAct] - think, act, and observe
-  * [Self-Consistency (SC)][SC]
+  * [Zero-Shot Prompting] - just ask
+  * [Few-Shot Prompting] - ask and provide sample answers to set expectations
   * [Step-Back Prompting] - ask a higher level question first, then answer the original question
-  * [Self-Reflection][SR]
-  * [DEPS] - Describe, explain, plan, and select
+  * [Self-Reflection (SR) Prompting][SR] - answer and self-critic ~ mirrors the human metacognition process
+  * [Socratic Method Prompting] - Use the Socratic method, questions, iterations
+  * Reasoning
+    * [Chain-Of-Thought (CoT) prompting][CoT] - let's think step-by-step!
+    * [Self-Consistency (SC) prompting][SC] - improvement on [CoT]
+    * [Tree-Of-Thoughts (ToT) prompting][ToT] - extend [CoT] by creating a more sophisticated, branching decision-making process
+  * Acting / Task planning
+    * [Reason-Act (ReAct) prompting][ReAct] - think, act, and observe
+    * [DEPS] - Describe, explain, plan, and select
 
  ![]( {{site.assets}}/p/prompt_engineering_techniques_comparison.png ){: width="100%"}
 
@@ -1320,6 +1355,11 @@ Prediction Error = actual_value - predicted_value
   * lean prompting - [https://learnprompting.org/docs/advanced_applications/mrkl](https://learnprompting.org/docs/advanced_applications/mrkl)
 
  See also [P], [ChatGPT Model], [DALL-E Model]
+
+
+# Prompt Fine-Tuning
+
+ See [Prompt Adaptation]
 
 
 # Prompt Injection
@@ -1590,6 +1630,8 @@ referenced_image_ids?: string[],
 
 # Pydantic Python Module
 
+ ~ module used to validate the format of the output of a LLM, often JSON
+
  ```
  from datetime import datetime
 
@@ -1632,6 +1674,8 @@ print(user.model_dump())
 
  More at:
   * docs - [https://docs.pydantic.dev/latest/](https://docs.pydantic.dev/latest/)
+  * other examples
+    * KG schema with P - [https://github.com/togethercomputer/together-cookbook/blob/main/Knowledge_Graphs_with_Structured_Outputs.ipynb](https://github.com/togethercomputer/together-cookbook/blob/main/Knowledge_Graphs_with_Structured_Outputs.ipynb)
 
  See also [P], ...
 

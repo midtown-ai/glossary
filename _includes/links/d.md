@@ -17,8 +17,12 @@
 [Data Access]: {{ site.baseurl }}{% link glossary/d.md %}#data-access
 [Data Analyst]: {{ site.baseurl }}{% link glossary/d.md %}#data-analyst
 [Data Augmentation]: {{ site.baseurl }}{% link glossary/d.md %}#data-augmentation
+[Data Center]: {{ site.baseurl }}{% link glossary/d.md %}#data-center
+[Data Centers]: {{ site.baseurl }}{% link glossary/d.md %}#data-center
 [Data Cleaning]: {{ site.baseurl }}{% link glossary/d.md %}#data-cleaning
 [Data Collection]: {{ site.baseurl }}{% link glossary/d.md %}#data-collection
+[Data Commons Dataset]: {{ site.baseurl }}{% link glossary/d.md %}#data-common-dataset
+[Data Commons]: {{ site.baseurl }}{% link glossary/d.md %}#data-common-dataset
 [Data Consumer]: {{ site.baseurl }}{% link glossary/d.md %}#data-consumer
 [Data Control]: {{ site.baseurl }}{% link glossary/d.md %}#data-control
 [Data Controller]: {{ site.baseurl }}{% link glossary/d.md %}#data-controller
@@ -106,6 +110,8 @@
 [Deep Reinforcement Learning]: {{ site.baseurl }}{% link glossary/d.md %}#deep-reinforcement-learning
 [Deep RL]: {{ site.baseurl }}{% link glossary/d.md %}#deep-reinforcement-learning
 [DeepAR Forecasting]: {{ site.baseurl }}{% link glossary/d.md %}#deepar-forecasting
+[Deepchecks Company]: {{ site.baseurl }}{% link glossary/d.md %}#deepchecks-company
+[Deepchecks]: {{ site.baseurl }}{% link glossary/d.md %}#deepchecks-company
 [Deepfake]: {{ site.baseurl }}{% link glossary/d.md %}#deepfake
 [Deepfold Model]: {{ site.baseurl }}{% link glossary/d.md %}#deepfold-model
 [DeepMind Company]: {{ site.baseurl }}{% link glossary/d.md %}#deepmind-company
@@ -132,6 +138,7 @@
 [DEPS Prompting]: {{ site.baseurl }}{% link glossary/d.md %}#describe-explain-plan-select-prompting
 [DEPS]: {{ site.baseurl }}{% link glossary/d.md %}#describe-explain-plan-select-prompting
 [Deterministic Node]: {{ site.baseurl }}{% link glossary/d.md %}#deterministic-node
+[Detokenizer]: {{ site.baseurl }}{% link glossary/d.md %}#detokenizer
 [Development Life Cycle]: {{ site.baseurl }}{% link glossary/d.md %}#development-life-cycle
 [Development Subset]: {{ site.baseurl }}{% link glossary/d.md %}#development-subset
 [DevOPS]: {{ site.baseurl }}{% link glossary/d.md %}#devops
@@ -172,6 +179,8 @@
 [Distributional RL]: {{ site.baseurl }}{% link glossary/d.md %}#distributional-reinforcement-learning
 [DNA Neural Network]: {{ site.baseurl }}{% link glossary/d.md %}#dna-neural-network
 [DNA Neural Networks]: {{ site.baseurl }}{% link glossary/d.md %}#dna-neural-network
+[Document Embedding]: {{ site.baseurl }}{% link glossary/d.md %}#document-embedding
+[Document Embeddings]: {{ site.baseurl }}{% link glossary/d.md %}#document-embedding
 [Domain-Specific Model]: {{ site.baseurl }}{% link glossary/d.md %}#domain-specific-model
 [Dot Product]: {{ site.baseurl }}{% link glossary/d.md %}#dot-product
 [Dot Product Similarity]: {{ site.baseurl }}{% link glossary/d.md %}#dot-product-similarity

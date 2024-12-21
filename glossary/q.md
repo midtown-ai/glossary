@@ -206,13 +206,27 @@ Loss = converged_Q-Value - optimum_Q-value          <== but do we know converged
 
 # Quantum Advantage
 
+ ~ refers to the point where [quantum computers] perform tasks more efficiently or cost-effectively than classical computers for practical, real-world applications. Unlike [quantum supremacy], which is about demonstrating raw computational superiority for specific theoretical problems, quantum advantage focuses on delivering tangible benefits in solving useful problems.
+
+ | Aspect	    | Quantum Supremacy	| Quantum Advantage |
+ | ---          | ---               | ---               |
+ | Definition   | Quantum computers outperform classical ones on specific, abstract tasks. | Quantum computers provide a practical advantage for real-world applications.|
+ | Scope        | Demonstration-focused, often on problems of limited practical value. | Application-focused, solving useful problems in industries like healthcare, finance, and logistics.|
+ | Milestone    | A proof of concept showcasing computational superiority. | A step toward widespread adoption of quantum computing. |
+ | Practicality	| Not necessarily practical or applicable to industry. | Direct impact on solving real-world challenges. |
+
+ ![]( {{site.assets}}/q/quantum_advantage.webp ){: width="100%"}
+
+ More at:
+  * [https://blog.google/technology/research/google-willow-quantum-chip/](https://blog.google/technology/research/google-willow-quantum-chip/)
+
  See also [Q], ...
 
 
 # Quantum Artificial Intelligence
 # Quantum AI
 
- See also [Q], ...
+ See also [Q], [Quantum Machine Learning]
 
 
 # Quantum Computer
@@ -221,7 +235,29 @@ Loss = converged_Q-Value - optimum_Q-value          <== but do we know converged
 
  {% youtube "https://www.youtube.com/watch?v=PGrQs7Mch-E" %}
 
+ More at:
+  * willow - [https://blog.google/technology/research/behind-the-scenes-google-quantum-ai-lab/](https://blog.google/technology/research/behind-the-scenes-google-quantum-ai-lab/)
+
  See also [Q], [Quantum Artificial Intelligence]
+
+
+# Quantum Machine Learning
+
+ See also [Q], ...
+
+
+# Quantum Supremacy
+
+ ~ the point at which a [quantum computer] can perform a calculation that is practically impossible for classical computers to achieve in any reasonable amount of time. It marks a significant milestone in quantum computing, demonstrating that quantum machines can solve specific problems faster than even the most powerful supercomputers.
+
+ In essence, quantum supremacy is a pivotal benchmark showing the capabilities of quantum technology, though it is only an early step toward broader applications.
+
+ ![]( {{site.assets}}/q/quantum_supremacy.webp ){: width="100%"}
+
+ More at:
+  * [https://blog.google/technology/research/google-willow-quantum-chip/](https://blog.google/technology/research/google-willow-quantum-chip/)
+
+ See also [Q], ...
 
 
 # Question Answering

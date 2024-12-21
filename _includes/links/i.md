@@ -59,6 +59,11 @@
 [Input Weight]: {{ site.baseurl }}{% link glossary/i.md %}#input-weight
 [Instance Segmentation]: {{ site.baseurl }}{% link glossary/i.md %}#instance-segmentation
 [InstructGPT Model]: {{ site.baseurl }}{% link glossary/i.md %}#instructgpt-model
+[Instruction Tuned Model]: {{ site.baseurl }}{% link glossary/i.md %}#instruction-tuned-model
+[Instruction Tuned Models]: {{ site.baseurl }}{% link glossary/i.md %}#instruction-tuned-model
+[IT Model]: {{ site.baseurl }}{% link glossary/i.md %}#instruction-tuned-model
+[IT Models]: {{ site.baseurl }}{% link glossary/i.md %}#instruction-tuned-model
+[IT]: {{ site.baseurl }}{% link glossary/i.md %}#instruction-tuned-model
 [Insufficient Data Algorithm]: {{ site.baseurl }}{% link glossary/i.md %}#insufficient-data-algorithm
 [Intel Company]: {{ site.baseurl }}{% link glossary/i.md %}#intel-company
 [Intel]: {{ site.baseurl }}{% link glossary/i.md %}#intel-company
@@ -88,6 +93,8 @@
 [IQ-Learn Model]: {{ site.baseurl }}{% link glossary/i.md %}#iq-learn-model
 [Isaac Gym Environment]: {{ site.baseurl }}{% link glossary/i.md %}#isaac-gym-environment
 [Isaac Gym]: {{ site.baseurl }}{% link glossary/i.md %}#isaac-gym-environment
+[ISO 42001 Standard]: {{ site.baseurl }}{% link glossary/i.md %}#iso-42001-standard
+[ISO 42001]: {{ site.baseurl }}{% link glossary/i.md %}#iso-42001-standard
 [Isolation Forest]: {{ site.baseurl }}{% link glossary/i.md %}#isolation-forest
 [Isomorphic Labs Company]: {{ site.baseurl }}{% link glossary/i.md %}#isomorphic-labs-company
 [Isomorphic Labs]: {{ site.baseurl }}{% link glossary/i.md %}#isomorphic-labs-company

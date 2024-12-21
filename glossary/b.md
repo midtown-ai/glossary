@@ -571,11 +571,10 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
  NLP Benchmarks:
   * [Beyond The Imitation Game (BIG Bench)][BIG Bench]
-  * [Bias Benchmark for Question Answering (BBQ)][BBQ] - Measure learn social biases of a NLP model
   * Coref :  Links pronouns to antecedents. Also capable to take the perspective of a speak, e.g. I, you, my sister, etc refers to different people function of who said it.
   * [GLUE Benchmark] :
   * [Named Entity Recognition (NER)][NER] - identify places, people, dates, etc
-  * Language Parser : Identitfy which group of words go together (as phrase) and which words are the subject or object of a verb.
+  * Language Parser : Identify which group of words go together (as phrase) and which words are the subject or object of a verb.
   * [Multi-Turn Question Set (MT-Bench)][MT-Bench] - Rate conversational AI using human preference modeled by a [LLM-as-a-judge]
   * SNLI : relation between 2 statements (contradict, neutral, or entailment)
   * [SQuAD Benchmark] : Question and answering
@@ -583,6 +582,9 @@ Your belief has shifted towards more red marbles based on the observed data. The
   * SRL : Semantic understanding (machine translation, information extraction, text summarization, question answering)
   * SST-5 : Sentiment analysis - https://paperswithcode.com/sota/sentiment-analysis-on-sst-5-fine-grained
   * [TruthfulQA] - avoid generating false answers learned from imitating human texts (conspiracies, rumors, etc)
+
+ Bias
+  * [Bias Benchmark for Question Answering (BBQ)][BBQ] - Measure learn social biases of a NLP model
 
  Knowledge:
   * [Massive Multitask Language Understanding (MMLU)][MMLU] - Broad set of questions testing undergraduate-level knowledge
@@ -827,6 +829,7 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
 
 # Bidirectional Recurrent Neural Network
+# Bidirectional RNN
 # BRNN
 
  Bidirectional recurrent neural networks (BRNN) connect two hidden layers running in opposite directions to a single output, allowing them to receive information from both past and future states. This generative deep learning technique is more common in supervised learning approaches, rather than unsupervised or semi-supervised because how difficult it is to calculate a reliable probabilistic model.
@@ -1138,7 +1141,7 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 # Byte-Pair Encoding Tokenization
 # BPE Tokenization
 
- ~ the [tokenization] algorithm used by [OpenAI]
+ ~ the [tokenization] algorithm used by [OpenAI]. You provide a training corpus and a vocabulary size. The algorithm will then find the optimum tokens.
 
  :warning: Great tokenizer but heavy biased on English and space separated token (beware German, Chinese, etc.!) --> [RWKV World Tokenizer]
 

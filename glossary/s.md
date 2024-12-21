@@ -147,6 +147,18 @@ layout: page
  See also [S], [Bayesian Optimization Sampling Method]
 
 
+# Satya Nadella Person
+
+ CEO of [Microsoft]
+
+ {% youtube "https://www.youtube.com/watch?v=9NtsnzRFJ_o" %}
+
+ More at:
+  * ...
+
+ See also [S], ...
+
+
 # Scale AI Company
 
  Focus on augmenting the data with metadata/labels
@@ -507,7 +519,57 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
 
  The idea that an agent can improve its gameplay by playing against slightly different versions of itself because it'll progressively encounter more challenging situation s.
 
- Used by [Alpha-Go]
+ Approach used by [AlphaGo]
+
+ See also [S], ...
+
+
+# Self-Reflection Prompting
+# SR Prompting
+
+ Self-reflection prompting is a technique used to improve the performance and reasoning capabilities of Large Language Models (LLMs) by encouraging the model to explicitly review, critique, and refine its own outputs.
+
+ This approach is inspired by human metacognition - our ability to think about our own thinking processes, which helps us learn and improve problem-solving skills.
+
+ Metacognitive Process
+  * The LLM is asked to evaluate its initial response
+  * It critically examines its own reasoning, potential errors, or limitations
+  * Encourages a more thoughtful and nuanced approach to problem-solving
+
+ Typical Implementation
+  * After generating an initial response, the model is prompted to:
+    * Check the logic of its reasoning
+    * Identify potential weaknesses or biases
+    * Suggest improvements or alternative approaches
+    * Verify the accuracy of key claims
+
+ Benefits
+  * Reduces hallucinations
+  * Improves answer accuracy
+  * Enhances reasoning capabilities
+  * Promotes more comprehensive problem-solving
+  * Helps identify potential blind spots in the model's initial response
+
+ ```
+// Initial Task Prompt
+Solve the following word problem: A bakery sells cookies at $3 each. They want to raise $450 for a charity event. How many cookies do they need to sell to reach their fundraising goal?
+
+Please show your calculation step by step.
+
+// Potential Self-Reflection Prompt
+You just solved the previous math problem. Now, I want you to review your solution carefully:
+
+1. Verify your calculation method
+2. Check if your computational steps are mathematically correct
+3. Confirm that your final answer directly addresses the original question
+4. Identify any potential assumptions or simplifications you made
+5. Suggest if there are alternative ways to solve this problem
+
+If you find any errors in your previous solution, provide the corrected calculation and explain why your initial approach might have been incorrect.
+ ```
+
+ More at:
+  * ...
 
  See also [S], ...
 
@@ -589,7 +651,7 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
  More at:
   * [https://txt.cohere.com/what-is-semantic-search/](https://txt.cohere.com/what-is-semantic-search/)
 
- See also [S], [Lexical Search], [Natural Language Processing], [Similarity Function]
+ See also [S], [Lexical Search], [Natural Language Processing], [Similarity Metric]
 
 
 # Semantic Segmentation
@@ -631,6 +693,8 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
 
 # Sensitivity
 
+ ~ capacity at detecting a rare disease based on a threshold (?)
+
  ~ a term more commonly used in fields like medicine or epidemiology. It describes a test's ability to correctly identify patients with a disease (true positives).
 
  ~ High sensitivity = test is effective at detecting positive cases without missing many 
@@ -670,7 +734,7 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
 
  This trade-off is crucial in many real-world applications. For example, in medical diagnostics, a high sensitivity is often desired for initial screenings to ensure that as many cases of a disease as possible are identified. However, this might come at the cost of higher false positives, leading to more follow-up tests. On the other hand, in a different context, one might prefer high specificity to ensure that only the most likely cases are pursued further.
 
- The [Receiver Operating Characteristic (ROC) curve][ROC Curve] is a common tool used to visualize this trade-off. It plots the [True Positive Rate] ( or [Sensitivity]) against the [False Positive Rate] or  (1 - [Specificity]) at various threshold settings. The [area under this curve (AUC)][AUC] can give a sense of the overall ability of the [binary classifier] to discriminate between the two classes, independent of any particular threshold.
+ The [Receiver Operating Characteristic (ROC) curve][ROC Curve] is a common tool used to visualize this trade-off. It plots the [True Positive Rate] ( or [Sensitivity]) against the [False Positive Rate] or  (1 - [Specificity]) at various threshold settings. The [Area Under the Receiver Operating Characteristic (AUROC) curve][AUROC Curve] can give a sense of the overall ability of the [binary classifier] to discriminate between the two classes, independent of any particular threshold.
 
  In summary, the sensitivity-specificity trade-off highlights the balancing act in setting the threshold for [classification], where the goal is to achieve an optimal balance that suits the specific needs and consequences of the classification task at hand.
 
@@ -681,10 +745,25 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
 
  A type of [embeddings]
 
+  * Universal Sentence Encoder (USE) – Encodes sentences into high-dimensional vectors using a transformer or deep averaging network. For example, the sentences “The quick brown fox jumps over the lazy dog” and “A swift auburn fox leaps over a sleepy canine” would have similar embeddings because they convey the same meaning.
+  * Sentence-BERT (SBERT) – Fine-tunes BERT on sentence-pair regression tasks to produce meaningful sentence embeddings. For instance, determining that “How do I reset my password?” is similar in meaning to “What is the process to change my password?”. This capability is excellent for applications like FAQ matching and paraphrase detection
+
  More at:
   * tutorial - [https://txt.cohere.com/sentence-word-embeddings/](https://txt.cohere.com/sentence-word-embeddings/)
+  * articles
+    * LLM embeddings - [https://www.iguazio.com/glossary/llm-embeddings/](https://www.iguazio.com/glossary/llm-embeddings/)
 
  See also [S], ...
+
+
+# SentencePiece Tokenizer
+
+ ~ a type of [tokenizers]
+
+ More at:
+  * paper - [https://arxiv.org/abs/1808.06226](https://arxiv.org/abs/1808.06226)
+
+ See also [S], [Detokenizer]
 
 
 # Sentient AI
@@ -866,7 +945,7 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  
  ![]( {{site.assets}}/s/siamese_network.png ){: width="100%}
 
- See also [S], [One Short Learning], [Similarity Function]
+ See also [S], [One Short Learning], [Similarity Metric]
 
 
 # SIGGRAPH Conference
@@ -901,7 +980,7 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  See also [S], [Logistic Regression], [Sigmoid Activation Function]
 
 
-# Similarity Function
+# Similarity Metric
 
  Similarity is almost like distance in the semantic embedding space, except that:
   * When the distance is small, the similarity is big
@@ -909,7 +988,7 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
 
 
  Functions
-  * [Euclidean Similarity]
+  * [Euclidean Distance]
   * [Manhattan Distance]
   * [Cosine Similarity]
   * [Dot Product Similarity]
@@ -1197,6 +1276,57 @@ Social robots also work as concierges in hotels and other settings like malls, w
     * code - [https://github.com/OpenBMB/AgentVerse](https://github.com/OpenBMB/AgentVerse)
     * paper - [https://arxiv.org/abs/2308.10848](https://arxiv.org/abs/2308.10848)
     * huggingface - [https://huggingface.co/spaces/AgentVerse/agentVerse](https://huggingface.co/spaces/AgentVerse/agentVerse)
+
+ See also [S], ...
+
+
+# Socratic Method
+
+ The Socratic method is a teaching and dialogue technique rooted in the practices of the ancient Greek philosopher Socrates. It is based on asking and answering questions to stimulate critical thinking, uncover assumptions, and clarify ideas. Instead of simply presenting information or directly answering questions, the Socratic method encourages exploration through disciplined and thoughtful inquiry.
+
+ Questioning:
+  * The teacher or facilitator asks a series of open-ended questions.
+  * These questions are designed to probe deeper into the topic, challenge assumptions, and explore underlying beliefs.
+
+ Dialogue:
+  * It involves a cooperative discussion rather than a one-sided lecture.
+  * Both participants—questioner and responder—actively engage in the exchange.
+
+ Critical Thinking:
+  * Participants are encouraged to think logically, evaluate evidence, and refine their thoughts.
+  * It helps to expose contradictions or gaps in reasoning.
+
+ Learning Through Reflection:
+  * The process fosters self-discovery and learning as participants reflect on their own beliefs and knowledge.
+
+ Iterative Process:
+  * The dialogue often circles back to earlier points, refining and building upon ideas as understanding deepens.
+
+
+ Example: Imagine a conversation about justice. Instead of defining it outright, the facilitator might ask:
+  * "What does it mean to be just?"
+  * "Can you provide an example of a just action?"
+  * "Is justice always fair? Why or why not?"
+
+ Through this dialogue, the participants would refine their understanding of justice, questioning initial assumptions and exploring the concept in depth.
+
+ See also [S], [Reasoning]
+
+
+# Socratic Method Prompting
+
+ ~ prompting that requires a multi-agent environment (?) with several agents that play different roles
+
+ ![]( {{site.assets}}/s/socratic_method_prompting.png ){: width="100%}
+
+ {% pdf "https://arxiv.org/pdf/2303.08769.pdf" %}
+
+ More at:
+  * paper - [https://arxiv.org/abs/2303.08769](https://arxiv.org/abs/2303.08769)
+  * code - [https://github.com/RunzheYang/SocraticAI](https://github.com/RunzheYang/SocraticAI)
+  * articles
+    * [https://princeton-nlp.github.io/SocraticAI/](https://princeton-nlp.github.io/SocraticAI/)
+    * [https://giovannigatti.github.io/socratic-llm/](https://giovannigatti.github.io/socratic-llm/)
 
  See also [S], ...
 
@@ -1854,7 +1984,7 @@ II n summary, probability is focused on the theoretical study of random events, 
 
 # Steerability
 
- ~ Set the behavior of the LLM in a [system prompt]
+ ~ Set the behavior of the [LLM] in a [system prompt]
 
  A property of large language models, where you can use a system prompt to tell them to behave a certain way.
  This started being possible with the [GPT-4] model, where you could specify it needs to behave like a Socratic tutor, ask questions, and never give the answer, and it would do it! 
@@ -2422,17 +2552,34 @@ ln(c)
   * articles
     * deviation - [https://www.syntheticusers.com/post/comparison-studies-the-opportunity-lies-in-the-deviation](https://www.syntheticusers.com/post/comparison-studies-the-opportunity-lies-in-the-deviation)
 
+ See also [S], ...
+
+
+# SynthID
+
+ ~ used to identify generated content by embedding watermarks directly into AI-generated images, audio, text, or video.
+
+ More at:
+  * site - [https://deepmind.google/technologies/synthid/](https://deepmind.google/technologies/synthid/)
+
+ See also [S], ...
+
 
 # System Prompt
 
- A system prompt is always included in all new contexts/requests? Only if the model is steerable!
+ A system prompt is always included in all new contexts/requests? Only if the model is steerable! [Steerability] is a feature that emerged circa 2020 when GPT-3 was realeased
 
- Includes
-  * name
-  * background
-  * experience
-  * behavior
+ A system prompt includes
+  * identity and purpose (name, intended function, boundaries)
+  * interaction guideline (behavior, style, tone, protocols for complex/sensitive topics)
+  * knowledge and capabilities (experience, scope of knowledge, skills/tools/area of expertise, etc)
+  * response formatting (Markdown, json, etc)
+  * contextual information (background, current date or temporal context, etc)
+  * ethical considerations (principles for maintaining safety, guidelines, instruction for avoiding bias)
+  * language preferences
+  * task-specific instructions (problem solving method, etc.)
   * ...
+  * examples (?)
 
  ![]( {{site.assets}}/s/system_prompt.png ){: width="100%}
 
@@ -2440,4 +2587,5 @@ ln(c)
 
  {% youtube "https://www.youtube.com/watch?v=zNACfPuaqaI" %}
 
- See also [S], [Steerability]
+ See also [S], [LLM Pricing]
+

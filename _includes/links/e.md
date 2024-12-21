@@ -2,6 +2,7 @@
 
 [Early Stopping]: {{site.baseurl }}{% link glossary/e.md %}#early-stopping
 [Early Stopping Epoch]: {{site.baseurl }}{% link glossary/e.md %}#early-stopping-epoch
+[Edge AI]: {{site.baseurl }}{% link glossary/e.md %}#edge-ai
 [Edge Detection]: {{site.baseurl }}{% link glossary/e.md %}#edge-detection
 [Eigenvalue]: {{site.baseurl }}{% link glossary/e.md %}#eigenvalue
 [Eigenvalues]: {{site.baseurl }}{% link glossary/e.md %}#eigenvalue
@@ -24,6 +25,8 @@
 [Embedding]: {{site.baseurl }}{% link glossary/e.md %}#embedding
 [Embeddings]: {{site.baseurl }}{% link glossary/e.md %}#embedding
 [Embedding Space]: {{site.baseurl }}{% link glossary/e.md %}#embedding-space
+[Embodied Agent]: {{site.baseurl }}{% link glossary/e.md %}#embodied-agent
+[Embodied Agents]: {{site.baseurl }}{% link glossary/e.md %}#embodied-agent
 [Emergent Ability]: {{site.baseurl }}{% link glossary/e.md %}#emergent-ability
 [Emergent Abilities]: {{site.baseurl }}{% link glossary/e.md %}#emergent-ability
 [Emergent Ability Distillation]: {{site.baseurl }}{% link glossary/e.md %}#emergent-ability-distillation
@@ -78,8 +81,7 @@
 [Estimator]: {{site.baseurl }}{% link glossary/e.md %}#estimator
 [Ethical AI]: {{site.baseurl }}{% link glossary/e.md %}#ethical-ai
 [Euclidean Geometry]: {{site.baseurl }}{% link glossary/e.md %}#euclidean-geometry
-[Euclidean Similarity Function]: {{site.baseurl }}{% link glossary/e.md %}#euclidean-similarity-function
-[Euclidean Similarity]: {{site.baseurl }}{% link glossary/e.md %}#euclidean-similarity-function
+[Euclidean Distance]: {{site.baseurl }}{% link glossary/e.md %}#euclidean-distance
 [European Union AI Act]: {{site.baseurl }}{% link glossary/e.md %}#european-union-ai-act
 [EU AI Act]: {{site.baseurl }}{% link glossary/e.md %}#european-union-ai-act
 [Evident AI Index]: {{site.baseurl }}{% link glossary/e.md %}#evident-ai-index

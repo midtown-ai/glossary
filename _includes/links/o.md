@@ -29,6 +29,7 @@
 [Online Learning]: {{ site.baseurl }}{% link glossary/o.md %}#online-learning
 [Online Learning Algorithm]: {{ site.baseurl }}{% link glossary/o.md %}#online-learning-algorithm
 [Online Learning Algorithms]: {{ site.baseurl }}{% link glossary/o.md %}#online-learning-algorithm
+[Ontology]: {{ site.baseurl }}{% link glossary/o.md %}#ontology
 [Open-World Environment]: {{ site.baseurl }}{% link glossary/o.md %}#open-world-environment
 [Open-World Environments]: {{ site.baseurl }}{% link glossary/o.md %}#open-world-environment
 [Open-World]: {{ site.baseurl }}{% link glossary/o.md %}#open-world-environment
@@ -75,6 +76,8 @@
 [Orca-1]: {{ site.baseurl }}{% link glossary/o.md %}#orca-model-family
 [Orca-2]: {{ site.baseurl }}{% link glossary/o.md %}#orca-model-family
 [Ordinal Encoding]: {{ site.baseurl }}{% link glossary/o.md %}#ordinal-encoding
+[Out-Of-Vocabulary Word]: {{ site.baseurl }}{% link glossary/o.md %}#out-of-vocabulary-word
+[OOV Word]: {{ site.baseurl }}{% link glossary/o.md %}#out-of-vocabulary-word
 [Outlier]: {{ site.baseurl }}{% link glossary/o.md %}#outlier
 [Outliers]: {{ site.baseurl }}{% link glossary/o.md %}#outlier
 [Output Layer]: {{ site.baseurl }}{% link glossary/o.md %}#output-layer

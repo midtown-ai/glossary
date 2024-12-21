@@ -111,7 +111,7 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 # Named Entity Recognition
 # NER
 
- A standard NLP problem which involves spotting named entities (people, places, organizations etc.) from a chunk of text, and classifying them into a predefined set of categories. Some of the practical applications of NER include:
+ A standard [NLP] problem which involves spotting named entities (people, places, organizations etc.) from a chunk of text, and classifying them into a predefined set of categories. Some of the practical applications of NER include:
   * Scanning news articles for the people, organizations and locations reported.
   * Providing concise features for search optimization: instead of searching the entire content, one may simply search for the major entities involved.
   * Quickly retrieving geographical locations talked about in Twitter posts.
@@ -181,6 +181,24 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], ...
 
 
+# National Institute of Standards and Technology Artificial Intelligence Risk Management Framework
+# NIST Artificial Intelligence Risk Management Framework
+# NIST AI Risk Management Framework
+# NIST AI RMF
+
+ ~ Written by [NIST], the AI RMF is voluntary guidance to improve the ability to incorporate trustworthiness considerations into the design, development, use and evaluation of AI products, services and systems. Version 1.0 was released in January 2023.
+
+ ![]( {{site.assets}}/n/national_institute_of_standards_and_technology_artificial_intelligence_risk_management_framework.png){: width="100%" }
+
+ {% pdf "{{site.assets}}/n/national_institute_of_standards_and_technology_artificial_intelligence_risk_management_framework.pdf" %}
+
+ More at:
+  * site - [https://airc.nist.gov/home](https://airc.nist.gov/home)
+  * [https://aibusiness.com/responsible-ai/microsoft-offers-support-on-responsible-ai-deployments](https://aibusiness.com/responsible-ai/microsoft-offers-support-on-responsible-ai-deployments)
+
+ See also [N], ...
+
+
 # National Science Foundation
 # NSF
 
@@ -244,6 +262,45 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
  See also [N], ...
 
+
+# Natural Language Reinforcement Learning
+# NLRL
+
+ NLRL is about adapting [Reinforcement Learning (RL)][RL] concepts to work in a space where the key element is natural language. In NLRL, the core parts of RL like goals, strategies, and evaluation methods are redefined using natural language. Combined with LLMs, NLRL becomes practical and can be implemented either through simple prompts or by tweaking the model’s parameters.
+
+ NLRL involves training AI models to perform language-related tasks through a reward-based system, where the model learns by receiving feedback on its actions.
+
+ Applications:
+  * Text generation where the model learns to produce better quality text based on feedback
+  * Dialogue systems that learn from human interactions
+  * Language-based games and problem-solving tasks
+  * Question answering systems that improve through interaction
+
+ Key Components:
+  * State: Usually represents the current context or language input
+  * Action: The model's response or generated text
+  * Reward: Feedback on how well the model performed
+  * Policy: The strategy for generating responses
+
+ Common Approaches:
+  * Using human feedback to train language models
+  * Self-play, where models learn by interacting with themselves
+  * Learning from demonstrations (inverse reinforcement learning)
+
+ Challenges:
+  * Defining appropriate reward functions for language tasks
+  * Handling the large, discrete action space of natural language
+  * Dealing with delayed rewards in extended conversations
+  * Maintaining coherence and consistency in generated responses
+
+ ![]( {{site.assets}}/n/natural_language_reinforcement_learning.png ){: width="100%"}
+
+ {% pdf "https://arxiv.org/pdf/2411.14251v1.pdf" %}
+
+ More:
+  * paper - [https://arxiv.org/abs/2411.14251v1](https://arxiv.org/abs/2411.14251v1)
+
+ See also [N], ...
 
 # Natural Language Toolkit
 # NLTK
@@ -356,7 +413,7 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
 # NeMo Toolkit
 
- ~ a toolkit developed by [NVidia] for conversational AI
+ ~ a toolkit developed by [Nvidia] for conversational AI
 
  {% youtube "https://www.youtube.com/watch?v=yCqf_sZuVKs" %}
 
@@ -913,7 +970,9 @@ plt.imshow(photo[:,:,0].T)       # Multiple transformation at once!
   * [SegFormer] - Image segmentation using the [transformer architecture]
 
  Models
+  * [Audio2Face] - change lips and face based on recording of a voice
   * [Chat with RTX](https://www.nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/) - Your Personalized AI Chatbot
+  * [Fugatto] - transform text prompts into audio
   * [Isaac Gym] - environment for RL
   * [Megatron] - NLP large language model
   * [Nemo Toolkit] - Toolkit for conversational AI

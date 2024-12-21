@@ -292,6 +292,7 @@ completion = llm(prompt)
 
  More at:
   * docs - [https://python.langchain.com/docs/langgraph](https://python.langchain.com/docs/langgraph)
+  * tutorials - [https://academy.langchain.com/courses/take/intro-to-langgraph/lessons/58238107-course-overview](https://academy.langchain.com/courses/take/intro-to-langgraph/lessons/58238107-course-overview)
   * articles
     * CRAG - [https://www.datacamp.com/tutorial/corrective-rag-crag](https://www.datacamp.com/tutorial/corrective-rag-crag)
 
@@ -329,9 +330,14 @@ completion = llm(prompt)
  See also [L], ...
 
 
+# Language AI
+
+ See [Natural Language Processing]
+
+
 # Language Model
 
- See also [L], [Language Modeling], [Large Language Model]
+ See [Language Modeling]
 
 
 # Language Model for Discussion Applications Model 
@@ -355,7 +361,7 @@ completion = llm(prompt)
 
  Language modeling is the task of assigning a probability to a sequence of words in a text in a specific language. Simple language models can look at a word and predict the next word (or words) most likely to follow it, based on statistical analysis of existing text sequences. To create a language model that successfully predicts word sequences, you need to train it on large sets of data. Language models are a key component in natural language processing applications. You can think of them as statistical prediction machines, where you give text as input and get a prediction as the output. You’re probably familiar with this from the auto-complete feature on your smartphone. For instance, if you type “good,” auto-complete might suggest “morning” or “luck.”
 
- See also [L], [Language Model], [Large Language Model], [Natural Language Processing]
+ See also [L], [Language Model], [Large Language Model], [Natural Language Processing], [Small Language Model]
 
 
 # Language Parsing
@@ -424,6 +430,8 @@ completion = llm(prompt)
 
  These models have been used for a variety of tasks, such as [language translation][Machine Translation], text generation, [question answering], and [sentiment analysis], and have demonstrated impressive performance on many [benchmarks][Benchmark] in [natural language understanding] and generation.
 
+ ![]( {{site.assets}}/l/large_language_model_history.png ){: width="100%"}
+
  {% youtube "https://www.youtube.com/watch?v=StLtMcsbQes" %}
 
  {% pdf "https://arxiv.org/pdf/2303.18223.pdf" %}
@@ -431,7 +439,7 @@ completion = llm(prompt)
  More at:
   * paper - [https://arxiv.org/abs/2303.18223](https://arxiv.org/abs/2303.18223)
 
- See also [L], [Language Modeling], [Model Compression], [Neural Scaling Law], [Steerability]
+ See also [L], [Language Modeling], [Model Compression], [Model Context Protocol], [Neural Scaling Law], [Steerability]
 
 
 # Large Language Model As A Judge
@@ -443,6 +451,9 @@ completion = llm(prompt)
 
  More at:
   * code - [https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge)
+  * articles
+    * [https://www.galileo.ai/blog/best-practices-for-creating-your-llm-as-a-judge](https://www.galileo.ai/blog/best-practices-for-creating-your-llm-as-a-judge)
+    * [https://www.galileo.ai/blog/tricks-to-improve-llm-as-a-judge](https://www.galileo.ai/blog/tricks-to-improve-llm-as-a-judge)
 
  See also [L], ...
 
@@ -481,6 +492,19 @@ completion = llm(prompt)
  See also [L], [MemGPT Model]
 
 
+# LLMGraphTransformer Model
+
+ ~ Utility used to turn documents into a graph by using an [LLM] for [Name-Entity Recognition] and relationship extraction
+
+ More at:
+  * docs - [https://python.langchain.com/v0.2/api_reference/experimental/graph_transformers/langchain_experimental.graph_transformers.llm.LLMGraphTransformer.html](https://python.langchain.com/v0.2/api_reference/experimental/graph_transformers/langchain_experimental.graph_transformers.llm.LLMGraphTransformer.html)
+  * articles
+    * [https://towardsdatascience.com/building-knowledge-graphs-with-llm-graph-transformer-a91045c49b59](https://towardsdatascience.com/building-knowledge-graphs-with-llm-graph-transformer-a91045c49b59)
+    * code - [https://colab.research.google.com/github/tomasonjo/blogs/blob/master/llm/llm_graph_transformer_in_depth.ipynb](https://colab.research.google.com/github/tomasonjo/blogs/blob/master/llm/llm_graph_transformer_in_depth.ipynb)
+
+ See also [T], [GraphRAG System]
+
+
 # Large Language Model Operations
 # LLMOps
 
@@ -516,6 +540,19 @@ completion = llm(prompt)
  More at:
   * leaderboard - [https://github.com/ray-project/llmperf-leaderboard](https://github.com/ray-project/llmperf-leaderboard)
   * tool - [https://github.com/ray-project/llmperf](https://github.com/ray-project/llmperf)
+
+ See also [L], ...
+
+
+# Large Languege Model Pricing
+# LLM Pricing
+
+ For each provider
+  * For each model
+    * Input cost for 1 million token
+    * Output cost for 1 million token
+    * [Tokenizer tax ] - Word to token ratio for submitted-input and generated-output text
+    * [Prompt Tuning] - To get the desired output, the prompt needs to be wrapped with additional content ([system prompt], [few-shot prompting], and etc.)
 
  See also [L], ...
 
@@ -1062,6 +1099,31 @@ print regr.score(X_test, y_test)
  See also [L], ...
 
 
+# LiveBench Benchmark
+
+ a benchmark for LLMs designed with test set contamination and objective evaluation in mind. It has the following properties:
+  * LiveBench is designed to limit potential contamination by releasing new questions monthly, as well as having questions based on recently-released datasets, arXiv papers, news articles, and IMDb movie synopses.
+  * Each question has verifiable, objective ground-truth answers, allowing hard questions to be scored accurately and automatically, without the use of an LLM judge.
+  * LiveBench currently contains a set of 18 diverse tasks across 6 categories, and we will release new, harder tasks over time.
+
+ Questions cover:
+  * Math
+  * Reasoning
+  * Language
+  * Coding
+  * Data Analysis
+  * Instruction Following (IF)
+
+ {% pdf "https://arxiv.org/pdf/2406.19314.pdf" %}
+
+ More at:
+  * site - [https://livebench.ai/](https://livebench.ai/)
+  * leaderboard - [https://livebench.ai/#/](https://livebench.ai/#/)
+  * paper - [https://arxiv.org/abs/2406.19314](https://arxiv.org/abs/2406.19314)
+
+ See also [L], ...
+
+
 # LLaMa Guard
 
  {% pdf "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/408725049_3688557441468029_8103913771964668529_n.pdf" %}
@@ -1099,6 +1161,15 @@ print regr.score(X_test, y_test)
 
  More at:
   * site - [https://lmstudio.ai/](https://lmstudio.ai/)
+
+ See also [L], ...
+
+
+# LMSys Elo Rating System
+
+ ~ [Elo Rating] for [LLM]
+
+ ![]( {{site.assets}}/l/lmsys_elo_rating_system.png ){: width="100%"}
 
  See also [L], ...
 
@@ -1400,6 +1471,7 @@ Ask a LLLM, how many character will your next response have?
   * paper - [https://arxiv.org/abs/2106.09685](https://arxiv.org/abs/2106.09685)
   * article(s)
     * [https://bdtechtalks.com/2023/05/22/what-is-lora/](https://bdtechtalks.com/2023/05/22/what-is-lora/)
+  * notebook - [https://github.com/togethercomputer/together-cookbook/blob/main/LoRA_Finetuning%26Inference.ipynb](https://github.com/togethercomputer/together-cookbook/blob/main/LoRA_Finetuning%26Inference.ipynb)
 
  See also [L], [LoRA Exchange Serving], [QLoRA Fine-Tuning]
 

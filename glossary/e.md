@@ -45,6 +45,13 @@ layout: page
  See also [E], [Early Stopping], [Overfitting], [Underfitting]
 
 
+# Edge AI
+
+ Why edge AI matters: Edge computing brings data processing closer to where it’s created. Instead of sending information to a central server miles away, the system processes data directly on local edge devices. So what? This reduces lag time, so decisions and actions can happen instantly. 
+
+ See also [E], ...
+
+
 # Edge Detection
 
  Used for image [segmentation] and ...
@@ -202,7 +209,7 @@ layout: page
  More at:
   * wikipedia - [https://en.wikipedia.org/wiki/Elo_rating_system](https://en.wikipedia.org/wiki/Elo_rating_system)
 
- See also [E], ...
+ See also [E], [LMSys Elo Rating]
 
 
 # Elon Musk Person
@@ -219,14 +226,17 @@ layout: page
  An embedding is a rich representation for any entity via d-dimensional latent variables; these entities include, but are not limited to: stores, eaters, items, drivers, locations, and so on.  It generally transforms human-friendly features, such as store menu, store price, store review, item title and description, item price, location’s full address, eater preference cuisine and past orders, rider preferred drop-offs and so on, to machine-learning-friendly dense vectors. These vectors can be directly used in any ML task (such as clustering, nearest neighbor search, classification, and so on) without too much feature engineering.
 
  Embedding types:
-  * [Word Embeddings]
-  * [Sentence Embeddings]
+  * [Word Embeddings] such as [Word2Vec], [GloVE], [FastText]
+  * [Sentence Embeddings] such as [Universal Sentence Encoder (USE)][USE], [Sentence-BERT (SBERT)][SBERT]
+  * [Document Embeddings] such as [Doc2Vec], [InferSentt], [Universal Sentence Encoder (USE)][USE]
   * Many others!
     * [Painting Embeddings](https://dimensionality-reduction-293e465c2a3443e8941b016d.vercel.app/)
 
  More at:
   * [https://www.uber.com/blog/innovative-recommendation-applications-using-two-tower-embeddings/](https://www.uber.com/blog/innovative-recommendation-applications-using-two-tower-embeddings/) 
   * [https://frankzliu.com/blog/a-gentle-introduction-to-vector-databases](https://frankzliu.com/blog/a-gentle-introduction-to-vector-databases)
+  * articles
+    * LLM Embeddings - [https://www.iguazio.com/glossary/llm-embeddings/](https://www.iguazio.com/glossary/llm-embeddings/)
 
  See [E], [Embedding Projector], [Sentence Embedding], [Word Embedding]
 
@@ -250,6 +260,11 @@ layout: page
  A high dimensional semantic space.
 
  See also [E], [CLIP Model], [Embedding]
+
+
+# Embodied Agent
+
+ See also [E], [World Model]
 
 
 # Emergent Ability
@@ -393,7 +408,7 @@ Research on emotion has increased over the past two decades with many fields con
 
  Maybe the most famous encoder is BERT. To be useful, BERT needs to be matched with a classifier or a decoder.
 
- See also [E], [BERT Model], [Decoder], [Encoder Representation], [Hidden State], [Image Encoder], [One-Shot Learning], [Principal Component Analysis], [Encoder Representation], [Encoder Representation Space], [Image Encoder], [Similarity Function], [Variational Autoencoder], [Voice Encoder]
+ See also [E], [BERT Model], [Decoder], [Encoder Representation], [Hidden State], [Image Encoder], [One-Shot Learning], [Principal Component Analysis], [Encoder Representation], [Encoder Representation Space], [Image Encoder], [Similarity Metric], [Variational Autoencoder], [Voice Encoder]
 
 
 # Encoder Representation
@@ -889,22 +904,26 @@ In the context of DeepRacer, an episode refers to a single complete race around 
  See also [E], ...
 
 
-# Euclidean Similarity Function
+# Euclidean Distance
 
- A [similarity function] used to compute the distance between 2 [embeddings]!
+ ~ distance using Pythagoras theorem (hypothenus of a triangle)
+
+ A [similarity metric] used to compute the distance between 2 [embeddings]!
 
  * the output is within the range [-oo, +oo]
  * the closer the output is to 0, the mode similar inputs are 
- * unlike the [cosine similarity function], this one is sensitive to the absolute distance in the space
+ * unlike the [cosine similarity], this one is sensitive to the absolute distance in the space
 
- ![]( {{site.assets}}/e/euclidean_similarity_function.png ){: width="100%"}
+ ![]( {{site.assets}}/e/euclidean_distance.png ){: width="100%"}
 
  ```
 The biggest difference is that Cosine similarity is insensitive to the absolute distance in the space, only directional difference matters. What does this mean? Let’s use one example to illustrate. Let’s say that we have user A who rates 2 movies as (4,4) and user B who rates 2 moves as (5,5). If we compute Cosine similarity and Euclidean similarity separately for these two users, it’s obvious that Cosine similarity is 1, which means that there is no difference between these two users. However, the Euclidean similarity is 1.4, which means that user A and user B are still different from each other. Thus Euclidean similarity is more strict than Cosine similarity because Euclidean similarity not only requires users to have the same taste in movies but also to have the same level of ‘like’ for every movie.
  ```
 
  More at:
-  * [https://hackernoon.com/understanding-the-two-tower-model-in-personalized-recommendation-systems](https://hackernoon.com/understanding-the-two-tower-model-in-personalized-recommendation-systems)
+  * wikipedia - [https://en.wikipedia.org/wiki/Euclidean_distance](https://en.wikipedia.org/wiki/Euclidean_distance)
+  * articles
+    * [https://hackernoon.com/understanding-the-two-tower-model-in-personalized-recommendation-systems](https://hackernoon.com/understanding-the-two-tower-model-in-personalized-recommendation-systems)
 
  See also [E], ...
 
@@ -923,7 +942,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
   * [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021PC0206](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021PC0206)
   * decoding - [https://hai.stanford.edu/news/analyzing-european-union-ai-act-what-works-what-needs-improvement](https://hai.stanford.edu/news/analyzing-european-union-ai-act-what-works-what-needs-improvement)
 
- See also [E], [AI Bill Of Rights], [Regulatory Landscape]
+ See also [E], [AI Bill Of Rights], [ISO 42001], [Regulatory Landscape]
 
 
 # Evident AI Index

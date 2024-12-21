@@ -411,6 +411,9 @@ info = response.choices[0].message.content
   * the [Riva Model] by [Nvidia]
   * the [WaveNet Model] by [DeepMind]
 
+ More at:
+  * PDF 2 podcast - [https://github.com/togethercomputer/together-cookbook/blob/main/PDF_to_Podcast.ipynb](https://github.com/togethercomputer/together-cookbook/blob/main/PDF_to_Podcast.ipynb)
+
  See also [T], [Sequence To Sequence Model]
 
 
@@ -527,7 +530,7 @@ info = response.choices[0].message.content
 
  In [image segmentation], ...
 
- In [classification], ... each threshold correspond to a different [confusion matrix] which in turn is then plotted as a point on the [ROC Curve]. In aggregate, after all the thresholds and the ROC is plotted to calculate the [Area Under the Curve (AUC)][AUC]
+ In [classification], ... each threshold correspond to a different [confusion matrix] which in turn is then plotted as a point on the [ROC Curve]. In aggregate, after all the thresholds and the ROC is plotted to calculate the [Area Under the Receiver Operating Characteristic (AUROC) Curve][AUROC Curve]
 
  ![]( {{site.assets}}/t/thresholding_low_threshold.png ){: width="100%"}
  ![]( {{site.assets}}/t/thresholding_table.png ){: width="100%"}
@@ -538,12 +541,35 @@ info = response.choices[0].message.content
 
  See also [T], ...
 
+# Token Embedding
+
+ ~ The token embedding layer (sometimes called the embedding table or embedding matrix) transforms [token IDs] into token embeddings. It's one of the first layers in transformer models.
+
+ Token embeddings are dense vectors (arrays of numbers) that represent tokens in a high-dimensional space. For example, a token might be represented by a vector of 768 numbers. These vectors are learned during model training and capture semantic relationships between tokens. Similar words end up with similar embedding vectors.
+
+ ```
+"cat": [0.2, -0.5, 0.1, ...]
+"dog": [0.3, -0.4, 0.15, ...]
+ ```
+
+ The similarity of these embedding vectors would reflect that cats and dogs are both animals. The model converts token IDs to embeddings as its first step in processing text.
+
+ See also [T], ...
+
+
+# Token Identifier
+# Token ID
+
+ Token IDs are simply numbers assigned to each token in the vocabulary. They're like an index or ID number - for example, the word "hello" might be assigned token ID 234. These IDs are arbitrary numbers that just serve as labels. They have no mathematical relationship to each other - token ID 234 isn't "closer" to token ID 235 in any meaningful way.
+
+ See also [T], ...
+
 
 # Tokenization
 
  Tokenization is the first step in any [NLP] pipeline. It has an important effect on the rest of your pipeline. A [tokenizer] breaks unstructured data and natural language text into chunks of information that can be considered as discrete elements. The token occurrences in a document can be used directly as a vector representing that document. Tokenization can separate sentences, words, characters, or subwords. When we split the text into sentences, we call it sentence tokenization. For words, we call it word tokenization.
 
- Tokenization algorithms:
+ Tokenization algorithms run after [Pre-Tokenization]:
   * [Byte-Pair Encoding (BPE) tokenization][BPE Tokenization]
   * [WordPiece tokenization]
   * [Unigram tokenization]
@@ -596,25 +622,33 @@ snow	        ['snow']
 snowing	        ['snow', '##ing']
  ```
 
+ Questions & Answers
+  * Why so many tokenizers?
+    * Language coverage: Languages have vastly different structures and writing systems. A tokenizer optimized for English might perform poorly on Chinese or Arabic.
+    * Vocabulary size: Tokenizers make different choices about vocabulary size. Larger vocabularies can represent more words directly but require more memory and computation.
+    * Training data: Tokenizers are often trained on specific corpora that reflect their intended use. A tokenizer trained on scientific papers will develop different tokens than one trained on social media posts.
+    * Model architecture requirements: Some models work better with certain tokenization schemes. For example, byte-pair encoding (BPE) works well for transformer models, while character-level tokenization might be better for certain RNN architectures.
+    * Historical development: As NLP has evolved, different researchers and organizations developed their own approaches to tokenization. While some standardization might be beneficial, the field has grown organically with multiple competing approaches.
+  * Do tokenizer consider semantic meaning or context when tokenizing words?
+    * No, they operate based on statistical patterns and predefined rules, not meaning. So the word "bank" would be tokenized the same way whether it means: (1) A financial institution, (2) The edge of a river, (3) To tilt or turn (as in "the plane banks left")
+    * No, the understanding of different meanings happens later in the model's processing through context and attention mechanisms. The tokenizer's job is just to convert text into numbers (tokens) that the model can process.
+
  More at:
   * tiktokenizer app - [https://tiktokenizer.vercel.app/](https://tiktokenizer.vercel.app/)
 
  See also [T], [BERT Model], [Tokenization]
 
 
-# Tome App Company
+# Tokenizer Tax
 
- A company that built an App to be used for automated slide-deck creation!
+ [Tokenizers] break words into token. LLM are priced based on submitted-input and generated-output token. 
 
- {% youtube "https://www.youtube.com/watch?v=mff6EYmHd6c" %}
+ Therefore token pricing is only half of the story when comparing costs across LLM providers. Different models use different tokenizers, and tokenizers can create different number of tokens for the same number of words.
 
- Alternative:
-  * [SlidesGo](https://slidesgo.com/)
-  * Powerpoint
-  * Google slides
+ For example, Claude-Sonnet tokenizers uses ~ 20% more tokens than OpenAI GPT-4o tokenizer for English news and 45% more tokens for Python code. Therefore when looking at [LLM pricing] for the SAME PROMPT to both OpenAI GPT model and Anthropic Claude Sonnet in addition to  paying a higher base price ($ / million token), you will also pay 20% more on typical English text, and 45% more on Python code with Anthropic Claude Sonnet 3.5.
 
  More at:
-  * [https://beta.tome.app/](https://beta.tome.app/)
+  * ...
 
  See also [T], ...
 

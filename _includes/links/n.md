@@ -17,6 +17,10 @@
 [NAIRR]: {{ site.baseurl }}{% link glossary/n.md %}#national-artificial-intelligence-research-resource
 [National Institute of Standards and Technology]: {{ site.baseurl }}{% link glossary/n.md %}#national-institute-of-standards-and-technology
 [NIST]: {{ site.baseurl }}{% link glossary/n.md %}#national-institute-of-standards-and-technology
+[National Institute of Standards and Technology Artificial Intelligence Risk Management Framework]: {{ site.baseurl }}{% link glossary/n.md %}#national-institute-of-standards-and-technology-artificial-intelligence-risk-management-framework
+[NIST Artificial Intelligence Risk Management Framework]: {{ site.baseurl }}{% link glossary/n.md %}#national-institute-of-standards-and-technology-artificial-intelligence-risk-management-framework
+[NIST AI Risk Management Framework]: {{ site.baseurl }}{% link glossary/n.md %}#national-institute-of-standards-and-technology-artificial-intelligence-risk-management-framework
+[NIST AI RMF]: {{ site.baseurl }}{% link glossary/n.md %}#national-institute-of-standards-and-technology-artificial-intelligence-risk-management-framework
 [National Science Foundation]: {{ site.baseurl }}{% link glossary/n.md %}#national-science-foundation
 [NSF]: {{ site.baseurl }}{% link glossary/n.md %}#national-science-foundation
 [Natural Intelligence]: {{ site.baseurl }}{% link glossary/n.md %}#natural-intelligence

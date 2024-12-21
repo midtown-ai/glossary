@@ -52,6 +52,9 @@
 [LLaMa]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
 [LLaMa 2 Model]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
 [LLaMa 2]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-meta-ai
+[LLMGraphTransformer Model]: {{ site.baseurl }}{% link glossary/l.md %}#llmgraphtransformer-model
+[LLMGraphTransformer]: {{ site.baseurl }}{% link glossary/l.md %}#llmgraphtransformer-model
+[Large Language Model Pricing]: {{ site.baseurl }}{% link glossary/l.md %}#large-language-model-as-a-judge
 [Large-Scale Artificial Intelligence Open Network Dataset]: {{ site.baseurl }}{% link glossary/l.md %}#large-scale-artificial-intelligence-open-network-dataset
 [LAION Dataset]: {{ site.baseurl }}{% link glossary/l.md %}#large-scale-artificial-intelligence-open-network-dataset
 [Large-Scale Artificial Intelligence Open Network Nonprofit]: {{ site.baseurl }}{% link glossary/l.md %}#large-scale-artificial-intelligence-open-network-nonprofit
@@ -108,11 +111,15 @@
 [LFAI&Data]: {{ site.baseurl }}{% link glossary/l.md %}#linux-fundation-ai-and-data
 [Liquid Neural Network]: {{ site.baseurl }}{% link glossary/l.md %}#liquid-neural-network
 [LNN]: {{ site.baseurl }}{% link glossary/l.md %}#liquid-neural-network
+[LiveBench Benchmark]: {{ site.baseurl }}{% link glossary/l.md %}#livebench-benchmark
+[LiveBench]: {{ site.baseurl }}{% link glossary/l.md %}#livebench-benchmark
 [LLaMa-Adapter Model]: {{ site.baseurl }}{% link glossary/l.md %}#llama-adapter-model
 [LLaMa-Adapter]: {{ site.baseurl }}{% link glossary/l.md %}#llama-adapter-model
 [Llamaindex Python Module]: {{ site.baseurl }}{% link glossary/l.md %}#llamaindex-python-module
 [Llamaindex]: {{ site.baseurl }}{% link glossary/l.md %}#llamaindex-python-module
 [LM Studio Application]: {{ site.baseurl }}{% link glossary/l.md %}#lm-studio-application
+[LMSys Elo Rating System]: {{ site.baseurl }}{% link glossary/l.md %}#lmsys-elo-rating-system
+[LMSys Elo Rating]: {{ site.baseurl }}{% link glossary/l.md %}#lmsys-elo-rating-system
 [Local Sensitive Hashing]: {{ site.baseurl }}{% link glossary/l.md %}#local-sensitive-hashing
 [LSH]: {{ site.baseurl }}{% link glossary/l.md %}#local-sensitive-hashing
 [Log Loss Function]: {{ site.baseurl }}{% link glossary/l.md %}#log-loss-function

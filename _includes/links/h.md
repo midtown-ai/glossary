@@ -24,6 +24,8 @@
 [High-Order Polynomial Projection Operators Framework]: {{site.baseurl }}{% link glossary/h.md %}#high-order-polynomial-projection-operators-framework
 [HiPPO Framework]: {{site.baseurl }}{% link glossary/h.md %}#high-order-polynomial-projection-operators-framework
 [HiPPO]: {{site.baseurl }}{% link glossary/h.md %}#high-order-polynomial-projection-operators-framework
+[Histogram of Oriented Gradient]: {{site.baseurl }}{% link glossary/h.md %}#histogram-of-oriented-gradient
+[HOG]: {{site.baseurl }}{% link glossary/h.md %}#histogram-of-oriented-gradient
 [Holdout Fold]: {{site.baseurl }}{% link glossary/h.md %}#holdout-fold
 [Holistic Evaluation of Language Model Benchmark]: {{site.baseurl }}{% link glossary/h.md %}#holistic-evaluation-of-language-model-benchmark
 [HELM Benchmark]: {{site.baseurl }}{% link glossary/h.md %}#holistic-evaluation-of-language-model-benchmark
@@ -51,6 +53,7 @@
 [Hypernetwork]: {{site.baseurl }}{% link glossary/h.md %}#hypernetwork-architecture
 [Hypernetworks]: {{site.baseurl }}{% link glossary/h.md %}#hypernetwork-architecture
 [Hyperparameter]: {{site.baseurl }}{% link glossary/h.md %}#hyperparameter
+[Hyperparameters]: {{site.baseurl }}{% link glossary/h.md %}#hyperparameter
 [Hyperparameter Optimization]: {{site.baseurl }}{% link glossary/h.md %}#hyperparameter-optimization
 [HPO]: {{site.baseurl }}{% link glossary/h.md %}#hyperparameter-optimization
 [Hyperparameter Tuning]: {{site.baseurl }}{% link glossary/h.md %}#hyperparameter-tuning

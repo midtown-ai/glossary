@@ -374,7 +374,7 @@ model.summary()
   * Synthetic Data Generation: Techniques such as SMOTE (Synthetic Minority Over-sampling Technique) involve generating synthetic examples of the minority class to balance the dataset.
   * Cost-sensitive learning: Assigning different misclassification costs to different classes to make the model more sensitive to errors on the minority class.
   * [Ensemble Methods]: Using ensemble methods like Random Forests or boosting algorithms, which can be more robust to imbalanced data.
-  * Different Evaluation Metrics: Instead of relying solely on accuracy, using metrics such as precision, recall, F1 score, or area under the ROC curve (AUC-ROC) can provide a more comprehensive understanding of model performance on imbalanced datasets.
+  * Different Evaluation Metrics: Instead of relying solely on [accuracy], using metrics such as [precision], [recall], [F1 score], or [Area Under the ROC (AUROC) curve][AUROC Curve] can provide a more comprehensive understanding of model performance on imbalanced datasets.
 
  It's crucial to carefully choose and implement these techniques based on the specific characteristics of the dataset and the goals of the machine learning task.
 
@@ -440,7 +440,7 @@ model.summary()
   * Causal inference: Observing a consistent association between two events and inferring a causal relationship. For example, noticing that the ground is wet every time it rains and inferring that rain causes the ground to become wet.
   * Predictive induction: Observing a pattern or trend and predicting that it will continue. For example, observing that a company's stock has risen in the past few hours and predicting that it will keep rising in the next hour.
 
- See also [I], [Deductive Reasoning], [Truth]
+ See also [I], [Abductive Reasoning], [Deductive Reasoning], [Truth]
 
 
 # Inertial Measurement Unit
@@ -609,6 +609,17 @@ Data < Information < Knowledge < Use knowledge < Mastery
     * gpt vs chatgpt vs instructgpt - [https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5](https://medium.com/@colin.fraser/chatgpt-automatic-expensive-bs-at-scale-a113692b13d5)
 
  See also [I], [ChatGPT Model], [Digital Watermark], [GPT Model], [Reinforcement Learning], [Reinforcement Learning Human Feedback], [Reward Model]
+
+
+# Instruction Tuned Model
+# IT Model
+
+ These versions of the model are trained with human language interactions and can respond to conversational input, similar to a chat bot.
+
+ More at:
+  * ...
+
+ See also [I], [Pretrained Model]
 
 
 # Insufficient Data Algorithm
@@ -794,6 +805,22 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
  See also [I], ...
 
 
+# ISO 42001 Standard
+
+ ~ Manage risk and use AI responsibly while balancing innovation, governance, and ethics.
+
+ * ethical practice
+ * treat individuals fairly
+ * make decision based on accurate information
+
+ It prepares companies for additional regulations that will be introduced in the next years, including the [EU AI Act] published in 2024.
+
+ More at:
+  * [https://kpmg.com/ch/en/insights/artificial-intelligence/iso-iec-42001.html](https://kpmg.com/ch/en/insights/artificial-intelligence/iso-iec-42001.html)
+
+ See also [I], [Model Governance]
+
+ 
 # Isolation Forest
 
  The Isolation Forest works a bit differently than a Random Forest. It also creates a bunch of decision trees, but then it calculates the path length necessary to isolate an observation in the tree. The idea being that isolated observations, or anomalies, are easier to isolate because there are fewer conditions necessary to distinguish them from the normal cases. Thus, the anomalies will have shorter paths than normal observations and reside closer to the root of the tree.
@@ -807,6 +834,8 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
 
  More at:
   * [https://www.isomorphiclabs.com/](https://www.isomorphiclabs.com/)
+  * articles
+    * [https://endpts.com/isomorphic-labs-ceo-demis-hassabis-bets-on-biotechs-ai-future/](https://endpts.com/isomorphic-labs-ceo-demis-hassabis-bets-on-biotechs-ai-future/)
 
  See also [I], ...
 

@@ -120,6 +120,14 @@ categories: jekyll update
 
 # The next 100 years
 
+ * The Age of AI and our human future
+
+ {% youtube "https://www.youtube.com/watch?v=TP0OCPwo9gA" %}
+
+ * Genesis: Artificial Intelligence, Hope, and the Human Spirit
+
+ {% youtube "https://www.youtube.com/watch?v=OT_S4g5G5N4" %}
+
 # The future of AI
 
  {% youtube "https://www.youtube.com/watch?v=P5HNeahRYDM" %}

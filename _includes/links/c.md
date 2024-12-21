@@ -67,6 +67,8 @@
 [Cognitron]: {{ site.baseurl }}{% link glossary/c.md %}#cognitron
 [Cognosys AI Company]: {{ site.baseurl }}{% link glossary/c.md %}#cognosys-ai-company
 [Cognosys AI]: {{ site.baseurl }}{% link glossary/c.md %}#cognosys-ai-company
+[Cohen's Kappa Metric]: {{ site.baseurl }}{% link glossary/c.md %}#cohen-s-kappa-metric
+[Cohen's Kappa]: {{ site.baseurl }}{% link glossary/c.md %}#cohen-s-kappa-metric
 [Cohere AI Company]: {{ site.baseurl }}{% link glossary/c.md %}#cohere-ai-company
 [Cohere AI]: {{ site.baseurl }}{% link glossary/c.md %}#cohere-ai-company
 [Collaborative Filtering]: {{ site.baseurl }}{% link glossary/c.md %}#collaborative-filtering
@@ -157,8 +159,6 @@
 [Cross-Entropy Loss Function]: {{ site.baseurl }}{% link glossary/c.md %}#cross-entropy-loss-function
 [Cross-Validation Sampling Method]: {{ site.baseurl }}{% link glossary/c.md %}#cross-validation-sampling-method
 [Cross-Validation]: {{ site.baseurl }}{% link glossary/c.md %}#cross-validation-sampling-method
-[Cruise Company]: {{ site.baseurl }}{% link glossary/c.md %}#cruise-company
-[Cruise]: {{ site.baseurl }}{% link glossary/c.md %}#cruise-company
 [Cubic Regression]: {{ site.baseurl }}{% link glossary/c.md %}#cubic-regression
 [Cumulative Distribution Function]: {{ site.baseurl }}{% link glossary/c.md %}#cumulative-distribution-function
 [CDF]: {{ site.baseurl }}{% link glossary/c.md %}#cumulative-distribution-function
