@@ -312,9 +312,42 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
 
 # Hopfield Network
 
+ ~ a model of associative memory, not generative. Can only recall what has been memorized (unlike [Boltzmann machines] )
+
+ A paradigm for information retrieval developed by John Hopfield in 1982
+
+ Ex: protein folding that search / fold its most stable configuration ==> Folding is favorable for energy (capacity to do work or cause change) 
+  * Energy landscape (protein minimize its potential energy)
+  * Protein follow its steepest path to the valley (guided by the energy landscape) following the process of energy minimization
+
+ Connections can be 
+  * Direction
+    * Symmetric = bidirectional, or same weight in both direction (Hopfield)
+    * Asymmetric = unidirectional, or weight in one direction (Brain)
+  * Neighbor
+    * Excitatory = weight is positive, neuron are positively coupled. The state of one neuron pushes the other in the same state (-1 or +1)
+    * Inhibitive = weight is negative. Neurons are negatively correlated. The state of one pushes the other in the opposite state (i.e. misalignment between neurons)
+    * Non-existent = weight is 0
+
+ Happiness of the edge (i,j) = w(i,j).Xi.Xj      <-- = weight . state
+
+ Happiness of the network = sum(i, j, Happiness of edge(i, j))
+
+ Goal = maximize network happiness = minimize network unhappiness
+
+ Adjusting weights w(i,j) = sculpting energy landscape, creating minima at memory locations = act of learning
+
+ Adjusting states Xi = evolve the system towards local minima by descending along the surface = act of inference/recalling
+
+ Update the neuron state one at a time to minimize the energy. Until network reach a stable configuration.
+
+ /!\ The number of patterns you can store in a vanilla Hopfield network --> [Boltzmann Machines]
+
+ {% youtube "https://www.youtube.com/watch?v=95Shwm41OOY" %}
+
  {% youtube "https://www.youtube.com/watch?v=1WPJdAW-sFo" %}
 
- See also [H], ...
+ See also [H], [Full Connected Network], [Hebbian Learning Rule]
 
 
 # HourVideo Dataset

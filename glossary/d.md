@@ -611,10 +611,11 @@ layout: page
     * [Self-Instruct] -
 
  More at
-  * [https://huggingface.co/datasets](https://huggingface.co/datasets)
-  * [https://www.kaggle.com/datasets](https://www.kaggle.com/datasets)
-  * [https://paperswithcode.com/datasets](https://paperswithcode.com/datasets)
-  * [https://scikit-learn.org/stable/datasets.html](https://scikit-learn.org/stable/datasets.html)
+  * Dataset sources (cleaned)
+    * [https://huggingface.co/datasets](https://huggingface.co/datasets)
+    * [https://www.kaggle.com/datasets](https://www.kaggle.com/datasets)
+    * [https://paperswithcode.com/datasets](https://paperswithcode.com/datasets)
+    * [https://scikit-learn.org/stable/datasets.html](https://scikit-learn.org/stable/datasets.html)
   * tools
     * know your data
       * blog - [https://blog.research.google/2021/08/a-dataset-exploration-case-study-with.html](https://blog.research.google/2021/08/a-dataset-exploration-case-study-with.html)
@@ -1122,6 +1123,8 @@ layout: page
 
  One of the 3 founders of [DeepMind]
 
+ {% youtube "https://www.youtube.com/watch?v=D-eyJhJXXsE" %}
+
  {% youtube "https://www.youtube.com/watch?v=Gfr50f6ZBvo" %}
 
  {% youtube "https://www.youtube.com/watch?v=2s4D-8MpreE" %}
@@ -1354,7 +1357,8 @@ We need to do this for
 
  More at:
   * paper - [https://arxiv.org/abs/1607.00133](https://arxiv.org/abs/1607.00133)
-  * [https://www.analyticssteps.com/blogs/what-differential-privacy-and-how-does-it-work](https://www.analyticssteps.com/blogs/what-differential-privacy-and-how-does-it-work)
+  * articles
+    * [https://www.analyticssteps.com/blogs/what-differential-privacy-and-how-does-it-work](https://www.analyticssteps.com/blogs/what-differential-privacy-and-how-does-it-work)
 
  See also [D], [Gradient Perturbation], [Membership Inference Attack], [Output Perturbation]
 

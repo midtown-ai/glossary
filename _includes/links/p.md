@@ -110,6 +110,8 @@
 [PILCO Model]: {{ site.baseurl}}{% link glossary/p.md %}#probabilistic-inference-for-learning-control-model
 [PILCO]: {{ site.baseurl}}{% link glossary/p.md %}#probabilistic-inference-for-learning-control-model
 [Procedural Reasoning System]: {{ site.baseurl}}{% link glossary/p.md %}#procedural-reasoning-system
+[Product Development Life Cycle]: {{ site.baseurl}}{% link glossary/p.md %}#product-development-life-cycle
+[PDLC]: {{ site.baseurl}}{% link glossary/p.md %}#product-development-life-cycle
 [Product Quantization]: {{ site.baseurl}}{% link glossary/p.md %}#product-quantization
 [Product Quantization Code]: {{ site.baseurl}}{% link glossary/p.md %}#product-quantization-code
 [PQ Code]: {{ site.baseurl}}{% link glossary/p.md %}#product-quantization-code

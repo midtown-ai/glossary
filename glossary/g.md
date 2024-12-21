@@ -218,8 +218,12 @@ output = m(input)
  {% youtube "https://www.youtube.com/watch?v=IY5XZPrV03A" %}
 
  More at:
-  * docs - [https://github.com/google/generative-ai-docs/blob/main/site/en/gemma/docs/lora_tuning.ipynb](https://github.com/google/generative-ai-docs/blob/main/site/en/gemma/docs/lora_tuning.ipynb)
-  * kaggle - [https://www.kaggle.com/code/nilaychauhan/fine-tune-gemma-models-in-keras-using-lora](https://www.kaggle.com/code/nilaychauhan/fine-tune-gemma-models-in-keras-using-lora)
+  * docs - [https://ai.google.dev/gemma/docs](https://ai.google.dev/gemma/docs)
+  * notbeooks
+    * [https://github.com/google/generative-ai-docs/blob/main/site/en/gemma/docs/lora_tuning.ipynb](https://github.com/google/generative-ai-docs/blob/main/site/en/gemma/docs/lora_tuning.ipynb)
+  * kaggle 
+    * model page - [https://www.kaggle.com/models/google/gemma](https://www.kaggle.com/models/google/gemma)
+    * - [https://www.kaggle.com/code/nilaychauhan/fine-tune-gemma-models-in-keras-using-lora](https://www.kaggle.com/code/nilaychauhan/fine-tune-gemma-models-in-keras-using-lora)
   * papers
     * RecurrentGemma - [https://arxiv.org/abs/2404.07839v1](https://arxiv.org/abs/2404.07839v1) 
     * DataGemma - [https://arxiv.org/abs/2409.13741](https://arxiv.org/abs/2409.13741)

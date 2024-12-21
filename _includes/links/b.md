@@ -85,6 +85,7 @@
 [Block-Sparse Attention]: {{ site.baseurl }}{% link glossary/b.md %}#block-sparse-attention
 [BloombergGPT Model]: {{ site.baseurl }}{% link glossary/b.md %}#blombergGPT-model
 [Boltzmann Machine]: {{ site.baseurl }}{% link glossary/b.md %}#boltzmann-machine
+[Boltzmann Machines]: {{ site.baseurl }}{% link glossary/b.md %}#boltzmann-machine
 [Boosting]: {{ site.baseurl }}{% link glossary/b.md %}#boosting
 [Boosting Step Size]: {{ site.baseurl }}{% link glossary/b.md %}#boosting-step-size
 [Bootstrap Sampling Method]: {{ site.baseurl }}{% link glossary/b.md %}#bootstrap-sampling-method

@@ -994,9 +994,15 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
 # Boltzmann Machine
 
+ ~ developed in 1985, an improvement on [Hopfield networks] , associative memory network
+
+ ~ can be generative by memorizing the distribution of the data
+
  an unsupervised DL model in which every node is connected to every other node. That is, unlike the ANNs, CNNs, RNNs and SOMs, the Boltzmann Machines are undirected (or the connections are bidirectional). Boltzmann Machine is not a deterministic DL model but a stochastic or generative DL model. It is rather a representation of a certain system. There are two types of nodes in the Boltzmann Machine — Visible nodes — those nodes which we can and do measure, and the Hidden nodes – those nodes which we cannot or do not measure. Although the node types are different, the Boltzmann machine considers them as the same and everything works as one single system. The training data is fed into the Boltzmann Machine and the weights of the system are adjusted accordingly. Boltzmann machines help us understand abnormalities by learning about the working of the system in normal conditions.
 
  ![]( {{site.assets}}/b/boltzmann_machine.jpeg ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=_bqa_I5hNAo" %}
 
  More at:
   * [https://www.geeksforgeeks.org/types-of-boltzmann-machines/](https://www.geeksforgeeks.org/types-of-boltzmann-machines/)

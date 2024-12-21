@@ -85,6 +85,10 @@
 [Fully Connected Layers]: {{site.baseurl }}{% link glossary/f.md %}#fully-connected-layer
 [FC Layer]: {{site.baseurl }}{% link glossary/f.md %}#fully-connected-layer
 [FC Layers]: {{site.baseurl }}{% link glossary/f.md %}#fully-connected-layer
+[Fully Connected Network]: {{site.baseurl }}{% link glossary/f.md %}#fully-connected-network
+[Fully Connected Networks]: {{site.baseurl }}{% link glossary/f.md %}#fully-connected-network
+[FC Network]: {{site.baseurl }}{% link glossary/f.md %}#fully-connected-network
+[FC Networks]: {{site.baseurl }}{% link glossary/f.md %}#fully-connected-network
 [Function Estimation]: {{site.baseurl }}{% link glossary/f.md %}#function-estimation
 [Fused Kernel]: {{site.baseurl }}{% link glossary/f.md %}#fused-kernel
 [Futuri Media Company]: {{site.baseurl }}{% link glossary/f.md %}#futuri-media-company

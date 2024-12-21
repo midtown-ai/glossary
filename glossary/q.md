@@ -235,6 +235,8 @@ Loss = converged_Q-Value - optimum_Q-value          <== but do we know converged
 
  {% youtube "https://www.youtube.com/watch?v=PGrQs7Mch-E" %}
 
+
+
  More at:
   * willow - [https://blog.google/technology/research/behind-the-scenes-google-quantum-ai-lab/](https://blog.google/technology/research/behind-the-scenes-google-quantum-ai-lab/)
 

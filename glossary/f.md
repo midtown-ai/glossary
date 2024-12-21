@@ -1025,6 +1025,14 @@ if __name__ == '__main__':
  See also [F], [Convolutional Layer], [Convolutional Neural Network], [Polling Layer], [ReLU Layer]
 
 
+# Fully Connected Network
+# FC Network
+
+ Where are the [artificial neurons] are connected to one another.
+
+ See also [F], [Hopfield Network]
+
+
 # Function Estimation
 
  Here we are trying to predict a variable y given an input vector x. We assume that there is a function f(x) that describes the approximate relationship between y and x. For example, we may assume that y = f(x) + ε, where ε stands for the part of y that is not predictable from x. In function estimation, we are interested in approximating f with a model or estimate fˆ. Function estimation is really just the same as estimating a parameter θ; the function estimator fˆis simply a point estimator in function space. Ex: in polynomial regression we are either estimating a parameter w or estimating a function mapping from x to y. 

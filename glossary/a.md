@@ -641,6 +641,14 @@ k is the number of predictors (not counting the intercept)
 
 # AI Agent
 
+ ~ autonomous entities that can perceive their environment, make decisions, and take actions to achieve their goals. This includes software agents, such as chatbots or recommendation systems, as well as physical agents, such as robots or self-driving cars.
+
+ Agents in AI work by perceiving their environment through sensors, making decisions based on their perceptions and internal state, and taking actions through actuators. The decisions are typically made using AI algorithms, which can range from simple rule-based systems to complex machine learning models.
+
+ Agents can operate independently, or they can interact with other agents in multi-agent systems.
+
+ Agents are used in many areas of AI. Software agents are used in areas like customer service, where chatbots can handle customer queries, or in e-commerce, where recommendation systems can suggest products to customers. Physical agents are used in areas like robotics, where robots can perform tasks in the physical world, or in transportation, where self-driving cars can navigate the roads.
+
  There are different types of AI agents, function of how their goal is coded. That includes:
   * LLM agents such as [SDLC Agents] who simply interact with one another during a predefined workflow
   * [Reinforcement Learning (RL) agents][RL Agent] whose goal is to maximize a total reward
@@ -2260,7 +2268,11 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 # Astra Model
 
+ ~ universal personal AI assistant designed by Google
+
  “The pitch to my mum is that we’re building an AI that has eyes, ears, and a voice. It can be anywhere with you, and it can help you with anything you’re doing” says Greg Wayne, co-lead of the Astra team. “It’s not there yet, but that’s the kind of vision.” 
+
+ {% youtube "https://www.youtube.com/watch?v=hIIlJt8JERI" %}
 
  More at:
   * articles
