@@ -75,6 +75,7 @@
 [Orca Models]: {{ site.baseurl }}{% link glossary/o.md %}#orca-model-family
 [Orca-1]: {{ site.baseurl }}{% link glossary/o.md %}#orca-model-family
 [Orca-2]: {{ site.baseurl }}{% link glossary/o.md %}#orca-model-family
+[Orchestrator]: {{ site.baseurl }}{% link glossary/o.md %}#orchestrator
 [Ordinal Encoding]: {{ site.baseurl }}{% link glossary/o.md %}#ordinal-encoding
 [Out-Of-Vocabulary Word]: {{ site.baseurl }}{% link glossary/o.md %}#out-of-vocabulary-word
 [OOV Word]: {{ site.baseurl }}{% link glossary/o.md %}#out-of-vocabulary-word

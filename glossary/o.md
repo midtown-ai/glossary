@@ -794,6 +794,12 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
 
  See also [O], ...
 
+# Orchestrator
+
+ Plan, Execute, Verify
+
+ See also [O], [AI Agent]
+
 
 # Ordinal Encoding
 

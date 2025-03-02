@@ -630,6 +630,25 @@ k is the number of predictors (not counting the intercept)
  See also [A], ...
 
 
+# Agent Registry
+
+ * Web agent
+ * Contextual Search Agent
+ * API Agent
+ * Text/Image Analysis Agent
+ * Data Science Agent
+ * Compliance Agent
+ * etc.
+
+ See also [A], [AI Agent], [Agent SDK]
+
+
+# Agent Software Development Kit
+# Agent SDK
+
+ See also [A], [Agent Registry]
+
+
 # Agentic Workflow
 
  ~ Smart workflow with AI
@@ -665,7 +684,7 @@ k is the number of predictors (not counting the intercept)
  More at:
   * ...
 
- See also [A], [Embodied Agent]
+ See also [A], [Agent Registry], [Agent SDK], [Embodied Agent]
 
 
 # AI Alignment

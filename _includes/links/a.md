@@ -72,6 +72,7 @@
 [Agency]: {{ site.baseurl }}{% link glossary/a.md %}#agency
 [Agent]: {{ site.baseurl }}{% link glossary/a.md %}#agent
 [Agent-Based Modeling]: {{ site.baseurl }}{% link glossary/a.md %}#agent-based-modeling
+[Agent Registry]: {{ site.baseurl }}{% link glossary/a.md %}#agent-registry
 [Agentic Workflow]: {{ site.baseurl }}{% link glossary/a.md %}#agentic-workflow
 [AI Agent]: {{ site.baseurl }}{% link glossary/a.md %}#ai-agent
 [AI Agents]: {{ site.baseurl }}{% link glossary/a.md %}#ai-agent
